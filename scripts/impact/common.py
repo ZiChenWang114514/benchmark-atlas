@@ -3,7 +3,7 @@ import json, re, os, hashlib
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 BASE = Path(__file__).resolve().parent.parent
-TZ = timezone(timedelta(hours=9))
+TZ = timezone(timedelta(hours=8))
 def now(): return datetime.now(TZ)
 def stamp(): return now().isoformat(timespec='seconds')
 def write(path, value):

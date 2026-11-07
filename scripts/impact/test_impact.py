@@ -99,7 +99,7 @@ class Tests(unittest.TestCase):
         index,_=compute(rows,Path('/nonexistent'))
         self.assertTrue(index['ranking'])
         for r in index['ranking']:
-            prior=r['shrinkage']['peer_median']; raw=r['observed_score']
+            prior=r['shrinkage']['prior']; raw=r['observed_score']
             self.assertGreaterEqual(r['confidence']['coverage'],.4)
             self.assertGreaterEqual(r['score'],min(prior,raw)-.01)
             self.assertLessEqual(r['score'],max(prior,raw)+.01)

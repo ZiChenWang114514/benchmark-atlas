@@ -1,130 +1,115 @@
-# BCI v0.2 最终全量运行报告
+# Benchmark Constitution：现有学术影响力指数补证报告
 
-生成：2026-11-08T00:11:27+09:00（KST / Asia/Seoul）。本报告对应当前最终JSON，不再使用被废弃的180条字母序样本。
+生成：2026-11-08T00:54:22+08:00（上海时间 UTC+8）
 
-## 结果摘要
+## 结论：补证已落盘，但不能把本轮称为“正式榜单”
 
-- 最终去重名录 **1668条**，全部进入断点采集；无在线抽样。
-- 有论文/arXiv/DOI的1258条中，引用成功匹配 **1231条（97.85%）**，超过60%目标；占全名录73.80%。命中率指论文身份对应的真实计数，不是HTTP200率。
-- 探索性入榜 **60条**；**1608条 insufficient_evidence**，没有名次或综合分。质量审计正式资格 **0条**。因此不能宣传为已完成质量认证的学术水平榜。
-- 最终Frontier Heat为20模型、240项，240/240映射至规范benchmark；未出现不是自动记0。另输出时间衰减×厂商多样性辅助热度。
-- science2已纳入：570行覆盖/增量，549旧ID改善+21科学新增，其中4项全球已有，17个真正新ID；保留non-LLM及MoleculeNet显式子任务关系，不将共享论文算作15份独立影响。
-- 审计动作：{"fix": 243, "deferred_naming_review": 24, "add": 34, "merge_into": 794, "drop": 24}；未绑定/未决审计 **0**。24项空新ID建议保留原身份、标记待审，不编造新名。
+固定1668条，原探索榜60条 → 当前探索榜97条；**正式资格0条**；证据不足1571条。未降低40%探索覆盖、60%正式覆盖、50%质量内部覆盖门槛。机器文档代理不冒充专家质量审查。主仓库只读、没有发布；未读取凭据文件。
 
-## 维度、权重与覆盖
+## 各维度：有非null分项的条目数 / 全部1668条
 
-下表为分项非null的行数；并不等于该维度满可信。新颖度/非同质性是可信系数0.35的文本代理；缺子项进一步降权，维护push只是0.5可信代理。
+注意：这里的“有值覆盖率”不是质量审查完成率，也不是整个维度权重全部有证据。特别是许可标签仅是质量的一小项，机器项可靠系数0.5；平均内部可靠度另列，避免把少量许可元数据宣传成质量补齐。
 
-|维度|权重|有数据/全名录|覆盖率|
+|维度|之前|之后|之后平均内部可靠度|
 |---|---:|---:|---:|
-|引用积累|10%|1231/1668|73.80%|
-|同龄引用速度|15%|1231/1668|73.80%|
-|代码生态|8%|101/1668|6.06%|
-|数据使用|5%|313/1668|18.76%|
-|前沿模型采用|10%|240/1668|14.39%|
-|评测机构采用|8%|14/1668|0.84%|
-|独立社区反馈|5%|0/1668|0.00%|
-|研究新颖度（代理）|12%|1197/1668|71.76%|
-|方法与工程质量|18%|0/1668|0.00%|
-|非同质性|4%|1617/1668|96.94%|
-|未饱和与区分度|3%|0/1668|0.00%|
-|时效与维护|2%|371/1668|22.24%|
+|引用积累|1231 (73.80%)|1231 (73.80%)|73.80%|
+|同龄引用速度|1231 (73.80%)|1231 (73.80%)|73.80%|
+|代码生态|101 (6.06%)|154 (9.23%)|6.00%|
+|数据使用|313 (18.76%)|313 (18.76%)|18.76%|
+|前沿模型采用|240 (14.39%)|240 (14.39%)|14.39%|
+|评测机构采用|14 (0.84%)|14 (0.84%)|0.84%|
+|独立社区反馈|0 (0.00%)|166 (9.95%)|0.82%|
+|研究新颖度（代理）|1197 (71.76%)|1197 (71.76%)|21.38%|
+|方法与工程质量|0 (0.00%)|303 (18.17%)|1.89%|
+|非同质性|1617 (96.94%)|1617 (96.94%)|33.93%|
+|未饱和与区分度|0 (0.00%)|34 (2.04%)|0.71%|
+|时效与维护|371 (22.24%)|404 (24.22%)|12.11%|
 
-## API采集与缓存
+## 实际证据与局限
 
-|指标|有资源/论文线索的行数|真实计数命中行数|条件命中率|
-|---|---:|---:|---:|
-|citations|1258|1231|97.85%|
-|gh_stars|635|101|15.91%|
-|hf_downloads|316|313|99.05%|
-|hf_likes|316|313|99.05%|
+- 178份公开完整档案快照全部取到；173份精确映射，5份未强行合并：arc-challenge, furniture-assembly, hss, prbench-finance, prbench-legal。
+- 301个现有条目的HF card成功精确对应；只对registry-only且没有完整档案冲突审查的条目提取明确单一数据许可。
+- 质量子项有证据数：{"human_validation": 57, "contamination_protection": 42, "reproducibility": 93, "license_clarity": 212, "external_review": 9}。维护质量和完整双人独立评分没有补造。
+- 明确独立评测结果支持19条操作性复测；4个仓库的issue查询映射7条现有版本条目；其余社区有值主要为弱fork参与代理，不能称为好评或已复现。
+- 84条精确命中本轮connector元数据，其中53条此前无star观测。star增速仍全部null；今日仅建基线，不能估算。
+- 34条有可安全处理的百分正确/成功率赛道；保留所有分轨、仅选单轨快照最佳分。裸Accuracy/Score、Elo、RMSE、历史论文、人类结果、混预算和不同版本均不自动混算。尚非全局SOTA或完整饱和度审计。
+- 178份档案及308个唯一现有HF dataset ID均做了本轮顺序读取；原始响应含失败状态也缓存。原始论文/榜单的上游采集日期保留；8日访问的是公开档案快照时不会伪称8日重新访问原始榜单。
 
-- 唯一GitHub仓库586个，唯一HF dataset 308个；共享资源可能对应多个行，不能把行数当唯一资源数。
-- 最后一轮为全库缓存续跑，联网请求0次，响应缓存命中31次、负缓存命中0次、延后509次；单条断点复用1668条。此前成功实际API响应已持久化。最后一轮零联网不代表没有调用真实API，而是缓存续跑生效。
-- 缓存响应对象按最终HTTP状态计数：{"200": 827, "429": 7, "404": 1, "401": 2, "403": 1}。这是去重/覆盖后的缓存对象数，不是含重试的历史请求总数，不冒充网络成功率。
-- GitHub公开配额/鉴权拒绝后停止该主机，未提供/读取任何秘密文件token；未知star为null。只有一天快照，star增速全部null。HF私有/受限资源仅该资源null，不绕过鉴权，不连带阻断公开dataset。
-- OpenAlex使用公开mailto、每批≤50个DOI、约≤0.91req/s起始速率；S2 batch≤500，429指数退避、自适应放慢、预算耗尽留待后续。不累加不同供应商或论文版本。
+## 独立质量审查的实质发现
 
-## 最终Top30（仅探索性，所有行均缺系统性质量审查）
+本轮直接核实Epoch审查表及具体审查页。以下7项审查结论为Flawed，精确匹配到对应版本并触发总分≤40；不能因高引用/高star抵消可靠性缺陷：
 
-|名次|benchmark|BCI|有效证据覆盖|
-|---:|---|---:|---:|
-|1|GPQA (`gpqa`)|82.387|45.97%|
-|2|MME (`mme`)|81.963|41.17%|
-|3|HealthBench (`healthbench`)|81.565|45.97%|
-|4|Humanity’s Last Exam (HLE) (`hle`)|81.547|45.97%|
-|5|MMLU-Pro (`mmlu-pro`)|80.964|45.97%|
-|6|SWE-bench (`swe-bench`)|80.263|45.97%|
-|7|LAB-Bench (`lab-bench`)|79.885|45.97%|
-|8|ProgramBench (`programbench`)|78.693|46.17%|
-|9|GDPval (`gdpval`)|77.807|45.97%|
-|10|MMMU-Pro (A More Robust Multi-discipline Multimodal Understanding Benchmark) (`mmmu-pro`)|77.392|45.97%|
-|11|PubMedQA (`pubmedqa`)|77.248|41.17%|
-|12|HumanEval (`humaneval`)|77.119|45.97%|
-|13|Agents’ Last Exam v1.1 (`agents-last-exam`)|77.106|46.17%|
-|14|MASK (`mask`)|76.726|45.97%|
-|15|MMMLU (`mmmlu`)|76.591|51.17%|
-|16|LiveCodeBench (`livecodebench`)|76.565|46.17%|
-|17|MMLU (`mmlu`)|76.236|40.60%|
-|18|BrowseComp (`browsecomp`)|76.140|46.17%|
-|19|Professional Reasoning Benchmark (`prbench`)|76.030|43.97%|
-|20|ToxiGen (`toxigen`)|75.225|41.17%|
-|21|GSM8K (`gsm8k`)|75.077|45.97%|
-|22|APPS (`apps`)|74.905|41.17%|
-|23|WMDP (`wmdp`)|74.899|40.60%|
-|24|SimpleQA (`simpleqa`)|74.856|45.97%|
-|25|SciCode (`scicode`)|74.422|45.97%|
-|26|AA-Omniscience (`aa-omniscience`)|74.234|45.97%|
-|27|APEX-Agents (`apex-agents`)|73.928|51.17%|
-|28|BigCodeBench (`bigcodebench`)|73.895|51.17%|
-|29|MATH (`math`)|73.783|45.97%|
-|30|AGENTHARM (`agentharm`)|73.759|45.97%|
+|条目|结论|范围|
+|---|---|---|
+|hle|Flawed|original HLE; excludes HLE-Rolling, HLE-Verified and HLE-Diamond|
+|swe-bench-verified|Flawed|500-problem Verified subset|
+|healthbench-professional|Flawed|Professional 525-task release; NOT HealthBench general|
+|deepswe|Flawed|v1.1|
+|agents-last-exam|Flawed|v1.1; 122 public tasks|
+|graphwalks|Verified|reviewed public 1150-task release; version not separately specified|
+|swe-bench-pro|Flawed|original 731 public / 276 private / 858 held-out; NOT Pro V2|
+|bfcl|Flawed|BFCL v4|
+|simpleqa-verified|Verified|SimpleQA Verified; not original SimpleQA|
 
-## Top50常识检查
+- HLE审查原集48题，22题被确认存在影响准确性的错误（46%）；不扩展到HLE-Diamond/Rolling/Verified。来源：https://epoch.ai/benchmarks/hle/review （访问2026-11-08）。
+- SWE-bench Verified的结论不传给原始SWE-bench或Pro V2；HealthBench Professional不传给一般HealthBench。
+- PostTrainBench审查v1.1但档案已是v1.2；Terminal-Bench审查4.0.0、最新tag为4.1.0但展示榜仍4.0。二者仅记录历史审查并显示版本不匹配警告，不当作当前通过，也不自动给整个家族封顶。Terminal-Bench在当前Top30，不意味着4.1.0已修复或已通过审查。
 
-|核查项|名次|BCI|引用|最近20模型采用数|
-|---|---:|---:|---:|---:|
-|SWE-bench|6|80.263|2015|7|
-|GPQA|1|82.387|1644|9|
-|Humanity’s Last Exam (HLE)|4|81.547|990|15|
-|MMLU|17|76.236|5140|2|
-|MATH|29|73.783|3801|1|
-|HumanEval|12|77.119|11462|2|
-|ARC-AGI-1|36|72.204|1316|1|
-|LiveCodeBench|16|76.565|1478|2|
+## 方法变化及覆盖偏差诊断
 
-八个指定核查项均在Top50，未按名称加分或手工安排名次。修正依据是身份与方法错误：
+- 12个全局权重不变；社区内部拆开90日事件与更新线程，加入低可靠度fork参与，独立复测与严格复现分开。
+- 机器文档项按部分满足的规范性rubric记50，可靠系数0.5；不把“有论文/有仓库”本身当成高质量。渲染器不等于评测代码，代码许可不等于数据许可，已加入负例测试。
+- 第一版试算暴露旧高分参照先验的缺失优势：较少质量证据的MME浮到第一，补到中性50文档的GPQA反而受损。这是公式伪影，不按名称手调。现在统一公开中性50先验：`score=50+Σ(weight×reliability×(component−50))`。新增50文档项分数贡献恰为0，回归测试保证补文档不反向扣分。旧同龄中位数及旧分保留诊断。
+- 当前97条探索排序与ID字母序的Spearman rho=-0.135；与覆盖率的rho=-0.365，只做描述性诊断，不能据此声称所有缺失偏差已消除。资源获取仍偏向已知/高star项目，总榜仍有领域和数据可得性限制。
+- 24个逐维权重±20%敏感性情景（固定入榜集合）：Kendall tau最小0.957、中位0.995。下列名次范围是政策敏感性，不是统计置信区间。
 
-1. 修复SWE-Bench++/原始SWE-bench、LiveCodeBench Pro/原始版本、CVE修复/利用同ID冲突；RAR-b检索改写不覆盖原推理基准。
-2. 原始MMLU不得继承openai/MMMLU下载；规范ID匹配优先，避免别名把MMLU采用数劫持给MMMLU。
-3. 官方arXiv首发日用于缺失benchmark日期的年龄代理，HLE不因2026期刊版重置时钟；已审计日期（GPQA、ARC-AGI-2等）最终优先。
-4. 实际引用仍保留两库观察，OpenAlex精确身份优先，版本不求和。S2与OpenAlex的大差异公开标记，不为了名次挑库。
-5. 收紧新颖度缺任务子项的证据权重后，MMLU/ARC原来恰好低于40%门槛；复核原始官方MMLU评测程序和ARC官网，补上有原文证据的“多选”“网格变换”任务形式。不是降低门槛或修改总分。
-6. 同龄先验只取有≥40%证据且身份可靠的条目，排除自己；不足量时公开回退，不再让稀薄证据拿近100分。
+## Top30：全部为探索性，不是正式排名
 
-## 保留历史与验证
+|名次|Benchmark|分数|证据覆盖|权重敏感性名次范围|
+|---:|---|---:|---:|---:|
+|1|HealthBench|70.624|47.77%|1–1|
+|2|MMLU-Pro|70.106|56.11%|2–4|
+|3|GPQA|70.025|60.46%|2–4|
+|4|Terminal-Bench|69.880|52.87%|2–4|
+|5|SWE-bench|68.919|51.61%|5–7|
+|6|MME|68.664|41.42%|5–7|
+|7|HumanEval|68.576|52.32%|5–7|
+|8|LAB-Bench|67.607|55.92%|8–9|
+|9|GDPval|67.180|49.27%|8–10|
+|10|ProgramBench|66.890|49.87%|9–10|
+|11|MMMLU|66.022|54.12%|11–13|
+|12|MBPP|65.814|40.47%|11–15|
+|13|MASK|65.785|45.97%|11–17|
+|14|MMMU-Pro (A More Robust Multi-discipline Multimodal Understanding Benchmark)|65.542|57.42%|13–17|
+|15|BIG-bench|65.514|42.32%|13–17|
+|16|ExploitGym|65.292|42.67%|12–19|
+|17|BrowseComp|65.238|50.02%|15–17|
+|18|LiveCodeBench|64.845|49.72%|15–19|
+|19|MMStar|64.685|41.42%|18–20|
+|20|PostTrainBench|64.275|47.32%|18–22|
+|21|MMMU Benchmark|64.145|40.02%|20–22|
+|22|PubMedQA|64.057|44.27%|21–24|
+|23|ExploitBench v0.1|63.646|45.37%|21–31|
+|24|PaperBench|63.507|43.22%|23–27|
+|25|GSM8K|63.313|47.77%|24–28|
+|26|MMLU|63.304|43.30%|23–29|
+|27|AGENTHARM|63.240|51.42%|24–30|
+|28|EvalPlus|63.069|40.17%|26–32|
+|29|SciCode|62.846|52.32%|23–39|
+|30|BigCodeBench|62.820|52.32%|24–35|
 
-- 不可变完整旧行定位跨分片merge；ID修正先绑定发生项。68个harness自合并只移除精确重复行。SQuAD版本、ARC-Challenge、PRBench Finance/Legal、MRCR配置及MTEB等子任务存variants，不平均不同比例分数。
-- science2只按真实field deltas改善，再由审计结论最终覆盖同字段，明确null清空不会被旧值复活。等价实现可在审计后仅应用不冲突增量。
-- `validation.json`验证唯一ID、计分范围、40%门槛、未评分不赋名次、权重和、关键论文身份/日期、科学新增全局去重和家族历史；输入SHA-256一并留档。`test-run.log`为17项隔离回归测试通过记录。
+## 验证与下一步
 
-## 仍有的缺陷 / 上线限制
+- 31个单元/回归测试通过；本报告的12项完整性检查全部通过。既有引用计数没有丢失；ID集合完全未变；所有新assessment附公开HTTP(S)来源及真实accessed；Flawed不允许正式资格。
+- 若要正式发布，下一步应对已有高覆盖条目做小批逐项独立复核（而非再扩大库）：先确认构造/QA、许可范围、污染防护和评测脚本可运行性；补足质量内部覆盖后再检验60%总覆盖。不能为了得到正式榜而调低门槛、把脚本入口当成执行成功、把fork或下载当口碑。
 
-- **质量、社区、饱和度覆盖均为0**：实现了有来源审计接口，但没有虚构数据；BetterBench/污染/许可适用/复现及Epoch逐版本结论尚待系统性人工审查。当前不能衡量或认证学术质量本身。
-- GitHub覆盖很低，继承早期公共缓存的可用性偏差仍在；受公开配额限制，不能声称所有维度公平完整。应展示缺失和证据覆盖，而非只展示分数。
-- 仅60条探索性排序不是“其余1608条低质量”；它们是未达到数据门槛。HF下载不是评测次数，引用可能是批评或自引，仓库可能共享、API可能滞后。
-- 新颖度是字符TF-IDF词面代理（不是语义创新判定）；翻译、模板、描述长短与领域收录比例影响分数。跨领域/年龄组参考样本仍不平衡。
-- 同论文/仓库/HF共享按平方根折减是公开的归属近似，不是精确贡献分配；派生值不覆盖原始计数。OpenAlex多版本选择单个观测最大值只避免求和，不等于完整去重引文图。
-- science2的机构主要是第一作者隶属，不能直接当唯一发布方。模型附带评测、存档自述、少数泛化名和版本关系仍需人工确认；API命中不等于所有条目均已独立核真。
-- 未进行全面消融、权重扰动、跨语言句向量或双人质量审查；暂无真实长期趋势和star增速。未创建任何外部每日任务。
+## 交付文件
 
-## 文件交付
-
-- `impact/index.json` → 主控集成为 `data/impact/index.json`。
-- `registry/registry.json` → `data/registry/registry.json`。
-- `impact/industry-heat.json`：时间衰减×厂商多样性辅助热度。
-- `impact/METHODOLOGY.md`：中文上线说明；`impact/final-stats.json`：机器可读报告。
-- `impact/{enrich,compute,metadata,arxiv_dates,registry_merge,common,write_report}.py`、`run.sh`、`requirements.txt`、`README.md`、`test_impact.py`。
-- 审计和science2变更文件、curations/metadata-overlay/arxiv-dates是复算所需数据依赖。不要把.venv、cache、archive或运行日志作为站点资源发布。
-
-仅操作`/workspace/bc`，未改主仓库、未提交、未push、未发布。
+- 新指数：`/workspace/bc/impact/index.json`
+- 新登记库（1668条不变，含assessment与来源）：`/workspace/bc/registry/registry.json`
+- 方法：`/workspace/bc/impact/METHODOLOGY.md`
+- 本报告：`/workspace/bc/impact/RUN_REPORT.md`
+- 原始证据、覆盖和核验：`evidence-report.json`、`evidence-coverage.json`、`evidence-validation.json`、`independent-quality.json`、`cache/{dossiers,hf-cards,epoch-reviews,github-connector,snapshots}/`。
+- 流水线：`evidence_overlay.py`由`compute.py`自动应用；重跑计算不访问网络。采集器为`fetch_dossier_snapshots.py`、`fetch_hf_cards.py`、`fetch_epoch_reviews.py`；只读公共源、缓存续跑。
+- 发布前可复跑：`.venv/bin/python -m unittest -v test_impact test_evidence && .venv/bin/python compute.py && .venv/bin/python write_evidence_report.py`。
+- 改动均未发布到主仓库；基线备份：`archive/2026-11-08-before-evidence/`。

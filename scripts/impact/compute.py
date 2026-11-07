@@ -18,11 +18,11 @@ DIMENSIONS=[
  ('huggingface','数据使用',.05,'HF 最近30日下载与点赞；对数尺度与分位数'),
  ('model_adoption','前沿模型采用',.10,'最近20模型报告的去重采用次数'),
  ('evaluator_adoption','评测机构采用',.08,'独立机构实际采用，不把提及或负面审查当采用'),
- ('community','独立社区反馈',.05,'去重讨论、90日issue活跃与第三方复现'),
+ ('community','独立社区反馈',.05,'公开讨论、90日issue线程、独立复测与弱fork参与代理；不等于认可'),
  ('novelty','研究新颖度（代理）',.12,'相对更早benchmark的文本距离、领域与任务形式稀有度'),
- ('quality','方法与工程质量',.18,'可核验人工审核、污染防护、复现、许可、维护、外审'),
+ ('quality','方法与工程质量',.18,'带来源的质量文档与独立外审；机器抽取项可靠系数0.5'),
  ('distinctiveness','非同质性',.04,'近邻相似度惩罚；不是语义创新的裁定'),
- ('headroom','未饱和与区分度',.03,'有明确上下界的SOTA余量与头部区分能力'),
+ ('headroom','未饱和与区分度',.03,'有明确上下界的单赛道快照最佳分余量；不冒称全局SOTA'),
  ('maintenance','时效与维护',.02,'最近有效更新的时间衰减；代码push仅代理')]
 WEIGHTS={x[0]:x[2] for x in DIMENSIONS}
 
@@ -159,7 +159,7 @@ def compute(items,heat_path):
         m['citation_velocity_smoothed']=cit/(months+3) if cit is not None and months is not None else None
         m['evaluator_adoptions']=audited(x,'evaluator_adoptions')
         if isinstance(m['evaluator_adoptions'],list): m['evaluator_adoptions']=len(set(m['evaluator_adoptions']))
-        for field in ('community_discussions','issue_activity_90d','third_party_reproductions'):
+        for field in ('community_discussions','issue_activity_90d','third_party_reproductions','issue_threads_90d'):
             m[field]=audited(x,field)
     from enrich import identifiers
     def paper_key(x):
@@ -200,8 +200,16 @@ def compute(items,heat_path):
         hf_shared=hf_resources.get(x.get('hf_dataset'),1); m['hf_shared_registry_entries']=hf_shared
         if components['huggingface'] is not None and hf_shared>1:
             components['huggingface']/=math.sqrt(hf_shared); flags.append('shared_hf_dataset')
-        comm=[(normalized(k),w) for k,w in [('community_discussions',.2),('issue_activity_90d',.2),('third_party_reproductions',.6)]]
-        components['community']=avg(comm); rel['community']=sum(w for v,w in comm if v is not None)
+        # Forks are weak participation evidence, NOT praise. No duplicate HF-like signal.
+        comm=[]
+        for key,w in [('community_discussions',.15),('issue_activity_90d',.075),('issue_threads_90d',.075),('third_party_reproductions',.6),('gh_forks',.1)]:
+            value=normalized(key)
+            reliability=.5 if key=='gh_forks' else x.get('assessment',{}).get(key,{}).get('reliability',1)
+            if value is not None:comm.append((value,w*max(0,min(1,reliability))))
+        components['community']=avg(comm); rel['community']=sum(w for _,w in comm)
+        if m.get('gh_shared_registry_entries',1)>1 and components['community'] is not None:
+            components['community']/=math.sqrt(m['gh_shared_registry_entries'])
+        if comm:flags.append('community_participation_not_sentiment')
         components['novelty']=m.get('novelty_score'); rel['novelty']=.35*(.7+(.15 if m.get('novelty_task_rarity') is not None else 0)+(.15 if m.get('novelty_domain_rarity') is not None else 0)) if components['novelty'] is not None else 0
         components['distinctiveness']=m.get('distinctiveness_score'); rel['distinctiveness']=.35 if components['distinctiveness'] is not None else 0
         if m.get('nearest_similarity',0)>.8: flags.append('homogeneous')
@@ -209,9 +217,10 @@ def compute(items,heat_path):
         q=[]
         for key,w in [('human_validation',.2),('contamination_protection',.2),('reproducibility',.2),('license_clarity',.1),('maintenance_review',.1),('external_review',.2)]:
             v=audited(x,key)
-            if v is not None and isinstance(v,(int,float,bool)): q.append((max(0,min(100,float(v)*100 if isinstance(v,bool) else float(v))),w))
+            if v is not None and isinstance(v,(int,float,bool)): q.append((max(0,min(100,float(v)*100 if isinstance(v,bool) else float(v))),w*max(0,min(1,x.get('assessment',{}).get(key,{}).get('reliability',1)))))
         # A GitHub code license does NOT establish the dataset's license.
         components['quality']=avg(q); rel['quality']=sum(w for _,w in q)
+        if q and any(t.get('method')=='documentary-evidence-0.3' for t in x.get('assessment',{}).values() if isinstance(t,dict)):flags.append('documentary_quality_proxy_not_expert_audit')
         flaw=audited(x,'epoch_verdict')
         if str(flaw).lower()=='flawed': flags.append('flawed')
         # Higher-is-better normalized metric only; unbounded/lower-is-better need manual direction conversion.
@@ -221,7 +230,9 @@ def compute(items,heat_path):
         if all(isinstance(v,(int,float)) for v in (sota,floor,ceiling)) and ceiling>floor:
             fraction=max(0,min(1,(sota-floor)/(ceiling-floor))); headroom=100*(1-fraction)
             if fraction>=.95: flags.append('saturated')
-        components['headroom']=avg([(headroom,.7),(discr,.3)]); rel['headroom']=(.7 if headroom is not None else 0)+(.3 if discr is not None else 0)
+        components['headroom']=avg([(headroom,.7),(discr,.3)]); rel['headroom']=(.7*x.get('assessment',{}).get('sota_score',{}).get('reliability',1) if headroom is not None else 0)+(.3 if discr is not None else 0)
+        if x.get('assessment',{}).get('sota_score',{}).get('selected_track'):
+            m['headroom_scope']=x['assessment']['sota_score']['selected_track'];flags.append('single_track_snapshot_not_global_sota')
         update=audited(x,'last_substantive_update') or m.get('gh_pushed_at') or m.get('hf_last_modified')
         t=date(update)
         if t:
@@ -233,7 +244,9 @@ def compute(items,heat_path):
         impact_observed=any(m.get(k) is not None for k in ('citations','gh_stars','hf_downloads','hf_likes','model_card_mentions','evaluator_adoptions','third_party_reproductions'))
         if not impact_observed: score=None; flags.append('no_observed_impact_signal')
         m['identity_review']=x.get('identity_review')
-        quality_coverage=rel['quality']; eligible=evidence_weight>=.6 and quality_coverage>=.5 and (components['citations_total'] is not None or components['evaluator_adoption'] is not None)
+        if x.get('historical_external_reviews'):
+            m['historical_external_reviews']=x['historical_external_reviews'];flags.append('historical_review_version_mismatch')
+        quality_coverage=rel['quality']; eligible=evidence_weight>=.6 and quality_coverage>=.5 and 'flawed' not in flags and (components['citations_total'] is not None or components['evaluator_adoption'] is not None)
         if x.get('_identity_conflict'):
             flags.append('identity_conflict'); eligible=False; score=None
         if not eligible: flags.append('provisional')
@@ -250,7 +263,7 @@ def compute(items,heat_path):
         components={k:round(max(0,min(100,v)),3) if v is not None else None for k,v in components.items()}
         m['resource_mapping_status']='registry_asserted_not_independently_verified'; m['derived_at']=stamp(); m['normalization']=normalization
         raw={k:v for k,v in m.items() if k not in ('provenance','normalization')}
-        results.append({'rank':None,'id':x['id'],'name':x['name'],'domain':x['domain'],'release_date':x.get('release_date'),'score':round(score,3) if score is not None else None,'observed_score':round(score,3) if score is not None else None,'components':components,'raw':raw,'flags':sorted(set(flags)),'confidence':{'coverage':round(evidence_weight,4),'label':'high' if evidence_weight>=.8 else 'medium' if evidence_weight>=.6 else 'low','quality_coverage':round(quality_coverage,3),'dimension_reliability':rel,'official_rank_eligible':eligible,'note':'覆盖度是证据完备程度，不是统计置信区间'},'provenance':m['provenance'],'normalization':normalization})
+        results.append({'rank':None,'id':x['id'],'name':x['name'],'domain':x['domain'],'release_date':x.get('release_date'),'score':round(score,3) if score is not None else None,'observed_score':round(score,3) if score is not None else None,'components':components,'raw':raw,'flags':sorted(set(flags)),'confidence':{'coverage':round(evidence_weight,4),'label':'high' if evidence_weight>=.8 else 'medium' if evidence_weight>=.6 else 'low','quality_coverage':round(quality_coverage,3),'dimension_reliability':rel,'official_rank_eligible':eligible,'note':'覆盖度是证据完备程度，不是统计置信区间'},'provenance':m['provenance'],'assessment':x.get('assessment',{}),'assessment_review':x.get('assessment_review'),'normalization':normalization})
     # Evidence coverage shrinkage is a published policy, not hand-adjustment of names.
     anchors=[r for r in results if r['observed_score'] is not None and r['confidence']['coverage']>=.4 and 'identity_conflict' not in r['flags'] and not r['raw'].get('identity_review')]
     for row in results:
@@ -261,9 +274,12 @@ def compute(items,heat_path):
             peers=[r for r in anchors if r['id']!=row['id'] and bucket(r['raw'].get('age_months'))==b]; group='age'
             if len(peers)<10: peers=[r for r in anchors if r['id']!=row['id']]; group='global_supported_fallback'
         prior=float(np.median([r['observed_score'] for r in peers])) if peers else 50.0
-        shrunk=cov*row['observed_score']+(1-cov)*prior if row['observed_score'] is not None else None
+        legacy_shrunk=cov*row['observed_score']+(1-cov)*prior if row['observed_score'] is not None else None
+        # A high empirical prior from citation-only anchors rewards missing quality.
+        # Neutral 50 is an explicit policy prior, NOT an estimated missing observation.
+        shrunk=cov*row['observed_score']+(1-cov)*50.0 if row['observed_score'] is not None else None
         if shrunk is not None and 'flawed' in row['flags']: shrunk=min(shrunk,40)
-        row['shrinkage']={'alpha':cov,'peer_median':round(prior,3),'peer_group':group if peers else 'neutral_50_fallback','peer_n':len(peers),'formula':'coverage * observed_score + (1-coverage) * age_peer_median'}
+        row['shrinkage']={'alpha':cov,'prior':50.0,'prior_basis':'neutral_50_policy_not_an_observation','peer_median_diagnostic':round(prior,3),'peer_group_diagnostic':group if peers else 'no_peers','peer_n':len(peers),'legacy_peer_shrunk_score':round(legacy_shrunk,3) if legacy_shrunk is not None else None,'formula':'coverage * observed_score + (1-coverage) * 50'}
         supported=cov>=.4 and row['observed_score'] is not None and 'identity_conflict' not in row['flags'] and not row['raw'].get('identity_review')
         row['confidence']['rank_eligible']=supported
         row['shrunk_score']=round(shrunk,3) if shrunk is not None else None
@@ -273,7 +289,7 @@ def compute(items,heat_path):
         if not supported: row['flags']=sorted(set(row['flags']+['insufficient_evidence']))
     results.sort(key=lambda r:(r['score'] is None,-(r['score'] or 0),r['id']))
     for rank,row in enumerate(results,1): row['rank']=rank if row['score'] is not None else None
-    return {'generated_at':stamp(),'method_version':'bci-0.2-coverage-shrunk','dimensions':[{'key':k,'name_zh':n,'weight':w,'description_zh':d} for k,n,w,d in DIMENSIONS],'ranking':[r for r in results if r['score'] is not None],'unscored':[r for r in results if r['score'] is None],'minimum_ranking_coverage':.4,'official_ranking_count':sum(r['confidence']['official_rank_eligible'] for r in results),'publication_warning_zh':'覆盖≥40%后方进入探索性排序；分数按覆盖度向同龄可信样本中位数收缩。仍缺人工质量审查，不等于权威学术水平认证。','ranking_status':'provisional_evidence_incomplete' if any('provisional' in x['flags'] for x in results) else 'audited','methodology':'METHODOLOGY.md'},heat
+    return {'generated_at':stamp(),'method_version':'bci-0.3-documentary-evidence','dimensions':[{'key':k,'name_zh':n,'weight':w,'description_zh':d} for k,n,w,d in DIMENSIONS],'ranking':[r for r in results if r['score'] is not None],'unscored':[r for r in results if r['score'] is None],'minimum_ranking_coverage':.4,'official_ranking_count':sum(r['confidence']['official_rank_eligible'] for r in results),'publication_warning_zh':'覆盖≥40%后方进入探索性排序；缺失权重按公开的中性50先验收缩（不是补造观测）；同龄中位数仅作诊断。已补文档质量、参与和单赛道饱和度证据；机器抽取不代替独立双人质量审查，不等于权威学术水平认证。','ranking_status':'provisional_evidence_incomplete' if any('provisional' in x['flags'] for x in results) else 'audited','methodology':'METHODOLOGY.md'},heat
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__); ap.add_argument('--registry',default=str(BASE/'registry')); ap.add_argument('--heat',default=str(BASE/'frontier/heat.json')); ap.add_argument('--output',default=str(BASE/'impact/index.json')); a=ap.parse_args()
@@ -305,6 +321,8 @@ def main():
     identity_conflicts={c['id'] for c in report['conflicts'] if c.get('field') in ('arxiv_id','doi') and all(c.get('values',[])) and not c.get('resolved')}
     for x in items:
         if x['id'] in identity_conflicts and not x.get('curation',{}).get('resolve_identity_conflict'): x['_identity_conflict']=True
+    from evidence_overlay import apply as apply_evidence
+    evidence_report=apply_evidence(items)
     index,heat=compute(items,Path(a.heat)); write(BASE/'impact/audit-application-report.json',report); write(a.output,index); write(BASE/'registry/registry.json',{'generated_at':stamp(),'count':len(items),'items':items}); write(BASE/'impact/industry-heat.json',heat)
     all_rows=index['ranking']+index['unscored']
     dim_coverage={key:{'observed':sum(r['components'][key] is not None for r in all_rows),'total':len(all_rows),'share':sum(r['components'][key] is not None for r in all_rows)/len(all_rows) if all_rows else None} for key in WEIGHTS}

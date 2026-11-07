@@ -59,6 +59,13 @@ def main():
         text=text.replace('八个指定核查项均在Top50','部分指定核查项未在Top50，具体缺失/得分见上表，应重新诊断')
     # Keep caveat totals correct after a future rerun, without implying quality loss.
     text=text.replace('仅60条探索性排序不是“其余1608条低质量”',f'仅{len(ranked)}条探索性排序不是“其余{len(rest)}条低质量”')
+    if index.get('method_version','').startswith('bci-0.3'):
+        text=text.replace('BCI v0.2','BCI v0.3').replace('KST / Asia/Seoul','上海时间 / Asia/Shanghai / UTC+8')
+        text=text.replace('6. 同龄先验只取有≥40%证据且身份可靠的条目，排除自己；不足量时公开回退，不再让稀薄证据拿近100分。','6. 统一公开中性50先验，缺失分项仍为null；同龄经验中位数只作诊断。中性50文档项贡献为0，不能因为补文档而反向扣分。')
+        text=text.replace('**质量、社区、饱和度覆盖均为0**：实现了有来源审计接口，但没有虚构数据；BetterBench/污染/许可适用/复现及Epoch逐版本结论尚待系统性人工审查。当前不能衡量或认证学术质量本身。', '质量、社区、饱和度已补文档/独立审查/单轨快照证据，具体覆盖见上表；机器项可靠系数0.5，不等于完整专家审计。已知Flawed按精确版本封顶40，不能授予正式资格。')
+        text=text.replace('未进行全面消融、权重扰动、跨语言句向量或双人质量审查','未完成全面消融、跨语言句向量或双人质量审查；本轮24个局部权重情景仅是敏感性诊断')
+        text=text.replace('只有一天快照，star增速全部null。','star增速必须有两次相隔足够时间的实测，否则为null。')
+        text=text.replace('`test-run.log`为17项隔离回归测试通过记录。','`test-evidence-run.log`记录31项单元/回归测试；包括来源日期、版本隔离及缺失先验测试。')
     (root/'RUN_REPORT.md').write_text(text)
     paths=['impact/index.json','registry/registry.json','impact/METHODOLOGY.md','impact/RUN_REPORT.md','impact/industry-heat.json','impact/final-stats.json','impact/validation.json']
     write(root/'DELIVERABLES.json',{'generated_at':stamp(),'registry_count':n,'ranked':len(ranked),'insufficient_evidence':len(rest),'citation_coverage':api['citation_coverage_paper_eligible'],'validation_passed':not errors,'files':[{'path':s,'bytes':(BASE/s).stat().st_size,'sha256':hashlib.sha256((BASE/s).read_bytes()).hexdigest()} for s in paths],'integration_note':'Copy deliverables into data/ as specified; do not publish .venv/cache/archive/logs. Repo untouched.'})
