@@ -51,15 +51,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -216,23 +208,17 @@
       "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文作者来自Lawrence Berkeley National Laboratory与UC Berkeley；Materials Project提供数据托管与项目基础设施。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -267,23 +253,17 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "美国能源部Office of Basic Energy Sciences Early Career Research Program资助；LBNL与Lawrencium/NERSC算力支持涉及DE-AC02-05CH11231（论文致谢）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -341,23 +321,17 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "材料信息学研究团队；AD、QW、AJ构思，AD/QW/DD/AJ设计测试套件，AD/QW/AG实现Automatminer（论文Author Contributions）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "整理来自密度泛函计算和实验来源的预清洗数据，输入为组成和/或晶体结构。",
@@ -377,42 +351,30 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "按任务过滤非物理模量、折射率<1、明显异常形成能等；实验组成去冲突/近似重复；特征拟合、超参数与模型选择只在每折训练数据内部进行。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "用外层固定五折且仅在训练部分做内部模型选择，防测试泄漏；随机/分层CV并不是按化学体系外推或后续LLM训练污染排查。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -435,80 +397,56 @@
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "化学组成字符串或pymatgen.Structure晶体结构；输出连续性质值或布尔分类标签，不是视觉语言问答。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "非自然语言题集：输入是化学组成/晶体结构与数值标签；自然语言语言分布不适用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "13项任务跨实验/DFT、组成/结构与不同规模；难度按任务与样本量分析，无统一题目等级。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "固定五折外层CV，每折80%训练+验证、20%测试；回归KFold、分类StratifiedKFold，seed=18012019；数据公开但评分时测试标签不得用于调参。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -547,41 +485,30 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "非提示式LLM评测。须固定每任务五折及超参数搜索范围；原论文Automatminer Express内部优化预算24小时，其他算法各自记录训练设置。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "matbench.bench.MatbenchBenchmark：task.get_train_and_val_data、task.get_test_data(include_target=False)、task.record及mb.to_file；官方使用页给完整逐任务逐折流程。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "url": "https://matbench.materialsproject.org/How%20To%20Use/2run/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "comparability_warning": {
       "value": "官方重大勘误：v0.1 分类榜标作 ROC-AUC 的旧分数来自0.5阈值化预测，实际等于 balanced accuracy；旧榜尚未重算。不得解释为真正 ROC-AUC。",
@@ -595,19 +522,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -629,32 +548,37 @@
       ]
     },
     "paper_revision_history": {
-      "value": "2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。",
-      "sources": [
-        {
-          "url": "https://pubs.rsc.org/dd/article/5/10/4000/1311628/Materials-discovery-is-a-composition-problem-the",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "saturation": {
-      "value": "待核实",
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "submitted_at": "2020-05-02T14:17:56+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2020-05-08T09:34:20+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ],
+        "previous_evidence": "2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+    },
+    "saturation": {
+      "value": "任务指标是带单位MAE或分类性能，不能以一个统一百分数判饱和；本次官方10回归任务最优MAE均非零，未证明已达实验/DFT噪声下限。",
+      "sources": [
+        {
+          "url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "contamination_and_issues": {
       "value": "分类旧分数语义错误，见官方 issues #137、#181；未来评分已修复，但现有榜单没有重算。",
@@ -666,40 +590,26 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方首页将DFT材料发现任务指向Matbench Discovery；二者任务目标和划分不同，不把发现榜CPS混作Matbench v0.1性质预测分数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -734,48 +644,163 @@
     "results": {
       "value": [
         {
-          "model": "coGN",
-          "score": 0.017,
-          "unit": "eV/atom",
-          "metric": "MAE（越低越好）",
-          "scope": "matbench_mp_e_form，132,752样本"
-        },
-        {
-          "model": "coGN",
-          "score": 0.1559,
-          "unit": "eV",
-          "metric": "MAE（越低越好）",
-          "scope": "matbench_mp_gap，106,113样本"
-        },
-        {
+          "rank": 1,
           "model": "MODNet (v0.1.12)",
-          "score": 0.2711,
-          "unit": "待核实",
-          "metric": "MAE（越低越好）",
-          "scope": "matbench_dielectric，4,764样本"
-        },
-        {
-          "model": "MODNet (v0.1.12)",
-          "score": 87.7627,
+          "score": "87.7627",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_steels",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
           "unit": "MPa",
-          "metric": "MAE（越低越好）",
-          "scope": "matbench_steels，312样本"
+          "n_samples": 312,
+          "note": "",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "MODNet (v0.1.12)",
+          "score": "33.1918",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_jdft2d",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "meV/atom",
+          "n_samples": 636,
+          "note": "",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "MegNet (kgcnn v2.1.0)",
+          "score": "28.7606",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_phonons",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "cm^-1",
+          "n_samples": 1265,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "MODNet (v0.1.12)",
+          "score": "0.3327",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_expt_gap",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "eV",
+          "n_samples": 4604,
+          "note": "",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "MODNet (v0.1.12)",
+          "score": "0.2711",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_dielectric",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "unitless",
+          "n_samples": 4764,
+          "note": "",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "coNGN",
+          "score": "0.0670",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_log_gvrh",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "log10(GPa)",
+          "n_samples": 10987,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "coNGN",
+          "score": "0.0491",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_log_kvrh",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "log10(GPa)",
+          "n_samples": 10987,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "coGN",
+          "score": "0.0269",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_perovskites",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "eV/unit cell",
+          "n_samples": 18928,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "coGN",
+          "score": "0.1559",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_mp_gap",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "eV",
+          "n_samples": 106113,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
+        },
+        {
+          "rank": 1,
+          "model": "coGN",
+          "score": "0.0170",
+          "metric": "MAE ↓",
+          "track": "matbench_v0.1 / matbench_mp_e_form",
+          "source_url": "https://matbench.materialsproject.org/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "unit": "eV/atom",
+          "n_samples": 132752,
+          "note": "structure required",
+          "result_type": "官方首页每任务领先算法；非跨任务总排名"
         }
       ],
       "sources": [
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "分任务快照（无跨任务总冠军）：mp_e_form：coGN MAE 0.0170 eV/atom（132,752样本）；mp_gap：coGN 0.1559 eV（106,113）；dielectric：MODNet v0.1.12 0.2711（4,764）；steels：MODNet v0.1.12 87.7627 MPa（312）。"
+      ]
     },
     "coverage_note": {
-      "value": "2026-11-07 读取官方首页分任务领先条目；页面未给统一榜单更新日期。分类旧分数不纳入本轮数值快照。",
+      "value": "更新全部10个回归任务的首页领先结果与单位；dielectric为unitless，perovskites为eV/unit cell，phonons现为1,265样本。3个分类旧榜标签ROC-AUC实为balanced accuracy，不混入回归快照或解释成真ROC-AUC。",
       "sources": [
         {
           "url": "https://matbench.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -855,17 +880,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 2513518,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -920,6 +945,34 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.paper_version",
+          "construction.author_background",
+          "construction.decontamination",
+          "construction.quality_control",
+          "data_format.difficulty",
+          "data_format.languages",
+          "data_format.modalities",
+          "data_format.public_hidden_split",
+          "evaluation.official_scripts",
+          "evaluation.prompt_settings",
+          "latest_status.checked_at",
+          "latest_status.derivatives",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.funders",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
@@ -930,6 +983,10 @@
       {
         "url": "https://arxiv.org/pdf/2005.00707",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://matbench.materialsproject.org/",
+        "accessed": "2026-11-08"
       }
     ]
   },

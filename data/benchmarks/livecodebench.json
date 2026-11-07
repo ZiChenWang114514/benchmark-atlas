@@ -36,10 +36,9 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "论文修订版本不等同数据集版本。"
+      ]
     },
     "release_date": {
       "value": "2024-03-13 02:58:04 KST",
@@ -73,11 +72,15 @@
       ]
     },
     "license": {
-      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "value": "仓库代码MIT；官方HF code_generation_lite卡license字段仅写cc，未指定Creative Commons具体版本/条款。不得把MIT或一个模糊cc标签直接扩展为全部竞赛原题的使用许可。",
       "sources": [
         {
-          "url": "https://github.com/LiveCodeBench/LiveCodeBench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/livecodebench/code_generation_lite",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -100,11 +103,11 @@
       ]
     },
     "dataset_url": {
-      "value": "https://huggingface.co/livecodebench/",
+      "value": "https://huggingface.co/datasets/livecodebench/code_generation_lite",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -138,15 +141,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "作者单位含UC Berkeley、MIT与Cornell；记录学术署名单位，不将SKY Lab资助企业自动视作出题合作机构。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2403.07974",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "authors": {
       "value": [
@@ -178,15 +179,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "NSF CCF:1900968、CCF:1908870及SKY Lab企业赞助/关联方；Alex Gu获NSF Graduate Research Fellowship 2141064，Armando Solar-Lezama获NSF与Intel CCF:2217064支持。详见论文致谢。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2403.07974",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     }
   },
   "design_goals": {
@@ -373,23 +372,30 @@
       ]
     },
     "comparability_warning": {
-      "value": "不同时窗、题目数量和场景不可直排。AA 当前摘要未给出精确评测窗，保留范围待核实。",
+      "value": "官方默认网页窗口为2024-08-01至2025-05-01（题目日期）；按公开JSON及页面算法复算，与AA摘要未知窗口分赛道。release_latest是可变别名，lite/原始测试、采样参数及窗口都必须锁定。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/leaderboard.html",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -417,24 +423,41 @@
       "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 KST (6,890 KB) [v2] 2024-06-07 02:41:21 KST (7,772 KB)",
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "submitted_at": "2024-03-13T02:58:04+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2024-06-07T02:41:21+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ],
+        "previous_evidence": "Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 KST (6,890 KB) [v2] 2024-06-07 02:41:21 KST (7,772 KB)"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "saturation": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2403.07974",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+    },
+    "saturation": {
+      "value": "动态窗口改变题目分母；当前AA摘要最高91.7%，官方默认窗口另行计算。没有一个可跨时窗引用的全套饱和结论。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/leaderboard.html",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "contamination_and_issues": {
       "value": "“Contamination Free”是设计目标/标题；成立范围取决于模型截止日、题目发布时间和后续训练，不能绝对保证。",
@@ -465,20 +488,20 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/leaderboard.html",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_url": {
-      "value": "https://livecodebench.github.io/",
+      "value": "https://livecodebench.github.io/leaderboard.html",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -494,67 +517,257 @@
     "results": {
       "value": [
         {
+          "rank": 1,
+          "model": "O4-Mini (High)",
+          "score": "80.2",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 36400.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 2,
+          "model": "O3 (High)",
+          "score": "75.8",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 34400.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 3,
+          "model": "O4-Mini (Medium)",
+          "score": "74.2",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 33700.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 4,
+          "model": "Gemini-2.5-Pro-06-05",
+          "score": "73.6",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 33400.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 5,
+          "model": "DeepSeek-R1-0528",
+          "score": "73.1",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 33170.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 6,
+          "model": "Gemini-2.5-Pro-05-06",
+          "score": "71.8",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 32600.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 7,
+          "model": "EXAONE-4.0-32B",
+          "score": "70.0",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 31800.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 8,
+          "model": "OpenReasoning-Nemotron-32B",
+          "score": "69.8",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 31690.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 9,
+          "model": "O3-Mini-2025-01-31 (High)",
+          "score": "67.4",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 30600.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 10,
+          "model": "OpenCodeReasoning-Nemotron-1.1-32B",
+          "score": "66.8",
+          "metric": "Pass@1 (%)",
+          "track": "官方网页默认窗口：2024-08-01–2025-05-01",
+          "source_url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
+          "window_start": "2024-08-01",
+          "window_end": "2025-05-01",
+          "n_problems": 454,
+          "official_flag": "按网页release_date规则为非Contaminated；元数据并非训练截止日保证",
+          "aggregation": {
+            "sum_pass_at_1": 30340.0,
+            "n": 454,
+            "formatter": "网页Number(mean.toFixed(1))"
+          }
+        },
+        {
+          "rank": 1,
           "model": "Gemini 3 Pro Preview (High)",
-          "score": 91.7,
+          "score": "91.7",
           "metric": "AA LiveCodeBench score (%)",
-          "benchmark_version": "AA窗口待核实",
-          "result_type": "独立第三方当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "track": "AA当前摘要；评测窗待核实",
+          "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "独立第三方当前摘要；精确运行日待核实"
         },
         {
+          "rank": 2,
           "model": "Gemini 3 Flash Preview (Reasoning)",
-          "score": 90.8,
+          "score": "90.8",
           "metric": "AA LiveCodeBench score (%)",
-          "benchmark_version": "AA窗口待核实",
-          "result_type": "独立第三方当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-        },
-        {
-          "model": "DeepSeek V3.2 Speciale",
-          "score": 89.6,
-          "metric": "AA LiveCodeBench score (%)",
-          "benchmark_version": "AA窗口待核实",
-          "result_type": "独立第三方当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-        },
-        {
-          "model": "Hunyuan-A13B slow-thinking",
-          "score": 63.9,
-          "metric": "报告中的 LiveCodeBench (%)",
-          "benchmark_version": "日期窗待核实",
-          "result_type": "厂商技术报告自报",
-          "source_date": "2026-09-23",
-          "collected_at": "2026-11-07 KST"
+          "track": "AA当前摘要；评测窗待核实",
+          "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "独立第三方当前摘要；精确运行日待核实"
         }
       ],
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/leaderboard.html",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "coverage_note": {
-      "value": "AA 页面确有前三结果，但未从该页面静态正文核实题目日期窗和每个运行日期；采集日不是运行日。官方旧主页图表不是 2026 完整榜，不能与厂商报告跨窗排序。",
+      "value": "官方网页静态表只是Loading占位；本次读取其明确引用的performances_generation.json，并严格依网页筛窗/均值/一位小数显示规则重建前十有排名条目。日期标记止于2025-05-01，不伪装2026新题。每模型覆盖题数单列；AA成绩窗口不明，绝不混排。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/leaderboard.html",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "url": "https://livecodebench.github.io/performances_generation.json",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -619,20 +832,19 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2403.07974",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 4960954,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2403.07974",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      ]
     },
     "drive_folder": {
       "value": {
@@ -690,12 +902,38 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.dataset_url",
+          "basic_info.license",
+          "basic_info.paper_version",
+          "evaluation.comparability_warning",
+          "latest_status.checked_at",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.coverage_note",
+          "leaderboard.official_url",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.funders",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
       {
         "url": "https://livecodebench.github.io/",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://livecodebench.github.io/",
+        "accessed": "2026-11-08"
       }
     ]
   }

@@ -1,6 +1,10 @@
 # IFBench
 
-> 核查：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；待核实不等于未公开。已核验存在；中文研究快照；note: trending: B；未核实保留标记
+> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+
+IFBench用58种未见可验证约束测试精确指令泛化，而非重命名IFEval。300条原测试、AA 294题实现、29类训练约束以及软件包83种验证器是四种不同统计口径；本页给出代码和数据各自许可。
+
+导读依据：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）；[2](https://github.com/allenai/IFBench)（访问 2026-11-08）；[3](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
 ## 基本信息
 
@@ -8,7 +12,7 @@
 
 IFBench
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ### 全称
 
@@ -16,31 +20,25 @@ IFBench
 
 > 沿用官方名称；不将论文标题臆造为全称。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ### 基准版本
 
-待核实
+原始300条IFBench_test、58种OOD约束；当前pip包另兼容25种经典IFEval约束，总注册83种验证器，不是测试题量83。
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
 ### 论文版本
 
-待核实
+arXiv v3
 
-> 论文修订号尚未完成精确核实。
-
-[来源](https://arxiv.org/abs/2507.02833)（访问2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）。
 
 ### 发布日期
 
-待核实
+2025-07-04T02:44:33+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）。
 
 ### 主板块
 
@@ -48,53 +46,58 @@ IFBench
 
 > Benchmark Atlas编辑分类。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### 领域标签
+### 领域
 
-- 语言
+```json
+[
+  "语言"
+]
+```
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### 许可证
+### 许可与使用范围
 
-待核实
+```json
+{
+  "code": "Apache-2.0",
+  "data": "ODC-BY-1.0；依Ai2 Responsible Use Guidelines供研究教育；第三方生成输出另受对应条款约束。"
+}
+```
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
+来源：[1](https://github.com/allenai/IFBench/blob/main/LICENSE)（访问 2026-11-08）；[2](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）；[3](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### 论文
+### 论文入口
 
 https://arxiv.org/abs/2507.02833
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 代码
+### 官方代码
 
 https://github.com/allenai/IFBench
 
-[来源](https://arxiv.org/abs/2507.02833)（访问2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 数据集
+### 数据入口
 
-待核实
+https://huggingface.co/datasets/allenai/IFBench_test
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
 ### 官方主页
 
 https://github.com/allenai/IFBench
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ### 论文标题
 
 Generalizing Verifiable Instruction Following
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 发起与维护
 
@@ -102,54 +105,58 @@ Generalizing Verifiable Instruction Following
 
 Allen Institute for Artificial Intelligence、University of Washington
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 合作方
+### 合作与作者单位
 
 待核实
 
 > 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ### 作者
 
-- Valentina Pyatkin
-- Saumya Malik
-- Victoria Graf
-- Hamish Ivison
-- Shengyi Huang
-- Pradeep Dasigi
-- Nathan Lambert
-- Hannaneh Hajishirzi
+```json
+[
+  "Valentina Pyatkin",
+  "Saumya Malik",
+  "Victoria Graf",
+  "Hamish Ivison",
+  "Shengyi Huang",
+  "Pradeep Dasigi",
+  "Nathan Lambert",
+  "Hannaneh Hajishirzi"
+]
+```
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 维护方
 
 AllenAI IFBench项目
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 资助
+### 资助与资源支持
 
 NSF IIS-2044660
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 设计目标
 
-### 衡量能力
+### 测量能力
 
 对58种新颖可程序验证的域外输出约束泛化，包括计数、比例、单词、句子、格式、自定义与复制。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 设计背景
+### 与既有基准的差异
 
 IFEval的25种约束可能被过拟合；IFBench不是IFEval别名或新版本。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 构建方式
 
@@ -157,71 +164,73 @@ IFEval的25种约束可能被过拟合；IFBench不是IFEval别名或新版本�
 
 人工收集用户反馈及核心技能需求设计约束，组合未发布的WildChat留出提示。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 出题者背景
 
 指令遵循与后训练研究者；兼容性标注者具体资历待核实。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 审核
+### 审核流程
 
 每实例人工检查提示与约束兼容，防止无法同时满足。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 质量控制
 
 为约束编写Python验证函数；排除训练/测试约束重合。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 去污染
+### 去污染与泄漏控制
 
 测试58种新约束与IFTrain 29种训练约束分开，原始WildChat提示留出；公开后仍需防泄漏。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 数据形式
 
-### 题量与规模
+### 规模与统计口径
 
 原始IFBench 300提示，每个含1或2约束；AA评294题。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 题型
 
 开放文本输出，单轮任务+约束；多轮先回答原任务后按约束改写。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 模态
 
-- 文本
+```json
+[
+  "文本"
+]
+```
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 语言
 
-待核实
+测试提示以英语为主，含要求日语、俄语等特定输出的约束；不能把输出语种约束误作所有题目单语声明。
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
 ### 难度
 
 旨在测未见约束泛化，不以IFEval得分推断能力。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 公开与隐藏划分
 
 IFBench评测300提示；IFTrain 29约束与训练提示为独立材料，不混成测试规模。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 评测方法
 
@@ -229,204 +238,296 @@ IFBench评测300提示；IFTrain 29约束与训练提示为独立材料，不混
 
 strict/loose accuracy；论文报告prompt-level loose accuracy，AA采用规则评分pass@1。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 评分
+### 评分规则
 
 strict直接验证，loose允许删首末行和部分字体标记后再检验；题级与约束级口径不可混用。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 运行设置
+### 提示、采样与工具设置
 
 原论文通常temperature 0，思考模型调整token并移除思维链；DeepSeek R1用0.6/top_p .95，o3温度1。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ### 官方脚本
 
-AllenAI/IFBench含约束验证代码；本轮GitHub页仅返回摘要，不据此填许可证。
+当前ifbench包可通过pip安装，命名空间ifbench.instructions、instructions_registry等；wheel含test JSONL，用ifbench.data_path()访问。原论文主指标prompt-level loose accuracy。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）。
 
-### 可比性警示
+### 可比性警告
 
 AA 294题×5次不同于原始300提示；单/多轮与strict/loose差异须保留。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
 ## 最新情况
 
-### 核查日期
+### 本轮核查时间
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）；[2](https://github.com/allenai/IFBench)（访问 2026-11-08）。
 
-### 当前版本与2026后半年证据
+### 最新数据状态
 
-- **version**：待核实
-- **heat_confidence**：B
-- **evidence_2026_h2**：[{"url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking", "date": "2026-11-07", "date_type": "observed_on", "note": "AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。"}, {"url": "https://artificialanalysis.ai/evaluations/ifbench", "date": "2026-11-07", "date_type": "observed_on", "note": "AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。"}]
+原始IFBench_test 300题；58种OOD测试约束与29种IF-RLVR训练约束分离。当前包83验证器中25为经典IFEval，不表示原测试集扩到83类。
 
-> AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。
+来源：[1](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）；[来源](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-07）
+### 论文修订历史
 
-### 修订历史
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2025-07-04T02:44:33+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  },
+  {
+    "version": "v2",
+    "submitted_at": "2025-08-04T20:54:59+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  },
+  {
+    "version": "v3",
+    "submitted_at": "2025-11-11T18:40:12+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  }
+]
+```
 
-待核实
+> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+### 饱和度与证据边界
 
-### 饱和情况
+AA本轮294题最高83.3%；原论文300题prompt-loose轨IF-RLVR qwen2.5 7b为53.7%。不同题集/实现不能直接用于统一饱和结论。
 
-待核实
+来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
+### 污染与已知问题
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+HF当前页面出现模型在IFBench_test上训练/微调的关联条目，证明公开测试集存在被用于训练的可见风险；不是对任一具体榜单模型泄漏的指控。基准也只测可验证形式约束，不保证语义回答质量。
 
-### 污染、争议与限制
+来源：[1](https://huggingface.co/datasets/allenai/IFBench_test)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-待核实
-
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### 衍生与版本关系
+### 相关与衍生基准
 
 与已收录ifeval不同：IFBench测试域外约束泛化，不能当IFEval新名字。
 
 > 编辑去重说明；不将同基准子集、指标或版本重复计数。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### 为什么近期热门
-
-AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。
-
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）；[来源](https://artificialanalysis.ai/evaluations/ifbench)（访问2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ## 榜单快照
 
-### 快照日期
+### 采集日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-### 官方榜单入口
+### 官方结果入口
 
 https://github.com/allenai/IFBench
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### 第三方覆盖
+### 独立评测入口
 
 https://artificialanalysis.ai/evaluations/ifbench
 
-[来源](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-07）。
 
-### 核验结果
+### 结构化结果
 
-| 顺序 | 模型 / 配置 | 分数 | 指标 | 来源自写更新时间 |
-|---|---|---:|---|---|
-| 1 | Grok 4.3 (Medium) | 83.3 | AA IFBench pass@1 (%) | 待核实（页面未明示榜表更新时间） |
-| 2 | Grok 4.20 0309 (Reasoning) | 82.9 | AA IFBench pass@1 (%) | 待核实（页面未明示榜表更新时间） |
-| 3 | MiniMax-M3 | 82.9 | AA IFBench pass@1 (%) | 待核实（页面未明示榜表更新时间） |
+```json
+[
+  {
+    "rank": 1,
+    "model": "Grok 4.3 (Medium)",
+    "score": "83.3",
+    "metric": "pass@1 (%)",
+    "track": "AA独立294题，规则验证pass@1",
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+    "source_date": "待核实（页面快照）",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "Grok 4.20 0309 (Reasoning)",
+    "score": "82.9",
+    "metric": "pass@1 (%)",
+    "track": "AA独立294题，规则验证pass@1",
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+    "source_date": "待核实（页面快照）",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "MiniMax-M3",
+    "score": "82.9",
+    "metric": "pass@1 (%)",
+    "track": "AA独立294题，规则验证pass@1",
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+    "source_date": "待核实（页面快照）",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "IF-RLVR qwen2.5 7b",
+    "score": "53.7",
+    "metric": "prompt-level loose accuracy (%)",
+    "track": "作者论文表3，原始300题，prompt-level loose",
+    "source_url": "https://arxiv.org/pdf/2507.02833",
+    "result_type": "历史论文；表3列出模型子集内排序",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "IF-RLVR TULU-DPO 8b",
+    "score": "44.6",
+    "metric": "prompt-level loose accuracy (%)",
+    "track": "作者论文表3，原始300题，prompt-level loose",
+    "source_url": "https://arxiv.org/pdf/2507.02833",
+    "result_type": "历史论文；表3列出模型子集内排序",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "TULU",
+    "score": "28.9",
+    "metric": "prompt-level loose accuracy (%)",
+    "track": "作者论文表3，原始300题，prompt-level loose",
+    "source_url": "https://arxiv.org/pdf/2507.02833",
+    "result_type": "历史论文；表3列出模型子集内排序",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  }
+]
+```
 
-[来源](https://artificialanalysis.ai/evaluations/ifbench)（访问2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-### 覆盖与时效
+### 覆盖与局限
 
-AA独立运行；第二、三相同展示精度，不声称显著优劣。无页面自写更新日，模型发布日期不替代评测时间。
+AA294题与原论文300题分轨；HF自动模型成绩来自第三方模型卡，不作为作者维护实时总榜；不混淆83种软件验证器与58种OOD测试约束。
 
-[来源](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）；[3](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）。
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开邮箱
 
-- valentinap@allenai.org
+```json
+[
+  "valentinap@allenai.org"
+]
+```
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 公开反馈
+### 仓库反馈
 
 https://github.com/allenai/IFBench/issues
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### 官方社交
-
-待核实
-
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### 隐私政策
+### 官方社区
 
 待核实
 
 > 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
+
+### 隐私与联系边界
+
+待核实
+
+> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
+
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ## 原始文件
 
-### 原论文PDF
+### 论文PDF
 
 https://arxiv.org/pdf/2507.02833
 
 > 原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。
 
-[来源](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### PDF SHA-256
+### 本轮PDF SHA-256
+
+a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
+
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+
+来源：[1](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
+
+### 本轮PDF字节数
+
+```json
+2757383
+```
+
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+
+来源：[1](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
+
+### 已有Drive文件夹
 
 待核实
 
 > 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### PDF字节数
+### 其他官方文档
 
-待核实
+```json
+[
+  {
+    "type": "官方网页方法与榜单（非PDF）",
+    "url": "https://github.com/allenai/IFBench"
+  }
+]
+```
 
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### Drive文件夹
-
-待核实
-
-> 已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### 其他官方材料
-
-- {"type": "官方网页方法与榜单（非PDF）", "url": "https://github.com/allenai/IFBench"}
-
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
-
-### Drive PDF归档
+### 已有Drive PDF归档
 
 待核实
 
 > 按本批范围不上传Drive；不是官方未公开。
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
 ## 变更记录
 
-- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"}
+### 历次核查
 
-[来源](https://github.com/allenai/IFBench)（访问 2026-11-07）
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+  }
+]
+```
+
+来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）；[2](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）；[3](https://github.com/allenai/IFBench)（访问 2026-11-08）。
+

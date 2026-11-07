@@ -39,7 +39,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -73,15 +73,15 @@
       ]
     },
     "license": {
-      "value": "MIT（GitHub 仓库 math-qa/math-QA 的 LICENSE 文件；仅覆盖仓库内容，第三方原始材料权利另行核查）",
+      "value": "AllenAI HF数据卡明确声明Apache-2.0；GitHub根LICENSE为MIT但署名2013–2019 Blackrock Digital LLC（网页模板），不能把它当整个MathQA数据集的无条件MIT授权。保留来源差异，使用数据优先核对数据卡与原始题权利。",
       "sources": [
         {
-          "url": "https://github.com/math-qa/math-QA",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/allenai/math_qa",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://api.github.com/repos/math-qa/math-QA",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/math-qa/math-QA/blob/master/LICENSE",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -150,32 +150,34 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文首页机构为University of Washington及Allen Institute for AI；Figure Eight是众包平台，不额外视为作者机构。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+      ]
     },
     "authors": {
       "value": [
-        "Amini, Aida",
-        "Gabriel, Saadia",
-        "Lin, Peter",
-        "Koncel-Kedziorski, Rik",
-        "Choi, Yejin",
-        "Hajishirzi, Hannaneh"
+        "Aida Amini",
+        "Saadia Gabriel",
+        "Shanchuan Lin",
+        "Rik Koncel-Kedziorski",
+        "Yejin Choi",
+        "Hannaneh Hajishirzi"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/allenai/math_qa",
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv元数据/官网列Peter Lin，下载PDF列Shanchuan Lin；两种署名并列，未自行认定为不同作者或同名。"
+      "note": "按PDF与NAACL引用记录Shanchuan Lin；arXiv元数据及项目BibTeX的Peter Lin不同，保留原来源差异。"
     },
     "maintainer": {
       "value": "MathQA 作者项目主页（Aida Amini 等）；主页列公开联系单位为 University of Washington，不据此断言现行服务承诺。",
@@ -187,15 +189,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "ONR N00014-18-1-2826、NSF IIS 1616112、Allen Distinguished Investigator Award及Google、Allen Institute for AI、Amazon、Bloomberg捐助；论文致谢。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源"
+      ]
     }
   },
   "design_goals": {
@@ -260,11 +260,11 @@
       ]
     },
     "decontamination": {
-      "value": "原AQuA题源和众包数据继承公开性，随机划分不是防止语义近重复或LLM污染的充分手段。",
+      "value": "论文诊断AQuA近重复及rationale不匹配；标注扩展用Levenshtein距离阈值4词进行相似题迁移。随机划分不是模板级隔离，不能据此证明无跨划分相似性或后续LLM污染。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -316,11 +316,19 @@
       ]
     },
     "public_hidden_split": {
-      "value": "论文按80%/12%/8%随机划分训练/测试/开发；具体发布包行数与顺序需以文件核验为准。",
+      "value": "原论文§6.1写80/12/8%顺序为training/dev/test（此前条目错写training/test/dev）。实际公开包train=29,837、dev=4,475、test=2,985，与HF一致；challenge_test=604单独保留。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://math-qa.github.io/math-QA/data/MathQA.zip",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/allenai/math_qa",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -345,11 +353,11 @@
       ]
     },
     "prompt_settings": {
-      "value": "原论文是程序生成模型，beam search设置不等于现代LLM few-shot；Jev仅给答案accuracy。",
+      "value": "原论文用双向RNN/LSTM序列到程序、OpenNMT，编码/解码各2层、hidden size=100、Adam lr=0.001；MathQA beam=100，AQuA beam=200。研究LLM结果须另记提示协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/1905.13319",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -382,15 +390,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -409,26 +413,32 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_version": "arXiv v1",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
+        "revisions": [
           {
-            "url": "https://arxiv.org/html/2610.11978v1",
-            "date": "2026-10-08",
-            "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。"
+            "version": "v1",
+            "submitted_at": "2019-05-31T06:28:12+09:00",
+            "timezone": "Asia/Seoul (KST)"
           }
-        ]
+        ],
+        "previous_evidence": {
+          "arxiv_version": "arXiv v1",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "2026_h2_evidence": [
+            {
+              "url": "https://arxiv.org/html/2610.11978v1",
+              "date": "2026-10-08",
+              "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。"
+            }
+          ]
+        }
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
     },
     "saturation": {
       "value": "待核实",
@@ -474,15 +484,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://math-qa.github.io/math-QA/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -517,7 +523,8 @@
           "snapshot_date": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
+          "track": "历史研究论文 / 保留原采集日期"
         },
         {
           "model_version": "Qwen3.8 Flash",
@@ -528,7 +535,8 @@
           "snapshot_date": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
+          "track": "历史研究论文 / 保留原采集日期"
         },
         {
           "model_version": "Gemini 3.8 Flash",
@@ -539,22 +547,104 @@
           "snapshot_date": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
+          "track": "历史研究论文 / 保留原采集日期"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "37.4%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / MathQA Challenge",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "40.2%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / Geometry",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "37.8%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / Physics",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "36.3%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / General",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "38.3%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / Gain",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "35.3%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / Probability",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
+        },
+        {
+          "rank": 1,
+          "model": "Seq2Prog+Cat",
+          "score": "33.3%",
+          "metric": "官网历史榜得分",
+          "track": "官方静态 / Other",
+          "source_url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "官方历史页面；不是2026实时榜"
         }
       ],
       "sources": [
         {
+          "url": "https://math-qa.github.io/math-QA/html/",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "官方历史榜已打开：MathQA Challenge下Seq2Prog+Cat为37.4；榜单没有明确统一更新日期，不能当作2026最新模型排名。既有厂商/研究结果维持独立协议。",
+      "value": "保留既有研究论文成绩及原采集日；新增本次重开官网七个历史赛道。MathQA Challenge 37.4与各领域分数不能混成全行业总榜；官网未标统一结果更新时间。",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -630,16 +720,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/1905.13319",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 850027,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/1905.13319",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -683,12 +774,38 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "basic_info.paper_version",
+          "construction.decontamination",
+          "data_format.public_hidden_split",
+          "evaluation.prompt_settings",
+          "latest_status.checked_at",
+          "latest_status.paper_revision_history",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.authors",
+          "organization.funders",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
       {
         "url": "https://math-qa.github.io/math-QA/",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://math-qa.github.io/math-QA/",
+        "accessed": "2026-11-08"
       }
     ]
   }

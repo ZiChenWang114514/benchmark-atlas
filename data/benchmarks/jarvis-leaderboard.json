@@ -38,54 +38,29 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "持续更新的多任务榜单平台；本轮官网322 benchmark、2087贡献、8752827 datapoints。聚合统计不是单一测试题集版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2023/06/20",
+      "value": "2023-06-21T02:07:07+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -119,11 +94,11 @@
       ]
     },
     "license": {
-      "value": "官网声明 NIST license；具体使用和免责声明应以官方 LICENSE 为准，不标成 MIT。",
+      "value": "NIST LICENSE.rst：美国联邦雇员作品在美国不受版权保护；对NIST可能拥有的境外版权，许可无偿使用、复制、修改与分发，但须保留声明及免责声明；不标MIT。",
       "sources": [
         {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.rst",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -309,23 +284,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "论文致谢NIST及CHIPS Metrology Program（CHIPS for America，美国商务部）；K.C.获70NANB19H117及XSEDE TG-DMR190095支持；不同作者另列DOE、NSF、NASA及BMBF支持，详见论文致谢，不归并为单一平台资助合同。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -347,19 +312,15 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "在统一平台记录多模态材料设计方法的性能及可复现元数据。",
+      "value": "材料设计方法往往将代码、数据和结果分散在GitHub、Zenodo、Figshare等处，且缺少共同划分及计算环境；平台把参考数据、预测、执行脚本与硬软件元数据连接起来，覆盖AI之外的ES、FF、QC及实验。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -383,38 +344,24 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "NIST材料计算与数据研究人员及来自电子结构、机器学习力场、量子计算、实验等社区的贡献者；提交者资质不自动等于每项预测已被独立复现。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "社区提交数据、代码和方法元数据；覆盖 AI、电子结构、力场、量子计算及实验等类别。",
+      "value": "提交者准备预测csv.zip、metadata.json及可选run.sh/环境文件，经最小sanity checks、GitHub Actions后由NIST管理员审核并合入榜单。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -428,23 +375,13 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "采用固定划分以避免训练/测试混淆；同库ID及目标公开不构成LLM式防训练泄漏证明，预训练力场与同集训练模型必须按具体任务区分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -458,97 +395,68 @@
       ]
     },
     "question_types": {
-      "value": "当前官网显示 322 个 benchmarks、2,087 份贡献、8,752,827 数据点；这是平台统计，不是单一测试集大小。",
+      "value": "按任务输出标量性质、分类标签、多值光谱/力、生成结构或文本等；不是一道统一的自然语言问答测试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": [
+        "化学式与原子结构",
+        "材料性质数值/力/光谱",
+        "STEM图像",
+        "论文文本",
+        "实验数据",
+        "Hamiltonian与量子结果"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "平台说明与论文为英语；输入还包括结构、化学式、数值、图像和代码，不能用单一自然语言标签覆盖所有子任务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "难度按具体材料性质与参考方法而异；误差单位、测试样本及基线不同，不设可跨任务比较的统一easy/hard或总冠军。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "AI任务用预定义train/validation/test ID和目标JSON，固定随机划分；ES、FF、QC、实验通常只有参考test。平台展示test性能，底层数据经JARVIS-Tools及有版本DOI的Figshare存放。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -570,58 +478,43 @@
       ]
     },
     "scoring": {
-      "value": "按具体任务报告 MAE、ACC 或 MULTIMAE 等；不同任务不拼成同一排名。",
+      "value": "将csv.zip预测ID与相应benchmark JSON的test ID对齐，按该任务MAE、ACC或MULTIMAE计算；MAE需连同物理单位、参照DFT/实验和样本划分报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "不适用统一LLM提示：以各贡献run.sh、软件版本、硬件和任务配置为准；TextGen等语言任务另查对应子榜。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "jarvis_populate_data.py生成参考划分；jarvis_upload.py协助提交；各贡献run.sh用于复现；GitHub Actions检查榜单重建和安装。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "comparability_warning": {
       "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
@@ -643,85 +536,73 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "持续增长平台；本轮页面322个任务、2087项贡献、8752827数据点；每任务必须另锁定数据名称和split，不能当单一v1/v2。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实"
-    },
-    "paper_revision_history": {
-      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）沿用 JARVIS-Leaderboard 固定训练、验证、测试划分，表1和表2报告多性质 MAE。",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2609.19487",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
-    "saturation": {
-      "value": "待核实",
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2023-06-21T02:07:07+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2024-03-26T19:40:28+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
+          "accessed": "2026-11-08"
+        }
+      ],
+      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+    },
+    "saturation": {
+      "value": "不存在平台级饱和率：三个抽查的dft_3d性质子榜仍报告非零MAE，但误差不能跨单位合成；是否接近物理精度上限需各任务证据。",
+      "sources": [
         {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "不同ES泛函/实验条件不是同一真值；预训练力场和固定训练集模型的训练暴露不同；可复现元数据与Actions最小检查不等于独立验证全部科学结论。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -745,19 +626,23 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -792,43 +677,165 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "kgcnn_coGN",
-          "score": 0.0271,
-          "unit": "待核实",
+          "score": "0.0271",
+          "unit": "eV/atom",
           "metric": "MAE（越低越好）",
-          "scope": "dft_3d_formation_energy_peratom；首页示例条目，非全平台总排名"
+          "track": "dft_3d_formation_energy_peratom / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
-          "model": "kgcnn_coGN",
-          "score": 0.1219,
-          "unit": "待核实",
+          "rank": 2,
+          "model": "kgcnn_coNGN",
+          "score": "0.0291",
+          "unit": "eV/atom",
           "metric": "MAE（越低越好）",
-          "scope": "dft_3d_optb88vdw_bandgap；首页示例条目"
+          "track": "dft_3d_formation_energy_peratom / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
-          "model": "kgcnn_coGN",
-          "score": 0.0262,
-          "unit": "待核实",
+          "rank": 3,
+          "model": "potnet",
+          "score": "0.0293",
+          "unit": "eV/atom",
           "metric": "MAE（越低越好）",
-          "scope": "dft_3d_optb88vdw_total_energy；首页示例条目"
+          "track": "dft_3d_formation_energy_peratom / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "06-02-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
+        },
+        {
+          "rank": 1,
+          "model": "kgcnn_coGN",
+          "score": "0.1219",
+          "unit": "eV",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_bandgap / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
+        },
+        {
+          "rank": 2,
+          "model": "potnet",
+          "score": "0.1246",
+          "unit": "eV",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_bandgap / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "06-02-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
+        },
+        {
+          "rank": 3,
+          "model": "kgcnn_coNGN",
+          "score": "0.1267",
+          "unit": "eV",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_bandgap / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
+        },
+        {
+          "rank": 1,
+          "model": "kgcnn_coGN",
+          "score": "0.0262",
+          "unit": "待核实（此任务页未明确每原子归一化）",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_total_energy / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
+        },
+        {
+          "rank": 2,
+          "model": "kgcnn_coNGN",
+          "score": "0.0273",
+          "unit": "待核实（此任务页未明确每原子归一化）",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_total_energy / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "05-06-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
+        },
+        {
+          "rank": 3,
+          "model": "potnet",
+          "score": "0.0321",
+          "unit": "待核实（此任务页未明确每原子归一化）",
+          "metric": "MAE（越低越好）",
+          "track": "dft_3d_optb88vdw_total_energy / test",
+          "dataset": "dft_3d",
+          "dataset_total_size": "55713",
+          "source_submitted_label": "06-02-2023",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
+          "snapshot_date": "2026-11-08 KST",
+          "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
         }
       ],
       "sources": [
         {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2306.11688",
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "首页示例条目（不是全平台总排名）：dft_3d_formation_energy_peratom：kgcnn_coGN MAE 0.0271；dft_3d_optb88vdw_bandgap：kgcnn_coGN MAE 0.1219；dft_3d_optb88vdw_total_energy：kgcnn_coGN MAE 0.0262。"
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "2026-11-07 官网示例表快照；每个性质有独立任务页，不能合成总冠军。页面整体更新日期待核实。",
+      "value": "直接打开三个性质任务页，按MAE从小到大提取各自前三名；formation energy单位eV/atom与bandgap单位eV可由论文确认，total_energy归一化单位仍待核实，不猜填。三条轨不可合成平台总榜。",
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2306.11688",
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "contact": {
@@ -909,19 +916,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 1781869,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": {
@@ -974,6 +982,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
       }
     ],
     "sources": [
@@ -984,6 +997,14 @@
       {
         "url": "https://arxiv.org/pdf/2306.11688",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/abs/2306.11688",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://pages.nist.gov/jarvis_leaderboard/",
+        "accessed": "2026-11-08"
       }
     ]
   },

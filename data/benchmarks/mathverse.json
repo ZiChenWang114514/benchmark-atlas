@@ -30,22 +30,24 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "公开testmini评测集（788原题；五多模态版本+单独Text Only消融）；完整构建集为2,612原题。",
       "sources": [
         {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -174,19 +176,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文作者单位为CUHK MMLab、Shanghai AI Laboratory及UCLA；按署名记录，不扩大为其他合作协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -210,11 +206,15 @@
       ]
     },
     "maintainer": {
-      "value": "ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）",
+      "value": "官方公开维护入口ZrrSkywalker/MathVerse，LICENSE署名Renrui Zhang；责任人分工不从GitHub名称推定。",
       "sources": [
         {
           "url": "https://github.com/ZrrSkywalker/MathVerse",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/ZrrSkywalker/MathVerse/blob/main/LICENSE",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -312,19 +312,17 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "从公开题源和已有基准收集，再人工改写图文信息；六版本控制的是可见信息量，不是训练集污染检测。原论文未给可验证的全体前沿模型无污染保证。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -368,15 +366,11 @@
       ]
     },
     "languages": {
-      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "value": "英语题面与提示（数据卡language与公开样例）；不把题源网站的原始语种自动算成数据集语言。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -460,75 +454,78 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "公开评测仍按testmini及testmini_text_only两配置；论文2,612原题总量与HF 3,940+788版本化行数各有不同分母。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": {
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2024-03-22T02:59:50+09:00"
+            "submitted_at": "2024-03-22T02:59:50+09:00",
+            "timezone": "Asia/Seoul (KST)"
           },
           {
             "version": "v2",
-            "date_kst": "2024-08-18T17:10:16+09:00"
+            "submitted_at": "2024-08-18T17:10:16+09:00",
+            "timezone": "Asia/Seoul (KST)"
           }
         ],
-        "continued_use_2026h2": [
-          {
-            "url": "https://arxiv.org/html/2610.01352v2",
-            "date": "2026-10-22",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-          }
-        ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        "previous_evidence": {
+          "revisions": [
+            {
+              "version": "v1",
+              "date_kst": "2024-03-22T02:59:50+09:00"
+            },
+            {
+              "version": "v2",
+              "date_kst": "2024-08-18T17:10:16+09:00"
+            }
+          ],
+          "continued_use_2026h2": [
+            {
+              "url": "https://arxiv.org/html/2610.01352v2",
+              "date": "2026-10-22",
+              "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            }
+          ],
+          "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        }
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "saturation": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+    },
+    "saturation": {
+      "value": "官方testmini w/o CoT-E表最高61.7%，不能把另列CoT-E分数混入判断，也不能代替完整2,612原题的未发布评测结论。",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "contamination_and_issues": {
       "value": "六种版本、CoT-E/w/o及All定义须固定；3,940多模态样本和788原题不是题量冲突。",
@@ -548,28 +545,22 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "六种图文版本是同一原题的信息消融，不作六套独立基准；lmms-eval的mathverse_testmini是实现入口，亦不扩充基准计数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://mathverse-cuhk.github.io/#leaderboard",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -596,28 +587,6 @@
     "results": {
       "value": [
         {
-          "model": "VL-Rethinker-72B",
-          "score": 61.7,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "testmini，All w/o CoT-E",
-          "date": "2025-04-10",
-          "accessed": "2026-11-07",
-          "source_url": "https://mathverse-cuhk.github.io/",
-          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
-        },
-        {
-          "model": "VL-Rethinker-7B",
-          "score": 54.2,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "testmini，All w/o CoT-E",
-          "date": "2025-04-10",
-          "accessed": "2026-11-07",
-          "source_url": "https://mathverse-cuhk.github.io/",
-          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
-        },
-        {
           "model": "MMVistaReason-4B (MVR-4B)",
           "score": 79.7,
           "unit": "%",
@@ -626,7 +595,8 @@
           "date": "2026-10-22",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "track": "历史研究论文 / 保留原采集日期"
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -637,34 +607,791 @@
           "date": "2026-10-22",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "track": "历史研究论文 / 保留原采集日期"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-4V",
+          "score": "54.4%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "63.1",
+            "Text Lite": "56.6",
+            "Text Only（消融，不计All）": "60.3",
+            "Vision Intensive": "51.4",
+            "Vision Dominant": "50.8",
+            "Vision Only": "50.3"
+          }
+        },
+        {
+          "rank": 2,
+          "model": "Qwen-VL-Max",
+          "score": "37.2%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "42.8",
+            "Text Lite": "37.7",
+            "Text Only（消融，不计All）": "47.9",
+            "Vision Intensive": "33.6",
+            "Vision Dominant": "35.9",
+            "Vision Only": "35.9"
+          }
+        },
+        {
+          "rank": 3,
+          "model": "Gemini-Pro",
+          "score": "35.3%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "39.8",
+            "Text Lite": "34.7",
+            "Text Only（消融，不计All）": "44.5",
+            "Vision Intensive": "32.0",
+            "Vision Dominant": "36.8",
+            "Vision Only": "33.3"
+          }
+        },
+        {
+          "rank": 4,
+          "model": "LLaVA-NeXT-34B",
+          "score": "34.6%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-30",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "49.0",
+            "Text Lite": "37.6",
+            "Text Only（消融，不计All）": "30.1",
+            "Vision Intensive": "35.2",
+            "Vision Dominant": "28.9",
+            "Vision Only": "22.4"
+          }
+        },
+        {
+          "rank": 5,
+          "model": "InternLM-XComposer2-VL-7B",
+          "score": "25.9%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-22",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "36.9",
+            "Text Lite": "28.3",
+            "Text Only（消融，不计All）": "42.5",
+            "Vision Intensive": "20.1",
+            "Vision Dominant": "24.4",
+            "Vision Only": "19.8"
+          }
+        },
+        {
+          "rank": 6,
+          "model": "SPHINX-MoE",
+          "score": "22.8%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-10-03",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "33.3",
+            "Text Lite": "21.9",
+            "Text Only（消融，不计All）": "40.7",
+            "Vision Intensive": "21.1",
+            "Vision Dominant": "19.6",
+            "Vision Only": "18.3"
+          }
+        },
+        {
+          "rank": 7,
+          "model": "Qwen-VL-Plus",
+          "score": "21.3%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "26.0",
+            "Text Lite": "21.2",
+            "Text Only（消融，不计All）": "25.2",
+            "Vision Intensive": "18.5",
+            "Vision Dominant": "19.1",
+            "Vision Only": "21.8"
+          }
+        },
+        {
+          "rank": 8,
+          "model": "ShareGPT4V-13B",
+          "score": "17.4%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "21.8",
+            "Text Lite": "20.6",
+            "Text Only（消融，不计All）": "14.6",
+            "Vision Intensive": "18.6",
+            "Vision Dominant": "16.2",
+            "Vision Only": "9.7"
+          }
+        },
+        {
+          "rank": 9,
+          "model": "LLaVA-NeXT-13B",
+          "score": "17.2%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-13",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "21.6",
+            "Text Lite": "19.7",
+            "Text Only（消融，不计All）": "25.1",
+            "Vision Intensive": "17.6",
+            "Vision Dominant": "14.9",
+            "Vision Only": "12.1"
+          }
+        },
+        {
+          "rank": 10,
+          "model": "G-LLaVA-13B",
+          "score": "16.4%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "23.6",
+            "Text Lite": "18.9",
+            "Text Only（消融，不计All）": "22.6",
+            "Vision Intensive": "17.1",
+            "Vision Dominant": "13.5",
+            "Vision Only": "8.9"
+          }
+        },
+        {
+          "rank": 11,
+          "model": "G-LLaVA-7B",
+          "score": "15.7%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "22.2",
+            "Text Lite": "20.4",
+            "Text Only（消融，不计All）": "21.6",
+            "Vision Intensive": "16.5",
+            "Vision Dominant": "12.7",
+            "Vision Only": "6.6"
+          }
+        },
+        {
+          "rank": 12,
+          "model": "SPHINX-Plus",
+          "score": "14.0%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "16.3",
+            "Text Lite": "12.8",
+            "Text Only（消融，不计All）": "15.8",
+            "Vision Intensive": "12.9",
+            "Vision Dominant": "14.7",
+            "Vision Only": "13.2"
+          }
+        },
+        {
+          "rank": 13,
+          "model": "LLaVA-1.5-13B",
+          "score": "12.7%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "17.1",
+            "Text Lite": "12.0",
+            "Text Only（消融，不计All）": "22.6",
+            "Vision Intensive": "12.6",
+            "Vision Dominant": "12.7",
+            "Vision Only": "9.0"
+          }
+        },
+        {
+          "rank": 14,
+          "model": "MiniGPT-v2-7B",
+          "score": "10.9%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "13.2",
+            "Text Lite": "12.7",
+            "Text Only（消融，不计All）": "15.3",
+            "Vision Intensive": "11.1",
+            "Vision Dominant": "11.3",
+            "Vision Only": "6.4"
+          }
+        },
+        {
+          "rank": 15,
+          "model": "mPLUG-Owl2-7B",
+          "score": "10.3%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "11.6",
+            "Text Lite": "11.4",
+            "Text Only（消融，不计All）": "13.8",
+            "Vision Intensive": "11.1",
+            "Vision Dominant": "9.4",
+            "Vision Only": "8.0"
+          }
+        },
+        {
+          "rank": 16,
+          "model": "ImageBind-LLM",
+          "score": "10.0%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "13.2",
+            "Text Lite": "11.6",
+            "Text Only（消融，不计All）": "12.9",
+            "Vision Intensive": "9.8",
+            "Vision Dominant": "11.8",
+            "Vision Only": "3.5"
+          }
+        },
+        {
+          "rank": 17,
+          "model": "LLaMA-Adapter V2",
+          "score": "5.8%",
+          "metric": "官方All CoT-E",
+          "track": "官方testmini / All CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "7.8",
+            "Text Lite": "6.3",
+            "Text Only（消融，不计All）": "3.9",
+            "Vision Intensive": "6.2",
+            "Vision Dominant": "4.5",
+            "Vision Only": "4.4"
+          }
+        },
+        {
+          "rank": 1,
+          "model": "Human Performance*",
+          "score": "64.9%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-10-03",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "71.2",
+            "Text Lite": "70.9",
+            "Text Only（消融，不计All）": "41.7",
+            "Vision Intensive": "61.4",
+            "Vision Dominant": "68.3",
+            "Vision Only": "66.7"
+          }
+        },
+        {
+          "rank": 2,
+          "model": "VL-Rethinker-72B",
+          "score": "61.7%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2025-04-10",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "-",
+            "Text Lite": "-",
+            "Text Only（消融，不计All）": "-",
+            "Vision Intensive": "-",
+            "Vision Dominant": "-",
+            "Vision Only": "-"
+          }
+        },
+        {
+          "rank": 3,
+          "model": "VL-Rethinker-7B",
+          "score": "54.2%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2025-04-10",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "-",
+            "Text Lite": "-",
+            "Text Only（消融，不计All）": "-",
+            "Vision Intensive": "-",
+            "Vision Dominant": "-",
+            "Vision Only": "-"
+          }
+        },
+        {
+          "rank": 4,
+          "model": "GPT-4V",
+          "score": "39.4%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "54.7",
+            "Text Lite": "41.4",
+            "Text Only（消融，不计All）": "48.7",
+            "Vision Intensive": "34.9",
+            "Vision Dominant": "34.4",
+            "Vision Only": "31.6"
+          }
+        },
+        {
+          "rank": 5,
+          "model": "Qwen-VL-Max",
+          "score": "25.3%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "30.7",
+            "Text Lite": "26.1",
+            "Text Only（消融，不计All）": "28.9",
+            "Vision Intensive": "24.1",
+            "Vision Dominant": "24.1",
+            "Vision Only": "21.4"
+          }
+        },
+        {
+          "rank": 6,
+          "model": "LLaVA-NeXT-34B",
+          "score": "23.8%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-30",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "33.8",
+            "Text Lite": "25.5",
+            "Text Only（消融，不计All）": "21.3",
+            "Vision Intensive": "23.5",
+            "Vision Dominant": "20.3",
+            "Vision Only": "15.7"
+          }
+        },
+        {
+          "rank": 7,
+          "model": "Gemini-Pro",
+          "score": "23.5%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "26.3",
+            "Text Lite": "23.5",
+            "Text Only（消融，不计All）": "27.3",
+            "Vision Intensive": "23.0",
+            "Vision Dominant": "22.3",
+            "Vision Only": "22.2"
+          }
+        },
+        {
+          "rank": 8,
+          "model": "G-LLaVA-13B",
+          "score": "16.9%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "21.2",
+            "Text Lite": "20.9",
+            "Text Only（消融，不计All）": "22.3",
+            "Vision Intensive": "17.7",
+            "Vision Dominant": "14.8",
+            "Vision Only": "10.0"
+          }
+        },
+        {
+          "rank": 9,
+          "model": "G-LLaVA-7B",
+          "score": "16.6%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "20.9",
+            "Text Lite": "20.7",
+            "Text Only（消融，不计All）": "21.1",
+            "Vision Intensive": "17.2",
+            "Vision Dominant": "14.6",
+            "Vision Only": "9.4"
+          }
+        },
+        {
+          "rank": 10,
+          "model": "InternLM-XComposer2-VL-7B",
+          "score": "16.5%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-22",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "22.3",
+            "Text Lite": "17.0",
+            "Text Only（消融，不计All）": "16.5",
+            "Vision Intensive": "15.7",
+            "Vision Dominant": "16.4",
+            "Vision Only": "11.0"
+          }
+        },
+        {
+          "rank": 11,
+          "model": "LLaVA-NeXT-13B",
+          "score": "15.6%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2024-01-13",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "19.4",
+            "Text Lite": "15.2",
+            "Text Only（消融，不计All）": "18.1",
+            "Vision Intensive": "16.8",
+            "Vision Dominant": "15.2",
+            "Vision Only": "11.3"
+          }
+        },
+        {
+          "rank": 12,
+          "model": "SPHINX-MoE",
+          "score": "15.0%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-10-03",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "22.2",
+            "Text Lite": "16.4",
+            "Text Only（消融，不计All）": "18.3",
+            "Vision Intensive": "14.8",
+            "Vision Dominant": "12.6",
+            "Vision Only": "9.1"
+          }
+        },
+        {
+          "rank": 13,
+          "model": "ShareGPT4V-13B",
+          "score": "13.1%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "16.2",
+            "Text Lite": "16.2",
+            "Text Only（消融，不计All）": "6.6",
+            "Vision Intensive": "15.5",
+            "Vision Dominant": "13.8",
+            "Vision Only": "3.7"
+          }
+        },
+        {
+          "rank": 14,
+          "model": "Random Chance",
+          "score": "12.4%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-10-03",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "12.4",
+            "Text Lite": "12.4",
+            "Text Only（消融，不计All）": "12.4",
+            "Vision Intensive": "12.4",
+            "Vision Dominant": "12.4",
+            "Vision Only": "12.4"
+          }
+        },
+        {
+          "rank": 15,
+          "model": "SPHINX-Plus",
+          "score": "12.2%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "13.9",
+            "Text Lite": "11.6",
+            "Text Only（消融，不计All）": "14.9",
+            "Vision Intensive": "11.6",
+            "Vision Dominant": "13.5",
+            "Vision Only": "10.4"
+          }
+        },
+        {
+          "rank": 16,
+          "model": "Qwen-VL-Plus",
+          "score": "11.8%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "15.7",
+            "Text Lite": "11.1",
+            "Text Only（消融，不计All）": "14.5",
+            "Vision Intensive": "9.0",
+            "Vision Dominant": "13.0",
+            "Vision Only": "10.0"
+          }
+        },
+        {
+          "rank": 17,
+          "model": "MiniGPT-v2-7B",
+          "score": "11.0%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "12.1",
+            "Text Lite": "12.0",
+            "Text Only（消融，不计All）": "11.7",
+            "Vision Intensive": "13.1",
+            "Vision Dominant": "10.3",
+            "Vision Only": "7.4"
+          }
+        },
+        {
+          "rank": 18,
+          "model": "ImageBind-LLM",
+          "score": "9.2%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "11.4",
+            "Text Lite": "11.3",
+            "Text Only（消融，不计All）": "11.7",
+            "Vision Intensive": "8.9",
+            "Vision Dominant": "11.2",
+            "Vision Only": "3.4"
+          }
+        },
+        {
+          "rank": 19,
+          "model": "LLaVA-1.5-13B",
+          "score": "7.6%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "8.8",
+            "Text Lite": "7.6",
+            "Text Only（消融，不计All）": "11.5",
+            "Vision Intensive": "7.4",
+            "Vision Dominant": "7.4",
+            "Vision Only": "6.9"
+          }
+        },
+        {
+          "rank": 20,
+          "model": "mPLUG-Owl2-7B",
+          "score": "5.9%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "6.6",
+            "Text Lite": "6.3",
+            "Text Only（消融，不计All）": "6.1",
+            "Vision Intensive": "6.3",
+            "Vision Dominant": "5.6",
+            "Vision Only": "4.9"
+          }
+        },
+        {
+          "rank": 21,
+          "model": "LLaMA-Adapter V2",
+          "score": "5.7%",
+          "metric": "官方All w/o",
+          "track": "官方testmini / All w/o CoT-E",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "source_model_date": "2023-12-26",
+          "result_type": "本次可读官方表；All排除Text Only",
+          "breakdown": {
+            "Text Dominant": "6.2",
+            "Text Lite": "5.9",
+            "Text Only（消融，不计All）": "2.7",
+            "Vision Intensive": "6.1",
+            "Vision Dominant": "4.2",
+            "Vision Only": "6.1"
+          }
         }
       ],
       "sources": [
         {
           "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "完整转录官方可读All CoT-E与w/o两条赛道，并保存六版本单元格；Text Only仅消融，不算五版本All。保留已有H2论文记录及旧采集日，不当本次重测或全球SOTA。",
       "sources": [
         {
           "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -735,17 +1462,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2403.14624",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "下载原始字节校验，未压缩、未改写。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 5598195,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2403.14624",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -800,6 +1527,29 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.paper_version",
+          "basic_info.version",
+          "construction.decontamination",
+          "data_format.languages",
+          "latest_status.checked_at",
+          "latest_status.derivatives",
+          "latest_status.latest_dataset_version",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.maintainer",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
@@ -810,6 +1560,10 @@
       {
         "url": "https://mathverse-cuhk.github.io/",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://mathverse-cuhk.github.io/",
+        "accessed": "2026-11-08"
       }
     ]
   }

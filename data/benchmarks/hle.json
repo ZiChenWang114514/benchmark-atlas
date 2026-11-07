@@ -39,16 +39,16 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2025-01-24（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "value": "2025-01-24T14:27:46+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -74,17 +74,20 @@
     },
     "license": {
       "value": {
-        "code": "MIT（centerforaisafety/hle仓库LICENSE）",
-        "dataset": "待核实（数据卡本轮返回401，不能由代码MIT推断题集许可）"
+        "code": "MIT",
+        "dataset_metadata": "HF数据卡标注MIT",
+        "additional_notice": "数据卡同时要求不要公开分享、重新上传或分发题集，并禁止进入训练语料；使用前应核对这些完整条件，不只看MIT标签。"
       },
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/centerforaisafety/hle/main/LICENSE",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/centerforaisafety/hle/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cais/hle",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "代码许可已核实；数据集许可仍待核实，本字段为部分完成，不计为授权全部核清。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2501.14249",
@@ -1351,15 +1354,17 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Center for AI Safety 与 Scale AI 组织团队；公开代码由centerforaisafety/hle维护。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
+          "url": "https://lastexam.ai",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/centerforaisafety/hle/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -1561,15 +1566,15 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2501.14249",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2609.19134v1",
-          "accessed": "2026-11-07"
+          "url": "https://lastexam.ai",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -1587,46 +1592,88 @@
       ]
     },
     "paper_revision_history": {
-      "value": {
-        "arxiv_version": "arXiv v12",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2609.19134v1",
-            "date": "2026-09-16",
-            "note": "ScienceIDE §4.1–4.2引用 HLE（Phan等2025，arXiv:2501.14249）作为广泛专家问题评价；本证据为H2学术引用，不是本文新跑HLE。"
-          }
-        ]
-      },
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2025-01-24T14:27:46+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2025-02-06T10:07:03+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v3",
+          "submitted_at": "2025-02-12T14:39:05+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v4",
+          "submitted_at": "2025-02-19T15:36:17+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v5",
+          "submitted_at": "2025-02-21T10:12:25+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v6",
+          "submitted_at": "2025-04-11T12:34:49+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v7",
+          "submitted_at": "2025-04-20T06:49:12+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v8",
+          "submitted_at": "2025-09-12T13:08:53+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v9",
+          "submitted_at": "2025-09-26T04:27:10+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v10",
+          "submitted_at": "2026-02-20T13:23:01+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v11",
+          "submitted_at": "2026-07-29T01:21:19+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v12",
+          "submitted_at": "2026-10-19T12:43:51+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19134v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官网明确以Diamond为原HLE接近噪声上限时的迁移路径；本轮原HLE官网最高38.3%，AA纯文本子集最高61.4%。不同轨道不能据此推断统一的饱和阈值。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+      ]
     },
     "contamination_and_issues": {
       "value": "v12附录给审计样本的专家分歧率15.4%；生化健康子集约18%，是作者描述的disagreement，不等于全部标签错误率。",
@@ -1642,30 +1689,30 @@
       ]
     },
     "derivatives": {
-      "value": "HLE-Rolling动态分支拟持续修订；不能把原始HLE、Rolling和AA文本子集视为同一版本。",
+      "value": "HLE-Rolling（2025-10-08动态分支）；HLE-Diamond（2026-09-22发布、1000题清洗子集）。两者不改变本条原HLE 2500题的范围。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
+          "url": "https://lastexam.ai",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -1694,93 +1741,88 @@
     "results": {
       "value": [
         {
-          "model_version": "Gemini 3 Pro",
+          "rank": 1,
+          "model": "Gemini 3 Pro",
           "score": "38.3",
-          "unit": "%",
-          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "metric": "Accuracy (%)",
+          "track": "原HLE官网：原2500题，o3-mini judge，Dataset Updated April 3rd 2025",
           "source_url": "https://lastexam.ai",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+          "source_date": "待核实（官网只列数据更新时间，未列各次运行日期）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
-          "model_version": "GPT-5",
+          "rank": 2,
+          "model": "GPT-5",
           "score": "25.3",
-          "unit": "%",
-          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "metric": "Accuracy (%)",
+          "track": "原HLE官网：原2500题，o3-mini judge，Dataset Updated April 3rd 2025",
           "source_url": "https://lastexam.ai",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+          "source_date": "待核实（官网只列数据更新时间，未列各次运行日期）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
-          "model_version": "Grok 4",
+          "rank": 3,
+          "model": "Grok 4",
           "score": "24.5",
-          "unit": "%",
-          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "metric": "Accuracy (%)",
+          "track": "原HLE官网：原2500题，o3-mini judge，Dataset Updated April 3rd 2025",
           "source_url": "https://lastexam.ai",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+          "source_date": "待核实（官网只列数据更新时间，未列各次运行日期）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
-          "model_version": "Gemini 3 Pro",
-          "score": "38.3",
-          "unit": "%",
-          "scope_and_protocol": "官方页面；模型确切checkpoint与测量日期未标明；不是本轮新跑分",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://lastexam.ai",
-          "source_class": "一级：官方榜（可能为历史结果）",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-        },
-        {
-          "model_version": "GPT-5",
-          "score": "25.3",
-          "unit": "%",
-          "scope_and_protocol": "官方页面，原样展示名",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://lastexam.ai",
-          "source_class": "一级：官方榜（可能为历史结果）",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-        },
-        {
-          "model_version": "Claude Opus 5.5 (Max, Default Fallback)",
+          "rank": 1,
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": "61.4",
-          "unit": "%",
-          "scope_and_protocol": "AA 2158题text-only pass@1；不可与前两行混排",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "metric": "Accuracy (%)",
+          "track": "AA独立评测：2158题text-only，pass@1",
           "source_url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "source_date": "待核实（本轮页面快照）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5.1 (Max, Default Fallback)",
+          "score": "59.1",
+          "metric": "Accuracy (%)",
+          "track": "AA独立评测：2158题text-only，pass@1",
+          "source_url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+          "source_date": "待核实（本轮页面快照）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+          "score": "58.7",
+          "metric": "Accuracy (%)",
+          "track": "AA独立评测：2158题text-only，pass@1",
+          "source_url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+          "source_date": "待核实（本轮页面快照）",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         }
       ],
       "sources": [
         {
           "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（页面只列数据更新时间2025-04-03）；2026-11-07仅为采集日期（Asia/Seoul）。",
+      "value": "删除重复官网结果；官网原始多模态轨和AA 2158纯文本轨各自编号。官网2025-04-03是题集更新日，不能当当前模型测量日期。",
       "sources": [
         {
           "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -1861,18 +1903,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2501.14249",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 2021060,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2501.14249",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": {
@@ -1923,12 +1967,25 @@
           "leaderboard.results",
           "leaderboard.coverage_note"
         ]
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
       }
     ],
     "sources": [
       {
         "url": "https://lastexam.ai",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/abs/2501.14249",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://lastexam.ai",
+        "accessed": "2026-11-08"
       }
     ]
   }

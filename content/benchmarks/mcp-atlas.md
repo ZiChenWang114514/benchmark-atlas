@@ -1,8 +1,10 @@
 # MCP Atlas
 
-> 核验日期：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未知不等于未公开。热度与成绩快照分开记录。
+> Benchmark Constitution｜2026-11-08 KST（Asia/Seoul）深度复核。访问日期不等于实验运行日期；历史来源日期保持原记录。
 
-编辑状态：官方存在性已核验；字段级研究快照；note: trending: A
+MCP-Atlas要求Agent从含干扰项的工具菜单中发现工具，跨真实MCP服务器完成任务并给出有证据支持的最终回答。它不是模拟API单次函数调用测试：1,000任务各自有claim rubric，500题公开、500题保留私有。
+
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md](https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md)（访问2026-11-08 KST）
 
 ## 基本信息
 
@@ -10,211 +12,236 @@
 
 MCP Atlas
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ### 全称
 
 MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 基准版本
+### 版本与作用域
 
-2026年4月更新评测协议（非确认的数据集语义版本）
+数据仍为原始1,000任务/500公开；当前公开harness CHANGELOG标v2.0.0，环境镜像README使用1.2.7；2026年4月榜单评测协议另列，三者不等同。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/CHANGELOG.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/CHANGELOG.md)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md](https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 论文版本
+### 论文/报告版本
 
-待核实
+arXiv v3（2026-05-20 08:26:22 KST）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+### 首次公开日期
 
-### 发布日期
+2026-02-01 08:19:39 KST（arXiv v1；原站UTC日历为2026-01-31）
 
-待核实
-
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ### 主板块
 
 Agent
 
-> Benchmark Atlas 编辑分类。
+说明：Benchmark Constitution 编辑分类。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 领域标签
+### 子领域
 
-暂无额外编辑标签。
+```json
+[]
+```
 
-> 编辑标签；空列表表示尚未补充细分标签。
+说明：编辑标签；空列表表示尚未补充细分标签。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 许可证
+### 许可与权利边界
 
-数据CC BY 4.0；harness与claims evaluator代码Apache 2.0；上游MCP服务保持各自许可证。
+数据卡明确CC BY 4.0。代码许可存在来源冲突：当前仓库根LICENSE是MIT，论文v3附录C.4仍称harness和claims evaluator为Apache 2.0。对当前仓库快照以实际MIT文件为准，论文所述历史授权并列保留；上游MCP服务与工具输出另受各自条款约束。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/LICENSE](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/LICENSE)（访问2026-11-08 KST）；[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md](https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md)（访问2026-11-08 KST）
 
-### 论文入口
+### 论文/报告入口
 
 https://arxiv.org/abs/2602.00933
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ### 官方代码
 
 https://github.com/scaleapi/mcp-atlas
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 数据地址
+### 数据入口
 
 https://huggingface.co/datasets/ScaleAI/MCP-Atlas
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 官方入口
+### 官方主页
 
 https://labs.scale.com/leaderboard/mcp_atlas
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 论文标题
+### 论文/报告标题
 
 MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）；[来源3](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ## 发起与维护
 
-### 发起机构
+### 研究发起团队
 
 Scale AI
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 合作方
+### 合作研究机构与顾问
 
-待核实
+National University of Singapore（共同第一作者Chaithanya Bandi的署名单位）；其余作者署名Scale AI。
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
 ### 作者
 
-- Chaithanya Bandi
-- Razvan-Gabriel Dumitru
-- Ben Hertzberg
-- Divyansh Agarwal（等；完整作者见原论文）
+```json
+[
+  "Chaithanya Bandi",
+  "Razvan-Gabriel Dumitru",
+  "Ben Hertzberg",
+  "Divyansh Agarwal",
+  "Geobio Boo",
+  "Tejas Polakam",
+  "Sami Hassaan",
+  "Jeff Da",
+  "HiJae Kim",
+  "Vipul Gupta",
+  "Manasi Sharma",
+  "Andrew Park",
+  "Martin Dimakis",
+  "Ernesto Gabriel Hernández Montoya",
+  "Dan Rambado",
+  "Ivan Salazar",
+  "Rafael Cruz",
+  "MohammadHossein Rezaei",
+  "Chetan Rane",
+  "Ben Levin",
+  "Daniel Yue Zhang",
+  "Brad Kenstler",
+  "Bing Liu"
+]
+```
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）
 
 ### 维护方
 
 Scale Research
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 资助
+### 资助方
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ## 设计目标
 
-### 衡量能力
+### 测量能力
 
 工具发现、参数构造、跨MCP服务器编排、错误恢复及最终证据综合。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-### 设计背景
+### 设计动机
 
 避免仅测简单函数调用、模拟API、小工具池或轨迹匹配；以真实多步流程和答案claims评分。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ## 构建方式
 
-### 题目来源
+### 材料来源
 
 人工编写、验证的自然语言任务；不在prompt中直接指定服务器、工具或参数。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-### 出题者背景
+### 命题与标注背景
 
 领域专家编写与审核。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ### 审核流程
 
 参考轨迹实跑、领域审核、提示泄露检查、LLM claims一致性检查和随机人工审计五层质量流程。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ### 质量控制
 
-Docker真实MCP服务、固定有状态数据、版本锁定与每任务重启；参考轨迹只用于诊断不用于轨迹匹配评分。
+五层检查：专家实跑参考轨迹、领域审核、提示工具/服务器名泄漏复审、LLM验证claims完整性与轨迹一致性、随机人工审计。环境固定数据与容器版本；最终成功依据claims而非轨迹精确匹配。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
-### 去污染
+### 去污染与留出
 
 500公开/500私有随机划分；公开私有分数差仅是曝光审计信号，不是污染的直接证据。
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ## 数据形式
 
-### 题量与规模
+### 规模与统计对象
 
-1,000任务、36真实MCP服务器、220工具。
+论文v3与HF基准定义：1,000任务、36真实MCP服务器、220工具；公开任务500。当前README链接的服务完整清单另称307工具，不以运行环境可用工具总数替换基准实际覆盖220工具。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md](https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）
 
-### 题型
+### 题型与字段
 
 单轮自然语言指令，多次工具调用；字段TASK、ENABLED_TOOLS、PROMPT、GTFA_CLAIMS、TRAJECTORY。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）
 
 ### 模态
 
-- 文本
-- 工具结构化输入输出
+```json
+[
+  "文本",
+  "工具结构化输入输出"
+]
+```
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）
 
 ### 语言
 
 英语；非英语工具使用不在原论文范围内。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）
 
-### 难度
+### 难度与覆盖
 
 多数跨服务器与多跳依赖；网页概述3–6调用/任务，论文统计工具暴露6–37、所需工具2–8，与网页10–25暴露工具的概述口径不同。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）
 
-### 公开与隐藏划分
+### 公开/私有与数据划分
 
 500任务公开Parquet；500任务私有留出。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）；[来源3](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas](https://huggingface.co/datasets/ScaleAI/MCP-Atlas)（访问2026-11-07 KST）
 
 ## 评测方法
 
@@ -222,207 +249,1027 @@ Docker真实MCP服务、固定有状态数据、版本锁定与每任务重启�
 
 Pass Rate（coverage≥0.75的任务比例）；Mean Coverage另报。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-### 评分方式
+### 评分与聚合
 
-逐claim给0、0.5或1，任务coverage为均值，≥0.75记通过。网页写Gemini-2.5-Pro、temperature 0；论文主裁判Gemini 3.1 Pro Preview另以GPT-5.4/Opus 4.6做敏感性分析，协议存在来源差异。
+每条claim计0/0.5/1；任务coverage取均值，coverage≥0.75记通过，Pass Rate对任务取平均。论文v3主裁判Gemini 3.1 Pro Preview，并列GPT-5.4/Claude Opus 4.6敏感性实验；当前公开代码默认同为Gemini 3.1 Pro Preview。网页方法旧段仍写Gemini-2.5-Pro/temperature0，不能静默混为同协议。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 提示与运行设置
+### 提示与推理预算
 
-2026年4月网页协议：最多100工具调用，非此前20轮；默认模型配置，不加塑造行为的系统提示。
+网页2026年4月更新为每任务100次工具调用，不再是20轮。当前公开README默认max-turns256、max-tool-calls100、timeout1800秒、不加system prompt；这些公开实现默认值不自动等于网页所有历史提交配置。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 官方评测脚本
+### 官方实现
 
 https://github.com/scaleapi/mcp-atlas
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-### 可比性警示
+### 可比性边界
 
 500公开子集与1,000全量不可混排；100-turn与100-tool-call也非同一预算。网页榜Rank(UB)由置信区间决定，不保证按点估计排序；裁判版本冲突已保留。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
 ## 最新情况
 
-### 为什么近期热门
+### 本轮核验时间
 
-热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。
+2026-11-08 KST / Asia/Seoul
 
-- Scale当前工具使用榜。 [来源](https://labs.scale.com/leaderboard/mcp_atlas)（证据日期 2026-11-07；访问 2026-11-07）
-- 当下可见厂商发布页自报使用500公开子集、100-turn、Gemini 3.1 Pro裁判；正文对应July发布，不能当作8月后的新采纳事件。 [来源](https://www.kimi.com/blog/kimi-k3)（证据日期 2026-11-07；访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 核验日期
+### 当前数据与协议
 
-2026-11-07 KST / Asia/Seoul
+```json
+{
+  "version": "数据仍为原始1,000任务/500公开；当前公开harness CHANGELOG标v2.0.0，环境镜像README使用1.2.7；2026年4月榜单评测协议另列，三者不等同。",
+  "heat_confidence": "A",
+  "evidence_2026_h2": [
+    {
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "date": "2026-11-07",
+      "date_type": "observed_on",
+      "note": "Scale当前工具使用榜。"
+    },
+    {
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "date": "2026-11-07",
+      "date_type": "observed_on",
+      "note": "当下可见厂商发布页自报使用500公开子集、100-turn、Gemini 3.1 Pro裁判；正文对应July发布，不能当作8月后的新采纳事件。"
+    }
+  ]
+}
+```
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/CHANGELOG.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/CHANGELOG.md)（访问2026-11-08 KST）；[https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md](https://huggingface.co/datasets/ScaleAI/MCP-Atlas/raw/main/README.md)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-### 当前版本与2026H2使用证据
+### 论文修订与延续使用证据
 
-- **version**：2026年4月更新评测协议（非确认的数据集语义版本）
-- **heat_confidence**：A
-- **evidence_2026_h2**：[{"url": "https://labs.scale.com/leaderboard/mcp_atlas", "date": "2026-11-07", "date_type": "observed_on", "note": "Scale当前工具使用榜。"}, {"url": "https://www.kimi.com/blog/kimi-k3", "date": "2026-11-07", "date_type": "observed_on", "note": "当下可见厂商发布页自报使用500公开子集、100-turn、Gemini 3.1 Pro裁判；正文对应July发布，不能当作8月后的新采纳事件。"}]
+```json
+[
+  {
+    "version": "v1",
+    "date_kst": "2026-02-01T08:19:39+09:00"
+  },
+  {
+    "version": "v2",
+    "date_kst": "2026-05-04T11:49:08+09:00"
+  },
+  {
+    "version": "v3",
+    "date_kst": "2026-05-20T08:26:22+09:00"
+  }
+]
+```
 
-> 热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）；[来源2](https://www.kimi.com/blog/kimi-k3)（访问 2026-11-07）
+### 饱和判断边界
 
-### 修订历史
+论文最高82.2%；当前网页有更高点估计，但部分前列只显示名次没有数值。网页页首83.6%、旧段62.3%与动态表不一致，因此不拿页首数字充当榜首成绩，也不作已饱和判断。
+
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
+
+### 污染、冲突与复现风险
+
+公开/私有任务分数差是曝光监控信号而非污染定论；实时API漂移、claim噪声与裁判差异限制复现。论文主裁判、当前公开实现与网页旧方法段不完全一致，代码许可亦有冲突，均已显式分列。
+
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/README.md)（访问2026-11-08 KST）；[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/LICENSE](https://raw.githubusercontent.com/scaleapi/mcp-atlas/main/LICENSE)（访问2026-11-08 KST）
+
+### 衍生实现
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
 
-### 饱和情况
-
-待核实
-
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
-
-### 污染与争议
-
-待核实
-
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
-
-### 衍生与版本关系
-
-待核实
-
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ## 榜单快照
 
-### 快照日期
+### 访问快照日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ### 官方榜单入口
 
 https://labs.scale.com/leaderboard/mcp_atlas
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ### 第三方评测入口
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
 
-### 核验结果
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-- {"rank": 1, "model": "Gemini-4-Argon", "score": "待核实（网页缺分数）", "metric": "Pass Rate %; 1000 tasks", "source_url": "https://labs.scale.com/leaderboard/mcp_atlas", "source_date": "2026-04-08（页面自写Updated；可能仅方法更新）", "collected_at": "2026-11-07 KST"}
-- {"rank": 2, "model": "Muse Spark 1.1", "score": 88.1, "metric": "Pass Rate %; 1000 tasks", "source_url": "https://labs.scale.com/leaderboard/mcp_atlas", "source_date": "2026-04-08（页面自写Updated；可能仅方法更新）", "collected_at": "2026-11-07 KST"}
-- {"rank": 3, "model": "Fable 5.1", "score": 87.2, "metric": "Pass Rate %; 1000 tasks", "source_url": "https://labs.scale.com/leaderboard/mcp_atlas", "source_date": "2026-04-08（页面自写Updated；可能仅方法更新）", "collected_at": "2026-11-07 KST"}
+### 分来源、分协议结果
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+```json
+[
+  {
+    "rank": 1,
+    "model": "Gemini-4-Argon",
+    "score": "待核实（网页无数值）",
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": null,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 2,
+    "model": "Muse Spark 1.1",
+    "score": 88.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 1.95,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 3,
+    "model": "Fable 5.1",
+    "score": 87.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 2.05,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 4,
+    "model": "Opus 5.5",
+    "score": "待核实（网页无数值）",
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": null,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 5,
+    "model": "Gemini 3.5 Flash (high)",
+    "score": 83.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 2.3,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 6,
+    "model": "Qwen3.8-2.4T-A95B (xHigh)",
+    "score": 84.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 2.25,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 7,
+    "model": "GLM 5.3",
+    "score": 84.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 2.15,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 8,
+    "model": "claude-opus-5 (xhigh)",
+    "score": 85.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "官方网页 Performance Comparison / All1000 / Rank(UB)",
+    "source_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "accessed": "2026-11-08",
+    "reported_plus_minus": 2.1,
+    "rank_definition": "1 + lower CI超过本模型upper CI的模型数",
+    "source_date": "页面标Updated April 8, 2026；非逐行实测日期"
+  },
+  {
+    "rank": 1,
+    "model": "Muse Spark",
+    "score": 82.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 1,
+    "model": "Muse Spark",
+    "score": 79.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 1,
+    "model": "Muse Spark",
+    "score": 79.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 2,
+    "model": "Claude Opus 4.7",
+    "score": 79.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 3,
+    "model": "Claude Opus 4.7",
+    "score": 75.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 5,
+    "model": "Claude Opus 4.7",
+    "score": 74.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 3,
+    "model": "Gemini 3.1 Pro Preview",
+    "score": 78.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 2,
+    "model": "Gemini 3.1 Pro Preview",
+    "score": 75.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 2,
+    "model": "Gemini 3.1 Pro Preview",
+    "score": 76.4,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 4,
+    "model": "Claude Opus 4.6",
+    "score": 76.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 4,
+    "model": "Claude Opus 4.6",
+    "score": 73.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 4,
+    "model": "Claude Opus 4.6",
+    "score": 74.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 5,
+    "model": "GLM-5.1",
+    "score": 75.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 5,
+    "model": "GLM-5.1",
+    "score": 72.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 3,
+    "model": "GLM-5.1",
+    "score": 75.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 6,
+    "model": "GPT-5.5",
+    "score": 75.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 6,
+    "model": "GPT-5.5",
+    "score": 72.0,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 6,
+    "model": "GPT-5.5",
+    "score": 71.9,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 7,
+    "model": "GPT-5.4",
+    "score": 70.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 7,
+    "model": "GPT-5.4",
+    "score": 68.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 7,
+    "model": "GPT-5.4",
+    "score": 69.9,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 8,
+    "model": "Gemini 3 Pro Preview",
+    "score": 70.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 8,
+    "model": "Gemini 3 Pro Preview",
+    "score": 68.0,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 8,
+    "model": "Gemini 3 Pro Preview",
+    "score": 68.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 9,
+    "model": "Claude Opus 4.5",
+    "score": 69.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 10,
+    "model": "Claude Opus 4.5",
+    "score": 66.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 9,
+    "model": "Claude Opus 4.5",
+    "score": 68.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 10,
+    "model": "Claude Sonnet 4.6",
+    "score": 69.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 9,
+    "model": "Claude Sonnet 4.6",
+    "score": 66.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 10,
+    "model": "Claude Sonnet 4.6",
+    "score": 67.4,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 11,
+    "model": "GPT-5.2",
+    "score": 67.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 11,
+    "model": "GPT-5.2",
+    "score": 65.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 11,
+    "model": "GPT-5.2",
+    "score": 66.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 12,
+    "model": "Kimi K2.5",
+    "score": 64.4,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 12,
+    "model": "Kimi K2.5",
+    "score": 59.9,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 12,
+    "model": "Kimi K2.5",
+    "score": 63.0,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 13,
+    "model": "Gemini 3 Flash Preview",
+    "score": 62.0,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 13,
+    "model": "Gemini 3 Flash Preview",
+    "score": 57.4,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 13,
+    "model": "Gemini 3 Flash Preview",
+    "score": 59.4,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 14,
+    "model": "Claude Sonnet 4.5",
+    "score": 59.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 14,
+    "model": "Claude Sonnet 4.5",
+    "score": 56.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 14,
+    "model": "Claude Sonnet 4.5",
+    "score": 59.0,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 15,
+    "model": "GLM-4.7",
+    "score": 58.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 16,
+    "model": "GLM-4.7",
+    "score": 54.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 17,
+    "model": "GLM-4.7",
+    "score": 55.7,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 16,
+    "model": "Gemini 3.1 Flash Lite Preview",
+    "score": 57.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 17,
+    "model": "Gemini 3.1 Flash Lite Preview",
+    "score": 54.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 16,
+    "model": "Gemini 3.1 Flash Lite Preview",
+    "score": 56.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 17,
+    "model": "GPT-5.4 Mini",
+    "score": 56.7,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 15,
+    "model": "GPT-5.4 Mini",
+    "score": 54.9,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 15,
+    "model": "GPT-5.4 Mini",
+    "score": 57.7,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 18,
+    "model": "GPT-5.1",
+    "score": 50.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 18,
+    "model": "GPT-5.1",
+    "score": 47.9,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 18,
+    "model": "GPT-5.1",
+    "score": 50.8,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 19,
+    "model": "o3 Pro",
+    "score": 44.5,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 19,
+    "model": "o3 Pro",
+    "score": 41.3,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 19,
+    "model": "o3 Pro",
+    "score": 43.6,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 20,
+    "model": "Claude Haiku 4.5",
+    "score": 40.2,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Gemini 3.1 Pro Preview",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 20,
+    "model": "Claude Haiku 4.5",
+    "score": 37.1,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=GPT-5.4",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  },
+  {
+    "rank": 20,
+    "model": "Claude Haiku 4.5",
+    "score": 38.7,
+    "unit": "%",
+    "metric": "Pass Rate (coverage≥0.75)",
+    "track": "论文v3表7 / All1000 / judge=Claude Opus 4.6",
+    "source_url": "https://arxiv.org/pdf/2602.00933",
+    "accessed": "2026-11-08",
+    "result_type": "历史论文实验；每裁判独立赛道"
+  }
+]
+```
 
-### 覆盖与时效说明
+核验状态：待核实
 
-保留网页Rank(UB)原名次；首名数值在提取页面中缺失，不从其他模型或headline 83.6%补齐。正文旧表Muse Spark 82.2%不替代当前榜；最新榜更新日待核实。
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+### 快照覆盖说明
+
+当前网页动态表前8原Rank(UB)与论文v3表7的20模型×3裁判独立记录。网页首名及第四名数值缺失维持待核实，不拿旧正文表或83.6% headline补齐；动态表不能按点估计重新编号，页面Updated日期不保证等于新增模型运行日期。
+
+核验状态：待核实
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）；[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开联系邮箱
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
 
-### 公开反馈渠道
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-待核实
+### 项目反馈入口
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+https://github.com/scaleapi/mcp-atlas/issues
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+说明：GitHub API has_issues=true
 
-### 官方社交渠道
+来源：[https://api.github.com/repos/scaleapi/mcp-atlas](https://api.github.com/repos/scaleapi/mcp-atlas)（访问2026-11-07 KST）
 
-待核实
-
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
-
-### 隐私政策
+### 公开社交渠道
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
+
+### 联系信息原则
+
+待核实
+
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+
+核验状态：待核实
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ## 原始文件
 
-### 源站论文PDF
+### 原始论文/技术报告PDF
 
 https://arxiv.org/pdf/2602.00933
 
-> arXiv论文入口；未归档Drive。
+来源：[https://arxiv.org/abs/2602.00933](https://arxiv.org/abs/2602.00933)（访问2026-11-08 KST）；[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
-[来源1](https://arxiv.org/abs/2602.00933)（访问 2026-11-07）
-
-### 原始PDF SHA-256
+### 本轮PDF SHA-256
 
 2cd00f60d5ac0324ee9edd8693a4a3be61dc3a06c550209310fbf7581917315d
 
-> 本轮实际获取源站PDF字节并计算；未上传Drive。
+说明：本轮下载的arXiv原始字节；不表示已替换Drive中的旧文件。
 
-[来源](https://arxiv.org/pdf/2602.00933)（访问 2026-11-07）
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
-### 原始PDF字节数
+### PDF原始字节数
 
 571240
 
-> 本轮实际获取源站PDF字节并计算；未上传Drive。
+来源：[https://arxiv.org/pdf/2602.00933](https://arxiv.org/pdf/2602.00933)（访问2026-11-08 KST）
 
-[来源](https://arxiv.org/pdf/2602.00933)（访问 2026-11-07）
-
-### Drive资料目录
+### Drive资料夹
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+核验状态：待核实
 
-### 其他官方材料
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
-- {"type": "官方方法/介绍网页（不是论文PDF）", "url": "https://labs.scale.com/leaderboard/mcp_atlas"}
+### 其他官方资料
 
-[来源1](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+```json
+[
+  {
+    "type": "官方方法/介绍网页（不是论文PDF）",
+    "url": "https://labs.scale.com/leaderboard/mcp_atlas"
+  }
+]
+```
 
-### Drive PDF归档
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
+
+### Drive已存PDF
 
 待核实
 
-> 本组只建立本地研究文件，不上传或声明已有Drive PDF。
+说明：本组只建立本地研究文件，不上传或声明已有Drive PDF。
+
+核验状态：待核实
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）
 
 ## 变更记录
 
-- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"}
+### 变更记录
 
-[来源](https://labs.scale.com/leaderboard/mcp_atlas)（访问 2026-11-07）
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul",
+    "change": "核实arXiv v3与首发时刻；补全部作者、v2 harness；显式披露当前MIT/论文Apache2.0及裁判来源冲突；60行三裁判结果。"
+  }
+]
+```
+
+来源：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)（访问2026-11-08 KST）

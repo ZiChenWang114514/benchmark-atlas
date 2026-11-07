@@ -1,17 +1,10 @@
 # HSS
 
-> 近期热门批次核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未核实不等于官方未公开。已核验存在；近期热门新建条目，未核实字段保留标记；trending: B
+> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
 
-原始论文 PDF：待核实
+HSS针对成人直觉可解、但模型容易过度思考的视觉隐含推理：522道人工作答与rubric题，含288图像和234视频。本轮补齐arXiv论文及2026-10-08题卡修订，明确标注MIT只覆盖标注，不覆盖原始媒体。
 
-## 为什么近期热门
-
-HSS 是 Scale 新上线的直觉视觉推理榜。需如实说明：目前热度证据主要来自 Scale 自家榜单（单一机构），尚不能说行业已广泛采纳。
-
-- 2026-11-07 · Scale AI：当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。（[链接](https://labs.scale.com/leaderboard/hss)）
-- 2026-11-07 · Scale AI：Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。（[链接](https://labs.scale.com/leaderboard)）
-
-热度等级：**trending: B**。B级表示目前主要由单一机构在用/展示，不代表行业广泛采纳。
+导读依据：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）；[3](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ## 基本信息
 
@@ -19,35 +12,31 @@ HSS 是 Scale 新上线的直觉视觉推理榜。需如实说明：目前热度
 
 HSS
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 全称
 
 Humanity's Sixth Sense
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 基准版本
 
-冻结版本化发布（522题）
+522题冻结发布；HF更新记录2026-10-08新增全部234视频证据时间窗并修订一个题目提示。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ### 论文版本
 
-待核实
+arXiv v2
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
 ### 发布日期
 
-待核实
+2026-10-07T03:31:35+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
 ### 主板块
 
@@ -55,29 +44,36 @@ Humanity's Sixth Sense
 
 > Benchmark Atlas 编辑归档。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 领域标签
+### 领域
 
-- 直觉视觉推理
-- 视频理解
-- 空间/社会推理
+```json
+[
+  "直觉视觉推理",
+  "视频理解",
+  "空间/社会推理"
+]
+```
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 许可证
+### 许可与使用范围
 
-待核实
+```json
+{
+  "annotations": "MIT：提示、参考答案、rubric、taxonomy标签",
+  "media": "图像/视频不受上述MIT授权覆盖；权利仍归原作者，HF声明仅随基准提供供非商业研究/评测，使用者须遵守原媒体条款。"
+}
+```
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+### 论文入口
 
-### 论文
+https://arxiv.org/abs/2610.08966
 
-https://labs.scale.com/papers/humanitys-sixth-sense
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）；[2](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
 ### 官方代码
 
@@ -85,79 +81,73 @@ https://labs.scale.com/papers/humanitys-sixth-sense
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 数据地址
+### 数据入口
 
 https://huggingface.co/datasets/ScaleAI/HSS
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 官方入口
+### 官方主页
 
 https://labs.scale.com/leaderboard/hss
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 论文标题
 
-Humanity's Sixth Sense
+Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models
 
-> 取官方论文页名称，完整标题待核实。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
 ## 发起与维护
 
-### 机构与发起方
+### 发起方
 
 Scale AI
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 合作方
+### 合作与作者单位
 
-Elorian
+Elorian；另有University of California, Santa Cruz作者单位。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[2](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ### 作者
 
-待核实
+ Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz · *Equal contribution 
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 当前维护方
+### 维护方
 
 Scale AI
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 资助
+### 资助与资源支持
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ## 设计目标
 
-### 衡量能力
+### 测量能力
 
 人类一眼即可推断的隐含时间、空间、社会与抽象结构（因果、轨迹、权力关系、潜规则等）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 设计背景
+### 与既有基准的差异
 
-待核实
+旧视觉基准常侧重专业知识分析或低层感知，缺少对成人一眼可得的隐含时空、社会、因果结构的测量。HSS排除仅靠清晰裁剪即可解决的感知题及专业知识题。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
 ## 构建方式
 
@@ -165,76 +155,74 @@ Scale AI
 
 人类撰写提示，配图像/视频；视频媒体来自公开网络，题目为新撰写
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 出题者背景
 
-待核实
+受训人类标注者原创；题目与答案须满足成人直觉可理解、无需专业学术训练的原则，每题作者外至少三位独立审核者。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）；[2](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ### 审核流程
 
 共撰写3,466题，经三轮独立评审收录522题（15.1%通过率）
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 质量控制
 
-待核实
+三轮独立一致批准；Edit需从头复审，Drop永久剔除。3466→1164→559→522题；删除纯感知、歧义和无法形成共识题。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 去污染
+### 去污染与泄漏控制
 
 题目新撰写，但公开网络媒体可能已在训练数据中，无法完全排除
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ## 数据形式
 
-### 题量与规模
+### 规模与统计口径
 
 522 题：4个领域、11个子领域；288图像题、234视频题（视频总17.6小时，中位76秒，最长28分钟）；723条评分标准
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 题型
 
 自由作答，按 rubric 判分
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 模态
 
-- 图像
-- 视频（无音轨、无字幕）
+```json
+[
+  "图像",
+  "视频（无音轨、无字幕）"
+]
+```
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 语言
 
-待核实
+公开prompt/参考答案及官方提示以英语呈现；完整语种分布统计待核实。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
 ### 难度
 
 人类标注者93.1%；首发最佳模型53.6%，模型中位30.9%
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ### 公开与隐藏划分
 
-数据集在 Hugging Face 开源
+HF仅test split，共522题；视频证据时间窗仅为分析元数据，评测必须输入完整视频，不得只喂证据片段。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ## 评测方法
 
@@ -242,254 +230,295 @@ Scale AI
 
 Pass@1（每题3次尝试平均），附95%聚类 bootstrap 区间；rubric 分作诊断
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 评分
+### 评分规则
 
 Claude-Opus-5 作为自动 LLM 裁判逐条判定
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 提示与运行设置
+### 提示、采样与工具设置
 
-所有模型 high 推理强度与最大输出长度，温度/top-p 用默认
+每模型每题3次；原生视频优先，否则均匀采帧上限500帧并服从提供商更严格上限；图像原分辨率，必要时降采样。官网概述high/最大输出，但当前榜行存在max/xhigh等实际设置，按行保留而非强行改写为全high。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
-### 官方评测脚本
+### 官方脚本
 
 官方评测 harness（含模型注册、评测与评分提示）
 
 > 仓库地址待核实。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 可比性警示
+### 可比性警告
 
 依赖 LLM 裁判，存在自偏好风险；心智理论结果只代表与标注者一致度。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ## 最新情况
 
-### 核查日期
+### 本轮核查时间
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
-### 当前版本与2026年后半年活跃证据
+### 最新数据状态
 
-- **version**：冻结版本化发布（522题）
-- **evidence_2026_h2**：- **url**：https://labs.scale.com/leaderboard/hss
-- **date**：2026-11-07
-- **organization**：Scale AI
-- **note**：当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。
+522题；HF 2026-10-08记录：添加全部234视频时间窗、修订task 6a7f82ad5cfeb63114fa869b提示；不是新增题量。
 
-- **url**：https://labs.scale.com/leaderboard
-- **date**：2026-11-07
-- **organization**：Scale AI
-- **note**：Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。
-- **trending**：- **heat_confidence**：B
-- **summary**：Scale 当前标 New 的图像/视频直觉推理主榜，覆盖最新 GPT 与 Gemini 模型。
-
-> 近期热门证据取自候选研究与本轮重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ### 论文修订历史
 
-待核实
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2026-10-07T03:31:35+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  },
+  {
+    "version": "v2",
+    "submitted_at": "2026-10-09T02:39:44+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  }
+]
+```
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
-### 饱和情况
+### 饱和度与证据边界
 
-待核实
+论文明确称尚未饱和：首发最佳53.6%，人类20位标注者基线93.1%；当前官网最高55.40 ± 4.20，不能把首发25模型数量当当前29行榜数量。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 污染与争议
+### 污染与已知问题
 
 视觉通道限定、裁判依赖、媒体可能已被训练见过（官方 Limitations）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 衍生与版本关系
+### 相关与衍生基准
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ## 榜单快照
 
-### 快照日期
+### 采集日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
-### 官方榜单
+### 官方结果入口
 
 https://labs.scale.com/leaderboard/hss
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 独立评测覆盖
+### 独立评测入口
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 核验结果
+### 结构化结果
 
-- **rank**：1
-- **model**：Gemini-4-Argon (high)
-- **score**：55.40 ± 4.20
-- **metric**：Pass@1
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写更新日）
-- **collected_at**：2026-11-07 KST
+```json
+[
+  {
+    "rank": 1,
+    "model": "Gemini-4-Argon (high)",
+    "score": "55.40 ± 4.20",
+    "metric": "Pass@1",
+    "result_type": "官方榜单快照",
+    "source_date": "待核实（页面未标榜单更新日）",
+    "collected_at": "2026-11-08 KST",
+    "source_url": "https://labs.scale.com/leaderboard/hss",
+    "track": "官方当前522题，pass@1，按模型行保留推理设置",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "GPT-6-Astra (max)",
+    "score": "53.60 ± 4.10",
+    "metric": "Pass@1",
+    "result_type": "官方榜单快照",
+    "source_date": "待核实（页面未标榜单更新日）",
+    "collected_at": "2026-11-08 KST",
+    "source_url": "https://labs.scale.com/leaderboard/hss",
+    "track": "官方当前522题，pass@1，按模型行保留推理设置",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "GPT-6.1-Sol (max)",
+    "score": "46.60 ± 3.80",
+    "metric": "Pass@1",
+    "result_type": "官方榜单快照",
+    "source_date": "待核实（页面未标榜单更新日）",
+    "collected_at": "2026-11-08 KST",
+    "source_url": "https://labs.scale.com/leaderboard/hss",
+    "track": "官方当前522题，pass@1，按模型行保留推理设置",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 4,
+    "model": "Claude-Opus-5.5 (xhigh)",
+    "score": "44.60 ± 3.80",
+    "metric": "Pass@1",
+    "result_type": "官方榜单快照",
+    "source_date": "待核实（页面未标榜单更新日）",
+    "collected_at": "2026-11-08 KST",
+    "source_url": "https://labs.scale.com/leaderboard/hss",
+    "track": "官方当前522题，pass@1，按模型行保留推理设置",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 5,
+    "model": "Muse Wonder 1.0 (max)",
+    "score": "43.70 ± 4.20",
+    "metric": "Pass@1",
+    "result_type": "官方榜单快照",
+    "source_date": "待核实（页面未标榜单更新日）",
+    "collected_at": "2026-11-08 KST",
+    "source_url": "https://labs.scale.com/leaderboard/hss",
+    "track": "官方当前522题，pass@1，按模型行保留推理设置",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  }
+]
+```
 
-- **rank**：2
-- **model**：GPT-6-Astra (max)
-- **score**：53.60 ± 4.10
-- **metric**：Pass@1
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写更新日）
-- **collected_at**：2026-11-07 KST
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
-- **rank**：3
-- **model**：GPT-6.1-Sol (max)
-- **score**：46.60 ± 3.80
-- **metric**：Pass@1
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写更新日）
-- **collected_at**：2026-11-07 KST
+### 覆盖与局限
 
-- **rank**：4
-- **model**：Claude-Opus-5.5 (xhigh)
-- **score**：44.60 ± 3.80
-- **metric**：Pass@1
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写更新日）
-- **collected_at**：2026-11-07 KST
+官网当前可读29行模型，方法摘要的25模型指首发论文。±为按题聚类bootstrap的95%区间半宽，不是标准差或三次重复的标准误。当前官网榜与论文首发结果不能冒充同日实验。
 
-- **rank**：5
-- **model**：Muse Wonder 1.0 (max)
-- **score**：43.70 ± 4.20
-- **metric**：Pass@1
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写更新日）
-- **collected_at**：2026-11-07 KST
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 覆盖与时效说明
-
-Scale 官方榜；Scale 同时是基准创建者，无独立复测。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开邮箱
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 公开反馈
+### 仓库反馈
+
+待核实
+
+> 官网提到evaluation harness，但本轮公开页面/论文未提供可验证GitHub仓库地址；不编造仓库。
+
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）；[2](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
+
+### 官方社区
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 官方社交渠道
+### 隐私与联系边界
 
-待核实
+HF媒体权利人可在数据集讨论区提供task_id或文件路径申请下架；不收集私人联系方式。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 隐私政策
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
 ## 原始文件
 
-### 源站论文PDF
+### 论文PDF
+
+https://arxiv.org/pdf/2610.08966
+
+来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
+
+### 本轮PDF SHA-256
+
+86538d4f2ff2e648a97693fff6bfc2f2c25d99c71f877f4d7797430d4ef283ed
+
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
+
+### 本轮PDF字节数
+
+```json
+9845488
+```
+
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+
+来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
+
+### 已有Drive文件夹
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
-### 原始PDF SHA-256
+### 其他官方文档
 
-待核实
+```json
+[
+  {
+    "type": "官方数据卡/方法入口",
+    "url": "https://huggingface.co/datasets/ScaleAI/HSS"
+  },
+  {
+    "type": "官方说明",
+    "url": "https://labs.scale.com/leaderboard/hss"
+  }
+]
+```
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）；[2](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 原始PDF字节数
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### Drive资料文件夹
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### 其他文档
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
-
-### Drive PDF归档
+### 已有Drive PDF归档
 
 待核实
 
 > 本组按任务要求不上传Drive；原始PDF URL见original_files。
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
 ## 变更记录
 
-### changelog
+### 历次核查
 
-- **date**：2026-11-07
-- **timezone**：KST / Asia/Seoul
-- **change**：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+  }
+]
+```
 
-[来源1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）
+来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）；[2](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[3](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 

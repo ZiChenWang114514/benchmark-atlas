@@ -22,35 +22,31 @@
       ]
     },
     "version": {
-      "value": "冻结版本化发布（522题）",
+      "value": "522题冻结发布；HF更新记录2026-10-08新增全部234视频证据时间窗并修订一个题目提示。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v2",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-10-07T03:31:35+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "多模态",
@@ -76,22 +72,27 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": {
+        "annotations": "MIT：提示、参考答案、rubric、taxonomy标签",
+        "media": "图像/视频不受上述MIT授权覆盖；权利仍归原作者，HF声明仅随基准提供供非商业研究/评测，使用者须遵守原媒体条款。"
+      },
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
-      "value": "https://labs.scale.com/papers/humanitys-sixth-sense",
+      "value": "https://arxiv.org/abs/2610.08966",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -125,14 +126,13 @@
       ]
     },
     "paper_title": {
-      "value": "Humanity's Sixth Sense",
+      "value": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "取官方论文页名称，完整标题待核实。"
+      ]
     }
   },
   "organization": {
@@ -146,24 +146,26 @@
       ]
     },
     "partners": {
-      "value": "Elorian",
+      "value": "Elorian；另有University of California, Santa Cruz作者单位。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "authors": {
-      "value": "待核实",
+      "value": " Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz · *Equal contribution ",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "maintainer": {
       "value": "Scale AI",
@@ -197,15 +199,13 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "待核实",
+      "value": "旧视觉基准常侧重专业知识分析或低层感知，缺少对成人一眼可得的隐含时空、社会、因果结构的测量。HSS排除仅靠清晰裁剪即可解决的感知题及专业知识题。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "construction": {
@@ -219,15 +219,17 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "受训人类标注者原创；题目与答案须满足成人直觉可理解、无需专业学术训练的原则，每题作者外至少三位独立审核者。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "review_process": {
       "value": "共撰写3,466题，经三轮独立评审收录522题（15.1%通过率）",
@@ -239,15 +241,13 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "三轮独立一致批准；Edit需从头复审，Drop永久剔除。3466→1164→559→522题；删除纯感知、歧义和无法形成共识题。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "decontamination": {
       "value": "题目新撰写，但公开网络媒体可能已在训练数据中，无法完全排除",
@@ -291,15 +291,18 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "公开prompt/参考答案及官方提示以英语呈现；完整语种分布统计待核实。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "status": "待核实"
     },
     "difficulty": {
       "value": "人类标注者93.1%；首发最佳模型53.6%，模型中位30.9%",
@@ -311,11 +314,11 @@
       ]
     },
     "public_hidden_split": {
-      "value": "数据集在 Hugging Face 开源",
+      "value": "HF仅test split，共522题；视频证据时间窗仅为分析元数据，评测必须输入完整视频，不得只喂证据片段。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -340,11 +343,15 @@
       ]
     },
     "prompt_settings": {
-      "value": "所有模型 high 推理强度与最大输出长度，温度/top-p 用默认",
+      "value": "每模型每题3次；原生视频优先，否则均匀采帧上限500帧并服从提供商更严格上限；图像原分辨率，必要时降采样。官网概述high/最大输出，但当前榜行存在max/xhigh等实际设置，按行保留而非强行改写为全high。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -370,69 +377,60 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": {
-        "version": "冻结版本化发布（522题）",
-        "evidence_2026_h2": [
-          {
-            "url": "https://labs.scale.com/leaderboard/hss",
-            "date": "2026-11-07",
-            "organization": "Scale AI",
-            "note": "当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。"
-          },
-          {
-            "url": "https://labs.scale.com/leaderboard",
-            "date": "2026-11-07",
-            "organization": "Scale AI",
-            "note": "Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。"
-          }
-        ],
-        "trending": {
-          "heat_confidence": "B",
-          "summary": "Scale 当前标 New 的图像/视频直觉推理主榜，覆盖最新 GPT 与 Gemini 模型。"
-        }
-      },
+      "value": "522题；HF 2026-10-08记录：添加全部234视频时间窗、修订task 6a7f82ad5cfeb63114fa869b提示；不是新增题量。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://labs.scale.com/leaderboard",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "近期热门证据取自候选研究与本轮重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。"
+      ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2026-10-07T03:31:35+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2026-10-09T02:39:44+09:00",
+          "timezone": "Asia/Seoul (KST)"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "论文明确称尚未饱和：首发最佳53.6%，人类20位标注者基线93.1%；当前官网最高55.40 ± 4.20，不能把首发25模型数量当当前29行榜数量。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "视觉通道限定、裁判依赖、媒体可能已被训练见过（官方 Limitations）。",
@@ -457,11 +455,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -493,8 +491,11 @@
           "score": "55.40 ± 4.20",
           "metric": "Pass@1",
           "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写更新日）",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未标榜单更新日）",
+          "collected_at": "2026-11-08 KST",
+          "source_url": "https://labs.scale.com/leaderboard/hss",
+          "track": "官方当前522题，pass@1，按模型行保留推理设置",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 2,
@@ -502,8 +503,11 @@
           "score": "53.60 ± 4.10",
           "metric": "Pass@1",
           "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写更新日）",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未标榜单更新日）",
+          "collected_at": "2026-11-08 KST",
+          "source_url": "https://labs.scale.com/leaderboard/hss",
+          "track": "官方当前522题，pass@1，按模型行保留推理设置",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 3,
@@ -511,8 +515,11 @@
           "score": "46.60 ± 3.80",
           "metric": "Pass@1",
           "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写更新日）",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未标榜单更新日）",
+          "collected_at": "2026-11-08 KST",
+          "source_url": "https://labs.scale.com/leaderboard/hss",
+          "track": "官方当前522题，pass@1，按模型行保留推理设置",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 4,
@@ -520,8 +527,11 @@
           "score": "44.60 ± 3.80",
           "metric": "Pass@1",
           "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写更新日）",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未标榜单更新日）",
+          "collected_at": "2026-11-08 KST",
+          "source_url": "https://labs.scale.com/leaderboard/hss",
+          "track": "官方当前522题，pass@1，按模型行保留推理设置",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 5,
@@ -529,23 +539,31 @@
           "score": "43.70 ± 4.20",
           "metric": "Pass@1",
           "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写更新日）",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未标榜单更新日）",
+          "collected_at": "2026-11-08 KST",
+          "source_url": "https://labs.scale.com/leaderboard/hss",
+          "track": "官方当前522题，pass@1，按模型行保留推理设置",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         }
       ],
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "Scale 官方榜；Scale 同时是基准创建者，无独立复测。",
+      "value": "官网当前可读29行模型，方法摘要的25模型指首发论文。±为按题聚类bootstrap的95%区间半宽，不是标准差或三次重复的标准误。当前官网榜与论文首发结果不能冒充同日实验。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -567,11 +585,15 @@
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "官网提到evaluation harness，但本轮公开页面/论文未提供可验证GitHub仓库地址；不编造仓库。",
+      "status": "待核实"
     },
     "official_social": {
       "value": "待核实",
@@ -585,50 +607,44 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "HF媒体权利人可在数据集讨论区提供task_id或文件路径申请下架；不收集私人联系方式。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "original_files": {
     "paper_pdf_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/pdf/2610.08966",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "86538d4f2ff2e648a97693fff6bfc2f2c25d99c71f877f4d7797430d4ef283ed",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 9845488,
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.08966",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -642,15 +658,26 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://labs.scale.com/leaderboard/hss",
-          "accessed": "2026-11-07"
+          "type": "官方数据卡/方法入口",
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS"
+        },
+        {
+          "type": "官方说明",
+          "url": "https://labs.scale.com/leaderboard/hss"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/HSS",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.08966",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -670,12 +697,25 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
       }
     ],
     "sources": [
       {
         "url": "https://labs.scale.com/leaderboard/hss",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.08966",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://labs.scale.com/leaderboard/hss",
+        "accessed": "2026-11-08"
       }
     ]
   }

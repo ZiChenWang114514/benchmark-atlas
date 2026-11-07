@@ -22,37 +22,35 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "LRB：413题语料；官方当前网页只在208题test评测。公开5题、许可验证200题、隐藏test208题分开。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v1",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-10-01T04:13:16+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "Agent",
@@ -78,15 +76,22 @@
       "note": "编辑标签"
     },
     "license": {
-      "value": "MIT（GitHub 仓库 vals-ai/legal-research-bench 的 LICENSE 文件；仅覆盖仓库内容，第三方原始材料权利另行核查）",
+      "value": {
+        "harness": "MIT，Copyright 2026 Vals AI, Inc.",
+        "dataset": "官网标Proprietary；5题公开样例、其余访问另需批准/许可，不能以代码MIT推断完整题集开放。"
+      },
       "sources": [
         {
-          "url": "https://github.com/vals-ai/legal-research-bench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/vals-ai/legal-research-bench/blob/main/LICENSE",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://api.github.com/repos/vals-ai/legal-research-bench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/vals-ai/legal-research-bench/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_research",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -232,11 +237,11 @@
       ]
     },
     "review_process": {
-      "value": "同行律师复核。",
+      "value": "每题至少一位额外执业律师独立复核；15位律师平均15年经验，约4律师工时/题；gold材料除轻度copyediting外不借助AI生成。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -300,15 +305,13 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "多标签难度属性：Reconciliation 116题、Temporal Validity 66题（论文全413题口径）；两者可重叠，不应当互斥难度分层。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "官方当前网页成绩仅基于208题Test；论文全413题结果不是同一口径。",
@@ -369,46 +372,52 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "待核实",
-        "heat_confidence": "B",
-        "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。",
-        "evidence_2026_h2": [
-          {
-            "url": "https://www.vals.ai/benchmarks/legal_research",
-            "date": "2026-11-05",
-            "date_type": "source_calendar_date",
-            "organization": "Vals AI",
-            "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
-          }
-        ]
+        "version": "413题LRB原论文语料；当前官网208题test轨",
+        "official_page_updated": "2026-11-05",
+        "public": 5,
+        "validation": 200,
+        "test": 208
       },
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2026-10-01T04:13:16+09:00",
+          "timezone": "Asia/Seoul (KST)"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "当前严格All-Pass第一55.77%，未达全题可靠。",
@@ -429,23 +438,26 @@
       ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "相关但不同：LegalBench、LegalBench-RAG测静态法律推理/检索；Harvey Legal Agent Benchmark使用限定matter文档，LRB开放检索美国法律权威资料。不是这些基准的别名或新版本。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -478,8 +490,10 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "collected_at": "2026-11-08 KST",
+          "result_type": "官方榜单快照",
+          "track": "官方当前208题test / All-Pass",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 2,
@@ -488,8 +502,10 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "collected_at": "2026-11-08 KST",
+          "result_type": "官方榜单快照",
+          "track": "官方当前208题test / All-Pass",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         },
         {
           "rank": 3,
@@ -498,23 +514,43 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "collected_at": "2026-11-08 KST",
+          "result_type": "官方榜单快照",
+          "track": "官方当前208题test / All-Pass",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 1,
+          "model": "Claude Opus 4.8",
+          "score": "42.9",
+          "metric": "All-Pass (%)",
+          "track": "原论文413题全量 / 历史作者实验",
+          "source_url": "https://arxiv.org/pdf/2610.00609",
+          "result_type": "论文摘要历史结果，非208题当前官网榜",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
         }
       ],
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "采集日不等于榜单自写更新时间；未知更新时间保留待核实。",
+      "value": "官网明确Updated 11/5/2026；它是页面更新日，不必然是每模型运行日。保留208题test当前榜，并另列论文413题历史42.9%；两者不能按同一排名比较。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -533,11 +569,11 @@
       "value": "https://github.com/vals-ai/legal-research-bench/issues",
       "sources": [
         {
-          "url": "https://api.github.com/repos/vals-ai/legal-research-bench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/vals-ai/legal-research-bench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "GitHub API has_issues=true"
+      "note": "公开仓库问题入口；访问许可仍应联系Vals。"
     },
     "official_social": {
       "value": "待核实",
@@ -551,15 +587,13 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "论文声明题目为原创假设事实场景，无真实客户信息、个人可识别信息或特权/机密材料；参与律师获报酬并同意使用。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -573,26 +607,24 @@
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "a7f99b089bb1ff218471ecab84557f79af3dbb607b1eb6fbb30e926133658876",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 467211,
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2610.00609",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -606,15 +638,26 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://www.vals.ai/benchmarks/legal_research",
-          "accessed": "2026-11-07"
+          "type": "官方数据卡/方法入口",
+          "url": "https://github.com/vals-ai/legal-research-bench"
+        },
+        {
+          "type": "公开代码文档",
+          "url": "https://github.com/vals-ai/legal-research-bench"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://github.com/vals-ai/legal-research-bench",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.00609",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -634,12 +677,25 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
       }
     ],
     "sources": [
       {
         "url": "https://www.vals.ai/benchmarks/legal_research",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/abs/2610.00609",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://www.vals.ai/benchmarks/legal_research",
+        "accessed": "2026-11-08"
       }
     ]
   }

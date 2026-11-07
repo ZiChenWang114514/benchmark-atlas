@@ -22,34 +22,35 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原论文541提示、25种可验证指令；Google官方HF数据卡对应train split（评测用途，不代表建议把测试提示用于训练）。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/google/IFEval",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v1",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2023-11-14",
+      "value": "2023-11-14T14:13:55+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      ]
     },
     "section": {
       "value": "语言",
@@ -73,11 +74,15 @@
       ]
     },
     "license": {
-      "value": "评测源码 Apache-2.0；数据再分发权利不由代码文件头单独证明。",
+      "value": "google-research仓库Apache-2.0；Google官方HF数据卡另标apache-2.0。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/evaluation_main.py",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/google-research/google-research/blob/master/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/google/IFEval",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -100,13 +105,14 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "value": "https://huggingface.co/datasets/google/IFEval",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/google/IFEval",
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "Google官方HF发布入口；原始代码与JSONL仍在google-research/instruction_following_eval。"
     },
     "official_homepage": {
       "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
@@ -361,25 +367,30 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "note": "2026-H2实际使用证据：2026-09-23：Hunyuan-A13B §4.2–4.3实际使用 IFEval 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
-    },
-    "latest_dataset_version": {
-      "value": "待核实",
-      "sources": [
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-08"
+        },
         {
           "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "本轮Google官方HF卡显示541行，25种指令以原论文为准；未编造语义版本号。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/google/IFEval",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -392,20 +403,23 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "saturation": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+    },
+    "saturation": {
+      "value": "原论文GPT-4 prompt-strict为76.89%；后续IFBench论文表3的定向IF-RLVR训练可达到IFEval 92.2（该文prompt-loose口径）。高分与可验证任务训练的泛化局限需分开，不能宣称所有指令能力已饱和。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2507.02833",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "contamination_and_issues": {
       "value": "可程序验证的约束只覆盖部分真实指令能力；严格/宽松结果不等价，不能把格式容错理解为全面遵循。",
@@ -417,27 +431,28 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "IFBench是独立的58种OOD约束基准，扩展IFEval验证思路而非同一题集新版本；IFBench当前软件包兼容25种经典IFEval验证器。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/allenai/IFBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://arxiv.org/abs/2311.07911",
@@ -463,32 +478,119 @@
     "results": {
       "value": [
         {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": "76.89",
+          "metric": "prompt-level strict accuracy (%)",
+          "track": "作者论文表3 / prompt-level strict",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "PaLM 2 S",
+          "score": "43.07",
+          "metric": "prompt-level strict accuracy (%)",
+          "track": "作者论文表3 / prompt-level strict",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": "83.57",
+          "metric": "instruction-level strict accuracy (%)",
+          "track": "作者论文表3 / instruction-level strict",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "PaLM 2 S",
+          "score": "55.76",
+          "metric": "instruction-level strict accuracy (%)",
+          "track": "作者论文表3 / instruction-level strict",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": "79.30",
+          "metric": "prompt-level loose accuracy (%)",
+          "track": "作者论文表3 / prompt-level loose",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "PaLM 2 S",
+          "score": "46.95",
+          "metric": "prompt-level loose accuracy (%)",
+          "track": "作者论文表3 / prompt-level loose",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": "85.37",
+          "metric": "instruction-level loose accuracy (%)",
+          "track": "作者论文表3 / instruction-level loose",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "PaLM 2 S",
+          "score": "59.11",
+          "metric": "instruction-level loose accuracy (%)",
+          "track": "作者论文表3 / instruction-level loose",
+          "source_url": "https://arxiv.org/pdf/2311.07911",
+          "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
+          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
           "model": "Hunyuan-A13B（报告命名）",
           "score": 84.7,
           "unit": "%",
           "metric": "IF-Eval，报告表3原标签",
           "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比",
           "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
-          "snapshot_date": "2026-11-07"
+          "snapshot_date": "2026-11-07 KST（保留历史证据；本轮未复开厂商报告）",
+          "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）",
+          "rank": null
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "coverage_note": {
-      "value": "仅收录H2技术报告中明确可读的厂商自报成绩；模型标签按报告保留，未核实其精确API运行日期。不能把这些成绩冒充独立机构当前排行榜。",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.07911",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "补回原作者论文四套精确指标基线，不用一个未说明strict/loose的厂商IF-Eval数字替代它们。原项目README是评测程序入口，不是实时SOTA排行榜；保留旧厂商报告但不跨轨排名。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -550,19 +652,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 464152,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.07911",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": {
@@ -615,6 +718,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
       }
     ],
     "sources": [
@@ -629,6 +737,14 @@
       {
         "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/abs/2311.07911",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+        "accessed": "2026-11-08"
       }
     ]
   }

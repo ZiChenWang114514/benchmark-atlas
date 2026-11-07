@@ -8,7 +8,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -26,27 +26,27 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
-      "value": "v1；最近论文日期 2020-09-28",
+      "value": "arXiv v1（2020-09-28 14:07:51 KST）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2020-09-28（首个arXiv版本日期；非推定数据上线日）",
+      "value": "2020-09-28 14:07:51 KST（arXiv v1；非推定数据首发时间）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
@@ -67,20 +67,24 @@
       "sources": [
         {
           "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "license": {
-      "value": "MIT（GitHub 仓库 jind11/MedQA 的 LICENSE 文件；仅覆盖仓库内容，第三方原始材料权利另行核查）",
+      "value": "仓库根LICENSE为MIT（2022 Di Jin），但不覆盖所有上游医学教材权利；原论文§3.2明确教材仅按research-use-only协议释放。BigBio HF镜像将数据license列unknown。三种作用域并列，不将MIT简化为整包教材可任意商用。",
       "sources": [
         {
-          "url": "https://github.com/jind11/MedQA",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/LICENSE",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://api.github.com/repos/jind11/MedQA",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/bigbio/med_qa/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -89,7 +93,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -98,7 +102,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -107,7 +111,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -116,7 +120,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -125,32 +129,33 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "organization": {
     "initiators": {
-      "value": "MIT CSAIL与华中科技大学同济医学院署名作者；正式机构发起协议待核实。",
+      "value": "论文研究团队：MIT CSAIL与华中科技大学同济医学院共同署名；不推断机构法律发起协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "MIT CSAIL",
+        "Tongji Medical College, Huazhong University of Science and Technology"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "仅以共同署名单位为合作研究机构。"
     },
     "authors": {
       "value": [
@@ -164,7 +169,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -173,7 +178,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -182,7 +187,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -195,7 +200,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -204,7 +209,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -215,36 +220,34 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "医学与计算机研究者合作；原考试命题专家逐题身份待核实。",
+      "value": "论文为MIT计算机研究者与同济医学院作者共同工作；数据为专业医学执照考试及模拟题。论文另外使用两名医学医生审核检索证据，不把他们误作全部原题命题者。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "review_process": {
-      "value": "从考试资料收集整理并进行选项/格式处理；独立医学双审人数待核实。",
+      "value": "删除重复题，按问题随机80%/10%/10%分train/dev/test；USMLE与MCMLE打乱选项并随机删一个错误项得到四选项版。论文两名医生审核的是dev随机100题top25检索段落的证据充分性，不是全数据医学双审。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "quality_control": {
       "value": "多语言数据与固定划分，论文分析检索噪声和多证据推理失败。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -253,7 +256,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -264,7 +267,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -273,7 +276,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://github.com/jind11/MedQA",
@@ -286,7 +289,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -299,7 +302,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -308,24 +311,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "public_hidden_split": {
-      "value": "官方仓库提供train/dev/test；US、China及Taiwan分别划分；当前4选项版本与原选项版本不可混用。",
+      "value": "原论文表3：USMLE train10,178/dev1,272/test1,273；MCMLE train27,400/dev3,425/test3,426；TWMLE train11,298/dev1,412/test1,413。原数据与4_options处理版均需标记；三语分割公开，不是统一的隐藏医疗测试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/jind11/MedQA",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -336,7 +335,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -345,7 +344,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -354,7 +353,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -363,7 +362,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -372,18 +371,18 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -392,7 +391,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -426,33 +425,41 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "saturation": {
-      "value": "后续论文高分不能据此认定所有版本饱和；本轮未核实同一协议下的当前全量头部榜单。",
+      "value": "Vals明确以该机构2000题USMLE来源抽样/偏见注入协议的分数已饱和为由归档，停止新模型评测（页面更新2026-04-16）；该结论只适用于其评测，不等于三语MedQA原始全部测试同协议均已解决。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "contamination_and_issues": {
-      "value": "2026 AMR论文方法叙述含逐题反馈，但实验称冻结检索且不写回测试反馈；需结合代码核实，不把该分数当统一榜单。",
+      "value": "原始题集自2020年公开，Vals明确指出可能用于模型预训练；其偏见注入题不公开。原论文教材限研究使用、BigBio许可unknown与仓库MIT的作用域须区分。AMR叙述逐题反馈但实验称冻结检索、不写回test反馈，仅保留作者自报结果不作统一SOTA。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/bigbio/med_qa/raw/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -461,18 +468,18 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -481,53 +488,224 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "third_party_url": {
-      "value": "待核实",
+      "value": "https://www.vals.ai/benchmarks/medqa",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "Vals独立执行的2000题USMLE来源评测，已归档；不是原始官方1273题test。"
     },
     "results": {
-      "value": "H2使用证据/历史结果：2026-08 AMR(GPT-4o，API快照未给)报告MedQA93.2%；论文称使用官方test、训练集检索。但模型快照、完整评测样本清单待核实；非实时SOTA。",
+      "value": [
+        {
+          "rank": null,
+          "model": "BioBERT-Large",
+          "score": 36.7,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "原论文表7/8 / USMLE test1273 / 英文",
+          "source_url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08",
+          "result_type": "原始历史基线；教材检索+reader"
+        },
+        {
+          "rank": null,
+          "model": "BioBERT-Large",
+          "score": 42.0,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "原论文表7/8 / TWMLE test1413 / 繁中翻译英语",
+          "source_url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08",
+          "result_type": "原始历史基线；教材检索+reader"
+        },
+        {
+          "rank": null,
+          "model": "RoBERTa-Large-WWM-ext",
+          "score": 70.1,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "原论文表7/8 / MCMLE test3426 / 简中",
+          "source_url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08",
+          "result_type": "原始历史基线；教材检索+reader"
+        },
+        {
+          "rank": 1,
+          "model": "o1",
+          "score": 96.52,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 2,
+          "model": "GPT 5.1",
+          "score": 96.38,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 3.1 Pro Preview (02/26)",
+          "score": 96.37,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 4,
+          "model": "GPT 5",
+          "score": 96.32,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 5,
+          "model": "GPT 5.4 (xhigh)",
+          "score": 96.09,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 6,
+          "model": "o3",
+          "score": 96.06,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 7,
+          "model": "GPT 5 Mini",
+          "score": 96.06,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3 Pro (11/25)",
+          "score": 96.03,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 9,
+          "model": "o4 Mini",
+          "score": 96.02,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": 10,
+          "model": "Claude Opus 4.5 (Thinking)",
+          "score": 95.88,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "Vals归档评测 / USMLE来源2000题抽样及偏见研究",
+          "source_url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08",
+          "source_date": "2026-04-16",
+          "result_type": "独立机构评测；具体表行对应无偏/偏见聚合口径待核实"
+        },
+        {
+          "rank": null,
+          "model": "AMR (GPT-4o)",
+          "score": 93.2,
+          "unit": "%",
+          "metric": "Accuracy",
+          "track": "AMR论文 / 官方USMLE test / train检索冻结",
+          "source_url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-08",
+          "source_date": "2026-08-19",
+          "settings": "GPT-4o具体API快照、完整样本清单待核实",
+          "result_type": "论文作者自报"
+        }
+      ],
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://arxiv.org/html/2608.19029v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "三条互不混排来源：原论文三语历史基线、Vals归档榜前10、AMR论文自报。Vals方法说明2000题抽样及五类偏见注入，和原USMLE test1273不同；表行究竟对应无偏基线还是多组聚合尚待核实，因此保留来源原Accuracy标签与该边界。不能把Vals归档当持续实时官方榜。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://www.vals.ai/benchmarks/medqa",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "contact": {
@@ -543,7 +721,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -561,7 +739,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -572,7 +750,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -585,7 +763,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -594,16 +776,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本轮下载的arXiv原始字节；不表示已替换Drive中的旧文件。"
     },
     "pdf_bytes": {
       "value": 189006,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -615,7 +798,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.13081",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -643,7 +826,7 @@
     "sources": [
       {
         "url": "https://arxiv.org/abs/2009.13081",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   },
@@ -658,12 +841,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "补三语精确split与教材研究用途限制；发现Vals2000题归档榜与饱和声明，明确不是原test；14行多来源结果分轨。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2009.13081",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

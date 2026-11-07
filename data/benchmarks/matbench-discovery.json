@@ -30,42 +30,45 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "在线多任务评测框架；发现任务锁定WBM与MP v2022.10.28参考凸包，不能用软件包版本替代数据协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2023/08/28",
+      "value": "2023-08-29 07:29:57 KST（arXiv v1）；后发表于Nature Machine Intelligence 7, 836–847 (2025)。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -185,19 +188,21 @@
       "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文作者单位：Cambridge物理系、LBNL、德国BAM、UC Berkeley；WBM数据由Hai-Chen Wang、Silvana Botti、Miguel A. L. Marques贡献。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -224,34 +229,34 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "公开站点与仓库署名Janosh Riebesell；问题反馈走官方GitHub Issues/Discussions，不据署名推定机构服务承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/janosh/matbench-discovery",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "JR获德国Studienstiftung，AAL获Royal Society，AJ与KAP获美国DOE Office of Science/BES Materials Sciences and Engineering支持；使用NERSC DE-AC02-05CH11231资源。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -293,19 +298,21 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "物理、材料科学与材料机器学习跨机构团队；评价假想晶体DFT稳定性与学习势，不是专家手写自然语言试题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。",
@@ -321,118 +328,142 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "发现集用WBM DFT弛豫及公开初始/最终结构；采用固定DFT参考凸包，unique-prototype设置剔除MP重合与WBM内部重复原型，以避免只记已知结构。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "论文默认训练MP v2022.10.28，测试WBM；unique-prototype子集去除与MP重复及WBM内部原型重合。现在模型训练材料不同，必须保留训练数据列，不能一概称无泄漏。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "WBM 发现集256,963个材料（ALIGNN 2.0论文表4的全量评测口径）；其他子任务规模须分别核实。",
+      "value": "官方发现页确认完整WBM 256,963晶体、85元素；论文独特原型表为215,488材料（其中32,942稳定），全量表含42,825稳定材料。两个分母不能混用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19487",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "question_types": {
-      "value": "材料发现评测框架；最新任务级数据规模待核实。",
+      "value": "从未弛豫晶体预测相对DFT参考凸包的稳定性；另有几何优化、声子/热导、分子动力学和双原子势能曲线任务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "周期晶体结构、原子/元素、能量/力/应力及声子等数值物理数据；不是文本多选或图像问答。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "自然语言语种不适用：主要对象是结构和数值物理标签，网页说明语言不是评测题目语言。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "从已知MP材料训练到WBM假想晶体外分布泛化；分类困难集中在参考凸包附近，不能由回归MAE直接推出发现能力。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "论文MP训练/WBM测试，不是随机五折；WBM初始/弛豫结构、能量和对称性参考公开。默认unique-prototype发现子集与完整WBM分别评测。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -446,32 +477,38 @@
       ]
     },
     "scoring": {
-      "value": "发现 F1、发现加速因子等任务相关指标；官网最新综合指标定义须另行锁定。",
+      "value": "发现F1为precision/recall调和均值，DAF是precision除以测试集中稳定材料比例。稳定标签相对固定DFT-MP凸包；CPS另按发现F1 50%、几何RMSD 10%、声子κ SRME 40%聚合。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "非语言提示评测；预测未弛豫结构的弛豫能或用学习势弛豫后估能，须固定训练数据、结构优化器和测试子集；当前CPS还要求其他子任务覆盖。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/janosh/matbench-discovery",
@@ -498,96 +535,119 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "发现任务WBM/MP参考凸包；在线框架已扩展多任务，当前默认unique-prototype设置。模型新增日期不是数据版本号。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实"
-    },
-    "paper_revision_history": {
-      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）表4评测 Matbench Discovery；官方 models 页另有2026-10-31新增 DPA 模型。",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2609.19487",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://matbench-discovery.materialsproject.org/models",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
-    "saturation": {
-      "value": "待核实",
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "submitted_at": "2023-08-29T07:29:57+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2024-02-05T02:12:47+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v3",
+            "submitted_at": "2024-12-11T08:52:04+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ],
+        "previous_evidence": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）表4评测 Matbench Discovery；官方 models 页另有2026-10-31新增 DPA 模型。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
     },
-    "contamination_and_issues": {
-      "value": "首次 WebFetch 返回403；随后用标准公开HTTP读取成功，已保存页面证据。搜索索引和现场页面的模型数量不同，以本次成功读取的官方页面快照为准。",
+    "saturation": {
+      "value": "当前CPS最高0.913、发现F1最高0.935；仍需结合RMSD、κ SRME及MD/双原子稳健性，不能把综合高分当所有模拟情境已饱和。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://matbench-discovery.materialsproject.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "当前默认require forces筛选为49/58合格模型；models目录的CPS名次显示48个具备CPS排名模型。筛选分母不同，不能当抓取错误。参考凸包严格来自DFT，不由预测模型重建。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "原始论文以晶体稳定性为中心；现站扩展几何、声子、MD与双原子任务，CPS是另一个综合排行。Matbench v0.1性质预测独立保留。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.14920",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -620,42 +680,150 @@
         {
           "rank": 1,
           "model": "DPA-4.1-Max-OAM-PFT",
-          "score": 0.913,
-          "unit": "比例",
-          "metric": "CPS，越高越好",
-          "scope": "F1 0.935；RMSD 0.0576；κ SRME 0.081"
+          "score": "0.913",
+          "metric": "CPS ↑",
+          "track": "官方models / CPS",
+          "source_url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "F1": "0.935",
+          "RMSD": "0.0576",
+          "kappa_SRME": "0.081",
+          "result_type": "官方models目录精度，非首页三位小数RMSD"
         },
         {
           "rank": 2,
           "model": "Prophet-OAME-MBD",
-          "score": 0.912,
-          "unit": "比例",
-          "metric": "CPS，越高越好",
-          "scope": "F1 0.928；RMSD 0.0591；κ SRME 0.065"
+          "score": "0.912",
+          "metric": "CPS ↑",
+          "track": "官方models / CPS",
+          "source_url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "F1": "0.928",
+          "RMSD": "0.0591",
+          "kappa_SRME": "0.065",
+          "result_type": "官方models目录精度，非首页三位小数RMSD"
         },
         {
           "rank": 3,
           "model": "DPA-4.1-Max-OAM",
-          "score": 0.91,
-          "unit": "比例",
-          "metric": "CPS，越高越好",
-          "scope": "F1 0.933；RMSD 0.0573；κ SRME 0.09"
+          "score": "0.910",
+          "metric": "CPS ↑",
+          "track": "官方models / CPS",
+          "source_url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "F1": "0.933",
+          "RMSD": "0.0573",
+          "kappa_SRME": "0.09",
+          "result_type": "官方models目录精度，非首页三位小数RMSD"
+        },
+        {
+          "rank": 4,
+          "model": "TECE-OAM-RRA-1.0",
+          "score": "0.908",
+          "metric": "CPS ↑",
+          "track": "官方models / CPS",
+          "source_url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "F1": "0.929",
+          "RMSD": "0.0575",
+          "kappa_SRME": "0.093",
+          "result_type": "官方models目录精度，非首页三位小数RMSD"
+        },
+        {
+          "rank": 5,
+          "model": "EquFlashV2",
+          "score": "0.907",
+          "metric": "CPS ↑",
+          "track": "官方models / CPS",
+          "source_url": "https://matbench-discovery.materialsproject.org/models",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "F1": "0.929",
+          "RMSD": "0.0577",
+          "kappa_SRME": "0.094",
+          "result_type": "官方models目录精度，非首页三位小数RMSD"
+        },
+        {
+          "rank": 1,
+          "model": "DPA-4.1-Max-OAM-PFT",
+          "score": "0.935",
+          "metric": "F1 ↑",
+          "track": "官方发现 / Unique Prototypes / require forces",
+          "source_url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "发现页显示次序；与CPS不混排"
+        },
+        {
+          "rank": 2,
+          "model": "DPA-4.1-Max-OAM",
+          "score": "0.933",
+          "metric": "F1 ↑",
+          "track": "官方发现 / Unique Prototypes / require forces",
+          "source_url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "发现页显示次序；与CPS不混排"
+        },
+        {
+          "rank": 3,
+          "model": "EquiformerV3+DeNS-OAM",
+          "score": "0.931",
+          "metric": "F1 ↑",
+          "track": "官方发现 / Unique Prototypes / require forces",
+          "source_url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "发现页显示次序；与CPS不混排"
+        },
+        {
+          "rank": 4,
+          "model": "TECE-OAM-RRA-1.0",
+          "score": "0.929",
+          "metric": "F1 ↑",
+          "track": "官方发现 / Unique Prototypes / require forces",
+          "source_url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "发现页显示次序；与CPS不混排"
+        },
+        {
+          "rank": 5,
+          "model": "EquFlashV2",
+          "score": "0.929",
+          "metric": "F1 ↑",
+          "track": "官方发现 / Unique Prototypes / require forces",
+          "source_url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "发现页显示次序；与CPS不混排"
         }
       ],
       "sources": [
         {
           "url": "https://matbench-discovery.materialsproject.org/models",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "按官方 CPS 排序的前三：DPA-4.1-Max-OAM-PFT CPS 0.913、F1 0.935、RMSD 0.0576；Prophet-OAME-MBD CPS 0.912、F1 0.928、RMSD 0.0591；DPA-4.1-Max-OAM CPS 0.910、F1 0.933、RMSD 0.0573。κ SRME 分别0.081、0.065、0.09。"
+      ]
     },
     "coverage_note": {
-      "value": "2026-11-07 直接读取官方 models 页；DPA条目 Added 2026-10-31，Prophet Added 2026-09-13；这些是条目加入日期，不是榜单整体更新时间（未标明）。CPS与单项F1排名不同。",
+      "value": "本次成功读取公开HTTP页面；CPS与发现F1各前五分赛道。RMSD按models目录精度转录，未将首页三位小数当精确到四位。Added是入榜日期，不是运行日；当前索引更新时间不明。",
       "sources": [
         {
           "url": "https://matbench-discovery.materialsproject.org/models",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://matbench-discovery.materialsproject.org/benchmarks/discovery",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -730,17 +898,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 4570226,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.14920",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -795,6 +963,41 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.paper_version",
+          "basic_info.release_date",
+          "basic_info.version",
+          "construction.author_background",
+          "construction.decontamination",
+          "construction.quality_control",
+          "data_format.difficulty",
+          "data_format.languages",
+          "data_format.modalities",
+          "data_format.public_hidden_split",
+          "data_format.question_types",
+          "data_format.size",
+          "evaluation.prompt_settings",
+          "evaluation.scoring",
+          "latest_status.checked_at",
+          "latest_status.contamination_and_issues",
+          "latest_status.derivatives",
+          "latest_status.latest_dataset_version",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.funders",
+          "organization.maintainer",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
@@ -805,6 +1008,10 @@
       {
         "url": "https://arxiv.org/pdf/2308.14920",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://matbench-discovery.materialsproject.org/",
+        "accessed": "2026-11-08"
       }
     ]
   },

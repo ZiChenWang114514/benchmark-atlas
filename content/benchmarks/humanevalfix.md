@@ -1,6 +1,10 @@
 # HumanEvalFix
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
+> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+
+HumanEvalFix在HumanEvalPack六种语言参考程序上人工加入功能错误，要求通过测试修复。相同164个原题跨语言改写不能视为984个独立知识问题；本轮补回原论文按语言的FixTests精确基线，与FixDocs及后续相对提升实验分开。
+
+导读依据：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack)（访问 2026-11-08）；[3](https://huggingface.co/datasets/bigcode/humanevalpack)（访问 2026-11-08）。
 
 ## 基本信息
 
@@ -8,7 +12,7 @@
 
 HumanEvalFix
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
 ### 全称
 
@@ -16,29 +20,25 @@ HumanEvalFix
 
 > 保留官方名称，不把论文标题自动扩写为全称。
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
 ### 基准版本
 
 HumanEvalPack 中的 HumanEvalFix；6语言×164题
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 论文版本
 
 arXiv v2
 
-> 论文修订版本不等同数据集版本。
-
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）。
 
 ### 发布日期
 
-2023-08-14 22:53:54 KST
+2023-08-14T22:53:54+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
 
-> 首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
-
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）。
 
 ### 主板块
 
@@ -46,103 +46,114 @@ arXiv v2
 
 > Benchmark Atlas 编辑归档；跨领域仅主板块计数。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 领域标签
+### 领域
 
-代码修复
+```json
+[
+  "代码修复"
+]
+```
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 许可证
+### 许可与使用范围
 
 MIT；OctoPack官方明确将HumanEvalPack和全部代码纳入本仓库MIT许可，而非只标代码。CommitPack/CommitPackFT样本另有原仓库许可，不应混用。
 
-来源：[https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07）。
 
-### 论文
+### 论文入口
 
 https://arxiv.org/abs/2308.07124
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 官方代码
 
 https://github.com/bigcode-project/octopack
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
-### 数据地址
+### 数据入口
 
 https://huggingface.co/datasets/bigcode/humanevalpack
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 官方入口
+### 官方主页
 
 https://github.com/bigcode-project/octopack
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
 ### 论文标题
 
 OctoPack: Instruction Tuning Code Large Language Models
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 发起与维护
 
-### 机构与发起方
+### 发起方
 
 BigCode / OctoPack 作者团队
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 合作方
+### 合作与作者单位
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 作者
 
-Muennighoff, Niklas、Liu, Qian、Zebaze, Armel、Zheng, Qinkai、Hui, Binyuan、Zhuo, Terry Yue、Singh, Swayam、Tang, Xiangru、von Werra, Leandro、Longpre, Shayne
+```json
+[
+  "Muennighoff, Niklas",
+  "Liu, Qian",
+  "Zebaze, Armel",
+  "Zheng, Qinkai",
+  "Hui, Binyuan",
+  "Zhuo, Terry Yue",
+  "Singh, Swayam",
+  "Tang, Xiangru",
+  "von Werra, Leandro",
+  "Longpre, Shayne"
+]
+```
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 当前维护方
+### 维护方
 
 BigCode octopack 项目
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 资助
+### 资助与资源支持
 
-待核实
+论文致谢Hugging Face提供计算实例；这证明算力支持，不推断未列明的现金资助金额。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
 ## 设计目标
 
-### 衡量能力
+### 测量能力
 
 根据任务规范和已有带错误的程序修复功能错误；测量指令微调代码模型。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 设计背景
+### 与既有基准的差异
 
 代码补全只覆盖合成，缺少跨语言指令驱动修复与解释任务。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 构建方式
 
@@ -150,69 +161,83 @@ BigCode octopack 项目
 
 在每种语言的 164 个 HumanEval 参考函数中人工加入一个 bug，跨语言尽量保持同类错误。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 出题者背景
 
 论文团队人工设计 bug，而非由模型自动判定修复真值。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 审核流程
 
 从HumanEval-X各语言解答JSON开始，人工并行向各语言引入bug；修正HumanEval-X问题并记录，转为带bug解答、instruction及元数据的JSONL上传HumanEvalPack。
 
-来源：[https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07）。
 
 ### 质量控制
 
 六种语言使用相近 bug 以支持可比性；附录给出类别与实例。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 去污染
+### 去污染与泄漏控制
 
 源自公开 HumanEval；添加人工错误不消除模型记忆原始正确实现的可能性。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 数据形式
 
-### 题量与规模
+### 规模与统计口径
 
 每语言 164 个问题，6 语言共 984 个 bug；不等于 984 个互不相关原题。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 题型
 
 自然语言+错误代码 → 修复代码；tests 与 docstring 提示有不同变体。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 模态
 
-文本、源代码
+```json
+[
+  "文本",
+  "源代码"
+]
+```
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 语言
 
-Python、JavaScript、Java、Go、C++、Rust
+```json
+[
+  "Python",
+  "JavaScript",
+  "Java",
+  "Go",
+  "C++",
+  "Rust"
+]
+```
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 难度
 
 细微功能 bug；文档提示的较易变体与只给测试的变体须区分。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 公开与隐藏划分
 
 通过 HumanEvalPack 公开；Fix、Explain、Synthesize 是同套件不同任务。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 评测方法
 
@@ -220,41 +245,41 @@ Python、JavaScript、Java、Go、C++、Rust
 
 执行测试的 pass@1 等；按语言分别报告。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 评分
+### 评分规则
 
 修复代码必须通过参考测试，不以自然语言解释质量代替功能正确。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 提示与运行设置
+### 提示、采样与工具设置
 
 区分humanevalfixtests（给测试、不含docstring，论文主设置）与humanevalfixdocs（给docstring）；官方示例temperature=0.2、n_samples=20、batch_size=5、max_length_generation=2048。
 
-来源：[https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07）。
 
-### 官方评测脚本
+### 官方脚本
 
 https://github.com/bigcode-project/octopack
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
-### 可比性警示
+### 可比性警告
 
 必须分语言及fixdocs/fixtests协议比较；官方说明Python版本和batch_size影响随机性，论文使用Python3.9.13、batch_size=5；执行不可信生成代码应隔离。
 
-来源：[https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md)（访问 2026-11-07）。
 
 ## 最新情况
 
-### 核查日期
+### 本轮核查时间
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack)（访问 2026-11-08）。
 
-### 当前版本与2026年后半年活跃证据
+### 最新数据状态
 
 ```json
 {
@@ -271,64 +296,271 @@ https://github.com/bigcode-project/octopack
 
 > H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-来源：[https://arxiv.org/html/2609.19134v1](https://arxiv.org/html/2609.19134v1)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/html/2609.19134v1)（访问 2026-11-07）；[2](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ### 论文修订历史
 
-Submission history From: Niklas Muennighoff [ view email ] [v1] 2023-08-14 22:53:54 KST (1,643 KB) [v2] 2024-02-18 18:46:06 KST (1,647 KB)
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2023-08-14T22:53:54+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  },
+  {
+    "version": "v2",
+    "submitted_at": "2024-02-18T18:46:06+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  }
+]
+```
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
 
-### 饱和情况
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）。
 
-待核实
+### 饱和度与证据边界
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+原论文表2六语言平均pass@1：GPT-4 47.8%、OctoCoder 27.0%；这是2023/2024历史基线，不能据此判定2026年当前饱和程度。
 
-核验状态：待核实
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
-
-### 污染与争议
+### 污染与已知问题
 
 HumanEval 改编造成原题记忆与修复能力混合，跨语言一致 bug 也不是完全独立样本。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-### 衍生与版本关系
+### 相关与衍生基准
 
 HumanEvalExplain 与 HumanEvalSynthesize 是 HumanEvalPack 兄弟任务；本条仅收 HumanEvalFix。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 榜单快照
 
-### 快照日期
+### 采集日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.19134v1)（访问 2026-11-08）。
 
-### 官方榜单
+### 官方结果入口
 
 https://github.com/bigcode-project/octopack
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
-### 独立评测覆盖
+### 独立评测入口
 
 待核实
 
 > 未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。
 
-核验状态：待核实
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
-
-### 核验结果
+### 结构化结果
 
 ```json
 [
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "47.0",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Python",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "WizardCoder",
+    "score": "31.8",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Python",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "OctoCoder",
+    "score": "30.4",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Python",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "48.2",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / JavaScript",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "WizardCoder",
+    "score": "29.5",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / JavaScript",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "OctoCoder",
+    "score": "28.4",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / JavaScript",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "50.0",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Java",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "WizardCoder",
+    "score": "30.7",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Java",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "OctoCoder",
+    "score": "30.6",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Java",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "50.6",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Go",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "WizardCoder",
+    "score": "30.4",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Go",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "OctoCoder",
+    "score": "30.2",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Go",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "47.6",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / C++",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "OctoCoder",
+    "score": "26.1",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / C++",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "WizardCoder",
+    "score": "18.7",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / C++",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-4",
+    "score": "43.3",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Rust",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 2,
+    "model": "OctoCoder",
+    "score": "16.5",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Rust",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
+  {
+    "rank": 3,
+    "model": "WizardCoder",
+    "score": "13.0",
+    "metric": "zero-shot pass@1 (%)",
+    "track": "原论文表2 HumanEvalFixTests / Rust",
+    "source_url": "https://arxiv.org/pdf/2308.07124",
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
+    "source_date": "论文v2；实际API运行日待核实",
+    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+  },
   {
     "model": "ScienceIDE 4B SFT 训练设置（精确检查点待核实）",
     "result": "HumanEvalFix JavaScript 相对提升 10.98 个百分点",
@@ -336,90 +568,85 @@ https://github.com/bigcode-project/octopack
     "benchmark_version": "HumanEvalFix JS",
     "result_type": "H2 学术实验",
     "source_date": "2026-09-16",
-    "collected_at": "2026-11-07 KST"
+    "collected_at": "2026-11-07 KST",
+    "track": "ScienceIDE H2学术实验（相对改善，非绝对榜分）",
+    "snapshot_date": "2026-11-07 KST（历史证据保留，本轮未复开此文）",
+    "rank": null
   }
 ]
 ```
 
-核验状态：待核实
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.19134v1)（访问 2026-11-08）。
 
-来源：[https://arxiv.org/html/2609.19134v1](https://arxiv.org/html/2609.19134v1)（访问 2026-11-07 KST）
+### 覆盖与局限
 
-### 覆盖与时效说明
+本轮补入原作者论文表2的精确分语言FixTests基线；未找到独立实时官方总榜。ScienceIDE相对改善保留旧采集日并单列，不转换为绝对pass@1；FixDocs不得混入本轨。
 
-ScienceIDE §3.3 与附录 11.1 实际使用 JS 修复；不将相对提升填成 pass@1 绝对值，当前官方全语言榜首待核实。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/html/2609.19134v1](https://arxiv.org/html/2609.19134v1)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack/blob/main/README.md)（访问 2026-11-08）。
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开邮箱
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-核验状态：待核实
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
-
-### 公开反馈
+### 仓库反馈
 
 https://github.com/bigcode-project/octopack/issues
 
 > 公开仓库反馈入口；未发送问题。
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）。
 
-### 官方社交渠道
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
-
-### 隐私政策
+### 官方社区
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-核验状态：待核实
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
-来源：[https://arxiv.org/abs/2308.07124](https://arxiv.org/abs/2308.07124)（访问 2026-11-07 KST）
+### 隐私与联系边界
+
+待核实
+
+> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-07）。
 
 ## 原始文件
 
-### 源站论文PDF
+### 论文PDF
 
 https://arxiv.org/pdf/2308.07124
 
 > 归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。
 
-来源：[https://arxiv.org/pdf/2308.07124](https://arxiv.org/pdf/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-07）。
 
-### 原始PDF SHA-256
+### 本轮PDF SHA-256
 
 c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 
-> 源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
 
-来源：[https://arxiv.org/pdf/2308.07124](https://arxiv.org/pdf/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
-### 原始PDF字节数
+### 本轮PDF字节数
 
+```json
 2618401
+```
 
-> 源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
+> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
 
-来源：[https://arxiv.org/pdf/2308.07124](https://arxiv.org/pdf/2308.07124)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
-### Drive资料文件夹
+### 已有Drive文件夹
 
 ```json
 {
@@ -428,9 +655,9 @@ c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 }
 ```
 
-来源：[https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK](https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK)（访问 2026-11-07 KST）
+来源：[1](https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK)（访问 2026-11-07）。
 
-### 其他文档
+### 其他官方文档
 
 ```json
 [
@@ -444,9 +671,9 @@ c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）；[https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk](https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）；[2](https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk)（访问 2026-11-07）。
 
-### Drive 原始 PDF
+### 已有Drive PDF归档
 
 ```json
 {
@@ -455,11 +682,11 @@ c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 }
 ```
 
-来源：[https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk](https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk)（访问 2026-11-07 KST）
+来源：[1](https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk)（访问 2026-11-07）。
 
 ## 变更记录
 
-### changelog
+### 历次核查
 
 ```json
 [
@@ -472,8 +699,14 @@ c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
     "date": "2026-11-07",
     "timezone": "KST / Asia/Seoul",
     "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
   }
 ]
 ```
 
-来源：[https://github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)（访问 2026-11-07 KST）
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）；[2](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）；[3](https://github.com/bigcode-project/octopack)（访问 2026-11-08）。
+

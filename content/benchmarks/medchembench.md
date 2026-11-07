@@ -1,8 +1,10 @@
 # MedChemBench
 
-> 核查：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；待核实不等于未公开。
+> Benchmark Constitution｜2026-11-08 KST（Asia/Seoul）深度复核。访问日期不等于实验运行日期；历史来源日期保持原记录。
 
-已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
+MedChemBench是OpenAI用于药物化学推理的内部评测，覆盖结构理解、构效关系与药效毒性判断等工作流。2026-10-30系统卡明确的新版本为v7，使用99题，按rubric分数先题内平均、再题间等权；因此49.6%不应解释为49.6%的题完全通过。
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
 ## 基本信息
 
@@ -10,440 +12,587 @@
 
 MedChemBench
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 全称
 
 MedChemBench
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-### 基准版本
+### 版本与作用域
 
-待核实
+MedChemBench v7（2026-10-30系统卡附录§3.1）；6月及Astra发布表未标同一版本。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）；[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+### 论文/报告版本
 
-### 论文版本
+2026年10月官方系统卡附录，网页版发布日期2026-10-30；PDF封面October2026，无arXiv版本号。
 
-待核实
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 发布日期
+### 首次公开日期
 
 2026-06-03（官方介绍文章日期，不把9月11日产品开放更新算基准首发）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 主板块
 
 化学
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 子领域
 
+```json
+[
+  "药物化学",
+  "化学结构理解",
+  "构效关系",
+  "药效与毒性预测",
+  "先导优化"
+]
+```
 
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 许可
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 论文
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 代码
+### 许可与权利边界
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 数据
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 论文/报告入口
+
+https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry
+
+说明：方法技术报告入口；这是模型系统卡附录，不是独立MedChemBench论文或arXiv条目。
+
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
+
+### 官方代码
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 官网
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 数据入口
+
+待核实
+
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 官方主页
 
 https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-### 论文标题
+### 论文/报告标题
 
-待核实
+GPT-Rosalind-6 System Card Addendum（§3.1 Medicinal chemistry）
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
 ## 发起与维护
 
-### 发起方
+### 研究发起团队
 
 OpenAI
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-### 合作方
+### 合作研究机构与顾问
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 作者
 
-待核实
+技术报告由OpenAI集体署名；不把系统卡署名推断成独立benchmark命题人员名单。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
 ### 维护方
 
 OpenAI
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-### 资助
+### 资助方
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 设计目标
 
-### 衡量能力
+### 测量能力
 
 多模态化学结构理解、SAR、药物效力/毒性/ADME预测、多参数先导优化、逆合成。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-### 设计背景
+### 设计动机
 
 以真实药物化学工作流综合衡量模型，而非仅单项结构问答。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 构建方式
 
-### 题目来源
+### 材料来源
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 出题人背景
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 命题与标注背景
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 审核流程
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ### 质量控制
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 去污染
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 去污染与留出
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 数据形式
 
-### 规模
+### 规模与统计对象
 
-待核实
+v7同题比较使用99道问题，每题每个推理预算最多9个评分回答；99是题数，不是回答数或所有历史版本题量。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+### 题型与字段
 
-### 题型
+药物化学工作流问答：化学结构理解、构效关系、药效/毒性/ADME预测、多参数先导优化决策与逆合成；v7结果采用rubric评分。
 
-工作流任务，覆盖结构理解、预测、优化决策与逆合成；精确格式待核实。
-
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
 ### 模态
 
-- 化学结构图
-- 文本
+```json
+[
+  "化学结构图",
+  "文本"
+]
+```
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+来源：[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）
 
 ### 语言
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 难度
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 难度与覆盖
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 公开与隐藏划分
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 公开/私有与数据划分
 
 Astra官方表明确称MedChemBench (Internal)；题量、公开划分与发布许可待核实，不能据Internal直接认定所有资料未公开。
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+来源：[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）
 
 ## 评测方法
 
 ### 指标
 
-官方发布表以百分比分数报告；准确评分定义待核实。
+v7 mean rubric score (%)：先在每题内平均回答分数，再对问题等权平均；不是题目二元通过率。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-### 评分
+### 评分与聚合
+
+v7每个推理预算下每题最多9个评分回答，先求题内平均再等权平均各题；系统卡报告最高已测试推理预算下的mean rubric scores。完整rubric与评分器实现仍待核实。
+
+核验状态：待核实
+
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
+
+### 提示与推理预算
+
+v7两模型用相同99题、相同基准版本与题集比较，最高已测试reasoning budget；每题最多9回答。精确提示与token预算待核实。
+
+核验状态：待核实
+
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
+
+### 官方实现
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 提示与运行设置
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-待核实
+### 可比性边界
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+6月27.5%/25.1%、Astra表49.3%/47.4%、10月v7为49.6%/28.9%分属不同发布或协议。系统卡明确GPT-Rosalind-5.5重新在相同v7题集上测评，故28.9%不等于6月27.5%被纠错；不可据这些数跨版本算进步。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 评测脚本
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 可比性警示
-
-仅OpenAI厂商自评；June Rosalind对比27.5% vs 25.1%与Astra发布49.3% vs 47.4%分属不同发布快照，不据此推断同协议进步。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）；[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
 ## 最新情况
 
-### 为什么近期热门
+### 本轮核验时间
 
-热度B：主要单一机构当前展示或厂商持续自评，不代表行业广泛采纳。
+2026-11-08 KST / Asia/Seoul
 
-### 核查日期
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-2026-11-07 KST / Asia/Seoul
+### 当前数据与协议
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+```json
+{
+  "version": "MedChemBench v7（99题；2026-10-30系统卡附录）",
+  "heat_confidence": "B",
+  "evidence_2026_h2": [
+    {
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "date": "2026-11-07",
+      "note": "OpenAI发布表继续列MedChemBench (Internal)；观察日，主要单一厂商自评。"
+    }
+  ]
+}
+```
 
-### 当前版本与热门证据
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）
 
-- **version**：待核实
-- **heat_confidence**：B
-- **evidence_2026_h2**：[{"url": "https://openai.com/index/gpt-6-astra/", "date": "2026-11-07", "note": "OpenAI发布表继续列MedChemBench (Internal)；观察日，主要单一厂商自评。"}]
+### 论文修订与延续使用证据
 
-> B：主要单一机构当前评测/厂商采用，不能声称行业广泛采用。
+公开方法依据新增2026-10-30《GPT-Rosalind-6 System Card Addendum》§3及§3.1；未核实独立MedChemBench论文/arXiv条目，不用产品介绍冒充独立论文。
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-### 修订历史
+### 饱和判断边界
 
-待核实
+v7最高已测推理预算下GPT-Rosalind-6 mean rubric score49.6%，GPT-Rosalind-5.5为28.9%；这不是49.6%的题完全通过，也不据单一厂商自评宣布饱和。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+### 污染、冲突与复现风险
 
-### 饱和情况
+Astra发布表明确标Internal。v7系统卡公开了版本、题量与聚合方式，但未给逐题材料、完整rubric和复现代码；公开数据集及独立论文地址仍待核实。不能把LabWorkBench的proprietary/uncontaminated声明移植为MedChemBench的污染证明。
 
-待核实
+核验状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+来源：[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 污染与争议
-
-可公开核验的工作流定义有限；题量、评分脚本与数据许可尚待核实，无法据发布表完成独立复现。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 衍生及版本关系
+### 衍生实现
 
 与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。
 
-> 编辑去重结论；版本关系以下述专门说明为准。
+说明：编辑去重结论；版本关系以下述专门说明为准。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 榜单快照
 
-### 快照日期
+### 访问快照日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）
 
-### 官方榜单
+### 官方榜单入口
 
 https://openai.com/index/gpt-6-astra/
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+来源：[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）
 
-### 独立评测入口
+### 第三方评测入口
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 核验结果
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-- {"rank": 1, "model": "GPT-6 Astra", "score": "49.3%", "metric": "MedChemBench (Internal)厂商报告分数", "source_url": "https://openai.com/index/gpt-6-astra/", "source_date": "待核实", "collected_at": "2026-11-07 KST", "result_type": "厂商发布表，不是独立实时总榜"}
-- {"rank": 2, "model": "GPT-5.6 Sol", "score": "47.4%", "metric": "MedChemBench (Internal)厂商报告分数", "source_url": "https://openai.com/index/gpt-6-astra/", "source_date": "待核实", "collected_at": "2026-11-07 KST", "result_type": "厂商发布表，不是独立实时总榜"}
+### 分来源、分协议结果
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+```json
+[
+  {
+    "rank": 1,
+    "model": "GPT-Rosalind-6",
+    "score": 49.6,
+    "unit": "%",
+    "metric": "Mean rubric score",
+    "track": "v7 / 99题 / 最高已测reasoning budget",
+    "source_url": "https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry",
+    "accessed": "2026-11-08",
+    "source_date": "2026-10-30",
+    "settings": "每题最多9回答；题内先平均、题间等权",
+    "result_type": "厂商系统卡自报"
+  },
+  {
+    "rank": 2,
+    "model": "GPT-Rosalind-5.5",
+    "score": 28.9,
+    "unit": "%",
+    "metric": "Mean rubric score",
+    "track": "v7 / 99题 / 最高已测reasoning budget",
+    "source_url": "https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry",
+    "accessed": "2026-11-08",
+    "source_date": "2026-10-30",
+    "settings": "每题最多9回答；题内先平均、题间等权",
+    "result_type": "厂商系统卡自报"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-6 Astra",
+    "score": 49.3,
+    "unit": "%",
+    "metric": "厂商发布表百分比分数",
+    "track": "Astra发布表 / MedChemBench (Internal) / 版本未标",
+    "source_url": "https://openai.com/index/gpt-6-astra/",
+    "accessed": "2026-11-08",
+    "result_type": "厂商自报；非独立实时总榜"
+  },
+  {
+    "rank": 2,
+    "model": "GPT-5.6 Sol",
+    "score": 47.4,
+    "unit": "%",
+    "metric": "厂商发布表百分比分数",
+    "track": "Astra发布表 / MedChemBench (Internal) / 版本未标",
+    "source_url": "https://openai.com/index/gpt-6-astra/",
+    "accessed": "2026-11-08",
+    "result_type": "厂商自报；非独立实时总榜"
+  },
+  {
+    "rank": 1,
+    "model": "GPT-Rosalind",
+    "score": 27.5,
+    "unit": "%",
+    "metric": "发布文所列MedChemBench分数",
+    "track": "2026-06-03 Rosalind发布 / 版本未标",
+    "source_url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "accessed": "2026-11-08",
+    "source_date": "2026-06-03",
+    "result_type": "厂商自报；不是v7重测"
+  },
+  {
+    "rank": 2,
+    "model": "GPT-5.5",
+    "score": 25.1,
+    "unit": "%",
+    "metric": "发布文所列MedChemBench分数",
+    "track": "2026-06-03 Rosalind发布 / 版本未标",
+    "source_url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "accessed": "2026-11-08",
+    "source_date": "2026-06-03",
+    "result_type": "厂商自报；不是v7重测"
+  }
+]
+```
 
-### 覆盖与时效说明
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）；[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-仅保留所列来源与协议下的结果；榜单自写更新时间：待核实。访问日期不是评测运行日期。
+### 快照覆盖说明
 
-[来源](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
+三组发布/版本各自列出两模型，只有v7两模型明确在相同99题上比较。官方尚非开放投稿总榜；访问日与运行日区分，v7数值不是二元pass rate。
+
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)（访问2026-11-08 KST）；[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开联系邮箱
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 公开反馈
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
-
-### 官方社交
+### 项目反馈入口
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 隐私政策
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 公开社交渠道
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
+
+### 联系信息原则
+
+待核实
+
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 原始文件
 
-### 源站论文PDF
+### 原始论文/技术报告PDF
 
-待核实
+https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：模型系统卡技术报告原件，内含MedChemBench v7方法；非独立benchmark论文。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
-### PDF SHA-256
+### 本轮PDF SHA-256
 
-待核实
+4d1dc966a6db061ff2fa7f815b08287d8fb37a66416c16cb78bc6d62ead62ebe
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：本轮下载原始字节；未上传Drive。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
-### PDF字节数
+### PDF原始字节数
 
-待核实
+238222
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf](https://deploymentsafety.openai.com/gpt-rosalind-6/gpt-rosalind-6.pdf)（访问2026-11-08 KST）
 
 ### Drive资料夹
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+核验状态：待核实
 
-### 其他官方材料
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-- {"type": "官方介绍/协议", "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"}
+### 其他官方资料
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+```json
+[
+  {
+    "title": "GPT-Rosalind-6 System Card Addendum",
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry",
+    "source_date": "2026-10-30",
+    "section": "3.1 Medicinal chemistry"
+  },
+  {
+    "title": "Introducing new capabilities to GPT-Rosalind",
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "source_date": "2026-06-03"
+  }
+]
+```
 
-### Drive PDF归档
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）；[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
-待核实（本任务未上传）
+### Drive已存PDF
+
+待核实
+
+说明：已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+
+核验状态：待核实
+
+来源：[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-08 KST）
 
 ## 变更记录
 
-### changelog
+### 变更记录
 
-- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"}
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul",
+    "change": "发现官方2026-10-30系统卡MedChemBench v7，99题、最多9回答、题内平均题间等权；6月/Astra/v7三轨分开。"
+  }
+]
+```
 
-[来源](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问 2026-11-07）
+来源：[https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry](https://deploymentsafety.openai.com/gpt-rosalind-6/medicinal-chemistry)（访问2026-11-08 KST）

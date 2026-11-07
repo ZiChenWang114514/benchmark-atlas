@@ -39,7 +39,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -73,11 +73,19 @@
       ]
     },
     "license": {
-      "value": "原论文声明数据及代码MIT；不对原始竞赛内容的权利作法律保证",
+      "value": "官方仓库LICENSE为MIT（2021 Dan Hendrycks），论文亦声明数据及代码MIT；HF qwedsacf镜像标MIT。原始竞赛题权利仍不可由仓库许可自动保证。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/hendrycks/math/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2103.03874",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/qwedsacf/competition_math",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -146,15 +154,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文署名单位UC Berkeley与University of Chicago；不据此增列其他未证实合作关系。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2103.03874",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+      ]
     },
     "authors": {
       "value": [
@@ -175,15 +181,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开入口为hendrycks/math及Dan Hendrycks；这是维护/反馈入口，不构成现行主动维护保证。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/hendrycks/math",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -373,15 +377,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://github.com/hendrycks/math",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -400,45 +400,46 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_version": "arXiv v2",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
+        "revisions": [
           {
-            "url": "https://arxiv.org/html/2609.27284v1",
-            "date": "2026-09-23",
-            "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+            "version": "v1",
+            "submitted_at": "2021-03-06T03:59:39+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2021-11-09T06:30:18+09:00",
+            "timezone": "Asia/Seoul (KST)"
           }
-        ]
+        ],
+        "previous_evidence": {
+          "arxiv_version": "arXiv v2",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "2026_h2_evidence": [
+            {
+              "url": "https://arxiv.org/html/2609.27284v1",
+              "date": "2026-09-23",
+              "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+            }
+          ]
+        }
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "saturation": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/math-500",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+    },
+    "saturation": {
+      "value": "AA MATH-500当前最高99.4%，只支持这个500题子集在该协议下接近满分；不能据此断定完整5,000测试题及每难度层都饱和。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/math-500",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "contamination_and_issues": {
       "value": "官方论文称数据/代码以MIT发布，但原竞赛内容的权利不能据此无条件外推；本轮未法律审查。",
@@ -469,19 +470,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://github.com/hendrycks/math",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/math-500",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -508,64 +501,55 @@
     "results": {
       "value": [
         {
-          "model_version": "GPT-5 (High)",
-          "score": "99.4",
-          "unit": "%",
-          "scope_and_protocol": "AA MATH-500，非完整MATH5000；确切checkpoint/测量日未明",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "rank": 1,
+          "model": "GPT-5 (High)",
+          "score": "99.4%",
+          "metric": "AA MATH-500 accuracy",
+          "track": "AA 500题子集；非完整MATH",
           "source_url": "https://artificialanalysis.ai/evaluations/math-500",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "独立第三方摘要当前前三",
+          "result_date": "待核实"
         },
         {
-          "model_version": "o3",
-          "score": "99.2",
-          "unit": "%",
-          "scope_and_protocol": "AA MATH-500，同口径",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "rank": 2,
+          "model": "o3",
+          "score": "99.2%",
+          "metric": "AA MATH-500 accuracy",
+          "track": "AA 500题子集；非完整MATH",
           "source_url": "https://artificialanalysis.ai/evaluations/math-500",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "独立第三方摘要当前前三",
+          "result_date": "待核实"
         },
         {
-          "model_version": "Hunyuan-A13B",
-          "score": "72.35",
-          "unit": "%",
-          "scope_and_protocol": "基础模型，表2 MATH，4-shot CoT；非AA榜",
-          "result_date": "2026-09-23",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://arxiv.org/html/2609.27284v1",
-          "source_class": "三级：模型厂商自报",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "rank": 3,
+          "model": "Grok 3 mini Reasoning (High)",
+          "score": "99.2%",
+          "metric": "AA MATH-500 accuracy",
+          "track": "AA 500题子集；非完整MATH",
+          "source_url": "https://artificialanalysis.ai/evaluations/math-500",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "result_type": "独立第三方摘要当前前三",
+          "result_date": "待核实"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/math-500",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "只记录当前打开AA摘要的MATH-500前三；并列分数保留来源叙述顺序，不推定统计显著差异。完整MATH官方实时总榜未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2103.03874",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://artificialanalysis.ai/evaluations/math-500",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -645,16 +629,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2103.03874",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
     },
     "pdf_bytes": {
       "value": 2030715,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2103.03874",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -703,12 +688,35 @@
           "data_format.size",
           "data_format.modalities"
         ]
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "basic_info.paper_version",
+          "latest_status.checked_at",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.maintainer",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
       {
         "url": "https://github.com/hendrycks/math",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/hendrycks/math",
+        "accessed": "2026-11-08"
       }
     ]
   }
