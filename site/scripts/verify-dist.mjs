@@ -131,9 +131,12 @@ const heatPage = read('frontier-heat/index.html');
 const impactPage = read('impact/index.html');
 const methodPage = read('impact/method/index.html');
 const registryPage = read('registry/index.html');
+const boardData = { '业界热度榜': '../data/frontier/heat.json', '学术影响力榜': '../data/impact/index.json', '方法页': '../data/impact/index.json', '名录': '../data/registry/registry.json' };
 for (const [label, html] of [['业界热度榜', heatPage], ['学术影响力榜', impactPage], ['方法页', methodPage], ['名录', registryPage]]) {
+  const hasData = existsSync(new URL(boardData[label], new URL('../', import.meta.url)));
   if (!html) fail(`缺少${label}`);
-  else if (!html.includes('数据生成中')) fail(`${label}在数据文件缺席时应该显示数据生成中`);
+  else if (!hasData && !html.includes('数据生成中')) fail(`${label}在数据文件缺席时应该显示数据生成中`);
+  else if (hasData && label === '业界热度榜' && html.includes('数据生成中')) fail(`${label}已有数据却仍显示数据生成中`);
   else if (html.includes('Benchmark Atlas')) fail(`${label}仍出现旧名称`);
 }
 function walkHtml(dir) {

@@ -1,0 +1,154 @@
+{
+  "as_of": "2026-11-07",
+  "timezone": "Asia/Seoul",
+  "status": "provisional_lower_bound",
+  "latest20_verified_globally": false,
+  "models": 20,
+  "benchmark_families": 240,
+  "mentions": 2456,
+  "counted_mentions": 2283,
+  "excluded_mentions": 173,
+  "source_failures": [
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": true,
+      "note_zh": "requests路径失败；另有WebFetch实读摘录"
+    },
+    {
+      "url": "https://openai.com/index/devday-2026-recap",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "http_status": 200,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Omni-Flash",
+      "http_status": 401,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "http_status": null,
+      "request_error": "HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /deepseek-ai/DeepSeek-V4.1-Flash (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)')))",
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": true,
+      "note_zh": "requests路径失败；另有WebFetch实读摘录"
+    },
+    {
+      "url": "https://qwen.ai/blog?id=qwen3.8-max-0902",
+      "http_status": 200,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://research.meta.ai/blog/muse-spark-1-3",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://z.ai/blog/glm-5.3",
+      "http_status": 200,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "http_status": 200,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://z.ai/blog",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B/raw/main/README.md",
+      "http_status": 401,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-sol-and-luna",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://research.meta.ai/blog/muse-spark-1.3",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "http_status": 403,
+      "request_error": null,
+      "webfetch_readable": true,
+      "note_zh": "requests路径失败；另有WebFetch实读摘录"
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-sol",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    },
+    {
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-open",
+      "http_status": 404,
+      "request_error": null,
+      "webfetch_readable": false,
+      "note_zh": "此路径未取得可用正文；不以此页推断评测"
+    }
+  ],
+  "limitations_zh": [
+    "已审核厂商宇宙中的最近20；未证明全球所有前沿模型均已覆盖。",
+    "部分图片和文档仍可能有未抽出的具名评测，不能宣称全部提及无遗漏。",
+    "合并有版本变体的评测家族，但MMLU-Pro和SWE-bench Pro等独立数据集保留独立ID。",
+    "计数是文档提及的去重模型数，包含上下文提及；不是成绩、实际采用率或质量排名。",
+    "registry原始论文/仓库/独立官网多数待补核，homepage为已读厂商报告信息页并显式标注。",
+    "未部署每日定时任务；update_heat.py为可复跑的人工审核输入更新器。"
+  ]
+}
