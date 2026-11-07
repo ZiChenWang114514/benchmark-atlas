@@ -31,26 +31,26 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v1（2026-09-06）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://arxiv.org/abs/2609.25050",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-09-06 19:32:55 KST（arXiv首版；题集于2026年8月构建）",
       "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "数学",
@@ -60,7 +60,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档，不作为官方分类。"
+      "note": "Benchmark Constitution 编辑归档，不作为官方分类。"
     },
     "subfields": {
       "value": [
@@ -75,15 +75,13 @@
       "note": "编辑标签"
     },
     "license": {
-      "value": "待核实",
+      "value": "仓库主体MIT；其中Formal Conjectures衍生的题目文件另遵Apache-2.0及第三方声明，不能把所有内容笼统标为MIT。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://github.com/epoch-research/LeanOpenProblems/blob/HEAD/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2609.25050",
@@ -223,7 +221,7 @@
       ]
     },
     "review_process": {
-      "value": "50条猜想沿用Formal Conjectures；其余18条由自动形式化流程构造，Bloom逐条复核。",
+      "value": "50条猜想（48个编号）取自Formal Conjectures；17个未形式化编号经自动形式化得到18条猜想，Thomas Bloom逐条审核其忠实性。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.25050",
@@ -400,15 +398,13 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "v1：2026-09-06 19:32:55 KST；本轮arXiv提交历史只列这一版。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://arxiv.org/abs/2609.25050",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "saturation": {
       "value": "官网截至2026-10-29列出17个已解问题（包含外部研究及非标准尝试），不代表标准协议饱和。",
@@ -472,47 +468,98 @@
         {
           "rank": 1,
           "model": "GPT-6.1 Sol (max)",
-          "score": 0.04411764705882353,
-          "metric": "CSV mean_score (0–1)",
-          "task_version": "待核实",
-          "original_task_name": "FrontierMath-Erdos",
+          "score": 0.0441176470588235,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
           "run_id": "bloom68-alv3junt54xqrybd",
           "run_started_at_kst": "2026-10-02T05:26:05+09:00",
-          "stderr": "0.02508828598537234",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
           "rank": 2,
           "model": "GPT-6 Astra (max)",
-          "score": 0.029411764705882353,
-          "metric": "CSV mean_score (0–1)",
-          "task_version": "待核实",
-          "original_task_name": "FrontierMath-Erdos",
+          "score": 0.0294117647058823,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
           "run_id": "bloom68-ultima-e1dhs43ykrmakree",
           "run_started_at_kst": "2026-08-29T01:33:49+09:00",
-          "stderr": "0.0206414713705158",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
           "rank": 3,
           "model": "Claude Opus 5.5 (max)",
           "score": 0.0294,
-          "metric": "CSV mean_score (0–1)",
-          "task_version": "待核实",
-          "original_task_name": "FrontierMath-Erdos",
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
           "run_id": "bloom68-opus55-m1pc5wbymin28jdj",
           "run_started_at_kst": "2026-09-24T22:30:00+09:00",
-          "stderr": "0.0206",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 0.029,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
+          "run_id": "bloom68-0ov6a268920re3sz",
+          "run_started_at_kst": "2026-10-08T22:40:19.965000+09:00",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-6 Sol (max)",
+          "score": 0.0147058823529411,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
+          "run_id": "bloom68-gpt6sol-jw3kuj7ihascfke9",
+          "run_started_at_kst": "2026-09-30T18:15:20+09:00",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Argon (high)",
+          "score": 0.0147058823529411,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
+          "run_id": "bloom68-nhb6jkzaqrdr7pf8",
+          "run_started_at_kst": "2026-10-21T02:29:42+09:00",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
+        },
+        {
+          "rank": 7,
+          "model": "Grok 4.7 (xhigh)",
+          "score": 0.0,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
+          "run_id": "bloom68-grok47-c934xdlxd6komspn",
+          "run_started_at_kst": "2026-09-22T08:18:50+09:00",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3.8 Flash (high)",
+          "score": 0.0,
+          "metric": "mean_score (0–1)",
+          "task_version": "待核实（CSV为空）",
+          "run_id": "bloom68-gemini38f-aojsg6oyu5hcva8s",
+          "run_started_at_kst": "2026-09-03T02:31:10+09:00",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         }
       ],
       "sources": [
@@ -523,8 +570,12 @@
       ]
     },
     "coverage_note": {
-      "value": "CSV标准FrontierMath-Erdos任务已成功记录排序；不混入非系统高预算尝试。论文早期3%是历史值，不代替当前CSV结果。",
+      "value": "刷新FrontierMath-Erdos成功记录前8，保持mean_score原始0–1小数，不将0.0294强制改成2/68。CSV task version空值仍待核实；页面17个已解包含外部/非标准尝试，不是任一模型标准分数。",
       "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
           "accessed": "2026-11-07"
@@ -545,37 +596,31 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/epoch-research/LeanOpenProblems/issues",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://github.com/epoch-research/LeanOpenProblems",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/EpochAIResearch",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://epoch.ai/privacy",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -589,26 +634,24 @@
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "49a0289087c9378b02e0a85cded14cc0ce9d8b43a814065af2e54895eef6babc",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://arxiv.org/pdf/2609.25050",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "本轮下载原始PDF字节计算，非arXiv网页显示大小。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 316954,
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "url": "https://arxiv.org/pdf/2609.25050",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "本轮实际下载字节数；不代表Drive已上传。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -622,15 +665,26 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "官方评测scaffold与Lean题目",
+          "url": "https://github.com/epoch-research/LeanOpenProblems"
+        },
+        {
+          "type": "当前已解问题登记及方法",
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos"
+        }
+      ],
       "sources": [
+        {
+          "url": "https://github.com/epoch-research/LeanOpenProblems",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -650,6 +704,10 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-07",
+        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
       }
     ],
     "sources": [

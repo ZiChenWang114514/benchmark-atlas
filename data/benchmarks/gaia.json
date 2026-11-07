@@ -58,7 +58,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+      "note": "Benchmark Constitution 编辑归档；跨领域仅主板块计数。"
     },
     "subfields": {
       "value": [
@@ -72,22 +72,13 @@
       ]
     },
     "license": {
-      "value": "官方GAIA leaderboard Space代码：Apache-2.0（Space README元数据）；GAIA数据集独立许可证待核实，数据卡要求门控且不得公开再分发。",
+      "value": "待核实；当前官方卡明确要求同意门控条件且禁止在可爬取/无门控位置转发题库，但未据此确认统一版权许可证。GAIA2的CC-BY-4.0不能回填到GAIA。",
       "sources": [
-        {
-          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard/raw/main/README.md",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://huggingface.co/api/datasets/gaia-benchmark/GAIA",
-          "accessed": "2026-11-07"
         }
       ],
-      "note": "官方数据卡与本轮公开metadata均未给出可核实的数据license字段，不把Space代码许可扩展到数据。",
       "status": "待核实"
     },
     "paper_url": {
@@ -114,10 +105,10 @@
       "note": "官方评测Space源代码，包括app.py与scorer.py；不是推断出来的第三方GitHub仓库。"
     },
     "dataset_url": {
-      "value": "https://huggingface.co/gaia-benchmark",
+      "value": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12983",
+          "url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
           "accessed": "2026-11-07"
         }
       ]
@@ -306,7 +297,7 @@
       ]
     },
     "difficulty": {
-      "value": "Level 1 / 2 / 3，依据步骤、工具数量与复杂性划分。",
+      "value": "三档按人工所需工具和步骤粗分：Level1通常至多1工具/5步，Level2约5–10步且组合工具，Level3更长操作序列；这不是严格步数阈值。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12983",
@@ -315,7 +306,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "2023版共466题：validation 165（L1 53/L2 86/L3 26），test 301（L1 93/L2 159/L3 49）。官方app当前仅显示test榜；数据集门控，不下载或公开传播隐藏数据。",
+      "value": "466题：validation 165（Level1/2/3为53/86/26），test 301（93/159/49）；测试答案由官方评分端持有。当前HF题库需接受门控条件，不得在可爬取位置转发。",
       "sources": [
         {
           "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard/blob/main/app.py",
@@ -472,15 +463,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "Gaia2是2025-09-22发布的后续独立基准，配合Meta ARE测试动态读写、歧义、时序和噪声；不是原GAIA题库的可替换版本，两榜不得混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12983",
+          "url": "https://huggingface.co/blog/gaia2",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
-      "status": "待核实"
+      ]
     }
   },
   "leaderboard": {
@@ -516,52 +505,108 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Keen AgenticOS V1.1",
           "score": 94.35,
-          "unit": "%",
-          "metric": "Average score (%)",
-          "scope": "GAIA 2023 test 301；官方HF Space同源results_public",
-          "date": "2026-11-03",
-          "accessed": "2026-11-07 KST",
-          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
-          "provenance": "官方Space app.py指定的公开结果集；参评者提交由官方scorer评分，不等同独立重跑Agent。",
-          "model_family": "Deepseek，Kimi，Claude",
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-11-03",
           "level1": 97.85,
           "level2": 93.71,
           "level3": 89.8,
-          "leaderboard_updated_at": "待核实"
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
         },
         {
+          "rank": 2,
           "model": "Shadow Harness V8.01",
           "score": 94.02,
-          "unit": "%",
-          "metric": "Average score (%)",
-          "scope": "GAIA 2023 test 301；官方HF Space同源results_public",
-          "date": "2026-10-12",
-          "accessed": "2026-11-07 KST",
-          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
-          "provenance": "官方Space app.py指定的公开结果集；参评者提交由官方scorer评分，不等同独立重跑Agent。",
-          "model_family": "GPT  Claude  Grok  Gemini  DeepSeek",
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-10-12",
           "level1": 98.92,
           "level2": 91.82,
           "level3": 91.84,
-          "leaderboard_updated_at": "待核实"
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
         },
         {
+          "rank": 2,
           "model": "Keen AgenticOS  V1.0",
           "score": 94.02,
-          "unit": "%",
-          "metric": "Average score (%)",
-          "scope": "GAIA 2023 test 301；官方HF Space同源results_public",
-          "date": "2026-10-29",
-          "accessed": "2026-11-07 KST",
-          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
-          "provenance": "官方Space app.py指定的公开结果集；参评者提交由官方scorer评分，不等同独立重跑Agent。",
-          "model_family": "Deepseek，Kimi，Claude",
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-10-29",
           "level1": 96.77,
           "level2": 93.71,
           "level3": 89.8,
-          "leaderboard_updated_at": "待核实"
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
+        },
+        {
+          "rank": 4,
+          "model": "Ops-Agentic-Search-2.0",
+          "score": 93.69,
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-09-22",
+          "level1": 98.92,
+          "level2": 93.08,
+          "level3": 85.71,
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
+        },
+        {
+          "rank": 5,
+          "model": "CustomGPT.ai Research Lab v44",
+          "score": 93.36,
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-06-03",
+          "level1": 97.85,
+          "level2": 91.82,
+          "level3": 89.8,
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
+        },
+        {
+          "rank": 5,
+          "model": "OmniSeek_Preview_v1.1",
+          "score": 93.36,
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-10-30",
+          "level1": 98.92,
+          "level2": 91.19,
+          "level3": 89.8,
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
+        },
+        {
+          "rank": 7,
+          "model": "1028-9",
+          "score": 93.02,
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-10-28",
+          "level1": 95.7,
+          "level2": 92.45,
+          "level3": 89.8,
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
+        },
+        {
+          "rank": 7,
+          "model": "Shadow Harness V5.01",
+          "score": 93.02,
+          "metric": "GAIA 2023 test 301 Average score (%)",
+          "submission_date": "2026-10-11",
+          "level1": 97.85,
+          "level2": 91.19,
+          "level3": 89.8,
+          "source_url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方scorer评出的提交结果，非独立重跑"
         }
       ],
       "sources": [
@@ -573,18 +618,17 @@
           "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard/blob/main/app.py",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "Space外壳未直接渲染表格，但公开app.py可读且明确从gaia-benchmark/results_public的2023/test读取；本轮仅下载公开榜单结果Parquet，不触及门控GAIA题库或内部提交/联系数据。"
+      ]
     },
     "coverage_note": {
-      "value": "本轮从官方HF Space公开app.py追踪到results_public，按score降序并乘100、保留2位小数，与app展示转换一致。前三Keen AgenticOS V1.1 94.35、Shadow Harness V8.01 94.02、Keen AgenticOS V1.0 94.02；后两名同分不强行分胜负。记录各提交日，不把采集日当榜单整体更新日。",
+      "value": "重取官方Space指定results_public并按score排序×100保留两位小数，列前8、同分并列名次。榜首94.35%，次席两项94.02%。date为各项提交日，不把它当榜表整体更新日；未声称复跑提交方agent。",
       "sources": [
         {
-          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard/blob/main/app.py",
+          "url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
+          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard/blob/main/app.py",
           "accessed": "2026-11-07"
         }
       ]
@@ -660,7 +704,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本轮下载原始PDF字节计算，非arXiv网页显示大小。"
     },
     "pdf_bytes": {
       "value": 4254059,
@@ -670,7 +714,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本轮实际下载字节数；不代表Drive已上传。"
     },
     "drive_folder": {
       "value": {
@@ -729,6 +773,10 @@
         "timezone": "KST / Asia/Seoul",
         "round": "1 / 深度实证复核",
         "change": "补官方Space代码与Apache代码许可，数据许可仍待核实；读取公开results_public得test前三与11月提交证据，补官方scorer。"
+      },
+      {
+        "date": "2026-11-07",
+        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
       }
     ],
     "sources": [

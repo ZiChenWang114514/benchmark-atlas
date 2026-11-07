@@ -31,15 +31,13 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v3（2026-07-15）",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "release_date": {
       "value": "2026-04-14（论文§5.1自述基准发布日期；7月论文不是首发日）",
@@ -211,15 +209,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "任务由十类专业领域的在职从业者按日常工作提出；论文作者为Surge AI的Suhaas Garre、Emily Ritchie、Sushant Mehta、Edwin Chen，不把论文作者与全部出题专家混为一谈。",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "review_process": {
       "value": "专家编写参考答案、原子rubric和能力标签；参考答案须通过自己的rubric，故意错误答案须被对应标准拦截；论文的错误分析另行人工核对原文。",
@@ -240,15 +236,14 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "论文采用多模型失败筛选与必须依据原PDF的题目要求；这控制题目难度/依证性，不证明训练去污染。原PDF来自现实工作且题目已发布，预训练暴露状况待核实。",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "status": "待核实"
     }
   },
   "data_format": {
@@ -301,15 +296,13 @@
       "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "每个保留样本都使至少两个前沿多模态模型犯实质错误；按11种能力轴、三级能力体系标注，不提供统一easy/medium/hard数量。",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "论文称100题及PDF、提示、rubric、标签全部公开；本次HF数据页返回401，公开性按论文陈述记录，不宣称已下载题库。",
@@ -354,14 +347,13 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/surge-ai/gdp-pdf",
+      "value": "https://github.com/surge-ai/gdp-pdf；Inspect AI入口src/gdp_pdf/task.py，--epochs 5，Gemini 3.5 Flash judge；all_pass/mean为主榜，mean_criteria/mean保留部分分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2607.11192",
+          "url": "https://github.com/surge-ai/gdp-pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "链接由已打开原始论文/数据卡指向；本轮未逐文件核验代码。"
+      ]
     },
     "comparability_warning": {
       "value": "AA与Surge共享题集但PDF输入和裁判不同；原生PDF与预解析OCR两套成绩不能直接互换。",
@@ -425,26 +417,22 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "arXiv v1：2026-07-13 16:44:07 KST；v2：07-14 16:57:18 KST；v3：07-15 16:47:22 KST。基准4月首发与7月论文发布应分开。",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前Surge严格通过率榜首35.0%，次席34.2%、第三33.2%；未达满分。不能由平均rubric高分推断严格任务通过率已经饱和。",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "AA与Surge共享题集但PDF输入和裁判不同；原生PDF与预解析OCR两套成绩不能直接互换。",
@@ -501,34 +489,81 @@
           "rank": 1,
           "model": "GPT 6.1 Sol (Max reasoning)",
           "score": 35,
-          "metric": "Surge原版严格通过率 (%)",
+          "metric": "Surge严格任务通过率 (%)",
           "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "source_date": "待核实（榜表更新时间）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "Surge官方网页当前榜；非AA实现"
         },
         {
           "rank": 2,
           "model": "GPT 6 Astra (Max reasoning)",
           "score": 34.2,
-          "metric": "Surge原版严格通过率 (%)",
+          "metric": "Surge严格任务通过率 (%)",
           "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "source_date": "待核实（榜表更新时间）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "Surge官方网页当前榜；非AA实现"
         },
         {
           "rank": 3,
           "model": "Muse Wonder Full (Max reasoning)",
           "score": 33.2,
-          "metric": "Surge原版严格通过率 (%)",
+          "metric": "Surge严格任务通过率 (%)",
           "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "source_date": "待核实（榜表更新时间）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "Surge官方网页当前榜；非AA实现"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Sonnet 5.5 (Adaptive/Max)",
+          "score": 31.4,
+          "metric": "Surge严格任务通过率 (%)",
+          "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Surge官方网页当前榜；非AA实现"
+        },
+        {
+          "rank": 5,
+          "model": "Muse Wonder (Max reasoning)",
+          "score": 30.8,
+          "metric": "Surge严格任务通过率 (%)",
+          "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Surge官方网页当前榜；非AA实现"
+        },
+        {
+          "rank": 6,
+          "model": "GPT 5.6 Sol (Max reasoning)",
+          "score": 30.7,
+          "metric": "Surge严格任务通过率 (%)",
+          "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Surge官方网页当前榜；非AA实现"
+        },
+        {
+          "rank": 7,
+          "model": "Claude Opus 5.5 (Adaptive/Max)",
+          "score": 30.6,
+          "metric": "Surge严格任务通过率 (%)",
+          "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Surge官方网页当前榜；非AA实现"
+        },
+        {
+          "rank": 8,
+          "model": "Claude Fable 5 (Adaptive/Max)",
+          "score": 29.8,
+          "metric": "Surge严格任务通过率 (%)",
+          "source_url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Surge官方网页当前榜；非AA实现"
         }
       ],
       "sources": [
@@ -550,46 +585,43 @@
   },
   "contact": {
     "public_emails": {
-      "value": "suhaas@surgehq.ai",
+      "value": [
+        "suhaas@surgehq.ai"
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2607.11192",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "论文明确公开的通讯地址，仅用于研究联系。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/surge-ai/gdp-pdf/issues",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "url": "https://github.com/surge-ai/gdp-pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/HelloSurgeAI",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://surgehq.ai/privacy-policy",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/gdp-pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -611,7 +643,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮直接读取原始PDF字节核验；未上传Drive。"
+      "note": "本轮下载原始PDF字节计算，非arXiv网页显示大小。"
     },
     "pdf_bytes": {
       "value": 223397,
@@ -621,7 +653,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮直接读取原始PDF字节核验；未上传Drive。"
+      "note": "本轮实际下载字节数；不代表Drive已上传。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -678,6 +710,10 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目。GDP.pdf不是GDPval，也不是GDP.xlsx：本条只记录专业PDF问答，不合并职业交付物或电子表格任务。 热度与榜单口径分离，不确定值标记待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
       }
     ],
     "sources": [

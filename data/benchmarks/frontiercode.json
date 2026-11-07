@@ -43,7 +43,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     },
     "release_date": {
@@ -68,7 +68,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+      "note": "Benchmark Constitution 编辑归档；跨领域仅主板块计数。"
     },
     "subfields": {
       "value": [
@@ -100,7 +100,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "已核实官方方法文章与榜单；检索未找到独立原始学术论文。方法文章不冒充论文。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     },
     "code_url": {
@@ -111,19 +111,18 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://cognition.com/frontiercode#methodology（私有132题的官方说明与部分任务展示，不是完整公开下载）",
       "sources": [
         {
           "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "官方方法明确任务保持私有；未伪造HF数据集或完整发布仓库。"
     },
     "official_homepage": {
       "value": "https://cognition.com/frontiercode",
@@ -142,7 +141,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方方法页标题 FrontierCode 2.0；独立论文标题待核实。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     }
   },
@@ -235,8 +234,12 @@
       ]
     },
     "review_process": {
-      "value": "人工与自动审查任务说明、参考解和评分规则；2.0中80%参考解区别于上游PR。",
+      "value": "每题由仓库维护者撰写任务和评分rubric，再经历对抗测试、校准、多阶段人工/自动复核，且每题有Cognition研究员手审；2.0的80%参考解不同于上游PR。",
       "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://cognition.com/blog/frontier-code-2.0",
           "accessed": "2026-11-07"
@@ -359,7 +362,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     },
     "comparability_warning": {
@@ -374,14 +377,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
       "sources": [
         {
-          "url": "https://cognition.com/blog/frontier-code-2.0",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
       ]
@@ -545,10 +544,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
       ]
@@ -575,6 +574,126 @@
       "value": [
         {
           "rank": 1,
+          "model": "Claude Opus 5.5",
+          "score": 45.5,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Astra",
+          "score": 42.8,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 5.5",
+          "score": 41.0,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon",
+          "score": 40.0,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-6.1 Sol",
+          "score": 39.0,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 6,
+          "model": "GPT-6 Sol",
+          "score": 34.3,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 7,
+          "model": "Claude Fable 5.1",
+          "score": 32.4,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 8,
+          "model": "Grok 4.7",
+          "score": 28.6,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 9,
+          "model": "Claude Haiku 5.5",
+          "score": 27.7,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 10,
+          "model": "GPT-5.6 Sol",
+          "score": 27.6,
+          "metric": "weighted rubric score (%)",
+          "benchmark_version": "2.0 / 132 tasks",
+          "scope": "Cognition官方榜JSON-LD ItemList；非AA Stirrup实现",
+          "source_url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07",
+          "page_changelog_latest": "2026-11-05（网页最新模型添加记录，非每条运行日）",
+          "settings": "具体effort/harness逐配置待核实；此结构化榜未列完整配置"
+        },
+        {
+          "rank": 1,
           "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 46.4,
           "metric": "weighted rubric score (%)，Stirrup，3 attempts/task",
@@ -582,7 +701,8 @@
           "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07",
           "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）",
+          "scope": "AA Stirrup独立实现，与官方榜分轨"
         },
         {
           "rank": 2,
@@ -593,7 +713,8 @@
           "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07",
           "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）",
+          "scope": "AA Stirrup独立实现，与官方榜分轨"
         },
         {
           "rank": 3,
@@ -604,22 +725,26 @@
           "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07",
           "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）",
+          "scope": "AA Stirrup独立实现，与官方榜分轨"
         }
       ],
       "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
+      ]
     },
     "coverage_note": {
-      "value": "当前快照来源：https://artificialanalysis.ai/evaluations/frontiercode-2-0。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 ",
+      "value": "新增当前Cognition官方页JSON-LD前10：45.5、42.8、41.0等；另列AA的46.4、43.8、42.4，二者不是同一harness，rank只在各轨内有效。官方11月5日有最新模型添加记录，不把它当每条运行日；JSON-LD未带完整effort，保留配置缺口。",
       "sources": [
         {
-          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         },
         {
@@ -653,26 +778,22 @@
       "status": "待核实"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/cognition（官方组织账号，官网sameAs元数据/页脚）",
       "sources": [
         {
           "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://cognition.com/legal/privacy-policy",
       "sources": [
         {
           "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     }
   },
   "original_files": {
@@ -684,7 +805,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮检索官方2.0方法文章、官网及PDF搜索未定位可验证原始论文PDF；HTML不是原始PDF，不打印网页冒充。",
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。",
       "status": "待核实"
     },
     "sha256": {
@@ -736,19 +857,19 @@
           "type": "中文介绍Google Doc",
           "id": "1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis",
           "webViewLink": "https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk"
+        },
+        {
+          "type": "本轮核验的官方原始资料",
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
         }
       ],
       "sources": [
         {
-          "url": "https://cognition.com/blog/frontier-code-2.0",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk",
+          "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+      ]
     }
   },
   "drive_pdf": {
@@ -788,23 +909,16 @@
             "accessed": "2026-11-07"
           }
         ]
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
       }
     ],
     "sources": [
       {
         "url": "https://cognition.com/frontiercode",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://cognition.com/blog/frontier-code-2.0",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://artificialanalysis.ai/evaluations/omniscience",
         "accessed": "2026-11-07"
       }
     ]

@@ -31,26 +31,22 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "2026-09-02网页技术报告；无arXiv版号可据此填写。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-09-02（官方V2发布文日期）",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "代码",
@@ -60,7 +56,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档，不作为官方分类。"
+      "note": "Benchmark Constitution 编辑归档，不作为官方分类。"
     },
     "subfields": {
       "value": [
@@ -75,26 +71,25 @@
       "note": "编辑标签"
     },
     "license": {
-      "value": "待核实",
+      "value": "README仅声明任务及测试harness供评测使用，并要求逐任务检查上游归属；统一开源许可证待核实。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "根目录LICENSE请求返回404；不能由公开仓库推定MIT/Apache授权。",
+      "status": "待核实"
     },
     "paper_url": {
-      "value": "待核实",
+      "value": "https://www.frontierswe.com/blog/v2",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "官方技术发布文，不把博客冒充arXiv论文。"
     },
     "code_url": {
       "value": "https://github.com/Proximal-Labs/frontier-swe-v2",
@@ -124,61 +119,85 @@
       ]
     },
     "paper_title": {
-      "value": "待核实",
+      "value": "FrontierSWE v2（官方技术发布文；README引用题名为FrontierSWE v2: Testing Coding Agents at the Frontier of Software Engineering）",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "organization": {
     "initiators": {
-      "value": "待核实",
+      "value": "Proximal团队",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "与外部贡献者合作；致谢把Bilal Bakht Ahmad和Ayush Nangia列为独立贡献者，Animesh Sinha与Bhuvanesh Sridharan列为BayesMech。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
-      "value": "待核实",
+      "value": [
+        "Rishyanth Kondra",
+        "Sanket Mhatre",
+        "Akshit Kumar",
+        "Evan Chu",
+        "Bilal Bakht Ahmad",
+        "Ayush Nangia",
+        "Rajan Agarwal",
+        "Arpan Dasgupta",
+        "Animesh Sinha",
+        "Bhuvanesh Sridharan",
+        "Krupa Dave",
+        "Brendan Graham",
+        "Guanyu Song",
+        "Anirudh Rahul",
+        "Wei Hern Lim",
+        "Abishek Thangamuthu",
+        "Ramneet Singh",
+        "Danna Liu",
+        "Navid Pour",
+        "Calvin Chen",
+        "Justus Mattern"
+      ],
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Proximal-Labs / Proximal团队",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -203,72 +222,65 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "待核实",
+      "value": "面向20小时级工程与科研，修正v1模型过早提交、共享主机计时噪声及测试器可篡改等问题；测量固定长时间预算内最终实现的功能和性能。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "construction": {
     "question_sources": {
-      "value": "待核实",
+      "value": "v2新增21项并退役4项v1任务，总计34项；来自编译器重写、数据库兼容、GPU推理优化、天气预测、MEG解码等真实技术场景。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "Proximal核心工程团队与外部贡献者；Kondra、Mhatre和Kumar列为共同负责人，具体个人履历不作推断。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "全部任务重新QA；提供与最终评分单调相关的self-check反馈；运行后评审面板检查完整轨迹、标记可疑行为，确认违规试次清零。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "固定镜像、代理与干净验证器双容器隔离、非root执行及root私有评分资产；实现任务采用结构变异测试，性能任务改用固定微架构加权指令数以提高可复现性。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "防作弊措施包括隐藏变体、独立验证器及轨迹审查；任务内容公开，这些防作弊措施不构成预训练去污染证明，训练污染程度待核实。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "status": "待核实"
     }
   },
   "data_format": {
@@ -304,15 +316,17 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "任务覆盖Zig、Rust、Go、Free Pascal、Swift、Haskell、CUDA、Python等技术栈；任务要求逐项定义，不使用单一编程语言口径。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
       "value": "每任务20小时运行预算。",
@@ -324,15 +338,17 @@
       ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "公开34项任务的instruction.md、task.toml、环境及参考solution；最终验证采用干净容器与部分隐藏结构变异/域外数据，不是标准train/test百分比切分。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -426,47 +442,48 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "V2发布文日期2026-09-02；README明确任务内容与评分仍可能更新，应固定仓库提交与镜像digest。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前首页最高mean@5为65.5%，未达满分；发布日最高56.29%是历史结果，不能混作当前榜首。",
       "sources": [
         {
           "url": "https://www.frontierswe.com/",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "发布文记录reward-hacking与越权读取评测资产事件，相关确认试次清零；性能代理指标虽可复现，仍不是所有硬件上的真实耗时；Proximus提示使模型意识到正在被评测。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "V2取代v1的主榜；PCQM4Mv2 Molecular Gap Prediction、Pyright优化、Revideo优化、Dependent Type Checker四项退役。",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+      ]
     }
   },
   "leaderboard": {
@@ -506,30 +523,120 @@
           "model": "GPT-6 Astra / proximus",
           "score": 65.5,
           "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 1029.65,
+          "average_hours_per_trial": 12.1,
           "source_url": "https://www.frontierswe.com/",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5 / proximus",
           "score": 62.3,
           "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 98.87,
+          "average_hours_per_trial": 14.2,
           "source_url": "https://www.frontierswe.com/",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
         },
         {
           "rank": 3,
           "model": "Gemini 4 Carbon / proximus",
           "score": 61.2,
           "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 61.93,
+          "average_hours_per_trial": 12.6,
           "source_url": "https://www.frontierswe.com/",
-          "source_date": "待核实",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 4,
+          "model": "GLM-5.3 / proximus",
+          "score": 30.2,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 97.22,
+          "average_hours_per_trial": 17.1,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 5,
+          "model": "Grok 4.7 / proximus",
+          "score": 29.5,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 318.77,
+          "average_hours_per_trial": 12.1,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 6,
+          "model": "Kimi K3 / proximus",
+          "score": 25.9,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 109.71,
+          "average_hours_per_trial": 18.5,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 7,
+          "model": "Muse Spark 1.3 / proximus",
+          "score": 25.8,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 243.34,
+          "average_hours_per_trial": 17.0,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 8,
+          "model": "Qwen3.8-Max-0902 / proximus",
+          "score": 17.8,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 51.27,
+          "average_hours_per_trial": 19.4,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 9,
+          "model": "DeepSeek V4 Flash Vision Exp / proximus",
+          "score": 14.8,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 8.57,
+          "average_hours_per_trial": 14.9,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
+        },
+        {
+          "rank": 10,
+          "model": "Inkling / proximus",
+          "score": 4.1,
+          "metric": "V2 mean@5 (%)",
+          "average_cost_usd_per_trial": 9.15,
+          "average_hours_per_trial": 1.1667,
+          "source_url": "https://www.frontierswe.com/",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实",
+          "result_type": "当前官方首页榜"
         }
       ],
       "sources": [
@@ -540,10 +647,14 @@
       ]
     },
     "coverage_note": {
-      "value": "当前官网mean@5榜；±数值和worst/best whiskers不可自动称95%置信区间，榜单更新时间待核实。",
+      "value": "已重新打开首页前10。mean@5为34任务各5次试验的均值；worst@5–best@5 whiskers不是95%置信区间。官网未标榜表更新时间，保留待核实；2026-09-02发布文不是当前榜日期。",
       "sources": [
         {
           "url": "https://www.frontierswe.com/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
           "accessed": "2026-11-07"
         }
       ]
@@ -562,15 +673,13 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/Proximal-Labs/frontier-swe-v2/issues",
       "sources": [
         {
-          "url": "https://www.frontierswe.com/",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -584,15 +693,13 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://proximal.ai/privacy",
       "sources": [
         {
           "url": "https://www.frontierswe.com/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -641,15 +748,26 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://www.frontierswe.com/",
-          "accessed": "2026-11-07"
+          "type": "V2技术报告",
+          "url": "https://www.frontierswe.com/blog/v2"
+        },
+        {
+          "type": "公开任务与复现说明",
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://www.frontierswe.com/blog/v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Proximal-Labs/frontier-swe-v2",
+          "accessed": "2026-11-07"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -669,6 +787,10 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-07",
+        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
       }
     ],
     "sources": [

@@ -1,489 +1,366 @@
 # FrontierSWE v2
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方资料中文改写；待核实不等于未公开。原始数据与第三方实现、历史论文与当前榜单分轨。
+> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+
+这是20小时级长程工程评测，34项任务同时覆盖实现、性能、科学计算、视觉与AI研究。重要变化不只是加题，还包括独立验证器、可重复性能代理指标和鼓励持续工作的Proximus harness。
 
 编辑状态：研究快照；trending: A；未核实字段保留标记
 
 ## 基本信息
 
-### 简称
+**简称**：FrontierSWE v2
 
-FrontierSWE v2
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**全称**：FrontierSWE
 
-### 全称
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-FrontierSWE
+**基准版本**：V2
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 基准版本
+**论文版本**：2026-09-02网页技术报告；无arXiv版号可据此填写。
 
-V2
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**发布日期**：2026-09-02（官方V2发布文日期）
 
-### 论文版本
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-待核实
+**主板块**：代码
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：Benchmark Constitution 编辑归档，不作为官方分类。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 发布日期
+**领域标签**：代码
 
-待核实
+核验说明：编辑标签
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**许可证与授权边界**：README仅声明任务及测试harness供评测使用，并要求逐任务检查上游归属；统一开源许可证待核实。
 
-### 主板块
+状态：待核实。
 
-代码
+核验说明：根目录LICENSE请求返回404；不能由公开仓库推定MIT/Apache授权。
 
-> Benchmark Atlas 编辑归档，不作为官方分类。
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**论文或技术报告**：https://www.frontierswe.com/blog/v2
 
-### 领域标签
+核验说明：官方技术发布文，不把博客冒充arXiv论文。
 
-- 代码
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-> 编辑标签
+**官方代码**：https://github.com/Proximal-Labs/frontier-swe-v2
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 许可证
+**数据地址**：https://github.com/Proximal-Labs/frontier-swe-v2
 
-待核实
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**官方主页**：https://www.frontierswe.com/
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 论文
+**论文题名**：FrontierSWE v2（官方技术发布文；README引用题名为FrontierSWE v2: Testing Coding Agents at the Frontier of Software Engineering）
 
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 官方代码
-
-https://github.com/Proximal-Labs/frontier-swe-v2
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 数据地址
-
-https://github.com/Proximal-Labs/frontier-swe-v2
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 官方主页
-
-https://www.frontierswe.com/
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 论文标题
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）；[2](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
 ## 发起与维护
 
-### 发起方
+**发起方**：Proximal团队
 
-待核实
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**协作与机构边界**：与外部贡献者合作；致谢把Bilal Bakht Ahmad和Ayush Nangia列为独立贡献者，Animesh Sinha与Bhuvanesh Sridharan列为BayesMech。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-### 合作方
+**作者**：Rishyanth Kondra；Sanket Mhatre；Akshit Kumar；Evan Chu；Bilal Bakht Ahmad；Ayush Nangia；Rajan Agarwal；Arpan Dasgupta；Animesh Sinha；Bhuvanesh Sridharan；Krupa Dave；Brendan Graham；Guanyu Song；Anirudh Rahul；Wei Hern Lim；Abishek Thangamuthu；Ramneet Singh；Danna Liu；Navid Pour；Calvin Chen；Justus Mattern
 
-待核实
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**维护方**：Proximal-Labs / Proximal团队
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-### 作者
+**资助方**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 维护方
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 资助方
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 ## 设计目标
 
-### 衡量能力
+**测量能力**：衡量人类能力边缘的软件工程能力，涵盖AI研究实现、优化、科学计算及视觉推理。
 
-衡量人类能力边缘的软件工程能力，涵盖AI研究实现、优化、科学计算及视觉推理。
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**相对既有评测的缺口**：面向20小时级工程与科研，修正v1模型过早提交、共享主机计时噪声及测试器可篡改等问题；测量固定长时间预算内最终实现的功能和性能。
 
-### 设计背景
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
 ## 构建方式
 
-### 题目来源
+**题目来源**：v2新增21项并退役4项v1任务，总计34项；来自编译器重写、数据库兼容、GPU推理优化、天气预测、MEG解码等真实技术场景。
 
-待核实
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）；[2](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**出题与研究背景**：Proximal核心工程团队与外部贡献者；Kondra、Mhatre和Kumar列为共同负责人，具体个人履历不作推断。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-### 出题者背景
+**审核流程**：全部任务重新QA；提供与最终评分单调相关的self-check反馈；运行后评审面板检查完整轨迹、标记可疑行为，确认违规试次清零。
 
-待核实
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**质量控制**：固定镜像、代理与干净验证器双容器隔离、非root执行及root私有评分资产；实现任务采用结构变异测试，性能任务改用固定微架构加权指令数以提高可复现性。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-### 审核流程
+**去污染与泄漏边界**：防作弊措施包括隐藏变体、独立验证器及轨迹审查；任务内容公开，这些防作弊措施不构成预训练去污染证明，训练污染程度待核实。
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 质量控制
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 去污染
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
 ## 数据形式
 
-### 题量与规模
+**规模与口径**：34任务
 
-34任务
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**任务类型**：长程软件工程任务，含编译器、科学计算、模型优化及视觉交互工程。
 
-### 题型
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-长程软件工程任务，含编译器、科学计算、模型优化及视觉交互工程。
+**模态**：代码；文本；视觉环境
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 模态
+**语言**：任务覆盖Zig、Rust、Go、Free Pascal、Swift、Haskell、CUDA、Python等技术栈；任务要求逐项定义，不使用单一编程语言口径。
 
-- 代码
-- 文本
-- 视觉环境
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**难度**：每任务20小时运行预算。
 
-### 语言
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-待核实
+**公开与隐藏划分**：公开34项任务的instruction.md、task.toml、环境及参考solution；最终验证采用干净容器与部分隐藏结构变异/域外数据，不是标准train/test百分比切分。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 难度
-
-每任务20小时运行预算。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 公开与隐藏划分
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
 ## 评测方法
 
-### 指标
+**指标**：mean@5；另展示worst@5至best@5区间及平均成本、用时。
 
-mean@5；另展示worst@5至best@5区间及平均成本、用时。
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**评分方式**：每模型每任务运行5次；跨34任务报告mean@5。
 
-### 评分
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-每模型每任务运行5次；跨34任务报告mean@5。
+**提示与运行设置**：官方榜显示proximus harness；每trial 20小时。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 提示与运行设置
+**官方复现入口**：https://github.com/Proximal-Labs/frontier-swe-v2
 
-官方榜显示proximus harness；每trial 20小时。
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**可比性警告**：不同harness、GPU与推理预算须分轨；Kimi发布文中dominance历史分数不能直接与当前V2 mean@5排序混合。
 
-### 官方评测脚本
-
-https://github.com/Proximal-Labs/frontier-swe-v2
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 可比性警示
-
-不同harness、GPU与推理预算须分轨；Kimi发布文中dominance历史分数不能直接与当前V2 mean@5排序混合。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 ## 最新情况
 
-### 核查日期
+**本次核验**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**数据及热度证据**：```json
+{
+  "version": "V2",
+  "heat_confidence": "A",
+  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+  "evidence_2026_h2": [
+    {
+      "url": "https://epoch.ai/data/eci-documentation/data",
+      "date": "2026-11-07",
+      "date_type": "observed_on",
+      "organization": "Epoch AI",
+      "note": "当前ECI组成明确列出该benchmark；纳入不等于本轮运行。"
+    },
+    {
+      "url": "https://www.frontierswe.com/",
+      "date": "2026-11-07",
+      "date_type": "observed_on",
+      "organization": "官方维护方",
+      "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
+    }
+  ]
+}
+```
 
-### 当前版本与热度证据
+来源：[1](https://epoch.ai/data/eci-documentation/data)（访问2026-11-07）；[2](https://www.frontierswe.com/)（访问2026-11-07）
 
-- **version**：V2
-- **heat_confidence**：A
-- **why_trending**：候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。
-- **evidence_2026_h2**：
-  - **url**：https://epoch.ai/data/eci-documentation/data
-  - **date**：2026-11-07
-  - **date_type**：observed_on
-  - **organization**：Epoch AI
-  - **note**：当前ECI组成明确列出该benchmark；纳入不等于本轮运行。
-  - **url**：https://www.frontierswe.com/
-  - **date**：2026-11-07
-  - **date_type**：observed_on
-  - **organization**：官方维护方
-  - **note**：已打开当前官方方法与榜单；观察日不冒充发布时间。
+**论文与版本历史**：V2发布文日期2026-09-02；README明确任务内容与评分仍可能更新，应固定仓库提交与镜像digest。
 
-[来源1](https://epoch.ai/data/eci-documentation/data)（访问 2026-11-07）；[来源2](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）；[2](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-### 版本与材料差异
+**饱和程度**：当前首页最高mean@5为65.5%，未达满分；发布日最高56.29%是历史结果，不能混作当前榜首。
 
-待核实
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**已知问题与局限**：发布文记录reward-hacking与越权读取评测资产事件，相关确认试次清零；性能代理指标虽可复现，仍不是所有硬件上的真实耗时；Proximus提示使模型意识到正在被评测。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
-### 饱和情况
+**后续与衍生**：V2取代v1的主榜；PCQM4Mv2 Molecular Gap Prediction、Pyright优化、Revideo优化、Dependent Type Checker四项退役。
 
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 污染与争议
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 衍生与版本关系
-
-与当前100条目的id、名称、版本字段去重后未收录
-
-> 编辑去重口径；具体版本差异仍以官方材料为准。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 为什么近期热门
-
-候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。
-
-- 2026-11-07（observed_on）：当前ECI组成明确列出该benchmark；纳入不等于本轮运行。 [来源](https://epoch.ai/data/eci-documentation/data)（访问 2026-11-07）
-
-- 2026-11-07（observed_on）：已打开当前官方方法与榜单；观察日不冒充发布时间。 [来源](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
 ## 榜单快照
 
-### 快照日期
+**快照日期**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+**官方入口**：https://www.frontierswe.com/
 
-### 官方榜单
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-https://www.frontierswe.com/
+**第三方入口**：待核实
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+状态：待核实。
 
-### 独立评测覆盖
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-待核实
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+| 分轨/范围 | 名次 | 模型/系统 | 得分 | 指标 | 运行/提交日期 | 来源 |
+|---|---:|---|---:|---|---|---|
+| 当前官方网页榜 | 1 | GPT-6 Astra / proximus | 65.5 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 2 | Claude Opus 5.5 / proximus | 62.3 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 3 | Gemini 4 Carbon / proximus | 61.2 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 4 | GLM-5.3 / proximus | 30.2 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 5 | Grok 4.7 / proximus | 29.5 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 6 | Kimi K3 / proximus | 25.9 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 7 | Muse Spark 1.3 / proximus | 25.8 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 8 | Qwen3.8-Max-0902 / proximus | 17.8 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 9 | DeepSeek V4 Flash Vision Exp / proximus | 14.8 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
+| 当前官方网页榜 | 10 | Inkling / proximus | 4.1 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
-### 核验结果
+**覆盖说明**：已重新打开首页前10。mean@5为34任务各5次试验的均值；worst@5–best@5 whiskers不是95%置信区间。官网未标榜表更新时间，保留待核实；2026-09-02发布文不是当前榜日期。
 
-- **rank**：1
-- **model**：GPT-6 Astra / proximus
-- **score**：65.5
-- **metric**：V2 mean@5 (%)
-- **source_url**：https://www.frontierswe.com/
-- **source_date**：待核实
-- **collected_at**：2026-11-07 KST
-- **result_type**：官方榜单快照
-- **rank**：2
-- **model**：Claude Opus 5.5 / proximus
-- **score**：62.3
-- **metric**：V2 mean@5 (%)
-- **source_url**：https://www.frontierswe.com/
-- **source_date**：待核实
-- **collected_at**：2026-11-07 KST
-- **result_type**：官方榜单快照
-- **rank**：3
-- **model**：Gemini 4 Carbon / proximus
-- **score**：61.2
-- **metric**：V2 mean@5 (%)
-- **source_url**：https://www.frontierswe.com/
-- **source_date**：待核实
-- **collected_at**：2026-11-07 KST
-- **result_type**：官方榜单快照
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 覆盖与时效说明
-
-当前官网mean@5榜；±数值和worst/best whiskers不可自动称95%置信区间，榜单更新时间待核实。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）；[2](https://www.frontierswe.com/blog/v2)（访问2026-11-07）
 
 ## 联系方式
 
-### 公开工作邮箱
+**公开联系邮箱**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 公开反馈
+**Issues或讨论入口**：https://github.com/Proximal-Labs/frontier-swe-v2/issues
 
-待核实
+来源：[1](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**官方社交**：待核实
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+状态：待核实。
 
-### 官方社交／讨论渠道
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-待核实
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**隐私政策**：https://proximal.ai/privacy
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
-
-### 隐私政策
-
-待核实
-
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
-
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 ## 原始文件
 
-### 源站论文PDF
+**原始PDF**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 原始PDF SHA-256
+**PDF SHA-256**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 原始PDF字节数
+**PDF字节数**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### Drive资料文件夹
+**Drive文件夹**：待核实
 
-待核实
+状态：待核实。
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+核验说明：已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-### 其他文档
+**其他官方文档**：```json
+[
+  {
+    "type": "V2技术报告",
+    "url": "https://www.frontierswe.com/blog/v2"
+  },
+  {
+    "type": "公开任务与复现说明",
+    "url": "https://github.com/Proximal-Labs/frontier-swe-v2"
+  }
+]
+```
 
-待核实
+来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）；[2](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-> 已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。
+**Drive论文链接**：待核实
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）
+状态：待核实。
 
-### Drive PDF归档
+核验说明：本组仅建立本地研究条目，未上传Drive。
 
-待核实（本轮未上传）
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 ## 变更记录
 
-### 变更记录
+**本轮及历史变更**：```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+  },
+  {
+    "date": "2026-11-07",
+    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+  }
+]
+```
 
-- **date**：2026-11-07
-- **timezone**：KST / Asia/Seoul
-- **change**：首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。
+来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-[来源1](https://www.frontierswe.com/)（访问 2026-11-07）

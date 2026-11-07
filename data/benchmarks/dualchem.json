@@ -39,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已读取本轮所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。"
     },
     "release_date": {
       "value": "2026-10-28",
@@ -82,7 +82,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式发表材料，尚未确认覆盖任务数据/游戏资产的明确使用授权；软件、匿名预发布数据和商业游戏的许可证不能互套。"
     },
     "paper_url": {
       "value": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
@@ -95,25 +95,29 @@
     },
     "code_url": {
       "value": "待核实",
+      "status": "待核实",
+      "note": "匿名HF卡链接anonymous.4open.science/r/dualchem-4318；未由Scale正式发表页交叉确认，不当作正式官方代码。",
       "sources": [
         {
-          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "dataset_url": {
       "value": "待核实",
+      "status": "待核实",
+      "note": "发现匿名DualChem-author/dualchem v1.0.0，含600题与CC BY 4.0，但与署名PDF人类样本构成不同；尚未确认其为Scale当前正式版本。",
       "sources": [
+        {
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
@@ -180,7 +184,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。"
     }
   },
   "design_goals": {
@@ -214,18 +218,16 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "130名化学专家：19名学士、53名硕士、58名博士；题目经博士级reviewer复核，再经LLM质检，失败项返最高层博士审核。不能误写全部作者均为博士。",
       "sources": [
         {
-          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "博士级化学专家审核准确性、清晰度及安全性；不合格题修订或拒绝；之后模型质检及高阶博士复核。",
+      "value": "每题附良性/有害用途及各自1–5严重度；博士审科学准确性、清晰性和风险边界，LLM检查后有问题再交资深化学博士修订。",
       "sources": [
         {
           "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
@@ -285,37 +287,49 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英文（匿名HF v1.0.0数据卡language: en；发表PDF样例亦为英文）",
       "sources": [
         {
-          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "600题跨7个实验化学领域；485道多选和115道开放题。模型自行报告1–5难度，不是统一专家标定难度。",
       "sources": [
         {
-          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "匿名HF v1.0.0卡列600题test及600人类基线，并提供CC BY 4.0；但其人类研究构成与2026-10-28署名PDF不同，Scale发表页未直接链接该卡，二者确切版本对应需维护方确认。",
       "sources": [
+        {
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "当前仅核实匿名预发布卡的test配置；署名正式版本的公开/隐藏划分仍待核实。"
     }
   },
   "evaluation": {
@@ -355,7 +369,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "comparability_warning": {
       "value": "67.7%为GPT-5.6 Sol已回答题条件准确率；全600题拒答计错为67.3%，不能混用。发布博客约50%/67%为概述，精确口径以论文表格为准。",
@@ -407,24 +421,26 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "当前可核实的是网页方法/榜表更新；尚未定位独立论文的版本历史，不把网页更新时间伪作arXiv修订。"
     },
     "saturation": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
-    },
-    "contamination_and_issues": {
-      "value": "67.7%为GPT-5.6 Sol已回答题条件准确率；全600题拒答计错为67.3%，不能混用。发布博客约50%/67%为概述，精确口径以论文表格为准。",
+      "value": "无工具拒答计错榜首67.3%，已回答题条件准确率67.7%，两者不是同一指标；技术答题率未饱和，更不能把风险识别或拒答视作同一个分数。",
       "sources": [
         {
           "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "题目为双用途能力与风险意识测量，不能用低拒答率直接选“更好”模型。人类uplift研究非随机、两组近乎分离，31.8→47.8差值不等于严格随机因果效应；匿名早期HF与署名正式PDF样本构成不同。",
+      "sources": [
+        {
+          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -467,7 +483,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
@@ -476,33 +492,33 @@
           "model": "GPT-5.6 Sol",
           "score": 67.3,
           "metric": "Table 4 无工具Acc (%)，拒答计错",
-          "source_url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "source_url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "source_date": "2026-10-28（发布日；具体评测运行日待核实）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "发表PDF Table 4无工具历史实验",
+          "rank_type": "所列无工具Acc顺序，非实时网页榜"
         },
         {
           "rank": 2,
           "model": "GPT-6 Astra",
           "score": 62.7,
           "metric": "Table 4 无工具Acc (%)，拒答计错",
-          "source_url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "source_url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "source_date": "2026-10-28（发布日；具体评测运行日待核实）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "发表PDF Table 4无工具历史实验",
+          "rank_type": "所列无工具Acc顺序，非实时网页榜"
         },
         {
           "rank": 3,
           "model": "GPT-6.1 Sol",
           "score": 61.7,
           "metric": "Table 4 无工具Acc (%)，拒答计错",
-          "source_url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "source_url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "source_date": "2026-10-28（发布日；具体评测运行日待核实）",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "result_type": "发表PDF Table 4无工具历史实验",
+          "rank_type": "所列无工具Acc顺序，非实时网页榜"
         }
       ],
       "sources": [
@@ -541,29 +557,25 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/scale_ai",
       "sources": [
         {
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://scale.com/legal/privacy",
       "sources": [
         {
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -574,8 +586,7 @@
           "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本轮直接读取原始PDF字节核验；未上传Drive。"
+      ]
     },
     "sha256": {
       "value": "0078a8853e2956595660fb004aca4320430fc3c950962fff2071e533788059ef",
@@ -585,7 +596,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮直接读取原始PDF字节核验；未上传Drive。"
+      "note": "本轮实际下载的PDF字节计算；不是外部网页抄录。"
     },
     "pdf_bytes": {
       "value": 3817998,
@@ -595,7 +606,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮直接读取原始PDF字节核验；未上传Drive。"
+      "note": "本轮下载字节数；未上传Drive。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -606,22 +617,26 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
       "value": [
         {
-          "type": "已打开官方网页/论文",
+          "type": "正式发表博客",
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks"
         },
         {
-          "type": "已打开官方网页/论文",
-          "url": "https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf"
+          "type": "匿名早期HF数据卡，版本对应尚待维护方确认",
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md"
         }
       ],
       "sources": [
         {
           "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -644,7 +659,8 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目。DualChem专门测双用途化学风险，与ChemBench一般化学能力不合并；不收录或再传播具体敏感题目内容。 热度与榜单口径分离，不确定值标记待核实。"
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

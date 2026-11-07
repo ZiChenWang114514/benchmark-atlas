@@ -32,26 +32,22 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv:2610.12758v1（2026-10-08）",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/abs/2610.12758",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-10-08（论文PDF首版标记）",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/abs/2610.12758",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "安全",
@@ -76,10 +72,18 @@
       ]
     },
     "license": {
-      "value": "公开主数据集卡CC BY 4.0；LH为安全研究受限附录；论文强调评测用途、不用作训练。",
+      "value": "HF数据卡明确CC BY 4.0；论文/榜页同时称仅evaluation use，LH另有research-use terms。两种限制口径有冲突，使用或再分发前应向维护方确认。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.12758",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/distressbench",
           "accessed": "2026-11-07"
         }
       ]
@@ -94,15 +98,14 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/ScaleAI/DistressBench/tree/main/code",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "评分代码与code/README在官方HF数据仓库，不伪造GitHub仓库。"
     },
     "dataset_url": {
       "value": "https://huggingface.co/datasets/ScaleAI/DistressBench",
@@ -151,7 +154,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
     },
     "authors": {
       "value": [
@@ -185,7 +188,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。"
     }
   },
   "design_goals": {
@@ -237,7 +240,7 @@
       ]
     },
     "quality_control": {
-      "value": "75任务、2908临床共识判断校准三裁判面板；多轮连贯性门控。",
+      "value": "75条校准任务、2908份临床共识判断用于选择裁判面板，候选面板455种；所选面板κ=0.732，临床人员Fleiss κ=0.640并非同一种一致性统计，不能据此宣布机器优于临床人员。多轮任务另有连贯性门控。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.12758",
@@ -295,15 +298,13 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "23类模拟危机，299单轮、419多轮（3–5个用户回合），并覆盖165条隐式信号；这是场景分层，不是临床风险或难度标尺。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/abs/2610.12758",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "公开359题、私有359题；主榜以全部718题为口径。",
@@ -335,16 +336,24 @@
       ]
     },
     "prompt_settings": {
-      "value": "HF：无system prompt，三次独立运行；默认4096 token，部分模型8192/16384，具体以release_metadata.json为准。",
+      "value": "论文/榜页称标准helpful-assistant system instruction及endpoint最低温度；HF Usage Notes则写no system prompt、默认4096输出上限、个别8192/16384。两处协议冲突，复现需锁定release_metadata.json，不能静默合并。",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2610.12758",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/distressbench",
           "accessed": "2026-11-07"
         }
       ]
     },
     "official_scripts": {
-      "value": "HF仓库code/grade_public_split.py及code/README.md",
+      "value": "https://huggingface.co/datasets/ScaleAI/DistressBench/tree/main/code",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
@@ -408,15 +417,21 @@
       "note": "2026年10月论文及当前Scale榜仍比较前沿模型。热度B：主要单一机构评测，非多机构普遍采用。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "本轮读取arXiv v1及HF公开359题发布卡；论文25模型实验与实时网页扩展模型名单需分开记录，不能把旧论文名次当最新榜。",
       "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.12758",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://labs.scale.com/leaderboard/distressbench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "saturation": {
       "value": "主榜最高约88.4%权重满足率不等于完全rubric通过或临床安全；高分不授权心理健康产品部署。",
@@ -428,10 +443,18 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "候选所列2605.13318实际是VERA-MH，非DistressBench论文；已纠正。官网实时表有新增模型但叙述仍为25模型，不能照搬论文前三冒充当前榜。",
+      "value": "私有359题用于污染检查；公开359题不能再保证未来训练未使用。论文末轮评分与HF无system prompt口径冲突，数据卡CC BY 4.0与evaluation-only叙述冲突；LLM草稿经临床人员大幅修改，不能说完全无模型辅助。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.12758",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DistressBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/distressbench",
           "accessed": "2026-11-07"
         }
       ]
@@ -474,7 +497,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
@@ -483,10 +506,50 @@
           "model": "muse-spark-1.2",
           "score": 88.39,
           "metric": "Weighted Rubric Score (%)",
+          "ci95_halfwidth": 0.93,
           "source_url": "https://labs.scale.com/leaderboard/distressbench",
-          "source_date": "待核实（页面未明示榜表更新时间）",
           "collected_at": "2026-11-07 KST",
-          "detail": "±0.93；当前网页第一项可核实"
+          "rank_type": "网页显示位置，不等于统计band"
+        },
+        {
+          "rank": 5,
+          "model": "muse-glimmer-30b",
+          "score": 80.57,
+          "metric": "Weighted Rubric Score (%)",
+          "ci95_halfwidth": 0.96,
+          "source_url": "https://labs.scale.com/leaderboard/distressbench",
+          "collected_at": "2026-11-07 KST",
+          "rank_type": "网页显示位置，不等于统计band"
+        },
+        {
+          "rank": 6,
+          "model": "deepseek-v4.1-flash",
+          "score": 79.78,
+          "metric": "Weighted Rubric Score (%)",
+          "ci95_halfwidth": 1.01,
+          "source_url": "https://labs.scale.com/leaderboard/distressbench",
+          "collected_at": "2026-11-07 KST",
+          "rank_type": "网页显示位置，不等于统计band"
+        },
+        {
+          "rank": 7,
+          "model": "inkling",
+          "score": 78.47,
+          "metric": "Weighted Rubric Score (%)",
+          "ci95_halfwidth": 1.06,
+          "source_url": "https://labs.scale.com/leaderboard/distressbench",
+          "collected_at": "2026-11-07 KST",
+          "rank_type": "网页显示位置，不等于统计band"
+        },
+        {
+          "rank": 8,
+          "model": "qwen3.8-max",
+          "score": 77.64,
+          "metric": "Weighted Rubric Score (%)",
+          "ci95_halfwidth": 1.03,
+          "source_url": "https://labs.scale.com/leaderboard/distressbench",
+          "collected_at": "2026-11-07 KST",
+          "rank_type": "网页显示位置，不等于统计band"
         }
       ],
       "sources": [
@@ -494,11 +557,10 @@
           "url": "https://labs.scale.com/leaderboard/distressbench",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "当前表第二至第四名存在模型名但抽取缺少分数，不填猜测值。论文前三另外有旧静态快照，不能替代缺失实时分数。"
+      ]
     },
     "coverage_note": {
-      "value": "只保存可完整对应的实时榜首。榜表rank与统计band不同，不能称细微差异显著；当前表更新日待核实。",
+      "value": "官网动态表有部分模型名/分数无法完整配对，仅记录可可靠对应的已显示条目；榜页序号与论文统计band不是同一口径。网页扩展名单超过论文25模型，页面具体更新日没有精确核实。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/distressbench",
@@ -509,15 +571,15 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "drew.rein@scale.com"
+      ],
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/abs/2610.12758",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "github_issues": {
       "value": "待核实",
@@ -528,29 +590,27 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/scale_ai",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "发布机构Scale AI的公开组织账号，不是危机支持或医疗求助渠道。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://scale.com/legal/privacy",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "发布机构官网页脚指向的组织隐私政策；不推定另有基准专属政策。"
     }
   },
   "original_files": {
@@ -558,33 +618,30 @@
       "value": "https://arxiv.org/pdf/2610.12758",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.12758",
+          "url": "https://arxiv.org/pdf/2610.12758",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+      ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "7f2a98944fd44c993a37758dfd157b672e9025cc3d10933fa5b83f368f1cf900",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/pdf/2610.12758",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮实际下载的PDF字节计算；不是外部网页抄录。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 610907,
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "url": "https://arxiv.org/pdf/2610.12758",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮下载字节数；未上传Drive。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -595,7 +652,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
       "value": [
@@ -629,7 +686,8 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

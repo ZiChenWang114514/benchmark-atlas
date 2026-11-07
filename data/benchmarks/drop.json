@@ -73,15 +73,21 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "评测软件allennlp-models为Apache-2.0；HF ucinlp/drop镜像标CC BY-SA 4.0，AWS官方开放数据登记仅写CC BY。数据许可存在口径差异，不能将软件Apache许可套用到数据。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://github.com/allenai/allennlp-models/blob/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://registry.opendata.aws/allenai-drop/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/1903.00161",
@@ -106,17 +112,14 @@
       ]
     },
     "dataset_url": {
-      "value": "https://allennlp.org/drop",
+      "value": "https://huggingface.co/datasets/ucinlp/drop",
       "sources": [
         {
-          "url": "https://allennlp.org/drop",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "修正allennlp.org/drop已跳到旧评分脚本，不能再充当数据下载页。"
     },
     "official_homepage": {
       "value": "https://allennlp.org/drop",
@@ -152,15 +155,17 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "University of California, Irvine",
+        "Peking University",
+        "University of Washington"
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+      ]
     },
     "authors": {
       "value": [
@@ -179,26 +184,26 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Allen Institute for Artificial Intelligence / AllenNLP团队（原论文和发布渠道）；当前持续维护情况未作保证。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/allenai/allennlp-reading-comprehension",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Google Cloud为beaker.org计算提供部分credits（论文致谢）；不据此推定全部项目资助。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源"
+      ]
     }
   },
   "design_goals": {
@@ -223,7 +228,7 @@
   },
   "construction": {
     "question_sources": {
-      "value": "从Wikipedia 2018年10月数据与体育、历史材料选择含数值段落，由众包人员编写能难倒BiDAF的问答。",
+      "value": "2018年10月Wikipedia dump及在线Wikipedia；优先NFL比赛总结、历史及含至少20个数字的段落，抽取约7000段；MTurk人工提问，在线BiDAF答不出才可提交。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
@@ -241,7 +246,7 @@
       ]
     },
     "review_process": {
-      "value": "开发集与测试集额外收集两个参考答案，处理无效或含糊的问题。",
+      "value": "开发/测试每题至少追加两份人工答案，标记并过滤0.7%无效问题；总体Cohen κ=0.74（数字0.81、跨度0.62、日期0.65）。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
@@ -270,10 +275,14 @@
   },
   "data_format": {
     "size": {
-      "value": "96567题：训练77409、开发9536、测试9622；对应段落5565、582、588。",
+      "value": "论文原版96567题：train 77409、dev 9536、hidden test 9622。HF元数据则为77400/9535，卡片正文仍列77409/9536；必须注明具体打包版本。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -315,10 +324,14 @@
       ]
     },
     "public_hidden_split": {
-      "value": "训练和开发集提供参考答案；论文测试集用于隐藏答案评测。",
+      "value": "按段落随机80/10/10划分，避免同一段落跨split；原隐藏测试9622题，HF镜像仅train与validation。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -335,10 +348,14 @@
       ]
     },
     "scoring": {
-      "value": "官方脚本先规范化大小写、冠词、标点、空白及数值；EM比较规范化答案跨度，多跨度F1通过最优一对一匹配汇总，gold含数字时要求数字匹配；多个参考答案取最佳得分。",
+      "value": "归一化EM和数值敏感macro F1；数字不匹配时相关配对不给F1，多跨度对齐后平均，多份gold取最高值。论文称greedy对齐，但当前官方drop_eval.py使用linear_sum_assignment最优匹配，应锁定脚本版本。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
+          "url": "https://arxiv.org/abs/1903.00161",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://allennlp.org/drop",
           "accessed": "2026-11-07"
         }
       ]
@@ -353,10 +370,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
+      "value": "https://github.com/allenai/allennlp-reading-comprehension/blob/master/allennlp_rc/eval/drop_eval.py",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
+          "url": "https://allennlp.org/drop",
           "accessed": "2026-11-07"
         }
       ]
@@ -465,30 +482,23 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-07 KST（材料采集日；结果为2019论文历史实验）",
       "sources": [
         {
-          "url": "https://allennlp.org/drop",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
         }
       ]
     },
     "official_url": {
-      "value": "https://allennlp.org/drop",
+      "value": "https://leaderboard.allenai.org/drop/submissions/public",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://allennlp.org/drop",
-          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。"
     },
     "third_party_url": {
       "value": "待核实",
@@ -499,49 +509,53 @@
         }
       ],
       "status": "待核实",
-      "note": "未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
         {
-          "model_version": "Hunyuan-A13B",
-          "score": "91.1",
-          "unit": "%",
-          "scope_and_protocol": "slow thinking，F1，报告表3",
-          "result_date": "2026-09-23",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://arxiv.org/html/2609.27284v1",
-          "source_class": "三级：模型厂商自报",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "rank": 1,
+          "model": "NAQANet (Complete Model)",
+          "score": 47.01,
+          "metric": "原论文test F1 (%)",
+          "exact_match": 44.07,
+          "source_url": "https://arxiv.org/abs/1903.00161",
+          "result_type": "2019论文历史基线，非当前排行榜",
+          "collected_at": "2026-11-07 KST"
         },
         {
-          "model_version": "DeepSeek-R1-0120",
-          "score": "92.2",
-          "unit": "%",
-          "scope_and_protocol": "同表F1，对照值由报告转录",
-          "result_date": "2026-09-23",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://arxiv.org/html/2609.27284v1",
-          "source_class": "三级：模型厂商自报",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "rank": 2,
+          "model": "BERT",
+          "score": 32.7,
+          "exact_match": 29.45,
+          "metric": "原论文test F1 (%)",
+          "source_url": "https://arxiv.org/abs/1903.00161",
+          "result_type": "2019论文历史基线，非当前排行榜",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": "参考非模型名次",
+          "model": "Expert human",
+          "score": 96.42,
+          "exact_match": 94.09,
+          "metric": "作者作答560道test题的人工F1 (%)",
+          "source_url": "https://arxiv.org/abs/1903.00161",
+          "result_type": "2019历史人工参考",
+          "collected_at": "2026-11-07 KST"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://arxiv.org/abs/1903.00161",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "官方隐藏测试榜本轮不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -550,29 +564,23 @@
   "contact": {
     "public_emails": {
       "value": [
-        "ddua@uci.edu"
+        "info@allenai.org"
       ],
       "sources": [
         {
-          "url": "https://allennlp.org/drop",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://registry.opendata.aws/allenai-drop/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/allenai/allennlp-models/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://github.com/allenai/allennlp-reading-comprehension",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "未核实官方Issues入口"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -583,7 +591,7 @@
         }
       ],
       "status": "待核实",
-      "note": "未核实专门官方社交账号，不收录同名个人账户"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -594,7 +602,7 @@
         }
       ],
       "status": "待核实",
-      "note": "未核实benchmark专门隐私条款；许可证不能代替隐私政策"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "drive_pdf": {
@@ -614,7 +622,7 @@
       "value": "https://arxiv.org/pdf/1903.00161",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://arxiv.org/pdf/1903.00161",
           "accessed": "2026-11-07"
         }
       ]
@@ -626,7 +634,8 @@
           "url": "https://arxiv.org/pdf/1903.00161",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载的PDF字节计算；不是外部网页抄录。"
     },
     "pdf_bytes": {
       "value": 1989064,
@@ -635,7 +644,8 @@
           "url": "https://arxiv.org/pdf/1903.00161",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮下载字节数；未上传Drive。"
     },
     "drive_folder": {
       "value": {
@@ -683,7 +693,8 @@
           "evaluation.scoring",
           "latest_status.latest_dataset_version"
         ]
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

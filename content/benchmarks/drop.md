@@ -1,441 +1,169 @@
-# DROP｜中文深度介绍
+# DROP
 
-核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-测量模型在段落证据上做加减、计数、比较、排序及抽取答案的能力。
+已核实存在；深度条目；显式待核实项保留
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解数据集：模型在Wikipedia段落中找证据，完成计数、加减、比较及多跨度回答，而非仅抽取连续文本。原论文96567题，按段落分为77409训练、9536开发、9622隐藏测试，避免同一段落跨集。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
-## 一、基本信息
+本轮实际重读论文、官方评分脚本、历史仓库迁移说明、HF卡和AWS登记。数据镜像计数与许可口径存在差异；官方隐藏测试榜当前返回错误，不能据搜索缓存声称取得实时SOTA。为避免把厂商自报结果混入官方榜，下面明确回退到原论文历史基线，并标注非当前排名。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
-### 简称
+## 基本信息
 
-DROP
+- **简称**：DROP [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **全称**：Discrete Reasoning Over Paragraphs [2](https://arxiv.org/abs/1903.00161)
 
-### 全称
+- **基准版本**：2019 公开数据集；本轮未固定下载包版本 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161)
 
-Discrete Reasoning Over Paragraphs
+- **论文/报告版本**：arXiv v2 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **发布日期**：2019-03-01（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明） [2](https://arxiv.org/abs/1903.00161)
 
-### 数据/协议版本
+- **主板块**：推理 [1](https://allennlp.org/drop)
 
-2019 公开数据集；本轮未固定下载包版本
+- **子领域**：离散推理阅读理解 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **许可证与限制**：评测软件allennlp-models为Apache-2.0；HF ucinlp/drop镜像标CC BY-SA 4.0，AWS官方开放数据登记仅写CC BY。数据许可存在口径差异，不能将软件Apache许可套用到数据。 [5](https://github.com/allenai/allennlp-models/blob/main/LICENSE) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
-### 论文版本
+- **论文/报告**：https://arxiv.org/abs/1903.00161 [2](https://arxiv.org/abs/1903.00161)
 
-arXiv v2
+- **官方代码**：https://github.com/allenai/allennlp-models [6](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md) [7](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **数据入口**：https://huggingface.co/datasets/ucinlp/drop [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) 注：修正allennlp.org/drop已跳到旧评分脚本，不能再充当数据下载页。
 
-### 发布日期
+- **官方主页**：https://allennlp.org/drop [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161)
 
-2019-03-01（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）
+- **报告标题**：DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+## 发起与维护
 
-### 板块
+- **发起方**：Allen Institute for AI、University of California Irvine、University of Washington、Peking University（论文署名） [2](https://arxiv.org/abs/1903.00161)
 
-推理
+- **合作方**：University of California, Irvine；Peking University；University of Washington [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）。
+- **核心作者**：Dua, Dheeru；Wang, Yizhong；Dasigi, Pradeep；Stanovsky, Gabriel；Singh, Sameer；Gardner, Matt [2](https://arxiv.org/abs/1903.00161)
 
-### 子领域
+- **维护方**：Allen Institute for Artificial Intelligence / AllenNLP团队（原论文和发布渠道）；当前持续维护情况未作保证。 [2](https://arxiv.org/abs/1903.00161) [8](https://github.com/allenai/allennlp-reading-comprehension)
 
-- 离散推理阅读理解
+- **资助方**：Google Cloud为beaker.org计算提供部分credits（论文致谢）；不据此推定全部项目资助。 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+## 设计目标
 
-### 许可证
+- **核心能力**：测量模型在段落证据上做加减、计数、比较、排序及抽取答案的能力。 [2](https://arxiv.org/abs/1903.00161)
 
-待核实
+- **相对已有评测的缺口**：仅靠定位答案跨度的阅读理解不足以检验离散运算与多事实整合。 [2](https://arxiv.org/abs/1903.00161)
 
-核验说明：数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证
+## 构建方式
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **题目来源**：2018年10月Wikipedia dump及在线Wikipedia；优先NFL比赛总结、历史及含至少20个数字的段落，抽取约7000段；MTurk人工提问，在线BiDAF答不出才可提交。 [2](https://arxiv.org/abs/1903.00161)
 
-### 论文
+- **出题与审核人员**：MTurk众包写题；作者团队设计对抗式收集和验证流程。 [2](https://arxiv.org/abs/1903.00161)
 
-https://arxiv.org/abs/1903.00161
+- **审核流程**：开发/测试每题至少追加两份人工答案，标记并过滤0.7%无效问题；总体Cohen κ=0.74（数字0.81、跨度0.62、日期0.65）。 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **质量控制**：按段落切分训练/开发/测试，避免同一段落跨集；论文称验证剔除约0.7%无效题。 [2](https://arxiv.org/abs/1903.00161)
 
-### 代码
+- **防污染/运行完整性**：段落级隔离减少数据集内部泄漏，不是针对现代大模型预训练语料的无污染认证。 [2](https://arxiv.org/abs/1903.00161)
 
-https://github.com/allenai/allennlp-models
+## 数据形式
 
-来源：[1](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)（采集 2026-11-07）；[2](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
+- **规模**：论文原版96567题：train 77409、dev 9536、hidden test 9622。HF元数据则为77400/9535，卡片正文仍列77409/9536；必须注明具体打包版本。 [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md)
 
-### 数据集
+- **题型**：段落阅读短答案；答案可为数字、日期、单跨度或多跨度文本。 [2](https://arxiv.org/abs/1903.00161)
 
-https://allennlp.org/drop
+- **模态**：文本（数学符号按文本表达）；并非原始图像视频识别任务 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **语言覆盖**：英语题面；形式化/数学符号另见模态与仓库格式 [2](https://arxiv.org/abs/1903.00161)
 
-### 官网
+- **难度与任务跨度**：难点是证据选择与离散运算耦合；不是依学科年级分级。 [2](https://arxiv.org/abs/1903.00161)
 
-https://allennlp.org/drop
+- **公开与隐藏划分**：按段落随机80/10/10划分，避免同一段落跨split；原隐藏测试9622题，HF镜像仅train与validation。 [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md)
 
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+## 评测方法
 
-### 论文题名
+- **指标**：Exact Match（EM）与面向数字/多跨度的F1。 [2](https://arxiv.org/abs/1903.00161)
 
-DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs
+- **评分规则**：归一化EM和数值敏感macro F1；数字不匹配时相关配对不给F1，多跨度对齐后平均，多份gold取最高值。论文称greedy对齐，但当前官方drop_eval.py使用linear_sum_assignment最优匹配，应锁定脚本版本。 [2](https://arxiv.org/abs/1903.00161) [1](https://allennlp.org/drop)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **提示与运行配置**：原论文为监督阅读理解系统；现代LLM few-shot/CoT、答案抽取和上下文截断需单列。 [2](https://arxiv.org/abs/1903.00161)
 
-## 二、发起与维护
+- **评分/运行脚本**：https://github.com/allenai/allennlp-reading-comprehension/blob/master/allennlp_rc/eval/drop_eval.py [1](https://allennlp.org/drop)
 
-### 发起机构
+- **可比性限制**：F1不是EM；公开开发集与隐藏测试集、不同数值归一化实现不能直接比较。 [2](https://arxiv.org/abs/1903.00161) [9](https://arxiv.org/html/2609.27284v1)
 
-Allen Institute for AI、University of California Irvine、University of Washington、Peking University（论文署名）
+## 最新情况
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **本轮核验日期**：2026-11-07（Asia/Seoul） [1](https://allennlp.org/drop) [9](https://arxiv.org/html/2609.27284v1)
 
-### 正式合作方
+- **现行版本与采用证据**：本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。 [6](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)
 
-待核实
+- **更新与修订**：arxiv_version：arXiv v2；history_note：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。；2026_h2_evidence：url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。 [2](https://arxiv.org/abs/1903.00161) [9](https://arxiv.org/html/2609.27284v1)
 
-核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+- **已知问题与证据边界**：Wikipedia与公开问答长期可获得，无法由当前得分排除记忆效应。 [2](https://arxiv.org/abs/1903.00161) [1](https://allennlp.org/drop)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **关联与衍生关系**：现代LLM常以DROP F1汇报；不应将其当成普通选择题准确率。 [2](https://arxiv.org/abs/1903.00161) [1](https://allennlp.org/drop)
 
-### 作者
+**仍待核实**（不推断为未公开）：
 
-- Dua, Dheeru
-- Wang, Yizhong
-- Dasigi, Pradeep
-- Stanovsky, Gabriel
-- Singh, Sameer
-- Gardner, Matt
+- 饱和度判断：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断 [2](https://arxiv.org/abs/1903.00161) [9](https://arxiv.org/html/2609.27284v1)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+## 榜单快照
 
-### 当前维护
+- **快照采集日**：2026-11-07 KST（材料采集日；结果为2019论文历史实验） [2](https://arxiv.org/abs/1903.00161)
 
-待核实
+- **官方榜/正式委托榜**：https://leaderboard.allenai.org/drop/submissions/public [2](https://arxiv.org/abs/1903.00161) 注：本轮官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。
 
-核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+| 标记/名次 | 模型或配置 | 结果 | 指标与来源 |
+|---|---|---|---|
+| 1 | NAQANet (Complete Model) | 47.01 | 原论文test F1 (%)；运行/发布日见覆盖说明；[2](https://arxiv.org/abs/1903.00161) |
+| 2 | BERT | 32.7 | 原论文test F1 (%)；运行/发布日见覆盖说明；[2](https://arxiv.org/abs/1903.00161) |
+| 参考非模型名次 | Expert human | 96.42 | 作者作答560道test题的人工F1 (%)；运行/发布日见覆盖说明；[2](https://arxiv.org/abs/1903.00161) |
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+> NAQANet (Complete Model)：exact_match：44.07；result_type：2019论文历史基线，非当前排行榜 [2](https://arxiv.org/abs/1903.00161)
 
-### 资助
+> BERT：exact_match：29.45；result_type：2019论文历史基线，非当前排行榜 [2](https://arxiv.org/abs/1903.00161)
 
-待核实
+> Expert human：exact_match：94.09；result_type：2019历史人工参考 [2](https://arxiv.org/abs/1903.00161)
 
-核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
-## 三、设计目标
+- **覆盖范围与版本限制**：官方隐藏测试榜本轮不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。 [2](https://arxiv.org/abs/1903.00161)
 
-### 测量能力
+**仍待核实**（不推断为未公开）：
 
-测量模型在段落证据上做加减、计数、比较、排序及抽取答案的能力。
+- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [2](https://arxiv.org/abs/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+## 联系方式
 
-### 设计缺口
+- **公开联系邮箱**：info@allenai.org [4](https://registry.opendata.aws/allenai-drop/)
 
-仅靠定位答案跨度的阅读理解不足以检验离散运算与多事实整合。
+- **公开问题追踪**：https://github.com/allenai/allennlp-models/issues [8](https://github.com/allenai/allennlp-reading-comprehension)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+**仍待核实**（不推断为未公开）：
 
-## 四、构建方式
+- 官方社交：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
+- 隐私政策：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
 
-### 题源
+## 原始文件
 
-从Wikipedia 2018年10月数据与体育、历史材料选择含数值段落，由众包人员编写能难倒BiDAF的问答。
+- **原始PDF**：https://arxiv.org/pdf/1903.00161 [10](https://arxiv.org/pdf/1903.00161)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **SHA-256**：e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5 [10](https://arxiv.org/pdf/1903.00161) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
 
-### 出题/标注人员
+- **PDF字节数**：1989064 [10](https://arxiv.org/pdf/1903.00161) 注：本轮下载字节数；未上传Drive。
 
-MTurk众包写题；作者团队设计对抗式收集和验证流程。
+- **Drive归档目录**：id：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc；webViewLink：https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc [11](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- **其他正式文档**：chinese_intro_doc：id：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w；webViewLink：https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/drop.md [11](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)
 
-### 审核
+- **Drive中的论文副本**：id：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_；webViewLink：https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk [12](https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk)
 
-开发集与测试集额外收集两个参考答案，处理无效或含糊的问题。
+## 变更记录
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+- date：2026-11-07；timezone：Asia/Seoul；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://allennlp.org/drop)
 
-### 质量控制
+---
 
-按段落切分训练/开发/测试，避免同一段落跨集；论文称验证剔除约0.7%无效题。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 去污染边界
-
-段落级隔离减少数据集内部泄漏，不是针对现代大模型预训练语料的无污染认证。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-## 五、数据形式
-
-### 题量
-
-96567题：训练77409、开发9536、测试9622；对应段落5565、582、588。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 题型
-
-段落阅读短答案；答案可为数字、日期、单跨度或多跨度文本。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 模态
-
-文本（数学符号按文本表达）；并非原始图像视频识别任务
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 语言
-
-英语题面；形式化/数学符号另见模态与仓库格式
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 难度
-
-难点是证据选择与离散运算耦合；不是依学科年级分级。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 公开/隐藏划分
-
-训练和开发集提供参考答案；论文测试集用于隐藏答案评测。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-## 六、评测方法
-
-### 指标
-
-Exact Match（EM）与面向数字/多跨度的F1。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 评分实现
-
-官方脚本先规范化大小写、冠词、标点、空白及数值；EM比较规范化答案跨度，多跨度F1通过最优一对一匹配汇总，gold含数字时要求数字匹配；多个参考答案取最佳得分。
-
-来源：[1](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
-
-### 提示与预算
-
-原论文为监督阅读理解系统；现代LLM few-shot/CoT、答案抽取和上下文截断需单列。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 评测脚本
-
-https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py
-
-来源：[1](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
-
-### 可比性警示
-
-F1不是EM；公开开发集与隐藏测试集、不同数值归一化实现不能直接比较。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-## 七、最新情况
-
-### 核对日期
-
-2026-11-07（Asia/Seoul）
-
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 最新可确认数据/协议
-
-本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。
-
-来源：[1](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)（采集 2026-11-07）。
-
-### 修订与2026H2收录证据
-
-- **论文版本**：arXiv v2
-- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
-- **2026下半年引用/使用证据**：
-  - 
-    - **来源链接**：https://arxiv.org/html/2609.27284v1
-    - **日期**：2026-09-23
-    - **说明**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 饱和判断
-
-待核实
-
-核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 污染、争议与版本冲突
-
-Wikipedia与公开问答长期可获得，无法由当前得分排除记忆效应。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://allennlp.org/drop)（采集 2026-11-07）。
-
-### 衍生与排除项
-
-现代LLM常以DROP F1汇报；不应将其当成普通选择题准确率。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://allennlp.org/drop)（采集 2026-11-07）。
-
-## 八、榜单快照
-
-### 榜单采集日
-
-2026-11-07（Asia/Seoul；采集日不是测量日）
-
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 官方榜
-
-https://allennlp.org/drop
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://allennlp.org/drop)（采集 2026-11-07）。
-
-### 二级机构榜
-
-待核实
-
-核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 限定范围的分数快照
-
-- 
-  - **模型版本**：Hunyuan-A13B
-  - **分数**：91.1
-  - **单位**：%
-  - **范围与协议**：slow thinking，F1，报告表3
-  - **结果日期**：2026-09-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://arxiv.org/html/2609.27284v1
-  - **来源等级**：三级：模型厂商自报
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
-- 
-  - **模型版本**：DeepSeek-R1-0120
-  - **分数**：92.2
-  - **单位**：%
-  - **范围与协议**：同表F1，对照值由报告转录
-  - **结果日期**：2026-09-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://arxiv.org/html/2609.27284v1
-  - **来源等级**：三级：模型厂商自报
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
-
-来源：[1](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 覆盖边界
-
-非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-## 九、联系方式
-
-### 公开工作邮箱
-
-- ddua@uci.edu
-
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### Issues
-
-待核实
-
-核验说明：未核实官方Issues入口
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 官方社交
-
-待核实
-
-核验说明：未核实专门官方社交账号，不收录同名个人账户
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### 隐私政策
-
-待核实
-
-核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-## 十、原始文件
-
-### Drive论文PDF
-
-- **id**：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_
-- **webViewLink**：https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk
-
-来源：[1](https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk)（采集 2026-11-07）。
-
-### 原始论文PDF
-
-https://arxiv.org/pdf/1903.00161
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
-
-### SHA256校验值
-
-e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5
-
-来源：[1](https://arxiv.org/pdf/1903.00161)（采集 2026-11-07）。
-
-### PDF字节数
-
-1989064
-
-来源：[1](https://arxiv.org/pdf/1903.00161)（采集 2026-11-07）。
-
-### Drive文件夹
-
-- **id**：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc
-- **webViewLink**：https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc
-
-来源：[1](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)（采集 2026-11-07）。
-
-### 其他文档
-
-- **chinese_intro_doc**：
-  - **id**：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w
-  - **webViewLink**：https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/drop.md
-
-来源：[1](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)（采集 2026-11-07）。
-
-## 十一、变更记录
-
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **本轮更新字段**：
-    - basic_info.code_url
-    - evaluation.official_scripts
-    - evaluation.scoring
-    - latest_status.latest_dataset_version
-
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）。
+来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。

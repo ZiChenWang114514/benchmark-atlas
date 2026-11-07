@@ -39,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     },
     "release_date": {
       "value": "待核实",
@@ -75,15 +75,14 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "官方榜页的Dataset结构化元数据标示CC BY 4.0；该声明不等同授予访问私有Validation/Test的权利，私有材料须另行许可。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "许可证范围按页面声明记录；未将页面元数据外推为全部隐藏文件的再分发授权。"
     },
     "paper_url": {
       "value": "待核实",
@@ -94,7 +93,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     },
     "code_url": {
       "value": "待核实",
@@ -105,18 +104,17 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://www.vals.ai/benchmarks/emb-v1-1#dataset",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "该页给103题划分及1个公开样例；这是官方数据说明入口，不是完整公开下载。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/emb-v1-1",
@@ -136,7 +134,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     }
   },
   "organization": {
@@ -241,26 +239,22 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "每题由金融专家先做Gold参考模型，再剥离数值和公式得到Template；题目、Gold与rubric同行评阅。提交后真实Excel引擎重算，部分任务跨Base/Bull/Bear等场景切换检查。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "51道私有held-out Test专用于本页排行榜，以减少过拟合；另有1题公开与51题可许可Validation。私有不等同已证明训练集完全无污染。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -297,15 +291,14 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "已读取的官方Sample task与业务说明为英语；全套103题的完整语言分布待核实",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "status": "待核实"
     },
     "difficulty": {
       "value": "官方预期专家从零完成每个模型至少5小时工作量；不是agent运行时限。",
@@ -363,7 +356,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     },
     "comparability_warning": {
       "value": "v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.0比。高部分得分不代表客户可直接使用。",
@@ -377,7 +370,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
@@ -415,41 +408,36 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前榜首76.73%是七类别等权的部分得分，未满分；官方明确高分仍可能是未完成工作，不能当作客户可用率。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "官方将Test保持私有以减少过拟合；v1.1更换Scratch裁判且修复sheet-name匹配，跨版本不可直接对比。高部分得分不代表可交付客户的完整正确工作簿。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "EMB v1.0是归档旧版；v1.1调整裁判和匹配。Template与Scratch是同题两种模式，七个任务家族不是七套独立benchmark。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "已与existing_slugs清单去重；版本关系基于所列方法页，不把不同任务域当同题更新。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
@@ -525,15 +513,16 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "contact@vals.ai"
+      ],
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "url": "https://www.vals.ai/benchmarks/fabv2-1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "Vals AI机构公开联络地址；非专用EMB作者邮箱。"
     },
     "github_issues": {
       "value": "待核实",
@@ -547,15 +536,13 @@
       "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/ValsAI（官方机构账号；非单独EMB账号）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "privacy_policy": {
       "value": "待核实",
@@ -579,7 +566,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -620,6 +607,11 @@
           "type": "官方方法或项目页",
           "url": "https://www.vals.ai/benchmarks/emb-v1-1",
           "accessed": "2026-11-07"
+        },
+        {
+          "type": "本轮核验的官方原始资料",
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
         }
       ],
       "sources": [
@@ -647,6 +639,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Shanghai (UTC+8)",
         "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
       }
     ],
     "sources": [

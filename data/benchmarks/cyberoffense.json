@@ -30,18 +30,16 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已读取本轮所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。"
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "2026年10月网页研究报告",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "release_date": {
       "value": "待核实",
@@ -52,7 +50,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已核对正式页的更新日期；尚不能把榜单更新日或本轮访问日当作首次发布日期。"
     },
     "section": {
       "value": "安全",
@@ -64,7 +62,10 @@
       ]
     },
     "subfields": {
-      "value": [],
+      "value": [
+        "自主网络安全评测",
+        "多步靶场任务"
+      ],
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
@@ -73,26 +74,23 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "专有评测（Vals目录标记Proprietary）；不等于开源软件许可",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "url": "https://www.vals.ai/benchmarks/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "paper_url": {
-      "value": "待核实",
+      "value": "https://www.vals.ai/benchmarks/cyber_offense",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "官方BibTeX将本页作为2026年10月网页研究报告引用；不是arXiv论文或PDF。"
     },
     "code_url": {
       "value": "待核实",
@@ -103,7 +101,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -114,7 +112,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页及其外链；本轮未定位经维护方确认的任务数据仓库/HF卡，不将结果表或上游数据充作完整题库。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/cyber_offense",
@@ -126,15 +124,13 @@
       ]
     },
     "paper_title": {
-      "value": "待核实",
+      "value": "Evaluating frontier AI systems on realistic multi-step cybersecurity tasks",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "organization": {
@@ -156,7 +152,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
     },
     "authors": {
       "value": [
@@ -190,7 +186,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。"
     }
   },
   "design_goals": {
@@ -232,7 +228,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。"
     },
     "review_process": {
       "value": "发布方称逐次审查运行并检查捷径；私有answer key不供模型读取。",
@@ -253,15 +249,13 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "每次运行重置新靶场，隐藏marker与私有答案键；发布方逐次审查并称未发现捷径或答案键读取。此为运行完整性措施，不能证明模型预训练完全无污染。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -305,7 +299,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "正式方法页说明为英文，但没有完整披露任务指令、程序/游戏内容的语言覆盖，不能仅据报告语言确定全量语种。"
     },
     "difficulty": {
       "value": "Nova多域企业网络；Lighthouse跨两个企业网络的长程任务。",
@@ -363,7 +357,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "comparability_warning": {
       "value": "Nova领先两模型各3次取均值，其余多为单次；不把两靶场完成目标数直接相加作总体分。",
@@ -377,7 +371,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 KST",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
@@ -414,18 +408,16 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "当前可核实的是网页方法/榜表更新；尚未定位独立论文的版本历史，不把网页更新时间伪作arXiv修订。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "两靶场最深阶段仍困难：Lighthouse无模型完成最终目标；Nova整个实验仅一次运行进入最终阶段。不能将部分目标完成率解释为完整任务成功率。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "只在模拟授权环境评测；可迁移到真实网络的程度不能直接由靶场分数证明。",
@@ -437,14 +429,13 @@
       ]
     },
     "derivatives": {
-      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "value": "Pi是执行agent框架，不是CyberOffense自身题库代码；Nova与Lighthouse是同一基准下两个靶场分项，不另算两个benchmark。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+      ]
     }
   },
   "leaderboard": {
@@ -475,48 +466,93 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
         {
-          "rank": "原表行序；未另算总榜",
+          "rank": "官网表行序，非总榜名次",
           "model": "GPT-6 Sol Daybreak",
           "score": {
-            "Nova": "15.7/21（3次均值，12–19）",
+            "Nova": "15.7/21（3次均值；12–19）",
             "Lighthouse": "27/31"
           },
-          "metric": "各靶场目标完成数",
+          "metric": "目标完成数（两靶场分列）",
           "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
           "source_date": "2026-10-23",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "collected_at": "2026-11-07 KST"
         },
         {
-          "rank": "原表行序；未另算总榜",
+          "rank": "官网表行序，非总榜名次",
           "model": "DeepSeek V4.1 Flash 1017",
           "score": {
-            "Nova": "16.3/21（3次均值，15–18）",
+            "Nova": "16.3/21（3次均值；15–18）",
             "Lighthouse": "21/31"
           },
-          "metric": "各靶场目标完成数",
+          "metric": "目标完成数（两靶场分列）",
           "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
           "source_date": "2026-10-23",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "collected_at": "2026-11-07 KST"
         },
         {
-          "rank": "原表行序；未另算总榜",
+          "rank": "官网表行序，非总榜名次",
           "model": "Kimi K3.1 Pro",
           "score": {
             "Nova": "13/21",
             "Lighthouse": "20/31"
           },
-          "metric": "各靶场目标完成数",
+          "metric": "目标完成数（两靶场分列）",
           "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
           "source_date": "2026-10-23",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": "官网表行序，非总榜名次",
+          "model": "Meta Wonder",
+          "score": {
+            "Nova": "7/21",
+            "Lighthouse": "28/31"
+          },
+          "metric": "目标完成数（两靶场分列）",
+          "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": "官网表行序，非总榜名次",
+          "model": "Grok 4.7",
+          "score": {
+            "Nova": "12/21",
+            "Lighthouse": "16/31"
+          },
+          "metric": "目标完成数（两靶场分列）",
+          "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": "官网表行序，非总榜名次",
+          "model": "Kimi K3",
+          "score": {
+            "Nova": "9/21",
+            "Lighthouse": "10/31"
+          },
+          "metric": "目标完成数（两靶场分列）",
+          "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": "官网表行序，非总榜名次",
+          "model": "GLM 5.3 Flash",
+          "score": {
+            "Nova": "5/21",
+            "Lighthouse": "5/31"
+          },
+          "metric": "目标完成数（两靶场分列）",
+          "source_url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-07 KST"
         }
       ],
       "sources": [
@@ -546,7 +582,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "github_issues": {
       "value": "待核实",
@@ -557,18 +593,17 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/ValsAI",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber_offense",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "官网页脚公开链接；本轮不读取或操作X账户。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -579,7 +614,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "original_files": {
@@ -592,7 +627,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -603,7 +638,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -614,7 +649,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -625,7 +660,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
       "value": [
@@ -659,7 +694,8 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

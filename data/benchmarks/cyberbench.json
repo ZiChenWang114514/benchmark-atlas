@@ -39,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "release_date": {
       "value": "待核实",
@@ -50,7 +50,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已核对正式页的更新日期；尚不能把榜单更新日或本轮访问日当作首次发布日期。"
     },
     "section": {
       "value": "安全",
@@ -63,7 +63,11 @@
       "note": "编辑主板块归档，不据此限制跨学科覆盖。"
     },
     "subfields": {
-      "value": [],
+      "value": [
+        "漏洞复现",
+        "安全补丁生成",
+        "原生软件内存安全"
+      ],
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
@@ -72,15 +76,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "专有评测（Vals目录标记Proprietary）；不等于开源软件许可",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/cyber",
+          "url": "https://www.vals.ai/benchmarks/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
       "value": "待核实",
@@ -91,7 +93,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "code_url": {
       "value": "待核实",
@@ -102,7 +104,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -113,7 +115,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已检查正式方法页及其外链；本轮未定位经维护方确认的任务数据仓库/HF卡，不将结果表或上游数据充作完整题库。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/cyber",
@@ -133,7 +135,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     }
   },
   "organization": {
@@ -155,7 +157,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
     },
     "authors": {
       "value": "待核实",
@@ -166,7 +168,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。"
     },
     "maintainer": {
       "value": "Vals AI",
@@ -186,7 +188,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。"
     }
   },
   "design_goals": {
@@ -228,7 +230,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。"
     },
     "review_process": {
       "value": "差分oracle和hidden holdout对照维护者修复版本。",
@@ -300,18 +302,16 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "正式方法页说明为英文，但没有完整披露任务指令、程序/游戏内容的语言覆盖，不能仅据报告语言确定全量语种。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "真实原生开源软件的内存安全、sanitizer和未定义行为崩溃；非通用网络入侵或网页漏洞评测。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "Patch有隐藏holdout输入；完整任务与数据许可范围待核实。",
@@ -360,7 +360,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "comparability_warning": {
       "value": "v1.1取代v1，结果不直接可比；拒答算失败，fallback会影响结果，需保留其标记。",
@@ -374,7 +374,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 KST",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
@@ -411,37 +411,31 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "编辑判断：当前Overall榜首80.36%，仍有余量；需分别检查60题PoC和56题Patch，不与v1直接比较。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "任务取自CyberGym原窗口之后；v1.1离线沙箱和clean-room grader降低外部访问与评分泄漏。厂商拒答计失败，fallback另有标记并可查看将fallback任务计失败的反事实分数。通过局部补丁不保证等价于维护者完整修复。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "基于CyberGym评测方法、ARVO OSS-Fuzz镜像与mini-swe-agent；这些是上游方法/基础设施，不能当作CyberBench自身开源任务或许可证。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -472,39 +466,99 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
         {
           "rank": 1,
           "model": "Wonder",
-          "score": "80.36%",
-          "metric": "Overall Accuracy",
+          "score": 80.36,
+          "metric": "Overall Accuracy (%)",
           "source_url": "https://www.vals.ai/benchmarks/cyber",
-          "source_date": "2026-11-05",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
+          "source_date": "2026-11-05"
         },
         {
           "rank": 2,
           "model": "GPT-6 Sol",
-          "score": "77.98%",
-          "metric": "Overall Accuracy",
+          "score": 77.98,
+          "metric": "Overall Accuracy (%)",
           "source_url": "https://www.vals.ai/benchmarks/cyber",
-          "source_date": "2026-11-05",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
+          "source_date": "2026-11-05"
         },
         {
           "rank": 3,
           "model": "Gemini 4 Argon",
-          "score": "77.86%",
-          "metric": "Overall Accuracy",
+          "score": 77.86,
+          "metric": "Overall Accuracy (%)",
           "source_url": "https://www.vals.ai/benchmarks/cyber",
-          "source_date": "2026-11-05",
           "collected_at": "2026-11-07 KST",
-          "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 4,
+          "model": "GPT-5.6 Sol",
+          "score": 76.31,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-6 Luna",
+          "score": 76.25,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 6,
+          "model": "Claude Haiku 5.5",
+          "score": 75.48,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 7,
+          "model": "MiMo V2.6 Flash",
+          "score": 75.36,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 8,
+          "model": "Kimi K3",
+          "score": 75.24,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 9,
+          "model": "Claude Opus 5.5 (CVP)",
+          "score": 74.58,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 10,
+          "model": "DeepSeek V4.1 Flash",
+          "score": 73.69,
+          "metric": "Overall Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/cyber",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05"
         }
       ],
       "sources": [
@@ -534,7 +588,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "github_issues": {
       "value": "待核实",
@@ -545,18 +599,17 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/ValsAI",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "官网页脚公开链接；本轮不读取或操作X账户。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -567,7 +620,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "original_files": {
@@ -580,7 +633,7 @@
         }
       ],
       "status": "待核实",
-      "note": "候选所列ARVO背景论文不冒充CyberBench自身论文。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -591,7 +644,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -602,7 +655,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -613,18 +666,25 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "v1.1官方方法与结果",
+          "url": "https://www.vals.ai/benchmarks/cyber"
+        },
+        {
+          "type": "上游ARVO镜像项目，非本基准实现",
+          "url": "https://github.com/n132/ARVO-Meta"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cyber",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -644,7 +704,8 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

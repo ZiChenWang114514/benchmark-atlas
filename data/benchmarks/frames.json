@@ -22,18 +22,16 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "官方HF公开快照 revision 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；数据卡无独立语义版本标签",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.12941",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark/blob/58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
-      "value": "arXiv v3",
+      "value": "arXiv v3（论文修订，不等于数据集版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -42,14 +40,13 @@
       ]
     },
     "release_date": {
-      "value": "2024-09-19",
+      "value": "2024-09-20T02:52:07+09:00（KST；arXiv初稿时间，不冒充数据集独立发布日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      ]
     },
     "section": {
       "value": "语言",
@@ -59,7 +56,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+      "note": "Benchmark Constitution编辑归档，不是论文指定的唯一领域。"
     },
     "subfields": {
       "value": [
@@ -108,7 +105,8 @@
           "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮已读取的公开HF卡revision: 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；只固定公开卡/仓库状态，不外推为私有测试版本。"
     },
     "official_homepage": {
       "value": "https://huggingface.co/datasets/google/frames-benchmark",
@@ -131,7 +129,7 @@
   },
   "organization": {
     "initiators": {
-      "value": "Google/Google DeepMind 与 Harvard 相关作者团队；以论文作者单位为准，不推断唯一发起方。",
+      "value": "论文作者单位为Harvard University、Google DeepMind、Meta；不把作者的现单位自动等同法律发起方或正式合作协议。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -168,15 +166,17 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Google HF组织下的google/frames-benchmark发布账户；学术联系为论文通讯作者Satyapriya Krishna，不推断个别员工当前仍维护。",
       "sources": [
+        {
+          "url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -212,7 +212,7 @@
   },
   "construction": {
     "question_sources": {
-      "value": "依据多个 Wikipedia 页面编写需要多跳整合的问题，提供金答案及相关页面。",
+      "value": "先试验LLM合成，但>30%出现幻觉且难稳定要求超过4篇文章；最终824题由人工编写，利用多篇Wikipedia页面、金答案和来源链接，不能称作纯合成题库。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -221,7 +221,7 @@
       ]
     },
     "author_background": {
-      "value": "论文描述的数据构建标注者及研究团队；逐人资质尚待核实。",
+      "value": "经过筛选、具有问题编写和复杂推理任务经验的人工标注专家；这是论文对团队资质的描述，不外推每位标注员的学历/学科身份。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -230,7 +230,7 @@
       ]
     },
     "review_process": {
-      "value": "问题要能关联所列来源，并标注推理类型；精确逐轮复核协议应参照论文。",
+      "value": "人工重新标注核对答案与所列Wikipedia页面是否一致；补充时间截止语境消除时效歧义；删除yes/no问题以减少猜测；每题标注可重叠的推理类型。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -239,7 +239,7 @@
       ]
     },
     "quality_control": {
-      "value": "提供 gold answers 和来源页面，区分 oracle 与实际检索设置。",
+      "value": "题目与答案重新核对来源、补明确日期以免答案随时间变化、移除二元答案扩大输出空间，并标注五类推理以便解释。Wikipedia页面数不直接等于严格推理hop数。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -248,15 +248,13 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "以需要跨来源推理和额外运算的问题减少直接事实记忆的收益；论文Limitations仍明确承认Wikipedia可能进入预训练，未证明无污染。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -366,58 +364,48 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
-      "sources": [
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "note": "2026-H2实际使用证据：2026-09-23：Hunyuan-A13B §4.2–4.3实际使用 FRAMES 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
-    },
-    "latest_dataset_version": {
-      "value": "待核实",
+      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "public_dataset_revision": "58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef",
+        "size": 824,
+        "source": "官方HF主分支本轮resolve响应的x-repo-commit；不当作论文版本"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/google/frames-benchmark/blob/58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     "paper_revision_history": {
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2024-09-20T02:52:07+09:00",
+          "submitted_at_kst": "2024-09-20T02:52:07+09:00",
           "timezone": "Asia/Seoul (KST)"
         },
         {
           "version": "v2",
-          "submitted_at": "2024-10-19T06:37:34+09:00",
+          "submitted_at_kst": "2024-10-19T06:37:34+09:00",
           "timezone": "Asia/Seoul (KST)"
         },
         {
           "version": "v3",
-          "submitted_at": "2025-01-25T04:23:15+09:00",
+          "submitted_at_kst": "2025-01-25T04:23:15+09:00",
           "timezone": "Asia/Seoul (KST)"
-        },
-        {
-          "2026_h2_evidence": {
-            "url": "https://arxiv.org/html/2609.27284v1",
-            "date": "2026-09-23",
-            "note": "Hunyuan-A13B报告§4.3及表5实际评测FRAMES；厂商自报，不等同独立实时榜。"
-          }
         }
       ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -434,10 +422,14 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "官方数据卡 YAML 存在与正文不一致的 pretty_name/size_categories 等元数据；本条规模采用论文与正文的824题，不采信异常自动标签。",
+      "value": "论文明确承认预训练数据污染可能抬高分数；公开金答案及Wikipedia素材不能充当隐藏无污染测试。HF YAML还有异常pretty_name/size_categories，规模按论文及正文824题而非n>1T。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
         }
       ]
@@ -456,14 +448,13 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://arxiv.org/abs/2409.12941",
@@ -489,38 +480,74 @@
     "results": {
       "value": [
         {
+          "rank": null,
+          "model": "Gemini-Pro-1.5-0514",
+          "score": 40.8,
+          "unit": "%",
+          "metric": "answer accuracy",
+          "settings": "naive prompting",
+          "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
+          "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07",
+          "evaluation_date": "待核实：卡片未列精确实验日"
+        },
+        {
+          "rank": null,
+          "model": "Gemini-Pro-1.5-0514",
+          "score": 47.4,
+          "unit": "%",
+          "metric": "answer accuracy",
+          "settings": "BM25, top4 docs",
+          "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
+          "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07",
+          "evaluation_date": "待核实：卡片未列精确实验日"
+        },
+        {
+          "rank": null,
           "model": "Gemini-Pro-1.5-0514",
           "score": 72.9,
           "unit": "%",
           "metric": "answer accuracy",
-          "scope": "原始官方数据卡历史 baseline，oracle检索",
-          "evaluation_date": "2024年原论文；精确运行日期待核实"
+          "settings": "oracle retrieval",
+          "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
+          "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07",
+          "evaluation_date": "待核实：卡片未列精确实验日"
         },
         {
+          "rank": null,
           "model": "Gemini-Pro-1.5-0514",
           "score": 66.0,
           "unit": "%",
           "metric": "answer accuracy",
-          "scope": "同一历史baseline，多步检索与推理",
-          "evaluation_date": "2024年原论文；精确运行日期待核实"
+          "settings": "multi-step retrieval & reasoning",
+          "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
+          "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07",
+          "evaluation_date": "待核实：卡片未列精确实验日"
         }
       ],
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2409.12941",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "只列官方数据卡清楚定义的历史管线。H2 Hunyuan报告自报81.1%，是另一评测管线，未合并排序。未核实统一实时榜。",
+      "value": "重读官方HF卡列全四个历史baseline；72.9是oracle给定相关文章，66.0是实际多步检索推理，不同管线不混排。未发现该官方卡维护独立实时排行榜；Hunyuan自报81.1%不据此宣称官方新纪录。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://arxiv.org/abs/2409.12941",
           "accessed": "2026-11-07"
         }
       ]
@@ -588,7 +615,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
     },
     "pdf_bytes": {
       "value": 1163381,
@@ -617,11 +644,16 @@
           "kind": "中文介绍 Google Doc",
           "id": "10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0",
           "webViewLink": "https://docs.google.com/document/d/10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0/edit?usp=drivesdk"
+        },
+        {
+          "type": "本轮核验的官方原始资料",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "accessed": "2026-11-07"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0/edit?usp=drivesdk",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
         }
       ]
@@ -655,15 +687,16 @@
           "data_format.languages",
           "data_format.question_types"
         ]
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2409.12941",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2409.12941",
+        "url": "https://huggingface.co/datasets/google/frames-benchmark",
         "accessed": "2026-11-07"
       }
     ]

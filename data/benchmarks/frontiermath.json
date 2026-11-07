@@ -43,7 +43,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v7",
+      "value": "arXiv v7（论文修订，不等于数据集版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2411.04872",
@@ -416,22 +416,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/frontiermath",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/frontiermath/tiers-1-4",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/benchmarks/use-this-data",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "url": "https://epoch.ai/frontiermath",
           "accessed": "2026-11-07"
         }
       ]
@@ -512,37 +500,71 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_version": "arXiv v7",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
+        "arxiv_history": [
           {
-            "url": "https://arxiv.org/html/2609.19134v1",
-            "date": "2026-09-16",
-            "note": "ScienceIDE §4.1–4.2及参考文献[34]引用 FrontierMath 作为前沿数学评测；为H2学术引用，不等同于本论文实跑。"
+            "version": "v1",
+            "submitted_at_kst": "2024-11-08T02:07:35+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at_kst": "2024-11-13T10:06:35+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v3",
+            "submitted_at_kst": "2024-11-15T01:26:03+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v4",
+            "submitted_at_kst": "2024-11-23T03:00:00+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v5",
+            "submitted_at_kst": "2024-12-20T12:27:06+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v6",
+            "submitted_at_kst": "2025-08-29T08:10:50+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v7",
+            "submitted_at_kst": "2025-12-23T11:23:47+09:00",
+            "timezone": "Asia/Seoul (KST)"
           }
-        ]
+        ],
+        "previous_context": {
+          "arxiv_version": "arXiv v7",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "2026_h2_evidence": [
+            {
+              "url": "https://arxiv.org/html/2609.19134v1",
+              "date": "2026-09-16",
+              "note": "ScienceIDE §4.1–4.2及参考文献[34]引用 FrontierMath 作为前沿数学评测；为H2学术引用，不等同于本论文实跑。"
+            }
+          ]
+        }
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2411.04872",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19134v1",
-          "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前官方CSV中Tiers1–3 v2最高mean_score为0.9368421052631579（两配置并列），Tier4 v2有1.0配置；因此不能再沿用最初论文“低于2%”描述现状，也不能从该聚合结果推断所有隐藏题或开放数学问题已解决。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2411.04872",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+      "note": "编辑快照解读：只覆盖该CSV与相应协议，原始分数不等同开放问题解决率。"
     },
     "contamination_and_issues": {
       "value": "官方v2称修正42%题目：Tiers1–3改123、Tier4改12，另删5与7；不能引用最初论文低于2%当作2026现状。",
@@ -565,10 +587,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
       "sources": [
         {
-          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "url": "https://epoch.ai/benchmarks/frontiermath",
           "accessed": "2026-11-07"
         }
       ]
@@ -603,17 +625,16 @@
           "score": 0.9368421052631579,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tiers 1–3",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-09-30T06:00:34+08:00",
+          "evaluation_started_at_kst": "2026-09-30T07:00:34+09:00",
           "model_release_date": "2026-09-29",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.014434038295343787",
+          "stderr": 0.014434038295343787,
           "result_id": "aBoQLaqnXsLPrsbN8wYgUp",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 1,
@@ -621,17 +642,16 @@
           "score": 0.9368421052631579,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tiers 1–3",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-08-30T22:57:43+08:00",
+          "evaluation_started_at_kst": "2026-08-30T23:57:43+09:00",
           "model_release_date": "2026-09-03",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.014434038295343787",
+          "stderr": 0.014434038295343787,
           "result_id": "csK2fe5T8p2R7WgoJUu6bZ",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 3,
@@ -639,17 +659,16 @@
           "score": 0.9122807017543859,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tiers 1–3",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-09-23T02:27:39+08:00",
+          "evaluation_started_at_kst": "2026-09-23T03:27:39+09:00",
           "model_release_date": "2026-09-22",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.016786209858442095",
+          "stderr": 0.016786209858442095,
           "result_id": "LPxhvBNEn7S3xkRZUgcvc9",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 4,
@@ -657,17 +676,16 @@
           "score": 0.9087719298245615,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tiers 1–3",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-10-27T04:00:37+08:00",
+          "evaluation_started_at_kst": "2026-10-27T05:00:37+09:00",
           "model_release_date": "2026-10-26",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.017085690144166794",
+          "stderr": 0.017085690144166794,
           "result_id": "KkEoE6hBF8RB4ff43Xv63e",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 5,
@@ -675,17 +693,16 @@
           "score": 0.9017543859649123,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tiers 1–3",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-09-02T02:38:24+08:00",
+          "evaluation_started_at_kst": "2026-09-02T03:38:24+09:00",
           "model_release_date": "2026-09-01",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.017662067789031757",
+          "stderr": 0.017662067789031757,
           "result_id": "g7dXwZH2tWvqLg3X5idGs2",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 1,
@@ -693,17 +710,16 @@
           "score": 1.0,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tier 4",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-09-30T06:00:34+08:00",
+          "evaluation_started_at_kst": "2026-09-30T07:00:34+09:00",
           "model_release_date": "2026-09-29",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.0",
+          "stderr": 0.0,
           "result_id": "HgAUm5zxrWbkfYUdeJMGzL",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 2,
@@ -711,17 +727,16 @@
           "score": 0.976,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tier 4",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-08-30T10:22:12+08:00",
+          "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
           "model_release_date": "2026-09-03",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.024",
+          "stderr": 0.024,
           "result_id": "f46NQY9jSxyKqo9qzrmk6F",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 2,
@@ -729,17 +744,16 @@
           "score": 0.976,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tier 4",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-08-30T10:22:12+08:00",
+          "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
           "model_release_date": "2026-09-03",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.024",
+          "stderr": 0.024,
           "result_id": "AfKJ2DGMhkjZmeFZxGoY3w",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 2,
@@ -747,17 +761,16 @@
           "score": 0.976,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tier 4",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-08-30T10:22:12+08:00",
+          "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
           "model_release_date": "2026-09-03",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.024",
+          "stderr": 0.024,
           "result_id": "f7BCT27LzcAtaLDP2tcrWF",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
         {
           "rank": 5,
@@ -765,17 +778,16 @@
           "score": 0.975609756097561,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
-          "benchmark_version": "v2",
           "scope": "Tier 4",
+          "benchmark_version": "v2",
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_shanghai": "2026-08-30T10:22:12+08:00",
+          "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
           "model_release_date": "2026-09-03",
-          "leaderboard_updated_at": "2026-11-07（下载页标注的ZIP更新日，非每行运行完成日）",
-          "stderr": "0.024390243902439022",
+          "stderr": 0.024390243902439022,
           "result_id": "5sNRWemuVwb4adBaSwrLFf",
-          "note": "按该CSV的mean_score降序取前5配置；同分并列，rank仅在同tier内有效。"
+          "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         }
       ],
       "sources": [
@@ -783,24 +795,11 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
+      ]
     },
     "coverage_note": {
-      "value": "当前快照来源：https://epoch.ai/data/benchmark_data.zip。Epoch官方ZIP按两个v2 CSV独立排序，分数保留0–1比例，不把模型发布日期或Started at当榜单更新日。 ",
+      "value": "重下载官方ZIP，Tiers1–3 v2有123配置、Tier4 v2有79配置；分别取前5，保留0–1原始比例和stderr，不跨tier混排。现有得分已与源CSV逐行复核；运行启动时间转为KST，发布日与采集日不冒充运行结束日。",
       "sources": [
-        {
-          "url": "https://epoch.ai/benchmarks/frontiermath",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/frontiermath/tiers-1-4",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/benchmarks/use-this-data",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "accessed": "2026-11-07"
@@ -883,7 +882,8 @@
           "url": "https://arxiv.org/pdf/2411.04872",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
     },
     "pdf_bytes": {
       "value": 1687781,
@@ -907,17 +907,26 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "id": "19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM",
-          "webViewLink": "https://docs.google.com/document/d/19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM/edit?usp=drivesdk",
-          "mimeType": "application/vnd.google-apps.document"
+      "value": [
+        {
+          "existing_archive": {
+            "chinese_intro_doc": {
+              "id": "19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM",
+              "webViewLink": "https://docs.google.com/document/d/19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM/edit?usp=drivesdk",
+              "mimeType": "application/vnd.google-apps.document"
+            },
+            "local_markdown": "content/benchmarks/frontiermath.md"
+          }
         },
-        "local_markdown": "content/benchmarks/frontiermath.md"
-      },
+        {
+          "type": "本轮核验的官方原始资料",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "accessed": "2026-11-07"
+        }
+      ],
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1VBc_OBS50BtqPUaQmD_1gMoO-UJfb59i",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
           "accessed": "2026-11-07"
         }
       ]
@@ -957,27 +966,16 @@
             "accessed": "2026-11-07"
           }
         ]
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
       }
     ],
     "sources": [
       {
         "url": "https://epoch.ai/frontiermath",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://epoch.ai/benchmarks/frontiermath",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://epoch.ai/frontiermath/tiers-1-4",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://epoch.ai/benchmarks/use-this-data",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://epoch.ai/data/benchmark_data.zip",
         "accessed": "2026-11-07"
       }
     ]

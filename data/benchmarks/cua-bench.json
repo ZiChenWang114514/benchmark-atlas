@@ -39,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "release_date": {
       "value": "待核实",
@@ -50,7 +50,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已核对正式页的更新日期；尚不能把榜单更新日或本轮访问日当作首次发布日期。"
     },
     "section": {
       "value": "Agent",
@@ -84,7 +84,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式发表材料，尚未确认覆盖任务数据/游戏资产的明确使用授权；软件、匿名预发布数据和商业游戏的许可证不能互套。"
     },
     "paper_url": {
       "value": "待核实",
@@ -95,7 +95,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "code_url": {
       "value": "待核实",
@@ -106,7 +106,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -117,7 +117,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页及其外链；本轮未定位经维护方确认的任务数据仓库/HF卡，不将结果表或上游数据充作完整题库。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/cua_bench",
@@ -137,7 +137,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     }
   },
   "organization": {
@@ -159,7 +159,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
     },
     "authors": {
       "value": "待核实",
@@ -170,7 +170,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。"
     },
     "maintainer": {
       "value": "Vals AI",
@@ -190,7 +190,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。"
     }
   },
   "design_goals": {
@@ -232,7 +232,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。"
     },
     "review_process": {
       "value": "冻结rubric对持久证据事后重评；离线游戏原生状态、在线体育视频扫描及人工疑难复核；录像签名、哈希核验。",
@@ -253,15 +253,13 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "三类游戏各设一对公开/隐藏游戏；隐藏游戏名称与里程碑不披露，用公开/隐藏差距监测后续定向训练。单次试验的差异本身不能证明污染。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cua_bench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -305,18 +303,16 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "正式方法页说明为英文，但没有完整披露任务指令、程序/游戏内容的语言覆盖，不能仅据报告语言确定全量语种。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "沙盒、第一人称反应、体育三类；每游戏3小时。Minecraft依次13级里程碑，SUPERHOT 25级，eFootball从Beginner至Professional五档；不是统一题目难度标签。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cua_bench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "3个公开游戏；另3个游戏名与里程碑不公开（官网明确），按相同规则计分。",
@@ -365,7 +361,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "comparability_warning": {
       "value": "分数是里程碑均值，不等于游戏通关率；每cell单trial，公开-私有差距不能自动归因为训练污染。",
@@ -379,7 +375,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 KST",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cua_bench",
@@ -417,18 +413,16 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "当前可核实的是网页方法/榜表更新；尚未定位独立论文的版本历史，不把网页更新时间伪作arXiv修订。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "编辑判断：当前榜首均分19.17/100，未接近满分；仅适用于六游戏里程碑协议，不能外推一般计算机使用能力。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cua_bench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "分数是里程碑均值，不等于游戏通关率；每cell单trial，公开-私有差距不能自动归因为训练污染。",
@@ -477,7 +471,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
@@ -485,34 +479,82 @@
           "rank": 1,
           "model": "GPT-6 Astra",
           "score": 19.17,
-          "metric": "Vals 六游戏平均里程碑分 /100",
+          "metric": "六游戏平均里程碑分 /100",
           "source_url": "https://www.vals.ai/benchmarks/cua_bench",
-          "source_date": "2026-10-13",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "source_date": "2026-10-13"
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5",
           "score": 14.0,
-          "metric": "Vals 六游戏平均里程碑分 /100",
+          "metric": "六游戏平均里程碑分 /100",
           "source_url": "https://www.vals.ai/benchmarks/cua_bench",
-          "source_date": "2026-10-13",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "source_date": "2026-10-13"
         },
         {
           "rank": 3,
           "model": "Claude Fable 5.1",
           "score": 13.17,
-          "metric": "Vals 六游戏平均里程碑分 /100",
+          "metric": "六游戏平均里程碑分 /100",
           "source_url": "https://www.vals.ai/benchmarks/cua_bench",
-          "source_date": "2026-10-13",
           "collected_at": "2026-11-07 KST",
-          "result_type": "页面榜表快照",
-          "rank_type": "所列协议下顺序"
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 5",
+          "score": 9.0,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-5.6 Sol",
+          "score": 8.33,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 6,
+          "model": "Wonder",
+          "score": 7.17,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 7,
+          "model": "Muse Spark 1.3 Max",
+          "score": 5.83,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 4 Argon",
+          "score": 4.83,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
+        },
+        {
+          "rank": 9,
+          "model": "Gemini 3.8 Flash",
+          "score": 4.17,
+          "metric": "六游戏平均里程碑分 /100",
+          "source_url": "https://www.vals.ai/benchmarks/cua_bench",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-10-13"
         }
       ],
       "sources": [
@@ -542,7 +584,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "github_issues": {
       "value": "待核实",
@@ -553,18 +595,17 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/ValsAI",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/cua_bench",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "官网页脚公开链接；本轮不读取或操作X账户。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -575,7 +616,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "original_files": {
@@ -588,7 +629,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -599,7 +640,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -610,7 +651,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -621,7 +662,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
       "value": [
@@ -655,7 +696,8 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目。CUA-bench只收商业游戏键鼠评测；不能与OSWorld、一般CUA能力或游戏子分项混同。 热度与榜单口径分离，不确定值标记待核实。"
-      }
+      },
+      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

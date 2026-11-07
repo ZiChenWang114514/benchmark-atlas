@@ -1,280 +1,200 @@
 # Furniture Assembly Benchmark
 
-> 核验：2026-11-07（KST / Asia/Seoul）；仅记录真实打开的材料，未知不代表未公开。
+> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
-研究快照；trending: A；未知信息保留待核实。
+模型需要把真实装配照片与PDF手册联系起来，定位错误产生的步骤并描述错误。它不是机器人实际装配任务；60张照片来自仅三种家具，推广到一般物理推理时应保持克制。
+
+编辑状态：研究快照；trending: A；未知信息保留待核实。
 
 ## 基本信息
 
-### 简称
+**简称**：Furniture Assembly Benchmark
 
-Furniture Assembly Benchmark
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**全称**：Furniture Assembly Benchmark
 
-### 全称
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-Furniture Assembly Benchmark
+**基准版本**：运行CSV中见1.0.0与1.0.1；本轮榜单限1.0.0分轨
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### 版本
+**论文版本**：官方网页研究报告（与持续更新的方法页分开记录）
 
-运行CSV中见1.0.0与1.0.1；本轮榜单限1.0.0分轨
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**发布日期**：2026-09-23（官方发布研究报告的datePublished；不据此断言所有任务资产首次上线日）
 
-### paper_version
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）
 
-待核实
+**主板块**：多模态
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：编辑主板块归档，不据此限制跨学科覆盖。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### 发布日期
+**领域标签**：空间推理
 
-2026-09（官方BibTeX月；精确日待核实）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**许可证与授权边界**：官方研究报告JSON-LD声明CC-BY-4.0；这不涵盖底层IKEA图片/说明书。官方明确不分发或售卖该受版权保护材料，题库统一再分发许可待核实。
 
-### section
+状态：待核实。
 
-多模态
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-> 编辑主板块归档，不据此限制跨学科覆盖。
+**论文或技术报告**：https://epoch.ai/publications/furniture-assembly
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+核验说明：官方网页研究报告；未定位独立arXiv论文或PDF。
 
-### subfields
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）
 
-```json
-[
-  "空间推理"
-]
-```
+**官方代码**：待核实
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+状态：待核实。
 
-### 许可证
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-待核实
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+**数据地址**：待核实
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+状态：待核实。
 
-### 论文链接
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-待核实
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+**官方主页**：https://epoch.ai/benchmarks/furniture-assembly
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### 官方代码
+**论文题名**：AI has improved significantly at reasoning about IKEA furniture assembly
 
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 数据集
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 官网
-
-https://epoch.ai/benchmarks/furniture-assembly
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 论文标题
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）
 
 ## 发起与维护
 
-### 发起方
+**发起方**：Epoch AI
 
-Epoch AI
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**协作与机构边界**：研究独立于IKEA，不据使用产品及说明书推断合作。
 
-### partners
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-研究独立于IKEA，不据使用产品及说明书推断合作。
+**作者**：Aiden Ament；Greg Burnham
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）
 
-### 作者
+**维护方**：Epoch AI
 
-Epoch AI
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**资助方**：待核实
 
-### 维护方
+状态：待核实。
 
-Epoch AI
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### funders
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 设计目标
 
-### 衡量能力
+**测量能力**：将真实装配照片与技术图示连接，识别错误并定位产生错误的步骤。
 
-将真实装配照片与技术图示连接，识别错误并定位产生错误的步骤。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**相对既有评测的缺口**：衡量物理构建的空间及多步推理，而非仅抽象视觉题。
 
-### 设计动机
-
-衡量物理构建的空间及多步推理，而非仅抽象视觉题。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 构建方式
 
-### question_sources
+**题目来源**：研究人员购买三件IKEA家具并拍摄装配过程，故意制造可见错误后可继续安装。
 
-研究人员购买三件IKEA家具并拍摄装配过程，故意制造可见错误后可继续安装。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**出题与研究背景**：Epoch AI研究报告署名Aiden Ament与Greg Burnham；原任务由研究者实际购买和组装IKEA家具后拍摄，不是机器人执行数据。
 
-### author_background
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-待核实
+**审核流程**：有错样本先核对步骤，再由GPT-5.6 Sol宽松评阅错误描述。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**质量控制**：正确构建正确识别直接通过；有错样本必须正确定位并大致描述。
 
-### review_process
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-有错样本先核对步骤，再由GPT-5.6 Sol宽松评阅错误描述。
+**去污染与泄漏边界**：官方不分发或出售底层受版权保护图片和说明书；不由此推断完整数据开放。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### quality_control
-
-正确构建正确识别直接通过；有错样本必须正确定位并大致描述。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### decontamination
-
-官方不分发或出售底层受版权保护图片和说明书；不由此推断完整数据开放。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 数据形式
 
-### 题量与规模
+**规模与口径**：60张照片：Ställ鞋柜14、Tonstad床架25、Gullaberg斗柜21。
 
-60张照片：Ställ鞋柜14、Tonstad床架25、Gullaberg斗柜21。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**任务类型**：判断安装正确性；识别错误步骤与原因；正确时指出下一步。
 
-### 题型
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-判断安装正确性；识别错误步骤与原因；正确时指出下一步。
+**模态**：照片；PDF装配手册；文本
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### modalities
+**语言**：待核实
 
-```json
-[
-  "照片",
-  "PDF装配手册",
-  "文本"
-]
-```
+状态：待核实。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-### languages
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-待核实
+**难度**：三产品按复杂度选择，错误可发生于较早而非最后一步。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**公开与隐藏划分**：官方明确不分发或出售底层受版权保护的照片及IKEA说明书。公开方法和结果并不等于公开底层题库；本条不按标准公开train/test拆分理解。
 
-### difficulty
-
-三产品按复杂度选择，错误可发生于较早而非最后一步。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 公开与隐藏划分
-
-未公开：官方声明不分发/出售底层受版权保护材料；其他划分待核实。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 评测方法
 
-### 指标
+**指标**：60照片准确率，误差条为±标准误。
 
-60照片准确率，误差条为±标准误。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**评分方式**：错题先匹配步骤，再LLM判描述；人类基线仅判步骤，任务略容易。
 
-### 评分方式
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-错题先匹配步骤，再LLM判描述；人类基线仅判步骤，任务略容易。
+**提示与运行设置**：提供产品名、当前完成步骤、照片、PDF手册、zoom与Python；80步budget；最高支持reasoning effort。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### 提示与运行设置
+**官方复现入口**：待核实
 
-提供产品名、当前完成步骤、照片、PDF手册、zoom与Python；80步budget；最高支持reasoning effort。
+状态：待核实。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-### 官方评测实现
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-待核实
+**可比性警告**：不能把人类84%最佳组合称单人全卷成绩；运行CSV有不同任务版本，须分轨。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 可比性警告
-
-不能把人类84%最佳组合称单人全卷成绩；运行CSV有不同任务版本，须分轨。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 最新情况
 
-### checked_at
+**本次核验**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 当前版本与近期使用证据
-
-```json
+**数据及热度证据**：```json
 {
   "version": "CSV最新运行见1.0.1",
   "evidence_2026_h2": [
@@ -287,208 +207,163 @@ Epoch AI
 }
 ```
 
-[来源](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-07）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）
 
-### paper_revision_history
+**论文与版本历史**：官方网页研究报告2026-09-23发布；发布文写尚未测人类，而当前方法页新增2026年9月人类实验，因此两者按历史发布文/持续维护页分别引用。
 
-待核实
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+**饱和程度**：本轮CSV中1.0.0最高0.833333（Claude Opus 5.5）；1.0.1最高0.791667（GPT-6.1 Terra）。不同版本分轨，60张照片/三产品不能支持泛化到全部空间推理已饱和。
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）
 
-### saturation
+**已知问题与局限**：原发布文尚未测人类表现；现方法页已增加15名志愿者基线，平均63%、每产品最佳者组合84%，人类只需定位步骤而不用描述错误。优先现方法页，不能把组合84%当单人全卷分数。
 
-待核实
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+**后续与衍生**：待核实
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+状态：待核实。
 
-### 污染与争议
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### derivatives
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### 为什么近期热门
-
-上列2026年后半年发布、当前榜单或独立实跑构成活跃证据；不把热度当成质量背书。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 榜单快照
 
-### snapshot_date
+**快照日期**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+**官方入口**：https://epoch.ai/benchmarks/furniture-assembly
 
-### official_url
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-https://epoch.ai/benchmarks/furniture-assembly
+**第三方入口**：待核实
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+状态：待核实。
 
-### third_party_url
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-待核实
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+| 分轨/范围 | 名次 | 模型/系统 | 得分 | 指标 | 运行/提交日期 | 来源 |
+|---|---:|---|---:|---|---|---|
+| 1.0.0 | 1 | Claude Opus 5.5 (max) | 0.8333333333333334 | mean_score (0–1) | 2026-09-23T01:51:00+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 2 | GPT-6.1 Sol (max) | 0.8 | mean_score (0–1) | 2026-09-30T03:29:32+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 3 | GPT-6 Astra (max) | 0.8 | mean_score (0–1) | 2026-09-11T05:22:39+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 4 | Claude Sonnet 5.5 (max) | 0.75 | mean_score (0–1) | 2026-09-30T00:17:08+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 5 | Claude Fable 5.1 (max) | 0.7 | mean_score (0–1) | 2026-09-11T05:23:45+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 1 | GPT-6.1 Terra (max) | 0.7916666666666666 | mean_score (0–1) | 2026-10-27T05:00:34+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 2 | Gemini 4 Argon (high) | 0.725 | mean_score (0–1) | 2026-10-14T02:15:28+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 3 | Kimi K3.1 Pro (Together, max) | 0.5583333333333333 | mean_score (0–1) | 2026-11-06T20:34:34+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 4 | Muse Wonder (max) | 0.5416666666666666 | mean_score (0–1) | 2026-10-16T07:49:11+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 5 | Mistral Large 4 (high) | 0.3083333333333333 | mean_score (0–1) | 2026-11-02T22:47:12+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
-### 模型成绩
+**覆盖说明**：刷新成功运行记录，分别列1.0.0及1.0.1各前5；rank在各版本内重新开始，严禁将两版混合成总榜。运行开始日不是榜单更新时间。
 
-```json
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）
+
+## 联系方式
+
+**公开联系邮箱**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**Issues或讨论入口**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**官方社交**：https://x.com/EpochAIResearch
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**隐私政策**：https://epoch.ai/privacy
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+## 原始文件
+
+**原始PDF**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**PDF SHA-256**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**PDF字节数**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**Drive文件夹**：待核实
+
+状态：待核实。
+
+核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+
+**其他官方文档**：```json
 [
   {
-    "rank": 1,
-    "model": "Claude Opus 5.5 (max)",
-    "score": 0.8333333333333334,
-    "metric": "accuracy (0–1), task version 1.0.0",
-    "stderr": "0.047040472216649226",
-    "source_url": "https://epoch.ai/data/benchmarks.csv",
-    "source_date": "2026-09-23T01:51:00+09:00 KST",
-    "run_id": "4QrkRM7KEDCQvg4wvfhz7N",
-    "collected_at": "2026-11-07 KST"
+    "type": "发布研究报告",
+    "url": "https://epoch.ai/publications/furniture-assembly"
   },
   {
-    "rank": 2,
-    "model": "GPT-6.1 Sol (max)",
-    "score": 0.8,
-    "metric": "accuracy (0–1), task version 1.0.0",
-    "stderr": "0.04928872620664329",
-    "source_url": "https://epoch.ai/data/benchmarks.csv",
-    "source_date": "2026-09-30T03:29:32+09:00 KST",
-    "run_id": "R4vjsSfDrDo6ECQWGTUdWe",
-    "collected_at": "2026-11-07 KST"
-  },
-  {
-    "rank": 3,
-    "model": "GPT-6 Astra (max)",
-    "score": 0.8,
-    "metric": "accuracy (0–1), task version 1.0.0",
-    "stderr": "0.04928872620664329",
-    "source_url": "https://epoch.ai/data/benchmarks.csv",
-    "source_date": "2026-09-11T05:22:39+09:00 KST",
-    "run_id": "BSzNeBCFhFUnZswSqHtAed",
-    "collected_at": "2026-11-07 KST"
+    "type": "持续更新方法与人类基线",
+    "url": "https://epoch.ai/benchmarks/furniture-assembly"
   }
 ]
 ```
 
-[来源](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-07）
+来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-### 时效与可比性
+**Drive论文链接**：待核实
 
-官方CSV按1.0.0轨运行均分排序的前三记录；未合并1.0.1，也未将同模型不同配置去重。来源日期为各自运行时间，非整榜更新时间。
+状态：待核实。
 
-[来源](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-07）
+核验说明：本组仅本地研究，未上传Drive。
 
-## 联系方式
-
-### 公开工作邮箱
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### github_issues
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### official_social
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### privacy_policy
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-## 原始文件
-
-### 原论文PDF
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### sha256
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### pdf_bytes
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### drive_folder
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### other_documents
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
-
-### Drive PDF
-
-待核实
-
-> 本组未上传Drive。
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 变更记录
 
-### changelog
-
-```json
+**本轮及历史变更**：```json
 [
   {
     "date": "2026-11-07",
     "timezone": "KST / Asia/Seoul",
     "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+  },
+  {
+    "date": "2026-11-07",
+    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
   }
 ]
 ```
 
-[来源](https://epoch.ai/benchmarks/furniture-assembly)（访问 2026-11-07）
+来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
+

@@ -139,30 +139,33 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Princeton University与Stanford University作者联合署名；公开README提及使用TRL，不把依赖库组织认作合作单位。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.19501",
           "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
-    },
-    "authors": {
-      "value": [
-        "Yin, Ming",
-        "Qu, Yuanhao",
-        "Yang, Ling",
-        "Cong, Le",
-        "Wang, Mengdi"
-      ],
-      "sources": [
+        },
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://github.com/mingyin0312/RL4GenomeBench",
           "accessed": "2026-11-07"
         }
       ]
+    },
+    "authors": {
+      "value": [
+        "Ming Yin",
+        "Yuanhao Qu",
+        "Ling Yang",
+        "Le Cong",
+        "Mengdi Wang"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "按PDF扉页纠正旧作者解析的姓/名倒置和拼写。"
     },
     "maintainer": {
       "value": "mingyin0312/RL4GenomeBench官方仓库。",
@@ -254,10 +257,14 @@
   },
   "data_format": {
     "size": {
-      "value": "官方HF页面显示3,332行；仓库README概述为超过3,000个MCQ与QA条目。",
+      "value": "3,332条问答，来自11年基因组编辑研究讨论；HF固定train 2,671、test 661，不能与GeneBench 103/129题混淆。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench",
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench/blob/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -357,24 +364,22 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://github.com/mingyin0312/RL4GenomeBench",
           "accessed": "2026-11-07"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "公开default配置train/test快照（2671/661）；官方HF卡未标语义版本号，复现应固定revision。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench/blob/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -472,31 +477,83 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "2025 v2论文历史：RL-Router（Qwen2.5-7B-Instruct路由+四RL专家）81.07%；DeepSeekR1(01-20-25)78.97%；Gemini2.5Pro(exp03-25)77.46%；Claude3.7Sonnet(02-19-25)76.40%。H2仅引用，无新实跑。",
+      "value": [
+        {
+          "rank": 1,
+          "model": "RL-Router (Qwen2.5-7B + four RL experts)",
+          "score": 81.07,
+          "metric": "Genome-Bench test accuracy (%)",
+          "scope": "arXiv v2 Table 2历史实验",
+          "source_url": "https://arxiv.org/abs/2505.19501v2",
+          "source_date": "2025-06-02",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "论文历史基线；非实时榜"
+        },
+        {
+          "rank": 2,
+          "model": "DeepSeek-R1 01-20-25",
+          "score": 78.97,
+          "metric": "Genome-Bench test accuracy (%)",
+          "scope": "arXiv v2 Table 2历史实验",
+          "source_url": "https://arxiv.org/abs/2505.19501v2",
+          "source_date": "2025-06-02",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "论文历史基线；非实时榜"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini-2.5-Pro exp-03-25",
+          "score": 77.46,
+          "metric": "Genome-Bench test accuracy (%)",
+          "scope": "arXiv v2 Table 2历史实验",
+          "source_url": "https://arxiv.org/abs/2505.19501v2",
+          "source_date": "2025-06-02",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "论文历史基线；非实时榜"
+        },
+        {
+          "rank": 4,
+          "model": "Qwen2.5-7B RL-tuned",
+          "score": 76.85,
+          "metric": "Genome-Bench test accuracy (%)",
+          "scope": "arXiv v2 Table 2历史实验",
+          "source_url": "https://arxiv.org/abs/2505.19501v2",
+          "source_date": "2025-06-02",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "论文历史基线；非实时榜"
+        },
+        {
+          "rank": 5,
+          "model": "Claude-3.7-Sonnet 02-19-25",
+          "score": 76.4,
+          "metric": "Genome-Bench test accuracy (%)",
+          "scope": "arXiv v2 Table 2历史实验",
+          "source_url": "https://arxiv.org/abs/2505.19501v2",
+          "source_date": "2025-06-02",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "论文历史基线；非实时榜"
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://arxiv.org/abs/2505.19501v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/mingyin0312/RL4GenomeBench",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "重新读v2 PDF Table 1/2核验版本与分数，将原字符串改结构化结果。RL-Router为四专家路由系统，不能当单一7B模型；官方README未提供更新的统一实时榜，不宣称2026 SOTA。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://arxiv.org/abs/2505.19501v2",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://github.com/mingyin0312/RL4GenomeBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -564,7 +621,8 @@
           "url": "https://arxiv.org/pdf/2505.19501",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮下载原始PDF字节计算，非arXiv网页显示大小。"
     },
     "pdf_bytes": {
       "value": 24536967,
@@ -573,7 +631,8 @@
           "url": "https://arxiv.org/pdf/2505.19501",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载字节数；不代表Drive已上传。"
     },
     "drive_folder": {
       "value": {
@@ -626,11 +685,15 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2505.19501",
+        "url": "https://github.com/mingyin0312/RL4GenomeBench",
         "accessed": "2026-11-07"
       }
     ]
