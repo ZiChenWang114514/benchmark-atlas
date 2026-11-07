@@ -41,15 +41,13 @@
       "note": "报告标题页日期，不冒充benchmark首发日期。"
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-03-25（官方宣布发布的日历日，未给精确时刻；技术报告日期为4月22日）",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/blog/arc-agi-3-launch",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "推理",
@@ -63,26 +61,26 @@
     },
     "subfields": {
       "value": [
-        "推理"
+        "交互式推理",
+        "探索与世界模型",
+        "行动效率"
       ],
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑标签"
+      ]
     },
     "license": {
-      "value": "待核实",
+      "value": "ARC-AGI Toolkit软件MIT；不据此推断全部游戏内容或私有测试环境也为MIT，后者授权待核实。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://github.com/arcprize/arc-agi/blob/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "status": "待核实"
     },
     "paper_url": {
       "value": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
@@ -94,26 +92,22 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/arcprize/arc-agi",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://docs.arcprize.org/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://arcprize.org/tasks?v=3",
       "sources": [
         {
           "url": "https://arcprize.org/arc-agi/3",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://arcprize.org/arc-agi/3",
@@ -156,7 +150,7 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "authors": {
-      "value": "ARC Prize Foundation；环境主设计Hunter Henry，benchmark设计François Chollet；完整开发团队见报告标题页。",
+      "value": "ARC Prize Foundation；环境设计Hunter Henry，工程David Wexler/Derek Smith，基准设计François Chollet；完整开发名单见报告首页。",
       "sources": [
         {
           "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
@@ -165,10 +159,14 @@
       ]
     },
     "maintainer": {
-      "value": "ARC Prize",
+      "value": "ARC Prize Foundation",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.arcprize.org/",
           "accessed": "2026-11-07"
         }
       ]
@@ -216,41 +214,37 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "基金会内部游戏设计工作室手工设计新环境；不是抽取现成电子游戏关卡，也不是自然语言考试题。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "设计→工程实现→结构与平台可靠性测试→人类校准；每环境10名普通参与者初见测试，仅纳入人类可完成环境。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "quality_control": {
-      "value": "官方称所有环境均经人类可解性测试。",
+      "value": "资格检查环境接口/运行可靠性，以可达状态图探索研究随机策略通关概率；人类校准建立upper-median best action baseline。报告接受阈值为随机策略单关通关不高于1/10000，但示例ls20首关图又给1/355，需保留例外，不宣称全部关卡保证一致。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
       ]
     },
     "decontamination": {
-      "value": "新颖环境用于降低纯记忆捷径；完整训练污染核验仍待核实。",
+      "value": "公开demo刻意不全面覆盖私有机制；半私有给API模型测试，完全私有用于比赛，力求OOD机制而非公开题微调。官方设计目标不能等同已证明模型训练零污染。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
       ]
@@ -258,15 +252,13 @@
   },
   "data_format": {
     "size": {
-      "value": "待核实",
+      "value": "报告Table1：公开demo25、半私有55、完全私有55个环境；环境下多级游戏，不能把环境数当单关题数。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "question_types": {
       "value": "无自然语言任务说明的多步游戏探索。",
@@ -291,15 +283,17 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "核心游戏无自然语言规则、指令或目标说明；以64×64/16色网格观察及离散动作交互，工具API代码为接口，不是英语理解题。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/arcprize/arc-agi",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
       "value": "稀疏反馈下长程规划与技能获取效率。",
@@ -311,65 +305,62 @@
       ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "25公开demo较易、偏可玩；55半私有用于frontier API模型测评；55完全私有用于比赛。公开集不是与测试同分布的训练集。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "相对人类的行动／技能获取效率；100%意味着可像人类一样高效通过所有游戏。",
+      "value": "RHAE（Relative Human Action Efficiency）：对比人类基线行动次数的学习/完成效率，而非简单游戏胜率。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "待核实",
+      "value": "每关效率min(1.15,(human_actions/agent_actions)^2)，未完成关为0；按关序号线性加权，环境分受完成关权重比例封顶，再对全部环境求平均。每关可到115%，最终总体0–100%。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "Standard harness携带模型选择的笔记；Provider Adapter保留推理状态并压缩长对话，两种实现分别列榜。游戏初见、无自然语言任务说明；预算需随具体官方结果保留。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/arcprize/arc-agi",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://github.com/arcprize/arc-agi",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.arcprize.org/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "公开Toolkit、scorecard接口及game版本；README的SDK0.9.9不是benchmark v3的新版本号。"
     },
     "comparability_warning": {
-      "value": "必须区分官方Standard、Provider Adapter及厂商自有harness；厂商99.9%不自动代表官方标准榜饱和。",
+      "value": "Standard与Provider Adapter分轨，不能用99.9% Adapter替代62.7% Standard。/arc-agi/3/leaderboard是人类榜入口，AI verified榜实际在/leaderboard；赛事结束横幅不是AI榜缺失。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
       ]
@@ -377,7 +368,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://arcprize.org/arc-agi/3",
@@ -419,52 +410,58 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "官方PDF封面2026-04-22；不是arXiv论文，未见可核验的独立修订版本历史，待核实。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "status": "待核实"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前官方表：Standard最高62.7%，Provider Adapter最高99.9%；不同harness结论完全不同，不能单凭Adapter接近100%宣称一般智能已解决。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "公开demo/私有测试刻意OOD；排行榜预览和未完成测试有单独政策。报告的随机通关接受阈值与ls20首关示例不同，描述为设计/校准证据而非所有关卡数学保证。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "ARC-AGI-3在ARC-AGI-1/2静态视觉推理之外增加交互探索；三版本的任务、分数、harness独立呈现。Toolkit0.9.9是运行库版本，不是新增benchmark条目。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/arcprize/arc-agi",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://arcprize.org/arc-agi/3",
@@ -473,10 +470,10 @@
       ]
     },
     "official_url": {
-      "value": "https://arcprize.org/arc-agi/3/leaderboard",
+      "value": "https://arcprize.org/leaderboard",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
       ]
@@ -495,28 +492,91 @@
     "results": {
       "value": [
         {
-          "rank": "不适用（厂商自报单项）",
+          "rank": 1,
+          "model": "GPT-6 Astra",
+          "score": 62.7,
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Standard",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-09-02",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol",
+          "score": 52.7,
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Standard",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-09-29",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Argon",
+          "score": 49.8,
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Standard",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-10-13",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
+        },
+        {
+          "rank": 1,
           "model": "GPT-6 Astra",
           "score": 99.9,
-          "metric": "ARC-AGI-3 (%)，OpenAI Responses API harness",
-          "source_url": "https://openai.com/index/gpt-6-astra/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "厂商自报；非官方标准榜排名"
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Provider Adapter",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-09-02",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Argon",
+          "score": 97.5,
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Provider Adapter",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-10-13",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6.1 Sol",
+          "score": 96.4,
+          "metric": "ARC-AGI-3 RHAE (%)",
+          "track": "官方Verified / Provider Adapter",
+          "source_url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "source_date_column": "2026-09-29",
+          "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"
         }
       ],
       "sources": [
         {
-          "url": "https://openai.com/index/gpt-6-astra/",
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "从官方完整表按v3两列分别读取排序；未混入v1/v2列或社区Kaggle分数。"
     },
     "coverage_note": {
-      "value": "本轮官方榜抓取仅显示赛事结束通知，未提取可核验标准榜前三；下列为OpenAI发布文自报对比，非官方标准排名。",
+      "value": "首次取得真正AI Verified榜。旧条目只抓人类榜赛事横幅，故误写无法核验；现补Standard/Provider Adapter各前三，数据采集日不等于运行日。",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/leaderboard",
           "accessed": "2026-11-07"
         }
       ]
@@ -535,37 +595,31 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/arcprize/arc-agi/issues",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://github.com/arcprize/arc-agi",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://discord.gg/9b77dPAmcA",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://docs.arcprize.org/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://arcprize.org/privacy",
       "sources": [
         {
           "url": "https://arcprize.org/arc-agi/3",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -579,26 +633,22 @@
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "33a19ce7973afb5c15a91566a340e3745f8c9fd6f041f601c0f544cbe982799f",
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 1184316,
       "sources": [
         {
-          "url": "https://arcprize.org/arc-agi/3",
+          "url": "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -612,15 +662,29 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "正式发布文章",
+          "url": "https://arcprize.org/blog/arc-agi-3-launch",
+          "accessed": "2026-11-07"
+        },
+        {
+          "type": "Toolkit文档",
+          "url": "https://docs.arcprize.org/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "type": "AI Verified榜",
+          "url": "https://arcprize.org/leaderboard",
+          "accessed": "2026-11-07"
+        }
+      ],
       "sources": [
         {
           "url": "https://arcprize.org/arc-agi/3",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -638,8 +702,13 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [

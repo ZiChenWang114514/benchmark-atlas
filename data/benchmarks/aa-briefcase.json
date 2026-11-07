@@ -73,14 +73,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "公开Lite为Apache-2.0、Stirrup框架为MIT；正式私有四场景数据许可待核实。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/ArtificialAnalysis/Stirrup/blob/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
       "status": "待核实"
     },
     "paper_url": {
@@ -234,10 +237,14 @@
       ]
     },
     "quality_control": {
-      "value": "区分客观要求核验与主观质量比较；场景共享背景不意味着模型错误自动连续传递。",
+      "value": "正式任务独立运行，不继承模型先前提交；后续周可提供全模型相同的base-case文件。按rubric客观条件与分析/呈现成对质量分开评分；公开Lite提供source_graph和traceability证据链。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-briefcase",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite",
           "accessed": "2026-11-07"
         }
       ]
@@ -304,10 +311,14 @@
       ]
     },
     "public_hidden_split": {
-      "value": "未公开：正式4场景91任务的任务指令、输入文件与rubric；公开第5个Due Diligence示例场景不计入正式结果。",
+      "value": "正式4场景91任务私有；公开Lite为第5场景的一周，4个任务、63项checks、67个来源/147文件，不计入正式榜。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/articles/aa-briefcase",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
       ]
@@ -324,10 +335,10 @@
       ]
     },
     "scoring": {
-      "value": "rubric结果转换为合成对局并与两类质量对局合成Elo；Elo不是百分正确率。",
+      "value": "rubric二元通过率转换为合成对局，与分析质量、呈现质量对局合成headline Elo；v1.1在各scope用Crowd-BT拟合评审质量。rubric与pairwise各用三模型panel，每项由均衡抽样的一个judge判定，而非三票多数。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-briefcase",
           "accessed": "2026-11-07"
         }
       ]
@@ -342,19 +353,28 @@
       ]
     },
     "official_scripts": {
-      "value": "公开运行harness：ArtificialAnalysis/Stirrup；完整私有评测脚本发布情况待核实。",
+      "value": "https://github.com/ArtificialAnalysis/Stirrup",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "Lite公开prompts、grader/rubric、源文件与示例提交；正式私有全套实现不能由此推定已开放。"
     },
     "comparability_warning": {
-      "value": "Elo依对手池和评分协议变化；Presentation、Analytical Quality子指标和headline不可互换。",
+      "value": "v1.1仅改变Elo拟合，不改变题目；Elo取决于对手池、裁判与拟合，不能按百分正确率解释，也不能与v1 Elo直接作增减。每任务独立运行，不是模型持续工作数周。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-briefcase",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite",
           "accessed": "2026-11-07"
         }
       ]
@@ -362,7 +382,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
@@ -403,15 +423,14 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "headline是无固定100%上限的相对Elo，不能由1813判断接近饱和；应另看rubric通过率及任务失败类型。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-briefcase",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "方法论层面的解释，不主张已完成独立饱和度测量。"
     },
     "contamination_and_issues": {
       "value": "主观成对判断和复合Elo受裁判、对手池与展示质量影响；正式材料私有降低泄漏但限制完整复现。",
@@ -434,7 +453,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
@@ -452,42 +471,50 @@
       ]
     },
     "third_party_url": {
-      "value": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+      "value": "待核实",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "原值与官方榜完全相同，已纠正；不把AA自评标成独立复评。",
+      "status": "待核实"
     },
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
           "score": 1813,
           "metric": "AA-Briefcase v1.1 Elo",
-          "confidence_interval": "-11 / +12",
-          "result_type": "官方实时榜表快照",
-          "source_date": "待核实（表中Sep 2026是模型发布日期，不是榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "官方当前v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "confidence_interval_95": "-11 / +12"
         },
         {
+          "rank": 2,
           "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 1800,
           "metric": "AA-Briefcase v1.1 Elo",
-          "confidence_interval": "-11 / +12",
-          "result_type": "官方实时榜表快照",
-          "source_date": "待核实（表中Sep 2026是模型发布日期，不是榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "官方当前v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "confidence_interval_95": "-11 / +12"
         },
         {
+          "rank": 3,
           "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
           "score": 1760,
           "metric": "AA-Briefcase v1.1 Elo",
-          "confidence_interval": "-10 / +11",
-          "result_type": "官方实时榜表快照",
-          "source_date": "待核实（表中Sep 2026是模型发布日期，不是榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "官方当前v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "confidence_interval_95": "-10 / +11"
         }
       ],
       "sources": [
@@ -495,7 +522,9 @@
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "来源表Release Date为模型发行月，不是评测日期；整体更新时间待核实。",
+      "status": "待核实"
     },
     "coverage_note": {
       "value": "AA为基准创建者；不存在把同机构数据称作另一独立复核。前三为11月7日采集页面，模型发行月不是评测运行时间；10月28日文章历史Elo单独保留。",
@@ -524,37 +553,34 @@
       "status": "待核实"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/ArtificialAnalysis/Stirrup/issues",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": [
+        "https://x.com/ArtificialAnlys",
+        "https://www.linkedin.com/company/artificial-analysis/"
+      ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://artificialanalysis.ai/privacy-policy",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     }
   },
   "original_files": {
@@ -655,13 +681,18 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [

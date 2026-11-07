@@ -42,14 +42,13 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2023-08-08 01:08:11 KST",
+      "value": "2023-08-08 00:08:11 Asia/Shanghai（UTC+8）（arXiv首稿）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      ]
     },
     "section": {
       "value": "Agent",
@@ -380,7 +379,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://github.com/THUDM/AgentBench",
@@ -396,7 +395,7 @@
             "url": "https://arxiv.org/html/2609.19134v1",
             "date": "2026-09-17",
             "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
-            "date_kst": "2026-09-17T02:55:47+09:00",
+            "date_shanghai": "2026-09-17T01:55:47+08:00",
             "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
           }
         ]
@@ -417,7 +416,20 @@
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Xiao Liu [ view email ] [v1] 2023-08-08 01:08:11 KST (20,331 KB) [v2] 2023-10-25 16:41:24 KST (20,908 KB) [v3] 2025-10-04 12:54:18 KST (20,753 KB)",
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2023-08-08T00:08:11+08:00"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2023-10-25T15:41:24+08:00"
+        },
+        {
+          "version": "v3",
+          "submitted_at": "2025-10-04T11:54:18+08:00"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.03688",
@@ -455,7 +467,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://github.com/THUDM/AgentBench",
@@ -490,67 +502,534 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "AgentRL w/ Qwen2.5-32B-Instruct",
           "score": 70.4,
-          "unit": "%",
-          "metric": "success rate pass@1，五环境均值",
-          "scope": "AgentBench FC，5环境test；AVG pass@1",
-          "date": "2025-10",
-          "accessed": "2026-11-07 KST",
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
-          "provenance": "官方当前FC表，非原始八环境论文分数。",
-          "leaderboard_updated_at": "2025-11-18"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 94.5,
+            "DB": 70.4,
+            "KG": 77.0,
+            "OS": 51.7,
+            "WebShop": 58.6
+          }
         },
         {
+          "rank": 2,
           "model": "AgentRL w/ Qwen2.5-14B-Instruct",
           "score": 67.7,
-          "unit": "%",
-          "metric": "success rate pass@1，五环境均值",
-          "scope": "AgentBench FC，5环境test；AVG pass@1",
-          "date": "2025-10",
-          "accessed": "2026-11-07 KST",
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
-          "provenance": "官方当前FC表，非原始八环境论文分数。",
-          "leaderboard_updated_at": "2025-11-18"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 91.5,
+            "DB": 72.2,
+            "KG": 72.8,
+            "OS": 43.6,
+            "WebShop": 58.5
+          }
         },
         {
+          "rank": 3,
           "model": "AgentRL w/ GLM-4-9B-0414",
           "score": 65.0,
-          "unit": "%",
-          "metric": "success rate pass@1，五环境均值",
-          "scope": "AgentBench FC，5环境test；AVG pass@1",
-          "date": "2025-10",
-          "accessed": "2026-11-07 KST",
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
-          "provenance": "官方当前FC表，非原始八环境论文分数。",
-          "leaderboard_updated_at": "2025-11-18"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 93.3,
+            "DB": 66.9,
+            "KG": 75.7,
+            "OS": 33.2,
+            "WebShop": 55.9
+          }
         },
         {
+          "rank": 4,
+          "model": "AgentRL w/ Qwen2.5-7B-Instruct",
+          "score": 62.0,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 91.5,
+            "DB": 63.7,
+            "KG": 57.8,
+            "OS": 40.8,
+            "WebShop": 56.1
+          }
+        },
+        {
+          "rank": 5,
+          "model": "AgentRL w/ Qwen2.5-3B-Instruct",
+          "score": 60.0,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 92.4,
+            "DB": 60.0,
+            "KG": 55.0,
+            "OS": 40.5,
+            "WebShop": 52.1
+          }
+        },
+        {
+          "rank": 6,
+          "model": "Claude Sonnet 4.5 (2025-09-29)",
+          "score": 58.9,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "-",
+          "source_release_month": "11/2025",
+          "subscores": {
+            "ALFWorld": 82.5,
+            "DB": 71.2,
+            "KG": 64.1,
+            "OS": 38.0,
+            "WebShop": 38.6
+          }
+        },
+        {
+          "rank": 7,
+          "model": "Claude Sonnet 4.5 Thinking (2025-09-29)",
+          "score": 58.3,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "-",
+          "source_release_month": "11/2025",
+          "subscores": {
+            "ALFWorld": 80.7,
+            "DB": 70.3,
+            "KG": 62.7,
+            "OS": 39.4,
+            "WebShop": 38.2
+          }
+        },
+        {
+          "rank": 8,
+          "model": "Claude Sonnet 4 Thinking (2025-05-14)",
+          "score": 58.2,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 69.0,
+            "DB": 68.4,
+            "KG": 64.4,
+            "OS": 51.0,
+            "WebShop": 38.3
+          }
+        },
+        {
+          "rank": 9,
+          "model": "Claude Sonnet 4 (2025-05-14)",
+          "score": 57.4,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 73.6,
+            "DB": 70.1,
+            "KG": 63.4,
+            "OS": 45.3,
+            "WebShop": 34.6
+          }
+        },
+        {
+          "rank": 10,
+          "model": "Claude Sonnet 3.7 (2025-02-19)",
+          "score": 53.2,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 61.1,
+            "DB": 68.5,
+            "KG": 59.8,
+            "OS": 36.5,
+            "WebShop": 40.1
+          }
+        },
+        {
+          "rank": 11,
+          "model": "GPT-5 (2025-08-07)",
+          "score": 52.2,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "OpenAI",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 65.4,
+            "DB": 63.2,
+            "KG": 64.1,
+            "OS": 34.5,
+            "WebShop": 33.7
+          }
+        },
+        {
+          "rank": 12,
+          "model": "AgentLM-70B",
+          "score": 51.4,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 86.0,
+            "DB": 37.7,
+            "KG": 47.0,
+            "OS": 21.5,
+            "WebShop": 64.9
+          }
+        },
+        {
+          "rank": 13,
+          "model": "Claude Sonnet 3.7 Thinking (2025-02-19)",
+          "score": 50.0,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Anthropic",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 54.1,
+            "DB": 68.4,
+            "KG": 38.2,
+            "OS": 53.1,
+            "WebShop": 36.0
+          }
+        },
+        {
+          "rank": 14,
+          "model": "DeepSeek-R1 (2025-05-28)",
+          "score": 49.3,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "DeepSeek",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 51.4,
+            "DB": 60.4,
+            "KG": 50.2,
+            "OS": 53.6,
+            "WebShop": 31.0
+          }
+        },
+        {
+          "rank": 15,
+          "model": "AgentLM-13B",
+          "score": 45.1,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 76.0,
+            "DB": 33.7,
+            "KG": 26.8,
+            "OS": 18.1,
+            "WebShop": 70.8
+          }
+        },
+        {
+          "rank": 16,
+          "model": "AgentLM-7B",
+          "score": 42.7,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Z.ai",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 84.0,
+            "DB": 30.6,
+            "KG": 18.1,
+            "OS": 17.4,
+            "WebShop": 63.6
+          }
+        },
+        {
+          "rank": 17,
+          "model": "o3-mini (2025-01-31)",
+          "score": 40.9,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "OpenAI",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 28.4,
+            "DB": 56.5,
+            "KG": 51.8,
+            "OS": 35.1,
+            "WebShop": 32.7
+          }
+        },
+        {
+          "rank": 18,
+          "model": "Qwen2.5-72B-Instruct",
+          "score": 40.8,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Alibaba",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 47.5,
+            "DB": 45.3,
+            "KG": 26.5,
+            "OS": 49.5,
+            "WebShop": 35.4
+          }
+        },
+        {
+          "rank": 19,
+          "model": "o4-mini (2025-04-16)",
+          "score": 39.7,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "OpenAI",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 32.6,
+            "DB": 63.4,
+            "KG": 32.4,
+            "OS": 41.8,
+            "WebShop": 28.5
+          }
+        },
+        {
+          "rank": 20,
+          "model": "GPT-4o (2024-11-20)",
+          "score": 39.6,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "OpenAI",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 28.3,
+            "DB": 54.3,
+            "KG": 49.3,
+            "OS": 38.5,
+            "WebShop": 27.8
+          }
+        },
+        {
+          "rank": 21,
+          "model": "Qwen2.5-32B-Instruct",
+          "score": 37.2,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Alibaba",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 32.1,
+            "DB": 55.8,
+            "KG": 33.8,
+            "OS": 37.0,
+            "WebShop": 27.5
+          }
+        },
+        {
+          "rank": 22,
+          "model": "Hephaestus-8B-IFT",
+          "score": 36.3,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Amazon",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 46.0,
+            "DB": 29.7,
+            "KG": 21.2,
+            "OS": 20.8,
+            "WebShop": 63.9
+          }
+        },
+        {
+          "rank": 23,
+          "model": "DeepSeek-V3 (2025-03-24)",
+          "score": 36.1,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "DeepSeek",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 31.9,
+            "DB": 58.4,
+            "KG": 14.0,
+            "OS": 53.0,
+            "WebShop": 23.4
+          }
+        },
+        {
+          "rank": 24,
+          "model": "Hephaestus-8B-Base",
+          "score": 31.9,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Amazon",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 30.0,
+            "DB": 32.3,
+            "KG": 16.0,
+            "OS": 20.8,
+            "WebShop": 60.5
+          }
+        },
+        {
+          "rank": 25,
+          "model": "Qwen2.5-14B-Instruct",
+          "score": 27.2,
+          "metric": "五环境AVG pass@1 (%)",
+          "track": "AgentBench FC官方Sheet",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "model_organization": "Alibaba",
+          "result_source": "AgentRL",
+          "source_release_month": "10/2025",
+          "subscores": {
+            "ALFWorld": 8.7,
+            "DB": 48.4,
+            "KG": 35.3,
+            "OS": 26.0,
+            "WebShop": 17.6
+          }
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
           "model": "GPT-4-0613",
           "score": 4.01,
           "metric": "Overall归一化分",
-          "benchmark_version": "原始8环境",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table3",
-          "collected_at": "2026-11-07 KST"
+          "track": "原始8环境/论文历史Table3",
+          "source_url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
+          "rank": "不适用（来源内选列，非全局排名）",
           "model": "Claude 3 Opus",
           "score": 3.11,
           "metric": "Overall归一化分",
-          "benchmark_version": "原始8环境",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table3",
-          "collected_at": "2026-11-07 KST"
+          "track": "原始8环境/论文历史Table3",
+          "source_url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
+          "rank": "不适用（来源内选列，非全局排名）",
           "model": "GLM-4",
           "score": 2.89,
           "metric": "Overall归一化分",
-          "benchmark_version": "原始8环境",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table3",
-          "collected_at": "2026-11-07 KST"
+          "track": "原始8环境/论文历史Table3",
+          "source_url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
@@ -562,21 +1041,14 @@
           "url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "FC结果来自本轮实际下载官方CSV；Release Date列按来源原名保存，不冒充实验运行时间。"
     },
     "coverage_note": {
-      "value": "本轮读取官方FC榜单CSV；公开Sheet标题标updated 2025-11-18，当前前三AVG为70.4/67.7/65.0，Release Date均10/2025。采集日在2026不意味着重新评测；原始8环境基线另列，禁止混排。",
+      "value": "本轮官方CSV共25行FC模型，另列原始8环境历史三行。FC前三为70.4/67.7/65.0；前三Release Date为10/2025，其余有11/2025，不冒充实际运行日。原始Overall归一化分与FC百分均值不能混排。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pubhtml",
           "accessed": "2026-11-07"
         }
       ]
@@ -633,11 +1105,10 @@
       "value": "https://arxiv.org/pdf/2308.03688",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2308.03688",
+          "url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+      ]
     },
     "sha256": {
       "value": "9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3",
@@ -647,7 +1118,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
     },
     "pdf_bytes": {
       "value": 23017024,
@@ -656,8 +1127,7 @@
           "url": "https://arxiv.org/pdf/2308.03688",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      ]
     },
     "drive_folder": {
       "value": {
@@ -708,14 +1178,19 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "round": "1 / 深度实证复核",
         "change": "纠正当前main已为五环境AgentBench FC，原版八环境留在旧分支；补FC榜单前三和联系；重核H2引用。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [

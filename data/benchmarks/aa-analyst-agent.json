@@ -38,21 +38,27 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "release_date": {
-      "value": "待核实",
-      "sources": [
+        },
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
+    },
+    "release_date": {
+      "value": "2026-08-10（官方首发文章日；页面未提供精确时刻）",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     "section": {
       "value": "Agent",
@@ -77,15 +83,18 @@
       ]
     },
     "license": {
-      "value": "未公开",
+      "value": "Stirrup运行框架MIT；题目、参考答案与输入文件明确不公开；正式评测数据许可待核实，不能将框架许可外推。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://github.com/ArtificialAnalysis/Stirrup/blob/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "未公开",
-      "note": "官方页标注 Private Dataset，题集与参考答案私有（示例题除外）。"
+      "status": "待核实"
     },
     "paper_url": {
       "value": "待核实",
@@ -93,10 +102,18 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     },
     "code_url": {
       "value": "https://github.com/ArtificialAnalysis/Stirrup",
@@ -109,15 +126,14 @@
       "note": "agent harness，非题集。"
     },
     "dataset_url": {
-      "value": "未公开",
+      "value": "未公开：官方明确题目、参考答案和源文件不对外发布；主页仅展示示例。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "未公开",
-      "note": "官方明确私有，仅展示示例。"
+      "status": "未公开"
     },
     "official_homepage": {
       "value": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
@@ -134,10 +150,18 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     }
   },
   "organization": {
@@ -204,61 +228,53 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "待核实",
+      "value": "分析师工作不仅是算术正确，还要选对来源、解释例外并稳定重复得出答案；用5次全对而非偶然成功衡量可托付程度。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "construction": {
     "question_sources": {
-      "value": "待核实",
+      "value": "真实表格与文档，包括医疗支出、贸易与商品统计、水文天气、财政拨款、能源成本、财务模型与项目排期；80题跨14业务及科学领域。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "Artificial Analysis团队组织并人工编写参考答案；具体命题者职业资历待核实。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "status": "待核实"
     },
     "review_process": {
-      "value": "待核实",
+      "value": "人工撰写参考答案，由Artificial Analysis独立验证；参考答案不提供给作答agent。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "官方仅披露参考答案验证，不据此声称有双盲外部专家逐题审查。"
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "每题5次独立运行；数值等价预检查仅能覆盖确定正确的答案，其他情况保留LLM裁判判决；格式、单位和所要求精度均纳入判分。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "decontamination": {
       "value": "题目与参考答案私有以降低污染风险",
@@ -303,26 +319,27 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "公开示例题与运行/评分提示为英语；完整私有题库语种分布待核实。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "status": "待核实"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "不以学历分级；覆盖来源查找诊断、筛选汇总、比率/趋势/敏感性、损益模型、现金/资产负债表/估值五种工作流。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "私有，示例题公开（如加州 Medicaid 支出报告题）",
@@ -345,35 +362,32 @@
       ]
     },
     "scoring": {
-      "value": "待核实",
+      "value": "逐次二元判分：每个答案均交Gemini 3 Flash (Reasoning)裁判；确定性数值等价预检查可将符合单位与精度的答案覆盖为通过，不能覆盖为失败。pass^5为80题中五次均正确的比例；pass@1为所有尝试平均正确率；pass@5为至少一次正确的题目比例。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "prompt_settings": {
-      "value": "每题5次独立运行",
+      "value": "Stirrup；每题5次独立运行，每次最多100轮；隔离Linux/Python3.12，提供题目源文件、代码执行、URL抓取、图像查看（视觉模型）和最终答案提交；只提交数值或标签，不附解释。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/ArtificialAnalysis/Stirrup",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "公开通用harness及完整提示模板；不是已公开80题完整评测实现。"
     },
     "comparability_warning": {
       "value": "独立榜，不计入 AA Intelligence Index；pass^5 与 pass@1 排名差异显著。",
@@ -387,7 +401,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
@@ -435,32 +449,40 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "本轮官网pass^5最高60.0%，pass@1最高71.3%、pass@5最高86.3%；不同指标榜首不同，不把一次答对视为稳定解决。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "题目、答案与源文件私有降低直接泄漏风险，但也限制第三方重跑；首发失败分析57%是过早锚定错误解释（1567条失败轨迹、多标签分类），不是全体任务57%错误。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -476,7 +498,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
@@ -509,29 +531,92 @@
         {
           "rank": 1,
           "model": "Gemini 3.7 Flash (High)",
-          "score": "60.0%",
-          "metric": "AA-AnalystAgent pass^5",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 60.0,
+          "metric": "五次全对任务比例 (%)",
+          "track": "pass^5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
           "rank": 2,
           "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
-          "score": "57.5%",
-          "metric": "AA-AnalystAgent pass^5",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 57.5,
+          "metric": "五次全对任务比例 (%)",
+          "track": "pass^5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
           "rank": 2,
           "model": "Claude Fable 5.1 (Max, Default Fallback)",
-          "score": "57.5%",
-          "metric": "AA-AnalystAgent pass^5",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 57.5,
+          "metric": "五次全对任务比例 (%)",
+          "track": "pass^5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 1,
+          "model": "Inkling 2 Small",
+          "score": 71.3,
+          "metric": "平均尝试正确率 (%)",
+          "track": "pass@1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 3.7 Flash (High)",
+          "score": 70.5,
+          "metric": "平均尝试正确率 (%)",
+          "track": "pass@1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+          "score": 69.5,
+          "metric": "平均尝试正确率 (%)",
+          "track": "pass@1",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 1,
+          "model": "Inkling 2 Small",
+          "score": 86.3,
+          "metric": "至少一次正确任务比例 (%)",
+          "track": "pass@5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Luna (Max)",
+          "score": 85.0,
+          "metric": "至少一次正确任务比例 (%)",
+          "track": "pass@5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Haiku 5.5 (Max)",
+          "score": 83.8,
+          "metric": "至少一次正确任务比例 (%)",
+          "track": "pass@5",
+          "source_url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
@@ -539,7 +624,9 @@
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "已重读公开HTML摘要确认三个分轨；各模型实际运行时间及榜单整体更新时间待核实。",
+      "status": "待核实"
     },
     "coverage_note": {
       "value": "AA 为基准创建者，无独立复测；采集日2026-11-07，27/52模型展示。pass@1 第一为 Inkling 2 Small 71.3%。",
@@ -564,37 +651,35 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/ArtificialAnalysis/Stirrup/issues",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "url": "https://github.com/ArtificialAnalysis/Stirrup",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "仅通用harness问题入口；不是私有题库的专属问题单。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": [
+        "https://x.com/ArtificialAnlys",
+        "https://www.linkedin.com/company/artificial-analysis/"
+      ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://artificialanalysis.ai/privacy-policy",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -604,10 +689,18 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     },
     "sha256": {
       "value": "待核实",
@@ -615,10 +708,18 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -626,10 +727,18 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。",
+      "status": "待核实"
     },
     "drive_folder": {
       "value": "待核实",
@@ -643,15 +752,24 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aa-analyst-agent",
+          "type": "首发文章",
+          "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+          "accessed": "2026-11-07"
+        },
+        {
+          "type": "完整运行与评分提示",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+          "accessed": "2026-11-07"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -669,8 +787,13 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [

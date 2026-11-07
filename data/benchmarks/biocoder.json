@@ -1,7 +1,7 @@
 {
   "id": "biocoder",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
   "basic_info": {
     "name": {
       "value": "BioCoder",
@@ -33,10 +33,14 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
-      "value": "v5；最近论文日期 2024-05-20",
+      "value": "arXiv v5：2024-05-21 02:19:13（Asia/Shanghai）；另有Bioinformatics 40(Supplement_1):i266–i276，2024，doi:10.1093/bioinformatics/btae230。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -72,15 +76,23 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "官方README链接的HF数据卡标记CC-BY-4.0；网站源码说明CC-BY-SA-4.0。未在根目录LICENSE/LICENSE.md找到代码授权，不能把网站或HF数据许可自动扩大到整个代码仓库及所有第三方源代码。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://huggingface.co/datasets/lilbillbiscuit/biocoder_public/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "数据与网站许可已核实；代码总许可仍待核实。",
+      "status": "待核实"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2308.16458",
@@ -101,10 +113,14 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/gersteinlab/BioCoder",
+      "value": "https://huggingface.co/datasets/lilbillbiscuit/biocoder_public",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/lilbillbiscuit/biocoder_public",
           "accessed": "2026-11-07"
         }
       ]
@@ -139,15 +155,21 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "Yale University",
+        "Google DeepMind"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://arxiv.org/pdf/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://biocoder-benchmark.github.io/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "论文作者署名单位；前四作者与Mark Gerstein为Yale，Xinyun Chen为Google DeepMind。"
     },
     "authors": {
       "value": [
@@ -175,15 +197,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Schmidt Futures支持Mark Gerstein与Xiangru Tang（原论文Acknowledgment明确致谢）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://arxiv.org/pdf/2308.16458",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -244,14 +264,13 @@
       ]
     },
     "decontamination": {
-      "value": "源代码与Rosalind公开，可能进入代码预训练；独立训练语料去重审计待核实。",
+      "value": "附录M把函数名与参数改为FUNCTION/VAR0等做混淆消融，降低直接代码记忆作用；不是训练语料严格隔离。该消融Python Pass@1从25.960降至22.771、Java从34.700降至30.700；这是特定提示/实验，不替换官网Summary Only榜。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://arxiv.org/pdf/2308.16458",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     }
   },
   "data_format": {
@@ -367,7 +386,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -388,28 +407,12 @@
     },
     "paper_revision_history": {
       "value": {
-        "2026_H2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2610.21074v1",
-            "date": "2026-10-15",
-            "note": "OmicsBench §2明确引用 BioCoder（Tang等2024），讨论其生物代码生成评测与新基准的区别。"
-          }
-        ],
-        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
-        "paper_metadata": {
-          "title": "BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models",
-          "authors": [
-            "Tang, Xiangru",
-            "Qian, Bill",
-            "Gao, Rick",
-            "Chen, Jiakang",
-            "Chen, Xinyun",
-            "Gerstein, Mark"
-          ],
-          "release": "2023-08-31",
-          "latest": "2024-05-20",
-          "version": "v5"
-        }
+        "v1": "2023-08-31T12:52:58+08:00",
+        "v2": "2023-09-06T01:51:16+08:00",
+        "v3": "2023-09-30T04:27:06+08:00",
+        "v4": "2023-12-04T19:05:29+08:00",
+        "v5": "2024-05-21T02:19:13+08:00",
+        "journal": "Bioinformatics2024 doi:10.1093/bioinformatics/btae230；不把论文修订日当数据更新日。"
       },
       "sources": [
         {
@@ -417,7 +420,7 @@
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2610.21074v1",
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -432,10 +435,14 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "公开GitHub代码可能训练暴露；fuzz覆盖率不足时通过不等于所有输入都正确。",
+      "value": "公开GitHub代码与Rosalind题可进入预训练；论文有名称/参数混淆消融但不能排除数据泄漏。Fuzz测试覆盖有限；GPT辅助筛选生物信息代码可产生选择偏差。官网历史标签不是模型实际测试时刻。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://arxiv.org/pdf/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://biocoder-benchmark.github.io/",
           "accessed": "2026-11-07"
         }
       ]
@@ -454,7 +461,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -483,7 +490,170 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "官网本轮仍为2023模型历史榜：gpt-4(Azure，2023-03-14标签) SummaryOnly Pass@1：Python38.439%、Java45.011%、Rosalind24.308%；同设置Python Pass@20 52.229%。并非2026新实验。",
+      "value": [
+        {
+          "rank": 1,
+          "model": "gpt-4",
+          "score": 38.439,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Py / Summary Only / 官网历史展示次序",
+          "pass_at_5": 48.491,
+          "pass_at_10": 50.619,
+          "pass_at_20": 52.229,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-3.5-turbo",
+          "score": 24.682,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Py / Summary Only / 官网历史展示次序",
+          "pass_at_5": 33.997,
+          "pass_at_10": 37.132,
+          "pass_at_20": 40.127,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 3,
+          "model": "Starcoder",
+          "score": 4.682,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Py / Summary Only / 官网历史展示次序",
+          "pass_at_5": 15.225,
+          "pass_at_10": 21.2,
+          "pass_at_20": 27.166,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-4",
+          "score": 45.011,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Java / Summary Only / 官网历史展示次序",
+          "pass_at_5": 55.35,
+          "pass_at_10": 57.616,
+          "pass_at_20": 60.0,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-3.5-turbo",
+          "score": 17.4,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Java / Summary Only / 官网历史展示次序",
+          "pass_at_5": 33.199,
+          "pass_at_10": 37.878,
+          "pass_at_20": 42.0,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 3,
+          "model": "Starcoder+",
+          "score": 1.3,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Java / Summary Only / 官网历史展示次序",
+          "pass_at_5": 5.031,
+          "pass_at_10": 8.042,
+          "pass_at_20": 12.0,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-4",
+          "score": 24.308,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Rosalind / Summary Only / 官网历史展示次序",
+          "pass_at_5": 39.551,
+          "pass_at_10": 44.864,
+          "pass_at_20": 50.198,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-3.5-turbo",
+          "score": 23.671,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Rosalind / Summary Only / 官网历史展示次序",
+          "pass_at_5": 31.953,
+          "pass_at_10": 36.702,
+          "pass_at_20": 40.725,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        },
+        {
+          "rank": 3,
+          "model": "Starcoder",
+          "score": 0.534,
+          "metric": "Pass@1 (%)",
+          "track": "BioCoder-Rosalind / Summary Only / 官网历史展示次序",
+          "pass_at_5": 2.042,
+          "pass_at_10": 3.228,
+          "pass_at_20": 4.743,
+          "temperature": 0.7,
+          "top_p": 0.95,
+          "max_generation_tokens": 256,
+          "max_context_length": 8192,
+          "source_url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07",
+          "source_type": "官网可读历史榜；非2026新实验",
+          "ranking_note": "沿网页显示顺序；Rosalind Starcoder的Pass@1低于其后CodeGen，页面可能按不同K排序，本页不冒称按Pass@1重排"
+        }
+      ],
       "sources": [
         {
           "url": "https://biocoder-benchmark.github.io/",
@@ -492,22 +662,14 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "官网Python/Java/Rosalind三轨分别转录Summary Only及完整Pass@1/5/10/20，沿其显示序号，不自行把Pass@20排序冒称Pass@1排序。网站模型行标签是2023模型日期，并未证实逐行测量日；分数仍是历史榜。论文表4/5及混淆消融为其他协议，不与此合并。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://biocoder-benchmark.github.io/",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://arxiv.org/pdf/2308.16458",
           "accessed": "2026-11-07"
         }
       ]
@@ -574,7 +736,8 @@
           "url": "https://arxiv.org/pdf/2308.16458",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
     },
     "pdf_bytes": {
       "value": 1569722,
@@ -636,6 +799,28 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "round": "2 / queue[1]",
+        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "fields_updated": [
+          "basic_info.dataset_url",
+          "basic_info.license",
+          "basic_info.paper_version",
+          "organization.partners",
+          "organization.funders",
+          "construction.decontamination",
+          "latest_status.paper_revision_history",
+          "latest_status.contamination_and_issues",
+          "leaderboard.results",
+          "leaderboard.coverage_note",
+          "latest_status.checked_at",
+          "leaderboard.snapshot_date",
+          "original_files.sha256",
+          "original_files.pdf_bytes"
+        ]
       }
     ],
     "sources": [

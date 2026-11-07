@@ -1,7 +1,7 @@
 {
   "id": "atombench",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
+  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
   "basic_info": {
     "name": {
       "value": "AtomBench",
@@ -22,15 +22,17 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "软件包atombench 0.1.0（当前pyproject.toml）；论文v2及底层数据源版本独立记录。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/atomgptlab/atombench/main/pyproject.toml",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2510.16165",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_version": {
       "value": "v2；最近论文日期 2026-07-07",
@@ -42,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-10-17（首个arXiv版本日期；非推定数据上线日）",
+      "value": "2025-10-18 03:07:37（Asia/Shanghai，UTC+8；arXiv v1首次提交；非推定软件上架日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.16165",
@@ -99,19 +101,27 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/atomgptlab/atombench",
+      "value": [
+        "https://doi.org/10.6084/m9.figshare.6815699",
+        "https://doi.org/10.6084/m9.figshare.31045597"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://arxiv.org/pdf/2510.16165",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "原论文Data Availability明确列出的底层数据DOI；与软件仓库地址分开。"
     },
     "official_homepage": {
-      "value": "https://atomgptlab.github.io/jarvis_leaderboard/Special/AtomGenBench/",
+      "value": "https://atomgptlab.github.io/atombench/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://raw.githubusercontent.com/atomgptlab/atombench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://atomgptlab.github.io/atombench/",
           "accessed": "2026-11-07"
         }
       ]
@@ -137,15 +147,17 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "West Virginia University",
+        "Johns Hopkins University"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://arxiv.org/pdf/2510.16165",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "论文作者单位；作者贡献节明确KC提出项目、CC与KC开发并计算、AHR/KC/CC共同分析。"
     },
     "authors": {
       "value": [
@@ -170,15 +182,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "ACCESS分配DMR140031（Bridges2/Expanse），NSF 2138259/2138286/2138307/2137603/2138296；WVU Dolly Sods部分获NSF OAC-2117575支持；西弗吉尼亚高教政策委员会Research Challenge Grant 2022，RCG23-007；AtomGPTLab集群计算支持。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://arxiv.org/pdf/2510.16165",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -357,7 +367,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.16165",
@@ -366,21 +376,32 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "软件包0.1.0；论文v2基准使用JARVIS Supercon-3D与Alexandria DS-A/B。数据集独立语义版本编号仍待核实；不以软件版本替代结构数据版本。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/atomgptlab/atombench/main/pyproject.toml",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": {
+        "v1": "2025-10-18T03:07:37+08:00",
+        "v2": "2026-07-07T23:17:42+08:00",
+        "change_boundary": "v2标题/协议强调generative crystal reconstruction；ccRMSD不等于旧网页单晶格参数RMSE。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.16165",
           "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
-    },
-    "paper_revision_history": {
-      "value": "2026H2 独立使用证据：ALIGNN 2.0（2026-09-16）第2.4节和表8使用 AtomBench 方法，比较 ALIGNN-CSP、AtomGPT、MatterGen、CDVAE、FlowMM。",
-      "sources": [
+        },
         {
-          "url": "https://arxiv.org/abs/2609.19487",
+          "url": "https://arxiv.org/pdf/2510.16165",
           "accessed": "2026-11-07"
         }
       ]
@@ -421,7 +442,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.16165",
@@ -450,19 +471,217 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "原论文表2，Alexandria、组成条件、ccRMSD（Å，越低越好）：MatterGen 0.2380、AtomGPT 0.5224、FlowMM 1.3998；CDVAE 1.2218但属于全结构潜表示条件，应单列。",
+      "value": [
+        {
+          "rank": 1,
+          "model": "MatterGen",
+          "score": 0.238,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 2,
+          "model": "AtomGPT",
+          "score": 0.5224,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 3,
+          "model": "FlowMM",
+          "score": 1.3998,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "MatterGen Tc",
+          "score": 0.244,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / composition+Tc",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "composition+Tc",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 2,
+          "model": "AtomGPT Tc",
+          "score": 0.5228,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / composition+Tc",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "composition+Tc",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "CDVAE",
+          "score": 1.2218,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：Alexandria / full-structure latent",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "Alexandria",
+          "conditioning": "full-structure latent",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "MatterGen",
+          "score": 0.4854,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 2,
+          "model": "AtomGPT",
+          "score": 0.8262,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 3,
+          "model": "FlowMM",
+          "score": 1.5392,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / composition",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "composition",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "MatterGen Tc",
+          "score": 0.4988,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / composition+Tc",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "composition+Tc",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 2,
+          "model": "AtomGPT Tc",
+          "score": 0.7665,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / composition+Tc",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "composition+Tc",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "CDVAE",
+          "score": 1.1555,
+          "metric": "ccRMSD (Å), lower is better",
+          "track": "论文v2表2：JARVIS / full-structure latent",
+          "source_url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07",
+          "dataset": "JARVIS",
+          "conditioning": "full-structure latent",
+          "k": 100,
+          "source_type": "论文固定实验"
+        },
+        {
+          "rank": 1,
+          "model": "cdvae_invatoms",
+          "score": 0.3137,
+          "metric": "lattice-a RMSE, lower is better",
+          "track": "JARVIS官网旧alex_supercon_Tc_a：晶格参数a",
+          "source_url": "https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/",
+          "accessed": "2026-11-07",
+          "submitted_date": "2025-10-17（来源仅给日期）",
+          "source_type": "官方网页提交榜；各模型条件不同，不当作严格同条件竞赛"
+        },
+        {
+          "rank": 2,
+          "model": "atomgpt_invatoms",
+          "score": 0.4821,
+          "metric": "lattice-a RMSE, lower is better",
+          "track": "JARVIS官网旧alex_supercon_Tc_a：晶格参数a",
+          "source_url": "https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/",
+          "accessed": "2026-11-07",
+          "submitted_date": "2025-10-17（来源仅给日期）",
+          "source_type": "官方网页提交榜；各模型条件不同，不当作严格同条件竞赛"
+        },
+        {
+          "rank": 3,
+          "model": "flowmm_invatoms",
+          "score": 1.003,
+          "metric": "lattice-a RMSE, lower is better",
+          "track": "JARVIS官网旧alex_supercon_Tc_a：晶格参数a",
+          "source_url": "https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/",
+          "accessed": "2026-11-07",
+          "submitted_date": "2025-10-17（来源仅给日期）",
+          "source_type": "官方网页提交榜；各模型条件不同，不当作严格同条件竞赛"
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "2026-11-07 读取原论文表2固定实验，不冒称实时榜；论文当前版本更新日期待核实。各条件、数据集及匹配/非匹配指标必须分开。",
+      "value": "论文ccRMSD按两数据集×三条件独立分轨；旧官方网页仅比较晶格参数a的RMSE，不能把0.3137/0.4821/1.003混入论文ccRMSD。网页8253是数据总量，不自行推定测试分母。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2510.16165",
+          "url": "https://arxiv.org/pdf/2510.16165",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/",
           "accessed": "2026-11-07"
         }
       ]
@@ -532,7 +751,8 @@
           "url": "https://arxiv.org/pdf/2510.16165",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
     },
     "pdf_bytes": {
       "value": 5917762,
@@ -594,6 +814,28 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "round": "2 / queue[1]",
+        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "fields_updated": [
+          "basic_info.version",
+          "basic_info.official_homepage",
+          "basic_info.dataset_url",
+          "basic_info.release_date",
+          "organization.partners",
+          "organization.funders",
+          "latest_status.latest_dataset_version",
+          "latest_status.paper_revision_history",
+          "leaderboard.results",
+          "leaderboard.coverage_note",
+          "latest_status.checked_at",
+          "leaderboard.snapshot_date",
+          "original_files.sha256",
+          "original_files.pdf_bytes"
+        ]
       }
     ],
     "sources": [

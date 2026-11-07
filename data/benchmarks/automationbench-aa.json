@@ -1,7 +1,7 @@
 {
   "id": "automationbench-aa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
   "basic_info": {
     "name": {
       "value": "AutomationBench-AA",
@@ -41,14 +41,13 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2026-04-21 09:14:59 KST",
+      "value": "2026-04-21 08:14:59（Asia/Shanghai，UTC+8；Zapier母论文arXiv v1提交，不冒称AA实现首发时刻）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.18934",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      ]
     },
     "section": {
       "value": "Agent",
@@ -72,13 +71,18 @@
       ]
     },
     "license": {
-      "value": "母仓库Zapier原创部分为MIT；第三方API结构表示不主张原创版权，也不授予第三方IP权；AA私有集使用权另行核实。",
+      "value": "母仓库Zapier原创部分为MIT；LICENSE对第三方API结构表示不主张原创版权，且不授予第三方IP权；AA私有657题的独立数据许可待核实。",
       "sources": [
         {
-          "url": "https://github.com/zapier/AutomationBench/blob/main/LICENSE",
+          "url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#automation-bench-aa",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2604.18934",
@@ -345,8 +349,12 @@
       ]
     },
     "scoring": {
-      "value": "任一guardrail违规整题0；否则按该任务objective满足比例记分。无条件objective得分不是同一指标。",
+      "value": "每个任务先检查终态程序断言：任一guardrail违规或任务出错记0；否则取该任务objectives完成比例，再对任务等权平均。没有独立LLM裁判；网页无guardrail门控的Objectives Completed仅为诊断指标，不是headline。",
       "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#automation-bench-aa",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
           "accessed": "2026-11-07"
@@ -354,10 +362,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "每任务独立运行1次；50轮上限；模型经结构化工具自主发现并调用REST API；按终态程序断言评分，不使用独立LLM裁判。",
+      "value": "私有657题来自AutomationBench 1.0.6；Finance/HR/Marketing/Operations/Sales/Support六域；每题运行一次，最多50轮，以结构化工具发现并调用REST API。各域互斥；一题可涉及多个app，因此应用分项不互斥。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#automation-bench-aa",
           "accessed": "2026-11-07"
         }
       ]
@@ -387,10 +395,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://arxiv.org/abs/2604.18934",
           "accessed": "2026-11-07"
         }
       ]
@@ -418,7 +426,11 @@
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Daniel Shepard [ view email ] [v1] 2026-04-21 09:14:59 KST (420 KB)",
+      "value": {
+        "mother_paper": "arXiv:2604.18934v1",
+        "submitted_at": "2026-04-21T08:14:59+08:00",
+        "boundary": "Zapier论文首发不是AA私有集上线日。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.18934",
@@ -427,15 +439,21 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "AA网页当前前三77.8/77.6/77.5%，尚有明显未完成目标或guardrail错误，不能宣布完全饱和。母论文最高9.9%是2026-04历史严格整题成功率；公开600题README当前最高50.3%，两者不与AA部分得分混比。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2604.18934",
+          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2604.18934",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "contamination_and_issues": {
       "value": "合成任务与模拟API可能偏离真实业务；仅终态评分不完整检查行为过程，guardrail口径影响解读。",
@@ -466,10 +484,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://arxiv.org/abs/2604.18934",
           "accessed": "2026-11-07"
         }
       ]
@@ -495,49 +513,128 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Gemini 4 Carbon (High)",
           "score": 77.8,
           "metric": "AutomationBench-AA Score (%)",
-          "benchmark_version": "AA / 1.0.6 private split",
-          "result_type": "AA独立评测实时网页快照",
-          "source_date": "待核实（网页未注明榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "AA官方现榜：657私有任务 / guardrail-gated objective credit",
+          "source_url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "accessed": "2026-11-07",
+          "benchmark_version": "AutomationBench 1.0.6 / AA private 657",
+          "source_type": "AA实施方独立评测网页快照",
+          "source_date": "待核实（网页未注明逐模型运行/榜表更新日期）"
         },
         {
+          "rank": 2,
           "model": "Gemini 4 Carbon (Medium)",
           "score": 77.6,
           "metric": "AutomationBench-AA Score (%)",
-          "benchmark_version": "AA / 1.0.6 private split",
-          "result_type": "AA独立评测实时网页快照",
-          "source_date": "待核实（网页未注明榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "AA官方现榜：657私有任务 / guardrail-gated objective credit",
+          "source_url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "accessed": "2026-11-07",
+          "benchmark_version": "AutomationBench 1.0.6 / AA private 657",
+          "source_type": "AA实施方独立评测网页快照",
+          "source_date": "待核实（网页未注明逐模型运行/榜表更新日期）"
         },
         {
+          "rank": 3,
           "model": "Gemini 4 Argon (High)",
           "score": 77.5,
           "metric": "AutomationBench-AA Score (%)",
-          "benchmark_version": "AA / 1.0.6 private split",
-          "result_type": "AA独立评测实时网页快照",
-          "source_date": "待核实（网页未注明榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "track": "AA官方现榜：657私有任务 / guardrail-gated objective credit",
+          "source_url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "accessed": "2026-11-07",
+          "benchmark_version": "AutomationBench 1.0.6 / AA private 657",
+          "source_type": "AA实施方独立评测网页快照",
+          "source_date": "待核实（网页未注明逐模型运行/榜表更新日期）"
+        },
+        {
+          "rank": 1,
+          "model": "Claude Opus 5 (max)",
+          "score": 50.3,
+          "metric": "strict task pass rate (%)",
+          "track": "Zapier官方README：600公开任务 / strict all-assertions pass",
+          "source_url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07",
+          "source_type": "母项目公开集README保存成绩；非657题AA榜/非Zapier私有主榜",
+          "n_tasks": 600,
+          "protocol": "六域各100任务；各模型最高可用reasoning effort；Fable5为2026-07更严格classifier后成绩"
+        },
+        {
+          "rank": 2,
+          "model": "Kimi K3 (max)",
+          "score": 46.67,
+          "metric": "strict task pass rate (%)",
+          "track": "Zapier官方README：600公开任务 / strict all-assertions pass",
+          "source_url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07",
+          "source_type": "母项目公开集README保存成绩；非657题AA榜/非Zapier私有主榜",
+          "n_tasks": 600,
+          "protocol": "六域各100任务；各模型最高可用reasoning effort；Fable5为2026-07更严格classifier后成绩"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Fable 5 (max)",
+          "score": 46.17,
+          "metric": "strict task pass rate (%)",
+          "track": "Zapier官方README：600公开任务 / strict all-assertions pass",
+          "source_url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07",
+          "source_type": "母项目公开集README保存成绩；非657题AA榜/非Zapier私有主榜",
+          "n_tasks": 600,
+          "protocol": "六域各100任务；各模型最高可用reasoning effort；Fable5为2026-07更严格classifier后成绩"
+        },
+        {
+          "rank": 4,
+          "model": "GPT-5.6 Sol (max)",
+          "score": 45.83,
+          "metric": "strict task pass rate (%)",
+          "track": "Zapier官方README：600公开任务 / strict all-assertions pass",
+          "source_url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07",
+          "source_type": "母项目公开集README保存成绩；非657题AA榜/非Zapier私有主榜",
+          "n_tasks": 600,
+          "protocol": "六域各100任务；各模型最高可用reasoning effort；Fable5为2026-07更严格classifier后成绩"
+        },
+        {
+          "rank": 5,
+          "model": "Gemini 3.6 Flash (high)",
+          "score": 45.0,
+          "metric": "strict task pass rate (%)",
+          "track": "Zapier官方README：600公开任务 / strict all-assertions pass",
+          "source_url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07",
+          "source_type": "母项目公开集README保存成绩；非657题AA榜/非Zapier私有主榜",
+          "n_tasks": 600,
+          "protocol": "六域各100任务；各模型最高可用reasoning effort；Fable5为2026-07更严格classifier后成绩"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "待核实仅指未注明的实验/榜更新时间，不影响精确转录的分数和分轨设置。",
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "AA既是本实现发布/维护方，也是相对Zapier母协议的独立评测方；同一URL不冒充两份独立证据。母论文9.9%列作不同协议对照。原母榜另见https://zapier.com/benchmarks。",
+      "value": "AA既是本实现维护方，也是相对Zapier母项目的独立评测方；同一AA URL不算两份独立证据。另列Zapier README公开600题严格通过率，不当作AA657题或Zapier更难私有集的成绩。AA网页前三Objectives Completed另为94/94/93，不得替换77.8/77.6/77.5 headline。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2604.18934",
+          "url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#automation-bench-aa",
           "accessed": "2026-11-07"
         }
       ]
@@ -608,7 +705,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
     },
     "pdf_bytes": {
       "value": 684375,
@@ -617,8 +714,7 @@
           "url": "https://arxiv.org/pdf/2604.18934",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      ]
     },
     "drive_folder": {
       "value": {
@@ -676,6 +772,26 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "round": "2 / queue[1]",
+        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "fields_updated": [
+          "basic_info.release_date",
+          "basic_info.license",
+          "evaluation.scoring",
+          "evaluation.prompt_settings",
+          "latest_status.paper_revision_history",
+          "latest_status.saturation",
+          "leaderboard.results",
+          "leaderboard.coverage_note",
+          "latest_status.checked_at",
+          "leaderboard.snapshot_date",
+          "original_files.sha256",
+          "original_files.pdf_bytes"
+        ]
       }
     ],
     "sources": [

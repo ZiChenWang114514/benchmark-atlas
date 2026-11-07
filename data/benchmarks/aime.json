@@ -22,10 +22,10 @@
       ]
     },
     "version": {
-      "value": "按年份与I/II标注；本条覆盖竞赛系列，以AIME2025的30题评测为示例",
+      "value": "年度竞赛系列；AI快照为AIME2025 I+II共30题。2027官方制度已变更，不应写所有年份固定I/II。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
       ]
@@ -102,19 +102,20 @@
       "note": "未确认当前官方独立代码仓库"
     },
     "dataset_url": {
-      "value": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+      "value": "https://maa.org/maa-invitational-competitions/",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方赛事协议入口，不是可下载的统一AI数据集；第三方转录须保留年份/卷别。"
     },
     "official_homepage": {
-      "value": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+      "value": "https://maa.org/maa-invitational-competitions/",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
       ]
@@ -140,15 +141,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "2027官方考试由Pearson测试中心实施；这是赛事实施合作，不是2025 AI评测合作。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+      ]
     },
     "authors": {
       "value": "MAA竞赛组织；逐题命题委员会成员待核实",
@@ -160,15 +159,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Mathematical Association of America（MAA）竞赛项目；非AA维护的原始试题。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -324,23 +321,23 @@
       ]
     },
     "scoring": {
-      "value": "提取最终整数并与标准答案比对；前导零、格式和多次采样汇总方式必须注明。",
+      "value": "原赛事答案为000–999整数；AA方法页写strict integer 1–999，与MAA的0–999边界不一致，保留该来源差异；不要漏掉答案0或以99.0%反推30题整题个数。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
       ]
     },
     "prompt_settings": {
-      "value": "AA页面AIME2025口径为30题；本轮未确认每题重复次数，因此不从99.0%反推出整题个数。",
+      "value": "AA AIME2025：30题，pass@1每题10次重复；用SymPy标准化与相等检查，LLM作为备用。模型上下文/token预算须按具体模型配置另列。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
       ]
@@ -372,74 +369,54 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "按年份与I/II标注；本条覆盖竞赛系列，以AIME2025的30题评测为示例",
+      "value": "已公布2027考试变更：Pearson机考，15题分为8+7题，两段各90分钟，不再设AIME I/II；此为未来赛事协议，不能说2027题已发布。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "paper_revision_history": {
-      "value": {
-        "arxiv_version": "不适用",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2609.27284v1",
-            "date": "2026-09-23",
-            "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 AIME。AIME 的不同年份归同一条目，不用年份拆分凑数。"
-          }
-        ]
-      },
+      "value": "不适用：年度竞赛无单一arXiv原始论文；竞赛政策按年度复核。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "AA保留的2025 Legacy快照最高99.0%，该30题/重复采样协议区分度有限；不能外推2026/2027或竞赛数学总体已解决。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+      ]
     },
     "contamination_and_issues": {
-      "value": "AIME为竞赛系列，没有单一原始AI论文。本轮MAA主页/政策页返回403，尚未取得官方原始试卷或政策PDF；保留缺失，不以第三方题解或AA网页转换件冒充。AA 2025页面当前标Legacy。",
+      "value": "本轮已成功读取MAA邀请赛官方页，修正旧档“官方页仅403”的过时表述。2025题早已公开传播，不能证明无训练污染；AA方法页当前明确其AIME2025已退出active reporting。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://maa.org/student-programs/amc/",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
       ]
@@ -456,14 +433,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07"
         }
       ]
@@ -491,51 +464,62 @@
     "results": {
       "value": [
         {
-          "model_version": "GPT-5.2 (Xhigh)",
-          "score": "99.0",
-          "unit": "%",
-          "scope_and_protocol": "AA AIME2025，30题；checkpoint/重复次数待核实",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "rank": 1,
+          "model": "GPT-5.2 (Xhigh)",
+          "score": 99.0,
+          "metric": "AIME2025 pass@1 (%)，30题×10重复",
+          "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
-          "model_version": "GPT-5 Codex (High)",
-          "score": "98.7",
-          "unit": "%",
-          "scope_and_protocol": "AA AIME2025，同口径",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "rank": 2,
+          "model": "GPT-5 Codex (High)",
+          "score": 98.7,
+          "metric": "AIME2025 pass@1 (%)，30题×10重复",
+          "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
-          "model_version": "Gemini 3 Flash Preview (Reasoning)",
-          "score": "97.0",
-          "unit": "%",
-          "scope_and_protocol": "AA AIME2025，同口径",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
+          "rank": 3,
+          "model": "Gemini 3 Flash Preview (Reasoning)",
+          "score": 97.0,
+          "metric": "AIME2025 pass@1 (%)，30题×10重复",
+          "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
-          "source_class": "二级：独立评测",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "整体榜单更新日及各模型实际测量日待核实；不是MAA官方AI榜。",
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "本轮重开AA AIME2025页面，99.0/98.7/97.0三项与已有记录一致；页面标为Legacy。榜单未显示统一更新日期，记待核实；不得据此声称覆盖2026试题或所有AIME年份。",
+      "value": "本轮重开AA Legacy页核对99.0/98.7/97.0；方法页补齐每题10次重复。MAA未在此官方赛事页提供AI模型榜，第三方榜不能当MAA官方认证。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aime-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
       ]
@@ -543,15 +527,17 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "amcinfo@maa.org",
+        "amctech@maa.org"
+      ],
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/amcreg/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "未从已核实官方材料收录专门联系邮箱；不猜测个人邮箱"
+      "note": "前者负责竞赛政策与注册，后者负责AMC平台技术；不发送邮件。"
     },
     "github_issues": {
       "value": "待核实",
@@ -600,37 +586,31 @@
   },
   "original_files": {
     "paper_pdf_url": {
-      "value": "待核实",
+      "value": "不适用：年度竞赛系列没有本条定义的单一原始研究论文PDF；不把竞赛题卷或政策PDF伪装成论文。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "无原始benchmark论文；AIME原始官方试卷/政策PDF待补"
+      ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "不适用：年度竞赛系列没有本条定义的单一原始研究论文PDF；不把竞赛题卷或政策PDF伪装成论文。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "尚无下载成功的官方PDF，不生成虚假hash"
+      ]
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": "不适用：年度竞赛系列没有本条定义的单一原始研究论文PDF；不把竞赛题卷或政策PDF伪装成论文。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://maa.org/maa-invitational-competitions/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "尚无下载成功的官方PDF，不估计大小"
+      ]
     },
     "drive_folder": {
       "value": {
@@ -665,18 +645,23 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [
       {
-        "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+        "url": "https://maa.org/maa-invitational-competitions/",
         "accessed": "2026-11-07"
       }
     ]

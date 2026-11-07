@@ -22,15 +22,14 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原论文AdvBench有害字符串/有害行为两任务；仓库未以独立语义版本号定义数据版本，复现需固定提交和CSV。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.15043",
+          "url": "https://github.com/llm-attacks/llm-attacks",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "不把论文v2写成数据集v2。"
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -42,14 +41,13 @@
       ]
     },
     "release_date": {
-      "value": "2023-07-27",
+      "value": "2023-07-28 01:49:12 Asia/Shanghai（UTC+8）（arXiv首稿；来源UTC日期为7月27日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      ]
     },
     "section": {
       "value": "安全",
@@ -223,13 +221,14 @@
       ]
     },
     "review_process": {
-      "value": "作者筛选生成请求，统一行为格式；完整逐条审核记录待核实。",
+      "value": "论文§2.3按有害行为/有害字符串分别构建，行为来源含初始例子与LLM扩写；不是第三方对模型安全认证。逐条外部专家复审记录待核实。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "quality_control": {
       "value": "原论文与公开CSV规模存在差异，本条保留二者并固定来源；后续研究指出单看非拒答可能高估攻击效果。",
@@ -324,7 +323,7 @@
       ]
     },
     "scoring": {
-      "value": "指定字符串可用精确匹配；行为评估依原论文及后续裁判选择而变，简单无拒答不保证提供有害帮助。",
+      "value": "有害字符串按精确复现目标字符串计算ASR；有害行为要求reasonable attempt，需人工判断是否拒绝或回避。论文表与叙述存在个别数值差异，本页以Table1明确单列值为准；非拒答不等同真实有害帮助质量。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
@@ -333,7 +332,7 @@
       ]
     },
     "prompt_settings": {
-      "value": "固定攻击、目标模型快照、提示模板及生成预算；不把不同研究的裁判混作统一协议。",
+      "value": "原论文白盒Table1：20个可优化token、500步、GCG batch512/top-k256；单样本实验前100条，通用攻击以25行为训练再用另100行为测试，分别报告train/test。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
@@ -351,7 +350,7 @@
       ]
     },
     "comparability_warning": {
-      "value": "520行为公开CSV不等于原论文500行为实验；GCG是一种攻击算法，不是AdvBench的别名。",
+      "value": "ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table2的388行为迁移测试不同，字符串触发/不拒绝也不等价于人工核验有害内容完成。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
@@ -362,37 +361,35 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.18471v1",
+          "url": "https://llm-attacks.org/",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "2026-H2实际使用证据：2026-09-16：First Token Matters §2–3明确使用 AdvBench 分析推理模型的拒答与首token安全失效。"
+      ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "官方仓库data/advbench发布harmful_behaviors.csv和harmful_strings.csv；本轮按公开main与原论文v2核验，独立数据集版本号待核实。",
       "sources": [
         {
           "url": "https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "status": "待核实"
     },
     "paper_revision_history": {
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-07-28T02:49:12+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2023-07-28T01:49:12+08:00",
+          "timezone": "Asia/Shanghai（UTC+8）"
         },
         {
           "version": "v2",
-          "submitted_at": "2023-12-21T05:48:57+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2023-12-21T04:48:57+08:00",
+          "timezone": "Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
@@ -403,15 +400,13 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "本页不据个别攻击99% ASR断言benchmark饱和或模型普遍不安全；ASR是攻击×目标模型×判定规则×预算的条件结果。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "规模冲突已并列：原论文500行为，官方CSV当前520行。StrongREJECT指出非拒答不代表有效有害回答，因此不同ASR裁判的结果不可直比。",
@@ -434,14 +429,13 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.15043",
+          "url": "https://llm-attacks.org/",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://arxiv.org/abs/2307.15043",
@@ -465,29 +459,69 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
+      "value": [
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Vicuna-7B + GCG",
+          "score": 99.0,
+          "metric": "individual Harmful Behavior ASR (%)",
+          "track": "论文v2 Table1/前100行为白盒",
+          "source_url": "https://arxiv.org/abs/2307.15043",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "LLaMA-2-7B-Chat + GCG",
+          "score": 56.0,
+          "metric": "individual Harmful Behavior ASR (%)",
+          "track": "论文v2 Table1/前100行为白盒",
+          "source_url": "https://arxiv.org/abs/2307.15043",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Vicuna-7B + GCG",
+          "score": 98.0,
+          "metric": "multiple Harmful Behaviors test ASR (%)",
+          "track": "论文v2 Table1/通用后缀测试",
+          "source_url": "https://arxiv.org/abs/2307.15043",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "LLaMA-2-7B-Chat + GCG",
+          "score": 84.0,
+          "metric": "multiple Harmful Behaviors test ASR (%)",
+          "track": "论文v2 Table1/通用后缀测试",
+          "source_url": "https://arxiv.org/abs/2307.15043",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "原始历史实验，不是2026实时安全榜；ASR越高说明攻击更成功，不是受测模型更安全。"
     },
     "coverage_note": {
-      "value": "未核实当前统一官方实时榜；H2论文明确使用AdvBench，但协议和裁判各异，本页不把单篇攻击实验冒充通用安全排名。",
+      "value": "官方论文Table1转录四项历史GCG实验，按攻击设置分轨；本轮README未链接统一实时榜，当前跨模型排名待核实；不同攻击、裁判、预算不能混排。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2609.18471v1",
+          "url": "https://github.com/llm-attacks/llm-attacks",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
+      "status": "待核实"
     }
   },
   "contact": {
@@ -538,7 +572,7 @@
       "value": "https://arxiv.org/pdf/2307.15043",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2307.15043",
+          "url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07"
         }
       ]
@@ -551,7 +585,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
     },
     "pdf_bytes": {
       "value": 4656473,
@@ -606,22 +640,23 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2307.15043",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2307.15043",
+        "url": "https://llm-attacks.org/",
         "accessed": "2026-11-07"
       }
     ]

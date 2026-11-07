@@ -1,141 +1,442 @@
 # AstroMMBench
 
-> 第1轮实证核查 · 2026-11-07（KST）。正文与权威 JSON 同步；访问时间不是来源发表时间。未知保留，不以旧论文结果冒充最新总榜。
+> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+
+第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
-- **名称**：AstroMMBench （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 简称
 
-- **全称**：AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+AstroMMBench
 
-- **版本**：2026正式期刊版（592题） （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **论文版本**：Universe 12(10),296，2026-09-30正式版 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 全称
 
-- **发布日期**：2026-09-30（正式发表）；2026-07-13 收稿、2026-09-21 修订、2026-09-23 接受。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy
 
-- **板块**：地球与天文 编辑分类沿用入选清单；不代表该基准只测本板块。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **子领域**：天文研究图像多模态问答 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 数据/软件版本
 
-- **许可**：数据及原始图像再利用须遵循各 arXiv 原文许可；不能把论文或代码许可直接套到全部592题图像。统一数据许可待核实。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+2026正式期刊版（592题）
 
-- **论文**：https://www.mdpi.com/2218-1997/12/10/296 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **代码**：https://github.com/Shijinghang/benchmark_pipeline （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 论文版本
 
-- **数据**：https://huggingface.co/datasets/sjh11/AstroMMBench （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+arXiv v2（2025-10-22 01:29:47，Asia/Shanghai）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。
 
-- **官方主页**：https://www.mdpi.com/2218-1997/12/10/296 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[2][3]
 
-- **论文标题**：AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 发布日期
+
+2025-09-29 17:02:30（Asia/Shanghai，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。
+
+来源：[2][3]
+
+### 主板块
+
+地球与天文
+
+来源：[1]
+
+说明：编辑分类沿用入选清单；不代表该基准只测本板块。
+
+### 学科标签
+
+天文研究图像多模态问答
+
+来源：[1]
+
+### 许可证与范围
+
+hf_card：README标记apache-2.0；preprint_promise：2025预印本Ethics Statement称计划CC-BY-4.0发布；journal_restriction：2026正式论文明确原始图文再利用服从各arXiv提交的许可
+
+来源：[4][5][3]
+
+说明：三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库本轮没有找到README/LICENSE根文件，代码许可仍待核实。
+
+状态：待核实（本字段尚有未能确认的部分）。
+
+### 论文入口
+
+https://www.mdpi.com/2218-1997/12/10/296
+
+来源：[1]
+
+### 论文标题
+
+AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy
+
+来源：[1]
+
+### 官方代码
+
+https://github.com/Shijinghang/benchmark_pipeline
+
+来源：[1]
+
+### 数据入口
+
+https://huggingface.co/datasets/sjh11/AstroMMBench
+
+来源：[1]
+
+### 官方主页
+
+https://www.mdpi.com/2218-1997/12/10/296
+
+来源：[1]
 
 ## 2. 发起与维护
 
-- **发起机构**：中国科学院国家天文台、中国科学院大学、浙江实验室、天津大学作者团队；作者单位不等同于法律所有权。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 发起团队
 
-- **合作机构**：中国科学院大学、浙江实验室、天津大学（作者机构）。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+中国科学院国家天文台、中国科学院大学、浙江实验室、天津大学作者团队；作者单位不等同于法律所有权。
 
-- **作者**：Jinghang Shi；Xiaoyu Tang；Yang Huang；Yuyang Li；Yanxia Zhang；Xiao Kong；Caizhan Yue；A-Li Luo （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **维护方**：Shijinghang/benchmark_pipeline与sjh11/AstroMMBench官方发布账号。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 署名/合作机构
 
-- **资助方**：NSFC 12273076、12203077、12373110、12133001；国家重点研发计划2025YFA1614101；载人航天 CMS-CSST-2025-A06；河北自然科学基金A2024205020。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+中国科学院大学、浙江实验室、天津大学（作者机构）。
+
+来源：[1]
+
+### 作者
+
+Jinghang Shi；Xiaoyu Tang；Yang Huang；Yuyang Li；Yanxia Zhang；Xiao Kong；Caizhan Yue；A-Li Luo
+
+来源：[1]
+
+### 维护入口
+
+Shijinghang/benchmark_pipeline与sjh11/AstroMMBench官方发布账号。
+
+来源：[1]
+
+### 资助与计算资源
+
+NSFC 12273076、12203077、12373110、12133001；国家重点研发计划2025YFA1614101；载人航天 CMS-CSST-2025-A06；河北自然科学基金A2024205020。
+
+来源：[1]
 
 ## 3. 设计目标
 
-- **能力目标**：读懂天文研究图表、仪器图、观测图像并回答专业物理问题。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+应同时保留2025年621题预印本和2026年592题正式版。正式版更明确讨论训练暴露、单主审和统计区间限制，分数变化首先是题集/协议变化，不能直接解释为模型进步。
+来源：[1][1]
 
-- **设计动机**：通用VQA不能覆盖天文图像约定与领域推理；与文本AstroLLM、跨模态表示学习互补。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 测量能力
+
+读懂天文研究图表、仪器图、观测图像并回答专业物理问题。
+
+来源：[1]
+
+### 为何需要这个基准
+
+通用VQA不能覆盖天文图像约定与领域推理；与文本AstroLLM、跨模态表示学习互补。
+
+来源：[1]
 
 ## 4. 构建方式
 
-- **数据来源**：2024-01-01 至2024-07-31 的3592篇 arXiv astro-ph 论文，提取19,299个图文对；LLaMA3.3-70B-Instruct 整理文本，InternVL2.5-78B 生成四选一候选。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 材料来源
 
-- **评审背景**：15名国家天文台评审：8名天文学博士生、5名硕士生、2名教授；按研究方向分配问题。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+2024-01-01 至2024-07-31 的3592篇 arXiv astro-ph 论文，提取19,299个图文对；LLaMA3.3-70B-Instruct 整理文本，InternVL2.5-78B 生成四选一候选。
 
-- **审核流程**：五个纯文本 LLM 各答5次，单模型至少3次答对判为会答；至少两个模型会答则丢弃。余9677题抽1800题专家审核，保留592题。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **质量控制**：专家检查科学正确性、图题对应、上下文充分性、答案唯一性与干扰项；每题一名主审且可见答案和图注，无独立双评及一致性统计。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 命题/编制背景
 
-- **去污染**：记录来源 arXiv ID，但未进行训练语料审计、近重复搜索或记忆探测；不能排除2024年后模型见过来源论文。不得描述为无污染。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+15名国家天文台评审：8名天文学博士生、5名硕士生、2名教授；按研究方向分配问题。
+
+来源：[1]
+
+### 审核流程
+
+五个纯文本 LLM 各答5次，单模型至少3次答对判为会答；至少两个模型会答则丢弃。余9677题抽1800题专家审核，保留592题。
+
+来源：[1]
+
+### 质量控制
+
+专家检查科学正确性、图题对应、上下文充分性、答案唯一性与干扰项；每题一名主审且可见答案和图注，无独立双评及一致性统计。
+
+来源：[1]
+
+### 去污染与证据边界
+
+记录来源 arXiv ID，但未进行训练语料审计、近重复搜索或记忆探测；不能排除2024年后模型见过来源论文。不得描述为无污染。
+
+来源：[1]
 
 ## 5. 数据形式
 
-- **规模**：592四选一题：GA97、CO108、EP97、HE101、IM83、SR106；25个MLLM（22开放、3闭源）。旧621题摘要不能与正式版混用。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 规模与分母
 
-- **任务形式**：图像+问题+四选项，单个正确答案。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+592四选一题：GA97、CO108、EP97、HE101、IM83、SR106；25个MLLM（22开放、3闭源）。旧621题摘要不能与正式版混用。
 
-- **模态**：天文科研图、图表与文本；不是原始FITS时序分析。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **语言**：英语。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 题型
 
-- **难度**：六子领域；宇宙学均分最低，高能领域模型间方差最大，不应一律称最难。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+图像+问题+四选项，单个正确答案。
 
-- **公开与隐藏划分**：论文结果统一使用592题；公开数据地址已给出。论文没有在本次已读段落定义独立训练/验证划分，划分细节待核实。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
+
+### 模态与字段
+
+天文科研图、图表与文本；不是原始FITS时序分析。
+
+来源：[1]
+
+### 语言
+
+英语。
+
+来源：[1]
+
+### 难度定位
+
+六子领域；宇宙学均分最低，高能领域模型间方差最大，不应一律称最难。
+
+来源：[1]
+
+### 公开、隐藏与划分
+
+本轮HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。
+
+来源：[4][3]
+
+状态：待核实（本字段尚有未能确认的部分）。
 
 ## 6. 评测方法
 
-- **指标**：四选一准确率；总体分母固定592，子领域按各自题数计算。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 指标
 
-- **评分方式**：A—D 单字母先精确匹配；其他自由回答交 DeepSeek-V3 固定二元裁判。解析失败、非法输出或 API 失败计错，不从分母删除。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+四选一准确率；总体分母固定592，子领域按各自题数计算。
 
-- **提示设置**：VLMEvalKit 0.2；输入为图像、题干和四个带标签选项；具体文本及裁判提示见 Supplementary File S1。图像处理沿各模型 adapter，非统一固定分辨率。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **评测脚本**：https://github.com/Shijinghang/benchmark_pipeline （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 评分流程
 
-- **可比性提示**：有效图像输入尺寸并未全局统一；头部区间重叠，点估计不能当显著排名；需成对检验及重复运行。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+A—D 单字母先精确匹配；其他自由回答交 DeepSeek-V3 固定二元裁判。解析失败、非法输出或 API 失败计错，不从分母删除。
+
+来源：[1]
+
+### 运行与提示
+
+VLMEvalKit 0.2；输入为图像、题干和四个带标签选项；具体文本及裁判提示见 Supplementary File S1。图像处理沿各模型 adapter，非统一固定分辨率。
+
+来源：[1]
+
+### 评测实现
+
+https://github.com/Shijinghang/benchmark_pipeline
+
+来源：[1]
+
+### 不能混比的设置
+
+有效图像输入尺寸并未全局统一；头部区间重叠，点估计不能当显著排名；需成对检验及重复运行。
+
+来源：[1]
 
 ## 7. 最新情况
 
-- **核查日期**：2026-11-07 Asia/Seoul （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 核查日期
 
-- **最新版本**：2026正式版592题；版本以此次正式论文口径为准。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
 
-- **修订与2026H2证据**：2026H2 使用证据：2026-09-30 正式论文用592题评估25个MLLM（22开放、3闭源）。这是发起方原始使用，不冒称独立后续引用。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **饱和度**：本组最高点估计71.28%；论文认为未饱和。前三总体准确率的 Wilson 95% 区间重叠，不能把小差距解读为显著优劣。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 当前发布
 
-- **已知问题**：公开 arXiv 来源可能进入模型预训练；单主审、可见答案和图注、单机构评审团，以及缺少重复运行均限制分数解释。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+2026正式版592题；版本以此次正式论文口径为准。
 
-- **后继资源**：待核实 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
+
+### 版本脉络
+
+arxiv_v1：2025-09-29T17:02:30+08:00；arxiv_v2：2025-10-22T01:29:47+08:00；preprint_questions：621；journal_publication：2026-09-30；journal_questions：592；version_boundary：题量、作者表和分数随正式版本变化；不是简单保留同一分母重命名。
+
+来源：[2][3]
+
+### 分数上限与饱和度
+
+本组最高点估计71.28%；论文认为未饱和。前三总体准确率的 Wilson 95% 区间重叠，不能把小差距解读为显著优劣。
+
+来源：[1]
+
+### 争议与局限
+
+公开 arXiv 来源可能进入模型预训练；单主审、可见答案和图注、单机构评审团，以及缺少重复运行均限制分数解释。
+
+来源：[1]
+
+### 衍生版本
+
+待核实
+
+来源：[1]
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+状态：待核实（本字段尚有未能确认的部分）。
 
 ## 8. 榜单快照
 
-- **采集日期**：2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期） （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 采集日期
 
-- **官方榜单**：https://www.mdpi.com/2218-1997/12/10/296#table_body_display_universe-12-00296-t002 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
 
-- **第三方榜单**：待核实 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[1]
 
-- **结果**：正式论文表2固定版本结果：Ovis2-34B 71.28%，ChatGPT-4o 69.76%，Doubao-1.5-vision-pro 69.09%；总体592题。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 官方入口
 
-- **口径说明**：2026-11-07 采集2026-09-30论文表2，不是持续更新的实时榜。前三置信区间重叠；模型后续版本与 API 变更不在此快照。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+https://www.mdpi.com/2218-1997/12/10/296#table_body_display_universe-12-00296-t002
+
+来源：[1]
+
+### 第三方/补充实验
+
+待核实
+
+来源：[1]
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+状态：待核实（本字段尚有未能确认的部分）。
+
+### 分轨成绩
+
+#### 2026 Universe表2：592题正式版
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Ovis2-34B | 71.28 | accuracy (%) |
+| 2 | ChatGPT-4o | 69.76 | accuracy (%) |
+| 3 | Doubao-1.5-vision-pro | 69.09 | accuracy (%) |
+| 4 | InternVL3-38B | 68.24 | accuracy (%) |
+| 4 | Qwen2.5-VL-72B | 68.24 | accuracy (%) |
+
+- Ovis2-34B：source_url：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf；accessed：2026-11-07；source_type：官方原论文固定实验；dataset_size：592
+- ChatGPT-4o：source_url：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf；accessed：2026-11-07；source_type：官方原论文固定实验；dataset_size：592
+- Doubao-1.5-vision-pro：source_url：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf；accessed：2026-11-07；source_type：官方原论文固定实验；dataset_size：592
+- InternVL3-38B：source_url：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf；accessed：2026-11-07；source_type：官方原论文固定实验；dataset_size：592
+- Qwen2.5-VL-72B：source_url：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf；accessed：2026-11-07；source_type：官方原论文固定实验；dataset_size：592
+
+#### 2025 arXiv v2表1：621题历史版
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Ovis2-34B | 70.53 | accuracy (%) |
+| 2 | ChatGPT-4o | 69.07 | accuracy (%) |
+| 3 | Doubao-1.5-vision-pro | 68.12 | accuracy (%) |
+
+- Ovis2-34B：source_url：https://arxiv.org/pdf/2510.00063v2；accessed：2026-11-07；source_type：官方预印本历史实验；dataset_size：621
+- ChatGPT-4o：source_url：https://arxiv.org/pdf/2510.00063v2；accessed：2026-11-07；source_type：官方预印本历史实验；dataset_size：621
+- Doubao-1.5-vision-pro：source_url：https://arxiv.org/pdf/2510.00063v2；accessed：2026-11-07；source_type：官方预印本历史实验；dataset_size：621
+
+来源：[3][5]
+
+### 覆盖边界
+
+正式592题与历史621题分轨，保留精确表值；OpenCompass列为通用多模态对照而非AstroMMBench第三方复跑分数。根目录README/LICENSE请求404、期刊HTML403；正式PDF、HF卡和原始arXiv全文均实际读取。
+
+来源：[3][5][4]
 
 ## 9. 联系方式
 
-- **公开邮箱**：tangxiaoyu@zhejianglab.org；zyx@bao.ac.cn （[来源1](https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf)；访问：2026-11-07）
+### 公开作者工作邮箱
 
-- **问题反馈**：https://github.com/Shijinghang/benchmark_pipeline/issues （[来源1](https://github.com/Shijinghang/benchmark_pipeline)；访问：2026-11-07）
+tangxiaoyu@zhejianglab.org；zyx@bao.ac.cn
 
-- **官方社交**：待核实 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[3]
 
-- **隐私原则**：待核实 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 公开反馈
+
+https://github.com/Shijinghang/benchmark_pipeline/issues
+
+来源：[6]
+
+### 官方账号
+
+待核实
+
+来源：[1]
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+状态：待核实（本字段尚有未能确认的部分）。
+
+### 隐私信息
+
+待核实
+
+来源：[1]
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+状态：待核实（本字段尚有未能确认的部分）。
 
 ## 10. 原始文件
 
-- **PDF来源**：https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 原文PDF
 
-- **SHA256**：5098322dcf0f8cbccdc5682a22fa6a4565c73464ef54937174540916f5f05a0c （[来源1](https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf)；访问：2026-11-07）
+https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf
 
-- **PDF字节**：7134595 （[来源1](https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf)；访问：2026-11-07）
+来源：[1]
 
-- **Drive文件夹**：id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：https://drive.google.com/drive/folders/1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+### 下载源文件SHA-256
 
-- **其他文档**：type：中文介绍 Google Doc；id：1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4；webViewLink：https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit （[来源1](https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit)；访问：2026-11-07）
+5098322dcf0f8cbccdc5682a22fa6a4565c73464ef54937174540916f5f05a0c
 
-- **Drive PDF**：id：1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO；webViewLink：https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+来源：[3]
+
+说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+
+### 下载源文件字节数
+
+7134595
+
+来源：[3]
+
+### 既有Drive文件夹
+
+id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：https://drive.google.com/drive/folders/1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh
+
+来源：[1]
+
+### 其他材料
+
+- type：中文介绍 Google Doc；id：1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4；webViewLink：https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit
+
+来源：[7]
+
+### 既有Drive PDF链接
+
+id：1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO；webViewLink：https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view
+
+来源：[1]
+
+> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
 
 ## 11. 变更记录
 
-date：2026-11-07；timezone：Asia/Seoul；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。 （[来源1](https://www.mdpi.com/2218-1997/12/10/296)；访问：2026-11-07）
+- 2026-11-07（Asia/Seoul）：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- 2026-11-07（Asia/Seoul）：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+
+来源：[1]
+
+### 来源索引
+
+[1]: https://www.mdpi.com/2218-1997/12/10/296 "访问 2026-11-07"
+[2]: https://arxiv.org/abs/2510.00063 "访问 2026-11-07"
+[3]: https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf "访问 2026-11-07"
+[4]: https://huggingface.co/datasets/sjh11/AstroMMBench "访问 2026-11-07"
+[5]: https://arxiv.org/pdf/2510.00063v2 "访问 2026-11-07"
+[6]: https://github.com/Shijinghang/benchmark_pipeline "访问 2026-11-07"
+[7]: https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit "访问 2026-11-07"

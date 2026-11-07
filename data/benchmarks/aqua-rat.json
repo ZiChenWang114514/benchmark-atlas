@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2017-05-11（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "value": "2017-05-11 21:04:47 Asia/Shanghai（UTC+8）（arXiv首稿，不等同数据发布声明）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1705.04146",
@@ -240,10 +240,14 @@
       ]
     },
     "quality_control": {
-      "value": "原论文按编辑距离过滤近重复；README明确原版本不能完整公开，复现实验应使用公开release口径。",
+      "value": "论文§2人工抽查众包任务并要求新题的答案/推理与seed不同；并不保证所有标签正确。HF公开预览存在推导与correct标签矛盾的个例，例如边长16的等边三角形题推导64√3、选项B却标D；仅作为样例错误，不估计整体错误率。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/deepmind/aqua_rat",
           "accessed": "2026-11-07"
         }
       ]
@@ -260,22 +264,14 @@
   },
   "data_format": {
     "size": {
-      "value": "当前公开原始 JSON 行数：train 97,467；dev 254；test 254，共97,975题。README概述约100,000题。",
+      "value": "公开每个raw/tokenized配置：train 97,467、validation 254、test 254，总97,975条；HF页面195,950为两个配置相加，不能当不同题数。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/train.json",
+          "url": "https://huggingface.co/datasets/deepmind/aqua_rat",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/dev.json",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/test.json",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/README.md",
+          "url": "https://github.com/google-deepmind/AQuA",
           "accessed": "2026-11-07"
         }
       ]
@@ -317,14 +313,14 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方公开train/dev/test及对应tok文件；原论文实验版无法完全公开，README明确说明结果会不同。",
+      "value": "公开train/dev/test文件（含tokenized及raw两种同题表示）；原论文实验使用先前版本，README明确该版本不能完整公开，因此原表分数不保证在当前release复现。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1705.04146",
+          "url": "https://huggingface.co/datasets/deepmind/aqua_rat",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/README.md",
+          "url": "https://github.com/google-deepmind/AQuA",
           "accessed": "2026-11-07"
         }
       ]
@@ -387,14 +383,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://github.com/google-deepmind/AQuA",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -413,42 +405,39 @@
       ]
     },
     "paper_revision_history": {
-      "value": {
-        "arxiv_version": "arXiv v3",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-        "2026_h2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2610.11978v1",
-            "date": "2026-10-08",
-            "note": "Jev 研究§3.1和表1–2实际使用 AQuA-RAT 并比较专用决策模型与通用模型。"
-          }
-        ]
-      },
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2017-05-11T21:04:47+08:00"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2017-10-10T22:57:26+08:00"
+        },
+        {
+          "version": "v3",
+          "submitted_at": "2017-10-24T00:45:03+08:00"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/1705.04146",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "第三方Jev实验在test254中最高94.1%，但选列模型、提示与标签噪声均限制解释；不是官方饱和结论。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/1705.04146",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/deepmind/aqua_rat",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+      ]
     },
     "contamination_and_issues": {
       "value": "官方 README 明示：论文初始结果使用过一个无法完整发布的旧版本；当前公开数据为完全众包版本，运行论文系统所得分数会不同。不能把论文旧版数字和现行公开题库直接混排。",
@@ -475,14 +464,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://github.com/google-deepmind/AQuA",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -499,68 +484,114 @@
       "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/html/2610.11978v1",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1705.04146",
+          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜"
+      "note": "研究论文Table2，不是持续维护排行榜。"
     },
     "results": {
       "value": [
         {
-          "model_version": "Qwen3.8 Max",
-          "score": "94.1",
-          "unit": "%",
-          "scope_and_protocol": "Jev表2 AQuA；附录测试254",
-          "result_date": "2026-10-08",
-          "snapshot_date": "2026-11-07",
+          "rank": 1,
+          "model": "Qwen3.8-Max",
+          "score": 94.1,
+          "metric": "Accuracy (%)，test254/单次运行",
+          "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
-          "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
-          "model_version": "Qwen3.8 Flash",
-          "score": "91.7",
-          "unit": "%",
-          "scope_and_protocol": "同表",
-          "result_date": "2026-10-08",
-          "snapshot_date": "2026-11-07",
+          "rank": 2,
+          "model": "Qwen3.8-Flash",
+          "score": 91.7,
+          "metric": "Accuracy (%)，test254/单次运行",
+          "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
-          "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
-          "model_version": "Gemini 3.8 Flash",
-          "score": "91.3",
-          "unit": "%",
-          "scope_and_protocol": "同表",
-          "result_date": "2026-10-08",
-          "snapshot_date": "2026-11-07",
+          "rank": 3,
+          "model": "Gemini 3.8 Flash",
+          "score": 91.3,
+          "metric": "Accuracy (%)，test254/单次运行",
+          "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
-          "source_class": "研究论文实验，非官方实时榜",
-          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Our Model（program induction）",
+          "score": 36.4,
+          "metric": "Accuracy (%)",
+          "track": "原论文Table3/不可完整公开旧版本",
+          "source_url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Seq2Seq",
+          "score": 20.8,
+          "metric": "Accuracy (%)",
+          "track": "原论文Table3/不可完整公开旧版本",
+          "source_url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Seq2Seq + Copy Input",
+          "score": 20.4,
+          "metric": "Accuracy (%)",
+          "track": "原论文Table3/不可完整公开旧版本",
+          "source_url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": "不适用（来源内选列，非全局排名）",
+          "model": "Seq2Seq + Copy Output",
+          "score": 20.2,
+          "metric": "Accuracy (%)",
+          "track": "原论文Table3/不可完整公开旧版本",
+          "source_url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
         {
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "重新打开Jev全文确认前三分数；其实际实验日期待核实，不沿用未经证实的2026-10-08。当前公开数据与原论文旧版本严格分轨。",
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "本轮核验Jev全文Table2及附录A（test254，单次运行）和原论文Table3；两者不是同一版本/同一协议，不据选列分数宣称全局榜首。",
       "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2610.11978v1",
+          "url": "https://github.com/google-deepmind/AQuA",
           "accessed": "2026-11-07"
         }
       ]
@@ -569,18 +600,18 @@
   "contact": {
     "public_emails": {
       "value": [
-        "lingwang@google.com"
+        "lingwang@google.com",
+        "dyogatama@google.com",
+        "cdyer@google.com",
+        "pblunsom@google.com"
       ],
       "sources": [
-        {
-          "url": "https://github.com/google-deepmind/AQuA",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "仅论文首页公开科研邮箱。"
     },
     "github_issues": {
       "value": "https://github.com/google-deepmind/AQuA/issues",
@@ -643,7 +674,8 @@
           "url": "https://arxiv.org/pdf/1705.04146",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
     },
     "pdf_bytes": {
       "value": 534332,
@@ -687,13 +719,18 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [

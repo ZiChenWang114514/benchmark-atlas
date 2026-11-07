@@ -1,7 +1,7 @@
 {
   "id": "astrommbench",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
+  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
   "basic_info": {
     "name": {
       "value": "AstroMMBench",
@@ -31,19 +31,27 @@
       ]
     },
     "paper_version": {
-      "value": "Universe 12(10),296，2026-09-30正式版",
+      "value": "arXiv v2（2025-10-22 01:29:47，Asia/Shanghai）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。",
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://arxiv.org/abs/2510.00063",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
       ]
     },
     "release_date": {
-      "value": "2026-09-30（正式发表）；2026-07-13 收稿、2026-09-21 修订、2026-09-23 接受。",
+      "value": "2025-09-29 17:02:30（Asia/Shanghai，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。",
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://arxiv.org/abs/2510.00063",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
       ]
@@ -70,13 +78,27 @@
       ]
     },
     "license": {
-      "value": "数据及原始图像再利用须遵循各 arXiv 原文许可；不能把论文或代码许可直接套到全部592题图像。统一数据许可待核实。",
+      "value": {
+        "hf_card": "README标记apache-2.0",
+        "preprint_promise": "2025预印本Ethics Statement称计划CC-BY-4.0发布",
+        "journal_restriction": "2026正式论文明确原始图文再利用服从各arXiv提交的许可"
+      },
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://huggingface.co/datasets/sjh11/AstroMMBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.00063v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库本轮没有找到README/LICENSE根文件，代码许可仍待核实。",
+      "status": "待核实"
     },
     "paper_url": {
       "value": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -294,13 +316,18 @@
       ]
     },
     "public_hidden_split": {
-      "value": "论文结果统一使用592题；公开数据地址已给出。论文没有在本次已读段落定义独立训练/验证划分，划分细节待核实。",
+      "value": "本轮HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。",
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://huggingface.co/datasets/sjh11/AstroMMBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "evaluation": {
@@ -352,7 +379,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -370,10 +397,21 @@
       ]
     },
     "paper_revision_history": {
-      "value": "2026H2 使用证据：2026-09-30 正式论文用592题评估25个MLLM（22开放、3闭源）。这是发起方原始使用，不冒称独立后续引用。",
+      "value": {
+        "arxiv_v1": "2025-09-29T17:02:30+08:00",
+        "arxiv_v2": "2025-10-22T01:29:47+08:00",
+        "preprint_questions": 621,
+        "journal_publication": "2026-09-30",
+        "journal_questions": 592,
+        "version_boundary": "题量、作者表和分数随正式版本变化；不是简单保留同一分母重命名。"
+      },
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://arxiv.org/abs/2510.00063",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
       ]
@@ -410,7 +448,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -439,19 +477,120 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "正式论文表2固定版本结果：Ovis2-34B 71.28%，ChatGPT-4o 69.76%，Doubao-1.5-vision-pro 69.09%；总体592题。",
+      "value": [
+        {
+          "rank": 1,
+          "model": "Ovis2-34B",
+          "score": 71.28,
+          "metric": "accuracy (%)",
+          "track": "2026 Universe表2：592题正式版",
+          "source_url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07",
+          "source_type": "官方原论文固定实验",
+          "dataset_size": 592
+        },
+        {
+          "rank": 2,
+          "model": "ChatGPT-4o",
+          "score": 69.76,
+          "metric": "accuracy (%)",
+          "track": "2026 Universe表2：592题正式版",
+          "source_url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07",
+          "source_type": "官方原论文固定实验",
+          "dataset_size": 592
+        },
+        {
+          "rank": 3,
+          "model": "Doubao-1.5-vision-pro",
+          "score": 69.09,
+          "metric": "accuracy (%)",
+          "track": "2026 Universe表2：592题正式版",
+          "source_url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07",
+          "source_type": "官方原论文固定实验",
+          "dataset_size": 592
+        },
+        {
+          "rank": 4,
+          "model": "InternVL3-38B",
+          "score": 68.24,
+          "metric": "accuracy (%)",
+          "track": "2026 Universe表2：592题正式版",
+          "source_url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07",
+          "source_type": "官方原论文固定实验",
+          "dataset_size": 592
+        },
+        {
+          "rank": 4,
+          "model": "Qwen2.5-VL-72B",
+          "score": 68.24,
+          "metric": "accuracy (%)",
+          "track": "2026 Universe表2：592题正式版",
+          "source_url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07",
+          "source_type": "官方原论文固定实验",
+          "dataset_size": 592
+        },
+        {
+          "rank": 1,
+          "model": "Ovis2-34B",
+          "score": 70.53,
+          "metric": "accuracy (%)",
+          "track": "2025 arXiv v2表1：621题历史版",
+          "source_url": "https://arxiv.org/pdf/2510.00063v2",
+          "accessed": "2026-11-07",
+          "source_type": "官方预印本历史实验",
+          "dataset_size": 621
+        },
+        {
+          "rank": 2,
+          "model": "ChatGPT-4o",
+          "score": 69.07,
+          "metric": "accuracy (%)",
+          "track": "2025 arXiv v2表1：621题历史版",
+          "source_url": "https://arxiv.org/pdf/2510.00063v2",
+          "accessed": "2026-11-07",
+          "source_type": "官方预印本历史实验",
+          "dataset_size": 621
+        },
+        {
+          "rank": 3,
+          "model": "Doubao-1.5-vision-pro",
+          "score": 68.12,
+          "metric": "accuracy (%)",
+          "track": "2025 arXiv v2表1：621题历史版",
+          "source_url": "https://arxiv.org/pdf/2510.00063v2",
+          "accessed": "2026-11-07",
+          "source_type": "官方预印本历史实验",
+          "dataset_size": 621
+        }
+      ],
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.00063v2",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "2026-11-07 采集2026-09-30论文表2，不是持续更新的实时榜。前三置信区间重叠；模型后续版本与 API 变更不在此快照。",
+      "value": "正式592题与历史621题分轨，保留精确表值；OpenCompass列为通用多模态对照而非AstroMMBench第三方复跑分数。根目录README/LICENSE请求404、期刊HTML403；正式PDF、HF卡和原始arXiv全文均实际读取。",
       "sources": [
         {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.00063v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/sjh11/AstroMMBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -519,7 +658,8 @@
           "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
     },
     "pdf_bytes": {
       "value": 7134595,
@@ -581,6 +721,25 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "round": "2 / queue[1]",
+        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "fields_updated": [
+          "basic_info.release_date",
+          "basic_info.paper_version",
+          "basic_info.license",
+          "data_format.public_hidden_split",
+          "latest_status.paper_revision_history",
+          "leaderboard.results",
+          "leaderboard.coverage_note",
+          "latest_status.checked_at",
+          "leaderboard.snapshot_date",
+          "original_files.sha256",
+          "original_files.pdf_bytes"
+        ]
       }
     ],
     "sources": [

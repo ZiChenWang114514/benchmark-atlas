@@ -1,441 +1,479 @@
-# BIG-Bench Hard (BBH)｜中文深度介绍
+# BIG-Bench Hard (BBH)
 
-核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-测量组合逻辑、符号操作、算法执行和多步推理，以及显式思维链能否改善这些能力。
+第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-## 一、基本信息
+## 1. 基本信息
 
 ### 简称
 
 BIG-Bench Hard (BBH)
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
 ### 全称
 
 BIG-Bench Hard
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 数据/协议版本
+### 数据/软件版本
 
 2022 公开任务集；未固定本轮仓库 commit
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[2][1]
 
 ### 论文版本
 
 arXiv v1
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
 ### 发布日期
 
-2022-10-18（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）
+2022-10-18 01:08:26（Asia/Shanghai，UTC+8；arXiv v1首次提交）
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 板块
+### 主板块
 
 推理
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
+来源：[2]
 
-### 子领域
+### 学科标签
 
-- 多任务复杂推理
+多任务复杂推理
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 许可证
+### 许可证与范围
 
 仓库LICENSE为MIT（Copyright 2022 suzgunmirac）；适用措辞为software/documentation，不将其自动扩大为BIG-Bench原始任务或论文的统一授权。
 
-来源：[1](https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/LICENSE)（采集 2026-11-07）。
+来源：[3]
 
-### 论文
+### 论文入口
 
 https://arxiv.org/abs/2210.09261
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 代码
-
-https://github.com/suzgunmirac/BIG-Bench-Hard
-
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
-
-### 数据集
-
-https://github.com/suzgunmirac/BIG-Bench-Hard
-
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-### 官网
-
-https://github.com/suzgunmirac/BIG-Bench-Hard
-
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-### 论文题名
+### 论文标题
 
 Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-## 二、发起与维护
+### 官方代码
 
-### 发起机构
+https://github.com/suzgunmirac/BIG-Bench-Hard
+
+来源：[2]
+
+### 数据入口
+
+https://github.com/suzgunmirac/BIG-Bench-Hard
+
+来源：[2][1]
+
+### 官方主页
+
+https://github.com/suzgunmirac/BIG-Bench-Hard
+
+来源：[2][1]
+
+## 2. 发起与维护
+
+### 发起团队
 
 Google Research、Stanford University（论文署名机构）
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 正式合作方
+### 署名/合作机构
 
-待核实
+Google Research；Stanford University
 
-核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+来源：[4]
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+说明：论文作者署名单位；非另行证实的资助/合作协议。
 
 ### 作者
 
-- Suzgun, Mirac
-- Scales, Nathan
-- Schärli, Nathanael
-- Gehrmann, Sebastian
-- Tay, Yi
-- Chung, Hyung Won
-- Chowdhery, Aakanksha
-- Le, Quoc V.
-- Chi, Ed H.
-- Zhou, Denny
-- Wei, Jason
+Suzgun, Mirac；Scales, Nathan；Schärli, Nathanael；Gehrmann, Sebastian；Tay, Yi；Chung, Hyung Won；Chowdhery, Aakanksha；Le, Quoc V.；Chi, Ed H.；Zhou, Denny；Wei, Jason
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 当前维护
+### 维护入口
+
+公开数据、CoT示例及Codex输出由suzgunmirac/BIG-Bench-Hard发布维护；沿Google Research/Stanford作者团队来源。
+
+来源：[5][4]
+
+### 资助与计算资源
 
 待核实
 
-核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+来源：[1]
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
-### 资助
+状态：待核实（本字段尚有未能确认的部分）。
 
-待核实
+## 3. 设计目标
 
-核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
-
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-## 三、设计目标
+23任务是论文等权平均的单位，27个JSON子任务和6511道题是发布组织方式；换成所有题微平均会改变权重。3-shot直接回答、CoT、slow/fast-thinking和基础模型不能混排。
+来源：[1][1]
 
 ### 测量能力
 
 测量组合逻辑、符号操作、算法执行和多步推理，以及显式思维链能否改善这些能力。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 设计缺口
+### 为何需要这个基准
 
 BIG-Bench 多任务平均值可能掩盖难题；本研究选择此前语言模型仍落后于人类的任务，单独测量推理瓶颈。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-## 四、构建方式
+## 4. 构建方式
 
-### 题源
+### 材料来源
 
 从 BIG-Bench 的209个任务中，依题量、自动评分适用性和此前模型相对人类表现筛出23类任务；部分任务细分，形成27个评测子任务。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 出题/标注人员
+### 命题/编制背景
 
 继承 BIG-Bench 社区任务；BBH研究者负责筛选并手写每类任务的思维链演示。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 审核
+### 审核流程
 
 以人类基线及此前模型结果进行筛选；不是重新由专家逐题原创一套试卷。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
 ### 质量控制
 
 限制每子任务最多250道，避免大任务支配比较；多数250道，causal_judgement 187、penguins_in_a_table 146、snarks 178。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 去污染边界
+### 去污染与证据边界
 
 论文含评测污染警示和识别措施；公开任务不能据此保证未来模型无训练污染。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-## 五、数据形式
+## 5. 数据形式
 
-### 题量
+### 规模与分母
 
 23类任务、27个子任务，共6511道评测题；统计口径为原论文所用BBH。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
 ### 题型
 
 多项选择、布尔判断、短答案和字符串输出，随子任务变化。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 模态
+### 模态与字段
 
 文本（数学符号按文本表达）；并非原始图像视频识别任务
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
 ### 语言
 
 英语题面；形式化/数学符号另见模态与仓库格式
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 难度
+### 难度定位
 
 按此前模型低于人类基线筛选，属于相对难度定义，不是统一年级或难度等级。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 公开/隐藏划分
+### 公开、隐藏与划分
 
 公开评测题及每任务3个人工CoT示例；不应把示例计入评测题量。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-## 六、评测方法
+## 6. 评测方法
 
 ### 指标
 
 最终答案精确匹配准确率；同时按任务报告，不把所有题直接混合为唯一分数。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 评分实现
+### 评分流程
 
 抽取最终答案后与目标答案比对，原论文比较直接回答与思维链提示。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 提示与预算
+### 运行与提示
 
 原论文3-shot示例，比较有无CoT，greedy / temperature 0；不同模型上下文与输出格式需另记。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### 评测脚本
+### 评测实现
 
-https://github.com/suzgunmirac/BIG-Bench-Hard
+官方仓库发布bbh/题目、cot-prompts/三例提示和code-davinci-002-outputs/；README未给统一现代LLM runner，不能把仓库本身说成已验证的全模型评分脚本。
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[5]
 
-### 可比性警示
+### 不能混比的设置
 
 任务宏平均与全题微平均、23类与27子任务、直接回答与CoT不是同一口径。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1][6]
 
-## 七、最新情况
+## 7. 最新情况
 
-### 核对日期
+### 核查日期
 
-2026-11-07（Asia/Seoul）
+2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1]
 
-### 最新可确认数据/协议
+### 当前发布
 
 2022 公开任务集；未固定本轮仓库 commit
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[2][1]
 
-### 修订与2026H2收录证据
+### 版本脉络
 
-- **论文版本**：arXiv v1
-- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
-- **2026下半年引用/使用证据**：
-  - 
-    - **来源链接**：https://arxiv.org/html/2609.27284v1
-    - **日期**：2026-09-23
-    - **说明**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 BIG-Bench Hard (BBH)；厂商自报评测。
+original_v1：2022-10-18T01:08:26+08:00；subsequent_use：url：https://arxiv.org/html/2609.27284v1；evidence：基础/slow-thinking/fast-thinking分别报告BBH；不是同一轨
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1][6]
 
-### 饱和判断
+### 分数上限与饱和度
 
-待核实
+Hunyuan-A13B报告分别列基础模型87.56、slow-thinking89.1、fast-thinking87.0；这些是特定协议的厂商自报，不据此认定2026-11所有模型饱和。
 
-核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+来源：[6]
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
-
-### 污染、争议与版本冲突
+### 争议与局限
 
 公开答案、演示与任务生成规则可能进入训练；模型自报分数不是独立去污染证明。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
+来源：[1][2]
 
-### 衍生与排除项
+### 衍生版本
 
 BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆为额外benchmark。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
+来源：[1][2]
 
-## 八、榜单快照
+## 8. 榜单快照
 
-### 榜单采集日
+### 采集日期
 
-2026-11-07（Asia/Seoul；采集日不是测量日）
+2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1]
 
-### 官方榜
-
-待核实
-
-核验说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
-
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-### 二级机构榜
+### 官方入口
 
 待核实
 
-核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+来源：[1]
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
-### 限定范围的分数快照
+状态：待核实（本字段尚有未能确认的部分）。
 
-- 
-  - **模型版本**：Hunyuan-A13B
-  - **分数**：87.56
-  - **单位**：%
-  - **范围与协议**：基础模型，3-shot CoT，报告表2
-  - **结果日期**：2026-09-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://arxiv.org/html/2609.27284v1
-  - **来源等级**：三级：模型厂商自报
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
-- 
-  - **模型版本**：Qwen3-A22B
-  - **分数**：88.87
-  - **单位**：%
-  - **范围与协议**：基础模型对照，报告表2
-  - **结果日期**：2026-09-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://arxiv.org/html/2609.27284v1
-  - **来源等级**：三级：模型厂商自报
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+### 第三方/补充实验
 
-来源：[1](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+待核实
+
+来源：[1]
+
+说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+
+状态：待核实（本字段尚有未能确认的部分）。
+
+### 分轨成绩
+
+#### Hunyuan报告表2：基础模型，BBH 3-shot
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Qwen3-A22B | 88.87 | accuracy (%) |
+| 2 | Hunyuan-A13B | 87.56 | accuracy (%) |
+| 3 | Hunyuan-Large-1116 | 86.3 | accuracy (%) |
+| 4 | Qwen2.5-72B | 85.8 | accuracy (%) |
+
+- Qwen3-A22B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Hunyuan-A13B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Hunyuan-Large-1116：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Qwen2.5-72B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+
+#### Hunyuan报告表3：slow-thinking
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Hunyuan-A13B | 89.1 | accuracy (%) |
+| 2 | Qwen3-A22B | 88.9 | accuracy (%) |
+| 3 | Deepseek-R1-0120 | 83.7 | accuracy (%) |
+| 4 | OpenAI-o1-1217 | 80.4 | accuracy (%) |
+
+- Hunyuan-A13B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Qwen3-A22B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Deepseek-R1-0120：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- OpenAI-o1-1217：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+
+#### Hunyuan报告表4：fast-thinking
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Hunyuan-A13B | 87.0 | accuracy (%) |
+| 2 | Hunyuan-Large-1116 | 86.5 | accuracy (%) |
+| 3 | Qwen2.5-72B-instruct | 80.5 | accuracy (%) |
+| 4 | Qwen3-A22B | 68.1 | accuracy (%) |
+
+- Hunyuan-A13B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Hunyuan-Large-1116：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Qwen2.5-72B-instruct：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+- Qwen3-A22B：source_url：https://arxiv.org/html/2609.27284v1；accessed：2026-11-07；source_type：厂商技术报告自报及其对照
+
+#### 原始论文表2：3-shot CoT，23任务等权宏平均
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Codex (code-davinci-002) | 73.9 | accuracy (%) |
+| 2 | InstructGPT (text-davinci-002) | 68.4 | accuracy (%) |
+| 3 | PaLM 540B | 65.2 | accuracy (%) |
+
+- Codex (code-davinci-002)：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+- InstructGPT (text-davinci-002)：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+- PaLM 540B：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+
+#### 原始论文表2：3-shot Answer-only，23任务等权宏平均
+
+| 来源次序/轨内序号 | 模型/系统 | 分数 | 指标 |
+|---|---|---:|---|
+| 1 | Codex (code-davinci-002) | 56.6 | accuracy (%) |
+| 2 | PaLM 540B | 52.3 | accuracy (%) |
+| 3 | InstructGPT (text-davinci-002) | 51.8 | accuracy (%) |
+
+- Codex (code-davinci-002)：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+- PaLM 540B：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+- InstructGPT (text-davinci-002)：source_url：https://arxiv.org/pdf/2210.09261；accessed：2026-11-07；source_type：2022历史实验
+
+来源：[6][4]
 
 ### 覆盖边界
 
-非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。
+公开仓库不是持续滚动的排行榜；本轮重新读取原论文表2及Hunyuan报告表2/3/4。基础、慢思考、快思考、原始CoT和直接回答分轨，不将不同设置排序为统一SOTA。BBH宏平均以原论文23任务口径为准。
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[5][6][4]
 
-## 九、联系方式
+## 9. 联系方式
 
-### 公开工作邮箱
+### 公开作者工作邮箱
 
-- msuzgun@cs.stanford.edu
+msuzgun@cs.stanford.edu
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[2][1]
 
-### Issues
+### 公开反馈
 
 https://github.com/suzgunmirac/BIG-Bench-Hard/issues
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
+来源：[2]
 
-### 官方社交
-
-待核实
-
-核验说明：未核实专门官方社交账号，不收录同名个人账户
-
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
-
-### 隐私政策
+### 官方账号
 
 待核实
 
-核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+来源：[1]
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+说明：未核实专门官方社交账号，不收录同名个人账户
 
-## 十、原始文件
+状态：待核实（本字段尚有未能确认的部分）。
 
-### Drive论文PDF
+### 隐私信息
 
-- **id**：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW
-- **webViewLink**：https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk
+待核实
 
-来源：[1](https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk)（采集 2026-11-07）。
+来源：[1]
 
-### 原始论文PDF
+说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+
+状态：待核实（本字段尚有未能确认的部分）。
+
+## 10. 原始文件
+
+### 原文PDF
 
 https://arxiv.org/pdf/2210.09261
 
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1]
 
-### SHA256校验值
+### 下载源文件SHA-256
 
 168f6fff020e9fde7563905f69e6a59d0648f195f48820d52c83c7adfaee18ec
 
-来源：[1](https://arxiv.org/pdf/2210.09261)（采集 2026-11-07）。
+来源：[4]
 
-### PDF字节数
+说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+
+### 下载源文件字节数
 
 5375941
 
-来源：[1](https://arxiv.org/pdf/2210.09261)（采集 2026-11-07）。
+来源：[4]
 
-### Drive文件夹
+### 既有Drive文件夹
 
-- **id**：1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
-- **webViewLink**：https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
+id：1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq；webViewLink：https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
 
-来源：[1](https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq)（采集 2026-11-07）。
+来源：[7]
 
-### 其他文档
+### 其他材料
 
-- **chinese_intro_doc**：
-  - **id**：1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs
-  - **webViewLink**：https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/bbh.md
+chinese_intro_doc：id：1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs；webViewLink：https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/bbh.md
 
-来源：[1](https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq)（采集 2026-11-07）。
+来源：[7]
 
-## 十一、变更记录
+### 既有Drive PDF链接
 
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **本轮更新字段**：
-    - basic_info.license
+id：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW；webViewLink：https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk
 
-来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
+来源：[8]
+
+> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+
+## 11. 变更记录
+
+- 2026-11-07（Asia/Seoul）：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 2026-11-07（Asia/Seoul）：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+
+来源：[2]
+
+### 来源索引
+
+[1]: https://arxiv.org/abs/2210.09261 "访问 2026-11-07"
+[2]: https://github.com/suzgunmirac/BIG-Bench-Hard "访问 2026-11-07"
+[3]: https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/LICENSE "访问 2026-11-07"
+[4]: https://arxiv.org/pdf/2210.09261 "访问 2026-11-07"
+[5]: https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md "访问 2026-11-07"
+[6]: https://arxiv.org/html/2609.27284v1 "访问 2026-11-07"
+[7]: https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq "访问 2026-11-07"
+[8]: https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk "访问 2026-11-07"

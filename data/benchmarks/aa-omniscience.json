@@ -239,13 +239,18 @@
       ]
     },
     "review_process": {
-      "value": "题目代理以权威材料为依据，方法强调可判定性和事实精度；具体 v1.1 的逐题人工审查量待核实。",
+      "value": "原论文§2.2：题目代理从权威材料生成并按相似度、难度、歧义过滤，人工介入复核；v1.1数据卡说明修正歧义/错误，但未给逐题人工复核数量。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "描述已披露流程，不将未给出的人工数量编为0或全量。"
     },
     "quality_control": {
       "value": "v1.1 移除已饱和问题，官网同时展示公开/私有题的表现一致性分析。",
@@ -295,15 +300,14 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "公开子集题目与回答/评分提示为英语；私有题库完整语种声明待核实。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "status": "待核实"
     },
     "difficulty": {
       "value": "v1.1 删除饱和题；分数降低可以来自题库变化，不能直接断言模型退步。",
@@ -315,10 +319,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方公开 Public-v1.1 子集，并展示 private questions 对比；公开/私有精确题数本次待核实。",
+      "value": "v1.1全量3000题，公开test子集300题、私有2700题；六领域公开比例与全量一致：科学工程数学60/600、软件工程60/600，其余四领域各45/450。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
       ]
@@ -353,15 +357,14 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "数据卡直接公开回答提示和完整四分类裁判模板；这是可复现协议，不声称有独立可执行评测仓库。"
     },
     "comparability_warning": {
       "value": "v1 与 v1.1 题库和分数不可直接混比；当前页仍保留 v1 论文摘要的 Claude4.1Opus 4.8 分，那不是当前榜首。",
@@ -379,14 +382,6 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ]
@@ -518,28 +513,20 @@
       "note": "保留历史字段原貌；旧快照不是新的排名。热度等级为编辑证据分级，不是官方认证。"
     },
     "paper_revision_history": {
-      "value": {
-        "paper_history_preserved": [
-          {
-            "version": "v1",
-            "submitted_at": "2025-11-17T15:27:16+09:00",
-            "timezone": "Asia/Seoul (KST)"
-          }
-        ],
-        "2026_h2_evidence": [
-          {
-            "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md",
-            "date": "2026-10",
-            "note": "官方v1.1发布时对86个模型进行公开/私有集一致性评测；确切日待核实。"
-          }
-        ]
-      },
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2025-11-17T14:27:16+08:00",
+          "timezone": "Asia/Shanghai"
+        }
+      ],
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md",
+          "url": "https://arxiv.org/abs/2511.13029",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "arXiv仅列v1；原始论文6000题，不是v1.1的3000题技术报告。"
     },
     "saturation": {
       "value": "官方说明 v1.1 移除了饱和题；这说明题库发生筛选，不代表整个知识任务已饱和。",
@@ -560,15 +547,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "AA-Omniscience-Public v1.0/v1.1为同家族公开子集；不得将公开300题结果视作私有2700题正式榜，亦不拆条凑数。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -591,13 +576,15 @@
       ]
     },
     "third_party_url": {
-      "value": "https://artificialanalysis.ai/evaluations/omniscience",
+      "value": "待核实",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "原值与官方榜完全相同，已纠正；不把AA自评标成独立复评。",
+      "status": "待核实"
     },
     "results": {
       "value": [
@@ -605,34 +592,91 @@
           "rank": 1,
           "model": "Gemini 4 Carbon (High)",
           "score": 54,
-          "metric": "AA-Omniscience Net Score (-100–100)",
-          "benchmark_version": "v1.1",
+          "metric": "100×(correct−incorrect)/total",
+          "track": "v1.1 Net Score",
           "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 48,
-          "metric": "AA-Omniscience Net Score (-100–100)",
-          "benchmark_version": "v1.1",
+          "metric": "100×(correct−incorrect)/total",
+          "track": "v1.1 Net Score",
           "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         },
         {
           "rank": 3,
           "model": "Gemini 4 Carbon (Medium)",
           "score": 47,
-          "metric": "AA-Omniscience Net Score (-100–100)",
-          "benchmark_version": "v1.1",
+          "metric": "100×(correct−incorrect)/total",
+          "track": "v1.1 Net Score",
           "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
-          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 1,
+          "model": "Claude Fable 5.1 (Max, Default Fallback)",
+          "score": 68,
+          "metric": "正确率 (%)",
+          "track": "v1.1 Accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+          "score": 67,
+          "metric": "正确率 (%)",
+          "track": "v1.1 Accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+          "score": 66,
+          "metric": "正确率 (%)",
+          "track": "v1.1 Accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon (Medium)",
+          "score": 4,
+          "metric": "官网幻觉率 (%)；越低越好",
+          "track": "v1.1 Hallucination Rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 1,
+          "model": "Gemini 4 Argon (High)",
+          "score": 4,
+          "metric": "官网幻觉率 (%)；越低越好",
+          "track": "v1.1 Hallucination Rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Carbon (High)",
+          "score": 11,
+          "metric": "官网幻觉率 (%)；越低越好",
+          "track": "v1.1 Hallucination Rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
         }
       ],
       "sources": [
@@ -641,7 +685,8 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
+      "note": "保留原网页显示整数精度；整体更新时间及各模型运行时间待核实；三指标分轨不能混排。",
+      "status": "待核实"
     },
     "coverage_note": {
       "value": "当前快照来源：https://artificialanalysis.ai/evaluations/omniscience。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 ",
@@ -663,15 +708,19 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "declan@artificialanalysis.ai",
+        "william@artificialanalysis.ai",
+        "george@artificialanalysis.ai",
+        "micah@artificialanalysis.ai"
+      ],
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://arxiv.org/abs/2511.13029",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "论文首页公开科研通讯地址。"
     },
     "github_issues": {
       "value": "待核实",
@@ -685,21 +734,22 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": [
+        "https://x.com/ArtificialAnlys",
+        "https://www.linkedin.com/company/artificial-analysis/"
+      ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "privacy_policy": {
-      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "value": "https://artificialanalysis.ai/privacy-policy",
       "sources": [
         {
-          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
         }
       ]
@@ -710,7 +760,7 @@
       "value": "https://arxiv.org/pdf/2511.13029",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2511.13029",
+          "url": "https://arxiv.org/abs/2511.13029",
           "accessed": "2026-11-07"
         }
       ]
@@ -723,7 +773,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
     },
     "pdf_bytes": {
       "value": 3786016,
@@ -778,12 +828,12 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
+        "timezone": "Asia/Shanghai（UTC+8）",
         "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
         "fields_updated": [
           "basic_info.license",
@@ -815,23 +865,16 @@
             "accessed": "2026-11-07"
           }
         ]
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
       }
     ],
     "sources": [
       {
         "url": "https://artificialanalysis.ai/evaluations/omniscience",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2511.13029",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
         "accessed": "2026-11-07"
       }
     ]
