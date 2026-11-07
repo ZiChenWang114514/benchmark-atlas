@@ -1,0 +1,29 @@
+{
+  "slug": "ugphysics",
+  "arxiv_id": "2502.00334",
+  "url": "https://arxiv.org/abs/2502.00334",
+  "accessed": "2026-11-07",
+  "citation_title": "UGPhysics: A Comprehensive Benchmark for Undergraduate Physics Reasoning with Large Language Models",
+  "citation_date": "2025/02/01",
+  "citation_pdf_url": "https://arxiv.org/pdf/2502.00334",
+  "authors": [
+    "Xu, Xin",
+    "Xu, Qiyun",
+    "Xiao, Tong",
+    "Chen, Tianhao",
+    "Yan, Yuchen",
+    "Zhang, Jiaxin",
+    "Diao, Shizhe",
+    "Yang, Can",
+    "Wang, Yang"
+  ],
+  "abstract": "Abstract: Large language models (LLMs) have demonstrated remarkable capabilities in solving complex reasoning tasks, particularly in mathematics. However, the domain of physics reasoning presents unique challenges that have received significantly less attention. Existing benchmarks often fall short in evaluating LLMs' abilities on the breadth and depth of undergraduate-level physics, underscoring the need for a comprehensive evaluation. To fill this gap, we introduce UGPhysics, a large-scale and comprehensive benchmark specifically designed to evaluate UnderGraduate-level Physics (UGPhysics) reasoning with LLMs. UGPhysics includes 5,520 undergraduate-level physics problems in both English and Chinese, covering 13 subjects with seven different answer types and four distinct physics reasoning skills, all rigorously screened for data leakage. Additionally, we develop a Model-Assistant Rule-based Judgment (MARJ) pipeline specifically tailored for assessing answer correctness of physics problems, ensuring accurate evaluation. Our evaluation of 31 leading LLMs shows that the highest overall accuracy, 49.8% (achieved by OpenAI-o1-mini), emphasizes the necessity for models with stronger physics reasoning skills, beyond math abilities. We hope UGPhysics, along with MARJ, will drive future advancements in AI for physics reasoning. Codes and data are available at this https URL .",
+  "submission_history": "Submission history From: Xin Xu [ view email ] [v1] Sat, 1 Feb 2025 06:42:02 UTC (477 KB) [v2] Wed, 5 Feb 2025 11:36:53 UTC (484 KB) [v3] Sat, 24 May 2025 04:39:08 UTC (486 KB) [v4] Tue, 3 Jun 2025 07:13:03 UTC (460 KB)",
+  "local_pdf": "/workspace/benchmark-atlas-papers/ugphysics.pdf",
+  "pdf_url": "https://arxiv.org/pdf/2502.00334",
+  "pdf_bytes": 972563,
+  "sha256": "790c2022e5d201029f9b498f71e5c8ec958f21c29e7a18af8fb1814378e1517c",
+  "abstract_links": [
+    "https://github.com/YangLabHKUST/UGPhysics"
+  ]
+}

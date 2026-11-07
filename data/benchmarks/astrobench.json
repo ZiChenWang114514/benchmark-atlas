@@ -1,0 +1,998 @@
+{
+  "id": "astrobench",
+  "schema_version": "0.1.0",
+  "basic_info": {
+    "name": {
+      "value": "AstroBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "AstroBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2024/07/15",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "地球与天文",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+    },
+    "subfields": {
+      "value": [
+        "天文"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（公开数据卡标注）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2407.11194",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://astromlab.org/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "AstroMLab 1: Who Wins Astronomy Jeopardy!?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "澳大利亚国立大学、俄亥俄州立大学等多机构作者团队（AstroMLab）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Ting, Yuan-Sen",
+        "Nguyen, Tuan Dung",
+        "Ghosal, Tirthankar",
+        "Pan, Rui",
+        "Arora, Hardik",
+        "Sun, Zechang",
+        "de Haan, Tijmen",
+        "Ramachandra, Nesar",
+        "Wells, Azton",
+        "Madireddy, Sandeep",
+        "Accomazzi, Alberto"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "测量天文学及天体物理知识理解、学科差异和置信度校准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "测量天文学及天体物理知识理解、学科差异和置信度校准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从 Annual Review of Astronomy and Astrophysics 文章整理多项选择题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "review_process": {
+      "value": "从 Annual Review of Astronomy and Astrophysics 文章整理多项选择题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "4,425 道选择题；公开 Hugging Face 数据卡说明不含答案键。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "4,425 道选择题；公开 Hugging Face 数据卡说明不含答案键。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "languages": {
+      "value": [
+        "英文"
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "公开问题不提供答案键",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "选择题准确率与置信度校准分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "选择题准确率与置信度校准分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Yuan-Sen Ting Assoc. Prof. [ view email ] [v1] Mon, 15 Jul 2024 19:28:14 UTC (10,966 KB) [v2] Fri, 8 Nov 2024 22:00:26 UTC (10,966 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://astromlab.org/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "coverage_note": {
+      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AstroMLab/Astrobench_MCQ_v1_Public",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2407.11194",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11194",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "b31348a943177637d2e96d698974d5566a42a33f06e7c4a5772f2104984e074e",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+    },
+    "pdf_bytes": {
+      "value": 10805582,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2407.11194",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L",
+        "webViewLink": "https://drive.google.com/drive/folders/1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8",
+          "webViewLink": "https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT",
+      "webViewLink": "https://drive.google.com/file/d/1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2407.11194",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2407.11194",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "editorial_status": "初次收录；待补全字段见各项 status"
+}

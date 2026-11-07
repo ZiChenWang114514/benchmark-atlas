@@ -1,0 +1,827 @@
+{
+  "id": "matbench-discovery",
+  "schema_version": "0.1.0",
+  "basic_info": {
+    "name": {
+      "value": "Matbench Discovery",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Matbench Discovery",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023/08/28",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "材料",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+    },
+    "subfields": {
+      "value": [
+        "材料"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2308.14920",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/janosh/matbench-discovery",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://matbench-discovery.materialsproject.org/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://matbench-discovery.materialsproject.org/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Matbench Discovery -- A framework to evaluate machine learning crystal stability predictions",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "剑桥大学、劳伦斯伯克利国家实验室、BAM、加州大学伯克利分校作者团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Riebesell, Janosh",
+        "Goodall, Rhys E. A.",
+        "Benner, Philipp",
+        "Chiang, Yuan",
+        "Deng, Bowen",
+        "Ceder, Gerbrand",
+        "Asta, Mark",
+        "Lee, Alpha A.",
+        "Jain, Anubhav",
+        "Persson, Kristin A."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "评估模型作为稳定无机晶体高通量发现预筛器的实际价值，而非只比较能量回归误差。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "评估模型作为稳定无机晶体高通量发现预筛器的实际价值，而非只比较能量回归误差。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "review_process": {
+      "value": "围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "材料发现评测框架；最新任务级数据规模待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "材料发现评测框架；最新任务级数据规模待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "CPS综合发现F1（50%）、几何RMSD（10%）和声子κ SRME（40%）；分子动力学与双原子任务不计入CPS。发现使用Unique Prototypes子集。",
+      "sources": [
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "发现 F1、发现加速因子等任务相关指标；官网最新综合指标定义须另行锁定。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "https://github.com/janosh/matbench-discovery",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Rhys Goodall [ view email ] [v1] Mon, 28 Aug 2023 22:29:57 UTC (7,998 KB) [v2] Sun, 4 Feb 2024 17:12:47 UTC (2,545 KB) [v3] Tue, 10 Dec 2024 23:52:04 UTC (6,469 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "首次 WebFetch 返回403；随后用标准公开HTTP读取成功，已保存页面证据。搜索索引和现场页面的模型数量不同，以本次成功读取的官方页面快照为准。",
+      "sources": [
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://matbench-discovery.materialsproject.org/",
+      "sources": [
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "DPA-4.1-Max-OAM-PFT",
+          "score": 0.913,
+          "unit": "比例",
+          "metric": "CPS，越高越好",
+          "rank": 1,
+          "scope": "Unique Prototypes，默认require forces过滤；49/58 eligible models；页面模型名带†标记，定义待核实"
+        },
+        {
+          "model": "Prophet-OAME-MBD",
+          "score": 0.912,
+          "unit": "比例",
+          "metric": "CPS，越高越好",
+          "rank": 2,
+          "scope": "同一过滤和子集"
+        },
+        {
+          "model": "DPA-4.1-Max-OAM",
+          "score": 0.91,
+          "unit": "比例",
+          "metric": "CPS，越高越好",
+          "rank": 3,
+          "scope": "同一过滤和子集；页面模型名带†标记，定义待核实"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "已读取官方首页的默认CPS排序；这是限定过滤条件与Unique Prototypes子集的快照，不是所有材料任务的总排名。",
+      "sources": [
+        {
+          "url": "https://matbench-discovery.materialsproject.org/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/janosh/matbench-discovery/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/janosh/matbench-discovery",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2308.14920",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.14920",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "6a37da286baaea80b902d6011fcd6e08a090dbec604b3988884baf57b3aed612",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+    },
+    "pdf_bytes": {
+      "value": 4570226,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.14920",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM",
+        "webViewLink": "https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns",
+          "webViewLink": "https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO",
+      "webViewLink": "https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2308.14920",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2308.14920",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "editorial_status": "初次收录；待补全字段见各项 status"
+}

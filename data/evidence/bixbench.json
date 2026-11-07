@@ -1,0 +1,27 @@
+{
+  "slug": "bixbench",
+  "arxiv_id": "2503.00096",
+  "url": "https://arxiv.org/abs/2503.00096",
+  "accessed": "2026-11-07",
+  "citation_title": "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+  "citation_date": "2025/02/28",
+  "citation_pdf_url": "https://arxiv.org/pdf/2503.00096",
+  "authors": [
+    "Mitchener, Ludovico",
+    "Laurent, Jon M",
+    "Andonian, Alex",
+    "Tenmann, Benjamin",
+    "Narayanan, Siddharth",
+    "Wellawatte, Geemi P",
+    "White, Andrew",
+    "Sani, Lorenzo",
+    "Rodriques, Samuel G"
+  ],
+  "abstract": "Abstract: Large Language Models (LLMs) and LLM-based agents show great promise in accelerating scientific research. Existing benchmarks for measuring this potential and guiding future development continue to evolve from pure recall and rote knowledge tasks, towards more practical work such as literature review and experimental planning. Bioinformatics is a domain where fully autonomous AI-driven discovery may be near, but no extensive benchmarks for measuring progress have been introduced to date. We therefore present the Bioinformatics Benchmark (BixBench), a dataset comprising over 50 real-world scenarios of practical biological data analysis with nearly 300 associated open-answer questions designed to measure the ability of LLM-based agents to explore biological datasets, perform long, multi-step analytical trajectories, and interpret the nuanced results of those analyses. We evaluate the performance of two frontier LLMs (GPT-4o and Claude 3.5 Sonnet) using a custom agent framework we open source. We find that even the latest frontier models only achieve 17% accuracy in the open-answer regime, and no better than random in a multiple-choice setting. By exposing the current limitations of frontier models, we hope BixBench can spur the development of agents capable of conducting rigorous bioinformatic analysis and accelerate scientific discovery.",
+  "submission_history": "Submission history From: Jon Laurent [ view email ] [v1] Fri, 28 Feb 2025 18:47:57 UTC (7,427 KB) [v2] Sat, 8 Mar 2025 00:57:19 UTC (7,442 KB) [v3] Wed, 8 Oct 2025 18:06:34 UTC (5,794 KB)",
+  "local_pdf": "/workspace/benchmark-atlas-papers/bixbench.pdf",
+  "pdf_url": "https://arxiv.org/pdf/2503.00096",
+  "pdf_bytes": 3266197,
+  "sha256": "8f651cc1026b94790dbbdc10afebc25d94a49e90de6ad0e55193879cd1de2b8b",
+  "abstract_links": []
+}

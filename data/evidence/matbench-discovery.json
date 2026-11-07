@@ -1,0 +1,28 @@
+{
+  "slug": "matbench-discovery",
+  "arxiv_id": "2308.14920",
+  "url": "https://arxiv.org/abs/2308.14920",
+  "accessed": "2026-11-07",
+  "citation_title": "Matbench Discovery -- A framework to evaluate machine learning crystal stability predictions",
+  "citation_date": "2023/08/28",
+  "citation_pdf_url": "https://arxiv.org/pdf/2308.14920",
+  "authors": [
+    "Riebesell, Janosh",
+    "Goodall, Rhys E. A.",
+    "Benner, Philipp",
+    "Chiang, Yuan",
+    "Deng, Bowen",
+    "Ceder, Gerbrand",
+    "Asta, Mark",
+    "Lee, Alpha A.",
+    "Jain, Anubhav",
+    "Persson, Kristin A."
+  ],
+  "abstract": "Abstract: The rapid adoption of machine learning (ML) in domain sciences necessitates best practices and standardized benchmarking for performance evaluation. We present Matbench Discovery, an evaluation framework for ML energy models, applied as pre-filters for high-throughput searches of stable inorganic crystals. This framework addresses the disconnect between thermodynamic stability and formation energy, as well as retrospective vs. prospective benchmarking in materials discovery. We release a Python package to support model submissions and maintain an online leaderboard, offering insights into performance trade-offs. To identify the best-performing ML methodologies for materials discovery, we benchmarked various approaches, including random forests, graph neural networks (GNNs), one-shot predictors, iterative Bayesian optimizers, and universal interatomic potentials (UIP). Our initial results rank models by test set F1 scores for thermodynamic stability prediction: EquiformerV2 + DeNS > Orb > SevenNet > MACE > CHGNet > M3GNet > ALIGNN > MEGNet > CGCNN > CGCNN+P > Wrenformer > BOWSR > Voronoi fingerprint random forest. UIPs emerge as the top performers, achieving F1 scores of 0.57-0.82 and discovery acceleration factors (DAF) of up to 6x on the first 10k stable predictions compared to random selection. We also identify a misalignment between regression metrics and task-relevant classification metrics. Accurate regressors can yield high false-positive rates near the decision boundary at 0 eV/atom above the convex hull. Our results demonstrate UIPs' ability to optimize computational budget allocation for expanding materials databases. However, their limitations remain underexplored in traditional benchmarks. We advocate for task-based evaluation frameworks, as implemented here, to address these limitations and advance ML-guided materials discovery.",
+  "submission_history": "Submission history From: Rhys Goodall [ view email ] [v1] Mon, 28 Aug 2023 22:29:57 UTC (7,998 KB) [v2] Sun, 4 Feb 2024 17:12:47 UTC (2,545 KB) [v3] Tue, 10 Dec 2024 23:52:04 UTC (6,469 KB)",
+  "local_pdf": "/workspace/benchmark-atlas-papers/matbench-discovery.pdf",
+  "pdf_url": "https://arxiv.org/pdf/2308.14920",
+  "pdf_bytes": 4570226,
+  "sha256": "6a37da286baaea80b902d6011fcd6e08a090dbec604b3988884baf57b3aed612",
+  "abstract_links": []
+}

@@ -1,0 +1,831 @@
+{
+  "id": "olympiadbench",
+  "schema_version": "0.1.0",
+  "basic_info": {
+    "name": {
+      "value": "OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2024/02/21",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "物理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+    },
+    "subfields": {
+      "value": [
+        "物理",
+        "数学"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2402.14008",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/OpenBMB/OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/OpenBMB/OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/OpenBMB/OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "清华大学、北京航空航天大学、Wisdom Way AI Lab 作者团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "He, Chaoqun",
+        "Luo, Renjie",
+        "Bai, Yuzhuo",
+        "Hu, Shengding",
+        "Thai, Zhen Leng",
+        "Shen, Junhao",
+        "Hu, Jinyi",
+        "Han, Xu",
+        "Huang, Yujie",
+        "Zhang, Yuxiang",
+        "Liu, Jie",
+        "Qi, Lei",
+        "Liu, Zhiyuan",
+        "Sun, Maosong"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "以奥赛级双语多模态科学问题评测高难推理，科学板块优先展示物理子集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "以奥赛级双语多模态科学问题评测高难推理，科学板块优先展示物理子集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从数学和物理竞赛及中国高考试题选取，附专家级分步推理标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "review_process": {
+      "value": "从数学和物理竞赛及中国高考试题选取，附专家级分步推理标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "全库 8,476 题（数学与物理合计，不是物理题量）；物理子集精确数量待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "全库 8,476 题（数学与物理合计，不是物理题量）；物理子集精确数量待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "分科目评估答案；双语与多模态设置必须分别记录，不能将数学物理均值作物理成绩。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "分科目评估答案；双语与多模态设置必须分别记录，不能将数学物理均值作物理成绩。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "https://github.com/OpenBMB/OlympiadBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Chaoqun He [ view email ] [v1] Wed, 21 Feb 2024 18:49:26 UTC (8,221 KB) [v2] Thu, 6 Jun 2024 13:19:44 UTC (8,589 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "coverage_note": {
+      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/OpenBMB/OlympiadBench/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/OpenBMB/OlympiadBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2402.14008",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.14008",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "4360149145ef6c5d506cf6cd82d0214208b6572c654a6d932d7cfc010817e5f7",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+    },
+    "pdf_bytes": {
+      "value": 1083457,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2402.14008",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1QqQfAXZH9Oghbjv8ksCf9QmZKlQD5xjl",
+        "webViewLink": "https://drive.google.com/drive/folders/1QqQfAXZH9Oghbjv8ksCf9QmZKlQD5xjl"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1QqQfAXZH9Oghbjv8ksCf9QmZKlQD5xjl",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q",
+          "webViewLink": "https://docs.google.com/document/d/1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1Vo2sMSYUStL64eBYGtJD6draoYFD16kL",
+      "webViewLink": "https://drive.google.com/file/d/1Vo2sMSYUStL64eBYGtJD6draoYFD16kL/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1Vo2sMSYUStL64eBYGtJD6draoYFD16kL/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2402.14008",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2402.14008",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "editorial_status": "初次收录；待补全字段见各项 status"
+}

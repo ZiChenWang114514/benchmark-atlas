@@ -1,0 +1,818 @@
+{
+  "id": "weatherbench",
+  "schema_version": "0.1.0",
+  "basic_info": {
+    "name": {
+      "value": "WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2020/02/02",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "地球与天文",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+    },
+    "subfields": {
+      "value": [
+        "气象科学"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2002.00469",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/pangeo-data/WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/pangeo-data/WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/pangeo-data/WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "WeatherBench: A benchmark dataset for data-driven weather forecasting",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "慕尼黑工业大学、ECMWF、斯德哥尔摩大学、华盛顿大学、多伦多大学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Rasp, Stephan",
+        "Dueben, Peter D.",
+        "Scher, Sebastian",
+        "Weyn, Jonathan A.",
+        "Mouatadid, Soukayna",
+        "Thuerey, Nils"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "统一数据驱动中期全球天气预报的数据与评测标准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "统一数据驱动中期全球天气预报的数据与评测标准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从 ERA5 再分析资料加工数据，并提供线性、深度学习和物理模型基线。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "review_process": {
+      "value": "从 ERA5 再分析资料加工数据，并提供线性、深度学习和物理模型基线。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "全球天气时空场；具体分辨率、变量和划分须按版本核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "全球天气时空场；具体分辨率、变量和划分须按版本核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "统一天气预报指标，促进模型间可比性；参数细则待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "统一天气预报指标，促进模型间可比性；参数细则待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "https://github.com/pangeo-data/WeatherBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Stephan Rasp [ view email ] [v1] Sun, 2 Feb 2020 19:20:46 UTC (5,314 KB) [v2] Wed, 12 Feb 2020 13:45:27 UTC (5,315 KB) [v3] Thu, 11 Jun 2020 19:13:22 UTC (5,408 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "coverage_note": {
+      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "stephan.rasp@tum.de"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/pangeo-data/WeatherBench/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/pangeo-data/WeatherBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2002.00469",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.00469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "7d60b0fe08c470ee3e7c1985003837a6f21b8b692ae5b0604652da8c642677e4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+    },
+    "pdf_bytes": {
+      "value": 5734556,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2002.00469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH",
+        "webViewLink": "https://drive.google.com/drive/folders/1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw",
+          "webViewLink": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp",
+      "webViewLink": "https://drive.google.com/file/d/1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2002.00469",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2002.00469",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "editorial_status": "初次收录；待补全字段见各项 status"
+}

@@ -1,0 +1,820 @@
+{
+  "id": "chemllmbench",
+  "schema_version": "0.1.0",
+  "basic_info": {
+    "name": {
+      "value": "ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023/05/27",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "化学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+    },
+    "subfields": {
+      "value": [
+        "化学"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2305.18365",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "圣母大学（University of Notre Dame）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Guo, Taicheng",
+        "Guo, Kehan",
+        "Nan, Bozhao",
+        "Liang, Zhenwen",
+        "Guo, Zhichun",
+        "Chawla, Nitesh V.",
+        "Wiest, Olaf",
+        "Zhang, Xiangliang"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "以化学任务检查大模型的理解、推理与解释能力，而非只追求单一最高分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "以化学任务检查大模型的理解、推理与解释能力，而非只追求单一最高分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "基于已有广泛使用的化学数据集建立任务，并为零样本与少样本设计提示和演示例。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "review_process": {
+      "value": "基于已有广泛使用的化学数据集建立任务，并为零样本与少样本设计提示和演示例。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "8 个化学任务；总样本数、任务分布待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "8 个化学任务；总样本数、任务分布待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "逐任务零样本/少样本评估；具体任务指标待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "逐任务零样本/少样本评估；具体任务指标待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "https://github.com/ChemFoundationModels/ChemLLMBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Taicheng Guo [ view email ] [v1] Sat, 27 May 2023 14:17:33 UTC (6,493 KB) [v2] Sun, 10 Sep 2023 16:37:36 UTC (7,863 KB) [v3] Thu, 28 Dec 2023 04:29:36 UTC (7,865 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "coverage_note": {
+      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "xzhang33@nd.edu"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/ChemFoundationModels/ChemLLMBench/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/ChemFoundationModels/ChemLLMBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2305.18365",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.18365",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "9623bba95a935d5d3272e26cbadfbcf64348a28aa88ec1cc7f933c69447977f8",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+    },
+    "pdf_bytes": {
+      "value": 3437726,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW",
+        "webViewLink": "https://drive.google.com/drive/folders/1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k",
+          "webViewLink": "https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1QT72MOldRvsA2alWgK2XKk53Vq45tzGv",
+      "webViewLink": "https://drive.google.com/file/d/1QT72MOldRvsA2alWgK2XKk53Vq45tzGv/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1QT72MOldRvsA2alWgK2XKk53Vq45tzGv/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.18365",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2305.18365",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "editorial_status": "初次收录；待补全字段见各项 status"
+}

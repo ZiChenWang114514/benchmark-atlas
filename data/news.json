@@ -1,0 +1,92 @@
+[
+  {
+    "id": "matbench-discovery-snapshot",
+    "observed_date": "2026-11-07",
+    "event_date": "待核实",
+    "timezone": "Asia/Seoul",
+    "title": "记录 Matbench Discovery 当前CPS榜单",
+    "body": "官方默认Unique Prototypes/require forces设置下，DPA-4.1-Max-OAM-PFT为0.913、Prophet-OAME-MBD为0.912、DPA-4.1-Max-OAM为0.910；仅为本次快照，不声称发生排名变化。",
+    "sources": [
+      {
+        "url": "https://matbench-discovery.materialsproject.org/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "核验观察"
+  },
+  {
+    "id": "scicode-audit",
+    "observed_date": "2026-11-07",
+    "event_date": "待核实",
+    "timezone": "Asia/Seoul",
+    "title": "SciCode 分数存在审计复核提示",
+    "body": "Artificial Analysis 提示独立审计发现可能有错误测试，正在复核；本库暂不从不可读图表补填最新数值。",
+    "sources": [
+      {
+        "url": "https://artificialanalysis.ai/evaluations/scicode",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "核验观察"
+  },
+  {
+    "id": "matbench-metric",
+    "observed_date": "2026-11-07",
+    "event_date": "待核实",
+    "timezone": "Asia/Seoul",
+    "title": "Matbench 历史分类指标存在解释风险",
+    "body": "官方指出旧ROC-AUC由阈值化预测计算、实为balanced accuracy；历史分数尚未重算。",
+    "sources": [
+      {
+        "url": "https://matbench.materialsproject.org/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "核验观察"
+  },
+  {
+    "id": "gpqa-snapshot",
+    "observed_date": "2026-11-07",
+    "event_date": "待核实",
+    "timezone": "Asia/Seoul",
+    "title": "记录 GPQA Diamond 第三方榜单快照",
+    "body": "Artificial Analysis 页面显示 GPT-6 Astra (Xhigh) 96.3%、GPT-6 Astra (Max) 96.1%、Gemini 3.8 Flash (High) 95.3%；快照只代表本次访问。",
+    "sources": [
+      {
+        "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "核验观察"
+  },
+  {
+    "id": "weatherbench-x",
+    "observed_date": "2026-11-07",
+    "event_date": "待核实",
+    "timezone": "Asia/Seoul",
+    "title": "WeatherBench 当前官网采用 WeatherBench-X 评测代码",
+    "body": "官网强调按变量、提前期与指标比较，没有单一概括全部预报质量的排名。",
+    "sources": [
+      {
+        "url": "https://sites.research.google/weatherbench/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "核验观察"
+  },
+  {
+    "id": "bioprobench-v4",
+    "observed_date": "2026-11-07",
+    "event_date": "2026-07-27",
+    "timezone": "Asia/Seoul",
+    "title": "BioProBench 论文已修订到 v4",
+    "body": "arXiv 记录 v4；主体报告22,413份协议与523,784任务实例。协议数与附录一处27,000的差异已标记待核实。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2505.07889",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "type": "论文修订"
+  }
+]
