@@ -24,13 +24,14 @@ const index = JSON.parse(read('api/index.json') || '{}');
 const boilerplate = '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。';
 const chapters = ['基本信息', '发起与维护', '设计目标', '构建方式', '数据形式', '评测方法', '最新情况', '榜单快照', '联系方式', '原始文件', '变更记录'];
 
-const sectionOrder = ['物理', '化学', '生物与医学', '地球与天文', '材料', '语言', '推理', '数学', '代码', '多模态', 'Agent', '安全'];
+const sectionOrder = ['物理', '化学', '生物与医学', '地球与天文', '材料', '语言', '推理', '数学', '代码', '多模态', 'Agent', '安全', '语音', '机器人与具身'];
 const sectionCounts = {};
 for (const item of index.benchmarks ?? []) {
   sectionCounts[item.section] = (sectionCounts[item.section] || 0) + 1;
 }
 
 if (!home.includes('最新动态')) fail('首页缺少最新动态');
+if (!home.includes('近期热门')) fail('首页缺少近期热门');
 if (!home.includes('收集宪法')) fail('首页缺少宪法入口');
 if (!home.includes('/benchmark-atlas/benchmarks/')) fail('首页链接没有站点前缀');
 if (index.count != null && index.count !== index.benchmarks.length) {
@@ -41,10 +42,11 @@ if ((home.match(/class="card"/g) || []).length !== index.benchmarks?.length) {
   fail(`首页卡片数与索引不一致`);
 }
 for (const section of sectionOrder) {
-  const count = sectionCounts[section] || 0;
-  if (!count) fail(`索引里没有板块 ${section}`);
+  if (!sectionCounts[section]) fail(`索引里没有板块 ${section}`);
+}
+for (const [section, count] of Object.entries(sectionCounts)) {
   if (!home.includes(section)) fail(`首页缺少板块 ${section}`);
-  if (!home.includes(`${count} 个基准`)) fail(`首页没有写出 ${section} 的 ${count} 个基准`);
+  if (!home.includes(`>${count} 个基准<`)) fail(`首页没有写出 ${section} 的 ${count} 个基准`);
 }
 const cited = (index.benchmarks ?? []).filter((item) => item.cited_2026h2).length;
 if (cited && !home.includes('2026下半年仍被引用')) fail('首页没有标出 2026下半年引用');
@@ -103,6 +105,22 @@ if (published.length !== index.benchmarks.length) fail(`公开 JSON 数量 ${pub
 if (!existsSync(join(dist, 'api/schema/benchmark.schema.json'))) fail('缺少 schema');
 if (!existsSync(join(dist, 'api/news.json'))) fail('缺少 news.json');
 if (!existsSync(join(dist, '404.html'))) fail('缺少 404 页');
+const trendingPage = read('trending/index.html');
+if (!trendingPage) fail('缺少近期热门页');
+if (trendingPage && !trendingPage.includes('Terminal-Bench-Science')) fail('热门页缺少 Terminal-Bench-Science');
+if (trendingPage && trendingPage.includes('[object Object]')) fail('热门页出现了未格式化的对象');
+if (home.includes('[object Object]')) fail('首页出现了未格式化的对象');
+if (!home.includes('🔥 近期热门')) fail('首页卡片没有近期热门徽章');
+const trendingJson = JSON.parse(read('api/trending.json') || '{}');
+if (!Array.isArray(trendingJson.items) || trendingJson.items.length < 1) fail('api/trending.json 没有条目');
+if (existsSync(join(dist, 'benchmarks/terminal-bench-science/index.html'))) {
+  if (!trendingPage.includes('/benchmark-atlas/benchmarks/terminal-bench-science/')) {
+    fail('Terminal-Bench-Science 已有档案，热门页却没有链过去');
+  }
+  const hotDetail = read('benchmarks/terminal-bench-science/index.html');
+  if (!hotDetail.includes('为什么近期热门')) fail('详情页缺少为什么近期热门');
+  if (!hotDetail.includes('🔥 近期热门')) fail('详情页缺少热门徽章');
+}
 
 const news = JSON.parse(read('api/news.json') || '[]');
 for (const item of news) {

@@ -211,6 +211,50 @@ export function allTags(records: RecordView[]): string[] {
   return [...tags].sort((a, b) => a.localeCompare(b, 'zh'));
 }
 
+export type TrendingEvidence = {
+  url: string;
+  what?: string;
+  date?: string;
+  organization?: string;
+};
+
+export type TrendingItem = {
+  slug: string;
+  name: string;
+  section: string;
+  rank: number;
+  heat_score?: number;
+  heat_confidence: 'A' | 'B';
+  rationale: string;
+  evidence: TrendingEvidence[];
+};
+
+export type TrendingFile = {
+  generated_at?: string;
+  window?: { from?: string; through?: string; frontier_launch_extension_from?: string };
+  note?: string;
+  items: TrendingItem[];
+};
+
+export type TrendingView = TrendingItem & { linked: boolean };
+
+export function loadTrending(): TrendingFile {
+  const file = readJson<TrendingFile>('data/trending.json');
+  return {
+    ...file,
+    items: [...(file.items ?? [])].sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, 'zh')),
+  };
+}
+
+export function trendingViews(): TrendingView[] {
+  const known = new Set(loadIndex().benchmarks.map((item) => item.id));
+  return loadTrending().items.map((item) => ({ ...item, linked: known.has(item.slug) }));
+}
+
+export function trendingFor(id: string): TrendingView | undefined {
+  return trendingViews().find((item) => item.slug === id);
+}
+
 export function newsWhen(item: NewsItem): string {
   const observed = `观察 ${item.observed_date}`;
   if (!item.event_date || item.event_date === '待核实') return `${observed} · 事件日期待核实`;

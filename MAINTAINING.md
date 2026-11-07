@@ -20,6 +20,7 @@
 - `data/index.json`：首页卡片用的名称、板块、标签、摘要和 Drive 链接。新增基准要在这里登记。
 - `content/benchmarks/<id>.md`：同名中文介绍。接口会原样提供这份原稿。
 - `data/news.json`：首页动态。`observed_date` 是观察日；事件日期没有证实时写 `待核实`，不要写成“今天发布”。
+- `data/trending.json`：近期热门。每条要有 `slug`、`name`、`heat_confidence`（A 或 B）、`rationale`，以及至少一条带来源地址的 `evidence`。还没有 `data/benchmarks/<slug>.json` 时，站点只展示证据链接，不链到不存在的档案页。
 - `CONSTITUTION.md`：宪法页面和 `/api/constitution.md`。
 - `data/drive-manifest.json`、`data/quality-report.json`、`data/master-index.csv`：随只读接口一起发布。
 

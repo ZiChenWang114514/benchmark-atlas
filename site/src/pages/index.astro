@@ -7,9 +7,13 @@ import {
   loadNews,
   loadQuality,
   loadRecords,
+  loadTrending,
   newsWhen,
   sectionGroups,
+  trendingViews,
 } from '../lib/data';
+import HeatLegend from '../components/HeatLegend.astro';
+import TrendItem from '../components/TrendItem.astro';
 import { page, safeUrl, textValue, tone } from '../lib/format';
 
 const index = loadIndex();
@@ -23,6 +27,10 @@ const [lead, ...rest] = news;
 const deferred = quality.deferred ?? [];
 const excluded = (quality.excluded_as_nonexistent ?? []).filter((item) => item.name && item.reason);
 const catalog = records.map((record) => record.index);
+const trending = loadTrending();
+const hotList = trendingViews();
+const hotBySlug = new Map(hotList.map((item) => [item.slug, item]));
+const hotPreview = hotList.slice(0, 12);
 function hostOf(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
@@ -46,6 +54,21 @@ function hostOf(url: string): string {
         · <a href={page('constitution')}>收录范围与真实性原则见《收集宪法》</a>
       </p>
     </header>
+
+    <section class="section" id="trending" aria-labelledby="trending-title">
+      <header class="flag">
+        <h2 id="trending-title">近期热门</h2>
+        <p>
+          {trending.window?.from && trending.window?.through ? `${trending.window.from} 至 ${trending.window.through}` : '按热度排序'}
+          {' · '}
+          <a href={page('trending')}>全部 {hotList.length} 条</a>
+        </p>
+      </header>
+      <HeatLegend />
+      <div class="trend-grid">
+        {hotPreview.map((item) => <TrendItem item={item} showWhat={false} />)}
+      </div>
+    </section>
 
     <section class="section" id="news" aria-labelledby="news-title">
       <header class="flag">
@@ -177,6 +200,9 @@ function hostOf(url: string): string {
                 <span class="card-section">
                   {record.index.section}
                   {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
+                  {hotBySlug.get(record.index.id) && (
+                    <span class="badge badge-hot">🔥 近期热门 {hotBySlug.get(record.index.id)?.heat_confidence}</span>
+                  )}
                 </span>
                 <h3>{record.index.name}</h3>
                 <p class="card-summary">{record.index.summary}</p>

@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description: string;
-  active?: 'home' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'constitution' | 'api';
 }
 const { title, description, active } = Astro.props;
 const fullTitle = title === 'Benchmark Atlas' ? 'Benchmark Atlas · 自然科学评测图鉴' : `${title} · Benchmark Atlas`;

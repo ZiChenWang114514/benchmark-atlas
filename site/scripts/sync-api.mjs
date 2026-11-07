@@ -94,6 +94,27 @@ for (const item of news ?? []) {
 
 if (!existsSync(join(repoRoot, 'CONSTITUTION.md'))) errors.push('缺少 CONSTITUTION.md');
 if (!existsSync(join(repoRoot, 'schema/benchmark.schema.json'))) errors.push('缺少 schema');
+
+const trendingPath = join(repoRoot, 'data/trending.json');
+if (!existsSync(trendingPath)) {
+  errors.push('缺少 data/trending.json');
+} else {
+  const trending = readJson(trendingPath);
+  if (!Array.isArray(trending.items) || trending.items.length < 1) errors.push('data/trending.json 缺少 items');
+  const slugs = new Set();
+  for (const item of trending.items ?? []) {
+    if (!item?.slug || typeof item.slug !== 'string') errors.push('热门条目缺少 slug');
+    else if (slugs.has(item.slug)) errors.push(`热门 slug 重复：${item.slug}`);
+    else slugs.add(item.slug);
+    if (!item?.name) errors.push(`${item?.slug ?? '热门条目'} 缺少 name`);
+    if (item?.heat_confidence !== 'A' && item?.heat_confidence !== 'B') {
+      errors.push(`${item?.slug ?? '热门条目'} 的 heat_confidence 必须是 A 或 B`);
+    }
+    if (!item?.rationale || typeof item.rationale !== 'string') errors.push(`${item?.slug ?? '热门条目'} 缺少 rationale`);
+    const urls = (item?.evidence ?? []).filter((entry) => entry && typeof entry.url === 'string' && entry.url);
+    if (urls.length < 1) errors.push(`${item?.slug ?? '热门条目'} 至少需要一条证据 url`);
+  }
+}
 if (errors.length) fail(errors);
 
 rmSync(outDir, { recursive: true, force: true });
@@ -115,6 +136,7 @@ function publish(from, to, description, group, page) {
 
 publish(join(repoRoot, 'data/index.json'), 'index.json', '导航索引：名称、主板块、标签、摘要、来源和 Drive 链接。', 'overview');
 publish(join(repoRoot, 'data/news.json'), 'news.json', '最新动态。观察日和事件日分开；没有证实的事件日写“待核实”。', 'overview');
+publish(join(repoRoot, 'data/trending.json'), 'trending.json', '近期热门。heat_confidence 为 A 或 B；没有对应档案的 slug 不会因此构建失败。', 'overview');
 publish(join(repoRoot, 'data/drive-manifest.json'), 'drive-manifest.json', 'Drive 总目录、宪法文档、总表，以及每条基准的 PDF 和介绍文档。', 'overview');
 publish(join(repoRoot, 'data/quality-report.json'), 'quality-report.json', '校验摘要、待核实字段路径，以及暂缓收录的说明。', 'overview');
 publish(join(repoRoot, 'data/master-index.csv'), 'master-index.csv', '总表，可供表格软件导入。', 'overview');

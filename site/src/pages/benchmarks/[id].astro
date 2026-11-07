@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Chapter from '../../components/Chapter.astro';
 import { CHAPTERS } from '../../lib/chapters';
-import { loadNews, loadRecords, newsForBenchmark, type BenchmarkFile } from '../../lib/data';
+import { loadNews, loadRecords, newsForBenchmark, trendingFor, type BenchmarkFile } from '../../lib/data';
 import {
   PENDING_EXPLANATION,
   badgeClass,
@@ -81,6 +81,7 @@ function host(url: string): string {
   }
 }
 const summary = record.index.summary;
+const hot = trendingFor(record.index.id);
 ---
 <Base title={record.index.name} description={summary} active="home">
   <div class="wrap detail-layout">
@@ -110,6 +111,7 @@ const summary = record.index.summary;
         </li>
         <li>{record.pending} 项待核实</li>
         {record.index.last_checked && <li>核验 {record.index.last_checked}</li>}
+        {hot && <li><span class="badge badge-hot">🔥 近期热门 {hot.heat_confidence}</span></li>}
       </ul>
       <div class="actions">
         {driveHref && <a class="action action-primary" href={driveHref} target="_blank" rel="noopener noreferrer">论文 PDF · Drive</a>}
@@ -121,6 +123,27 @@ const summary = record.index.summary;
       <div class="callout">
         <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
       </div>
+      {hot && (
+        <div class="callout">
+          <p>
+            <strong>为什么近期热门。</strong>
+            {hot.heat_confidence === 'A' ? '多家机构共同采用。' : '主要单一机构在用。'}
+            {hot.rationale}
+          </p>
+          <ul class="trend-evidence">
+            {hot.evidence.map((entry) => {
+              const href = safeUrl(entry.url);
+              const label = [entry.organization, entry.date].filter(Boolean).join(' · ') || entry.url;
+              return (
+                <li>
+                  {href ? <a href={href} target="_blank" rel="noopener noreferrer">{label}</a> : <span>{label}</span>}
+                  {entry.what ? <p>{entry.what}</p> : null}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
       {record.index.cited_2026h2 && (
         <div class="callout">
           <p><strong>2026下半年仍被引用。</strong>{record.index.citation_note}</p>

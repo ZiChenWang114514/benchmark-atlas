@@ -108,6 +108,8 @@ export const SECTIONS: { id: string; blurb: string }[] = [
   { id: '多模态', blurb: '图文、视频与跨模态' },
   { id: 'Agent', blurb: '交互、工具与长程任务' },
   { id: '安全', blurb: '安全、越狱与有害内容' },
+  { id: '语音', blurb: '语音理解与生成' },
+  { id: '机器人与具身', blurb: '具身操作与机器人任务' },
 ];
 
 export const PRIMARY_SECTIONS = SECTIONS.slice(0, 5);
