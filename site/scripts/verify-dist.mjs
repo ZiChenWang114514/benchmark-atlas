@@ -24,14 +24,30 @@ const index = JSON.parse(read('api/index.json') || '{}');
 const boilerplate = '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。';
 const chapters = ['基本信息', '发起与维护', '设计目标', '构建方式', '数据形式', '评测方法', '最新情况', '榜单快照', '联系方式', '原始文件', '变更记录'];
 
+const sectionOrder = ['物理', '化学', '生物与医学', '地球与天文', '材料', '语言', '推理', '数学', '代码', '多模态', 'Agent', '安全'];
+const sectionCounts = {};
+for (const item of index.benchmarks ?? []) {
+  sectionCounts[item.section] = (sectionCounts[item.section] || 0) + 1;
+}
+
 if (!home.includes('最新动态')) fail('首页缺少最新动态');
 if (!home.includes('收集宪法')) fail('首页缺少宪法入口');
-if (!home.includes('次要板块')) fail('首页缺少次要板块');
-if (!home.includes('待收录')) fail('首页缺少待收录占位');
 if (!home.includes('/benchmark-atlas/benchmarks/')) fail('首页链接没有站点前缀');
+if (index.count != null && index.count !== index.benchmarks.length) {
+  fail(`index.count ${index.count} 与条目数 ${index.benchmarks.length} 不一致`);
+}
+if (!home.includes(`本批 ${index.benchmarks.length} 个基准`)) fail('首页基准总数与索引不一致');
 if ((home.match(/class="card"/g) || []).length !== index.benchmarks?.length) {
   fail(`首页卡片数与索引不一致`);
 }
+for (const section of sectionOrder) {
+  const count = sectionCounts[section] || 0;
+  if (!count) fail(`索引里没有板块 ${section}`);
+  if (!home.includes(section)) fail(`首页缺少板块 ${section}`);
+  if (!home.includes(`${count} 个基准`)) fail(`首页没有写出 ${section} 的 ${count} 个基准`);
+}
+const cited = (index.benchmarks ?? []).filter((item) => item.cited_2026h2).length;
+if (cited && !home.includes('2026下半年仍被引用')) fail('首页没有标出 2026下半年引用');
 if (home.lastIndexOf('<script') > home.lastIndexOf('</html>')) {
   fail('首页脚本落在 </html> 之外');
 }
@@ -59,6 +75,10 @@ if (model && !gpqa.includes(model)) fail('GPQA 榜单没有渲染首行模型');
 if (!gpqa.includes('<table')) fail('GPQA 榜单没有表格');
 if (!gpqa.includes('待核实')) fail('GPQA 缺少待核实');
 if (!gpqa.includes('使用官方名称')) fail('GPQA 缺少字段备注');
+if (!gpqa.includes('2026下半年仍被引用')) fail('GPQA 没有标出 2026下半年引用');
+if (!read('benchmarks/hle/index.html').includes('2026下半年证据')) fail('HLE 的嵌套证据没有按字段展开');
+if (!read('benchmarks/hle/index.html').includes('https://lastexam.ai')) fail('HLE 榜单来源链接没有渲染');
+if (read('benchmarks/mmlu/index.html').includes('[object Object]')) fail('MMLU 仍有未格式化对象');
 
 const matbench = read('benchmarks/matbench/index.html');
 if (!matbench.includes('mailto:ardunn@lbl.gov')) fail('Matbench 公开邮箱没有做成邮件链接');

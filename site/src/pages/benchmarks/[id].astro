@@ -121,6 +121,26 @@ const summary = record.index.summary;
       <div class="callout">
         <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
       </div>
+      {record.index.cited_2026h2 && (
+        <div class="callout">
+          <p><strong>2026下半年仍被引用。</strong>{record.index.citation_note}</p>
+          {(record.index.cited_2026h2_evidence ?? []).length > 0 && (
+            <ul class="doc-list">
+              {(record.index.cited_2026h2_evidence ?? []).map((item) => {
+                const href = safeUrl(item.url);
+                return (
+                  <li>
+                    {href ? <a href={href} target="_blank" rel="noopener noreferrer">{item.url}</a> : <span>{item.url}</span>}
+                    {item.date ? <span class="accessed">证据日期 {item.date}</span> : null}
+                    {item.accessed ? <span class="accessed">访问 {item.accessed}</span> : null}
+                    {item.note ? <p class="note">{item.note}</p> : null}
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </div>
+      )}
 
       {CHAPTERS.map((chapter) => (
         <Chapter id={chapter.id} title={chapter.title} intro={chapter.intro} entries={entriesFor(chapter.id, chapter.keys)}>

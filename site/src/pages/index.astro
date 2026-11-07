@@ -110,7 +110,7 @@ function hostOf(url: string): string {
           </a>
         ))}
       </nav>
-      <p class="index-note">跨学科基准只计入一个主板块，其他学科用标签找回来。下面的次要板块是宪法留出的位置，目前没有单独条目。</p>
+      <p class="index-note">十二个板块按收录顺序列出，数字是该板块的条目数。跨学科基准只计入一个主板块，其他学科用标签找回来。标了「2026下半年仍被引用」的，索引里有对应引用证据。</p>
     </section>
 
     <section class="section" id="browse" aria-labelledby="browse-title">
@@ -174,7 +174,10 @@ function hostOf(url: string): string {
                 href={page(`benchmarks/${record.index.id}`)}
                 style={`--tone:${tone(record.index.section)}`}
               >
-                <span class="card-section">{record.index.section}</span>
+                <span class="card-section">
+                  {record.index.section}
+                  {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
+                </span>
                 <h3>{record.index.name}</h3>
                 <p class="card-summary">{record.index.summary}</p>
                 {size && <p class="card-size">{size === '待核实' || size === '未公开' ? `规模${size}` : size}</p>}
@@ -191,17 +194,19 @@ function hostOf(url: string): string {
     ))}
 
     <div id="tail">
-      <section class="section" id="secondary" aria-labelledby="secondary-title">
-        <header class="flag">
-          <h2 id="secondary-title">次要板块</h2>
-          <p>结构留着，条目还没单独收录</p>
-        </header>
-        <ul class="reserved">
-          {reserved.map((section) => (
-            <li><span>{section}</span><em>待收录</em></li>
-          ))}
-        </ul>
-      </section>
+      {reserved.length > 0 && (
+        <section class="section" id="secondary" aria-labelledby="secondary-title">
+          <header class="flag">
+            <h2 id="secondary-title">尚未收录的板块</h2>
+            <p>宪法里有这个位置，当前索引还没有条目</p>
+          </header>
+          <ul class="reserved">
+            {reserved.map((section) => (
+              <li><span>{section}</span><em>0</em></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="section" id="principles" aria-labelledby="principles-title">
         <header class="flag">
