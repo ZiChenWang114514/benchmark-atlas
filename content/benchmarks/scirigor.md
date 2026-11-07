@@ -1,6 +1,10 @@
 # SciRigor
 
-> 第1轮实证优化｜2026-11-07（KST / Asia/Seoul）。待核实不等于未公开；历史论文结果不等于实时榜单。
+> 核验日期：2026-11-08（Asia/Seoul / KST）。访问日期不等于发布或运行日期；无法证实的字段保留待核实。
+
+SciRigor关注科学分析中“结论有没有被同一次运行的证据支持”。代理要交付代码、结构化结果、图表和原子化主张，评审则沿数据到主张的证据图查找断裂。其案例主要覆盖开放式跨学科分析，不能因库内归档于物理就把全部案例称为物理任务。
+
+导读来源：[官方材料](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）；具体事实及历史访问日期见各字段。
 
 ## 基本信息
 
@@ -8,105 +12,104 @@
 
 SciRigor
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 名称
+### 全称
 
 SciRigor
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 基准版本
 
-待核实
+论文v1描述的100案例发布协议；独立数据版本标签待核实。
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
-
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
 ### 论文版本
 
-v1；最近论文日期 2026-09-05
+v1；最近提交 2026-09-06T02:29:15+09:00 KST
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 发布日期
 
-2026-09-05（首个arXiv版本日期；非推定数据上线日）
+2026-09-06T02:29:15+09:00（KST；首个arXiv提交，不推定数据上线日）
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 主板块
 
 物理
 
-> 编辑分类沿用入选清单；不代表该基准只测本板块。
+说明：编辑分类沿用入选清单；不代表该基准只测本板块。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 领域标签
 
 - 跨学科开放式科学数据分析
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
-### 许可与使用范围
+### 许可与适用范围
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 论文
 
 https://arxiv.org/abs/2609.06192
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 官方代码
-
-待核实
-
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
-
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
-
-### 数据入口
+### 代码仓库
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
+
+### 数据地址
+
+待核实
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 官方主页
 
 https://arxiv.org/abs/2609.06192
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 论文标题
 
 SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 发起与维护
 
-### 机构与作者单位
+### 机构与发起关系
 
-论文作者团队；机构署名包含HKUST和Alibaba Group，正式项目发起关系待核实。
+Bowen Liu、Shuo Nie、Bodong Du、Xiaomeng Li论文作者团队；署名单位HKUST和Alibaba Group。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
-### 合作机构
+### 合作机构/署名单位
 
-待核实
+- HKUST
+- Alibaba Group
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：论文署名单位，非对法律合作或学校整体背书的推断。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
 ### 作者
 
@@ -115,105 +118,109 @@ SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores
 - Du, Bodong
 - Li, Xiaomeng
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 维护方
+### 当前维护入口
 
-Bowen Liu、Shuo Nie、Bodong Du、Xiaomeng Li作者团队；独立长期维护承诺待核实。
+论文通讯作者Xiaomeng Li；独立代码/数据维护入口仍待核实。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
 ### 资助方
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 设计目标
 
-### 测量能力
+### 衡量能力
 
 开放式数据分析中，数据→变换→数值结果→图→结论的可追溯完整证据链。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 针对的不足
+### 设计背景
 
 仅看最终分数、代码能运行或图像像不像，不能确认结论真正由正确分析链支持。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 构建方式
 
-### 材料来源
+### 题目或数据来源
 
 从科学论文抽取案例，对齐问题、完整输入、可执行源分析、数值结果、原图、原子化结论和溯源信息。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 出题背景
 
-跨学科研究团队；源论文涵盖六领域17子领域；逐题专家资质待核实。
+作者署名HKUST与Alibaba；案例按来源文章、作者代码和数据重建，由策划员核验；逐案例外部专家资质未在本轮取得，不能把100例统称物理专家原创。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
 ### 审核流程
 
 GPT-5.6辅助中性任务描述与Python迁移，人工策划、两次干净环境重建和最终人工审计。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 质量控制
 
 冻结数据/变换/结果/图/主张节点及边，验证数值与来源；保持参考证据图固定。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 去污染措施
 
 隐藏gold证据图；公开源论文仍可能进入预训练，不能宣称无污染。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 数据形式
 
-### 规模与统计口径
+### 规模
 
-100 个科学分析案例，覆盖 6 个领域、17 个子领域。
+- **cases**：100
+- **source_articles**：27
+- **domains**：6
+- **subfields**：17
+- **domain_cases**：{"economics_and_policy": 24, "computing_and_information_sciences": 23, "social_and_behavioral_sciences": 22, "cognitive_science": 15, "life_and_health_sciences": 9, "physical_sciences": 7}
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
-### 任务与题型
+### 题型
 
 开放式科学分析：提交可执行分析及同次运行产生的结果、可视化和结论。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 模态
 
 代码、数值结果、图表与文字主张组成的多模态证据链。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 语言
 
-Python与英语任务/主张为主；完整多语支持待核实。
+标准化参考分析统一使用Python；源工作流可由R/MATLAB等移植，GPT-5.6辅助后由策划者核验；任务、结构化结论与示例以英语呈现。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
 ### 难度
 
 依据完整证据链而非单个终值判断；不是传统选择题难度标注。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 公开与保留划分
+### 数据划分
 
 参考证据图对受测代理隐藏；公开数据下载和隐藏测试发布比例待核实。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 评测方法
 
@@ -221,194 +228,201 @@ Python与英语任务/主张为主；完整多语支持待核实。
 
 SoftECS（软证据链得分）与 Strict（完整证据链成功率）；同时分解工件忠实度和关系有效性。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 评分方式
 
 重建带类型的证据图，评分完整结论支持路径并定位最早的不受支持关系；允许有来源支持的等价分析路径。
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
-### 提示与运行设定
+### 提示与运行设置
 
 开放式分析环境；模型推理档位按论文记录，高/极高档不混为同一设置。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 官方评测入口
+### 评测脚本
 
 待核实
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ### 可比性提醒
 
 冻结参考链的替代合理分析可能需专家裁决；链内部一致不自动证明科学结论真实。编辑分类为物理，但实际仅7个物理案例。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 最新情况
 
-### 本次核验
+### 核验日期
 
-2026-11-07 Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-> 2026H2 活跃性复核：2026-09-05 原始论文报告 11 个系统配置的实际评估；这是发布与自评证据，不是独立外部引用。
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）；[2](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
-
-### 版本与发布状态
+### 数据版本与更新
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 论文修订
+### 论文修订记录
 
-2026_H2_evidence：- url：https://arxiv.org/html/2609.06192v1；date：2026-09-05；note：SciRigor 原始论文于H2提出100案例基准并开展模型实验，评估数据—代码—图表—结论证据链。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。；paper_metadata：title：SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores；authors：- Liu, Bowen
-- Nie, Shuo
-- Du, Bodong
-- Li, Xiaomeng；release：2026-09-05；latest：2026-09-05；version：v1
+- **2026_H2_evidence**：[{"url": "https://arxiv.org/html/2609.06192v1", "date": "2026-09-05", "note": "SciRigor 原始论文于H2提出100案例基准并开展模型实验，评估数据—代码—图表—结论证据链。"}]
+- **evidence_boundary**：引用不等于重新运行；本页将论文历史实验与现榜分开。
+- **paper_metadata**：{"title": "SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores", "authors": ["Liu, Bowen", "Nie, Shuo", "Du, Bodong", "Li, Xiaomeng"], "release": "2026-09-05", "latest": "2026-09-05", "version": "v1", "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history_kst为准。"}
+- **arxiv_submission_history_kst**：[{"version": "v1", "submitted_at_kst": "2026-09-06T02:29:15+09:00", "timezone": "Asia/Seoul (KST)"}]
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 饱和情况
+### 饱和程度
 
 历史最高strict为18.0%，明显不能据SoftECS较高就判为已解决。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 争议与局限
+### 争议与已知问题
 
 语义匹配器的冻结版本、来源公开性与替代科学方法覆盖影响解释；实时代码与数据发布入口仍待核实。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 衍生资源
+### 衍生基准
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 榜单快照
 
-### 采集日期
+### 快照访问日期
 
-2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）
+2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-08，KST）
 
 ### 官方榜单入口
 
 https://arxiv.org/html/2609.06192v1
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 第三方榜单
+### 第三方入口
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 已核验结果
+### 可核验结果
 
-- model：GPT-5.5 (xhigh)；SoftECS_percent：62.6；Strict_percent：18.0
-- model：GPT-5.6-Sol (high)；SoftECS_percent：61.1；Strict_percent：13.0
-- model：GPT-5.5 (high)；SoftECS_percent：59.2；Strict_percent：16.0
+- {"rank": "不设跨协议名次", "model": "GPT-5.5 (xhigh)", "score": {"execution_percent": 100.0, "transform_fidelity_percent": 57.9, "result_fidelity_percent": 68.2, "visual_fidelity_percent": 72.8, "claim_fidelity_percent": 57.2, "result_to_claim_consistency_percent": 93.4, "SoftECS_percent": 62.6, "Strict_percent": 18.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 1}
+- {"rank": "不设跨协议名次", "model": "GPT-5.5 (high)", "score": {"execution_percent": 100.0, "transform_fidelity_percent": 58.5, "result_fidelity_percent": 69.8, "visual_fidelity_percent": 70.8, "claim_fidelity_percent": 59.1, "result_to_claim_consistency_percent": 91.3, "SoftECS_percent": 59.2, "Strict_percent": 16.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 2}
+- {"rank": "不设跨协议名次", "model": "GPT-5.6-Sol (high)", "score": {"execution_percent": 100.0, "transform_fidelity_percent": 59.5, "result_fidelity_percent": 64.7, "visual_fidelity_percent": 72.8, "claim_fidelity_percent": 58.7, "result_to_claim_consistency_percent": 90.0, "SoftECS_percent": 61.1, "Strict_percent": 13.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 3}
+- {"rank": "不设跨协议名次", "model": "GPT-5.6-Sol (xhigh)", "score": {"execution_percent": 100.0, "transform_fidelity_percent": 58.7, "result_fidelity_percent": 64.8, "visual_fidelity_percent": 70.9, "claim_fidelity_percent": 57.7, "result_to_claim_consistency_percent": 88.9, "SoftECS_percent": 57.6, "Strict_percent": 11.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 4}
+- {"rank": "不设跨协议名次", "model": "GPT-5.5 (low)", "score": {"execution_percent": 63.0, "transform_fidelity_percent": 58.3, "result_fidelity_percent": 50.4, "visual_fidelity_percent": 75.4, "claim_fidelity_percent": 46.4, "result_to_claim_consistency_percent": 97.8, "SoftECS_percent": 28.0, "Strict_percent": 3.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 5}
+- {"rank": "不设跨协议名次", "model": "Qwen3.8-Max", "score": {"execution_percent": 47.0, "transform_fidelity_percent": 24.1, "result_fidelity_percent": 18.2, "visual_fidelity_percent": 34.0, "claim_fidelity_percent": 23.5, "result_to_claim_consistency_percent": 46.5, "SoftECS_percent": 20.1, "Strict_percent": 2.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 6}
+- {"rank": "不设跨协议名次", "model": "Kimi-K3", "score": {"execution_percent": 79.0, "transform_fidelity_percent": 43.5, "result_fidelity_percent": 36.4, "visual_fidelity_percent": 55.9, "claim_fidelity_percent": 40.2, "result_to_claim_consistency_percent": 73.2, "SoftECS_percent": 35.0, "Strict_percent": 1.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 7}
+- {"rank": "不设跨协议名次", "model": "GPT-5.6 (low)", "score": {"execution_percent": 88.0, "transform_fidelity_percent": 55.5, "result_fidelity_percent": 47.2, "visual_fidelity_percent": 77.3, "claim_fidelity_percent": 52.5, "result_to_claim_consistency_percent": 97.9, "SoftECS_percent": 43.0, "Strict_percent": 0.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 8}
+- {"rank": "不设跨协议名次", "model": "Claude Sonnet 5", "score": {"execution_percent": 75.0, "transform_fidelity_percent": 44.5, "result_fidelity_percent": 40.6, "visual_fidelity_percent": 54.3, "claim_fidelity_percent": 24.0, "result_to_claim_consistency_percent": 71.9, "SoftECS_percent": 22.1, "Strict_percent": 0.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 9}
+- {"rank": "不设跨协议名次", "model": "Qwen3-Coder-30B-A3B", "score": {"execution_percent": 29.0, "transform_fidelity_percent": 9.3, "result_fidelity_percent": 7.8, "visual_fidelity_percent": 17.6, "claim_fidelity_percent": 5.0, "result_to_claim_consistency_percent": 21.1, "SoftECS_percent": 1.7, "Strict_percent": 0.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 10}
+- {"rank": "不设跨协议名次", "model": "Qwen-AgentWorld-35B-A3B", "score": {"execution_percent": 12.0, "transform_fidelity_percent": 5.1, "result_fidelity_percent": 3.4, "visual_fidelity_percent": 7.1, "claim_fidelity_percent": 6.1, "result_to_claim_consistency_percent": 11.4, "SoftECS_percent": 0.0, "Strict_percent": 0.0}, "metric": "各列均为%；SoftECS与Strict不可互换", "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 KST", "result_type": "来源表格精确转录；非本库重跑", "source_row": 11}
 
-> 官方论文 v1 历史实验表；按 SoftECS 降序列前三，非实时榜单。论文版本日期 2026-09-05；榜单独立更新日期待核实。
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+### 榜单覆盖边界
 
-### 覆盖与时效说明
+完整转录论文v1 Table2全部11配置×8指标，保留原行序，不以SoftECS和Strict合成新排名；最高SoftECS62.6、Strict18.0并非同一含义。arXiv摘要和PDF本轮均已打开，未找到经核实的独立代码、HF数据卡或实时榜入口，相关字段继续待核实。
 
-已取得论文 v1 的模型结果；未取得当前实时榜单。不同推理预算分别列项，不把论文上限当作模型排名。
-
-来源：[1](https://arxiv.org/html/2609.06192v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）；[2](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 联系方式
 
-### 公开联系邮箱
+### 公开研究联系
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### Issues
-
-待核实
-
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
-
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
-
-### 官方社交渠道
+### 公开反馈渠道
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 隐私原则
+### 官方社交账号
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
+
+### 联系方式原则
+
+待核实
+
+说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
 ## 原始文件
 
-### 原文 PDF
+### Drive论文原件
+
+- **id**：1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R
+- **webViewLink**：https://drive.google.com/file/d/1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R/view
+
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
+
+### 原始PDF地址
 
 https://arxiv.org/pdf/2609.06192
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 原件 SHA-256
+### 原始文件SHA-256
 
 94d65d556cdd779ed06cccf9a280bc37dbfdc4f789cf428332866c7ae431a612
 
-来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-07）
+说明：本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。
 
-### 原件字节数
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
+
+### 原始文件字节数
 
 4553200
 
-来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2609.06192)（访问 2026-11-08，KST）
 
-### Drive 文件夹
+### Drive文件夹
 
-id：1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q；webViewLink：https://drive.google.com/drive/folders/1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q
+- **id**：1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q
+- **webViewLink**：https://drive.google.com/drive/folders/1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q
 
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）
 
-### 其他官方文档
+### 其他文档
 
-- type：中文介绍 Google Doc；id：1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4；webViewLink：https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit
+- {"type": "中文介绍 Google Doc", "id": "1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4", "webViewLink": "https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit"}
 
-来源：[1](https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit)（访问 2026-11-07）
-
-### Drive PDF
-
-id：1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R；webViewLink：https://drive.google.com/file/d/1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R/view
-
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit)（访问 2026-11-07，KST）
 
 ## 变更记录
 
-### 变更记录
+- {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"}
+- {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"}
+- {"date": "2026-11-08", "timezone": "Asia/Seoul", "change": "第2轮深度核验：完整恢复11配置×8指标，补27篇来源文章及六领域分布；仅7例物理，不再暗示全100例均为自然科学；代码/HF发布入口仍未核实。；arXiv提交时间统一换算KST，避免源站UTC日期与本地日期跨日混淆。"}
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。
-
-来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）；[2](https://arxiv.org/abs/2609.06192)（访问 2026-11-08，KST）

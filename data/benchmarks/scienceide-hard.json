@@ -8,7 +8,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -17,36 +17,34 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "ScienceIDE-Hard 85任务预览发布；官方仓库仍标preview/work in progress。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/aitofound/ScienceIDE",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_version": {
-      "value": "v1；最近论文日期 2026-09-16",
+      "value": "v1；最近提交 2026-09-17T02:55:47+09:00 KST",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2026-09-16（首个arXiv版本日期；非推定数据上线日）",
+      "value": "2026-09-17T02:55:47+09:00（KST；首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -85,7 +83,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -99,22 +97,20 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/aitofound/ScienceIDE/tree/main/hard85",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/aitofound/ScienceIDE",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://aitonomy.org/projects/scienceide",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -123,18 +119,22 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "organization": {
     "initiators": {
-      "value": "PhAI-Labs、Qwen（论文页项目标识）；多机构作者合作。",
+      "value": "PhAI Labs发起（官方README明确）；ScienceIDE技术报告列PhAI-Labs与Qwen为Sponsors。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/aitofound/ScienceIDE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -143,64 +143,124 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
-      "value": [
-        "Geng, Hejia",
-        "Huang, Zesen",
-        "Li, Haoyang",
-        "Li, Wenbin",
-        "Wu, Koutian",
-        "Zhou, Zihan",
-        "Pang, Yuanbo",
-        "Liu, Weihao",
-        "Xu, Zigong",
-        "Li, Zhiping",
-        "Zhang, Zongzheng",
-        "Dong, Chuanfei",
-        "Sun, Jiankai",
-        "Zheng, Tianzhe",
-        "Xie, Fengyu",
-        "Ma, Yue",
-        "Shi, Yueheng",
-        "Xie, Tong",
-        "Di, Zonglin",
-        "Liu, Xianrong",
-        "Gao, Qucheng",
-        "Liu, Yimin",
-        "Pan, Jiaming",
-        "Huang, Sheng",
-        "Ma, Xiao-Han",
-        "Yuan, Lanqing",
-        "Zhu, Zhenlin",
-        "Liu, Ziang",
-        "Xu, Ziyang",
-        "Wang, Junkai",
-        "Liang, Kangkai",
-        "Xian, Jiayi",
-        "Zhao, Zehong",
-        "Xu, Liuwei",
-        "Xie, Jingxu",
-        "Zhang, Peijin",
-        "Gao, Qiang",
-        "Xing, Chengyi",
-        "Zhao, Zhe",
-        "Wang, Xi",
-        "Xing, Yaopeng",
-        "Meng, Xing",
-        "Yin, Zhenfei",
-        "Wu, Yingcheng",
-        "Yang, Ling"
-      ],
+      "value": {
+        "arxiv_metadata_authors": [
+          "Geng, Hejia",
+          "Huang, Zesen",
+          "Li, Haoyang",
+          "Li, Wenbin",
+          "Wu, Koutian",
+          "Zhou, Zihan",
+          "Pang, Yuanbo",
+          "Liu, Weihao",
+          "Xu, Zigong",
+          "Li, Zhiping",
+          "Zhang, Zongzheng",
+          "Dong, Chuanfei",
+          "Sun, Jiankai",
+          "Zheng, Tianzhe",
+          "Xie, Fengyu",
+          "Ma, Yue",
+          "Shi, Yueheng",
+          "Xie, Tong",
+          "Di, Zonglin",
+          "Liu, Xianrong",
+          "Gao, Qucheng",
+          "Liu, Yimin",
+          "Pan, Jiaming",
+          "Huang, Sheng",
+          "Ma, Xiao-Han",
+          "Yuan, Lanqing",
+          "Zhu, Zhenlin",
+          "Liu, Ziang",
+          "Xu, Ziyang",
+          "Wang, Junkai",
+          "Liang, Kangkai",
+          "Xian, Jiayi",
+          "Zhao, Zehong",
+          "Xu, Liuwei",
+          "Xie, Jingxu",
+          "Zhang, Peijin",
+          "Gao, Qiang",
+          "Xing, Chengyi",
+          "Zhao, Zhe",
+          "Wang, Xi",
+          "Xing, Yaopeng",
+          "Meng, Xing",
+          "Yin, Zhenfei",
+          "Wu, Yingcheng",
+          "Yang, Ling"
+        ],
+        "paper_pdf_authors": [
+          "Hejia Geng",
+          "Zesen Huang",
+          "Haoyang Li",
+          "Wenbin Li",
+          "Koutian Wu",
+          "Zihan Zhou",
+          "Yuanbo Pang",
+          "Weihao Liu",
+          "Zigong Xu",
+          "Zhiping Li",
+          "Zongzheng Zhang",
+          "Chuanfei Dong",
+          "Jiankai Sun",
+          "Tianzhe Zheng",
+          "Fengyu Xie",
+          "Yue Ma",
+          "Yueheng Shi",
+          "Junkai Wang",
+          "Tong Xie",
+          "Zonglin Di",
+          "Xianrong Liu",
+          "Qucheng Gao",
+          "Yimin Liu",
+          "Jiaming Pan",
+          "Sheng Huang",
+          "Xiao-Han Ma",
+          "Lanqing Yuan",
+          "Zhenlin Zhu",
+          "Ziang Liu",
+          "Ziyang Xu",
+          "Kangkai Liang",
+          "Jiayi Xian",
+          "Zehong Zhao",
+          "Taigao Ma",
+          "Fuming Chang",
+          "Yuanzhe Hu",
+          "Liuwei Xu",
+          "Xianzhe Tang",
+          "Jingxu Xie",
+          "Peijin Zhang",
+          "Qiang Gao",
+          "Chengyi Xing",
+          "Zhe Zhao",
+          "Xi Wang",
+          "Leo Wang",
+          "Fang Wu",
+          "Yaopeng Xing",
+          "Xing Meng",
+          "Zhenfei Yin",
+          "Yingcheng Wu",
+          "Ling Yang"
+        ],
+        "conflict": "本轮arXiv摘要元数据45人，PDF首页51人；完整并列保留，不能只把摘要名单称为完整PDF作者名单。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -209,20 +269,18 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "技术报告封面Sponsors：PhAI-Labs、Qwen；不推断未列出的资助金额或grant编号。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -231,7 +289,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -240,7 +298,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -251,7 +309,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -260,7 +318,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -269,7 +327,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -287,18 +345,22 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "data_format": {
     "size": {
-      "value": "ScienceIDE-Hard 共 85 项任务；仓库预览公开其中 30 项，另外 55 项仅列名并保留。整体基础设施有 64 个环境，不等于 85 项任务。",
+      "value": "Hard85来自18个环境、5个仓库家族：52个repair、33个implementation任务。当前预览公开30项、保留55项。基础设施64环境、27代码库、2812训练任务是不同统计总体。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/aitofound/ScienceIDE",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -307,7 +369,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -316,7 +378,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -325,7 +387,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -354,7 +416,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -372,7 +434,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -390,25 +452,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026H2 活跃性复核：2026-09-16 技术报告及官方仓库包含训练/评估使用；这是发布与自评证据，不是独立外部引用。"
+      ]
     },
     "latest_dataset_version": {
       "value": "官方 README 标记为 preview/work in progress；完整环境、任务库和出题管线仍待后续发布。",
@@ -480,17 +537,21 @@
           ],
           "release": "2026-09-16",
           "latest": "2026-09-16",
-          "version": "v1"
-        }
+          "version": "v1",
+          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history_kst为准。"
+        },
+        "arxiv_submission_history_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2026-09-17T02:55:47+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ]
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19134v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -499,7 +560,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -508,7 +569,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -517,7 +578,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -526,11 +587,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://aitonomy.org/projects/scienceide",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -539,7 +600,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -548,40 +609,227 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "原论文2026-09 Figure7历史：Fable5.1 67.1%、Opus5 64.6%、Astra63.1%、Sol55.0%；均为85题1小时严格成功率。名称按论文标签，完整API版本/执行日期待核实；不宣称实时SOTA。",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "rank": "不设跨协议名次",
+          "model": "Claude Fable 5.1",
+          "score": 67.1,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 1,
+          "repeat_note": "单次尝试估计"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Claude Opus 5",
+          "score": 64.6,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 2,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "GPT-6 Astra",
+          "score": 63.1,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 3,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "GPT-5.6 Sol",
+          "score": 55.0,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 4,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Qwen3.8 Max",
+          "score": 39.2,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 5,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "DeepSeek V4.1 Flash",
+          "score": 36.0,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 6,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "GPT-5.6 Terra",
+          "score": 34.9,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 7,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "DeepSeek V4 Pro",
+          "score": 28.4,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 8,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Kimi K3",
+          "score": 28.4,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 9,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "GLM-5.3",
+          "score": 25.8,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 10,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Claude Sonnet 5",
+          "score": 25.4,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 11,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Gemini 3.8 Flash",
+          "score": 19.6,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 12,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "GPT-5.6 Luna",
+          "score": 18.1,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 13,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "Claude Haiku 4.5",
+          "score": 4.7,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 14,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
+        },
+        {
+          "rank": "不设跨协议名次",
+          "model": "MiniMax-M3",
+          "score": 4.4,
+          "metric": "严格科学任务成功率（%）",
+          "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
+          "source_url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "result_type": "来源表格精确转录；非本库重跑",
+          "source_row": 15,
+          "repeat_note": "按论文within-task repeat-bootstrap协议"
         }
       ],
-      "status": "待核实"
-    },
-    "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "精确转录论文v1 Figure7全部15模型标签及图中数字，非估读柱高。Fable仅单次，Opus与Astra重复区间重叠，不做显著性名次。官网项目页不另提供可比的新实时统一成绩；训练奖励结果不混进Hard85。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2609.19134",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/aitofound/ScienceIDE",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -595,7 +843,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -613,7 +861,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -624,7 +872,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -637,7 +885,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -646,16 +894,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。"
     },
     "pdf_bytes": {
       "value": 1276454,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -667,7 +916,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -695,7 +944,7 @@
     "sources": [
       {
         "url": "https://arxiv.org/abs/2609.19134",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   },
@@ -710,12 +959,21 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：Hard85明确18环境、52修复/33实现；修复非结构化榜单为Figure7全部15行；补官方hard85发布地址和封面Sponsors。；arXiv提交时间统一换算KST，避免源站UTC日期与本地日期跨日混淆。；发现作者名单冲突：arXiv摘要45人、实际PDF首页51人，双源并列而不静默覆盖。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2609.19134",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://aitonomy.org/projects/scienceide",
+        "accessed": "2026-11-08"
       }
     ]
   }
