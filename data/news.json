@@ -1,561 +1,578 @@
 [
-  {
-    "id": "weatherbench-x",
-    "observed_date": "2026-11-07",
-    "event_date": "待核实",
-    "timezone": "Asia/Seoul",
-    "title": "WeatherBench 当前官网采用 WeatherBench-X 评测代码",
-    "body": "官网强调按变量、提前期与指标比较，没有单一概括全部预报质量的排名。",
-    "sources": [
-      {
-        "url": "https://sites.research.google/weatherbench/",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "核验观察",
-    "sort_date": "2026-11-07",
-    "sort_date_basis": "observed_date"
-  },
-  {
-    "id": "scicode-audit",
-    "observed_date": "2026-11-07",
-    "event_date": "待核实",
-    "timezone": "Asia/Seoul",
-    "title": "SciCode 分数存在审计复核提示",
-    "body": "Artificial Analysis 提示独立审计发现可能有错误测试，正在复核；本库暂不从不可读图表补填最新数值。",
-    "sources": [
-      {
-        "url": "https://artificialanalysis.ai/evaluations/scicode",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "核验观察",
-    "sort_date": "2026-11-07",
-    "sort_date_basis": "observed_date"
-  },
-  {
-    "id": "matbench-metric",
-    "observed_date": "2026-11-07",
-    "event_date": "待核实",
-    "timezone": "Asia/Seoul",
-    "title": "Matbench 历史分类指标存在解释风险",
-    "body": "官方指出旧ROC-AUC由阈值化预测计算、实为balanced accuracy；历史分数尚未重算。",
-    "sources": [
-      {
-        "url": "https://matbench.materialsproject.org/",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "核验观察",
-    "sort_date": "2026-11-07",
-    "sort_date_basis": "observed_date"
-  },
-  {
-    "id": "matbench-discovery-snapshot",
-    "observed_date": "2026-11-07",
-    "event_date": "待核实",
-    "timezone": "Asia/Seoul",
-    "title": "记录 Matbench Discovery 当前CPS榜单",
-    "body": "官方默认Unique Prototypes/require forces设置下，DPA-4.1-Max-OAM-PFT为0.913、Prophet-OAME-MBD为0.912、DPA-4.1-Max-OAM为0.910；仅为本次快照，不声称发生排名变化。",
-    "sources": [
-      {
-        "url": "https://matbench-discovery.materialsproject.org/",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "核验观察",
-    "sort_date": "2026-11-07",
-    "sort_date_basis": "observed_date"
-  },
-  {
-    "id": "gpqa-snapshot",
-    "observed_date": "2026-11-07",
-    "event_date": "待核实",
-    "timezone": "Asia/Seoul",
-    "title": "记录 GPQA Diamond 第三方榜单快照",
-    "body": "Artificial Analysis 页面显示 GPT-6 Astra (Xhigh) 96.3%、GPT-6 Astra (Max) 96.1%、Gemini 3.8 Flash (High) 95.3%；快照只代表本次访问。",
-    "sources": [
-      {
-        "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "核验观察",
-    "sort_date": "2026-11-07",
-    "sort_date_basis": "observed_date"
-  },
-  {
-    "date": "2026-10-28",
-    "title": "AA-Omniscience v1.1仍用于新模型评估",
-    "summary": "Artificial Analysis 的 Gemini4Carbon评测实际报告v1.1指标；与v1论文摘要区分。",
-    "sources": [
-      {
-        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "lang-safety-a4623bf0dc84",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-28",
-    "timezone": "Asia/Seoul",
-    "body": "Artificial Analysis 的 Gemini4Carbon评测实际报告v1.1指标；与v1论文摘要区分。",
-    "batch": "lang-safety",
-    "slugs": [],
-    "sort_date": "2026-10-28",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-10-28",
-    "title": "AA评测Gemini 4 Carbon：Terminal-Bench4.0、FrontierCode1.1、AA-Briefcase与AutomationBench-AA仍受追踪",
-    "slugs": [
-      "terminal-bench",
-      "frontiercode",
-      "aa-briefcase",
-      "automationbench-aa"
-    ],
-    "sources": [
-      {
-        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "code-agent-d35f2cf6a723",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-28",
-    "timezone": "Asia/Seoul",
-    "body": "AA评测Gemini 4 Carbon：Terminal-Bench4.0、FrontierCode1.1、AA-Briefcase与AutomationBench-AA仍受追踪。详见来源。",
-    "batch": "code-agent",
-    "sort_date": "2026-10-28",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-10-27",
-    "title": "FrontierCode 2.0发布：更广仓库、安全与性能任务和更强完整性检查",
-    "slugs": [
-      "frontiercode"
-    ],
-    "sources": [
-      {
-        "url": "https://cognition.com/blog/frontier-code-2.0",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "code-agent-401bbe969a24",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-27",
-    "timezone": "Asia/Seoul",
-    "body": "FrontierCode 2.0发布：更广仓库、安全与性能任务和更强完整性检查。详见来源。",
-    "batch": "code-agent",
-    "sort_date": "2026-10-27",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-10-22",
-    "title": "MMVistaReason v2实际评测八个多模态基准",
-    "slugs": [
-      "mmmu",
-      "mmbench",
-      "mathvista",
-      "mathverse",
-      "scienceqa",
-      "chartqa",
-      "charxiv",
-      "realworldqa"
-    ],
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "accessed": "2026-11-07",
-    "note": "T=0、max16384、CompassVerifier，属于研究论文结果而非各基准官方榜单更新。",
-    "id": "multimodal-4e22cfe878ec",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-22",
-    "timezone": "Asia/Seoul",
-    "body": "T=0、max16384、CompassVerifier，属于研究论文结果而非各基准官方榜单更新。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2610.01352v2",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "multimodal",
-    "sort_date": "2026-10-22",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-10-19",
-    "title": "HLE arXiv v12；包含审计分歧与HLE-Rolling说明，不把论文修订自动当作数据新版本",
-    "slugs": [
-      "hle"
-    ],
-    "source_url": "https://arxiv.org/abs/2501.14249",
-    "accessed": "2026-11-07",
-    "id": "reason-math-2ee5ef3d9160",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-19",
-    "timezone": "Asia/Seoul",
-    "body": "HLE arXiv v12；包含审计分歧与HLE-Rolling说明，不把论文修订自动当作数据新版本。详见来源。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/abs/2501.14249",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "reason-math",
-    "sort_date": "2026-10-19",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "omicsbench",
-    "date": "2026-10-15",
-    "title": "OmicsBench将组学代理测评扩展为多轮研究流程",
-    "summary": "97任务/662子任务；single-pass与gated结果分开，反馈收益有reward-hacking解释边界。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2610.21074v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-47dd93eaed88",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-15",
-    "timezone": "Asia/Seoul",
-    "body": "97任务/662子任务；single-pass与gated结果分开，反馈收益有reward-hacking解释边界。",
-    "batch": "sci",
-    "slugs": [
-      "omicsbench"
-    ],
-    "sort_date": "2026-10-15",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-10-12",
-    "title": "FramePack-U研究继续使用Video-MME",
-    "slugs": [
-      "video-mme"
-    ],
-    "source_url": "https://arxiv.org/html/2610.16118v1",
-    "accessed": "2026-11-07",
-    "id": "multimodal-6cdb179bb4f5",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-10-12",
-    "timezone": "Asia/Seoul",
-    "body": "FramePack-U研究继续使用Video-MME。详见来源。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2610.16118v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "multimodal",
-    "sort_date": "2026-10-12",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "astrommbench",
-    "date": "2026-09-30",
-    "title": "AstroMMBench正式版明确592题与25模型",
-    "summary": "正式版公开污染风险和单主审边界，替代旧摘要621题口径。",
-    "sources": [
-      {
-        "url": "https://www.mdpi.com/2218-1997/12/10/296",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-527b33acbcd5",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-30",
-    "timezone": "Asia/Seoul",
-    "body": "正式版公开污染风险和单主审边界，替代旧摘要621题口径。",
-    "batch": "sci",
-    "slugs": [
-      "astrommbench"
-    ],
-    "sort_date": "2026-09-30",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-09-24",
-    "title": "音频问答不确定性研究继续使用MMAU test-mini",
-    "slugs": [
-      "mmau"
-    ],
-    "source_url": "https://arxiv.org/html/2609.28879v1",
-    "accessed": "2026-11-07",
-    "id": "multimodal-30915f81f6bb",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-24",
-    "timezone": "Asia/Seoul",
-    "body": "音频问答不确定性研究继续使用MMAU test-mini。详见来源。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.28879v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "multimodal",
-    "sort_date": "2026-09-24",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-09-17",
-    "title": "Harness设计实证研究在SWE-bench Verified500和Terminal-Bench2.1的89任务上比较176设置",
-    "slugs": [
-      "swe-bench-verified",
-      "terminal-bench"
-    ],
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.20804v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "code-agent-48b73bc13e5b",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-17",
-    "timezone": "Asia/Seoul",
-    "body": "Harness设计实证研究在SWE-bench Verified500和Terminal-Bench2.1的89任务上比较176设置。详见来源。",
-    "batch": "code-agent",
-    "sort_date": "2026-09-17",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "scienceide-hard",
-    "date": "2026-09-16",
-    "title": "ScienceIDE-Hard公布85题科学代码评测",
-    "summary": "15个模型—harness组合、每任务1小时；领先点估计区间未建立显著次序。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.19134v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-500fcf0dca90",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-16",
-    "timezone": "Asia/Seoul",
-    "body": "15个模型—harness组合、每任务1小时；领先点估计区间未建立显著次序。",
-    "batch": "sci",
-    "slugs": [
-      "scienceide-hard"
-    ],
-    "sort_date": "2026-09-16",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "qmof",
-    "date": "2026-09-16",
-    "title": "ALIGNN2.0继续使用QMOF、CHIPS-FF与AtomBench",
-    "summary": "QMOF固定2042测试结构报告0.202eV MAE；其他材料工作流条件不同，不据此跨协议排名。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.19487v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-3b1d888577d2",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-16",
-    "timezone": "Asia/Seoul",
-    "body": "QMOF固定2042测试结构报告0.202eV MAE；其他材料工作流条件不同，不据此跨协议排名。",
-    "batch": "sci",
-    "slugs": [
-      "qmof"
-    ],
-    "sort_date": "2026-09-16",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-09-10",
-    "title": "RAG-Safety-Bench提出受控检索安全评测",
-    "summary": "分别测量有害性、能力和拒答；987完整query，346balanced子集；oracle仍有partial答案问题。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/abs/2609.11758",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "lang-safety-9da5a1be20e5",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-10",
-    "timezone": "Asia/Seoul",
-    "body": "分别测量有害性、能力和拒答；987完整query，346balanced子集；oracle仍有partial答案问题。",
-    "batch": "lang-safety",
-    "slugs": [],
-    "sort_date": "2026-09-10",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-09-07",
-    "title": "H2研究比较HarmBench与StrongREJECT等自动越狱裁判可靠性",
-    "summary": "使用共同人工标注数据比较裁判，不应将自动评价视为无偏金标准。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.10594v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "lang-safety-bdf7efe4365c",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-07",
-    "timezone": "Asia/Seoul",
-    "body": "使用共同人工标注数据比较裁判，不应将自动评价视为无偏金标准。",
-    "batch": "lang-safety",
-    "slugs": [],
-    "sort_date": "2026-09-07",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "scirigor",
-    "date": "2026-09-05",
-    "title": "SciRigor以完整证据链检验开放科学分析",
-    "summary": "原始论文报告100图级案例；strict与SoftECS分开，不能用终值分数替代链完整性。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2609.06192v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-019f4e484e33",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-09-05",
-    "timezone": "Asia/Seoul",
-    "body": "原始论文报告100图级案例；strict与SoftECS分开，不能用终值分数替代链完整性。",
-    "batch": "sci",
-    "slugs": [
-      "scirigor"
-    ],
-    "sort_date": "2026-09-05",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-08-26",
-    "title": "MAA宣布2027 AIME在Pearson考点举行；不等于AI基准新数据发布",
-    "slugs": [
-      "aime"
-    ],
-    "source_url": "https://maa.org/news/maa-announces-official-testing-centers-for-the-2027-american-invitational-mathematics-examination/",
-    "accessed": "2026-11-07",
-    "id": "reason-math-27c105ce81a8",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-08-26",
-    "timezone": "Asia/Seoul",
-    "body": "MAA宣布2027 AIME在Pearson考点举行；不等于AI基准新数据发布。详见来源。",
-    "sources": [
-      {
-        "url": "https://maa.org/news/maa-announces-official-testing-centers-for-the-2027-american-invitational-mathematics-examination/",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "reason-math",
-    "sort_date": "2026-08-26",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "slug": "chemdirt",
-    "date": "2026-08-21",
-    "title": "ChemDIRT系统检查化学提示与表示鲁棒性",
-    "summary": "4484例、33任务表示设置；多任务指标不合成伪总榜。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/html/2608.21504v1",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "id": "sci-110ebae5244d",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-08-21",
-    "timezone": "Asia/Seoul",
-    "body": "4484例、33任务表示设置；多任务指标不合成伪总榜。",
-    "batch": "sci",
-    "slugs": [
-      "chemdirt"
-    ],
-    "sort_date": "2026-08-21",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "id": "bioprobench-v4",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-07-27",
-    "timezone": "Asia/Seoul",
-    "title": "BioProBench 论文已修订到 v4",
-    "body": "arXiv 记录 v4；主体报告22,413份协议与523,784任务实例。协议数与附录一处27,000的差异已标记待核实。",
-    "sources": [
-      {
-        "url": "https://arxiv.org/abs/2505.07889",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "type": "论文修订",
-    "sort_date": "2026-07-27",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "FrontierMath v2修正42%题目并删题；此项是版本背景，早于H2，不作为H2收录证据",
-    "slugs": [
-      "frontiermath"
-    ],
-    "source_url": "https://epoch.ai/benchmarks/frontiermath",
-    "accessed": "2026-11-07",
-    "id": "reason-math-6bdd35e821fe",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-06-12",
-    "timezone": "Asia/Seoul",
-    "body": "FrontierMath v2修正42%题目并删题；此项是版本背景，早于H2，不作为H2收录证据。详见来源。",
-    "sources": [
-      {
-        "url": "https://epoch.ai/benchmarks/frontiermath",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "reason-math",
-    "sort_date": "2026-06-12",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-02-12",
-    "title": "MMMU官方开放test答案",
-    "slugs": [
-      "mmmu"
-    ],
-    "source_url": "https://mmmu-benchmark.github.io/",
-    "accessed": "2026-11-07",
-    "id": "multimodal-a9757b2691bb",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-02-12",
-    "timezone": "Asia/Seoul",
-    "body": "MMMU官方开放test答案。详见来源。",
-    "sources": [
-      {
-        "url": "https://mmmu-benchmark.github.io/",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "multimodal",
-    "sort_date": "2026-02-12",
-    "sort_date_basis": "event_date"
-  },
-  {
-    "date": "2026-01-30",
-    "title": "MMAU test评测迁到Hugging Face Space",
-    "slugs": [
-      "mmau"
-    ],
-    "source_url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
-    "accessed": "2026-11-07",
-    "id": "multimodal-40e923ee1b5f",
-    "observed_date": "2026-11-07",
-    "event_date": "2026-01-30",
-    "timezone": "Asia/Seoul",
-    "body": "MMAU test评测迁到Hugging Face Space。详见来源。",
-    "sources": [
-      {
-        "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "batch": "multimodal",
-    "sort_date": "2026-01-30",
-    "sort_date_basis": "event_date"
-  }
+ {
+  "id": "aa-intelligence-index-v5",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "title": "Artificial Analysis 智能指数 v5 新增 Terminal-Bench-Science、CritPt v2 等科学评测",
+  "body": "AA 于10月27日升级指数，Terminal-Bench-Science 作为新增科学评测进入核心分项；Benchmark Atlas 已为这批近期热门 benchmark 建档。",
+  "sources": [
+   {
+    "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-10-27",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "id": "weatherbench-x",
+  "observed_date": "2026-11-07",
+  "event_date": "待核实",
+  "timezone": "Asia/Seoul",
+  "title": "WeatherBench 当前官网采用 WeatherBench-X 评测代码",
+  "body": "官网强调按变量、提前期与指标比较，没有单一概括全部预报质量的排名。",
+  "sources": [
+   {
+    "url": "https://sites.research.google/weatherbench/",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-11-07",
+  "sort_date_basis": "observed_date"
+ },
+ {
+  "id": "scicode-audit",
+  "observed_date": "2026-11-07",
+  "event_date": "待核实",
+  "timezone": "Asia/Seoul",
+  "title": "SciCode 分数存在审计复核提示",
+  "body": "Artificial Analysis 提示独立审计发现可能有错误测试，正在复核；本库暂不从不可读图表补填最新数值。",
+  "sources": [
+   {
+    "url": "https://artificialanalysis.ai/evaluations/scicode",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-11-07",
+  "sort_date_basis": "observed_date"
+ },
+ {
+  "id": "matbench-metric",
+  "observed_date": "2026-11-07",
+  "event_date": "待核实",
+  "timezone": "Asia/Seoul",
+  "title": "Matbench 历史分类指标存在解释风险",
+  "body": "官方指出旧ROC-AUC由阈值化预测计算、实为balanced accuracy；历史分数尚未重算。",
+  "sources": [
+   {
+    "url": "https://matbench.materialsproject.org/",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-11-07",
+  "sort_date_basis": "observed_date"
+ },
+ {
+  "id": "matbench-discovery-snapshot",
+  "observed_date": "2026-11-07",
+  "event_date": "待核实",
+  "timezone": "Asia/Seoul",
+  "title": "记录 Matbench Discovery 当前CPS榜单",
+  "body": "官方默认Unique Prototypes/require forces设置下，DPA-4.1-Max-OAM-PFT为0.913、Prophet-OAME-MBD为0.912、DPA-4.1-Max-OAM为0.910；仅为本次快照，不声称发生排名变化。",
+  "sources": [
+   {
+    "url": "https://matbench-discovery.materialsproject.org/",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-11-07",
+  "sort_date_basis": "observed_date"
+ },
+ {
+  "id": "gpqa-snapshot",
+  "observed_date": "2026-11-07",
+  "event_date": "待核实",
+  "timezone": "Asia/Seoul",
+  "title": "记录 GPQA Diamond 第三方榜单快照",
+  "body": "Artificial Analysis 页面显示 GPT-6 Astra (Xhigh) 96.3%、GPT-6 Astra (Max) 96.1%、Gemini 3.8 Flash (High) 95.3%；快照只代表本次访问。",
+  "sources": [
+   {
+    "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "核验观察",
+  "sort_date": "2026-11-07",
+  "sort_date_basis": "observed_date"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "AA-Omniscience v1.1仍用于新模型评估",
+  "summary": "Artificial Analysis 的 Gemini4Carbon评测实际报告v1.1指标；与v1论文摘要区分。",
+  "sources": [
+   {
+    "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "lang-safety-a4623bf0dc84",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "body": "Artificial Analysis 的 Gemini4Carbon评测实际报告v1.1指标；与v1论文摘要区分。",
+  "batch": "lang-safety",
+  "slugs": [],
+  "sort_date": "2026-10-28",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "AA评测Gemini 4 Carbon：Terminal-Bench4.0、FrontierCode1.1、AA-Briefcase与AutomationBench-AA仍受追踪",
+  "slugs": [
+   "terminal-bench",
+   "frontiercode",
+   "aa-briefcase",
+   "automationbench-aa"
+  ],
+  "sources": [
+   {
+    "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "code-agent-d35f2cf6a723",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "body": "AA评测Gemini 4 Carbon：Terminal-Bench4.0、FrontierCode1.1、AA-Briefcase与AutomationBench-AA仍受追踪。详见来源。",
+  "batch": "code-agent",
+  "sort_date": "2026-10-28",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "FrontierCode 2.0发布：更广仓库、安全与性能任务和更强完整性检查",
+  "slugs": [
+   "frontiercode"
+  ],
+  "sources": [
+   {
+    "url": "https://cognition.com/blog/frontier-code-2.0",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "code-agent-401bbe969a24",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "body": "FrontierCode 2.0发布：更广仓库、安全与性能任务和更强完整性检查。详见来源。",
+  "batch": "code-agent",
+  "sort_date": "2026-10-27",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "MMVistaReason v2实际评测八个多模态基准",
+  "slugs": [
+   "mmmu",
+   "mmbench",
+   "mathvista",
+   "mathverse",
+   "scienceqa",
+   "chartqa",
+   "charxiv",
+   "realworldqa"
+  ],
+  "source_url": "https://arxiv.org/html/2610.01352v2",
+  "accessed": "2026-11-07",
+  "note": "T=0、max16384、CompassVerifier，属于研究论文结果而非各基准官方榜单更新。",
+  "id": "multimodal-4e22cfe878ec",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-22",
+  "timezone": "Asia/Seoul",
+  "body": "T=0、max16384、CompassVerifier，属于研究论文结果而非各基准官方榜单更新。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2610.01352v2",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "multimodal",
+  "sort_date": "2026-10-22",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "HLE arXiv v12；包含审计分歧与HLE-Rolling说明，不把论文修订自动当作数据新版本",
+  "slugs": [
+   "hle"
+  ],
+  "source_url": "https://arxiv.org/abs/2501.14249",
+  "accessed": "2026-11-07",
+  "id": "reason-math-2ee5ef3d9160",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-19",
+  "timezone": "Asia/Seoul",
+  "body": "HLE arXiv v12；包含审计分歧与HLE-Rolling说明，不把论文修订自动当作数据新版本。详见来源。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/abs/2501.14249",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "reason-math",
+  "sort_date": "2026-10-19",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "omicsbench",
+  "date": "2026-10-15",
+  "title": "OmicsBench将组学代理测评扩展为多轮研究流程",
+  "summary": "97任务/662子任务；single-pass与gated结果分开，反馈收益有reward-hacking解释边界。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2610.21074v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-47dd93eaed88",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "body": "97任务/662子任务；single-pass与gated结果分开，反馈收益有reward-hacking解释边界。",
+  "batch": "sci",
+  "slugs": [
+   "omicsbench"
+  ],
+  "sort_date": "2026-10-15",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-10-12",
+  "title": "FramePack-U研究继续使用Video-MME",
+  "slugs": [
+   "video-mme"
+  ],
+  "source_url": "https://arxiv.org/html/2610.16118v1",
+  "accessed": "2026-11-07",
+  "id": "multimodal-6cdb179bb4f5",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-10-12",
+  "timezone": "Asia/Seoul",
+  "body": "FramePack-U研究继续使用Video-MME。详见来源。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2610.16118v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "multimodal",
+  "sort_date": "2026-10-12",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "astrommbench",
+  "date": "2026-09-30",
+  "title": "AstroMMBench正式版明确592题与25模型",
+  "summary": "正式版公开污染风险和单主审边界，替代旧摘要621题口径。",
+  "sources": [
+   {
+    "url": "https://www.mdpi.com/2218-1997/12/10/296",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-527b33acbcd5",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-30",
+  "timezone": "Asia/Seoul",
+  "body": "正式版公开污染风险和单主审边界，替代旧摘要621题口径。",
+  "batch": "sci",
+  "slugs": [
+   "astrommbench"
+  ],
+  "sort_date": "2026-09-30",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-09-24",
+  "title": "音频问答不确定性研究继续使用MMAU test-mini",
+  "slugs": [
+   "mmau"
+  ],
+  "source_url": "https://arxiv.org/html/2609.28879v1",
+  "accessed": "2026-11-07",
+  "id": "multimodal-30915f81f6bb",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-24",
+  "timezone": "Asia/Seoul",
+  "body": "音频问答不确定性研究继续使用MMAU test-mini。详见来源。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.28879v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "multimodal",
+  "sort_date": "2026-09-24",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-09-17",
+  "title": "Harness设计实证研究在SWE-bench Verified500和Terminal-Bench2.1的89任务上比较176设置",
+  "slugs": [
+   "swe-bench-verified",
+   "terminal-bench"
+  ],
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.20804v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "code-agent-48b73bc13e5b",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-17",
+  "timezone": "Asia/Seoul",
+  "body": "Harness设计实证研究在SWE-bench Verified500和Terminal-Bench2.1的89任务上比较176设置。详见来源。",
+  "batch": "code-agent",
+  "sort_date": "2026-09-17",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "scienceide-hard",
+  "date": "2026-09-16",
+  "title": "ScienceIDE-Hard公布85题科学代码评测",
+  "summary": "15个模型—harness组合、每任务1小时；领先点估计区间未建立显著次序。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.19134v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-500fcf0dca90",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-16",
+  "timezone": "Asia/Seoul",
+  "body": "15个模型—harness组合、每任务1小时；领先点估计区间未建立显著次序。",
+  "batch": "sci",
+  "slugs": [
+   "scienceide-hard"
+  ],
+  "sort_date": "2026-09-16",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "qmof",
+  "date": "2026-09-16",
+  "title": "ALIGNN2.0继续使用QMOF、CHIPS-FF与AtomBench",
+  "summary": "QMOF固定2042测试结构报告0.202eV MAE；其他材料工作流条件不同，不据此跨协议排名。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.19487v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-3b1d888577d2",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-16",
+  "timezone": "Asia/Seoul",
+  "body": "QMOF固定2042测试结构报告0.202eV MAE；其他材料工作流条件不同，不据此跨协议排名。",
+  "batch": "sci",
+  "slugs": [
+   "qmof"
+  ],
+  "sort_date": "2026-09-16",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-09-10",
+  "title": "RAG-Safety-Bench提出受控检索安全评测",
+  "summary": "分别测量有害性、能力和拒答；987完整query，346balanced子集；oracle仍有partial答案问题。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/abs/2609.11758",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "lang-safety-9da5a1be20e5",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-10",
+  "timezone": "Asia/Seoul",
+  "body": "分别测量有害性、能力和拒答；987完整query，346balanced子集；oracle仍有partial答案问题。",
+  "batch": "lang-safety",
+  "slugs": [],
+  "sort_date": "2026-09-10",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-09-07",
+  "title": "H2研究比较HarmBench与StrongREJECT等自动越狱裁判可靠性",
+  "summary": "使用共同人工标注数据比较裁判，不应将自动评价视为无偏金标准。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.10594v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "lang-safety-bdf7efe4365c",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-07",
+  "timezone": "Asia/Seoul",
+  "body": "使用共同人工标注数据比较裁判，不应将自动评价视为无偏金标准。",
+  "batch": "lang-safety",
+  "slugs": [],
+  "sort_date": "2026-09-07",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "scirigor",
+  "date": "2026-09-05",
+  "title": "SciRigor以完整证据链检验开放科学分析",
+  "summary": "原始论文报告100图级案例；strict与SoftECS分开，不能用终值分数替代链完整性。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2609.06192v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-019f4e484e33",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-09-05",
+  "timezone": "Asia/Seoul",
+  "body": "原始论文报告100图级案例；strict与SoftECS分开，不能用终值分数替代链完整性。",
+  "batch": "sci",
+  "slugs": [
+   "scirigor"
+  ],
+  "sort_date": "2026-09-05",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-08-26",
+  "title": "MAA宣布2027 AIME在Pearson考点举行；不等于AI基准新数据发布",
+  "slugs": [
+   "aime"
+  ],
+  "source_url": "https://maa.org/news/maa-announces-official-testing-centers-for-the-2027-american-invitational-mathematics-examination/",
+  "accessed": "2026-11-07",
+  "id": "reason-math-27c105ce81a8",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-08-26",
+  "timezone": "Asia/Seoul",
+  "body": "MAA宣布2027 AIME在Pearson考点举行；不等于AI基准新数据发布。详见来源。",
+  "sources": [
+   {
+    "url": "https://maa.org/news/maa-announces-official-testing-centers-for-the-2027-american-invitational-mathematics-examination/",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "reason-math",
+  "sort_date": "2026-08-26",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "slug": "chemdirt",
+  "date": "2026-08-21",
+  "title": "ChemDIRT系统检查化学提示与表示鲁棒性",
+  "summary": "4484例、33任务表示设置；多任务指标不合成伪总榜。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/html/2608.21504v1",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "id": "sci-110ebae5244d",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-08-21",
+  "timezone": "Asia/Seoul",
+  "body": "4484例、33任务表示设置；多任务指标不合成伪总榜。",
+  "batch": "sci",
+  "slugs": [
+   "chemdirt"
+  ],
+  "sort_date": "2026-08-21",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "id": "bioprobench-v4",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-07-27",
+  "timezone": "Asia/Seoul",
+  "title": "BioProBench 论文已修订到 v4",
+  "body": "arXiv 记录 v4；主体报告22,413份协议与523,784任务实例。协议数与附录一处27,000的差异已标记待核实。",
+  "sources": [
+   {
+    "url": "https://arxiv.org/abs/2505.07889",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "type": "论文修订",
+  "sort_date": "2026-07-27",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-06-12",
+  "title": "FrontierMath v2修正42%题目并删题；此项是版本背景，早于H2，不作为H2收录证据",
+  "slugs": [
+   "frontiermath"
+  ],
+  "source_url": "https://epoch.ai/benchmarks/frontiermath",
+  "accessed": "2026-11-07",
+  "id": "reason-math-6bdd35e821fe",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-06-12",
+  "timezone": "Asia/Seoul",
+  "body": "FrontierMath v2修正42%题目并删题；此项是版本背景，早于H2，不作为H2收录证据。详见来源。",
+  "sources": [
+   {
+    "url": "https://epoch.ai/benchmarks/frontiermath",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "reason-math",
+  "sort_date": "2026-06-12",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-02-12",
+  "title": "MMMU官方开放test答案",
+  "slugs": [
+   "mmmu"
+  ],
+  "source_url": "https://mmmu-benchmark.github.io/",
+  "accessed": "2026-11-07",
+  "id": "multimodal-a9757b2691bb",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-02-12",
+  "timezone": "Asia/Seoul",
+  "body": "MMMU官方开放test答案。详见来源。",
+  "sources": [
+   {
+    "url": "https://mmmu-benchmark.github.io/",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "multimodal",
+  "sort_date": "2026-02-12",
+  "sort_date_basis": "event_date"
+ },
+ {
+  "date": "2026-01-30",
+  "title": "MMAU test评测迁到Hugging Face Space",
+  "slugs": [
+   "mmau"
+  ],
+  "source_url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
+  "accessed": "2026-11-07",
+  "id": "multimodal-40e923ee1b5f",
+  "observed_date": "2026-11-07",
+  "event_date": "2026-01-30",
+  "timezone": "Asia/Seoul",
+  "body": "MMAU test评测迁到Hugging Face Space。详见来源。",
+  "sources": [
+   {
+    "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
+    "accessed": "2026-11-07"
+   }
+  ],
+  "batch": "multimodal",
+  "sort_date": "2026-01-30",
+  "sort_date_basis": "event_date"
+ }
 ]

@@ -1,0 +1,718 @@
+{
+  "id": "sre-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "basic_info": {
+    "name": {
+      "value": "SRE Bench（SRE-Bench）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "此处 SRE 指软件逆向工程，不是站点可靠性工程。"
+    },
+    "full_name": {
+      "value": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v2（2026-10-01 修订）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-08-11（arXiv v1 提交）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；Vals 归入 Cyber。"
+    },
+    "subfields": {
+      "value": [
+        "二进制逆向工程",
+        "网络安全"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "未公开",
+      "note": "Vals 页面标注 Proprietary，19个程序为私有。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2608.11469",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "未公开",
+      "note": "论文说明19个程序为 private。"
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/srebench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "Jeremy Spence、Nicholas Assaderaghi、Feng Xiao、Jinhao Zhu、Nikil Ravi、Xiangyu Qi、Matthew Jagielski、Raluca Ada Popa、Eric Wallace、Guannan Wei、Yangruibo Ding、Zhuo Zhang",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Vals AI（当前榜单维护）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "在没有源代码的情况下理解真实规模、带反分析保护的二进制程序（协议、固件、游戏、文件格式恢复、恶意软件）。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "现有 RE 相关基准依赖已有 CTF 或玩具程序，易被记忆污染且规模与保护不真实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "RE 专家从零构建19个内部程序（平均约16.9K行代码），配合44种自研反分析机制（27K行代码的保护套件）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "逆向工程领域专家，投入超过5,000专家小时",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "全部从零 clean-room 构建、程序私有，以避免出现在训练数据中",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "19个程序 → 262个二进制实例 → 1,572个确定性评分任务（每实例6个）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "shell 环境中的 agent 逆向任务，确定性验证",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "二进制文件",
+        "文本/命令行"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "私有（Vals 标注 Proprietary）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Fully Solved（实例6任务全对才计）与 Capability Score（1,572任务完成比例）；Vals 榜显示 Accuracy",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "prompt_settings": {
+      "value": "所有 agent 在相同的仅 shell 循环与相同逆向工具箱中运行",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "论文中有公开设置与关闭安全护栏、无预算上限的内部设置，两者不可混比；Vals 榜分数与论文表格口径可能不同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/srebench",
+            "date": "2026-11-05",
+            "organization": "Vals AI",
+            "note": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、37模型二进制逆向理解测试；不能误译为站点可靠性工程基准。"
+          },
+          {
+            "url": "https://www.vals.ai/benchmarks",
+            "date": "2026-11-05",
+            "organization": "Vals AI",
+            "note": "目录卡片：Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-astra/",
+            "date": "2026-11-07",
+            "organization": "OpenAI",
+            "note": "GPT-6 Astra正式发布评测表明确报告SRE Bench，作为近期厂商采用证据。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "A",
+          "summary": "8月发布的二进制逆向评测已进入 GPT-6 Astra 正式发布表，Vals 11月仍更新37模型榜。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+    },
+    "paper_revision_history": {
+      "value": "v1 2026-08-11；v2 2026-10-01",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/srebench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra",
+          "score": "56.87%",
+          "metric": "Accuracy",
+          "result_type": "官方榜单快照",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol",
+          "score": "50.76%",
+          "metric": "Accuracy",
+          "result_type": "官方榜单快照",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Argon",
+          "score": "44.27%",
+          "metric": "Accuracy",
+          "result_type": "官方榜单快照",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 5.5",
+          "score": "33.59%",
+          "metric": "Accuracy",
+          "result_type": "官方榜单快照",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 5,
+          "model": "Daybreak Blue",
+          "score": "31.68%",
+          "metric": "Accuracy",
+          "result_type": "官方榜单快照",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "Vals 页面自写更新 2026-11-05，共37个模型。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2608.11469",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/srebench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/srebench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "id": "legalbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: B",
+  "basic_info": {
+    "name": {
+      "value": "LegalBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v1（2023-08-20）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-08-20（arXiv 提交）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "法律推理"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "混合：各任务沿用原数据集创建者许可",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "见官方任务页许可列表。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2308.11462",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/HazyResearch/legalbench",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://github.com/HazyResearch/legalbench",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "HazyResearch（Stanford）等跨学科合作",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "机构归属以 GitHub 组织为准，作者单位完整列表待核实。"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "Neel Guha 等40位作者（含 Julian Nyarko、Daniel E. Ho、Christopher Ré 等）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "HazyResearch/legalbench",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "六类法律推理（如 hearsay 判断等）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "为法律界与 LLM 开发者提供共同词汇，衡量实际有用或律师感兴趣的推理技能。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "法律专业人士设计与手工编写的任务，及部分转换自已有数据集",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "40 位贡献者，以法律专业人士为主",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "162 个任务",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "输入-输出对（分类、抽取、生成等）",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "英语"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Vals 榜：Accuracy",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_scripts": {
+      "value": "evaluation.py、tasks.py 与 HELM 提示设置文件",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "Vals 自定任务子集与提示，不同于论文原始评测；前列分差极小（<0.3个百分点）。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/legal_bench",
+            "date": "2026-10-13",
+            "organization": "Vals AI",
+            "note": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。"
+          },
+          {
+            "url": "https://www.vals.ai/benchmarks",
+            "date": "2026-10-13",
+            "organization": "Vals AI",
+            "note": "目录卡片：Legal Academic LegalBench Updated: 10/13/2026 Models Tested: 151 Evaluating language models on a wide range of open source legal reasoning tasks. Top Models 1 Claude Fable 5 2 Claude Fable 5.1 3 Gemini 4 Argon View Details"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "B",
+          "summary": "Vals 10月13日更新、151模型的大规模法律推理对比。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "接近饱和：Vals 榜前十均在约87–88.6%之间。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "项目方未维护官方榜。"
+    },
+    "third_party_url": {
+      "value": "https://www.vals.ai/benchmarks/legal_bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Fable 5",
+          "score": "88.56%",
+          "metric": "Accuracy",
+          "result_type": "第三方榜单快照",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5.1",
+          "score": "88.51%",
+          "metric": "Accuracy",
+          "result_type": "第三方榜单快照",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Argon",
+          "score": "88.30%",
+          "metric": "Accuracy",
+          "result_type": "第三方榜单快照",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "Wonder Full",
+          "score": "87.42%",
+          "metric": "Accuracy",
+          "result_type": "第三方榜单快照",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 5,
+          "model": "Gemini 3.1 Pro Preview (02/26)",
+          "score": "87.40%",
+          "metric": "Accuracy",
+          "result_type": "第三方榜单快照",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "Vals 页面自写更新2026-10-13，151模型。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/HazyResearch/legalbench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2308.11462",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.11462",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/HazyResearch/legalbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://github.com/HazyResearch/legalbench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/HazyResearch/legalbench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

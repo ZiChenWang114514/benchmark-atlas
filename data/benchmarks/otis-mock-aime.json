@@ -1,0 +1,717 @@
+{
+  "id": "otis-mock-aime",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: A",
+  "basic_info": {
+    "name": {
+      "value": "OTIS Mock AIME 2024–2025",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "OTIS Mock AIME 2024–2025",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "2024–2025题集；Epoch当前运行task version 1.1.6",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "section": {
+      "value": "数学",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "code_url": {
+      "value": "https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OTIS（Olympiad Training for Individual Study）出题；Epoch AI建立和运行模型评测",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "authors": {
+      "value": "OTIS项目学生（逐题作者见原始试卷，未补写）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Epoch AI（评测实现与结果）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "AIME式竞赛数学多步推理，答案为000–999整数。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "Epoch认为难于已趋饱和MATH Level 5、易于FrontierMath，填补中间难度。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "OTIS 2024、2025 I、2025 II三套非官方模拟AIME试卷，各15题。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "OTIS奥林匹克个人学习项目学生。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "quality_control": {
+      "value": "2025年9月由看真值的LLM判断改成不看真值的答案提取后精确匹配，减少空白答案误判。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "45题：三套试卷各15题。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "整数填答，000–999。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "TikZ或Asymptote图形源码（3题）"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语提示与题文。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "OTIS模拟考试原始限时3小时；不是Epoch模型运行限时。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "原始模拟试卷公开；不是正式AIME考试题合集。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "准确率；Epoch多数模型重复16次，具体以run为准。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "模型只提取最终答案，不接收标准答案；随后与答案键精确匹配。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "zero-shot CoT，空系统提示，API默认temperature；要求逐步解题并以ANSWER: X结束；不发送图像，仅提供对应图形代码。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不得与正式AIME 2024/2025混算；运行版本、重复次数、API错误处理及答案提取规则必须同时注明。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "2024–2025题集；Epoch当前运行task version 1.1.6",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/data/benchmarks.csv",
+            "date": "2026-11-06",
+            "date_type": "source_calendar_date",
+            "note": "Epoch公开CSV仍含2026-11-06开始的最新Kimi K3.1 Pro运行；属于实测而非引用。"
+          },
+          {
+            "url": "https://epoch.ai/data/eci-documentation/data",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "当前ECI纳入该任务。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+    },
+    "paper_revision_history": {
+      "value": "2025-09调整评分为提取答案后精确匹配；当前CSV任务版本1.1.6。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "最新成功run集合中已有模型mean_score=1.0；只是这45题及该运行协议上的观测，不推断所有数学能力饱和。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Kimi K3.1 Pro (Together, max)",
+          "score": 1.0,
+          "metric": "Accuracy (0–1)",
+          "stderr": 0.0,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-11-06T09:59:23+09:00 KST",
+          "run_id": "8Qe2qf4Eg77PMfp2Eh7V6K",
+          "task_version": "1.1.6",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-6.1 Terra (max)",
+          "score": 1.0,
+          "metric": "Accuracy (0–1)",
+          "stderr": 0.0,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-10-27T05:00:37+09:00 KST",
+          "run_id": "YnwukT2gyJHGKzPNPU9hry",
+          "task_version": "1.1.6",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 1,
+          "model": "Gemini 4 Argon (high)",
+          "score": 1.0,
+          "metric": "Accuracy (0–1)",
+          "stderr": 0.0,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-10-14T02:14:57+09:00 KST",
+          "run_id": "43f36RTDoJGxXWQDVvTLJj",
+          "task_version": "1.1.6",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "由官方CSV构建可审计快照：每个精确model配置先取最新成功run，再按mean_score降序；rank为该最新run集合中的点估计名次，同分并列。不是Epoch网页平滑或聚合榜；不以旧run最佳成绩挑分。CSV整体更新日待核实，run开始时间已转换KST。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "benchmarks@epoch.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "原始模拟试卷PDF（不是论文）",
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf"
+        },
+        {
+          "type": "原始模拟试卷PDF（不是论文）",
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf"
+        },
+        {
+          "type": "原始模拟试卷PDF（不是论文）",
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

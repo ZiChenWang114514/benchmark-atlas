@@ -1,0 +1,771 @@
+{
+  "id": "itbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: B",
+  "basic_info": {
+    "name": {
+      "value": "ITBench / ITBench-AA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "原始ITBench与AA独立59场景实现分轨记录",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "运维",
+        "根因分析"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2502.05352",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/itbench-hub/ITBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://arxiv.org/abs/2502.05352",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "ITBench: Evaluating AI Agents across Diverse Real-World IT Automation Tasks",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "IBM；原论文含University of Illinois at Urbana-Champaign作者",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Artificial Analysis与ITBench团队共享19私有场景用于AA实现，不据此扩写原始机构合作名单。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Saurabh Jha、Rohan Arora、Yuji Watanabe、Takumi Yanagawa等，完整作者见论文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "ITBench团队维护原项目，Artificial Analysis维护ITBench-AA独立结果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "真实IT自动化：SRE事件诊断与缓解、CISO合规评估、FinOps成本优化；AA聚焦Kubernetes离线根因诊断。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "区别于普通代码生成或静态工单：需要环境、遥测、故障传播和任务级可解释指标。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "原SRE基于自有SaaS真实事件，CISO基于CIS规范，FinOps基于FinOps Foundation能力与成果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "IBM研究与工程团队及UIUC研究者。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "quality_control": {
+      "value": "原框架部署环境、注入故障并断言告警；AA改用离线incident snapshot并识别根因实体。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "AA的59任务含40公开和19私有，不等同原论文11/94公开口径。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原始94场景：SRE 42、CISO 50、FinOps 2；AA：59 Kubernetes场景，每题3次。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "原始环境交互执行任务；AA读取alerts/events/traces/metrics/topology并写结构化JSON根因实体。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "日志",
+        "指标",
+        "调用trace",
+        "拓扑",
+        "结构化JSON诊断"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "difficulty": {
+      "value": "原始按故障传播链、操作步骤与技术多样性设Easy/Medium/Hard，不用通用代码题难度代替。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "原论文11/94样例开源；当前AA 40公开+19私有，这是不同时间与不同范围的口径。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "原始pass@1、故障定位/传播链NTAM、诊断/修复耗时；AA主指标Average precision at full recall。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "AA每任务若FN=0则TP/(TP+FP)，否则0；LLM归一化实体匹配，再对任务与3次重复平均。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "AA在Stirrup离线sandbox读取已挂载Kubernetes snapshot，用shell探索，最多100轮，提交JSON文件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "AA实现：https://github.com/ArtificialAnalysis/ITBench-AA；原项目：https://github.com/itbench-hub/ITBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "AA仅离线根因实体识别，不是实际修复成功率；原论文94场景与AA59场景不能把分数直接比较。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始ITBench与AA独立59场景实现分轨记录",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "AA当前持续开展59场景ITBench-AA根因分析。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://artificialanalysis.ai/evaluations/itbench-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/itbench-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-5.6 Sol (Max)",
+          "score": 56.2,
+          "metric": "AA Average precision at full recall %",
+          "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Step 5 Preview",
+          "score": 55.6,
+          "metric": "AA Average precision at full recall %",
+          "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 3.8 Flash (High)",
+          "score": 52.5,
+          "metric": "AA Average precision at full recall %",
+          "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "当前网页可见结果；页面未标明榜单更新日，不能以采集日代替更新日。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "Saurabh.Jha@ibm.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文公开通讯作者工作邮箱。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2502.05352",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "da47aa02d9cf0cd2a330d3c9890e0338d4f3c3cdd89521c7b8979ab4986f932c",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+    },
+    "pdf_bytes": {
+      "value": 4068098,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法/介绍网页（不是论文PDF）",
+          "url": "https://arxiv.org/abs/2502.05352"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.05352",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2502.05352",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2502.05352",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

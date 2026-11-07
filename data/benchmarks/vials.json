@@ -1,0 +1,656 @@
+{
+  "id": "vials",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "basic_info": {
+    "name": {
+      "value": "VIALS",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Visual Interpretation of Artifacts in the Life Sciences",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "2.0.0",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "v2，2026-09-19",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "科学图像",
+        "物理",
+        "化学",
+        "生物与医学",
+        "材料"
+      ],
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "数据及图像CC BY 4.0（逐图引用attributions.csv原始来源）；评测代码另为MIT。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2608.21357",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/Handshake-AI-Research/VIALS",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://joinhandshake.com/research/benchmarks/vials/",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Handshake AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Elaine Lau",
+        "Thanuka Udumulla",
+        "Lee Izhaki-Tavor",
+        "Francisco Guzmán",
+        "Nicholas Magazine",
+        "Jonas Mueller"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Handshake AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "解释生命科学专业流程中的凝胶、流式图、质粒图、系统发育树与分子结构等真实视觉证据。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "强调日常科研视觉产物而非教材考试图或只描述自然图片，检验视觉定位及领域解释。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "未发表实验数据、科学软件生成产物、CC-BY开放论文图；专家依自身工作编写问题与参考答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "31名专业贡献者，87%具博士级训练，74%有超过6年生命科学行业经验。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "第二位、经常第三位领域专家盲答；独立答案一致或复审达共识方保留。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "检查图像现实性、可答性、任务多样性；GPT-5-mini裁判与4685个人工标注答复的一致率为99.9%（作者自报）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "构建时检查任务未在线出现；数据卡要求不入训练语料；未来额外任务私有开发，不当作本版题量。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "161任务；HF test分片parquet。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "一个或多个图像加问题，开放式短答案，含可接受数值范围。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "科学图像",
+        "文本问题",
+        "短文本答案"
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "面向受过相关训练的专业科学家日常任务；不等于全科研流程难度。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "当前161题公开；模型输入只能用images与question，answer及数值区间仅供评分。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "官方直接视觉评测为三次独立rollout平均accuracy；AA Agent实现headline为pass^3。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "官方抽取最终ANSWER:后答案，用GPT-5-mini判科学语义等价；标签歧义时带图复核。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文直接VLM设temperature 1.0、32768完成token、每题3次；AA用Stirrup代码/看图工具、无网络，GPT-6 Luna medium裁判。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "Handshake-AI-Research/VIALS；数据卡明确代码MIT。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "直接视觉、官方工具辅助与AA工具辅助须分开；AA pass^3不等于官网平均accuracy，不能凭较高分说同协议性能提升。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "2.0.0",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/evaluations/vials-aa",
+            "date": "2026-11-07",
+            "note": "AA当前独立工具辅助评测，观察日。"
+          },
+          {
+            "url": "https://arxiv.org/abs/2608.21357",
+            "date": "2026-09-19",
+            "note": "论文v2含工具辅助分析；论文版本日期。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "A：原始基准与独立评测材料交叉核验；不将仅引用等同独立实跑。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "derivatives": {
+      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://joinhandshake.com/research/benchmarks/vials/",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/vials-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon (High)",
+          "score": "64%",
+          "metric": "VIALS-AA agent pass^3",
+          "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Astra (Max)",
+          "score": "63%",
+          "metric": "VIALS-AA agent pass^3",
+          "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
+          "score": "61%",
+          "metric": "VIALS-AA agent pass^3",
+          "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/vials-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA上述为三次均正确的pass^3；Handshake官网直接accuracy前三另为GPT-6 Astra 49.9%、GPT-6.1 Sol 49.1%、Gemini 4 Argon 47.2%。数据卡domain文字写九类，而预览/论文/AA为八类，本页按论文八类，不静默修改来源。榜单自写更新时间待核实。",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "elaine.lau@joinhandshake.com",
+        "nicholas.magazine@joinhandshake.com",
+        "jonas.mueller@joinhandshake.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2608.21357",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21357",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方介绍/协议",
+          "url": "https://joinhandshake.com/research/benchmarks/vials/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://joinhandshake.com/research/benchmarks/vials/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://joinhandshake.com/research/benchmarks/vials/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

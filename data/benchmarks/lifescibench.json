@@ -1,0 +1,665 @@
+{
+  "id": "lifescibench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；note: trending: B；未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "LifeSciBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "LifeSciBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "LifeSciBench Gold v1（Astra脚注口径）",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "release_date": {
+      "value": "2026-06-03（原始官方介绍）",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑归档，不代表官方分类。"
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑归档，不代表官方分类。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "official_homepage": {
+      "value": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "maintainer": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "生命科学中端到端的科学价值工作：证据处理、分析、设计优化、科学推理、验证运作及转化沟通。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "单一生物领域或单个子能力不足以体现真实科研工作的整体价值。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "根据产业与学术专家认定的科研任务构建六类工作流，由外部领域专家判断。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "review_process": {
+      "value": "官方明确externally expert-judged；评审人数、盲法和一致性细节待核实。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "官方明确externally expert-judged；评审人数、盲法和一致性细节待核实。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "六个工作流方向；题量待核实。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "实际科研开放任务；官方展示基因治疗监管证据批判样例及分项rubric。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "厂商评测表百分制得分；总体汇总和归一化公式待核实。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "专家判断及任务rubric；公开样例有分项分数，但不据样例推断完整题集统一权重。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "Astra发布文称成绩为任意effort的最高分，研究环境/API与生产ChatGPT可存在系统提示与工具差异。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "只记录厂商自报对比，不冒充第三方实时榜；LifeSciBench不同于MedChemBench、GeneBench和LabWorkBench。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "LifeSciBench Gold v1（Astra脚注口径）",
+        "trending": "B",
+        "heat_evidence": "2026年后半年Astra正式Science and Health表继续使用LifeSciBench（60.3%/59.9%）。两个来源同属OpenAI，B级仅证厂商持续自评，不证明第三方采用。",
+        "evidence_2026_h2": [
+          {
+            "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-astra/",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "只记录厂商自报对比，不冒充第三方实时榜；LifeSciBench不同于MedChemBench、GeneBench和LabWorkBench。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://openai.com/index/gpt-6-astra/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra",
+          "score": 60.3,
+          "metric": "OpenAI厂商自报 LifeSciBench (%)",
+          "source_url": "https://openai.com/index/gpt-6-astra/",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "厂商自报历史对比，非全行业榜",
+          "rank_type": "所列协议下顺序"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-5.6 Sol",
+          "score": 59.9,
+          "metric": "OpenAI厂商自报 LifeSciBench (%)",
+          "source_url": "https://openai.com/index/gpt-6-astra/",
+          "source_date": "待核实（榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "厂商自报历史对比，非全行业榜",
+          "rank_type": "所列协议下顺序"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "只记录厂商自报对比，不冒充第三方实时榜；LifeSciBench不同于MedChemBench、GeneBench和LabWorkBench。 榜表自写更新时间：待核实；采集日不等于运行日。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "已打开官方网页/论文",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+        },
+        {
+          "type": "已打开官方网页/论文",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地建页，未上传Drive，不伪造归档链接。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门中文研究条目。本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。 热度与榜单口径分离，不确定值标记待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

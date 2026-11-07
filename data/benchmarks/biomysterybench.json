@@ -1,0 +1,695 @@
+{
+  "id": "biomysterybench",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: A",
+  "basic_info": {
+    "name": {
+      "value": "BioMysteryBench",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "BioMysteryBench",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-04-29（Anthropic介绍文章日期）",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "科学Agent"
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "Vals方法页称任务材料CC BY 4.0，另有禁止模型训练限制；底层生物数据遵循原仓库政策。完整许可文本仍需复核。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Anthropic",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "authors": {
+      "value": "Anthropic Science / discovery团队（文章介绍研究者Brianna，未补写未给出的姓氏）",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Anthropic原始基准；Vals AI维护独立评测榜",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "对真实生物信息数据进行开放路径分析，恢复物种、样本来源、基因操作等可验证元信息。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "避免只测知识或模拟实验，也避免把某个研究者主观分析路径或未证实科学结论当唯一真值。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "领域专家从原始/少处理的DNA、RNA测序及蛋白组、代谢组数据构造问题，以可控属性或实验临床元信息作为真值。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "生物信息领域专家。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每位作者提交验证notebook证明信号存在；每题最多5名专家独立解答，追加质量检查并移除4道有问题的题。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "按至少1位专家答对划human-solvable，最终76题；其余23题为human-difficult，不等于数学上不可解。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原始99问题：76 human-solvable、23 human-difficult。Vals显示分数的具体任务计分分母需另外核实，不能反推为原始99。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "数据文件调查、编写分析代码、调用命令行与查询生物数据库，提交最终答案。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "测序及组学数据文件",
+        "代码与数据库输出"
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "difficulty": {
+      "value": "human-difficult是最多5名领域专家未解，不等同已证明人类不可解。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "原始文按两类题的accuracy、每题5次；Vals headline为3次完整评测的平均accuracy。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "Vals用openai/gpt-5.6-terra裁判最终答案，完全接受=1，拒答、失败、未接受=0，不要求固定分析路径。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科学包仓库与生物数据库网络访问，按registry默认推理档位。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "Anthropic每题5次与Vals每benchmark 3次、不同harness与裁判不可直接混排；拒答计失败，分数并非临床安全认证。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/biomysterybench",
+            "date": "2026-11-05",
+            "date_type": "source_calendar_date",
+            "note": "Vals当前独立重新评测，覆盖30模型；不是仅转述Anthropic自报。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "验证notebook说明信号存在，但不保证从零可解；Vals终答裁判不验证完整科研正确性或新发现有效性。",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/biomysterybench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://www.vals.ai/benchmarks/biomysterybench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Sonnet 5.5",
+          "score": 81.11,
+          "metric": "Vals Accuracy %; 3 runs",
+          "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol",
+          "score": 79.63,
+          "metric": "Vals Accuracy %; 3 runs",
+          "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Astra",
+          "score": 79.26,
+          "metric": "Vals Accuracy %; 3 runs",
+          "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "source_date": "2026-11-05",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "Vals独立评测，不是Anthropic原始自报；原始99题与Vals所用任务集/分母的完全一致性待核实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "scienceblog@anthropic.com"
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "文章公开科研反馈邮箱，不假定为专门技术支持。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法/介绍网页（不是论文PDF）",
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

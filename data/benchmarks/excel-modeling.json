@@ -1,0 +1,659 @@
+{
+  "id": "excel-modeling",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在；官方资料研究快照，未知保留待核实；trending: B",
+  "basic_info": {
+    "name": {
+      "value": "Excel Modeling Benchmark v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Excel Modeling Benchmark",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑归档；跨领域只计主板块。"
+    },
+    "subfields": {
+      "value": [
+        "金融",
+        "表格"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/emb-v1-1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "maintainer": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "构建可在真实Excel中打开并重新计算的投行/私募财务模型，检验数值、公式与可用性。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "简单问答或表格单元操作不能覆盖多标签、多场景切换与长链财务计算的一致性。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "财务专家先制作Gold模型，再剥离数值和公式形成Template；所有任务、参考模型和rubric由专家创作并同行审阅。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "财务领域专家；致谢Andrew Schettino及任务作者/同行评审者。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "专家创作并同行评阅业务任务、Gold模型与rubric。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "103个专家任务：公开1、私有验证51、隐藏测试51；当前榜仅用51个Test，任务有Template与Scratch两种模式。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "给业务要求与源文件；填模板或从零构造Excel工作簿。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "电子表格",
+        "文件",
+        "工具交互"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "difficulty": {
+      "value": "官方预期专家从零完成每个模型至少5小时工作量；不是agent运行时限。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开1题、可许可访问私有验证51题、隐藏Test 51题；榜单只用Test。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "七任务类别等权的accuracy，含Template与Scratch评分。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "先由真实Microsoft Excel引擎重算；Template按计分单元值匹配，Scratch按数值/公式/呈现rubric部分给分；先类别内平均，七类别等权。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "共享harness，bash读写、execute用Excel重算验证，submit交付；每次最多3.5小时。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.0比。高部分得分不代表客户可直接使用。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1.1",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+            "date": "2026-11-05",
+            "date_type": "source_calendar_date",
+            "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
+    },
+    "paper_revision_history": {
+      "value": "v1.1将Scratch裁判从GPT 5.4 Mini替换为GPT-6 Luna，并小修Template sheet-name匹配；v1.0保留归档。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "已与existing_slugs清单去重；版本关系基于所列方法页，不把不同任务域当同题更新。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/emb-v1-1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://www.vals.ai/benchmarks/emb-v1-1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Vals自建基准与独立运行外部基准性质不同；同机构多URL不等于独立复核。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Fable 5.1",
+          "score": 76.73,
+          "metric": "Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon",
+          "score": 76.47,
+          "metric": "Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-11-05"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 5.5",
+          "score": 75.9,
+          "metric": "Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-11-05"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅记录已打开页面可读的当前分数；表内模型配置保留，不将不同harness当裸模型对比。榜表更新时间：2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法或项目页",
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立暂存条目，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai (UTC+8)",
+        "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

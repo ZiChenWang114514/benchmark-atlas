@@ -1,0 +1,664 @@
+{
+  "id": "deepswe",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "basic_info": {
+    "name": {
+      "value": "DeepSWE",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "DeepSWE",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑主板块归档，不据此限制跨学科覆盖。"
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://deepswe.datacurve.ai/",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Datacurve",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/deepswe/review",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "maintainer": {
+      "value": "Datacurve",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/deepswe/review",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "原创、长程真实软件工程任务的完成能力。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "避免已有提交或PR改编，并扩大仓库和语言多样性，区分趋于饱和的代码Agent。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从零编写的任务，覆盖91仓库、5种语言。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "手工编写behavioral verifier；精确审核人员背景待核实。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "官方主张验证行为而非实现细节；Epoch独立发现评分假阴性。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "官方称原创任务避免预训练见到解法；这是设计主张，不是无污染证明。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "113任务、91仓库、5种语言。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "跨文件工程功能实现、修复和长期代码维护。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "代码",
+        "文本",
+        "测试环境"
+      ],
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Pass@1；附成本、输出token和Agent步数。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "手工行为验证器评测提交改动；具体隐藏测试协议需结合独立审查。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官方榜统一mini-swe-agent；模型reasoning effort按配置列出。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "官网rounded 74%±区间不应与厂商74.1%拼成伪精确同榜；Kimi Code与mini-swe-agent分轨。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1.1",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/benchmarks/deepswe/review",
+            "date": "2026-09-07",
+            "note": "Epoch独立审查为Flawed。"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-astra/",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "GPT-6 Astra发布表采用。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/deepswe/review",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "Epoch在113任务中至少23题（20.3%以上）发现问题，主要是假阴性；其中18例可能因代理改测试与verifier注入测试冲突。评测热度不等于质量认证。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/deepswe/review",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://deepswe.datacurve.ai/",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/benchmarks/deepswe/review",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/deepswe/review",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "gpt-6-astra [xhigh]",
+          "score": "74% ±3%",
+          "metric": "Pass@1",
+          "source_url": "https://deepswe.datacurve.ai/",
+          "source_date": "2026-09-22",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。"
+        },
+        {
+          "rank": 2,
+          "model": "gemini-3.8-flash [high]",
+          "score": "74% ±1%",
+          "metric": "Pass@1",
+          "source_url": "https://deepswe.datacurve.ai/",
+          "source_date": "2026-09-22",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5 [max]",
+          "score": "74% ±4%",
+          "metric": "Pass@1",
+          "source_url": "https://deepswe.datacurve.ai/",
+          "source_date": "2026-09-22",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://deepswe.datacurve.ai/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地研究，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://deepswe.datacurve.ai/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

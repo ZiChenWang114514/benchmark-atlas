@@ -1,0 +1,682 @@
+{
+  "id": "hss",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: B",
+  "basic_info": {
+    "name": {
+      "value": "HSS",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Humanity's Sixth Sense",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "冻结版本化发布（522题）",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "直觉视觉推理",
+        "视频理解",
+        "空间/社会推理"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://labs.scale.com/papers/humanitys-sixth-sense",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ScaleAI/HSS",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://labs.scale.com/leaderboard/hss",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Humanity's Sixth Sense",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "取官方论文页名称，完整标题待核实。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Scale AI",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Elorian",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "maintainer": {
+      "value": "Scale AI",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "人类一眼即可推断的隐含时间、空间、社会与抽象结构（因果、轨迹、权力关系、潜规则等）。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "人类撰写提示，配图像/视频；视频媒体来自公开网络，题目为新撰写",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "共撰写3,466题，经三轮独立评审收录522题（15.1%通过率）",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "题目新撰写，但公开网络媒体可能已在训练数据中，无法完全排除",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "522 题：4个领域、11个子领域；288图像题、234视频题（视频总17.6小时，中位76秒，最长28分钟）；723条评分标准",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "自由作答，按 rubric 判分",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "图像",
+        "视频（无音轨、无字幕）"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "人类标注者93.1%；首发最佳模型53.6%，模型中位30.9%",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "数据集在 Hugging Face 开源",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Pass@1（每题3次尝试平均），附95%聚类 bootstrap 区间；rubric 分作诊断",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "Claude-Opus-5 作为自动 LLM 裁判逐条判定",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "所有模型 high 推理强度与最大输出长度，温度/top-p 用默认",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "官方评测 harness（含模型注册、评测与评分提示）",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "仓库地址待核实。"
+    },
+    "comparability_warning": {
+      "value": "依赖 LLM 裁判，存在自偏好风险；心智理论结果只代表与标注者一致度。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "冻结版本化发布（522题）",
+        "evidence_2026_h2": [
+          {
+            "url": "https://labs.scale.com/leaderboard/hss",
+            "date": "2026-11-07",
+            "organization": "Scale AI",
+            "note": "当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。"
+          },
+          {
+            "url": "https://labs.scale.com/leaderboard",
+            "date": "2026-11-07",
+            "organization": "Scale AI",
+            "note": "Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "B",
+          "summary": "Scale 当前标 New 的图像/视频直觉推理主榜，覆盖最新 GPT 与 Gemini 模型。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "视觉通道限定、裁判依赖、媒体可能已被训练见过（官方 Limitations）。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://labs.scale.com/leaderboard/hss",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Gemini-4-Argon (high)",
+          "score": "55.40 ± 4.20",
+          "metric": "Pass@1",
+          "result_type": "官方榜单快照",
+          "source_date": "待核实（页面未写更新日）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6-Astra (max)",
+          "score": "53.60 ± 4.10",
+          "metric": "Pass@1",
+          "result_type": "官方榜单快照",
+          "source_date": "待核实（页面未写更新日）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6.1-Sol (max)",
+          "score": "46.60 ± 3.80",
+          "metric": "Pass@1",
+          "result_type": "官方榜单快照",
+          "source_date": "待核实（页面未写更新日）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "Claude-Opus-5.5 (xhigh)",
+          "score": "44.60 ± 3.80",
+          "metric": "Pass@1",
+          "result_type": "官方榜单快照",
+          "source_date": "待核实（页面未写更新日）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 5,
+          "model": "Muse Wonder 1.0 (max)",
+          "score": "43.70 ± 4.20",
+          "metric": "Pass@1",
+          "result_type": "官方榜单快照",
+          "source_date": "待核实（页面未写更新日）",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "Scale 官方榜；Scale 同时是基准创建者，无独立复测。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/hss",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/hss",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

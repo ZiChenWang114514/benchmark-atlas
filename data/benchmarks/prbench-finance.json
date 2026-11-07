@@ -1,0 +1,783 @@
+{
+  "id": "prbench-finance",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: B",
+  "basic_info": {
+    "name": {
+      "value": "PRBench – Finance",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Professional Reasoning Benchmark – Finance",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v1（官方研究页PDF链接）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "金融",
+        "专业推理"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2511.11562",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/scaleapi/PRBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ScaleAI/PRBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://labs.scale.com/leaderboard/prbench-finance",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Scale AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "authors": {
+      "value": "Afra Feyza Akyürek、Advait Gosai、Chen Bo Calvin Zhang、Vipul Gupta等；完整作者见论文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Scale AI / Scale Labs",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "专业金融开放推理：金融准确性、审计透明性、不确定性处理、风险合规披露与可操作性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "从学术题转向真实客户或专业工作中有经济后果的问题，不以单一短答案代替职业判断。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "总集182位法律/金融专家按实际工作或客户问题撰题；约30%通过最多10轮对话逐步构建背景。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "金融出题者要求硕士、CFA或至少6年专业经验；182为全PRBench专家总数，不冒称金融独占。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "另一领域专家审核问题与rubric，自动检查原子性、自包含等规范，独立专家验证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "全量rubric验证一致率93.9%；每题含正负加权标准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "1,100对话公开，另保留私有held-out监测污染；私有规模待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "金融600题，Hard 300；全PRBench 1,100题含法律500。金融10,264 rubric标准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "单/多轮英文开放问题，最后一轮回答依专家rubric评估；金融13主题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "参考文本",
+        "结构化rubric"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语（专家撰写的所有user turns）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "Hard按论文所测模型的平均分选最难300金融题，非独立新数据集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开Finance、Finance-Hard、Legal、Legal-Hard；Hard为全量子集，不加起来算1,650独立问题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "加权rubric平均分；Hard与Full分轨；类别分析另用min-normalized分数。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "o4-mini逐rubric判断是否满足，权重-10至+10（非0），正权重和作分母，对问题求平均并按定义裁剪；类别min-normalized不可混用。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文每模型3次评测；大部分高推理配置，工具启用为独立实验。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/scaleapi/PRBench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "当前金融网页榜分数约百分制，Hard历史0.39与Full当前59.54不得混用；当前榜具体Full/Hard标注需复核。HF卡写全量18,692 criteria，论文及官方研究页19,356，冲突并列保留。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://labs.scale.com/leaderboard/prbench-finance",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Scale当前金融专业推理榜含近期模型结果。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "HF卡与论文rubric总数冲突：18,692 vs 19,356；金融10,264以论文表为准。模型裁判与专家存在误差，基准得分不是金融执业许可或建议正确性保证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://labs.scale.com/leaderboard/prbench-finance",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Muse Spark 1.3",
+          "score": 59.54,
+          "metric": "官方金融榜显示分数（百分尺度；Full/Hard范围待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Muse Wonder 1.0",
+          "score": 58.67,
+          "metric": "官方金融榜显示分数（百分尺度；Full/Hard范围待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Muse Spark 1.1",
+          "score": 55.01,
+          "metric": "官方金融榜显示分数（百分尺度；Full/Hard范围待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "按网页Rank(UB)记录，区间分别±1.66、±1.69、±0.14；网页未自写更新时间。历史Hard最高0.39不替代当前榜，不宣称两者同协议。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "yunzhong.he@scale.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2511.11562v1",
+      "sources": [
+        {
+          "url": "https://scale.com/research/prbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2511.11562v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+    },
+    "pdf_bytes": {
+      "value": 21111596,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2511.11562v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法/介绍网页（不是论文PDF）",
+          "url": "https://labs.scale.com/leaderboard/prbench-finance"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/prbench-finance",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/prbench-finance",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

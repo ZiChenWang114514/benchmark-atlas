@@ -1,0 +1,675 @@
+{
+  "id": "spireclimb",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: A",
+  "basic_info": {
+    "name": {
+      "value": "SpireClimb",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "SpireClimb",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "StS2冻结v0.107.1.1；StS1 A20 Heart与StS2 A10双轨",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-10（官方BibTeX月份；具体日待核实）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "游戏"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "评测代码许可待核实；游戏内容有版权，Epoch说明仅为研究与评论使用，不分发游戏本体。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/spireclimb",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "authors": {
+      "value": "Epoch AI（官方建议引用署名）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "计算机使用、长程推理、战术决策与跨完整游戏流程的可靠性。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "用最高难度真实游戏端到端胜率，而非短回合局部动作或孤立推理题。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "Slay the Spire 1和2，分别采用最高难度，所有内容解锁；每角色固定15随机种子供所有模型共用。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "quality_control": {
+      "value": "固定StS2游戏版本；发现save scumming样本排除后重跑。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "官方承认流行游戏可能成为训练目标；冻结版本改善可解释性但不声称无污染。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "StS1：4角色×15=60局；StS2：5角色×15=75局。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "通过截图、鼠标键盘完成完整游戏流程。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "截图",
+        "鼠标键盘动作",
+        "文字笔记",
+        "限定wiki搜索"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "difficulty": {
+      "value": "StS1 Ascension 20 Heart Kill；StS2 Ascension 10。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "固定共享种子；种子清单及隐藏划分细节待核实。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "两款游戏各自胜率，再对两游戏等权平均（不是135局直接混合胜率）。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "StS1需击杀Heart、StS2需通过3幕；成功局比例；两轨必须保持版本一致。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "Inspect ReAct computer-use harness；模型最大推理档，300,000 tokens压缩阈值且笔记保留；仅可检索Slay the Spire wiki；StS1截图1280×720、StS2 1280×800。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "2026-11-05修复StS1开局Neow奖励缺失后重新评分；旧版不可直接作为同协议当前榜；不与后续StS2公众更新版本混比。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "StS2冻结v0.107.1.1；StS1 A20 Heart与StS2 A10双轨",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/benchmarks/spireclimb",
+            "date": "2026-11-05",
+            "date_type": "source_calendar_date",
+            "note": "Epoch公布Neow奖励修复并重新评分。"
+          },
+          {
+            "url": "https://epoch.ai/data/eci-documentation/data",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "当前ECI纳入SpireClimb。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+    },
+    "paper_revision_history": {
+      "value": "2026-11-05方法修复Neow奖励：GPT-6 Astra StS1 16.7%→33.3%，GPT-6.1 Sol 20%→18.3%，不是两游戏合成分数。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "训练针对热门游戏的风险、版本固定后偏离玩家最新策略的风险；save scumming靠行为检查排除而非机械禁止。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/spireclimb",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra (max)",
+          "score": 0.33999999999999997,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "stderr": 0.04131325151634216,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-11-05T03:35:57.934000+09:00 KST",
+          "run_id": "steambench-sts1-a20h-cd6cd8bb290a7ae3+steambench-sts2-a10-cdf1c9fa85cb6300",
+          "task_version": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol (max)",
+          "score": 0.23833333333333334,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "stderr": 0.03653377199465138,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-11-05T03:36:01.058000+09:00 KST",
+          "run_id": "steambench-sts1-a20h-e795fd781f73bd66+steambench-sts2-a10-9a23c8dea53b6755",
+          "task_version": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.22333333333333333,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "stderr": 0.03386031744341088,
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（CSV不提供整体榜单更新日）",
+          "run_started_at": "2026-11-05T03:35:54.875000+09:00 KST",
+          "run_id": "steambench-sts1-a20h-263bd0e64b156075+steambench-sts2-a10-1102b0b9cf1785f6",
+          "task_version": "待核实",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "由官方CSV构建可审计快照：每个精确model配置先取最新成功run，再按mean_score降序；rank为该最新run集合中的点估计名次，同分并列。不是Epoch网页平滑或聚合榜；不以旧run最佳成绩挑分。CSV整体更新日待核实，run开始时间已转换KST。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "benchmarks@epoch.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法/介绍网页（不是论文PDF）",
+          "url": "https://epoch.ai/benchmarks/spireclimb"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/spireclimb",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/spireclimb",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

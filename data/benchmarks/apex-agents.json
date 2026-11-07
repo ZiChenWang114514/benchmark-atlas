@@ -1,0 +1,637 @@
+{
+  "id": "apex-agents",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "basic_info": {
+    "name": {
+      "value": "APEX-Agents",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "AI Productivity Index for Agents (APEX–Agents)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_version": {
+      "value": "v3（本轮返回正文版本）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-01-20（HF论文卡标注；非最新榜单更新日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "数据卡标CC-BY 4.0，同时另写仅限评测、禁止训练/参数拟合及程序化抓取；须核对附加限制，不能只写无条件开放。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2601.14242",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/Mercor-Intelligence/archipelago",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/mercor/apex-agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://huggingface.co/datasets/mercor/apex-agents",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "APEX–Agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Mercor",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": "Bertie Vidgen、Austin Mann、Abby Fennelly、John Wright Stanly 等，完整名单见论文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Mercor",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "长程、跨应用的投资银行、管理咨询与公司法专业服务任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "以富文件工作世界减少狭窄、人工化agent任务与真实专业工作的差距。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "专家用5–10天构建项目世界、材料与专业交付物，再依据世界创建任务和二元rubric及gold outputs。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "256名专业人士，平均12.9年经验；领域为投行、咨询、公司法。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "任务与rubric多轮审核；专家检查gold outputs与提示一致性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "96任务由未参与创建/审查者独立完成，发现的问题修正并推广到其余数据。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "数据只用于评测；关闭网页搜索，世界提供完成任务所需文件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "480任务、33世界；三职业各160任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "单条任务指令、多步跨应用执行；422任务返回文本，58任务创建或修改文件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "电子表格",
+        "文档",
+        "PDF",
+        "演示文稿",
+        "邮件/聊天/日历环境"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "专家估计任务平均1.82小时；不是模型实际运行时长。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开任务、rubric、gold outputs、文件、metadata；HF加载split名称train不表示允许训练。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Pass@1为所有rubric均满足的任务通过率；另有Pass@8、Pass^8、mean criterion score。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "Gemini 3 Flash low逐项独立判Met/Not met，读取提示、输出、文件改动与criterion，不读完整轨迹。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文每题8轨迹、250步；AA用452任务、每题3次、Stirrup 200轮，排除投行世界244与246。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "Archipelago提供执行环境、agent运行器与grading系统。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "480任务官方原始协议与452任务AA不可混榜；Pass@1不可与平均rubric或Pass@8互换。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+            "date": "2026-11-07",
+            "note": "AA当前独立452题实现与排行榜，观察日。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "A：原始基准与独立评测材料交叉核验；不将仅引用等同独立实跑。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "derivatives": {
+      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://huggingface.co/datasets/mercor/apex-agents",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Gemini 3.5 Flash (High)",
+          "score": "47.1%",
+          "metric": "APEX-Agents-AA pass@1（452任务）",
+          "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 2,
+          "model": "Qwen3.8 Max (0902)",
+          "score": "42.4%",
+          "metric": "APEX-Agents-AA pass@1（452任务）",
+          "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 3,
+          "model": "Kimi K3 (Max)",
+          "score": "41.3%",
+          "metric": "APEX-Agents-AA pass@1（452任务）",
+          "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA当次独立452任务结果；HF当前模型提交面板另列Kimi-K3.1-Pro 69.4等，但不同提交harness/裁判，未混入本表。榜单自写更新时间待核实。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "apex@mercor.com",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2601.14242",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.14242",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方介绍/协议",
+          "url": "https://huggingface.co/datasets/mercor/apex-agents"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/mercor/apex-agents",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://huggingface.co/datasets/mercor/apex-agents",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://huggingface.co/datasets/mercor/apex-agents",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

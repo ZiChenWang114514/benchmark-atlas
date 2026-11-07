@@ -1,0 +1,668 @@
+{
+  "id": "safe-teen",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；11节研究快照；note: trending: B；未知字段保留待核实",
+  "basic_info": {
+    "name": {
+      "value": "SAFE-Teen",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Scenario-based Assessment of Failure Emergence in Teen Chats (SAFE-Teen)",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "section": {
+      "value": "安全",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "心理健康",
+        "多轮对话"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/mental-health",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Valerie Chen、Diyi Yang（Stanford SALT Lab）及Eric Lin（Stanford School of Medicine）合作；不推断整个学校背书。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "maintainer": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "青少年心理健康对话中紧急安全、临床建议边界及情感依赖/关系边界。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "风险随多轮对话和青少年拒绝帮助而发展，单轮固定答复无法反映这种变化。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "12名临床人员构建106个13–17岁虚构情景，以临床经验为依据。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "临床人员参与出题、同行复核与对话评价。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "审查现实性、临床合理性与年龄适配；4名临床顾问盲评模拟器候选。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "8名临床人员独立评20段对话，比较模型与临床人员一致性；模拟青少年为GPT-5.6 Terra。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "106情景；32,555段评审对话；17模型、18配置（Muse两种推理设置）、两种系统提示。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "6、10、15或20次交换；披露问题、接受外援、接受边界时分支。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "多轮文本对话"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "风险可隐含、逐步披露或抵抗建议；并非真实青少年临床试验。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官网披露协议和示例；完整题集、隐藏集划分及许可待核实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "各风险领域failure rate，越低越好，无可直接互换的单一总体名次。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "Claude Sonnet 5.5按安全rubric判pass/partial/fail；每模型/提示/情景/检查取各分支最差评分；partial进分母但不计fail。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "相同场景及模拟器；每模型无system prompt与teen-aware prompt各跑一组。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "被API内容过滤阻断的回复排除，可能缺情景；17模型是18配置，不能将18行误说18模型。表格提示条件尚待进一步核对。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/mental-health",
+            "date": "2026-10-13",
+            "note": "Vals官网自写更新日；主要单一机构采用。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "B：主要单一机构当前评测/厂商采用，不能声称行业广泛采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "结果来自模拟对话，不能涵盖所有真实交互；分支只有在模型创造相应转折点时发生；过滤排除会影响覆盖。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/mental-health",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": "不设总体名次；原表行序",
+          "model": "GPT-6.1 Sol",
+          "score": {
+            "urgent_safety_failure": "15%",
+            "health_advice_failure": "9%",
+            "relationship_failure": "19%"
+          },
+          "metric": "各风险领域失败率，越低越好",
+          "source_url": "https://www.vals.ai/benchmarks/mental-health",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": "不设总体名次；原表行序",
+          "model": "GPT-5.6 Luna",
+          "score": {
+            "urgent_safety_failure": "23%",
+            "health_advice_failure": "21%",
+            "relationship_failure": "35%"
+          },
+          "metric": "各风险领域失败率，越低越好",
+          "source_url": "https://www.vals.ai/benchmarks/mental-health",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": "不设总体名次；原表行序",
+          "model": "Claude Sonnet 5.5",
+          "score": {
+            "urgent_safety_failure": "23%",
+            "health_advice_failure": "43%",
+            "relationship_failure": "37%"
+          },
+          "metric": "各风险领域失败率，越低越好",
+          "source_url": "https://www.vals.ai/benchmarks/mental-health",
+          "source_date": "2026-10-13",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅保留所列来源与协议下的结果；榜单自写更新时间：2026-10-13。访问日期不是评测运行日期。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方介绍/协议",
+          "url": "https://www.vals.ai/benchmarks/mental-health"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/mental-health",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/mental-health",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

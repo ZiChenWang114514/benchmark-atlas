@@ -1,0 +1,686 @@
+{
+  "id": "mlcr",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "basic_info": {
+    "name": {
+      "value": "MLCR / MLCR-AA",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Medical Long Context Reasoning",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "MLCR v1.1（2026-08-31）；MLCR-AA是独立实现口径",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-06-18首发；2026-08-31 v1.1",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑主板块归档，不据此限制跨学科覆盖。"
+    },
+    "subfields": {
+      "value": [
+        "长上下文",
+        "保险记录"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "HF数据卡license: other；精确条款待核实，不能当作MIT或Apache。",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "code_url": {
+      "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Wisedocs",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "maintainer": {
+      "value": "Wisedocs维护原始MLCR；Artificial Analysis维护MLCR-AA评测。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "跨长篇、碎片化医疗记录重建时间线、因果、治疗模式及保险理赔相关性。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "不仅定位单条事实，还需专家级临床综合与多部分推理。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "合成医疗记录，模型上下文可按固定seed确定性插入无关filler；病例、提示、模型、模态、filler比例和thinking levels组成实验矩阵。",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "专家标注ground truth，三裁判对照原记录与参考答案。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "空答案直接失败；多数裁判确认完整且无记录矛盾才通过。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "公开数据：10病例目录（Tier1–3），131空白表格OCR文件和131生成表格OCR文件；AA私有60题×3重复，不能相加成题量。",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "单事实检索、跨文档综合、临床因果和多部分问题。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "OCR记录"
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "原MLCR六层；AA只取expert和compound两层。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开下载仅text，含questions/cases_summaries/filler_files，不含图片；仓库支持图片模式不等于已发布图片。AA独立私有最难两层60题另计。",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "主指标pass rate / pass@1；另列accuracy与completeness，不可混用。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "三LLM裁判多数票：每部分完整且无任何与原记录矛盾的claim。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "每题3重复；默认每部分一段并引用原记录；AA裁判Claude Opus5.5、GPT-6.1 Sol、Grok4.7，medium。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "Wisedocs官方evaluation harness仓库；AA私有集不能由公开数据直接完全复现。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "公开harness有≤参考答案5倍字符的conciseness gate及旧judge面板；AA当前私有协议和judge已不同。两者结果、模态和filler比例不可混比。",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "MLCR v1.1；AA私有实现另计",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "AA当前独立评测27模型，属于持续医疗长记录测评，不在Intelligence Index。"
+          },
+          {
+            "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+            "date": "2026-08-31",
+            "note": "Wisedocs README发布v1.1，改进judge校准并与AA共同发布评测。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra (Max)",
+          "score": "41.7%",
+          "metric": "MLCR-AA pass rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+          "score": "41.7%",
+          "metric": "MLCR-AA pass rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6.1 Sol (Max)",
+          "score": "38.3%",
+          "metric": "MLCR-AA pass rate",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地研究，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

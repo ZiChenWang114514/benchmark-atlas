@@ -1,0 +1,662 @@
+{
+  "id": "mirrorcode",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "MirrorCode",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MirrorCode",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2606.30182",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/epoch-research/MirrorCode/",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/mirrorcode",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MirrorCode: AI can rebuild entire programs from behavior alone",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI；与METR共同开发",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "METR",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Tom Adamczewski",
+        "David Owen",
+        "David Rein",
+        "Florian Brand",
+        "Giles Edkins",
+        "Allen Hart",
+        "Daniel O’Connell"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "METR grant",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "从程序行为和文档端到端重建完整CLI程序，衡量长时程自主编程。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "短补丁题和有人类引导的一次性演示难以系统比较整程序自主实现。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "25个目标程序：Unix工具、序列化、查询、生物信息、解释器、静态分析、密码学与压缩。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "程序任务贡献者与Epoch AI/METR评测研究团队。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "任务贡献者审核测试；检查全部模型未解测试是否合理可解。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "评分在独立sandbox，无参考二进制；字节级输出比较，并进行显式作弊红队。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "开发时无源代码、无网络；隐藏测试防查表。仍可能预训练见过开源代码，不能排除记忆贡献。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "完整25程序；当前榜取Medium+Large的15程序，每个两种语言，共30任务，每任务3次。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "CLI黑箱oracle、文档、可见输入输出示例；提交目标语言代码。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码",
+        "程序输入输出"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "完整集支持Python、C、Rust、Go、OCaml、Ada；当前榜2L映射以Go/Ada为主。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "Small、Medium、Large分桶；当前榜不含Small。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "发布22/25目标程序，共132个语言任务实例；3个目标私有。每程序另含隐藏测试，平均34%。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "100%-solve rate：每次尝试须通过全部端到端测试；跨目标与运行取平均。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "参考与候选stdout/stderr一致才能通过；不以99%部分实现替代100%解题指标。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "当前榜ML,+Private,2L：每题3次，每次100亿token及7天；Inspect ReAct scaffold，离线Docker，支持shell/text_editor/evaluate_testcases/submit。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "官方开源scaffold与22个目标程序，仓库入口见基本信息。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "当前榜15程序×2语言，与论文25程序/不同语言数/预算设置不直接可比；CSV还存在task version差异。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/data/benchmarks.csv",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
+          },
+          {
+            "url": "https://epoch.ai/data/eci-documentation/data",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/mirrorcode",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/data/benchmarks.csv",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Opus 5.5 (high)",
+          "score": 0.7889,
+          "metric": "solve_at_100 proportion (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.0788；task version 0.1.198；运行开始2026-09-23 01:42 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5.1 (high)",
+          "score": 0.733,
+          "metric": "solve_at_100 proportion (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.0917；CSV task version为空；运行开始2026-09-10 22:19:30 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Fable 5 (high)",
+          "score": 0.638888888888889,
+          "metric": "solve_at_100 proportion (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.1040409294；CSV task version为空；运行开始2026-08-11 01:12:44 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "从Epoch公开CSV按mean_score降序提取已有运行，不冒称全部同一软件版本；页面定义的榜配置另列。source_date为各行运行开始而非网页更新日。"
+    },
+    "coverage_note": {
+      "value": "Epoch是基准共同创建者及运行机构，不称独立复核；已记录不同task version与缺失版本。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "tom@epoch.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2606.30182",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://epoch.ai/benchmarks/mirrorcode"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/mirrorcode",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/mirrorcode",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "id": "furniture-assembly",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "basic_info": {
+    "name": {
+      "value": "Furniture Assembly Benchmark",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Furniture Assembly Benchmark",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "运行CSV中见1.0.0与1.0.1；本轮榜单限1.0.0分轨",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-09（官方BibTeX月；精确日待核实）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑主板块归档，不据此限制跨学科覆盖。"
+    },
+    "subfields": {
+      "value": [
+        "空间推理"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/furniture-assembly",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "研究独立于IKEA，不据使用产品及说明书推断合作。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "将真实装配照片与技术图示连接，识别错误并定位产生错误的步骤。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "衡量物理构建的空间及多步推理，而非仅抽象视觉题。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "研究人员购买三件IKEA家具并拍摄装配过程，故意制造可见错误后可继续安装。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "有错样本先核对步骤，再由GPT-5.6 Sol宽松评阅错误描述。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "正确构建正确识别直接通过；有错样本必须正确定位并大致描述。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "官方不分发或出售底层受版权保护图片和说明书；不由此推断完整数据开放。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "60张照片：Ställ鞋柜14、Tonstad床架25、Gullaberg斗柜21。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "判断安装正确性；识别错误步骤与原因；正确时指出下一步。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "照片",
+        "PDF装配手册",
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "三产品按复杂度选择，错误可发生于较早而非最后一步。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "未公开：官方声明不分发/出售底层受版权保护材料；其他划分待核实。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "60照片准确率，误差条为±标准误。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "错题先匹配步骤，再LLM判描述；人类基线仅判步骤，任务略容易。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "提供产品名、当前完成步骤、照片、PDF手册、zoom与Python；80步budget；最高支持reasoning effort。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "不能把人类84%最佳组合称单人全卷成绩；运行CSV有不同任务版本，须分轨。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "CSV最新运行见1.0.1",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/data/benchmarks.csv",
+            "date": "2026-11-06",
+            "note": "Kimi K3.1 Pro，运行2026-11-06 20:34:34 KST，id UNKjzcpUBaxGsrr7zZZZWC；持续实跑证据。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/furniture-assembly",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.8333333333333334,
+          "metric": "accuracy (0–1), task version 1.0.0",
+          "stderr": "0.047040472216649226",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "2026-09-23T01:51:00+09:00 KST",
+          "run_id": "4QrkRM7KEDCQvg4wvfhz7N",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol (max)",
+          "score": 0.8,
+          "metric": "accuracy (0–1), task version 1.0.0",
+          "stderr": "0.04928872620664329",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "2026-09-30T03:29:32+09:00 KST",
+          "run_id": "R4vjsSfDrDo6ECQWGTUdWe",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Astra (max)",
+          "score": 0.8,
+          "metric": "accuracy (0–1), task version 1.0.0",
+          "stderr": "0.04928872620664329",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "2026-09-11T05:22:39+09:00 KST",
+          "run_id": "BSzNeBCFhFUnZswSqHtAed",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方CSV按1.0.0轨运行均分排序的前三记录；未合并1.0.1，也未将同模型不同配置去重。来源日期为各自运行时间，非整榜更新时间。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/furniture-assembly",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地研究，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/furniture-assembly",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

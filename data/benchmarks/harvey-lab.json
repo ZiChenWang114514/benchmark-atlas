@@ -1,0 +1,716 @@
+{
+  "id": "harvey-lab",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "basic_info": {
+    "name": {
+      "value": "Harvey LAB（Legal Agent Benchmark）",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Harvey's Legal Agent Benchmark (LAB)",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "开源仓库 lab-core v1.3.0；AA 实现为 Harvey LAB-AA v1.1；Vals 实现为 HLAB-Vals-1.1",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "三处“v1.1”分属不同实现，彼此不可比。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-05-06（Harvey 官方博客）",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "法律",
+        "专业知识工作"
+      ],
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（harvey-labs 仓库）",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "官方以博客发布，未见独立论文。"
+    },
+    "code_url": {
+      "value": "https://github.com/harveyai/harvey-labs",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/harveyai/harvey-labs",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "开源任务集在仓库 tasks/ 目录。"
+    },
+    "official_homepage": {
+      "value": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Harvey",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Artificial Analysis（v1.1 联合开发 AA 实现）；Vals AI（行业合作评测）",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Niko Grupen、Gabe Pereyra、Julio Pereyra（博客署名）",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Harvey（harveyai/harvey-labs）",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "像律所分派工作那样：给出指令与客户案卷材料，要求 agent 产出可审阅的法律工作成果（文档、表格、演示）。",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "LegalBench、CUAD、LEXam、BigLaw Bench 等只评短程推理，缺少长程法律 agent 基准。",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "首版开源 1,200+ agent 任务、24 个执业领域、75,000+ 条专家撰写评分标准；AA 使用 Harvey 120 个私有任务",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "长程 agent 任务，产出 docx/xlsx/pptx 等交付物",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "办公文档"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "有公开集与 held-out 测试集；Vals 结果来自 held-out 集；AA 使用私有数据集",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "AA：Hallucination-Gated All-Pass Rate（全部标准满足且无实质性幻觉）；Vals：Task Pass Rate 及 Criteria Pass Rate",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "AA v1.1 用 GPT-6 Sol、Grok 4.7、Claude Opus 5.5 三裁判逐条评分并平均，另做两阶段幻觉检查",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "Vals：Read/Edit/Write File、Glob、Bash、Grep 六工具与 docx/pptx/xlsx 技能；AA：Stirrup harness",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/harveyai/harvey-labs",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "AA v1.1 与 v1.0 不可比；Vals HLAB-Vals-1.1 与 AA LAB-AA 不可比（Vals 页面明确说明）。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "开源仓库 lab-core v1.3.0；AA 实现为 Harvey LAB-AA v1.1；Vals 实现为 HLAB-Vals-1.1",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+            "date": "2026-11-07",
+            "organization": "Artificial Analysis",
+            "note": "当前方法页将Harvey Legal Agent Benchmark (LAB v1.1)列为正在实施的评测，披露任务或评分协议。"
+          },
+          {
+            "url": "https://artificialanalysis.ai/evaluations",
+            "date": "2026-11-07",
+            "organization": "Artificial Analysis",
+            "note": "当前公开评测目录单列Harvey Legal Agent Benchmark (LAB v1.1)，不是新闻提及。"
+          },
+          {
+            "url": "https://www.vals.ai/benchmarks/hlab",
+            "date": "2026-11-05",
+            "organization": "Vals AI",
+            "note": "Vals 11月5日更新HLAB-Vals-1.1专业法律交付物榜；与AA设置分开记录。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "A",
+          "summary": "AA 目录标 Updated，已与 Harvey 联合升级为幻觉门控评测；Vals 也独立评 HLAB-Vals-1.1。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "Harvey 首发时有意不设榜单，预期数据集会持续演化。",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Harvey 本身无官方榜；AA 为与 Harvey 合作的实现。"
+    },
+    "third_party_url": {
+      "value": "https://www.vals.ai/benchmarks/hlab",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Muse Wonder Full (Max)",
+          "score": "13.1%",
+          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
+          "result_type": "AA 实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Muse Wonder (Max)",
+          "score": "10.0%",
+          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
+          "result_type": "AA 实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Grok 4.7 (Xhigh)",
+          "score": "9.4%",
+          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
+          "result_type": "AA 实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA 榜采集于2026-11-07；Vals HLAB-Vals-1.1 自写更新2026-11-05，第一为 Gemini 4 Argon 27.08%、Muse Spark Open 25.00%、Wonder 23.75%，口径不同不合并。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/harveyai/harvey-labs/issues",
+      "sources": [
+        {
+          "url": "https://github.com/harveyai/harvey-labs",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

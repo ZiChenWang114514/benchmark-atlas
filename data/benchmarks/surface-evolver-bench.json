@@ -1,0 +1,637 @@
+{
+  "id": "surface-evolver-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；11节研究快照；note: trending: B；未知字段保留待核实",
+  "basic_info": {
+    "name": {
+      "value": "Surface Evolver Bench",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Surface Evolver Bench",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "section": {
+      "value": "物理",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "材料",
+        "流体",
+        "科学代码"
+      ],
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（官网页脚声明；适用范围以原仓库文件为准）",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "code_url": {
+      "value": "https://github.com/yhenon/surface-evolver-llm-eval",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_homepage": {
+      "value": "https://yhenon.github.io/surface-evolver-llm-eval/",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Yann Henon",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "maintainer": {
+      "value": "Yann Henon",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "在低资源自定义格式中描述三维液体表面，处理接触角、重力、体积约束、边界积分。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "检验可执行计算物理建模，不只测文本物理知识；允许读文档和迭代修复。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "作者为每题编写参考解，模拟收敛液面，预计算体积、面积与能量。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "quality_control": {
+      "value": "静态检查、隐藏Evolver脚本、与参考物理量的容差比较；不采用LLM裁判。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "16任务。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多步读取文档、运行模拟、修复并通过结构化工具提交原始.fe数据文件。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "Surface Evolver .fe文件",
+        "模拟器反馈"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "复杂槽、井、通道液体配置；按任务分数部分给分。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "平均部分得分与严格pass rate分别记录。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "有效文件、初始几何、约束等可获部分分；严格通过要求全部检查满足。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "每任务运行一次agent循环；推理档不同的同一模型独立列项。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "Epoch展示mean score不是pass rate；harness文档和反馈环会显著影响成绩。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+            "date": "2026-11-07",
+            "note": "Epoch当前展示结果和协议；观察日，主要单一机构跟踪。"
+          },
+          {
+            "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+            "date": "2026-10-09",
+            "note": "Epoch评审Not enough info；不代表质量合格。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "B：主要单一机构当前评测/厂商采用，不能声称行业广泛采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "Epoch评审2026-10-09结论为Not enough info，不能将被收录等同质量认证。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://yhenon.github.io/surface-evolver-llm-eval/",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/benchmarks/surface-evolver-bench",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "coverage_note": {
+      "value": "官网有交互图但本轮可读返回没有模型数值；Epoch可读页给协议亦未返回数值，results保留待核实，不猜榜首。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方介绍/协议",
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

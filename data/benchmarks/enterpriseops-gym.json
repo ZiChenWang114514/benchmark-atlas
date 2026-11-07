@@ -1,0 +1,680 @@
+{
+  "id": "enterpriseops-gym",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "basic_info": {
+    "name": {
+      "value": "EnterpriseOps-Gym",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v1（2026-03-13）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-03-13（arXiv 提交）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "企业工作流",
+        "工具调用",
+        "有状态规划"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（HF 数据集）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2603.13594",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/ServiceNow/EnterpriseOps-Gym",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://arxiv.org/abs/2603.13594",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "ServiceNow",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "Shiva Krishna Reddy Malay、Shravan Nayak、Jishnu Sethumadhavan Nair、Sagar Davasam、Aman Tiwari、Sathwik Tejaswi Madhusudhan、Sridhar Krishna Nemala、Srinivas Sunkara、Sai Rajeswar",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "ServiceNow（ServiceNow-AI）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "在有持久状态变化与严格访问规范的企业环境中进行长程规划与工具调用，并能拒绝不可行任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "已有基准未反映专业环境中长程规划、持久状态与访问协议的复杂性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "author_background": {
+      "value": "专家策划（expert-curated）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "1,150 个任务、8 个垂直领域；沙箱含164张数据库表、512个工具",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "有状态多步工具调用任务",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "工具调用/数据库状态"
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "HF 公开数据集（parquet）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "严格任务成功率（无部分分）",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "按底层数据库终态的验证器判定（如 SQL 查询期望值），全部验证器通过才算成功",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "AA：Stirrup harness、oracle tool 模式、每任务3次重复",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "AA 实现（oracle 工具模式、3次重复）与论文原设置不同；论文首发最佳 Claude Opus 4.5 为37.4%。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+            "date": "2026-11-07",
+            "organization": "Artificial Analysis",
+            "note": "当前方法页将EnterpriseOps-Gym列为正在实施的评测，披露任务或评分协议。"
+          },
+          {
+            "url": "https://artificialanalysis.ai/evaluations",
+            "date": "2026-11-07",
+            "organization": "Artificial Analysis",
+            "note": "当前公开评测目录单列EnterpriseOps-Gym，不是新闻提及。"
+          },
+          {
+            "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+            "date": "2026-11-07",
+            "organization": "ServiceNow",
+            "note": "AA当前实现明确基于ServiceNow公开数据并以终态SQL验证。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "A",
+          "summary": "ServiceNow 企业工作流基准已有 AA 独立评测，按终态验证。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "ServiceNow 官方榜未定位。"
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
+          "score": "51.1%",
+          "metric": "EnterpriseOps-Gym-AA Task success rate",
+          "result_type": "AA 独立实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 3.7 Flash (Medium)",
+          "score": "50.4%",
+          "metric": "EnterpriseOps-Gym-AA Task success rate",
+          "result_type": "AA 独立实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 3.5 Flash (High)",
+          "score": "50.1%",
+          "metric": "EnterpriseOps-Gym-AA Task success rate",
+          "result_type": "AA 独立实现榜快照",
+          "source_date": "待核实（采集日2026-11-07）",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA 独立实现榜，采集日2026-11-07。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2603.13594",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13594",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2603.13594",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2603.13594",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

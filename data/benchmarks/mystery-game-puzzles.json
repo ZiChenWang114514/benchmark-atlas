@@ -1,0 +1,670 @@
+{
+  "id": "mystery-game-puzzles",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "Mystery Game Puzzles",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Mystery Game Puzzles",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "1.2.1（当前CSV中最新运行版本）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-07（官方BibTeX月份；精确日待核实）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "推理"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "给定某款知名游戏变体的局面，选择唯一最佳下一步。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "与Chess Puzzles类似，但隐藏游戏身份以降低针对性预训练或评测准备风险；不是证据充分的“探索隐藏游戏规则”任务。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "程序化随机采样对局，推进到中局并筛选唯一最佳下一步的状态。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "过滤到存在唯一最佳着法的局面；具体验证器与搜索深度待核实。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "保密游戏身份、提示、例题和轨迹，以降低基准专项准备。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "100个谜题局面",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "游戏状态文本输入，通过工具提交单一下一步。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "工具交互"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "未公开：游戏身份、提示、示例局面和模型轨迹（官网明确说明）。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "正确最佳下一步比例",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "提交正规化为游戏记谱并与答案比对；不能提取有效着法为unanswered且无分，非法着法判错。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "最小agent scaffold，文本局面输入并使用submission工具。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "CSV存在1.0.4、1.1.0、1.2.1，不能把不同版本的历史最高直接视为同版榜。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "1.2.1（当前CSV中最新运行版本）",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/data/benchmarks.csv",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 KST开始；ECI当前纳入。主要证据仍来自Epoch自身。"
+          },
+          {
+            "url": "https://epoch.ai/data/eci-documentation/data",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 KST开始；ECI当前纳入。主要证据仍来自Epoch自身。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 KST开始；ECI当前纳入。主要证据仍来自Epoch自身。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "游戏保密有利防专项优化，但公开复核和复现受限；不猜测游戏真实名称。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/data/benchmarks.csv",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.74,
+          "metric": "task version 1.2.1 mean_score (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.0440844；运行开始2026-10-27 05:00:37 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Argon (high)",
+          "score": 0.64,
+          "metric": "task version 1.2.1 mean_score (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.0482418；运行开始2026-10-14 02:14:57 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Muse Wonder (max)",
+          "score": 0.51,
+          "metric": "task version 1.2.1 mean_score (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "stderr 0.0502418；运行开始2026-10-15 01:17:18 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "仅对CSV中task version=1.2.1记录排序；不是跨版本总榜。"
+    },
+    "coverage_note": {
+      "value": "Epoch自身评测CSV；rank为本次同版筛选结果。CSV于11月6日仍有Kimi K3.1 Pro运行，不把运行次数当引用人数。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

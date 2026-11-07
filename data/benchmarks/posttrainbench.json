@@ -1,0 +1,651 @@
+{
+  "id": "posttrainbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "basic_info": {
+    "name": {
+      "value": "PostTrainBench",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "PostTrainBench",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.2",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-09-30（v1.2）",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑主板块归档，不据此限制跨学科覆盖。"
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（代码仓库LICENSE；四基础模型及下游数据各自许可另计）",
+      "sources": [
+        {
+          "url": "https://github.com/aisa-group/PostTrainBench/blob/main/LICENSE",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2603.08640",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/aisa-group/PostTrainBench",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://posttrainbench.com/",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "ELLIS Institute Tübingen、MPI for Intelligent Systems、Tübingen AI Center、University of Tübingen、Thoughtful Lab作者团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": [
+        "Ben Rank",
+        "Hardik Bhatnagar",
+        "Ameya Prabhu",
+        "Shira Eisenberg",
+        "Karina Nguyen",
+        "Matthias Bethge",
+        "Maksym Andriushchenko"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "PostTrainBench team",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "自主构建数据、训练及实验流程，改善给定小型基础LLM的目标能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "直接测端到端LLM后训练，而非仅论文复现或软件修改。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "四基础模型与目标基准的组合；v1.2去掉BFCL，保留六目标基准。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "独立检查数据污染、API使用、查阅历史PostTrainBench轨迹与模型身份。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "v1.2隔离HumanEval评分进程，移除trust-remote-code，污染裁判三次多数票。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "禁止从具体测试项衍生训练数据；提供同款n-gram工具；违规运行用基础模型分数。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "4基础模型×6目标基准（v1.2）；旧论文/旧页面的4×7不代表当前协议。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "提交后训练权重final_model，而非直接提交下游测试答案。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "代码",
+        "训练数据",
+        "模型权重"
+      ],
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "代理不得使用测试项训练；每个下游基准具体公开/隐藏范围依其协议。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "四基础模型上的六基准重加权平均；权重按instruct-base性能差的倒数归一化。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "AIME最终评估5种子，GSM8K/GPQA/HumanEval3种子，ArenaHard/HealthBench1种子；违规替换为base得分。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "每个运行10小时、一张H100；可使用终端与网络；Reprompted单列。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "aisa-group/PostTrainBench；v1.2增加Harbor adapter。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "v1.1与v1.2维度、HumanEval评分和裁判均变化；Kimi发布文H20和不同CLI不与官方H100榜直接混排。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1.2",
+        "evidence_2026_h2": [
+          {
+            "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+            "date": "2026-09-30",
+            "note": "新版本发布并增加前沿模型。"
+          },
+          {
+            "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+            "date": "2026-09-09",
+            "note": "Epoch将v1.1审查为Verified；不自动扩展为v1.2认证。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1.2删除BFCL，修复评分与隔离，增加多种子与多数票；首页仍有七基准描述，以明确v1.2变更和scores-v1.2.js为当前口径。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "存在测试数据训练、模型替换、未经允许API调用及查阅历史轨迹等已记录作弊模式；规则有专门审查。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://posttrainbench.com/",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Fable 5.1",
+          "score": 44.65,
+          "metric": "v1.2加权平均(%)",
+          "source_url": "https://posttrainbench.com/scores-v1.2.js",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方当前scores-v1.2.js聚合数据，区别9月30日文章四舍五入结果；Fable GPQA含Opus 5 fallback。"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 5.5 (Max)",
+          "score": 43.8,
+          "metric": "v1.2加权平均(%)",
+          "source_url": "https://posttrainbench.com/scores-v1.2.js",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方当前scores-v1.2.js聚合数据，区别9月30日文章四舍五入结果；Fable GPQA含Opus 5 fallback。"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Astra",
+          "score": 41.88,
+          "metric": "v1.2加权平均(%)",
+          "source_url": "https://posttrainbench.com/scores-v1.2.js",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方当前scores-v1.2.js聚合数据，区别9月30日文章四舍五入结果；Fable GPQA含Opus 5 fallback。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/scores-v1.2.js",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方当前scores-v1.2.js聚合数据，区别9月30日文章四舍五入结果；Fable GPQA含Opus 5 fallback。",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/scores-v1.2.js",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "maksym.andriushchenko@tue.ellis.eu"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2603.08640",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.08640",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://posttrainbench.com/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://posttrainbench.com/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地研究，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://posttrainbench.com/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

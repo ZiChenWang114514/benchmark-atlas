@@ -1,0 +1,689 @@
+{
+  "id": "osworld-v2",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "basic_info": {
+    "name": {
+      "value": "OSWorld 2.1",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "OSWorld 2.0: Benchmarking Computer-Use Agents on Long-Horizon Real-World Tasks（当前推荐发布 osworld-v2.1）",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "osworld-v2.1（2026-09-16 发布的 bug-fix 版本，官方推荐）；历史发布 osworld-v2-2026.08.08、osworld-v2-2026.06.24 仍为 Active",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-06-26（论文、环境与 osworld-v2-2026.06.24 首发）；osworld-v2.1 于 2026-09-16 发布",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "计算机使用",
+        "长程桌面工作流"
+      ],
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（代码仓库）",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "任务类与完整资产经 Hugging Face gated 数据集分发，数据许可另行待核实。"
+    },
+    "paper_url": {
+      "value": "https://github.com/xlang-ai/OSWorld-V2/blob/main/OSWorld2.0.pdf",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "仓库根目录含 OSWorld2.0.pdf 与 paper.pdf；arXiv 编号待核实。"
+    },
+    "code_url": {
+      "value": "https://github.com/xlang-ai/OSWorld-V2",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "gated；完整资产 xlangai/osworld_v2_assets_gated。"
+    },
+    "official_homepage": {
+      "value": "https://osworld-v2.xlang.ai",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "OSWorld 2.0: Benchmarking Computer-Use Agents on Long-Horizon Real-World Tasks",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "XLANG Lab, University of Hong Kong",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "UCSD、Columbia、UCSB、Mila、Uniphore、Snorkel AI、UW-Madison、Alibaba Qwen、Ohio State、Simular、NeoCognition（作者单位）",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Mengqi Yuan、Zilong Zhou、Xinzhuang Xiong（共同一作）等，通讯/末位含 Tianbao Xie、Tao Yu",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "xlang-ai（GitHub 组织）",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "真实端到端长程计算机使用：跨来源推理、视觉空间精度、隐式状态推断、多项状态追踪、冲突消歧、多模态编辑、教程跟随等。",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "现有计算机使用基准缺乏真实性、复杂度和长程性；OSWorld 2.0 单任务人类中位约1.6小时，Claude Opus 4.7 平均需318次工具调用，而 OSWorld 1.0 约30次。",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "基于真实输入材料构建工作流，并与有状态的用户档案数据交叉引用；使用31个自托管模拟网站及自托管 GitLab。",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "以发布版本固定代码、任务文件、资产、网站与镜像，禁止混用版本；另附安全报告审计安全敏感执行。",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "官方任务类通过 gated HF 数据集分发而不放在公开 GitHub，以减少泄漏、防止被评 agent 在线查到答案或评估器细节。",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "108 个长程任务，覆盖7个专业领域、21个子类；平均27.25个评分检查点；69.6%任务人类耗时超过1小时",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "交互式桌面/网页工作流任务（agent 在虚拟机中操作）",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "屏幕图像",
+        "文本",
+        "文件/多媒体"
+      ],
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "人类中位约1.6小时；平均 agent 步数 >250",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "另有 Offline set（官网图表区分 Full set / Offline set）；任务类为 gated 公开（自动审批）",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "主指标为 500 步内的二元完成率（Binary reward），并报告部分得分（Partial reward）",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每任务多检查点评分（平均27.25个），二元完成要求全部满足。",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_scripts": {
+      "value": "仓库提供 run.py / main.py / show_result.py 等运行与汇总脚本，以及 setup-osworld skill",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "2.0/2.1 与 OSWorld 1.0 不可直接比较；Full 与 Offline 子集不可混比；厂商报告的“offline subset”分数不同于全集；须同一发布版本。",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "osworld-v2.1（2026-09-16 发布的 bug-fix 版本，官方推荐）；历史发布 osworld-v2-2026.08.08、osworld-v2-2026.06.24 仍为 Active",
+        "evidence_2026_h2": [
+          {
+            "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+            "date": "2026-11-07",
+            "organization": "OpenAI",
+            "note": "GPT-6.1 Terra发布文用OSWorld 2.1比较多步骤桌面操作。"
+          },
+          {
+            "url": "https://www.anthropic.com/claude-haiku-5-5",
+            "date": "2026-10-07",
+            "organization": "Anthropic",
+            "note": "10月7日Haiku发布表和成本图报告OSWorld 2.1 offline subset。"
+          },
+          {
+            "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+            "date": "2026-09-28",
+            "organization": "Epoch AI",
+            "note": "Epoch 9月28日评审OSWorld 2.1为Flawed。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "A",
+          "summary": "9月发布的长程桌面任务同时出现在 OpenAI 与 Anthropic 10–11 月模型发布比较中，Epoch AI 亦有评审。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+    },
+    "paper_revision_history": {
+      "value": "2026-06-26 首发 → 2026-08-08 发布 → 2026-09-16 osworld-v2.1；2026-09-08 起不再托管 06.24 版网站",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "Epoch AI 2026-09-28 将 OSWorld 2.1 评为 Flawed（据候选研究证据）；具体缺陷描述待核实。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "前身 OSWorld 1.0（xlang-ai/OSWorld）；本条目只记录 2.x 系列。",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://osworld-v2.xlang.ai",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://www.anthropic.com/claude-haiku-5-5",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Sonnet 5.5",
+          "score": "83.9%",
+          "metric": "OSWorld 2.1 offline subset accuracy（厂商自报）",
+          "result_type": "厂商发布页自报（非官方榜）",
+          "source_date": "2026-10-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Haiku 5.5",
+          "score": "72.4%",
+          "metric": "OSWorld 2.1 offline subset accuracy（厂商自报）",
+          "result_type": "厂商发布页自报（非官方榜）",
+          "source_date": "2026-10-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Luna",
+          "score": "48.9%",
+          "metric": "OSWorld 2.1 offline subset accuracy（厂商自报）",
+          "result_type": "厂商发布页自报（非官方榜）",
+          "source_date": "2026-10-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Haiku 4.5",
+          "score": "15.7%",
+          "metric": "OSWorld 2.1 offline subset accuracy（厂商自报）",
+          "result_type": "厂商发布页自报（非官方榜）",
+          "source_date": "2026-10-07",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "仅为 Anthropic 发布表中列出的4个模型，rank 为本表内排序，不代表全局名次。"
+    },
+    "coverage_note": {
+      "value": "官网榜单为动态图表，本轮未抓到结构化名次；下列为 Anthropic 2026-10-07 发布页自报的 offline subset 数据，属厂商自报，不是官方全集榜。论文首发时 Claude Opus 4.8 二元完成率20.6%、部分得分54.8%。",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/xlang-ai/OSWorld-V2/issues",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "官网链接 Twitter 与 Discord（具体账号待核实）",
+      "sources": [
+        {
+          "url": "https://osworld-v2.xlang.ai",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://github.com/xlang-ai/OSWorld-V2/raw/main/OSWorld2.0.pdf",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/xlang-ai/OSWorld-V2",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://github.com/xlang-ai/OSWorld-V2",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/xlang-ai/OSWorld-V2",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

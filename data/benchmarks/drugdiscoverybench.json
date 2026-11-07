@@ -1,0 +1,659 @@
+{
+  "id": "drugdiscoverybench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: B；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "DrugDiscoveryBench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "DrugDiscoveryBench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "化学",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "生物与医学",
+        "药物发现"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Preview数据：CC BY 4.0；完整集及代码许可不可据此外推。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://labs.scale.com/papers/drugdiscoverybench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "DrugDiscoveryBench: Can Coding Agents Assist Early-Stage Drug Discovery?",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Scale Labs与Phylo",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Phylo",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Afra Feyza Akyürek、Xinming Tu（共同一作），Alec Gutmanstein、Jason Qin等；完整作者表见官方论文页。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Scale Labs",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/papers/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "早期药物发现的多步检索、计算和生物医学工具工作流：靶标、命中发现、构效分析和先导优化。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "仅通用编码或知识问答难测制药真实流水线中的约束保持与科学规划。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "制药科学家与生物医学研究者根据真实PDB、专利、论文、数据库记录写作。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "药物与生物医学领域专家。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "专家出题→第二专家复核→BenchGuard自动检查→作者方法可解性审核→修订→独立QC签署。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "每题单一可验证终点；同时提供结果rubric与过程rubric，过程不进入主要分数。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "Preview含canary，明确不用于训练；完整金标准/rubric需访问审核。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "82任务、7能力类别、4早期药物发现阶段，920条rubric标准。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "3–12个人工定义步骤的工作流，最终输出整数、浮点、SMILES/InChIKey、排序或短表。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码",
+        "结构与数据库文件"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "专家多步任务；不覆盖候选药确定之后DMPK、毒理、制剂和临床。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开Preview为82条任务提示与元数据，不含金标准和评分rubric；完整集需人工审核访问，不等于完全未公开。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Pass rate (%)；全任务三次平均；另有mean outcome score供论文分析。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "GPT-5.4按专家加权rubric评最终answer.md；结果得100才算任务解决，拒答/超时/缺失均0；过程标准不计主分。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "Scale-Biomni提供226函数、22领域、76文件数据湖和117科学包；Harbor格式；每次120分钟；原生harness或mini-SWE-agent。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "模型、effort、harness共同构成配置。论文/页面旧key takeaways与实时表数值不同，不能混用。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "2026-11-07 KST观察Scale现行模型配置比较和官方Preview；热度B，主要是单一评测机构当前使用，不能宣称行业广泛采纳。"
+          },
+          {
+            "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "2026-11-07 KST观察Scale现行模型配置比较和官方Preview；热度B，主要是单一评测机构当前使用，不能宣称行业广泛采纳。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-11-07 KST观察Scale现行模型配置比较和官方Preview；热度B，主要是单一评测机构当前使用，不能宣称行业广泛采纳。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "日期标定的在线数据库任务可能随时间漂移。论文页专家方法恢复说80/82，榜单方法段说76/82，保留冲突不择高数。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT 6 Astra (mini-SWE-agent) max",
+          "score": 68.7,
+          "metric": "Pass rate (%)",
+          "source_url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "±2.50（页面表）"
+        },
+        {
+          "rank": 2,
+          "model": "GPT 6 Astra (Codex) max",
+          "score": 65.4,
+          "metric": "Pass rate (%)",
+          "source_url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "±1.90（页面表）"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Argon (mini-swe-agent) high",
+          "score": 65.4,
+          "metric": "Pass rate (%)",
+          "source_url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "detail": "±2.90（页面表）"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "只提取Performance Comparison前三；key takeaways仍使用早期GPT-5.5等结果，不能当最新榜。模型×effort设置数正文出现12与16，而表更长，因此不填当前总模型数。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

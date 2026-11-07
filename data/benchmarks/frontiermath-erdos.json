@@ -1,0 +1,662 @@
+{
+  "id": "frontiermath-erdos",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: A；未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "FrontierMath Erdős",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "FrontierMath Erdős",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "68猜想固定题集（2026年8月构建）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "section": {
+      "value": "数学",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档，不作为官方分类。"
+    },
+    "subfields": {
+      "value": [
+        "数学"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2609.25050",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/epoch-research/LeanOpenProblems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/epoch-research/LeanOpenProblems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/frontiermath-erdos",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "FrontierMath Erdős",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Thomas F. Bloom（University of Manchester）；不将引用上游库等同机构合作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Tom Adamczewski",
+        "Thomas F. Bloom"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "在统一预算下自主证明或推翻开放数学猜想，并提交Lean形式化证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "避免只报道成功案例、预算不明和人工脚手架不透明；不用数值验证代替完整证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "Thomas Bloom从erdosproblems.com选取有数学意义与难度的未解问题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Thomas Bloom为数学家及ErdősProblems.com维护者。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "50条猜想沿用Formal Conjectures；其余18条由自动形式化流程构造，Bloom逐条复核。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "Comparator在独立容器中核对陈述与允许公理，并通过Lean内核重放。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "2026年8月均未解；后续已发表证明可能进入训练数据，应按模型知识截止时间过滤。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "68条Lean猜想，对应65个ErdősProblems编号。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "证明或否证；输出完整Lean证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "形式化数学文本",
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "Lean 4 / Mathlib；自然语言文献说明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "研究级开放猜想，形式化难度亦影响成绩。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "猜想Lean陈述与评测scaffold公开；不是隐藏答案标准问答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "68条猜想中通过核验的比例；误差条为±1标准误。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "仅接受与可信陈述完全一致、无额外公理、可由Lean内核重放的证明或否证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "每猜想一次尝试；每次300美元及72小时；离线Docker，shell、编辑器、Mathlib、SageMath及截至2022年的数学文献快照。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/epoch-research/LeanOpenProblems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "额外高预算或多次尝试不计入标准榜；已解问题总数不是任一模型标准分数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "68猜想固定题集（2026年8月构建）",
+        "heat_confidence": "A",
+        "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/data/benchmarks.csv",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "organization": "Epoch AI",
+            "note": "本次读取CSV并提取成功运行记录，含2026H2运行。"
+          },
+          {
+            "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "organization": "官方维护方",
+            "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "saturation": {
+      "value": "官网截至2026-10-29列出17个已解问题（包含外部研究及非标准尝试），不代表标准协议饱和。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "证明形式化成本可能低估数学能力；后续公开解答带来污染风险。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "原frontiermath已包含v2的Tier1–4；Erdős为独立命名未解问题套件，单独建条目。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/frontiermath-erdos",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/data/benchmarks.csv",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6.1 Sol (max)",
+          "score": 0.04411764705882353,
+          "metric": "CSV mean_score (0–1)",
+          "task_version": "待核实",
+          "original_task_name": "FrontierMath-Erdos",
+          "run_id": "bloom68-alv3junt54xqrybd",
+          "run_started_at_kst": "2026-10-02T05:26:05+09:00",
+          "stderr": "0.02508828598537234",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Astra (max)",
+          "score": 0.029411764705882353,
+          "metric": "CSV mean_score (0–1)",
+          "task_version": "待核实",
+          "original_task_name": "FrontierMath-Erdos",
+          "run_id": "bloom68-ultima-e1dhs43ykrmakree",
+          "run_started_at_kst": "2026-08-29T01:33:49+09:00",
+          "stderr": "0.0206414713705158",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.0294,
+          "metric": "CSV mean_score (0–1)",
+          "task_version": "待核实",
+          "original_task_name": "FrontierMath-Erdos",
+          "run_id": "bloom68-opus55-m1pc5wbymin28jdj",
+          "run_started_at_kst": "2026-09-24T22:30:00+09:00",
+          "stderr": "0.0206",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "CSV标准FrontierMath-Erdos任务已成功记录排序；不混入非系统高预算尝试。论文早期3%是历史值，不代替当前CSV结果。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2609.25050",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.25050",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅建立本地研究条目，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

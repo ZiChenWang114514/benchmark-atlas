@@ -1,0 +1,673 @@
+{
+  "id": "hle-diamond",
+  "schema_version": "0.1.0",
+  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: A",
+  "basic_info": {
+    "name": {
+      "value": "HLE-Diamond",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Humanity’s Last Exam: Diamond",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "HLE-Diamond（命名版本）",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "release_date": {
+      "value": "2026-09-22（官方发布文章日期）",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "多模态",
+        "跨学科科学"
+      ],
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签；空列表表示尚未补充细分标签。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "code_url": {
+      "value": "https://github.com/centerforaisafety/hle",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/cais/hle-diamond",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://lastexam.ai/blog/hle-diamond",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": [
+        "Center for AI Safety",
+        "Scale AI"
+      ],
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "authors": {
+      "value": "Center for AI Safety、Scale AI 与 HLE Contributors Consortium；Diamond清洗工作感谢研究社区与题目贡献者。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Center for AI Safety / Scale AI",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "闭卷专家知识与跨学科推理；包含图像题，分别报告知识与推理分区。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "针对原HLE问题质量，经研究社区反馈清洗与精炼，建立可持续比较的新版子集。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从原HLE题目集合清洗、精炼而来。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "review_process": {
+      "value": "历时一年的清洗与精炼，结合研究社区及HLE-Rolling反馈。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "知识与推理各500题；不把原HLE总分直接当Diamond分数。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "数据卡加入canary字符串供训练数据过滤，并明确要求基准数据不进入训练语料。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/cais/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "1,000题：500推理、500知识。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cais/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "沿用HLE字段格式；AA以开放答案与等价检查裁判评分。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cais/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "图像（272题）"
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "公开test split；partition列区分reasoning与knowledge。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cais/hle-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "pass@1 / 准确率；另报reasoning和knowledge。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "AA遵循官方HLE裁判提示与格式，GPT-5.6 Luna (medium)判答案正确性。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "AA：1,000题各1次，无工具；官方HLE系统提示要求解释、答案及置信度。有视觉输入的模型接收图像，否则仅接收题文，仍在全部1,000题计分。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/centerforaisafety/hle",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "官方文章high推理、max推理及工具轨不同；AA使用自有裁判实现。原HLE的2,158纯文本题结果不可与Diamond 1,000题直接比较。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "HLE-Diamond（命名版本）",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+            "date": "2026-10-27",
+            "date_type": "source_calendar_date",
+            "note": "AA v5用HLE-Diamond替换原HLE，指数权重10%。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+    },
+    "paper_revision_history": {
+      "value": "Diamond为2026-09-22命名发布；官网引用原HLE论文，不能把该论文的首发日写成Diamond发布日期。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "derivatives": {
+      "value": "与已收录hle为同族新版子集；保留两者关系，不把知识/推理/工具轨重复计数。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://lastexam.ai/blog/hle-diamond",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra",
+          "score": 59.9,
+          "metric": "HLE-Diamond accuracy %; reasoning high; no tools",
+          "source_url": "https://lastexam.ai/blog/hle-diamond",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Argon",
+          "score": 56.9,
+          "metric": "HLE-Diamond accuracy %; reasoning high; no tools",
+          "source_url": "https://lastexam.ai/blog/hle-diamond",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 5.5",
+          "score": 54.6,
+          "metric": "HLE-Diamond accuracy %; reasoning high; no tools",
+          "source_url": "https://lastexam.ai/blog/hle-diamond",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官网发布文章内嵌当前模型结果，文章日期为2026-09-22但榜表独立更新日待核实；AA 2026-10-27报告max档Opus 5.5 68%、Astra 64%、Fable 5.1 60%，与这里high档分轨保留。",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "agibenchmark@safe.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法/介绍网页（不是论文PDF）",
+          "url": "https://lastexam.ai/blog/hle-diamond"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://lastexam.ai/blog/hle-diamond",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://lastexam.ai/blog/hle-diamond",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组只建立本地研究文件，不上传或声明已有Drive PDF。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lastexam.ai/blog/hle-diamond",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

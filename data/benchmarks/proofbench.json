@@ -1,0 +1,675 @@
+{
+  "id": "proofbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "ProofBench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ProofBench（论文名称FormalProofBench）",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "论文修订号尚未完成精确核实。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "数学",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "数学"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2603.26996",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/proof_bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Vals AI与论文形式化贡献者",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": [
+        "Nikil Ravi",
+        "Kexing Ying",
+        "Vasilii Nesterov",
+        "Rayan Krishnan",
+        "Elif Uskuplu",
+        "Bingyu Xia",
+        "Janitha Aswedige",
+        "Langston Nashold"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "高级本科和研究生数学定理的Lean 4机器可验证证明。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "自然语言证明可能掩盖逻辑漏洞；需要确定性的形式检查。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "资格考试与标准教材，涵盖概率、测度、分析、代数、代数几何、数论、逻辑。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Lean 4专家，包括博士生与领域专家。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "题目与Lean形式陈述经过二次人工审核，避免误形式化。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "每份接受证明重新编译并检查#print axioms；sorry、admit及新公理不被接受。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "100道私有测试题用于保留污染抵抗；公开100题用于透明评测。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "公开100题、私有100题；当前榜以100道private题为口径。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "自然语言题干+Lean 4形式陈述，生成形式证明。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "Lean代码"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "数学自然语言与Lean 4",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "高级本科与研究生数学",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公共100题与私有100题；论文早期整体200题的结果不直接套到v1.1。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Accuracy (%)：最终提交且通过Lean检查的题目比例。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每题最多40轮，必须调用submit_proof；无提交或无效证明不给部分分。native_decide现被接受。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "普通模型无互联网；lean_loogle查询Mathlib、lean_run_code迭代、submit_proof仅最终一次。普通模型Lean 4.25.2；Aristotle用4.28。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib；AlephProver也用自有基础设施及不同预算。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1.1",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/proof_bench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
+          },
+          {
+            "url": "https://epoch.ai/data/eci-documentation/data",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "当前榜4个系统100%；表面已达满分，但不能将此推广为一般数学研究完全解决。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "与已有miniF2F不同；v1.1为本条最新版本。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/proof_bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://epoch.ai/data/eci-documentation/data",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Sonnet 5.5",
+          "score": 100.0,
+          "metric": "ProofBench v1.1 Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 5.5",
+          "score": 100.0,
+          "metric": "ProofBench v1.1 Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Fable 5.1",
+          "score": 100.0,
+          "metric": "ProofBench v1.1 Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "AlephProver",
+          "score": 100.0,
+          "metric": "ProofBench v1.1 Accuracy (%)",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官网显示顺序rank 1–4；四者同为100%，不是统计上严格先后。"
+    },
+    "coverage_note": {
+      "value": "Vals为创建者实测；Epoch ECI列入creator-administered，不意味着Epoch重新运行证明。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2603.26996",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://www.vals.ai/benchmarks/proof_bench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/proof_bench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/proof_bench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

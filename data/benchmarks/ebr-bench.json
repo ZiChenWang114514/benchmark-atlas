@@ -1,0 +1,673 @@
+{
+  "id": "ebr-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；note: trending: A；未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "EBR-bench",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "EBR-bench",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v4 methodology（2026-09-22）",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑归档，不代表官方分类。"
+    },
+    "subfields": {
+      "value": [
+        "持续学习",
+        "游戏"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑归档，不代表官方分类。"
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "official_homepage": {
+      "value": "https://epoch.ai/benchmarks/ebr-bench",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "maintainer": {
+      "value": "Epoch AI",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "通过反复游玩陌生复杂桌游Earthborne Rangers，衡量记笔记、长期策略与从经验中学习的能力。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "不只检查首次答题，而是在同一任务连续尝试后是否改善；表现分和学习增益必须区分。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "独立数字化游戏初始五个游戏日；从任务、奖励及重要事件定义21个可得目标。游戏版权属于Earthborne Games，不代表其参与基准开发。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "review_process": {
+      "value": "Generality Labs受Epoch委托于2026年7月审核v1；肯定游戏设计，同时质疑持续学习诱发与上下文整理；8月27日修复一个引擎bug。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "Generality Labs受Epoch委托于2026年7月审核v1；肯定游戏设计，同时质疑持续学习诱发与上下文整理；8月27日修复一个引擎bug。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "每run 10次游玩：8次学习、最后2次评分；每模型通常5个独立样本，旧实验10个；每次最多21目标。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "卡牌查阅、路线规划、笔记管理和多步游戏决策。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "地图图像",
+        "工具调用"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "Epoch明确不分发或出售底层受版权保护游戏材料；公开的是方法与成绩，完整游戏及评测数据许可待核实。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Topline：每run最后两次得分取较高，再跨样本汇总；得分为21目标比例；另研究消融学习增益。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "以完成目标计分，不把游戏高分直接视为持续学习增益；学习增益需与仅两次游玩的消融对照。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "默认单agent、禁用特定卡牌，250k token压缩阈值；Fable系列用标称上下文90%；ReAct与Deep Agent多agent分开。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "v1/v2计分变更、v3压缩阈值取优、v4禁卡和采样量更改导致历史不完全可比；默认单agent不混多agent。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v4 methodology（2026-09-22）",
+        "trending": "A",
+        "heat_evidence": "官方2026-09-22更新v4并在10月审计回应中报告新模型学习结果；本次重读Epoch CSV可见11月2日Mistral Large 4运行。A为候选分级，不据此声称多个独立创建机构。",
+        "evidence_2026_h2": [
+          {
+            "url": "https://epoch.ai/benchmarks/ebr-bench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "v1/v2计分变更、v3压缩阈值取优、v4禁卡和采样量更改导致历史不完全可比；默认单agent不混多agent。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://epoch.ai/benchmarks/ebr-bench",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.780952380952381,
+          "metric": "CSV mean_score（0–1，21目标比例）",
+          "stderr": "0.05128728387747146",
+          "run_id": "65SHyNJX5oxVADzzjkssFK",
+          "started_at_kst": "2026-10-27T05:01:15+09:00 KST",
+          "source_date": "待核实（CSV榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "note": "按CSV均值排序；可能跨历史协议，不作为统一v4严格排名。"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Astra (max)",
+          "score": 0.7619047619047619,
+          "metric": "CSV mean_score（0–1，21目标比例）",
+          "stderr": "0.08384198505551908",
+          "run_id": "GhVYxWxttDxZ7akiJQPYsE",
+          "started_at_kst": "2026-08-31T00:38:49+09:00 KST",
+          "source_date": "待核实（CSV榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "note": "按CSV均值排序；可能跨历史协议，不作为统一v4严格排名。"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.7142857142857142,
+          "metric": "CSV mean_score（0–1，21目标比例）",
+          "stderr": "0.07063046178186345",
+          "run_id": "iKWWUmcuzRjqisoshKVEpL",
+          "started_at_kst": "2026-09-23T06:38:58+09:00 KST",
+          "source_date": "待核实（CSV榜表更新时间）",
+          "collected_at": "2026-11-07 KST",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "note": "按CSV均值排序；可能跨历史协议，不作为统一v4严格排名。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "v1/v2计分变更、v3压缩阈值取优、v4禁卡和采样量更改导致历史不完全可比；默认单agent不混多agent。 榜表自写更新时间：待核实；采集日不等于运行日。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "已打开官方网页/论文",
+          "url": "https://epoch.ai/benchmarks/ebr-bench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/ebr-bench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅本地建页，未上传Drive，不伪造归档链接。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门中文研究条目。Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。 热度与榜单口径分离，不确定值标记待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://epoch.ai/benchmarks/ebr-bench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

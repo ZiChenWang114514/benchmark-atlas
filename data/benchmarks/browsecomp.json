@@ -1,0 +1,706 @@
+{
+  "id": "browsecomp",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "basic_info": {
+    "name": {
+      "value": "BrowseComp",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1（1,266题原始集）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1（2025-04-16）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2025-04-16（arXiv 提交日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档。"
+    },
+    "subfields": {
+      "value": [
+        "深度搜索",
+        "网页浏览",
+        "信息检索"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（simple-evals 仓库）",
+      "sources": [
+        {
+          "url": "https://github.com/openai/simple-evals",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "题目数据集本身的许可另行待核实；simple-evals 已于2025年7月发布弃用公告。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2504.12516",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/openai/simple-evals",
+      "sources": [
+        {
+          "url": "https://github.com/openai/simple-evals",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://openai.com/index/browsecomp/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "Jason Wei、Zhiqing Sun、Spencer Papay、Scott McKinney、Jeffrey Han、Isa Fulford、Hyung Won Chung、Alex Tachard Passos、William Fedus、Amelia Glaese",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "持续、富有创造性地在互联网上检索难找、相互纠缠的信息。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "以短且易验证的答案测浏览 agent 的核心坚持与检索能力；论文自述回避了真实用户分布、长答案与歧义消解等问题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "decontamination": {
+      "value": "官方提供 canary 与泄漏防护指引（据 Steel.dev 方法说明转述）",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "1,266 题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "短答案问答，可与参考答案对照验证",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "网页"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "英语"
+      ],
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "中文版 BrowseComp-ZH 为另一基准。"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "准确率（与参考短答案比对）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "official_scripts": {
+      "value": "https://github.com/openai/simple-evals",
+      "sources": [
+        {
+          "url": "https://github.com/openai/simple-evals",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "分数高度依赖工具、上下文管理策略（如压缩阈值）、尝试次数与多 agent 并行；纯模型与带工具系统不可直接比较。",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1（1,266题原始集）",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.kimi.com/blog/kimi-k3",
+            "date": "2026-11-07",
+            "organization": "Moonshot AI",
+            "note": "Kimi K3生产力评测脚注详细规定BrowseComp上下文压缩，并报告无压缩对照。"
+          },
+          {
+            "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+            "date": "2026-10-11",
+            "organization": "Steel.dev",
+            "note": "10月11日更新的独立榜单列OpenAI、Anthropic、Moonshot多方带来源结果。"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-astra/",
+            "date": "2026-11-07",
+            "organization": "OpenAI",
+            "note": "GPT-6 Astra正式发布评测表明确报告BrowseComp，作为近期厂商采用证据。"
+          }
+        ],
+        "trending": {
+          "heat_confidence": "A",
+          "summary": "OpenAI、Moonshot 等前沿发布反复采用，独立追踪器10月仍更新。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "接近饱和：Steel.dev 跟踪的最高分已达 92.2%（GPT-5.6 Sol Ultra，多 agent），单 agent 前列在 90% 上下。",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "BrowseComp-ZH、BrowseComp-Plus 等衍生基准不并入本条。",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "OpenAI 无持续维护的官方榜单；成绩分散在各模型发布页。"
+    },
+    "third_party_url": {
+      "value": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-5.6 Sol Ultra",
+          "score": "92.2%",
+          "metric": "BrowseComp accuracy",
+          "note": "4个并行agent",
+          "result_type": "第三方汇总厂商自报",
+          "source_date": "2026-10-11",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6 Astra",
+          "score": "91.5%",
+          "metric": "BrowseComp accuracy",
+          "note": "单agent",
+          "result_type": "第三方汇总厂商自报",
+          "source_date": "2026-10-11",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Kimi K3",
+          "score": "91.2%",
+          "metric": "BrowseComp accuracy",
+          "note": "300K压缩",
+          "result_type": "第三方汇总厂商自报",
+          "source_date": "2026-10-11",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 5",
+          "score": "90.8%",
+          "metric": "BrowseComp accuracy",
+          "result_type": "第三方汇总厂商自报",
+          "source_date": "2026-10-11",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-5.6 Sol",
+          "score": "90.4%",
+          "metric": "BrowseComp accuracy",
+          "result_type": "第三方汇总厂商自报",
+          "source_date": "2026-10-11",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Steel.dev 页面自写 Last updated 2026-10-11。"
+    },
+    "coverage_note": {
+      "value": "Steel.dev 独立追踪页（自写更新于 2026-10-11）汇总各方自报分数，混合了纯模型与带工具系统；多数行为厂商自报，非独立复测。",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/openai/simple-evals/issues",
+      "sources": [
+        {
+          "url": "https://github.com/openai/simple-evals",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
+      "sources": [
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/browsecomp/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        "https://arxiv.org/pdf/2504.12516"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.12516",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://openai.com/index/browsecomp/",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://openai.com/index/browsecomp/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "id": "prbench-legal",
+  "schema_version": "0.1.0",
+  "editorial_status": "研究快照；trending: B；未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "PRBench – Legal",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Professional Reasoning Benchmark – Legal",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档，不作为官方分类。"
+    },
+    "subfields": {
+      "value": [
+        "法律",
+        "专业推理"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑标签"
+    },
+    "license": {
+      "value": "CC BY 4.0（数据集）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "不自动推定代码仓库使用相同许可证。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2511.11562",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/scaleapi/PRBench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ScaleAI/PRBench",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://labs.scale.com/leaderboard/prbench-legal",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Scale AI",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "maintainer": {
+      "value": "Scale Labs",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "高风险法律专业判断、语境理解与推理质量。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "通识学术考试不能充分衡量经济后果、法律责任及透明推理。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "整个PRBench由182位金融与法律专业人士共同设计；不能把182全算法律专家。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "法律专家具JD；金融资格条件与法律轨分开。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "独立专家复核rubric；官网报告93.9%清晰性和有效性认可率。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "o4 Mini裁判与人类一致80.2%，人类间79.6%。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "法律全量500题、Hard 250题；金融600题另轨，非本条题量。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "专业开放问答与多轮对话；全PRBench约30%多轮，该比例不能直接当法律轨比例。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "Legal-Hard为250题困难子集。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方数据卡公开Finance、Finance-Hard、Legal与Legal-Hard；子集重复不能相加凑题量。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "rubric加权评分，clip至0–1；榜表数值按页面展示保留。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每任务10–30条带权标准，权重−10至+10；o4 Mini逐项评分。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "当前Performance Comparison与正文历史Hard分数口径不明，不把61.56直接解释为Hard准确率；原始页面Rank (UB)定义为1+下置信界超过本模型上界的模型数。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。",
+        "evidence_2026_h2": [
+          {
+            "url": "https://labs.scale.com/leaderboard/prbench-legal",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "organization": "官方维护方",
+            "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://labs.scale.com/leaderboard/prbench-legal",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Muse Spark 1.3",
+          "score": 61.56,
+          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方榜单快照"
+        },
+        {
+          "rank": 2,
+          "model": "Muse Spark Open",
+          "score": 59.76,
+          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方榜单快照"
+        },
+        {
+          "rank": 3,
+          "model": "Muse Wonder 1.0",
+          "score": 58.4,
+          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方榜单快照"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "结构化保留当前Performance Comparison显示顺序及原始分数；百分制转换与Full/Hard对应关系待核实，未与正文历史Legal-Hard 0.37拼接。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2511.11562v1",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/prbench-legal",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "本组仅建立本地研究条目，未上传Drive。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://labs.scale.com/leaderboard/prbench-legal",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

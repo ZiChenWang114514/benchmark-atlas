@@ -1,0 +1,656 @@
+{
+  "id": "voicecodebench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: B；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "VoiceCodeBench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "VoiceCodeBench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "v2（本次打开全文的Version 2 note）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "语音",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "语音"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "非音频材料MIT；音频附加禁止声音克隆限制，须阅读完整LICENSE。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2608.28916",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/voice-code-bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "VoiceCodeBench: Evaluating Exact Structured-Token Recovery in Automatic Speech Recognition",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Besimple AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Vals AI提供外部实现与榜单；不据此推断共同创建数据。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Tyler Baumgartner",
+        "Brandon Tai",
+        "Lisa Kaelin-Martin",
+        "Candice Fan",
+        "Luc Debaupte",
+        "Bill Wang",
+        "Yi Zhong"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Besimple AI维护数据；Vals AI维护其评测实现",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "Besimple, Inc.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "英语工作语音中精确恢复电话、标识符、路径、URL、命令与单位等结构值。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "WER相近的转写可能在关键值上不同，流畅文本未必可供软件正确执行。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "先选实体类型、数量与难度，再用合成值构建工作场景和脚本；人类录音。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "85位付费、同意数据发布的录音贡献者；研究团队审核实体。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "LLM辅助脚本生成，经人工自然性、唯一性、实体一致性与可恢复性审核；录音质量差则重录。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "1482实体审计；原12系统中分层200判决人工审计完全一致，但不保证裁判零错误。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "public test-only，不提供训练集；公开标签意味着可被适配，需披露任何benchmark特化。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "300 WAV录音，5.587小时、85说话者、1482实体、26类型、8工作流领域。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "音频转写；template/acoustic/canonical三层文本与实体标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "音频",
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "light、standard、dense、stress；人为配额不代表生产分布。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "300录音单一公开test split，无训练语料或隐藏榜单。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "TSR=全部目标实体都正确的录音比例；CTEM=正确实体比例；WER/WAcc作辅助。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "版本化LLM verifier判断canonical值是否可唯一恢复；无害格式变化允许，错符号、数字或单位不允许；TSR不给部分分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "raw-audio-only，不给领域、实体提示、词表、语法约束或转写后修正。流式仅评分final transcript。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "HF中scripts及评分/reproduce_release.sh；Vals移植到Valkyrie。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "Vals榜与作者HF当前23系统结果不同，模型/端点/流式设置不同不得直接混排；WER还需区分v1普通与v2 format-invariant。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Vals榜明确更新2026-09-24；作者卡还记录2026-10-08/09追加运行。按候选保留B，不声称行业广泛采用。"
+          },
+          {
+            "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Vals榜明确更新2026-09-24；作者卡还记录2026-10-08/09追加运行。按候选保留B，不声称行业广泛采用。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Vals榜明确更新2026-09-24；作者卡还记录2026-10-08/09追加运行。按候选保留B，不声称行业广泛采用。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/voice-code-bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://www.vals.ai/benchmarks/voice-code-bench",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT Live Transcribe",
+          "score": 67.67,
+          "metric": "Vals实现 TSR (%)",
+          "source_url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "source_date": "2026-09-24",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Grok Voice Transcribe 2.0",
+          "score": 65.33,
+          "metric": "Vals实现 TSR (%)",
+          "source_url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "source_date": "2026-09-24",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "Cartesia Ink 2",
+          "score": 62.0,
+          "metric": "Vals实现 TSR (%)",
+          "source_url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "source_date": "2026-09-24",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "这里固定Vals 2026-09-24表。作者HF当前另报Deepgram Nova-3与GPT live streaming同为68.7%；不混排两个实现。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "tyler@besimple.ai",
+        "yi@besimple.ai"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2608.28916",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.28916",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "id": "code-migration",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: B；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "Code Migration v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Code Migration v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "maintainer": {
+      "value": "Vals AI",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "把完整可运行程序迁移到另一语言并忠实复现行为，含遗留COBOL现代化。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "短代码翻译不能代表仓库级CLI迁移与有状态遗留业务系统。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "CLI为30个开源仓库；COBOL为10仓库，混合开源程序与为本基准合成的业务系统。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "quality_control": {
+      "value": "隐藏行为测试前进行反作弊检查：禁止原程序包装、参考材料复制、硬编码输出，并检查目标语言。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "隐藏行为测试不向模型公开；源仓库本身公开，不能保证预训练未见。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "CLI 30源仓库各迁到另外4语言，共120迁移；COBOL→Java另10仓库。headline按40源仓库等权，不是按130任务简单等权。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "提供源程序及指令，提交目标语言实现和Dockerfile。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "代码",
+        "文本",
+        "CLI执行"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "CLI源/目标Python、Java、Kotlin、Rust、C++；另有COBOL→Java。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "public_hidden_split": {
+      "value": "开源源仓库；评分隐藏测试，每CLI迁移约100–400行为测试。完整发布范围待核实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Hidden-test pass rate (%)；代码质量另行诊断，不影响主分。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "构建提交Docker镜像运行隐藏测试；CLI先对每源仓库4目标取均值，再40源仓库等权，CLI:COBOL权重3:1。作弊提交0。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "v1.1统一Pi agent harness，离线sandbox，给源程序与任务指令。具体token/时限待核实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "comparability_warning": {
+      "value": "v1.1从mini-SWE-agent换Pi并修订隐藏测试；任务不变但与v1分数不可直接比较。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "v1.1",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "Vals榜明确更新2026-10-30并列29模型。热度B，主要单一机构当前榜，不称全行业快速增长。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Vals榜明确更新2026-10-30并列29模型。热度B，主要单一机构当前榜，不称全行业快速增长。"
+    },
+    "paper_revision_history": {
+      "value": "v1.1更换Pi harness并修订隐藏测试；独立论文与修订历史待核实。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "测试通过只表示被测行为；可读性、文档、文件结构和语言习惯是独立review维度，不能将隐藏测试分当代码质量。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Claude Sonnet 5.5",
+          "score": 86.88,
+          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "source_date": "2026-10-30",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 5.5",
+          "score": 81.01,
+          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "source_date": "2026-10-30",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Astra",
+          "score": 80.58,
+          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "source_date": "2026-10-30",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "Vals创建者榜单；三者为Overall而非CLI子集。页面模型effort曲线不等于headline另一个题集。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

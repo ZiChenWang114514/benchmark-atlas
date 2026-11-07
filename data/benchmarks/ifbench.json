@@ -1,0 +1,659 @@
+{
+  "id": "ifbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；中文研究快照；note: trending: B；未核实保留标记",
+  "basic_info": {
+    "name": {
+      "value": "IFBench",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "IFBench",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "沿用官方名称；不将论文标题臆造为全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "论文修订号尚未完成精确核实。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "section": {
+      "value": "语言",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑分类。"
+    },
+    "subfields": {
+      "value": [
+        "语言"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2507.02833",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/allenai/IFBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "official_homepage": {
+      "value": "https://github.com/allenai/IFBench",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Generalizing Verifiable Instruction Following",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Allen Institute for Artificial Intelligence、University of Washington",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "authors": {
+      "value": [
+        "Valentina Pyatkin",
+        "Saumya Malik",
+        "Victoria Graf",
+        "Hamish Ivison",
+        "Shengyi Huang",
+        "Pradeep Dasigi",
+        "Nathan Lambert",
+        "Hannaneh Hajishirzi"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "AllenAI IFBench项目",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "NSF IIS-2044660",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "对58种新颖可程序验证的域外输出约束泛化，包括计数、比例、单词、句子、格式、自定义与复制。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "IFEval的25种约束可能被过拟合；IFBench不是IFEval别名或新版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "人工收集用户反馈及核心技能需求设计约束，组合未发布的WildChat留出提示。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "指令遵循与后训练研究者；兼容性标注者具体资历待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每实例人工检查提示与约束兼容，防止无法同时满足。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "为约束编写Python验证函数；排除训练/测试约束重合。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "测试58种新约束与IFTrain 29种训练约束分开，原始WildChat提示留出；公开后仍需防泄漏。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原始IFBench 300提示，每个含1或2约束；AA评294题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放文本输出，单轮任务+约束；多轮先回答原任务后按约束改写。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "difficulty": {
+      "value": "旨在测未见约束泛化，不以IFEval得分推断能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "IFBench评测300提示；IFTrain 29约束与训练提示为独立材料，不混成测试规模。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "strict/loose accuracy；论文报告prompt-level loose accuracy，AA采用规则评分pass@1。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "strict直接验证，loose允许删首末行和部分字体标记后再检验；题级与约束级口径不可混用。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文通常temperature 0，思考模型调整token并移除思维链；DeepSeek R1用0.6/top_p .95，o3温度1。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "AllenAI/IFBench含约束验证代码；本轮GitHub页仅返回摘要，不据此填许可证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "AA 294题×5次不同于原始300提示；单/多轮与strict/loose差异须保留。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "B",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。"
+          },
+          {
+            "url": "https://artificialanalysis.ai/evaluations/ifbench",
+            "date": "2026-11-07",
+            "date_type": "observed_on",
+            "note": "AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "AA当前仍将IFBench列为额外评测，294题×5次；不是当前v5指数成分。热度B主要来自单一第三方持续评测。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "derivatives": {
+      "value": "与已收录ifeval不同：IFBench测试域外约束泛化，不能当IFEval新名字。",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/allenai/IFBench",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/ifbench",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "Grok 4.3 (Medium)",
+          "score": 83.3,
+          "metric": "AA IFBench pass@1 (%)",
+          "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 2,
+          "model": "Grok 4.20 0309 (Reasoning)",
+          "score": 82.9,
+          "metric": "AA IFBench pass@1 (%)",
+          "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "rank": 3,
+          "model": "MiniMax-M3",
+          "score": 82.9,
+          "metric": "AA IFBench pass@1 (%)",
+          "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "source_date": "待核实（页面未明示榜表更新时间）",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "AA独立运行；第二、三相同展示精度，不声称显著优劣。无页面自写更新日，模型发布日期不替代评测时间。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/ifbench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "valentinap@allenai.org"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/allenai/IFBench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2507.02833",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02833",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方网页方法与榜单（非PDF）",
+          "url": "https://github.com/allenai/IFBench"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/allenai/IFBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://github.com/allenai/IFBench",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "按本批范围不上传Drive；不是官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/allenai/IFBench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

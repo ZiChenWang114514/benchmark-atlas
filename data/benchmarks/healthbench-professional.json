@@ -1,0 +1,644 @@
+{
+  "id": "healthbench-professional",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "basic_info": {
+    "name": {
+      "value": "HealthBench Professional",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "HealthBench Professional",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_version": {
+      "value": "v1（本轮返回正文版本）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2604.27470",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "dataset_url": {
+      "value": "https://openaipublic.blob.core.windows.net/simple-evals/healthbench_professional/assets.zip",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://arxiv.org/abs/2604.27470",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "HealthBench Professional: Evaluating Large Language Models on Real Clinician Chats",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "authors": {
+      "value": "Rebecca Soskin Hicks、Mikhail Trofimov、Dominick Lim、Rahul K. Arora 等（完整作者见论文）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "衡量医生与模型真实工作对话中的临床咨询、写作与文档、医学研究能力及安全性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "医学选择题或合成病历不能覆盖常见临床聊天工作；Professional补充而非替代面向患者和医生的HealthBench。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "医生测试ChatGPT for Clinicians所得对话；候选15,079例中按质量、代表性及难度选择525例。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "190名医生参与，实践经验跨50国、26个医学专科。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "至少3名医生分三阶段撰写、审查、最终裁决；困难任务由独立医生确认错误与现实性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "困难样本相对候选池富集约3.5倍，约三分之一为红队；为全部任务收集不限时、可联网的专科匹配医生基线。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "论文请求不要在线逐题发布数据；使用canary，并保留小型私有held-out集监测训练污染。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "525例：care consult 236、writing and documentation 142、medical research 147。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "单轮或多轮对话，生成最后用户消息的下一条自由文本答复。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本对话"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "每例有primary language标签；完整语言计数待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "typical为医生Likert 3–7，difficult为1–2；困难选择针对当时OpenAI模型，非自然临床分布。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开525任务的对话、rubric、use_case、type、difficulty、specialty与医生参考答复；另保留小型私有集，数量待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "长度调整后的rubric得分；不是临床正确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每项非零权重在-10至10，满足计全部点数，否则0；除以正权重总和；每超过2000字符500字扣1.47个百分点；论文均值裁剪至[0,1]。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文主要比较每题8样本、最高可用推理档；AA为4次重复，用GPT-5.4 low裁判。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "官方论文使用内部实现且明确不发布官方外部实现；HealthBench的simple-evals作为参考，不能称完全同一实现。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "产品harness、裸模型、是否联网与长度调整/裁剪须分开；困难抽样不能解读为现实临床错误率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "heat_confidence": "A",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+            "date": "2026-11-07",
+            "note": "Artificial Analysis当前独立评测525任务；日期为观察日。"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-astra/",
+            "date": "2026-11-07",
+            "note": "厂商发布表继续单列Professional；观察日，不冒称首发日。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "A：原始基准与独立评测材料交叉核验；不将仅引用等同独立实跑。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "Epoch于2026-09-10评审判为Flawed；该目录未说明具体错误，不臆测。另需注意模型裁判、难度富集和长度校正的外推限制。",
+      "sources": [
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "Professional是对HealthBench的互补临床工作评测，不是Hard/Consensus切片，也不宣称取代HealthBench。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra (Max)",
+          "score": "66.0%",
+          "metric": "AA长度调整rubric得分",
+          "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-6.1 Sol (Max)",
+          "score": "65.1%",
+          "metric": "AA长度调整rubric得分",
+          "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+          "score": "63.0%",
+          "metric": "AA长度调整rubric得分",
+          "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "source_date": "待核实",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "公开榜单快照"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅保留所列来源与协议下的结果；榜单自写更新时间：待核实。访问日期不是评测运行日期。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "rebecca.soskinhicks@openai.com",
+        "mtrofimov@openai.com",
+        "karan@openai.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2604.27470",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方介绍/协议",
+          "url": "https://arxiv.org/abs/2604.27470"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2604.27470",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "status": "待核实",
+    "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2604.27470",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}
