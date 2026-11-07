@@ -1,0 +1,668 @@
+{
+  "id": "agentbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "原始8环境协议；当前仓库版本待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2023-08-08 01:08:11 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "交互式Agent综合能力"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2308.03688",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/THUDM/AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://github.com/THUDM/AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "AgentBench: Evaluating LLMs as Agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Tsinghua University、Ohio State University、UC Berkeley 等作者单位。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Liu, Xiao",
+        "Yu, Hao",
+        "Zhang, Hanchen",
+        "Xu, Yifan",
+        "Lei, Xuanyu",
+        "Lai, Hanyu",
+        "Gu, Yu",
+        "Ding, Hangliang",
+        "Men, Kaiwen",
+        "Yang, Kejuan",
+        "Zhang, Shudan",
+        "Deng, Xiang",
+        "Zeng, Aohan",
+        "Du, Zhengxiao",
+        "Zhang, Chenhui",
+        "Shen, Sheng",
+        "Zhang, Tianjun",
+        "Su, Yu",
+        "Sun, Huan",
+        "Huang, Minlie",
+        "Dong, Yuxiao",
+        "Tang, Jie"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "THUDM / AgentBench 项目团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "论文致谢 Zhipu AI 的 GPU/API 支持及科研项目资助；完整资助清单见原文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "跨环境长程交互、工具执行、决策、遵循反馈与完成目标的综合Agent能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "单轮静态语言/知识任务难以评估可行动Agent，不同交互环境的能力差异被单任务掩盖。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "8环境：OS、Database、Knowledge Graph、Digital Card Game、Lateral Thinking Puzzles、Household(ALFWorld)、Web Shopping(WebShop)、Web Browsing(Mind2Web)。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "多校研究团队；混合自建环境和既有任务，不是统一专家原创题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "各环境构造任务、交互接口与专用评测；不能把所有环境说成同一审核流程。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "统一消息/行动框架，环境特定预算与有效性检查；失败轨迹用于误差分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "包含已公开数据和环境，不能保证完全排除训练重叠；原论文设置不等于隐藏新题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原始dev269、test1,014；各环境题量和指标不相同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多轮文本交互与环境行动，包含SQL、shell、游戏、家务与网页。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码/工具动作",
+        "模拟环境"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语指令为主；含SQL、shell等行动语言。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "依环境和任务变化；不能按一个统一题目难度分布概括。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "原论文报告dev/test划分，代码与环境公开；split用途不等于永久隐藏测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "各环境SR、F1、reward、游戏进度、step SR等；Overall为归一化后的加权环境平均，不是百分准确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "环境专用成功判定后再规范化聚合；必须保留单项分数与归一化方式。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文简单CoT策略，温度0，无多重重试/集成，约3500-token上下文裁剪，环境各有固定行动预算。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/THUDM/AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "综合OA与环境百分比不能直接比较；不同环境集、上下文截断和框架会改变结果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始8环境协议；当前仓库版本待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。",
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Xiao Liu [ view email ] [v1] 2023-08-08 01:08:11 KST (20,331 KB) [v2] 2023-10-25 16:41:24 KST (20,908 KB) [v3] 2025-10-04 12:54:18 KST (20,753 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "异质环境与指标聚合可能掩盖不同短板；公开任务污染与上下文/工具失败须和推理能力分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/THUDM/AgentBench",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "GPT-4-0613",
+          "score": 4.01,
+          "metric": "Overall归一化分",
+          "benchmark_version": "原始8环境",
+          "result_type": "论文历史基线",
+          "source_date": "论文Table3",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Claude 3 Opus",
+          "score": 3.11,
+          "metric": "Overall归一化分",
+          "benchmark_version": "原始8环境",
+          "result_type": "论文历史基线",
+          "source_date": "论文Table3",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "GLM-4",
+          "score": 2.89,
+          "metric": "Overall归一化分",
+          "benchmark_version": "原始8环境",
+          "result_type": "论文历史基线",
+          "source_date": "论文Table3",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "原论文Table3结果为历史基线（精确API快照仅在源文有明示时保留），不是当前排行榜；H2 ScienceIDE仅相关工作引用。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "yuxiaod@tsinghua.edu.cn",
+        "jietang@tsinghua.edu.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/THUDM/AgentBench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2308.03688",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 23017024,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6",
+        "webViewLink": "https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA",
+          "webViewLink": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp",
+      "webViewLink": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/THUDM/AgentBench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

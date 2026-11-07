@@ -1,7 +1,26 @@
 {
   "generated_at": "2026-11-07",
   "timezone": "Asia/Seoul",
-  "count": 24,
+  "count": 100,
+  "per_section": {
+    "物理": 12,
+    "化学": 4,
+    "生物与医学": 12,
+    "地球与天文": 6,
+    "材料": 6,
+    "语言": 12,
+    "推理": 7,
+    "数学": 7,
+    "代码": 10,
+    "多模态": 10,
+    "Agent": 9,
+    "安全": 5
+  },
+  "citation_window": {
+    "from": "2026-07-01",
+    "through": "2026-11-07"
+  },
+  "citation_evidence_source": "data/shortlist-2026h2.json",
   "benchmarks": [
     {
       "id": "gpqa",
@@ -18,6 +37,11 @@
       "drive_pdf": {
         "id": "1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I",
         "webViewLink": "https://drive.google.com/file/d/1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI",
+        "webViewLink": "https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -38,10 +62,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI",
-        "webViewLink": "https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B 技术报告 §4.1/§4.2、表2–4实际报告 GPQA 与 GPQA-Diamond；厂商自报评测。Diamond 不另占条目。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 17
     },
     {
       "id": "scibench",
@@ -59,6 +91,11 @@
         "id": "1Nudjs8Gs8_UZqgTMAh-xKqD-W7dXb4pO",
         "webViewLink": "https://drive.google.com/file/d/1Nudjs8Gs8_UZqgTMAh-xKqD-W7dXb4pO/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1mLF_tngBjGbXzQmMlg6Q4vRRYXXxUEC77_KXVMUn2-8",
+        "webViewLink": "https://docs.google.com/document/d/1mLF_tngBjGbXzQmMlg6Q4vRRYXXxUEC77_KXVMUn2-8/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.10635",
@@ -74,10 +111,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1mLF_tngBjGbXzQmMlg6Q4vRRYXXxUEC77_KXVMUn2-8",
-        "webViewLink": "https://docs.google.com/document/d/1mLF_tngBjGbXzQmMlg6Q4vRRYXXxUEC77_KXVMUn2-8/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 的固定 GPT-5.4 问答实验实际使用 SciBench，比较无检索与不同检索系统。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 23
     },
     {
       "id": "scieval",
@@ -95,6 +140,11 @@
         "id": "1aNsxCopJcf36Wq0iVcm-L0C_N1Nj9Azb",
         "webViewLink": "https://drive.google.com/file/d/1aNsxCopJcf36Wq0iVcm-L0C_N1Nj9Azb/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1mS6slPb-VBcw2D8Ecrgt0YkF7RZWB11G2snXCZcgOeY",
+        "webViewLink": "https://docs.google.com/document/d/1mS6slPb-VBcw2D8Ecrgt0YkF7RZWB11G2snXCZcgOeY/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.13149",
@@ -110,10 +160,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1mS6slPb-VBcw2D8Ecrgt0YkF7RZWB11G2snXCZcgOeY",
-        "webViewLink": "https://docs.google.com/document/d/1mS6slPb-VBcw2D8Ecrgt0YkF7RZWB11G2snXCZcgOeY/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.04915v1",
+          "date": "2026-10-04",
+          "note": "《Are We Measuring Scientific Intelligence?》§2及参考文献[24]引用 Sun 等的科学研究 SciEval（AAAI 2024），不是同名 K–12 教学材料基准。此证据为学术引用，不是新跑分。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 22
     },
     {
       "id": "scicode",
@@ -132,6 +190,11 @@
       "drive_pdf": {
         "id": "1scTKm_ijouNv173fFiA4IdQFfP-5zlke",
         "webViewLink": "https://drive.google.com/file/d/1scTKm_ijouNv173fFiA4IdQFfP-5zlke/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1GOdEFpVYpwGudyjuY1hsWTa_rBkJpB2vWE-67iPV6MI",
+        "webViewLink": "https://docs.google.com/document/d/1GOdEFpVYpwGudyjuY1hsWTa_rBkJpB2vWE-67iPV6MI/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -152,10 +215,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1GOdEFpVYpwGudyjuY1hsWTa_rBkJpB2vWE-67iPV6MI",
-        "webViewLink": "https://docs.google.com/document/d/1GOdEFpVYpwGudyjuY1hsWTa_rBkJpB2vWE-67iPV6MI/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.30054v1",
+          "date": "2026-09-24",
+          "note": "SciWalker 在288个含科学背景的 SciCode 测试子题上实际评测，报告训练前后表现；§SciCode Performance。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 16
     },
     {
       "id": "phybench",
@@ -170,6 +241,11 @@
       "drive_pdf": {
         "id": "1th7Nj6oMc57Vo4_5sI4dj0H49qUV6vXv",
         "webViewLink": "https://drive.google.com/file/d/1th7Nj6oMc57Vo4_5sI4dj0H49qUV6vXv/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto",
+        "webViewLink": "https://docs.google.com/document/d/1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -186,10 +262,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto",
-        "webViewLink": "https://docs.google.com/document/d/1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.13009v2",
+          "date": "2026-10-17",
+          "note": "专家重评分论文 v2 对 PHYBench 进行实际模型评测、答案/评分器审计；证明 H2 仍在使用，不代表原榜单可靠。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 18
     },
     {
       "id": "ugphysics",
@@ -205,6 +289,11 @@
         "id": "1KdmS8qpEVcsXfJNpCNJsEtQk2ycNK5QA",
         "webViewLink": "https://drive.google.com/file/d/1KdmS8qpEVcsXfJNpCNJsEtQk2ycNK5QA/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY",
+        "webViewLink": "https://docs.google.com/document/d/1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2502.00334",
@@ -216,10 +305,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY",
-        "webViewLink": "https://docs.google.com/document/d/1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.13009v2",
+          "date": "2026-10-17",
+          "note": "专家重评分论文 v2 实际审计 UGPhysics 英文100题子集，比较原始与修正评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
     },
     {
       "id": "physicseval",
@@ -235,6 +332,11 @@
         "id": "1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy",
         "webViewLink": "https://drive.google.com/file/d/1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M",
+        "webViewLink": "https://docs.google.com/document/d/1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2508.00079",
@@ -246,10 +348,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M",
-        "webViewLink": "https://docs.google.com/document/d/1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.458.pdf",
+          "date": "2026-07",
+          "note": "PhysPRM 正文、附录表6–7实际复用 PhysicsEval，参考文献明确指向 Siddique 等 arXiv:2508.00079。出版月份为2026-07，来源未给出具体日，不臆造日期。",
+          "date_precision": "month",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
     },
     {
       "id": "olympiadbench",
@@ -266,6 +376,11 @@
         "id": "1Vo2sMSYUStL64eBYGtJD6draoYFD16kL",
         "webViewLink": "https://drive.google.com/file/d/1Vo2sMSYUStL64eBYGtJD6draoYFD16kL/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q",
+        "webViewLink": "https://docs.google.com/document/d/1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.14008",
@@ -277,10 +392,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q",
-        "webViewLink": "https://docs.google.com/document/d/1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Science及表3–4实际报告 OlympiadBench；厂商自报。保持现有主分类，数学不重复计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 22
     },
     {
       "id": "pdebench",
@@ -297,6 +420,11 @@
         "id": "1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5",
         "webViewLink": "https://drive.google.com/file/d/1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I",
+        "webViewLink": "https://docs.google.com/document/d/1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.07182",
@@ -308,10 +436,135 @@
         }
       ],
       "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.06095v3",
+          "date": "2026-10-07",
+          "note": "压缩训练数据论文 v3 引言明确引用 PDEBench（Takamoto等2022），讨论其科学数组分发与学习评测；引用证据，不冒充新榜单。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 22
+    },
+    {
+      "id": "the-well",
+      "name": "The Well",
+      "section": "物理",
+      "tags": [
+        "多物理场模拟与算子学习"
+      ],
+      "summary": "从历史时空场预测后续物理演化；跨多物理系统的代理模型/神经算子学习及长时滚动稳定性。",
+      "json": "data/benchmarks/the-well.json",
+      "content": "content/benchmarks/the-well.md",
+      "drive_pdf": {
+        "id": "1nF862k2HR4HHw4_5Jo8_3xJE2UgSYJ5l",
+        "webViewLink": "https://drive.google.com/file/d/1nF862k2HR4HHw4_5Jo8_3xJE2UgSYJ5l/view"
+      },
       "drive_intro": {
-        "id": "1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I",
-        "webViewLink": "https://docs.google.com/document/d/1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I/edit?usp=drivesdk"
-      }
+        "type": "中文介绍 Google Doc",
+        "id": "1dEIuyVWpFSkApyB1YcrbQgAJlK0IAAvyoMRF7mYGDN8",
+        "webViewLink": "https://docs.google.com/document/d/1dEIuyVWpFSkApyB1YcrbQgAJlK0IAAvyoMRF7mYGDN8/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00568",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.06095v3",
+          "date": "2026-10-07",
+          "note": "同一论文 v3 引言将 The Well（Ohana等2024）与 PDEBench 并列为公开算子学习基准；为2026H2具体学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "scirigor",
+      "name": "SciRigor",
+      "section": "物理",
+      "tags": [
+        "跨学科开放式科学数据分析"
+      ],
+      "summary": "开放式数据分析中，数据→变换→数值结果→图→结论的可追溯完整证据链。",
+      "json": "data/benchmarks/scirigor.json",
+      "content": "content/benchmarks/scirigor.md",
+      "drive_pdf": {
+        "id": "1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R",
+        "webViewLink": "https://drive.google.com/file/d/1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4",
+        "webViewLink": "https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.06192",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.06192v1",
+          "date": "2026-09-05",
+          "note": "SciRigor 原始论文于H2提出100案例基准并开展模型实验，评估数据—代码—图表—结论证据链。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 20
+    },
+    {
+      "id": "scienceide-hard",
+      "name": "ScienceIDE-Hard",
+      "section": "物理",
+      "tags": [
+        "科学软件执行（以计算物理和地学为主）"
+      ],
+      "summary": "在真实科学软件中修复和实现算法，并满足领域数值与物理契约；多文件修改及约定忠实重建。",
+      "json": "data/benchmarks/scienceide-hard.json",
+      "content": "content/benchmarks/scienceide-hard.md",
+      "drive_pdf": {
+        "id": "10Ctq-Va8GHSTojWWiXGYcZGSYJpVTiGN",
+        "webViewLink": "https://drive.google.com/file/d/10Ctq-Va8GHSTojWWiXGYcZGSYJpVTiGN/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo",
+        "webViewLink": "https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.19134",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §3在85项 hard 科学代码任务上实际评测15个模型—harness组合；任务含天体流体、等离子体、海洋大气与粒子模拟。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
     },
     {
       "id": "chembench",
@@ -329,6 +582,11 @@
         "id": "1MVlzT2xYLag8giD4uumklERs82tPaLsp",
         "webViewLink": "https://drive.google.com/file/d/1MVlzT2xYLag8giD4uumklERs82tPaLsp/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY",
+        "webViewLink": "https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
@@ -344,10 +602,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY",
-        "webViewLink": "https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 实际使用 ChemBench 比较固定回答模型配合不同检索系统的结果；不与 ChemBench4K 混同。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 24
     },
     {
       "id": "moleculenet",
@@ -364,6 +630,11 @@
         "id": "1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G",
         "webViewLink": "https://drive.google.com/file/d/1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw",
+        "webViewLink": "https://docs.google.com/document/d/1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/1703.00564",
@@ -375,10 +646,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw",
-        "webViewLink": "https://docs.google.com/document/d/1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.17831v1",
+          "date": "2026-09-15",
+          "note": "Procedural Pretraining §3实际用 MoleculeNet Lipophilicity等分子性质任务评价模型；仅计套件一次，不再把各子集凑数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 26
     },
     {
       "id": "chemllmbench",
@@ -394,6 +673,11 @@
         "id": "1QT72MOldRvsA2alWgK2XKk53Vq45tzGv",
         "webViewLink": "https://drive.google.com/file/d/1QT72MOldRvsA2alWgK2XKk53Vq45tzGv/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k",
+        "webViewLink": "https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2305.18365",
@@ -405,10 +689,57 @@
         }
       ],
       "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.35336v1",
+          "date": "2026-09-28",
+          "note": "TMCS 的药物分子设计与分子描述实验使用 ChemLLMBench；分别报告精确SMILES匹配及BLEU-4。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
+    },
+    {
+      "id": "chemdirt",
+      "name": "ChemDIRT",
+      "section": "化学",
+      "tags": [
+        "指令、表示与任务鲁棒性"
+      ],
+      "summary": "对同一化学任务的指令改写与分子表示变化保持可靠；跨八类任务诊断鲁棒性。",
+      "json": "data/benchmarks/chemdirt.json",
+      "content": "content/benchmarks/chemdirt.md",
+      "drive_pdf": {
+        "id": "186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB",
+        "webViewLink": "https://drive.google.com/file/d/186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB/view"
+      },
       "drive_intro": {
-        "id": "1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k",
-        "webViewLink": "https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk"
-      }
+        "type": "中文介绍 Google Doc",
+        "id": "1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58",
+        "webViewLink": "https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21504",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.21504v1",
+          "date": "2026-08-21",
+          "note": "ChemDIRT 原始论文在H2提出并实际评测多指令、多分子表示及八类化学任务的鲁棒性。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
     },
     {
       "id": "lab-bench",
@@ -423,6 +754,11 @@
       "drive_pdf": {
         "id": "1HH9ZDHCphE4BAdmg5XueFKIgzTexV5ov",
         "webViewLink": "https://drive.google.com/file/d/1HH9ZDHCphE4BAdmg5XueFKIgzTexV5ov/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M",
+        "webViewLink": "https://docs.google.com/document/d/1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -439,10 +775,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M",
-        "webViewLink": "https://docs.google.com/document/d/1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.41350v1",
+          "date": "2026-10-30",
+          "note": "Operon-S1 实际评测 LAB-Bench SeqQA，正文与表格给出控制器/基线结果；LABBench2 不另计入本批。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 19
     },
     {
       "id": "bixbench",
@@ -457,6 +801,11 @@
       "drive_pdf": {
         "id": "1yRMqp9lvytGSzPvHHKm24T1fAcwege8p",
         "webViewLink": "https://drive.google.com/file/d/1yRMqp9lvytGSzPvHHKm24T1fAcwege8p/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U",
+        "webViewLink": "https://docs.google.com/document/d/1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -473,10 +822,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U",
-        "webViewLink": "https://docs.google.com/document/d/1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2讨论并引用 Mitchener等2025 的原始 BixBench，区分于 BixBench3；为H2学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 19
     },
     {
       "id": "bioprobench",
@@ -491,6 +848,11 @@
       "drive_pdf": {
         "id": "1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN",
         "webViewLink": "https://drive.google.com/file/d/1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs",
+        "webViewLink": "https://docs.google.com/document/d/1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -507,10 +869,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs",
-        "webViewLink": "https://docs.google.com/document/d/1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.19657v1",
+          "date": "2026-10-14",
+          "note": "BioPRM 正文与参考文献明确引用 BioProBench 的协议排序、错误识别等任务；为H2学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 19
     },
     {
       "id": "pubmedqa",
@@ -526,6 +896,11 @@
         "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV",
         "webViewLink": "https://drive.google.com/file/d/1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4",
+        "webViewLink": "https://docs.google.com/document/d/1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://aclanthology.org/D19-1259/",
@@ -537,10 +912,330 @@
         }
       ],
       "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 的固定回答模型检索实验实际使用 PubMedQA（500题）并比较回答表现。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 27
+    },
+    {
+      "id": "medqa",
+      "name": "MedQA",
+      "section": "生物与医学",
+      "tags": [
+        "医学执照考试式临床推理"
+      ],
+      "summary": "医学执照考试式多项选择，结合临床知识、病例推理与外部证据检索。",
+      "json": "data/benchmarks/medqa.json",
+      "content": "content/benchmarks/medqa.md",
+      "drive_pdf": {
+        "id": "1zmvFZ0lC8HCOh62LXlOrjcHf25kzF4gZ",
+        "webViewLink": "https://drive.google.com/file/d/1zmvFZ0lC8HCOh62LXlOrjcHf25kzF4gZ/view"
+      },
       "drive_intro": {
-        "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4",
-        "webViewLink": "https://docs.google.com/document/d/1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4/edit?usp=drivesdk"
-      }
+        "type": "中文介绍 Google Doc",
+        "id": "1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE",
+        "webViewLink": "https://docs.google.com/document/d/1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "date": "2026-08-19",
+          "note": "Adaptive Memory and Reflection Multi-Agent System 实际在 MedQA 上评测医学问答。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 14
+    },
+    {
+      "id": "medmcqa",
+      "name": "MedMCQA",
+      "section": "生物与医学",
+      "tags": [
+        "多学科医学考试问答"
+      ],
+      "summary": "印度医学入学/研究生考试多学科知识与推理，附解释便于医学QA训练与诊断。",
+      "json": "data/benchmarks/medmcqa.json",
+      "content": "content/benchmarks/medmcqa.md",
+      "drive_pdf": {
+        "id": "1mfILYNh2uZGTOTqvrkA78sBFgF2-XQ1_",
+        "webViewLink": "https://drive.google.com/file/d/1mfILYNh2uZGTOTqvrkA78sBFgF2-XQ1_/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1Y8ljt9P1DqY9GesgKN7_JYw2kCwuAk9oQT-k6VH6ZV8",
+        "webViewLink": "https://docs.google.com/document/d/1Y8ljt9P1DqY9GesgKN7_JYw2kCwuAk9oQT-k6VH6ZV8/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.14371",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "date": "2026-08-19",
+          "note": "同一H2医学多Agent论文实际在 MedMCQA 上评测并报告结果。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "scigym",
+      "name": "SciGym",
+      "section": "生物与医学",
+      "tags": [
+        "系统生物学干实验室"
+      ],
+      "summary": "交互实验设计：改变初始浓度、观察动力学，重建隐藏生化反应系统并验证模型。",
+      "json": "data/benchmarks/scigym.json",
+      "content": "content/benchmarks/scigym.md",
+      "drive_pdf": {
+        "id": "16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT",
+        "webViewLink": "https://drive.google.com/file/d/16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk",
+        "webViewLink": "https://docs.google.com/document/d/1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1明确列举系统生物学 SciGym 并引用其原始论文 arXiv:2507.02083；为H2学术引用，不是本文实跑。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "omicsbench",
+      "name": "OmicsBench",
+      "section": "生物与医学",
+      "tags": [
+        "研究规模组学多轮分析"
+      ],
+      "summary": "研究规模、长时多轮组学工作流，跨依赖子任务产出可自动检查的生物学分析。",
+      "json": "data/benchmarks/omicsbench.json",
+      "content": "content/benchmarks/omicsbench.md",
+      "drive_pdf": {
+        "id": "1MBjoelJtmqKWsHEhAC4vwW6VbwC4iX6G",
+        "webViewLink": "https://drive.google.com/file/d/1MBjoelJtmqKWsHEhAC4vwW6VbwC4iX6G/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto",
+        "webViewLink": "https://docs.google.com/document/d/1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.21074",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench 原始论文于H2发布并评测研究规模、多轮组学数据分析Agent。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 16
+    },
+    {
+      "id": "genotex",
+      "name": "GenoTEX",
+      "section": "生物与医学",
+      "tags": [
+        "基因表达数据分析"
+      ],
+      "summary": "从数据选择、预处理至基因—性状关联的自动化表达分析。",
+      "json": "data/benchmarks/genotex.json",
+      "content": "content/benchmarks/genotex.md",
+      "drive_pdf": {
+        "id": "14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV",
+        "webViewLink": "https://drive.google.com/file/d/14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts",
+        "webViewLink": "https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "biocoder",
+      "name": "BioCoder",
+      "section": "生物与医学",
+      "tags": [
+        "生物信息学代码生成"
+      ],
+      "summary": "带依赖、类、全局变量等真实上下文的生物信息学函数代码生成。",
+      "json": "data/benchmarks/biocoder.json",
+      "content": "content/benchmarks/biocoder.md",
+      "drive_pdf": {
+        "id": "1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk",
+        "webViewLink": "https://drive.google.com/file/d/1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ",
+        "webViewLink": "https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确引用 BioCoder（Tang等2024），讨论其生物代码生成评测与新基准的区别。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "genome-bench",
+      "name": "Genome-Bench",
+      "section": "生物与医学",
+      "tags": [
+        "基因组学能力"
+      ],
+      "summary": "基于专家讨论的CRISPR/基因组实验科学推理与问答；无工具MCQ。",
+      "json": "data/benchmarks/genome-bench.json",
+      "content": "content/benchmarks/genome-bench.md",
+      "drive_pdf": {
+        "id": "1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r",
+        "webViewLink": "https://drive.google.com/file/d/1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8",
+        "webViewLink": "https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确列举 Genome-Bench（Yin等2025），作为生物学局部能力评测的先行基准；为H2学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "baisbench",
+      "name": "BAISBench",
+      "section": "生物与医学",
+      "tags": [
+        "组学数据驱动科学发现Agent"
+      ],
+      "summary": "从单细胞组学数据到细胞注释与研究结论重现，评估AI scientist。",
+      "json": "data/benchmarks/baisbench.json",
+      "content": "content/benchmarks/baisbench.md",
+      "drive_pdf": {
+        "id": "1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo",
+        "webViewLink": "https://drive.google.com/file/d/1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg",
+        "webViewLink": "https://docs.google.com/document/d/1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.08341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2及参考文献引用 BAISBench（Luo等2026），讨论其数据环境中的生物分析评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 13
     },
     {
       "id": "astrobench",
@@ -555,6 +1250,11 @@
       "drive_pdf": {
         "id": "1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT",
         "webViewLink": "https://drive.google.com/file/d/1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8",
+        "webViewLink": "https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -571,10 +1271,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8",
-        "webViewLink": "https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://aclanthology.org/2026.emnlp-industry.5.pdf",
+          "date": "2026-10",
+          "note": "Lunar-R1 的 Benchmarks and Metrics及附录B实际使用 AstroBench，参考文献指向 Ting等《AstroMLab 1: Who Wins Astronomy Jeopardy!?》。出版月份2026-10；不与同名太空机器人 AstroBench 混同。",
+          "date_precision": "month",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
     },
     {
       "id": "geo-bench",
@@ -591,6 +1299,11 @@
         "id": "1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI",
         "webViewLink": "https://drive.google.com/file/d/1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4",
+        "webViewLink": "https://docs.google.com/document/d/1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.03831",
@@ -606,10 +1319,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4",
-        "webViewLink": "https://docs.google.com/document/d/1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.05351v3",
+          "date": "2026-11-03",
+          "note": "MEOX v3 §4.2使用 GEO-Bench v1 官方划分与归一化，实际开展冻结编码器分类/分割迁移实验；不是生成式引擎优化同名数据集。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 26
     },
     {
       "id": "climatebench",
@@ -625,6 +1346,11 @@
         "id": "1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS",
         "webViewLink": "https://drive.google.com/file/d/1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM",
+        "webViewLink": "https://docs.google.com/document/d/1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://doi.org/10.1029/2021MS002954",
@@ -636,10 +1362,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM",
-        "webViewLink": "https://docs.google.com/document/d/1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.04558v1",
+          "date": "2026-10-03",
+          "note": "ClimateBench v2 原始论文明确引用并讨论 v1（Watson-Parris等2022）及其气候仿真器评估范围，H2发布新版协议；本条按现有条目保留系列，不另计v2。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
     },
     {
       "id": "weatherbench",
@@ -655,6 +1389,11 @@
         "id": "1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp",
         "webViewLink": "https://drive.google.com/file/d/1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw",
+        "webViewLink": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2002.00469",
@@ -666,10 +1405,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw",
-        "webViewLink": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11617v1",
+          "date": "2026-10-08",
+          "note": "TAM 实际使用原始 WeatherBench 的两米温度任务，明确引用 Rasp2020，采用时间划分；不同于 WeatherBench 2。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
     },
     {
       "id": "weatherbench2",
@@ -684,6 +1431,11 @@
       "drive_pdf": {
         "id": "1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-",
         "webViewLink": "https://drive.google.com/file/d/1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI",
+        "webViewLink": "https://docs.google.com/document/d/1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -704,10 +1456,57 @@
         }
       ],
       "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19517v1",
+          "date": "2026-09-17",
+          "note": "Spatial Aggregation of ROC and Precision-Recall Curves §4.2实际用 WeatherBench 2 做温度极端事件等应用实验。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 21
+    },
+    {
+      "id": "astrommbench",
+      "name": "AstroMMBench",
+      "section": "地球与天文",
+      "tags": [
+        "天文研究图像多模态问答"
+      ],
+      "summary": "读懂天文研究图表、仪器图、观测图像并回答专业物理问题。",
+      "json": "data/benchmarks/astrommbench.json",
+      "content": "content/benchmarks/astrommbench.md",
+      "drive_pdf": {
+        "id": "1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO",
+        "webViewLink": "https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view"
+      },
       "drive_intro": {
-        "id": "1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI",
-        "webViewLink": "https://docs.google.com/document/d/1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI/edit?usp=drivesdk"
-      }
+        "type": "中文介绍 Google Doc",
+        "id": "1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4",
+        "webViewLink": "https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit"
+      },
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "date": "2026-09-30",
+          "note": "期刊正式版发表于2026-09-30，在592道专家筛选题上实际评价25个多模态模型。采用打开的正式版，未沿用搜索摘要的旧621题。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 5
     },
     {
       "id": "matbench",
@@ -722,6 +1521,11 @@
       "drive_pdf": {
         "id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV",
         "webViewLink": "https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk",
+        "webViewLink": "https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -738,10 +1542,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk",
-        "webViewLink": "https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.32678v1",
+          "date": "2026-10-23",
+          "note": "CGTNet 论文实际在 Matbench 上进行五折材料性质评测，包括剥离能与剪切模量等；正文表2。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 18
     },
     {
       "id": "matbench-discovery",
@@ -757,6 +1569,11 @@
         "id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO",
         "webViewLink": "https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk"
       },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns",
+        "webViewLink": "https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.14920",
@@ -768,10 +1585,18 @@
         }
       ],
       "last_checked": "2026-11-07",
-      "drive_intro": {
-        "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns",
-        "webViewLink": "https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk"
-      }
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.3与表4实际用 Matbench-Discovery/WBM 评测势能模型，报告稳定性等指标。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 19
     },
     {
       "id": "jarvis-leaderboard",
@@ -786,6 +1611,11 @@
       "drive_pdf": {
         "id": "1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep",
         "webViewLink": "https://drive.google.com/file/d/1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc",
+        "webViewLink": "https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk"
       },
       "sources": [
         {
@@ -802,10 +1632,2590 @@
         }
       ],
       "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 使用 JARVIS-Leaderboard 官方固定训练/验证/测试协议，实际报告30项单性质任务；套件只计一次。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 23
+    },
+    {
+      "id": "chips-ff",
+      "name": "CHIPS-FF",
+      "section": "材料",
+      "tags": [
+        "力场与材料物性"
+      ],
+      "summary": "通用ML力场的结构弛豫、弹性、声子、缺陷、表面、界面与非晶物性及计算开销。",
+      "json": "data/benchmarks/chips-ff.json",
+      "content": "content/benchmarks/chips-ff.md",
+      "drive_pdf": {
+        "id": "1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL",
+        "webViewLink": "https://drive.google.com/file/d/1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL/view"
+      },
       "drive_intro": {
-        "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc",
-        "webViewLink": "https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk"
-      }
+        "type": "中文介绍 Google Doc",
+        "id": "19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo",
+        "webViewLink": "https://docs.google.com/document/d/19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.10516",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.3.3、表5实际在 CHIPS-FF 上评测缺陷、表面、界面及相关材料物性。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "atombench",
+      "name": "AtomBench",
+      "section": "材料",
+      "tags": [
+        "晶体结构生成与重构"
+      ],
+      "summary": "给定晶体相关信息后的重构保真度，量化晶格/原子坐标及匹配覆盖。",
+      "json": "data/benchmarks/atombench.json",
+      "content": "content/benchmarks/atombench.md",
+      "drive_pdf": {
+        "id": "11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0",
+        "webViewLink": "https://drive.google.com/file/d/11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0/view"
+      },
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "1iim04Q6mKRDhhX9bcGgw3QA14VmKrh9YKaX_-mSjcsY",
+        "webViewLink": "https://docs.google.com/document/d/1iim04Q6mKRDhhX9bcGgw3QA14VmKrh9YKaX_-mSjcsY/edit"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.16165",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.4及表7–8使用 AtomBench 的结构匹配和重构评测定义，对比晶体生成器。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "qmof",
+      "name": "QMOF",
+      "section": "材料",
+      "tags": [
+        "金属有机框架带隙预测"
+      ],
+      "summary": "从MOF结构预测量子化学性质，本文收录的明确评测任务为固定划分的带隙回归，而非把数据库当统一Agent基准。",
+      "json": "data/benchmarks/qmof.json",
+      "content": "content/benchmarks/qmof.md",
+      "drive_pdf": "待核实",
+      "drive_intro": {
+        "type": "中文介绍 Google Doc",
+        "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA",
+        "webViewLink": "https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit"
+      },
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/Andrew-S-Rosen/QMOF",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 表2以 QMOF 为有固定训练/验证/测试划分的独立材料预测任务，实际报告带隙误差；不是把JARVIS的每个属性拆开计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 15
+    },
+    {
+      "id": "mmlu",
+      "name": "MMLU",
+      "section": "语言",
+      "tags": [
+        "多学科知识"
+      ],
+      "summary": "衡量语言模型在广泛学科中的知识与问题求解能力，而非只在单一任务上训练后评测。",
+      "json": "data/benchmarks/mmlu.json",
+      "content": "content/benchmarks/mmlu.md",
+      "drive_pdf": {
+        "id": "1_7QVvJvbgngMAfsCYTyOLG7QjAa1NbO9",
+        "webViewLink": "https://drive.google.com/file/d/1_7QVvJvbgngMAfsCYTyOLG7QjAa1NbO9/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "10X_jNgeT4GCIeP3q17ZGinf7YmmYmD1g4wxlM6aLIOc",
+        "webViewLink": "https://docs.google.com/document/d/10X_jNgeT4GCIeP3q17ZGinf7YmmYmD1g4wxlM6aLIOc/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.03300",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "mmlu-pro",
+      "name": "MMLU-Pro",
+      "section": "语言",
+      "tags": [
+        "高难多学科知识与推理"
+      ],
+      "summary": "在多学科知识问答中提高推理强度、难度与提示稳健性。",
+      "json": "data/benchmarks/mmlu-pro.json",
+      "content": "content/benchmarks/mmlu-pro.md",
+      "drive_pdf": {
+        "id": "1Da_rxFnMCLvHV1ywvyHwmTfVzKATfUgQ",
+        "webViewLink": "https://drive.google.com/file/d/1Da_rxFnMCLvHV1ywvyHwmTfVzKATfUgQ/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM",
+        "webViewLink": "https://docs.google.com/document/d/1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.01574",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-Pro，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "mmlu-redux",
+      "name": "MMLU-Redux",
+      "section": "语言",
+      "tags": [
+        "纠错后的多学科知识"
+      ],
+      "summary": "重新检查 MMLU 的题目与答案质量，区分模型失误和基准本身的错误。",
+      "json": "data/benchmarks/mmlu-redux.json",
+      "content": "content/benchmarks/mmlu-redux.md",
+      "drive_pdf": {
+        "id": "1ta0g5jbJkYUKiPSsZySck8P4n0Y-9zAn",
+        "webViewLink": "https://drive.google.com/file/d/1ta0g5jbJkYUKiPSsZySck8P4n0Y-9zAn/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1PvrGue4_EH6leNh5jz4DzwZGfpdqSK2qTbkzo-WgwSM",
+        "webViewLink": "https://docs.google.com/document/d/1PvrGue4_EH6leNh5jz4DzwZGfpdqSK2qTbkzo-WgwSM/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.04127",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-Redux，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "c-eval",
+      "name": "C-Eval",
+      "section": "语言",
+      "tags": [
+        "中文多学科知识"
+      ],
+      "summary": "衡量基础模型对中文环境中多层次、多学科知识的理解及推理。",
+      "json": "data/benchmarks/c-eval.json",
+      "content": "content/benchmarks/c-eval.md",
+      "drive_pdf": {
+        "id": "1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0",
+        "webViewLink": "https://drive.google.com/file/d/1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY",
+        "webViewLink": "https://docs.google.com/document/d/1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 C-Eval，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "mmlu-prox",
+      "name": "MMLU-ProX",
+      "section": "语言",
+      "tags": [
+        "多语言高难知识"
+      ],
+      "summary": "在相同难题上直接比较多语言知识与推理能力。",
+      "json": "data/benchmarks/mmlu-prox.json",
+      "content": "content/benchmarks/mmlu-prox.md",
+      "drive_pdf": {
+        "id": "1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR",
+        "webViewLink": "https://drive.google.com/file/d/1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE",
+        "webViewLink": "https://docs.google.com/document/d/1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2503.10497",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-ProX，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "mmmlu",
+      "name": "MMMLU",
+      "section": "语言",
+      "tags": [
+        "多语言多学科知识"
+      ],
+      "summary": "通过专业人工翻译检验多语言的一般知识能力，尤其关注低资源语言翻译质量。",
+      "json": "data/benchmarks/mmmlu.json",
+      "content": "content/benchmarks/mmmlu.md",
+      "drive_pdf": {
+        "id": "10nTX-hZcL0fXPaatAK5f_f47-_-daG2g",
+        "webViewLink": "https://drive.google.com/file/d/10nTX-hZcL0fXPaatAK5f_f47-_-daG2g/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g",
+        "webViewLink": "https://docs.google.com/document/d/1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMMLU，将其纳入13个多选基准的模型评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 15
+    },
+    {
+      "id": "ifeval",
+      "name": "IFEval",
+      "section": "语言",
+      "tags": [
+        "可验证指令遵循"
+      ],
+      "summary": "通过可程序验证的约束客观评估指令遵循。",
+      "json": "data/benchmarks/ifeval.json",
+      "content": "content/benchmarks/ifeval.md",
+      "drive_pdf": {
+        "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM",
+        "webViewLink": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU",
+        "webViewLink": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 IFEval 并报告结果；厂商自报，需保留各基准的提示/上下文条件。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "sysbench",
+      "name": "SysBench",
+      "section": "语言",
+      "tags": [
+        "系统指令遵循"
+      ],
+      "summary": "评估模型遵守系统消息约束，以及多轮交互中的持续性。",
+      "json": "data/benchmarks/sysbench.json",
+      "content": "content/benchmarks/sysbench.md",
+      "drive_pdf": {
+        "id": "19-Vjl0qkIT7uZezwcrYIIYyGtVxhAIAU",
+        "webViewLink": "https://drive.google.com/file/d/19-Vjl0qkIT7uZezwcrYIIYyGtVxhAIAU/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I",
+        "webViewLink": "https://docs.google.com/document/d/1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2408.10943",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 SysBench 并报告结果；厂商自报，需保留各基准的提示/上下文条件。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 13
+    },
+    {
+      "id": "longbench-v2",
+      "name": "LongBench v2",
+      "section": "语言",
+      "tags": [
+        "长上下文理解"
+      ],
+      "summary": "检验真实长上下文中的深层理解与推理，超越简单大海捞针。",
+      "json": "data/benchmarks/longbench-v2.json",
+      "content": "content/benchmarks/longbench-v2.md",
+      "drive_pdf": {
+        "id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx",
+        "webViewLink": "https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8",
+        "webViewLink": "https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.15204",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 LongBench v2 并报告结果；厂商自报，需保留各基准的提示/上下文条件。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "section": "语言",
+      "tags": [
+        "长上下文利用"
+      ],
+      "summary": "检验模型实际可用上下文长度，而不只看标称窗口。",
+      "json": "data/benchmarks/ruler.json",
+      "content": "content/benchmarks/ruler.md",
+      "drive_pdf": {
+        "id": "1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ",
+        "webViewLink": "https://drive.google.com/file/d/1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4",
+        "webViewLink": "https://docs.google.com/document/d/1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 RULER 并报告结果；厂商自报，需保留各基准的提示/上下文条件。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "frames",
+      "name": "FRAMES",
+      "section": "语言",
+      "tags": [
+        "检索增强多跳事实问答"
+      ],
+      "summary": "统一评估 RAG 系统的事实性、检索和多跳推理能力。",
+      "json": "data/benchmarks/frames.json",
+      "content": "content/benchmarks/frames.md",
+      "drive_pdf": {
+        "id": "12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq",
+        "webViewLink": "https://drive.google.com/file/d/12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0",
+        "webViewLink": "https://docs.google.com/document/d/10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2409.12941",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 FRAMES 并报告结果；厂商自报，需保留各基准的提示/上下文条件。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 13
+    },
+    {
+      "id": "aa-omniscience",
+      "name": "AA-Omniscience",
+      "section": "语言",
+      "tags": [
+        "知识准确性、幻觉与校准"
+      ],
+      "summary": "测量跨领域事实知识与知道何时不作答的知识校准，惩罚错误猜测。",
+      "json": "data/benchmarks/aa-omniscience.json",
+      "content": "content/benchmarks/aa-omniscience.md",
+      "drive_pdf": {
+        "id": "1x28FX-LyGRAjXuPwOHCqqhubxSLh7OJj",
+        "webViewLink": "https://drive.google.com/file/d/1x28FX-LyGRAjXuPwOHCqqhubxSLh7OJj/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k",
+        "webViewLink": "https://docs.google.com/document/d/1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28 评测文章明确报告 AA-Omniscience v1.1 的分数、准确率及幻觉率；独立评测机构结果。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "bbh",
+      "name": "BIG-Bench Hard (BBH)",
+      "section": "推理",
+      "tags": [
+        "多任务复杂推理"
+      ],
+      "summary": "测量组合逻辑、符号操作、算法执行和多步推理，以及显式思维链能否改善这些能力。",
+      "json": "data/benchmarks/bbh.json",
+      "content": "content/benchmarks/bbh.md",
+      "drive_pdf": {
+        "id": "1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW",
+        "webViewLink": "https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs",
+        "webViewLink": "https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2210.09261",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 BIG-Bench Hard (BBH)；厂商自报评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "zebralogic",
+      "name": "ZebraLogic",
+      "section": "推理",
+      "tags": [
+        "约束逻辑推理"
+      ],
+      "summary": "用可验证的斑马逻辑网格谜题评估约束传播、全局一致性和随搜索空间增大而变化的推理能力。",
+      "json": "data/benchmarks/zebralogic.json",
+      "content": "content/benchmarks/zebralogic.md",
+      "drive_pdf": {
+        "id": "1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv",
+        "webViewLink": "https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs",
+        "webViewLink": "https://docs.google.com/document/d/125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.01100",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "drop",
+      "name": "DROP",
+      "section": "推理",
+      "tags": [
+        "离散推理阅读理解"
+      ],
+      "summary": "测量模型在段落证据上做加减、计数、比较、排序及抽取答案的能力。",
+      "json": "data/benchmarks/drop.json",
+      "content": "content/benchmarks/drop.md",
+      "drive_pdf": {
+        "id": "1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_",
+        "webViewLink": "https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w",
+        "webViewLink": "https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1903.00161",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "hellaswag",
+      "name": "HellaSwag",
+      "section": "推理",
+      "tags": [
+        "常识情景推理"
+      ],
+      "summary": "衡量日常活动和操作说明中下一事件的常识合理性判断。",
+      "json": "data/benchmarks/hellaswag.json",
+      "content": "content/benchmarks/hellaswag.md",
+      "drive_pdf": {
+        "id": "14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL",
+        "webViewLink": "https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc",
+        "webViewLink": "https://docs.google.com/document/d/1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "winogrande",
+      "name": "WinoGrande",
+      "section": "推理",
+      "tags": [
+        "常识指代推理"
+      ],
+      "summary": "评估依靠常识与语境解决代词/指代消歧，而不是只利用词汇关联。",
+      "json": "data/benchmarks/winogrande.json",
+      "content": "content/benchmarks/winogrande.md",
+      "drive_pdf": {
+        "id": "1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp",
+        "webViewLink": "https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg",
+        "webViewLink": "https://docs.google.com/document/d/1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1907.10641",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 WinoGrande 上比较多类模型，不将ARC-Easy或其它子集另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "arc-challenge",
+      "name": "ARC-Challenge",
+      "section": "推理",
+      "tags": [
+        "科学常识与组合推理"
+      ],
+      "summary": "在基础科学考试题上测量超越检索与词语共现的知识整合和推理。",
+      "json": "data/benchmarks/arc-challenge.json",
+      "content": "content/benchmarks/arc-challenge.md",
+      "drive_pdf": {
+        "id": "1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q",
+        "webViewLink": "https://drive.google.com/file/d/1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24",
+        "webViewLink": "https://docs.google.com/document/d/1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1803.05457",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 ARC-Challenge 上比较多类模型，不将ARC-Easy或其它子集另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "hle",
+      "name": "Humanity’s Last Exam (HLE)",
+      "section": "推理",
+      "tags": [
+        "跨学科专家级推理"
+      ],
+      "summary": "跨数学、科学、人文等高阶学科，评估具有明确答案的专家级知识与推理，以及模型置信度校准。",
+      "json": "data/benchmarks/hle.json",
+      "content": "content/benchmarks/hle.md",
+      "drive_pdf": {
+        "id": "1w8fglUxHXiNjCpg9dY6WskjVHibDw0Wt",
+        "webViewLink": "https://drive.google.com/file/d/1w8fglUxHXiNjCpg9dY6WskjVHibDw0Wt/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1KfRvvM-01C83b5UU1c2h1iMYglDtD9kgHda-4ip_qLA",
+        "webViewLink": "https://docs.google.com/document/d/1KfRvvM-01C83b5UU1c2h1iMYglDtD9kgHda-4ip_qLA/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2501.14249",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1–4.2引用 HLE（Phan等2025，arXiv:2501.14249）作为广泛专家问题评价；本证据为H2学术引用，不是本文新跑HLE。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "math",
+      "name": "MATH",
+      "section": "数学",
+      "tags": [
+        "竞赛数学问题求解"
+      ],
+      "summary": "评估竞赛数学多步求解、符号操作及最终答案正确性。",
+      "json": "data/benchmarks/math.json",
+      "content": "content/benchmarks/math.md",
+      "drive_pdf": {
+        "id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu",
+        "webViewLink": "https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o",
+        "webViewLink": "https://docs.google.com/document/d/1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2103.03874",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "gsm8k",
+      "name": "GSM8K",
+      "section": "数学",
+      "tags": [
+        "数学应用题"
+      ],
+      "summary": "评估语言多样的小学/初中级数学应用题中的多步算术与验证器选解能力。",
+      "json": "data/benchmarks/gsm8k.json",
+      "content": "content/benchmarks/gsm8k.md",
+      "drive_pdf": {
+        "id": "1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y",
+        "webViewLink": "https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8",
+        "webViewLink": "https://docs.google.com/document/d/1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "aime",
+      "name": "AIME",
+      "section": "数学",
+      "tags": [
+        "美国数学邀请赛试题（含2024/2025）"
+      ],
+      "summary": "将邀请制中学数学竞赛题用于检验多步竞赛数学求解；原赛事目的与AI排行榜目的应区分。",
+      "json": "data/benchmarks/aime.json",
+      "content": "content/benchmarks/aime.md",
+      "drive_pdf": "待核实",
+      "drive_intro": {
+        "id": "1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI",
+        "webViewLink": "https://docs.google.com/document/d/1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 AIME。AIME 的不同年份归同一条目，不用年份拆分凑数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 17
+    },
+    {
+      "id": "mathqa",
+      "name": "MathQA",
+      "section": "数学",
+      "tags": [
+        "多步数学应用题"
+      ],
+      "summary": "从文字应用题生成可执行的运算程序，检验最终答案与可解释计算步骤。",
+      "json": "data/benchmarks/mathqa.json",
+      "content": "content/benchmarks/mathqa.md",
+      "drive_pdf": {
+        "id": "1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE",
+        "webViewLink": "https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs",
+        "webViewLink": "https://docs.google.com/document/d/1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.13319",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "aqua-rat",
+      "name": "AQuA-RAT",
+      "section": "数学",
+      "tags": [
+        "代数应用题与推理"
+      ],
+      "summary": "从代数文字题生成自然语言推理依据并选择答案，研究rationale对求解和解释的帮助。",
+      "json": "data/benchmarks/aqua-rat.json",
+      "content": "content/benchmarks/aqua-rat.md",
+      "drive_pdf": {
+        "id": "1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J",
+        "webViewLink": "https://drive.google.com/file/d/1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU",
+        "webViewLink": "https://docs.google.com/document/d/1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1705.04146",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究§3.1和表1–2实际使用 AQuA-RAT 并比较专用决策模型与通用模型。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "frontiermath",
+      "name": "FrontierMath",
+      "section": "数学",
+      "tags": [
+        "研究级数学"
+      ],
+      "summary": "评估需要专家较长时间求解的高阶数学问题，保留可自动验证的最终答案。",
+      "json": "data/benchmarks/frontiermath.json",
+      "content": "content/benchmarks/frontiermath.md",
+      "drive_pdf": {
+        "id": "1quGcTxfR3XDelfNEEcAA4tKk4cCwjZX3",
+        "webViewLink": "https://drive.google.com/file/d/1quGcTxfR3XDelfNEEcAA4tKk4cCwjZX3/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM",
+        "webViewLink": "https://docs.google.com/document/d/19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2411.04872",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1–4.2及参考文献[34]引用 FrontierMath 作为前沿数学评测；为H2学术引用，不等同于本论文实跑。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "minif2f",
+      "name": "miniF2F",
+      "section": "数学",
+      "tags": [
+        "Lean形式化数学证明"
+      ],
+      "summary": "用形式化数学系统核验生成证明，并在不同定理证明器间建立共同竞赛数学评测。",
+      "json": "data/benchmarks/minif2f.json",
+      "content": "content/benchmarks/minif2f.md",
+      "drive_pdf": {
+        "id": "1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8",
+        "webViewLink": "https://drive.google.com/file/d/1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "id": "1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug",
+        "webViewLink": "https://docs.google.com/document/d/1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.00110",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07（Asia/Seoul）",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.28639v1",
+          "date": "2026-08-11",
+          "note": "Reward-Oracle MCTS 原始研究实际在 miniF2F 上比较三个证明模型及不同搜索预算；同时审计内核级证明有效性。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "evalplus",
+      "name": "EvalPlus",
+      "section": "代码",
+      "tags": [
+        "加强测试的代码生成"
+      ],
+      "summary": "以更充分的可执行测试检测生成函数的真实功能正确性，而非只通过稀疏原始样例。",
+      "json": "data/benchmarks/evalplus.json",
+      "content": "content/benchmarks/evalplus.md",
+      "drive_pdf": {
+        "id": "1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1",
+        "webViewLink": "https://drive.google.com/file/d/1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo",
+        "webViewLink": "https://docs.google.com/document/d/1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://evalplus.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2305.01210",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 EvalPlus；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "multipl-e",
+      "name": "MultiPL-E",
+      "section": "代码",
+      "tags": [
+        "多语言代码生成"
+      ],
+      "summary": "跨编程语言的函数级代码生成、编译与功能测试。",
+      "json": "data/benchmarks/multipl-e.json",
+      "content": "content/benchmarks/multipl-e.md",
+      "drive_pdf": {
+        "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ",
+        "webViewLink": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM",
+        "webViewLink": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MultiPL-E；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 10
+    },
+    {
+      "id": "mbpp",
+      "name": "MBPP",
+      "section": "代码",
+      "tags": [
+        "Python基础编程"
+      ],
+      "summary": "从简短自然语言要求生成基础 Python 程序，并使用执行结果检验功能。",
+      "json": "data/benchmarks/mbpp.json",
+      "content": "content/benchmarks/mbpp.md",
+      "drive_pdf": {
+        "id": "1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P",
+        "webViewLink": "https://drive.google.com/file/d/1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw",
+        "webViewLink": "https://docs.google.com/document/d/18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MBPP；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "cruxeval",
+      "name": "CRUXEval",
+      "section": "代码",
+      "tags": [
+        "代码输入输出推断"
+      ],
+      "summary": "代码理解、输入反推和输出预测，尤其在不运行代码时模拟程序执行。",
+      "json": "data/benchmarks/cruxeval.json",
+      "content": "content/benchmarks/cruxeval.md",
+      "drive_pdf": {
+        "id": "1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9",
+        "webViewLink": "https://drive.google.com/file/d/1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c",
+        "webViewLink": "https://docs.google.com/document/d/14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://crux-eval.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.03065",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 CRUXEval；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "livecodebench",
+      "name": "LiveCodeBench",
+      "section": "代码",
+      "tags": [
+        "滚动编程竞赛评测"
+      ],
+      "summary": "代码生成、自修复、代码执行和测试输出预测的综合能力。",
+      "json": "data/benchmarks/livecodebench.json",
+      "content": "content/benchmarks/livecodebench.md",
+      "drive_pdf": {
+        "id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ",
+        "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s",
+        "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "fullstackbench",
+      "name": "FullStackBench",
+      "section": "代码",
+      "tags": [
+        "全栈代码生成"
+      ],
+      "summary": "跨语言、跨应用领域的实际代码开发与库使用能力。",
+      "json": "data/benchmarks/fullstackbench.json",
+      "content": "content/benchmarks/fullstackbench.md",
+      "drive_pdf": {
+        "id": "1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an",
+        "webViewLink": "https://drive.google.com/file/d/1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc",
+        "webViewLink": "https://docs.google.com/document/d/1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 FullStackBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 14
+    },
+    {
+      "id": "humanevalfix",
+      "name": "HumanEvalFix",
+      "section": "代码",
+      "tags": [
+        "代码修复"
+      ],
+      "summary": "根据任务规范和已有带错误的程序修复功能错误；测量指令微调代码模型。",
+      "json": "data/benchmarks/humanevalfix.json",
+      "content": "content/benchmarks/humanevalfix.md",
+      "drive_pdf": {
+        "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn",
+        "webViewLink": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY",
+        "webViewLink": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §3.3、附录11.1实际用 HumanEvalFix JavaScript 等代码修复任务评测科学轨迹训练迁移。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "swe-bench-verified",
+      "name": "SWE-bench Verified",
+      "section": "代码",
+      "tags": [
+        "仓库级真实软件问题修复"
+      ],
+      "summary": "理解真实 GitHub issue、定位代码并提交能解决问题且不造成回归的仓库级补丁。",
+      "json": "data/benchmarks/swe-bench-verified.json",
+      "content": "content/benchmarks/swe-bench-verified.md",
+      "drive_pdf": {
+        "id": "1n47Le3puVRH6y64GwRSgTy41zEGlU32T",
+        "webViewLink": "https://drive.google.com/file/d/1n47Le3puVRH6y64GwRSgTy41zEGlU32T/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "193rLgS0oSSznAPMtMovoito3n3jfiZIvz4T3WcUxaBQ",
+        "webViewLink": "https://docs.google.com/document/d/193rLgS0oSSznAPMtMovoito3n3jfiZIvz4T3WcUxaBQ/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://www.swebench.com/verified",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/introducing-swe-bench-verified/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.20804v1",
+          "date": "2026-09-17",
+          "note": "Harness Design 研究§3.1实际使用500个人工核验GitHub问题，比较不同harness设置；不是同名SWE-Bench Pro Verified。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 6
+    },
+    {
+      "id": "terminal-bench",
+      "name": "Terminal-Bench",
+      "section": "代码",
+      "tags": [
+        "终端环境长程任务"
+      ],
+      "summary": "在终端中自主完成复杂、长程、可验证的真实技术任务，涵盖软件、系统、科研与安全。",
+      "json": "data/benchmarks/terminal-bench.json",
+      "content": "content/benchmarks/terminal-bench.md",
+      "drive_pdf": {
+        "id": "1xESLe_ARjnszPudgBFEW2yfE62M0tK-p",
+        "webViewLink": "https://drive.google.com/file/d/1xESLe_ARjnszPudgBFEW2yfE62M0tK-p/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "13b09PixYeASFWScp_DNwmfXMMNhz0SzdZTGR__1Dowg",
+        "webViewLink": "https://docs.google.com/document/d/13b09PixYeASFWScp_DNwmfXMMNhz0SzdZTGR__1Dowg/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://www.tbench.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.11868",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28明确报告 Terminal-Bench 4.0 的评测结果；作为版本化套件只计一次。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.20804v1",
+          "date": "2026-09-17",
+          "note": "H2 harness研究同时在 Terminal-Bench 2.1 的89个端到端CLI任务上实际开展实验，显示版本差异必须保留。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "frontiercode",
+      "name": "FrontierCode",
+      "section": "代码",
+      "tags": [
+        "前沿代码Agent能力"
+      ],
+      "summary": "能否提交维护者愿意合并的代码：功能正确、理解隐含需求、遵循现有抽象/兼容性并避免过度改写。",
+      "json": "data/benchmarks/frontiercode.json",
+      "content": "content/benchmarks/frontiercode.md",
+      "drive_pdf": "待核实",
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis",
+        "webViewLink": "https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章明确报告 FrontierCode v1.1 的结果并将其纳入Coding Agent Index；独立机构评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 19
+    },
+    {
+      "id": "mmmu",
+      "name": "MMMU",
+      "section": "多模态",
+      "tags": [
+        "跨学科多模态理解"
+      ],
+      "summary": "大学及专业学科图文感知、知识调用与审慎推理。",
+      "json": "data/benchmarks/mmmu.json",
+      "content": "content/benchmarks/mmmu.md",
+      "drive_pdf": {
+        "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm",
+        "webViewLink": "https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg",
+        "webViewLink": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 6
+    },
+    {
+      "id": "mmbench",
+      "name": "MMBench",
+      "section": "多模态",
+      "tags": [
+        "通用图文能力"
+      ],
+      "summary": "细粒度图文感知与推理，按分层能力体系给出诊断。",
+      "json": "data/benchmarks/mmbench.json",
+      "content": "content/benchmarks/mmbench.md",
+      "drive_pdf": {
+        "id": "14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai",
+        "webViewLink": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE",
+        "webViewLink": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "mathvista",
+      "name": "MathVista",
+      "section": "多模态",
+      "tags": [
+        "视觉数学推理"
+      ],
+      "summary": "视觉情境中的数学推理，结合精细读图和组合式数学计算。",
+      "json": "data/benchmarks/mathvista.json",
+      "content": "content/benchmarks/mathvista.md",
+      "drive_pdf": {
+        "id": "12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho",
+        "webViewLink": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek",
+        "webViewLink": "https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MathVista（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "mathverse",
+      "name": "MathVerse",
+      "section": "多模态",
+      "tags": [
+        "图解数学推理"
+      ],
+      "summary": "检验模型是否真正读取数学图解，而非依赖题干中的视觉信息转述。",
+      "json": "data/benchmarks/mathverse.json",
+      "content": "content/benchmarks/mathverse.md",
+      "drive_pdf": {
+        "id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy",
+        "webViewLink": "https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4",
+        "webViewLink": "https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "scienceqa",
+      "name": "ScienceQA",
+      "section": "多模态",
+      "tags": [
+        "多模态科学问答"
+      ],
+      "summary": "多模态科学选择题与可解释的多步推理，联合学习答案、lecture和explanation。",
+      "json": "data/benchmarks/scienceqa.json",
+      "content": "content/benchmarks/scienceqa.md",
+      "drive_pdf": {
+        "id": "1DbMOVlQF4L3yu_htLns-S1ladvipIuxm",
+        "webViewLink": "https://drive.google.com/file/d/1DbMOVlQF4L3yu_htLns-S1ladvipIuxm/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ",
+        "webViewLink": "https://docs.google.com/document/d/1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "chartqa",
+      "name": "ChartQA",
+      "section": "多模态",
+      "tags": [
+        "图表问答"
+      ],
+      "summary": "需要视觉引用、逻辑及算术组合运算的真实图表问答。",
+      "json": "data/benchmarks/chartqa.json",
+      "content": "content/benchmarks/chartqa.md",
+      "drive_pdf": {
+        "id": "1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy",
+        "webViewLink": "https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM",
+        "webViewLink": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "charxiv",
+      "name": "CharXiv",
+      "section": "多模态",
+      "tags": [
+        "真实科研图表理解"
+      ],
+      "summary": "真实科研图表的基础元素识别与跨复杂视觉元素的综合推理。",
+      "json": "data/benchmarks/charxiv.json",
+      "content": "content/benchmarks/charxiv.md",
+      "drive_pdf": {
+        "id": "18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J",
+        "webViewLink": "https://drive.google.com/file/d/18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4",
+        "webViewLink": "https://docs.google.com/document/d/1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://charxiv.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.18521",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 5
+    },
+    {
+      "id": "realworldqa",
+      "name": "RealWorldQA",
+      "section": "多模态",
+      "tags": [
+        "真实世界视觉理解"
+      ],
+      "summary": "真实物理世界的基础空间理解、位置关系、大小比较、计数与交通场景判断。",
+      "json": "data/benchmarks/realworldqa.json",
+      "content": "content/benchmarks/realworldqa.md",
+      "drive_pdf": "待核实",
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw",
+        "webViewLink": "https://docs.google.com/document/d/1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 23
+    },
+    {
+      "id": "video-mme",
+      "name": "Video-MME",
+      "section": "多模态",
+      "tags": [
+        "视频理解与长视频"
+      ],
+      "summary": "多领域、多时长、多输入模态的视频理解与长时序上下文能力。",
+      "json": "data/benchmarks/video-mme.json",
+      "content": "content/benchmarks/video-mme.md",
+      "drive_pdf": {
+        "id": "1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo",
+        "webViewLink": "https://drive.google.com/file/d/1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0",
+        "webViewLink": "https://docs.google.com/document/d/1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://video-mme.github.io/home_page.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2405.21075",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.16118v1",
+          "date": "2026-10-12",
+          "note": "Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "mmau",
+      "name": "MMAU",
+      "section": "多模态",
+      "tags": [
+        "语音、声音与音乐理解推理"
+      ],
+      "summary": "语音、环境声音、音乐的专家知识、信息提取及复杂推理。",
+      "json": "data/benchmarks/mmau.json",
+      "content": "content/benchmarks/mmau.md",
+      "drive_pdf": {
+        "id": "13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG",
+        "webViewLink": "https://drive.google.com/file/d/13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks",
+        "webViewLink": "https://docs.google.com/document/d/1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://sakshi113.github.io/mmau_homepage/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2410.19168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.28879v1",
+          "date": "2026-09-24",
+          "note": "Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 5
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "section": "Agent",
+      "tags": [
+        "通用助理与工具使用"
+      ],
+      "summary": "现实信息查找、多模态理解、网页访问、工具与多步推理结合的通用助理能力。",
+      "json": "data/benchmarks/gaia.json",
+      "content": "content/benchmarks/gaia.md",
+      "drive_pdf": {
+        "id": "1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf",
+        "webViewLink": "https://drive.google.com/file/d/1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE",
+        "webViewLink": "https://docs.google.com/document/d/1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 GAIA 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "agentbench",
+      "name": "AgentBench",
+      "section": "Agent",
+      "tags": [
+        "交互式Agent综合能力"
+      ],
+      "summary": "跨环境长程交互、工具执行、决策、遵循反馈与完成目标的综合Agent能力。",
+      "json": "data/benchmarks/agentbench.json",
+      "content": "content/benchmarks/agentbench.md",
+      "drive_pdf": {
+        "id": "16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp",
+        "webViewLink": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA",
+        "webViewLink": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/THUDM/AgentBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.03688",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
+    },
+    {
+      "id": "webarena",
+      "name": "WebArena",
+      "section": "Agent",
+      "tags": [
+        "网页任务执行"
+      ],
+      "summary": "把高层自然语言意图转成跨网页多步行动，正确改变网页状态或获取信息。",
+      "json": "data/benchmarks/webarena.json",
+      "content": "content/benchmarks/webarena.md",
+      "drive_pdf": {
+        "id": "1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L",
+        "webViewLink": "https://drive.google.com/file/d/1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4",
+        "webViewLink": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 5
+    },
+    {
+      "id": "bfcl",
+      "name": "Berkeley Function Calling Leaderboard (BFCL)",
+      "section": "Agent",
+      "tags": [
+        "函数调用"
+      ],
+      "summary": "选择工具、构造合法参数、串并行函数调用、拒绝无关调用及有状态多步Agent决策。",
+      "json": "data/benchmarks/bfcl.json",
+      "content": "content/benchmarks/bfcl.md",
+      "drive_pdf": {
+        "id": "1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw",
+        "webViewLink": "https://drive.google.com/file/d/1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748",
+        "webViewLink": "https://docs.google.com/document/d/1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "tau-bench",
+      "name": "τ-bench",
+      "section": "Agent",
+      "tags": [
+        "工具—Agent—用户交互"
+      ],
+      "summary": "与用户多轮交流、调用数据库工具并遵守业务政策，稳定完成现实服务任务。",
+      "json": "data/benchmarks/tau-bench.json",
+      "content": "content/benchmarks/tau-bench.md",
+      "drive_pdf": {
+        "id": "1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ",
+        "webViewLink": "https://drive.google.com/file/d/1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ",
+        "webViewLink": "https://docs.google.com/document/d/1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 τ-bench（BFCL为v3），属于厂商自报评测。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 8
+    },
+    {
+      "id": "automationbench-aa",
+      "name": "AutomationBench-AA",
+      "section": "Agent",
+      "tags": [
+        "长程自动化任务"
+      ],
+      "summary": "跨SaaS应用自主发现API、处理数据、遵守分层业务规则并完成多步工作流。",
+      "json": "data/benchmarks/automationbench-aa.json",
+      "content": "content/benchmarks/automationbench-aa.md",
+      "drive_pdf": {
+        "id": "1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE",
+        "webViewLink": "https://drive.google.com/file/d/1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM",
+        "webViewLink": "https://docs.google.com/document/d/1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.18934",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章明确列出 AutomationBench-AA 为 Intelligence Index v5 的评测组成并报告模型领先表现。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 5
+    },
+    {
+      "id": "aa-briefcase",
+      "name": "AA-Briefcase",
+      "section": "Agent",
+      "tags": [
+        "职业知识工作与多交付物"
+      ],
+      "summary": "数据科学、产品管理、公司战略等专业知识工作的分析、格式化呈现和可用交付物。",
+      "json": "data/benchmarks/aa-briefcase.json",
+      "content": "content/benchmarks/aa-briefcase.md",
+      "drive_pdf": "待核实",
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I",
+        "webViewLink": "https://docs.google.com/document/d/1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章实际报告 AA-Briefcase Elo以及Presentation、Analytical Quality等子维度结果；子维度不另计。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 20
+    },
+    {
+      "id": "core-bench",
+      "name": "CORE-Bench",
+      "section": "Agent",
+      "tags": [
+        "科学计算结果复现Agent"
+      ],
+      "summary": "通过已有研究代码与环境重新执行实验、读取输出并回答科学结果问题。",
+      "json": "data/benchmarks/core-bench.json",
+      "content": "content/benchmarks/core-bench.md",
+      "drive_pdf": {
+        "id": "1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8",
+        "webViewLink": "https://drive.google.com/file/d/1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA",
+        "webViewLink": "https://docs.google.com/document/d/1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/siegelz/core-bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2409.11363",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1及参考文献明确引用 CORE-Bench，讨论以已有研究结果复现为目标的评价；为H2学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 6
+    },
+    {
+      "id": "paperbench",
+      "name": "PaperBench",
+      "section": "Agent",
+      "tags": [
+        "AI论文复现Agent"
+      ],
+      "summary": "从论文理解贡献、从零开发代码、执行实验并复现现代AI研究。",
+      "json": "data/benchmarks/paperbench.json",
+      "content": "content/benchmarks/paperbench.md",
+      "drive_pdf": {
+        "id": "1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk",
+        "webViewLink": "https://drive.google.com/file/d/1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "type": "中文介绍Google Doc",
+        "id": "1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE",
+        "webViewLink": "https://docs.google.com/document/d/1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07 KST / Asia/Seoul",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1及参考文献明确引用 PaperBench，讨论以已有研究结果复现为目标的评价；为H2学术引用。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 7
+    },
+    {
+      "id": "truthfulqa",
+      "name": "TruthfulQA",
+      "section": "安全",
+      "tags": [
+        "真实性与误解诱发的幻觉"
+      ],
+      "summary": "检验模型是否复述人类常见误解，而非只看回答流畅度。",
+      "json": "data/benchmarks/truthfulqa.json",
+      "content": "content/benchmarks/truthfulqa.md",
+      "drive_pdf": {
+        "id": "12HuAWYz_OBaC5-Hlk_sLg1mzUbeHUD1k",
+        "webViewLink": "https://drive.google.com/file/d/12HuAWYz_OBaC5-Hlk_sLg1mzUbeHUD1k/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E",
+        "webViewLink": "https://docs.google.com/document/d/1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2实际使用 TruthfulQA，并明确区分准确率与MC2等评价口径。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "harmbench",
+      "name": "HarmBench",
+      "section": "安全",
+      "tags": [
+        "越狱、拒答与自动红队"
+      ],
+      "summary": "标准化自动红队和稳健拒答评估，比较攻击方法及防御模型。",
+      "json": "data/benchmarks/harmbench.json",
+      "content": "content/benchmarks/harmbench.md",
+      "drive_pdf": {
+        "id": "1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT",
+        "webViewLink": "https://drive.google.com/file/d/1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ",
+        "webViewLink": "https://docs.google.com/document/d/10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.04249",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
+          "date": "2026-09-07",
+          "note": "An Empirical Measurement of Jailbreaking Evaluators 实际比较 HarmBench 等越狱评估器的行为及可靠性。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "strongreject",
+      "name": "StrongREJECT",
+      "section": "安全",
+      "tags": [
+        "有害请求完成度与拒答评价"
+      ],
+      "summary": "判定越狱输出是否真正提供具体、可信的有害帮助，而不只判断是否拒答。",
+      "json": "data/benchmarks/strongreject.json",
+      "content": "content/benchmarks/strongreject.md",
+      "drive_pdf": {
+        "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor",
+        "webViewLink": "https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE",
+        "webViewLink": "https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2402.10260",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
+          "date": "2026-09-07",
+          "note": "同一H2越狱评估器研究实际研究 StrongREJECT 评分及其可靠性。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.18471v1",
+          "date": "2026-09-16",
+          "note": "First Token Matters 也明确使用 StrongReject 数据集分析推理模型安全崩塌。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 11
+    },
+    {
+      "id": "advbench",
+      "name": "AdvBench",
+      "section": "安全",
+      "tags": [
+        "有害请求与越狱"
+      ],
+      "summary": "评价对齐语言模型在有害行为及指定字符串上的对抗鲁棒性。",
+      "json": "data/benchmarks/advbench.json",
+      "content": "content/benchmarks/advbench.md",
+      "drive_pdf": {
+        "id": "1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq",
+        "webViewLink": "https://drive.google.com/file/d/1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8",
+        "webViewLink": "https://docs.google.com/document/d/1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.15043",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.18471v1",
+          "date": "2026-09-16",
+          "note": "First Token Matters §2–3明确使用 AdvBench 分析推理模型的拒答与首token安全失效。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 12
+    },
+    {
+      "id": "rag-safety-bench",
+      "name": "RAG-Safety-Bench",
+      "section": "安全",
+      "tags": [
+        "检索增强系统安全"
+      ],
+      "summary": "控制检索条件，区分RAG引起的安全变化、能力变化和拒答变化。",
+      "json": "data/benchmarks/rag-safety-bench.json",
+      "content": "content/benchmarks/rag-safety-bench.md",
+      "drive_pdf": {
+        "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z",
+        "webViewLink": "https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk"
+      },
+      "drive_intro": {
+        "kind": "中文介绍 Google Doc",
+        "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o",
+        "webViewLink": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "last_checked": "2026-11-07",
+      "cited_2026h2": true,
+      "cited_2026h2_evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
+          "date": "2026-09-10",
+          "note": "RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。",
+          "date_precision": "day",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "citation_note": "H2引用/评测使用证据；不自动等于新版本、官方榜单更新或独立复测。",
+      "todo_fields_count": 9
     }
   ]
 }

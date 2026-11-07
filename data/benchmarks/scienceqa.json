@@ -1,0 +1,829 @@
+{
+  "id": "scienceqa",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "ScienceQA",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Science Question Answering",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2022-09-20",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "多模态科学问答"
+      ],
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "数据CC BY-NC-SA 4.0，原课程资源版权属于IXL；代码许可与数据许可分开。",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2209.09513",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/lupantech/ScienceQA",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://scienceqa.github.io/",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位：UCLA、亚利桑那州立大学、Allen Institute for AI。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Lu, Pan",
+        "Mishra, Swaroop",
+        "Xia, Tony",
+        "Qiu, Liang",
+        "Chang, Kai-Wei",
+        "Zhu, Song-Chun",
+        "Tafjord, Oyvind",
+        "Clark, Peter",
+        "Kalyan, Ashwin"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "lupantech 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/ScienceQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "多模态科学选择题与可解释的多步推理，联合学习答案、lecture和explanation。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "既有科学QA往往仅文本、规模小、学科少或缺少答案解释。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从IXL小学与中学课程资源收集问题、图像/文本上下文、答案、背景lecture与具体explanation。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "原课程内容来自教育网站IXL；本批未核实所有原题作者资质。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "整理多模态上下文和分层主题标签；质量审查及人类评估细则见论文附录，本批未逐条复现。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "整理多模态上下文和分层主题标签；质量审查及人类评估细则见论文附录，本批未逐条复现。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "21,208题；10,332题有图，10,220题有文本上下文，6,532题两者都有；26主题、127类别、379技能。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多项选择；部分无图或无上下文，不能把全量集视为纯图像问答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本（部分样本或版本仅文本）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "小学至高中课程，榜单报告G1-6与G7-12；完整难度分布待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "随机60:20:20；train 12,726、validation 4,241、test 4,241。榜单另有1,000题mini口径。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "选项准确率；另按自然/社会/语言学科、图像/文本上下文、年级分组报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "选项准确率；另按自然/社会/语言学科、图像/文本上下文、年级分组报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文比较few-shot GPT-3与微调UnifiedQA；Q/C/M/A/lecture/explanation的输入输出组合要记录，带参考解释输入属于不同协议。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/lupantech/ScienceQA",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/ScienceQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "官方榜单由论文人工整理，官方提醒可能有错误、歧义和缺失；zero-shot/few-shot/fine-tune、全量与IMG子集、4,241与mini 1,000不能混比。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2022-09-20T16:04:24+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2022-10-17T16:46:47+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "官方榜单由论文人工整理，官方提醒可能有错误、歧义和缺失；zero-shot/few-shot/fine-tune、全量与IMG子集、4,241与mini 1,000不能混比。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://scienceqa.github.io/leaderboard.html",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/leaderboard.html",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Mutimodal-T-SciQ_Large (738M)",
+          "score": 96.18,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "官方汇总表全量test；Fine-tune",
+          "date": "2023-05-05",
+          "accessed": "2026-11-07",
+          "source_url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "provenance": "官方README人工汇总的历史记录，官方警告有误差与缺失，不代表2026独立复测"
+        },
+        {
+          "model": "MC-CoT_F-Large (783M)",
+          "score": 94.88,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "官方汇总表全量test；Fine-tune",
+          "date": "2023-11-23",
+          "accessed": "2026-11-07",
+          "source_url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "provenance": "官方README人工汇总历史记录"
+        },
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 96.8,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "ScienceQA，论文此表未区分全量/IMG口径",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 97.4,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "ScienceQA，论文此表未区分全量/IMG口径",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "lupantech@gmail.com"
+      ],
+      "sources": [
+        {
+          "url": "https://scienceqa.github.io/leaderboard.html",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+    },
+    "github_issues": {
+      "value": "https://github.com/lupantech/ScienceQA/issues",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/ScienceQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://scienceqa.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2209.09513",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2209.09513",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "046aa5207a78594b84fddac6a750354b8afc0d37f6bdef6730ef3aae691abee5",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 8065121,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2209.09513",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9",
+        "webViewLink": "https://drive.google.com/drive/folders/1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ",
+          "webViewLink": "https://docs.google.com/document/d/1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1DbMOVlQF4L3yu_htLns-S1ladvipIuxm",
+      "webViewLink": "https://drive.google.com/file/d/1DbMOVlQF4L3yu_htLns-S1ladvipIuxm/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1DbMOVlQF4L3yu_htLns-S1ladvipIuxm/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2209.09513",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://scienceqa.github.io/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

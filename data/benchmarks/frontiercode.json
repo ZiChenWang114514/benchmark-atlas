@@ -1,0 +1,679 @@
+{
+  "id": "frontiercode",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "FrontierCode",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "FrontierCode",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "2.0；1.1保留为历史快照",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "release_date": {
+      "value": "2.0：2026-10-27（官方文章日期，未标时区/时间）",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "前沿代码Agent能力"
+      ],
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "已核实官方方法文章与榜单；检索未找到独立原始学术论文。方法文章不冒充论文。",
+      "status": "待核实"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://cognition.com/frontiercode",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方方法页标题 FrontierCode 2.0；独立论文标题待核实。",
+      "status": "待核实"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Cognition",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "20 多名顶尖开源维护者参与2.0任务构建。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": "The Cognition Team（官方方法文章署名）",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Cognition；Artificial Analysis 独立运行其评测实现。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "能否提交维护者愿意合并的代码：功能正确、理解隐含需求、遵循现有抽象/兼容性并避免过度改写。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "详尽规格和仅单元测试容易忽略真实开发中的未明说约束、可维护性与合并质量。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从开源维护者自己维护的真实仓库设计任务；每位维护者每题投入超过40小时；2.0加入更多安全与性能任务。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "20 多位世界级开源开发者，不只是通用标注员。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "人工与自动审查任务说明、参考解和评分规则；2.0中80%参考解区别于上游PR。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "2.0较1.1覆盖更多仓库、43%更多 blocking criteria，强化彻底性与回归检查，并放宽不必要的scope限制。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "题目保持私有；轨迹扫描若发现查找现成解则记0，不能排除仓库本身的预训练接触。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "2.0：132任务；1.1 Main 是150任务中的100题，不能混合分母。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "真实仓库代码修改，综合测试和维护者评分rubric。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "源代码",
+        "仓库环境"
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "跨仓库语言；公开示例包括 JavaScript 与 Kotlin，完整语言分布待核实。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "difficulty": {
+      "value": "强调隐含约束、完整修复和可合并标准；2.0非简单同题扩量。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "评分任务私有；官方和AA公开部分例题与方法，而非完整数据集。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "task等权的加权rubric得分 (%)。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "任何blocking检查失败或查找解被轨迹扫描标记，整次尝试0分；其余按各项权重汇总。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "AA2.0：Stirrup，132题各3次，最多500turn，GPT-6 Luna medium作LLM评审；1.1上限250turn。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "Cognition官方harness与AA Stirrup独立实现不同；1.1与2.0不同；评分不是简单任务全对率，推理effort增加也可能因scope变化降分。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "2.0；1.1保留为历史快照",
+        "evidence_2026_h2": [
+          {
+            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+            "date": "2026-10-28",
+            "note": "Artificial Analysis 2026-10-28文章明确报告 FrontierCode v1.1 的结果并将其纳入Coding Agent Index；独立机构评测。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "saturation": {
+      "value": "2.0官方发布实验最优约45%，官方判断远未饱和；这不是对所有未来系统的绝对结论。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "私有任务降低直接题目泄漏；scope约束与未明说需求会影响解释，官方已在2.0审计并调整范围标准。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "1.0、1.1、2.0是套件版本，本库合计一个 benchmark。",
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://cognition.com/frontiercode",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
+          "score": 46.4,
+          "metric": "weighted score (%)",
+          "benchmark_version": "2.0/132题",
+          "result_type": "AA独立当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+          "score": 43.8,
+          "metric": "weighted score (%)",
+          "benchmark_version": "2.0/132题",
+          "result_type": "AA独立当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "GPT-6 Astra (Max)",
+          "score": 42.4,
+          "metric": "weighted score (%)",
+          "benchmark_version": "2.0/132题",
+          "result_type": "AA独立当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Claude Opus 5.5 (best effort)",
+          "score": 45.5,
+          "metric": "weighted score (%)",
+          "benchmark_version": "2.0",
+          "result_type": "Cognition官方发布实验",
+          "source_date": "2026-10-27",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方文章明确列45.5%，AA独立页面46.4%，因不同实现/配置分别保留，不将差异强行归为一次分数修正；官方当前交互表完整排名待核实。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK",
+        "webViewLink": "https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "官方方法页HTML归档（非论文PDF）",
+          "id": "1pVb8sMOUBsDfBPqsjizyUdsZ-ebmX0Pr",
+          "webViewLink": "https://drive.google.com/file/d/1pVb8sMOUBsDfBPqsjizyUdsZ-ebmX0Pr/view?usp=drivesdk",
+          "source_url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07",
+          "sha256": "c0073b17387e29534db8ca821b92b524ba178cdbe36331b6873fdcdc7b49dedb",
+          "bytes": 226414
+        },
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis",
+          "webViewLink": "https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://cognition.com/frontiercode",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "note": "官方方法页已核实，未找到独立原始论文 PDF；不伪造论文附件。",
+    "status": "待核实"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://cognition.com/frontiercode",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

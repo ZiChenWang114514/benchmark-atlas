@@ -1,0 +1,636 @@
+{
+  "id": "webarena",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "WebArena",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "WebArena",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "原始812任务协议；不同WebArena衍生独立注明",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2023-07-26 07:59:32 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "网页任务执行"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/web-arena-x/webarena",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2307.13854",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/web-arena-x/webarena",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/web-arena-x/webarena/blob/main/config_files/test.raw.json",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://webarena.dev/og/",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Carnegie Mellon University；作者也列Inspired Cognition单位。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Zhou, Shuyan",
+        "Xu, Frank F.",
+        "Zhu, Hao",
+        "Zhou, Xuhui",
+        "Lo, Robert",
+        "Sridhar, Abishek",
+        "Cheng, Xianyi",
+        "Ou, Tianyue",
+        "Bisk, Yonatan",
+        "Fried, Daniel",
+        "Alon, Uri",
+        "Neubig, Graham"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "WebArena / web-arena-x 项目团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "AFRL FA8750-19-2-0200；AWS AI gift；CAIS compute支持。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "把高层自然语言意图转成跨网页多步行动，正确改变网页状态或获取信息。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "静态网页快照与短步骤任务难评长程规划；单看动作相似度会拒绝不同但正确的路径。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "自托管拟真网站：电商、论坛、协作开发、内容管理四类；作者编写241模板派生812任务，附地图/计算器/wiki等。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "CMU研究者设计意图；网站数据模拟现实分布，不是对真实用户账户操作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "两名标注者生成参考答案，第三人解决分歧。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "Docker可复现环境，程序化网站终态检查；信息查询支持exact/must-include/fuzzy比较。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "本地环境支持可复现但数据/任务公开；模板相似性和后续训练污染仍需注意。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "812任务，来自241模板，覆盖4类主要网站。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "信息查询、内容创建/修改和多网站联合操作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "网页文本/HTML/可访问性树",
+        "可选截图",
+        "工具动作"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语指令；网站内容与代码相关语法。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "长程、部分需多网站/外部知识；同模板实例并非完全独立能力点。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "自托管网站、任务和功能评测代码公开；不等于线上真实网站或隐藏服务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "端到端task success rate。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "检查最终或必要中间网站状态；查询答案使用精确、包含或GPT-4-0613模糊比较。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文2-shot，温度1、top-p0.9、最多30步；可达性提示变体须另列。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/web-arena-x/webarena",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "WebArena与VisualWebArena/WebArena-Infinity/Verified变体不同；截图与可访问树观察、外部浏览和步数预算也不同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始812任务协议；不同WebArena衍生独立注明",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 KST (9,497 KB) [v2] 2023-10-24 12:19:22 KST (8,751 KB) [v3] 2023-10-25 10:56:14 KST (8,751 KB) [v4] 2024-04-17 00:13:18 KST (9,472 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "固定模板、公开测试和使用LLM模糊裁判会影响泛化解释；网站环境版本需要固定。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "VisualWebArena等增加视觉条件，WebArena-x/Infinity另有新任务；原始812题成绩不转贴到衍生版。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://webarena.dev/og/",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "GPT-4-0613 + CoT",
+          "score": 14.41,
+          "metric": "task success (%)",
+          "benchmark_version": "原始812任务",
+          "result_type": "论文历史基线",
+          "source_date": "原论文Table3",
+          "collected_at": "2026-11-07 KST",
+          "settings": "no unachievable hint；2-shot/30步"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "保留原论文无不可达提示的历史基线；有提示11.70%是另一设置，不当作同榜更新。当前网站已出现WebArena-x内容，原始协议用/og/归档核验；H2证据是ScienceIDE引用而非实跑。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "shuyanzh@cs.cmu.edu",
+        "fangzhex@cs.cmu.edu",
+        "gneubig@cs.cmu.edu"
+      ],
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/web-arena-x/webarena/issues",
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2307.13854",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "f9731b92bc3d29a2ea7b5f9cb46b48540c76bc3f84a57e0c48fc37ea73107f95",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 9128123,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1nFh380aqu7esGjwpLfEm0xF85brhlOzU",
+        "webViewLink": "https://drive.google.com/drive/folders/1nFh380aqu7esGjwpLfEm0xF85brhlOzU"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1nFh380aqu7esGjwpLfEm0xF85brhlOzU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4",
+          "webViewLink": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L",
+      "webViewLink": "https://drive.google.com/file/d/1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://webarena.dev/og/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

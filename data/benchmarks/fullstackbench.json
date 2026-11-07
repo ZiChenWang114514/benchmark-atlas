@@ -1,0 +1,713 @@
+{
+  "id": "fullstackbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "公开 3,374 题快照；数据版本号待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v6",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2024-12-01 01:58:42 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "全栈代码生成"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（仓库标示；第三方依赖与数据项另核适用条件）",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2412.00535",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/bytedance/FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ByteDance/FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/bytedance/FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "FullStack Bench: Evaluating LLMs as Full Stack Coders",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "ByteDance / Seed Foundation Code Team",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Bytedance-Seed-Foundation-Code-Team",
+        ":",
+        "Cheng, Yao",
+        "Chen, Jianfeng",
+        "Chen, Jie",
+        "Chen, Li",
+        "Chen, Liyu",
+        "Chen, Wentao",
+        "Chen, Zhengyu",
+        "Geng, Shijie",
+        "Li, Aoyan",
+        "Li, Bo",
+        "Li, Bowen",
+        "Li, Linyi",
+        "Liu, Boyi",
+        "Liu, Jiaheng",
+        "Liu, Kaibo",
+        "Liu, Qi",
+        "Liu, Shukai",
+        "Liu, Siyao",
+        "Liu, Tianyi",
+        "Liu, Tingkai",
+        "Liu, Yongfei",
+        "Long, Rui",
+        "Mai, Jing",
+        "Ning, Guanghan",
+        "Peng, Z. Y.",
+        "Shen, Kai",
+        "Su, Jiahao",
+        "Su, Jing",
+        "Sun, Tao",
+        "Sun, Yifan",
+        "Tao, Yunzhe",
+        "Wang, Guoyin",
+        "Wang, Siwei",
+        "Wang, Xuwu",
+        "Wang, Yite",
+        "Wang, Zihan",
+        "Xia, Jinxiang",
+        "Xiang, Liang",
+        "Xiao, Xia",
+        "Xiao, Yongsheng",
+        "Xi, Chenguang",
+        "Xin, Shulin",
+        "Xu, Jingjing",
+        "Xu, Shikun",
+        "Yang, Hongxia",
+        "Yang, Jack",
+        "Yang, Yingxiang",
+        "Yuan, Jianbo",
+        "Zhang, Jun",
+        "Zhang, Yufeng",
+        "Zhang, Yuyu",
+        "Zheng, Shen",
+        "Zhu, He",
+        "Zhu, Ming"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "ByteDance FullStackBench 团队",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "跨语言、跨应用领域的实际代码开发与库使用能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "简单算法题及从 Python 翻译的多语言题不能充分覆盖全栈场景、外部依赖和真实开发复杂性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "构建覆盖基础编程、数据分析、软件工程、数学与机器学习等应用领域的任务，不只是同题多语言翻译。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "ByteDance 代码模型与执行沙箱研究团队。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "quality_control": {
+      "value": "使用 SandboxFusion 统一多语言运行环境和单元测试进行验证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "3,374 个问题、16 种编程语言、15,168 个单元测试（论文口径）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "按自然语言规格生成可执行代码。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "16 种编程语言；不能把语言数当成人类语言数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "覆盖多个应用领域与开发复杂性；精确难度分布待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "public_hidden_split": {
+      "value": "官方仓库及 Hugging Face 提供公开数据；未核实另有隐藏官方测试集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "pass@1 / 单次代码功能正确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "用 SandboxFusion 在对应语言环境执行生成程序并检查单元测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "语言模板、依赖环境、生成预算依论文与官方脚本固定；Hunyuan 报告未完整列出复现配置。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/bytedance/FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同语言/领域覆盖与执行环境影响结果；该名称不意味着实际构建/上线完整网站的 UI agent。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "公开 3,374 题快照；数据版本号待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 FullStackBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。",
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Siyao Liu [ view email ] [v1] 2024-12-01 01:58:42 KST (10,754 KB) [v2] 2024-12-04 01:55:24 KST (11,370 KB) [v3] 2024-12-10 02:31:54 KST (7,770 KB) [v4] 2024-12-13 01:59:55 KST (7,769 KB) [v5] 2024-12-20 23:58:59 KST (7,770 KB) [v6] 2025-05-12 19:24:14 KST (7,770 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "公开测试与任务在后续训练中可能泄漏；题目来源覆盖并不等于无污染证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/bytedance/FullStackBench",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Hunyuan-A13B slow-thinking",
+          "score": 67.8,
+          "metric": "FullStackBench (%)",
+          "benchmark_version": "版本待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Hunyuan-A13B fast-thinking",
+          "score": 58.3,
+          "metric": "FullStackBench (%)",
+          "benchmark_version": "版本待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "下面仅列能从已打开来源核验的结果。历史论文基线、厂商自报与当前榜单分开，不构成跨设置综合排名。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/bytedance/FullStackBench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2412.00535",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "d68951598d6b201b93b57ea71052944f28bacd77bd3b6f2c6acb2d46b090fb98",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 4251352,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.00535",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0",
+        "webViewLink": "https://drive.google.com/drive/folders/1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc",
+          "webViewLink": "https://docs.google.com/document/d/1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/bytedance/FullStackBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an",
+      "webViewLink": "https://drive.google.com/file/d/1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/bytedance/FullStackBench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

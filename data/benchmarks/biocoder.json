@@ -1,0 +1,643 @@
+{
+  "id": "biocoder",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "BioCoder",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_version": {
+      "value": "v5；最近论文日期 2024-05-20",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-08-31（首个arXiv版本日期；非推定数据上线日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "生物信息学代码生成"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2308.16458",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/gersteinlab/BioCoder",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/gersteinlab/BioCoder",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://biocoder-benchmark.github.io/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Yale与Google DeepMind论文作者合作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "authors": {
+      "value": [
+        "Tang, Xiangru",
+        "Qian, Bill",
+        "Gao, Rick",
+        "Chen, Jiakang",
+        "Chen, Xinyun",
+        "Gerstein, Mark"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "gersteinlab/BioCoder与官方项目页。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "带依赖、类、全局变量等真实上下文的生物信息学函数代码生成。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "一般短函数题不充分测试生物知识、复杂数据操作及真实项目上下文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "GitHub生物项目中的Python函数、Java方法及Rosalind编程题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Yale/Google DeepMind生物信息与代码生成研究团队；非声称所有题均独立专家原创。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "语法解析抽取真实函数，静态分析、人工测试和fuzzing结合构建验证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "Docker可执行测试环境与自动化模糊测试，保留依赖/类/全局环境。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "源代码与Rosalind公开，可能进入代码预训练；独立训练语料去重审计待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "1,026 Python函数、1,243 Java方法，另253个Rosalind例子；不要混同为同一语言总题数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "根据签名/上下文/描述生成函数或方法体；多个提示布局。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "源代码、自然语言说明、单元/模糊测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "Python",
+        "Java",
+        "英语提示"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "真实项目依赖和专业生物信息任务；无统一难度分档。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方数据、Docker和测试脚本公开；公开测试可能受适应性优化。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Pass@1/5/10/20，分Python、Java、Rosalind。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "生成代码在执行测试/fuzz cases中通过；Pass@K不是题目准确率简单取最大。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官网Summary Only榜：temperature0.7、top-p0.95、最大生成256token；GPT4上下文8192。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/gersteinlab/BioCoder",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "提示布局、上下文窗口、生成长度和语言不同影响结果。官网模型日期为历史标签，不应误写采集日模型排名。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.21074v1",
+            "date": "2026-10-15",
+            "note": "OmicsBench §2明确引用 BioCoder（Tang等2024），讨论其生物代码生成评测与新基准的区别。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "title": "BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models",
+          "authors": [
+            "Tang, Xiangru",
+            "Qian, Bill",
+            "Gao, Rick",
+            "Chen, Jiakang",
+            "Chen, Xinyun",
+            "Gerstein, Mark"
+          ],
+          "release": "2023-08-31",
+          "latest": "2024-05-20",
+          "version": "v5"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "官网历史低通过率不说明2026模型当前上限；本轮未获得更新统一实验。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "公开GitHub代码可能训练暴露；fuzz覆盖率不足时通过不等于所有输入都正确。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://biocoder-benchmark.github.io/",
+      "sources": [
+        {
+          "url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "官网本轮仍为2023模型历史榜：gpt-4(Azure，2023-03-14标签) SummaryOnly Pass@1：Python38.439%、Java45.011%、Rosalind24.308%；同设置Python Pass@20 52.229%。并非2026新实验。",
+      "sources": [
+        {
+          "url": "https://biocoder-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/gersteinlab/BioCoder/issues",
+      "sources": [
+        {
+          "url": "https://github.com/gersteinlab/BioCoder",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2308.16458",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "c10e1ca00454f617439153c6646eb406ea01ffc3bf14fef420a6968223858b1e",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 1569722,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea",
+        "webViewLink": "https://drive.google.com/drive/folders/1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.16458",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ",
+          "webViewLink": "https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk",
+      "webViewLink": "https://drive.google.com/file/d/1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk/view"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2308.16458",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2308.16458",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

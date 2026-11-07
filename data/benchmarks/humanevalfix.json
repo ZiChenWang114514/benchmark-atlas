@@ -1,0 +1,641 @@
+{
+  "id": "humanevalfix",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "HumanEvalFix",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "HumanEvalFix",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "HumanEvalPack 中的 HumanEvalFix；6语言×164题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2023-08-14 22:53:54 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "代码修复"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2308.07124",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/bigcode-project/octopack",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/bigcode/humanevalpack",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/bigcode-project/octopack",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "OctoPack: Instruction Tuning Code Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "BigCode / OctoPack 作者团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Muennighoff, Niklas",
+        "Liu, Qian",
+        "Zebaze, Armel",
+        "Zheng, Qinkai",
+        "Hui, Binyuan",
+        "Zhuo, Terry Yue",
+        "Singh, Swayam",
+        "Tang, Xiangru",
+        "von Werra, Leandro",
+        "Longpre, Shayne"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "BigCode octopack 项目",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "根据任务规范和已有带错误的程序修复功能错误；测量指令微调代码模型。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "代码补全只覆盖合成，缺少跨语言指令驱动修复与解释任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "在每种语言的 164 个 HumanEval 参考函数中人工加入一个 bug，跨语言尽量保持同类错误。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "论文团队人工设计 bug，而非由模型自动判定修复真值。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "保证有 bug 的程序仍可运行，但至少一个单元测试失败。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "六种语言使用相近 bug 以支持可比性；附录给出类别与实例。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "源自公开 HumanEval；添加人工错误不消除模型记忆原始正确实现的可能性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "每语言 164 个问题，6 语言共 984 个 bug；不等于 984 个互不相关原题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "自然语言+错误代码 → 修复代码；tests 与 docstring 提示有不同变体。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "源代码"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "Go",
+        "C++",
+        "Rust"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "细微功能 bug；文档提示的较易变体与只给测试的变体须区分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "通过 HumanEvalPack 公开；Fix、Explain、Synthesize 是同套件不同任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "执行测试的 pass@1 等；按语言分别报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "修复代码必须通过参考测试，不以自然语言解释质量代替功能正确。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文提供 zero-shot 提示与生成评测；需注明 docstring/tests 变体及采样。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/bigcode-project/octopack",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不能把 HumanEval 合成、HumanEvalFix 修复或跨语言总分当成同口径；ScienceIDE 只证实 JS 子任务迁移。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "HumanEvalPack 中的 HumanEvalFix；6语言×164题",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §3.3、附录11.1实际用 HumanEvalFix JavaScript 等代码修复任务评测科学轨迹训练迁移。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Niklas Muennighoff [ view email ] [v1] 2023-08-14 22:53:54 KST (1,643 KB) [v2] 2024-02-18 18:46:06 KST (1,647 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "HumanEval 改编造成原题记忆与修复能力混合，跨语言一致 bug 也不是完全独立样本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "HumanEvalExplain 与 HumanEvalSynthesize 是 HumanEvalPack 兄弟任务；本条仅收 HumanEvalFix。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/bigcode-project/octopack",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "ScienceIDE 4B SFT 训练设置（精确检查点待核实）",
+          "result": "HumanEvalFix JavaScript 相对提升 10.98 个百分点",
+          "metric": "论文报告相对改善，不是绝对得分",
+          "benchmark_version": "HumanEvalFix JS",
+          "result_type": "H2 学术实验",
+          "source_date": "2026-09-16",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "ScienceIDE §3.3 与附录 11.1 实际使用 JS 修复；不将相对提升填成 pass@1 绝对值，当前官方全语言榜首待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/bigcode-project/octopack/issues",
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2308.07124",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 2618401,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.07124",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK",
+        "webViewLink": "https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY",
+          "webViewLink": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/bigcode-project/octopack",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn",
+      "webViewLink": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/bigcode-project/octopack",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

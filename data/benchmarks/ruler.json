@@ -1,0 +1,641 @@
+{
+  "id": "ruler",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "RULER",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "RULER",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2024-04-09",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "语言",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "长上下文利用"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2404.06654",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/hsiehjackson/RULER",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/hsiehjackson/RULER",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/hsiehjackson/RULER",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "NVIDIA 研究团队。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Hsieh, Cheng-Ping",
+        "Sun, Simeng",
+        "Kriman, Samuel",
+        "Acharya, Shantanu",
+        "Rekesh, Dima",
+        "Jia, Fei",
+        "Zhang, Yang",
+        "Ginsburg, Boris"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "检验模型实际可用上下文长度，而不只看标称窗口。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "单一 needle-in-a-haystack 容易被模型攻克，不能代表长上下文中的多跳追踪、聚合与问答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "程序合成检索、多跳变量追踪、聚合与问答任务，可配置长度及复杂度。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队设计可控生成器，不是人工逐题知识考试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "生成器根据任务规则产生可验证标准答案；精确人工逐条审查量待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "分任务及长度评测，以多种任务避免只测一种检索模式。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "13 个任务配置；原论文各任务、各长度 500 条，测试长度 4k、8k、16k、32k、64k、128k token。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "合成检索、变量追踪、聚合与问答",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语任务模板；具体语料配置应固定",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "通过长度、目标数量、变量链等控制难度，而非单一固定难度集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "生成代码及任务配置公开，可重新合成；需保存随机种子和配置以复现。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "任务准确率/目标召回，任务平均与按长度汇总的指标；以所用脚本定义为准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "按任务要求比较模型回答中的目标答案，再汇总任务与长度。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文使用 greedy decoding、模型聊天模板与答案前缀；需记录 tokenizer、模板及长度设定。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/hsiehjackson/RULER",
+      "sources": [
+        {
+          "url": "https://github.com/hsiehjackson/RULER",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同 token 长度、任务子集、分词器和长度加权分数不能混比；Hunyuan报告的 QA 子任务不是13任务全量。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-09-23：Hunyuan-A13B §4.2–4.3实际使用 RULER 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/hsiehjackson/RULER",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2024-04-10T08:41:27+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2024-04-12T08:53:59+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v3",
+          "submitted_at": "2024-08-07T06:48:58+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "标称上下文长度不等于有效窗口；长文本长度、任务复杂度和模板选择可能改变结论。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://arxiv.org/abs/2404.06654",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Hunyuan-A13B（报告命名）",
+          "score": 76.7,
+          "unit": "%",
+          "metric": "RULER QA子任务，0–128K四长度段平均",
+          "scope": "Hunyuan技术报告表6，厂商自报；不是原始13任务综合分",
+          "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
+          "snapshot_date": "2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅收录H2技术报告中明确可读的厂商自报成绩；模型标签按报告保留，未核实其精确API运行日期。不能把这些成绩冒充独立机构当前排行榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "chsieh@nvidia.com",
+        "simengs@nvidia.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/hsiehjackson/RULER/issues",
+      "sources": [
+        {
+          "url": "https://github.com/hsiehjackson/RULER",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2404.06654",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "8a4bc6ca28d84570eec7f42652400c2121f4c8bc361701634e596772e396fc22",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 682955,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2404.06654",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1tj6vWFyQX2ASPe0dVeBL5yRrcunkap7I",
+        "webViewLink": "https://drive.google.com/drive/folders/1tj6vWFyQX2ASPe0dVeBL5yRrcunkap7I"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1tj6vWFyQX2ASPe0dVeBL5yRrcunkap7I",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4",
+          "webViewLink": "https://docs.google.com/document/d/1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ",
+      "webViewLink": "https://drive.google.com/file/d/1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2404.06654",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2404.06654",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

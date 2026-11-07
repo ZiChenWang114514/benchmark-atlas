@@ -1,0 +1,617 @@
+{
+  "id": "astrommbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "AstroMMBench",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "2026正式期刊版（592题）",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "Universe 12(10),296，2026-09-30正式版",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-09-30（正式版发表；非推定最早数据上线日）",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "地球与天文",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "天文研究图像多模态问答"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文CC BY；源arXiv图的再分发依各原稿许可证，不能把论文许可套给全部图像。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://www.mdpi.com/2218-1997/12/10/296",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/Shijinghang/benchmark_pipeline",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/sjh11/AstroMMBench",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://www.mdpi.com/2218-1997/12/10/296",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "中国科学院国家天文台等论文作者团队。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "中国科学院大学、浙江实验室、天津大学（作者机构）。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Jinghang Shi",
+        "Xiaoyu Tang",
+        "Yang Huang",
+        "Yuyang Li",
+        "Yanxia Zhang",
+        "Xiao Kong",
+        "Caizhan Yue",
+        "A-Li Luo"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Shijinghang/benchmark_pipeline与sjh11/AstroMMBench官方发布账号。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "NSFC 12273076/12203077/12373110/12133001；2025YFA1614101；CMS-CSST-2025-A06；河北A2024205020（正式版致谢）。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "读懂天文研究图表、仪器图、观测图像并回答专业物理问题。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "通用VQA不能覆盖天文图像约定与领域推理；与文本AstroLLM、跨模态表示学习互补。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "2024-01至07的3,592篇astro-ph论文，19,299图文对。LLaMA3.3-70B改写上下文，InternVL2.5-78B拟题。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "15名国家天文台审核者：8博士生、5硕士生、2教授；按研究专长分题。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "五模型文本盲答筛去易靠语言先验解的题；余9,677中随机选1,800人工审查，保留592。每题一名主审，非独立双盲。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "检查科学正确、图题一致、上下文充分、唯一答案与干扰项；有问题直接丢弃；无一致性系数测量。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "保留来源arXiv ID；没有训练集审计、近重复搜索或记忆探测。2024公开论文可能被后来模型训练，正式版明确不可称contamination-free。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "592四选一题：GA97、CO108、EP97、HE101、IM83、SR106；25个MLLM（22开放、3闭源）。旧621题摘要不能与正式版混用。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "图像+问题+四选项，单个正确答案。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "天文科研图、图表与文本；不是原始FITS时序分析。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "六子领域；宇宙学均分最低，高能领域模型间方差最大，不应一律称最难。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "HF公开固定592题；当前不是隐藏测试竞赛。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "整体及六子领域accuracy，整体分母固定592；Wilson95%区间辅助解释。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "A–D精确匹配；自由文本用DeepSeek-V3固定二元判分，失败/无效均记错不丢弃。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "VLMEvalKit0.2，图像后接问题四选项；不同模型adapter独立缩放/切片，闭源走官方API。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/Shijinghang/benchmark_pipeline",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "有效图像输入尺寸并未全局统一；头部区间重叠，点估计不能当显著排名；需成对检验及重复运行。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "2026正式版592题；版本以此次正式论文口径为准。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://www.mdpi.com/2218-1997/12/10/296",
+            "date": "2026-09-30",
+            "note": "期刊正式版发表于2026-09-30，在592道专家筛选题上实际评价25个多模态模型。采用打开的正式版，未沿用搜索摘要的旧621题。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "note": "见期刊/数据库官方入口"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "历史最高71.28%，尚未饱和；头部模型之间小差距无显著性结论。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "无训练语料审计；每题单主审且见到答案/原caption；五模型过滤选择偏差。文本盲答对照仅覆盖两个模型。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.mdpi.com/2218-1997/12/10/296",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "正式版2026-09 Table2历史：Ovis2-34B71.28%（Wilson67.51–74.78）；ChatGPT-4o69.76%（65.95–73.33）；Doubao1.5-vision-pro69.09%（65.25–72.68）。共同592题；GPT4o具体API快照待核实；不代表后发模型未超越。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "tangxiaoyu@zhejianglab.org",
+        "zyx@bao.ac.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/Shijinghang/benchmark_pipeline/issues",
+      "sources": [
+        {
+          "url": "https://github.com/Shijinghang/benchmark_pipeline",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "5098322dcf0f8cbccdc5682a22fa6a4565c73464ef54937174540916f5f05a0c",
+      "sources": [
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 7134595,
+      "sources": [
+        {
+          "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/universe-12-00296.pdf",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh",
+        "webViewLink": "https://drive.google.com/drive/folders/1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh"
+      },
+      "sources": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4",
+          "webViewLink": "https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO",
+      "webViewLink": "https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view"
+    },
+    "sources": [
+      {
+        "url": "https://www.mdpi.com/2218-1997/12/10/296",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.mdpi.com/2218-1997/12/10/296",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

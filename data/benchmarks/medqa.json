@@ -1,0 +1,665 @@
+{
+  "id": "medqa",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_version": {
+      "value": "v1；最近论文日期 2020-09-28",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2020-09-28（首个arXiv版本日期；非推定数据上线日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "医学执照考试式临床推理"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2009.13081",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/jind11/MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/jind11/MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/jind11/MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "MIT CSAIL与华中科技大学同济医学院署名作者；正式机构发起协议待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "authors": {
+      "value": [
+        "Jin, Di",
+        "Pan, Eileen",
+        "Oufattole, Nassim",
+        "Weng, Wei-Hung",
+        "Fang, Hanyi",
+        "Szolovits, Peter"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "jind11/MedQA官方仓库。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "医学执照考试式多项选择，结合临床知识、病例推理与外部证据检索。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "给定短文抽取答案的阅读理解难以代表需检索多个医学来源的开放域问答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "美国、中国大陆、台湾医学资格考试题及相关医学教科书/文档语料。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "医学与计算机研究者合作；原考试命题专家逐题身份待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "review_process": {
+      "value": "从考试资料收集整理并进行选项/格式处理；独立医学双审人数待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "quality_control": {
+      "value": "多语言数据与固定划分，论文分析检索噪声和多证据推理失败。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "公开考试及GitHub测试集存在训练暴露风险；2020原始划分不能证明2026模型无污染。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "英语12,723、简体中文34,251、繁体中文14,123题；三语合计61,097（由原论文分项相加）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "病例或医学知识的多项选择；原版与US/大陆4选项处理版须分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/jind11/MedQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本题干、选项、标准答案及可检索医学资料。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "英语",
+        "简体中文",
+        "繁体中文"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "专业医学考试；不等同真实临床工作流或安全性验证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方仓库提供train/dev/test；US、China及Taiwan分别划分；当前4选项版本与原选项版本不可混用。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/jind11/MedQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Accuracy：选择答案匹配标准答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "原论文结合检索器与阅读器，也可闭卷选择；检索/开卷与闭卷分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文非统一现代LLM提示；后续模型需注明4/5选项、CoT、shot、检索和测试子集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/jind11/MedQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "三语、选项数量、工具与子集必须一致；医学考试高分不代表临床有效或安全。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2608.19029v1",
+            "date": "2026-08-19",
+            "note": "Adaptive Memory and Reflection Multi-Agent System 实际在 MedQA 上评测医学问答。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+          "authors": [
+            "Jin, Di",
+            "Pan, Eileen",
+            "Oufattole, Nassim",
+            "Weng, Wei-Hung",
+            "Fang, Hanyi",
+            "Szolovits, Peter"
+          ],
+          "release": "2020-09-28",
+          "latest": "2020-09-28",
+          "version": "v1"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "后续论文高分不能据此认定所有版本饱和；本轮未核实同一协议下的当前全量头部榜单。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "2026 AMR论文方法叙述含逐题反馈，但实验称冻结检索且不写回测试反馈；需结合代码核实，不把该分数当统一榜单。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "H2使用证据/历史结果：2026-08 AMR(GPT-4o，API快照未给)报告MedQA93.2%；论文称使用官方test、训练集检索。但模型快照、完整评测样本清单待核实；非实时SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "jindi15@mit.edu",
+        "eileenp@mit.edu",
+        "nassim@mit.edu",
+        "ckbjimmy@mit.edu",
+        "psz@mit.edu",
+        "fanghanyi@hust.edu.cn"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/jind11/MedQA/issues",
+      "sources": [
+        {
+          "url": "https://github.com/jind11/MedQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2009.13081",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "5e19522f21c0ab5c24cc0dacd3feaa5d4b7057391520075f2e521a271d062ee6",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 189006,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1AYwJpnQXewH8Hk2KHLsemGjydd3Fvco0",
+        "webViewLink": "https://drive.google.com/drive/folders/1AYwJpnQXewH8Hk2KHLsemGjydd3Fvco0"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2009.13081",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE",
+          "webViewLink": "https://docs.google.com/document/d/1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1zmvFZ0lC8HCOh62LXlOrjcHf25kzF4gZ",
+      "webViewLink": "https://drive.google.com/file/d/1zmvFZ0lC8HCOh62LXlOrjcHf25kzF4gZ/view"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2009.13081",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2009.13081",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

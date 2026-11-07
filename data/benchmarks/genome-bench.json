@@ -1,0 +1,633 @@
+{
+  "id": "genome-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "Genome-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Genome-Bench（RL4GenomeBench配套基因组学问答）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_version": {
+      "value": "v2；最近论文日期 2025-06-02",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2025-05-26（首个arXiv版本日期；非推定数据上线日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "基因组学能力"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2505.19501",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Princeton与Stanford论文作者合作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "authors": {
+      "value": [
+        "Yin, Ming",
+        "Qu, Yuanhao",
+        "Yang, Ling",
+        "Cong, Le",
+        "Wang, Mengdi"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "mingyin0312/RL4GenomeBench官方仓库。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "基于专家讨论的CRISPR/基因组实验科学推理与问答；无工具MCQ。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "教材事实问答不足以反映专家社区的实验设计、故障诊断与经验知识。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "2013—2023公开CRISPR Google讨论组约4,000个线程。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "社区原问题来自实验/基因组学参与者；论文作者做QA提取与清洗。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "GPT-4Turbo抽取QA/context，GPT-4o改写和构建干扰项，人工检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "去重、去未解答/离题内容、随机选项顺序与人工质量检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "源讨论公开；划分问答不保证预训练无暴露或同主题讨论完全隔离。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "3,332道五选一题：2,671 train、661 test。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "英语五选一科学/实验推理；不是基因序列预测或执行型组学分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "纯文本问题、上下文、五个选项和答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "专家讨论改编，原论文按七类任务口径；不补造统一难度标签。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开train/test 2671/661，固定测试准确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "661题test accuracy。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "提取结构化最终答案标签并与标准选项比对。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文比较base/CoT/RL-Router，必须保留相同提示与路由/多专家设置。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "RL-Router的四专家系统不同于单一7B模型；不是通用生物分析代理能力总榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.21074v1",
+            "date": "2026-10-15",
+            "note": "OmicsBench §2明确列举 Genome-Bench（Yin等2025），作为生物学局部能力评测的先行基准；为H2学术引用。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "title": "Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning",
+          "authors": [
+            "Yin, Ming",
+            "Qu, Yuanhao",
+            "Yang, Ling",
+            "Cong, Le",
+            "Wang, Mengdi"
+          ],
+          "release": "2025-05-26",
+          "latest": "2025-06-02",
+          "version": "v2"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "历史最好81.07%，非2026当前上限；未核实更新实时榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "源讨论和题库公开，答案改写不消除语义记忆；661题样本规模需考虑误差。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "2025 v2论文历史：RL-Router（Qwen2.5-7B-Instruct路由+四RL专家）81.07%；DeepSeekR1(01-20-25)78.97%；Gemini2.5Pro(exp03-25)77.46%；Claude3.7Sonnet(02-19-25)76.40%。H2仅引用，无新实跑。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "my0049@princeton.edu",
+        "yhqu@stanford.edu"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/mingyin0312/RL4GenomeBench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/mingyin0312/RL4GenomeBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2505.19501",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "ea37fbd1578b8906f5d975c28a63898f9139e3fcd4177bacc5d99f67dec2d9b3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 24536967,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1Ujb8zb_jipEtvQBq_eUglTPU4MJXlI04",
+        "webViewLink": "https://drive.google.com/drive/folders/1Ujb8zb_jipEtvQBq_eUglTPU4MJXlI04"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.19501",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8",
+          "webViewLink": "https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r",
+      "webViewLink": "https://drive.google.com/file/d/1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r/view"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2505.19501",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2505.19501",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

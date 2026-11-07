@@ -1,0 +1,702 @@
+{
+  "id": "realworldqa",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "RealWorldQA",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "RealWorldQA",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "release_date": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "真实世界视觉理解"
+      ],
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "CC BY-ND 4.0",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/xai-org/RealworldQA",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://x.ai/news/grok-1.5v",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本批核实的是官方发布公告和数据集；未找到可核实的独立基准论文，不造标题或PDF。",
+      "status": "待核实"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "xAI发布并在xai-org维护数据集。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "maintainer": {
+      "value": "xai-org官方数据集发布账号",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "真实物理世界的基础空间理解、位置关系、大小比较、计数与交通场景判断。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "真实空间理解对实用AI助手重要，而部分人类容易理解的场景仍难倒前沿视觉模型。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "匿名化车辆拍摄图像与其他真实世界图像；每张图配一题和易验证答案。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "review_process": {
+      "value": "官方说明答案易于验证；具体出题、复核人员和流程未在本批材料中核实。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "官方说明答案易于验证；具体出题、复核人员和流程未在本批材料中核实。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "初始公告称超过700张图；官方HF viewer显示test 765行，以本次数据集行数为明确口径。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "图像配单选题或简短词语/数字问答，包含Yes/No。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "官方称许多例子对人类容易而对模型困难；未给出本批可核实的分档比例。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方HF公开test 765行，包含问题和答案；没有本批核实的隐藏测试集。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "2024首发比较以回答准确率展示；本批未核实独立官方评分脚本细则。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "2024首发比较以回答准确率展示；本批未核实独立官方评分脚本细则。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "首发Grok评测为zero-shot、无CoT。HF样例要求只输出选项字母或单词/数字。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "初始公告的over700和HF的765不冲突；2024首发厂商自报结果不能作2026实时独立排名。不存在已核实的独立论文PDF，不能用其他论文冒充。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "初始公告的over700和HF的765不冲突；2024首发厂商自报结果不能作2026实时独立排名。不存在已核实的独立论文PDF，不能用其他论文冒充。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://x.ai/news/grok-1.5v",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Grok-1.5V",
+          "score": 68.7,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "初始RealWorldQA，zero-shot无CoT",
+          "date": "待核实",
+          "accessed": "2026-11-07",
+          "source_url": "https://x.ai/news/grok-1.5v",
+          "provenance": "2024首发官网比较；xAI厂商自报，不是2026实时榜单或独立第三方评测"
+        },
+        {
+          "model": "Gemini Pro 1.5",
+          "score": 67.5,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "初始RealWorldQA",
+          "date": "待核实",
+          "accessed": "2026-11-07",
+          "source_url": "https://x.ai/news/grok-1.5v",
+          "provenance": "2024首发官网比较表；对比模型精确快照未给出"
+        },
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 77.4,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "RealWorldQA",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 77.4,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "RealWorldQA",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本批未核实独立论文PDF；保留官方网页和中文介绍，不以打印网页冒充原始论文。",
+      "status": "待核实"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd",
+        "webViewLink": "https://drive.google.com/drive/folders/11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw",
+          "webViewLink": "https://docs.google.com/document/d/1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": "待核实",
+    "sources": [
+      {
+        "url": "https://x.ai/news/grok-1.5v",
+        "accessed": "2026-11-07"
+      }
+    ],
+    "note": "未核实独立官方论文PDF；不上传其他论文作为本条原件。",
+    "status": "待核实"
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.ai/news/grok-1.5v",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

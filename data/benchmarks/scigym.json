@@ -1,0 +1,638 @@
+{
+  "id": "scigym",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "SciGym",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "SciGym systems-biology dry-lab benchmark",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_version": {
+      "value": "v2；最近论文日期 2025-07-14",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2025-07-02（首个arXiv版本日期；非推定数据上线日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "系统生物学干实验室"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2507.02083",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/h4duan/SciGym",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/h4duan/scigym-sbml",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://h4duan.github.io/scigym-benchmark/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Toronto、SickKids、Axiom、Mila与Vector等论文署名团队；不推断正式合作协议。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "authors": {
+      "value": [
+        "Duan, Haonan",
+        "Lu, Stephen Zhewen",
+        "Harrigan, Caitlin Fiona",
+        "Desai, Nishkrit",
+        "Lu, Jiarui",
+        "Koziarski, Michał",
+        "Cotta, Leonardo",
+        "Maddison, Chris J."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "h4duan/SciGym与项目页团队。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "交互实验设计：改变初始浓度、观察动力学，重建隐藏生化反应系统并验证模型。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "静态问答不能测可证伪假设、主动实验与迭代科学建模。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "BioModels的1,096个人工策展模型过滤为350个可执行SBML系统。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "系统生物学、机器学习与分子建模研究者；源库为人工策展模型。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "剔除无法执行、无反应/物种、含不支持规则/事件模型；以程序模拟检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "去注释/元数据、匿名化ID、打乱元素、去反应引用；验证Tellurium仿真兼容。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "匿名化降低靠名称记忆的捷径；源BioModels公开，所以不宣称未进入模型预训练。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "350系统；小系统137个（少于10反应），大系统213个（最多约400反应）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多步交互实验、Python建模、隐藏反应网络与动力学重建。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "数值浓度轨迹、SBML/XML、Python与英语交互。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语任务/代理提示及Python/SBML。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "按反应系统规模分small/large；强模型在反应结构恢复上仍有限。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "模型库公开下载；每次实验的真实内部反应系统对代理隐藏。公开数据不等于运行时可直接读gold。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "NTS拓扑F1、RMS反应F1（区分是否包括modifier）、STE轨迹SMAPE（低为好）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "比对反应图及预测轨迹；系统行为相近不等于动力学表达式唯一正确。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "ReAct代理最多20迭代，另3次debug；Python/Tellurium模拟与浓度扰动。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/h4duan/SciGym",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "有无modifier、small/large与动力学误差方向必须保留；无噪声仿真不代表湿实验。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §4.1明确列举系统生物学 SciGym 并引用其原始论文 arXiv:2507.02083；为H2学术引用，不是本文实跑。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "title": "Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab",
+          "authors": [
+            "Duan, Haonan",
+            "Lu, Stephen Zhewen",
+            "Harrigan, Caitlin Fiona",
+            "Desai, Nishkrit",
+            "Lu, Jiarui",
+            "Koziarski, Michał",
+            "Cotta, Leonardo",
+            "Maddison, Chris J."
+          ],
+          "release": "2025-07-02",
+          "latest": "2025-07-14",
+          "version": "v2"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "在隐藏系统恢复的历史低F1下不能称饱和；H2仅引用，未提供更新头部成绩。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "理想无噪声模拟及可识别性限制；重建相似轨迹不是唯一恢复真实反应机理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://h4duan.github.io/scigym-benchmark/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "2025论文Table1历史：Gemini-2.5-Pro-Preview-03-25 STE0.3212、RMS含modifier F1 0.1817；Claude-3.7-Sonnet-20250219 STE0.3615/F1 0.1688；GPT-4.1-2025-04-14 STE0.4611/F1 0.1740。不是2026重新运行。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/h4duan/SciGym/issues",
+      "sources": [
+        {
+          "url": "https://github.com/h4duan/SciGym",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2507.02083",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "8f490e009f6448434412f43ec8c89cd97d6100ebfa001bf6b38d17f7433f86b1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 7093862,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1pMHOGBbhMwADTWVpcSndAPPvQYNqM5DP",
+        "webViewLink": "https://drive.google.com/drive/folders/1pMHOGBbhMwADTWVpcSndAPPvQYNqM5DP"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2507.02083",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk",
+          "webViewLink": "https://docs.google.com/document/d/1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT",
+      "webViewLink": "https://drive.google.com/file/d/16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT/view"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2507.02083",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2507.02083",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

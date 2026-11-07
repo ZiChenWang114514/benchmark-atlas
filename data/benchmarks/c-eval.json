@@ -1,0 +1,641 @@
+{
+  "id": "c-eval",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "C-Eval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Chinese Evaluation Suite for Foundation Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-05-15",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "语言",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "中文多学科知识"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2305.08322",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/hkust-nlp/ceval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/hkust-nlp/ceval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://cevalbenchmark.com",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位包括上海交通大学、清华大学、爱丁堡大学、香港科技大学；作者贡献说明由 Junxian He 发起并组织。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Huang, Yuzhen",
+        "Bai, Yuzhuo",
+        "Zhu, Zhihao",
+        "Zhang, Junlei",
+        "Zhang, Jinghan",
+        "Su, Tangjun",
+        "Liu, Junteng",
+        "Lv, Chuancheng",
+        "Zhang, Yikai",
+        "Lei, Jiayi",
+        "Fu, Yao",
+        "Sun, Maosong",
+        "He, Junxian"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "论文致谢中列出 National Key R&D Program of China 2020AAA0106502、清华大学 Guo Qiang Institute 等作者资助。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "衡量基础模型对中文环境中多层次、多学科知识的理解及推理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "英语中心评测不足以代表中文教育与专业知识掌握；翻译英语题也不能覆盖中文课程背景。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "模拟和地方考试的 PDF/Word、部分大学期末题，以及约 2,000 道获授权的维普题目。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "作者组织学科相关学生与研究者搜集、编辑并核验中文考试题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "文档解析、人工修正格式与 LaTeX，作者交叉验证题干及答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "去重并检查格式，尽量避开可能泄漏的全国统一考试题；不等于能保证模型训练无污染。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "通过题源选择规避部分流行公开试题，并去重；没有证据能保证所有被测模型训练语料完全不含这些题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "13,948 道题，52 个学科，4 个难度层级。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "四选一选择题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "中文",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "初中、高中、大学及专业资格四层级。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "dev 260、val 1,346、test 12,342；测试标签不公开，需官方评测。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "准确率；官方论文按学科/类别汇总，需记录平均方式。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "答案选项匹配；测试集通过官方入口评分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文包含 0-shot/5-shot answer-only 与 5-shot CoT；不要混在同一排序。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/hkust-nlp/ceval",
+      "sources": [
+        {
+          "url": "https://github.com/hkust-nlp/ceval",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "C-Eval 的中文原生试题与翻译版 MMLU 不同；隐藏测试、验证集、5-shot、CoT 与平均方式都必须标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-10-08：Jev 对比研究的表1–2和§3.1实际使用 C-Eval，将其纳入13个多选基准的模型评测。"
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/hkust-nlp/ceval",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2023-05-15T12:20:19+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2023-05-17T10:11:35+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v3",
+          "submitted_at": "2023-11-06T22:24:16+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://cevalbenchmark.com/static/leaderboard.html",
+      "sources": [
+        {
+          "url": "https://cevalbenchmark.com/static/leaderboard.html",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "GPT-4（原论文标签）",
+          "score": 68.7,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "原论文历史 5-shot answer-only；精确 API 快照待核实",
+          "evaluation_date": "2023年原论文实验，精确日期待核实"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方榜单地址已确认，但本次 HTTPS 证书过期且网页抓取返回错误，未声称取得当前榜首；只列清楚标记的论文历史结果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "ceval.benchmark@gmail.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/hkust-nlp/ceval/issues",
+      "sources": [
+        {
+          "url": "https://github.com/hkust-nlp/ceval",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2305.08322",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "88bfbd09fe554fc40538cb84fcff09681b86ff5c71398fd4b9beaf177d73acde",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 5123072,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2305.08322",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM",
+        "webViewLink": "https://drive.google.com/drive/folders/1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY",
+          "webViewLink": "https://docs.google.com/document/d/1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0",
+      "webViewLink": "https://drive.google.com/file/d/1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.08322",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2305.08322",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

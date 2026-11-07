@@ -1,0 +1,640 @@
+{
+  "id": "multipl-e",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2022-08-17 20:16:52 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "多语言代码生成"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "BSD 3-Clause + Machine Learning Restriction；仓库第4条明确禁止将内容用作任何机器学习模型训练数据。",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2208.08227",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/nuprl/MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://github.com/nuprl/MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "以 Northeastern University 等多校研究人员组成的作者团队为主；详见论文作者单位。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Cassano, Federico",
+        "Gouwar, John",
+        "Nguyen, Daniel",
+        "Nguyen, Sydney",
+        "Phipps-Costin, Luna",
+        "Pinckney, Donald",
+        "Yee, Ming-Ho",
+        "Zi, Yangtian",
+        "Anderson, Carolyn Jane",
+        "Feldman, Molly Q",
+        "Guha, Arjun",
+        "Greenberg, Michael",
+        "Jangda, Abhinav"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "nuprl / MultiPL-E 官方仓库团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "论文致谢 NSF CCF-2052696 的部分支持。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "跨编程语言的函数级代码生成、编译与功能测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "只评 Python 难以判断语言模型在其他编程语言中的迁移能力；逐语言手工造题成本高。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "将 Python HumanEval 和 MBPP 的签名、类型、文档及测试翻译为其他语言；不翻译参考实现函数体。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "编程语言与程序合成研究人员。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "语言专用翻译器把规范与测试转成目标语言；以容器运行编译与测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "处理目标语言类型、标准库与运行时差异，保留语言特定排除项。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "翻译不能保证去除 Python 原题污染；模型仍可能记忆语义或已公开译题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原论文：Python 加 18 种目标语言，共 19 种；MultiPL-HumanEval 3,059 个任务、MultiPL-MBPP 7,619 个任务，含语言特定排除。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "函数级程序补全与单元测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "19 种编程语言（含原始 Python）；英语自然语言规范。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "继承 HumanEval 与 MBPP，不解释为 19 个独立 benchmark。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "翻译器、提示、测试和执行框架公开；不同语言允许的题目并非完全相同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "执行测试的 pass@k。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "代码在目标语言容器内编译并运行；使用 pass@k 无偏估计。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文每题 200 个样本；pass@1 温度 0.2，pass@10/100 温度 0.8。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/nuprl/MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "语言集合、有效题目、温度和 k 都影响结果；8 语言报告不可冒称完整 19 语言总分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "待核实",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MultiPL-E；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。",
+      "status": "待核实"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Arjun Guha [ view email ] [v1] 2022-08-17 20:16:52 KST (1,172 KB) [v2] 2022-08-19 10:12:49 KST (1,172 KB) [v3] 2022-11-08 14:48:57 KST (1,172 KB) [v4] 2022-12-19 19:30:12 KST (1,780 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "当前仓库采用带禁止ML训练条款的BSD衍生许可；原论文datasheet提到母题MIT及许可证问答，不能据此把当前仓库写成MIT。以本次读取LICENSE界定仓库使用，母题来源权利仍单列。",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "MultiPL-HumanEval 与 MultiPL-MBPP 是 MultiPL-E 两个来源分支，不重复计数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/nuprl/MultiPL-E",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Hunyuan-A13B base",
+          "score": 69.33,
+          "metric": "MultiPL-E (%)",
+          "benchmark_version": "8语言子集；版本待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST",
+          "settings": "0-shot；Python/C++/Java/PHP/TypeScript/C#/Bash/JavaScript"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "下面仅列能从已打开来源核验的结果。历史论文基线、厂商自报与当前榜单分开，不构成跨设置综合排名。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/nuprl/MultiPL-E/issues",
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2208.08227",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "b905b9874ffcb4cee63f74cdc30524eae97013691e79313049ad72c6d6197580",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 443169,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2208.08227",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF",
+        "webViewLink": "https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM",
+          "webViewLink": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nuprl/MultiPL-E",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ",
+      "webViewLink": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/nuprl/MultiPL-E",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

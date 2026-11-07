@@ -1,4 +1,4 @@
-# Benchmark Atlas · 自然科学首批资料
+# Benchmark Atlas · 2026H2 百项基准资料
 
 核验日期：2026-11-07（Asia/Seoul / KST）。本批为可持续维护数据库的数据底座。公开网站由这些文件在构建时生成。
 
@@ -10,10 +10,13 @@
 
 ## 已交付
 
-- 24 个已由官方论文/材料证实存在的 benchmark；24 份逐字段来源 JSON；24 份中文介绍 Markdown。
-- 主归档：物理 9、化学 3、生物与医学 4、地球与天文 5、材料 3。跨学科条目用标签交叉导航，避免重复计数。
-- 24 份未改动的原论文 PDF 已存 Google Drive；JSON 同时记录 Drive 文件 ID/链接、下载来源、字节数与 SHA-256。
-- 宪法 v0.1 全文、JSON Schema、总索引、CSV 总表、6 条有来源的动态/核验观察。
+- 100 个基准：原有24条 + 新增76条；100份带逐字段来源JSON和100份中文Markdown介绍；全部通过Draft2020-12及URI/date格式校验。
+- 主板块：物理 12、化学 4、生物与医学 12、地球与天文 6、材料 6、语言 12、推理 7、数学 7、代码 10、多模态 10、Agent 9、安全 5。自然科学核心共40条。
+- 95份原始/协议PDF归档；100份中文Google Docs。5份PDF仍待补：qmof, aime, frontiercode, realworldqa, aa-briefcase；不会用HTML或其他论文冒充。
+- 100条均附2026H2引用/评测使用证据；引用不等于实时榜单、新发布或独立复测。
+- 26条有来源、日期明确的动态/观察，按事件日期（未知时按观察日）倒序并去重。
+- 1278个待核实字段；原有冲突及批次新增冲突均保留，不补猜。
+- master Google Sheet 总表已扩充到100行。
 
 ## 入口
 
@@ -43,12 +46,12 @@
 5. 历史论文结果、官方站点示例结果、第三方当前榜单严格区分。没有读取到数值的动态图表不补写、不估计。
 6. SciCode 测试审计、Matbench 历史 ROC-AUC 误标、BixBench 摘要/正文数字冲突、BioProBench 协议数量冲突及 WeatherBench 时间范围变化均有显式记录。
 7. 未查清的许可、完整维护方/资助方、精确 API 模型快照、提示设置、饱和/污染状态等保留为待核实；不可作为已确认商用许可或“无污染”结论。
-8. 本次没有在 GitHub 推送、创建 GitHub 仓库、提交公开表单、联系维护者、改变 Drive 共享权限，也没有建立每日计划任务。
+8. 既有GitHub仓库为ZiChenWang114514/benchmark-atlas。本次不fetch、pull、commit、push，也不修改site/或.github/workflows；仓库内容须经cloud coding agent应用。未改变Drive共享权限、联系维护者或建立每日计划。
 9. PDF 下载暂存于 `/workspace/benchmark-atlas-papers/`；仓库仅保留云端链接与哈希，不把大体积 PDF 混入源码库。
 
 ## 下一批优先工作
 
 - 补全许可、版本、出题背景、逐任务数据划分、评分脚本与提示设置。
 - 对已发现的冲突，保留旧证据并等待官方澄清，不覆盖历史。
-- MMLU-Pro 科学子集、HLE 自然科学切片、BioASQ 各年度挑战暂缓为独立条目，避免把非锁定子集/不同年度任务伪装成统一 benchmark。
-- 导航网站在 `site/`，由数据文件静态生成；推送到 `main` 后 GitHub Actions 发布到 Pages。见 MAINTAINING.md。
+- MMLU-Pro与HLE整体已收录；单独的MMLU-Pro科学子集、HLE自然科学切片及BioASQ各年度挑战仍暂缓为独立条目，避免未锁定或重复切片。
+- Library Page提供导航与归档入口；导航网站在 `site/`，由数据文件静态生成；推送到 `main` 后 GitHub Actions 发布到 Pages，见 MAINTAINING.md。每日维护须单独建立可审计任务及失败告警。

@@ -1,0 +1,681 @@
+{
+  "id": "gsm8k",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "basic_info": {
+    "name": {
+      "value": "GSM8K",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Grade School Math 8K",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "main数据；仓库标记Archive，代码按原样提供",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2021-10-27（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "数学",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "数学应用题"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2110.14168",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/openai/grade-school-math",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/openai/grade-school-math",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/openai/grade-school-math",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Training Verifiers to Solve Math Word Problems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+    },
+    "authors": {
+      "value": [
+        "Cobbe, Karl",
+        "Kosaraju, Vineet",
+        "Bavarian, Mohammad",
+        "Chen, Mark",
+        "Jun, Heewoo",
+        "Kaiser, Lukasz",
+        "Plappert, Matthias",
+        "Tworek, Jerry",
+        "Hilton, Jacob",
+        "Nakano, Reiichiro",
+        "Hesse, Christopher",
+        "Schulman, John"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "OpenAI官方仓库；当前Archive状态",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "评估语言多样的小学/初中级数学应用题中的多步算术与验证器选解能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "概念简单不等于可被语言模型稳定求解，需要避免只记住固定题型模板。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "人工写题承包者编写应用题和自然语言解答；论文流程包括Upwork、Surge AI及可供改写的模型题目种子。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "付费人工题目写作者，研究团队进行二次求解和数据审核；不能表述为每题都来自数学专家。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "独立第二人解题，对分歧题修改或剔除，并做题目相似性检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "自然语言解答带计算注释，####之后为最终数值；另提供自动生成苏格拉底式子问题版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "收集时检查模板/相似题有助于质量控制；不保证未来预训练数据没有公开题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "官方概述约8500题，约7500训练与1000测试；精确文件行数见本条若已固定的实测注释。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "2至8步基础算术应用题，输出自然语言解法和最终数值。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本（数学符号按文本表达）；并非原始图像视频识别任务",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语题面；形式化/数学符号另见模态与仓库格式",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "明亮的中学生应可解（作者设计意图）；不是高等数学或奥赛难度。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "train.jsonl与test.jsonl均公开；另有Socratic格式，不可当独立新benchmark。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "最终数值答案准确率；验证器从多个候选中选择的得分需另标。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "官方dataset.py提取####后的数字；计算器通过<<...>>标注运行，不是天然禁止工具。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文训练生成器和验证器并比较多候选选优；best-of-100不等于pass@1。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/openai/grade-school-math",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "单次、投票、验证器best-of-N、计算器和few-shot设置不能混排。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07（Asia/Seoul）",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "main数据；仓库标记Archive，代码按原样提供",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": {
+        "arxiv_version": "arXiv v2",
+        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+        "2026_h2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+    },
+    "contamination_and_issues": {
+      "value": "仓库注明示例模型解答中的旧计算器曾有约1%失败，代码已修复但示例未重生成；这是历史样例问题非当前整体标签错率。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "Socratic格式自动加子问题，原论文未用其进行实验；本库不另计数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜"
+    },
+    "results": {
+      "value": [
+        {
+          "model_version": "Hunyuan-A13B",
+          "score": "91.83",
+          "unit": "%",
+          "scope_and_protocol": "基础模型，表2，4-shot CoT",
+          "result_date": "2026-09-23",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2609.27284v1",
+          "source_class": "三级：模型厂商自报",
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+        },
+        {
+          "model_version": "Qwen3-A22B",
+          "score": "94.39",
+          "unit": "%",
+          "scope_and_protocol": "同表对照；厂商报告转录",
+          "result_date": "2026-09-23",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2609.27284v1",
+          "source_class": "三级：模型厂商自报",
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "karl@openai.com",
+        "vineet@openai.com"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/openai/grade-school-math/issues",
+      "sources": [
+        {
+          "url": "https://github.com/openai/grade-school-math",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未核实专门官方社交账号，不收录同名个人账户"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未核实benchmark专门隐私条款；许可证不能代替隐私政策"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y",
+      "webViewLink": "https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2110.14168",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "a52417d8fcd006de882e3b404850e2cc4246815828897c18c6ce6c7a448985a4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 2935719,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2110.14168",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
+        "webViewLink": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": {
+        "chinese_intro_doc": {
+          "id": "1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8",
+          "webViewLink": "https://docs.google.com/document/d/1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8/edit?usp=drivesdk",
+          "mimeType": "application/vnd.google-apps.document"
+        },
+        "local_markdown": "content/benchmarks/gsm8k.md"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/openai/grade-school-math",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

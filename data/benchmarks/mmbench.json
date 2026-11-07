@@ -1,0 +1,823 @@
+{
+  "id": "mmbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "MMBench",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MMBench",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v5",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-07-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "通用图文能力"
+      ],
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2307.06281",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/open-compass/MMBench",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://mmbench.opencompass.org.cn/",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MMBench: Is Your Multi-modal Model an All-around Player?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenCompass Community开发；论文作者单位包括上海人工智能实验室、南洋理工大学、香港中文大学、新加坡国立大学、浙江大学。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Liu, Yuan",
+        "Duan, Haodong",
+        "Zhang, Yuanhan",
+        "Li, Bo",
+        "Zhang, Songyang",
+        "Zhao, Wangbo",
+        "Yuan, Yike",
+        "Wang, Jiaqi",
+        "He, Conghui",
+        "Liu, Ziwei",
+        "Chen, Kai",
+        "Lin, Dahua"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "open-compass 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/open-compass/MMBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "细粒度图文感知与推理，按分层能力体系给出诊断。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "VQAv2、图像描述等任务不充分反映细粒度能力，纯字符串匹配难兼容自由回答，人工主观打分难扩展。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从公开数据集及互联网搜集图文题，组织为三层能力体系，20项细粒度能力；每题单一正确选项。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队负责能力体系、数据筛选和质量控制；标注员具体招募背景待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "论文提出针对题目正确性和有效性的质量控制；中文版本经人工核验；CircularEval减轻选项排列影响。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "论文提出针对题目正确性和有效性的质量控制；中文版本经人工核验；CircularEval减轻选项排列影响。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "2024年论文v5为3,217题；仓库README正文仍为2,974题，下载表dev 1,164及test 1,784，两者也不相加为2,974。保留各口径，不推测统一题量。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "图像+问题+选项的单选题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "中文与英文",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "官方README下载表分别提供EN/CN dev和test；test预测提交官方平台。题量及划分须绑定下载文件版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "CircularEval准确率：N个选项循环移位N次，全部答对才算该题成功；与单次准确率分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "CircularEval准确率：N个选项循环移位N次，全部答对才算该题成功；与单次准确率分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官方VLMEvalKit构建含图像、hint、问题、候选答案及选项指令的提示；保留EN/CN和CircularEval次数。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/open-compass/MMBench",
+      "sources": [
+        {
+          "url": "https://github.com/open-compass/MMBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和单次/CircularEval不能混比。MMVistaReason采用CompassVerifier，不能默认为官方CircularEval等价。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2023-07-13T01:23:09+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2023-07-27T01:02:57+09:00"
+          },
+          {
+            "version": "v3",
+            "date_kst": "2023-08-13T22:12:47+09:00"
+          },
+          {
+            "version": "v4",
+            "date_kst": "2024-04-30T00:21:19+09:00"
+          },
+          {
+            "version": "v5",
+            "date_kst": "2024-08-20T12:56:03+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和单次/CircularEval不能混比。MMVistaReason采用CompassVerifier，不能默认为官方CircularEval等价。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://mmbench.opencompass.org.cn/leaderboard",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/leaderboard",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次抓取页面无可读榜单行；当前官方排名待核实，不改用研究论文伪装官方排名。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 90.6,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MMBench-EN，论文未精确列出下载版本",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 92.2,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MMBench-EN，论文未精确列出下载版本",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本批未核实官方当前排名，故只列明确注明来源的2026-H2研究复测，不把研究复测冒充官方榜单。"
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "github_issues": {
+      "value": "https://github.com/open-compass/MMBench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/open-compass/MMBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmbench.opencompass.org.cn/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2307.06281",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2307.06281",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "3cd9025569600c548d29a987e1cef6bdac8dc07cdeb6bd49ef04690ae80ebd6b",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 7311810,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2307.06281",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE",
+        "webViewLink": "https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE",
+          "webViewLink": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai",
+      "webViewLink": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2307.06281",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://mmbench.opencompass.org.cn/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

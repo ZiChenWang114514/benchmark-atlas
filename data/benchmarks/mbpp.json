@@ -1,0 +1,636 @@
+{
+  "id": "mbpp",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "MBPP",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Mostly Basic Programming Problems",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "原始 974 题；sanitized 子集需单独注明",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2021-08-16 12:57:30 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "Python基础编程"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2108.07732",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Program Synthesis with Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Google Research；部分作者在 MIT 或以实习身份参与。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Austin, Jacob",
+        "Odena, Augustus",
+        "Nye, Maxwell",
+        "Bosma, Maarten",
+        "Michalewski, Henryk",
+        "Dohan, David",
+        "Jiang, Ellen",
+        "Cai, Carrie",
+        "Terry, Michael",
+        "Le, Quoc",
+        "Sutton, Charles"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Google Research 官方 mbpp 数据目录",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "从简短自然语言要求生成基础 Python 程序，并使用执行结果检验功能。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "研究不同规模预训练模型的程序合成、提示与微调表现，需要多样且可执行的入门任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "众包任务；每题有文字说明、Python 参考代码和 3 个断言测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "具备基础 Python 的内部众包工作者，可使用互联网资源。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "研究团队对一部分任务做人工校订，改进描述、签名和测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "原论文报告人工校订 426 题；后续托管 sanitized 常见 427 题，不能假定完全相同快照。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "原论文核查 974 题中 32 题与预训练样本有超过一半代码行匹配；这是当时模型的重叠检查，不是今天的清洁证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "974 道原始题；原论文 split 为 test 500、fine-tuning 374、few-shot 10、validation 90。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "文本到 Python 函数，附断言测试和参考程序。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "Python（原论文执行环境 Python 3.6）；英语任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "面向基础编程；不是竞赛或仓库级软件工程。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "上述划分是研究用途 split；原始文件公开，不等于隐藏评测题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "功能正确率；必须区分逐样本通过比例与多样本中至少一次解出。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "运行生成程序并检查断言；原始测试少，不能代替 MBPP+ 加强测试。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文常用 80 个样本、温度 0.5；少样本示例配置需一并报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "原始 974、test 500、sanitized 427、EvalPlus 评测 399 的分母不同；不可横向混排。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始 974 题；sanitized 子集需单独注明",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MBPP；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Augustus Odena [ view email ] [v1] 2021-08-16 12:57:30 KST (2,247 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "公开且被广泛使用的基础题库存在训练重叠风险；原始少量测试有漏检错误的局限。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "MBPP sanitized、MBPP+ 为子集/增强派生，不替换原始 MBPP 定义。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Hunyuan-A13B base",
+          "score": 83.86,
+          "metric": "MBPP (%)",
+          "benchmark_version": "split/版本待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST",
+          "settings": "3-shot"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "下面仅列能从已打开来源核验的结果。历史论文基线、厂商自报与当前榜单分开，不构成跨设置综合排名。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/google-research/google-research/issues",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2108.07732",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "820a8de4a9fe8aef947a40d5da13db0d660baf3658b4a9cebf6d30ac5ba351ab",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 1540169,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2108.07732",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB",
+        "webViewLink": "https://drive.google.com/drive/folders/1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw",
+          "webViewLink": "https://docs.google.com/document/d/18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P",
+      "webViewLink": "https://drive.google.com/file/d/1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

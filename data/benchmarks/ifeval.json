@@ -1,0 +1,632 @@
+{
+  "id": "ifeval",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "IFEval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Instruction-Following Evaluation",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-11-14",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "语言",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "可验证指令遵循"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2311.07911",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Instruction-Following Evaluation for Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Google Research 研究团队；Jeffrey Zhou 的研究实习与 Yale 背景在论文说明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Zhou, Jeffrey",
+        "Lu, Tianjian",
+        "Mishra, Swaroop",
+        "Brahma, Siddhartha",
+        "Basu, Sujoy",
+        "Luan, Yi",
+        "Zhou, Denny",
+        "Hou, Le"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "通过可程序验证的约束客观评估指令遵循。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "人工评测昂贵，模型裁判可能受偏差影响；需要可重复、确定性检查的指令。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "合成基础提示并添加 1–3 个可验证约束，再移除不合理组合及重写提示。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队设计约束与提示；不依赖领域知识考试出题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "人工检查全部提示，修正不自然或冲突约束。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "同时报告严格和宽松判定；宽松版本处理格式等变换，但可能增加假阳性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "541 条提示，25 类可验证指令。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "带输出长度、关键词、格式等约束的开放文本生成",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "约束类型及同一提示中的组合增加难度；不是学科知识难度分层。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方公开提示数据和验证程序；未核实独立隐藏测试集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "prompt-level strict/loose accuracy 与 instruction-level strict/loose accuracy。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "确定性检查；严格指标要求满足原始约束，宽松指标对移除 Markdown/首末行等 8 种变换尝试检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "按原提示生成回答后调用官方检查器；不要把评分用文本清洗当作模型真正满足原格式。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "prompt-level 与 instruction-level、strict 与 loose 是四种不同指标，分数必须指明；宽松清洗也有假阳性风险。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-09-23：Hunyuan-A13B §4.2–4.3实际使用 IFEval 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2023-11-14T14:13:55+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "可程序验证的约束只覆盖部分真实指令能力；严格/宽松结果不等价，不能把格式容错理解为全面遵循。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://arxiv.org/abs/2311.07911",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Hunyuan-A13B（报告命名）",
+          "score": 84.7,
+          "unit": "%",
+          "metric": "IF-Eval，报告表3原标签",
+          "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比",
+          "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
+          "snapshot_date": "2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅收录H2技术报告中明确可读的厂商自报成绩；模型标签按报告保留，未核实其精确API运行日期。不能把这些成绩冒充独立机构当前排行榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "lehou@google.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2311.07911",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "5d7cedfd762af6d9ad13d8768de64fa65895b8ebc3f5e454454c5ffbd48124f2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 464152,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.07911",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ",
+        "webViewLink": "https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU",
+          "webViewLink": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM",
+      "webViewLink": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2311.07911",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2311.07911",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

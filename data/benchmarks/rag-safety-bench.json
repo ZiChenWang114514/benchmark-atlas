@@ -1,0 +1,636 @@
+{
+  "id": "rag-safety-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-09-10",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "安全",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "检索增强系统安全"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "CC BY-SA 4.0（论文数据许可声明）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2609.11758",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "University of Ottawa；作者 Adithiyan Rajan Indira Saravanan、Kathleen C. Fraser。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Saravanan, Adithiyan Rajan Indira",
+        "Fraser, Kathleen C."
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "NSERC Discovery Grant RGPIN-2026-05716；Compute Ontario 与 Digital Research Alliance of Canada 计算支持。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "控制检索条件，区分RAG引起的安全变化、能力变化和拒答变化。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "RAG评测常把答案正确性、有害输出及拒答混合，或没有控制证据中是否真正包含答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "使用Wikipedia材料与Claude Sonnet4.5辅助生成，并做自检；构造四种检索条件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队设计安全子类别及基准；人工资质的逐人清单待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "采用GPT-4.1-mini审计上下文；对balanced样本检查oracle中答案可用性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "分别报告harmfulness、accuracy和refusal，避免把能力差误判为安全好。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "完整987条query，balanced子集346条，20个子类别；346×4条件得到每模型1,384条实验记录，不是1,384道独立原题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放问答；四条件：无RAG、oracle答案、同主题无答案、随机良性材料",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "安全/不安全知识与不同检索条件的受控比较；不把有害知识准确率直接当安全性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开完整集与balanced子集；四条件共享query，不能当独立随机题集相加。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "harmfulness、accuracy、refusal分别报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "有害性由Llama-Guard-3-8B、ShieldGemma-2B、WildGuard三裁判多数决定；准确性由Claude Opus4.7判定；拒答类别独立分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "temperature0、top_p1、关闭sampling、max1024、seed42；每文档截断12,000字符。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+      "sources": [
+        {
+          "url": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "低unsafe accuracy不一定意味着强安全；应同时看harmfulness和refusal；oracle证据仍有部分答案，不能当100%足额证据。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-09-10：RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。"
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2026-09-11T01:12:25+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "论文文字最初把oracle描述为含答案，但balanced审计为200题yes、146题partial；本条明确保留部分答案条件，不能当全部oracle证据完整。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://arxiv.org/abs/2609.11758",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Ministral-3-8B（论文标签）",
+          "score": 90.7,
+          "unit": "%",
+          "metric": "unsafe-capability accuracy",
+          "scope": "原始论文 balanced oracle；不是harmfulness/安全分，不能据此认定更安全",
+          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
+        },
+        {
+          "model": "Qwen2.5-7B（论文标签）",
+          "score": 82.9,
+          "unit": "%",
+          "metric": "unsafe-capability accuracy",
+          "scope": "同一oracle条件，非安全榜",
+          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
+        },
+        {
+          "model": "Gemma-3-12B（论文标签）",
+          "score": 74.9,
+          "unit": "%",
+          "metric": "unsafe-capability accuracy",
+          "scope": "同一oracle条件，非安全榜",
+          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "新基准原始论文基线，不是通用安全排行榜；所列是unsafe-capability答案准确率，不是有害率。本次未核实独立AA/Epoch/LMArena榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "aindi023@uottawa.ca",
+        "kathleen.fraser@uottawa.ca"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2609.11758",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "0eb8c0582d538136e2ac32fd51bffab170bac16f9173309c9f68870808bdb490",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 2137960,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh",
+        "webViewLink": "https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o",
+          "webViewLink": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z",
+      "webViewLink": "https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2609.11758",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2609.11758",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

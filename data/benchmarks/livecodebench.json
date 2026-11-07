@@ -1,0 +1,698 @@
+{
+  "id": "livecodebench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "LiveCodeBench",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "LiveCodeBench",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "持续滚动采题；必须按评测时间窗固定快照",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2024-03-13 02:58:04 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "滚动编程竞赛评测"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2403.07974",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/LiveCodeBench/LiveCodeBench",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/livecodebench/",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://livecodebench.github.io/",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "UC Berkeley、MIT、Cornell University 作者团队（单位口径）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Jain, Naman",
+        "Han, King",
+        "Gu, Alex",
+        "Li, Wen-Ding",
+        "Yan, Fanjia",
+        "Zhang, Tianjun",
+        "Wang, Sida",
+        "Solar-Lezama, Armando",
+        "Sen, Koushik",
+        "Stoica, Ion"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "LiveCodeBench 项目团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "代码生成、自修复、代码执行和测试输出预测的综合能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "静态题库可能被训练反复接触；仅生成任务无法完整评估代码理解与修复。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "持续收集 LeetCode、AtCoder、Codeforces 定期竞赛的新题，记录发布时间。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "三校程序合成、软件与机器学习研究团队；原题来自竞赛平台。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "整理问题、测试与场景，官方接受附生成记录的 GitHub PR 并审核后入榜。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "以可执行测试与发布日期注释支持复查；公布提示和模型生成。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "可选在模型训练截止日期之后发布的题，以降低污染；截止日期不透明、题库公开后再训练仍会影响有效性。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "主页早期快照为 300+ 题（2023-05 至 2024-02）；论文修订/AA 摘要为 500+（至 2024-05）。这些是历史时间窗，不是 2026 总题量。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "算法程序生成、基于反馈的修复、程序执行、测试输出预测。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "代码"
+      ],
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语竞赛描述；生成代码支持范围依场景/脚本。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "保留竞赛题难度差异，按 easy / medium / hard 分析；不能仅据旧 easy 子集判断整体饱和。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "题目与评测工具逐批公开；去污染依时间窗，不等同永久私有题库。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "各场景执行正确率 / pass@k；生成、修复和输出预测分开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "根据竞赛测试或已知输入输出检查生成结果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "场景、语言、日期窗、采样和修复预算必须固定；本条不假定所有榜单共用一个提示。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/LiveCodeBench/LiveCodeBench",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同时窗、题目数量和场景不可直排。AA 当前摘要未给出精确评测窗，保留范围待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "持续滚动采题；必须按评测时间窗固定快照",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 KST (6,890 KB) [v2] 2024-06-07 02:41:21 KST (7,772 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "“Contamination Free”是设计目标/标题；成立范围取决于模型截止日、题目发布时间和后续训练，不能绝对保证。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "代码生成、self-repair、execution、test-output prediction 为同套件场景，不拆为四条。",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://livecodebench.github.io/",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Gemini 3 Pro Preview (High)",
+          "score": 91.7,
+          "metric": "AA LiveCodeBench score (%)",
+          "benchmark_version": "AA窗口待核实",
+          "result_type": "独立第三方当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Gemini 3 Flash Preview (Reasoning)",
+          "score": 90.8,
+          "metric": "AA LiveCodeBench score (%)",
+          "benchmark_version": "AA窗口待核实",
+          "result_type": "独立第三方当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "DeepSeek V3.2 Speciale",
+          "score": 89.6,
+          "metric": "AA LiveCodeBench score (%)",
+          "benchmark_version": "AA窗口待核实",
+          "result_type": "独立第三方当前页面",
+          "source_date": "2026-11-07",
+          "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Hunyuan-A13B slow-thinking",
+          "score": 63.9,
+          "metric": "报告中的 LiveCodeBench (%)",
+          "benchmark_version": "日期窗待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "AA 页面确有前三结果，但未从该页面静态正文核实题目日期窗和每个运行日期；采集日不是运行日。官方旧主页图表不是 2026 完整榜，不能与厂商报告跨窗排序。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/livecodebench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "naman_jain@berkeley.edu"
+      ],
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/LiveCodeBench/LiveCodeBench/issues",
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2403.07974",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "a9bd3f7b96ac846ac53506e7b58197d9213919f18f402a27910dcf9fc948b427",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 4960954,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.07974",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV",
+        "webViewLink": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s",
+          "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://livecodebench.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ",
+      "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://livecodebench.github.io/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

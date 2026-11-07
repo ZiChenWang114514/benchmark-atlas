@@ -1,0 +1,839 @@
+{
+  "id": "mathvista",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "MathVista",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MathVista",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-10-03",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "视觉数学推理"
+      ],
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "新增贡献CC BY-SA 4.0；原图/原题版权归原作者。官方另明确可商用作测试集但禁止作训练集；不能简化为无附加限制的开源数据。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2310.02255",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/lupantech/MathVista",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/AI4Math/MathVista",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVista",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://mathvista.github.io/",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位：UCLA、华盛顿大学、微软研究院；不据此推断唯一法律发起方。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Lu, Pan",
+        "Bansal, Hritik",
+        "Xia, Tony",
+        "Liu, Jiacheng",
+        "Li, Chunyuan",
+        "Hajishirzi, Hannaneh",
+        "Cheng, Hao",
+        "Chang, Kai-Wei",
+        "Galley, Michel",
+        "Gao, Jianfeng"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "lupantech 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/MathVista",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "视觉情境中的数学推理，结合精细读图和组合式数学计算。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "既有模型虽能解语言题，但缺少覆盖视觉数学场景的系统评测。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "汇集28个已有多模态数据集，新增IQTest、FunctionQA、PaperQA三个数据集，覆盖图形、几何、图表、论文插图等。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "专家标注者确认问题是否涉及数学推理；人类基线另由高中及以上学历标注者完成，不能混同出题人。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "VQA样本先自动筛选数值/数量相关问答，再由三名专家判定、投票；对推理类型标签进行人工抽检。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "VQA样本先自动筛选数值/数量相关问答，再由三名专家判定、投票；对推理类型标签进行人工抽检。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "test答案不公开；官方限制把数据用作训练集。已有来源数据的预训练污染无法据此排除。",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "6,141例，来自31个来源数据集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVista",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "选择与自由回答；含图形QA、几何、应用题、教材QA、视觉QA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVista",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "覆盖不同年级和数学推理类别；本批未提取完整年级分布。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "testmini 1,000例用于开发/快速评测；test 5,141例，官网说明test答案不公开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "accuracy；先提取最终答案，再按题型及答案类型规范化和匹配。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "accuracy；先提取最终答案，再按题型及答案类型规范化和匹配。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官方代码提供答案提取与评分；CoT、PoT及Caption/OCR辅助输入须分别标记，不能把仅文本辅助的LLM视为直接图像模型。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/lupantech/MathVista",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/MathVista",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "testmini与test不混合；官方榜单当前可见历史记录并非保证最新SOTA。原论文GPT-4V 49.9是历史基线。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2023-10-04T02:57:24+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2023-10-26T05:22:24+09:00"
+          },
+          {
+            "version": "v3",
+            "date_kst": "2024-01-21T12:47:06+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 MathVista（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "testmini与test不混合；官方榜单当前可见历史记录并非保证最新SOTA。原论文GPT-4V 49.9是历史基线。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://mathvista.github.io/#leaderboard",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "DreamPRM (o4-mini)",
+          "score": 85.2,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "testmini 1,000例",
+          "date": "2025-06-04",
+          "accessed": "2026-11-07",
+          "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+        },
+        {
+          "model": "VL-Rethinker",
+          "score": 80.3,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "testmini 1,000例",
+          "date": "2025-04-10",
+          "accessed": "2026-11-07",
+          "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+        },
+        {
+          "model": "Step R1-V-Mini",
+          "score": 80.1,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "testmini 1,000例",
+          "date": "2025-04-07",
+          "accessed": "2026-11-07",
+          "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+        },
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 82.4,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MathVista mini",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 83.6,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MathVista mini",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/data/results/model_scores.js",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "lupantech@gmail.com"
+      ],
+      "sources": [
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+    },
+    "github_issues": {
+      "value": "https://github.com/lupantech/MathVista/issues",
+      "sources": [
+        {
+          "url": "https://github.com/lupantech/MathVista",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathvista.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2310.02255",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.02255",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "ee5a616e9481f0f0d6b8ccc9e6d261f1c35fcb0b9c64d1c5c9d2d9462d6fc5e9",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 16157865,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2310.02255",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "14apgSX54MLzrxmEymlrDxzHb15QDvtic",
+        "webViewLink": "https://drive.google.com/drive/folders/14apgSX54MLzrxmEymlrDxzHb15QDvtic"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/14apgSX54MLzrxmEymlrDxzHb15QDvtic",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek",
+          "webViewLink": "https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho",
+      "webViewLink": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.02255",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://mathvista.github.io/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

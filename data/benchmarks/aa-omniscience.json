@@ -1,0 +1,639 @@
+{
+  "id": "aa-omniscience",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "AA-Omniscience",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "AA-Omniscience",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2025-11-17",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "语言",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "知识准确性、幻觉与校准"
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2511.13029",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://artificialanalysis.ai/evaluations/omniscience",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "AA-Omniscience: Evaluating Cross-Domain Knowledge Reliability in Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Artificial Analysis。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Jackson, Declan",
+        "Keating, William",
+        "Cameron, George",
+        "Hill-Smith, Micah"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Artificial Analysis",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "测量跨领域事实知识与知道何时不作答的知识校准，惩罚错误猜测。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "一般能力分数不能代表可靠事实输出，也不体现模型是否承认知识缺口。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "LLM 问题生成 agent 从权威学术与行业材料生成问题。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Artificial Analysis 研究团队设计自动生成与评测流程。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "题目代理以权威材料为依据，方法强调可判定性和事实精度；具体 v1.1 的逐题人工审查量待核实。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "v1.1 移除已饱和问题，官网同时展示公开/私有题的表现一致性分析。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "v1.1 共 3,000 题、6 大领域；原论文 v1 为 6,000 题、42 个主题，不能当成 v1.1 规模。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放式事实问答，允许放弃作答",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "difficulty": {
+      "value": "v1.1 删除饱和题；分数降低可以来自题库变化，不能直接断言模型退步。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方公开 Public-v1.1 子集，并展示 private questions 对比；公开/私有精确题数本次待核实。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Net Score（-100至100）、accuracy、hallucination rate；三者不同。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "v1.1 Net Score 奖励正确、惩罚错误、不惩罚拒答；accuracy以全部问题为分母。官网当前hallucination rate定义为 incorrect/(incorrect+partial+not attempted)，不得自行换成常见的“错误/已作答”。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "应以 AA-Omniscience v1.1 methodology 为准；各模型 reasoning effort 标签需要保留。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "comparability_warning": {
+      "value": "v1 与 v1.1 题库和分数不可直接混比；当前页仍保留 v1 论文摘要的 Claude4.1Opus 4.8 分，那不是当前榜首。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-10-28：Artificial Analysis 2026-10-28 评测文章明确报告 AA-Omniscience v1.1 的分数、准确率及幻觉率；独立评测机构结果。"
+    },
+    "latest_dataset_version": {
+      "value": "v1.1",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2025-11-17T15:27:16+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "官方说明 v1.1 移除了饱和题；这说明题库发生筛选，不代表整个知识任务已饱和。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "同页含 v1 论文摘要和 v1.1 当前方法，题量、最高分与分数含义必须按版本区分；当前幻觉率分母使用官网给出的定义，不按惯例改写。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://artificialanalysis.ai/evaluations/omniscience",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "https://artificialanalysis.ai/evaluations/omniscience",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Gemini 4 Carbon (High)",
+          "score": 54,
+          "unit": "points",
+          "metric": "v1.1 Net Score",
+          "scope": "AA独立评测官网可读前列",
+          "snapshot_date": "2026-11-07",
+          "model_release_date": "2026-10-28"
+        },
+        {
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
+          "score": 48,
+          "unit": "points",
+          "metric": "v1.1 Net Score",
+          "scope": "AA独立评测官网可读前列",
+          "snapshot_date": "2026-11-07"
+        },
+        {
+          "model": "Gemini 4 Carbon (Medium)",
+          "score": 47,
+          "unit": "points",
+          "metric": "v1.1 Net Score",
+          "scope": "AA独立评测官网可读前列",
+          "snapshot_date": "2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "采集日官网明确可读的 Net Score 前三名；同页accuracy榜首68%、hallucination rate最低4%属于不同模型/配置和指标，未揉成统一安全排名。原始 PDF 是v1论文，当前方法为v1.1。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2511.13029",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "abedc69e8235329cbfe0fe49cc33928a5b1732bc054637328c00b07f588b5dfa",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 3786016,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2511.13029",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1Mrrp24vyM98TfiB-wQ0QON4zu8XdEJWO",
+        "webViewLink": "https://drive.google.com/drive/folders/1Mrrp24vyM98TfiB-wQ0QON4zu8XdEJWO"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1Mrrp24vyM98TfiB-wQ0QON4zu8XdEJWO",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k",
+          "webViewLink": "https://docs.google.com/document/d/1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1x28FX-LyGRAjXuPwOHCqqhubxSLh7OJj",
+      "webViewLink": "https://drive.google.com/file/d/1x28FX-LyGRAjXuPwOHCqqhubxSLh7OJj/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1x28FX-LyGRAjXuPwOHCqqhubxSLh7OJj/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://artificialanalysis.ai/evaluations/omniscience",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2511.13029",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

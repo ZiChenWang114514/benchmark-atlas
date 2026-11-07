@@ -1,0 +1,648 @@
+{
+  "id": "truthfulqa",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "basic_info": {
+    "name": {
+      "value": "TruthfulQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "TruthfulQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2021-09-08",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+    },
+    "section": {
+      "value": "安全",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+    },
+    "subfields": {
+      "value": [
+        "真实性与误解诱发的幻觉"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2109.07958",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/sylinrl/TruthfulQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/sylinrl/TruthfulQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/sylinrl/TruthfulQA",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "作者 Stephanie Lin、Jacob Hilton、Owain Evans，单位涉及 Oxford 与 OpenAI；此处不推断正式联合发起协议。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Lin, Stephanie",
+        "Hilton, Jacob",
+        "Evans, Owain"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "检验模型是否复述人类常见误解，而非只看回答流畅度。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "模仿互联网文本可能学习流行错误；知识问答准确率不直接等于避免误导。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "作者编写与常见误解相关的问题；437 道通过 GPT-3 对抗筛选，380 道未筛选。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队撰写问题并核查答案，覆盖多个日常与专业领域。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "区分真实与信息充分，人工检查答案并训练自动裁判。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "同时衡量 truthfulness 与 informativeness，避免把无信息拒答误作有用事实回答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "817 道问题、38 个类别。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放生成及多项选择两种评测方式",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "专门诱发常见误解；对抗筛选题与未筛选题的分布不同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开题集及参考正确/错误答案；不得在测试示例上调优后当作原始零样本结果。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "生成式 truthfulness、informativeness及二者同时满足率；选择式MC1/MC2需区分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "生成任务可用人工或GPT-judge；MC2衡量正确答案集合的归一化概率质量，不是普通单选准确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文零样本，不用本基准示例调优；greedy生成；提示风格会显著影响回答与拒答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/sylinrl/TruthfulQA",
+      "sources": [
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "只答“我不知道”可能被判真实但无信息；truthfulness、true+informative、MC1、MC2不可混比。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "2026-H2实际使用证据：2026-10-08：Jev 研究表1–2实际使用 TruthfulQA，并明确区分准确率与MC2等评价口径。"
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2021-09-09T02:15:27+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2022-05-08T11:43:02+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "2026-H2 Jev 对比论文混合引用不同历史来源，并对部分 TruthfulQA 分数标明MC2；引用时不可把这些行都当同指标准确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+    },
+    "official_url": {
+      "value": "https://arxiv.org/abs/2109.07958",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "Gemini 3.8 Flash（研究表2原标签）",
+          "score": 97.9,
+          "unit": "%",
+          "metric": "accuracy（研究表2口径）",
+          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
+          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "snapshot_date": "2026-11-07"
+        },
+        {
+          "model": "Claude Opus 5.5（研究表2原标签）",
+          "score": 92.0,
+          "unit": "%",
+          "metric": "accuracy（研究表2口径）",
+          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
+          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "snapshot_date": "2026-11-07"
+        },
+        {
+          "model": "Jev（研究表2原标签）",
+          "score": 87.5,
+          "unit": "%",
+          "metric": "accuracy（研究表2口径）",
+          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
+          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "snapshot_date": "2026-11-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "H2对比研究可读结果；保留论文模型标签，未核实精确API日期，不将混合提示或历史引用成绩都视为同协议。未核实当前官方统一实时榜和AA/Epoch/LMArena对应独立单项榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "sylin07@gmail.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/sylinrl/TruthfulQA/issues",
+      "sources": [
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2109.07958",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "6e86175861d24d075bbd8fec987cbdabd0d6332700b001a1ccf335fa72f541b2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "原始下载字节SHA-256；未压缩或改写。"
+    },
+    "pdf_bytes": {
+      "value": 819857,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2109.07958",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1K67pMyWmwzHPTWfWS6Qbhpuz0ZhyOsLv",
+        "webViewLink": "https://drive.google.com/drive/folders/1K67pMyWmwzHPTWfWS6Qbhpuz0ZhyOsLv"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1K67pMyWmwzHPTWfWS6Qbhpuz0ZhyOsLv",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E",
+          "webViewLink": "https://docs.google.com/document/d/1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "12HuAWYz_OBaC5-Hlk_sLg1mzUbeHUD1k",
+      "webViewLink": "https://drive.google.com/file/d/12HuAWYz_OBaC5-Hlk_sLg1mzUbeHUD1k/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/12HuAWYz_OBaC5-Hlk_sLg1mzUbeHUD1k/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2109.07958",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2109.07958",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

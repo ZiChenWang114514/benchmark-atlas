@@ -1,0 +1,827 @@
+{
+  "id": "mathverse",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "MathVerse",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MathVerse",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2024-03-21",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "图解数学推理"
+      ],
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（官方HF元数据；来源图/题第三方权利须单独检查）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2403.14624",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/ZrrSkywalker/MathVerse",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/AI4Math/MathVerse",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://mathverse-cuhk.github.io/",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位：香港中文大学MMLab、上海人工智能实验室、UCLA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Zhang, Renrui",
+        "Jiang, Dongzhi",
+        "Zhang, Yichi",
+        "Lin, Haokun",
+        "Guo, Ziyu",
+        "Qiu, Pengshuo",
+        "Zhou, Aojun",
+        "Lu, Pan",
+        "Chang, Kai-Wei",
+        "Gao, Peng",
+        "Li, Hongsheng"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "检验模型是否真正读取数学图解，而非依赖题干中的视觉信息转述。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "现有视觉数学题常在文字中泄露图中信息，模型不看图也能答对。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "收集2,612道带图数学题，其中1,236来自公开题库、1,376来自已有基准；人工生成六种图文信息量不同的版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "专业标注者审查平面几何、立体几何、函数题并分类。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "专家逐题审核，按12个细类别分类；构造Text Dominant、Text Lite、Text Only、Vision Intensive、Vision Dominant、Vision Only版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "专家逐题审核，按12个细类别分类；构造Text Dominant、Text Lite、Text Only、Vision Intensive、Vision Dominant、Vision Only版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "2,612原始题、15,672版本化样本；testmini 788原题、4,728样本。当前HF多模态配置3,940行与text-only配置788行分开，不能把3,940当原题数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "数学图解单选/开放问答；同一道题的六个信息版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本（部分样本或版本仅文本）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/AI4Math/MathVerse",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "平面几何、立体几何、函数三个大类、12细类；不是难度等级分布。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "论文testmini 788题；剩余test为1,824题/10,944样本，论文称计划将来公开；本批未独立核实完整test当前发布情况。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "官方目前以w/o CoT-E答案准确率为主；CoT-E另由GPT-4(V)提取关键步骤并逐步判定推理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "官方目前以w/o CoT-E答案准确率为主；CoT-E另由GPT-4(V)提取关键步骤并逐步判定推理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "CoT-E与答案判定分开；All不包含Text Only的平均。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/ZrrSkywalker/MathVerse",
+      "sources": [
+        {
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "六种版本、CoT-E/w/o及All定义须固定；3,940多模态样本和788原题不是题量冲突。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2024-03-22T02:59:50+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2024-08-18T17:10:16+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "六种版本、CoT-E/w/o及All定义须固定；3,940多模态样本和788原题不是题量冲突。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://mathverse-cuhk.github.io/#leaderboard",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "VL-Rethinker-72B",
+          "score": 61.7,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "testmini，All w/o CoT-E",
+          "date": "2025-04-10",
+          "accessed": "2026-11-07",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+        },
+        {
+          "model": "VL-Rethinker-7B",
+          "score": 54.2,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "testmini，All w/o CoT-E",
+          "date": "2025-04-10",
+          "accessed": "2026-11-07",
+          "source_url": "https://mathverse-cuhk.github.io/",
+          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+        },
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 79.7,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MathVerse mini",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 82.4,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MathVerse mini",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "jdzcarr7@gmail.com"
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+    },
+    "github_issues": {
+      "value": "https://github.com/ZrrSkywalker/MathVerse/issues",
+      "sources": [
+        {
+          "url": "https://github.com/ZrrSkywalker/MathVerse",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mathverse-cuhk.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2403.14624",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2403.14624",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "9eb1f3c95cb78e80ab280191a3c459599af725152121f1d987c5c6282c09b18b",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 5598195,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2403.14624",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi",
+        "webViewLink": "https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4",
+          "webViewLink": "https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy",
+      "webViewLink": "https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2403.14624",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://mathverse-cuhk.github.io/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

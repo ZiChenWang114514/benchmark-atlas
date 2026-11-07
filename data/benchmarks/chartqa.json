@@ -1,0 +1,782 @@
+{
+  "id": "chartqa",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2022-03-19",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "图表问答"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "GPL-3.0（官方HF元数据标示；不据此推断第三方图表版权）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2203.10244",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/vis-nlp/ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/vis-nlp/ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位：York University、南洋理工大学、Salesforce Research。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Masry, Ahmed",
+        "Long, Do Xuan",
+        "Tan, Jia Qing",
+        "Joty, Shafiq",
+        "Hoque, Enamul"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "vis-nlp 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "需要视觉引用、逻辑及算术组合运算的真实图表问答。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "既有图表QA多使用模板问题及固定答案词表，难覆盖自然复杂问题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "从Statista、Pew、Our World in Data、OECD采集真实图表；人工问答ChartQA-H与从人工图表摘要自动生成的ChartQA-M并存。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "人工标注者提出自然问题；自动部分由摘要驱动生成，不把全部称为专家原创。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "自动生成数据移除无效问答；SVG自动解析得到视觉标注；Pew缺SVG，另做人工标注和启发式处理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "自动生成数据移除无效问答；SVG自动解析得到视觉标注；Pew缺SVG，另做人工标注和启发式处理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "论文：20,882图表、9,608人工问题、23,111生成问题。当前官方HF train 28,299、val 1,920、test 2,500行。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放式数值或文本回答；条形图、折线图和饼图，附原始表格及部分框标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "public_hidden_split": {
+      "value": "官方数据含train/val/test；human与augmented子集独立文件，test共2,500问题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "relaxed accuracy：数值误差在参考值5%以内算正确，非数值采用字符串匹配。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "relaxed accuracy：数值误差在参考值5%以内算正确，非数值采用字符串匹配。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文基线可使用图像和底层数据表；评测时应说明是否使用oracle表格、OCR或仅图像，不能同口径排名。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/vis-nlp/ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "机器生成/人工子集分别报告；官方指出SVG缺失/损坏使框标注有噪声。MMVistaReason使用CompassVerifier，不等同于原始5%数值容差。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2022-03-19T14:00:30+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "机器生成/人工子集分别报告；官方指出SVG缺失/损坏使框标注有噪声。MMVistaReason使用CompassVerifier，不等同于原始5%数值容差。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "ChartQAPro，官方仓库推荐的更具挑战的真实图表QA后续基准；本条不将Pro另计入原版结果。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/vis-nlp/ChartQA",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 86.2,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "ChartQA",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 87.6,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "ChartQA",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本批未核实官方当前排名，故只列明确注明来源的2026-H2研究复测，不把研究复测冒充官方榜单。"
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "amasry17@ku.edu.tr"
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+    },
+    "github_issues": {
+      "value": "https://github.com/vis-nlp/ChartQA/issues",
+      "sources": [
+        {
+          "url": "https://github.com/vis-nlp/ChartQA",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "旧学校邮箱masry20@yorku.ca已停用，采用官方README当前公开联系邮箱。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2203.10244",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2203.10244",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "3b1d863e6f9ca45e84131bc51c8e47c8026faf6a6875edb9032bce2b9fadf0f9",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 2938574,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2203.10244",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq",
+        "webViewLink": "https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM",
+          "webViewLink": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy",
+      "webViewLink": "https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2203.10244",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/vis-nlp/ChartQA",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

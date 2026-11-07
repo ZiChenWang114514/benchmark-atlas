@@ -1,0 +1,631 @@
+{
+  "id": "genotex",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "basic_info": {
+    "name": {
+      "value": "GenoTEX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_version": {
+      "value": "v3；最近论文日期 2025-04-08",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2024-06-21（首个arXiv版本日期；非推定数据上线日）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "编辑分类沿用入选清单；不代表该基准只测本板块。"
+    },
+    "subfields": {
+      "value": [
+        "基因表达数据分析"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "数据集CC BY 4.0（原论文Data Availability）；代码及上游数据许可应另行核查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2406.15341",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/Liu-Hy/GenoTEX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://doi.org/10.34740/kaggle/dsv/11309048",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/Liu-Hy/GenoTEX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "UIUC/Novartis署名作者团队；正式共同发起关系待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "authors": {
+      "value": [
+        "Liu, Haoyang",
+        "Chen, Shuyu",
+        "Zhang, Ye",
+        "Wang, Haohan"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Liu-Hy/GenoTEX官方仓库。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "论文致谢NAIRR grant 240283；不推断其覆盖所有数据维护开销。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "从数据选择、预处理至基因—性状关联的自动化表达分析。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "一般代码题缺少完整生物数据筛选及质量控制，与真实研究链条脱节。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "九名受训生物信息学标注者，约20周构建工作。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每个性状两人独立分析，再由资深审核者复查；共享指南迭代。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "统一筛选、选择、预处理及关联参考流程；区分可用与成功预处理数据。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "依赖公开数据与公共文献；人工参考与任务划分不等于排除基础模型训练暴露。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "1,384个GTA问题（132无条件+1,252条件），911数据集、41.5GB、152,415样本；448数据集成功预处理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "数据筛选、选择、预处理和基因—性状关联。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "基因表达矩阵、表型/临床元数据、代码与结果表。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语任务/数据元信息和生物标识符；数值组学为主。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "端到端与仅给预处理数据难度不同，应分别报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "数据/参考分析公开；全流程任务与预处理后任务为不同协议，不能合并分数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "筛选F1、选择accuracy；预处理AJ/SJ/CSC；关联以AUROC为主，另P/R/F1/GSEA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "与专家参考流程及结果比较；基因发现不是因果生物真理证明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "GenoAgent多代理工作流，模型与已有预处理输入条件需在比较时固定。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/Liu-Hy/GenoTEX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "论文end-to-end与preprocessed任务不同；不能把0.97与0.74 AUROC当同一榜单提升。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "paper_revision_history": {
+      "value": {
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.21074v1",
+            "date": "2026-10-15",
+            "note": "OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。"
+          }
+        ],
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+        "paper_metadata": {
+          "title": "GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis",
+          "authors": [
+            "Liu, Haoyang",
+            "Chen, Shuyu",
+            "Zhang, Ye",
+            "Wang, Haohan"
+          ],
+          "release": "2024-06-21",
+          "latest": "2025-04-08",
+          "version": "v3"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "端到端结果仍明显落后人工参考；H2引用不是新的模型实跑。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "人工分析本身有方法选择与统计不确定性；公开数据可能训练暴露，参考结果不等同因果真值。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/Liu-Hy/GenoTEX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "results": {
+      "value": "2025 v3论文历史：GenoAgent+o1端到端AUROC0.74/F1 41.39%；人工参考AUROC0.89；预处理后任务可到0.97但协议不同。o1具体API快照待核实；H2仅被引用。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://epoch.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "hl57@illinois.edu",
+        "shuyu5@illinois.edu",
+        "haohanw@illinois.edu",
+        "ye-4.zhang@novartis.com"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/Liu-Hy/GenoTEX/issues",
+      "sources": [
+        {
+          "url": "https://github.com/Liu-Hy/GenoTEX",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2406.15341",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "a736e1f4af1ac40df8d1727de6722e005292ffdc20ea002a847ac5114d2ce790",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 1364730,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1fUMNCa76uvA8Rrlhv0dnpnOz5L1LD5Di",
+        "webViewLink": "https://drive.google.com/drive/folders/1fUMNCa76uvA8Rrlhv0dnpnOz5L1LD5Di"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍 Google Doc",
+          "id": "1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts",
+          "webViewLink": "https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV",
+      "webViewLink": "https://drive.google.com/file/d/14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV/view"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.15341",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.15341",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

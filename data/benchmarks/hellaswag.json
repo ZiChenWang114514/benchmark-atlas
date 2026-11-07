@@ -1,0 +1,704 @@
+{
+  "id": "hellaswag",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "basic_info": {
+    "name": {
+      "value": "HellaSwag",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "2019数据集；官方测试榜于2024年11月停止接收提交",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2019-05-20（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "section": {
+      "value": "推理",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "常识情景推理"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/1905.07830",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/rowanz/hellaswag",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/rowanz/hellaswag",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://rowanzellers.com/hellaswag/",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "University of Washington、Allen Institute for AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+    },
+    "authors": {
+      "value": [
+        "Zellers, Rowan",
+        "Holtzman, Ari",
+        "Bisk, Yonatan",
+        "Farhadi, Ali",
+        "Choi, Yejin"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "衡量日常活动和操作说明中下一事件的常识合理性判断。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "语言模型可能利用表面流畅度而不理解物理与事件常识；需要人类容易、模型困难的干扰项。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "ActivityNet视频字幕与WikiHow操作说明作为上下文和正确结尾，生成模型产生错误结尾。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究团队设计对抗过滤；众包人员判断候选结尾的合理性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "多轮判别器过滤模型生成负例，并以人工验证保留可区分样本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "对抗过滤迭代挑选不易被当时判别模型识别的错误答案；同时控制长度与语境。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "按活动类别设置in-domain与zero-shot类别；这不等于现代预训练污染审计。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "论文概述约70000题，ActivityNet约25000、WikiHow约45000；精确当前发布包题数待固定版本后复核。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "给上下文和4个候选结尾，选择唯一合理的续写。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本（数学符号按文本表达）；并非原始图像视频识别任务",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语题面；形式化/数学符号另见模态与仓库格式",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "原论文人类95.6%与当时模型差距是历史背景，不能描述2026模型仍低于48%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "官方验证/测试均含训练出现及未出现的活动类别；2024年11月后官方测试提交关闭，多数LLM采用验证集。",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "4选1准确率；官方榜另分in-domain/zero-shot、ActivityNet/WikiHow。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "选择标签与参考答案匹配；LLM的生成字母或对数似然实现需说明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官方历史榜GPT-4 base使用10-shot；当代生成/似然模板、长度归一化和shot数必须注明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/rowanz/hellaswag",
+      "sources": [
+        {
+          "url": "https://github.com/rowanz/hellaswag",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "停止更新的官方测试榜不等于当代验证集SOTA；不能把两个split混排。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07（Asia/Seoul）",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "2019数据集；官方测试榜于2024年11月停止接收提交",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": {
+        "arxiv_version": "arXiv v1",
+        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+        "2026_h2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.11978v1",
+            "date": "2026-10-08",
+            "note": "Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
+    },
+    "contamination_and_issues": {
+      "value": "验证集普遍公开使用；对抗过滤是构建方式，不是防止未来训练污染的保证。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "继承SWAG方向但扩大干扰项难度；本条不把ActivityNet与WikiHow视作独立benchmark。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07（Asia/Seoul；采集日不是测量日）",
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://rowanzellers.com/hellaswag/",
+      "sources": [
+        {
+          "url": "https://github.com/rowanz/hellaswag",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜"
+    },
+    "results": {
+      "value": [
+        {
+          "model_version": "GPT-4 base",
+          "score": "95.3",
+          "unit": "%",
+          "scope_and_protocol": "官方历史测试榜，10-shot",
+          "result_date": "2023-03-08",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://rowanzellers.com/hellaswag/",
+          "source_class": "一级：官方榜（可能为历史结果）",
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+        },
+        {
+          "model_version": "ALUM",
+          "score": "85.6",
+          "unit": "%",
+          "scope_and_protocol": "官方历史测试榜",
+          "result_date": "2020-03-23",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://rowanzellers.com/hellaswag/",
+          "source_class": "一级：官方榜（可能为历史结果）",
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+        },
+        {
+          "model_version": "Gemini 3.8 Flash",
+          "score": "97.5",
+          "unit": "%",
+          "scope_and_protocol": "Jev论文表2，作者测量；非官方测试榜",
+          "result_date": "2026-10-08",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.11978v1",
+          "source_class": "研究论文实验，非官方实时榜",
+          "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未从已核实官方材料收录专门联系邮箱；不猜测个人邮箱"
+    },
+    "github_issues": {
+      "value": "https://github.com/rowanz/hellaswag/issues",
+      "sources": [
+        {
+          "url": "https://github.com/rowanz/hellaswag",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未核实专门官方社交账号，不收录同名个人账户"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "未核实benchmark专门隐私条款；许可证不能代替隐私政策"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL",
+      "webViewLink": "https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/1905.07830",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "9a042fdcc4a22848cffde37e9c5257e423443980172bab7367dffb4e779aac37",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 1192712,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/1905.07830",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
+        "webViewLink": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": {
+        "chinese_intro_doc": {
+          "id": "1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc",
+          "webViewLink": "https://docs.google.com/document/d/1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc/edit?usp=drivesdk",
+          "mimeType": "application/vnd.google-apps.document"
+        },
+        "local_markdown": "content/benchmarks/hellaswag.md"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://rowanzellers.com/hellaswag/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

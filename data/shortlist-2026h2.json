@@ -1,0 +1,1867 @@
+{
+  "schema_version": "shortlist-1.0",
+  "generated_at": "2026-11-07",
+  "timezone": "Asia/Seoul",
+  "window": {
+    "from": "2026-07-01",
+    "through": "2026-11-07"
+  },
+  "status": "research_shortlist_only_not_published",
+  "selection_method": [
+    "每条至少有本轮打开并核对的2026H2具体论文、技术报告、正式出版物或权威评测文章；日期是该引用/评测来源的发布或明确版本日期，不是检索日期。",
+    "2026-07与2026-10是ACL出版元数据提供的月份精度；整月落在筛选窗口内，不补造日期。",
+    "引用、实际实验和新发布均可满足用户的“仍被引用/使用”，各evidence.note显式区分；引用不是SOTA或新跑分的证明。",
+    "每条只分配一个主section，自然科学40条；GPQA Diamond、AIME不同年份、ClimateBench v2等不拆成额外条目。",
+    "priority_rank是本库建设优先次序，不是全球引用量或质量排行榜。",
+    "本文件是研究候选清单，不创建完整条目、不修改现有24条、不推送仓库、不上传Drive、不部署。"
+  ],
+  "count": 100,
+  "existing_count": 24,
+  "new_count": 76,
+  "natural_science_count": 40,
+  "domain_counts": {
+    "物理": 12,
+    "化学": 4,
+    "生物与医学": 12,
+    "地球与天文": 6,
+    "材料": 6,
+    "语言": 12,
+    "推理": 7,
+    "数学": 7,
+    "代码": 10,
+    "多模态": 10,
+    "Agent": 9,
+    "安全": 5
+  },
+  "existing_failed_criterion": [],
+  "existing_audit_note": "现有24条均找到窗口内证据，全部计入100。SciEval、PDEBench等部分依据为H2学术引用，不应宣称它们都有H2新榜单；详见每条note。",
+  "benchmarks": [
+    {
+      "slug": "gpqa",
+      "name": "GPQA",
+      "section": "物理",
+      "subfield": "跨学科研究生科学推理（含 Diamond 子集）",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B 技术报告 §4.1/§4.2、表2–4实际报告 GPQA 与 GPQA-Diamond；厂商自报评测。Diamond 不另占条目。"
+        }
+      ],
+      "priority_rank": 1
+    },
+    {
+      "slug": "scibench",
+      "name": "SciBench",
+      "section": "物理",
+      "subfield": "大学物理、化学与科学计算",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 的固定 GPT-5.4 问答实验实际使用 SciBench，比较无检索与不同检索系统。"
+        }
+      ],
+      "priority_rank": 2
+    },
+    {
+      "slug": "scieval",
+      "name": "SciEval",
+      "section": "物理",
+      "subfield": "跨学科科学知识、应用与研究能力",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.04915v1",
+          "date": "2026-10-04",
+          "note": "《Are We Measuring Scientific Intelligence?》§2及参考文献[24]引用 Sun 等的科学研究 SciEval（AAAI 2024），不是同名 K–12 教学材料基准。此证据为学术引用，不是新跑分。"
+        }
+      ],
+      "priority_rank": 3
+    },
+    {
+      "slug": "scicode",
+      "name": "SciCode",
+      "section": "物理",
+      "subfield": "跨学科科研代码生成",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.30054v1",
+          "date": "2026-09-24",
+          "note": "SciWalker 在288个含科学背景的 SciCode 测试子题上实际评测，报告训练前后表现；§SciCode Performance。"
+        }
+      ],
+      "priority_rank": 4
+    },
+    {
+      "slug": "phybench",
+      "name": "PHYBench",
+      "section": "物理",
+      "subfield": "物理推理与评测可靠性",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.13009v2",
+          "date": "2026-10-17",
+          "note": "专家重评分论文 v2 对 PHYBench 进行实际模型评测、答案/评分器审计；证明 H2 仍在使用，不代表原榜单可靠。"
+        }
+      ],
+      "priority_rank": 5
+    },
+    {
+      "slug": "ugphysics",
+      "name": "UGPhysics",
+      "section": "物理",
+      "subfield": "本科物理",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.13009v2",
+          "date": "2026-10-17",
+          "note": "专家重评分论文 v2 实际审计 UGPhysics 英文100题子集，比较原始与修正评测。"
+        }
+      ],
+      "priority_rank": 6
+    },
+    {
+      "slug": "physicseval",
+      "name": "PhysicsEval",
+      "section": "物理",
+      "subfield": "物理问题求解与过程评估",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.458.pdf",
+          "date": "2026-07",
+          "note": "PhysPRM 正文、附录表6–7实际复用 PhysicsEval，参考文献明确指向 Siddique 等 arXiv:2508.00079。出版月份为2026-07，来源未给出具体日，不臆造日期。"
+        }
+      ],
+      "priority_rank": 7
+    },
+    {
+      "slug": "olympiadbench",
+      "name": "OlympiadBench",
+      "section": "物理",
+      "subfield": "奥赛物理与数学（双语多模态）",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Science及表3–4实际报告 OlympiadBench；厂商自报。保持现有主分类，数学不重复计数。"
+        }
+      ],
+      "priority_rank": 8
+    },
+    {
+      "slug": "pdebench",
+      "name": "PDEBench",
+      "section": "物理",
+      "subfield": "偏微分方程与神经算子",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.06095v3",
+          "date": "2026-10-07",
+          "note": "压缩训练数据论文 v3 引言明确引用 PDEBench（Takamoto等2022），讨论其科学数组分发与学习评测；引用证据，不冒充新榜单。"
+        }
+      ],
+      "priority_rank": 9
+    },
+    {
+      "slug": "the-well",
+      "name": "The Well",
+      "section": "物理",
+      "subfield": "多物理场模拟与算子学习",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.06095v3",
+          "date": "2026-10-07",
+          "note": "同一论文 v3 引言将 The Well（Ohana等2024）与 PDEBench 并列为公开算子学习基准；为2026H2具体学术引用。"
+        }
+      ],
+      "priority_rank": 10
+    },
+    {
+      "slug": "scirigor",
+      "name": "SciRigor",
+      "section": "物理",
+      "subfield": "跨学科开放式科学数据分析",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.06192v1",
+          "date": "2026-09-05",
+          "note": "SciRigor 原始论文于H2提出100案例基准并开展模型实验，评估数据—代码—图表—结论证据链。"
+        }
+      ],
+      "priority_rank": 11
+    },
+    {
+      "slug": "scienceide-hard",
+      "name": "ScienceIDE-Hard",
+      "section": "物理",
+      "subfield": "科学软件执行（以计算物理和地学为主）",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §3在85项 hard 科学代码任务上实际评测15个模型—harness组合；任务含天体流体、等离子体、海洋大气与粒子模拟。"
+        }
+      ],
+      "priority_rank": 12
+    },
+    {
+      "slug": "chembench",
+      "name": "ChemBench",
+      "section": "化学",
+      "subfield": "化学知识与推理",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 实际使用 ChemBench 比较固定回答模型配合不同检索系统的结果；不与 ChemBench4K 混同。"
+        }
+      ],
+      "priority_rank": 13
+    },
+    {
+      "slug": "moleculenet",
+      "name": "MoleculeNet",
+      "section": "化学",
+      "subfield": "分子性质预测",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.17831v1",
+          "date": "2026-09-15",
+          "note": "Procedural Pretraining §3实际用 MoleculeNet Lipophilicity等分子性质任务评价模型；仅计套件一次，不再把各子集凑数。"
+        }
+      ],
+      "priority_rank": 14
+    },
+    {
+      "slug": "chemllmbench",
+      "name": "ChemLLMBench",
+      "section": "化学",
+      "subfield": "化学语言模型任务",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.35336v1",
+          "date": "2026-09-28",
+          "note": "TMCS 的药物分子设计与分子描述实验使用 ChemLLMBench；分别报告精确SMILES匹配及BLEU-4。"
+        }
+      ],
+      "priority_rank": 15
+    },
+    {
+      "slug": "chemdirt",
+      "name": "ChemDIRT",
+      "section": "化学",
+      "subfield": "指令、表示与任务鲁棒性",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.21504v1",
+          "date": "2026-08-21",
+          "note": "ChemDIRT 原始论文在H2提出并实际评测多指令、多分子表示及八类化学任务的鲁棒性。"
+        }
+      ],
+      "priority_rank": 16
+    },
+    {
+      "slug": "lab-bench",
+      "name": "LAB-Bench",
+      "section": "生物与医学",
+      "subfield": "生物研究能力",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.41350v1",
+          "date": "2026-10-30",
+          "note": "Operon-S1 实际评测 LAB-Bench SeqQA，正文与表格给出控制器/基线结果；LABBench2 不另计入本批。"
+        }
+      ],
+      "priority_rank": 17
+    },
+    {
+      "slug": "bixbench",
+      "name": "BixBench",
+      "section": "生物与医学",
+      "subfield": "计算生物学数据分析Agent",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2讨论并引用 Mitchener等2025 的原始 BixBench，区分于 BixBench3；为H2学术引用。"
+        }
+      ],
+      "priority_rank": 18
+    },
+    {
+      "slug": "bioprobench",
+      "name": "BioProBench",
+      "section": "生物与医学",
+      "subfield": "生物实验协议理解与推理",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.19657v1",
+          "date": "2026-10-14",
+          "note": "BioPRM 正文与参考文献明确引用 BioProBench 的协议排序、错误识别等任务；为H2学术引用。"
+        }
+      ],
+      "priority_rank": 19
+    },
+    {
+      "slug": "pubmedqa",
+      "name": "PubMedQA",
+      "section": "生物与医学",
+      "subfield": "生物医学文献问答",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27297v2",
+          "date": "2026-09-30",
+          "note": "Large Knowledge Model v2 的固定回答模型检索实验实际使用 PubMedQA（500题）并比较回答表现。"
+        }
+      ],
+      "priority_rank": 20
+    },
+    {
+      "slug": "medqa",
+      "name": "MedQA",
+      "section": "生物与医学",
+      "subfield": "医学执照考试式临床推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "date": "2026-08-19",
+          "note": "Adaptive Memory and Reflection Multi-Agent System 实际在 MedQA 上评测医学问答。"
+        }
+      ],
+      "priority_rank": 21
+    },
+    {
+      "slug": "medmcqa",
+      "name": "MedMCQA",
+      "section": "生物与医学",
+      "subfield": "多学科医学考试问答",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.19029v1",
+          "date": "2026-08-19",
+          "note": "同一H2医学多Agent论文实际在 MedMCQA 上评测并报告结果。"
+        }
+      ],
+      "priority_rank": 22
+    },
+    {
+      "slug": "scigym",
+      "name": "SciGym",
+      "section": "生物与医学",
+      "subfield": "系统生物学干实验室",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1明确列举系统生物学 SciGym 并引用其原始论文 arXiv:2507.02083；为H2学术引用，不是本文实跑。"
+        }
+      ],
+      "priority_rank": 23
+    },
+    {
+      "slug": "omicsbench",
+      "name": "OmicsBench",
+      "section": "生物与医学",
+      "subfield": "研究规模组学多轮分析",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench 原始论文于H2发布并评测研究规模、多轮组学数据分析Agent。"
+        }
+      ],
+      "priority_rank": 24
+    },
+    {
+      "slug": "genotex",
+      "name": "GenoTEX",
+      "section": "生物与医学",
+      "subfield": "基因表达数据分析",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。"
+        }
+      ],
+      "priority_rank": 25
+    },
+    {
+      "slug": "biocoder",
+      "name": "BioCoder",
+      "section": "生物与医学",
+      "subfield": "生物信息学代码生成",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确引用 BioCoder（Tang等2024），讨论其生物代码生成评测与新基准的区别。"
+        }
+      ],
+      "priority_rank": 26
+    },
+    {
+      "slug": "genome-bench",
+      "name": "Genome-Bench",
+      "section": "生物与医学",
+      "subfield": "基因组学能力",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2明确列举 Genome-Bench（Yin等2025），作为生物学局部能力评测的先行基准；为H2学术引用。"
+        }
+      ],
+      "priority_rank": 27
+    },
+    {
+      "slug": "baisbench",
+      "name": "BAISBench",
+      "section": "生物与医学",
+      "subfield": "组学数据驱动科学发现Agent",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.21074v1",
+          "date": "2026-10-15",
+          "note": "OmicsBench §2及参考文献引用 BAISBench（Luo等2026），讨论其数据环境中的生物分析评测。"
+        }
+      ],
+      "priority_rank": 28
+    },
+    {
+      "slug": "astrobench",
+      "name": "AstroBench",
+      "section": "地球与天文",
+      "subfield": "天文学知识问答（AstroMLab）",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://aclanthology.org/2026.emnlp-industry.5.pdf",
+          "date": "2026-10",
+          "note": "Lunar-R1 的 Benchmarks and Metrics及附录B实际使用 AstroBench，参考文献指向 Ting等《AstroMLab 1: Who Wins Astronomy Jeopardy!?》。出版月份2026-10；不与同名太空机器人 AstroBench 混同。"
+        }
+      ],
+      "priority_rank": 29
+    },
+    {
+      "slug": "geo-bench",
+      "name": "GEO-Bench",
+      "section": "地球与天文",
+      "subfield": "地球观测遥感迁移学习",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.05351v3",
+          "date": "2026-11-03",
+          "note": "MEOX v3 §4.2使用 GEO-Bench v1 官方划分与归一化，实际开展冻结编码器分类/分割迁移实验；不是生成式引擎优化同名数据集。"
+        }
+      ],
+      "priority_rank": 30
+    },
+    {
+      "slug": "climatebench",
+      "name": "ClimateBench",
+      "section": "地球与天文",
+      "subfield": "气候模拟与投影（含v2）",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.04558v1",
+          "date": "2026-10-03",
+          "note": "ClimateBench v2 原始论文明确引用并讨论 v1（Watson-Parris等2022）及其气候仿真器评估范围，H2发布新版协议；本条按现有条目保留系列，不另计v2。"
+        }
+      ],
+      "priority_rank": 31
+    },
+    {
+      "slug": "weatherbench",
+      "name": "WeatherBench",
+      "section": "地球与天文",
+      "subfield": "气象时空预测（原始2020基准）",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11617v1",
+          "date": "2026-10-08",
+          "note": "TAM 实际使用原始 WeatherBench 的两米温度任务，明确引用 Rasp2020，采用时间划分；不同于 WeatherBench 2。"
+        }
+      ],
+      "priority_rank": 32
+    },
+    {
+      "slug": "weatherbench2",
+      "name": "WeatherBench 2",
+      "section": "地球与天文",
+      "subfield": "全球天气预报评价",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19517v1",
+          "date": "2026-09-17",
+          "note": "Spatial Aggregation of ROC and Precision-Recall Curves §4.2实际用 WeatherBench 2 做温度极端事件等应用实验。"
+        }
+      ],
+      "priority_rank": 33
+    },
+    {
+      "slug": "astrommbench",
+      "name": "AstroMMBench",
+      "section": "地球与天文",
+      "subfield": "天文研究图像多模态问答",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://www.mdpi.com/2218-1997/12/10/296",
+          "date": "2026-09-30",
+          "note": "期刊正式版发表于2026-09-30，在592道专家筛选题上实际评价25个多模态模型。采用打开的正式版，未沿用搜索摘要的旧621题。"
+        }
+      ],
+      "priority_rank": 34
+    },
+    {
+      "slug": "matbench",
+      "name": "Matbench",
+      "section": "材料",
+      "subfield": "材料性质预测",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.32678v1",
+          "date": "2026-10-23",
+          "note": "CGTNet 论文实际在 Matbench 上进行五折材料性质评测，包括剥离能与剪切模量等；正文表2。"
+        }
+      ],
+      "priority_rank": 35
+    },
+    {
+      "slug": "matbench-discovery",
+      "name": "Matbench Discovery",
+      "section": "材料",
+      "subfield": "晶体稳定性与发现",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.3与表4实际用 Matbench-Discovery/WBM 评测势能模型，报告稳定性等指标。"
+        }
+      ],
+      "priority_rank": 36
+    },
+    {
+      "slug": "jarvis-leaderboard",
+      "name": "JARVIS-Leaderboard",
+      "section": "材料",
+      "subfield": "材料多性质统一评测套件",
+      "existing": true,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 使用 JARVIS-Leaderboard 官方固定训练/验证/测试协议，实际报告30项单性质任务；套件只计一次。"
+        }
+      ],
+      "priority_rank": 37
+    },
+    {
+      "slug": "chips-ff",
+      "name": "CHIPS-FF",
+      "section": "材料",
+      "subfield": "力场与材料物性",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.3.3、表5实际在 CHIPS-FF 上评测缺陷、表面、界面及相关材料物性。"
+        }
+      ],
+      "priority_rank": 38
+    },
+    {
+      "slug": "atombench",
+      "name": "AtomBench",
+      "section": "材料",
+      "subfield": "晶体结构生成与重构",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 §2.4及表7–8使用 AtomBench 的结构匹配和重构评测定义，对比晶体生成器。"
+        }
+      ],
+      "priority_rank": 39
+    },
+    {
+      "slug": "qmof",
+      "name": "QMOF",
+      "section": "材料",
+      "subfield": "金属有机框架带隙预测",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19487v1",
+          "date": "2026-09-16",
+          "note": "ALIGNN 2.0 表2以 QMOF 为有固定训练/验证/测试划分的独立材料预测任务，实际报告带隙误差；不是把JARVIS的每个属性拆开计数。"
+        }
+      ],
+      "priority_rank": 40
+    },
+    {
+      "slug": "mmlu",
+      "name": "MMLU",
+      "section": "语言",
+      "subfield": "多学科知识",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 41
+    },
+    {
+      "slug": "mmlu-pro",
+      "name": "MMLU-Pro",
+      "section": "语言",
+      "subfield": "高难多学科知识与推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-Pro，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 42
+    },
+    {
+      "slug": "mmlu-redux",
+      "name": "MMLU-Redux",
+      "section": "语言",
+      "subfield": "纠错后的多学科知识",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-Redux，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 43
+    },
+    {
+      "slug": "c-eval",
+      "name": "C-Eval",
+      "section": "语言",
+      "subfield": "中文多学科知识",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 C-Eval，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 44
+    },
+    {
+      "slug": "mmlu-prox",
+      "name": "MMLU-ProX",
+      "section": "语言",
+      "subfield": "多语言高难知识",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMLU-ProX，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 45
+    },
+    {
+      "slug": "mmmlu",
+      "name": "MMMLU",
+      "section": "语言",
+      "subfield": "多语言多学科知识",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 对比研究的表1–2和§3.1实际使用 MMMLU，将其纳入13个多选基准的模型评测。"
+        }
+      ],
+      "priority_rank": 46
+    },
+    {
+      "slug": "ifeval",
+      "name": "IFEval",
+      "section": "语言",
+      "subfield": "可验证指令遵循",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 IFEval 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+        }
+      ],
+      "priority_rank": 47
+    },
+    {
+      "slug": "sysbench",
+      "name": "SysBench",
+      "section": "语言",
+      "subfield": "系统指令遵循",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 SysBench 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+        }
+      ],
+      "priority_rank": 48
+    },
+    {
+      "slug": "longbench-v2",
+      "name": "LongBench v2",
+      "section": "语言",
+      "subfield": "长上下文理解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 LongBench v2 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+        }
+      ],
+      "priority_rank": 49
+    },
+    {
+      "slug": "ruler",
+      "name": "RULER",
+      "section": "语言",
+      "subfield": "长上下文利用",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 RULER 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+        }
+      ],
+      "priority_rank": 50
+    },
+    {
+      "slug": "frames",
+      "name": "FRAMES",
+      "section": "语言",
+      "subfield": "检索增强多跳事实问答",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2–4.3实际使用 FRAMES 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
+        }
+      ],
+      "priority_rank": 51
+    },
+    {
+      "slug": "aa-omniscience",
+      "name": "AA-Omniscience",
+      "section": "语言",
+      "subfield": "知识准确性、幻觉与校准",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28 评测文章明确报告 AA-Omniscience v1.1 的分数、准确率及幻觉率；独立评测机构结果。"
+        }
+      ],
+      "priority_rank": 52
+    },
+    {
+      "slug": "bbh",
+      "name": "BIG-Bench Hard (BBH)",
+      "section": "推理",
+      "subfield": "多任务复杂推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 BIG-Bench Hard (BBH)；厂商自报评测。"
+        }
+      ],
+      "priority_rank": 53
+    },
+    {
+      "slug": "zebralogic",
+      "name": "ZebraLogic",
+      "section": "推理",
+      "subfield": "约束逻辑推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。"
+        }
+      ],
+      "priority_rank": 54
+    },
+    {
+      "slug": "drop",
+      "name": "DROP",
+      "section": "推理",
+      "subfield": "离散推理阅读理解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。"
+        }
+      ],
+      "priority_rank": 55
+    },
+    {
+      "slug": "hellaswag",
+      "name": "HellaSwag",
+      "section": "推理",
+      "subfield": "常识情景推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。"
+        }
+      ],
+      "priority_rank": 56
+    },
+    {
+      "slug": "winogrande",
+      "name": "WinoGrande",
+      "section": "推理",
+      "subfield": "常识指代推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 WinoGrande 上比较多类模型，不将ARC-Easy或其它子集另计。"
+        }
+      ],
+      "priority_rank": 57
+    },
+    {
+      "slug": "arc-challenge",
+      "name": "ARC-Challenge",
+      "section": "推理",
+      "subfield": "科学常识与组合推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2及§3.1实际在 ARC-Challenge 上比较多类模型，不将ARC-Easy或其它子集另计。"
+        }
+      ],
+      "priority_rank": 58
+    },
+    {
+      "slug": "hle",
+      "name": "Humanity’s Last Exam (HLE)",
+      "section": "推理",
+      "subfield": "跨学科专家级推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1–4.2引用 HLE（Phan等2025，arXiv:2501.14249）作为广泛专家问题评价；本证据为H2学术引用，不是本文新跑HLE。"
+        }
+      ],
+      "priority_rank": 59
+    },
+    {
+      "slug": "math",
+      "name": "MATH",
+      "section": "数学",
+      "subfield": "竞赛数学问题求解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+        }
+      ],
+      "priority_rank": 60
+    },
+    {
+      "slug": "gsm8k",
+      "name": "GSM8K",
+      "section": "数学",
+      "subfield": "数学应用题",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+        }
+      ],
+      "priority_rank": 61
+    },
+    {
+      "slug": "aime",
+      "name": "AIME",
+      "section": "数学",
+      "subfield": "美国数学邀请赛试题（含2024/2025）",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 AIME。AIME 的不同年份归同一条目，不用年份拆分凑数。"
+        }
+      ],
+      "priority_rank": 62
+    },
+    {
+      "slug": "mathqa",
+      "name": "MathQA",
+      "section": "数学",
+      "subfield": "多步数学应用题",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。"
+        }
+      ],
+      "priority_rank": 63
+    },
+    {
+      "slug": "aqua-rat",
+      "name": "AQuA-RAT",
+      "section": "数学",
+      "subfield": "代数应用题与推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究§3.1和表1–2实际使用 AQuA-RAT 并比较专用决策模型与通用模型。"
+        }
+      ],
+      "priority_rank": 64
+    },
+    {
+      "slug": "frontiermath",
+      "name": "FrontierMath",
+      "section": "数学",
+      "subfield": "研究级数学",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1–4.2及参考文献[34]引用 FrontierMath 作为前沿数学评测；为H2学术引用，不等同于本论文实跑。"
+        }
+      ],
+      "priority_rank": 65
+    },
+    {
+      "slug": "minif2f",
+      "name": "miniF2F",
+      "section": "数学",
+      "subfield": "Lean形式化数学证明",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.28639v1",
+          "date": "2026-08-11",
+          "note": "Reward-Oracle MCTS 原始研究实际在 miniF2F 上比较三个证明模型及不同搜索预算；同时审计内核级证明有效性。"
+        }
+      ],
+      "priority_rank": 66
+    },
+    {
+      "slug": "evalplus",
+      "name": "EvalPlus",
+      "section": "代码",
+      "subfield": "加强测试的代码生成",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 EvalPlus；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 67
+    },
+    {
+      "slug": "multipl-e",
+      "name": "MultiPL-E",
+      "section": "代码",
+      "subfield": "多语言代码生成",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MultiPL-E；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 68
+    },
+    {
+      "slug": "mbpp",
+      "name": "MBPP",
+      "section": "代码",
+      "subfield": "Python基础编程",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MBPP；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 69
+    },
+    {
+      "slug": "cruxeval",
+      "name": "CRUXEval",
+      "section": "代码",
+      "subfield": "代码输入输出推断",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 CRUXEval；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 70
+    },
+    {
+      "slug": "livecodebench",
+      "name": "LiveCodeBench",
+      "section": "代码",
+      "subfield": "滚动编程竞赛评测",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 71
+    },
+    {
+      "slug": "fullstackbench",
+      "name": "FullStackBench",
+      "section": "代码",
+      "subfield": "全栈代码生成",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 FullStackBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
+        }
+      ],
+      "priority_rank": 72
+    },
+    {
+      "slug": "humanevalfix",
+      "name": "HumanEvalFix",
+      "section": "代码",
+      "subfield": "代码修复",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §3.3、附录11.1实际用 HumanEvalFix JavaScript 等代码修复任务评测科学轨迹训练迁移。"
+        }
+      ],
+      "priority_rank": 73
+    },
+    {
+      "slug": "swe-bench-verified",
+      "name": "SWE-bench Verified",
+      "section": "代码",
+      "subfield": "仓库级真实软件问题修复",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.20804v1",
+          "date": "2026-09-17",
+          "note": "Harness Design 研究§3.1实际使用500个人工核验GitHub问题，比较不同harness设置；不是同名SWE-Bench Pro Verified。"
+        }
+      ],
+      "priority_rank": 74
+    },
+    {
+      "slug": "terminal-bench",
+      "name": "Terminal-Bench",
+      "section": "代码",
+      "subfield": "终端环境长程任务",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28明确报告 Terminal-Bench 4.0 的评测结果；作为版本化套件只计一次。"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.20804v1",
+          "date": "2026-09-17",
+          "note": "H2 harness研究同时在 Terminal-Bench 2.1 的89个端到端CLI任务上实际开展实验，显示版本差异必须保留。"
+        }
+      ],
+      "priority_rank": 75
+    },
+    {
+      "slug": "frontiercode",
+      "name": "FrontierCode",
+      "section": "代码",
+      "subfield": "前沿代码Agent能力",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章明确报告 FrontierCode v1.1 的结果并将其纳入Coding Agent Index；独立机构评测。"
+        }
+      ],
+      "priority_rank": 76
+    },
+    {
+      "slug": "mmmu",
+      "name": "MMMU",
+      "section": "多模态",
+      "subfield": "跨学科多模态理解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 77
+    },
+    {
+      "slug": "mmbench",
+      "name": "MMBench",
+      "section": "多模态",
+      "subfield": "通用图文能力",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 78
+    },
+    {
+      "slug": "mathvista",
+      "name": "MathVista",
+      "section": "多模态",
+      "subfield": "视觉数学推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MathVista（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 79
+    },
+    {
+      "slug": "mathverse",
+      "name": "MathVerse",
+      "section": "多模态",
+      "subfield": "图解数学推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 80
+    },
+    {
+      "slug": "scienceqa",
+      "name": "ScienceQA",
+      "section": "多模态",
+      "subfield": "多模态科学问答",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 81
+    },
+    {
+      "slug": "chartqa",
+      "name": "ChartQA",
+      "section": "多模态",
+      "subfield": "图表问答",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 82
+    },
+    {
+      "slug": "charxiv",
+      "name": "CharXiv",
+      "section": "多模态",
+      "subfield": "真实科研图表理解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 83
+    },
+    {
+      "slug": "realworldqa",
+      "name": "RealWorldQA",
+      "section": "多模态",
+      "subfield": "真实世界视觉理解",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "date": "2026-10-22",
+          "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+        }
+      ],
+      "priority_rank": 84
+    },
+    {
+      "slug": "video-mme",
+      "name": "Video-MME",
+      "section": "多模态",
+      "subfield": "视频理解与长视频",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.16118v1",
+          "date": "2026-10-12",
+          "note": "Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。"
+        }
+      ],
+      "priority_rank": 85
+    },
+    {
+      "slug": "mmau",
+      "name": "MMAU",
+      "section": "多模态",
+      "subfield": "语音、声音与音乐理解推理",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.28879v1",
+          "date": "2026-09-24",
+          "note": "Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。"
+        }
+      ],
+      "priority_rank": 86
+    },
+    {
+      "slug": "gaia",
+      "name": "GAIA",
+      "section": "Agent",
+      "subfield": "通用助理与工具使用",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 GAIA 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+        }
+      ],
+      "priority_rank": 87
+    },
+    {
+      "slug": "agentbench",
+      "name": "AgentBench",
+      "section": "Agent",
+      "subfield": "交互式Agent综合能力",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+        }
+      ],
+      "priority_rank": 88
+    },
+    {
+      "slug": "webarena",
+      "name": "WebArena",
+      "section": "Agent",
+      "subfield": "网页任务执行",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+        }
+      ],
+      "priority_rank": 89
+    },
+    {
+      "slug": "bfcl",
+      "name": "Berkeley Function Calling Leaderboard (BFCL)",
+      "section": "Agent",
+      "subfield": "函数调用",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。"
+        }
+      ],
+      "priority_rank": 90
+    },
+    {
+      "slug": "tau-bench",
+      "name": "τ-bench",
+      "section": "Agent",
+      "subfield": "工具—Agent—用户交互",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "date": "2026-09-23",
+          "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 τ-bench（BFCL为v3），属于厂商自报评测。"
+        }
+      ],
+      "priority_rank": 91
+    },
+    {
+      "slug": "automationbench-aa",
+      "name": "AutomationBench-AA",
+      "section": "Agent",
+      "subfield": "长程自动化任务",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章明确列出 AutomationBench-AA 为 Intelligence Index v5 的评测组成并报告模型领先表现。"
+        }
+      ],
+      "priority_rank": 92
+    },
+    {
+      "slug": "aa-briefcase",
+      "name": "AA-Briefcase",
+      "section": "Agent",
+      "subfield": "职业知识工作与多交付物",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "date": "2026-10-28",
+          "note": "Artificial Analysis 2026-10-28文章实际报告 AA-Briefcase Elo以及Presentation、Analytical Quality等子维度结果；子维度不另计。"
+        }
+      ],
+      "priority_rank": 93
+    },
+    {
+      "slug": "core-bench",
+      "name": "CORE-Bench",
+      "section": "Agent",
+      "subfield": "科学计算结果复现Agent",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1及参考文献明确引用 CORE-Bench，讨论以已有研究结果复现为目标的评价；为H2学术引用。"
+        }
+      ],
+      "priority_rank": 94
+    },
+    {
+      "slug": "paperbench",
+      "name": "PaperBench",
+      "section": "Agent",
+      "subfield": "AI论文复现Agent",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "date": "2026-09-16",
+          "note": "ScienceIDE §4.1及参考文献明确引用 PaperBench，讨论以已有研究结果复现为目标的评价；为H2学术引用。"
+        }
+      ],
+      "priority_rank": 95
+    },
+    {
+      "slug": "truthfulqa",
+      "name": "TruthfulQA",
+      "section": "安全",
+      "subfield": "真实性与误解诱发的幻觉",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "date": "2026-10-08",
+          "note": "Jev 研究表1–2实际使用 TruthfulQA，并明确区分准确率与MC2等评价口径。"
+        }
+      ],
+      "priority_rank": 96
+    },
+    {
+      "slug": "harmbench",
+      "name": "HarmBench",
+      "section": "安全",
+      "subfield": "越狱、拒答与自动红队",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
+          "date": "2026-09-07",
+          "note": "An Empirical Measurement of Jailbreaking Evaluators 实际比较 HarmBench 等越狱评估器的行为及可靠性。"
+        }
+      ],
+      "priority_rank": 97
+    },
+    {
+      "slug": "strongreject",
+      "name": "StrongREJECT",
+      "section": "安全",
+      "subfield": "有害请求完成度与拒答评价",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
+          "date": "2026-09-07",
+          "note": "同一H2越狱评估器研究实际研究 StrongREJECT 评分及其可靠性。"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.18471v1",
+          "date": "2026-09-16",
+          "note": "First Token Matters 也明确使用 StrongReject 数据集分析推理模型安全崩塌。"
+        }
+      ],
+      "priority_rank": 98
+    },
+    {
+      "slug": "advbench",
+      "name": "AdvBench",
+      "section": "安全",
+      "subfield": "有害请求与越狱",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.18471v1",
+          "date": "2026-09-16",
+          "note": "First Token Matters §2–3明确使用 AdvBench 分析推理模型的拒答与首token安全失效。"
+        }
+      ],
+      "priority_rank": 99
+    },
+    {
+      "slug": "rag-safety-bench",
+      "name": "RAG-Safety-Bench",
+      "section": "安全",
+      "subfield": "检索增强系统安全",
+      "existing": false,
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
+          "date": "2026-09-10",
+          "note": "RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。"
+        }
+      ],
+      "priority_rank": 100
+    }
+  ],
+  "considered_but_dropped": [
+    {
+      "slug": "aime-2024",
+      "name": "AIME 2024",
+      "reason": "具备H2使用证据，但与AIME 2025合并为AIME一个版本化条目，避免按考试年份拆分凑数。",
+      "evidence_url": "https://arxiv.org/html/2609.27284v1"
+    },
+    {
+      "slug": "aime-2025",
+      "name": "AIME 2025",
+      "reason": "具备H2使用证据，归入AIME条目而非单独计数。",
+      "evidence_url": "https://arxiv.org/html/2609.27284v1"
+    },
+    {
+      "slug": "gpqa-diamond",
+      "name": "GPQA Diamond",
+      "reason": "具备H2使用证据，作为现有GPQA的子集保留，不与GPQA重复计数。",
+      "evidence_url": "https://arxiv.org/html/2610.11978v1"
+    },
+    {
+      "slug": "climatebench-v2",
+      "name": "ClimateBench v2",
+      "reason": "具备H2发布/使用证据，作为现有ClimateBench系列新版本记录，不另占100条名额。",
+      "evidence_url": "https://arxiv.org/html/2610.04558v1"
+    },
+    {
+      "slug": "astrobench-space-robotics",
+      "name": "AstroBench（free-floating space robotic manipulation）",
+      "reason": "检索发现的同名机器人基准不是现有AstroMLab天文问答AstroBench；本批不纳入，绝不拿它作为旧条目的H2证据。",
+      "evidence_url": "https://arxiv.org/abs/2610.31064"
+    },
+    {
+      "slug": "scieval-k12",
+      "name": "SciEval（K–12教学材料评价）",
+      "reason": "与现有Sun等科学研究SciEval同名但不同基准；本轮未建立独立H2使用证据，不以同名混淆计入。",
+      "evidence_url": "https://arxiv.org/abs/2604.25472"
+    },
+    {
+      "slug": "mceval",
+      "name": "McEval",
+      "reason": "具备H2使用证据，但100条名额优先分配给SWE-bench Verified等仓库级与当前前沿代码评测，并非已失效。",
+      "evidence_url": "https://arxiv.org/html/2609.27284v1"
+    },
+    {
+      "slug": "quixbugs",
+      "name": "QuixBugs",
+      "reason": "具备H2实际评测证据，但本批代码配额优先纳入FrontierCode与Terminal-Bench，不判为不活跃。",
+      "evidence_url": "https://arxiv.org/html/2609.19134v1"
+    },
+    {
+      "slug": "codexglue",
+      "name": "CodeXGLUE",
+      "reason": "具备H2使用证据，但本批优先当前前沿代码Agent评测；后续可扩充。",
+      "evidence_url": "https://arxiv.org/html/2609.19134v1"
+    },
+    {
+      "slug": "logicvista",
+      "name": "LogicVista",
+      "reason": "具备H2使用证据，多模态10条配额保留给视频、音频代表，避免只收图像。",
+      "evidence_url": "https://arxiv.org/html/2610.01352v2"
+    },
+    {
+      "slug": "visulogic",
+      "name": "VisuLogic",
+      "reason": "具备H2使用证据，多模态配额为Video-MME与MMAU让出，非活跃性不合格。",
+      "evidence_url": "https://arxiv.org/html/2610.01352v2"
+    },
+    {
+      "slug": "mma-safetybench",
+      "name": "MMA-SafetyBench",
+      "reason": "有2026-10-14原始论文线索，但当前安全配额优先已复用的成熟安全基准与RAG安全；未制作条目。",
+      "evidence_url": "https://arxiv.org/abs/2610.19384"
+    }
+  ],
+  "source_catalogue": [
+    {
+      "url": "https://arxiv.org/html/2609.20804v1",
+      "date": "2026-09-17",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "archived_text": "/workspace/research-h2/2609.20804.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.04915v1",
+      "date": "2026-10-04",
+      "title": "Are We Measuring Scientific Intelligence? Rethinking the Evaluation of AI Scientists",
+      "archived_text": "/workspace/research-h2/2610.04915.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.27297v2",
+      "date": "2026-09-30",
+      "title": "Large Knowledge Model: A Knowledge Foundation for Agentic Science at Scale",
+      "archived_text": "/workspace/research-h2/2609.27297.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.04558v1",
+      "date": "2026-10-03",
+      "title": "ClimateBench v2.0: Probabilistic Climate Model Benchmarking",
+      "archived_text": "/workspace/research-h2/2610.04558.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.32678v1",
+      "date": "2026-10-23",
+      "title": "Probing the limits of forward screening and inverse design of crystal materials",
+      "archived_text": "/workspace/research-h2/2610.32678.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.10594v1",
+      "date": "2026-09-07",
+      "title": "An Empirical Measurement of Jailbreaking Evaluators",
+      "archived_text": "/workspace/research-h2/2609.10594.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.06192v1",
+      "date": "2026-09-05",
+      "title": "SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores",
+      "archived_text": "/workspace/research-h2/2609.06192.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.16118v1",
+      "date": "2026-10-12",
+      "title": "Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding",
+      "archived_text": "/workspace/research-h2/2610.16118.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.13009v2",
+      "date": "2026-10-17",
+      "title": "How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks",
+      "archived_text": "/workspace/research-h2/2609.13009.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.06095v3",
+      "date": "2026-10-07",
+      "title": "Transmission Factors for Lossy Compression of PDE Training Data: Measuring What Reaches a Trained Operator",
+      "archived_text": "/workspace/research-h2/2610.06095.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.28639v1",
+      "date": "2026-08-11",
+      "title": "Reward-Oracle MCTS for Formal Theorem Proving: Sample-Efficient Search and the Need for Kernel-Level Proof Auditing",
+      "archived_text": "/workspace/research-h2/2608.28639.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19517v1",
+      "date": "2026-09-17",
+      "title": "Spatial Aggregation of ROC and Precision-Recall Curves",
+      "archived_text": "/workspace/research-h2/2609.19517.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19487v1",
+      "date": "2026-09-16",
+      "title": "ALIGNN 2.0: A Unified Line-Graph Neural Network Framework for Materials Screening, Force Fields, Inverse Design, Spectroscopy, and Microscopy",
+      "archived_text": "/workspace/research-h2/2609.19487.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.01352v2",
+      "date": "2026-10-22",
+      "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+      "archived_text": "/workspace/research-h2/2610.01352.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.21504v1",
+      "date": "2026-08-21",
+      "title": "ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robust Chemistry-LLM Evaluation",
+      "archived_text": "/workspace/research-h2/2608.21504.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.11617v1",
+      "date": "2026-10-08",
+      "title": "TAM: Task-Aware Memory Distillation for Efficient Spatiotemporal Prediction",
+      "archived_text": "/workspace/research-h2/2610.11617.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.11978v1",
+      "date": "2026-10-08",
+      "title": "Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks",
+      "archived_text": "/workspace/research-h2/2610.11978.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.35336v1",
+      "date": "2026-09-28",
+      "title": "TMCS: Tool-Grounded Multi-Agent Reasoning for Compositional Chemical Problem Solving",
+      "archived_text": "/workspace/research-h2/2609.35336.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.41350v1",
+      "date": "2026-10-30",
+      "title": "Operon-S1: a fast decision controller for long-horizon biomedical agents",
+      "archived_text": "/workspace/research-h2/2610.41350.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.21074v1",
+      "date": "2026-10-15",
+      "title": "OmicsBench: a long-horizon multi-turn benchmark of AI agents on research-study-scale bioinformatics",
+      "archived_text": "/workspace/research-h2/2610.21074.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.28879v1",
+      "date": "2026-09-24",
+      "title": "Broadening Uncertainty Estimation for Audio Question Answering Across Methods, Formats, and Inputs",
+      "archived_text": "/workspace/research-h2/2609.28879.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19134v1",
+      "date": "2026-09-16",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "archived_text": "/workspace/research-h2/2609.19134.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.18471v1",
+      "date": "2026-09-16",
+      "title": "First Token Matters: Understanding Safety Collapse in Large Reasoning Models",
+      "archived_text": "/workspace/research-h2/2609.18471.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.05351v3",
+      "date": "2026-11-03",
+      "title": "MEOX: Modality-Conditioned Routing Before Fusion in a Compact Earth Observation Encoder",
+      "archived_text": "/workspace/research-h2/2609.05351.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.19029v1",
+      "date": "2026-08-19",
+      "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+      "archived_text": "/workspace/research-h2/2608.19029.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.19657v1",
+      "date": "2026-10-14",
+      "title": "BioPRM: Step-Level Consistency Verification of Biological Protocols",
+      "archived_text": "/workspace/research-h2/2610.19657.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.27284v1",
+      "date": "2026-09-23",
+      "title": "Hunyuan-A13B Technical Report",
+      "archived_text": "/workspace/research-h2/2609.27284.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.17831v1",
+      "date": "2026-09-15",
+      "title": "Procedural Pretraining for Molecular Property Prediction",
+      "archived_text": "/workspace/research-h2/2609.17831.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30054v1",
+      "date": "2026-09-24",
+      "title": "SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback",
+      "archived_text": "/workspace/research-h2/2609.30054.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.11758v1",
+      "date": "2026-09-10",
+      "title": "RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety",
+      "archived_text": "/workspace/research-h2/2609.11758.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://aclanthology.org/2026.findings-acl.458.pdf",
+      "date": "2026-07",
+      "title": "PhysPRM: A Generative Process Reward Model with Fine-grained Diagnosis for Physics Problem Solving",
+      "archived_text": "/workspace/research-h2/2026.findings-acl.458.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://aclanthology.org/2026.emnlp-industry.5.pdf",
+      "date": "2026-10",
+      "title": "Lunar-R1: Efficient Reasoning of Large Language Models for Lunar Exploration via Reinforcement Learning",
+      "archived_text": "/workspace/research-h2/2026.emnlp-industry.5.txt",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://www.mdpi.com/2218-1997/12/10/296",
+      "date": "2026-09-30",
+      "title": "AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabilities in Astronomy",
+      "accessed": "2026-11-07"
+    },
+    {
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "date": "2026-10-28",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "archived_html": "/workspace/research-h2/aa-carbon.html",
+      "accessed": "2026-11-07"
+    }
+  ],
+  "access_notes": {
+    "drive_frontier_folder": "本轮通过Drive connector查询2026 Frontier Model Cards文件夹，返回空列表；不把这解读为整个Drive无报告。",
+    "drive_stepfun_folder": "本轮通过Drive connector列出StepFun Model Cards的8份PDF元数据；另打开Step-5-Preview官方Hugging Face模型卡。文件上传/修改时间未充当基准H2引用证据。"
+  }
+}

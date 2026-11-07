@@ -1,0 +1,634 @@
+{
+  "id": "gaia",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "GAIA",
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "GAIA: a benchmark for General AI Assistants",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "GAIA 原始466题；2023数据发布",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2023-11-22 05:34:47 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "通用助理与工具使用"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2311.12983",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/gaia-benchmark",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://huggingface.co/gaia-benchmark",
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "GAIA: a benchmark for General AI Assistants",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Meta FAIR / GenAI、Hugging Face 与 AutoGPT 作者团队（单位/项目口径）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Surge AI 提供有偿人工标注。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Mialon, Grégoire",
+        "Fourrier, Clémentine",
+        "Swift, Craig",
+        "Wolf, Thomas",
+        "LeCun, Yann",
+        "Scialom, Thomas"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "gaia-benchmark 官方 Hugging Face 组织",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "现实信息查找、多模态理解、网页访问、工具与多步推理结合的通用助理能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "人类容易完成但需要组合工具的任务，可能比孤立专业知识题更能揭示助理系统不足。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "人工设计可验证现实问题，答案通常短且明确，部分含附件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "研究作者与经付费招募的 Surge AI 标注者；不把所有出题人称专家。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "创建者之外两名独立验证者复核，不一致时修改或丢弃。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "力求唯一/稳定答案、可由人完成；按推理步数与工具复杂度设三档。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "避免答案可直接在网上纯文本检索到，隐藏测试答案；问题公开后仍可能进入后续训练。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "466道人工问题；166道development公开答案，300道test答案隐藏。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "短答案的开放问题，可能需网页、文件、视觉和计算。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本",
+        "图像及文件附件（视题）",
+        "工具/网页"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语为主。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "Level 1 / 2 / 3，依据步骤、工具数量与复杂性划分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "development166答案公开；test300问题可访问但答案不公开，用官方提交评测。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "准确率，按Level和总体报告。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "按答案类型规范化的准精确匹配；不以一般LLM长文评分代替。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原协议zero-shot；完整助理系统可以使用工具，必须报告工具、预算与附件处理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "validation与test、总体与各Level、多模态权限不同不可混排；不要把仅LLM和完整Agent系统分数等同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "GAIA 原始466题；2023数据发布",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §4.2及参考文献明确引用 GAIA 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Grégoire Mialon [ view email ] [v1] 2023-11-22 05:34:47 KST (3,688 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "网页内容与在线工具随时间变化、公开问题后续污染、答案规范化都会影响复现；原论文成绩不能当作当前能力上限。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+      "sources": [
+        {
+          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方Space已核实存在，但当前读取停在“Fetching metadata / Refreshing”，未得到可核验动态榜单行；不借历史数值冒称最新前三。",
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "H2 ScienceIDE仅在相关工作引用GAIA，不声称实际运行；官方动态排行榜结果待核实，尚未核实AA/Epoch/LMArena同口径覆盖。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "gmialon@meta.com",
+        "tscialom@meta.com",
+        "clementine@huggingface.co"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2311.12983",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "5bf6f968d4f5cd20acdfca6e81e3c9f5277bb66061fad7a02e35442dff812ba0",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 4254059,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.12983",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1XQ-wCiSOFqEob12_--TjaruKGF7D99rG",
+        "webViewLink": "https://drive.google.com/drive/folders/1XQ-wCiSOFqEob12_--TjaruKGF7D99rG"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1XQ-wCiSOFqEob12_--TjaruKGF7D99rG",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE",
+          "webViewLink": "https://docs.google.com/document/d/1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/gaia-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf",
+      "webViewLink": "https://drive.google.com/file/d/1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://huggingface.co/gaia-benchmark",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

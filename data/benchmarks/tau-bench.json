@@ -1,0 +1,645 @@
+{
+  "id": "tau-bench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "τ-bench",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "原始retail / airline协议；不与τ²混合",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2024-06-18 04:33:08 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "工具—Agent—用户交互"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2406.12045",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/sierra-research/tau-bench",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/sierra-research/tau-bench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/sierra-research/tau-bench",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Sierra",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "authors": {
+      "value": [
+        "Shunyu Yao",
+        "Noah Shinn",
+        "Pedram Razavi",
+        "Karthik Narasimhan"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Sierra Research / tau-bench团队",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "与用户多轮交流、调用数据库工具并遵守业务政策，稳定完成现实服务任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "单轮工具调用或固定计划不能测清楚持续用户交互、政策遵循与重复运行可靠性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "人工设计零售/航空业务政策、Python工具API和JSON数据库；模型辅助生成数据库内容，人工写任务场景。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Sierra研究团队；用户由语言模型模拟，不能称为真实客户对话。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "人工场景与多次agent运行迭代验证任务可行性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "以目标数据库终态及必要用户回复子串判断成功，检查无关/禁止变更。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "公开环境与任务可能被后续训练接触；模拟用户随机性不能替代去污染。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "原始retail测试115题、airline测试50题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "工具—Agent—用户多轮业务交互。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "文本对话",
+        "结构化数据库",
+        "函数调用"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语对话与Markdown政策；Python工具/JSON状态。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "跨政策、用户信息收集与多动作；原论文按领域报告，不假定统一难度配比。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "原始数据、工具、政策与评测代码公开；用户目标和金标准终态不展示给agent。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "pass^k（重复k次全成功），也报告平均成功率；与pass@k至少一次成功定义相反。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "终态数据库与金标准对比，加所需回复内容检查；不完整审计所有中间行为。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原实验agent温度0、user温度1、gpt-4-0613用户、最多30动作、至少3次试验。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/sierra-research/tau-bench",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "领域平均与按任务加权均值不同；user模型、次数、pass^k/pass@k及τ²/τ³版本必须区分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始retail / airline协议；不与τ²混合",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 τ-bench（BFCL为v3），属于厂商自报评测。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: Karthik Narasimhan [ view email ] [v1] 2024-06-18 04:33:08 KST (647 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "论文明确：终态奖励未检查全部规则，例如未确认就修改仍可能得1；成功率不等于完整政策遵从率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "τ²-Bench加入双控制电信等新环境，τ³/τ-Knowledge另扩展知识；与本条原始τ-bench分开注明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/sierra-research/tau-bench",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "GPT-4o",
+          "score": 48.2,
+          "metric": "领域平均成功率 (%)",
+          "benchmark_version": "原始retail/airline",
+          "result_type": "论文历史基线",
+          "source_date": "原始论文",
+          "collected_at": "2026-11-07 KST",
+          "settings": "两个领域等权；非165题任务加权"
+        },
+        {
+          "model": "Hunyuan-A13B slow-thinking",
+          "score": 54.7,
+          "metric": "报告中的τ-bench (%)",
+          "benchmark_version": "原始τ；具体聚合待核实",
+          "result_type": "厂商技术报告自报",
+          "source_date": "2026-09-23",
+          "collected_at": "2026-11-07 KST"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实"
+    },
+    "coverage_note": {
+      "value": "保留原始论文与H2自报，均不冒称当前全榜首；τ²-Bench Telecom属于不同环境，不能拿其AA成绩填本条。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/sierra-research/tau-bench/issues",
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "公开仓库反馈入口；未发送问题。"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2406.12045",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "0ce66a1763d698c61bb311c3c874bf593d1e9a5bfff11bb35f6f72b981f6da56",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 663224,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.12045",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1OSJJGGjM50lJjBWupTy-CH-8zprFfzC2",
+        "webViewLink": "https://drive.google.com/drive/folders/1OSJJGGjM50lJjBWupTy-CH-8zprFfzC2"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1OSJJGGjM50lJjBWupTy-CH-8zprFfzC2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ",
+          "webViewLink": "https://docs.google.com/document/d/1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/sierra-research/tau-bench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ",
+      "webViewLink": "https://drive.google.com/file/d/1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/sierra-research/tau-bench",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

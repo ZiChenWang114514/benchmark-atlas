@@ -1,15 +1,84 @@
 {
   "validated_date": "2026-11-07",
   "timezone": "Asia/Seoul",
-  "schema_valid_records": 24,
+  "schema_valid_records": 100,
   "per_section": {
-    "物理": 9,
-    "材料": 3,
-    "地球与天文": 5,
-    "化学": 3,
-    "生物与医学": 4
+    "物理": 12,
+    "化学": 4,
+    "生物与医学": 12,
+    "地球与天文": 6,
+    "材料": 6,
+    "语言": 12,
+    "推理": 7,
+    "数学": 7,
+    "代码": 10,
+    "多模态": 10,
+    "Agent": 9,
+    "安全": 5
   },
   "unknown_fields": {
+    "mmau": [
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "mathqa": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "minif2f": [
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "arc-challenge": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "c-eval": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.contamination_and_issues",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "bbh": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
     "scibench": [
       "basic_info.version",
       "basic_info.license",
@@ -79,6 +148,73 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "frontiercode": [
+      "basic_info.paper_version",
+      "basic_info.license",
+      "basic_info.paper_url",
+      "basic_info.code_url",
+      "basic_info.dataset_url",
+      "basic_info.paper_title",
+      "organization.funders",
+      "data_format.languages",
+      "evaluation.official_scripts",
+      "latest_status.paper_revision_history",
+      "leaderboard.coverage_note",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy",
+      "original_files.paper_pdf_url",
+      "original_files.sha256",
+      "original_files.pdf_bytes",
+      "drive_pdf"
+    ],
+    "realworldqa": [
+      "basic_info.version",
+      "basic_info.paper_version",
+      "basic_info.release_date",
+      "basic_info.paper_url",
+      "basic_info.code_url",
+      "basic_info.paper_title",
+      "organization.partners",
+      "organization.authors",
+      "organization.funders",
+      "construction.author_background",
+      "construction.decontamination",
+      "evaluation.official_scripts",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "original_files.paper_pdf_url",
+      "original_files.sha256",
+      "original_files.pdf_bytes",
+      "drive_pdf"
+    ],
+    "evalplus": [
+      "basic_info.dataset_url",
+      "organization.partners",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "mathverse": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
     "physicseval": [
       "basic_info.version",
       "basic_info.license",
@@ -101,6 +237,19 @@
       "leaderboard.third_party_url",
       "leaderboard.results",
       "contact.official_social"
+    ],
+    "drop": [
+      "basic_info.license",
+      "basic_info.code_url",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "evaluation.official_scripts",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy"
     ],
     "moleculenet": [
       "basic_info.version",
@@ -130,6 +279,68 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "chemdirt": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "baisbench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.initiators",
+      "organization.partners",
+      "organization.funders",
+      "data_format.public_hidden_split",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "swe-bench-verified": [
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "mmbench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "data_format.difficulty",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "biocoder": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
     "geo-bench": [
       "basic_info.version",
       "basic_info.license",
@@ -158,6 +369,75 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "atombench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "charxiv": [
+      "organization.partners",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "gaia": [
+      "basic_info.license",
+      "basic_info.code_url",
+      "organization.funders",
+      "evaluation.official_scripts",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "leaderboard.coverage_note",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "paperbench": [
+      "basic_info.dataset_url",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "multipl-e": [
+      "basic_info.version",
+      "basic_info.dataset_url",
+      "organization.partners",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "medqa": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.initiators",
+      "organization.partners",
+      "organization.funders",
+      "construction.author_background",
+      "construction.review_process",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
     "chemllmbench": [
       "basic_info.version",
       "basic_info.license",
@@ -180,6 +460,85 @@
       "leaderboard.third_party_url",
       "leaderboard.results",
       "contact.official_social"
+    ],
+    "chips-ff": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "construction.review_process",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "longbench-v2": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "genome-bench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "aqua-rat": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "genotex": [
+      "basic_info.version",
+      "organization.initiators",
+      "organization.partners",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "mmlu": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "agentbench": [
+      "basic_info.version",
+      "basic_info.dataset_url",
+      "organization.partners",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
     ],
     "ugphysics": [
       "basic_info.version",
@@ -253,6 +612,13 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "automationbench-aa": [
+      "basic_info.dataset_url",
+      "organization.funders",
+      "latest_status.saturation",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
     "phybench": [
       "basic_info.version",
       "basic_info.license",
@@ -271,6 +637,61 @@
       "latest_status.derivatives",
       "leaderboard.third_party_url",
       "contact.public_emails",
+      "contact.official_social"
+    ],
+    "mmmu": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "aa-briefcase": [
+      "basic_info.paper_version",
+      "basic_info.release_date",
+      "basic_info.license",
+      "basic_info.paper_url",
+      "basic_info.code_url",
+      "basic_info.paper_title",
+      "organization.partners",
+      "organization.funders",
+      "construction.author_background",
+      "evaluation.official_scripts",
+      "latest_status.paper_revision_history",
+      "latest_status.saturation",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy",
+      "original_files.paper_pdf_url",
+      "original_files.sha256",
+      "original_files.pdf_bytes",
+      "drive_pdf"
+    ],
+    "frontiermath": [
+      "basic_info.license",
+      "basic_info.code_url",
+      "organization.partners",
+      "organization.maintainer",
+      "evaluation.official_scripts",
+      "latest_status.saturation",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "ifeval": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.github_issues",
       "contact.official_social"
     ],
     "pubmedqa": [
@@ -302,6 +723,83 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "scigym": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "the-well": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.funders",
+      "construction.review_process",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "aa-omniscience": [
+      "basic_info.license",
+      "basic_info.code_url",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "data_format.languages",
+      "evaluation.official_scripts",
+      "latest_status.derivatives",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social"
+    ],
+    "core-bench": [
+      "basic_info.dataset_url",
+      "organization.partners",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "strongreject": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "aime": [
+      "basic_info.release_date",
+      "basic_info.license",
+      "basic_info.code_url",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "evaluation.official_scripts",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy",
+      "drive_pdf",
+      "original_files.paper_pdf_url",
+      "original_files.sha256",
+      "original_files.pdf_bytes"
+    ],
     "chembench": [
       "basic_info.version",
       "basic_info.license",
@@ -328,6 +826,16 @@
       "contact.github_issues",
       "contact.official_social"
     ],
+    "gsm8k": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
     "pdebench": [
       "basic_info.version",
       "basic_info.license",
@@ -352,6 +860,82 @@
       "contact.public_emails",
       "contact.official_social"
     ],
+    "medmcqa": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "construction.author_background",
+      "construction.review_process",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "harmbench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social"
+    ],
+    "winogrande": [
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "math": [
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.official_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "mmlu-redux": [
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "hle": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "mmlu-pro": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "data_format.public_hidden_split",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "contact.official_social"
+    ],
     "weatherbench": [
       "basic_info.version",
       "basic_info.license",
@@ -373,6 +957,35 @@
       "leaderboard.official_url",
       "leaderboard.third_party_url",
       "leaderboard.results",
+      "contact.official_social"
+    ],
+    "bfcl": [
+      "basic_info.release_date",
+      "organization.partners",
+      "organization.funders",
+      "data_format.size",
+      "data_format.difficulty",
+      "latest_status.paper_revision_history",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.coverage_note",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "frames": [
+      "basic_info.version",
+      "basic_info.code_url",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "evaluation.official_scripts",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.github_issues",
       "contact.official_social"
     ],
     "scieval": [
@@ -399,6 +1012,46 @@
       "contact.public_emails",
       "contact.official_social"
     ],
+    "omicsbench": [
+      "basic_info.version",
+      "basic_info.code_url",
+      "organization.initiators",
+      "organization.partners",
+      "organization.funders",
+      "data_format.languages",
+      "evaluation.official_scripts",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "livecodebench": [
+      "organization.partners",
+      "organization.funders",
+      "evaluation.comparability_warning",
+      "latest_status.saturation",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "ruler": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
     "weatherbench2": [
       "basic_info.version",
       "basic_info.license",
@@ -421,6 +1074,26 @@
       "leaderboard.results",
       "contact.public_emails",
       "contact.official_social"
+    ],
+    "cruxeval": [
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "zebralogic": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
     ],
     "matbench": [
       "basic_info.license",
@@ -459,6 +1132,52 @@
       "latest_status.contamination_and_issues",
       "latest_status.derivatives",
       "contact.public_emails",
+      "contact.official_social"
+    ],
+    "qmof": [
+      "basic_info.version",
+      "basic_info.release_date",
+      "organization.initiators",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.official_url",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy",
+      "original_files.paper_pdf_url",
+      "original_files.sha256",
+      "original_files.pdf_bytes",
+      "drive_pdf"
+    ],
+    "fullstackbench": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "construction.review_process",
+      "construction.decontamination",
+      "data_format.difficulty",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "truthfulqa": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
       "contact.official_social"
     ],
     "lab-bench": [
@@ -503,6 +1222,85 @@
       "leaderboard.third_party_url",
       "contact.official_social"
     ],
+    "tau-bench": [
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "terminal-bench": [
+      "basic_info.license",
+      "basic_info.dataset_url",
+      "organization.funders",
+      "latest_status.saturation",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "hellaswag": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "astrommbench": [
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "rag-safety-bench": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.maintainer",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "mbpp": [
+      "basic_info.license",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "chartqa": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "data_format.difficulty",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "leaderboard.third_party_url"
+    ],
+    "mathvista": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
     "climatebench": [
       "basic_info.paper_version",
       "basic_info.license",
@@ -525,6 +1323,48 @@
       "leaderboard.third_party_url",
       "leaderboard.results",
       "contact.official_social"
+    ],
+    "mmlu-prox": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.maintainer",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.contamination_and_issues",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "mmmlu": [
+      "basic_info.version",
+      "basic_info.paper_version",
+      "basic_info.release_date",
+      "organization.partners",
+      "organization.authors",
+      "organization.funders",
+      "construction.decontamination",
+      "evaluation.prompt_settings",
+      "latest_status.latest_dataset_version",
+      "latest_status.paper_revision_history",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "scienceide-hard": [
+      "basic_info.version",
+      "basic_info.license",
+      "basic_info.dataset_url",
+      "organization.partners",
+      "organization.funders",
+      "latest_status.latest_dataset_version",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.official_social",
+      "contact.privacy_policy"
     ],
     "scicode": [
       "basic_info.version",
@@ -564,6 +1404,96 @@
       "leaderboard.official_url",
       "leaderboard.third_party_url",
       "contact.official_social"
+    ],
+    "sysbench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.decontamination",
+      "data_format.languages",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.contamination_and_issues",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "humanevalfix": [
+      "organization.partners",
+      "organization.funders",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "leaderboard.coverage_note",
+      "contact.public_emails",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "scirigor": [
+      "basic_info.version",
+      "basic_info.license",
+      "basic_info.code_url",
+      "basic_info.dataset_url",
+      "organization.initiators",
+      "organization.partners",
+      "organization.maintainer",
+      "organization.funders",
+      "construction.author_background",
+      "data_format.languages",
+      "data_format.public_hidden_split",
+      "evaluation.official_scripts",
+      "latest_status.latest_dataset_version",
+      "latest_status.contamination_and_issues",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.public_emails",
+      "contact.github_issues",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "video-mme": [
+      "basic_info.version",
+      "organization.partners",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
+    ],
+    "advbench": [
+      "basic_info.version",
+      "basic_info.license",
+      "organization.partners",
+      "organization.maintainer",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "leaderboard.results",
+      "contact.public_emails",
+      "contact.official_social"
+    ],
+    "webarena": [
+      "organization.partners",
+      "latest_status.saturation",
+      "leaderboard.third_party_url",
+      "contact.official_social",
+      "contact.privacy_policy"
+    ],
+    "scienceqa": [
+      "basic_info.version",
+      "organization.partners",
+      "organization.funders",
+      "construction.decontamination",
+      "latest_status.latest_dataset_version",
+      "latest_status.saturation",
+      "latest_status.derivatives",
+      "leaderboard.third_party_url",
+      "contact.official_social"
     ]
   },
   "deferred": [
@@ -581,12 +1511,86 @@
     }
   ],
   "excluded_as_nonexistent": [],
-  "pdf_uploads": 24,
-  "google_doc_verified": true,
-  "google_sheet_verified": true,
+  "pdf_uploads": 95,
+  "google_doc_verified": "继承各批次验证记录；本次没有重新读回100份Doc",
+  "google_sheet_verified": false,
   "daily_automation_configured": false,
   "github_push_performed": false,
-  "unknown_field_count": 507,
-  "google_intro_docs_uploaded": 24,
-  "pdf_presence_and_size_verified": 24
+  "unknown_field_count": 1278,
+  "google_intro_docs_uploaded": 100,
+  "pdf_presence_and_size_verified": "继承批次记录；本次未重新逐份核验",
+  "unknown_count_method": "仅统计field包装对象status=待核实或value=待核实；不重复计算内嵌文字。",
+  "pending_materials": [
+    {
+      "slug": "qmof",
+      "status": "待核实",
+      "reason": "原始2021论文PDF的公开下载入口本轮被站点拦截；未用别篇论文冒充。",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "slug": "aime",
+      "status": "待核实",
+      "reason": "AIME无单一原始论文；官方支持PDF下载403，本轮未上传PDF，不用其他竞赛资料冒充",
+      "sources": [
+        {
+          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "slug": "frontiercode",
+      "status": "待核实",
+      "reason": "官方方法页已核实，未找到独立原始论文 PDF；不伪造论文附件。",
+      "sources": [
+        {
+          "url": "https://cognition.com/frontiercode",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "slug": "realworldqa",
+      "status": "待核实",
+      "reason": "未核实独立官方论文PDF；不上传其他论文作为本条原件。",
+      "sources": [
+        {
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "slug": "aa-briefcase",
+      "status": "待核实",
+      "reason": "官方方法页已核实，未找到独立原始论文 PDF；不伪造论文附件。",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  ],
+  "batch_counts": {
+    "code-agent": 19,
+    "reason-math": 14,
+    "lang-safety": 17,
+    "multimodal": 10,
+    "sci": 16
+  },
+  "integration_conflicts": [],
+  "news_count": 26,
+  "news_rejected": [],
+  "all_cited_2026h2": true,
+  "slug_unique": true,
+  "canonical_sections_valid": true,
+  "shortlist_slug_match": true,
+  "google_sheet_integration_status": "76行追加草稿已准备；未执行外部写入",
+  "repository_applied": false
 }

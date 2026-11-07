@@ -1,0 +1,849 @@
+{
+  "id": "mmmu",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "basic_info": {
+    "name": {
+      "value": "MMMU",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Massive Multi-discipline Multimodal Understanding and Reasoning",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
+      "status": "待核实"
+    },
+    "paper_version": {
+      "value": "arXiv v4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2023-11-27",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+    },
+    "section": {
+      "value": "多模态",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
+    },
+    "subfields": {
+      "value": [
+        "跨学科多模态理解"
+      ],
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "Apache-2.0（官方HF元数据；原图/题目来源权利仍须逐项尊重）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU/blob/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2311.16502",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/MMMU-Benchmark/MMMU",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/MMMU/MMMU",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://mmmu-benchmark.github.io/",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文作者单位包括 IN.AI Research、滑铁卢大学、俄亥俄州立大学、卡内基梅隆大学、维多利亚大学、普林斯顿大学及独立研究者；作者单位不等于独占发起权。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "authors": {
+      "value": [
+        "Yue, Xiang",
+        "Ni, Yuansheng",
+        "Zhang, Kai",
+        "Zheng, Tianyu",
+        "Liu, Ruoqi",
+        "Zhang, Ge",
+        "Stevens, Samuel",
+        "Jiang, Dongfu",
+        "Ren, Weiming",
+        "Sun, Yuxuan",
+        "Wei, Cong",
+        "Yu, Botao",
+        "Yuan, Ruibin",
+        "Sun, Renliang",
+        "Yin, Ming",
+        "Zheng, Boyuan",
+        "Yang, Zhenzhu",
+        "Liu, Yibo",
+        "Huang, Wenhao",
+        "Sun, Huan",
+        "Su, Yu",
+        "Chen, Wenhu"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "MMMU-Benchmark 官方仓库团队（当前具体个人职责待核实）",
+      "sources": [
+        {
+          "url": "https://github.com/MMMU-Benchmark/MMMU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "大学及专业学科图文感知、知识调用与审慎推理。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "既有图文评测偏日常常识，难覆盖异质专业图像和大学学科知识。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "多学科大学生及共同作者从考试、测验、教材、讲义和在线资源人工收集问题；必要时依据专业知识编写题目。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "来自不同学科的大学生、共同作者及专业领域标注者。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "使用图像散列和文本相似性筛查疑似重复，由作者复查；再交叉检查格式、拼写和答案质量。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "使用图像散列和文本相似性筛查疑似重复，由作者复查；再交叉检查格式、拼写和答案质量。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "选择答案不易直接在问题来源旁获得的题；去重与隐藏答案（历史方案）不能保证模型训练无污染。2026-02-12 test答案已公开。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "论文口径约11.5K题；六大学科、30个科目、183个子领域、30种图像类型。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多项选择与开放式问答；文本与一个或多个图像交错。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "图像+文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "sources": [
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "论文报告 Easy:Medium:Hard = 28%:45%:27%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "论文划分 dev 150、validation 900、test 10,500；官网2026-02-12公告已公开test答案，不能继续把test称为隐藏答案集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "答案准确率；选择题与开放问答按官方答案解析和匹配规则计分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "答案准确率；选择题与开放问答按官方答案解析和匹配规则计分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "官网说明采用zero-shot；有模型官方任务提示时使用其默认提示，否则在validation上选择提示。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/MMMU-Benchmark/MMMU",
+      "sources": [
+        {
+          "url": "https://github.com/MMMU-Benchmark/MMMU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validation 85.4与2026年MMVistaReason论文表2的GPT-5.1 77.6不是同协议复测，不能择优拼接。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "2026-02-12官网公告开放test答案；正式数据版本号待核实。",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2023-11-28T02:33:21+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2023-12-18T12:47:39+09:00"
+          },
+          {
+            "version": "v3",
+            "date_kst": "2023-12-21T13:06:49+09:00"
+          },
+          {
+            "version": "v4",
+            "date_kst": "2024-06-14T00:02:39+09:00"
+          }
+        ],
+        "continued_use_2026h2": [
+          {
+            "url": "https://arxiv.org/html/2610.01352v2",
+            "date": "2026-10-22",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+          }
+        ],
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "contamination_and_issues": {
+      "value": "MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validation 85.4与2026年MMVistaReason论文表2的GPT-5.1 77.6不是同协议复测，不能择优拼接。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "MMMU-Pro是独立增强版；AA当前追踪其独立结果，不挪作MMMU成绩。2026-11-07可读AA页面：Gemini 4 Carbon (Medium) 89%、Claude Opus 5.5 (Max, Default Fallback) 88%、GPT-6 Astra (Max) 87%，仅作衍生版上下文。",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mmmu-pro",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://mmmu-benchmark.github.io/#leaderboard",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "GPT-5.1",
+          "score": 85.4,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "MMMU validation；官网标注source=author",
+          "date": "2025-11-13",
+          "accessed": "2026-11-07",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+        },
+        {
+          "model": "DreamPRM-1.5 (GPT-5-mini w/ thinking)",
+          "score": 84.6,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "MMMU validation；官网标注source=author",
+          "date": "2025-09-05",
+          "accessed": "2026-11-07",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+        },
+        {
+          "model": "GPT-5 w/ thinking",
+          "score": 84.2,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "MMMU validation；官网标注source=author",
+          "date": "2025-08-07",
+          "accessed": "2026-11-07",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-4B (MVR-4B)",
+          "score": 71.8,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MMMU val",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+        },
+        {
+          "model": "MMVistaReason-9B (MVR-9B)",
+          "score": 73.6,
+          "unit": "%",
+          "metric": "论文协议答案正确率（CompassVerifier）",
+          "scope": "MMMU val",
+          "date": "2026-10-22",
+          "accessed": "2026-11-07",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": [
+        "xiangyue.work@gmail.com",
+        "su.809@osu.edu",
+        "wenhuchen@uwaterloo.ca"
+      ],
+      "sources": [
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+    },
+    "github_issues": {
+      "value": "https://github.com/MMMU-Benchmark/MMMU/issues",
+      "sources": [
+        {
+          "url": "https://github.com/MMMU-Benchmark/MMMU",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "status": "待核实",
+      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+    },
+    "privacy_policy": {
+      "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
+      "sources": [
+        {
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2311.16502",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "下载原始字节校验，未压缩、未改写。"
+    },
+    "pdf_bytes": {
+      "value": 16874947,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7",
+        "webViewLink": "https://drive.google.com/drive/folders/1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "kind": "中文介绍 Google Doc",
+          "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg",
+          "webViewLink": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm",
+      "webViewLink": "https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2311.16502",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://mmmu-benchmark.github.io/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}

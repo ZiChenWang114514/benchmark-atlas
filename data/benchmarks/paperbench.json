@@ -1,0 +1,667 @@
+{
+  "id": "paperbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "basic_info": {
+    "name": {
+      "value": "PaperBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "PaperBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+    },
+    "version": {
+      "value": "原始20篇ICML2024论文套件",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文修订版本不等同数据集版本。"
+    },
+    "release_date": {
+      "value": "2025-04-03 00:55:24 KST",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+    },
+    "subfields": {
+      "value": [
+        "AI论文复现Agent"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "license": {
+      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "sources": [
+        {
+          "url": "https://github.com/openai/frontier-evals",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2504.01848",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/openai/frontier-evals",
+      "sources": [
+        {
+          "url": "https://github.com/openai/frontier-evals",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "论文链接openai/preparedness；本次GitHub元数据请求跳转至openai/frontier-evals。仓库根代码许可不自动等同每篇论文及rubric许可。"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://openai.com/index/paperbench/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "partners": {
+      "value": "被复现ICML论文作者共同制定rubric并签核；不意味着共同维护整个benchmark。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Starace, Giulio",
+        "Jaffe, Oliver",
+        "Sherburn, Dane",
+        "Aung, James",
+        "Chan, Jun Shern",
+        "Maksin, Leon",
+        "Dias, Rachel",
+        "Mays, Evan",
+        "Kinsella, Benjamin",
+        "Thompson, Wyatt",
+        "Heidecke, Johannes",
+        "Glaese, Amelia",
+        "Patwardhan, Tejal"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "OpenAI Preparedness / PaperBench团队",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "从论文理解贡献、从零开发代码、执行实验并复现现代AI研究。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "已有科研代码重跑与孤立ML竞赛不能充分测量端到端从论文重建实验的科研工程能力。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "20篇ICML2024 spotlight/oral论文，覆盖12个主题；另设2篇NeurIPS workshop开发论文和内部holdout。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "OpenAI研究团队与原论文作者共同分解复现目标。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "层级rubric与原作者协作，多轮内部审查、澄清addendum，最终作者签核。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "8,316个可独立评分叶节点；新VM执行reproduce.sh后裁判评分；另用JudgeEval测裁判。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "禁止访问原作者仓库与其他复现；论文报告646次尝试中10次违规被取消，不能排除预训练中记忆代码。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "20篇正式论文、8,316个评分叶节点；叶节点不是8,316个独立论文复现任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "长程科研编程与实验执行；提交代码/文件，再按层级rubric检查。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "modalities": {
+      "value": [
+        "论文文本/图表",
+        "代码",
+        "实验数据与输出"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语论文与说明；代码语言/框架随论文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "原论文复现多小时预算；BasicAgent与IterativeAgent、12h/36h条件不同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开论文、rubric与评测代码，另有开发论文与内部保留集；正式20篇不可和开发集混合。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "Replication Score：叶节点二元判定后按层级权重聚合，再对论文平均。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "先在fresh VM运行reproduce.sh，裁判据执行结果与代码核验；Code-Dev跳过运行，不能替代完整Replication。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "原论文自动裁判o3-mini-2025-01-31 high；不同agent scaffold、工具和实验预算分别记录。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/openai/preparedness",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "BasicAgent21%与IterativeAgent24–26%并非仅模型能力变化；CodeDev、预算、judge版本、标准误和论文子集必须注明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "version": "原始20篇ICML2024论文套件",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.19134v1",
+            "date": "2026-09-16",
+            "note": "ScienceIDE §4.1及参考文献明确引用 PaperBench，讨论以已有研究结果复现为目标的评价；为H2学术引用。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.19134v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+    },
+    "paper_revision_history": {
+      "value": "Submission history From: James Aung [ view email ] [v1] 2025-04-03 00:55:24 KST (4,982 KB) [v2] 2025-04-04 21:44:57 KST (4,982 KB) [v3] 2025-04-07 21:15:49 KST (4,982 KB)",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "自动裁判不完美且非确定；原论文JudgeEval F1约0.83。公开论文/禁用仓库可能仍在预训练中；禁止检索不等于排除记忆。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "PaperBench Code-Dev省略运行，是独立口径；JudgeEval评价裁判，不当作更多论文复现题计数。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-07 KST / Asia/Seoul",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://openai.com/index/paperbench/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "model": "BasicAgent + Claude 3.5 Sonnet 20241022",
+          "score": 21,
+          "metric": "Replication Score (%)",
+          "benchmark_version": "20论文",
+          "result_type": "论文历史基线",
+          "source_date": "2025-04",
+          "collected_at": "2026-11-07 KST",
+          "uncertainty": "±0.8百分点"
+        },
+        {
+          "model": "BasicAgent + o1-2024-12-17 high",
+          "score": 13.2,
+          "metric": "Replication Score (%)",
+          "benchmark_version": "20论文",
+          "result_type": "论文历史基线",
+          "source_date": "2025-04",
+          "collected_at": "2026-11-07 KST",
+          "uncertainty": "±0.3百分点"
+        },
+        {
+          "model": "IterativeAgent + o1-2024-12-17 high",
+          "score": 24.4,
+          "metric": "Replication Score (%)",
+          "benchmark_version": "20论文/12小时",
+          "result_type": "论文历史基线",
+          "source_date": "2025-04",
+          "collected_at": "2026-11-07 KST",
+          "uncertainty": "±0.7百分点"
+        },
+        {
+          "model": "IterativeAgent + o1-2024-12-17 high",
+          "score": 26,
+          "metric": "Replication Score (%)",
+          "benchmark_version": "20论文/36小时",
+          "result_type": "论文历史基线",
+          "source_date": "2025-04",
+          "collected_at": "2026-11-07 KST",
+          "uncertainty": "±0.3百分点"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "所有结果为原论文设置的历史实验，不冒称2026当前SOTA；H2 ScienceIDE引用PaperBench作科学研究复现先行基准，没有在其上实跑。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/openai/frontier-evals/issues",
+      "sources": [
+        {
+          "url": "https://github.com/openai/frontier-evals",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2504.01848",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
+    },
+    "sha256": {
+      "value": "2f58f1a6581af9d99432422dccf3cf61f5c263377c1e4550e7333c4a22d7184d",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "pdf_bytes": {
+      "value": 1703363,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2504.01848",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+    },
+    "drive_folder": {
+      "value": {
+        "id": "1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c",
+        "webViewLink": "https://drive.google.com/drive/folders/1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c"
+      },
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/folders/1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "中文介绍Google Doc",
+          "id": "1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE",
+          "webViewLink": "https://docs.google.com/document/d/1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE/edit?usp=drivesdk"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/paperbench/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/document/d/1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE/edit?usp=drivesdk",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
+    }
+  },
+  "drive_pdf": {
+    "value": {
+      "id": "1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk",
+      "webViewLink": "https://drive.google.com/file/d/1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk/view?usp=drivesdk"
+    },
+    "sources": [
+      {
+        "url": "https://drive.google.com/file/d/1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk/view?usp=drivesdk",
+        "accessed": "2026-11-07"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://openai.com/index/paperbench/",
+        "accessed": "2026-11-07"
+      }
+    ]
+  }
+}
