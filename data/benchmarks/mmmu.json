@@ -1,18 +1,18 @@
 {
   "id": "mmmu",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第二轮主源/论文/分轨成绩复核完成；已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
   "basic_info": {
     "name": {
       "value": "MMMU",
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -21,54 +21,55 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原版MMMU；官网已于2026-02-12发布test答案。官方未单列语义版本，不能用论文v4代替数据版本。",
       "sources": [
         {
-          "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v4",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2023-11-27",
+      "value": "2023-11-28 02:33:21 KST（arXiv v1；源站UTC日期为2023-11-27）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+      ]
     },
     "section": {
       "value": "多模态",
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。"
@@ -80,11 +81,11 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -102,11 +103,11 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -115,11 +116,11 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -128,11 +129,11 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/MMMU/MMMU",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -141,11 +142,11 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -154,7 +155,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -165,11 +166,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -178,11 +179,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -216,7 +217,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -225,7 +226,7 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -234,11 +235,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -251,11 +252,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -264,11 +265,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -279,20 +280,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "来自不同学科的大学生、共同作者及专业领域标注者。",
+      "value": "论文收集阶段由50名不同学科大学生（含共同作者）参与；人类表现评测另用90名对应学科学生专家，每学科3人；两批人数含义不同。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -301,7 +302,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -314,7 +315,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -327,26 +328,37 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "data_format": {
     "size": {
-      "value": "论文口径约11.5K题；六大学科、30个科目、183个子领域、30种图像类型。",
+      "value": {
+        "questions": 11550,
+        "dev": 150,
+        "validation": 900,
+        "test": 10500,
+        "disciplines": 6,
+        "subjects": 30,
+        "subfields": 183,
+        "image_types_paper_v4": 30,
+        "image_types_current_readme": 32,
+        "conflict": "论文v4表1和正文为30类图像，当前README写32类；未提供逐类映射/修订解释，不静默统一。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/datasets/MMMU/MMMU",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -355,7 +367,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -368,24 +380,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "languages": {
-      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "value": "英语；论文附录题目收集规范明确要求All questions should be written in English。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/MMMU/MMMU",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -394,7 +402,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -407,7 +415,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -422,7 +430,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -435,7 +443,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -452,7 +460,7 @@
         },
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -470,7 +478,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
@@ -478,27 +486,28 @@
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。"
     },
     "latest_dataset_version": {
-      "value": "2026-02-12官网公告开放test答案；正式数据版本号待核实。",
+      "value": "原版MMMU；2026-02-12答案开放，2026-07-28新增EvalScope社区工作流。后者默认ModelScope镜像的900题validation、0-shot，并非官方test协议替代品。",
       "sources": [
         {
-          "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -522,23 +531,36 @@
             "date_kst": "2024-06-14T00:02:39+09:00"
           }
         ],
+        "repository_news": [
+          {
+            "date": "2026-02-12",
+            "change": "开放test答案"
+          },
+          {
+            "date": "2026-07-28",
+            "change": "新增社区维护的EvalScope第三方集成"
+          }
+        ],
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-22",
             "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
           }
-        ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        ]
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -547,54 +569,54 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validation 85.4与2026年MMVistaReason论文表2的GPT-5.1 77.6不是同协议复测，不能择优拼接。",
+      "value": "dev可作few-shot，validation用于提示/超参数调试，test现已公开答案；不能继续标成隐藏测试。图像类型数有论文30/README32的文档冲突。EvalScope默认900题validation与官方10500题test必须分轨。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://raw.githubusercontent.com/MMMU-Benchmark/MMMU/main/README.md",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "MMMU-Pro是独立增强版；AA当前追踪其独立结果，不挪作MMMU成绩。2026-11-07可读AA页面：Gemini 4 Carbon (Medium) 89%、Claude Opus 5.5 (Max, Default Fallback) 88%、GPT-6 Astra (Max) 87%，仅作衍生版上下文。",
+      "value": "MMMU-Pro是过滤文本捷径、扩展选项并添加Vision模式的独立增强版；官网还链接Video-MMMU。衍生版不作为原版MMMU同分母结果。",
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://artificialanalysis.ai/evaluations/mmmu-pro",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08",
       "sources": [
         {
-          "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -603,7 +625,7 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -621,37 +643,360 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "GPT-5.1",
           "score": 85.4,
-          "unit": "%",
+          "track": "MMMU官方JSON / validation",
           "metric": "accuracy",
-          "scope": "MMMU validation；官网标注source=author",
-          "date": "2025-11-13",
-          "accessed": "2026-11-07",
+          "unit": "%",
           "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
-          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+          "accessed": "2026-11-08",
+          "source_date": "2025-11-13",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
         },
         {
+          "rank": 2,
           "model": "DreamPRM-1.5 (GPT-5-mini w/ thinking)",
           "score": 84.6,
-          "unit": "%",
+          "track": "MMMU官方JSON / validation",
           "metric": "accuracy",
-          "scope": "MMMU validation；官网标注source=author",
-          "date": "2025-09-05",
-          "accessed": "2026-11-07",
+          "unit": "%",
           "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
-          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+          "accessed": "2026-11-08",
+          "source_date": "2025-09-05",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
         },
         {
+          "rank": 3,
           "model": "GPT-5 w/ thinking",
           "score": 84.2,
-          "unit": "%",
+          "track": "MMMU官方JSON / validation",
           "metric": "accuracy",
-          "scope": "MMMU validation；官网标注source=author",
-          "date": "2025-08-07",
-          "accessed": "2026-11-07",
+          "unit": "%",
           "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
-          "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+          "accessed": "2026-11-08",
+          "source_date": "2025-08-07",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 2.5 Pro Deep-Think",
+          "score": 84.0,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-05-20",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 5,
+          "model": "o3",
+          "score": 82.9,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-04-16",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 6,
+          "model": "o4-mini",
+          "score": 81.6,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-04-16",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 7,
+          "model": "Claude Opus 4.5",
+          "score": 80.7,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-11-24",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 8,
+          "model": "dots.vlm1",
+          "score": 80.1,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-08-05",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 9,
+          "model": "Gemini 2.5 Flash 05-20",
+          "score": 79.7,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-05-20",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 10,
+          "model": "Gemini 2.5 Pro 05-06",
+          "score": 79.6,
+          "track": "MMMU官方JSON / validation",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-05-06",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 1,
+          "model": "KiQ-v0",
+          "score": 65.9,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-08-31",
+          "source_type": "官方收录，未逐项标注source",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "64.6",
+            "business": "78.3",
+            "science": "62.7",
+            "healthMedicine": "68.3",
+            "humanSocialSci": "72.1",
+            "techEng": "59.3"
+          }
+        },
+        {
+          "rank": 2,
+          "model": "InternVL2.5-78B",
+          "score": 61.8,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-12-05",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 3,
+          "model": "Spark4.0-Turbo",
+          "score": 60.3,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2025-01-22",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "67.4",
+            "business": "66.8",
+            "science": "53.0",
+            "healthMedicine": "68.4",
+            "humanSocialSci": "80.3",
+            "techEng": "48.6"
+          }
+        },
+        {
+          "rank": 4,
+          "model": "TeleMM",
+          "score": 58.2,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-11-18",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "69.4",
+            "business": "61.8",
+            "science": "51.6",
+            "healthMedicine": "65.9",
+            "humanSocialSci": "78.1",
+            "techEng": "45.9"
+          }
+        },
+        {
+          "rank": 5,
+          "model": "InternVL2.5-38B",
+          "score": 57.6,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-12-05",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {}
+        },
+        {
+          "rank": 6,
+          "model": "GPT-4V(ision) (Playground)",
+          "score": 56.1,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2023-11-27",
+          "source_type": "官方收录，未逐项标注source",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "65.5",
+            "business": "65.5",
+            "science": "49.2",
+            "healthMedicine": "63.3",
+            "humanSocialSci": "76.3",
+            "techEng": "41.5"
+          }
+        },
+        {
+          "rank": 7,
+          "model": "InternVL2-Pro",
+          "score": 55.7,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-07-04",
+          "source_type": "官方收录，未逐项标注source",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "67.4",
+            "business": "52.4",
+            "science": "48.3",
+            "healthMedicine": "63.2",
+            "humanSocialSci": "78.0",
+            "techEng": "46.6"
+          }
+        },
+        {
+          "rank": 8,
+          "model": "NVLM-D 1.0 78B",
+          "score": 54.6,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-09-17",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "66.0",
+            "business": "49.4",
+            "science": "47.3",
+            "healthMedicine": "60.5",
+            "humanSocialSci": "77.8",
+            "techEng": "47.0"
+          }
+        },
+        {
+          "rank": 9,
+          "model": "NVLM-H 1.0 78B",
+          "score": 53.0,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-09-17",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "64.8",
+            "business": "48.9",
+            "science": "46.4",
+            "healthMedicine": "58.7",
+            "humanSocialSci": "73.9",
+            "techEng": "45.2"
+          }
+        },
+        {
+          "rank": 10,
+          "model": "NVILA",
+          "score": 51.8,
+          "track": "MMMU官方JSON / test",
+          "metric": "accuracy",
+          "unit": "%",
+          "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08",
+          "source_date": "2024-11-20",
+          "source_type": "author",
+          "rank_type": "本次同split所列成绩顺序；非统计显著性排名",
+          "settings": "按官方JSON原模型标签；工具、提示设置不一，不证明同协议独立复测",
+          "subject_scores": {
+            "artDesign": "63.2",
+            "business": "54.6",
+            "science": "42.9",
+            "healthMedicine": "57.0",
+            "humanSocialSci": "73.7",
+            "techEng": "42.7"
+          }
         },
         {
           "model": "MMVistaReason-4B (MVR-4B)",
@@ -660,9 +1005,11 @@
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "MMMU val",
           "date": "2026-10-22",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "track": "MMVistaReason表2 / MMMU val / CompassVerifier",
+          "rank": null
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -671,28 +1018,34 @@
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "MMMU val",
           "date": "2026-10-22",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "track": "MMVistaReason表2 / MMMU val / CompassVerifier",
+          "rank": null
         }
       ],
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "官网静态页Last updated为09/05/2025，但官方JSON含更晚日期；不把静态页日期当作所有结果日期。本条前三为原始MMMU validation（85.4/84.6/84.2），不包含MMMU-Pro；MMVistaReason研究复测单列，不能跨协议混排。",
+      "value": "新增官方validation与test各前10条，按split单列；不把source=author自报写成独立评测。保留MMVistaReason论文的两条独立协议结果。官方JSON模型date为记录日期，不推断为运行日期。官网静态Last updated与JSON内日期不同，不把网页存活当成绩新近性。",
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -707,7 +1060,7 @@
       "sources": [
         {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
@@ -722,19 +1075,13 @@
       ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://twitter.com/xiangyue96/status/1729698316554801358（项目主页链接的发布帖）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -752,11 +1099,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -765,7 +1112,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "下载原始字节校验，未压缩、未改写。"
@@ -775,7 +1122,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.16502",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -797,12 +1144,75 @@
           "kind": "中文介绍 Google Doc",
           "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg",
           "webViewLink": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08"
         }
       ],
       "sources": [
         {
           "url": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.16502",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2311.16502",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/MMMU/MMMU",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -830,16 +1240,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST, UTC+9)",
+        "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2311.16502",
-        "accessed": "2026-11-07"
-      },
-      {
         "url": "https://mmmu-benchmark.github.io/",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

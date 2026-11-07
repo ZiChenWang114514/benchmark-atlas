@@ -1,6 +1,10 @@
 # PDEBench
 
-> 本页依据官方材料中文整理；核验日期 2026-11-07（KST）。历史实验不代表当前 SOTA；待核实不等于未公开。
+> Benchmark Constitution · 本轮核验 2026-11-08 KST（Asia/Seoul）。未知保持“待核实”；访问日不等于实验日。
+
+PDEBench是科学机器学习的数值场预测与逆问题套件，不是LLM物理问答准确率榜。其核心是可生成、可归档的多方程模拟数据和物理诊断误差；本轮补齐DaRUS数据V8和CC-BY-4.0许可，并按方程参数保存原论文基线。
+
+来源：[原始说明](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[结果证据](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 基本信息
 
@@ -8,8 +12,7 @@
 
 PDEBench
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 全称
 
@@ -17,108 +20,92 @@ PDEBench
 
 说明：使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 基准版本
 
-待核实
+DaRUS数据发布Version 8.0（V8）；不是arXiv v7，也不是代码仓库标签。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
 ### 论文版本
 
 arXiv v7
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 发布日期
 
-2022/10/13
+数据说明称首版于2022年6月分发；arXiv首投为2022-10-14 02:03:36 KST。数据发布和论文日期分别记录。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）
 
 ### 主板块
 
 物理
 
-说明：Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。
+说明：Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）
 
 ### 领域标签
 
 - 物理
 - 科学计算
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 许可与适用范围
 
-代码 MIT，明确排除另行声明部分；数据许可不能由代码许可推断。
+代码MIT（LICENSE.txt，除另行声明部分）；DaRUS数据明确CC BY4.0，pdebench组织下Advection/Burgers/1D-Compressible-Navier-Stokes三张HF卡同标CC-BY-4.0。
 
-来源：[1](https://raw.githubusercontent.com/pdebench/PDEBench/main/LICENSE.txt)（访问 2026-11-07，KST）
-
+来源：[1](https://raw.githubusercontent.com/pdebench/PDEBench/main/LICENSE.txt)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）；[3](https://huggingface.co/datasets/pdebench/Advection/raw/main/README.md)（访问2026-11-08，KST）；[4](https://huggingface.co/datasets/pdebench/Burgers/raw/main/README.md)（访问2026-11-08，KST）；[5](https://huggingface.co/datasets/pdebench/1D-Compressible-Navier-Stokes/raw/main/README.md)（访问2026-11-08，KST）
 
 ### 论文
 
 https://arxiv.org/abs/2210.07182
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 代码仓库
 
 https://github.com/pdebench/PDEBench
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 数据地址
 
-https://github.com/pdebench/PDEBench
+https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[3](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
 ### 官方主页
 
 https://github.com/pdebench/PDEBench
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 论文标题
 
 PDEBENCH: An Extensive Benchmark for Scientific Machine Learning
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 发起与维护
 
-### 机构与发起关系
+### 发起与机构归属
 
 NEC Labs Europe、斯图加特大学、CSIRO Data61 作者团队
 
 说明：主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 合作关系
 
-### 合作机构
+NEC Laboratories Europe、斯图加特大学/SimTech、CSIRO Data61为作者单位；ANU Techlauncher协助部分模拟和代码设计，DaRUS提供存储。
 
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
 ### 作者
 
@@ -130,26 +117,19 @@ NEC Labs Europe、斯图加特大学、CSIRO Data61 作者团队
 - Pflüger, Dirk
 - Niepert, Mathias
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 当前维护方
 
-待核实
+数据由论文作者维护，DaRUS存储基础设施由斯图加特大学及DaRUS专门团队维护（论文附录K.7）。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+### 资助与支持
 
+德国DFG卓越战略EXC 2075–390740016部分资助；Stuttgart Center for Simulation Science（SimTech）支持。
 
-### 资助方
-
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 设计目标
 
@@ -157,15 +137,13 @@ NEC Labs Europe、斯图加特大学、CSIRO Data61 作者团队
 
 为科学机器学习提供跨多种偏微分方程的时间相关模拟评测。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 设计背景与适用边界
 
-### 设计背景
+科学机器学习研究常使用不一致方程、求解器和评估指标，难以可复现对照；PDEBench提供多维PDE数据、生成器及数据误差和物理一致性指标。
 
-为科学机器学习提供跨多种偏微分方程的时间相关模拟评测。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 构建方式
 
@@ -173,94 +151,69 @@ NEC Labs Europe、斯图加特大学、CSIRO Data61 作者团队
 
 数值模拟生成多组初始条件、边界条件与方程参数的数据，配套数据生成代码和机器学习基线。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 构建者背景
 
-### 出题背景
+作者来自科学机器学习、数值模拟团队，论文附录K.3列Takamoto、Praditia、Leiteritz、MacKinlay、Alesiani执行模拟；ANU Techlauncher协助部分模拟。
 
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 审核流程
 
-数值模拟生成多组初始条件、边界条件与方程参数的数据，配套数据生成代码和机器学习基线。
+不是人工出题审核：按方程/参数/边界条件用数值求解器生成轨迹，附可复现配置；原论文的90/10训练测试切分用于模型对照。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 质量控制
 
-待核实
+以高分辨率数值求解作为参考，提供生成器、配置、预计算误差和FAIR元数据；附录承认离散化误差。DaRUS V8说明已修正advection及Burgers解，不能忽略数据版本。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+### 去污染与泄漏边界
 
+数据由数值模拟及随机初始条件生成，不是从网页抓取问答；按样本训练测试切分。公开数据不等于对所有后续模型完成训练重叠检测，必须记录所用文件与版本。
 
-### 去污染措施
-
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 数据形式
 
 ### 规模
 
-偏微分方程数值时空场；具体样本总量待核实。
+论文表1列11个“PDE×空间维数”配置：多数1D及Darcy每参数配置10,000条；2D diffusion-reaction、2D/不可压NS、shallow-water为1,000条，3D可压NS为100条。参数组合会产生多个文件，不能把表中数字直接当全库去重样本总量；DaRUS V8页面列336个文件。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
+### 题型与交付物
 
-### 题型
+数值时空场的前向预测、长时外推及逆问题（恢复初值/方程参数）；不是自然语言选择题。
 
-偏微分方程数值时空场；具体样本总量待核实。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 模态
 
-待核实
+HDF5数值张量，约定轴为样本N、时间T、空间X/Y/Z、物理变量V；另含网格坐标与方程参数。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
 ### 语言
 
-待核实
+不适用自然语言题库统计：核心数据是数值场；文档为英语，参考机器学习实现为Python/PyTorch。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
 ### 难度
 
-待核实
+通过1–3维、激波/湍流、多初值、不同边界条件和参数区间控制数值难度；不定义高中/本科或LLM答题难度档。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+### 公开与隐藏划分
 
+§4.1原实验90%训练、10%测试；附录K.2更宽泛称余下10%作验证/测试，并说明不强制用户沿用切分。数据公开，复现实验应声明所用split，不能捏造统一隐藏测试。
 
-### 数据划分
-
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ## 评测方法
 
@@ -268,104 +221,83 @@ NEC Labs Europe、斯图加特大学、CSIRO Data61 作者团队
 
 RMSE、归一化 RMSE、最大误差，以及适用方程的守恒、边界与频段诊断；按方程与任务分别报告。
 
-来源：[1](https://arxiv.org/abs/2608.22504)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2608.22504)（访问2026-11-07，KST）
 
 ### 评分方式
 
-按方程与任务评估预测误差，比较数值模拟和 FNO、U-Net、PINN 等基线；完整指标待核实。
+将预测场与数值参考逐方程、参数、任务计算RMSE/nRMSE、max error、cRMSE、bRMSE及低/中/高频fRMSE；误差越低越好，不把不同方程分数平均成LLM准确率。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 提示与运行设置
 
-待核实
+不是LLM提示评测；FNO按原实现协议训练，U-Net使用自回归/pushforward训练变体，PINN基于DeepXDE且每种条件需重训练。论文实验90/10切分，时空分辨率与方程参数随配置变化。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 评测脚本
 
 pdebench/models 的 train_models_forward.py、train_models_inverse.py 与 metrics.py；实际路径和配置以仓库文档为准。
 
-来源：[1](https://github.com/pdebench/PDEBench)（访问 2026-11-07，KST）
-
+来源：[1](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
 ### 可比性提醒
 
-不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。
+必须相同方程、参数、网格/时间分辨率、预测时距、数据发布版本与切分；nRMSE等误差越低越好。PINN逐条件拟合与跨样本FNO/U-Net成本不同，不按一句“总榜第一”跨任务合并。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
 ## 最新情况
 
 ### 核验日期
 
-2026-11-07
+2026-11-08 KST（Asia/Seoul）
 
-说明：2026H2 引用/使用证据：2026-08，论文直接扩展 PDEBench，比较数值准确性与科学证据支持。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）；[3](https://arxiv.org/abs/2608.22504)（访问 2026-11-07，KST）；[4](https://arxiv.org/abs/2608.22504)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）
 
 ### 数据版本与更新
 
-README 最近显式标注兼容性和数据路径提示更新日为 2026-03-30；这不是数据集的新版本号。
+DaRUS当前公开页Version8.0，说明修复advection及Burgers方程解；README的2026-03-30兼容性/路径说明不是新数据版本。
 
-来源：[1](https://github.com/pdebench/PDEBench)（访问 2026-11-07，KST）
-
+来源：[1](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）；[2](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
 ### 论文修订记录
 
-Submission history From: Makoto Takamoto [ view email ] [v1] Thu, 13 Oct 2022 17:03:36 UTC (4,675 KB) [v2] Mon, 17 Oct 2022 08:35:06 UTC (4,680 KB) [v3] Fri, 9 Dec 2022 16:13:17 UTC (4,735 KB) [v4] Fri, 3 Feb 2023 12:45:47 UTC (4,735 KB) [v5] Fri, 3 Mar 2023 16:09:32 UTC (4,735 KB) [v6] Mon, 13 Mar 2023 13:27:02 UTC (4,735 KB) [v7] Mon, 26 Aug 2024 13:43:46 UTC (4,682 KB)
+Submission history From: Makoto Takamoto [ view email ] [v1] 2022-10-14 02:03:36 KST (4,675 KB) [v2] 2022-10-17 17:35:06 KST (4,680 KB) [v3] 2022-12-10 01:13:17 KST (4,735 KB) [v4] 2023-02-03 21:45:47 KST (4,735 KB) [v5] 2023-03-04 01:09:32 KST (4,735 KB) [v6] 2023-03-13 22:27:02 KST (4,735 KB) [v7] 2024-08-26 22:43:46 KST (4,682 KB)
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 饱和程度
 
-待核实
+不定义单一自然语言准确率或饱和阈值；论文基线在激波、参数外推、长期稳定性等条件仍有误差。只可在固定方程与误差指标内讨论提升。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 争议与已知问题
 
-README 提醒 Hydra 运行时更改 data_path，影响 forward training；新版依赖仅核心代码及部分模块确认兼容，其余仍在检查。
+数据V8含advection/Burgers解修正，旧论文基线需保留其历史数据口径；§4.1与附录对剩余10%测试/验证措辞不完全相同。仓库提醒Hydra data_path变化及依赖兼容性，均影响复现。
 
-来源：[1](https://github.com/pdebench/PDEBench)（访问 2026-11-07，KST）
+来源：[1](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[3](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
+### 衍生与后续使用
 
-### 衍生基准
+官方README列后续使用数据的Active Learning for Neural PDE Solvers（ICLR2025）与LOGLO-FNO（TMLR2025）；它们是方法/使用论文，不自动视为新数据版本或独立benchmark。
 
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
 ## 榜单快照
 
 ### 快照访问日期
 
-2026-11-07
+2026-11-08 KST（网页访问日期；历史结果日期分别保留）
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2210.07182#page=28)（访问2026-11-08，KST）
 
+### 官方结果入口
 
-### 官方榜单入口
+https://arxiv.org/pdf/2210.07182#page=28
 
-待核实
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 第三方入口
 
@@ -373,111 +305,137 @@ README 提醒 Hydra 运行时更改 data_path，影响 forward training；新版
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 分赛道结果
 
-### 可核验结果
+- {"model": "FNO", "score": 0.0017, "track": "原论文v7/Diffusion-sorption/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.15, "track": "原论文v7/Diffusion-sorption/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 0.22, "track": "原论文v7/Diffusion-sorption/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.12, "track": "原论文v7/2D diffusion-reaction/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.84, "track": "原论文v7/2D diffusion-reaction/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 1.6, "track": "原论文v7/2D diffusion-reaction/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0044, "track": "原论文v7/Shallow-water/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "PINN", "score": 0.017, "track": "原论文v7/Shallow-water/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "U-Net", "score": 0.083, "track": "原论文v7/Shallow-water/Table5", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0077, "track": "原论文v7/Advection beta=0.1/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "PINN", "score": 0.0078, "track": "原论文v7/Advection beta=0.1/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "U-Net", "score": 0.05, "track": "原论文v7/Advection beta=0.1/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.01, "track": "原论文v7/Advection beta=0.4/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "PINN", "score": 0.03, "track": "原论文v7/Advection beta=0.4/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "U-Net", "score": 0.23, "track": "原论文v7/Advection beta=0.4/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0097, "track": "原论文v7/Advection beta=1.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "PINN", "score": 0.013, "track": "原论文v7/Advection beta=1.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "U-Net", "score": 0.23, "track": "原论文v7/Advection beta=1.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0067, "track": "原论文v7/Advection beta=4.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.024, "track": "原论文v7/Advection beta=4.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 0.77, "track": "原论文v7/Advection beta=4.0/Table6", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.029, "track": "原论文v7/Burgers nu=0.001/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.37, "track": "原论文v7/Burgers nu=0.001/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 0.39, "track": "原论文v7/Burgers nu=0.001/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0078, "track": "原论文v7/Burgers nu=0.01/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.22, "track": "原论文v7/Burgers nu=0.01/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 0.85, "track": "原论文v7/Burgers nu=0.01/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.0029, "track": "原论文v7/Burgers nu=0.1/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "U-Net", "score": 0.23, "track": "原论文v7/Burgers nu=0.1/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "PINN", "score": 0.46, "track": "原论文v7/Burgers nu=0.1/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
+- {"model": "FNO", "score": 0.004, "track": "原论文v7/Burgers nu=1.0/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 1}
+- {"model": "PINN", "score": 0.019, "track": "原论文v7/Burgers nu=1.0/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 2}
+- {"model": "U-Net", "score": 0.24, "track": "原论文v7/Burgers nu=1.0/Table7", "metric": "nRMSE (lower is better)", "source_url": "https://arxiv.org/pdf/2210.07182", "collected_at": "2026-11-08 KST", "result_type": "论文附录表5–7历史基线；不是实时榜或V8重跑", "rank": 3}
 
-待核实
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+### 覆盖边界
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+新增原论文附录表5–7的11个方程/参数条件、33行精确nRMSE基线；每条件内误差升序单独排名。未找到作者维护的实时统一榜入口，不把论文历史实验宣传成当前SOTA；不混V8更新数据与旧基线。
 
-
-### 榜单覆盖边界
-
-本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）；[2](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)（访问2026-11-08，KST）
 
 ## 联系方式
 
-### 公开邮箱
+### 公开项目邮箱
 
-待核实
+- Makoto.Takamoto@neclab.eu
+- timothy.praditia@iws.uni-stuttgart.de
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
 ### 公开反馈渠道
 
 https://github.com/pdebench/PDEBench/issues
 
-来源：[1](https://github.com/pdebench/PDEBench)（访问 2026-11-07，KST）
+来源：[1](https://github.com/pdebench/PDEBench)（访问2026-11-08，KST）
 
-
-### 官方社交账号
+### 官方社交渠道
 
 待核实
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 联系方式收录原则
 
-### 联系方式原则
+Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。
 
-只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。
-
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07，KST）
-
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问2026-11-08，KST）
 
 ## 原始文件
 
-### Drive 论文原件
+### 既存Drive论文原件
 
-- id：1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5
-- webViewLink：https://drive.google.com/file/d/1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5/view?usp=drivesdk
+```json
+{
+  "id": "1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5",
+  "webViewLink": "https://drive.google.com/file/d/1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5/view?usp=drivesdk"
+}
+```
 
-来源：[1](https://drive.google.com/file/d/1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5/view?usp=drivesdk)（访问 2026-11-07，KST）
+来源：[1](https://drive.google.com/file/d/1mvJrgoshF7-r7_2i51R15SvRhI0cRhH5/view?usp=drivesdk)（访问2026-11-07，KST）
 
-
-### 原始 PDF 地址
+### 原始PDF地址
 
 https://arxiv.org/pdf/2210.07182
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
-
-### 原始文件 SHA-256
+### 本轮下载SHA-256
 
 756882062e8e62f70ffdb4339b7f0824201783b336c876c873d83a89cf646386
 
-说明：本次下载原始字节的SHA-256；未压缩、未修改。
+说明：2026-11-08 KST本轮下载字节的校验；没有覆盖或上传Drive，不能据此认定既存Drive原件同版本。
 
-来源：[1](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 本轮下载字节数
 
-### 原始文件字节数
-
+```json
 4047658
+```
 
-来源：[1](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，KST）
 
+### 既存Drive文件夹
 
-### Drive 文件夹
+```json
+{
+  "id": "1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD",
+  "webViewLink": "https://drive.google.com/drive/folders/1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD"
+}
+```
 
-- id：1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD
-- webViewLink：https://drive.google.com/drive/folders/1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD
-
-来源：[1](https://drive.google.com/drive/folders/1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD)（访问 2026-11-07，KST）
-
+来源：[1](https://drive.google.com/drive/folders/1C7I08CX2rwi8DrU9PH7zs82qv4dFb3zD)（访问2026-11-07，KST）
 
 ### 其他文档
 
 - {"kind": "中文介绍 Google Doc", "id": "1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I", "webViewLink": "https://docs.google.com/document/d/1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I/edit?usp=drivesdk"}
 
-来源：[1](https://docs.google.com/document/d/1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I/edit?usp=drivesdk)（访问 2026-11-07，KST）
-
+来源：[1](https://docs.google.com/document/d/1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I/edit?usp=drivesdk)（访问2026-11-07，KST）
 
 ## 变更记录
 
 - {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"}
 - {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"}
+- {"date": "2026-11-08", "timezone": "Asia/Seoul", "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"}
 
-来源：[1](https://arxiv.org/abs/2210.07182)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2210.07182)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，KST）

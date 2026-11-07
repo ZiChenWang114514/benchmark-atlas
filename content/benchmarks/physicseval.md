@@ -1,6 +1,10 @@
 # PhysicsEval
 
-> 本页依据官方材料中文整理；核验日期 2026-11-07（KST）。历史实验不代表当前 SOTA；待核实不等于未公开。
+> Benchmark Constitution · 本轮核验 2026-11-08 KST（Asia/Seoul）。未知保持“待核实”；访问日不等于实验日。
+
+PhysicsEval同时提供教材来源的物理题解集和推理时策略实验，以Physics Proficiency Score评价整个解答的质量，而不是只核对答案。PPS最终裁判与推理时verifier是两类角色，权重也不同；原论文难度边界和归一化表述中的冲突在此保留。
+
+来源：[原始说明](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）；[结果证据](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 基本信息
 
@@ -8,8 +12,7 @@
 
 PhysicsEval
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 全称
 
@@ -17,107 +20,93 @@ PhysicsEval
 
 说明：使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 基准版本
 
 待核实
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 论文版本
 
 arXiv v2
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 发布日期
 
 2025/07/31
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 主板块
 
 物理
 
-说明：Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。
+说明：Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）
 
 ### 领域标签
 
 - 物理
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 许可与适用范围
 
 数据 CC-BY-SA-4.0（官方数据卡声明；教材和网站原始内容的第三方权利需另行审查）。
 
-来源：[1](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问 2026-11-07，KST）
-
+来源：[1](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问2026-11-08，KST）
 
 ### 论文
 
 https://arxiv.org/abs/2508.00079
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 代码仓库
 
 https://github.com/areebuzair/PhysicsEval
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 数据地址
 
 https://huggingface.co/datasets/IUTVanguard/PhysicsEval
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
-
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
 ### 官方主页
 
 https://github.com/areebuzair/PhysicsEval
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 论文标题
 
 PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 发起与维护
 
-### 机构与发起关系
+### 发起与机构归属
 
 孟加拉国 Islamic University of Technology，Systems and Software Lab
 
 说明：主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
-
-### 合作机构
+### 合作关系
 
 待核实
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 作者
 
@@ -128,8 +117,7 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 - Mahmud, Hasan
 - Hasan, Md Kamrul
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 当前维护方
 
@@ -137,17 +125,15 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
-
-### 资助方
+### 资助与支持
 
 待核实
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 设计目标
 
@@ -155,15 +141,13 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 比较大模型处理数理与描述性物理问题的能力，并研究推理时计算与多智能体校验。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 设计背景与适用边界
 
-### 设计背景
+仅检查最终数值难以评价物理原则、逻辑和解答完整性；该工作同时发布可训练/评测题解集，并对比多种推理时自查和外部反馈策略，以PPS而非二元正确率衡量。
 
-比较大模型处理数理与描述性物理问题的能力，并研究推理时计算与多智能体校验。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 构建方式
 
@@ -171,40 +155,31 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 问题来自物理教材；对应解答从物理论坛和教育网站收集。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 构建者背景
 
-### 出题背景
+作者来自IUT计算机科学与工程系Systems and Software Lab；题源为既有物理教材与专家/教育论坛解答，不把作者团队描述成逐题独立物理专家标注队。PPS权重咨询两名高中物理教师与一名大学入学考试评分员。
 
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 审核流程
 
-问题来自物理教材；对应解答从物理论坛和教育网站收集。
+先抓取人类写的教材题和网络解答，Gemini2.5 Pro只按作者描述负责拼写、语法、LaTeX和步骤结构整理；提取类别、主题。论文抽查部分裁判评分，但未声称逐题双人专家核验。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 质量控制
 
 清洗原始内容、统一 LaTeX、用 Gemini 2.5 Pro Think 分解解答步骤，并标注主题、难度及物理原理。此过程不等于逐题独立专家复核。
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
+### 去污染与泄漏边界
 
-### 去污染措施
+90/10训练测试切分；问题和参考解答来自公开教材/网站，不能排除预训练记忆。论文推理时实验不是测试集训练；不将随机切分当作已完成训练语料去污染。
 
-待核实
-
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 数据形式
 
@@ -212,150 +187,123 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 19,609 题；17,647 训练、1,962 测试，共 19 类。
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
+### 题型与交付物
 
-### 题型
+开放式数理计算与描述性物理问答，附分步骤参考解答；19类。不是选择题准确率，主结果采用解答质量PPS。
 
-19,609 个物理问题；训练、验证、测试划分的具体数量待核实。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）；[2](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
 ### 模态
 
-待核实
+文本与LaTeX公式、分步解答、类别/主题/难度元数据；本发布未按输入图片构建统一视觉赛道。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）；[2](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问2026-11-08，KST）
 
 ### 语言
 
 英语（HF 数据卡 language: en）。
 
-来源：[1](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问 2026-11-07，KST）
-
+来源：[1](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问2026-11-08，KST）
 
 ### 难度
 
 逐题标注 1–10 难度；同时提供解题步数，部分题提供替代解法。
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
-
-### 数据划分
+### 公开与隐藏划分
 
 90:10 训练/测试划分，分别 17,647 与 1,962；README 未列独立验证集。
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
-
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
 ## 评测方法
 
 ### 指标
 
-论文比较多种推理时策略；具体评分协议待核实。
+Physics Proficiency Score（PPS），论文声明归一化到0–100；另报告六个1–5分项：数学准确、逻辑一致、公式原理、完整性、假设、清晰连贯。不是最终答案二元准确率。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 评分方式
 
-论文比较多种推理时策略；具体评分协议待核实。
+Gemini2.5 Pro看到题目、人工来源参考解答和模型生成解答后按rubric打分。最终PPS权重（表3）：数学0.30、逻辑0.25、公式原理0.20、完整性0.10、假设0.10、清晰0.05；不要与§4.1.2推理时verifier权重混用。式3只写1–5分项加权，正文另称0–100但该式未显式写换算系数，不擅自补公式。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 提示与运行设置
 
-待核实
+Baseline、Self-Refine、Single-Agent和Multi-Agent四协议分开；Self-Refine要求物理教授自查后重答，Single-Agent由Qwen3-32B提供错误列表；Multi-Agent三裁判Phi4/DeepSeekR1-14B/Qwen3-14B，经Qwen3-32B元裁判整合反馈。提示全文见论文附录A。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 评测脚本
 
 https://github.com/areebuzair/PhysicsEval
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 可比性提醒
 
-不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。
+PPS为模型裁判的部分给分，不是准确率；难度表2按Easy1–4/Medium5–7/Hard8–10，而图3标1–3/4–6/7–10，两处口径冲突须保留。不同推理时协议、裁判版本和难度分组不能跨轨排名。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 最新情况
 
 ### 核验日期
 
-2026-11-07
+2026-11-08 KST（Asia/Seoul）
 
-说明：2026H2 引用/使用证据：2026-07-02 至 07-07（论文页脚会议日期），PhysPRM 第4.1节与附录使用 PhysicsEval；不是新发布版本。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）；[3](https://aclanthology.org/2026.findings-acl.458.pdf)（访问 2026-11-07，KST）；[4](https://aclanthology.org/2026.findings-acl.458.pdf)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）
 
 ### 数据版本与更新
 
 待核实
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 论文修订记录
 
-Submission history From: Syed Rifat Raiyan [ view email ] [v1] Thu, 31 Jul 2025 18:12:51 UTC (159 KB) [v2] Wed, 5 Nov 2025 07:50:45 UTC (156 KB)
+Submission history From: Syed Rifat Raiyan [ view email ] [v1] 2025-08-01 03:12:51 KST (159 KB) [v2] 2025-11-05 16:50:45 KST (156 KB)
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 饱和程度
 
-待核实
+论文表2在Hard8–10组：Baseline最高o4-mini83.6、Multi-Agent最高Phi-4-reasoning-plus87.6（PPS，非正确率）。只能说明原论文该协议的已测质量分，不外推当前前沿模型是否饱和。
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 争议与已知问题
 
-待核实
+公开教材和论坛题解存在训练重叠及第三方版权风险；HF标CC-BY-SA-4.0不自动解决原始教材再授权。PPS归一化公式省略显式系数，表2/图3难度边界不一致；Gemini既整理参考解答又作最终裁判，作者声称通过提示/人工抽查减偏差，不当作独立无偏证明。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）；[2](https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md)（访问2026-11-08，KST）
 
-
-### 衍生基准
+### 衍生与后续使用
 
 待核实
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 榜单快照
 
 ### 快照访问日期
 
-2026-11-07
+2026-11-08 KST（网页访问日期；历史结果日期分别保留）
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2508.00079#page=7)（访问2026-11-08，KST）
 
+### 官方结果入口
 
-### 官方榜单入口
+https://arxiv.org/pdf/2508.00079#page=7
 
-待核实
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 第三方入口
 
@@ -363,109 +311,175 @@ Submission history From: Syed Rifat Raiyan [ view email ] [v1] Thu, 31 Jul 2025 
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 分赛道结果
 
-### 可核验结果
+- {"model": "QwQ-32B", "score": 93.7, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 1}
+- {"model": "Llama 4 Maverick", "score": 91.5, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 90.6, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 3}
+- {"model": "Gemma 3 27B", "score": 86.9, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 4}
+- {"model": "o4-mini", "score": 86.7, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 5}
+- {"model": "Phi-4-reasoning-plus", "score": 84.4, "track": "原论文v2/表2/Easy1–4/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Baseline", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 94.4, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 1}
+- {"model": "QwQ-32B", "score": 94.0, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 92.7, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 90.5, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 4}
+- {"model": "Gemma 3 27B", "score": 85.7, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 5}
+- {"model": "o4-mini", "score": 82.6, "track": "原论文v2/表2/Easy1–4/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Self-Refine", "rank": 6}
+- {"model": "QwQ-32B", "score": 94.2, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 1}
+- {"model": "DeepSeek-R1", "score": 93.3, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 2}
+- {"model": "Phi-4-reasoning-plus", "score": 93.2, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 92.0, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 4}
+- {"model": "Gemma 3 27B", "score": 86.4, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 5}
+- {"model": "o4-mini", "score": 85.9, "track": "原论文v2/表2/Easy1–4/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Single-Agent", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 94.7, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 1}
+- {"model": "QwQ-32B", "score": 94.6, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 94.1, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 92.9, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 4}
+- {"model": "Gemma 3 27B", "score": 87.6, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 5}
+- {"model": "o4-mini", "score": 86.8, "track": "原论文v2/表2/Easy1–4/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Easy1–4", "inference_method": "Multi-Agent", "rank": 6}
+- {"model": "o4-mini", "score": 87.3, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 1}
+- {"model": "Phi-4-reasoning-plus", "score": 86.9, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 2}
+- {"model": "Llama 4 Maverick", "score": 83.6, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 3}
+- {"model": "QwQ-32B", "score": 80.9, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 4}
+- {"model": "DeepSeek-R1", "score": 80.8, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 55.8, "track": "原论文v2/表2/Medium5–7/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Baseline", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 92.2, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 1}
+- {"model": "o4-mini", "score": 86.4, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 84.4, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 82.0, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 4}
+- {"model": "QwQ-32B", "score": 80.8, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 56.5, "track": "原论文v2/表2/Medium5–7/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Self-Refine", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 93.4, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 1}
+- {"model": "o4-mini", "score": 87.0, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 83.1, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 82.6, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 4}
+- {"model": "QwQ-32B", "score": 81.1, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 59.4, "track": "原论文v2/表2/Medium5–7/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Single-Agent", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 93.9, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 1}
+- {"model": "o4-mini", "score": 88.2, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 83.4, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 3}
+- {"model": "Llama 4 Maverick", "score": 82.4, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 4}
+- {"model": "QwQ-32B", "score": 81.9, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 59.1, "track": "原论文v2/表2/Medium5–7/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Medium5–7", "inference_method": "Multi-Agent", "rank": 6}
+- {"model": "o4-mini", "score": 83.6, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 1}
+- {"model": "Phi-4-reasoning-plus", "score": 80.1, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 72.9, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 3}
+- {"model": "QwQ-32B", "score": 63.9, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 4}
+- {"model": "Llama 4 Maverick", "score": 55.2, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 41.5, "track": "原论文v2/表2/Hard8–10/Baseline", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Baseline", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 83.4, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 1}
+- {"model": "o4-mini", "score": 82.3, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 73.7, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 3}
+- {"model": "QwQ-32B", "score": 68.6, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 4}
+- {"model": "Llama 4 Maverick", "score": 54.0, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 40.4, "track": "原论文v2/表2/Hard8–10/Self-Refine", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Self-Refine", "rank": 6}
+- {"model": "o4-mini", "score": 84.1, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 1}
+- {"model": "Phi-4-reasoning-plus", "score": 83.8, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 74.7, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 3}
+- {"model": "QwQ-32B", "score": 63.5, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 4}
+- {"model": "Llama 4 Maverick", "score": 57.9, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 39.1, "track": "原论文v2/表2/Hard8–10/Single-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Single-Agent", "rank": 6}
+- {"model": "Phi-4-reasoning-plus", "score": 87.6, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 1}
+- {"model": "o4-mini", "score": 85.4, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 2}
+- {"model": "DeepSeek-R1", "score": 72.7, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 3}
+- {"model": "QwQ-32B", "score": 71.0, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 4}
+- {"model": "Llama 4 Maverick", "score": 52.1, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 5}
+- {"model": "Gemma 3 27B", "score": 40.6, "track": "原论文v2/表2/Hard8–10/Multi-Agent", "metric": "PPS (0–100，非accuracy)", "source_url": "https://arxiv.org/pdf/2508.00079", "collected_at": "2026-11-08 KST", "result_type": "原论文历史结果；表2难度口径", "difficulty": "Hard8–10", "inference_method": "Multi-Agent", "rank": 6}
 
-待核实
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+### 覆盖边界
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+完整转录论文表2六模型×三难度×四推理策略的72个精确PPS分数；每难度和协议独立成轨，不平均拼总榜，不将PPS标为正确率。未核实独立动态官方榜，本轮不以历史论文冒称实时SOTA。
 
-
-### 榜单覆盖边界
-
-本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。
-
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ## 联系方式
 
-### 公开邮箱
+### 公开项目邮箱
 
 - rifatraiyan@iut-dhaka.edu
 
-来源：[1](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
 ### 公开反馈渠道
 
 https://github.com/areebuzair/PhysicsEval/issues
 
-来源：[1](https://github.com/areebuzair/PhysicsEval)（访问 2026-11-07，KST）
+来源：[1](https://github.com/areebuzair/PhysicsEval)（访问2026-11-08，KST）
 
-
-### 官方社交账号
+### 官方社交渠道
 
 待核实
 
 说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 联系方式收录原则
 
-### 联系方式原则
+Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。
 
-只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。
-
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07，KST）
-
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问2026-11-08，KST）
 
 ## 原始文件
 
-### Drive 论文原件
+### 既存Drive论文原件
 
-- id：1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy
-- webViewLink：https://drive.google.com/file/d/1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy/view?usp=drivesdk
+```json
+{
+  "id": "1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy",
+  "webViewLink": "https://drive.google.com/file/d/1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy/view?usp=drivesdk"
+}
+```
 
-来源：[1](https://drive.google.com/file/d/1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy/view?usp=drivesdk)（访问 2026-11-07，KST）
+来源：[1](https://drive.google.com/file/d/1xAWaC752N5gbfuKJ8yx0Ua53ndFAwdOy/view?usp=drivesdk)（访问2026-11-07，KST）
 
-
-### 原始 PDF 地址
+### 原始PDF地址
 
 https://arxiv.org/pdf/2508.00079
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
-
-### 原始文件 SHA-256
+### 本轮下载SHA-256
 
 463be2b22a05d41dbf11319c0d11bc34966925ea3f17975b4082b81caa3daea0
 
-说明：本次下载原始字节的SHA-256；未压缩、未修改。
+说明：2026-11-08 KST本轮下载字节的校验；没有覆盖或上传Drive，不能据此认定既存Drive原件同版本。
 
-来源：[1](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 本轮下载字节数
 
-### 原始文件字节数
-
+```json
 512745
+```
 
-来源：[1](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
+来源：[1](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，KST）
 
+### 既存Drive文件夹
 
-### Drive 文件夹
+```json
+{
+  "id": "14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2",
+  "webViewLink": "https://drive.google.com/drive/folders/14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2"
+}
+```
 
-- id：14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2
-- webViewLink：https://drive.google.com/drive/folders/14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2
-
-来源：[1](https://drive.google.com/drive/folders/14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2)（访问 2026-11-07，KST）
-
+来源：[1](https://drive.google.com/drive/folders/14RJrVx0urpr_XOyFXwHYU2-lCkAtLMZ2)（访问2026-11-07，KST）
 
 ### 其他文档
 
 - {"kind": "中文介绍 Google Doc", "id": "1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M", "webViewLink": "https://docs.google.com/document/d/1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M/edit?usp=drivesdk"}
 
-来源：[1](https://docs.google.com/document/d/1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M/edit?usp=drivesdk)（访问 2026-11-07，KST）
-
+来源：[1](https://docs.google.com/document/d/1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M/edit?usp=drivesdk)（访问2026-11-07，KST）
 
 ## 变更记录
 
 - {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"}
 - {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"}
+- {"date": "2026-11-08", "timezone": "Asia/Seoul", "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"}
 
-来源：[1](https://arxiv.org/abs/2508.00079)（访问 2026-11-07，KST）；[2](https://arxiv.org/pdf/2508.00079)（访问 2026-11-07，KST）
-
+来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，KST）

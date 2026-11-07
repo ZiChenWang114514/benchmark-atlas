@@ -1,7 +1,7 @@
 {
   "id": "mrcr-v2",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: B；未知信息保留待核实。",
+  "editorial_status": "第二轮主源/论文/分轨成绩复核完成；研究快照；trending: B；未知信息保留待核实。",
   "basic_info": {
     "name": {
       "value": "OpenAI MRCR / MRCR v2",
@@ -35,29 +35,32 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "release_date": {
-      "value": "待核实",
+      "value": "公开HF仓库创建2025-04-12 08:55:25 KST；数据卡写4/12/2025 initial publication。公开初版与厂商MRCR v2首发不是同一事实，v2首发日期待核实。",
       "sources": [
         {
+          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "status": "待核实"
     },
     "section": {
       "value": "语言",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "编辑主板块归档，不据此限制跨学科覆盖。"
@@ -70,7 +73,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -88,7 +91,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -99,7 +102,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -119,7 +122,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -128,7 +131,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -141,7 +144,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -150,7 +153,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -161,7 +164,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -172,7 +175,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -181,7 +184,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -194,7 +197,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -203,7 +206,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -214,38 +217,34 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "官方说明合成assistant内容由gpt4o生成，主题涉及438个实体和10种写作格式；这是程序合成任务，不是专家手编问答集。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "数据卡承认生成错误：历史样本中目标needle过多、参考答案错误，后续替换相应样本并加date_added以追踪修订；未提供更广人工复核协议。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "quality_control": {
       "value": "数据卡记录生成bug修复：约10%目标needle过多，约5%ground truth错误；不能把历史错误比例当当前仍有。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -254,7 +253,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -265,7 +264,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -274,7 +273,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -285,7 +284,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -294,7 +293,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -303,7 +302,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -312,7 +311,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -323,7 +322,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -332,7 +331,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -341,7 +340,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -350,7 +349,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -359,20 +358,21 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "note": "本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。"
     },
     "latest_dataset_version": {
       "value": {
@@ -385,21 +385,59 @@
             "date_type": "observed_on",
             "note": "OpenAI当前发布表使用MRCR v2；本轮热度主要来自单一机构OpenAI，不能称行业广泛采用。"
           }
-        ]
+        ],
+        "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+        "revision_mapping": "厂商v2与此公开commit的对应关系待核实"
       },
       "sources": [
         {
+          "url": "https://huggingface.co/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://openai.com/index/gpt-6-astra/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "paper_revision_history": {
-      "value": "HF卡使用4/12/2025与12/5/2025两种数字日期记法且viewer日期有歧义，本轮不转换为确定ISO发布日期。",
+      "value": {
+        "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射",
+        "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+        "last_modified_kst": "2025-12-09T04:10:11+09:00",
+        "card_dates_verbatim": [
+          "4/12/2025: Initial dataset published",
+          "12/5/2025: Bugfix"
+        ],
+        "date_caveat": "数据卡数字日期可能存在美式/其他记法歧义；保留原文，HF明确ISO元数据另列，不强行替代修订语义。",
+        "predecessor_paper": {
+          "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries",
+          "url": "https://arxiv.org/abs/2409.12640",
+          "pdf_read": "https://arxiv.org/pdf/2409.12640v2",
+          "scope": "Google/DeepMind原始MRCR灵感来源，不是OpenAI MRCR v2独立论文"
+        }
+      },
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2409.12640",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.12640v2",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -408,42 +446,46 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "公开版历史约10%样本needle过多、约5%ground truth错误，官方称已替换并添加date_added；比例指过去bug而非当前残留错误率。v2发布文未明确映射公开HF commit；重复相似请求导致的顺序辨识和最长token筛选均影响比较。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "OpenAI数据卡明确承认受Michelangelo论文MRCR启发并扩大难度；2/4/8 needle是同基准配置，不另计三个benchmark；厂商v2分数不能倒填成该Google论文的结果。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.12640v2",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -452,7 +494,7 @@
       "sources": [
         {
           "url": "https://openai.com/index/gpt-6-astra/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -461,7 +503,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -472,37 +514,73 @@
         {
           "rank": 1,
           "model": "GPT-6 Astra",
-          "score": "100.0% (256K–512K); 96.3% (512K–1M)",
-          "metric": "MRCR v2 8-needle 厂商报告",
+          "score": 100.0,
+          "track": "OpenAI发布文 / MRCR v2 / 8-needle / 256K–512K",
+          "metric": "MRCR v2发布表分数（8-needle）",
+          "unit": "%",
           "source_url": "https://openai.com/index/gpt-6-astra/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "厂商发布表比较，不是独立实时排行榜；两个长度窗口不能平均。"
+          "accessed": "2026-11-08",
+          "settings": "厂商研究环境/API；各项取最大effort结果；两个窗口不平均",
+          "result_type": "厂商自报对照表；非独立实时总榜",
+          "evaluation_date": "发布文未给出该单项精确运行时间"
         },
         {
           "rank": 2,
           "model": "GPT-5.6 Sol",
-          "score": "91.5% (256K–512K); 73.8% (512K–1M)",
-          "metric": "MRCR v2 8-needle 厂商报告",
+          "score": 91.5,
+          "track": "OpenAI发布文 / MRCR v2 / 8-needle / 256K–512K",
+          "metric": "MRCR v2发布表分数（8-needle）",
+          "unit": "%",
           "source_url": "https://openai.com/index/gpt-6-astra/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "厂商发布表比较，不是独立实时排行榜；两个长度窗口不能平均。"
+          "accessed": "2026-11-08",
+          "settings": "厂商研究环境/API；各项取最大effort结果；两个窗口不平均",
+          "result_type": "厂商自报对照表；非独立实时总榜",
+          "evaluation_date": "发布文未给出该单项精确运行时间"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-6 Astra",
+          "score": 96.3,
+          "track": "OpenAI发布文 / MRCR v2 / 8-needle / 512K–1M",
+          "metric": "MRCR v2发布表分数（8-needle）",
+          "unit": "%",
+          "source_url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08",
+          "settings": "厂商研究环境/API；各项取最大effort结果；两个窗口不平均",
+          "result_type": "厂商自报对照表；非独立实时总榜",
+          "evaluation_date": "发布文未给出该单项精确运行时间"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-5.6 Sol",
+          "score": 73.8,
+          "track": "OpenAI发布文 / MRCR v2 / 8-needle / 512K–1M",
+          "metric": "MRCR v2发布表分数（8-needle）",
+          "unit": "%",
+          "source_url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08",
+          "settings": "厂商研究环境/API；各项取最大effort结果；两个窗口不平均",
+          "result_type": "厂商自报对照表；非独立实时总榜",
+          "evaluation_date": "发布文未给出该单项精确运行时间"
         }
       ],
       "sources": [
         {
           "url": "https://openai.com/index/gpt-6-astra/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "厂商发布表比较，不是独立实时排行榜；两个长度窗口不能平均。",
+      "value": "将原先一个字符串中的两个长度窗口拆成4条结构化成绩，每个窗口单独排序；保留厂商口径，不把匹配率当严格exact-match，也不推断v2使用HF哪一commit。精确运行日未给出，访问日与运行日分开。",
       "sources": [
         {
           "url": "https://openai.com/index/gpt-6-astra/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -513,44 +591,40 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈入口，不是已核验的独立GitHub仓库）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "仅记录公开官方研究入口；不收集示例中占位符的姓名、地址、邮箱或其他私人联系信息。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -559,7 +633,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -570,7 +644,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -581,7 +655,7 @@
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -599,15 +673,56 @@
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "官方HF数据卡及内联运行/grade示例",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "公开HF commit元数据",
+          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "MRCR前身论文，非OpenAI v2论文",
+          "url": "https://arxiv.org/pdf/2409.12640v2",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "厂商v2使用证据",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮打开核验的官方/研究来源",
+          "url": "https://arxiv.org/abs/2409.12640",
+          "accessed": "2026-11-08"
+        }
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.12640v2",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2409.12640",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -627,12 +742,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST, UTC+9)",
+        "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
       }
     ],
     "sources": [
       {
         "url": "https://huggingface.co/datasets/openai/mrcr",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

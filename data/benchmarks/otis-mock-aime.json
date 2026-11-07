@@ -8,11 +8,11 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -21,11 +21,11 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -34,11 +34,11 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -54,15 +54,22 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2024试卷封面日期为2023-12-22；2025 I/II试卷封面为2024-12-20。Epoch将三份合成45题评测的首发日期仍待核实。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "status": "待核实"
     },
     "section": {
       "value": "数学",
@@ -72,7 +79,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑分类。"
+      "note": "Benchmark Constitution 编辑分类。"
     },
     "subfields": {
       "value": [],
@@ -111,31 +118,41 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": [
+        "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf",
+        "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf",
+        "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf"
+      ],
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -157,7 +174,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -177,7 +194,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -186,20 +203,18 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Epoch明确披露xAI为2025年7月Grok 4这次特定评测付费并提供compute credits，未签NDA且保留编辑独立性；不把它扩展为整个OTIS出题项目的资助方。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "design_goals": {
@@ -208,16 +223,16 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "Epoch认为难于已趋饱和MATH Level 5、易于FrontierMath，填补中间难度。",
+      "value": "提供正式AIME以外、由OTIS学生撰写的竞赛模拟题；Epoch定位在MATH Level5与FrontierMath之间，不能与正式AIME同名考试题混计。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -228,7 +243,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -237,7 +252,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -257,20 +272,22 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "原始试卷、答案/解答公开；2024卷仅在考试截止前要求不公开讨论，并非长期隐藏测试。Epoch答案提取器不接收真值，可减少判分泄漏，但不构成预训练去污染证明。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "data_format": {
@@ -279,7 +296,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -288,7 +305,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -300,7 +317,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -309,7 +326,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -318,7 +335,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -327,7 +344,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -338,7 +355,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/benchmarks",
@@ -351,7 +368,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/benchmarks",
@@ -364,7 +381,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/benchmarks",
@@ -377,7 +394,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/benchmarks",
@@ -390,7 +407,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/benchmarks",
@@ -401,11 +418,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST（Asia/Seoul）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -431,7 +448,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/eci-documentation/data",
@@ -445,11 +462,11 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -458,20 +475,18 @@
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "2025-09前看真值的模型裁判曾把空白答案判对，后改为无真值答案提取+精确匹配。Grok4的2025-07运行对网络失败直接送评分，且限制128k输出；不可与新协议无差别混排。试题和答案公开，训练污染风险未被排除。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -487,11 +502,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST（网页访问日期；历史结果日期分别保留）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -500,7 +515,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -518,58 +533,2738 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "Kimi K3.1 Pro (Together, max)",
           "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
           "metric": "Accuracy (0–1)",
-          "stderr": 0.0,
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-11-06T09:59:23+09:00 KST",
-          "run_id": "8Qe2qf4Eg77PMfp2Eh7V6K",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "kimi-k3.1-pro-together_max",
           "task_version": "1.1.6",
-          "collected_at": "2026-11-07 KST"
+          "run_id": "8Qe2qf4Eg77PMfp2Eh7V6K",
+          "run_started_at": "2026-11-06T09:59:23+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
         },
         {
-          "rank": 1,
           "model": "GPT-6.1 Terra (max)",
           "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
           "metric": "Accuracy (0–1)",
-          "stderr": 0.0,
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-10-27T05:00:37+09:00 KST",
-          "run_id": "YnwukT2gyJHGKzPNPU9hry",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gpt-6.1-terra_max",
           "task_version": "1.1.6",
-          "collected_at": "2026-11-07 KST"
+          "run_id": "YnwukT2gyJHGKzPNPU9hry",
+          "run_started_at": "2026-10-27T05:00:37+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
         },
         {
-          "rank": 1,
           "model": "Gemini 4 Argon (high)",
           "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
           "metric": "Accuracy (0–1)",
-          "stderr": 0.0,
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-10-14T02:14:57+09:00 KST",
-          "run_id": "43f36RTDoJGxXWQDVvTLJj",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gemini-4-argon_high",
           "task_version": "1.1.6",
-          "collected_at": "2026-11-07 KST"
+          "run_id": "43f36RTDoJGxXWQDVvTLJj",
+          "run_started_at": "2026-10-14T02:14:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6.1 Sol (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gpt-6.1-sol_max",
+          "task_version": "1.1.6",
+          "run_id": "Di7y6sES4PGQbXNkXYhdqM",
+          "run_started_at": "2026-09-30T07:00:34+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "claude-sonnet-5-5_max",
+          "task_version": "1.1.6",
+          "run_id": "bSEaZLPehiNVDQL7HP9EJS",
+          "run_started_at": "2026-09-30T00:15:14+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Sol (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gpt-6-sol_max",
+          "task_version": "1.1.6",
+          "run_id": "VZAUcNkzeMSMm9paxBhj6B",
+          "run_started_at": "2026-09-23T04:59:24+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "Claude Opus 5.5 (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "claude-opus-5-5_max",
+          "task_version": "1.1.6",
+          "run_id": "LSfona7P3jCAnZFXJ2YA7F",
+          "run_started_at": "2026-09-23T03:27:39+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "Qwen3.8 Max (0902) (xhigh)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "qwen3.8-max-0902_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "2f8Vn5QBdJnc9i5y9jzXS7",
+          "run_started_at": "2026-09-03T03:04:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "Claude Fable 5.1 (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "claude-fable-5-1_max",
+          "task_version": "1.1.6",
+          "run_id": "mRAASXsUuoJmc2oR5G89zR",
+          "run_started_at": "2026-09-02T03:32:00+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gpt-6-astra_max",
+          "task_version": "1.1.6",
+          "run_id": "L7kW8yxFKCjVXhxNnt3VTq",
+          "run_started_at": "2026-08-30T23:57:43+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "Claude Fable 5 (high)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "claude-fable-5_high",
+          "task_version": "1.1.6",
+          "run_id": "hwrnvtEbDAocFtjcsHqsQh",
+          "run_started_at": "2026-08-07T07:18:19+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "GPT-5.6 Sol (max)",
+          "score": 1.0,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0,
+          "model_configuration": "gpt-5.6-sol_max",
+          "task_version": "1.1.6",
+          "run_id": "7RjsANKwwsePSstcZeSMhX",
+          "run_started_at": "2026-07-09T11:07:13+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 1
+        },
+        {
+          "model": "GPT-5.6 Terra (max)",
+          "score": 0.9972222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.002777777777777778,
+          "model_configuration": "gpt-5.6-terra_max",
+          "task_version": "1.1.6",
+          "run_id": "jUmmCNezoW7jWiK72SVCaP",
+          "run_started_at": "2026-07-10T02:07:54+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 13
+        },
+        {
+          "model": "Mistral Large 4 (high)",
+          "score": 0.9944444444444445,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.003883473863441843,
+          "model_configuration": "mistral-large-4-0-oss_high",
+          "task_version": "1.1.6",
+          "run_id": "gmJrht9jW92sRXiYyfSqEP",
+          "run_started_at": "2026-11-02T22:47:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 14
+        },
+        {
+          "model": "DeepSeek V4.1 Flash 1017 (max)",
+          "score": 0.9944444444444445,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.003883473863441843,
+          "model_configuration": "deepseek-v4.1-flash-1017_max",
+          "task_version": "1.1.6",
+          "run_id": "chayEvHvpt2Wcif7pg64hF",
+          "run_started_at": "2026-10-20T07:39:00+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 14
+        },
+        {
+          "model": "Muse Wonder (max)",
+          "score": 0.9944444444444445,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.003883473863441843,
+          "model_configuration": "muse-wonder-1.0_max",
+          "task_version": "1.1.6",
+          "run_id": "AFigcTGzpgZgMi6j2fpboa",
+          "run_started_at": "2026-10-13T04:00:20+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 14
+        },
+        {
+          "model": "Qwen3.8 Max (xhigh)",
+          "score": 0.9944444444444445,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0038834738634418433,
+          "model_configuration": "qwen3.8-max_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "aGRKHaq9uSawfYVpC565zU",
+          "run_started_at": "2026-08-05T01:28:46+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 14
+        },
+        {
+          "model": "Doubao Seed Evolving (Nov 2026, high)",
+          "score": 0.9916666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.004700633956814717,
+          "model_configuration": "doubao-seed-evolving_high",
+          "task_version": "1.1.6",
+          "run_id": "RG3zEJdwgXxoYZjFkHc6pa",
+          "run_started_at": "2026-11-03T05:57:35+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 18
+        },
+        {
+          "model": "Muse Spark 1.3 (xhigh)",
+          "score": 0.9916666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.006154574548966636,
+          "model_configuration": "muse-spark-1.3_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "Wmxkx5m3qaQuwzem6gzZmg",
+          "run_started_at": "2026-09-17T22:30:27+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 18
+        },
+        {
+          "model": "Grok 4.6 (xhigh)",
+          "score": 0.9916666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.004700633956814717,
+          "model_configuration": "grok-4.6_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "7crLvnfQc987dC6mr3iGbf",
+          "run_started_at": "2026-08-14T22:47:42+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 18
+        },
+        {
+          "model": "Claude Haiku 5.5 (xhigh)",
+          "score": 0.9888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.005362818328685681,
+          "model_configuration": "claude-haiku-5-5_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "iiEPrSjWXHH6Zq9CK4Zmcr",
+          "run_started_at": "2026-10-08T06:16:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 21
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": 0.9888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.006674027922425511,
+          "model_configuration": "gpt-6-luna_max",
+          "task_version": "1.1.6",
+          "run_id": "4uDz9b6SosxDSZf7swMD9D",
+          "run_started_at": "2026-09-23T07:14:05+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 21
+        },
+        {
+          "model": "Gemini 3.8 Flash (high)",
+          "score": 0.9888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.008724007409153888,
+          "model_configuration": "gemini-3.8-flash_high",
+          "task_version": "1.1.6",
+          "run_id": "NeYuqgQyWtFWAHEjQYPm5Z",
+          "run_started_at": "2026-09-03T02:15:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 21
+        },
+        {
+          "model": "Claude Opus 5 (max)",
+          "score": 0.9888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.011111111111111112,
+          "model_configuration": "claude-opus-5_max",
+          "task_version": "1.1.6",
+          "run_id": "KxvHAT9SV2dTDn7jBnTk6f",
+          "run_started_at": "2026-07-25T03:40:39+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 21
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813 (max)",
+          "score": 0.9861111111111112,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.00990980650017605,
+          "model_configuration": "deepseek-v4-pro-0813_max",
+          "task_version": "1.1.6",
+          "run_id": "4HVvM9ZWKKPLQPcC8WYYMT",
+          "run_started_at": "2026-08-19T06:03:23+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 25
+        },
+        {
+          "model": "Mistral Large 4 Preview (high)",
+          "score": 0.9833333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.006405884289881728,
+          "model_configuration": "mistral-large-4-0_high",
+          "task_version": "1.1.6",
+          "run_id": "Pby5WuP8Muu6Jzs2v5gB7F",
+          "run_started_at": "2026-10-13T06:38:35+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 26
+        },
+        {
+          "model": "DeepSeek V4.1 Flash (max)",
+          "score": 0.9833333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.006405884289881728,
+          "model_configuration": "deepseek-v4.1-flash_max",
+          "task_version": "1.1.6",
+          "run_id": "7eHNiVQCzLcAyj5LxmeeSU",
+          "run_started_at": "2026-10-09T04:02:32+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 26
+        },
+        {
+          "model": "GPT-5.6 Luna (max)",
+          "score": 0.9833333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.011650421590325524,
+          "model_configuration": "gpt-5.6-luna_max",
+          "task_version": "1.1.6",
+          "run_id": "AhtQ5ggs4pTfLDqHFjueGy",
+          "run_started_at": "2026-07-09T22:36:49+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 26
+        },
+        {
+          "model": "Muse Spark Open (xhigh)",
+          "score": 0.9805555555555555,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.01253502388483925,
+          "model_configuration": "Muse-Spark-Open-816B-A42B_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "hB4XzBdWkdpG3WJVYqeRM8",
+          "run_started_at": "2026-10-16T03:52:04+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 29
+        },
+        {
+          "model": "Grok 4.7 (xhigh)",
+          "score": 0.9805555555555555,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.014299486306926387,
+          "model_configuration": "grok-4.7_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "Jhgwm7QpspGcvm7DUVqUDg",
+          "run_started_at": "2026-09-23T06:49:22+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 29
+        },
+        {
+          "model": "Grok 4.6 (high)",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.00996275330534286,
+          "model_configuration": "grok-4.6_high",
+          "task_version": "1.1.6",
+          "run_id": "jtfdCURnwfZzak4BSiBKzx",
+          "run_started_at": "2026-08-13T04:39:52+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "Claude Opus 5",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022222222222222223,
+          "model_configuration": "claude-opus-5",
+          "task_version": "1.1.6",
+          "run_id": "gsBidnvEcmCfLnn5sxePtk",
+          "run_started_at": "2026-08-07T07:21:15+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "Claude Opus 4.8 (low)",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022222222222222223,
+          "model_configuration": "claude-opus-4-8_low",
+          "task_version": "1.1.6",
+          "run_id": "MEhV5sh6nbM8cKJGQ6HzcS",
+          "run_started_at": "2026-08-07T07:20:24+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "Claude Fable 5 (low)",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022222222222222223,
+          "model_configuration": "claude-fable-5_low",
+          "task_version": "1.1.6",
+          "run_id": "6E989Xxeuw925T7cCV3XGB",
+          "run_started_at": "2026-08-07T07:18:24+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "GPT-5.4 (high)",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022222222222222223,
+          "model_configuration": "gpt-5.4-2026-03-05_high",
+          "task_version": "1.1.6",
+          "run_id": "DpPahiEawokzgidE3cNZbS",
+          "run_started_at": "2026-07-15T12:14:50+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "Grok 4.5 (high)",
+          "score": 0.9777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.012743145865697103,
+          "model_configuration": "grok-4.5_high",
+          "task_version": "1.1.6",
+          "run_id": "f8Pac6hqib4t7x2s4HCRoT",
+          "run_started_at": "2026-07-09T08:54:22+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 31
+        },
+        {
+          "model": "Claude Haiku 5.5 (high)",
+          "score": 0.9722222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.013109441770118595,
+          "model_configuration": "claude-haiku-5-5_high",
+          "task_version": "1.1.6",
+          "run_id": "LycbwGumF6Q7ySpmGY94XW",
+          "run_started_at": "2026-10-08T06:16:25+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 37
+        },
+        {
+          "model": "Gemini 3.7 Flash (high)",
+          "score": 0.9722222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.018586784946171872,
+          "model_configuration": "gemini-3.7-flash_high",
+          "task_version": "1.1.6",
+          "run_id": "kQjrYCaa7yYyMXofeR23Dd",
+          "run_started_at": "2026-08-15T03:29:12+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 37
+        },
+        {
+          "model": "Kimi K3 (Max)",
+          "score": 0.9722222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.011158359139033182,
+          "model_configuration": "kimi-k3_max",
+          "task_version": "1.1.6",
+          "run_id": "A33om9MTYMC7xYeLv9X7Ha",
+          "run_started_at": "2026-07-17T06:59:40+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 37
+        },
+        {
+          "model": "DeepSeek v4 (max)",
+          "score": 0.9666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.02002208376727653,
+          "model_configuration": "deepseek-v4-pro_max",
+          "task_version": "1.1.6",
+          "run_id": "HjTDENSpy9sancDzr7pccY",
+          "run_started_at": "2026-06-17T09:34:52+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 40
+        },
+        {
+          "model": "Doubao Seed 2.1 Turbo (high)",
+          "score": 0.9611111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.024753271842145104,
+          "model_configuration": "doubao-seed-2.1-turbo-260628_high",
+          "task_version": "1.1.6",
+          "run_id": "mXHskR6CPxcMBRzmWaPvcq",
+          "run_started_at": "2026-10-30T21:30:09+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 41
+        },
+        {
+          "model": "Doubao Seed 2.1 Pro (high)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.029235728721796906,
+          "model_configuration": "doubao-seed-2.1-pro-260628_high",
+          "task_version": "1.1.6",
+          "run_id": "jL9Sf6dcoTTRSSUFXTG7py",
+          "run_started_at": "2026-10-30T20:38:23+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "GPT-5.6 Sol (low)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534736,
+          "model_configuration": "gpt-5.6-sol_low",
+          "task_version": "1.1.6",
+          "run_id": "Mifz96Jm442bn43Qnxj5rT",
+          "run_started_at": "2026-08-07T09:42:21+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "qwen3.7-max",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534736,
+          "model_configuration": "qwen3.7-max",
+          "task_version": "1.1.6",
+          "run_id": "D3YDUZSfEUDsS4frLbEKDu",
+          "run_started_at": "2026-08-07T09:39:02+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "kimi-k2.7-code",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534736,
+          "model_configuration": "kimi-k2.7-code",
+          "task_version": "1.1.6",
+          "run_id": "ENc5ZM5TpBYNKkTWN4xyQM",
+          "run_started_at": "2026-08-07T09:20:43+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview (high)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534736,
+          "model_configuration": "gemini-3.1-pro-preview_high",
+          "task_version": "1.1.6",
+          "run_id": "nhim2QCRgpir5cZdqrmUz3",
+          "run_started_at": "2026-08-07T08:59:11+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "DeepSeek v4 (high)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534743,
+          "model_configuration": "deepseek-v4-pro_high",
+          "task_version": "1.1.6",
+          "run_id": "GLZkYFDFDENRiHyL68Nq43",
+          "run_started_at": "2026-08-07T08:58:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "Gemini 3 Flash Preview (high)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534743,
+          "model_configuration": "gemini-3-flash-preview_high",
+          "task_version": "1.1.6",
+          "run_id": "a4uE6KgMhGSUjcnemRnbkA",
+          "run_started_at": "2026-08-07T07:25:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "GPT-5.4 (medium)",
+          "score": 0.9555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.031067790907534736,
+          "model_configuration": "gpt-5.4-2026-03-05_medium",
+          "task_version": "1.1.6",
+          "run_id": "eUJNMJSdLnJWNgRY8D2rYw",
+          "run_started_at": "2026-07-15T12:14:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 42
+        },
+        {
+          "model": "Claude Sonnet 5 (xhigh)",
+          "score": 0.9472222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022644349282618412,
+          "model_configuration": "claude-sonnet-5_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "T2wFfuSkUdyjpyqurxNmNK",
+          "run_started_at": "2026-07-02T01:06:23+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 50
+        },
+        {
+          "model": "DeepSeek V4 Flash 0731 (max)",
+          "score": 0.9444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.020854366486931897,
+          "model_configuration": "deepseek-v4-flash-0731_max",
+          "task_version": "1.1.6",
+          "run_id": "FQ3Suh2vKacz7UNqJybTWk",
+          "run_started_at": "2026-08-02T09:22:31+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 51
+        },
+        {
+          "model": "Gemini 3.6 Flash (high)",
+          "score": 0.9416666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.030926354359015452,
+          "model_configuration": "gemini-3.6-flash_high",
+          "task_version": "1.1.6",
+          "run_id": "ajQFZGMjvyMTH2ULDZhwtz",
+          "run_started_at": "2026-08-02T09:21:27+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 52
+        },
+        {
+          "model": "Doubao-Seed-2.0 Pro (high)",
+          "score": 0.9388888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.02741556776322574,
+          "model_configuration": "doubao-seed-2.0-pro-260215_high",
+          "task_version": "1.1.6",
+          "run_id": "GVKTrNdpeZhFRevQFSFkRY",
+          "run_started_at": "2026-10-30T20:38:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 53
+        },
+        {
+          "model": "GLM-5.3-Flash (max)",
+          "score": 0.9388888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.021622267380853318,
+          "model_configuration": "glm-5.3-flash_max",
+          "task_version": "1.1.6",
+          "run_id": "NCikvVWc5SEyMEbCqvVNb2",
+          "run_started_at": "2026-08-27T07:26:55+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 53
+        },
+        {
+          "model": "glm-5.1",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03760507165451774,
+          "model_configuration": "glm-5.1",
+          "task_version": "1.1.6",
+          "run_id": "b7Lw9ExxAhVY3hdExoh4MP",
+          "run_started_at": "2026-08-11T02:44:52+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "Kimi K3 (high)",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03760507165451775,
+          "model_configuration": "kimi-k3_high",
+          "task_version": "1.1.6",
+          "run_id": "4E5xGsuRMwMBhAfC4F2G4N",
+          "run_started_at": "2026-08-07T09:46:05+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "Qwen3.6 Plus (thinking)",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03760507165451774,
+          "model_configuration": "qwen3.6-plus",
+          "task_version": "1.1.6",
+          "run_id": "jYiGAFfUQKJuRStPzU3PX3",
+          "run_started_at": "2026-08-07T09:16:48+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "Qwen3.7 Plus (thinking)",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03760507165451775,
+          "model_configuration": "qwen3.7-plus",
+          "task_version": "1.1.6",
+          "run_id": "Jvdw6GAXiS6T79bkpbk6Ra",
+          "run_started_at": "2026-08-07T09:02:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "Claude Opus 5 (low)",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03760507165451774,
+          "model_configuration": "claude-opus-5_low",
+          "task_version": "1.1.6",
+          "run_id": "Z5FAHm8aqmk8NUUm7tojng",
+          "run_started_at": "2026-08-07T07:21:20+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "grok-4.3_high",
+          "score": 0.9333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03041173683586219,
+          "model_configuration": "grok-4.3_high",
+          "task_version": "1.1.6",
+          "run_id": "fzoUFmy77NpEDtXyA6w6ap",
+          "run_started_at": "2026-06-18T02:51:54+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 55
+        },
+        {
+          "model": "grok-4.20-0309-reasoning",
+          "score": 0.9222222222222223,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.032829739672413996,
+          "model_configuration": "grok-4.20-0309-reasoning",
+          "task_version": "1.1.6",
+          "run_id": "mM6vdJpgjLY9prnetXzZJS",
+          "run_started_at": "2026-07-14T01:45:48+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 61
+        },
+        {
+          "model": "Doubao Seed 2.0 Lite (Apr 2026, high)",
+          "score": 0.9111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.036111111111111115,
+          "model_configuration": "doubao-seed-2.0-lite-260428_high",
+          "task_version": "1.1.6",
+          "run_id": "RpVeo88Yf93kMhHgwz6jcj",
+          "run_started_at": "2026-10-30T20:38:33+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 62
+        },
+        {
+          "model": "GLM-5.3 (max)",
+          "score": 0.9111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03454754040013868,
+          "model_configuration": "glm-5.3_max",
+          "task_version": "1.1.6",
+          "run_id": "goZR5yGxZic9TZ23ezCL3w",
+          "run_started_at": "2026-08-25T04:44:18+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 62
+        },
+        {
+          "model": "Qwen3.6 Max Preview (thinking)",
+          "score": 0.9111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04290254662948546,
+          "model_configuration": "qwen3.6-max-preview",
+          "task_version": "1.1.6",
+          "run_id": "EfJpx5HztMmL5EQSwsyqMe",
+          "run_started_at": "2026-08-07T09:42:24+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 62
+        },
+        {
+          "model": "Qwen3.6 27B (thinking)",
+          "score": 0.9111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04290254662948546,
+          "model_configuration": "qwen3.6-27b",
+          "task_version": "1.1.6",
+          "run_id": "452pB5w5ea6uy92e2q2NMv",
+          "run_started_at": "2026-08-07T09:12:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 62
+        },
+        {
+          "model": "Claude Opus 4.6 (max)",
+          "score": 0.9111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04290254662948546,
+          "model_configuration": "claude-opus-4-6_max",
+          "task_version": "1.1.6",
+          "run_id": "coxYk5vK5cBhQ7iZohMtA5",
+          "run_started_at": "2026-08-07T08:58:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 62
+        },
+        {
+          "model": "Inkling Small (xhigh)",
+          "score": 0.9,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.03964807305493795,
+          "model_configuration": "inkling-small_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "53BDFebxiT9KGeP5FRt6bJ",
+          "run_started_at": "2026-08-14T23:19:47+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 67
+        },
+        {
+          "model": "GPT-5.4 mini (xhigh)",
+          "score": 0.8888888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.047377936967913425,
+          "model_configuration": "gpt-5.4-mini-2026-03-17_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "QGMk6JNCYuUkFMF4zdVCsM",
+          "run_started_at": "2026-08-07T09:56:59+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 68
+        },
+        {
+          "model": "GPT-5.6 Terra (low)",
+          "score": 0.8888888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04737793696791343,
+          "model_configuration": "gpt-5.6-terra_low",
+          "task_version": "1.1.6",
+          "run_id": "Z6S3nMC2tnkpKUixCPLiDj",
+          "run_started_at": "2026-08-07T09:20:21+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 68
+        },
+        {
+          "model": "Qwen3.5 397B-A17B (thinking)",
+          "score": 0.8888888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04737793696791343,
+          "model_configuration": "qwen3.5-397b-a17b",
+          "task_version": "1.1.6",
+          "run_id": "JYuFdyZZSiMvmSZNzMTywb",
+          "run_started_at": "2026-08-07T09:12:18+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 68
+        },
+        {
+          "model": "Gemini 3.5 Flash (low)",
+          "score": 0.8888888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.047377936967913425,
+          "model_configuration": "gemini-3.5-flash_low",
+          "task_version": "1.1.6",
+          "run_id": "ig7gQ23WRms9SQLLNPtbTi",
+          "run_started_at": "2026-08-07T07:34:49+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 68
+        },
+        {
+          "model": "Inkling (xhigh)",
+          "score": 0.8888888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.039171949640122654,
+          "model_configuration": "Inkling_xhigh",
+          "task_version": "1.1.6",
+          "run_id": "j2fELMf364qfh2cpaVDL6W",
+          "run_started_at": "2026-08-06T03:55:39+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 68
+        },
+        {
+          "model": "nemotron-3-ultra",
+          "score": 0.8666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.051247074319053836,
+          "model_configuration": "nemotron-3-ultra",
+          "task_version": "1.1.6",
+          "run_id": "WYTWr3Xk4qxymhMsm7vRQ2",
+          "run_started_at": "2026-08-11T02:47:10+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 73
+        },
+        {
+          "model": "Qwen3.5 Plus (thinking)",
+          "score": 0.8666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.051247074319053836,
+          "model_configuration": "qwen3.5-plus",
+          "task_version": "1.1.6",
+          "run_id": "cFbntXuxUtfreULvt7vEt7",
+          "run_started_at": "2026-08-07T09:11:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 73
+        },
+        {
+          "model": "Qwen3.6 35B-A3B (thinking)",
+          "score": 0.8666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.051247074319053836,
+          "model_configuration": "qwen3.6-35b-a3b",
+          "task_version": "1.1.6",
+          "run_id": "3n5KDcBaKqJh3WTg7qU2rs",
+          "run_started_at": "2026-08-07T09:03:16+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 73
+        },
+        {
+          "model": "Qwen3.7 Flash (thinking)",
+          "score": 0.8666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.051247074319053836,
+          "model_configuration": "qwen3.7-flash",
+          "task_version": "1.1.6",
+          "run_id": "TjoS7sNuqVTc4LVyGRo4wa",
+          "run_started_at": "2026-08-07T09:02:46+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 73
+        },
+        {
+          "model": "Claude Opus 4.7 (max)",
+          "score": 0.8666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.051247074319053836,
+          "model_configuration": "claude-opus-4-7_max",
+          "task_version": "1.1.6",
+          "run_id": "T4y4iGHMqA8tXCdBKr5GjS",
+          "run_started_at": "2026-08-07T07:19:46+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 73
+        },
+        {
+          "model": "GLM-5.2 (max)",
+          "score": 0.8638888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.04219779330510574,
+          "model_configuration": "glm-5.2_max",
+          "task_version": "1.1.6",
+          "run_id": "XjFqou6MyT2XLpkUsCrgxM",
+          "run_started_at": "2026-06-25T09:15:08+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 78
+        },
+        {
+          "model": "GPT-5.5 (low)",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "gpt-5.5_low",
+          "task_version": "1.1.6",
+          "run_id": "CdmtwZ8NR8YeTXWiLVTRDJ",
+          "run_started_at": "2026-08-07T09:39:05+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "o3-2025-04-16_medium",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "o3-2025-04-16_medium",
+          "task_version": "1.1.6",
+          "run_id": "8GjRH3T4wVQMnBKX4fv4ub",
+          "run_started_at": "2026-08-07T09:28:27+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "Qwen3.6 Flash (thinking)",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "qwen3.6-flash",
+          "task_version": "1.1.6",
+          "run_id": "9zx2EXPTvPmxsL9qFCjP3x",
+          "run_started_at": "2026-08-07T09:02:08+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "Qwen3.5 Flash (thinking)",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "qwen3.5-flash",
+          "task_version": "1.1.6",
+          "run_id": "awDKyKbPXRzBVZzfdQucef",
+          "run_started_at": "2026-08-07T09:00:21+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "Claude Opus 4.8 (no thinking)",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "claude-opus-4-8_none",
+          "task_version": "1.1.6",
+          "run_id": "adGE8rXdNuUFs96ioppbc5",
+          "run_started_at": "2026-08-07T07:21:06+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "GPT-5.4 (low)",
+          "score": 0.8444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05463890236888291,
+          "model_configuration": "gpt-5.4-2026-03-05_low",
+          "task_version": "1.1.6",
+          "run_id": "bezRyWjXxqHnQeiL4MkSfZ",
+          "run_started_at": "2026-07-15T12:14:49+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 79
+        },
+        {
+          "model": "Gemma 4 26B-A4B IT",
+          "score": 0.8222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05763774795025092,
+          "model_configuration": "gemma-4-26b-a4b-it_minimal",
+          "task_version": "1.1.6",
+          "run_id": "mstwSH7noJfvhGcd6Lz5kd",
+          "run_started_at": "2026-08-28T21:55:56+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 85
+        },
+        {
+          "model": "Qwen3.5 397B-A17B (no thinking)",
+          "score": 0.8222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.057637747950250916,
+          "model_configuration": "qwen3.5-397b-a17b_none",
+          "task_version": "1.1.6",
+          "run_id": "i2ZUgMREKiFAnE2M54w3Py",
+          "run_started_at": "2026-08-07T09:12:04+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 85
+        },
+        {
+          "model": "Gemini 3.6 Flash (low)",
+          "score": 0.8222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.057637747950250916,
+          "model_configuration": "gemini-3.6-flash_low",
+          "task_version": "1.1.6",
+          "run_id": "6iEkMa88YjLDgcde4bLm8B",
+          "run_started_at": "2026-08-07T09:07:20+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 85
+        },
+        {
+          "model": "Claude Sonnet 4.6 (medium)",
+          "score": 0.8222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.057637747950250916,
+          "model_configuration": "claude-sonnet-4-6_medium",
+          "task_version": "1.1.6",
+          "run_id": "kDNNbUYXhrAH5uDBGykFaf",
+          "run_started_at": "2026-07-14T02:28:00+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 85
+        },
+        {
+          "model": "Gemini 3.6 Flash (minimal)",
+          "score": 0.8,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06030226891555273,
+          "model_configuration": "gemini-3.6-flash_minimal",
+          "task_version": "1.1.6",
+          "run_id": "cF97JqHbFxxp7ePjYVK9HV",
+          "run_started_at": "2026-08-07T09:07:32+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 89
+        },
+        {
+          "model": "Qwen3.7 Plus (no thinking)",
+          "score": 0.8,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06030226891555273,
+          "model_configuration": "qwen3.7-plus_none",
+          "task_version": "1.1.6",
+          "run_id": "o5th8Rb9WiaDbv4oEMDoFa",
+          "run_started_at": "2026-08-07T09:02:56+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 89
+        },
+        {
+          "model": "Gemini 3.1 Flash-Lite (high)",
+          "score": 0.8,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06030226891555273,
+          "model_configuration": "gemini-3.1-flash-lite_high",
+          "task_version": "1.1.6",
+          "run_id": "NMdaAXyqqPRmWfuxZUfHFF",
+          "run_started_at": "2026-08-07T07:29:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 89
+        },
+        {
+          "model": "Claude Sonnet 5 (max)",
+          "score": 0.8,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06030226891555273,
+          "model_configuration": "claude-sonnet-5_max",
+          "task_version": "1.1.6",
+          "run_id": "XRutLYUVUePe69APTSTw8S",
+          "run_started_at": "2026-08-07T07:21:48+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 89
+        },
+        {
+          "model": "Gemini 3.5 Flash (minimal)",
+          "score": 0.8,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06030226891555273,
+          "model_configuration": "gemini-3.5-flash_minimal",
+          "task_version": "1.1.6",
+          "run_id": "JuM7FArkmhLqqKBqudySsC",
+          "run_started_at": "2026-07-15T12:14:20+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 89
+        },
+        {
+          "model": "Qwen3.7 Flash (no thinking)",
+          "score": 0.7777777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06267511942419625,
+          "model_configuration": "qwen3.7-flash_none",
+          "task_version": "1.1.6",
+          "run_id": "SZDgstFQJAGeGQwMXgNx6w",
+          "run_started_at": "2026-08-07T09:02:33+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 94
+        },
+        {
+          "model": "GLM-5.2 (low)",
+          "score": 0.7555555555555555,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06478835438717,
+          "model_configuration": "glm-5.2_low",
+          "task_version": "1.1.6",
+          "run_id": "9uKmMPn6eiRPsfcLKod7M7",
+          "run_started_at": "2026-08-11T02:45:24+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 95
+        },
+        {
+          "model": "Claude Sonnet 4.6 (high)",
+          "score": 0.7555555555555555,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06478835438717,
+          "model_configuration": "claude-sonnet-4-6_high",
+          "task_version": "1.1.6",
+          "run_id": "oXZ7ZVZtADrwFPKAe6zTvL",
+          "run_started_at": "2026-07-14T02:28:15+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 95
+        },
+        {
+          "model": "o4-mini-2025-04-16_medium",
+          "score": 0.7333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06666666666666667,
+          "model_configuration": "o4-mini-2025-04-16_medium",
+          "task_version": "1.1.6",
+          "run_id": "TWJtwC5bzXa9HorTH8DNJy",
+          "run_started_at": "2026-08-07T09:16:13+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 97
+        },
+        {
+          "model": "Gemma 4 31B IT (minimal)",
+          "score": 0.7333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06666666666666667,
+          "model_configuration": "gemma-4-31b-it_minimal",
+          "task_version": "1.1.6",
+          "run_id": "jFJucVunfLgoQqoFvPVQWP",
+          "run_started_at": "2026-08-07T08:59:45+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 97
+        },
+        {
+          "model": "o1-2024-12-17_high",
+          "score": 0.7333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06666666666666667,
+          "model_configuration": "o1-2024-12-17_high",
+          "task_version": "1.1.6",
+          "run_id": "AEQDjKHZzrVUubU42ZUZwA",
+          "run_started_at": "2026-07-15T15:14:12+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 97
+        },
+        {
+          "model": "MiniMax M3 (thinking)",
+          "score": 0.7111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0683294324254051,
+          "model_configuration": "MiniMax-M3",
+          "task_version": "1.1.6",
+          "run_id": "79ZP6iwoBaF5t9a5VRqPnw",
+          "run_started_at": "2026-08-11T02:46:09+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 100
+        },
+        {
+          "model": "Gemini 3.5 Flash-Lite (high)",
+          "score": 0.7111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0683294324254051,
+          "model_configuration": "gemini-3.5-flash-lite_high",
+          "task_version": "1.1.6",
+          "run_id": "mqsc4vFuKtAHXxbYyX9WwK",
+          "run_started_at": "2026-08-07T07:35:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 100
+        },
+        {
+          "model": "Claude Sonnet 4.6 (max)",
+          "score": 0.7111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06832943242540508,
+          "model_configuration": "claude-sonnet-4-6_max",
+          "task_version": "1.1.6",
+          "run_id": "XnQVH5qSfxVjpzoPwUEmnh",
+          "run_started_at": "2026-08-07T07:21:16+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 100
+        },
+        {
+          "model": "qwen3-30b-a3b-thinking-2507",
+          "score": 0.7027777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.060418480757624834,
+          "model_configuration": "qwen3-30b-a3b-thinking-2507",
+          "task_version": "1.1.6",
+          "run_id": "6rZFxNR3GjfhWey6DzEiYz",
+          "run_started_at": "2026-08-31T07:44:45+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 103
+        },
+        {
+          "model": "qwen3.5-35b-a3b_none",
+          "score": 0.7,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06003996985174109,
+          "model_configuration": "qwen3.5-35b-a3b_none",
+          "task_version": "1.1.6",
+          "run_id": "h9aoDxyWEhybvARHpyuoco",
+          "run_started_at": "2026-08-31T07:45:56+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 104
+        },
+        {
+          "model": "Doubao-Seed-1.6 (thinking)",
+          "score": 0.6944444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06123151591268345,
+          "model_configuration": "seed-1.6",
+          "task_version": "1.1.6",
+          "run_id": "WNAkAqgqwujVtjUKxkjQVu",
+          "run_started_at": "2026-10-31T03:28:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 105
+        },
+        {
+          "model": "GPT-5.6 Sol (none)",
+          "score": 0.6888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0697920592732311,
+          "model_configuration": "gpt-5.6-sol_none",
+          "task_version": "1.1.6",
+          "run_id": "g7czyLHudHegzP9yRD939X",
+          "run_started_at": "2026-08-07T09:54:12+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 106
+        },
+        {
+          "model": "Kimi K3 (low)",
+          "score": 0.6888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06979205927323111,
+          "model_configuration": "kimi-k3_low",
+          "task_version": "1.1.6",
+          "run_id": "frszScNxpHXXjSHawCt9Zb",
+          "run_started_at": "2026-08-07T09:46:06+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 106
+        },
+        {
+          "model": "Qwen3.6 35B-A3B (no thinking)",
+          "score": 0.6888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06979205927323111,
+          "model_configuration": "qwen3.6-35b-a3b_none",
+          "task_version": "1.1.6",
+          "run_id": "7GiYWM7UagUsHpNsdymd4z",
+          "run_started_at": "2026-08-07T09:03:06+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 106
+        },
+        {
+          "model": "GPT-5.4 nano (low)",
+          "score": 0.6888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06979205927323111,
+          "model_configuration": "gpt-5.4-nano-2026-03-17_low",
+          "task_version": "1.1.6",
+          "run_id": "bxvsuZ4Xpi3gZ4rsA8T7kV",
+          "run_started_at": "2026-08-07T09:00:00+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 106
+        },
+        {
+          "model": "GPT-5.5 Instant",
+          "score": 0.6805555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.062127114361967634,
+          "model_configuration": "gpt-5.5-instant",
+          "task_version": "1.1.6",
+          "run_id": "hGzLQWbxPdgQiiMbaDqF8k",
+          "run_started_at": "2026-08-02T11:46:37+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 110
+        },
+        {
+          "model": "seed-oss-36b-instruct",
+          "score": 0.675,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06324056203789373,
+          "model_configuration": "seed-oss-36b-instruct",
+          "task_version": "1.1.6",
+          "run_id": "eJvV6RezECZwh3b4ekg4pm",
+          "run_started_at": "2026-08-29T03:40:22+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 111
+        },
+        {
+          "model": "Qwen3 32B",
+          "score": 0.6694444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06040106323530329,
+          "model_configuration": "Qwen3-32B",
+          "task_version": "1.1.6",
+          "run_id": "BAi4jidcT3F6reBkSXDJKv",
+          "run_started_at": "2026-08-31T07:44:49+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 112
+        },
+        {
+          "model": "Qwen3.6 27B (no thinking)",
+          "score": 0.6666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07106690545187015,
+          "model_configuration": "qwen3.6-27b_none",
+          "task_version": "1.1.6",
+          "run_id": "o6VtA8qruLpoShhPy2JdLg",
+          "run_started_at": "2026-08-07T09:12:23+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 113
+        },
+        {
+          "model": "GPT-5.6 Luna (low)",
+          "score": 0.6666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07106690545187014,
+          "model_configuration": "gpt-5.6-luna_low",
+          "task_version": "1.1.6",
+          "run_id": "ZgU8BagFmaj7BE94y3JDZA",
+          "run_started_at": "2026-08-07T09:02:15+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 113
+        },
+        {
+          "model": "qwen3-14b",
+          "score": 0.6638888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06190655406811223,
+          "model_configuration": "qwen3-14b",
+          "task_version": "1.1.6",
+          "run_id": "gRRQHECkYhz5UaYsRKDh2F",
+          "run_started_at": "2026-08-29T01:54:14+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 115
+        },
+        {
+          "model": "gpt-oss-20b (medium)",
+          "score": 0.6527777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0593111883162336,
+          "model_configuration": "gpt-oss-20b_medium",
+          "task_version": "1.1.6",
+          "run_id": "DB8ja6pEZWGocQbdciyisL",
+          "run_started_at": "2026-08-27T23:12:40+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 116
+        },
+        {
+          "model": "Qwen3-30B-A3B",
+          "score": 0.6277777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.062118645754659016,
+          "model_configuration": "Qwen3-30B-A3B",
+          "task_version": "1.1.6",
+          "run_id": "XfjRkSyP4ub4gDsWcgS7KY",
+          "run_started_at": "2026-08-29T02:03:13+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 117
+        },
+        {
+          "model": "qwen3-30b-a3b-instruct-2507",
+          "score": 0.6222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06509619058885623,
+          "model_configuration": "qwen3-30b-a3b-instruct-2507",
+          "task_version": "1.1.6",
+          "run_id": "Eo5cAQJK28CHpKDfCSDYG4",
+          "run_started_at": "2026-08-31T07:44:11+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 118
+        },
+        {
+          "model": "GPT-5.2 (none)",
+          "score": 0.6222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07309112127323451,
+          "model_configuration": "gpt-5.2-2025-12-11_none",
+          "task_version": "1.1.6",
+          "run_id": "UBKiF8QVUmHwqgx4rF7CDA",
+          "run_started_at": "2026-07-14T02:28:07+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 118
+        },
+        {
+          "model": "Qwen3.5 9B (no thinking)",
+          "score": 0.6166666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06003996985174109,
+          "model_configuration": "qwen3.5-9B_none",
+          "task_version": "1.1.6",
+          "run_id": "YBMTDnW5LmCN6tBp2QYHzi",
+          "run_started_at": "2026-08-27T23:31:08+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 120
+        },
+        {
+          "model": "Gemini 3.5 Flash-Lite (low)",
+          "score": 0.6,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07385489458759963,
+          "model_configuration": "gemini-3.5-flash-lite_low",
+          "task_version": "1.1.6",
+          "run_id": "B3Kno3buYWRYbZxU33STiX",
+          "run_started_at": "2026-08-07T07:36:02+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 121
+        },
+        {
+          "model": "o3-2025-04-16_low",
+          "score": 0.6,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07385489458759963,
+          "model_configuration": "o3-2025-04-16_low",
+          "task_version": "1.1.6",
+          "run_id": "8ygEN7GrcTGeBLbVWT9JQ8",
+          "run_started_at": "2026-07-15T12:15:08+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 121
+        },
+        {
+          "model": "QwQ 32B",
+          "score": 0.5916666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06348963965431165,
+          "model_configuration": "QwQ-32B",
+          "task_version": "1.1.6",
+          "run_id": "2xMn6dbY9mw4pmkh8Tz9Gn",
+          "run_started_at": "2026-08-28T16:20:55+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 123
+        },
+        {
+          "model": "glm-4.7-flash",
+          "score": 0.5833333333333334,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06564078093085213,
+          "model_configuration": "glm-4.7-flash",
+          "task_version": "1.1.6",
+          "run_id": "9ekki5tJhyjmA7ZMLoUxzo",
+          "run_started_at": "2026-08-31T07:37:43+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 124
+        },
+        {
+          "model": "GPT-5.5 (no thinking)",
+          "score": 0.5777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07446027270295805,
+          "model_configuration": "gpt-5.5_none",
+          "task_version": "1.1.6",
+          "run_id": "QuqPmMUTbiEsUvoFYZx5Mk",
+          "run_started_at": "2026-08-07T09:53:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 125
+        },
+        {
+          "model": "GPT-5.4 (none)",
+          "score": 0.5777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07446027270295805,
+          "model_configuration": "gpt-5.4-2026-03-05_none",
+          "task_version": "1.1.6",
+          "run_id": "fjxs2EWts9GjpuBtFD5BN3",
+          "run_started_at": "2026-07-15T12:14:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 125
+        },
+        {
+          "model": "o4-mini-2025-04-16_low",
+          "score": 0.5777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07446027270295805,
+          "model_configuration": "o4-mini-2025-04-16_low",
+          "task_version": "1.1.6",
+          "run_id": "WNYdVF9tnK7Nf6We9NEhJS",
+          "run_started_at": "2026-07-14T01:50:13+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 125
+        },
+        {
+          "model": "Qwen3 8B (thinking)",
+          "score": 0.5611111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0645035213369854,
+          "model_configuration": "qwen3-8b",
+          "task_version": "1.1.6",
+          "run_id": "gG2B6fLUDBy5jRraxL2pz8",
+          "run_started_at": "2026-08-27T23:21:53+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 128
+        },
+        {
+          "model": "qwen3.5-4b_none",
+          "score": 0.5583333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0616226296489243,
+          "model_configuration": "qwen3.5-4b_none",
+          "task_version": "1.1.6",
+          "run_id": "SAZy8rk2HgyPjA8XZJFUmR",
+          "run_started_at": "2026-08-29T03:33:35+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 129
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-32B",
+          "score": 0.5555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.061999963795652153,
+          "model_configuration": "DeepSeek-R1-Distill-Qwen-32B",
+          "task_version": "1.1.6",
+          "run_id": "KbUNQf8nnwPa8ixg6AnEwB",
+          "run_started_at": "2026-08-28T17:15:43+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 130
+        },
+        {
+          "model": "GPT-5 mini (medium)",
+          "score": 0.5555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07491109582924914,
+          "model_configuration": "gpt-5-mini-2025-08-07_minimal",
+          "task_version": "1.1.6",
+          "run_id": "7VLdaSiAanBwM9TJUB5BhU",
+          "run_started_at": "2026-08-07T09:00:04+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 130
+        },
+        {
+          "model": "qwen3.5-35b-a3b",
+          "score": 0.5444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.061949030495634445,
+          "model_configuration": "qwen3.5-35b-a3b",
+          "task_version": "1.1.6",
+          "run_id": "9WS6kHXT8XFtJWtE2wWLAo",
+          "run_started_at": "2026-08-31T07:45:36+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 132
+        },
+        {
+          "model": "GPT-5.6 Terra (none)",
+          "score": 0.5333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "gpt-5.6-terra_none",
+          "task_version": "1.1.6",
+          "run_id": "cjUVqF2qQJ4qhFKBU5BQpW",
+          "run_started_at": "2026-08-07T09:42:38+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 133
+        },
+        {
+          "model": "o1-2024-12-17_low",
+          "score": 0.5333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "o1-2024-12-17_low",
+          "task_version": "1.1.6",
+          "run_id": "JsAVnfoWmxCaChyiNU9VFi",
+          "run_started_at": "2026-07-15T15:14:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 133
+        },
+        {
+          "model": "qwen3-4b-instruct-2507",
+          "score": 0.5222222222222223,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06591537955214949,
+          "model_configuration": "qwen3-4b-instruct-2507",
+          "task_version": "1.1.6",
+          "run_id": "KH7KfZvFc9kZbqiJFdfYTc",
+          "run_started_at": "2026-08-29T02:48:22+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 135
+        },
+        {
+          "model": "Gemini 3.5 Flash-Lite (minimal)",
+          "score": 0.5111111111111111,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07535922203472521,
+          "model_configuration": "gemini-3.5-flash-lite_minimal",
+          "task_version": "1.1.6",
+          "run_id": "ivr2LfmdZoCMfLME7jh2L8",
+          "run_started_at": "2026-08-07T07:35:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 136
+        },
+        {
+          "model": "gpt-oss-20b (high)",
+          "score": 0.5083333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06711496995394688,
+          "model_configuration": "gpt-oss-20b_high",
+          "task_version": "1.1.6",
+          "run_id": "GMngscbSmqoPbGZWNv2Jvw",
+          "run_started_at": "2026-08-27T23:13:32+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 137
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-14B",
+          "score": 0.5055555555555555,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05984981671790839,
+          "model_configuration": "DeepSeek-R1-Distill-Qwen-14B",
+          "task_version": "1.1.6",
+          "run_id": "EceR3NeHzSxacdmAmfRxgT",
+          "run_started_at": "2026-08-28T17:02:29+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 138
+        },
+        {
+          "model": "deepseek-chat",
+          "score": 0.4888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0753592220347252,
+          "model_configuration": "deepseek-chat",
+          "task_version": "1.1.6",
+          "run_id": "DzXSCtsyMBfoBAhBDMxhsQ",
+          "run_started_at": "2026-07-16T09:10:43+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 139
+        },
+        {
+          "model": "GPT-5.4 nano (no thinking)",
+          "score": 0.4666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "gpt-5.4-nano-2026-03-17_none",
+          "task_version": "1.1.6",
+          "run_id": "eUR9o3bvU2Yu3KY5w5uk4j",
+          "run_started_at": "2026-08-07T09:01:03+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 140
+        },
+        {
+          "model": "DeepSeek v4 (no thinking)",
+          "score": 0.4666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "deepseek-v4-pro_none",
+          "task_version": "1.1.6",
+          "run_id": "7bwsMdahVHrkaiN5x49Dk7",
+          "run_started_at": "2026-08-07T08:59:05+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 140
+        },
+        {
+          "model": "GPT-5 (minimal)",
+          "score": 0.4666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "gpt-5-2025-08-07_minimal",
+          "task_version": "1.1.6",
+          "run_id": "RMsr7t8ZwJmox4m863sJGm",
+          "run_started_at": "2026-07-21T03:28:50+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 140
+        },
+        {
+          "model": "GPT-5 nano (low)",
+          "score": 0.4666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07521014330903548,
+          "model_configuration": "gpt-5-nano-2025-08-07_low",
+          "task_version": "1.1.6",
+          "run_id": "298stsbTPpZp7toZsS5cp8",
+          "run_started_at": "2026-07-14T02:28:21+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 140
+        },
+        {
+          "model": "Gemini 3.1 Flash-Lite (low)",
+          "score": 0.4444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07491109582924914,
+          "model_configuration": "gemini-3.1-flash-lite_low",
+          "task_version": "1.1.6",
+          "run_id": "CFBCC2QrkCAFBAvFj5pqPF",
+          "run_started_at": "2026-08-07T07:30:07+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 144
+        },
+        {
+          "model": "o3-mini-2025-01-31_low",
+          "score": 0.4444444444444444,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07491109582924914,
+          "model_configuration": "o3-mini-2025-01-31_low",
+          "task_version": "1.1.6",
+          "run_id": "DvMvnsvXgBB38PEnLGbTPH",
+          "run_started_at": "2026-07-21T03:28:54+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 144
+        },
+        {
+          "model": "DeepSeek-R1-0528 (Distill Qwen3 8B)",
+          "score": 0.4388888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0677262181766212,
+          "model_configuration": "deepseek-r1-0528-qwen3-8b",
+          "task_version": "1.1.6",
+          "run_id": "LWbCXNGMXtjQYxyM2uoFMV",
+          "run_started_at": "2026-08-28T16:49:02+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 146
+        },
+        {
+          "model": "Qwen3.5 9B (thinking)",
+          "score": 0.42777777777777776,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06533819469304575,
+          "model_configuration": "qwen3.5-9B",
+          "task_version": "1.1.6",
+          "run_id": "5FVmQUSS4uRd23f6nNgeRe",
+          "run_started_at": "2026-08-27T23:30:39+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 147
+        },
+        {
+          "model": "gpt-oss-20b (low)",
+          "score": 0.4027777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06317675132490254,
+          "model_configuration": "gpt-oss-20b_low",
+          "task_version": "1.1.6",
+          "run_id": "cMwETYmC6b4yKupyJfEHv2",
+          "run_started_at": "2026-08-27T23:12:25+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 148
+        },
+        {
+          "model": "GPT-5.6 Luna (none)",
+          "score": 0.4,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07385489458759964,
+          "model_configuration": "gpt-5.6-luna_none",
+          "task_version": "1.1.6",
+          "run_id": "QYZ6wRuT7WMkaYPKc9dRPy",
+          "run_started_at": "2026-08-07T09:20:15+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 149
+        },
+        {
+          "model": "GPT-5.1 (no thinking)",
+          "score": 0.37777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07309112127323451,
+          "model_configuration": "gpt-5.1-2025-11-13_none",
+          "task_version": "1.1.6",
+          "run_id": "H5NgPXUD57sbusTLp3yKQE",
+          "run_started_at": "2026-08-07T09:24:39+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 150
+        },
+        {
+          "model": "Gemini 3.1 Flash-Lite (minimal)",
+          "score": 0.37777777777777777,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.07309112127323451,
+          "model_configuration": "gemini-3.1-flash-lite_minimal",
+          "task_version": "1.1.6",
+          "run_id": "EoSFpgFhJB7iDPLcMNuLH4",
+          "run_started_at": "2026-08-07T07:30:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 150
+        },
+        {
+          "model": "GPT-5 nano (low)",
+          "score": 0.35555555555555557,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0721639236343101,
+          "model_configuration": "gpt-5-nano-2025-08-07_minimal",
+          "task_version": "1.1.6",
+          "run_id": "kJHhuWKGEEunTq9FxwKx9E",
+          "run_started_at": "2026-07-14T02:28:09+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 152
+        },
+        {
+          "model": "mistral-small-3.2-2506",
+          "score": 0.30277777777777776,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.057774499712758075,
+          "model_configuration": "mistral-small-3.2-2506",
+          "task_version": "1.1.6",
+          "run_id": "HyKzRUkV42yTmGrbYQvZxQ",
+          "run_started_at": "2026-08-31T07:41:17+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 153
+        },
+        {
+          "model": "magistral-small-2506",
+          "score": 0.3,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05924610544247621,
+          "model_configuration": "magistral-small-2506",
+          "task_version": "1.1.6",
+          "run_id": "hmZPoiHBpqufv9r7ujiK8V",
+          "run_started_at": "2026-08-07T07:17:05+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 154
+        },
+        {
+          "model": "GLM-5.2 (no thinking)",
+          "score": 0.28888888888888886,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06832943242540508,
+          "model_configuration": "glm-5.2_none",
+          "task_version": "1.1.6",
+          "run_id": "J8hYKbXiGhetQRwu5bUSp6",
+          "run_started_at": "2026-08-11T02:45:48+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 155
+        },
+        {
+          "model": "Magistral Small 1.2",
+          "score": 0.28055555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0556407175551872,
+          "model_configuration": "magistral-small-2509",
+          "task_version": "1.1.6",
+          "run_id": "cSTYZ3FKp5Mbs3xopn68NK",
+          "run_started_at": "2026-08-31T07:39:41+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 156
+        },
+        {
+          "model": "MiniMax M3 (no thinking)",
+          "score": 0.26666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06666666666666668,
+          "model_configuration": "MiniMax-M3_none",
+          "task_version": "1.1.6",
+          "run_id": "97t77hRrNae6Va8fBqBhPy",
+          "run_started_at": "2026-08-11T02:46:50+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 157
+        },
+        {
+          "model": "GPT-5.4 mini (none)",
+          "score": 0.26666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.06666666666666668,
+          "model_configuration": "gpt-5.4-mini-2026-03-17_none",
+          "task_version": "1.1.6",
+          "run_id": "R4NrJwtfdSQkGCWyKnrxgh",
+          "run_started_at": "2026-08-07T09:42:28+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 157
+        },
+        {
+          "model": "qwen3-14b_none",
+          "score": 0.25833333333333336,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.048232653761625936,
+          "model_configuration": "qwen3-14b_none",
+          "task_version": "1.1.6",
+          "run_id": "RMcys99fv45vvgTgakXXWn",
+          "run_started_at": "2026-08-31T07:42:57+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 159
+        },
+        {
+          "model": "Qwen3-30B-A3B_none",
+          "score": 0.25555555555555554,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.052095537290747576,
+          "model_configuration": "Qwen3-30B-A3B_none",
+          "task_version": "1.1.6",
+          "run_id": "ZzbWv2QGVfg4o2DTX45nqV",
+          "run_started_at": "2026-08-31T07:43:50+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 160
+        },
+        {
+          "model": "glm-4.7-flash_none",
+          "score": 0.25,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.049460472943941645,
+          "model_configuration": "glm-4.7-flash_none",
+          "task_version": "1.1.6",
+          "run_id": "fPE4Zajhq5WfccSxEYXXR7",
+          "run_started_at": "2026-08-28T20:17:11+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 161
+        },
+        {
+          "model": "Qwen3-32B_none",
+          "score": 0.23055555555555557,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05148605337836994,
+          "model_configuration": "Qwen3-32B_none",
+          "task_version": "1.1.6",
+          "run_id": "CfmvbqzjpF6cCJQfzqdD4w",
+          "run_started_at": "2026-08-31T07:45:19+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 162
+        },
+        {
+          "model": "gemma-3-27b-it",
+          "score": 0.225,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.052794388667238824,
+          "model_configuration": "gemma-3-27b-it",
+          "task_version": "1.1.6",
+          "run_id": "DhJ248BX3ZPBHXvkRG4Qsz",
+          "run_started_at": "2026-08-27T23:17:59+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 163
+        },
+        {
+          "model": "Qwen3 8B (no thinking)",
+          "score": 0.2222222222222222,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0452770806168054,
+          "model_configuration": "qwen3-8b_none",
+          "task_version": "1.1.6",
+          "run_id": "ASLdzByzxxMxFeLc7dwTPi",
+          "run_started_at": "2026-08-27T23:22:01+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 164
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+          "score": 0.21388888888888888,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.05279771021800918,
+          "model_configuration": "DeepSeek-R1-Distill-Qwen-1.5B",
+          "task_version": "1.1.6",
+          "run_id": "Gs234P3jzGiLm68KjyzYZL",
+          "run_started_at": "2026-08-28T16:53:04+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 165
+        },
+        {
+          "model": "gemma-3-12b-it",
+          "score": 0.16666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0424174778156649,
+          "model_configuration": "gemma-3-12b-it",
+          "task_version": "1.1.6",
+          "run_id": "CAyLyhDHZiMQBZDB3qd8tG",
+          "run_started_at": "2026-08-28T17:22:55+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 166
+        },
+        {
+          "model": "qwen3-1.7b_none",
+          "score": 0.08055555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.0281353251405273,
+          "model_configuration": "qwen3-1.7b_none",
+          "task_version": "1.1.6",
+          "run_id": "bbqokudairnKtbyjBjuWCx",
+          "run_started_at": "2026-08-29T01:47:54+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 167
+        },
+        {
+          "model": "gemma-3-4b-it",
+          "score": 0.075,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.02763853991962833,
+          "model_configuration": "gemma-3-4b-it",
+          "task_version": "1.1.6",
+          "run_id": "KAPGpH2CLMafAt8MnAQJT3",
+          "run_started_at": "2026-08-28T17:35:58+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 168
+        },
+        {
+          "model": "mistral-small-3-2501",
+          "score": 0.06666666666666667,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.02682716849943299,
+          "model_configuration": "mistral-small-3-2501",
+          "task_version": "1.1.6",
+          "run_id": "LEBmfabfasGXFwRwhN9j35",
+          "run_started_at": "2026-08-31T07:40:34+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 169
+        },
+        {
+          "model": "mistral-small-3.1-2503",
+          "score": 0.03888888888888889,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.01529498571765449,
+          "model_configuration": "mistral-small-3.1-2503",
+          "task_version": "1.1.6",
+          "run_id": "nNZHFNyHgfv3uzPAxspaPT",
+          "run_started_at": "2026-08-31T07:41:08+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 170
+        },
+        {
+          "model": "granite-4.0-micro",
+          "score": 0.027777777777777776,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.014262647723679736,
+          "model_configuration": "granite-4.0-micro",
+          "task_version": "1.1.6",
+          "run_id": "gVnaLSupMCiWmiScxfMLx3",
+          "run_started_at": "2026-08-31T07:47:13+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 171
+        },
+        {
+          "model": "Qwen2.5-7B",
+          "score": 0.025,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.009401267913629434,
+          "model_configuration": "qwen2.5-7b-instruct",
+          "task_version": "1.1.6",
+          "run_id": "U8HHNLLLVHJ7sHCfwdiDBX",
+          "run_started_at": "2026-08-31T07:42:37+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 172
+        },
+        {
+          "model": "gpt-3.5-turbo-0125",
+          "score": 0.022222222222222223,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.022222222222222223,
+          "model_configuration": "gpt-3.5-turbo-0125",
+          "task_version": "1.1.6",
+          "run_id": "7ZVhkukwaRXU2Sx2ttibPF",
+          "run_started_at": "2026-08-07T09:00:50+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 173
+        },
+        {
+          "model": "Meta-Llama-3-8B-Instruct",
+          "score": 0.019444444444444445,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.010477515876628662,
+          "model_configuration": "Meta-Llama-3-8B-Instruct",
+          "task_version": "1.1.6",
+          "run_id": "CAcNPzYBEu39HFWPmuUEeP",
+          "run_started_at": "2026-08-31T07:38:53+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 174
+        },
+        {
+          "model": "Llama-3.1-8B-Instruct",
+          "score": 0.016666666666666666,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.009401267913629434,
+          "model_configuration": "Llama-3.1-8B-Instruct",
+          "task_version": "1.1.6",
+          "run_id": "6YAzFq89fwWiJ3uJdptCMr",
+          "run_started_at": "2026-08-28T01:29:11+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 175
+        },
+        {
+          "model": "gemma-3-1b-it",
+          "score": 0.011111111111111112,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.005362818328685681,
+          "model_configuration": "gemma-3-1b-it",
+          "task_version": "1.1.6",
+          "run_id": "3CGChL5vNDM6Df5C8Z8owN",
+          "run_started_at": "2026-08-28T17:28:18+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 176
+        },
+        {
+          "model": "granite-4.0-1b",
+          "score": 0.008333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.004700633956814717,
+          "model_configuration": "granite-4.0-1b",
+          "task_version": "1.1.6",
+          "run_id": "PiFfhBoFbnaoqX5z2gVvra",
+          "run_started_at": "2026-08-31T07:46:30+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 177
+        },
+        {
+          "model": "DeepSeek LLM 67B (chat)",
+          "score": 0.008333333333333333,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.004700633956814719,
+          "model_configuration": "deepseek-llm-67b-chat",
+          "task_version": "1.1.6",
+          "run_id": "Y5rC5REnP83Q7mAoMtjiRq",
+          "run_started_at": "2026-08-29T03:57:38+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 177
+        },
+        {
+          "model": "Llama-3.2-1B-Instruct",
+          "score": 0.005555555555555556,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.003883473863441843,
+          "model_configuration": "Llama-3.2-1B-Instruct",
+          "task_version": "1.1.6",
+          "run_id": "8qwT2CF9U5zV99PFirnVsp",
+          "run_started_at": "2026-08-31T07:39:12+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 179
+        },
+        {
+          "model": "Mistral-7B-Instruct-v0.3",
+          "score": 0.002777777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.002777777777777778,
+          "model_configuration": "Mistral-7B-Instruct-v0.3",
+          "task_version": "1.1.6",
+          "run_id": "j6Mo25oV9Y9jdGxCMHZfpU",
+          "run_started_at": "2026-08-31T07:40:14+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 180
+        },
+        {
+          "model": "granite-4.0-350m",
+          "score": 0.002777777777777778,
+          "track": "Epoch官方CSV/task1.1.6/每配置最新成功run",
+          "metric": "Accuracy (0–1)",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "collected_at": "2026-11-08 KST",
+          "stderr": 0.002777777777777778,
+          "model_configuration": "granite-4.0-350m",
+          "task_version": "1.1.6",
+          "run_id": "aQYiADNH3qVzZkWUmQn6nZ",
+          "run_started_at": "2026-08-28T21:37:51+09:00 KST",
+          "result_type": "CSV实测；非网页平滑聚合榜",
+          "rank": 180
         }
       ],
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "由官方CSV构建可审计快照：每个精确model配置先取最新成功run，再按mean_score降序；rank为该最新run集合中的点估计名次，同分并列。不是Epoch网页平滑或聚合榜；不以旧run最佳成绩挑分。CSV整体更新日待核实，run开始时间已转换KST。",
+      "value": "完整收录当前任务版本1.1.6的181个精确model配置，每配置先取最新成功run、再按mean_score降序，点值同分并列；不挑历史最佳run，不混旧裁判版本。CSV未提供统一榜单更新日，本页只报告访问日期与各run的KST时间。",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -609,15 +3304,13 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks",
-          "accessed": "2026-11-07"
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -683,7 +3376,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -705,12 +3398,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"
       }
     ],
     "sources": [
       {
-        "url": "https://epoch.ai/benchmarks",
-        "accessed": "2026-11-07"
+        "url": "https://epoch.ai/benchmarks/otis-mock-aime-2024-2025",
+        "accessed": "2026-11-08"
       }
     ]
   }
