@@ -3,7 +3,7 @@
 
 Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答集。可比性的核心是相同输入类型、物理单位和固定外层五折，而不是某个统一百分制。尤其要避免把官网旧分类“ROC-AUC”错误标签当成真正概率排序AUC。
 
-概述依据：[S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/) [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/) [S4](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)
+概述依据：[S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/) [S4](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)
 
 ## 基本信息
 
@@ -220,8 +220,7 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 - 2026-11-07 · 首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
 - 2026-11-07 · 第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S8](https://matbench.materialsproject.org/) [S8](https://matbench.materialsproject.org/)
+[S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S8](https://matbench.materialsproject.org/)
 
 ### 来源索引
 

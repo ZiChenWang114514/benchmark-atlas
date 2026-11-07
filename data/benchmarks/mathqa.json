@@ -421,24 +421,15 @@
           }
         ],
         "previous_evidence": {
-          "revisions": [
+          "arxiv_version": "arXiv v1",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "2026_h2_evidence": [
             {
-              "version": "v1",
-              "submitted_at": "2019-05-31T06:28:12+09:00",
-              "timezone": "Asia/Seoul (KST)"
+              "url": "https://arxiv.org/html/2610.11978v1",
+              "date": "2026-10-08",
+              "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。"
             }
-          ],
-          "previous_evidence": {
-            "arxiv_version": "arXiv v1",
-            "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-            "2026_h2_evidence": [
-              {
-                "url": "https://arxiv.org/html/2610.11978v1",
-                "date": "2026-10-08",
-                "note": "Jev 研究§3.1和表1–2实际使用 MathQA 并比较专用决策模型与通用模型。"
-              }
-            ]
-          }
+          ]
         }
       },
       "sources": [
@@ -564,83 +555,6 @@
           "model": "Seq2Prog+Cat",
           "score": "37.4%",
           "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "40.2%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "37.8%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "36.3%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "38.3%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "35.3%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "33.3%",
-          "metric": "官网历史榜得分",
-          "track": "历史研究论文 / 保留原采集日期",
-          "source_url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "result_type": "官方历史页面；不是2026实时榜"
-        },
-        {
-          "rank": 1,
-          "model": "Seq2Prog+Cat",
-          "score": "37.4%",
-          "metric": "官网历史榜得分",
           "track": "官方静态 / MathQA Challenge",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
@@ -715,10 +629,6 @@
         }
       ],
       "sources": [
-        {
-          "url": "https://math-qa.github.io/math-QA/html/",
-          "accessed": "2026-11-08"
-        },
         {
           "url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08"
@@ -886,38 +796,12 @@
           "original_files.pdf_bytes",
           "original_files.sha256"
         ]
-      },
-      {
-        "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
-        "fields_updated": [
-          "basic_info.license",
-          "basic_info.paper_version",
-          "construction.decontamination",
-          "data_format.public_hidden_split",
-          "evaluation.prompt_settings",
-          "latest_status.checked_at",
-          "latest_status.paper_revision_history",
-          "leaderboard.coverage_note",
-          "leaderboard.results",
-          "leaderboard.snapshot_date",
-          "organization.authors",
-          "organization.funders",
-          "organization.partners",
-          "original_files.pdf_bytes",
-          "original_files.sha256"
-        ]
       }
     ],
     "sources": [
       {
         "url": "https://math-qa.github.io/math-QA/",
         "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://math-qa.github.io/math-QA/",
-        "accessed": "2026-11-08"
       },
       {
         "url": "https://math-qa.github.io/math-QA/",

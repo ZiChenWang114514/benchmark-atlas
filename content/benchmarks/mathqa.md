@@ -3,7 +3,7 @@
 
 MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分析步骤提供形式监督。它不是MATH竞赛集，也不等于原AQuA全部题目。本轮修正dev/test比例顺序，并查明网站模板MIT与HF数据卡Apache-2.0的许可范围差别。
 
-概述依据：[S1](https://arxiv.org/abs/1905.13319) [S2](https://math-qa.github.io/math-QA/) [S1](https://arxiv.org/abs/1905.13319) [S1](https://arxiv.org/abs/1905.13319) [S3](https://arxiv.org/html/2610.11978v1)
+概述依据：[S1](https://arxiv.org/abs/1905.13319) [S2](https://math-qa.github.io/math-QA/) [S3](https://arxiv.org/html/2610.11978v1)
 
 ## 基本信息
 
@@ -126,13 +126,6 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 | 1 | Qwen3.8 Max | 94.4 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
 | 2 | Qwen3.8 Flash | 93.3 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
 | 3 | Gemini 3.8 Flash | 92.7 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
-| 1 | Seq2Prog+Cat | 37.4% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 40.2% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 37.8% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 36.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 38.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 35.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
-| 1 | Seq2Prog+Cat | 33.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
 
 ### 官方静态 / MathQA Challenge
 
@@ -176,7 +169,7 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 |---|---|---|---|---|
 | 1 | Seq2Prog+Cat | 33.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
 
-分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S12](https://math-qa.github.io/math-QA/html/) [S12](https://math-qa.github.io/math-QA/html/) [S14](https://arxiv.org/html/2610.11978v1)
+分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S12](https://math-qa.github.io/math-QA/html/) [S14](https://arxiv.org/html/2610.11978v1)
 
 **覆盖与时效**：保留既有研究论文成绩及原采集日；新增本次重开官网七个历史赛道。MathQA Challenge 37.4与各领域分数不能混成全行业总榜；官网未标统一结果更新时间。 [S12](https://math-qa.github.io/math-QA/html/)
 
@@ -215,8 +208,7 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 - 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - 2026-11-07 · 深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S2](https://math-qa.github.io/math-QA/) [S11](https://math-qa.github.io/math-QA/) [S11](https://math-qa.github.io/math-QA/)
+[S2](https://math-qa.github.io/math-QA/) [S11](https://math-qa.github.io/math-QA/)
 
 ### 来源索引
 

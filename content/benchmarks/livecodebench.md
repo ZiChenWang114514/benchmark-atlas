@@ -187,8 +187,7 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 - 2026-11-07 · 首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
 - 2026-11-07 · 第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S2](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/)
+[S2](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/)
 
 ### 来源索引
 

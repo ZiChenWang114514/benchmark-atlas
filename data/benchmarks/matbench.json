@@ -561,21 +561,7 @@
             "timezone": "Asia/Seoul (KST)"
           }
         ],
-        "previous_evidence": {
-          "revisions": [
-            {
-              "version": "v1",
-              "submitted_at": "2020-05-02T14:17:56+09:00",
-              "timezone": "Asia/Seoul (KST)"
-            },
-            {
-              "version": "v2",
-              "submitted_at": "2020-05-08T09:34:20+09:00",
-              "timezone": "Asia/Seoul (KST)"
-            }
-          ],
-          "previous_evidence": "2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。"
-        }
+        "previous_evidence": "2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。"
       },
       "sources": [
         {
@@ -987,34 +973,6 @@
           "original_files.pdf_bytes",
           "original_files.sha256"
         ]
-      },
-      {
-        "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
-        "fields_updated": [
-          "basic_info.paper_version",
-          "construction.author_background",
-          "construction.decontamination",
-          "construction.quality_control",
-          "data_format.difficulty",
-          "data_format.languages",
-          "data_format.modalities",
-          "data_format.public_hidden_split",
-          "evaluation.official_scripts",
-          "evaluation.prompt_settings",
-          "latest_status.checked_at",
-          "latest_status.derivatives",
-          "latest_status.paper_revision_history",
-          "latest_status.saturation",
-          "leaderboard.coverage_note",
-          "leaderboard.results",
-          "leaderboard.snapshot_date",
-          "organization.funders",
-          "organization.partners",
-          "original_files.pdf_bytes",
-          "original_files.sha256"
-        ]
       }
     ],
     "sources": [
@@ -1025,10 +983,6 @@
       {
         "url": "https://arxiv.org/pdf/2005.00707",
         "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://matbench.materialsproject.org/",
-        "accessed": "2026-11-08"
       },
       {
         "url": "https://matbench.materialsproject.org/",

@@ -3,7 +3,7 @@
 
 LongBench v2使用真实长材料上的四选一问题，重点是深层理解与推理而非单纯检索。长度单位是words；503道题虽在HF命名为train，实为公开评测题。直接回答和CoT是两个独立协议，官网数据许可与软件许可也应分开。
 
-概述依据：[S1](https://arxiv.org/abs/2412.15204) [S1](https://arxiv.org/abs/2412.15204) [S1](https://arxiv.org/abs/2412.15204)
+概述依据：[S1](https://arxiv.org/abs/2412.15204)
 
 ## 基本信息
 
@@ -237,8 +237,7 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 - 2026-11-07 · 首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
 - 2026-11-07 · 第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S1](https://arxiv.org/abs/2412.15204) [S13](https://arxiv.org/pdf/2412.15204) [S2](https://github.com/THUDM/LongBench) [S8](https://longbench2.github.io/) [S8](https://longbench2.github.io/)
+[S1](https://arxiv.org/abs/2412.15204) [S13](https://arxiv.org/pdf/2412.15204) [S2](https://github.com/THUDM/LongBench) [S8](https://longbench2.github.io/)
 
 ### 来源索引
 

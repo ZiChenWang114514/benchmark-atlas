@@ -493,35 +493,21 @@
           "revisions": [
             {
               "version": "v1",
-              "submitted_at": "2024-03-22T02:59:50+09:00",
-              "timezone": "Asia/Seoul (KST)"
+              "date_kst": "2024-03-22T02:59:50+09:00"
             },
             {
               "version": "v2",
-              "submitted_at": "2024-08-18T17:10:16+09:00",
-              "timezone": "Asia/Seoul (KST)"
+              "date_kst": "2024-08-18T17:10:16+09:00"
             }
           ],
-          "previous_evidence": {
-            "revisions": [
-              {
-                "version": "v1",
-                "date_kst": "2024-03-22T02:59:50+09:00"
-              },
-              {
-                "version": "v2",
-                "date_kst": "2024-08-18T17:10:16+09:00"
-              }
-            ],
-            "continued_use_2026h2": [
-              {
-                "url": "https://arxiv.org/html/2610.01352v2",
-                "date": "2026-10-22",
-                "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-              }
-            ],
-            "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
-          }
+          "continued_use_2026h2": [
+            {
+              "url": "https://arxiv.org/html/2610.01352v2",
+              "date": "2026-10-22",
+              "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            }
+          ],
+          "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
         }
       },
       "sources": [
@@ -1395,10 +1381,6 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://mathverse-cuhk.github.io/",
-          "accessed": "2026-11-08"
-        },
-        {
           "url": "https://arxiv.org/html/2610.01352v2",
           "accessed": "2026-11-08"
         }
@@ -1568,29 +1550,6 @@
           "original_files.pdf_bytes",
           "original_files.sha256"
         ]
-      },
-      {
-        "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
-        "fields_updated": [
-          "basic_info.paper_version",
-          "basic_info.version",
-          "construction.decontamination",
-          "data_format.languages",
-          "latest_status.checked_at",
-          "latest_status.derivatives",
-          "latest_status.latest_dataset_version",
-          "latest_status.paper_revision_history",
-          "latest_status.saturation",
-          "leaderboard.coverage_note",
-          "leaderboard.results",
-          "leaderboard.snapshot_date",
-          "organization.maintainer",
-          "organization.partners",
-          "original_files.pdf_bytes",
-          "original_files.sha256"
-        ]
       }
     ],
     "sources": [
@@ -1601,10 +1560,6 @@
       {
         "url": "https://mathverse-cuhk.github.io/",
         "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://mathverse-cuhk.github.io/",
-        "accessed": "2026-11-08"
       },
       {
         "url": "https://mathverse-cuhk.github.io/",

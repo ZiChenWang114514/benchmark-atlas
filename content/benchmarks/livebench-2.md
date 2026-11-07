@@ -3,7 +3,7 @@
 
 LiveBench 2.0将重点转向长程工作及可交付产物，不能沿用v1短问答论文解释新榜。官网七套件加权Overall与成功任务成本提供不同侧面的信息，但题库、评分复现与无污染宣称仍需要更完整的2.0证据。
 
-概述依据：[S1](https://livebench.ai/) [S1](https://livebench.ai/) [S1](https://livebench.ai/)
+概述依据：[S1](https://livebench.ai/)
 
 ## 基本信息
 
@@ -218,8 +218,7 @@ LiveBench 2.0将重点转向长程工作及可交付产物，不能沿用v1短�
 
 - 2026-11-07 · 首次建立近期热门中文研究条目。本条仅LiveBench 2.0；existing_slugs.txt未列livebench，但官网保留LiveBench v1历史，旧版release不纳入本条榜。七套件不拆为七条。 热度与榜单口径分离，不确定值标记待核实。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S1](https://livebench.ai/) [S2](https://livebench.ai/) [S2](https://livebench.ai/)
+[S1](https://livebench.ai/) [S2](https://livebench.ai/)
 
 ### 来源索引
 

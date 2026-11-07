@@ -3,7 +3,7 @@
 
 MathVerse通过改变同一题中图文信息的分配，检查模型是否真的利用数学图解。应分清2,612原题、六版本构建总量及公开testmini的788原题；All只汇总五种多模态版本，Text Only另作消融，CoT-E与w/o成绩也不得混排。
 
-概述依据：[S1](https://mathverse-cuhk.github.io/) [S2](https://arxiv.org/abs/2403.14624) [S1](https://mathverse-cuhk.github.io/) [S2](https://arxiv.org/abs/2403.14624) [S3](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)
+概述依据：[S1](https://mathverse-cuhk.github.io/) [S2](https://arxiv.org/abs/2403.14624) [S3](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)
 
 ## 基本信息
 
@@ -176,7 +176,7 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 | 20 | mPLUG-Owl2-7B | 5.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
 | 21 | LLaMA-Adapter V2 | 5.7% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
 
-分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S13](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/) [S17](https://arxiv.org/html/2610.01352v2)
+分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S13](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/) [S17](https://arxiv.org/html/2610.01352v2)
 
 **覆盖与时效**：完整转录官方可读All CoT-E与w/o两条赛道，并保存六版本单元格；Text Only仅消融，不算五版本All。保留已有H2论文记录及旧采集日，不当本次重测或全球SOTA。 [S13](https://mathverse-cuhk.github.io/)
 
@@ -215,8 +215,7 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 - 2026-11-07 · 核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
 - 2026-11-07 · 第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S2](https://arxiv.org/abs/2403.14624) [S1](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/)
+[S2](https://arxiv.org/abs/2403.14624) [S1](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/)
 
 ### 来源索引
 

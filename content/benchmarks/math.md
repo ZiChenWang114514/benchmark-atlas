@@ -3,7 +3,7 @@
 
 MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常见MATH-500只是其中一个子集。现代模型的推理预算、代码工具、投票及答案归一化会显著改变协议，不能把一个子集的接近满分扩展成所有竞赛数学能力已饱和。
 
-概述依据：[S1](https://arxiv.org/abs/2103.03874) [S2](https://github.com/hendrycks/math) [S1](https://arxiv.org/abs/2103.03874) [S1](https://arxiv.org/abs/2103.03874) [S3](https://arxiv.org/html/2609.27284v1)
+概述依据：[S1](https://arxiv.org/abs/2103.03874) [S2](https://github.com/hendrycks/math) [S3](https://arxiv.org/html/2609.27284v1)
 
 ## 基本信息
 
@@ -164,8 +164,7 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 - 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - 2026-11-07 · 第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S2](https://github.com/hendrycks/math) [S8](https://github.com/hendrycks/math) [S8](https://github.com/hendrycks/math)
+[S2](https://github.com/hendrycks/math) [S8](https://github.com/hendrycks/math)
 
 ### 来源索引
 

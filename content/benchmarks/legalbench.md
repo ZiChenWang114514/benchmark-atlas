@@ -176,8 +176,7 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 - 2026-11-07 · 近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S6](https://github.com/HazyResearch/legalbench) [S9](https://hazyresearch.stanford.edu/legalbench/) [S9](https://hazyresearch.stanford.edu/legalbench/)
+[S6](https://github.com/HazyResearch/legalbench) [S9](https://hazyresearch.stanford.edu/legalbench/)
 
 ### 来源索引
 

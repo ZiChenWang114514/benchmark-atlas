@@ -3,7 +3,7 @@
 
 Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少昂贵DFT验证，而不只看能量回归误差。当前站点还评几何、声子、分子动力学和双原子势；CPS与发现F1分别排名，完整WBM与unique-prototype子集不能混用分母。
 
-概述依据：[S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S3](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)
+概述依据：[S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S3](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)
 
 ## 基本信息
 
@@ -147,9 +147,9 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 ## 联系方式
 
-**公开研究邮箱**：待核实 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920)
+**公开研究邮箱**：janosh.riebesell@gmail.com；kristinpersson@berkeley.edu [S4](https://arxiv.org/pdf/2308.14920)
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 论文首页明确列出的公开通讯邮箱。
 
 **问题反馈**：https://github.com/janosh/matbench-discovery/issues [S3](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)
 
@@ -182,8 +182,7 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 - 2026-11-07 · 首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
 - 2026-11-07 · 第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
 - 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
-[S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S6](https://matbench-discovery.materialsproject.org/) [S6](https://matbench-discovery.materialsproject.org/)
+[S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S6](https://matbench-discovery.materialsproject.org/)
 
 ### 来源索引
 
