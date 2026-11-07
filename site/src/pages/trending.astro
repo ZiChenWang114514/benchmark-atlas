@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import HeatLegend from '../components/HeatLegend.astro';
+import TrendItem from '../components/TrendItem.astro';
+import { loadTrending, trendingViews } from '../lib/data';
+import { SECTIONS } from '../lib/chapters';
+
+const trending = loadTrending();
+const items = trendingViews();
+const present = new Set(items.map((item) => item.section));
+const sections = [
+  ...SECTIONS.map((section) => section.id).filter((id) => present.has(id)),
+  ...[...present].filter((id) => !SECTIONS.some((section) => section.id === id)).sort((a, b) => a.localeCompare(b, 'zh')),
+];
+const windowText = trending.window?.from && trending.window?.through ? `${trending.window.from} 至 ${trending.window.through}` : '';
+---
+<Base
+  title="近期热门"
+  description="2026 年下半年被评测机构和前沿模型发布采用的 benchmark。A 为多家机构共同采用，B 为主要单一机构在用。"
+  active="trending"
+>
+  <div class="wrap doc-title">
+    <p class="eyebrow">热度</p>
+    <h1>近期热门</h1>
+    <p class="lede">{trending.note}</p>
+    <p class="meta-line">
+      {trending.generated_at ? `生成 ${trending.generated_at}` : ''}
+      {windowText ? ` · 窗口 ${windowText}` : ''}
+      {` · ${items.length} 条 · 按名次排列`}
+    </p>
+  </div>
+  <div class="wrap">
+    <HeatLegend />
+    <div class="chips" role="group" aria-label="按板块筛选热门" id="trend-chips">
+      <button type="button" class="chip" data-trend-section="全部" aria-pressed="true">全部</button>
+      {sections.map((section) => (
+        <button type="button" class="chip" data-trend-section={section} aria-pressed="false">{section}</button>
+      ))}
+    </div>
+    <p id="trend-count" class="result-count">显示 {items.length} 条</p>
+    <div class="trend-list" id="trend-list">
+      {items.map((item) => <TrendItem item={item} />)}
+    </div>
+    <p id="trend-empty" class="empty" hidden>这个板块里没有近期热门条目。</p>
+  </div>
+  <script>
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-trend-section]')];
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-trend]')];
+    const count = document.querySelector('#trend-count');
+    const empty = document.querySelector<HTMLElement>('#trend-empty');
+    function apply(section: string) {
+      let shown = 0;
+      for (const card of cards) {
+        const match = section === '全部' || card.dataset.section === section;
+        card.hidden = !match;
+        if (match) shown += 1;
+      }
+      if (count) count.textContent = `显示 ${shown} 条`;
+      if (empty) empty.hidden = shown !== 0;
+    }
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        const section = chip.dataset.trendSection || '全部';
+        for (const other of chips) other.setAttribute('aria-pressed', other === chip ? 'true' : 'false');
+        apply(section);
+      });
+    }
+  </script>
+</Base>

@@ -1,11 +1,12 @@
 ---
 import { page } from '../lib/format';
 interface Props {
-  active?: 'home' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'constitution' | 'api';
 }
 const { active } = Astro.props;
 const items = [
   { id: 'home', href: page(), label: '首页' },
+  { id: 'trending', href: page('trending'), label: '近期热门' },
   { id: 'constitution', href: page('constitution'), label: '收集宪法' },
   { id: 'api', href: page('api'), label: '数据接口' },
 ];

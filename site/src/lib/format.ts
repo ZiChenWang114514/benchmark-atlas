@@ -233,6 +233,8 @@ export const TONES: Record<string, string> = {
   多模态: '#5a4560',
   Agent: '#5c4030',
   安全: '#6e3b32',
+  语音: '#3d4f62',
+  '机器人与具身': '#5a4632',
 };
 
 export function tone(section: string): string {

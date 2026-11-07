@@ -410,6 +410,62 @@ select {
 .badge-pending { background: var(--pending-bg); color: var(--pending-fg); }
 .badge-muted { background: var(--closed-bg); color: var(--closed-fg); }
 .badge-cite { background: #e5efe8; color: #1a4338; }
+.badge-hot { background: #f6e4dc; color: #6f2e25; }
+.badge-heat-a { background: #f6e4dc; color: #6f2e25; }
+.badge-heat-b { background: #f3e7cf; color: #6a430c; }
+.heat-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.heat-legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+.trend-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+.trend-list { display: grid; gap: 0.85rem; }
+.trend-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+  padding: 0.95rem 1rem 0.9rem;
+  background: var(--paper-2);
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--tone, var(--cinnabar));
+}
+a.trend-card:hover { border-color: var(--tone, var(--ink)); }
+.trend-card h3 { margin: 0; font-size: 1.28rem; font-weight: 600; }
+.trend-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+  font-size: 0.82rem;
+}
+.rank-no {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 550;
+  line-height: 1;
+  color: var(--ink);
+}
+.trend-evidence {
+  list-style: none;
+  margin: 0.2rem 0 0;
+  padding: 0.45rem 0 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.86rem;
+}
+.trend-evidence li { margin: 0.35rem 0; }
+.trend-evidence p { margin: 0.12rem 0 0; color: var(--muted); line-height: 1.5; }
 .card-section { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.5rem; }
 .muted-inline { color: var(--muted); }
 .record-list { display: grid; gap: 0.75rem; }
@@ -530,7 +586,7 @@ pre {
 .site-footer li { margin: 0.18rem 0; }
 
 @media (max-width: 980px) {
-  .card-grid { grid-template-columns: 1fr 1fr; }
+  .card-grid, .trend-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid, .principles { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 800px) {
@@ -560,7 +616,7 @@ pre {
 }
 @media (max-width: 640px) {
   .wrap, .header-inner { width: min(var(--content), calc(100% - 1.5rem)); }
-  .card-grid, .footer-grid, .principles { grid-template-columns: 1fr; }
+  .card-grid, .trend-grid, .footer-grid, .principles { grid-template-columns: 1fr; }
   .header-inner { align-items: flex-start; padding: 0.7rem 0; }
   .nav { gap: 0.75rem; padding-top: 0.35rem; }
   .masthead h1 { letter-spacing: 0; }
