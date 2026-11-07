@@ -1,0 +1,181 @@
+---
+import Base from '../../layouts/Base.astro';
+import Chapter from '../../components/Chapter.astro';
+import { CHAPTERS } from '../../lib/chapters';
+import { loadNews, loadRecords, newsForBenchmark, type BenchmarkFile } from '../../lib/data';
+import {
+  PENDING_EXPLANATION,
+  badgeClass,
+  isField,
+  labelFor,
+  orderedEntries,
+  page,
+  safeUrl,
+  statusOf,
+  textValue,
+  type Field,
+} from '../../lib/format';
+
+export function getStaticPaths() {
+  return loadRecords().map((record) => ({ params: { id: record.index.id } }));
+}
+
+const id = Astro.params.id;
+const records = loadRecords();
+const record = records.find((item) => item.index.id === id);
+if (!record || !id) throw new Error(`缺少基准 ${id}`);
+const file: BenchmarkFile = record.file;
+const news = newsForBenchmark(record, loadNews(), records.map((item) => item.index));
+const siblings = records.filter((item) => item.index.section === record.index.section);
+const place = siblings.findIndex((item) => item.index.id === record.index.id);
+const previous = siblings[place - 1];
+const following = siblings[place + 1];
+
+const sections: Record<string, Record<string, Field>> = {
+  basic_info: file.basic_info,
+  organization: file.organization,
+  design_goals: file.design_goals,
+  construction: file.construction,
+  data_format: file.data_format,
+  evaluation: file.evaluation,
+  latest_status: file.latest_status,
+  leaderboard: file.leaderboard,
+  contact: file.contact,
+  original_files: { ...file.original_files, drive_pdf: file.drive_pdf },
+};
+
+function entriesFor(chapterId: string, keys: string[]) {
+  if (chapterId === 'changelog') return [{ label: '', name: 'changelog', field: file.changelog }];
+  return orderedEntries(sections[chapterId], keys).map((entry) => ({
+    label: labelFor(entry.name),
+    name: entry.name,
+    field: entry.field,
+  }));
+}
+
+const known = new Set([...Object.keys(sections), 'changelog', 'id', 'schema_version', 'editorial_status', 'drive_pdf']);
+const extras = Object.entries(file).filter((entry): entry is [string, Field] => !known.has(entry[0]) && isField(entry[1]));
+
+function external(field: Field | undefined): string | null {
+  return typeof field?.value === 'string' ? safeUrl(field.value) : null;
+}
+const driveValue = file.drive_pdf?.value;
+const driveHref =
+  driveValue && typeof driveValue === 'object' && 'webViewLink' in driveValue && typeof driveValue.webViewLink === 'string'
+    ? safeUrl(driveValue.webViewLink)
+    : null;
+const introHref = record.index.drive_intro?.webViewLink ? safeUrl(record.index.drive_intro.webViewLink) : null;
+const versionStatus = statusOf(file.basic_info.version);
+const links = [
+  ['论文', external(file.basic_info.paper_url)],
+  ['代码', external(file.basic_info.code_url)],
+  ['数据集', external(file.basic_info.dataset_url)],
+  ['官方主页', external(file.basic_info.official_homepage)],
+].filter((item): item is [string, string] => typeof item[1] === 'string');
+
+function host(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return '来源';
+  }
+}
+const summary = record.index.summary;
+---
+<Base title={record.index.name} description={summary} active="home">
+  <div class="wrap detail-layout">
+    <nav class="toc" aria-label="章节">
+      <p>十一节</p>
+      {CHAPTERS.map((chapter) => <a href={`#${chapter.id}`}>{chapter.title}</a>)}
+      {extras.map(([key]) => <a href={`#extra-${key}`}>{labelFor(key)}</a>)}
+    </nav>
+    <article class="record">
+      <p class="crumbs">
+        <a href={page()}>目录</a>
+        <span aria-hidden="true"> / </span>
+        <a href={`${page()}#sec-${record.index.section}`}>{record.index.section}</a>
+      </p>
+      <h1>{record.index.name}</h1>
+      {textValue(file.basic_info.full_name) && textValue(file.basic_info.full_name) !== record.index.name && (
+        <p class="subhead">{textValue(file.basic_info.full_name)}</p>
+      )}
+      <p class="lede">{summary}</p>
+      <ul class="facts">
+        <li>主板块 {record.index.section}</li>
+        <li>发布 {textValue(file.basic_info.release_date) || '待核实'}</li>
+        <li>论文 {textValue(file.basic_info.paper_version) || '待核实'}</li>
+        <li>
+          数据版本{' '}
+          {versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : textValue(file.basic_info.version)}
+        </li>
+        <li>{record.pending} 项待核实</li>
+        {record.index.last_checked && <li>核验 {record.index.last_checked}</li>}
+      </ul>
+      <div class="actions">
+        {driveHref && <a class="action action-primary" href={driveHref} target="_blank" rel="noopener noreferrer">论文 PDF · Drive</a>}
+        {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
+        {introHref && <a class="action" href={introHref} target="_blank" rel="noopener noreferrer">中文介绍原稿</a>}
+        <a class="action" href={`${import.meta.env.BASE_URL}api/benchmarks/${record.index.id}.json`} target="_blank" rel="noopener noreferrer">原始 JSON</a>
+        <a class="action" href={`${import.meta.env.BASE_URL}api/content/${record.index.id}.md`} target="_blank" rel="noopener noreferrer">Markdown</a>
+      </div>
+      <div class="callout">
+        <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
+      </div>
+
+      {CHAPTERS.map((chapter) => (
+        <Chapter id={chapter.id} title={chapter.title} intro={chapter.intro} entries={entriesFor(chapter.id, chapter.keys)}>
+          {chapter.id === 'latest_status' && news.length > 0 && (
+            <div class="related">
+              <h3>相关动态</h3>
+              {news.map((item) => (
+                <article>
+                  <p class="kicker">{item.type}</p>
+                  <p class="when">
+                    观察 {item.observed_date}
+                    {item.event_date && item.event_date !== '待核实' ? ` · 事件 ${item.event_date}` : ' · 事件日期待核实'}
+                  </p>
+                  <p>{item.title}</p>
+                  <p class="news-body">{item.body}</p>
+                  <p class="news-links">
+                    {item.sources.flatMap((source) => {
+                      const href = safeUrl(source.url);
+                      return href ? [<a href={href} target="_blank" rel="noopener noreferrer">{host(href)}</a>] : [];
+                    })}
+                  </p>
+                </article>
+              ))}
+            </div>
+          )}
+        </Chapter>
+      ))}
+
+      {extras.map(([key, field]) => (
+        <Chapter id={`extra-${key}`} title={labelFor(key)} entries={[{ label: labelFor(key), name: key, field }]} />
+      ))}
+
+      <p class="fine">
+        schema {file.schema_version ?? '未注明'}
+        {file.editorial_status ? ` · ${file.editorial_status}` : ''}
+      </p>
+      <nav class="pager" aria-label="同板块">
+        {previous ? (
+          <a href={page(`benchmarks/${previous.index.id}`)}>
+            <small>上一条 · {record.index.section}</small>
+            {previous.index.name}
+          </a>
+        ) : <span></span>}
+        {following && (
+          <a class="next" href={page(`benchmarks/${following.index.id}`)}>
+            <small>下一条 · {record.index.section}</small>
+            {following.index.name}
+          </a>
+        )}
+      </nav>
+    </article>
+  </div>
+  <script>
+    import { bindToc } from '../../scripts/toc';
+    const nav = document.querySelector('.toc');
+    if (nav) bindToc(nav);
+  </script>
+</Base>

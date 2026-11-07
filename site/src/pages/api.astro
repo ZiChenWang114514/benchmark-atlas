@@ -1,0 +1,100 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadCatalog, loadRecords } from '../lib/data';
+import { asset, formatSize, page } from '../lib/format';
+
+const catalog = loadCatalog();
+const sampleRecord = loadRecords().find((record) => record.index.id === 'gpqa') ?? loadRecords()[0];
+const sample = sampleRecord?.file.basic_info.name;
+const apiBase = new URL(`${import.meta.env.BASE_URL}api/`, Astro.site).href;
+const groups = [
+  { id: 'overview', title: '总览', lede: '索引、动态、契约和原稿的入口。' },
+  { id: 'records', title: '逐条记录', lede: '每个基准一份 JSON，对应介绍页的十一节。' },
+  { id: 'content', title: '中文原稿', lede: '与 JSON 并行的 Markdown 介绍，保留写作时的措辞。' },
+];
+---
+<Base
+  title="数据接口"
+  description="Benchmark Atlas 的只读 JSON 接口。文件随静态站一起发布，没有密钥，也没有写入。"
+  active="api"
+>
+  <div class="wrap doc-title">
+    <p class="eyebrow">只读</p>
+    <h1>数据接口</h1>
+    <p class="lede">
+      这些是构建时从仓库复制出来的文件，不是一个会改数据的服务。直接打开、用 curl 或任何 HTTP 客户端获取都可以。
+      推送新数据到 main 之后，地址不变，内容随 Pages 重新发布。
+    </p>
+  </div>
+  <div class="wrap doc-layout api-layout">
+    <nav class="toc" aria-label="接口章节">
+      <p>目录</p>
+      <a href="#shape">字段形状</a>
+      <a href="#usage">怎么取</a>
+      {groups.map((group) => <a href={`#${group.id}`}>{group.title}</a>)}
+    </nav>
+    <article>
+      <section class="doc-section" id="shape">
+        <h2>字段形状</h2>
+        <p>
+          除记录编号、schema 版本和编辑状态外，事实都写成 <code>{'{ value, sources }'}</code>。
+          <code>sources</code> 至少有一条 <code>url</code> 和 <code>accessed</code>。
+          可选的 <code>status</code> 只用「待核实」或「未公开」；<code>note</code> 用来写下冲突、口径或还没核验完的原因。
+        </p>
+        {sample && (
+          <pre><code>{JSON.stringify(sample, null, 2)}</code></pre>
+        )}
+        <p class="note">上面是 {sampleRecord?.index.name} 的名称字段，原样来自数据文件。</p>
+      </section>
+
+      <section class="doc-section" id="usage">
+        <h2>怎么取</h2>
+        <p>根地址是 <a href={apiBase}>{apiBase}</a>。机器可读清单在 <a href={asset('api/catalog.json')}>catalog.json</a>。</p>
+        <pre><code>{`curl -fsSL ${apiBase}index.json\ncurl -fsSL ${apiBase}benchmarks/${sampleRecord?.index.id ?? 'gpqa'}.json`}</code></pre>
+        <p>
+          本站页面和这些文件同源，可以直接读取。GitHub Pages 不由本仓库附加跨站响应头，浏览器里的跨站请求是否被允许，以 Pages 实际返回的头为准。
+          这里没有鉴权，也没有提交、修改或删除接口。
+        </p>
+        <p>快照日期：{catalog.generated_at || '未注明'}{catalog.timezone ? ` · ${catalog.timezone}` : ''}。</p>
+      </section>
+
+      {groups.map((group) => {
+        const resources = catalog.resources.filter((resource) => resource.group === group.id);
+        return (
+          <section class="doc-section" id={group.id}>
+            <h2>{group.title}</h2>
+            <p>{group.lede}</p>
+            <div class="table-wrap">
+              <table class="api-table">
+                <thead>
+                  <tr>
+                    <th scope="col">路径</th>
+                    <th scope="col">说明</th>
+                    <th scope="col">大小</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {resources.map((resource) => (
+                    <tr>
+                      <td><a href={asset(`api/${resource.path}`)}><code>{resource.path}</code></a></td>
+                      <td>
+                        {resource.description}
+                        {resource.page && <> <a href={page(resource.page)}>介绍页</a></>}
+                      </td>
+                      <td class="num">{formatSize(resource.bytes)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        );
+      })}
+    </article>
+  </div>
+  <script>
+    import { bindToc } from '../scripts/toc';
+    const nav = document.querySelector('.toc');
+    if (nav) bindToc(nav);
+  </script>
+</Base>

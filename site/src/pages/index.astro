@@ -1,0 +1,251 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  allTags,
+  benchmarksMentioned,
+  loadIndex,
+  loadNews,
+  loadQuality,
+  loadRecords,
+  newsWhen,
+  sectionGroups,
+} from '../lib/data';
+import { page, safeUrl, textValue, tone } from '../lib/format';
+
+const index = loadIndex();
+const records = loadRecords();
+const news = loadNews();
+const quality = loadQuality();
+const { groups, reserved } = sectionGroups(records);
+const tags = allTags(records);
+const chips = ['全部', ...groups.map((group) => group.id)];
+const [lead, ...rest] = news;
+const deferred = quality.deferred ?? [];
+const excluded = (quality.excluded_as_nonexistent ?? []).filter((item) => item.name && item.reason);
+const catalog = records.map((record) => record.index);
+function hostOf(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return '来源';
+  }
+}
+---
+<Base
+  title="Benchmark Atlas"
+  description="自然科学 AI benchmark 图鉴。首页是最新动态和分板块档案，每条事实保留来源；没核验完的标明待核实。"
+  active="home"
+>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="eyebrow">Benchmark Atlas</p>
+      <h1>自然科学评测图鉴</h1>
+      <p class="lede">追踪值得读的科学评测，而不只追逐分数。每条事实带来源和访问日期；没有核验完的，标明待核实。</p>
+      <p class="meta-line">
+        数据快照 {index.generated_at ?? '未注明'}{index.timezone ? ` · ${index.timezone}` : ''} · {records.length} 则档案
+        · <a href={page('constitution')}>收录范围与真实性原则见《收集宪法》</a>
+      </p>
+    </header>
+
+    <section class="section" id="news" aria-labelledby="news-title">
+      <header class="flag">
+        <h2 id="news-title">最新动态</h2>
+        <p>观察日不等于事件发生日{news[0]?.timezone ? ` · ${news[0].timezone}` : ''}</p>
+      </header>
+      {news.length === 0 ? (
+        <p>这一期还没有动态。</p>
+      ) : (
+        <div class="news-layout">
+          {lead && (
+            <article class="news-lead" data-news>
+              {lead.type && <p class="kicker">{lead.type}</p>}
+              <h3>{lead.title}</h3>
+              <p class="when">{newsWhen(lead)}</p>
+              <p class="news-body">{lead.body}</p>
+              <p class="news-links">
+                {lead.sources.map((source) => safeUrl(source.url) && (
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+                ))}
+                {benchmarksMentioned(`${lead.title}\n${lead.body}`, catalog).map((item) => (
+                  <a href={page(`benchmarks/${item.id}`)}>档案 · {item.name}</a>
+                ))}
+              </p>
+            </article>
+          )}
+          {rest.length > 0 && (
+            <div class="news-rest">
+              {rest.map((item) => (
+                <article class="news-item" data-news>
+                  {item.type && <p class="kicker">{item.type}</p>}
+                  <h3>{item.title}</h3>
+                  <p class="when">{newsWhen(item)}</p>
+                  <p class="news-body">{item.body}</p>
+                  <p class="news-links">
+                    {item.sources.map((source) => safeUrl(source.url) && (
+                      <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+                    ))}
+                    {benchmarksMentioned(`${item.title}\n${item.body}`, catalog).map((match) => (
+                      <a href={page(`benchmarks/${match.id}`)}>档案 · {match.name}</a>
+                    ))}
+                  </p>
+                </article>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </section>
+
+    <section class="section" id="sections" aria-labelledby="sections-title">
+      <header class="flag">
+        <h2 id="sections-title">按板块看</h2>
+        <p>主板块有条目才出现在这里</p>
+      </header>
+      <nav class="section-index" aria-label="板块">
+        {groups.map((group) => (
+          <a href={`#sec-${group.id}`}>
+            <span>{group.id}</span>
+            <strong>{group.items.length}</strong>
+            <small>{group.blurb}</small>
+          </a>
+        ))}
+      </nav>
+      <p class="index-note">跨学科基准只计入一个主板块，其他学科用标签找回来。下面的次要板块是宪法留出的位置，目前没有单独条目。</p>
+    </section>
+
+    <section class="section" id="browse" aria-labelledby="browse-title">
+      <header class="flag">
+        <h2 id="browse-title">搜索与筛选</h2>
+        <p id="result-count">本批 {records.length} 个基准 · 当前显示 {records.length} 个</p>
+      </header>
+      <form id="browse-form" class="browse-form" role="search" action={page()} method="get">
+        <label class="sr-only" for="q">搜索基准</label>
+        <input id="q" class="search" name="q" type="search" placeholder="搜索名称、任务或标签，例如 GPQA、分子、天气" autocomplete="off" enterkeyhint="search" />
+        <div class="chips" role="group" aria-label="板块筛选">
+          {chips.map((chip) => (
+            <button type="button" class="chip" data-section-chip={chip} aria-pressed={chip === '全部' ? 'true' : 'false'}>{chip}</button>
+          ))}
+        </div>
+        <div class="controls">
+          <label class="sel" for="tag">标签
+            <select id="tag" name="tag">
+              <option value="">全部标签</option>
+              {tags.map((tag) => <option value={tag}>{tag}</option>)}
+            </select>
+          </label>
+          <label class="sel" for="sort">排列
+            <select id="sort" name="sort">
+              <option value="section">板块顺序</option>
+              <option value="name">名称</option>
+              <option value="date">同板块内较新</option>
+            </select>
+          </label>
+          <button type="button" class="ghost" id="reset">重置</button>
+        </div>
+      </form>
+      <noscript><p class="note">筛选和排序需要脚本。不启用时，下面仍按板块列出全部基准。</p></noscript>
+      <p id="empty" class="empty" hidden>没有符合的基准。换一个词，或重置筛选。</p>
+    </section>
+
+    {groups.map((group) => (
+      <section class="group" id={`sec-${group.id}`} data-group={group.id} aria-labelledby={`heading-${group.id}`}>
+        <header class="group-head">
+          <div>
+            <h2 id={`heading-${group.id}`}>{group.id}</h2>
+            <p>{group.blurb}</p>
+          </div>
+          <p>{group.items.length} 个基准</p>
+        </header>
+        <div class="card-grid" data-grid>
+          {group.items.map((record) => {
+            const size = textValue(record.file.data_format.size);
+            const release = textValue(record.file.basic_info.release_date);
+            const extra = record.index.tags.filter((tag) => tag !== record.index.section);
+            return (
+              <a
+                class="card"
+                data-card
+                data-section={record.index.section}
+                data-name={record.index.name}
+                data-date={record.date}
+                data-order={record.order}
+                data-tags={record.index.tags.join('|')}
+                data-search={record.search}
+                href={page(`benchmarks/${record.index.id}`)}
+                style={`--tone:${tone(record.index.section)}`}
+              >
+                <span class="card-section">{record.index.section}</span>
+                <h3>{record.index.name}</h3>
+                <p class="card-summary">{record.index.summary}</p>
+                {size && <p class="card-size">{size === '待核实' || size === '未公开' ? `规模${size}` : size}</p>}
+                {extra.length > 0 && <p class="card-tags">同时涉及 {extra.join('、')}</p>}
+                <p class="card-foot">
+                  <span>{release ? `发布 ${release}` : '发布日期待核实'}</span>
+                  <span>{record.pending} 项待核实</span>
+                </p>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+
+    <div id="tail">
+      <section class="section" id="secondary" aria-labelledby="secondary-title">
+        <header class="flag">
+          <h2 id="secondary-title">次要板块</h2>
+          <p>结构留着，条目还没单独收录</p>
+        </header>
+        <ul class="reserved">
+          {reserved.map((section) => (
+            <li><span>{section}</span><em>待收录</em></li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="section" id="principles" aria-labelledby="principles-title">
+        <header class="flag">
+          <h2 id="principles-title">收录原则</h2>
+          <p>{quality.validated_date ? `质量记录 ${quality.validated_date}` : '以宪法为准'}</p>
+        </header>
+        <div class="principles">
+          <div class="callout stack">
+            <p><strong>不把未知写成事实。</strong>每一条事实都要有来源和访问日期。查不到就写待核实；只有证据支持时才写未公开。榜单分数必须连同子集、指标和采集日一起读。</p>
+            <p><a href={page('constitution')}>阅读《收集宪法》</a></p>
+          </div>
+          <div>
+            {deferred.length > 0 && (
+              <>
+                <h3>暂缓单列</h3>
+                <ul class="deferred">
+                  {deferred.map((item) => (
+                    <li>
+                      <strong>{item.name}</strong>
+                      <p>{item.reason}</p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {excluded.length > 0 && (
+              <>
+                <h3>已排除</h3>
+                <ul class="deferred">
+                  {excluded.map((item) => (
+                    <li>
+                      <strong>{item.name}</strong>
+                      <p>{item.reason}</p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script>
+    import '../scripts/browse.ts';
+  </script>
+</Base>

@@ -1,0 +1,40 @@
+---
+import { loadDrive, loadIndex } from '../lib/data';
+import { page, safeUrl } from '../lib/format';
+const index = loadIndex();
+const drive = loadDrive();
+const links = [
+  ['Drive 总目录', drive.root?.webViewLink],
+  ['宪法文档', drive.constitution?.webViewLink],
+  ['总表', drive.master_sheet?.webViewLink],
+].filter((entry): entry is [string, string] => typeof entry[1] === 'string' && !!safeUrl(entry[1]));
+---
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h2>关于这本图鉴</h2>
+      <p>
+        页面在构建时写成静态文件。数据快照 {index.generated_at ?? '未注明'}
+        {index.timezone ? `· ${index.timezone}` : ''}。推送新的数据到 main 之后，站点会按那些文件重新发布。
+      </p>
+    </div>
+    <div>
+      <h2>档案</h2>
+      <ul>
+        <li><a href={page('constitution')}>《收集宪法》</a></li>
+        {links.map(([label, href]) => (
+          <li><a href={href} target="_blank" rel="noopener noreferrer">{label}</a></li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2>读取数据</h2>
+      <ul>
+        <li><a href={page('api')}>只读接口说明</a></li>
+        <li><a href={`${import.meta.env.BASE_URL}api/index.json`}>index.json</a></li>
+        <li><a href={`${import.meta.env.BASE_URL}api/news.json`}>news.json</a></li>
+        <li><a href="https://github.com/ZiChenWang114514/benchmark-atlas">仓库</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

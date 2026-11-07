@@ -1,0 +1,86 @@
+---
+import FieldValue from './FieldValue.astro';
+import { badgeClass, notableNote, safeUrl, sourceText, statusOf, type Field, type Source } from '../lib/format';
+
+interface Entry {
+  label: string;
+  name: string;
+  field: Field;
+}
+interface Props {
+  id: string;
+  title: string;
+  intro?: string;
+  entries: Entry[];
+}
+const { id, title, intro, entries } = Astro.props;
+const sourceList: Source[] = [];
+const seen = new Map<string, number>();
+let previous = '';
+const rows = entries.map((entry) => {
+  const sources = Array.isArray(entry.field?.sources) ? entry.field.sources : [];
+  const nums = sources.map((source) => {
+    const key = `${source.url}\n${source.accessed}`;
+    if (!seen.has(key)) {
+      seen.set(key, sourceList.length + 1);
+      sourceList.push(source);
+    }
+    return seen.get(key) ?? 0;
+  });
+  const signature = nums.join(',');
+  const same = signature !== '' && signature === previous;
+  if (signature) previous = signature;
+  return {
+    ...entry,
+    nums,
+    same,
+    status: statusOf(entry.field),
+    note: notableNote(entry.field),
+  };
+});
+---
+<section class="chapter" id={id} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`}>{title}</h2>
+  {intro && <p class="chapter-intro">{intro}</p>}
+  {rows.length === 0 && <p class="note">这一节还没有字段。</p>}
+  {rows.map((row) => (
+    <div class="field">
+      <div class="field-top">
+        {row.label && <h3>{row.label}</h3>}
+        {row.status && <span class:list={['badge', badgeClass(row.status)]}>{row.status}</span>}
+        {row.same ? (
+          <span class="same-src">来源同上</span>
+        ) : (
+          <sup class="cites">
+            {row.nums.map((num) => (
+              <a href={`#${id}-src-${num}`}><span class="sr-only">来源 </span>{num}</a>
+            ))}
+          </sup>
+        )}
+      </div>
+      <FieldValue value={row.field.value} name={row.name} />
+      {row.note && <p class="note">{row.note}</p>}
+    </div>
+  ))}
+  <slot />
+  {sourceList.length > 0 && (
+    <>
+      <h3 class="sr-only">本节来源</h3>
+      <ol class="source-list">
+        {sourceList.map((source, index) => {
+          const href = safeUrl(source.url);
+          return (
+            <li id={`${id}-src-${index + 1}`}>
+              {href ? (
+                <a href={href} target="_blank" rel="noopener noreferrer">{source.url}</a>
+              ) : (
+                <span title={source.url}>{sourceText(source.url)}</span>
+              )}
+              <span class="accessed">访问 {source.accessed}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </>
+  )}
+</section>

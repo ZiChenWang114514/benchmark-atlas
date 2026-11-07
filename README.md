@@ -1,6 +1,12 @@
 # Benchmark Atlas · 自然科学首批资料
 
-核验日期：2026-11-07（Asia/Seoul / KST）。本批为可持续维护数据库的数据底座，不是完整应用或已启动的自动更新服务。
+核验日期：2026-11-07（Asia/Seoul / KST）。本批为可持续维护数据库的数据底座。公开网站由这些文件在构建时生成。
+
+## 网站
+
+[https://zichenwang114514.github.io/benchmark-atlas/](https://zichenwang114514.github.io/benchmark-atlas/)
+
+更新 `data/`、`content/` 或 `CONSTITUTION.md` 后推送到 `main`，GitHub Actions 会重新发布。步骤、本地预览和只读 JSON 地址见 [MAINTAINING.md](MAINTAINING.md)。
 
 ## 已交付
 
@@ -45,4 +51,4 @@
 - 补全许可、版本、出题背景、逐任务数据划分、评分脚本与提示设置。
 - 对已发现的冲突，保留旧证据并等待官方澄清，不覆盖历史。
 - MMLU-Pro 科学子集、HLE 自然科学切片、BioASQ 各年度挑战暂缓为独立条目，避免把非锁定子集/不同年度任务伪装成统一 benchmark。
-- 由应用层接入 JSON/Markdown 后再实现导航与 PDF 浏览；每日维护须单独建立可审计任务及失败告警。
+- 导航网站在 `site/`，由数据文件静态生成；推送到 `main` 后 GitHub Actions 发布到 Pages。见 MAINTAINING.md。
