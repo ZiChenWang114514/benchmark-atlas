@@ -1,10 +1,10 @@
-# Benchmark Atlas · 2026H2 百项基准资料
+# Benchmark Constitution · 2026H2 百项基准资料
 
 核验日期：2026-11-07（Asia/Seoul / KST）。本批为可持续维护数据库的数据底座。公开网站由这些文件在构建时生成。
 
 ## 网站
 
-[https://zichenwang114514.github.io/benchmark-atlas/](https://zichenwang114514.github.io/benchmark-atlas/)
+[https://zichenwang114514.github.io/benchmark-constitution/](https://zichenwang114514.github.io/benchmark-constitution/)
 
 更新 `data/`、`content/` 或 `CONSTITUTION.md` 后推送到 `main`，GitHub Actions 会重新发布。步骤、本地预览和只读 JSON 地址见 [MAINTAINING.md](MAINTAINING.md)。
 
@@ -46,8 +46,8 @@
 5. 历史论文结果、官方站点示例结果、第三方当前榜单严格区分。没有读取到数值的动态图表不补写、不估计。
 6. SciCode 测试审计、Matbench 历史 ROC-AUC 误标、BixBench 摘要/正文数字冲突、BioProBench 协议数量冲突及 WeatherBench 时间范围变化均有显式记录。
 7. 未查清的许可、完整维护方/资助方、精确 API 模型快照、提示设置、饱和/污染状态等保留为待核实；不可作为已确认商用许可或“无污染”结论。
-8. 既有GitHub仓库为ZiChenWang114514/benchmark-atlas。本次不fetch、pull、commit、push，也不修改site/或.github/workflows；仓库内容须经cloud coding agent应用。未改变Drive共享权限、联系维护者或建立每日计划。
-9. PDF 下载暂存于 `/workspace/benchmark-atlas-papers/`；仓库仅保留云端链接与哈希，不把大体积 PDF 混入源码库。
+8. 既有GitHub仓库为ZiChenWang114514/benchmark-constitution。本次不fetch、pull、commit、push，也不修改site/或.github/workflows；仓库内容须经cloud coding agent应用。未改变Drive共享权限、联系维护者或建立每日计划。
+9. PDF 下载暂存于 `/workspace/benchmark-constitution-papers/`；仓库仅保留云端链接与哈希，不把大体积 PDF 混入源码库。
 
 ## 下一批优先工作
 

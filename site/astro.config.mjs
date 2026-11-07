@@ -21,7 +21,7 @@ function syncPublicApi() {
 // GitHub Pages project site. `base` must stay in sync with the repository name.
 export default defineConfig({
   site: 'https://zichenwang114514.github.io',
-  base: '/benchmark-atlas',
+  base: '/benchmark-constitution',
   trailingSlash: 'always',
   integrations: [syncPublicApi(), sitemap()],
   build: {

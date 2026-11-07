@@ -14,7 +14,8 @@ import {
 } from '../lib/data';
 import HeatLegend from '../components/HeatLegend.astro';
 import TrendItem from '../components/TrendItem.astro';
-import { page, safeUrl, textValue, tone } from '../lib/format';
+import { loadHeat, loadImpact } from '../lib/boards';
+import { page, publicText, safeUrl, textValue, tone } from '../lib/format';
 
 const index = loadIndex();
 const records = loadRecords();
@@ -31,6 +32,10 @@ const trending = loadTrending();
 const hotList = trendingViews();
 const hotBySlug = new Map(hotList.map((item) => [item.slug, item]));
 const hotPreview = hotList.slice(0, 12);
+const heat = loadHeat();
+const impact = loadImpact();
+const heatTop = (heat?.ranking ?? []).slice(0, 10);
+const impactTop = (impact?.ranking ?? []).slice(0, 10);
 function hostOf(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
@@ -40,20 +45,42 @@ function hostOf(url: string): string {
 }
 ---
 <Base
-  title="Benchmark Atlas"
+  title="Benchmark Constitution"
   description="自然科学 AI benchmark 图鉴。首页是最新动态和分板块档案，每条事实保留来源；没核验完的标明待核实。"
   active="home"
 >
   <div class="wrap">
     <header class="masthead">
-      <p class="eyebrow">Benchmark Atlas</p>
-      <h1>自然科学评测图鉴</h1>
+      <p class="eyebrow">Benchmark Constitution</p>
+      <h1>基准收集宪法</h1>
       <p class="lede">追踪值得读的科学评测，而不只追逐分数。每条事实带来源和访问日期；没有核验完的，标明待核实。</p>
       <p class="meta-line">
         数据快照 {index.generated_at ?? '未注明'}{index.timezone ? ` · ${index.timezone}` : ''} · {records.length} 则档案
         · <a href={page('constitution')}>收录范围与真实性原则见《收集宪法》</a>
       </p>
     </header>
+
+    <section class="section" aria-labelledby="board-widgets">
+      <header class="flag"><h2 id="board-widgets">两个榜</h2><p>数据每天写入后，这里显示前 10 名</p></header>
+      <div class="widget-grid">
+        <article class="widget">
+          <h3><a href={page('frontier-heat')}>业界热度榜</a></h3>
+          {heat ? (
+            <ol class="widget-list">
+              {heatTop.map((row) => <li><span class="num">{row.rank}</span> {row.name} <span class="card-tags">{row.count} 个模型</span></li>)}
+            </ol>
+          ) : <p class="pending-data">数据生成中</p>}
+        </article>
+        <article class="widget">
+          <h3><a href={page('impact')}>学术影响力榜</a></h3>
+          {impact ? (
+            <ol class="widget-list">
+              {impactTop.map((row) => <li><span class="num">{row.rank}</span> {row.name} <span class="card-tags">{row.score ?? '—'}</span></li>)}
+            </ol>
+          ) : <p class="pending-data">数据生成中</p>}
+        </article>
+      </div>
+    </section>
 
     <section class="section" id="trending" aria-labelledby="trending-title">
       <header class="flag">
@@ -84,7 +111,7 @@ function hostOf(url: string): string {
               {lead.type && <p class="kicker">{lead.type}</p>}
               <h3>{lead.title}</h3>
               <p class="when">{newsWhen(lead)}</p>
-              <p class="news-body">{lead.body}</p>
+              <p class="news-body">{publicText(lead.body)}</p>
               <p class="news-links">
                 {lead.sources.map((source) => safeUrl(source.url) && (
                   <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
@@ -102,7 +129,7 @@ function hostOf(url: string): string {
                   {item.type && <p class="kicker">{item.type}</p>}
                   <h3>{item.title}</h3>
                   <p class="when">{newsWhen(item)}</p>
-                  <p class="news-body">{item.body}</p>
+                  <p class="news-body">{publicText(item.body)}</p>
                   <p class="news-links">
                     {item.sources.map((source) => safeUrl(source.url) && (
                       <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
@@ -205,7 +232,7 @@ function hostOf(url: string): string {
                   )}
                 </span>
                 <h3>{record.index.name}</h3>
-                <p class="card-summary">{record.index.summary}</p>
+                <p class="card-summary">{publicText(record.index.summary)}</p>
                 {size && <p class="card-size">{size === '待核实' || size === '未公开' ? `规模${size}` : size}</p>}
                 {extra.length > 0 && <p class="card-tags">同时涉及 {extra.join('、')}</p>}
                 <p class="card-foot">

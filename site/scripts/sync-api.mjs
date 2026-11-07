@@ -124,7 +124,9 @@ mkdirSync(join(outDir, 'schema'), { recursive: true });
 
 const resources = [];
 function publish(from, to, description, group, page) {
-  writeFileSync(join(outDir, to), readFileSync(from));
+  const target = join(outDir, to);
+  mkdirSync(dirname(target), { recursive: true });
+  writeFileSync(target, readFileSync(from));
   resources.push({
     path: to,
     description,
@@ -161,8 +163,48 @@ for (const item of index.benchmarks) {
   );
 }
 
+function publishIfPresent(relative, to, description, group, validate) {
+  const from = join(repoRoot, relative);
+  if (!existsSync(from)) {
+    console.log(`跳过 ${relative}（尚未放入仓库）`);
+    return;
+  }
+  const data = readJson(from);
+  const problems = validate(data);
+  if (problems.length) fail(problems);
+  publish(from, to, description, group);
+}
+
+publishIfPresent('data/frontier/heat.json', 'frontier/heat.json', '业界热度榜。最近 20 个前沿模型报告过的 benchmark。', 'overview', (data) => {
+  const problems = [];
+  if (!Array.isArray(data.ranking) || !Array.isArray(data.models)) problems.push('frontier/heat.json 需要 ranking 和 models 数组');
+  for (const row of data.ranking ?? []) {
+    if (!row?.benchmark_id || !row?.name || typeof row.count !== 'number') problems.push('热度榜条目缺少 benchmark_id、name 或 count');
+  }
+  return problems;
+});
+publishIfPresent('data/impact/index.json', 'impact/index.json', '学术影响力榜。综合分、维度和原始计数。', 'overview', (data) => {
+  const problems = [];
+  if (!Array.isArray(data.ranking) || !Array.isArray(data.dimensions)) problems.push('impact/index.json 需要 ranking 和 dimensions 数组');
+  for (const dimension of data.dimensions ?? []) {
+    if (!dimension?.key || typeof dimension.weight !== 'number') problems.push('影响力维度缺少 key 或 weight');
+  }
+  for (const row of data.ranking ?? []) {
+    if (!row?.id || !row?.name || (row.score != null && typeof row.score !== 'number')) problems.push('影响力条目缺少 id、name 或合法 score');
+  }
+  return problems;
+});
+publishIfPresent('data/registry/registry.json', 'registry/registry.json', 'benchmark 名录。', 'overview', (data) => {
+  const problems = [];
+  if (!Array.isArray(data.items)) problems.push('registry.json 需要 items 数组');
+  for (const item of (data.items ?? []).slice(0, 20)) {
+    if (!item?.id || !item?.name) problems.push('名录条目缺少 id 或 name');
+  }
+  return problems;
+});
+
 const catalog = {
-  name: 'Benchmark Atlas',
+  name: 'Benchmark Constitution',
   read_only: true,
   generated_at: index.generated_at ?? '',
   timezone: index.timezone ?? '',

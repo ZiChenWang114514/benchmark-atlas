@@ -1,0 +1,33 @@
+{
+  "_example": true,
+  "_label": "EXAMPLE FIXTURE — not live data. Numbers are invented.",
+  "generated_at": "2026-11-07",
+  "window": { "n_models": 20, "rule": "示例：最近 20 个前沿模型" },
+  "models": [
+    {
+      "id": "example-model",
+      "name": "Example Model",
+      "organization": "Example Lab",
+      "release_date": "2026-11-01",
+      "sources": [{ "url": "https://example.edu/model", "accessed": "2026-11-07" }],
+      "benchmarks": ["example-bench"]
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "benchmark_id": "example-bench",
+      "name": "Example Bench",
+      "domain": "其他",
+      "count": 1,
+      "share": 0.05,
+      "models": ["example-model"],
+      "first_seen": "2026-11-07",
+      "rank_change": "new"
+    }
+  ],
+  "history": [
+    { "date": "2026-11-06", "top": [] },
+    { "date": "2026-11-07", "top": ["example-bench"] }
+  ]
+}
