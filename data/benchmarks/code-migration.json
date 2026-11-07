@@ -51,7 +51,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "页面2026-10-30是本榜更新日；不足以核实v1.1首次发布日。"
     },
     "section": {
       "value": "代码",
@@ -61,7 +61,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas编辑分类。"
+      "note": "Benchmark Constitution编辑分类。"
     },
     "subfields": {
       "value": [
@@ -223,26 +223,22 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "Vals AI构建工程迁移基准；官方方法说明COBOL部分含为评测合成的业务系统，具体出题人员履历仍待核实。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "隐藏行为测试评分前进行独立反作弊审查；核对目标语言并拒绝包装原程序、复制参考产物或硬编码预期输出。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "quality_control": {
       "value": "隐藏行为测试前进行反作弊检查：禁止原程序包装、参考材料复制、硬编码输出，并检查目标语言。",
@@ -305,18 +301,16 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "CLI完整仓库跨语言迁移；COBOL→Java覆盖文件格式、批处理、终端接口与持久状态。不等同函数级翻译，官方未给统一数值难度级别。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "开源源仓库；评分隐藏测试，每CLI迁移约100–400行为测试。完整发布范围待核实。",
+      "value": "30个CLI源仓库来自开源项目，COBOL为开源和合成混合；隐藏行为测试明确不向模型展示。完整题目与数据集下载授权仍待核实。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
@@ -435,14 +429,13 @@
       ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "v1.1沿用v1任务，换Pi harness并修订隐藏测试；作为协议版本保留，不把v1与v1.1算成两项独立benchmark。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+      ]
     }
   },
   "leaderboard": {
@@ -481,28 +474,291 @@
           "rank": 1,
           "model": "Claude Sonnet 5.5",
           "score": 86.88,
-          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
           "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-          "source_date": "2026-10-30",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5",
           "score": 81.01,
-          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
           "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-          "source_date": "2026-10-30",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
         },
         {
           "rank": 3,
           "model": "GPT-6 Astra",
           "score": 80.58,
-          "metric": "Code Migration v1.1 hidden-test pass rate (%)",
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
           "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-          "source_date": "2026-10-30",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 4,
+          "model": "GPT-6.1 Sol",
+          "score": 77.32,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 5,
+          "model": "Wonder",
+          "score": 72.36,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Argon",
+          "score": 70.8,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 7,
+          "model": "DeepSeek V4.1 Flash 1017",
+          "score": 67.52,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 8,
+          "model": "Wonder Full",
+          "score": 62.79,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 9,
+          "model": "DeepSeek V4.1 Flash",
+          "score": 58.94,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 10,
+          "model": "Qwen 3.8 Max 0902",
+          "score": 57.19,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 11,
+          "model": "GLM 5.3",
+          "score": 55.07,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 12,
+          "model": "Grok 4.7",
+          "score": 53.22,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 13,
+          "model": "Claude Haiku 5.5",
+          "score": 52.36,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 14,
+          "model": "DeepSeek V4 Pro 0813",
+          "score": 51.99,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 15,
+          "model": "GLM 5.3 Flash",
+          "score": 51.65,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 16,
+          "model": "MiMo V2.6 Pro",
+          "score": 48.79,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 17,
+          "model": "Step 5 Preview",
+          "score": 47.0,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 18,
+          "model": "GPT-6 Luna",
+          "score": 46.67,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 19,
+          "model": "Hy4 Preview",
+          "score": 45.36,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 20,
+          "model": "MiMo V2.6 Flash",
+          "score": 39.55,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 21,
+          "model": "Mercury 3",
+          "score": 39.26,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 22,
+          "model": "Gemini 3.8 Flash",
+          "score": 38.65,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 23,
+          "model": "Kimi K3",
+          "score": 28.59,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 24,
+          "model": "Muse Spark Open",
+          "score": 26.89,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 25,
+          "model": "Beam 1.0",
+          "score": 22.85,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 26,
+          "model": "MiniMax-M3",
+          "score": 20.9,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 27,
+          "model": "Nemotron 3.5 Super VL",
+          "score": 16.44,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 28,
+          "model": "Inkling Small",
+          "score": 10.43,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
+        },
+        {
+          "rank": 29,
+          "model": "Inkling",
+          "score": 8.82,
+          "metric": "hidden-test pass rate (%)",
+          "track": "Vals / v1.1 / Overall",
+          "source_url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "accessed": "2026-11-07",
+          "source_date": "2026-10-30"
         }
       ],
       "sources": [
@@ -513,7 +769,7 @@
       ]
     },
     "coverage_note": {
-      "value": "Vals创建者榜单；三者为Overall而非CLI子集。页面模型effort曲线不等于headline另一个题集。",
+      "value": "当前官方Overall表29个模型全部录入；分数保留网页百分比精度，不反推130任务简单均值。页面标更新2026-10-30；CLI、COBOL及effort曲线不混入Overall排名。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
@@ -645,6 +901,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

@@ -38,22 +38,13 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "HF数据卡dataset_version: 1.0.0；这是数据元信息，不等于当前结果表split 2.0.2或Python包版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -121,11 +112,15 @@
       ]
     },
     "license": {
-      "value": "代码：MIT（版权署名 ChemBench maintainers）；数据及第三方素材许可须另行核实。",
+      "value": "仓库代码MIT；HF数据卡metadata及License段亦写MIT，但同卡醒目声明“仅评测、不得训练/微调”。两类官方文字并列保留，不能擅自解释成已获训练许可；第三方素材另遵原始版权。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/lamalab-org/chembench/main/LICENSE",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -156,14 +151,17 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/lamalab-org/chembench",
+      "value": "https://huggingface.co/datasets/jablonkagroup/ChemBench",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/lamalab-org/chembench/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "官方框架入口；具体数据发行版和独立数据许可仍需核验。"
+      ]
     },
     "official_homepage": {
       "value": "https://chembench.lamalab.org/",
@@ -292,32 +290,26 @@
       ]
     },
     "maintainer": {
-      "value": "ChemBench 核心团队（Adrian Mirza、Nawaf Alampara、Sreekanth Kunchapu）；对应作者 Kevin Maik Jablonka。",
+      "value": "eval-card列Adrian Mirza、Nawaf Alampara、Martiño Ríos-García、Kevin Maik Jablonka为维护者；正式榜由LamaLab/HIPOLE Jena维护。",
       "sources": [
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Carl Zeiss Foundation；耶拿大学Life profile Talent Fund；作者个人/部分工作另受Intel/Merck AWASES、Helmholtz SOL-AI、DFG FAIRmat（460197019）等支持。逐作者资助详见论文Acknowledgements，不把个人资助合称项目唯一出资方。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -350,112 +342,86 @@
   },
   "construction": {
     "question_sources": {
-      "value": "汇集覆盖广泛化学主题的问答，通过自动框架评估开放与闭源模型。",
+      "value": "考试、习题、IChO、教材、网页、讲义及半程序化生成题；v2 Table 1明确半自动生成1,749题，不能把全部2,788题说成逐题人工原创。所有题入库前改写、标注、审核。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "由化学与AI专家构建；PR审题者背景包括化学、材料科学、化工和物理，并自行解题和检索验证答案。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "汇集覆盖广泛化学主题的问答，通过自动框架评估开放与闭源模型。",
+      "value": "逐题以GitHub PR进入，经专家手动解题与检索检查原创性、歧义、事实错误、主题相关及重复后合并；公开保留审核历史。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "专家逐题审核；CI自动检查schema、LaTeX和格式；问答哈希uuid用于去重；榜单要求全语料评测以避免选择性报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "沿用BigBench canary并要求开发者过滤训练语料；评测卡明确“未用该语料训练”是期待而非已测试事实。公开题目存在污染风险，不能将canary或人工检索当作绝对无泄漏。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "论文当前摘要与官网均表述超过 2,700 道问答；早期材料的精确数量不在未锁定版本时混用。",
+      "value": {
+        "arxiv_v2_questions": 2788,
+        "hf_card_version": "1.0.0",
+        "hf_card_config_records": {
+          "analytical_chemistry": 152,
+          "chemical_preference": 1000,
+          "general_chemistry": 149,
+          "inorganic_chemistry": 92,
+          "materials_science": 83,
+          "organic_chemistry": 429,
+          "physical_chemistry": 165,
+          "technical_chemistry": 40,
+          "toxicity_and_safety": 675
+        },
+        "hf_card_record_sum": 2785,
+        "count_warning": "2785为HF元数据九config行数相加；2788为锁定v2正文。两者单位/版本不同，不能默认为同一精确题量。"
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -469,143 +435,94 @@
       ]
     },
     "modalities": {
-      "value": "问答框架支持文本化学语义及视觉 LLM；具体各模态题量仍待核实。",
+      "value": "原论文语料是文本化学问答及化学语义字符串；当前引擎支持视觉语言模型不代表原始2788题全是多模态。多模态扩展见独立论文arXiv:2411.16955。",
       "sources": [
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2404.01475",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/lamalab-org/chembench",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语；官方HF数据卡language=en，multilinguality=monolingual。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "HF卡keywords标difficulty-basic、difficulty-intermediate、difficulty-advanced；评测卡明确专家手工三级难度。未将各级题量从未锁定版本推算出来。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "HF九个config均以名为train的split发布；卡片却明确只供评测，train只是技术名称，不构成训练许可。人类比较另有子集，不等同隐藏测试集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "按问题与化学子领域评估正确性；框架支持拒答统计等功能。",
+      "value": "全题等权fraction correct；MCQ以Hamming loss=0判完全正确；数值题默认误差阈值为目标值的1%；另外记录拒答与置信度，不给部分分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "scoring": {
-      "value": "按问题与化学子领域评估正确性；框架支持拒答统计等功能。",
+      "value": "按模型类型提示并用正则抽取；指令模型抽取ANSWER段，失败可用被测LLM辅助提取；数值按1%阈值、MCQ全对计分，拒答检测及重试预算应另记。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "completion与instruction-tuned使用不同模板，并处理LaTeX、化学符号、单位与分子特殊标记；评测卡不统一限制温度、解码、计算量，提交须附模型和数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "官方Python接口ChemBenchmark.from_huggingface、PrompterBuilder、benchmark.bench及save_topic_reports；评测卡列兼容引擎v0.3.0，不能当数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "comparability_warning": {
       "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
@@ -627,146 +544,115 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026H2 独立引用/使用证据本轮仍待核实；官网可访问不等于已满足活跃性要求。"
+      ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "HF卡仍自标数据1.0.0；官方结果数据集本次公开splits为2.0.0、2.0.1、2.0.2，当前结果取2.0.2。两类版本不强行等同。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://datasets-server.huggingface.co/splits?dataset=jablonkagroup%2FChemBench-Results",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Kevin Maik Jablonka [ view email ] [v1] Mon, 1 Apr 2024 20:56:25 UTC (3,330 KB) [v2] Fri, 1 Nov 2024 07:05:33 UTC (26,656 KB)",
+      "value": {
+        "arxiv_revisions_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2024-04-02T05:56:25+09:00"
+          },
+          {
+            "version": "v2",
+            "submitted_at_kst": "2024-11-01T16:05:33+09:00"
+          }
+        ]
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "结果2.0.2中未验证NexusSciAgent为0.8604548586856919，已验证无harness前列为Claude Opus 4.7的0.7087971274685817；全体混排高分不构成可靠饱和证据。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "当前论文摘要/官网使用“超过2,700”；早期来源出现2,788，版本未锁定时不并作同一精确计数。",
+      "value": "HF卡“MIT许可”和“禁止训练”文字并存；评测卡称不评开放科学任务而HF宣传称open-ended，具体采用可验证参考答案而非无限开放科研评分。官方结果混合已验证与未验证社区提交，verified=false不能称官方复测。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/jablonkagroup/ChemBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "ChemBench引擎已扩展至多模态化学/材料评测，相关独立论文Probing the limitations of multimodal language models for chemistry and materials research（arXiv:2411.16955）；不将扩展能力误写成原始题库全含图像。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_url": {
-      "value": "https://chembench.lamalab.org/",
+      "value": "https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/lamalab-org/chembench/blob/main/eval-card.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -790,53 +676,146 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
+          "rank": 1,
+          "model": "Claude Opus 4.7",
+          "score": 0.7087971274685817,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=true／uses_harness=false",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "claude-opus-4-7-tinyeval",
+          "verified": true,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": "2026-04-16",
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
         },
         {
-          "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
+          "rank": 2,
+          "model": "Claude Opus 4.8",
+          "score": 0.6728904847396768,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=true／uses_harness=false",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "claude-opus-4-8-tinyeval",
+          "verified": true,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": "2026-05-28",
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
         },
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "rank": 3,
+          "model": "Kimi K2.5",
+          "score": 0.6721723518850987,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=true／uses_harness=false",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "kimi-k2-5-tinyeval",
+          "verified": true,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": "2026-01-27",
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
+        },
+        {
+          "rank": 1,
+          "model": "NexusSciAgent",
+          "score": 0.8604548586856919,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "NexusSciAgent-base-1767146262",
+          "verified": false,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": null,
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
+        },
+        {
+          "rank": 2,
+          "model": "NexusSciAgent_DeepSeek",
+          "score": 0.7116025843898856,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "NexusSciAgent_DeepSeek-base-1767172310",
+          "verified": false,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": null,
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
+        },
+        {
+          "rank": 3,
+          "model": "deepseek-chat1",
+          "score": 0.6567431850789096,
+          "metric": "fraction correct",
+          "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
+          "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "model_id": "deepseek-chat1-base-1762475946",
+          "verified": false,
+          "uses_harness": false,
+          "temperature": 0.0,
+          "model_release_date": null,
+          "evaluation_date": "待核实",
+          "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "coverage_note": {
-      "value": "官网本次仅返回榜单列标题，未返回可核验模型行；结果继续保留待核实。官网书目列出 2025 年 Nature Chemistry 正式发表版本，不能据此证明 2026H2 引用。",
       "sources": [
         {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "已恢复官方Space实际公开数据：结果2.0.2共68行，本次取得全部68行；分别列verified=true且无harness前三、verified=false社区提交前三，保留完整浮点值而非图读近似。版本名来自结果表，提交与运行日期未明示的继续待核实。",
+      "sources": [
+        {
+          "url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "mail@kjablonka.com"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2404.01475",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://chembench.lamalab.org/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/lamalab-org/chembench/issues",
@@ -960,16 +939,21 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2404.01475",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       },
       {
         "url": "https://arxiv.org/pdf/2404.01475",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   },

@@ -32,26 +32,22 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v1（2026-08-11）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.10677",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "论文修订号尚未完成精确核实。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-08-11 17:57:25 KST（arXiv首次提交；非推定项目首次上线日）",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.10677",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "多模态",
@@ -286,15 +282,17 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "公开论文和README任务提示使用英语；HF卡本次401无法读取，完整数据语言元数据仍待核实。",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/surge-ai/chartography",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "difficulty": {
       "value": "专业格式且经过难度筛选；51题有专家范围、25题精确数值、24题类别答案。",
@@ -317,11 +315,15 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "mean pass@1 (%)；每任务20次，100题共2000次/配置。",
+      "value": "mean pass@1 (%)。论文固定July 2026快照每题20次、100题每配置2000次；当前README复现榜单示例为每题10次，必须注明二者版本差异。pass@K与pass^K另列，不互换。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.10677",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/surge-ai/chartography/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -364,11 +366,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -404,33 +406,48 @@
       "note": "Anthropic在2026-10-07 Haiku 5.5发布表实际报告Chartography；Epoch 2026-10-21进行评审，结论信息不足。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": {
+        "arxiv_revisions_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2026-08-11T17:57:25+09:00"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.10677",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "论文启动快照最高45.0%，当前官网最高71.6%；这说明分数有进步，不足以单独认定专业图表任务已饱和，且运行次数/配置需对齐。",
       "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
+        },
         {
           "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "Epoch于2026-10-21给出Not enough info；这表示材料不足，不是验证通过或已证明有错。",
+      "value": "论文July 2026启动快照最高45.0%，当前官网前三71.6/71.0/66.3，README仍写“没有模型超过45%”，不能将旧断言用于当前榜。README榜单配置10次与论文20次不同。HF返回401，未声称读到其许可；仓库根目录未发现LICENSE文件，许可待核实。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://surgehq.ai/benchmarks/chartography",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/surge-ai/chartography/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -447,11 +464,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -484,7 +501,10 @@
           "metric": "Chartography pass@1 (%)",
           "source_url": "https://surgehq.ai/benchmarks/chartography",
           "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "官网当前Chartography榜／配置如模型名",
+          "unit": "%",
+          "accessed": "2026-11-08"
         },
         {
           "rank": 2,
@@ -493,7 +513,10 @@
           "metric": "Chartography pass@1 (%)",
           "source_url": "https://surgehq.ai/benchmarks/chartography",
           "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "官网当前Chartography榜／配置如模型名",
+          "unit": "%",
+          "accessed": "2026-11-08"
         },
         {
           "rank": 3,
@@ -502,23 +525,71 @@
           "metric": "Chartography pass@1 (%)",
           "source_url": "https://surgehq.ai/benchmarks/chartography",
           "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "官网当前Chartography榜／配置如模型名",
+          "unit": "%",
+          "accessed": "2026-11-08"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-5.6 Sol (Max reasoning)",
+          "score": 45.0,
+          "metric": "mean pass@1 (%)",
+          "track": "论文Table 3／July 2026／20 trials no tools",
+          "source_url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "source_context": "冻结启动快照，不与当前网页榜混排",
+          "ci95_half_width_pp": 1.1
+        },
+        {
+          "rank": 2,
+          "model": "GPT-5.6 Sol (default)",
+          "score": 39.5,
+          "metric": "mean pass@1 (%)",
+          "track": "论文Table 3／July 2026／20 trials no tools",
+          "source_url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "ci95_half_width_pp": 1.2
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 3.5 Flash",
+          "score": 35.9,
+          "metric": "mean pass@1 (%)",
+          "track": "论文Table 3／July 2026／20 trials no tools",
+          "source_url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "ci95_half_width_pp": 1.3
         }
       ],
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "抓取文本将多行rank显示成1；此处rank按当前Chartography部分分数排序，不读取随后其他基准榜表。"
+      ]
     },
     "coverage_note": {
-      "value": "当前官方榜Chartography部分前三；网页后续DAYJOB、sudo、GDP.xlsx榜单均不属于此条。页面未给榜表自写更新日。",
+      "value": "当前官网前三已重新读取，另列论文July 2026历史首名；网页表未给可核实逐行运行日期。HF访问401、根目录无LICENSE，不能由公开可见推定许可。",
       "sources": [
         {
           "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/surge-ai/chartography",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -536,15 +607,13 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/surge-ai/chartography/issues",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/surge-ai/chartography",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -581,26 +650,24 @@
       "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
     },
     "sha256": {
-      "value": "待核实",
+      "value": "77ef3accf5fe10db02baaa5ae6a7e8f9783cea449a1b8c2f9b8ea3bc803990fb",
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮下载PDF字节的SHA-256；不表示已上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 1575099,
       "sources": [
         {
-          "url": "https://surgehq.ai/benchmarks/chartography",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.10677",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮下载PDF字节数；Drive归档仍待核实。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -645,12 +712,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://surgehq.ai/benchmarks/chartography",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

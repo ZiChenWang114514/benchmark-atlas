@@ -30,18 +30,17 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "论文配套原始8任务套件；README有2023-12数据/提示更新，未宣称统一语义数据版本。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
@@ -77,7 +76,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+      "note": "Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
     },
     "subfields": {
       "value": [
@@ -107,7 +106,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "官方README及仓库根目录未核实统一授权；论文列若干上游为MIT，不等于该聚合仓库全部MIT。检索到的introvoyz041 HF副本并非README所指官方发布。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2305.18365",
@@ -183,19 +182,17 @@
       "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
     },
     "partners": {
-      "value": "待核实",
+      "value": "NSF Center for Computer Assisted Synthesis（C-CAS）：论文明确与该中心高年级博士生讨论任务设计。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -229,44 +226,42 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "美国国家科学基金会 NSF CHE–2202693，经 NSF Center for Computer Assisted Synthesis（C-CAS）支持。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
     "capabilities": {
-      "value": "以化学任务检查大模型的理解、推理与解释能力，而非只追求单一最高分。",
+      "value": "沿理解、推理、解释三类能力，评估8个实用化学任务；既比较数值指标，也检查结果对化学家的实际帮助。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "以化学任务检查大模型的理解、推理与解释能力，而非只追求单一最高分。",
+      "value": "以通用语言能力或单个化学任务的高分无法判断LLM是否能可靠处理分子表示、反应和化学说明；本研究不以夺取单项SOTA为目标。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -283,19 +278,17 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "Olaf Wiest（Notre Dame化学系教授）指导任务选取；与C-CAS高年级博士生讨论，化学研究者对答案作定性分析。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "基于已有广泛使用的化学数据集建立任务，并为零样本与少样本设计提示和演示例。",
@@ -311,147 +304,148 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "原始测试集抽样与ICL训练候选不重叠；每个实验重复5次报告均值和方差；化学研究者另作实用性定性审查。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "论文只确认抽取的测试样本与ICL训练候选不重叠；原始化学数据已公开，不能据此认定LLM预训练去污染。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "8 个化学任务；总样本数、任务分布待核实。",
+      "value": "8个任务族；Table 1按任务列出100个测试实例，若一个任务有多个数据集或子方向须分开理解，不把8×100冒称去重后总题量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "8 个化学任务；总样本数、任务分布待核实。",
+      "value": [
+        "名称互译",
+        "分子性质分类",
+        "反应产率高低分类",
+        "反应产物预测",
+        "试剂选择/排序",
+        "逆合成",
+        "文本到分子设计",
+        "分子描述生成"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": [
+        "英文自然语言",
+        "SMILES/SELFIES分子字符串",
+        "反应字符串"
+      ],
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语提示及分子说明；SMILES为主要分子表示，另比较SELFIES。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "不是统一难度分级；不同任务及提示设置分别评测，不能按8任务平均准确率判断化学能力。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "从原始测试集抽取100实例用于单项实验，ICL候选来自训练集；README公布所用测试数据和提示日志，部分原始资源需另下载。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "逐任务零样本/少样本评估；具体任务指标待核实。",
+      "value": "名称/产率/试剂任务用准确率；性质分类用Accuracy与F1；反应/逆合成报告Top-1 Accuracy和非法SMILES比例；分子设计另用BLEU、Exact Match、Levenshtein、指纹相似度、FCD与Validity；描述用BLEU、ROUGE、METEOR。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "逐任务零样本/少样本评估；具体任务指标待核实。",
+      "value": "按任务脚本确定性计算指标，5次实验报告均值与方差；化学家另作定性审阅。产率任务是高/低分类，不是连续产率RMSE回归。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -517,14 +511,10 @@
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Taicheng Guo [ view email ] [v1] Sat, 27 May 2023 14:17:33 UTC (6,493 KB) [v2] Sun, 10 Sep 2023 16:37:36 UTC (7,863 KB) [v3] Thu, 28 Dec 2023 04:29:36 UTC (7,865 KB)",
+      "value": "arXiv v1：2023-05-27 23:17:33 KST；v2：2023-09-11 01:37:36 KST；v3：2023-12-28 13:29:36 KST。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         }
       ]
@@ -545,18 +535,17 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "公开上游数据可能与预训练重叠；作者指出BLEU等文本指标与化学实用性存在差距，不能用文本相似度替代分子精确性与有效性。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -589,18 +578,17 @@
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/pdf/2305.18365#page=20",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -618,29 +606,83 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
-          "accessed": "2026-11-07"
+          "rank": 1,
+          "model": "GPT-4",
+          "score": 0.004,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / zero-shot",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07",
+          "dispersion": "±0.005"
         },
+        {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": 0.23,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / Scaffold k=20",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07",
+          "dispersion": "±0.022"
+        },
+        {
+          "rank": 2,
+          "model": "Davinci-003",
+          "score": 0.218,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / Scaffold k=20",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07",
+          "dispersion": "±0.008"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-3.5",
+          "score": 0.184,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / Scaffold k=20",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07",
+          "dispersion": "±0.005"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-4",
+          "score": 0.012,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / Random k=20",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07",
+          "dispersion": "±0.008"
+        },
+        {
+          "rank": 1,
+          "model": "Chemformer",
+          "score": 0.938,
+          "metric": "Top-1 Accuracy (0–1)",
+          "track": "论文v3 / reaction prediction / 专用监督基线",
+          "source_url": "https://arxiv.org/pdf/2305.18365",
+          "accessed": "2026-11-07"
+        }
+      ],
+      "sources": [
         {
           "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "补入论文v3 Table 11反应预测历史结果，分zero-shot、Scaffold k=20和Random k=20轨；不是当前实时总榜。表中专用Chemformer基线另轨，不能与LLM提示结果冒称统一能力排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.18365",
+          "url": "https://arxiv.org/pdf/2305.18365",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2305.18365",
+          "url": "https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -777,6 +819,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

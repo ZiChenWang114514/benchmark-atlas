@@ -248,11 +248,11 @@
       ]
     },
     "review_process": {
-      "value": "每位作者提交验证notebook证明信号存在；每题最多5名专家独立解答，追加质量检查并移除4道有问题的题。",
+      "value": "每题作者须提交验证notebook，证明数据信号存在；每题最多5名领域专家从零解答。额外质检后剔除4道构造有问题的题，最终99题分为76道human-solvable与23道human-difficult。",
       "sources": [
         {
           "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -279,11 +279,21 @@
   },
   "data_format": {
     "size": {
-      "value": "原始99问题：76 human-solvable、23 human-difficult。Vals显示分数的具体任务计分分母需另外核实，不能反推为原始99。",
+      "value": {
+        "final_questions": 99,
+        "human_solvable": 76,
+        "human_difficult": 23,
+        "excluded_broken_questions": 4,
+        "warning": "99为剔除4题后的最终集合；不是从99中再扣4。Vals评测分母与原版一致性待核实。"
+      },
       "sources": [
         {
           "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -393,26 +403,26 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "comparability_warning": {
-      "value": "Anthropic每题5次与Vals每benchmark 3次、不同harness与裁判不可直接混排；拒答计失败，分数并非临床安全认证。",
+      "value": "原版每题5次、按76/23两个子集分别统计；Vals为3次完整运行均值、Terminus 2及另一裁判。两种协议不得合并排名；模型能答对不等于其分析链已通过科研或临床有效性验证。",
       "sources": [
         {
           "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://www.vals.ai/benchmarks/biomysterybench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -486,11 +496,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -521,7 +531,9 @@
           "metric": "Vals Accuracy %; 3 runs",
           "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "Vals 独立复测／3 runs",
+          "accessed": "2026-11-08"
         },
         {
           "rank": 2,
@@ -530,7 +542,9 @@
           "metric": "Vals Accuracy %; 3 runs",
           "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "Vals 独立复测／3 runs",
+          "accessed": "2026-11-08"
         },
         {
           "rank": 3,
@@ -539,22 +553,54 @@
           "metric": "Vals Accuracy %; 3 runs",
           "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "track": "Vals 独立复测／3 runs",
+          "accessed": "2026-11-08"
+        },
+        {
+          "rank": null,
+          "model": "Claude Opus 4.6",
+          "score": 77.4,
+          "metric": "accuracy (%)",
+          "track": "Anthropic 原始报告／human-solvable／5 episodes",
+          "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "source_context": "官方文章中附带并认可的可靠性分析段落"
+        },
+        {
+          "rank": null,
+          "model": "Claude Opus 4.6",
+          "score": 23.5,
+          "metric": "accuracy (%)",
+          "track": "Anthropic 原始报告／human-difficult／5 episodes",
+          "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "source_context": "同一模型的另一子集，不能与Vals百分比直接混排"
         }
       ],
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/biomysterybench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "Vals独立评测，不是Anthropic原始自报；原始99题与Vals所用任务集/分母的完全一致性待核实。",
+      "value": "当前Vals前三已重读；原版仅补官方正文明确给出的Opus 4.6两组精确数值，未从图形估计其他模型。Vals与Anthropic双轨保留；99题与Vals实际分母的一致性待核实。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/biomysterybench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -683,12 +729,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

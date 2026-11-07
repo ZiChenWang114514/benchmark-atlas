@@ -22,15 +22,17 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "论文v4对应104材料性质套件；持续演进的软件工作流，不能将论文v4当数据语义版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://arxiv.org/pdf/2412.10516",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_version": {
       "value": "v4；最近论文日期 2025-03-19",
@@ -72,7 +74,7 @@
       ]
     },
     "license": {
-      "value": "NIST Terms of Use：美国政府雇员作品在美国不受版权保护；境外按声明授予非独占免费使用/修改/分发许可，须保留通知及免责声明。",
+      "value": "NIST LICENSE.rst：美国联邦政府员工职务作品在美国不受版权保护；境外授予免费、非独占使用/修改/分发许可，保留通知与免责声明。第三方模型和数据各按其授权。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/LICENSE.rst",
@@ -218,14 +220,13 @@
       ]
     },
     "review_process": {
-      "value": "固定参考DFT属性与自动收敛/弛豫工作流比较；独立人工逐结构审核规模待核实。",
+      "value": "以JARVIS-DFT参考属性和公开计算流程核对模型收敛、误差与耗时；论文同时比较FrechetCellFilter和ExpCellFilter，优化器改变结果。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://arxiv.org/pdf/2412.10516",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "quality_control": {
       "value": "比较模型收敛、DFT偏差与成本，多种物性独立评分。",
@@ -384,21 +385,19 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "当前官网晶格a任务使用104材料；各性质子集分母独立，软件更新不等于统一题集版本。",
+      "sources": [
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "arXiv：v1 2024-12-14 04:22:31 KST；v2 2024-12-21 11:49:32 KST；v3 2025-01-15 13:10:22 KST；v4 2025-03-19 12:10:46 KST。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2412.10516",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
-    },
-    "paper_revision_history": {
-      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）表5使用 CHIPS-FF 性质套件；采用自洽元素参照和统一弛豫协议，不应与不同协议的旧榜直接合并。",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
@@ -472,7 +471,200 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "晶格常数 a（104材料）子任务：alignn_ff 0.0111；orb-v2 与 eqV2_31M_omat 均0.0154；eqV2_31M_omat_mp_salex 0.0161。官方表头标 ACC，描述却明确 MAE（Å），保留此冲突，暂按描述解释为越小越好。",
+      "value": [
+        {
+          "rank": 1,
+          "model": "alignn_ff",
+          "score": 0.0111,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 2,
+          "model": "orb-v2",
+          "score": 0.0154,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 2,
+          "model": "eqV2_31M_omat",
+          "score": 0.0154,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 4,
+          "model": "eqV2_31M_omat_mp_salex",
+          "score": 0.0161,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 5,
+          "model": "eqV2_86M_omat_mp_salex",
+          "score": 0.0164,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 6,
+          "model": "eqV2_153M_omat",
+          "score": 0.0217,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 7,
+          "model": "eqV2_86M_omat",
+          "score": 0.022,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 8,
+          "model": "orb-d3-v2",
+          "score": 0.025,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 9,
+          "model": "mace",
+          "score": 0.0265,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 9,
+          "model": "mattersim",
+          "score": 0.0265,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 11,
+          "model": "sevennet",
+          "score": 0.0281,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 12,
+          "model": "chgnet",
+          "score": 0.0361,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 13,
+          "model": "mace-mpa",
+          "score": 0.0401,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 14,
+          "model": "matgl-direct",
+          "score": 0.0427,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 15,
+          "model": "matgl",
+          "score": 0.0429,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        },
+        {
+          "rank": 16,
+          "model": "mace-alexandria",
+          "score": 0.068,
+          "metric": "晶格a MAE (Å)，页面表头ACC有冲突",
+          "track": "JARVIS / dft_3d_chipsff_a",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
+          "accessed": "2026-11-07",
+          "dataset_size": "104",
+          "date_submitted_as_displayed": "3-11-2025",
+          "direction": "lower_is_better"
+        }
+      ],
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
@@ -481,14 +673,10 @@
       ]
     },
     "coverage_note": {
-      "value": "2026-11-07 读取；每行提交日期原样为3-11-2025，日期格式未核实，不能当整体更新日。专题页称 Pearson，但该a子任务描述用MAE、表头ACC；三种标签冲突须官方澄清。",
+      "value": "完整录入晶格a子榜16配置并按描述中的MAE升序；orb-v2与eqV2_31M_omat并列第2。原表ACC、专题总页PCC与任务MAE标签冲突保留；3-11-2025提交日格式未获澄清，不推断月份或整体更新时间。",
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/Special/CHIPS_FF/",
           "accessed": "2026-11-07"
         }
       ]
@@ -619,6 +807,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

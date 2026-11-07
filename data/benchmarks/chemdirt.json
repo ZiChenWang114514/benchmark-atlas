@@ -254,11 +254,25 @@
   },
   "data_format": {
     "size": {
-      "value": "仓库 README：4,484 个问题，附 300 张分子图像。",
+      "value": {
+        "readme_questions": 4484,
+        "readme_molecular_images": 300,
+        "hf_card_train_records": 4482,
+        "paper_task_settings": 33,
+        "warning": "README 4484与当前HF数据卡4482不一致；不四舍五入为一致，也不推断缺失两题的原因。33为任务设置而不是题目数量。"
+      },
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/einae-nd/ChemDIRT",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -299,11 +313,15 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方HF公开数据；不是统一训练/验证/隐藏测试竞赛协议。",
+      "value": "HF元数据公开单个名为train的split，4,482行；它是发布容器，不证明有独立监督训练流程或隐藏测试集；README本地包声称4,484题，口径冲突保留。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/einae-nd/ChemDIRT",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -357,18 +375,17 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026H2 活跃性复核：2026-08-21 原始论文实际评估多个模型；属于作者自评而非独立引用。"
+      ]
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -402,16 +419,18 @@
           "release": "2026-08-21",
           "latest": "2026-08-21",
           "version": "v1"
-        }
+        },
+        "arxiv_revisions_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2026-08-22T01:58:30+09:00"
+          }
+        ]
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2608.21504v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -425,11 +444,19 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "继承数据集可能已被训练使用；提示标准差不是数据集采样置信区间。",
+      "value": "继承公开分子库与任务，提示改写不等于去预训练污染；四提示间总体标准差不是采样置信区间。README题量4,484与HF卡4,482需维护方解释；未找到LICENSE文件，HF卡也未标许可，仍待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/einae-nd/ChemDIRT",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -447,11 +474,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -476,32 +503,58 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "2026-08原论文历史：Claude-Sonnet-5图像→SMILES EM0.633±0.028、图像→IUPAC0.687±0.039（Table V）；RetroDFM-R的SMILES逆合成EM0.685±0.023（Table IV）。±为提示间标准差，模型标签照论文，不代表同一任务冠军。",
+      "value": [
+        {
+          "rank": null,
+          "model": "Claude-Sonnet-5",
+          "score": 0.633,
+          "metric": "exact match",
+          "track": "论文Table V／image→SMILES",
+          "source_url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08",
+          "std_across_prompts": 0.028,
+          "unit": "比例"
+        },
+        {
+          "rank": null,
+          "model": "Claude-Sonnet-5",
+          "score": 0.687,
+          "metric": "exact match",
+          "track": "论文Table V／image→IUPAC",
+          "source_url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08",
+          "std_across_prompts": 0.039,
+          "unit": "比例"
+        },
+        {
+          "rank": null,
+          "model": "RetroDFM-R",
+          "score": 0.685,
+          "metric": "exact match",
+          "track": "论文Table IV／SMILES retrosynthesis",
+          "source_url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08",
+          "std_across_prompts": 0.023,
+          "unit": "比例"
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "三条均锁定v1论文，按image→SMILES、image→IUPAC、SMILES逆合成三轨结构化；rank=null因为不是同一任务的完整排名。±为四种提示的总体标准差，不是置信区间；不宣称当前实时SOTA。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.21504",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/einae-nd/ChemDIRT",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -632,12 +685,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2608.21504",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

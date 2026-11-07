@@ -13,14 +13,17 @@
       ]
     },
     "full_name": {
-      "value": "CORE-Bench",
+      "value": "Computational Reproducibility Agent Benchmark（CORE-Bench）",
       "sources": [
         {
-          "url": "https://github.com/siegelz/core-bench",
+          "url": "https://huggingface.co/datasets/siegelz/core-bench/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.11363",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+      ]
     },
     "version": {
       "value": "原始90篇论文×3级=270任务",
@@ -59,7 +62,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+      "note": "Benchmark Constitution 编辑归档；跨领域仅主板块计数。"
     },
     "subfields": {
       "value": [
@@ -73,10 +76,14 @@
       ]
     },
     "license": {
-      "value": "MIT（原harness仓库软件与文档）；论文capsule及第三方数据另核各自授权。",
+      "value": "官方GitHub代码/LICENSE及HF数据卡均标MIT；HF主要提供任务元数据而非研究capsule，capsule所含论文代码/数据仍核各自授权。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/siegelz/core-bench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -240,10 +247,14 @@
       ]
     },
     "decontamination": {
-      "value": "评测禁止访问Code Ocean网站以免直接取回现成输出；公开论文/代码的训练泄漏仍无法完全排除。",
+      "value": "论文级split避免同篇跨train/test；评测禁止从Code Ocean取现成输出。测试元数据和解密方式公开，公开代码/论文的预训练泄漏不能排除。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.11363",
           "accessed": "2026-11-07"
         }
       ]
@@ -300,10 +311,18 @@
       ]
     },
     "public_hidden_split": {
-      "value": "按论文分45/45 train/test以避免同篇跨split；研究材料/脚本公开。",
+      "value": "按论文45 train/45 test；测试任务元数据以GPG文件发布，官方README给公开解密方法。capsule代码/数据由Princeton服务器按ID另下载；不是永久私有题库。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/siegelz/core-bench/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2409.11363",
           "accessed": "2026-11-07"
         }
       ]
@@ -461,45 +480,158 @@
     "results": {
       "value": [
         {
+          "rank": 1,
+          "model": "CORE-Agent + gpt-4o-2024-05-13",
+          "score": 60.0,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Easy",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "Easy的CORE-Agent+GPT-4o主表60.00，正文和附表60.60，保留主表不擅自修正"
+        },
+        {
+          "rank": 2,
+          "model": "CORE-Agent + gpt-4o-mini-2024-07-18",
+          "score": 44.44,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Easy",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "Easy的CORE-Agent+GPT-4o主表60.00，正文和附表60.60，保留主表不擅自修正"
+        },
+        {
+          "rank": 3,
+          "model": "AutoGPT + gpt-4o-2024-05-13",
+          "score": 35.56,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Easy",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "Easy的CORE-Agent+GPT-4o主表60.00，正文和附表60.60，保留主表不擅自修正"
+        },
+        {
+          "rank": 4,
+          "model": "AutoGPT + gpt-4o-mini-2024-07-18",
+          "score": 8.89,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Easy",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "Easy的CORE-Agent+GPT-4o主表60.00，正文和附表60.60，保留主表不擅自修正"
+        },
+        {
+          "rank": 1,
+          "model": "CORE-Agent + gpt-4o-2024-05-13",
+          "score": 57.78,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Medium",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
+        },
+        {
+          "rank": 3,
+          "model": "CORE-Agent + gpt-4o-mini-2024-07-18",
+          "score": 32.59,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Medium",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
+        },
+        {
+          "rank": 2,
+          "model": "AutoGPT + gpt-4o-2024-05-13",
+          "score": 37.78,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Medium",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
+        },
+        {
+          "rank": 4,
+          "model": "AutoGPT + gpt-4o-mini-2024-07-18",
+          "score": 2.22,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Medium",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
+        },
+        {
+          "rank": 1,
           "model": "CORE-Agent + gpt-4o-2024-05-13",
           "score": 21.48,
-          "metric": "Hard任务成功率 (%)",
-          "benchmark_version": "原始Hard",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table1",
-          "collected_at": "2026-11-07 KST"
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Hard",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
         },
         {
+          "rank": 2,
           "model": "CORE-Agent + gpt-4o-mini-2024-07-18",
           "score": 16.3,
-          "metric": "Hard任务成功率 (%)",
-          "benchmark_version": "原始Hard",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table1",
-          "collected_at": "2026-11-07 KST"
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Hard",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
         },
         {
+          "rank": 3,
           "model": "AutoGPT + gpt-4o-2024-05-13",
           "score": 6.67,
-          "metric": "Hard任务成功率 (%)",
-          "benchmark_version": "原始Hard",
-          "result_type": "论文历史基线",
-          "source_date": "论文Table1",
-          "collected_at": "2026-11-07 KST"
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Hard",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
+        },
+        {
+          "rank": 4,
+          "model": "AutoGPT + gpt-4o-mini-2024-07-18",
+          "score": 2.22,
+          "metric": "task pass@1 (%)",
+          "track": "论文v2 Table 5 / test / Hard",
+          "source_url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07",
+          "protocol": "CORE-Agent 3次运行平均；AutoGPT 1次",
+          "conflict": "无该Easy文本冲突"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://arxiv.org/pdf/2409.11363",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "均为论文历史Hard基线，不是11月7日最新榜。论文Easy主表60.00与正文/附录60.60有不一致，暂不在结果表采用该冲突数字。H2 ScienceIDE仅引用本benchmark。",
+      "value": "实时HAL链接本次返回503，未取得当前总榜；完整录入论文v2 Table 5的四配置×三难度历史基线，修正旧条目误指Table 1。Easy主表60.00与正文/附录60.60冲突并列说明。Hard附录单次test pass@1 22.2不同于三次平均21.48，不能混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://agent-evals-leaderboard.hf.space",
           "accessed": "2026-11-07"
         }
       ]
@@ -509,6 +641,7 @@
     "public_emails": {
       "value": [
         "zachary@siegel.com",
+        "zss@princeton.edu",
         "sayashk@princeton.edu",
         "nn7887@princeton.edu",
         "stroebl@princeton.edu",
@@ -516,10 +649,15 @@
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://arxiv.org/pdf/2409.11363",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/siegelz/core-bench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "论文公开zachary@siegel.com，HF数据卡另列zss@princeton.edu；保留来源差异，仅列公开研究联系地址。"
     },
     "github_issues": {
       "value": "https://github.com/siegelz/core-bench/issues",
@@ -641,6 +779,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

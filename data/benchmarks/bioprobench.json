@@ -119,11 +119,15 @@
       ]
     },
     "license": {
-      "value": "官方 README 标示 CC BY-NC 4.0；上游协议文本再使用仍须检查其原始条款。",
+      "value": "LICENSE.MD分别约束代码和数据：代码限非商业使用并须署名；数据同样限非商业及署名，公开HF子集特别采用CC BY-NC 4.0。不能把README徽章当作全部代码的通用开源许可；上游协议版权另行适用。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/YuyangSunshine/bioprobench/blob/main/LICENSE.MD",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/BioProBench/BioProBench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -154,11 +158,15 @@
       ]
     },
     "dataset_url": {
-      "value": "https://huggingface.co/BioProBench",
+      "value": "https://huggingface.co/datasets/BioProBench/BioProBench",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/BioProBench/BioProBench",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -237,64 +245,45 @@
     },
     "authors": {
       "value": [
-        "Liu, Yuyang",
-        "Lv, Liuzhenghao",
-        "Zhang, Xiancheng",
-        "Yuan, Jingya Wang Li",
-        "Tian, Yonghong"
+        "Yuyang Liu",
+        "Liuzhenghao Lv",
+        "Xiancheng Zhang",
+        "Jingya Wang",
+        "Li Yuan",
+        "Yonghong Tian"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "YuyangSunshine / BioProBench项目团队；官方维护入口为本仓库与BioProBench HF组织。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/BioProBench/BioProBench",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "China Postdoctoral Science Foundation（BX20240013、2024M760113）；Guangdong S&T Program（2024B0101010003）；深圳科创委（KQTD20240729102051063）；NSFC（U25B6003、62425101）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -352,23 +341,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "测试集由生物学博士专家复核；任务事实、步骤和答案来自原有人类撰写协议，LLM仅受约束地生成干扰项或格式转换。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "论文说明所有测试实例经过人工专家审查，核对准确性、移除潜在伪影并确认相关性。",
@@ -389,32 +368,26 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "先对原始协议清洗去重；附录G对PQA做数值扰动敏感性检验，作者明确承认这不能排除ORD/GEN预训练序列记忆。不可将held-out划分等同于预训练无污染。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "当前 README：22,413 份原始生物协议，523,784 个结构化实例，来源于 5 个库并覆盖 16 个生物子领域。",
+      "value": "22,413份原始协议，构成523,784个结构化实例；正文§3.2明确其中350,565个来自可公开许可的来源并发布，不能将523,784说成全部可公开下载。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -428,68 +401,42 @@
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "文本实验协议与结构化JSON；论文明确当前未覆盖真实实验的图像、视频等多模态上下文。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语（官方HF元数据language: en）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/BioProBench/BioProBench/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "附录C.2：GEN按easy/standard/difficult分层，作者设定近似5:2:1采样比例（不是全库精确统计）；PQA按试剂/参数/操作平衡，ERR按真/假平衡，ORD区分主步骤/子步骤。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "以 JSON 提供 Train/Test；README 列出各任务的 *_train.json 与 *_test.json，精确划分数量待核实。",
+      "value": "官方提供各任务*_train.json和*_test.json；正文§3.2只公开许可允许的350,565个实例，JoVE/Morimoto Lab等受限来源被排除出公开评测采样；每任务精确Train/Test数量待核实。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -522,23 +469,13 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "附录C.4逐任务给提示模板，答案按规定标记和格式抽取；GEN另分direct、zero-shot CoT、one-shot CoT，REA-GEN要求结构化推理。不同提示不得合并排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "官方 Metrics/ 目录按任务提供 PQA.py、ORD.py、ERR.py、GEN.py、REA-ERR.py。",
@@ -569,26 +506,25 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2608.25286v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026H2 活跃性复核：2026-08-26 BixBench3 引言及参考文献明确引用 BioProBench（2505.07889）的协议理解任务。"
+      ]
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -609,19 +545,30 @@
       "status": "待核实"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Yuyang Liu [ view email ] [v1] Sun, 11 May 2025 09:42:24 UTC (557 KB) [v2] Thu, 29 May 2025 07:31:28 UTC (701 KB) [v3] Wed, 21 Jan 2026 16:21:36 UTC (2,470 KB) [v4] Mon, 27 Jul 2026 01:08:26 UTC (2,652 KB)",
+      "value": {
+        "arxiv_revisions_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2025-05-11T18:42:24+09:00"
+          },
+          {
+            "version": "v2",
+            "submitted_at_kst": "2025-05-29T16:31:28+09:00"
+          },
+          {
+            "version": "v3",
+            "submitted_at_kst": "2026-01-22T01:21:36+09:00"
+          },
+          {
+            "version": "v4",
+            "submitted_at_kst": "2026-07-27T10:08:26+09:00"
+          }
+        ]
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -669,39 +616,30 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/pdf/2505.07889",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -725,41 +663,133 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "gemini-3.1-pro-preview",
           "score": 0.7408,
-          "unit": "比例",
           "metric": "PQA accuracy",
-          "scope": "v4论文附录F Table14；论文历史结果，非独立第三方实时榜单"
+          "track": "arXiv v4 Table 14／PQA accuracy",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
         },
         {
+          "rank": 2,
           "model": "claude-4-6-opus",
           "score": 0.7391,
-          "unit": "比例",
           "metric": "PQA accuracy",
-          "scope": "v4论文附录F Table14"
+          "track": "arXiv v4 Table 14／PQA accuracy",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 3,
+          "model": "gemini-3-flash-preview",
+          "score": 0.7333,
+          "metric": "PQA accuracy",
+          "track": "arXiv v4 Table 14／PQA accuracy",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 4,
+          "model": "gpt-5.4-2026-03-05",
+          "score": 0.7067,
+          "metric": "PQA accuracy",
+          "track": "arXiv v4 Table 14／PQA accuracy",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 5,
+          "model": "claude-3-5-sonnet",
+          "score": 0.6802,
+          "metric": "PQA accuracy",
+          "track": "arXiv v4 Table 14／PQA accuracy",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 1,
+          "model": "gemini-3.1-pro-preview",
+          "score": 0.6949,
+          "metric": "ERR F1",
+          "track": "arXiv v4 Table 14／ERR F1",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 2,
+          "model": "claude-4-6-opus",
+          "score": 0.6143,
+          "metric": "ERR F1",
+          "track": "arXiv v4 Table 14／ERR F1",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 3,
+          "model": "gpt-5.4-2026-03-05",
+          "score": 0.572,
+          "metric": "ERR F1",
+          "track": "arXiv v4 Table 14／ERR F1",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 4,
+          "model": "gemini-3-flash-preview",
+          "score": 0.5287,
+          "metric": "ERR F1",
+          "track": "arXiv v4 Table 14／ERR F1",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
+        },
+        {
+          "rank": 5,
+          "model": "claude-3-5-sonnet",
+          "score": 0.5216,
+          "metric": "ERR F1",
+          "track": "arXiv v4 Table 14／ERR F1",
+          "source_url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08",
+          "unit": "比例",
+          "result_type": "基准作者论文历史实验"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2505.07889",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。",
+      "value": "锁定arXiv v4 Table 14，完整录入5模型的PQA accuracy及ERR F1两轨；不把PQA、ERR、ORD、GEN融合成一个总榜，也不称为实时SOTA。README说12模型而论文摘要说10模型，保留版本差异。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2505.07889v4",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/YuyangSunshine/bioprobench",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -898,16 +928,21 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2505.07889",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       },
       {
         "url": "https://arxiv.org/pdf/2505.07889",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   },

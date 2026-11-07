@@ -31,26 +31,38 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v4（2026-05-09 06:22:01 KST提交）；软件部署v2是另一个版本概念。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "原论文v1：2025-10-01 02:34:03 KST；仓库明确2025-11-21公开评测管线及70题，不能将二者视为v2首次上线日。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "物理",
@@ -60,7 +72,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas编辑分类。"
+      "note": "Benchmark Constitution编辑分类。"
     },
     "subfields": {
       "value": [
@@ -74,15 +86,21 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "HF卡元数据标Apache-2.0，但同卡另要求仅测试、禁止训练及公开解答；两者并列保留，不擅自解释为额外限制已获许可证法律支持。GitHub根LICENSE未取得，不能把HF标记自动扩展到全部仓库软件。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2509.26574",
@@ -104,15 +122,21 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://critpt.com/",
@@ -144,24 +168,93 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Artificial Analysis合作运营评分服务器并独立评测；研究单位/题目贡献者另见论文完整作者及机构表。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "authors": {
-      "value": "Minhui Zhu、Minyang Tian等；完整名单见原始论文。",
+      "value": [
+        "Minhui Zhu",
+        "Minyang Tian",
+        "Xiaocheng Yang",
+        "Tianci Zhou",
+        "Lifan Yuan",
+        "Penghao Zhu",
+        "Eli Chertkov",
+        "Shengyan Liu",
+        "Yufeng Du",
+        "Ziming Ji",
+        "Indranil Das",
+        "Qingzhi Chen",
+        "Junyi Cao",
+        "Yufeng Du",
+        "Jiabin Yu",
+        "Peixue Wu",
+        "Jinchen He",
+        "Yifan Su",
+        "Yikun Jiang",
+        "Yujie Zhang",
+        "Chang Liu",
+        "Ze-Min Huang",
+        "Weizhen Jia",
+        "Yunkai Wang",
+        "Farshid Jafarpour",
+        "Yong Zhao",
+        "Xinan Chen",
+        "Jessie Shelton",
+        "Aaron W. Young",
+        "John Bartolotta",
+        "Wenchao Xu",
+        "Yue Sun",
+        "Anjun Chu",
+        "Victor Colussi",
+        "Chris Akers",
+        "Nathan Brooks",
+        "Wenbo Fu",
+        "Jinchao Zhao",
+        "Marvin Qi",
+        "Anqi Mu",
+        "Yubo Yang",
+        "Allen Zang",
+        "Yang Lyu",
+        "Peizhi Mai",
+        "Christopher Wilson",
+        "Xuefei Guo",
+        "Juntai Zhou",
+        "Daniel Inafuku",
+        "Chi Xue",
+        "Luyu Gao",
+        "Ze Yang",
+        "Yaïr Hein",
+        "Yonatan Kahn",
+        "Kevin Zhou",
+        "Di Luo",
+        "John Drew Wilson",
+        "Jarrod T. Reilly",
+        "Dmytro Bandak",
+        "Ofir Press",
+        "Liang Yang",
+        "Xueying Wang",
+        "Hao Tong",
+        "Nicolas Chia",
+        "Eliu Huerta",
+        "Hao Peng"
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2509.26574",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "保留arXiv完整署名顺序及同名作者，不据姓名去重。"
     },
     "maintainer": {
       "value": "CritPt团队；Artificial Analysis合作提供评分服务",
@@ -173,10 +266,10 @@
       ]
     },
     "funders": {
-      "value": "原始论文列Argonne LDRD、美国能源部及NSF算力等支持；v2新增资助待核实。",
+      "value": "论文v4致谢Argonne LDRD及DOE DE-AC02-06CH11357；算力来自ALCF、NSF OAC-2005572/Illinois的Delta及OAC-2320345 DeltaAI；另列NSF OAC-2209892、OAC-2514142及DOE核物理项目支持。以上为论文当前披露，不推断v2独立新增经费。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2509.26574",
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
       ]
@@ -282,32 +375,52 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "公开题干与技术说明为英语；答案可为数学表达式和Python代码/函数。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "研究级挑战，官方卡定位物理低年级博士完整研究项目复杂度；AA Hard Subset为其中40题，不能冒称另一个70题研究级题库。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "公开1个示例；原始论文说明另70个测试挑战的答案保留私有。",
+      "value": "HF提供70题，存储split名为train但卡明确称test set并禁止训练；另公开1个示例。问题公开不代表标准答案/服务器判分测试公开。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2509.26574",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
       ]
@@ -342,15 +455,21 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/CritPt-Benchmark/CritPt；本地生成响应后调用AA合作评分服务器，每批必须齐全70题，README列每账户24小时最多10次提交。HF卡仍链旧CritPt_Eval名称，优先用当前官方仓库。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "comparability_warning": {
       "value": "不能混用v1无agent结果、v2全70题结果和Hard Subset 40题结果；工具与题集均会改变分数。",
@@ -404,15 +523,21 @@
       "note": "AA当前指数以40题Hard Subset计10%权重，且继续跑70题全量；Epoch 2026-10-30专项评审结论为信息不足。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "arXiv提交：v1 2025-10-01 02:34:03 KST；v2 2025-10-01 11:12:55 KST；v3 2025-11-21 03:01:52 KST；v4 2026-05-09 06:22:01 KST。与部署数据v2分开。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "saturation": {
       "value": "AA全量v2最高展示84.0%；不据单个百分比断言已饱和。",
@@ -437,14 +562,21 @@
       ]
     },
     "derivatives": {
-      "value": "当前100项没有CritPt；v2全70题与40题Hard Subset同条记录，不另凑一项。",
+      "value": "v2全量70题和AA 40题Hard Subset同一基准的不同评测轨；原论文71含公开示例，不能与70测试题口径混淆。",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+      ]
     }
   },
   "leaderboard": {
@@ -479,33 +611,64 @@
       "value": [
         {
           "rank": 1,
+          "model": "gpt-6-astra",
+          "score": 83.1,
+          "metric": "average challenge accuracy (%)",
+          "track": "CritPt creator / v2 / 70 challenges / 5 runs",
+          "source_url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-6-1-sol",
+          "score": 82.0,
+          "metric": "average challenge accuracy (%)",
+          "track": "CritPt creator / v2 / 70 challenges / 5 runs",
+          "source_url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5-5",
+          "score": 77.7,
+          "metric": "average challenge accuracy (%)",
+          "track": "CritPt creator / v2 / 70 challenges / 5 runs",
+          "source_url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "rank": 1,
           "model": "GPT-6 Astra (Medium)",
           "score": 84.0,
-          "metric": "CritPt v2 全70题 pass@1 (%)",
+          "metric": "pass@1 (%)",
+          "track": "AA / v2 / full 70 challenges",
           "source_url": "https://artificialanalysis.ai/evaluations/critpt-v2",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07"
         },
         {
           "rank": 2,
           "model": "GPT-6 Astra (High)",
           "score": 83.7,
-          "metric": "CritPt v2 全70题 pass@1 (%)",
+          "metric": "pass@1 (%)",
+          "track": "AA / v2 / full 70 challenges",
           "source_url": "https://artificialanalysis.ai/evaluations/critpt-v2",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07"
         },
         {
           "rank": 3,
           "model": "GPT-6 Astra (Xhigh)",
           "score": 83.4,
-          "metric": "CritPt v2 全70题 pass@1 (%)",
+          "metric": "pass@1 (%)",
+          "track": "AA / v2 / full 70 challenges",
           "source_url": "https://artificialanalysis.ai/evaluations/critpt-v2",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST"
+          "accessed": "2026-11-07"
         }
       ],
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://artificialanalysis.ai/evaluations/critpt-v2",
           "accessed": "2026-11-07"
@@ -513,14 +676,18 @@
       ]
     },
     "coverage_note": {
-      "value": "采用AA当前v2全量页，不从旧CritPt页复制v1分数；同模型不同effort是不同配置。官网另外显示gpt-6-astra 83.1%，保留来源差异，不合并平均。",
+      "value": "创建者README/HF与AA全70题各列前三，互不混排。创建者83.1与AA84.0不能平均或视为笔误。40题Hard Subset未取得可核实逐模型数值，不从全量分反推。AA与README未标统一榜更新时间；不以采集日代替。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/critpt-v2",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://critpt.com/",
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/critpt-v2",
           "accessed": "2026-11-07"
         }
       ]
@@ -540,15 +707,21 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/CritPt-Benchmark/CritPt/issues",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -582,29 +755,26 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+      "note": "本轮已下载并计算SHA-256及字节数；未上传Drive。"
     },
     "sha256": {
-      "value": "待核实",
+      "value": "8762cee2328a98058fd22a2e0310c331122058f5b4255d5a57f845a31878d269",
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本次下载PDF原字节散列；不声称已上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 1308790,
       "sources": [
         {
-          "url": "https://critpt.com/",
+          "url": "https://arxiv.org/pdf/2509.26574",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -649,6 +819,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

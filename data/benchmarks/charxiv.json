@@ -48,14 +48,13 @@
       ]
     },
     "release_date": {
-      "value": "2024-06-26",
+      "value": "2024-06-27 02:50:11 KST（arXiv v1；原站日历日期2024-06-26）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.18521",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "arXiv元数据首发日期原值；不是推测数据集首次上线时间。"
+      ]
     },
     "section": {
       "value": "多模态",
@@ -277,11 +276,11 @@
       ]
     },
     "author_background": {
-      "value": "研究人员/领域专家人工挑图、编题和复核。",
+      "value": "推理题标注员为研究生；每图先看GPT-4V生成的10组候选QA，再选取、编辑或自行撰题；不把所有初稿称为纯人工专家原创。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2406.18521",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -332,15 +331,22 @@
   },
   "data_format": {
     "size": {
-      "value": "论文及README主体均称2,323 charts；每图4道descriptive和1道reasoning。README代码导览另写2,333 images（ID 0–2399且不连续），是官方文档内部冲突，未用该处覆盖2,323主口径。",
+      "value": {
+        "charts": 2323,
+        "descriptive_questions": 9292,
+        "reasoning_questions": 2323,
+        "validation_charts": 1000,
+        "test_charts": 1323,
+        "documentation_conflict": "README导览另写2333 images，与论文Table 2和README主体2323不一致，保留冲突。"
+      },
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2406.18521",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2406.18521",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/princeton-nlp/CharXiv",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -393,11 +399,15 @@
       ]
     },
     "public_hidden_split": {
-      "value": "validation发布完整问答及已有模型响应/评分；test的答案在JSON中设为null以降低泄漏风险。模型生成与GPT评估流程分别运行，公开本地完整评测应选val。",
+      "value": "按图表随机分为val 1000与test 1323；val公开完整5,000个QA，test答案在公开JSON置null。以图表为划分单位，不将1,323写成测试问题总量。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2406.18521",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/princeton-nlp/CharXiv",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -471,11 +481,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://charxiv.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -505,20 +515,18 @@
             "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
+        "arxiv_revisions_kst": [
+          {
+            "version": "v1",
+            "submitted_at_kst": "2024-06-27T02:50:11+09:00"
+          }
+        ]
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.18521",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2610.01352",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -574,11 +582,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://charxiv.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -605,43 +613,76 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "o3 (high)",
           "score": 78.6,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "validation；reasoning overall（非descriptive）",
-          "date": "待核实",
-          "accessed": "2026-11-07 KST",
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／reasoning overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
-          "leaderboard_updated_at": "待核实",
-          "descriptive_overall": 95.0
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
         },
         {
+          "rank": 2,
           "model": "o4 mini (high)",
           "score": 72.0,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "validation；reasoning overall（非descriptive）",
-          "date": "待核实",
-          "accessed": "2026-11-07 KST",
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／reasoning overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
-          "leaderboard_updated_at": "待核实",
-          "descriptive_overall": 94.3
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
         },
         {
+          "rank": 3,
           "model": "Claude 3.7 Sonnet",
           "score": 64.2,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "validation；reasoning overall（非descriptive）",
-          "date": "待核实",
-          "accessed": "2026-11-07 KST",
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／reasoning overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
-          "leaderboard_updated_at": "待核实",
-          "descriptive_overall": "待核实"
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
+        },
+        {
+          "rank": 1,
+          "model": "o3 (high)",
+          "score": 95.0,
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／descriptive overall",
+          "source_url": "https://charxiv.github.io/data/val_result.csv",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
+        },
+        {
+          "rank": 2,
+          "model": "o4 mini (high)",
+          "score": 94.3,
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／descriptive overall",
+          "source_url": "https://charxiv.github.io/data/val_result.csv",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
+        },
+        {
+          "rank": 3,
+          "model": "GPT 4.5",
+          "score": 90.0,
+          "metric": "accuracy (%)",
+          "track": "官网CSV／val／descriptive overall",
+          "source_url": "https://charxiv.github.io/data/val_result.csv",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "evaluation_date": "待核实",
+          "model_snapshot": "待核实"
         },
         {
           "model": "MMVistaReason-4B (MVR-4B)",
@@ -650,10 +691,12 @@
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "CharXiv reasoning",
           "date": "2026-10-23",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
+          "rank": null
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -662,33 +705,35 @@
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "CharXiv reasoning",
           "date": "2026-10-23",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
+          "rank": null
         }
       ],
       "sources": [
         {
           "url": "https://charxiv.github.io/data/val_result.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮重新打开官网CSV而非重复使用初建日期。当前可读val reasoning前三o3 (high) 78.6、o4 mini (high) 72.0、Claude 3.7 Sonnet 64.2。CSV未明示整体更新日期，模型API快照和缺失提交日期继续待核实。",
+      "value": "重新读取官网CSV，reasoning与descriptive两列各自排序，排除Human与Random基线；CSV缺失的API快照和运行日期仍待核实。MMVistaReason使用另一裁判协议单列，绝不跨轨排名。",
       "sources": [
         {
           "url": "https://charxiv.github.io/data/val_result.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -820,16 +865,21 @@
         "timezone": "KST / Asia/Seoul",
         "round": "1 / 深度实证复核",
         "change": "补机构、维护和公开联系；新增2,323/2,333官方文档冲突及test隐藏答案；重读CSV快照并重核H2。 补官方en语言标签、禁止训练声明和0.jpg答案Erratum。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2406.18521",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       },
       {
         "url": "https://charxiv.github.io/",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

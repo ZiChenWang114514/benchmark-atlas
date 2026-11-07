@@ -1,505 +1,373 @@
 # Code2Video Bench
 
-> 近期热门批次核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未核实不等于官方未公开。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
-原始论文 PDF：待核实
+Code2Video Bench评估“写代码生成好视频”，不是只检查代码能否运行。HeyGen原版为168个人工参考片段/brief及自训偏好裁判；AA是114 brief和Gemini裁判的独立实现。两套Elo依赖不同题集、裁判与对手池，必须分轨展示。
 
-## 为什么近期热门
-
-Code2Video 把“写代码生成动效视频”变成可量化的评测，9月发布后即被 Artificial Analysis 独立实现并上榜。
-
-- 2026-11-07 · Artificial Analysis：当前方法页将Code2Video Bench列为正在实施的评测，披露任务或评分协议。（[链接](https://artificialanalysis.ai/methodology/intelligence-benchmarking)）
-- 2026-11-07 · Artificial Analysis：当前公开评测目录单列Code2Video Bench，不是新闻提及。（[链接](https://artificialanalysis.ai/evaluations)）
-- 2026-11-07 · HeyGen：HeyGen官方原始基准介绍与AA独立实现并存。（[链接](https://www.heygen.com/research/introducing-code2video-benchmark)）
-
-热度等级：**trending: A**。
+导读依据：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）；[1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
 ## 基本信息
 
-### 简称
+**简称**：Code2Video Bench
 
-Code2Video Bench
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**全称**：Code2Video Benchmark（Benchmarking Code-to-Video: Evaluating AI Agents on the Art of Motion Design）
 
-### 全称
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-Code2Video Benchmark（Benchmarking Code-to-Video: Evaluating AI Agents on the Art of Motion Design）
+**基准版本**：HeyGen 2026-09-18网页报告：168条；AA独立Code2Video-AA：114条。不是同一题集的统一语义版本。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-### 基准版本
+**论文版本**：2026-09-18官方网页技术报告；未据此冒称arXiv论文。
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**发布日期**：2026-09-18（HeyGen 技术报告日期）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-### 论文版本
+**主板块**：多模态
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+核验说明：Benchmark Constitution 编辑归档；AA 归入 Coding。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**领域**：代码生成；动效/视频设计
 
-### 发布日期
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-2026-09-18（HeyGen 技术报告日期）
+**许可与范围**：HyperFrames渲染框架Apache-2.0；168条基准素材、参考视频及judge API的独立授权待核实。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE)（访问2026-11-07）；[2](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-### 主板块
+**论文/技术报告**：https://www.heygen.com/research/introducing-code2video-benchmark
 
-多模态
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-> Benchmark Atlas 编辑归档；AA 归入 Coding。
+**代码**：https://github.com/heygen-com/hyperframes
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-### 领域标签
+核验说明：HyperFrames 渲染框架，非评测代码本身。
 
-- 代码生成
-- 动效/视频设计
+**数据**：https://www.kaggle.com/benchmarks/heygen/code2video
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-### 许可证
+**主页**：https://www.heygen.com/research/introducing-code2video-benchmark
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**论文标题**：Benchmarking Code-to-Video: Evaluating AI Agents on the Art of Motion Design
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 论文
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 官方代码
-
-https://github.com/heygen-com/hyperframes
-
-> HyperFrames 渲染框架，非评测代码本身。
-
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
-
-### 数据地址
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 官方入口
-
-https://www.heygen.com/research/introducing-code2video-benchmark
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 论文标题
-
-Benchmarking Code-to-Video: Evaluating AI Agents on the Art of Motion Design
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
 ## 发起与维护
 
-### 机构与发起方
+**发起/作者单位**：HeyGen
 
-HeyGen
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**合作关系**：Kaggle（联合发布完整基准）；Artificial Analysis（独立实现 Code2Video-AA）
 
-### 合作方
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-Kaggle（联合发布完整基准）；Artificial Analysis（独立实现 Code2Video-AA）
+**作者**：Abhay Zala、Miao Yang、Wenbo Zhu、Bin Liu 及 Kaggle Team
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-### 作者
+**维护方**：HeyGen
 
-Abhay Zala、Miao Yang、Wenbo Zhu、Bin Liu 及 Kaggle Team
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**资助**：待核实
 
-### 当前维护方
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-HeyGen
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 资助
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 ## 设计目标
 
-### 衡量能力
+**测量能力**：根据设计 brief 写出可确定性渲染为视频的代码（HTML/GSAP），衡量动效设计质量而不只是代码可运行。
 
-根据设计 brief 写出可确定性渲染为视频的代码（HTML/GSAP），衡量动效设计质量而不只是代码可运行。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+**针对的不足**：模型榜单多测可核对答案的题，创意/视频类缺少量化评价。
 
-### 设计背景
-
-模型榜单多测可核对答案的题，创意/视频类缺少量化评价。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
 ## 构建方式
 
-### 题目来源
+**材料来源**：HeyGen 设计 brief 与人类参考合成作品
 
-HeyGen 设计 brief 与人类参考合成作品
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**出题背景**：人类参考动效作品与设计brief由人工创建；偏好标注者先接受动效设计基础训练和筛选。报告作者为HeyGen研究人员及Kaggle Team。
 
-### 出题者背景
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-待核实
+**审核**：按每个设计轴收集成对人类偏好，标注者培训/筛选后参与评价；报告以保留的样本对检验裁判与人类一致性。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**质控**：训练并筛选偏好标注者；作者报告裁判在人类对齐评估的1,464样本上为82%，通用VLM为75%。这是作者评估，不是视频任务正确率；比较VLM时交换视频顺序控制位置偏差。
 
-### 审核流程
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-待核实
+**去污染边界**：报告展示未用于裁判训练的held-out样本对；这只支撑裁判泛化检验，不是被测生成模型预训练去污染证明。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 质量控制
-
-先收集数千条人类成对偏好，再训练裁判模型预测人类选择
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 去污染
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
 ## 数据形式
 
-### 题量与规模
+**规模与统计口径**：HeyGen原版168个人工创建动效参考视频/brief，覆盖8类产品发布片段；AA独立版114 brief，不相加凑题量。
 
-HeyGen 报告：168 个基准提示；AA 实现：114 个设计 brief
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+**任务形式**：代码生成 → 渲染视频 → 成对比较
 
-### 题型
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-代码生成 → 渲染视频 → 成对比较
+**模态**：文本 brief；HTML/JS 代码；视频
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-### 模态
+**语言**：报告和公开示例brief为英语；输出为HTML/CSS/JavaScript动效代码。未据此宣称只有一种渲染文本语言。
 
-- 文本 brief
-- HTML/JS 代码
-- 视频
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+**难度**：覆盖Hook、Problem、Product intro、Key feature、Benefits、Social proof、Call to action、Brand outro；难点是时间/构图/工艺而非语法可运行性，不设统一考试难度等级。
 
-### 语言
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-待核实
+**公开/保留划分**：HeyGen称与Kaggle发布全部参考、brief及judge API；Kaggle页面本次静态抓取仅得标题，未独立核实文件清单。AA页另标Private Dataset，同时展示3个公开split任务；不能把两套发布状态混写。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 难度
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 公开与隐藏划分
-
-AA 标注 Private Dataset，展示公开 split 示例
-
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
 ## 评测方法
 
-### 指标
+**指标**：Elo（成对比较）；AA 为五轴 Elo 平均，以 GPT-5.5 (xhigh)=1000 为锚
 
-Elo（成对比较）；AA 为五轴 Elo 平均，以 GPT-5.5 (xhigh)=1000 为锚
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+**评分**：五个轴：吸引力、贴合意图、构图、时间一致性、工艺；HeyGen 用自训裁判模型，AA 用 Gemini 4 Argon 盲评
 
-### 评分
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-五个轴：吸引力、贴合意图、构图、时间一致性、工艺；HeyGen 用自训裁判模型，AA 用 Gemini 4 Argon 盲评
+**提示与运行设定**：HeyGen给被测模型HyperFrames skill，跑168 prompts并渲染，与人类参考和其他模型作round-robin配对；AA每brief生成一个HyperFrames HTML/GSAP作品。具体运行预算未核实，不推测。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-### 提示与运行设置
+**脚本/运行入口**：渲染框架与skill：https://github.com/heygen-com/hyperframes；HeyGen称Kaggle运行Harbor-compatible数据/定制harness，不能把渲染器当作完整benchmark评分代码。
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**可比性**：HeyGen 原版与 AA 实现题量、裁判不同，Elo 不可互比；Elo 依赖对手池。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 官方评测脚本
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 可比性警示
-
-HeyGen 原版与 AA 实现题量、裁判不同，Elo 不可互比；Elo 依赖对手池。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
 ## 最新情况
 
-### 核查日期
+**本次核验**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**当前版本证据**：version：HeyGen 2026-09-18网页报告：168条；AA独立Code2Video-AA：114条。不是同一题集的统一语义版本。；evidence_2026_h2：url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；organization：Artificial Analysis；note：当前方法页将Code2Video Bench列为正在实施的评测，披露任务或评分协议。；url：https://artificialanalysis.ai/evaluations；date：2026-11-07；organization：Artificial Analysis；note：当前公开评测目录单列Code2Video Bench，不是新闻提及。；url：https://www.heygen.com/research/introducing-code2video-benchmark；date：2026-11-07；organization：HeyGen；note：HeyGen官方原始基准介绍与AA独立实现并存。；trending：heat_confidence：A；summary：HeyGen 视频生成代码评测被 AA 目录标 New 并独立实现。
 
-### 当前版本与2026年后半年活跃证据
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-- **version**：待核实
-- **evidence_2026_h2**：- **url**：https://artificialanalysis.ai/methodology/intelligence-benchmarking
-- **date**：2026-11-07
-- **organization**：Artificial Analysis
-- **note**：当前方法页将Code2Video Bench列为正在实施的评测，披露任务或评分协议。
+**修订历史**：已核实网页技术报告署期2026-09-18；未找到可核验arXiv修订序列。
 
-- **url**：https://artificialanalysis.ai/evaluations
-- **date**：2026-11-07
-- **organization**：Artificial Analysis
-- **note**：当前公开评测目录单列Code2Video Bench，不是新闻提及。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-- **url**：https://www.heygen.com/research/introducing-code2video-benchmark
-- **date**：2026-11-07
-- **organization**：HeyGen
-- **note**：HeyGen官方原始基准介绍与AA独立实现并存。
-- **trending**：- **heat_confidence**：A
-- **summary**：HeyGen 视频生成代码评测被 AA 目录标 New 并独立实现。
+**饱和**：待核实
 
-> 近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations)（访问 2026-11-07）；[来源3](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-### 论文修订历史
+**争议与局限**：Elo随对手池及裁判改变；HeyGen自训裁判与AA Gemini 4 Argon不是同一个评分器。报告top4置信区间重叠，不能只按点估计认定显著胜出。
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**派生/去重**：Code2Video-AA为AA独立实现，114条和五轴Gemini裁判；与HeyGen168条/自训裁判分轨记录，不合并分数或重复计数。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 饱和情况
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 污染与争议
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 衍生与版本关系
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
 ## 榜单快照
 
-### 快照日期
+**快照日**：2026-11-07 KST / Asia/Seoul
 
-2026-11-07 KST / Asia/Seoul
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**官方榜**：https://www.kaggle.com/benchmarks/heygen/code2video
 
-### 官方榜单
+来源：[1](https://www.kaggle.com/benchmarks/heygen/code2video)（访问2026-11-07）；[2](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-https://www.heygen.com/research/introducing-code2video-benchmark
+**独立评测**：https://artificialanalysis.ai/evaluations/code2video-aa
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）
 
-### 独立评测覆盖
+### 分轨结果（不合并来源/题集/协议）
 
-https://artificialanalysis.ai/evaluations/code2video-aa
+**AA / Code2Video-AA / 114 briefs**
 
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | Claude Opus 5.5 (Max, Default Fallback) | 1536 | five-axis mean Elo |
+| 2 | Claude Sonnet 5.5 (Max, Default Fallback) | 1443 | five-axis mean Elo |
+| 3 | GPT-6 Astra (Max) | 1427 | five-axis mean Elo |
+| 4 | GPT-6.1 Sol (Max) | 1369 | five-axis mean Elo |
+| 5 | Claude Fable 5.1 (Max, Default Fallback) | 1325 | five-axis mean Elo |
+| 6 | Gemini 4 Argon (High) | 1259 | five-axis mean Elo |
+| 7 | Claude Haiku 5.5 (Max) | 1192 | five-axis mean Elo |
+| 8 | Grok 4.7 (Xhigh) | 1127 | five-axis mean Elo |
+| 9 | DeepSeek V4.1 Flash (Max) | 1053 | five-axis mean Elo |
+| 10 | MiMo-V2.6-Flash | 1052 | five-axis mean Elo |
+| 11 | MiMo-V2.6-Pro | 1052 | five-axis mean Elo |
+| 12 | Kimi K3 (Max) | 1041 | five-axis mean Elo |
+| 13 | GLM-5.3 (Max) | 1034 | five-axis mean Elo |
+| 14 | GPT-6 Luna (Max) | 1030 | five-axis mean Elo |
+| 15 | Qwen3.8 Max (0902) | 1021 | five-axis mean Elo |
+| 16 | Inkling 2 Small | 1020 | five-axis mean Elo |
+| 17 | Muse Spark 1.3 (Max) | 1019 | five-axis mean Elo |
+| 18 | GPT-5.5 (Xhigh) | 1000 | five-axis mean Elo |
+| 19 | Muse Wonder (Max) | 997 | five-axis mean Elo |
+| 20 | GLM-5.3-Flash | 975 | five-axis mean Elo |
+| 21 | Qwen3.8 27B (Xhigh) | 949 | five-axis mean Elo |
+| 22 | Mistral Large 4 Preview | 931 | five-axis mean Elo |
+| 23 | Gemini 3.8 Flash (High) | 899 | five-axis mean Elo |
+| 24 | Step 5 Preview | 821 | five-axis mean Elo |
+| 25 | MiniMax-M3 | 724 | five-axis mean Elo |
+| 26 | Beam 1.0 | 675 | five-axis mean Elo |
+| 27 | Inkling (Xhigh) | 467 | five-axis mean Elo |
+| 28 | Nemotron 3 Ultra 550B A55B (Reasoning) | 304 | five-axis mean Elo |
 
-### 核验结果
+来源：[https://artificialanalysis.ai/evaluations/code2video-aa](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
 
-- **rank**：1
-- **model**：Claude Opus 5.5 (Max)
-- **score**：1536
-- **metric**：Code2Video-AA Elo
-- **result_type**：AA 独立实现榜快照
-- **source_date**：待核实（采集日2026-11-07）
-- **collected_at**：2026-11-07 KST
+**HeyGen / 168 prompts / Engagement**
 
-- **rank**：2
-- **model**：Claude Sonnet 5.5 (Max)
-- **score**：1443
-- **metric**：Code2Video-AA Elo
-- **result_type**：AA 独立实现榜快照
-- **source_date**：待核实（采集日2026-11-07）
-- **collected_at**：2026-11-07 KST
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | gpt-5.5 | 1578 | Elo |
+| 2 | gpt-6-astra | 1576 | Elo |
+| 3 | claude-opus-5 | 1571 | Elo |
 
-- **rank**：3
-- **model**：GPT-6 Astra (Max)
-- **score**：1427
-- **metric**：Code2Video-AA Elo
-- **result_type**：AA 独立实现榜快照
-- **source_date**：待核实（采集日2026-11-07）
-- **collected_at**：2026-11-07 KST
+scope：报告overall top5中的轴内排名，非全部模型轴榜
 
-- **rank**：4
-- **model**：GPT-6.1 Sol (max)
-- **score**：1369
-- **metric**：Code2Video-AA Elo
-- **result_type**：AA 独立实现榜快照
-- **source_date**：待核实（采集日2026-11-07）
-- **collected_at**：2026-11-07 KST
+来源：[https://www.heygen.com/research/introducing-code2video-benchmark](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
 
-- **rank**：5
-- **model**：Claude Fable 5.1 (max)
-- **score**：1325
-- **metric**：Code2Video-AA Elo
-- **result_type**：AA 独立实现榜快照
-- **source_date**：待核实（采集日2026-11-07）
-- **collected_at**：2026-11-07 KST
+**HeyGen / 168 prompts / Prompt-Intent**
 
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | gpt-6-astra | 1577 | Elo |
+| 2 | gpt-5.5 | 1575 | Elo |
+| 3 | claude-opus-5 | 1570 | Elo |
 
-### 覆盖与时效说明
+scope：报告overall top5中的轴内排名，非全部模型轴榜
 
-取 AA 独立实现榜（采集日2026-11-07，27/28模型）；HeyGen 报告内 top10 Elo 图未结构化抓取。
+来源：[https://www.heygen.com/research/introducing-code2video-benchmark](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
 
-[来源1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问 2026-11-07）
+**HeyGen / 168 prompts / Composition**
+
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | gpt-5.5 | 1585 | Elo |
+| 1 | gpt-6-astra | 1585 | Elo |
+| 3 | claude-opus-5 | 1576 | Elo |
+
+scope：报告overall top5中的轴内排名，非全部模型轴榜
+
+来源：[https://www.heygen.com/research/introducing-code2video-benchmark](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
+
+**HeyGen / 168 prompts / Temporal**
+
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | gpt-5.5 | 1579 | Elo |
+| 2 | gpt-6-astra | 1578 | Elo |
+| 3 | gpt-5.6-sol | 1568 | Elo |
+
+scope：报告overall top5中的轴内排名，非全部模型轴榜
+
+来源：[https://www.heygen.com/research/introducing-code2video-benchmark](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
+
+**HeyGen / 168 prompts / Craft**
+
+| 排名 | 模型/配置 | 分数 | 指标 |
+|---:|---|---:|---|
+| 1 | gpt-6-astra | 1586 | Elo |
+| 2 | gpt-5.5 | 1585 | Elo |
+| 3 | claude-opus-5 | 1574 | Elo |
+
+scope：报告overall top5中的轴内排名，非全部模型轴榜
+
+来源：[https://www.heygen.com/research/introducing-code2video-benchmark](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
+
+**覆盖范围**：AA表28配置全部录入（图表另写27 of 28，保留显示差异），保留Max及Default Fallback完整模型名。HeyGen仅收录可逐字核实的五轴top3数值，不从overall图估读。两来源分轨，Elo不合并、不平均；Kaggle静态抓取仅得标题，不能将其称已核验实时榜。
+
+来源：[1](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[2](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[3](https://www.kaggle.com/benchmarks/heygen/code2video)（访问2026-11-07）
 
 ## 联系方式
 
-### 公开工作邮箱
+**公开研究邮箱**：待核实
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**Issues**：https://github.com/heygen-com/hyperframes/issues
 
-### 公开反馈
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-待核实
+**公开社区**：HyperFrames官方README所链社区：https://discord.gg/fzbdWyjphr
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**隐私原则**：待核实
 
-### 官方社交渠道
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 隐私政策
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 ## 原始文件
 
-### 源站论文PDF
+**PDF**：待核实
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+**原件SHA-256**：待核实
 
-### 原始PDF SHA-256
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-待核实
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**PDF字节数**：待核实
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-### 原始PDF字节数
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-待核实
+**Drive目录**：待核实
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-### Drive资料文件夹
+**其他文档**：type：官方网页技术报告；url：https://www.heygen.com/research/introducing-code2video-benchmark；type：Kaggle官方基准入口；url：https://www.kaggle.com/benchmarks/heygen/code2video；type：AA独立评测；url：https://artificialanalysis.ai/evaluations/code2video-aa
 
-待核实
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+**Drive PDF**：待核实
 
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### 其他文档
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
-### Drive PDF归档
-
-待核实
-
-> 本组按任务要求不上传Drive；原始PDF URL见original_files。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
+来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
 ## 变更记录
 
-### changelog
-
-- **date**：2026-11-07
-- **timezone**：KST / Asia/Seoul
-- **change**：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-
-[来源1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问 2026-11-07）
-
+- date：2026-11-07；timezone：KST / Asia/Seoul；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

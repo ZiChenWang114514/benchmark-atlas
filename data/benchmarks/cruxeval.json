@@ -13,14 +13,13 @@
       ]
     },
     "full_name": {
-      "value": "CRUXEval",
+      "value": "Code Reasoning, Understanding, and eXecution Evaluation（CRUXEval）",
       "sources": [
         {
-          "url": "https://crux-eval.github.io/",
+          "url": "https://huggingface.co/datasets/cruxeval-org/cruxeval/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "保留官方名称，不把论文标题自动扩写为全称。"
+      ]
     },
     "version": {
       "value": "原始 800 函数；CRUXEval-I / CRUXEval-O 双方向",
@@ -59,7 +58,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+      "note": "Benchmark Constitution 编辑归档；跨领域仅主板块计数。"
     },
     "subfields": {
       "value": [
@@ -73,10 +72,14 @@
       ]
     },
     "license": {
-      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "value": "MIT：GitHub LICENSE与官方HF数据卡均明确标示；因此数据授权不再只推断自代码许可。",
       "sources": [
         {
-          "url": "https://github.com/facebookresearch/cruxeval",
+          "url": "https://raw.githubusercontent.com/facebookresearch/cruxeval/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cruxeval-org/cruxeval/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -138,15 +141,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文单位为MIT CSAIL与Meta AI；首位作者注明主要工作在Meta AI实习期间完成。按研究参与关系记录，不推断法律合作协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2401.03065",
+          "url": "https://arxiv.org/pdf/2401.03065",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "authors": {
       "value": [
@@ -174,15 +175,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "A. Gu获NSF Graduate Research Fellowship Grant 2141064；A. Solar-Lezama获NSF及Intel Corporation经NSF CCF:2217064支持（论文致谢）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2401.03065",
+          "url": "https://arxiv.org/pdf/2401.03065",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     }
   },
   "design_goals": {
@@ -471,110 +470,258 @@
     "results": {
       "value": [
         {
+          "rank": 1,
+          "model": "gpt-4-0613",
+          "score": 69.8,
+          "metric": "i@1 (%)",
+          "track": "CRUXEval official CSV / direct / i@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-4-turbo-2024-04-09 (n=3)",
+          "score": 68.5,
+          "metric": "i@1 (%)",
+          "track": "CRUXEval official CSV / direct / i@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "gpt-4o (n=3)",
+          "score": 65.1,
+          "metric": "i@1 (%)",
+          "track": "CRUXEval official CSV / direct / i@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-4-0613",
+          "score": 76.8,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / direct / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 2,
+          "model": "codetulu-2-34b",
+          "score": 68.0,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / direct / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "starcoder2-15b",
+          "score": 66.9,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / direct / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-4o (n=3)",
+          "score": 70.0,
+          "metric": "o@1 (%)",
+          "track": "CRUXEval official CSV / direct / o@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-4-0613",
+          "score": 68.7,
+          "metric": "o@1 (%)",
+          "track": "CRUXEval official CSV / direct / o@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "gpt-4-turbo-2024-04-09 (n=3)",
+          "score": 67.7,
+          "metric": "o@1 (%)",
+          "track": "CRUXEval official CSV / direct / o@1",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-4-0613",
+          "score": 73.0,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / direct / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 2,
+          "model": "deepseek-instruct-33b",
+          "score": 61.8,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / direct / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "deepseek-base-33b",
+          "score": 61.6,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / direct / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 1,
           "model": "gpt-4-turbo-2024-04-09+cot (n=3)",
           "score": 75.7,
           "metric": "i@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / i@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
+          "rank": 2,
           "model": "gpt-4o+cot (n=3)",
           "score": 75.6,
           "metric": "i@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / i@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
+          "rank": 3,
           "model": "gpt-4-0613+cot",
           "score": 75.5,
           "metric": "i@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / i@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
+          "rank": 1,
+          "model": "gpt-4-0613+cot",
+          "score": 88.9,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / CoT / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-3.5-turbo-0613+cot",
+          "score": 74.9,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / CoT / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "codellama-34b+cot",
+          "score": 73.8,
+          "metric": "i@5 (%)",
+          "track": "CRUXEval official CSV / CoT / i@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 1,
           "model": "gpt-4-turbo-2024-04-09+cot (n=3)",
           "score": 82.0,
           "metric": "o@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / o@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
+          "rank": 1,
           "model": "claude-3-opus+cot (n=1)",
           "score": 82.0,
           "metric": "o@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / o@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
+          "rank": 3,
           "model": "gpt-4-0613+cot",
           "score": 77.1,
           "metric": "o@1 (%)",
-          "settings": "模型名保留+cot与(n=...)标记；两个子任务分别排序",
-          "result_type": "官方静态榜快照",
+          "track": "CRUXEval official CSV / CoT / o@1",
           "source_url": "https://crux-eval.github.io/data.csv",
-          "source_updated_at": "待核实：官方CSV未标统一更新时间",
-          "collected_at": "2026-11-07 Asia/Seoul"
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
-          "model": "Hunyuan-A13B base",
-          "score": 70.13,
-          "metric": "CRUX-I (%)",
-          "benchmark_version": "原始双方向；版本待核实",
-          "result_type": "厂商技术报告自报",
-          "source_date": "2026-09-23",
-          "collected_at": "2026-11-07 KST",
-          "settings": "1-shot"
+          "rank": 1,
+          "model": "gpt-4-0613+cot",
+          "score": 88.2,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / CoT / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         },
         {
-          "model": "Hunyuan-A13B base",
-          "score": 77,
-          "metric": "CRUX-O (%)",
-          "benchmark_version": "原始双方向；版本待核实",
-          "result_type": "厂商技术报告自报",
-          "source_date": "2026-09-23",
-          "collected_at": "2026-11-07 KST",
-          "settings": "1-shot"
+          "rank": 2,
+          "model": "gpt-3.5-turbo-0613+cot",
+          "score": 76.7,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / CoT / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
+        },
+        {
+          "rank": 3,
+          "model": "codellama-34b+cot",
+          "score": 69.4,
+          "metric": "o@5 (%)",
+          "track": "CRUXEval official CSV / CoT / o@5",
+          "source_url": "https://crux-eval.github.io/data.csv",
+          "accessed": "2026-11-07",
+          "result_type": "静态官方榜快照；无统一更新时间"
         }
       ],
       "sources": [
         {
           "url": "https://crux-eval.github.io/data.csv",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://crux-eval.github.io/leaderboard.html",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
-          "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "直接读取官方leaderboard.html加载的data.csv，分别列I/O的pass@1前三行，保留CoT和n标记。官方静态数据未标更新时间，不宣称为2026全球SOTA；厂商自报另列，不合并排名。",
+      "value": "直接重读官方data.csv（43配置）；分别对direct/CoT、I/O及pass@1/pass@5共8轨列前三，剔除模型名明确under verification两行并保留n配置。并列使用competition rank。此为静态榜快照非2026全球SOTA；本快照不将旧厂商自报混入官方排名。",
       "sources": [
         {
           "url": "https://crux-eval.github.io/data.csv",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://crux-eval.github.io/leaderboard.html",
           "accessed": "2026-11-07"
         }
       ]
@@ -582,15 +729,20 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "gua@mit.edu",
+        "broz@meta.com",
+        "hleather@meta.com",
+        "asolar@csail.mit.edu",
+        "gab@meta.com",
+        "sida@meta.com"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2401.03065",
+          "url": "https://arxiv.org/pdf/2401.03065",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/facebookresearch/cruxeval/issues",
@@ -712,6 +864,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [

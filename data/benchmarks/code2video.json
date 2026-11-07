@@ -22,26 +22,38 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "HeyGen 2026-09-18网页报告：168条；AA独立Code2Video-AA：114条。不是同一题集的统一语义版本。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "2026-09-18官方网页技术报告；未据此冒称arXiv论文。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "release_date": {
       "value": "2026-09-18（HeyGen 技术报告日期）",
@@ -60,7 +72,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；AA 归入 Coding。"
+      "note": "Benchmark Constitution 编辑归档；AA 归入 Coding。"
     },
     "subfields": {
       "value": [
@@ -75,26 +87,35 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "HyperFrames渲染框架Apache-2.0；168条基准素材、参考视频及judge API的独立授权待核实。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "status": "待核实"
     },
     "paper_url": {
-      "value": "待核实",
+      "value": "https://www.heygen.com/research/introducing-code2video-benchmark",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "code_url": {
       "value": "https://github.com/heygen-com/hyperframes",
@@ -107,15 +128,21 @@
       "note": "HyperFrames 渲染框架，非评测代码本身。"
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://www.kaggle.com/benchmarks/heygen/code2video",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://www.heygen.com/research/introducing-code2video-benchmark",
@@ -224,51 +251,7 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "review_process": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "quality_control": {
-      "value": "先收集数千条人类成对偏好，再训练裁判模型预测人类选择",
-      "sources": [
-        {
-          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-          "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "decontamination": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    }
-  },
-  "data_format": {
-    "size": {
-      "value": "HeyGen 报告：168 个基准提示；AA 实现：114 个设计 brief",
+      "value": "人类参考动效作品与设计brief由人工创建；偏好标注者先接受动效设计基础训练和筛选。报告作者为HeyGen研究人员及Kaggle Team。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
@@ -276,6 +259,80 @@
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "按每个设计轴收集成对人类偏好，标注者培训/筛选后参与评价；报告以保留的样本对检验裁判与人类一致性。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "训练并筛选偏好标注者；作者报告裁判在人类对齐评估的1,464样本上为82%，通用VLM为75%。这是作者评估，不是视频任务正确率；比较VLM时交换视频顺序控制位置偏差。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "报告展示未用于裁判训练的held-out样本对；这只支撑裁判泛化检验，不是被测生成模型预训练去污染证明。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "HeyGen原版168个人工创建动效参考视频/brief，覆盖8类产品发布片段；AA独立版114 brief，不相加凑题量。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -303,32 +360,52 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "报告和公开示例brief为英语；输出为HTML/CSS/JavaScript动效代码。未据此宣称只有一种渲染文本语言。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "difficulty": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "public_hidden_split": {
-      "value": "AA 标注 Private Dataset，展示公开 split 示例",
-      "sources": [
+        },
         {
           "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "覆盖Hook、Problem、Product intro、Key feature、Benefits、Social proof、Call to action、Brand outro；难点是时间/构图/工艺而非语法可运行性，不设统一考试难度等级。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "HeyGen称与Kaggle发布全部参考、brief及judge API；Kaggle页面本次静态抓取仅得标题，未独立核实文件清单。AA页另标Private Dataset，同时展示3个公开split任务；不能把两套发布状态混写。",
+      "sources": [
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -362,26 +439,38 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "HeyGen给被测模型HyperFrames skill，跑168 prompts并渲染，与人类参考和其他模型作round-robin配对；AA每brief生成一个HyperFrames HTML/GSAP作品。具体运行预算未核实，不推测。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "渲染框架与skill：https://github.com/heygen-com/hyperframes；HeyGen称Kaggle运行Harbor-compatible数据/定制harness，不能把渲染器当作完整benchmark评分代码。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "comparability_warning": {
       "value": "HeyGen 原版与 AA 实现题量、裁判不同，Elo 不可互比；Elo 依赖对手池。",
@@ -409,7 +498,7 @@
     },
     "latest_dataset_version": {
       "value": {
-        "version": "待核实",
+        "version": "HeyGen 2026-09-18网页报告：168条；AA独立Code2Video-AA：114条。不是同一题集的统一语义版本。",
         "evidence_2026_h2": [
           {
             "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
@@ -437,30 +526,35 @@
       },
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+      ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "已核实网页技术报告署期2026-09-18；未找到可核验arXiv修订序列。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "saturation": {
       "value": "待核实",
@@ -474,26 +568,38 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "Elo随对手池及裁判改变；HeyGen自训裁判与AA Gemini 4 Argon不是同一个评分器。报告top4置信区间重叠，不能只按点估计认定显著胜出。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "Code2Video-AA为AA独立实现，114条和五轴Gemini裁判；与HeyGen168条/自训裁判分轨记录，不合并分数或重复计数。",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -507,8 +613,12 @@
       ]
     },
     "official_url": {
-      "value": "https://www.heygen.com/research/introducing-code2video-benchmark",
+      "value": "https://www.kaggle.com/benchmarks/heygen/code2video",
       "sources": [
+        {
+          "url": "https://www.kaggle.com/benchmarks/heygen/code2video",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
@@ -528,62 +638,474 @@
       "value": [
         {
           "rank": 1,
-          "model": "Claude Opus 5.5 (Max)",
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 1536,
-          "metric": "Code2Video-AA Elo",
-          "result_type": "AA 独立实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1536 ± 26"
         },
         {
           "rank": 2,
-          "model": "Claude Sonnet 5.5 (Max)",
+          "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
           "score": 1443,
-          "metric": "Code2Video-AA Elo",
-          "result_type": "AA 独立实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1443 ± 24"
         },
         {
           "rank": 3,
           "model": "GPT-6 Astra (Max)",
           "score": 1427,
-          "metric": "Code2Video-AA Elo",
-          "result_type": "AA 独立实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1427 ± 24"
         },
         {
           "rank": 4,
-          "model": "GPT-6.1 Sol (max)",
+          "model": "GPT-6.1 Sol (Max)",
           "score": 1369,
-          "metric": "Code2Video-AA Elo",
-          "result_type": "AA 独立实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1369 ± 23"
         },
         {
           "rank": 5,
-          "model": "Claude Fable 5.1 (max)",
+          "model": "Claude Fable 5.1 (Max, Default Fallback)",
           "score": 1325,
-          "metric": "Code2Video-AA Elo",
-          "result_type": "AA 独立实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1325 ± 22"
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Argon (High)",
+          "score": 1259,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1259 ± 22"
+        },
+        {
+          "rank": 7,
+          "model": "Claude Haiku 5.5 (Max)",
+          "score": 1192,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1192 ± 21"
+        },
+        {
+          "rank": 8,
+          "model": "Grok 4.7 (Xhigh)",
+          "score": 1127,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1127 ± 20"
+        },
+        {
+          "rank": 9,
+          "model": "DeepSeek V4.1 Flash (Max)",
+          "score": 1053,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1053 ± 20"
+        },
+        {
+          "rank": 10,
+          "model": "MiMo-V2.6-Flash",
+          "score": 1052,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1052 ± 20"
+        },
+        {
+          "rank": 11,
+          "model": "MiMo-V2.6-Pro",
+          "score": 1052,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1052 ± 20"
+        },
+        {
+          "rank": 12,
+          "model": "Kimi K3 (Max)",
+          "score": 1041,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1041 ± 20"
+        },
+        {
+          "rank": 13,
+          "model": "GLM-5.3 (Max)",
+          "score": 1034,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1034 ± 20"
+        },
+        {
+          "rank": 14,
+          "model": "GPT-6 Luna (Max)",
+          "score": 1030,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1030 ± 20"
+        },
+        {
+          "rank": 15,
+          "model": "Qwen3.8 Max (0902)",
+          "score": 1021,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1021 ± 20"
+        },
+        {
+          "rank": 16,
+          "model": "Inkling 2 Small",
+          "score": 1020,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1020 ± 15"
+        },
+        {
+          "rank": 17,
+          "model": "Muse Spark 1.3 (Max)",
+          "score": 1019,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1019 ± 20"
+        },
+        {
+          "rank": 18,
+          "model": "GPT-5.5 (Xhigh)",
+          "score": 1000,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "1000 ± 0"
+        },
+        {
+          "rank": 19,
+          "model": "Muse Wonder (Max)",
+          "score": 997,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "997 ± 20"
+        },
+        {
+          "rank": 20,
+          "model": "GLM-5.3-Flash",
+          "score": 975,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "975 ± 20"
+        },
+        {
+          "rank": 21,
+          "model": "Qwen3.8 27B (Xhigh)",
+          "score": 949,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "949 ± 20"
+        },
+        {
+          "rank": 22,
+          "model": "Mistral Large 4 Preview",
+          "score": 931,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "931 ± 20"
+        },
+        {
+          "rank": 23,
+          "model": "Gemini 3.8 Flash (High)",
+          "score": 899,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "899 ± 20"
+        },
+        {
+          "rank": 24,
+          "model": "Step 5 Preview",
+          "score": 821,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "821 ± 21"
+        },
+        {
+          "rank": 25,
+          "model": "MiniMax-M3",
+          "score": 724,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "724 ± 23"
+        },
+        {
+          "rank": 26,
+          "model": "Beam 1.0",
+          "score": 675,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "675 ± 25"
+        },
+        {
+          "rank": 27,
+          "model": "Inkling (Xhigh)",
+          "score": 467,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "467 ± 28"
+        },
+        {
+          "rank": 28,
+          "model": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "score": 304,
+          "metric": "five-axis mean Elo",
+          "track": "AA / Code2Video-AA / 114 briefs",
+          "source_url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07",
+          "uncertainty_as_displayed": "304 ± 33"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-5.5",
+          "score": 1578,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Engagement",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-6-astra",
+          "score": 1576,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Engagement",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5",
+          "score": 1571,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Engagement",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-6-astra",
+          "score": 1577,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Prompt-Intent",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-5.5",
+          "score": 1575,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Prompt-Intent",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5",
+          "score": 1570,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Prompt-Intent",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-5.5",
+          "score": 1585,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Composition",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-6-astra",
+          "score": 1585,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Composition",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5",
+          "score": 1576,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Composition",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-5.5",
+          "score": 1579,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Temporal",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-6-astra",
+          "score": 1578,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Temporal",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 3,
+          "model": "gpt-5.6-sol",
+          "score": 1568,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Temporal",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 1,
+          "model": "gpt-6-astra",
+          "score": 1586,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Craft",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-5.5",
+          "score": 1585,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Craft",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
+        },
+        {
+          "rank": 3,
+          "model": "claude-opus-5",
+          "score": 1574,
+          "metric": "Elo",
+          "track": "HeyGen / 168 prompts / Craft",
+          "source_url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07",
+          "source_date": "2026-09-18",
+          "scope": "报告overall top5中的轴内排名，非全部模型轴榜"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "取 AA 独立实现榜（采集日2026-11-07，27/28模型）；HeyGen 报告内 top10 Elo 图未结构化抓取。",
+      "value": "AA表28配置全部录入（图表另写27 of 28，保留显示差异），保留Max及Default Fallback完整模型名。HeyGen仅收录可逐字核实的五轴top3数值，不从overall图估读。两来源分轨，Elo不合并、不平均；Kaggle静态抓取仅得标题，不能将其称已核验实时榜。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.kaggle.com/benchmarks/heygen/code2video",
           "accessed": "2026-11-07"
         }
       ]
@@ -602,26 +1124,38 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/heygen-com/hyperframes/issues",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "HyperFrames官方README所链社区：https://discord.gg/fzbdWyjphr",
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "privacy_policy": {
       "value": "待核实",
@@ -681,15 +1215,34 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "官方网页技术报告",
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark"
+        },
+        {
+          "type": "Kaggle官方基准入口",
+          "url": "https://www.kaggle.com/benchmarks/heygen/code2video"
+        },
+        {
+          "type": "AA独立评测",
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/code2video-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -709,6 +1262,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
       }
     ],
     "sources": [
