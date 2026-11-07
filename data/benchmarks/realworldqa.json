@@ -42,15 +42,13 @@
       "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2024-04-12（官方发布页自写日历日期，无精确时刻/时区，不能伪造KST小时）。",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      ]
     },
     "section": {
       "value": "多模态",
@@ -272,15 +270,15 @@
   },
   "data_format": {
     "size": {
-      "value": "官方公告称初始版本超过700张图、每图一题；HF数据集viewer显示765行，数据总大小678 MB（公告下载链接标注677MB）。",
+      "value": "官方HF卡精确test 765行，每行含image/question/answer；卡内num_bytes为678,377,246，download_size与dataset_size因打包口径不同，不混称图像总大小。公告仅称over 700。",
       "sources": [
         {
-          "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA/raw/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
-          "accessed": "2026-11-07"
+          "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -389,24 +387,32 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": {
+        "release": "官方initial release；test 765行",
+        "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd",
+        "hf_last_modified_kst": "2024-04-19T08:05:22+09:00",
+        "timezone": "Asia/Seoul",
+        "note": "仓库最后修改时间不是初次发布日，也不代表新增题目版本。"
+      },
       "sources": [
         {
-          "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/api/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -438,15 +444,17 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "原始发布比较最高68.7%；2026 MMVistaReason论文Table 2包含最高80.9%的RealWorldQA结果，但其模型裁判协议与首发不同，不能据此认定同一固定协议的饱和趋势，更不能把77.4%作者模型分数误作全表最高。",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      ]
     },
     "contamination_and_issues": {
       "value": "首发公告over700和官方HF test 765不冲突；2024厂商首发分数不作2026实时独立榜单。独立原始论文/PDF仍待核实：仅未在本轮检查的公告与数据卡找到，不等于不存在，禁止其他论文冒充。",
@@ -479,11 +487,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -510,77 +518,203 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Grok-1.5V",
           "score": 68.7,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "初始RealWorldQA，zero-shot无CoT",
-          "date": "待核实",
-          "accessed": "2026-11-07",
+          "metric": "accuracy (%)",
+          "track": "2024首发xAI厂商比较",
           "source_url": "https://x.ai/news/grok-1.5v",
-          "provenance": "2024首发官网比较；xAI厂商自报，不是2026实时榜单或独立第三方评测"
+          "source_date": "2024-04-12",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "仅Grok明确zero-shot/no-CoT，其他精确快照按原页面，未擅自补全。"
         },
         {
+          "rank": 2,
           "model": "Gemini Pro 1.5",
           "score": 67.5,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "初始RealWorldQA",
-          "date": "待核实",
-          "accessed": "2026-11-07",
+          "metric": "accuracy (%)",
+          "track": "2024首发xAI厂商比较",
           "source_url": "https://x.ai/news/grok-1.5v",
-          "provenance": "2024首发官网比较表；对比模型精确快照未给出"
+          "source_date": "2024-04-12",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "仅Grok明确zero-shot/no-CoT，其他精确快照按原页面，未擅自补全。"
         },
         {
-          "model": "MMVistaReason-4B (MVR-4B)",
-          "score": 77.4,
-          "unit": "%",
-          "metric": "论文协议答案正确率（CompassVerifier）",
-          "scope": "RealWorldQA",
-          "date": "2026-10-23",
-          "accessed": "2026-11-07",
-          "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
+          "rank": 3,
+          "model": "GPT-4V",
+          "score": 61.4,
+          "metric": "accuracy (%)",
+          "track": "2024首发xAI厂商比较",
+          "source_url": "https://x.ai/news/grok-1.5v",
+          "source_date": "2024-04-12",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "仅Grok明确zero-shot/no-CoT，其他精确快照按原页面，未擅自补全。"
         },
         {
-          "model": "MMVistaReason-9B (MVR-9B)",
-          "score": 77.4,
-          "unit": "%",
-          "metric": "论文协议答案正确率（CompassVerifier）",
-          "scope": "RealWorldQA",
-          "date": "2026-10-23",
-          "accessed": "2026-11-07",
+          "rank": 4,
+          "model": "Claude 3 Sonnet",
+          "score": 51.9,
+          "metric": "accuracy (%)",
+          "track": "2024首发xAI厂商比较",
+          "source_url": "https://x.ai/news/grok-1.5v",
+          "source_date": "2024-04-12",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "仅Grok明确zero-shot/no-CoT，其他精确快照按原页面，未擅自补全。"
+        },
+        {
+          "rank": 5,
+          "model": "Claude 3 Opus",
+          "score": 49.8,
+          "metric": "accuracy (%)",
+          "track": "2024首发xAI厂商比较",
+          "source_url": "https://x.ai/news/grok-1.5v",
+          "source_date": "2024-04-12",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "仅Grok明确zero-shot/no-CoT，其他精确快照按原页面，未擅自补全。"
+        },
+        {
+          "rank": null,
+          "model": "Gemini-3 Flash",
+          "score": 80.9,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-5.1",
+          "score": 79.1,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen3.5-9B (Instruct)",
+          "score": 76.8,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen3.5-35B A3B (Instruct)",
+          "score": 76.7,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "InternVL3.5 30B-A3B",
+          "score": 72.3,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "InternVL3.5 241B-A28B",
+          "score": 75.2,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "OMR 7B",
+          "score": 68.8,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "MFR 4B",
+          "score": 74.6,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "MFR 8B",
+          "score": 75.2,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "MVR 4B",
+          "score": 77.4,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
+        },
+        {
+          "rank": null,
+          "model": "MVR 9B",
+          "score": 77.4,
+          "metric": "论文协议accuracy (%)，CompassVerifier模型裁判",
+          "track": "MMVistaReason论文v2 Table 2 / 作者研究评测",
+          "source_url": "https://arxiv.org/html/2610.01352v2",
+          "source_date": "2026-10-23",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "protocol": "VLMEvalKit；temperature 0、top_p 1、max16384；非官方统一字符串匹配，不与首发榜拼排。"
         }
       ],
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "收录初始官网5模型完整比较及2026-H2论文Table 2的RealWorldQA全部11模型；各轨独立。研究表按原列顺序，不把未排名原表创造为官方名次。",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -714,13 +848,19 @@
         "timezone": "KST / Asia/Seoul",
         "round": "1 / 深度实证复核",
         "change": "撤销论文题名和URL未公开断言，恢复待核实并注明查过的官方页；重核H2且换算KST。未伪造原始PDF。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
         "url": "https://x.ai/news/grok-1.5v",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
-    ]
+    ],
+    "status": "待核实"
   }
 }

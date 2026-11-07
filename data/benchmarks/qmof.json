@@ -40,15 +40,17 @@
       ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "官方版本日志：初次数据发布v1为2020-10-28；ChemRxiv页面版本日期2020-10-29。Matter正式发表为2021年，不能把2021误作数据库首次发布年。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/updates.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://chemrxiv.org/engage/chemrxiv/article-details/60c75162469df46822f449f8",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "section": {
       "value": "材料",
@@ -72,11 +74,15 @@
       ]
     },
     "license": {
-      "value": "数据库数据：CC BY 4.0；须适当署名并注明修改。",
+      "value": "数据库数据CC BY 4.0；仓库软件LICENSE为MIT。数据与代码授权范围区分。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/LICENSE",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -128,15 +134,17 @@
   },
   "organization": {
     "initiators": {
-      "value": "待核实",
+      "value": "Rosen等QMOF研究团队；原始论文作者与作者单位见ChemRxiv/正式文献，数据库长期由Andrew-S-Rosen/QMOF维护。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://chemrxiv.org/engage/chemrxiv/article-details/60c75162469df46822f449f8",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "partners": {
       "value": "待核实",
@@ -181,15 +189,17 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "原始论文ChemRxiv页面列National Defense Science and Engineering Graduate Fellowship、Nanoporous Materials Genome Center（DE-FG02-17ER16362）；OSTI另列NSF及DOE/BES支持。来源列表不冒充资助比例。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://chemrxiv.org/engage/chemrxiv/article-details/60c75162469df46822f449f8",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.osti.gov/pages/biblio/1774653",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -359,11 +369,11 @@
       ]
     },
     "prompt_settings": {
-      "value": "非LLM提示；H2 ALIGNN2.0与原ALIGNN比较需固定结构划分及训练设置。",
+      "value": "不是LLM问答提示。ALIGNN 2.0论文Table 2在JARVIS协议下比较固定16340/2042/2042划分；0.202 eV来自improved训练设置，radius消融为0.208 eV，不能统称未改动的base kNN。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.19487v1",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.19487",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -392,11 +402,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -428,76 +438,241 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "源结构重复、训练/测试划分与DFT系统误差会影响材料泛化结论；2021原始论文PDF本轮公开站点下载受阻，Drive未以替代论文冒充。",
+      "value": "需区分QMOF版本、训练/测试结构及DFT泛函；维护方v13对比和NIST协议不能默认相同。原始2021论文PDF本轮Cell/化学预印本下载仍受403限制；仅重开ChemRxiv摘要、仓库、NIST及2026下游论文，未以其他论文冒充原始PDF。",
       "sources": [
         {
-          "url": "https://www.nature.com/articles/s41524-022-00796-6",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://github.com/Andrew-S-Rosen/QMOF",
-          "accessed": "2026-11-07"
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://chemrxiv.org/engage/chemrxiv/article-details/60c75162469df46822f449f8",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "v18加入初步QMOF Thermo Database；属于原数据库扩展，本库不据此把每属性重复计作独立benchmark。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/updates.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://github.com/Andrew-S-Rosen/QMOF/blob/main/benchmarks.md",
       "sources": [
         {
-          "url": "https://github.com/Andrew-S-Rosen/QMOF",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "third_party_url": {
-      "value": "待核实",
+      "value": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "results": {
-      "value": "可核实的近期研究对比（非实时官方总榜）：ALIGNN 2.0 与原 ALIGNN，QMOF带隙 MAE 均0.202 eV；同一16,340/2042/2042划分，论文表2。",
+      "value": [
+        {
+          "rank": null,
+          "model": "ALIGNN 2.0 (improved recipe)",
+          "score": 0.202,
+          "metric": "bandgap test MAE (eV), lower is better",
+          "track": "ALIGNN 2.0作者论文v1 Table 2 / 固定16340-2042-2042",
+          "source_url": "https://arxiv.org/pdf/2609.19487",
+          "source_date": "2026-09-17",
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": null,
+          "model": "ALIGNN (pre-2.0)",
+          "score": 0.202,
+          "metric": "bandgap test MAE (eV), lower is better",
+          "track": "ALIGNN 2.0作者论文v1 Table 2 / 固定16340-2042-2042",
+          "source_url": "https://arxiv.org/pdf/2609.19487",
+          "source_date": "2026-09-17",
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": null,
+          "model": "ALIGNN 2.0 (radius graph)",
+          "score": 0.208,
+          "metric": "bandgap test MAE (eV), lower is better",
+          "track": "ALIGNN 2.0作者论文补充Table S2 / radius消融",
+          "source_url": "https://arxiv.org/pdf/2609.19487",
+          "source_date": "2026-09-17",
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": null,
+          "model": "Mean of Dataset",
+          "score": 0.94,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": null,
+          "model": "Sine Matrix Eigenspectrum",
+          "score": 0.539,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.004
+        },
+        {
+          "rank": null,
+          "model": "Stoichiometric-45",
+          "score": 0.459,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.005
+        },
+        {
+          "rank": null,
+          "model": "Stoichiometric-120",
+          "score": 0.454,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.006
+        },
+        {
+          "rank": null,
+          "model": "Orbital Field Matrix",
+          "score": 0.41,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.004
+        },
+        {
+          "rank": null,
+          "model": "Average SOAP kernel",
+          "score": 0.344,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.004
+        },
+        {
+          "rank": null,
+          "model": "CGCNN",
+          "score": 0.27,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "QMOF维护方 / v13 / 80%训练",
+          "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_plus_minus": 0.011
+        },
+        {
+          "rank": null,
+          "model": "alignn_model",
+          "score": 0.2019,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "NIST JARVIS / qmof_bandgap / 20424样本",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "source_date": "01-14-2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "team": "ALIGNN",
+          "dataset_size": 20424,
+          "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
+        },
+        {
+          "rank": null,
+          "model": "matminer_rf",
+          "score": 0.3618,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "NIST JARVIS / qmof_bandgap / 20424样本",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "source_date": "05-22-2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "team": "UofT",
+          "dataset_size": 20424,
+          "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
+        },
+        {
+          "rank": null,
+          "model": "matminer_xgboost",
+          "score": 0.3421,
+          "metric": "bandgap MAE (eV), lower is better",
+          "track": "NIST JARVIS / qmof_bandgap / 20424样本",
+          "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "source_date": "05-22-2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "team": "UofT",
+          "dataset_size": 20424,
+          "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19487",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.19487",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "2026-11-07 读取2026-09-16模型论文；这是开发团队自报对比，不代表QMOF数据库维护方官方排名；实时榜前列待核实。",
+      "value": "三个独立协议：维护方v13/80%训练7行；NIST JARVIS qmof_bandgap全部3行（MAE精确0.2019、0.3618、0.3421）；2026 ALIGNN 2.0论文主表与消融3行。NIST页面列名虽为ACC，说明明确是带隙MAE，越低越好。不同版本、划分、报告精度不混排；0.2019不得反向改写论文0.202。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19487",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.19487",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -536,15 +711,13 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "仅记录官方项目材料明确公开的研究联络方式与Issues，不收集或推断私人资料。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "original_files": {
@@ -631,12 +804,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
-        "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

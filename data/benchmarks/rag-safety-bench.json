@@ -212,11 +212,11 @@
       ]
     },
     "author_background": {
-      "value": "研究团队设计安全子类别及基准；人工资质的逐人清单待核实。",
+      "value": "两位作者均署University of Ottawa Faculty of Engineering；Claude Sonnet-4.5辅助构造候选问题，GPT-4.1-mini审计上下文。作者机构可核实，不推断未声明的临床/法律等执业资格。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -230,24 +230,35 @@
       ]
     },
     "quality_control": {
-      "value": "分别报告harmfulness、accuracy和refusal，避免把能力差误判为安全好。",
+      "value": "冻结full/balanced选择manifest、oracle审计记录；论文balanced oracle审计200 yes/146 partial。refusal分类人工验证100输出，人机一致95–96%、κ 0.90–0.92；不把这项验证泛化成harmfulness三裁判可靠度。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "Wiki来源及版本manifest支持追溯；Claude生成提示要求非重复问题，balanced为full精确子集。针对模型预训练的专门污染排除检验仍待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "status": "待核实"
     }
   },
   "data_format": {
@@ -359,14 +370,13 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.11758v1",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026-H2实际使用证据：2026-09-10：RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。"
+      ]
     },
     "latest_dataset_version": {
       "value": {
@@ -406,15 +416,13 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "本基准必须联合分析harmfulness、unsafe-capability与refusal，不能用一个能力正确率认定安全饱和。论文oracle最高unsafe-capability 90.7%，这不是安全达标率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "Oracle可答性并非全为完整答案：balanced中200题yes、146题partial。仓库明确私有v2复评分流程及原始输出未随包发布，local judge示例不能替代论文复评分制品。",
@@ -443,14 +451,13 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://arxiv.org/abs/2609.11758",
@@ -476,50 +483,245 @@
     "results": {
       "value": [
         {
-          "model": "Ministral-3-8B（论文标签）",
-          "score": 90.7,
-          "unit": "%",
-          "metric": "unsafe-capability accuracy",
-          "scope": "原始论文 balanced oracle；不是harmfulness/安全分，不能据此认定更安全",
-          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
+          "rank": null,
+          "model": "Gemma-3-12B",
+          "score": 25.7,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
         },
         {
-          "model": "Qwen2.5-7B（论文标签）",
-          "score": 82.9,
-          "unit": "%",
-          "metric": "unsafe-capability accuracy",
-          "scope": "同一oracle条件，非安全榜",
-          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
-        },
-        {
-          "model": "Gemma-3-12B（论文标签）",
+          "rank": null,
+          "model": "Gemma-3-12B",
           "score": 74.9,
-          "unit": "%",
-          "metric": "unsafe-capability accuracy",
-          "scope": "同一oracle条件，非安全榜",
-          "evaluation_date": "论文2026-09-10；精确运行日期待核实"
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Oracle",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Gemma-3-12B",
+          "score": 8.7,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / On-topic",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Gemma-3-12B",
+          "score": 2.0,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Random",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Llama-3.1-8B",
+          "score": 6.4,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Llama-3.1-8B",
+          "score": 41.3,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Oracle",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Llama-3.1-8B",
+          "score": 4.3,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / On-topic",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Llama-3.1-8B",
+          "score": 0.3,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Random",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Ministral-3-8B",
+          "score": 26.0,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Ministral-3-8B",
+          "score": 90.7,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Oracle",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Ministral-3-8B",
+          "score": 18.8,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / On-topic",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Ministral-3-8B",
+          "score": 0.9,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Random",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Phi-4-14B",
+          "score": 10.4,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Phi-4-14B",
+          "score": 41.0,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Oracle",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Phi-4-14B",
+          "score": 12.7,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / On-topic",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Phi-4-14B",
+          "score": 3.2,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Random",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen-2.5-7B",
+          "score": 15.9,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen-2.5-7B",
+          "score": 82.9,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Oracle",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen-2.5-7B",
+          "score": 17.3,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / On-topic",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
+        },
+        {
+          "rank": null,
+          "model": "Qwen-2.5-7B",
+          "score": 2.3,
+          "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
+          "track": "论文v1 Table 3 / balanced 346 / Random",
+          "source_url": "https://arxiv.org/pdf/2609.11758",
+          "source_date": "2026-09-11",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "rank_note": "原表仅按模型排版，无安全名次；rank=null，不按有害问答能力排名。"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "新基准原始论文基线，不是通用安全排行榜；所列是unsafe-capability答案准确率，不是有害率。本次未核实独立AA/Epoch/LMArena榜。",
+      "value": "完整收录Table 3五模型×四RAG条件20个unsafe-capability数值。原表benign capability属于MIRAGE，未混入本基准榜；图中的harmfulness没有可逐点核实数值时不读图估算。原始输出、judge trace和private v2复评分制品明确不公开，local judge实现不等价。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2609.11758",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/html/2609.11758v1",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
+      ]
     }
   },
   "contact": {
@@ -581,17 +783,16 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.11758",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      ]
     },
     "pdf_bytes": {
       "value": 2137960,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.11758",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -613,12 +814,24 @@
           "kind": "中文介绍 Google Doc",
           "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o",
           "webViewLink": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk"
+        },
+        {
+          "type": "官方数据卡（非HF发布）",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"
+        },
+        {
+          "type": "许可提案及限制",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -646,16 +859,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2609.11758",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2609.11758",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

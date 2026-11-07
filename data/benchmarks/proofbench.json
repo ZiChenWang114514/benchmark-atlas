@@ -31,26 +31,30 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv:2603.26996v1；ICLR 2026 Workshop VerifAI-2论文。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2603.26996",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "论文修订号尚未完成精确核实。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "论文首发：2026-03-28 06:14:53 KST（源站2026-03-27 21:14:53 UTC）；不是当前v1.1榜单更新时间。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "数学",
@@ -94,26 +98,23 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/vals-ai/proof-bench",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/vals-ai/proof-bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/vals-ai/proof-bench/tree/main/problems",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/vals-ai/proof-bench/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "仓库明确仅提供sample problems，不冒称已下载网页所述全部100题public split。未找到由官方材料确认的HF发布入口。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/proof_bench",
@@ -145,15 +146,22 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "EPFL",
+        "Moscow Institute of Physics and Technology",
+        "Indiana University Bloomington",
+        "独立研究者（依论文作者单位）"
+      ],
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -252,11 +260,15 @@
       ]
     },
     "decontamination": {
-      "value": "100道私有测试题用于保留污染抵抗；公开100题用于透明评测。",
+      "value": "原始论文为防训练污染保密200题；当前v1.1改为public 100/private 100，私有100题用于榜单。教材/资格考试本身可公开，隐藏形式化并不保证模型未见过自然语言定理。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -311,11 +323,19 @@
       ]
     },
     "public_hidden_split": {
-      "value": "公共100题与私有100题；论文早期整体200题的结果不直接套到v1.1。",
+      "value": "存在版本与可下载性差异：原始v1论文200题保密、只放示例；当前v1.1网页称public 100/private 100，当前榜以private 100题评估；仓库README仍称仅含sample problems。不能宣称已验证完整public 100题可下载。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vals-ai/proof-bench/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -331,11 +351,11 @@
       ]
     },
     "scoring": {
-      "value": "每题最多40轮，必须调用submit_proof；无提交或无效证明不给部分分。native_decide现被接受。",
+      "value": "每题最多40轮，必须submit_proof且编译通过；无提交不得分。每份证明检查#print axioms，拒绝sorry/admit及新增公理。native_decide现被接受：它依赖Lean.ofReduceBool与Lean.trustCompiler，并非只由kernel逐步归约证明。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -349,15 +369,13 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/vals-ai/proof-bench；main.py、proof_bench/agent.py、tools.py、prover.py等。README命令的--k 3属于复现实验参数，不自动当当前榜单重复次数。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/vals-ai/proof-bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "comparability_warning": {
       "value": "v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib；AlephProver也用自有基础设施及不同预算。",
@@ -371,11 +389,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -411,15 +429,23 @@
       "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2026-03-28T06:14:53+09:00",
+          "timezone": "Asia/Seoul"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.26996",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "saturation": {
       "value": "当前榜4个系统100%；表面已达满分，但不能将此推广为一般数学研究完全解决。",
@@ -431,15 +457,13 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模型在2道题中的单题分数。Aristotle可联网、使用Lean 4.28及整文件辅助引理；语言模型无网络、Lean 4.25.2、仅提交证明体。AlephProver可辅助引理、禁网络，用4.25.2；第二轮预算$500/24h获得100，首轮$75/90min为99。这些系统和预算不能当作同一受控配置。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
       "value": "与已有miniF2F不同；v1.1为本条最新版本。",
@@ -454,11 +478,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -486,57 +510,923 @@
           "rank": 1,
           "model": "Claude Sonnet 5.5",
           "score": 100.0,
-          "metric": "ProofBench v1.1 Accuracy (%)",
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.52",
+          "reported_tokens_per_task": "420.28k",
+          "reported_duration_per_task": "5m48s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5",
           "score": 100.0,
-          "metric": "ProofBench v1.1 Accuracy (%)",
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.92",
+          "reported_tokens_per_task": "261.87k",
+          "reported_duration_per_task": "5m51s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
         },
         {
           "rank": 3,
           "model": "Claude Fable 5.1",
           "score": 100.0,
-          "metric": "ProofBench v1.1 Accuracy (%)",
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$2.70",
+          "reported_tokens_per_task": "297.51k",
+          "reported_duration_per_task": "7m58s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
         },
         {
           "rank": 4,
           "model": "AlephProver",
           "score": 100.0,
-          "metric": "ProofBench v1.1 Accuracy (%)",
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-07 KST"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "note": "保留官网显示顺序rank 1–4；四者同为100%，不是统计上严格先后。"
-    },
-    "coverage_note": {
-      "value": "Vals为创建者实测；Epoch ECI列入creator-administered，不意味着Epoch重新运行证明。",
-      "sources": [
-        {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$9.35",
+          "reported_tokens_per_task": "-",
+          "reported_duration_per_task": "18m28s",
+          "system_note": "自有系统，须看工具链/预算差异"
         },
         {
+          "rank": 5,
+          "model": "GPT-6.1 Sol",
+          "score": 99.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.23",
+          "reported_tokens_per_task": "338.81k",
+          "reported_duration_per_task": "4m45s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 6,
+          "model": "GPT-6 Astra",
+          "score": 99.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.71",
+          "reported_tokens_per_task": "366.39k",
+          "reported_duration_per_task": "5m08s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 7,
+          "model": "Gemini 4 Argon",
+          "score": 99.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.78",
+          "reported_tokens_per_task": "389.33k",
+          "reported_duration_per_task": "6m20s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 8,
+          "model": "Claude Opus 5",
+          "score": 99.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.79",
+          "reported_tokens_per_task": "557.88k",
+          "reported_duration_per_task": "9m51s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 9,
+          "model": "Claude Fable 5",
+          "score": 95.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$5.23",
+          "reported_tokens_per_task": "434.89k",
+          "reported_duration_per_task": "13m43s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 10,
+          "model": "Wonder Full",
+          "score": 94.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.86",
+          "reported_tokens_per_task": "654.27k",
+          "reported_duration_per_task": "11m36s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 11,
+          "model": "Kimi K3.1 Pro",
+          "score": 91.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.47",
+          "reported_tokens_per_task": "757.55k",
+          "reported_duration_per_task": "8m16s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 12,
+          "model": "Claude Haiku 5.5",
+          "score": 89.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.17",
+          "reported_tokens_per_task": "519.74k",
+          "reported_duration_per_task": "6m58s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 13,
+          "model": "Kimi K3",
+          "score": 87.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.65",
+          "reported_tokens_per_task": "1.12m",
+          "reported_duration_per_task": "34m31s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 14,
+          "model": "Aristotle",
+          "score": 86.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "-",
+          "reported_tokens_per_task": "-",
+          "reported_duration_per_task": "-",
+          "system_note": "自有系统，须看工具链/预算差异"
+        },
+        {
+          "rank": 15,
+          "model": "Wonder",
+          "score": 84.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.31",
+          "reported_tokens_per_task": "871.96k",
+          "reported_duration_per_task": "15m29s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 16,
+          "model": "GPT-6 Sol",
+          "score": 83.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.48",
+          "reported_tokens_per_task": "1.00m",
+          "reported_duration_per_task": "5m05s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 17,
+          "model": "GPT-5.6 Sol",
+          "score": 83.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.44",
+          "reported_tokens_per_task": "1.26m",
+          "reported_duration_per_task": "8m40s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 18,
+          "model": "Claude Sonnet 5",
+          "score": 77.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.37",
+          "reported_tokens_per_task": "1.69m",
+          "reported_duration_per_task": "14m58s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 19,
+          "model": "Hy4 Preview",
+          "score": 75.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.34",
+          "reported_tokens_per_task": "1.42m",
+          "reported_duration_per_task": "22m54s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 20,
+          "model": "GPT-5.6 Terra",
+          "score": 74.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.27",
+          "reported_tokens_per_task": "2.45m",
+          "reported_duration_per_task": "12m57s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 21,
+          "model": "MiMo V2.6 Pro",
+          "score": 70.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.25",
+          "reported_tokens_per_task": "2.30m",
+          "reported_duration_per_task": "1h02m",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 22,
+          "model": "GPT-6 Luna",
+          "score": 64.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.04",
+          "reported_tokens_per_task": "1.29m",
+          "reported_duration_per_task": "7m31s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 23,
+          "model": "MiMo V2.6 Flash",
+          "score": 63.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.12",
+          "reported_tokens_per_task": "4.22m",
+          "reported_duration_per_task": "1h03m",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 24,
+          "model": "Ember-1",
+          "score": 61.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.74",
+          "reported_tokens_per_task": "1.19m",
+          "reported_duration_per_task": "21m09s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 25,
+          "model": "GPT-5.6 Luna",
+          "score": 60.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.12",
+          "reported_tokens_per_task": "2.11m",
+          "reported_duration_per_task": "8m34s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 26,
+          "model": "Gemini 3.7 Flash",
+          "score": 58.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.56",
+          "reported_tokens_per_task": "598.08k",
+          "reported_duration_per_task": "7m04s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 27,
+          "model": "Muse Spark 1.3 Max",
+          "score": 58.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.48",
+          "reported_tokens_per_task": "1.15m",
+          "reported_duration_per_task": "9m29s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 28,
+          "model": "Qwen 3.8 Max",
+          "score": 58.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.50",
+          "reported_tokens_per_task": "2.27m",
+          "reported_duration_per_task": "31m08s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 29,
+          "model": "DeepSeek V4 Flash 0731",
+          "score": 56.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.16",
+          "reported_tokens_per_task": "1.76m",
+          "reported_duration_per_task": "15m34s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 30,
+          "model": "Muse Spark 1.3",
+          "score": 55.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.43",
+          "reported_tokens_per_task": "1.11m",
+          "reported_duration_per_task": "8m54s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 31,
+          "model": "DeepSeek V4.1 Flash",
+          "score": 54.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.13",
+          "reported_tokens_per_task": "1.91m",
+          "reported_duration_per_task": "9m07s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 32,
+          "model": "Grok 4.6",
+          "score": 51.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.82",
+          "reported_tokens_per_task": "899.07k",
+          "reported_duration_per_task": "14m22s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 33,
+          "model": "DeepSeek V4 Pro 0813",
+          "score": 50.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.26",
+          "reported_tokens_per_task": "1.36m",
+          "reported_duration_per_task": "12m12s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 34,
+          "model": "GLM 5.3",
+          "score": 49.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$2.08",
+          "reported_tokens_per_task": "2.98m",
+          "reported_duration_per_task": "42m23s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 35,
+          "model": "Gemini 3.8 Flash",
+          "score": 48.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.60",
+          "reported_tokens_per_task": "722.62k",
+          "reported_duration_per_task": "6m09s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 36,
+          "model": "Muse Spark 1.2",
+          "score": 43.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.44",
+          "reported_tokens_per_task": "1.13m",
+          "reported_duration_per_task": "7m49s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 37,
+          "model": "Step 5 Preview",
+          "score": 42.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.71",
+          "reported_tokens_per_task": "2.72m",
+          "reported_duration_per_task": "38m34s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 38,
+          "model": "Gemini 3.5 Flash",
+          "score": 31.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.57",
+          "reported_tokens_per_task": "715.95k",
+          "reported_duration_per_task": "6m34s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 39,
+          "model": "Grok 4.5",
+          "score": 31.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.57",
+          "reported_tokens_per_task": "766.46k",
+          "reported_duration_per_task": "11m09s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 40,
+          "model": "Grok 4.7",
+          "score": 26.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.79",
+          "reported_tokens_per_task": "722.19k",
+          "reported_duration_per_task": "12m47s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 41,
+          "model": "Gemini 3.1 Pro Preview (02/26)",
+          "score": 26.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.78",
+          "reported_tokens_per_task": "703.60k",
+          "reported_duration_per_task": "14m49s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 42,
+          "model": "MiMo V2.5 Pro",
+          "score": 22.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.09",
+          "reported_tokens_per_task": "1.15m",
+          "reported_duration_per_task": "19m37s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 43,
+          "model": "GLM 5.3 Flash",
+          "score": 21.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.45",
+          "reported_tokens_per_task": "7.36m",
+          "reported_duration_per_task": "1h11m",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 44,
+          "model": "Beam 1.0",
+          "score": 18.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "-",
+          "reported_tokens_per_task": "659.65k",
+          "reported_duration_per_task": "4m27s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 45,
+          "model": "MiniMax-M3",
+          "score": 18.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.42",
+          "reported_tokens_per_task": "1.68m",
+          "reported_duration_per_task": "11m59s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 46,
+          "model": "DeepSeek V4",
+          "score": 16.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.14",
+          "reported_tokens_per_task": "627.03k",
+          "reported_duration_per_task": "7m03s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 47,
+          "model": "MiMo V2.5",
+          "score": 16.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.06",
+          "reported_tokens_per_task": "1.54m",
+          "reported_duration_per_task": "20m56s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 48,
+          "model": "Qwen 3.8 27B",
+          "score": 16.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$2.30",
+          "reported_tokens_per_task": "3.75m",
+          "reported_duration_per_task": "24m14s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 49,
+          "model": "Mistral Large 4 Preview",
+          "score": 10.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.33",
+          "reported_tokens_per_task": "613.67k",
+          "reported_duration_per_task": "20m59s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 50,
+          "model": "Mistral Medium 3.5",
+          "score": 9.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$1.30",
+          "reported_tokens_per_task": "783.49k",
+          "reported_duration_per_task": "7m59s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 51,
+          "model": "Inkling Small",
+          "score": 6.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.08",
+          "reported_tokens_per_task": "654.29k",
+          "reported_duration_per_task": "8m27s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 52,
+          "model": "Mercury 2.5",
+          "score": 3.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.04",
+          "reported_tokens_per_task": "558.30k",
+          "reported_duration_per_task": "3m22s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 53,
+          "model": "Inkling",
+          "score": 0.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.20",
+          "reported_tokens_per_task": "582.42k",
+          "reported_duration_per_task": "7m16s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 54,
+          "model": "Nemotron 3.5 Lightning",
+          "score": 0.0,
+          "metric": "ProofBench v1.1 private-100 Accuracy (%)",
+          "track": "官方当前v1.1 / private 100",
+          "source_url": "https://www.vals.ai/benchmarks/proof_bench",
+          "source_date": "2026-10-29",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "reported_cost_per_task": "$0.02",
+          "reported_tokens_per_task": "490.76k",
+          "reported_duration_per_task": "15m19s",
+          "system_note": "Vals标准harness；无网络；Lean 4.25.2"
+        },
+        {
+          "rank": 1,
+          "model": "Claude Opus 4.5 (Thinking)",
+          "score": 33.5,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 3 Pro (11/25)",
+          "score": 18.5,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 4.5 (Thinking)",
+          "score": 18,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 4,
+          "model": "GPT 5",
+          "score": 17,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 5,
+          "model": "Gemini 3 Flash (12/25)",
+          "score": 15,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 6,
+          "model": "GPT 5.2",
+          "score": 13.5,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 7,
+          "model": "GPT 5 Nano",
+          "score": 12.5,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 8,
+          "model": "GPT 5.1 Codex Max",
+          "score": 12,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 9,
+          "model": "DeepSeek V3.2 (Nonthinking)",
+          "score": 8,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 10,
+          "model": "GPT 5 Mini",
+          "score": 7,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 11,
+          "model": "GLM 4.7",
+          "score": 4.5,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 12,
+          "model": "Grok 4.1 Fast (Reasoning)",
+          "score": 4,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        },
+        {
+          "rank": 13,
+          "model": "DeepSeek V3.2 (Thinking)",
+          "score": 3,
+          "metric": "FormalProofBench旧版200题 Accuracy (%)",
+          "track": "论文v1 Table 2 / 历史200题",
+          "source_url": "https://arxiv.org/pdf/2603.26996",
+          "source_date": "2026-03-28",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "论文提交时间换算KST，不是运行日期。"
+        }
+      ],
+      "sources": [
+        {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "收录v1.1官网54行及论文v1 Table 2全部13行，版本分轨。当前网页前4项显示100%；保留原显示行号但不把同分写成真实性能差距。Epoch ECI只是聚合创建者结果，未据此新增“Epoch独立实跑”成绩。",
+      "sources": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -554,15 +1444,13 @@
       "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/vals-ai/proof-bench/issues",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/vals-ai/proof-bench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -576,15 +1464,13 @@
       "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "只列官方项目反馈渠道；不推断作者私人邮箱。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -599,26 +1485,22 @@
       "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
     },
     "sha256": {
-      "value": "待核实",
+      "value": "e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 818681,
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/proof_bench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2603.26996",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -663,12 +1545,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
         "url": "https://www.vals.ai/benchmarks/proof_bench",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

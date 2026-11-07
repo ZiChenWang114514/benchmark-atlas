@@ -1,439 +1,487 @@
 # RAG-Safety-Bench
 
-> 第1轮核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未核实不等于官方未公开。榜单快照与H2使用证据分别记录。
+> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
-[阅读归档原始论文 PDF](https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk)
+RAG-Safety-Bench把同一有害请求放入无检索、含答案oracle、同主题无答案和随机良性文档四种受控条件，用于解释RAG为何改变安全行为。unsafe-capability准确率、有害率与拒答率是三件事：有害问题答得越准不代表系统越安全。冻结公开输入可用于独立复测，但不含论文私有v2复评分制品。
 
-## 基本信息
+编辑状态：已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
+
+## 1. 基本信息
 
 ### 简称
 
 RAG-Safety-Bench
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 全称
 
 RAG-Safety-Bench
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 基准版本
+### 数据版本
 
 v14 frozen release：v14_full_987与v14_balanced_346。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
 
 ### 论文版本
 
 arXiv v1
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 发布日期
+### 发布时间
 
 2026-09-10
 
 > 原始论文首发日期，不保证等同于数据文件首次公开日。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 主板块
+### 板块
 
 安全
 
 > Benchmark Atlas编辑归档，不是论文指定的唯一领域。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 领域标签
+### 子领域
 
-- 检索增强系统安全
+```json
+[
+  "检索增强系统安全"
+]
+```
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 许可证
+### 许可
 
 存在官方材料差异：论文称数据CC BY-SA 4.0；仓库LICENSING.md仍为待作者批准的分拆提案（数据CC BY-SA 4.0、原创代码MIT），批准前不额外授予超出第三方条款的复用许可。
 
-[来源1](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）；[来源2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-07）
+[1](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-07）
 
 ### 论文
 
 https://arxiv.org/abs/2609.11758
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 官方代码
-
-https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
-
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
-
-### 数据地址
+### 代码
 
 https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 官方入口
+### 数据集
 
 https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 论文标题
+### 官方主页
+
+https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
+
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+
+### 论文题名
 
 RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-## 发起与维护
+## 2. 发起与维护
 
-### 机构与作者单位
+### 发起方
 
 University of Ottawa；作者 Adithiyan Rajan Indira Saravanan、Kathleen C. Fraser。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 正式合作机构
+### 合作单位
 
 待核实
 
 > 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 作者
 
-- Saravanan, Adithiyan Rajan Indira
+```json
+[
+  "Saravanan, Adithiyan Rajan Indira",
+  "Fraser, Kathleen C."
+]
+```
 
-- Fraser, Kathleen C.
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
-
-### 当前维护方
+### 维护方
 
 官方代码与反馈由 The-Safe-AI-Lab/RAG-Safety-Bench 仓库提供；个人持续维护职责及响应时限未核实。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
 
 ### 资助
 
 NSERC Discovery Grant RGPIN-2026-05716；Compute Ontario 与 Digital Research Alliance of Canada 计算支持。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-## 设计目标
+## 3. 设计目标
 
-### 测量能力
+### 目标能力
 
 控制检索条件，区分RAG引起的安全变化、能力变化和拒答变化。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 既有评测缺口
+### 相对既有评测的缺口
 
 RAG评测常把答案正确性、有害输出及拒答混合，或没有控制证据中是否真正包含答案。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-## 构建方式
+## 4. 构建方式
 
-### 题目来源
+### 题目与标签来源
 
 使用Wikipedia材料与Claude Sonnet4.5辅助生成，并做自检；构造四种检索条件。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 出题与标注背景
+### 出题/标注背景
 
-研究团队设计安全子类别及基准；人工资质的逐人清单待核实。
+两位作者均署University of Ottawa Faculty of Engineering；Claude Sonnet-4.5辅助构造候选问题，GPT-4.1-mini审计上下文。作者机构可核实，不推断未声明的临床/法律等执业资格。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### 审核
+### 审核流程
 
 采用GPT-4.1-mini审计上下文；对balanced样本检查oracle中答案可用性。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 质量控制
 
-分别报告harmfulness、accuracy和refusal，避免把能力差误判为安全好。
+冻结full/balanced选择manifest、oracle审计记录；论文balanced oracle审计200 yes/146 partial。refusal分类人工验证100输出，人机一致95–96%、κ 0.90–0.92；不把这项验证泛化成harmfulness三裁判可靠度。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### 去污染
+### 去污染与隔离
 
-待核实
+Wiki来源及版本manifest支持追溯；Claude生成提示要求非重复问题，balanced为full精确子集。针对模型预训练的专门污染排除检验仍待核实。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+## 5. 数据形式
 
-## 数据形式
-
-### 题量
+### 规模
 
 完整987条query，balanced子集346条，20个子类别；346×4条件得到每模型1,384条实验记录，不是1,384道独立原题。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 题型
 
 开放问答；四条件：无RAG、oracle答案、同主题无答案、随机良性材料
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 模态
 
 文本
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 语言
 
 英语
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 难度
 
 安全/不安全知识与不同检索条件的受控比较；不把有害知识准确率直接当安全性。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 公开与隐藏划分
+### 公开/隐藏划分
 
 公开frozen输入、provenance manifests与generation配置；原始模型回答、judge traces及unsafe_majority_v2复评分制品刻意不公开，local judge配置仅是实现示例。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
 
-## 评测方法
+## 6. 评测方法
 
 ### 指标
 
 harmfulness、accuracy、refusal分别报告。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 评分
+### 判分
 
 有害性由Llama-Guard-3-8B、ShieldGemma-2B、WildGuard三裁判多数决定；准确性由Claude Opus4.7判定；拒答类别独立分析。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 提示与生成设置
+### 提示/推理设置
 
 temperature=0.0、top_p=1.0、max_new_tokens=1024；文档使用清洗后的全文前缀，每篇最多12,000字符；论文另注明seed=42。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
 
-### 脚本
+### 官方实现
 
 https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
-[来源1](https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench)（访问 2026-11-07）
+[1](https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench)（访问 2026-11-07）
 
-### 可比性警告
+### 可比性边界
 
 低unsafe accuracy不一定意味着强安全；应同时看harmfulness和refusal；oracle证据仍有部分答案，不能当100%足额证据。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-## 最新情况
+## 7. 最新情况
 
-### 本次核验日与H2使用证据
+### 核验日
 
-2026-11-07
+2026-11-08 KST / Asia/Seoul
 
-> 2026-H2实际使用证据：2026-09-10：RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
+### 本次版本快照
 
-### 数据版本
+```json
+{
+  "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行",
+  "evidence_2026_h2": [
+    {
+      "url": "https://arxiv.org/html/2609.11758v1",
+      "date": "2026-09",
+      "note": "原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。"
+    }
+  ]
+}
+```
 
-- **版本**：v14：完整987题/3,948条件行；balanced 346题/1,384条件行
-- **2026H2引用／使用证据**：- **来源URL**：https://arxiv.org/html/2609.11758v1
-  - **日期**：2026-09
-  - **说明**：原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
+### 论文修订
 
-### 论文修订记录
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2026-09-11T01:12:25+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  }
+]
+```
 
-- **版本**：v1
-- **submitted_at**：2026-09-11T01:12:25+09:00
-- **时区**：Asia/Seoul (KST)
-
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
 ### 饱和情况
 
-待核实
+本基准必须联合分析harmfulness、unsafe-capability与refusal，不能用一个能力正确率认定安全饱和。论文oracle最高unsafe-capability 90.7%，这不是安全达标率。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
-
-### 污染与已知问题
+### 污染/限制/争议
 
 Oracle可答性并非全为完整答案：balanced中200题yes、146题partial。仓库明确私有v2复评分流程及原始输出未随包发布，local judge示例不能替代论文复评分制品。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
 
-### 衍生评测
+### 衍生与相关版本
 
 待核实
 
 > 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-## 榜单快照
+## 8. 榜单快照
 
-### 采集日
+### 采集日期
 
-2026-11-07
+2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
 
-> 采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
-
-### 官方榜或原始结果入口
+### 官方结果入口
 
 https://arxiv.org/abs/2609.11758
 
 > 未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 二级机构榜单
+### 第三方入口
 
 待核实
 
 > 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 可读结果
+### 分轨成绩
 
-- **模型 / Agent**：Ministral-3-8B（论文标签）
-- **分数**：90.7
-- **unit**：%
-- **指标**：unsafe-capability accuracy
-- **scope**：原始论文 balanced oracle；不是harmfulness/安全分，不能据此认定更安全
-- **evaluation_date**：论文2026-09-10；精确运行日期待核实
+| 轨道 | 名次/行号 | 模型/方法 | 分数 | 指标 | 来源日期 |
+|---|---:|---|---:|---|---|
+| 论文v1 Table 3 / balanced 346 / Non-RAG | — | [Gemma-3-12B](https://arxiv.org/pdf/2609.11758) | 25.7 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Oracle | — | [Gemma-3-12B](https://arxiv.org/pdf/2609.11758) | 74.9 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / On-topic | — | [Gemma-3-12B](https://arxiv.org/pdf/2609.11758) | 8.7 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Random | — | [Gemma-3-12B](https://arxiv.org/pdf/2609.11758) | 2.0 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Non-RAG | — | [Llama-3.1-8B](https://arxiv.org/pdf/2609.11758) | 6.4 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Oracle | — | [Llama-3.1-8B](https://arxiv.org/pdf/2609.11758) | 41.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / On-topic | — | [Llama-3.1-8B](https://arxiv.org/pdf/2609.11758) | 4.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Random | — | [Llama-3.1-8B](https://arxiv.org/pdf/2609.11758) | 0.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Non-RAG | — | [Ministral-3-8B](https://arxiv.org/pdf/2609.11758) | 26.0 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Oracle | — | [Ministral-3-8B](https://arxiv.org/pdf/2609.11758) | 90.7 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / On-topic | — | [Ministral-3-8B](https://arxiv.org/pdf/2609.11758) | 18.8 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Random | — | [Ministral-3-8B](https://arxiv.org/pdf/2609.11758) | 0.9 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Non-RAG | — | [Phi-4-14B](https://arxiv.org/pdf/2609.11758) | 10.4 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Oracle | — | [Phi-4-14B](https://arxiv.org/pdf/2609.11758) | 41.0 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / On-topic | — | [Phi-4-14B](https://arxiv.org/pdf/2609.11758) | 12.7 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Random | — | [Phi-4-14B](https://arxiv.org/pdf/2609.11758) | 3.2 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Non-RAG | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 15.9 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Oracle | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 82.9 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / On-topic | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 17.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
+| 论文v1 Table 3 / balanced 346 / Random | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 2.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
 
-- **模型 / Agent**：Qwen2.5-7B（论文标签）
-- **分数**：82.9
-- **unit**：%
-- **指标**：unsafe-capability accuracy
-- **scope**：同一oracle条件，非安全榜
-- **evaluation_date**：论文2026-09-10；精确运行日期待核实
+> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
-- **模型 / Agent**：Gemma-3-12B（论文标签）
-- **分数**：74.9
-- **unit**：%
-- **指标**：unsafe-capability accuracy
-- **scope**：同一oracle条件，非安全榜
-- **evaluation_date**：论文2026-09-10；精确运行日期待核实
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+### 覆盖与限制
 
-### 覆盖与时效限制
+完整收录Table 3五模型×四RAG条件20个unsafe-capability数值。原表benign capability属于MIRAGE，未混入本基准榜；图中的harmfulness没有可逐点核实数值时不读图估算。原始输出、judge trace和private v2复评分制品明确不公开，local judge实现不等价。
 
-新基准原始论文基线，不是通用安全排行榜；所列是unsafe-capability答案准确率，不是有害率。本次未核实独立AA/Epoch/LMArena榜。
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
-> 本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。
+## 9. 联系方式
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.11758v1)（访问 2026-11-07）
+### 项目公开邮箱
 
-## 联系方式
+```json
+[
+  "aindi023@uottawa.ca",
+  "kathleen.fraser@uottawa.ca"
+]
+```
 
-### 公开研究联系邮箱
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-- aindi023@uottawa.ca
-
-- kathleen.fraser@uottawa.ca
-
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
-
-### 仓库讨论与Issues
+### GitHub反馈
 
 https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench/issues
 
 > 公开反馈入口；未发送问题。
 
-[来源1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-07）
 
-### 官方社交渠道
+### 官方社交
 
 待核实
 
 > 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）
 
-### 收录边界
+### 隐私边界
 
 只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。
 
-[来源1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
+[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
-## 原始文件
+## 10. 原始文件
 
-### 源PDF
+### 原始PDF
 
 https://arxiv.org/pdf/2609.11758
 
-[来源1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-07）
 
-### 原件SHA-256
+### SHA-256
 
 0eb8c0582d538136e2ac32fd51bffab170bac16f9173309c9f68870808bdb490
 
-> 原始下载字节SHA-256；未压缩或改写。
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-07）
-
-### 原件字节数
+### PDF字节数
 
 2137960
 
-[来源1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-07）
+[1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### Drive目录
+### Drive文件夹
 
-- **id**：1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh
-- **webViewLink**：https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh
+```json
+{
+  "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh",
+  "webViewLink": "https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
+}
+```
 
-[来源1](https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh)（访问 2026-11-07）
+[1](https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh)（访问 2026-11-07）
 
-### 中文介绍
+### 其他材料
 
-- **kind**：中文介绍 Google Doc
-- **id**：1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o
-- **webViewLink**：https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk
+```json
+[
+  {
+    "kind": "中文介绍 Google Doc",
+    "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o",
+    "webViewLink": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk"
+  },
+  {
+    "type": "官方数据卡（非HF发布）",
+    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"
+  },
+  {
+    "type": "许可提案及限制",
+    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md"
+  }
+]
+```
 
-[来源1](https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-08）
 
-### Drive PDF归档
+### Drive论文PDF
 
-- **id**：1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z
-- **webViewLink**：https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk
+{
+  "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z",
+  "webViewLink": "https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk"
+}
 
-## 变更记录
+[1](https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk)（访问 2026-11-07）
 
-### changelog
+## 11. 变更记录
 
-- **日期**：2026-11-07
-- **时区**：Asia/Seoul
-- **变更内容**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "Asia/Seoul",
+    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul",
+    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+  }
+]
 
-- **日期**：2026-11-07
-- **时区**：KST / Asia/Seoul
-- **变更内容**：第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-
-[来源1](https://arxiv.org/abs/2609.11758)（访问 2026-11-07）；[来源2](https://arxiv.org/pdf/2609.11758)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）

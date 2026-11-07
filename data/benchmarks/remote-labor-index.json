@@ -22,37 +22,43 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "RLI原始240项目发布集；230私有定量、10公开定性，当前网页模型更新不自动等于数据集新版。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv:2510.26787v1；当前abs仅列v1。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "论文首发：2025-10-31 02:58:04 KST（源站2025-10-30 17:58:04 UTC）。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "section": {
       "value": "Agent",
@@ -65,56 +71,71 @@
       "note": "Benchmark Atlas 编辑分类。"
     },
     "subfields": {
-      "value": [],
+      "value": [
+        "远程经济劳动",
+        "多模态交付物",
+        "端到端Agent",
+        "人工验收"
+      ],
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑标签；空列表表示尚未补充细分标签。"
+      ]
     },
     "license": {
-      "value": "待核实",
+      "value": "公开10项目rli-public-set数据卡明确Apache 2.0。未把该许可外推到230私有项目或评审平台软件；平台常规LICENSE路径返回404，代码许可仍待核实。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/centerforaisafety/rli_evaluation_platform/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "status": "待核实"
     },
     "paper_url": {
-      "value": "https://scale.com/research/rli",
+      "value": "https://arxiv.org/abs/2510.26787",
       "sources": [
         {
-          "url": "https://scale.com/research/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/centerforaisafety/rli_evaluation_platform",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/centerforaisafety/rli_evaluation_platform/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/cais/rli-public-set",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/centerforaisafety/rli_evaluation_platform/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://labs.scale.com/leaderboard/rli",
@@ -153,31 +174,76 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Center for AI Safety与Scale AI共同研究；作者脚注另区分work done while at Scale/CAIS，不推断更多合作协议。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "authors": {
       "value": [
         "Mantas Mazeika",
         "Alice Gatti",
         "Cristina Menghini",
-        "Udari Madhushani Sehwag（等；完整作者见官方研究页）"
+        "Udari Madhushani Sehwag",
+        "Shivam Singhal",
+        "Yury Orlovskiy",
+        "Steven Basart",
+        "Manasi Sharma",
+        "Denis Peskoff",
+        "Elaine Lau",
+        "Jaehyuk Lim",
+        "Lachlan Carroll",
+        "Alice Blair",
+        "Vinaya Sivakumar",
+        "Sumana Basu",
+        "Brad Kenstler",
+        "Yuntao Ma",
+        "Julian Michael",
+        "Xiaoke Li",
+        "Oliver Ingebretsen",
+        "Aditya Mehta",
+        "Jean Mottola",
+        "John Teichmann",
+        "Kevin Yu",
+        "Zaina Shaik",
+        "Adam Khoja",
+        "Richard Ren",
+        "Jason Hausenloy",
+        "Long Phan",
+        "Ye Htet",
+        "Ankit Aich",
+        "Tahseen Rabbani",
+        "Vivswan Shah",
+        "Andriy Novykov",
+        "Felix Binder",
+        "Kirill Chugunov",
+        "Luis Ramirez",
+        "Matias Geralnik",
+        "Hernán Mesura",
+        "Dean Lee",
+        "Ed-Yeremai Hernandez Cardona",
+        "Annette Diamond",
+        "Summer Yue",
+        "Alexandr Wang",
+        "Bing Liu",
+        "Ernesto Hernandez",
+        "Dan Hendrycks"
       ],
       "sources": [
         {
-          "url": "https://scale.com/research/rli",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -310,15 +376,14 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "HF公开10项目数据卡明确en；完整私有集语言分布待核实，不能外推为所有文件都仅英语。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "status": "待核实"
     },
     "difficulty": {
       "value": "原始项目人类完成均值28.9小时、中位11.5小时；不是AI限时。",
@@ -368,15 +433,17 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态交付物人工比较平台，不是可自动复现230题总榜的评分器。README提供10公开任务及样例AI交付物。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/centerforaisafety/rli_evaluation_platform/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "comparability_warning": {
       "value": "只衡量所采样远程项目，不代表整个经济劳动可替代率；排除了实体劳动、直接客户交互与长期验收。首发2.5%为历史结果，不替代当前榜。",
@@ -390,17 +457,17 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "待核实",
+        "version": "RLI原始240项目 / 公开public_001至public_010（本次核验）",
         "heat_confidence": "A",
         "evidence_2026_h2": [
           {
@@ -419,37 +486,42 @@
       },
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/cais/rli-public-set/raw/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://labs.scale.com/leaderboard/rli",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+      ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2025-10-31T02:58:04+09:00",
+          "timezone": "Asia/Seoul"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.26787",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前官方最高Automation Rate 21.25%，远低于100%，但这是特定项目样本与验收协议下的成功比例，不是全经济劳动可替代率。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "完全人工评审限制高频扩展；公开示例有污染风险；专业作品接受标准不能等同选择题正确率。",
@@ -474,11 +546,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -506,43 +578,327 @@
           "rank": 1,
           "model": "Opus 5.5",
           "score": 21.25,
-          "metric": "Automation Rate %",
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
           "source_url": "https://labs.scale.com/leaderboard/rli",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
         },
         {
           "rank": 2,
           "model": "GPT 6 Astra",
           "score": 20.83,
-          "metric": "Automation Rate %",
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
           "source_url": "https://labs.scale.com/leaderboard/rli",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
         },
         {
           "rank": 3,
           "model": "Fable 5.1",
           "score": 17.92,
-          "metric": "Automation Rate %",
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
           "source_url": "https://labs.scale.com/leaderboard/rli",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 4,
+          "model": "Gemini Argon 4",
+          "score": 17.08,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 5,
+          "model": "Fable 5",
+          "score": 15.83,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 6,
+          "model": "Opus 4.8",
+          "score": 8.33,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 7,
+          "model": "Codex GPT 5.5",
+          "score": 6.25,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3.8 Flash",
+          "score": 5.83,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 9,
+          "model": "Gemini 3.7 Flash",
+          "score": 5.0,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 10,
+          "model": "claude-opus-4-6 (CoWork)",
+          "score": 4.17,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 11,
+          "model": "claude-opus-4-5-20251101-thinking",
+          "score": 3.75,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 12,
+          "model": "Manus_1.6 (Max)",
+          "score": 2.92,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 13,
+          "model": "gpt-5.2-2025-12-11 (medium)",
+          "score": 2.5,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 13,
+          "model": "Manus 1.5",
+          "score": 2.5,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 13,
+          "model": "Manus 1.0",
+          "score": 2.5,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 16,
+          "model": "claude-4-5-Sonnet",
+          "score": 2.08,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 16,
+          "model": "gpt-5.2-2025-12-11 (default)",
+          "score": 2.08,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 18,
+          "model": "gpt-5-2025-08-07",
+          "score": 1.67,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 19,
+          "model": "ChatGPT agent",
+          "score": 1.25,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 19,
+          "model": "gemini-3-pro-preview",
+          "score": 1.25,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": 20,
+          "model": "gemini-2.5-pro-preview-06-05",
+          "score": 0.83,
+          "metric": "Automation Rate (%)",
+          "track": "官方当前网页",
+          "source_url": "https://labs.scale.com/leaderboard/rli",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "date_note": "网页未独立标记更新时间，不倒推通过数量。"
+        },
+        {
+          "rank": null,
+          "model": "Manus",
+          "score": 2.5,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 1,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
+        },
+        {
+          "rank": null,
+          "model": "Grok 4",
+          "score": 2.1,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 2,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
+        },
+        {
+          "rank": null,
+          "model": "Sonnet 4.5",
+          "score": 2.1,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 3,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-5",
+          "score": 1.7,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 4,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
+        },
+        {
+          "rank": null,
+          "model": "ChatGPT agent",
+          "score": 1.3,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 5,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
+        },
+        {
+          "rank": null,
+          "model": "Gemini 2.5 Pro",
+          "score": 0.8,
+          "metric": "Automation Rate (%)",
+          "track": "论文v1 Table 1 / 历史首发",
+          "source_url": "https://arxiv.org/pdf/2510.26787",
+          "source_date": "2025-10-31",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "table_order": 6,
+          "date_note": "论文提交日换算KST；精度依原表，不倒推出2.08等小数。"
         }
       ],
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "官方当前榜表；未给出独立更新日。正文230私有项目与榜表百分比分母对应细节尚待核实；不倒推出项目通过数量。",
+      "value": "完整采集当前21行与论文Table 1历史6行。当前页明写Automation Rate且无置信区间；正文230私有项目与部分显示百分比的分母对应未交代清楚，保留冲突，不按百分比反推项目数。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2510.26787",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -560,15 +916,13 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/centerforaisafety/rli_evaluation_platform/issues",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/centerforaisafety/rli_evaluation_platform/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -582,15 +936,13 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "采集项目经PII删除或合成替换；只公开项目仓库反馈入口，不推测个人联系方式。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/rli",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -608,20 +960,18 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2510.26787",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+      ]
     },
     "pdf_bytes": {
       "value": 11494857,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2510.26787",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -666,12 +1016,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
         "url": "https://labs.scale.com/leaderboard/rli",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

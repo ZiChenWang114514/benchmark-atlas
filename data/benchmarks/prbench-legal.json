@@ -13,46 +13,72 @@
       ]
     },
     "full_name": {
-      "value": "Professional Reasoning Benchmark – Legal",
+      "value": "Professional Reasoning Bench (PRBench) – Legal",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "PRBench公开发布集：Legal 500题及其Hard 250题子集；版本以论文v1与HF发布文件为锚点，不自拟语义版本号。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv:2511.11562v1；当前abs仅列v1。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "论文首发：2025-11-15 03:55:12 KST（源站为2025-11-14 18:55:12 UTC）；不冒称数据首次公开时刻。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "推理",
@@ -78,14 +104,17 @@
       "note": "编辑标签"
     },
     "license": {
-      "value": "CC BY 4.0（数据集）",
+      "value": "数据集CC BY 4.0；官方评测代码MIT。两个许可作用对象不同。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "不自动推定代码仓库使用相同许可证。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2511.11562",
@@ -155,15 +184,46 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "authors": {
-      "value": "待核实",
+      "value": [
+        "Afra Feyza Akyürek",
+        "Advait Gosai",
+        "Chen Bo Calvin Zhang",
+        "Vipul Gupta",
+        "Jaehwan Jeong",
+        "Anisha Gunjal",
+        "Tahseen Rabbani",
+        "Maria Mazzone",
+        "David Randolph",
+        "Mohammad Mahmoudi Meymand",
+        "Gurshaan Chattha",
+        "Paula Rodriguez",
+        "Diego Mares",
+        "Pavit Singh",
+        "Michael Liu",
+        "Subodh Chawla",
+        "Pete Cline",
+        "Lucy Ogaz",
+        "Ernesto Hernandez",
+        "Zihao Wang",
+        "Pavi Bhatter",
+        "Marcos Ayestaran",
+        "Bing Liu",
+        "Yunzhong He"
+      ],
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "maintainer": {
       "value": "Scale Labs",
@@ -188,11 +248,11 @@
   },
   "design_goals": {
     "capabilities": {
-      "value": "高风险法律专业判断、语境理解与推理质量。",
+      "value": "评估真实法律工作中的开放推理、法域语境、法律准确性、规则适用、过程透明性、不确定性处理与风险披露，不局限于考试选择题。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -208,69 +268,76 @@
   },
   "construction": {
     "question_sources": {
-      "value": "整个PRBench由182位金融与法律专业人士共同设计；不能把182全算法律专家。",
+      "value": "182位法律/金融专业人士按自己工作和客户问题撰题；法律覆盖12主题。182为两域总专家人数，不能当法律人数。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "法律专家具JD；金融资格条件与法律轨分开。",
+      "value": "法律标注者持JD或国际等效资格，经过履历核查及内部资格测试；只贡献与自身专长一致的主题。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "review_process": {
-      "value": "独立专家复核rubric；官网报告93.9%清晰性和有效性认可率。",
+      "value": "专家1编写对话和rubric；专家2验证、修改并反馈；程序检查规范，抽样人工终审，独立专家判断每项标准清晰性与有效性。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "quality_control": {
-      "value": "o4 Mini裁判与人类一致80.2%，人类间79.6%。",
+      "value": "独立专家对rubric有效性认可率93.9%；另在101题上检验裁判，o4-mini与专家80.2%一致、专家间79.6%。两个百分比不能互换。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "论文公开1,100个对话，另外保留私有held-out集监测未来模型污染；私有集规模待核实。公开数据含canary字段，不能据此认定已完成训练语料排除。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "status": "待核实"
     }
   },
   "data_format": {
     "size": {
-      "value": "法律全量500题、Hard 250题；金融600题另轨，非本条题量。",
+      "value": "Legal全量500题、Legal-Hard 250题；9,092项rubric标准；金融600题另轨。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "question_types": {
-      "value": "专业开放问答与多轮对话；全PRBench约30%多轮，该比例不能直接当法律轨比例。",
+      "value": "单轮或最多10轮的开放式专业对话，评分对象是最后一轮模型回答；全PRBench约30%多轮，不冒称法律域独立比例。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -286,15 +353,21 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "所有用户轮次由专家用英语撰写；历史assistant轮次由GPT OSS 20B、Mistral Medium、DeepSeek R1采样。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
       "value": "Legal-Hard为250题困难子集。",
@@ -326,59 +399,80 @@
       ]
     },
     "scoring": {
-      "value": "每任务10–30条带权标准，权重−10至+10；o4 Mini逐项评分。",
+      "value": "o4-mini逐rubric给二值满足标签；权重为非零−10至+10。每题先以加权满足值之和除以正权重总和（单题允许负分），随后跨题求均值，最后max(0, mean)。不是先将每题负分截为0再平均。类别图另用min-normalized，不与主指标混用。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/evals.py",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/util.py",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "论文每模型独立评估3次，报告均值与95%置信区间；GPT-5/O3/Grok-4设High，Claude Sonnet 4.5与Opus 4.1思考预算32K/16K，Gemini 2.5 Pro使用dynamic；timeout 60分钟、最多5次尝试，末次降为low。工具实验单列，不与无工具结果混排。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
-    },
-    "official_scripts": {
-      "value": "待核实",
-      "sources": [
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
-    },
-    "comparability_warning": {
-      "value": "当前Performance Comparison与正文历史Hard分数口径不明，不把61.56直接解释为Hard准确率；原始页面Rank (UB)定义为1+下置信界超过本模型上界的模型数。",
-      "sources": [
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报告mean_clipped，outputs/保留逐题分数。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "当前网页Performance Comparison未明确标注Full/Hard，原样保存显示分数，不根据数值倒推口径。论文Hard的0–1分数另轨；Rank(UB)为1加上置信区间下界高于本模型上界的模型数。HF卡18,692条rubric标准与论文/README 19,356冲突，不能静默统一。 当前榜Full/Hard范围待核实。",
+      "sources": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "待核实",
+        "version": "PRBench公开Legal 500题 / Hard 250题（本次可核验发布集）",
         "heat_confidence": "B",
         "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。",
         "evidence_2026_h2": [
@@ -393,62 +487,93 @@
       },
       "sources": [
         {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2025-11-15T03:55:12+09:00",
+          "timezone": "Asia/Seoul"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前网页最高显示分数61.56，尚未到其百分尺度上限；但Full/Hard标注缺失，不能据此认定困难子集饱和程度。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "HF卡正文18,692条criteria，论文及README为19,356；论文分域金融10,264、法律9,092。LLM裁判与专家仅80.2%一致，专家间79.6%；结果不是执业安全保证。",
       "sources": [
         {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "同一PRBench含Finance、Legal两域及Finance-Hard、Legal-Hard困难子集；Hard为原域子集，不是新增独立问题。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -478,72 +603,611 @@
           "rank": 1,
           "model": "Muse Spark 1.3",
           "score": 61.56,
-          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
           "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.72,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
         },
         {
           "rank": 2,
           "model": "Muse Spark Open",
           "score": 59.76,
-          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
           "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.88,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
         },
         {
           "rank": 3,
           "model": "Muse Wonder 1.0",
           "score": 58.4,
-          "metric": "Performance Comparison页面原始分数（Full/Hard口径待核实）",
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
           "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "官方榜单快照"
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.76,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 4,
+          "model": "Muse Spark 1.1",
+          "score": 57.05,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.22,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 5,
+          "model": "claude-fable 5",
+          "score": 52.56,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.54,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 6,
+          "model": "Muse Spark",
+          "score": 52.29,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.06,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 7,
+          "model": "claude-opus-4-6 (Non-Thinking)",
+          "score": 52.27,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.66,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.1",
+          "score": 51.6,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.24,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 9,
+          "model": "gpt-5.6-sol (max)",
+          "score": 50.5,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.54,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 10,
+          "model": "gpt-5-pro",
+          "score": 49.89,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.36,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 11,
+          "model": "o3-pro",
+          "score": 49.67,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.5,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 12,
+          "model": "Gemini 4 Argon",
+          "score": 49.41,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.37,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 13,
+          "model": "gpt-5.1-thinking",
+          "score": 49.33,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.38,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 14,
+          "model": "gpt-5",
+          "score": 48.96,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.03,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 15,
+          "model": "Gemini 3.8 Flash",
+          "score": 48.9,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.65,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 16,
+          "model": "o3",
+          "score": 48.57,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.54,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 17,
+          "model": "GPT 6 Astra",
+          "score": 48.36,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.64,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 18,
+          "model": "GPT 6.1 Sol",
+          "score": 47.87,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.69,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 19,
+          "model": "Grok 4.7 (xHigh)",
+          "score": 47.62,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.79,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 20,
+          "model": "claude-opus-5-5",
+          "score": 47.58,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 2.2,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 21,
+          "model": "Deepseek V4p1 Flash 1017",
+          "score": 47.26,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.97,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 22,
+          "model": "gpt-5.2-pro-2025-12-11",
+          "score": 45.44,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.25,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 23,
+          "model": "Minimax M3p1 Flash",
+          "score": 45.08,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.87,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 24,
+          "model": "gpt-5.4 (High)",
+          "score": 44.35,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.28,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 25,
+          "model": "claude-opus-4-5-20251101-thinking",
+          "score": 44.21,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.34,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 26,
+          "model": "gemini-3.1-pro",
+          "score": 44.02,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.12,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 27,
+          "model": "kimi-k2.5",
+          "score": 43.83,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.18,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 28,
+          "model": "gpt-6-luna",
+          "score": 42.85,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.69,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 29,
+          "model": "gemini-2.5-pro",
+          "score": 41.43,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.2,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 30,
+          "model": "gemini-2.5-flash",
+          "score": 41.02,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.61,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 31,
+          "model": "kimi-k2-thinking",
+          "score": 40.9,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.26,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 32,
+          "model": "claude-sonnet-4-5-20250929",
+          "score": 40.84,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.4,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 33,
+          "model": "gemini-3-pro-preview",
+          "score": 40.6,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.28,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 34,
+          "model": "gpt-oss-120b",
+          "score": 40.21,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 2.07,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 35,
+          "model": "mistral-medium-latest",
+          "score": 39.55,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.91,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 36,
+          "model": "gpt-6-sol",
+          "score": 38.6,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 1.58,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 37,
+          "model": "qwen.qwen3-235b-a22b-2507-v1:0",
+          "score": 38.3,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.43,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 38,
+          "model": "o4-mini",
+          "score": 38.11,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.69,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 39,
+          "model": "deepseek-v3p1",
+          "score": 37.62,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.64,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 40,
+          "model": "deepseek-r1-0528",
+          "score": 36.61,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.68,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 41,
+          "model": "gpt-4.1",
+          "score": 36.48,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.05,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 42,
+          "model": "kimi-k2-instruct",
+          "score": 36.38,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.25,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 43,
+          "model": "claude-opus-4-1-20250805",
+          "score": 34.0,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 2.54,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 44,
+          "model": "gpt-4.1-mini",
+          "score": 30.38,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.55,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 45,
+          "model": "llama4-maverick-instruct-basic",
+          "score": 24.84,
+          "metric": "网页显示加权rubric分数（百分尺度；数据范围见可比性说明）",
+          "track": "官方当前网页 / Legal",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "displayed_ci_plus_minus": 0.9,
+          "date_note": "网页未注明独立更新日；不以采集日代替运行日。"
+        },
+        {
+          "rank": 1,
+          "model": "GPT-5 Pro",
+          "score": 0.37,
+          "metric": "Hard加权rubric分数（0–1）",
+          "track": "官方页面正文 / 历史Legal-Hard",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 2,
+          "model": "GPT-5",
+          "score": 0.36,
+          "metric": "Hard加权rubric分数（0–1）",
+          "track": "官方页面正文 / 历史Legal-Hard",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
+        },
+        {
+          "rank": 3,
+          "model": "o3 (High)",
+          "score": 0.35,
+          "metric": "Hard加权rubric分数（0–1）",
+          "track": "官方页面正文 / 历史Legal-Hard",
+          "source_url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "source_date": null,
+          "collected_at": "2026-11-08 KST / Asia/Seoul"
         }
       ],
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "结构化保留当前Performance Comparison显示顺序及原始分数；百分制转换与Full/Hard对应关系待核实，未与正文历史Legal-Hard 0.37拼接。",
+      "value": "采集当前网页全部45行，以及正文3条历史Hard结果，严格分轨。网页Rank(UB)与模型显示名原样保留；置信区间不当标准差使用。正文历史最高分未随当前榜更新。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "yunzhong.he@scale.com"
+      ],
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/scaleapi/PRBench/issues",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -557,15 +1221,13 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "只使用论文与官方项目明确公开的研究联系渠道，不收集私人资料。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "urn:benchmark-atlas:constitution:v0.1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -579,26 +1241,22 @@
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 21111596,
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2511.11562",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -612,15 +1270,34 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://labs.scale.com/leaderboard/prbench-legal",
-          "accessed": "2026-11-07"
+          "type": "官方README",
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
+        },
+        {
+          "type": "HF数据卡",
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
+        },
+        {
+          "type": "代码MIT许可",
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -640,12 +1317,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
         "url": "https://labs.scale.com/leaderboard/prbench-legal",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

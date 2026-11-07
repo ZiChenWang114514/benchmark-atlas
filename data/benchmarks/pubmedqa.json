@@ -30,43 +30,57 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "原始PubMedQA三配置：pqa_labeled、pqa_unlabeled、pqa_artificial；HF文件和官方测试ID定义实际评测集，不自拟语义版本号。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "EMNLP-IJCNLP 2019正式论文D19-1259；arXiv:1909.06146v1。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "release_date": {
-      "value": "2019-11",
+      "value": "论文预印本首发：2019-09-13 20:18:20 KST；正式会议论文2019-11。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -164,34 +178,54 @@
   },
   "organization": {
     "initiators": {
-      "value": "待核实",
+      "value": [
+        "University of Pittsburgh",
+        "Carnegie Mellon University",
+        "Google AI（按论文作者单位）"
+      ],
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
+      ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "University of Pittsburgh",
+        "Carnegie Mellon University",
+        "Google AI（论文合作作者单位；非额外推定的机构协议）"
+      ],
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -213,19 +247,25 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "pubmedqa官方GitHub组织；Qiao Jin在README列为项目联系人。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -258,75 +298,111 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "根据医学论文摘要回答研究问题，特别考查对定量证据的理解。",
+      "value": "既有生物医学QA常偏事实抽取且专家标注规模小；PubMedQA要求根据原研究摘要尤其定量结果推断yes/no/maybe，并提供独立long_answer供辅助监督。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "construction": {
     "question_sources": {
-      "value": "从 PubMed 摘要提取标题问题、去结论上下文和结论答案；含专家标注及人工构造的数据。",
+      "value": "PQA-L/U取真实PubMed疑问式文章标题和去结论摘要；PQA-A由陈述式标题按词性和否定状态自动转成问题与yes/no标签，不是人工逐题撰写的211.3k题。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "PQA-L由两位具资格的M.D. candidates标注；原文未把他们称作已执业专科医生。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "从 PubMed 摘要提取标题问题、去结论上下文和结论答案；含专家标注及人工构造的数据。",
+      "value": "标注者1看问题、上下文和结论（reasoning-free）；标注者2只看问题和去结论上下文（reasoning-required）。分歧时讨论；无法达成一致则删除该题。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "人工筛除不能以yes/no/maybe作答的题；双人讨论消歧。PQA-U用规则排除wh问句及多实体选项，识别可回答性与标注者1一致超过93%，不把该比例当测试标签准确率。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -346,11 +422,20 @@
   },
   "data_format": {
     "size": {
-      "value": "1k 专家标注、61.2k 未标注、211.3k 人工构造的 QA 实例；三个子集不可混作同一测试集。",
+      "value": {
+        "pqa_labeled": 1000,
+        "pqa_unlabeled": 61249,
+        "pqa_artificial": 211269,
+        "basis": "HF数据卡精确行数；原论文1k/61.2k/211.3k为四舍五入描述，非精确行数。"
+      },
       "sources": [
         {
-          "url": "https://pubmedqa.github.io/",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -373,41 +458,61 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语（HF数据卡明确en、monolingual）。",
       "sources": [
-        {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "difficulty": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "public_hidden_split": {
-      "value": "官方 preprocess/split_dataset.py 提供 PQA-A 和 PQA-L 的划分；README 明确 PQA-U 无官方划分代码。",
-      "sources": [
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
         {
           "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "生物医学研究阅读推断；论文单人reasoning-required 78.0% accuracy，reasoning-free 90.4%。无逐题统一难度标签，不能把两种人类条件混同。",
+      "sources": [
+        {
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "PQA-L官方划分500测试；另500用于10折交叉验证，内层每折450训练/50验证。HF三个配置都以train打包，但不能覆盖官方测试隔离。PQA-U无官方划分脚本；PQA-A用于预训练。",
+      "sources": [
+        {
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -432,19 +537,25 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "原论文为BioBERT等监督微调，按PQA-A→PQA-U→PQA-L多阶段训练及long-answer bag-of-words辅助监督；reasoning-required测试仅给问题和去结论上下文。后续LLM提示法以每条提交设定为准。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "evaluation.py：预测 JSON 的键为 PMID，值为 yes/no/maybe；运行 python evaluation.py PREDICTIONS_PATH。",
@@ -456,91 +567,105 @@
       ]
     },
     "comparability_warning": {
-      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "value": "PQA-L官方test为500题；HF把全部1,000个PQA-L样本标作train只是打包配置，不是官方训练/测试协议。reasoning-free能看结论，不能与reasoning-required直接比较；PQA-A是弱标注预训练数据而非测试集。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2610.07019",
-          "accessed": "2026-11-07"
+          "url": "https://pubmedqa.github.io/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026H2 活跃性复核：2026-10-04 提交、2026-10-15 v2 的 Calibrated Evidence Inference 报告在 PubMedQA 500 个人工标注测试样本上的评估。"
+      ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "本次HF卡仍列PQA-L 1000、PQA-U 61249、PQA-A 211269；未以HF split名取代官方500题测试协议。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "version": "arXiv v1",
+          "submitted_at": "2019-09-13T20:18:20+09:00",
+          "timezone": "Asia/Seoul"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "version": "EMNLP-IJCNLP正式论文",
+          "date": "2019-11",
+          "identifier": "D19-1259"
         }
       ],
-      "status": "待核实"
+      "sources": [
+        {
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官网当前可见首位82.0%（GPT-4 Medprompt，2023-11-28），未到100%；这是较早提交的官网榜，不代表2026所有模型最佳结果或基准已饱和。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://pubmedqa.github.io/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "PQA-L仅1,000题，需严守500题test隔离；HF打包train包含全部PQA-L，若直接用于训练将泄漏测试。PQA-A按否定规则生成且yes占92.8%，存在标签偏置；现代预训练污染规模待核实。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "url": "https://aclanthology.org/D19-1259.pdf",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/1909.06146",
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实"
@@ -563,15 +688,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "url": "https://pubmedqa.github.io/",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -602,38 +723,344 @@
     "results": {
       "value": [
         {
-          "model": "GPT-4 (Medprompt)",
-          "accuracy_percent": 82.0,
-          "macro_f1": "NA",
-          "entry_date": "2023-11-28"
+          "rank": 1,
+          "model": "GPT-4 (Medprompt) Microsoft (Nori et al. 2023)",
+          "score": 82.0,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Nov 28, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
         },
         {
-          "model": "Med-PaLM 2",
-          "accuracy_percent": 81.8,
-          "macro_f1": "NA",
-          "entry_date": "2023-05-16"
+          "rank": 2,
+          "model": "Med-PaLM 2 Google Research & DeepMind (Singhal et al. 2023)",
+          "score": 81.8,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "May 16, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
         },
         {
-          "model": "MEDITRON 70B",
-          "accuracy_percent": 81.6,
-          "macro_f1": "NA",
-          "entry_date": "2023-11-27"
+          "rank": 3,
+          "model": "MEDITRON EPFL (Chen et al. 2023)",
+          "score": 81.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Nov 27, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "70B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 4,
+          "model": "Palmyra-Med Writer Inc. (Kamble et al. 2023)",
+          "score": 81.1,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Jul 6, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "40B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 5,
+          "model": "AntGLM-Med Ant Group (Li et al. 2023)",
+          "score": 80.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Dec 1, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "10B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 6,
+          "model": "GPT-4-base Microsoft & OpenAI (Nori et al. 2023)",
+          "score": 80.4,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Apr 12, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 7,
+          "model": "Claude 3 Anthropic (Anthropic, 2024)",
+          "score": 79.7,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 4, 2024",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 8,
+          "model": "GPT-3.5 + Z-Code++ Microsoft Azure AI (He et al. 2022)",
+          "score": 79.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Jan 11, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "55.8",
+          "model_size": "175B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 9,
+          "model": "Flan-PaLM (3-shot) Google Research & DeepMind (Singhal et al. 2022)",
+          "score": 79.0,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Dec 26, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "540B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 10,
+          "model": "HEAL DeepScribe Inc (Yuan et al. 2024)",
+          "score": 78.4,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 14, 2024",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "13B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 11,
+          "model": "Codex (5-shot) Technical University of Denmark & Copenhagen University Hospital (Liévin et al. 2022)",
+          "score": 78.2,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Dec 20, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "175B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 12,
+          "model": "Human Performance University of Pittsburgh & Carnegie Mellon University (Jin et al. 2019)",
+          "score": 78.0,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Sep 13, 2019",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "72.2",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 13,
+          "model": "Galactica Meta AI (Taylor et al. 2022)",
+          "score": 77.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Nov 16, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "120B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 14,
+          "model": "GatorTronGPT University of Florida & NVIDIA (Peng et al. 2023)",
+          "score": 77.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "May 22, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "20B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 15,
+          "model": "MediSwift-XL Cerebras Systems (Thangarasa et al. 2024)",
+          "score": 76.8,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 4, 2024",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "1.2B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 16,
+          "model": "GPT-4 Microsoft & OpenAI (Nori et al. 2023)",
+          "score": 75.2,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 20, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 17,
+          "model": "Reka Core Reka (Ormazabal et al. 2024)",
+          "score": 74.6,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Apr 18, 2024",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "NA",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 18,
+          "model": "PubMedGPT Stanford University (Bolton et al. 2022)",
+          "score": 74.4,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Dec 15, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "2.7B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 19,
+          "model": "DRAGON Stanford University & EPFL (Yasunaga et al. 2022)",
+          "score": 73.4,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Oct 17, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "360M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 20,
+          "model": "PMC-LLaMA Shanghai Jiao Tong University (Wu et al. 2023)",
+          "score": 73.4,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Apr 27, 2023",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "7B",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 21,
+          "model": "BioLinkBERT (large) Stanford University (Yasunaga et al. 2022)",
+          "score": 72.2,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 29, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "340M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 22,
+          "model": "BioLinkBERT (base) Stanford University (Yasunaga et al. 2022)",
+          "score": 70.2,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Mar 29, 2022",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "110M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 23,
+          "model": "BioBERT (multi-phase tuning) University of Pittsburgh & Carnegie Mellon University (Jin et al. 2019)",
+          "score": 68.1,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "Sep 13, 2019",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "52.7",
+          "model_size": "110M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 24,
+          "model": "BioELECTRA SAAMA AI Research Lab (Kanakarajan et al. 2019)",
+          "score": 64.0,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "June, 2021",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "110M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
+        },
+        {
+          "rank": 25,
+          "model": "PubMedBERT Microsoft Research (Gu et al. 2020)",
+          "score": 55.8,
+          "metric": "reasoning-required test Accuracy (%)",
+          "track": "官方公开提交榜 / PQA-L test",
+          "source_url": "https://pubmedqa.github.io/",
+          "source_date": "July 31, 2020",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "macro_f1_percent": "NA",
+          "model_size": "110M",
+          "submission_note": "官网提交记录；不同模型微调/提示方案不同，并非统一harness独立复测。"
         }
       ],
       "sources": [
         {
           "url": "https://pubmedqa.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026-11-07 读取官网 reasoning-required 榜单所列前三；条目日期是历史提交日期，榜单整体更新日期待核实，不能称作 2026 年新评测。"
+      ]
     },
     "coverage_note": {
-      "value": "官网现列前三为历史模型结果；保留条目日期与评测设定，不将采集日期误作评测日期。",
+      "value": "收录官网reasoning-required榜全部25行（含人类、多数类及随机基线）；保留原行号、日期、模型/方法名称。NA保持NA，不补估F1；官网日期未给时区，原日历日保留且不臆造时间。",
       "sources": [
         {
           "url": "https://pubmedqa.github.io/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -703,17 +1130,16 @@
       "sources": [
         {
           "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      ]
     },
     "pdf_bytes": {
       "value": 1072208,
       "sources": [
         {
           "url": "https://aclanthology.org/D19-1259.pdf",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -768,16 +1194,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
       }
     ],
     "sources": [
       {
-        "url": "https://aclanthology.org/D19-1259/",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://aclanthology.org/D19-1259.pdf",
-        "accessed": "2026-11-07"
+        "url": "https://pubmedqa.github.io/",
+        "accessed": "2026-11-08"
       }
     ]
   },

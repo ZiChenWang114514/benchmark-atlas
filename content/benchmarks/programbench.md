@@ -1,128 +1,146 @@
 # ProgramBench
 
-> 核查：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；待核实不等于未公开。
+> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
-已核验存在；11节研究快照；note: trending: A；未知字段保留待核实
+ProgramBench要求Agent只凭可执行程序及文档，从零构建行为匹配的软件项目。受评Agent不能看原源码、不能联网或反编译；构建测试的Agent却可参考源码和现有测试，两个阶段的权限必须区分。主指标是全部隐藏测试通过的任务比例，平均测试通过率和95%阈值只是辅助诊断。
 
-## 基本信息
+编辑状态：已核验存在；11节研究快照；note: trending: A；未知字段保留待核实
+
+## 1. 基本信息
 
 ### 简称
 
 ProgramBench
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
 ### 全称
 
 ProgramBench
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 基准版本
+### 数据版本
 
-待核实
+公开200任务发布集，代码与生成测试分开发布；以任务目录的仓库短commit固定原程序，而非自拟v1。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### 论文版本
 
-v1（本轮返回正文版本）
+arXiv:2605.03546v1；abs当前仅列v1。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
-### 发布日期
+### 发布时间
 
-待核实
+论文首发：2026-05-05 18:17:02 KST；PDF封面另标May 6, 2026，日期口径分开。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
-
-### 主板块
+### 板块
 
 代码
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
 ### 子领域
 
+```json
+[
+  "从零程序重建",
+  "软件架构",
+  "行为等价测试",
+  "代码Agent"
+]
+```
 
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### 许可
 
-待核实
+评测仓库MIT；HF卡元数据标MIT，但任务内附原仓库LICENSE与ATTRIBUTION。生成测试可能借鉴原测试，GPL/LGPL/MPL等衍生部分仍受原许可约束，不能笼统称所有任务无条件MIT。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://raw.githubusercontent.com/facebookresearch/ProgramBench/main/LICENSE)（访问 2026-11-08）；[2](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
 ### 论文
 
 https://arxiv.org/abs/2605.03546
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
 ### 代码
 
 https://github.com/facebookresearch/ProgramBench
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-### 数据
+### 数据集
 
-待核实
+https://huggingface.co/datasets/programbench/ProgramBench-Tests
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/facebookresearch/ProgramBench/main/README.md)（访问 2026-11-08）
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
-
-### 官网
+### 官方主页
 
 https://programbench.com
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-### 论文标题
+### 论文题名
 
 ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-## 发起与维护
+## 2. 发起与维护
 
 ### 发起方
 
-- Meta Superintelligence Labs
-- Stanford University
-- Harvard University
+```json
+[
+  "Meta Superintelligence Labs",
+  "Stanford University",
+  "Harvard University"
+]
+```
 
-[来源](https://programbench.com)（访问 2026-11-07）
+[1](https://programbench.com)（访问 2026-11-07）
 
-### 合作方
+### 合作单位
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
 ### 作者
 
-John Yang、Kilian Lieret、Jeffrey Ma、Parth Thakkar、Dmitrii Pedchenko 等（完整作者见论文）
+```json
+[
+  "John Yang",
+  "Kilian Lieret",
+  "Jeffrey Ma",
+  "Parth Thakkar",
+  "Dmitrii Pedchenko",
+  "Sten Sootla",
+  "Emily McMilin",
+  "Pengcheng Yin",
+  "Rui Hou",
+  "Gabriel Synnaeve",
+  "Diyi Yang",
+  "Ofir Press"
+]
+```
 
-[来源](https://programbench.com)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### 维护方
 
-待核实
+facebookresearch/ProgramBench团队；HF公开维护联系人John Yang、Kilian Lieret。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/facebookresearch/ProgramBench/main/README.md)（访问 2026-11-08）
 
 ### 资助
 
@@ -130,233 +148,347 @@ John Yang、Kilian Lieret、Jeffrey Ma、Parth Thakkar、Dmitrii Pedchenko 等�
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-## 设计目标
+## 3. 设计目标
 
-### 衡量能力
+### 目标能力
 
 仅给可执行程序与文档，自行设计架构、选择语言并从零实现行为等价程序。
 
-[来源](https://programbench.com)（访问 2026-11-07）
+[1](https://programbench.com)（访问 2026-11-07）
 
-### 设计背景
+### 相对既有评测的缺口
 
 不提供函数签名、类骨架或预设目录，区别于局部bug修复及填空式整仓生成。
 
-[来源](https://programbench.com)（访问 2026-11-07）
+[1](https://programbench.com)（访问 2026-11-07）
 
-## 构建方式
+## 4. 构建方式
 
-### 题目来源
+### 题目与标签来源
 
-从开源仓库编译原程序，移除源码和测试，只保留二进制与使用文档。
+200个开源项目的可执行程序及文档。必须区分阶段：构建测试的agent能参考原源码和现有测试；接受评测的重建agent不能访问这些源码/测试。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
-### 出题人背景
+### 出题/标注背景
 
-待核实
+作者来自Meta Superintelligence Labs、Stanford与Harvard；测试由agent驱动生成，不是200题均由人工逐题原创。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### 审核流程
 
 agent探索原程序，覆盖率引导fuzz生成行为断言，收集现有行为测试。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
 ### 质量控制
 
 静态linter筛弱断言；删除不能稳定通过原程序或能通过dummy程序的测试。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-### 去污染
+### 去污染与隔离
 
 离线沙箱、原二进制仅可执行，不允许反编译、源码检索或包装原程序；原仓库公开带来潜在记忆风险。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-## 数据形式
+## 5. 数据形式
 
 ### 规模
 
 200任务；论文版本共248,853测试函数。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
 ### 题型
 
 完整源码项目与build脚本生成，行为测试比较标准输出/错误、退出码与文件副作用。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
 ### 模态
 
-- 程序二进制
-- 文档
-- 源代码
-- 终端交互
+```json
+[
+  "程序二进制",
+  "文档",
+  "源代码",
+  "终端交互"
+]
+```
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
 ### 语言
 
-参考项目以Rust、Go、C/C++为主，另有Java和Haskell；模型可自选实现语言。
+参考程序：Rust 107、Go 46、C 33、C++ 12、Haskell 1、Java 1；HF卡标英语。重建模型可自选实现语言。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
 ### 难度
 
-从小型CLI到FFmpeg、SQLite和PHP，原项目规模差异较大。
+HF卡：27 easy、120 medium、18 hard、35 unrated；这是任务元数据，不是按本次模型得分重分桶。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
-### 公开与隐藏划分
+### 公开/隐藏划分
 
-200公开任务；推理时隐藏测试不向agent显示；公开任务不等于允许查看隐藏断言。
+200任务与AI生成行为测试公开发布；测试在一次受评agent运行中隐藏。公开发布不代表可在推理时查看断言。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-08）
 
-## 评测方法
+## 6. 评测方法
 
 ### 指标
 
 Fully Resolved/Resolved：全部隐藏行为测试通过；Almost Resolved：至少95%测试通过；Raw Pass Rate：任务内测试通过率平均。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 评分
+### 判分
 
 编译提交实现后用行为测试比较原程序，不靠LLM主观评分；有限测试不能证明所有输入等价。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 提示与运行设置
+### 提示/推理设置
 
 mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与沙箱。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 评测脚本
+### 官方实现
 
 官方代码入口为facebookresearch/ProgramBench，论文提供数据构建和评测流程。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 可比性警示
+### 可比性边界
 
 官网2026-10-22与Vals 2026-11-05的样本/运行结果分开；Fully Resolved不是Raw Pass Rate，也不是95%测试阈值。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-## 最新情况
+## 7. 最新情况
 
-### 为什么近期热门
+### 核验日
 
-热度A：有当前独立评测或多来源采用证据；按下列日期类型解读。
+2026-11-08 KST / Asia/Seoul
 
-### 核查日期
+[1](https://programbench.com)（访问 2026-11-08）
 
-2026-11-07 KST / Asia/Seoul
+### 本次版本快照
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+```json
+{
+  "version": "公开200任务及ProgramBench-Tests（访问日快照，未自拟语义版本）",
+  "heat_confidence": "A",
+  "evidence_2026_h2": [
+    {
+      "url": "https://programbench.com",
+      "date": "2026-10-22",
+      "note": "官方榜单自写更新日。"
+    },
+    {
+      "url": "https://www.vals.ai/benchmarks/programbench",
+      "date": "2026-11-05",
+      "note": "Vals独立评测榜单自写更新日。"
+    }
+  ]
+}
+```
 
-### 当前版本与热门证据
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）；[2](https://programbench.com)（访问 2026-11-08）
 
-- **version**：待核实
-- **heat_confidence**：A
-- **evidence_2026_h2**：[{"url": "https://programbench.com", "date": "2026-10-22", "note": "官方榜单自写更新日。"}, {"url": "https://www.vals.ai/benchmarks/programbench", "date": "2026-11-05", "note": "Vals独立评测榜单自写更新日。"}]
+### 论文修订
 
-> A：原始基准与独立评测材料交叉核验；不将仅引用等同独立实跑。
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2026-05-05T18:17:02+09:00",
+    "timezone": "Asia/Seoul"
+  }
+]
+```
 
-[来源](https://programbench.com)（访问 2026-11-07）
-
-### 修订历史
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### 饱和情况
 
-待核实
+官网2026-10-22最高Fully Resolved 18.5%，Almost Resolved 70.5%；Vals 2026-11-05最高Fully Resolved 18.50%。全部测试通过仍是严格主指标，不能把较高Raw Pass Rate当作完全解决。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[1](https://programbench.com)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-08）
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+### 污染/限制/争议
 
-### 污染与争议
+原仓库公开，存在记忆风险；官网报告跨语言实现消融并继续监测。断网、execute-only权限与禁反编译用于阻止源码复制，不能证明训练语料从未见过项目。有限测试无法证明所有输入行为等价；测试可能受原仓库copyleft条款约束。
 
-待核实
+[1](https://programbench.com)（访问 2026-11-08）；[2](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+### 衍生与相关版本
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+官网交叉推荐SWE-sweep，但未据此把它认定为ProgramBench新版或把单项任务拆为独立benchmark。
 
-### 衍生及版本关系
+[1](https://programbench.com)（访问 2026-11-08）
 
-与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。
+## 8. 榜单快照
 
-> 编辑去重结论；版本关系以下述专门说明为准。
+### 采集日期
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
 
-## 榜单快照
+[1](https://programbench.com)（访问 2026-11-08）
 
-### 快照日期
-
-2026-11-07 KST / Asia/Seoul
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
-
-### 官方榜单
+### 官方结果入口
 
 https://programbench.com
 
-[来源](https://programbench.com)（访问 2026-11-07）
+[1](https://programbench.com)（访问 2026-11-07）
 
-### 独立评测入口
+### 第三方入口
 
 https://www.vals.ai/benchmarks/programbench
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 核验结果
+### 分轨成绩
 
-- {"rank": 1, "model": "Claude Opus 5.5 (xhigh)", "score": "18.5%", "metric": "官方Resolved", "source_url": "https://programbench.com", "source_date": "2026-10-22", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
-- {"rank": 2, "model": "Claude Fable 5.1 (xhigh)", "score": "9.0%", "metric": "官方Resolved", "source_url": "https://programbench.com", "source_date": "2026-10-22", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
-- {"rank": 3, "model": "Muse Wonder Full", "score": "8.5%", "metric": "官方Resolved", "source_url": "https://programbench.com", "source_date": "2026-10-22", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
+| 轨道 | 名次/行号 | 模型/方法 | 分数 | 指标 | 来源日期 |
+|---|---:|---|---:|---|---|
+| 官方 / 200任务 / mini-SWE-agent | 1 | [Claude Opus 5.5 (xhigh)](https://programbench.com) | 18.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 2 | [Claude Fable 5.1 (xhigh)](https://programbench.com) | 9.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 3 | [Muse Wonder Full](https://programbench.com) | 8.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 4 | [Muse Wonder (xhigh)](https://programbench.com) | 5.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 5 | [GPT 6 Astra (max)](https://programbench.com) | 5.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 6 | [Claude Opus 5 (xhigh)](https://programbench.com) | 4.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 7 | [Muse Spark 1.3 (max)](https://programbench.com) | 2.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 8 | [Muse Spark 1.3 (xhigh)](https://programbench.com) | 1.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 9 | [GPT-5.6 Sol (xhigh)](https://programbench.com) | 1.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 10 | [GPT 5.5 (xhigh)](https://programbench.com) | 0.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 11 | [GPT 5.5 (high)](https://programbench.com) | 0.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 12 | [Gemini 3.6 Flash](https://programbench.com) | 0.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 13 | [GPT-5.6 Sol](https://programbench.com) | 0.5 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 14 | [Claude Opus 4.8 (xhigh)](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 15 | [GLM-5.2](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 16 | [Gemini 3.7 Flash](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 17 | [Muse Spark 1.2 (xhigh)](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 18 | [Claude Opus 4.7 (xhigh)](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 19 | [Muse Spark 1.1 (xhigh)](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 20 | [Gemini 3.5 Flash](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 21 | [Claude Opus 4.7](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 22 | [Claude Opus 4.6](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 23 | [GPT 5.5](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 24 | [Claude Sonnet 4.6](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 25 | [GPT 5.4](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 26 | [Gemini 3.1 Pro](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 27 | [Gemini 3 Flash](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 28 | [Claude Haiku 4.5](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 29 | [GPT 5.4 mini](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| 官方 / 200任务 / mini-SWE-agent | 30 | [GPT 5 mini](https://programbench.com) | 0.0 | Fully Resolved (%) | 2026-10-22 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 1 | [Claude Opus 5.5](https://www.vals.ai/benchmarks/programbench) | 18.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 2 | [Claude Fable 5.1](https://www.vals.ai/benchmarks/programbench) | 7.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 3 | [Claude Sonnet 5.5](https://www.vals.ai/benchmarks/programbench) | 6.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 4 | [GPT-6 Astra](https://www.vals.ai/benchmarks/programbench) | 5.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 5 | [GPT-6.1 Sol](https://www.vals.ai/benchmarks/programbench) | 3.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 6 | [Claude Opus 5](https://www.vals.ai/benchmarks/programbench) | 3.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 7 | [Gemini 4 Argon](https://www.vals.ai/benchmarks/programbench) | 2.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 8 | [Claude Haiku 5.5](https://www.vals.ai/benchmarks/programbench) | 2.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 9 | [Muse Spark 1.3 Max](https://www.vals.ai/benchmarks/programbench) | 2.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 10 | [Claude Fable 5](https://www.vals.ai/benchmarks/programbench) | 2.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 11 | [GPT-6 Sol](https://www.vals.ai/benchmarks/programbench) | 2.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 12 | [Kimi K3](https://www.vals.ai/benchmarks/programbench) | 2.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 13 | [GPT-5.6 Sol](https://www.vals.ai/benchmarks/programbench) | 1.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 14 | [GLM 5.3](https://www.vals.ai/benchmarks/programbench) | 1.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 15 | [Grok 4.6](https://www.vals.ai/benchmarks/programbench) | 1.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 16 | [Claude Opus 4.8](https://www.vals.ai/benchmarks/programbench) | 1.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 17 | [Gemini 3.8 Flash](https://www.vals.ai/benchmarks/programbench) | 1.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 18 | [Grok 4.7](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 19 | [MiMo V2.6 Flash](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 20 | [DeepSeek V4.1 Flash](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 21 | [GPT-5.6 Terra](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 22 | [Muse Spark 1.3](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 23 | [MiMo V2.6 Pro](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 24 | [Inkling 2 Small](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 25 | [GPT 5.5](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 26 | [GLM 5.2](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 27 | [GPT-6 Luna](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 28 | [Wonder Full](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 29 | [GPT 5.4 (high)](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 30 | [Muse Spark 1.2](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 31 | [Claude Sonnet 4.6](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 32 | [Inkling Small](https://www.vals.ai/benchmarks/programbench) | 0.5 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 33 | [Hy4 Preview](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 34 | [DeepSeek V4 Pro 0813](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 35 | [Claude Sonnet 5](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 36 | [Qwen 3.8 Max](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 37 | [Gemini 3.7 Flash](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 38 | [Claude Opus 4.7](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 39 | [GPT-5.6 Luna](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 40 | [DeepSeek V4 Flash 0731](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 41 | [GPT 5.4 (xhigh)](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 42 | [GLM 5.3 Flash](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 43 | [Grok 4.5](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 44 | [GPT 5.4 Mini](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 45 | [Gemini 3.6 Flash](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 46 | [Muse Spark 1.1](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 47 | [Gemini 3.5 Flash](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 48 | [GLM 5.1](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 49 | [Gemini 3.1 Pro Preview (02/26)](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 50 | [Qwen 3.6 Plus](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 51 | [Qwen 3.8 27B](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 52 | [Kimi K2.7 Code](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 53 | [Kimi K2.6](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 54 | [Nemotron 3 Ultra](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 55 | [DeepSeek V4](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 56 | [Gemini 3 Flash (12/25)](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 57 | [Gemini 3.5 Flash Lite](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 58 | [Claude Haiku 4.5 (Thinking)](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 59 | [Grok 4.3](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 60 | [Nemotron 3.5 Lightning](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 61 | [Laguna XS.2](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 62 | [Inkling](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 63 | [Laguna M.1](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 64 | [Gemini 3.1 Flash Lite Preview](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals独立复测 / 200任务 / mini-SWE-agent | 65 | [MiniMax-M2.7](https://www.vals.ai/benchmarks/programbench) | 0.0 | Fully Resolved (%) | 2026-11-05 |
+| Vals原始测试通过率诊断表 | — | [Claude Opus 5.5](https://www.vals.ai/benchmarks/programbench) | 87.0 | Raw Pass Rate (%) | 2026-11-05 |
+| Vals原始测试通过率诊断表 | — | [GPT-6 Astra](https://www.vals.ai/benchmarks/programbench) | 85.4 | Raw Pass Rate (%) | 2026-11-05 |
+| Vals原始测试通过率诊断表 | — | [GPT-6.1 Sol](https://www.vals.ai/benchmarks/programbench) | 85.3 | Raw Pass Rate (%) | 2026-11-05 |
+| Vals原始测试通过率诊断表 | — | [Gemini 4 Argon](https://www.vals.ai/benchmarks/programbench) | 83.7 | Raw Pass Rate (%) | 2026-11-05 |
+| Vals原始测试通过率诊断表 | — | [Claude Fable 5.1](https://www.vals.ai/benchmarks/programbench) | 82.7 | Raw Pass Rate (%) | 2026-11-05 |
 
-[来源](https://programbench.com)（访问 2026-11-07）
+> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
-### 覆盖与时效说明
+[1](https://programbench.com)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-08）
 
-官方前三如上；Vals 2026-11-05前三为Claude Opus 5.5 18.50%、Claude Fable 5.1 7.00%、Claude Sonnet 5.5 6.50%，独立运行差异并列保留，不合并为一张榜。
+### 覆盖与限制
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+官网31行中30条有数字名次，Vals全榜65行，另收录5行Raw Pass Rate诊断表。独立榜分开，不以相同18.5%断言同一运行。官网Almost Resolved是比例；Vals诊断表的130/37等是任务数，不是130%/37%。
 
-## 联系方式
+[1](https://programbench.com)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-08）
 
-### 公开工作邮箱
+## 9. 联系方式
 
-- johnby@meta.com
-- klieret@meta.com
+### 项目公开邮箱
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+```json
+[
+  "johnby@meta.com",
+  "klieret@meta.com"
+]
+```
 
-### 公开反馈
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-待核实
+### GitHub反馈
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+https://github.com/facebookresearch/ProgramBench/issues
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
 ### 官方社交
 
@@ -364,64 +496,76 @@ https://www.vals.ai/benchmarks/programbench
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 隐私政策
+### 隐私边界
 
-待核实
+仅记录HF卡和论文公开的项目邮箱及Issues，不推测私人联系方式。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[1](https://huggingface.co/datasets/programbench/ProgramBench-Tests/raw/main/README.md)（访问 2026-11-08）
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+## 10. 原始文件
 
-## 原始文件
-
-### 源站论文PDF
+### 原始PDF
 
 https://arxiv.org/pdf/2605.03546
 
 > 官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。
 
-[来源](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
+[1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
-### PDF SHA-256
+### SHA-256
 
-待核实
+87c67873f06f48044ef3a1bcd5bed21be2c90d92090bfb3b73b6ca7b9b13781c
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
 ### PDF字节数
 
-待核实
+2568568
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[1](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
-
-### Drive资料夹
+### Drive文件夹
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### 其他官方材料
+### 其他材料
 
-- {"type": "官方介绍/协议", "url": "https://www.vals.ai/benchmarks/programbench"}
+```json
+[
+  {
+    "type": "官方介绍/协议",
+    "url": "https://www.vals.ai/benchmarks/programbench"
+  }
+]
+```
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### Drive PDF归档
+### Drive论文PDF
 
-待核实（本任务未上传）
+待核实
 
-## 变更记录
+[1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### changelog
+## 11. 变更记录
 
-- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"}
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul",
+    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+  }
+]
 
-[来源](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
+[1](https://programbench.com)（访问 2026-11-08）
