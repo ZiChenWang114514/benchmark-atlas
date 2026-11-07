@@ -1,8 +1,10 @@
 # Terminal-Bench-Science
 
-> 核验：2026-11-07（KST / Asia/Seoul）；仅记录真实打开的材料，未知不代表未公开。
+> 本页中文整理与本轮复核：2026-11-08（KST / Asia/Seoul）。历史结果、不同数据版本、scaffold与评分协议分别记录；待核实不等于未公开。
 
-研究快照；trending: A；未知信息保留待核实。
+Terminal-Bench-Science围绕研究者真实工作构建可验证终端流程，覆盖生命、物理、地球、数学与工程。本页严格以已发布0.1.0的70题解释AA分数，main开发中的86题与筹备2.0不改变历史分母。
+
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
 ## 基本信息
 
@@ -10,138 +12,130 @@
 
 Terminal-Bench-Science
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ### 全称
 
 Terminal-Bench-Science
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### 版本
+### 基准版本
 
 0.1.0（AA明确的release；官网简写0.1）
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### paper_version
+### 论文版本
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
 ### 发布日期
 
-2026-08-27
+v0.1.0：2026-08-26 19:24:33 KST（GitHub published_at）；公告日另为2026-08-27，不混为同一事件。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0)（访问 2026-11-08，KST）
 
-### section
+### 主板块
 
 物理
 
-> 编辑主板块归档，不据此限制跨学科覆盖。
+说明：编辑主板块归档，不据此限制跨学科覆盖。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### subfields
+### 领域标签
 
-```json
-[
-  "跨学科科学",
-  "化学",
-  "生物与医学",
-  "地球与天文",
-  "数学",
-  "工程"
-]
-```
+- 跨学科科学
+- 化学
+- 生物与医学
+- 地球与天文
+- 数学
+- 工程
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### 许可证
+### 许可与适用范围
 
-Apache-2.0（官方软件引用口径）
+Apache-2.0（当前仓库LICENSE与README软件引用）；各任务所含第三方数据仍应单独核对。
 
-[来源](https://terminal-bench-science.ai/run)（访问 2026-11-07）
+来源：[1](https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE)（访问 2026-11-08，KST）
 
-### 论文链接
+### 论文
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### 官方代码
+### 代码仓库
 
 https://github.com/harbor-framework/terminal-bench-science
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### 数据集
+### 数据地址
 
 https://hub.harborframework.com/datasets/terminal-bench-science/terminal-bench-science/latest?tab=tasks
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### 官网
+### 官方主页
 
 https://terminal-bench-science.ai/
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
 ### 论文标题
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
 ## 发起与维护
 
-### 发起方
+### 机构与发起关系
 
 Stanford University研究人员与Terminal-Bench / Harbor团队
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### partners
+### 合作机构
 
-```json
-[
-  "Laude Institute",
-  "SAIL",
-  "HAI",
-  "AIMS",
-  "IFML",
-  "Allen Institute",
-  "Ai2"
-]
-```
+- Laude Institute
+- SAIL
+- HAI
+- AIMS
+- IFML
+- Allen Institute
+- Ai2
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ### 作者
 
 Terminal-Bench-Science Team；发布文章署名Steven Dillmann
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### 维护方
+### 当前维护方
 
 Terminal-Bench / Harbor团队及科学贡献者社区
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### funders
+### 资助与支持
 
 Laude Slingshots、Snorkel AI Open Benchmarks Grants等；API credits与科研合作身份分开理解。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ## 设计目标
 
@@ -149,93 +143,85 @@ Laude Slingshots、Snorkel AI Open Benchmarks Grants等；API credits与科研�
 
 在终端完成真实科学研究工作流，产出分析、仿真、证明、代码与数据产品。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### 设计动机
+### 设计背景
 
 用执业科学家贡献的研究任务而非教材回忆题衡量可验证科研执行能力。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ## 构建方式
 
-### question_sources
+### 题目或数据来源
 
 科学研究人员从自身工作提出任务，经GitHub提案与PR公开构建。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### author_background
+### 出题背景
 
 跨生命、物理、地球、数学与工程科学的研究人员。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### review_process
+### 审核流程
 
 提案审核后实施；领域审查、技术审查与最终bar-raiser质量检查。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
-### quality_control
+### 质量控制
 
-验证科学真实性、客观可验证性与对前沿模型的挑战性；首发70任务。
+提案→实现→审查；自动检查、并行领域与技术审查、最终bar-raiser批准。包括oracle通过/no-op失败、对抗作弊检查；官方建议在目标沙箱先跑5次oracle确认环境稳定。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）
 
-### decontamination
+### 去污染与泄漏
 
 官方页面带禁止将基准数据纳入训练语料的canary声明；不能把声明理解为已证明无污染。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ## 数据形式
 
-### 题量与规模
+### 规模
 
-70任务：生命19、物理17、数学17、工程9、地球8。
+固定v0.1.0发布70题：生命19、物理17、数学17、工程9、地球8；当前main README统计86题属于开发状态，不得给0.1.0榜改分母。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0)（访问 2026-11-08，KST）；[2](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）；[3](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
 ### 题型
 
 科学数据分析、统计推断、模拟、优化、证明、图像重建、信号处理等终端工作流。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
-### modalities
+### 模态
 
-```json
-[
-  "文本",
-  "代码",
-  "科学数据/计算产物"
-]
-```
+- 文本
+- 代码
+- 科学数据/计算产物
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
-### languages
+### 语言
 
-待核实
+官方公开任务说明及AA示例采用英语；工作流还包含Python/命令行和领域数据文件，不是纯语言问答集。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+### 难度
 
-### difficulty
+由领域专家提出真实研究工作流、要求可客观验证且对前沿agent有挑战；没有由官方公开的统一难度分级量表。
 
-待核实
+来源：[1](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
-
-### 公开与隐藏划分
+### 数据划分
 
 0.1.0任务公开；正式训练/验证/隐藏测试划分待核实。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
 ## 评测方法
 
@@ -243,261 +229,185 @@ Laude Slingshots、Snorkel AI Open Benchmarks Grants等；API credits与科研�
 
 测试套件通过率 / resolution rate，pass@1。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
 ### 评分方式
 
 每个任务必须通过全部测试；AA使用独立verifier容器。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
 ### 提示与运行设置
 
 AA：70任务×3重复，mini-swe-agent，最多1000步；官网首发使用各厂商CLI，需分轨。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
-### 官方评测实现
+### 评测脚本
 
 Harbor运行框架与官方任务仓库；可在Modal或其他Harbor支持的环境运行。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
-### 可比性警告
+### 可比性提醒
 
 官网发布结果、AA统一harness结果及厂商自报结果不可当成同一榜；Science Index综合分不是本单项分。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07，KST）
 
 ## 最新情况
 
-### checked_at
+### 核验日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-08，KST）
 
-### 当前版本与近期使用证据
+### 数据版本与更新
 
-```json
-{
-  "version": "0.1.0",
-  "evidence_2026_h2": [
-    {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "note": "AA Intelligence Index v5.0.1采用，权重15%。"
-    },
-    {
-      "url": "https://www.vals.ai/benchmarks/science_index",
-      "date": "2026-10-25",
-      "note": "Vals Science Index等权组成之一。"
-    }
-  ]
-}
-```
+最新可见正式release为v0.1.0，70题；main已有86题，2.0征稿尚在进行。开发分支题量不能当成已发布2.0。
 
-[来源](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）；[来源](https://www.vals.ai/benchmarks/science_index)（访问 2026-11-07）
+来源：[1](https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0)（访问 2026-11-08，KST）；[2](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）
 
-### paper_revision_history
+### 论文修订记录
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### saturation
+### 饱和证据与局限
 
-待核实
+AA固定0.1.0 / 70题最高64.8%；此为统一mini-swe-agent平均单次成功率，不能与官网不同CLI系统或main86题混比。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+### 争议与已知问题
 
-### 污染与争议
+官方要求公开任务携带canary，并欢迎报告直接取答案、歧义指令、验证器误判及oracle不稳定；有防污染标记不等于已经证实无污染。
 
-待核实
+来源：[1](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
-
-### derivatives
+### 衍生或后继基准
 
 独立科学工作流套件，不是Terminal-Bench 4.0的别名；0.2开发已在首发公告提及，但不据此断言正式发布。
 
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
-
-### 为什么近期热门
-
-上列2026年后半年发布、当前榜单或独立实跑构成活跃证据；不把热度当成质量背书。
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
 
 ## 榜单快照
 
-### snapshot_date
+### 快照访问日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
-### official_url
+### 官方榜单入口
 
 https://terminal-bench-science.ai/
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### third_party_url
+### 第三方入口
 
 https://artificialanalysis.ai/evaluations/terminal-bench-science
 
-[来源](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-07，KST）
 
-### 模型成绩
+### 可核验结果
 
-```json
-[
-  {
-    "rank": 1,
-    "model": "Gemini 4 Carbon (High)",
-    "score": "64.8%",
-    "metric": "pass@1，mini-swe-agent，3 repeats",
-    "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-    "source_date": "待核实（页面未见榜单自身更新日期）",
-    "collected_at": "2026-11-07 KST",
-    "result_type": "Artificial Analysis当前榜单快照"
-  },
-  {
-    "rank": 2,
-    "model": "GPT-6 Astra (Max)",
-    "score": "63.3%",
-    "metric": "pass@1，mini-swe-agent，3 repeats",
-    "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-    "source_date": "待核实（页面未见榜单自身更新日期）",
-    "collected_at": "2026-11-07 KST",
-    "result_type": "Artificial Analysis当前榜单快照"
-  },
-  {
-    "rank": 3,
-    "model": "Gemini 4 Carbon (Medium)",
-    "score": "62.4%",
-    "metric": "pass@1，mini-swe-agent，3 repeats",
-    "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-    "source_date": "待核实（页面未见榜单自身更新日期）",
-    "collected_at": "2026-11-07 KST",
-    "result_type": "Artificial Analysis当前榜单快照"
-  }
-]
-```
+| 分轨 | 轨内名次 | 模型/系统 | 分数 | 指标 | 版本/设置 | 来源 |
+|---|---:|---|---:|---|---|---|
+| AA统一harness / 0.1.0 | 1 | Gemini 4 Carbon (High) | 64.8 | pass@1 (%) | 0.1.0 / 70 tasks；mini-swe-agent；3 repeats/task | [待核实（网页未标各结果运行日期）](https://artificialanalysis.ai/evaluations/terminal-bench-science)；采集2026-11-08 KST / Asia/Seoul |
+| AA统一harness / 0.1.0 | 2 | GPT-6 Astra (Max) | 63.3 | pass@1 (%) | 0.1.0 / 70 tasks；mini-swe-agent；3 repeats/task | [待核实（网页未标各结果运行日期）](https://artificialanalysis.ai/evaluations/terminal-bench-science)；采集2026-11-08 KST / Asia/Seoul |
+| AA统一harness / 0.1.0 | 3 | Gemini 4 Carbon (Medium) | 62.4 | pass@1 (%) | 0.1.0 / 70 tasks；mini-swe-agent；3 repeats/task | [待核实（网页未标各结果运行日期）](https://artificialanalysis.ai/evaluations/terminal-bench-science)；采集2026-11-08 KST / Asia/Seoul |
 
-[来源](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
-### 时效与可比性
+### 榜单覆盖边界
 
-当前AA榜单前三；mini-swe-agent统一轨。首发2026-08-27的Opus5 30.0%/Sol22.4%/Fable5 21.4%仅为历史，不混排。厂商Astra64.6%亦不等于AA63.3%。
+AA页面明确报出的前三名；官网首屏未返回CLI系统分数。固定0.1.0的70题，main86题与筹备中的2.0不参与本快照；未发现官方链接的独立arXiv论文，软件DOI不冒充论文PDF。
 
-[来源](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-07）
+来源：[1](https://artificialanalysis.ai/evaluations/terminal-bench-science)（访问 2026-11-08，KST）
 
 ## 联系方式
 
-### 公开工作邮箱
+### 官方公开邮箱
 
-```json
-[
-  "stevendi@stanford.edu"
-]
-```
+- stevendi@stanford.edu
 
-[来源](https://terminal-bench-science.ai/run)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/run)（访问 2026-11-07，KST）
 
-### github_issues
+### 公开反馈渠道
 
-待核实
+https://github.com/harbor-framework/terminal-bench-science/issues
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+来源：[1](https://github.com/harbor-framework/terminal-bench-science)（访问 2026-11-08，KST）
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
-
-### official_social
+### 官方社交账号
 
 https://discord.com/invite/2Pe5uWGcV3
 
-[来源](https://terminal-bench-science.ai/run)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/run)（访问 2026-11-07，KST）
 
-### privacy_policy
+### 联系方式/隐私原则
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
 ## 原始文件
 
-### 原论文PDF
+### 原始PDF
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### sha256
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
-
-### pdf_bytes
+### PDF SHA-256
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
 
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
-### drive_folder
-
-待核实
-
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
-
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
-
-### other_documents
-
-```json
-[
-  {
-    "type": "官方软件发布引用（非论文PDF）",
-    "url": "https://doi.org/10.5281/zenodo.22110253"
-  }
-]
-```
-
-[来源](https://terminal-bench-science.ai/announcement)（访问 2026-11-07）
-
-### Drive PDF
+### PDF字节数
 
 待核实
 
-> 本组未上传Drive。
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
+
+### Drive文件夹
+
+待核实
+
+说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
+
+### 其他文档
+
+- {"type": "官方软件发布引用（非论文PDF）", "url": "https://doi.org/10.5281/zenodo.22110253"}
+
+来源：[1](https://terminal-bench-science.ai/announcement)（访问 2026-11-07，KST）
+
+### Drive论文原件
+
+待核实
+
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-07，KST）
 
 ## 变更记录
 
-### changelog
+- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"}
+- {"date": "2026-11-08", "timezone": "Asia/Seoul", "change": "第2轮逐源深核：首发tag实际为8月26日19:24:33 KST，区别8月27日公告。；v0.1.0固定70题与main86题分清，2.0仅在征稿；补Issue入口、英语任务及具体QA流程。"}
 
-```json
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
-  }
-]
-```
-
-[来源](https://terminal-bench-science.ai/)（访问 2026-11-07）
+来源：[1](https://terminal-bench-science.ai/)（访问 2026-11-08，KST）

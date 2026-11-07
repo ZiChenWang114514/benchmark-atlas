@@ -8,7 +8,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -31,33 +31,32 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v2",
+      "value": "arXiv v2；提交于 2022-05-08 11:43:02 KST",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2021-09-08",
+      "value": "2021-09-09 02:15:27 KST（arXiv v1提交；不是2025二选一改版日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      ]
     },
     "section": {
       "value": "安全",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "Benchmark Atlas编辑归档，不是论文指定的唯一领域。"
+      "note": "Benchmark Constitution编辑归档，不是论文指定的唯一领域。"
     },
     "subfields": {
       "value": [
@@ -66,7 +65,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -84,7 +83,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -93,7 +92,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -102,7 +101,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -111,7 +110,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -120,7 +119,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -131,7 +130,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -140,7 +139,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -155,7 +154,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -173,7 +172,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -186,7 +185,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -195,7 +194,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -206,7 +205,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -215,7 +214,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -224,7 +223,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -233,43 +232,48 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "README含训练排除canary，明确BIG-bench中有较小同源任务，两者相互测试时不得把另一套加入训练；这是使用约束，不是模型训练污染已排除的证明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "原始论文817题、38类；2025年1月更新删除少量失效问题并移除Indexical Error: Time类，当前题量不能直接沿用817。",
+      "value": "原论文817题、38类；本次读取官方main/TruthfulQA.csv实际790条（不含表头），含Best Incorrect Answer列。HF传统卡仍为817条，属于旧协议，不能以817替代当前CSV题量。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA.csv",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/truthfulqa/truthful_qa/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2109.07958",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本轮尚未计数当前CSV；H2 Jev研究附录A仍采用817题历史集，版本差异并列保留。"
+      ]
     },
     "question_types": {
       "value": "开放生成及多项选择两种评测方式",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -278,7 +282,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -287,7 +291,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -296,7 +300,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -305,7 +309,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -325,7 +329,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -334,7 +338,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -352,21 +356,20 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "2026-H2实际使用证据：2026-10-08：Jev 研究表1–2实际使用 TruthfulQA，并明确区分准确率与MC2等评价口径。"
+      ]
     },
     "latest_dataset_version": {
       "value": {
@@ -394,68 +397,75 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2021-09-09T02:15:27+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2021-09-09 02:15:27 KST",
+          "timezone": "Asia/Seoul"
         },
         {
           "version": "v2",
-          "submitted_at": "2022-05-08T11:43:02+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2022-05-08 11:43:02 KST",
+          "timezone": "Asia/Seoul"
         }
       ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "不同协议不能给出统一饱和判断。2026-H2 Jev研究在817题的选项准确率上Gemini 3.8 Flash为97.9%，不是2025二选一790题的分数，也不是生成任务真实且有信息的比例。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "contamination_and_issues": {
-      "value": "2025更新修正表述并删除过时问题，作者明确尚未完成剩余问题及来源的全面复核。H2 Jev论文采用817题，表2部分外部成绩为MC2而非选项准确率，不能混排。",
-      "sources": [
-        {
-          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "2025更新删除失效问题与Indexical Error: Time类；官方明确尚未完成其余问题及来源的完整复核。790条当前CSV、817条传统HF及论文选择题研究分开；“真实性”不等于“信息充分”。",
+      "sources": [
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA.csv",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/truthfulqa/truthful_qa/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "BIG-bench包含较小同源任务；2025年1月官方新增二选一版（正确与最佳错误答案随机排A/B），推荐新设置但保留MC1/MC2有效性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://arxiv.org/abs/2109.07958",
@@ -468,66 +478,460 @@
       "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
     },
     "third_party_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/html/2610.11978v1",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "results": {
       "value": [
         {
+          "model": "GPT-3 175B",
+          "score": 20.44,
+          "metric": "% true",
+          "track": "官方README历史基线 / % true",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": 97.55,
+          "metric": "% info",
+          "track": "官方README历史基线 / % info",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": 20.56,
+          "metric": "% true (GPT-judge)",
+          "track": "官方README历史基线 / % true (GPT-judge)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": -0.54,
+          "metric": "BLEURT",
+          "track": "官方README历史基线 / BLEURT",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": -17.17,
+          "metric": "ROUGE",
+          "track": "官方README历史基线 / ROUGE",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": -17.18,
+          "metric": "BLEU",
+          "track": "官方README历史基线 / BLEU",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": 0.21,
+          "metric": "MC1 (0–1)",
+          "track": "官方README历史基线 / MC1 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-3 175B",
+          "score": 0.33,
+          "metric": "MC2 (0–1)",
+          "track": "官方README历史基线 / MC2 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": 26.68,
+          "metric": "% true",
+          "track": "官方README历史基线 / % true",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": 89.96,
+          "metric": "% info",
+          "track": "官方README历史基线 / % info",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": 27.54,
+          "metric": "% true (GPT-judge)",
+          "track": "官方README历史基线 / % true (GPT-judge)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": -0.29,
+          "metric": "BLEURT",
+          "track": "官方README历史基线 / BLEURT",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": -10.93,
+          "metric": "ROUGE",
+          "track": "官方README历史基线 / ROUGE",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": -7.48,
+          "metric": "BLEU",
+          "track": "官方README历史基线 / BLEU",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": 0.2,
+          "metric": "MC1 (0–1)",
+          "track": "官方README历史基线 / MC1 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-J 6B",
+          "score": 0.36,
+          "metric": "MC2 (0–1)",
+          "track": "官方README历史基线 / MC2 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": 29.5,
+          "metric": "% true",
+          "track": "官方README历史基线 / % true",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": 89.84,
+          "metric": "% info",
+          "track": "官方README历史基线 / % info",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": 30.72,
+          "metric": "% true (GPT-judge)",
+          "track": "官方README历史基线 / % true (GPT-judge)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": -0.24,
+          "metric": "BLEURT",
+          "track": "官方README历史基线 / BLEURT",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": -9.02,
+          "metric": "ROUGE",
+          "track": "官方README历史基线 / ROUGE",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": -4.83,
+          "metric": "BLEU",
+          "track": "官方README历史基线 / BLEU",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 2
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": 0.22,
+          "metric": "MC1 (0–1)",
+          "track": "官方README历史基线 / MC1 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "GPT-2 1.5B",
+          "score": 0.39,
+          "metric": "MC2 (0–1)",
+          "track": "官方README历史基线 / MC2 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 53.86,
+          "metric": "% true",
+          "track": "官方README历史基线 / % true",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 64.5,
+          "metric": "% info",
+          "track": "官方README历史基线 / % info",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 56.18,
+          "metric": "% true (GPT-judge)",
+          "track": "官方README历史基线 / % true (GPT-judge)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 0.08,
+          "metric": "BLEURT",
+          "track": "官方README历史基线 / BLEURT",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 1.92,
+          "metric": "ROUGE",
+          "track": "官方README历史基线 / ROUGE",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": -0.17,
+          "metric": "BLEU",
+          "track": "官方README历史基线 / BLEU",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 1
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 0.19,
+          "metric": "MC1 (0–1)",
+          "track": "官方README历史基线 / MC1 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 4
+        },
+        {
+          "model": "UnifiedQA 3B",
+          "score": 0.35,
+          "metric": "MC2 (0–1)",
+          "track": "官方README历史基线 / MC2 (0–1)",
+          "source_url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "settings": "greedy / temperature 0",
+          "benchmark_version": "README Baselines表；非2025二选一新跑分",
+          "rank": 3
+        },
+        {
           "model": "Gemini 3.8 Flash（研究表2原标签）",
           "score": 97.9,
-          "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
-          "snapshot_date": "2026-11-07"
+          "metric": "selected-option accuracy (%)",
+          "track": "Jev研究表2 / 原817题选项准确率",
+          "source_url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "817-item evaluation；非MC2",
+          "source_date": "2026-10-08（论文标示日）",
+          "rank": 1
         },
         {
           "model": "Claude Opus 5.5（研究表2原标签）",
           "score": 92.0,
-          "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
-          "snapshot_date": "2026-11-07"
+          "metric": "selected-option accuracy (%)",
+          "track": "Jev研究表2 / 原817题选项准确率",
+          "source_url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "817-item evaluation；非MC2",
+          "source_date": "2026-10-08（论文标示日）",
+          "rank": 2
         },
         {
           "model": "Jev（研究表2原标签）",
           "score": 87.5,
-          "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究；不是基准官方实时榜，也不是AA独立榜；本行未标MC2，不能与表中标MC2的行混比",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
-          "snapshot_date": "2026-11-07"
+          "metric": "selected-option accuracy (%)",
+          "track": "Jev研究表2 / 原817题选项准确率",
+          "source_url": "https://arxiv.org/html/2610.11978v1",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "817-item evaluation；非MC2",
+          "source_date": "2026-10-08（论文标示日）",
+          "rank": 3
         }
       ],
       "sources": [
         {
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "H2对比研究可读结果；保留论文模型标签，未核实精确API日期，不将混合提示或历史引用成绩都视为同协议。未核实当前官方统一实时榜和AA/Epoch/LMArena对应独立单项榜。",
+      "value": "官方README历史Baselines完整4模型×8指标共32行，分指标不混排；另保留Jev论文表2的3条选项准确率并依据附录A明确817题、非MC2。此前未指明版本的问题已补齐。无本次新核实的2025二选一790题官方当前模型榜。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/sylinrl/TruthfulQA",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
+      ]
     }
   },
   "contact": {
@@ -579,7 +983,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -588,17 +992,16 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "原始下载字节SHA-256；未压缩或改写。"
+      ]
     },
     "pdf_bytes": {
       "value": 819857,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2109.07958",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -653,16 +1056,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮逐源深核：实读官方CSV计790题，区别817题旧论文/HF；新增二选一列核验。；完整32条官方历史指标，第三方Jev817题选项准确率另轨；核实canary与BIG-bench交叉污染限制。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2109.07958",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2109.07958",
-        "accessed": "2026-11-07"
+        "url": "https://github.com/sylinrl/TruthfulQA",
+        "accessed": "2026-11-08"
       }
     ]
   }

@@ -42,11 +42,11 @@
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "release_date": {
-      "value": "2026-08-27",
+      "value": "v0.1.0：2026-08-26 19:24:33 KST（GitHub published_at）；公告日另为2026-08-27，不混为同一事件。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/announcement",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -77,11 +77,11 @@
       ]
     },
     "license": {
-      "value": "Apache-2.0（官方软件引用口径）",
+      "value": "Apache-2.0（当前仓库LICENSE与README软件引用）；各任务所含第三方数据仍应单独核对。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/run",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -239,11 +239,11 @@
       ]
     },
     "quality_control": {
-      "value": "验证科学真实性、客观可验证性与对前沿模型的挑战性；首发70任务。",
+      "value": "提案→实现→审查；自动检查、并行领域与技术审查、最终bar-raiser批准。包括oracle通过/no-op失败、对抗作弊检查；官方建议在目标沙箱先跑5次oracle确认环境稳定。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/announcement",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -259,11 +259,19 @@
   },
   "data_format": {
     "size": {
-      "value": "70任务：生命19、物理17、数学17、工程9、地球8。",
+      "value": "固定v0.1.0发布70题：生命19、物理17、数学17、工程9、地球8；当前main README统计86题属于开发状态，不得给0.1.0榜改分母。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -290,26 +298,22 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "官方公开任务说明及AA示例采用英语；工作流还包含Python/命令行和领域数据文件，不是纯语言问答集。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "由领域专家提出真实研究工作流、要求可客观验证且对前沿agent有挑战；没有由官方公开的统一难度分级量表。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "0.1.0任务公开；正式训练/验证/隐藏测试划分待核实。",
@@ -370,39 +374,24 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": {
-        "version": "0.1.0",
-        "evidence_2026_h2": [
-          {
-            "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-            "date": "2026-11-07",
-            "date_type": "observed_on",
-            "note": "AA Intelligence Index v5.0.1采用，权重15%。"
-          },
-          {
-            "url": "https://www.vals.ai/benchmarks/science_index",
-            "date": "2026-10-25",
-            "note": "Vals Science Index等权组成之一。"
-          }
-        ]
-      },
+      "value": "最新可见正式release为v0.1.0，70题；main已有86题，2.0征稿尚在进行。开发分支题量不能当成已发布2.0。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science/releases/tag/v0.1.0",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://www.vals.ai/benchmarks/science_index",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -418,26 +407,22 @@
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "AA固定0.1.0 / 70题最高64.8%；此为统一mini-swe-agent平均单次成功率，不能与官网不同CLI系统或main86题混比。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "官方要求公开任务携带canary，并欢迎报告直接取答案、歧义指令、验证器误判及oracle不稳定；有防污染标记不等于已经证实无污染。",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
       "value": "独立科学工作流套件，不是Terminal-Bench 4.0的别名；0.2开发已在首发公告提及，但不据此断言正式发布。",
@@ -451,11 +436,11 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -480,49 +465,59 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "Gemini 4 Carbon (High)",
-          "score": "64.8%",
-          "metric": "pass@1，mini-swe-agent，3 repeats",
+          "score": 64.8,
+          "metric": "pass@1 (%)",
+          "track": "AA统一harness / 0.1.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-          "source_date": "待核实（页面未见榜单自身更新日期）",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Artificial Analysis当前榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "0.1.0 / 70 tasks",
+          "settings": "mini-swe-agent；3 repeats/task",
+          "source_date": "待核实（网页未标各结果运行日期）",
+          "rank": 1
         },
         {
-          "rank": 2,
           "model": "GPT-6 Astra (Max)",
-          "score": "63.3%",
-          "metric": "pass@1，mini-swe-agent，3 repeats",
+          "score": 63.3,
+          "metric": "pass@1 (%)",
+          "track": "AA统一harness / 0.1.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-          "source_date": "待核实（页面未见榜单自身更新日期）",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Artificial Analysis当前榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "0.1.0 / 70 tasks",
+          "settings": "mini-swe-agent；3 repeats/task",
+          "source_date": "待核实（网页未标各结果运行日期）",
+          "rank": 2
         },
         {
-          "rank": 3,
           "model": "Gemini 4 Carbon (Medium)",
-          "score": "62.4%",
-          "metric": "pass@1，mini-swe-agent，3 repeats",
+          "score": 62.4,
+          "metric": "pass@1 (%)",
+          "track": "AA统一harness / 0.1.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-          "source_date": "待核实（页面未见榜单自身更新日期）",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Artificial Analysis当前榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "benchmark_version": "0.1.0 / 70 tasks",
+          "settings": "mini-swe-agent；3 repeats/task",
+          "source_date": "待核实（网页未标各结果运行日期）",
+          "rank": 3
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ]
+      ],
+      "status": "待核实"
     },
     "coverage_note": {
-      "value": "当前AA榜单前三；mini-swe-agent统一轨。首发2026-08-27的Opus5 30.0%/Sol22.4%/Fable5 21.4%仅为历史，不混排。厂商Astra64.6%亦不等于AA63.3%。",
+      "value": "AA页面明确报出的前三名；官网首屏未返回CLI系统分数。固定0.1.0的70题，main86题与筹备中的2.0不参与本快照；未发现官方链接的独立arXiv论文，软件DOI不冒充论文PDF。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -540,15 +535,13 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/harbor-framework/terminal-bench-science/issues",
       "sources": [
         {
-          "url": "https://terminal-bench-science.ai/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/harbor-framework/terminal-bench-science",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "https://discord.com/invite/2Pe5uWGcV3",
@@ -648,12 +641,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "change": "第2轮逐源深核：首发tag实际为8月26日19:24:33 KST，区别8月27日公告。；v0.1.0固定70题与main86题分清，2.0仅在征稿；补Issue入口、英语任务及具体QA流程。"
       }
     ],
     "sources": [
       {
         "url": "https://terminal-bench-science.ai/",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }
