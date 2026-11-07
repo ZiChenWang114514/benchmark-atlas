@@ -73,15 +73,18 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": {
+        "code": "MIT（centerforaisafety/hle仓库LICENSE）",
+        "dataset": "待核实（数据卡本轮返回401，不能由代码MIT推断题集许可）"
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/hle/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ],
       "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      "note": "代码许可已核实；数据集许可仍待核实，本字段为部分完成，不计为授权全部核清。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2501.14249",
@@ -148,15 +151,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Center for AI Safety与Scale AI为官网Organizing Team列明的两个组织；不把全部题目贡献者所在机构视作正式合作单位。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
+          "url": "https://lastexam.ai",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "仅确认论文署名机构，不将所有署名单位自动认定为正式合作方"
+      ]
     },
     "authors": {
       "value": [
@@ -1430,10 +1431,10 @@
       ]
     },
     "decontamination": {
-      "value": "要求原创或非平凡综合、不可直接搜索，并保留私有题；公开集仍可能被训练，搜索工具有无必须分开。",
+      "value": "README提供HLE canary字符串用于未来训练过滤，并明确要求基准不得进入训练语料；canary存在不保证所有模型均完成过滤。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/hle/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -1441,10 +1442,14 @@
   },
   "data_format": {
     "size": {
-      "value": "公开2500题，约14%含图、24%选择题，其余短答案；私有留出集另存，不公开题数不推测。",
+      "value": "官方主页与README均列2500题；README样例输出n=2700为历史示例，不作为当前题量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
+          "url": "https://lastexam.ai",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/centerforaisafety/hle/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -1519,10 +1524,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "原论文要求Explanation、Answer、Confidence；配置可设时temperature0，o1/o3-mini按其支持设定；工具与浏览权限须单列。",
+      "value": "官方简易评测temperature默认0；推理模型不建议max_completion_tokens低于8192。官方称采用模型最大可用token预算，并观察到部分模型collapse；比较时必须记录具体预算。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/hle/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -1692,6 +1697,39 @@
           "model_version": "Gemini 3 Pro",
           "score": "38.3",
           "unit": "%",
+          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://lastexam.ai",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "GPT-5",
+          "score": "25.3",
+          "unit": "%",
+          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://lastexam.ai",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "Grok 4",
+          "score": "24.5",
+          "unit": "%",
+          "scope_and_protocol": "官网Quantitative Results：Accuracy；Judge Model o3-mini；Dataset Updated April 3rd 2025；此日期是数据更新日而非榜单更新时间。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://lastexam.ai",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "Gemini 3 Pro",
+          "score": "38.3",
+          "unit": "%",
           "scope_and_protocol": "官方页面；模型确切checkpoint与测量日期未标明；不是本轮新跑分",
           "result_date": "待核实",
           "snapshot_date": "2026-11-07",
@@ -1728,24 +1766,20 @@
           "accessed": "2026-11-07"
         },
         {
+          "url": "https://lastexam.ai",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（页面只列数据更新时间2025-04-03）；2026-11-07仅为采集日期（Asia/Seoul）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2501.14249",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://lastexam.ai",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
           "accessed": "2026-11-07"
         }
       ]
@@ -1874,6 +1908,20 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "organization.partners",
+          "construction.decontamination",
+          "evaluation.prompt_settings",
+          "data_format.size",
+          "leaderboard.results",
+          "leaderboard.coverage_note"
+        ]
       }
     ],
     "sources": [

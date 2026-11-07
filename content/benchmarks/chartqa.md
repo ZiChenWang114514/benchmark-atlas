@@ -1,8 +1,8 @@
 # ChartQA
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写。待核实不等于未公开；历史榜单、研究复测和独立评测分开。
+> 第1轮深度复核：2026-11-07（KST / Asia/Seoul）。采集日不等于榜单更新日或评测运行日；“待核实”不等于不存在。
 
-[阅读原始论文 PDF](https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk)
+[阅读Drive原始论文PDF](https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk)
 
 ## 基本信息
 
@@ -10,35 +10,33 @@
 
 ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 全称
 
 ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 基准版本
 
-待核实
+官方Full Version（含annotations）；另保留不含annotations的First Version。README未采用可核实的数字版本号。
 
-> 条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。
-
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ### 论文版本
 
 arXiv v1
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
-### 首发日期
+### 发布日期
 
 2022-03-19
 
 > arXiv元数据首发日期原值；不是推测数据集首次上线时间。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 主板块
 
@@ -46,97 +44,91 @@ arXiv v1
 
 > Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
-### 领域
+### 领域标签
 
-```json
-[
-  "图表问答"
-]
-```
+- 图表问答
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 许可证
 
 GPL-3.0（官方HF元数据标示；不据此推断第三方图表版权）
 
-来源：[https://huggingface.co/datasets/ahmed-masry/ChartQA/blob/main/README.md](https://huggingface.co/datasets/ahmed-masry/ChartQA/blob/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://huggingface.co/datasets/ahmed-masry/ChartQA/blob/main/README.md)（访问 2026-11-07 KST）。
 
-### 论文地址
+### 论文
 
 https://arxiv.org/abs/2203.10244
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
-### 代码
+### 官方代码
 
 https://github.com/vis-nlp/ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
-### 数据集
+### 数据地址
 
 https://huggingface.co/datasets/ahmed-masry/ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://huggingface.co/datasets/ahmed-masry/ChartQA](https://huggingface.co/datasets/ahmed-masry/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://huggingface.co/datasets/ahmed-masry/ChartQA)（访问 2026-11-07 KST）。
 
-### 官方主页
+### 官方入口
 
 https://github.com/vis-nlp/ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[2](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 论文标题
 
 ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ## 发起与维护
 
-### 机构
+### 发起机构
 
 论文作者单位：York University、南洋理工大学、Salesforce Research。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 合作机构
+### 合作研究机构
 
-待核实
+- York University, Canada
+- Nanyang Technological University, Singapore
+- Salesforce Research
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+> 论文作者署名机构，不推断额外商业合作关系。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）。
 
 ### 作者
 
-```json
-[
-  "Masry, Ahmed",
-  "Long, Do Xuan",
-  "Tan, Jia Qing",
-  "Joty, Shafiq",
-  "Hoque, Enamul"
-]
-```
+- Masry, Ahmed
+- Long, Do Xuan
+- Tan, Jia Qing
+- Joty, Shafiq
+- Hoque, Enamul
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）。
 
 ### 维护方
 
-vis-nlp 官方仓库团队（当前具体个人职责待核实）
+vis-nlp / Ahmed Masry；官方仓库Contact由Ahmed Masry负责接收问题。
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ### 资助
 
-待核实
+Natural Sciences and Engineering Research Council (NSERC) of Canada。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+> 论文Acknowledgement明确资助机构；未补造项目编号。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）。
 
 ## 设计目标
 
@@ -144,13 +136,13 @@ vis-nlp 官方仓库团队（当前具体个人职责待核实）
 
 需要视觉引用、逻辑及算术组合运算的真实图表问答。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
 ### 设计背景
 
 既有图表QA多使用模板问题及固定答案词表，难覆盖自然复杂问题。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
 ## 构建方式
 
@@ -158,73 +150,83 @@ vis-nlp 官方仓库团队（当前具体个人职责待核实）
 
 从Statista、Pew、Our World in Data、OECD采集真实图表；人工问答ChartQA-H与从人工图表摘要自动生成的ChartQA-M并存。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 出题背景
+### 出题者背景
 
 人工标注者提出自然问题；自动部分由摘要驱动生成，不把全部称为专家原创。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）。
 
 ### 审核流程
 
 自动生成数据移除无效问答；SVG自动解析得到视觉标注；Pew缺SVG，另做人工标注和启发式处理。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ### 质量控制
 
-自动生成数据移除无效问答；SVG自动解析得到视觉标注；Pew缺SVG，另做人工标注和启发式处理。
+官方从SVG自动产生框标注；损坏、缺失或带噪的SVG会引入噪声。Pew图表没有SVG，需人工标注并用启发式加速；机器生成测试问答另经手工清理。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[2](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）。
 
-### 去污染措施
+### 去污染
 
 待核实
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
 ## 数据形式
 
 ### 规模
 
-论文：20,882图表、9,608人工问题、23,111生成问题。当前官方HF train 28,299、val 1,920、test 2,500行。
+- **total_qa**：32719
+- **train_qa**：28299
+- **validation_qa**：1920
+- **test_qa**：2500
+- **paper_human_qa**：9608
+- **paper_machine_qa**：23111
+- **paper_human_charts**：4804
+- **paper_machine_charts**：17141
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://huggingface.co/datasets/ahmed-masry/ChartQA](https://huggingface.co/datasets/ahmed-masry/ChartQA)（访问 2026-11-07 KST）
+> 论文Table2与官方HF splits一致；图表计数为两个来源集合口径，不将4804+17141冒充全库去重图表数。
+
+来源：[1](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）；[2](https://huggingface.co/datasets/ahmed-masry/ChartQA/raw/main/README.md)（访问 2026-11-07 KST）。
 
 ### 题型
 
 开放式数值或文本回答；条形图、折线图和饼图，附原始表格及部分框标注。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ### 模态
 
 图像+文本
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
 ### 语言
 
 英文（本次公开问题/官方说明；完整语言分布待核实）
 
-来源：[https://huggingface.co/datasets/ahmed-masry/ChartQA](https://huggingface.co/datasets/ahmed-masry/ChartQA)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://huggingface.co/datasets/ahmed-masry/ChartQA)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
-### 难度分布
+### 难度与类型
 
-待核实
+- **proxy**：无统一easy/medium/hard标注；论文以任务类型和推理操作分析。
+- **sample_analysis**：论文Table4随机300个人工问题：data retrieval 13.0%、visual 10.7%、compositional 43.0%、visual+compositional 33.3%。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+> 这是论文抽样类型分布，不外推为完整32,719题的难度分布。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）。
 
-### 公开/隐藏划分
+### 公开与隐藏划分
 
 官方数据含train/val/test；human与augmented子集独立文件，test共2,500问题。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ## 评测方法
 
@@ -232,169 +234,147 @@ vis-nlp 官方仓库团队（当前具体个人职责待核实）
 
 relaxed accuracy：数值误差在参考值5%以内算正确，非数值采用字符串匹配。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ### 评分
 
 relaxed accuracy：数值误差在参考值5%以内算正确，非数值采用字符串匹配。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
-### 提示设置
+### 提示和复现设置
 
 论文基线可使用图像和底层数据表；评测时应说明是否使用oracle表格、OCR或仅图像，不能同口径排名。
 
-来源：[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[2](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）。
 
-### 评测脚本
+### 官方脚本
 
 https://github.com/vis-nlp/ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 可比性提醒
+### 可比性提示
 
 机器生成/人工子集分别报告；官方指出SVG缺失/损坏使框标注有噪声。MMVistaReason使用CompassVerifier，不等同于原始5%数值容差。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）。
 
 ## 最新情况
 
-### 核验日期（KST）
+### 本轮核验时间
 
-2026-11-07
+2026-11-07 KST / Asia/Seoul
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 最新数据状态
+### 最新版本与H2证据
 
-待核实
+本轮核实官方Full Version（含图像框标注），HF train/val/test为28,299/1,920/2,500；官方后续ChartQAPro是独立基准，不替代原版数据版本。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[2](https://huggingface.co/datasets/ahmed-masry/ChartQA/raw/main/README.md)（访问 2026-11-07 KST）。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+### 论文修订与H2使用证据
 
-### 论文版本及2026-H2继续使用证据
+- **revisions**：[{"version": "v1", "date_kst": "2022-03-19T14:00:30+09:00"}]
+- **continued_use_2026h2**：[{"url": "https://arxiv.org/html/2610.01352v2", "date": "2026-10-23", "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。", "date_kst": "2026-10-23T01:54:37+09:00", "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"}]
+- **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
 
-```json
-{
-  "revisions": [
-    {
-      "version": "v1",
-      "date_kst": "2022-03-19T14:00:30+09:00"
-    }
-  ],
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-22",
-      "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-    }
-  ],
-  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
-}
-```
-
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）；[3](https://arxiv.org/abs/2610.01352)（访问 2026-11-07 KST）。
 
 ### 饱和程度
 
 待核实
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 污染、冲突及协议差异
+### 污染、冲突与限制
 
 机器生成/人工子集分别报告；官方指出SVG缺失/损坏使框标注有噪声。MMVistaReason使用CompassVerifier，不等同于原始5%数值容差。
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）。
 
-### 衍生基准
+### 后续工作与衍生
 
 ChartQAPro，官方仓库推荐的更具挑战的真实图表QA后续基准；本条不将Pro另计入原版结果。
 
-来源：[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
 ## 榜单快照
 
-### 快照日期（KST）
+### 快照采集日
 
 2026-11-07
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
 ### 官方榜单
 
 https://github.com/vis-nlp/ChartQA
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 第三方独立跟踪
+### 权威第三方覆盖
 
 待核实
 
-> 本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。
+> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
+来源：[1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）。
 
-### 可核验结果
+### 结果快照
 
-| 模型/版本 | 分数 | 口径 | 报告日期 | 来源性质 |
-|---|---:|---|---|---|
-| MMVistaReason-4B (MVR-4B) | 86.2% | ChartQA | 2026-10-22 | MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测 |
-| MMVistaReason-9B (MVR-9B) | 87.6% | ChartQA | 2026-10-22 | MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排 |
+- {"model": "VisionTaPas", "score": 45.52, "unit": "%", "metric": "原论文准确率（数值答案允许5%容差）", "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线", "date": "2022-05", "accessed": "2026-11-07 KST", "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf", "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"}
+- {"model": "VL-T5", "score": 41.56, "unit": "%", "metric": "原论文准确率（数值答案允许5%容差）", "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线", "date": "2022-05", "accessed": "2026-11-07 KST", "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf", "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"}
+- {"model": "TaPas", "score": 41.28, "unit": "%", "metric": "原论文准确率（数值答案允许5%容差）", "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线", "date": "2022-05", "accessed": "2026-11-07 KST", "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf", "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"}
+- {"model": "MMVistaReason-4B (MVR-4B)", "score": 86.2, "unit": "%", "metric": "论文协议答案正确率（CompassVerifier）", "scope": "ChartQA", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测", "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"}
+- {"model": "MMVistaReason-9B (MVR-9B)", "score": 87.6, "unit": "%", "metric": "论文协议答案正确率（CompassVerifier）", "scope": "ChartQA", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排", "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"}
 
-来源：[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+来源：[1](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）；[2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）。
 
 ### 覆盖说明
 
-官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。
+本轮重新检查官方README、Full Version数据卡及AA评测目录，未核实持续更新的原版ChartQA独立榜单。以下新采集官方论文Table5历史基线（无gold table），与2026-H2作者复测分组；这些不是2026实时前三。当前官方排名仍待核实。
 
-> 本批未核实官方当前排名，故只列明确注明来源的2026-H2研究复测，不把研究复测冒充官方榜单。
-
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）；[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）；[2](https://aclanthology.org/2022.findings-acl.177.pdf)（访问 2026-11-07 KST）；[3](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）；[4](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）。
 
 ## 联系方式
 
-### 官方公开邮箱
+### 公开联系邮箱
 
-```json
-[
-  "amasry17@ku.edu.tr"
-]
-```
+- amasry17@ku.edu.tr
 
-> 项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。
+> 官方README明确旧邮箱masry20@yorku.ca已停用；当前联系不再推荐旧邮箱。
 
-来源：[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
-### 公开反馈
+### 问题反馈
 
 https://github.com/vis-nlp/ChartQA/issues
 
-来源：[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
 
-### 官方账号/联系更新
+### 官方讨论渠道
 
 旧学校邮箱masry20@yorku.ca已停用，采用官方README当前公开联系邮箱。
 
-来源：[https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）
+来源：[1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问 2026-11-07 KST）。
 
-### 联系信息原则
+### 隐私政策
 
 仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。
 
-来源：[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07 KST）
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07 KST）。
 
 ## 原始文件
 
-### 原始论文PDF
+### 源站论文PDF
 
 https://arxiv.org/pdf/2203.10244
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）。
 
 ### SHA-256
 
@@ -402,51 +382,40 @@ https://arxiv.org/pdf/2203.10244
 
 > 下载原始字节校验，未压缩、未改写。
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）。
 
 ### 字节数
 
 2938574
 
-来源：[https://arxiv.org/pdf/2203.10244](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/pdf/2203.10244)（访问 2026-11-07 KST）。
 
-### Drive资料夹
+### Drive文件夹
 
-```json
-{
-  "id": "1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq",
-  "webViewLink": "https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq"
-}
-```
+- **id**：1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq
+- **webViewLink**：https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq
 
-来源：[https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq](https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq)（访问 2026-11-07 KST）
+来源：[1](https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq)（访问 2026-11-07 KST）。
 
-### 中文介绍与其他原件
+### 其他文档
 
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc",
-    "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM",
-    "webViewLink": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk"
-  }
-]
-```
+- {"kind": "中文介绍 Google Doc", "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM", "webViewLink": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk"}
 
-来源：[https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk](https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk)（访问 2026-11-07 KST）
+来源：[1](https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk)（访问 2026-11-07 KST）。
+
+### Drive原文归档
+
+- **id**：1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy
+- **webViewLink**：https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk)（访问 2026-11-07 KST）。
 
 ## 变更记录
 
-### 变更记录
+### 本页修订
 
-```json
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  }
-]
-```
+- {"date": "2026-11-07", "timezone": "Asia/Seoul", "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"}
+- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "round": "1 / 深度实证复核", "change": "补Full/First版本区别、NSERC资助、机构、最新联系邮箱和题量/类型分布；采集官方论文历史基线，当前独立实时榜仍未核实；重核H2。"}
 
-来源：[https://arxiv.org/abs/2203.10244](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[https://github.com/vis-nlp/ChartQA](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）
+来源：[1](https://arxiv.org/abs/2203.10244)（访问 2026-11-07 KST）；[2](https://github.com/vis-nlp/ChartQA)（访问 2026-11-07 KST）。
+

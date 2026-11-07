@@ -394,12 +394,8 @@
       ]
     },
     "public_hidden_split": {
-      "value": "论文testmini 788题；剩余test为1,824题/10,944样本，论文称计划将来公开；本批未独立核实完整test当前发布情况。",
+      "value": "testmini公开788原题；五种多模态版本共3,940样本计算All，另788个Text Only样本做消融，不计入五版本All。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2403.14624",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
           "accessed": "2026-11-07"
@@ -435,14 +431,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "CoT-E与答案判定分开；All不包含Text Only的平均。",
+      "value": "官方w/o主指标采用query_wo直接回答；CoT-E采用query_cot；优先lmms-eval mathverse_testmini并记录单版本子任务及提示。自评分两阶段为答案抽取和答案评分。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2403.14624",
           "accessed": "2026-11-07"
         }
       ]
@@ -457,18 +449,10 @@
       ]
     },
     "comparability_warning": {
-      "value": "六种版本、CoT-E/w/o及All定义须固定；3,940多模态样本和788原题不是题量冲突。",
+      "value": "All只聚合五种多模态版本；Text Only为另行消融。--quick_match字符串匹配更快但官方提示不够准确；CoT-E、w/o及MMVistaReason CompassVerifier研究设置不能直接混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.14624",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
           "accessed": "2026-11-07"
         }
       ]
@@ -811,6 +795,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

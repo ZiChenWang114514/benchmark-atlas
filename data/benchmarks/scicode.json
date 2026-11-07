@@ -147,27 +147,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（仓库 LICENSE；第三方材料不自动获得同等再授权）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
+          "url": "https://raw.githubusercontent.com/scicode-bench/SciCode/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2407.13168",
@@ -752,45 +738,19 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "当前推荐 inspect_ai 路径，README 示例 temperature=0；旧两阶段 gencode/unittest 方式已弃用。背景信息和前序解答设置必须另记。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
+          "url": "https://github.com/scicode-bench/SciCode",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "https://github.com/scicode-bench/SciCode",
+      "value": "推荐 eval/inspect_ai/scicode.py；旧 eval/scripts/gencode.py 与 test_generated_code.py 标为 deprecated。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
+          "url": "https://github.com/scicode-bench/SciCode",
           "accessed": "2026-11-07"
         }
       ]
@@ -836,8 +796,17 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/scicode",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.04975",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.04975",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-08，SciCode-Verified 审计并重跑原始测试集。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -906,18 +875,14 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "官方主页正文对领域数量出现“6 domains”但列举五大领域；论文表格列五大领域，本库不擅自修正官网。Artificial Analysis 页面另提示 SciCode-Verified 审计发现可能存在错误测试，正在复核；成绩可能重跑。",
+      "value": "官方 README 先称 5 domains，后又称 6 disciplines，内部口径冲突保留；独立 SciCode-Verified 审计报告原测试有缺陷并剔除 1 个主问题，剩 64 个主问题/287 子题。AA 表示正在复核，未证实已全面采用修订版。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
+          "url": "https://github.com/scicode-bench/SciCode",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
+          "url": "https://arxiv.org/abs/2608.04975",
           "accessed": "2026-11-07"
         },
         {
@@ -927,27 +892,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "SciCode-Verified：独立作者审计并修正测试集；不能视为原作者正式升级，也不能与原 SciCode 分数混用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
+          "url": "https://arxiv.org/abs/2608.04975",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -973,22 +924,10 @@
       ]
     },
     "official_url": {
-      "value": "https://scicode-bench.github.io/",
+      "value": "https://scicode-bench.github.io/leaderboard/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
+          "url": "https://scicode-bench.github.io/leaderboard/",
           "accessed": "2026-11-07"
         }
       ]
@@ -1015,41 +954,44 @@
       ]
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
+          "model": "OpenAI o3-mini-low",
+          "score": 10.8,
+          "unit": "%",
+          "metric": "main problem resolve rate",
+          "subproblem_score": 33.3,
+          "scope": "官方页面现存历史结果；不是全网当前 SOTA；页面更新时间待核实"
         },
         {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
+          "model": "OpenAI o3-mini-high",
+          "score": 9.2,
+          "unit": "%",
+          "metric": "main problem resolve rate",
+          "subproblem_score": 34.4,
+          "scope": "官方页面现存历史结果；不是全网当前 SOTA；页面更新时间待核实"
         },
         {
-          "url": "https://scicode-bench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/scicode",
-          "accessed": "2026-11-07"
+          "model": "OpenAI o3-mini-medium",
+          "score": 9.2,
+          "unit": "%",
+          "metric": "main problem resolve rate",
+          "subproblem_score": 33.0,
+          "scope": "官方页面现存历史结果；不是全网当前 SOTA；页面更新时间待核实"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.13168",
+          "url": "https://scicode-bench.github.io/leaderboard/",
           "accessed": "2026-11-07"
-        },
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方表格前三行按页面顺序记录；同为 9.2% 的行以子题分数排序。AA 页面正在审查数据，当前可读文本未给出成绩；其最新排名仍待核实。",
+      "sources": [
         {
-          "url": "https://arxiv.org/pdf/2407.13168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scicode-bench.github.io/",
+          "url": "https://scicode-bench.github.io/leaderboard/",
           "accessed": "2026-11-07"
         },
         {
@@ -1084,10 +1026,6 @@
     "github_issues": {
       "value": "https://github.com/scicode-bench/SciCode/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2407.13168",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/scicode-bench/SciCode",
           "accessed": "2026-11-07"
@@ -1206,6 +1144,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -1219,5 +1162,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

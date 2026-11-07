@@ -119,23 +119,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（仓库软件许可；不据此推断第三方题目或教材的再授权）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://raw.githubusercontent.com/phybench-official/phybench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2504.16074",
@@ -427,23 +417,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "178 名北京大学物理学生贡献题目；另有 81 名物理学生参与最终审核与人类基线。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "以原创或定制题为主；经过格式筛选、歧义检查、迭代修订及人类专家解题复核。",
@@ -463,42 +443,22 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "三阶段流程：专家出题和格式筛选、多轮学术审核和消歧、学生独立求解核查；官方明确不因模型觉得简单或困难而删题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "官方称题目以学生原创为主且不易从网络直接检得；这是设计措施，并非对模型训练集污染的独立证明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -573,23 +533,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "高中、大学本科及物理奥赛层级。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "待核实",
@@ -630,18 +580,10 @@
       ]
     },
     "scoring": {
-      "value": "准确率与 Expression Edit Distance（EED）分数；符号等价和表达式树距离评分。",
+      "value": "先用 SymPy 简化再计算表达式树距离 r；r=0 得 100，0<r<0.6 得 60−100r，r≥0.6 得 0。EED 是部分给分，不等于二元准确率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
       ]
@@ -715,8 +657,17 @@
         {
           "url": "https://phybench-official.github.io/phybench-demo/",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13009",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13009",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-09，专家重评论文直接使用并审计本基准；保留集结果不能混作原始全库成绩。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -773,18 +724,14 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "新官方入口 https://www.phybench.cn/ 本次未返回可提取正文，现收录老官方项目页明确标注的研究结果，不声称为实时最新总榜。",
+      "value": "2026 年 9 月独立专家审计指出原评分器及部分参考材料存在问题；纠错结果只针对抽样后保留集，不能外推为全库成绩。原作者的数据质量主张与审计结论并列保留。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://arxiv.org/abs/2609.13009",
           "accessed": "2026-11-07"
         }
       ]
@@ -828,18 +775,10 @@
       ]
     },
     "official_url": {
-      "value": "https://phybench-official.github.io/phybench-demo/",
+      "value": "https://www.phybench.cn/leaderboard",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
       ]
@@ -881,18 +820,14 @@
       ]
     },
     "coverage_note": {
-      "value": "仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。",
+      "value": "本轮官方实时榜单返回空正文，未取得可核验实时前三；保留旧项目页 Gemini 2.5 Pro 36.9% 为历史研究结果，绝不当当前第一。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://www.phybench.cn/leaderboard",
           "accessed": "2026-11-07"
         }
       ]
@@ -900,31 +835,19 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "contact@phybench.cn"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2504.16074",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://phybench-official.github.io/phybench-demo/",
+          "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/phybench-official/phybench/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2504.16074",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/phybench-official/phybench",
           "accessed": "2026-11-07"
@@ -1039,6 +962,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -1052,5 +980,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

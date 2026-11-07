@@ -38,16 +38,8 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "v0.1",
+      "value": "matbench_v0.1",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
@@ -118,23 +110,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "软件：MIT（Copyright 2021 Hacking Materials Research Group）；各子数据来源许可分别核对。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2005.00707",
@@ -154,22 +136,13 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/materialsproject/matbench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "dataset_url": {
       "value": "https://matbench.materialsproject.org/",
@@ -285,7 +258,7 @@
       ]
     },
     "maintainer": {
-      "value": "Materials Project；官网注明 Alex Dunn / HackingMaterials Group",
+      "value": "Materials Project；网站页脚注明由 HackingMaterials Group 的 Alex Dunn 维护。",
       "sources": [
         {
           "url": "https://matbench.materialsproject.org/",
@@ -444,16 +417,8 @@
   },
   "data_format": {
     "size": {
-      "value": "13 个任务；论文描述每任务从 312 到约 132k 样本；精确任务计数见官方榜单。",
+      "value": "13项监督学习任务；样本数从 steels 的312到 mp_e_form 的132,752，各任务独立，不求和去重为单一题量。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
@@ -461,16 +426,8 @@
       ]
     },
     "question_types": {
-      "value": "13 个任务；论文描述每任务从 312 到约 132k 样本；精确任务计数见官方榜单。",
+      "value": "材料结构或化学组成作为输入，预测电子、热力学、力学、热学等性质；包括回归和分类。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
@@ -627,18 +584,10 @@
       "status": "待核实"
     },
     "comparability_warning": {
-      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "value": "官方重大勘误：v0.1 分类榜标作 ROC-AUC 的旧分数来自0.5阈值化预测，实际等于 balanced accuracy；旧榜尚未重算。不得解释为真正 ROC-AUC。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -680,18 +629,10 @@
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Alexander Dunn [ view email ] [v1] Sat, 2 May 2020 05:17:56 UTC (1,253 KB) [v2] Fri, 8 May 2020 00:34:20 UTC (2,455 KB)",
+      "value": "2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://pubs.rsc.org/dd/article/5/10/4000/1311628/Materials-discovery-is-a-composition-problem-the",
           "accessed": "2026-11-07"
         }
       ]
@@ -716,18 +657,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "官方警告旧分类榜的 ROC-AUC 由0.5阈值后的预测计算，实际上等于 balanced accuracy；历史分数未重算，不应解读为真正 ROC-AUC。",
+      "value": "分类旧分数语义错误，见官方 issues #137、#181；未来评分已修复，但现有榜单没有重算。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -774,14 +707,6 @@
       "value": "https://matbench.materialsproject.org/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
         }
@@ -809,25 +734,32 @@
     "results": {
       "value": [
         {
-          "model": "MODNet (v0.1.12)",
-          "score": 87.7627,
-          "unit": "MPa",
-          "metric": "MAE（越低越好）",
-          "scope": "matbench_steels 官方首页领先结果"
-        },
-        {
           "model": "coGN",
           "score": 0.017,
           "unit": "eV/atom",
           "metric": "MAE（越低越好）",
-          "scope": "matbench_mp_e_form 官方首页领先结果；软件精确版本待核实"
+          "scope": "matbench_mp_e_form，132,752样本"
         },
         {
           "model": "coGN",
           "score": 0.1559,
           "unit": "eV",
           "metric": "MAE（越低越好）",
-          "scope": "matbench_mp_gap 官方首页领先结果；软件精确版本待核实"
+          "scope": "matbench_mp_gap，106,113样本"
+        },
+        {
+          "model": "MODNet (v0.1.12)",
+          "score": 0.2711,
+          "unit": "待核实",
+          "metric": "MAE（越低越好）",
+          "scope": "matbench_dielectric，4,764样本"
+        },
+        {
+          "model": "MODNet (v0.1.12)",
+          "score": 87.7627,
+          "unit": "MPa",
+          "metric": "MAE（越低越好）",
+          "scope": "matbench_steels，312样本"
         }
       ],
       "sources": [
@@ -835,19 +767,12 @@
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "分任务快照（无跨任务总冠军）：mp_e_form：coGN MAE 0.0170 eV/atom（132,752样本）；mp_gap：coGN 0.1559 eV（106,113）；dielectric：MODNet v0.1.12 0.2711（4,764）；steels：MODNet v0.1.12 87.7627 MPa（312）。"
     },
     "coverage_note": {
-      "value": "仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。",
+      "value": "2026-11-07 读取官方首页分任务领先条目；页面未给统一榜单更新日期。分类旧分数不纳入本轮数值快照。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://matbench.materialsproject.org/",
           "accessed": "2026-11-07"
@@ -873,23 +798,14 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/materialsproject/matbench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2005.00707",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://matbench.materialsproject.org/",
+          "url": "https://raw.githubusercontent.com/materialsproject/matbench/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -999,6 +915,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [
@@ -1012,5 +933,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
 }

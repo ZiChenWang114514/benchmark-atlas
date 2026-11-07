@@ -124,32 +124,22 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/deepchem/deepchem",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "DeepChem 的 MoleculeNet 数据加载接口（按各数据集分别加载）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "待核实",
@@ -232,19 +222,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "原论文将数据集、特征化和基线实现集成至 DeepChem；不据此断言原作者目前仍担任维护人。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -292,14 +276,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "整理多个公开分子数据集，将特征化、学习算法和划分机制集成到 DeepChem。",
+      "value": "汇集多个公开分子数据库，覆盖量子力学、物理化学、生物物理和生理四大类。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
       ]
@@ -333,19 +313,13 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "统一数据加载、特征化、模型实现及任务级指标与划分，以减少只更换测试集合造成的不可比性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -365,45 +339,31 @@
   },
   "data_format": {
     "size": {
-      "value": "分子属性预测任务集合，包含量子力学、生物物理等数据；具体任务样本量须按子数据集核实。",
+      "value": "原论文收集超过 700,000 个化合物的性质数据；这是数据集集合，不是单一题库。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "分子属性预测任务集合，包含量子力学、生物物理等数据；具体任务样本量须按子数据集核实。",
+      "value": "分子性质分类与回归。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "分子 SMILES；部分数据集另含三维坐标。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
       "value": "待核实",
@@ -436,44 +396,30 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "原论文按训练/验证/测试 80/10/10 划分，并为不同任务采用随机、骨架或时间等划分；不是统一隐藏测试集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "按数据集选择回归或分类指标并记录数据划分；不同 scaffold/random 等划分不可直接横比。",
+      "value": "分类按任务使用 ROC-AUC 或 PRC-AUC；回归按任务使用误差指标，例如 PDBbind 的 RMSE。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "按数据集选择回归或分类指标并记录数据划分；不同 scaffold/random 等划分不可直接横比。",
+      "value": "按子数据集和指定划分分别比较预测性能；不同划分与指标不得合并成一个统一总分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1703.00564",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/1703.00564",
+          "url": "https://arxiv.org/html/1703.00564",
           "accessed": "2026-11-07"
         }
       ]
@@ -532,8 +478,13 @@
         {
           "url": "https://arxiv.org/pdf/1703.00564",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.21504v1",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-08-21 ChemDIRT 明确使用 MoleculeNet 分类与回归子集（如 BACE/BBBP/ClinTox/HIV、ESOL、Lipophilicity）。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -810,6 +761,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [
@@ -823,5 +779,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。"
 }

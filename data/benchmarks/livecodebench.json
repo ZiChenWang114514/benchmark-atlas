@@ -23,10 +23,10 @@
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
     },
     "version": {
-      "value": "持续滚动采题；必须按评测时间窗固定快照",
+      "value": "README列举到release_v6；默认release_latest是可变别名，复现须锁定release_version和题目日期窗。",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
+          "url": "https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -238,10 +238,10 @@
       ]
     },
     "quality_control": {
-      "value": "以可执行测试与发布日期注释支持复查；公布提示和模型生成。",
+      "value": "ERRATA追踪错误测试及不适合自动评分的问题；code_generation_lite删减测试以加速，原始集需--not_fast。官方提示超时可造成小于0.5点分数变化。",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
+          "url": "https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -258,14 +258,10 @@
   },
   "data_format": {
     "size": {
-      "value": "主页早期快照为 300+ 题（2023-05 至 2024-02）；论文修订/AA 摘要为 500+（至 2024-05）。这些是历史时间窗，不是 2026 总题量。",
+      "value": "README明确列出 release_v1 400、v2 511、v3 612、v4 713、v5 880、v6 1,055题；v6覆盖2023-05至2025-04。主页300+与论文500+属历史窗口，不能当作当前总量。",
       "sources": [
         {
-          "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2403.07974",
+          "url": "https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -359,10 +355,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "场景、语言、日期窗、采样和修复预算必须固定；本条不假定所有榜单共用一个提示。",
+      "value": "官方代码生成示例n=10、temperature=0.2；按模型设置提示；生成计算pass@1/pass@5。必须固定release_version、start_date/end_date、lite或原始测试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2403.07974",
+          "url": "https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -503,8 +499,9 @@
           "metric": "AA LiveCodeBench score (%)",
           "benchmark_version": "AA窗口待核实",
           "result_type": "独立第三方当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Gemini 3 Flash Preview (Reasoning)",
@@ -512,8 +509,9 @@
           "metric": "AA LiveCodeBench score (%)",
           "benchmark_version": "AA窗口待核实",
           "result_type": "独立第三方当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "DeepSeek V3.2 Speciale",
@@ -521,8 +519,9 @@
           "metric": "AA LiveCodeBench score (%)",
           "benchmark_version": "AA窗口待核实",
           "result_type": "独立第三方当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Hunyuan-A13B slow-thinking",
@@ -686,6 +685,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

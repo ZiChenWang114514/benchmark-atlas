@@ -72,10 +72,10 @@
       ]
     },
     "license": {
-      "value": "数据集CC BY 4.0（原论文Data Availability）；代码及上游数据许可应另行核查。",
+      "value": "数据集为CC BY 4.0（官方README License节）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -172,10 +172,10 @@
       ]
     },
     "funders": {
-      "value": "论文致谢NAIRR grant 240283；不推断其覆盖所有数据维护开销。",
+      "value": "National AI Research Resource（NAIRR），grant 240283。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -250,10 +250,10 @@
   },
   "data_format": {
     "size": {
-      "value": "1,384个GTA问题（132无条件+1,252条件），911数据集、41.5GB、152,415样本；448数据集成功预处理。",
+      "value": "1,384个GTA问题：132个无条件、1,252个有条件；911个输入数据集，152,415个样本，237,907行分析代码。README分别给输入数据41.5 GB及完整下载82.0 GB，二者口径不同。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -333,10 +333,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/Liu-Hy/GenoTEX",
+      "value": "eval.py：对selection、preprocessing、analysis三类任务评估；预测目录须与output参考目录格式一致，可按gene/clinical/linked子任务选择。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -619,6 +619,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

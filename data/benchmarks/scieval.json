@@ -174,16 +174,8 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/OpenDFM/SciEval",
+      "value": "https://huggingface.co/datasets/OpenDFM/BAI-SciEval",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
@@ -309,23 +301,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "funders": {
-      "value": "待核实",
+      "value": "中国 NSFC 项目 92370206、U23B2057、62106142、62120106006；上海市科技重大专项 2021SHZDZX0102。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/OpenDFM/SciEval",
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -419,58 +401,34 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "Socratic 社区问答经规则预处理，GPT-4 整理题干、简化标准答案并生成三个干扰选项；作者人工检查生成内容。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/OpenDFM/SciEval",
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "动态化学、物理数据通过重新生成问题降低潜在泄漏；README 明确动态文件与原榜单所用数据不同。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "官方仓库说明约 18,000 道客观题及少量主观题；不将约数当作精确题量。",
+      "value": "官方 README 概述约 18,000 道客观题及少量主观题；论文表1写 15,901，表2分科合计列 4,830/10,035/1,657，并另述动态化学2,000与物理890。范围/汇总不一致，保留原口径，精确去重总题量待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/OpenDFM/SciEval",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
         }
       ]
@@ -512,23 +470,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语（论文明确称 English benchmark）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/OpenDFM/SciEval",
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
       "value": "待核实",
@@ -550,90 +498,46 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "发布 dev、valid、test、test-local；test-local 含标准答案；dev 按 task name、ability、category 各取 5 个示例用于 few-shot。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "客观与主观任务分别评测；具体子任务指标待核实。",
+      "value": "静态题及动态物理题用准确率；动态化学分别用精确匹配、数值 MSE 与字符串 BLEU；实验数据人工评分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/OpenDFM/SciEval",
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "客观与主观任务分别评测；具体子任务指标待核实。",
+      "value": "静态题按标准答案判定；动态化学数值题用 MSE，无数值预测按论文设为 1×10^10；实验开放题由人工评估。不同指标不合成单一总分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
+          "url": "https://arxiv.org/html/2308.13149",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "dev 集专供 few-shot；make_few_shot.py 用于生成示例。动态题需单独使用 eval_dynamic.py。",
+      "sources": [
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
         }
       ]
     },
-    "prompt_settings": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/OpenDFM/SciEval",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
     "official_scripts": {
-      "value": "https://github.com/OpenDFM/SciEval",
+      "value": "静态题 eval.py；动态题 eval_dynamic.py；提交静态预测格式包含 id 与 pred。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
@@ -673,26 +577,26 @@
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-08，K-Bench 相关工作明确引用本基准（文献引用，不声称重新运行）。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "动态文件 dynamic_chem.json 与 dynamic_phy.json 为重新生成版本；官方承诺定期更新，未确认最新更新日期或标签。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Liangtai Sun [ view email ] [v1] Fri, 25 Aug 2023 03:05:33 UTC (2,634 KB) [v2] Thu, 7 Nov 2024 08:20:46 UTC (976 KB)",
@@ -884,10 +788,6 @@
       "value": "https://github.com/OpenDFM/SciEval/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/OpenDFM/SciEval",
           "accessed": "2026-11-07"
         }
@@ -1001,6 +901,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -1014,5 +919,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

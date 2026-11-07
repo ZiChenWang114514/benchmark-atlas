@@ -1,8 +1,10 @@
 # BIG-Bench Hard (BBH)｜中文深度介绍
 
+核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+
 测量组合逻辑、符号操作、算法执行和多步推理，以及显式思维链能否改善这些能力。
 
-来源：[https://arxiv.org/abs/2210.09261](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
 ## 一、基本信息
 
@@ -44,21 +46,15 @@ arXiv v1
 
 ### 子领域
 
-[
-  "多任务复杂推理"
-]
+- 多任务复杂推理
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
 ### 许可证
 
-待核实
+仓库LICENSE为MIT（Copyright 2022 suzgunmirac）；适用措辞为software/documentation，不将其自动扩大为BIG-Bench原始任务或论文的统一授权。
 
-状态：待核实。
-
-说明：数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证
-
-来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/LICENSE)（采集 2026-11-07）。
 
 ### 论文
 
@@ -102,27 +98,23 @@ Google Research、Stanford University（论文署名机构）
 
 待核实
 
-状态：待核实。
-
-说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
 ### 作者
 
-[
-  "Suzgun, Mirac",
-  "Scales, Nathan",
-  "Schärli, Nathanael",
-  "Gehrmann, Sebastian",
-  "Tay, Yi",
-  "Chung, Hyung Won",
-  "Chowdhery, Aakanksha",
-  "Le, Quoc V.",
-  "Chi, Ed H.",
-  "Zhou, Denny",
-  "Wei, Jason"
-]
+- Suzgun, Mirac
+- Scales, Nathan
+- Schärli, Nathanael
+- Gehrmann, Sebastian
+- Tay, Yi
+- Chung, Hyung Won
+- Chowdhery, Aakanksha
+- Le, Quoc V.
+- Chi, Ed H.
+- Zhou, Denny
+- Wei, Jason
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -130,9 +122,7 @@ Google Research、Stanford University（论文署名机构）
 
 待核实
 
-状态：待核实。
-
-说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -140,9 +130,7 @@ Google Research、Stanford University（论文署名机构）
 
 待核实
 
-状态：待核实。
-
-说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -278,17 +266,13 @@ https://github.com/suzgunmirac/BIG-Bench-Hard
 
 ### 修订与2026H2收录证据
 
-{
-  "arxiv_version": "arXiv v1",
-  "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-  "2026_h2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
-      "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 BIG-Bench Hard (BBH)；厂商自报评测。"
-    }
-  ]
-}
+- **论文版本**：arXiv v1
+- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+- **2026下半年引用/使用证据**：
+  - 
+    - **来源链接**：https://arxiv.org/html/2609.27284v1
+    - **日期**：2026-09-23
+    - **说明**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 BIG-Bench Hard (BBH)；厂商自报评测。
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -296,9 +280,7 @@ https://github.com/suzgunmirac/BIG-Bench-Hard
 
 待核实
 
-状态：待核实。
-
-说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -326,9 +308,7 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 待核实
 
-状态：待核实。
-
-说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+核验说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -336,38 +316,32 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 待核实
 
-状态：待核实。
-
-说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
 ### 限定范围的分数快照
 
-[
-  {
-    "model_version": "Hunyuan-A13B",
-    "score": "87.56",
-    "unit": "%",
-    "scope_and_protocol": "基础模型，3-shot CoT，报告表2",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "Qwen3-A22B",
-    "score": "88.87",
-    "unit": "%",
-    "scope_and_protocol": "基础模型对照，报告表2",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  }
-]
+- 
+  - **模型版本**：Hunyuan-A13B
+  - **分数**：87.56
+  - **单位**：%
+  - **范围与协议**：基础模型，3-shot CoT，报告表2
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：Qwen3-A22B
+  - **分数**：88.87
+  - **单位**：%
+  - **范围与协议**：基础模型对照，报告表2
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
 
 来源：[1](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -381,9 +355,7 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 ### 公开工作邮箱
 
-[
-  "msuzgun@cs.stanford.edu"
-]
+- msuzgun@cs.stanford.edu
 
 来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）；[2](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -397,9 +369,7 @@ https://github.com/suzgunmirac/BIG-Bench-Hard/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实专门官方社交账号，不收录同名个人账户
+核验说明：未核实专门官方社交账号，不收录同名个人账户
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
@@ -407,21 +377,26 @@ https://github.com/suzgunmirac/BIG-Bench-Hard/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
 ## 十、原始文件
 
-### 原始PDF
+### Drive论文PDF
+
+- **id**：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW
+- **webViewLink**：https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk)（采集 2026-11-07）。
+
+### 原始论文PDF
 
 https://arxiv.org/pdf/2210.09261
 
 来源：[1](https://arxiv.org/abs/2210.09261)（采集 2026-11-07）。
 
-### SHA256
+### SHA256校验值
 
 168f6fff020e9fde7563905f69e6a59d0648f195f48820d52c83c7adfaee18ec
 
@@ -433,48 +408,34 @@ https://arxiv.org/pdf/2210.09261
 
 来源：[1](https://arxiv.org/pdf/2210.09261)（采集 2026-11-07）。
 
-### Drive资料夹
+### Drive文件夹
 
-{
-  "id": "1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq",
-  "webViewLink": "https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq"
-}
+- **id**：1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
+- **webViewLink**：https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
 
 来源：[1](https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq)（采集 2026-11-07）。
 
-### 中文文档与本地稿
+### 其他文档
 
-{
-  "chinese_intro_doc": {
-    "id": "1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs",
-    "webViewLink": "https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk",
-    "mimeType": "application/vnd.google-apps.document"
-  },
-  "local_markdown": "content/benchmarks/bbh.md"
-}
+- **chinese_intro_doc**：
+  - **id**：1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs
+  - **webViewLink**：https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk
+  - **mimeType**：application/vnd.google-apps.document
+- **local_markdown**：content/benchmarks/bbh.md
 
 来源：[1](https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq)（采集 2026-11-07）。
-
-### drive_pdf
-
-{
-  "id": "1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW",
-  "webViewLink": "https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk"
-}
-
-来源：[1](https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk)（采集 2026-11-07）。
 
 ## 十一、变更记录
 
-### changelog
-
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  }
-]
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **本轮更新字段**：
+    - basic_info.license
 
 来源：[1](https://github.com/suzgunmirac/BIG-Bench-Hard)（采集 2026-11-07）。
-

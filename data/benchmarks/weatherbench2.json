@@ -143,27 +143,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码：Apache-2.0；各来源气象数据的许可需分别核对。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2308.15560",
@@ -190,19 +176,7 @@
       "value": "https://github.com/google-research/weatherbench2",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -700,22 +674,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "确定性 RMSE、概率预报 CRPS 等分指标呈现；不设脱离变量和提前期的单一总榜。",
+      "value": "确定性：全球 RMSE；概率预测：CRPS；降水另用 SEEPS。按变量、时效和地面/高空分别比较，不设唯一总分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
           "accessed": "2026-11-07"
         }
       ]
@@ -786,22 +748,10 @@
       ]
     },
     "comparability_warning": {
-      "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
+      "value": "官网 scorecard 使用2022年评测期；业务模式对 IFS analysis，其余模式对 ERA5；模型顺序反映发表日期，不是名次。WeatherMesh 4 有未来年份训练提示，需核对 FAQ。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
           "accessed": "2026-11-07"
         }
       ]
@@ -830,44 +780,19 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "评测代码后继为 WeatherBench-X；不能将其名称当作旧数据集的语义版本号。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Stephan Rasp [ view email ] [v1] Tue, 29 Aug 2023 18:32:08 UTC (44,729 KB) [v2] Fri, 26 Jan 2024 14:26:23 UTC (42,971 KB)",
+      "value": "2026H2 引用证据：ClimateBench v2.0 第5.4节引用 Rasp et al. (2024) 的 WeatherBench 2，采用按变量与时效报告而不压成总排名的原则。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
+          "url": "https://arxiv.org/abs/2610.04558",
           "accessed": "2026-11-07"
         }
       ]
@@ -917,27 +842,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方已发布 WeatherBench-X，建议用户切换评测代码；WeatherBench 2 的 data guide 仍适用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -966,19 +877,7 @@
       "value": "https://sites.research.google/weatherbench/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
           "accessed": "2026-11-07"
         }
       ]
@@ -1030,22 +929,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "2026-11-07 读取官方页面，图形 scorecard 数值未可靠提取，results 保留待核实；不能把 participating models 表当排名。官网未明示整体榜单更新日期。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
           "accessed": "2026-11-07"
         }
       ]
@@ -1079,14 +966,11 @@
       "value": "https://github.com/google-research/weatherbench2/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/google-research/weatherbench2",
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -1200,6 +1084,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [
@@ -1213,5 +1102,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
 }

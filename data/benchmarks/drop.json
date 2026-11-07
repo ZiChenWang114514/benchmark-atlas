@@ -93,15 +93,17 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/allenai/allennlp-models",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "未确认当前官方独立代码仓库"
+      ]
     },
     "dataset_url": {
       "value": "https://allennlp.org/drop",
@@ -333,10 +335,10 @@
       ]
     },
     "scoring": {
-      "value": "归一化文本、对齐多跨度并对多参考答案取最佳得分；数字不匹配时相应F1归零。",
+      "value": "官方脚本先规范化大小写、冠词、标点、空白及数值；EM比较规范化答案跨度，多跨度F1通过最优一对一匹配汇总，gold含数字时要求数字匹配；多个参考答案取最佳得分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
           "accessed": "2026-11-07"
         }
       ]
@@ -351,15 +353,13 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "尚未定位并固定当前官方评测脚本；官方协议见来源"
+      ]
     },
     "comparability_warning": {
       "value": "F1不是EM；公开开发集与隐藏测试集、不同数值归一化实现不能直接比较。",
@@ -390,14 +390,10 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "2019 公开数据集；本轮未固定下载包版本",
+      "value": "本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。",
       "sources": [
         {
-          "url": "https://allennlp.org/drop",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1903.00161",
+          "url": "https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -676,6 +672,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.code_url",
+          "evaluation.official_scripts",
+          "evaluation.scoring",
+          "latest_status.latest_dataset_version"
+        ]
       }
     ],
     "sources": [

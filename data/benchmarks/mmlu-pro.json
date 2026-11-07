@@ -1,7 +1,7 @@
 {
   "id": "mmlu-pro",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "MMLU-Pro",
@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "MMLU-Pro（数据卡未以统一语义版本号命名；需固定数据修订以复现）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v6",
@@ -73,10 +71,10 @@
       ]
     },
     "license": {
-      "value": "数据：论文附录说明 MIT；代码仓库当前显示 Apache-2.0，二者不是同一许可对象。",
+      "value": "MIT（官方数据集卡声明）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
@@ -176,15 +174,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 TIGER-AI-Lab；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -238,10 +234,10 @@
       ]
     },
     "review_process": {
-      "value": "两阶段专家审核；利用 Gemini-1.5-Pro 检查筛选过程中的假阴性等问题。",
+      "value": "GPT-4 扩充干扰项后，由十余名专家审核问题和选项；初筛排除原 MMLU 中简单或含糊的问题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
@@ -269,19 +265,19 @@
   },
   "data_format": {
     "size": {
-      "value": "12,032 题，14 个学科；83% 的题目有 10 个选项，平均 9.47 个选项。",
+      "value": "测试集 12,032 题；validation 70 题；14 学科。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "单答案多项选择，通常 10 个候选项",
+      "value": "通常为十选一；人工复核时少数题删去不合理选项，不能假定每题严格十个选项。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.01574",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
@@ -384,15 +380,13 @@
       "note": "2026-H2实际使用证据：2026-10-08：Jev 对比研究的表1–2和§3.1实际使用 MMLU-Pro，将其纳入13个多选基准的模型评测。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "官方数据卡记录2026-01-18修正答案选项前导空格；2026-03-11新增榜单模型。未据此宣称之后没有更新。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -481,7 +475,7 @@
       "value": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro",
       "sources": [
         {
-          "url": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
@@ -498,49 +492,45 @@
     "results": {
       "value": [
         {
-          "model": "Gemini 3 Pro Preview (High)",
-          "score": 89.8,
+          "model": "Claude-3.5-Sonnet",
+          "score": 76.12,
           "unit": "%",
-          "metric": "accuracy",
-          "scope": "AA 页面公开内嵌摘要；模型标签按原页，非自行推定 API 快照",
-          "evaluation_date": "待核实",
+          "metric": "Overall Accuracy",
+          "scope": "官方 README Mini-Leaderboard 历史表；完整动态榜未解析出排名",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         },
         {
-          "model": "Gemini 3 Pro Preview (Low)",
-          "score": 89.5,
+          "model": "GPT-4o",
+          "score": 72.55,
           "unit": "%",
-          "metric": "accuracy",
-          "scope": "AA 页面公开内嵌摘要",
-          "evaluation_date": "待核实",
+          "metric": "Overall Accuracy",
+          "scope": "官方 README Mini-Leaderboard 历史表；完整动态榜未解析出排名",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         },
         {
-          "model": "Claude Opus 4.5 (Reasoning)",
-          "score": 89.5,
+          "model": "Gemini-1.5-Pro",
+          "score": 69.03,
           "unit": "%",
-          "metric": "accuracy",
-          "scope": "AA 页面公开内嵌摘要",
-          "evaluation_date": "待核实",
+          "metric": "Overall Accuracy",
+          "scope": "官方 README Mini-Leaderboard 历史表；完整动态榜未解析出排名",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         }
       ],
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/mmlu-pro",
+          "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "AA 网页可见正文未展开具体分数，但公开 HTML 的页面摘要载荷给出所列三项；只作采集日可读快照，更新时间和精确 API 版本待核实。官方仓库 mini 榜最高列 Claude-3.5-Sonnet 76.12%，缺乏明确运行日期，属于较旧口径，未与 AA 排名合并。",
+      "value": "完整官方 Space 仅返回应用壳，未取到动态前列；此处明确采用官方 README 历史小榜。数据卡说明部分模型为他人提交，通常5-shot、部分Gemini为0-shot，不能无条件比较。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/mmlu-pro",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
           "accessed": "2026-11-07"
         }
       ]
@@ -665,6 +655,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -674,6 +669,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2406.01574",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
         "accessed": "2026-11-07"
       }
     ]

@@ -1,7 +1,7 @@
 {
   "id": "mmlu-redux",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "MMLU-Redux",
@@ -22,10 +22,10 @@
       ]
     },
     "version": {
-      "value": "2.0",
+      "value": "MMLU-Redux 2.0（本条目数据入口；原始论文和旧仓库描述不等于2.0全量统计）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
           "accessed": "2026-11-07"
         }
       ]
@@ -71,10 +71,10 @@
       ]
     },
     "license": {
-      "value": "论文声明 CC BY 4.0；具体数据文件再分发仍应检查数据卡。",
+      "value": "CC-BY-4.0（官方数据集卡声明）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
           "accessed": "2026-11-07"
         }
       ]
@@ -173,15 +173,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 aryopg；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://github.com/aryopg/mmlu-redux",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -235,10 +233,10 @@
       ]
     },
     "review_process": {
-      "value": "依据错误分类体系人工检查，并查询可信材料核实答案。",
+      "value": "标注者先评估题目表述，再核验原标签；鼓励精确搜索原题并查询政府、教材等可信资料；超出专业判断能力时标为 expert。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
           "accessed": "2026-11-07"
         }
       ]
@@ -362,10 +360,10 @@
       ]
     },
     "comparability_warning": {
-      "value": "3,000 题早期版与 5,700 题 2.0 不可直接混比；只用原标签算分不等于完成 Redux 纠错评测。",
+      "value": "原题与选项即使有歧义也不直接改写；应依 error_type 过滤并参考 correct_answer。2.0数据卡与旧版30学科描述并存，须记录实际配置和筛选口径。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
           "accessed": "2026-11-07"
         }
       ]
@@ -383,7 +381,7 @@
       "note": "2026-H2实际使用证据：2026-10-08：Jev 对比研究的表1–2和§3.1实际使用 MMLU-Redux，将其纳入13个多选基准的模型评测。"
     },
     "latest_dataset_version": {
-      "value": "2.0",
+      "value": "官方发布入口 mmlu-redux-2.0；数据卡说明仍保留旧版30学科描述，版本统计需区分。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
@@ -531,15 +529,16 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "aryo.gema@ed.ac.uk",
+        "p.minervini@ed.ac.uk"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.04127",
+          "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/aryopg/mmlu-redux/issues",
@@ -646,6 +645,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -655,6 +659,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2406.04127",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/aryopg/mmlu-redux",
         "accessed": "2026-11-07"
       }
     ]

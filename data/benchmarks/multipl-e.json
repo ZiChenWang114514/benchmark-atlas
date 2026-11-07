@@ -1,7 +1,7 @@
 {
   "id": "multipl-e",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "MultiPL-E",
@@ -75,10 +75,14 @@
       ]
     },
     "license": {
-      "value": "BSD 3-Clause + Machine Learning Restriction；仓库第4条明确禁止将内容用作任何机器学习模型训练数据。",
+      "value": "仓库：BSD 3-Clause with Machine Learning Restriction，第4条禁止训练用途；官方HF数据卡另标MIT。两种发布载体声明不一致，分别保留，不能据HF标签绕过仓库条款。",
       "sources": [
         {
-          "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
+          "url": "https://raw.githubusercontent.com/nuprl/MultiPL-E/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -102,15 +106,17 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/nuprl/MultiPL-E",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2208.08227",
+          "url": "https://raw.githubusercontent.com/nuprl/MultiPL-E/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://github.com/nuprl/MultiPL-E",
@@ -418,14 +424,14 @@
       "status": "待核实"
     },
     "contamination_and_issues": {
-      "value": "当前仓库采用带禁止ML训练条款的BSD衍生许可；原论文datasheet提到母题MIT及许可证问答，不能据此把当前仓库写成MIT。以本次读取LICENSE界定仓库使用，母题来源权利仍单列。",
+      "value": "权利冲突：官方GitHub LICENSE为带禁止机器学习训练条款的BSD衍生许可；官方HF卡license字段为MIT。应核实具体下载载体、版本及上游母题权利，不将其统一标成MIT。",
       "sources": [
         {
-          "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
+          "url": "https://raw.githubusercontent.com/nuprl/MultiPL-E/main/LICENSE",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2208.08227",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -628,6 +634,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

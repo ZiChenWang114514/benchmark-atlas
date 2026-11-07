@@ -95,19 +95,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码：MIT（Copyright 2019 Stephan Rasp）；ERA5 派生数据条款需单独核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2002.00469",
@@ -126,11 +120,7 @@
       "value": "https://github.com/pangeo-data/WeatherBench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -286,14 +276,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "从 ERA5 再分析资料加工数据，并提供线性、深度学习和物理模型基线。",
+      "value": "ERA5 再分析月度归档经下载及重网格处理；IFS 基线来自 TIGGE；另提供 MPI-ESM-HR CMIP 历史模拟。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -359,14 +345,10 @@
   },
   "data_format": {
     "size": {
-      "value": "全球天气时空场；具体分辨率、变量和划分须按版本核实。",
+      "value": "三种网格分辨率 1.40625°、2.8125°、5.625°；5.625° 整套下载约175G（README 标法）。不把存储容量当样本数量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -385,19 +367,13 @@
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "数值气象时空场（不是自然语言选择题）；预测采用 NetCDF，维度 init_time、lead_time、lat、lon。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
       "value": "待核实",
@@ -447,14 +423,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "统一天气预报指标，促进模型间可比性；参数细则待核实。",
+      "value": "Z500 RMSE（m²/s²）、T850 RMSE（K），报告3天及5天预报；需对齐网格、初值和时效。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -488,14 +460,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "official_scripts": {
-      "value": "https://github.com/pangeo-data/WeatherBench",
+      "value": "https://github.com/pangeo-data/WeatherBench/blob/master/src/score.py",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -529,28 +497,19 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "旧版数据已调整垂直层：现为 50、100、150、200、250、300、400、500、600、700、850、925、1000 hPa；另加入 MPI-ESM-HR 历史模拟派生数据。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Stephan Rasp [ view email ] [v1] Sun, 2 Feb 2020 19:20:46 UTC (5,314 KB) [v2] Wed, 12 Feb 2020 13:45:27 UTC (5,315 KB) [v3] Thu, 11 Jun 2020 19:13:22 UTC (5,408 KB)",
+      "value": "2026H2 引用证据：Spatial Generalization Tests for Machine Learning-based Weather Models to Assess Physical Consistency（arXiv:2607.20716v1）在引言引用 WeatherBench/Rasp et al. (2020)。该文参考文献作者与 DOI 元信息存在可疑不一致，保留题名与引用上下文，不沿用其作者表。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://arxiv.org/html/2607.20716v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -585,19 +544,13 @@
       "status": "待核实"
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方仓库推荐转向 WeatherBench 2：更新后的数据更全面，访问更方便。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -615,18 +568,13 @@
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://github.com/pangeo-data/WeatherBench#leaderboard",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -644,29 +592,19 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
+      "value": "官方旧版表：Operational IFS：Z500 154/334、T850 1.36/2.03；Rasp and Thuerey 2020：268/499、1.65/2.41；IFS T63：268/463、1.85/2.52。每对数字依次为3/5天。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "2026-11-07 读取旧版基线表，榜单更新时间待核实；含物理模式与不同分辨率模型，不称为当前统一 SOTA 排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2002.00469",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -688,14 +626,11 @@
       "value": "https://github.com/pangeo-data/WeatherBench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2002.00469",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/pangeo-data/WeatherBench",
+          "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -801,6 +736,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [
@@ -814,5 +754,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
 }

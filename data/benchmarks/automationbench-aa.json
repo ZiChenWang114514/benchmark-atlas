@@ -22,10 +22,10 @@
       ]
     },
     "version": {
-      "value": "AA独立实现657任务；母协议AutomationBench",
+      "value": "AA使用AutomationBench数据集1.0.6的私有657任务划分；AA评分协议独立。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
       ]
@@ -100,15 +100,17 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "未公开（AA使用的657任务held-out测试集）；母项目公开任务另见https://github.com/zapier/AutomationBench。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2604.18934",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://artificialanalysis.ai/evaluations/automationbench-aa",
@@ -352,10 +354,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "Search/Execute接口与自主多步模拟；AA方法与母协议不同配置必须分别说明；母论文最多50步。",
+      "value": "每任务独立运行1次；50轮上限；模型经结构化工具自主发现并调用REST API；按终态程序断言评分，不使用独立LLM裁判。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         }
       ]
@@ -370,10 +372,14 @@
       ]
     },
     "comparability_warning": {
-      "value": "母论文严格全目标成功<10%和AA部分目标完成约78%不矛盾：数据、分母、门控/部分分均不同；切勿直接声称进步约70百分点。",
+      "value": "AA对无guardrail违规任务按目标完成比例给分，违规或执行错误记0；Zapier主榜按所有断言全通过的任务比例评分。公开600任务、AA私有657任务、另200条simple任务不能混用。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -391,7 +397,7 @@
     },
     "latest_dataset_version": {
       "value": {
-        "version": "AA独立实现657任务；母协议AutomationBench",
+        "version": "AutomationBench 1.0.6；AA私有657任务",
         "evidence_2026_h2": [
           {
             "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
@@ -402,15 +408,14 @@
       },
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Daniel Shepard [ view email ] [v1] 2026-04-21 09:14:59 KST (420 KB)",
@@ -492,47 +497,34 @@
         {
           "model": "Gemini 4 Carbon (High)",
           "score": 77.8,
-          "metric": "guardrail-gated objective score (%)",
-          "benchmark_version": "AA657",
-          "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
+          "metric": "AutomationBench-AA Score (%)",
+          "benchmark_version": "AA / 1.0.6 private split",
+          "result_type": "AA独立评测实时网页快照",
+          "source_date": "待核实（网页未注明榜表更新时间）",
           "collected_at": "2026-11-07 KST"
         },
         {
           "model": "Gemini 4 Carbon (Medium)",
           "score": 77.6,
-          "metric": "guardrail-gated objective score (%)",
-          "benchmark_version": "AA657",
-          "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
+          "metric": "AutomationBench-AA Score (%)",
+          "benchmark_version": "AA / 1.0.6 private split",
+          "result_type": "AA独立评测实时网页快照",
+          "source_date": "待核实（网页未注明榜表更新时间）",
           "collected_at": "2026-11-07 KST"
         },
         {
           "model": "Gemini 4 Argon (High)",
           "score": 77.5,
-          "metric": "guardrail-gated objective score (%)",
-          "benchmark_version": "AA657",
-          "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
-        },
-        {
-          "model": "Claude Opus 4.7 (max)",
-          "score": 9.9,
-          "metric": "strict full-task completion (%)",
-          "benchmark_version": "Zapier母协议私有集",
-          "result_type": "母论文历史结果",
-          "source_date": "2026-04",
+          "metric": "AutomationBench-AA Score (%)",
+          "benchmark_version": "AA / 1.0.6 private split",
+          "result_type": "AA独立评测实时网页快照",
+          "source_date": "待核实（网页未注明榜表更新时间）",
           "collected_at": "2026-11-07 KST"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/automationbench-aa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2604.18934",
           "accessed": "2026-11-07"
         }
       ]
@@ -679,6 +671,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

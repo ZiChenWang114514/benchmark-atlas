@@ -119,23 +119,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "仓库 LICENSE：CC BY-SA 4.0。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2407.10362",
@@ -158,15 +148,7 @@
       "value": "https://github.com/Future-House/LAB-Bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -175,15 +157,7 @@
       "value": "https://huggingface.co/datasets/futurehouse/lab-bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -289,23 +263,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "FutureHouse 官方 LAB-Bench 仓库。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -437,10 +401,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "decontamination": {
-      "value": "保留私有测试集，并加入canary字符串供训练过滤。",
+      "value": "保留 20% 私有子集；公开数据内加入官方 canary 字符串以帮助模型训练前过滤。",
       "sources": [
         {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -465,40 +429,22 @@
       ]
     },
     "question_types": {
-      "value": "超过 2,400 道选择题；官方仓库描述约 80% 公开、20% 保留为私有测试，并设置 canary 字符串。",
+      "value": "多项选择，8 个大类、30 个细分子任务，涉及文献、数据库、补充资料、图、表、实验协议、序列及克隆场景。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "文本和图像；FigQA/TableQA 的输入包含 PIL 图像列表。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
       "value": "待核实",
@@ -539,10 +485,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "public_hidden_split": {
-      "value": "约80%公开，20%私有测试",
+      "value": "约 80% 数据公开，保留 20% 私有测试子集监控训练污染。",
       "sources": [
         {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -550,71 +496,37 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "选择题任务评估；各任务精确评分与拒答设置待核实。",
+      "value": "accuracy、precision、coverage，并按子任务报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "选择题任务评估；各任务精确评分与拒答设置待核实。",
+      "value": "agent 返回一个选项字母；评测器汇总全量及子集的 accuracy/precision/coverage。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "官方提供 zero-shot 基线脚本；自定义 agent 输入问题、候选答案及必要图像。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "https://github.com/Future-House/LAB-Bench",
+      "value": "labbench.Evaluator.score_agent；scripts/score_baselines.py、run_baselines.sh 用于复现。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/Future-House/LAB-Bench",
+          "url": "https://raw.githubusercontent.com/Future-House/LAB-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -652,8 +564,13 @@
         {
           "url": "https://github.com/Future-House/LAB-Bench",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.25286v1",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-08-26 BixBench3 引言及参考文献明确引用原始 LAB-Bench（2407.10362）；不把 LABBench2 当作原始版本。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -860,10 +777,6 @@
       "value": "https://github.com/Future-House/LAB-Bench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2407.10362",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/Future-House/LAB-Bench",
           "accessed": "2026-11-07"
         }
@@ -977,6 +890,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [
@@ -990,5 +908,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。"
 }

@@ -138,10 +138,10 @@
       ]
     },
     "partners": {
-      "value": "SWE-bench 作者团队；专业 Python 软件开发者参与质量标注。",
+      "value": "OpenAI（官网明确Verified在人类筛选中与OpenAI合作建立）。",
       "sources": [
         {
-          "url": "https://openai.com/index/introducing-swe-bench-verified/",
+          "url": "https://www.swebench.com/verified",
           "accessed": "2026-11-07"
         }
       ]
@@ -323,10 +323,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "输入 issue 原文与起始仓库；必须注明 scaffold、搜索权限、预算、种子和环境镜像。",
+      "value": "官方Bash Only采用mini-SWE-agent最小ReAct循环。release 1.x支持时temperature=0；2.x及以后不设置temperature；版本记录必须随分数保留。",
       "sources": [
         {
-          "url": "https://openai.com/index/introducing-swe-bench-verified/",
+          "url": "https://www.swebench.com/verified",
           "accessed": "2026-11-07"
         }
       ]
@@ -341,10 +341,10 @@
       ]
     },
     "comparability_warning": {
-      "value": "Full / Lite / Verified / Pro 不是同一测试集；bash-only mini-SWE-agent 与完整 agent 系统及不同 harness 版本不能归为纯模型排名。",
+      "value": "完整榜比较任意agent系统，Bash Only才固定mini-SWE-agent；1.x解析输出字符串，2.x用tool calling，官网明确两代结果不一定可比。500题Verified不是完整SWE-bench或SWE-bench Pro。",
       "sources": [
         {
-          "url": "https://openai.com/index/introducing-swe-bench-verified/",
+          "url": "https://www.swebench.com/verified",
           "accessed": "2026-11-07"
         }
       ]
@@ -634,6 +634,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

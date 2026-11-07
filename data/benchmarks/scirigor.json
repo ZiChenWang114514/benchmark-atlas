@@ -1,7 +1,7 @@
 {
   "id": "scirigor",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
   "basic_info": {
     "name": {
       "value": "SciRigor",
@@ -212,10 +212,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "27篇有公开代码及所需输入的实证论文，拆为100个图级分析案例；302个输入资产附SHA校验。",
+      "value": "从科学论文抽取案例，对齐问题、完整输入、可执行源分析、数值结果、原图、原子化结论和溯源信息。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -260,28 +260,28 @@
   },
   "data_format": {
     "size": {
-      "value": "100个案例，27篇论文、6领域、17子领域；经济24、计算23、社会22、认知15、生命9、物理7。",
+      "value": "100 个科学分析案例，覆盖 6 个领域、17 个子领域。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "开放分析，交付analysis.py、results.json、figure.png、claims.json、minimal_provenance.json。",
+      "value": "开放式科学分析：提交可执行分析及同次运行产生的结果、可视化和结论。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "结构化数据、代码、数值、图像与自然语言结论。",
+      "value": "代码、数值结果、图表与文字主张组成的多模态证据链。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -318,19 +318,19 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "SoftECS与strict完整证据链成功率；逐案例追踪最弱链环。",
+      "value": "SoftECS（软证据链得分）与 Strict（完整证据链成功率）；同时分解工件忠实度和关系有效性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "程序化lineage/数值检查，冻结的语义匹配器与完整路径约束；不能用一项高分掩盖链断裂。",
+      "value": "重建带类型的证据图，评分完整结论支持路径并定位最早的不受支持关系；允许有来源支持的等价分析路径。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -371,8 +371,13 @@
         {
           "url": "https://arxiv.org/abs/2609.06192",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.06192",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-09-05 原始论文报告 11 个系统配置的实际评估；这是发布与自评证据，不是独立外部引用。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -481,31 +486,36 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "2026-09论文Table 2历史快照：GPT-5.5(xhigh) SoftECS62.6%/strict18.0%；GPT-5.5(high)59.2%/16.0%；GPT-5.6-Sol(high)61.1%/13.0%。标签照论文，不补造API快照日期。",
+      "value": [
+        {
+          "model": "GPT-5.5 (xhigh)",
+          "SoftECS_percent": 62.6,
+          "Strict_percent": 18.0
+        },
+        {
+          "model": "GPT-5.6-Sol (high)",
+          "SoftECS_percent": 61.1,
+          "Strict_percent": 13.0
+        },
+        {
+          "model": "GPT-5.5 (high)",
+          "SoftECS_percent": 59.2,
+          "Strict_percent": 16.0
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方论文 v1 历史实验表；按 SoftECS 降序列前三，非实时榜单。论文版本日期 2026-09-05；榜单独立更新日期待核实。"
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "已取得论文 v1 的模型结果；未取得当前实时榜单。不同推理预算分别列项，不把论文上限当作模型排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.06192",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://arxiv.org/html/2609.06192v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -631,6 +641,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [

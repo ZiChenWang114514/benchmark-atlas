@@ -145,10 +145,10 @@
       ]
     },
     "license": {
-      "value": "MIT（仅仓库代码许可；数据集许可须单独核验）",
+      "value": "MIT（仓库软件许可；不据此推断第三方题目或教材的再授权）",
       "sources": [
         {
-          "url": "https://github.com/idavidrein/gpqa",
+          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ]
@@ -449,27 +449,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "生物、物理、化学领域专家出题；对应领域博士或在读博士参与验证。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
       "value": "生物、物理、化学领域专家编写选择题，并由领域专家及可使用互联网的非专家验证。",
@@ -493,50 +479,26 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "采用领域专家及可自由上网的非专家验证；官方仓库另设公开题目纠错表单。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
+          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://github.com/idavidrein/gpqa",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "仓库声明数据含 canary 标记，用于提示训练数据排除；不能证明所有模型均未接触题目。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/idavidrein/gpqa",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -627,27 +589,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "研究生层级；原论文专家准确率 65%，排除事后识别的明确失误为 74%；非专家为 34%。这些是历史人类验证结果，不是当前模型分数。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "待核实",
@@ -717,27 +665,13 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "官方基线提供 zero-shot、few-shot、CoT 与 retrieval/retrieval_content；答案选项顺序由 seed 控制。闭卷和检索设置须分别报告。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/idavidrein/gpqa",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/idavidrein/gpqa",
@@ -801,8 +735,17 @@
         {
           "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-08，K-Bench 相关工作明确引用本基准（文献引用，不声称重新运行）。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -1031,7 +974,8 @@
           "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重开 AA 页面确认原有前三名及分数；页面未提供可读的榜单更新时间，更新时间待核实，不以访问日替代。"
     }
   },
   "contact": {
@@ -1062,14 +1006,11 @@
       "value": "https://github.com/idavidrein/gpqa/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/idavidrein/gpqa",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "仓库另公开纠错表单：https://forms.gle/iTY4zMETNsPhJq8R9；仅记录，不代为提交。"
     },
     "official_social": {
       "value": "待核实",
@@ -1183,6 +1124,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -1196,5 +1142,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

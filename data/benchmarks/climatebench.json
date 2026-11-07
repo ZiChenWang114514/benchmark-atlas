@@ -95,19 +95,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码：MIT；数据许可须另核实，不能由代码许可推导。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://doi.org/10.1029/2021MS002954",
@@ -126,24 +120,16 @@
       "value": "https://github.com/duncanwp/ClimateBench",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/duncanwp/ClimateBench",
+      "value": "https://doi.org/10.5281/zenodo.5196512",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -281,14 +267,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "利用完整地球系统模型的 CMIP、AerChemMIP 与 DAMIP 模拟，整理不同强迫下的气候响应。",
+      "value": "NorESM2 模拟输出及对应强迫数据；来自多个 CMIP6 实验，条件允许时纳入多个集合成员。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -309,17 +291,14 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "review_process": {
-      "value": "利用完整地球系统模型的 CMIP、AerChemMIP 与 DAMIP 模拟，整理不同强迫下的气候响应。",
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "README 的数据处理说明不是人工审核流程；撤回旧版将两者等同的表述。"
     },
     "quality_control": {
       "value": "待核实",
@@ -442,14 +421,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "比较气候模拟器的预测准确性与物理约束稳健性；数值指标细则待核实。",
+      "value": "空间、全球及总 NRMSE；SSP245 情景的 2080—2100 年四项输出 tas、日较差、pr、pr90；按任务总 NRMSE 的均值排序。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -524,31 +499,22 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "v1.0",
+      "value": "本条保留 v1.0；后续协议 ClimateBench v2.0 单独识别，不原地替换 v1 数据与分数。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://arxiv.org/abs/2610.04558",
           "accessed": "2026-11-07"
         }
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "2026H2 引用证据：ClimateBench v2.0 第2节明确引用 Watson-Parris et al. (2022) 的 ClimateBench v1，并讨论其适用边界；arXiv:2610.04558（2026年10月）。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://arxiv.org/abs/2610.04558",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "saturation": {
       "value": "待核实",
@@ -580,19 +546,13 @@
       "status": "待核实"
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "ClimateBench v2.0 已有独立论文（arXiv:2610.04558）；从 v1 的 ESM 仿真器测试扩展为三层气候模型概率评估。v1 的 NRMSE 与 v2 的 fair CRPS 不可直接比较。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://arxiv.org/abs/2610.04558",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -610,18 +570,13 @@
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://github.com/duncanwp/ClimateBench#leaderboard",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -639,29 +594,19 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
+      "value": "官方 README 基线表顺序：Neural Network、Gaussian Process、Random Forest。tas 总 NRMSE 分别为 0.327429、0.478225、0.399602；排序依据跨任务均值而非这一列。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "2026-11-07 读取的 v1 基线表；页面未注明榜单更新日期，不代表持续纳入新模型的实时总榜。",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -683,14 +628,11 @@
       "value": "https://github.com/duncanwp/ClimateBench/issues",
       "sources": [
         {
-          "url": "https://doi.org/10.1029/2021MS002954",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/duncanwp/ClimateBench",
+          "url": "https://raw.githubusercontent.com/duncanwp/ClimateBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -796,6 +738,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [
@@ -809,5 +756,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
 }

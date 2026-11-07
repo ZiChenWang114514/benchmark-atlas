@@ -119,23 +119,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "官方 README 标示 CC BY-NC 4.0；上游协议文本再使用仍须检查其原始条款。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2505.07889",
@@ -158,15 +148,7 @@
       "value": "https://github.com/YuyangSunshine/bioprobench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -175,15 +157,7 @@
       "value": "https://huggingface.co/BioProBench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -397,40 +371,22 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "review_process": {
-      "value": "从人类撰写的公开协议构建语料，清洗、结构化、受约束任务构造，并结合自动过滤与专家验证。",
+      "value": "论文说明所有测试实例经过人工专家审查，核对准确性、移除潜在伪影并确认相关性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://arxiv.org/html/2505.07889",
           "accessed": "2026-11-07"
         }
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "采用自动化过滤与专家验证结合的质量控制。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://arxiv.org/html/2505.07889",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -454,35 +410,19 @@
   },
   "data_format": {
     "size": {
-      "value": "BioProCorpus 含 22,413 份协议，派生 523,784 个任务实例；这些数字是语料/任务池规模，不是测试题量。",
+      "value": "当前 README：22,413 份原始生物协议，523,784 个结构化实例，来源于 5 个库并覆盖 16 个生物子领域。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "BioProCorpus 含 22,413 份协议，派生 523,784 个任务实例；这些数字是语料/任务池规模，不是测试题量。",
+      "value": "PQA 协议问答、ORD 步骤排序、ERR 错误修正、GEN 协议生成、REA 协议推理。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -545,39 +485,21 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "以 JSON 提供 Train/Test；README 列出各任务的 *_train.json 与 *_test.json，精确划分数量待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "问答准确率/Brier、排序 Exact Match/Kendall Tau、纠错 F1、生成步骤召回等；需按任务分开报告。",
+      "value": "PQA：Accuracy/Brier；ORD：Exact Match/Kendall tau；ERR：Accuracy/Precision/Recall/F1；GEN：BLEU、关键词及步骤召回/精度；REA：Accuracy/Precision/Recall/Consistency。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -619,18 +541,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "official_scripts": {
-      "value": "https://github.com/YuyangSunshine/bioprobench",
+      "value": "官方 Metrics/ 目录按任务提供 PQA.py、ORD.py、ERR.py、GEN.py、REA-ERR.py。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -668,8 +582,13 @@
         {
           "url": "https://arxiv.org/html/2505.07889v4",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.25286v1",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-08-26 BixBench3 引言及参考文献明确引用 BioProBench（2505.07889）的协议理解任务。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -726,40 +645,26 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "正文称22,413协议，但附录 C.3 又出现27,000协议；采用摘要/主体22,413，检索库配置的范围或旧版本差异待核实。",
+      "value": "当前论文正文及摘要均为 22,413 协议、523,784 实例；论文称评估 10 个主流 LLM，而当前 README 说 12 个。保留此版本口径差异，不擅自统一模型数量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
+          "url": "https://arxiv.org/html/2505.07889",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方 README 介绍后续 BioProAgent，不能把其执行成功率当成本基准的统一分数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -862,16 +767,11 @@
   "contact": {
     "public_emails": {
       "value": [
-        "yuanli-ece@pku.edu.cn",
-        "yhtian@pku.edu.cn"
+        "sunshineliuyuyang@gmail.com"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2505.07889",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2505.07889v4",
+          "url": "https://raw.githubusercontent.com/YuyangSunshine/bioprobench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -879,10 +779,6 @@
     "github_issues": {
       "value": "https://github.com/YuyangSunshine/bioprobench/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2505.07889",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/YuyangSunshine/bioprobench",
           "accessed": "2026-11-07"
@@ -997,6 +893,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [
@@ -1010,5 +911,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。"
 }

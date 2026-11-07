@@ -1,7 +1,7 @@
 {
   "id": "frontiermath",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "FrontierMath",
@@ -195,15 +195,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Epoch AI（官方FrontierMath项目）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2411.04872",
+          "url": "https://epoch.ai/frontiermath",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "OpenAI资助，曾独家访问子集，须披露利益冲突",
@@ -410,14 +408,14 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "v2，2026-06-12；Tiers1–3与Tier4分开",
+      "value": "Tiers 1–4 v2于2026-06-12发布；官网称修正了42%题目中的错误。官网总项目另列Open Problems、Erdős组件，不与Tiers 1–4分数混用。",
       "sources": [
         {
-          "url": "https://epoch.ai/frontiermath",
+          "url": "https://epoch.ai/frontiermath/tiers-1-4",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2411.04872",
+          "url": "https://epoch.ai/frontiermath",
           "accessed": "2026-11-07"
         }
       ]
@@ -466,12 +464,8 @@
       ]
     },
     "derivatives": {
-      "value": "官方另有FrontierMath Open Problems与FrontierMath Erdős；这是不同集合，不应把其结果算到Tier4 v2。",
+      "value": "官网目前将FrontierMath分为Tiers 1–4、Open Problems、Erdős三个组件；本库不拆分凑数。Erdős部分说明其收录截至2026年8月仍未解、用Lean形式化的问题。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2411.04872",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://epoch.ai/frontiermath",
           "accessed": "2026-11-07"
@@ -558,26 +552,22 @@
       "note": "未核实官方Issues入口"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/EpochAIResearch（机构账号，官网页脚链接；不是专门的FrontierMath账号）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2411.04872",
+          "url": "https://epoch.ai/frontiermath",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "未核实专门官方社交账号，不收录同名个人账户"
+      ]
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "https://epoch.ai/privacy",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2411.04872",
+          "url": "https://epoch.ai/privacy",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "未核实benchmark专门隐私条款；许可证不能代替隐私政策"
+      ]
     }
   },
   "drive_pdf": {
@@ -655,6 +645,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

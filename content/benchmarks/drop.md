@@ -1,8 +1,10 @@
 # DROP｜中文深度介绍
 
+核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+
 测量模型在段落证据上做加减、计数、比较、排序及抽取答案的能力。
 
-来源：[https://arxiv.org/abs/1903.00161](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
 ## 一、基本信息
 
@@ -44,9 +46,7 @@ arXiv v2
 
 ### 子领域
 
-[
-  "离散推理阅读理解"
-]
+- 离散推理阅读理解
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -54,9 +54,7 @@ arXiv v2
 
 待核实
 
-状态：待核实。
-
-说明：数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证
+核验说明：数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -68,13 +66,9 @@ https://arxiv.org/abs/1903.00161
 
 ### 代码
 
-待核实
+https://github.com/allenai/allennlp-models
 
-状态：待核实。
-
-说明：未确认当前官方独立代码仓库
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)（采集 2026-11-07）；[2](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
 
 ### 数据集
 
@@ -106,22 +100,18 @@ Allen Institute for AI、University of California Irvine、University of Washing
 
 待核实
 
-状态：待核实。
-
-说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
 ### 作者
 
-[
-  "Dua, Dheeru",
-  "Wang, Yizhong",
-  "Dasigi, Pradeep",
-  "Stanovsky, Gabriel",
-  "Singh, Sameer",
-  "Gardner, Matt"
-]
+- Dua, Dheeru
+- Wang, Yizhong
+- Dasigi, Pradeep
+- Stanovsky, Gabriel
+- Singh, Sameer
+- Gardner, Matt
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -129,9 +119,7 @@ Allen Institute for AI、University of California Irvine、University of Washing
 
 待核实
 
-状态：待核实。
-
-说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -139,9 +127,7 @@ Allen Institute for AI、University of California Irvine、University of Washing
 
 待核实
 
-状态：待核实。
-
-说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -239,9 +225,9 @@ Exact Match（EM）与面向数字/多跨度的F1。
 
 ### 评分实现
 
-归一化文本、对齐多跨度并对多参考答案取最佳得分；数字不匹配时相应F1归零。
+官方脚本先规范化大小写、冠词、标点、空白及数值；EM比较规范化答案跨度，多跨度F1通过最优一对一匹配汇总，gold含数字时要求数字匹配；多个参考答案取最佳得分。
 
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
 
 ### 提示与预算
 
@@ -251,13 +237,9 @@ Exact Match（EM）与面向数字/多跨度的F1。
 
 ### 评测脚本
 
-待核实
+https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py
 
-状态：待核实。
-
-说明：尚未定位并固定当前官方评测脚本；官方协议见来源
-
-来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py)（采集 2026-11-07）。
 
 ### 可比性警示
 
@@ -275,23 +257,19 @@ F1不是EM；公开开发集与隐藏测试集、不同数值归一化实现不�
 
 ### 最新可确认数据/协议
 
-2019 公开数据集；本轮未固定下载包版本
+本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。
 
-来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)（采集 2026-11-07）。
 
 ### 修订与2026H2收录证据
 
-{
-  "arxiv_version": "arXiv v2",
-  "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-  "2026_h2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
-      "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。"
-    }
-  ]
-}
+- **论文版本**：arXiv v2
+- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+- **2026下半年引用/使用证据**：
+  - 
+    - **来源链接**：https://arxiv.org/html/2609.27284v1
+    - **日期**：2026-09-23
+    - **说明**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -299,9 +277,7 @@ F1不是EM；公开开发集与隐藏测试集、不同数值归一化实现不�
 
 待核实
 
-状态：待核实。
-
-说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -335,38 +311,32 @@ https://allennlp.org/drop
 
 待核实
 
-状态：待核实。
-
-说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
 ### 限定范围的分数快照
 
-[
-  {
-    "model_version": "Hunyuan-A13B",
-    "score": "91.1",
-    "unit": "%",
-    "scope_and_protocol": "slow thinking，F1，报告表3",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "DeepSeek-R1-0120",
-    "score": "92.2",
-    "unit": "%",
-    "scope_and_protocol": "同表F1，对照值由报告转录",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  }
-]
+- 
+  - **模型版本**：Hunyuan-A13B
+  - **分数**：91.1
+  - **单位**：%
+  - **范围与协议**：slow thinking，F1，报告表3
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：DeepSeek-R1-0120
+  - **分数**：92.2
+  - **单位**：%
+  - **范围与协议**：同表F1，对照值由报告转录
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
 
 来源：[1](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -380,9 +350,7 @@ https://allennlp.org/drop
 
 ### 公开工作邮箱
 
-[
-  "ddua@uci.edu"
-]
+- ddua@uci.edu
 
 来源：[1](https://allennlp.org/drop)（采集 2026-11-07）；[2](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -390,9 +358,7 @@ https://allennlp.org/drop
 
 待核实
 
-状态：待核实。
-
-说明：未核实官方Issues入口
+核验说明：未核实官方Issues入口
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -400,9 +366,7 @@ https://allennlp.org/drop
 
 待核实
 
-状态：待核实。
-
-说明：未核实专门官方社交账号，不收录同名个人账户
+核验说明：未核实专门官方社交账号，不收录同名个人账户
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
@@ -410,21 +374,26 @@ https://allennlp.org/drop
 
 待核实
 
-状态：待核实。
-
-说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
 ## 十、原始文件
 
-### 原始PDF
+### Drive论文PDF
+
+- **id**：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_
+- **webViewLink**：https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk)（采集 2026-11-07）。
+
+### 原始论文PDF
 
 https://arxiv.org/pdf/1903.00161
 
 来源：[1](https://arxiv.org/abs/1903.00161)（采集 2026-11-07）。
 
-### SHA256
+### SHA256校验值
 
 e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5
 
@@ -436,48 +405,37 @@ e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5
 
 来源：[1](https://arxiv.org/pdf/1903.00161)（采集 2026-11-07）。
 
-### Drive资料夹
+### Drive文件夹
 
-{
-  "id": "1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc",
-  "webViewLink": "https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc"
-}
+- **id**：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc
+- **webViewLink**：https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc
 
 来源：[1](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)（采集 2026-11-07）。
 
-### 中文文档与本地稿
+### 其他文档
 
-{
-  "chinese_intro_doc": {
-    "id": "1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w",
-    "webViewLink": "https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk",
-    "mimeType": "application/vnd.google-apps.document"
-  },
-  "local_markdown": "content/benchmarks/drop.md"
-}
+- **chinese_intro_doc**：
+  - **id**：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w
+  - **webViewLink**：https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk
+  - **mimeType**：application/vnd.google-apps.document
+- **local_markdown**：content/benchmarks/drop.md
 
 来源：[1](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)（采集 2026-11-07）。
-
-### drive_pdf
-
-{
-  "id": "1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_",
-  "webViewLink": "https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk"
-}
-
-来源：[1](https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk)（采集 2026-11-07）。
 
 ## 十一、变更记录
 
-### changelog
-
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  }
-]
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **本轮更新字段**：
+    - basic_info.code_url
+    - evaluation.official_scripts
+    - evaluation.scoring
+    - latest_status.latest_dataset_version
 
 来源：[1](https://allennlp.org/drop)（采集 2026-11-07）。
-

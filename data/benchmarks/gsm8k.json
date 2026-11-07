@@ -1,7 +1,7 @@
 {
   "id": "gsm8k",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "GSM8K",
@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（官方仓库 LICENSE；不据此推断第三方原始材料权利）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2110.14168",
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2110.14168",
@@ -270,10 +268,18 @@
   },
   "data_format": {
     "size": {
-      "value": "官方概述约8500题，约7500训练与1000测试；精确文件行数见本条若已固定的实测注释。",
+      "value": "实读官方 JSONL：train 7,473，test 1,319，共 8,792 题。原始论文/README用约8.5K、约7.5K/1K描述；概数与文件实测并列，复现以本次文件为准。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2110.14168",
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/train.jsonl",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/test.jsonl",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -669,6 +675,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

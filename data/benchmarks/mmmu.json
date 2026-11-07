@@ -221,10 +221,10 @@
       ]
     },
     "maintainer": {
-      "value": "MMMU-Benchmark 官方仓库团队（当前具体个人职责待核实）",
+      "value": "MMMU Team；主页列Xiang Yue、Yu Su、Wenhu Chen为对应联系作者。",
       "sources": [
         {
-          "url": "https://github.com/MMMU-Benchmark/MMMU",
+          "url": "https://mmmu-benchmark.github.io/",
           "accessed": "2026-11-07"
         }
       ]
@@ -688,18 +688,10 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "官网静态页Last updated为09/05/2025，但官方JSON含更晚日期；不把静态页日期当作所有结果日期。本条前三为原始MMMU validation（85.4/84.6/84.2），不包含MMMU-Pro；MMVistaReason研究复测单列，不能跨协议混排。",
       "sources": [
         {
-          "url": "https://mmmu-benchmark.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
           "accessed": "2026-11-07"
         }
       ]
@@ -833,6 +825,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

@@ -1,8 +1,6 @@
 # MathVerse
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写。待核实不等于未公开；历史榜单、研究复测和独立评测分开。
-
-[阅读原始论文 PDF](https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk)
+> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
 
 ## 基本信息
 
@@ -23,6 +21,8 @@ MathVerse
 待核实
 
 > 条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。
+
+核验状态：待核实
 
 来源：[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
@@ -50,11 +50,7 @@ arXiv v2
 
 ### 领域
 
-```json
-[
-  "图解数学推理"
-]
-```
+图解数学推理
 
 来源：[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）
 
@@ -108,25 +104,13 @@ MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Probl
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
 ### 作者
 
-```json
-[
-  "Zhang, Renrui",
-  "Jiang, Dongzhi",
-  "Zhang, Yichi",
-  "Lin, Haokun",
-  "Guo, Ziyu",
-  "Qiu, Pengshuo",
-  "Zhou, Aojun",
-  "Lu, Pan",
-  "Chang, Kai-Wei",
-  "Gao, Peng",
-  "Li, Hongsheng"
-]
-```
+Zhang, Renrui、Jiang, Dongzhi、Zhang, Yichi、Lin, Haokun、Guo, Ziyu、Qiu, Pengshuo、Zhou, Aojun、Lu, Pan、Chang, Kai-Wei、Gao, Peng、Li, Hongsheng
 
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）
 
@@ -141,6 +125,8 @@ ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
@@ -190,6 +176,8 @@ ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
 ## 数据形式
@@ -226,9 +214,9 @@ ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）
 
 ### 公开/隐藏划分
 
-论文testmini 788题；剩余test为1,824题/10,944样本，论文称计划将来公开；本批未独立核实完整test当前发布情况。
+testmini公开788原题；五种多模态版本共3,940样本计算All，另788个Text Only样本做消融，不计入五版本All。
 
-来源：[https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）
 
 ## 评测方法
 
@@ -246,9 +234,9 @@ ZrrSkywalker 官方仓库团队（当前具体个人职责待核实）
 
 ### 提示设置
 
-CoT-E与答案判定分开；All不包含Text Only的平均。
+官方w/o主指标采用query_wo直接回答；CoT-E采用query_cot；优先lmms-eval mathverse_testmini并记录单版本子任务及提示。自评分两阶段为答案抽取和答案评分。
 
-来源：[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）
 
 ### 评测脚本
 
@@ -258,9 +246,9 @@ https://github.com/ZrrSkywalker/MathVerse
 
 ### 可比性提醒
 
-六种版本、CoT-E/w/o及All定义须固定；3,940多模态样本和788原题不是题量冲突。
+All只聚合五种多模态版本；Text Only为另行消融。--quick_match字符串匹配更快但官方提示不够准确；CoT-E、w/o及MMVistaReason CompassVerifier研究设置不能直接混排。
 
-来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)（访问 2026-11-07 KST）
 
 ## 最新情况
 
@@ -275,6 +263,8 @@ https://github.com/ZrrSkywalker/MathVerse
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
@@ -311,6 +301,8 @@ https://github.com/ZrrSkywalker/MathVerse
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
 ### 污染、冲突及协议差异
@@ -324,6 +316,8 @@ https://github.com/ZrrSkywalker/MathVerse
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
@@ -347,16 +341,60 @@ https://mathverse-cuhk.github.io/#leaderboard
 
 > 本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。
 
+核验状态：待核实
+
 来源：[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
 
 ### 可核验结果
 
-| 模型/版本 | 分数 | 口径 | 报告日期 | 来源性质 |
-|---|---:|---|---|---|
-| VL-Rethinker-72B | 61.7% | testmini，All w/o CoT-E | 2025-04-10 | 官方榜单在核验日可读的结果；不等同于当前全球SOTA |
-| VL-Rethinker-7B | 54.2% | testmini，All w/o CoT-E | 2025-04-10 | 官方榜单在核验日可读的结果；不等同于当前全球SOTA |
-| MMVistaReason-4B (MVR-4B) | 79.7% | MathVerse mini | 2026-10-22 | MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测 |
-| MMVistaReason-9B (MVR-9B) | 82.4% | MathVerse mini | 2026-10-22 | MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排 |
+```json
+[
+  {
+    "model": "VL-Rethinker-72B",
+    "score": 61.7,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "testmini，All w/o CoT-E",
+    "date": "2025-04-10",
+    "accessed": "2026-11-07",
+    "source_url": "https://mathverse-cuhk.github.io/",
+    "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+  },
+  {
+    "model": "VL-Rethinker-7B",
+    "score": 54.2,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "testmini，All w/o CoT-E",
+    "date": "2025-04-10",
+    "accessed": "2026-11-07",
+    "source_url": "https://mathverse-cuhk.github.io/",
+    "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+  },
+  {
+    "model": "MMVistaReason-4B (MVR-4B)",
+    "score": 79.7,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MathVerse mini",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+  },
+  {
+    "model": "MMVistaReason-9B (MVR-9B)",
+    "score": 82.4,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MathVerse mini",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+  }
+]
+```
 
 来源：[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
 
@@ -370,11 +408,7 @@ https://mathverse-cuhk.github.io/#leaderboard
 
 ### 官方公开邮箱
 
-```json
-[
-  "jdzcarr7@gmail.com"
-]
-```
+jdzcarr7@gmail.com
 
 > 项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。
 
@@ -391,6 +425,8 @@ https://github.com/ZrrSkywalker/MathVerse/issues
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)（访问 2026-11-07 KST）；[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)（访问 2026-11-07 KST）
 
@@ -447,6 +483,17 @@ https://arxiv.org/pdf/2403.14624
 
 来源：[https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk](https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk)（访问 2026-11-07 KST）
 
+### Drive 原始 PDF
+
+```json
+{
+  "id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy",
+  "webViewLink": "https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk"
+}
+```
+
+来源：[https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk](https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk)（访问 2026-11-07 KST）
+
 ## 变更记录
 
 ### 变更记录
@@ -457,6 +504,11 @@ https://arxiv.org/pdf/2403.14624
     "date": "2026-11-07",
     "timezone": "Asia/Seoul",
     "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
   }
 ]
 ```

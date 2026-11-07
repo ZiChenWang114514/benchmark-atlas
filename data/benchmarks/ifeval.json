@@ -1,7 +1,7 @@
 {
   "id": "ifeval",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "IFEval",
@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "评测源码 Apache-2.0；数据再分发权利不由代码文件头单独证明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/evaluation_main.py",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2311.07911",
@@ -169,15 +167,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 google-research；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
+          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -327,10 +323,10 @@
       ]
     },
     "scoring": {
-      "value": "确定性检查；严格指标要求满足原始约束，宽松指标对移除 Markdown/首末行等 8 种变换尝试检查。",
+      "value": "官方主程序分别调用 strict 与 loose 校验，输出两套JSONL；prompt级准确率为全部指令均通过的回答比例，不应与单条指令通过率混淆。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/evaluation_main.py",
           "accessed": "2026-11-07"
         }
       ]
@@ -345,10 +341,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "value": "google-research/instruction_following_eval/evaluation_main.py；输入原始指令JSONL及含prompt、response的模型响应JSONL。",
       "sources": [
         {
-          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -510,15 +506,13 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/google-research/google-research/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.07911",
+          "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -616,6 +610,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -625,6 +624,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2311.07911",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
         "accessed": "2026-11-07"
       }
     ]

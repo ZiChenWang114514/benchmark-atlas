@@ -261,23 +261,19 @@
   },
   "data_format": {
     "size": {
-      "value": "824 个问题，每题需整合 2–15 篇 Wikipedia 文章。",
+      "value": "824道多跳问题，每题需关联2–15篇Wikipedia文章；正文为题量权威口径，不采用卡片异常的n>1T自动元数据。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.12941",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://huggingface.co/datasets/google/frames-benchmark",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "开放式、多跳检索问答",
+      "value": "多跳开放问答；附gold answer及相关文章，标注数值、表格、多重约束、时间与后处理等推理类型。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.12941",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -292,10 +288,10 @@
       ]
     },
     "languages": {
-      "value": "英语",
+      "value": "英语（数据卡language: en）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.12941",
+          "url": "https://huggingface.co/datasets/google/frames-benchmark/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -406,11 +402,22 @@
           "version": "v3",
           "submitted_at": "2025-01-25T04:23:15+09:00",
           "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "2026_h2_evidence": {
+            "url": "https://arxiv.org/html/2609.27284v1",
+            "date": "2026-09-23",
+            "note": "Hunyuan-A13B报告§4.3及表5实际评测FRAMES；厂商自报，不等同独立实时榜。"
+          }
         }
       ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -638,6 +645,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "data_format.size",
+          "data_format.languages",
+          "data_format.question_types"
+        ]
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "mmlu",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "MMLU",
@@ -168,15 +168,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 hendrycks；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.03300",
+          "url": "https://github.com/hendrycks/test",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "论文致谢列出 NSF Graduate Research Fellowship、Open Philanthropy AI Fellowship 与 NSF Frontier Award 1804794 等支持。",
@@ -453,14 +451,13 @@
       "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
     },
     "official_url": {
-      "value": "https://arxiv.org/abs/2009.03300",
+      "value": "https://github.com/hendrycks/test#test-leaderboard",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.03300",
+          "url": "https://github.com/hendrycks/test",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -476,49 +473,48 @@
     "results": {
       "value": [
         {
-          "model": "Gemini 3.8 Flash（研究表2原标签）",
-          "score": 94.4,
+          "model": "Chinchilla",
+          "score": 67.5,
           "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究表2；不是基准官方实时榜或AA独立榜",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "metric": "Average accuracy",
+          "scope": "官方 README 当前可读历史榜；不是2026最新模型实力排名",
+          "model_setting": "70B few-shot",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         },
         {
-          "model": "Qwen3.8-Max（研究表2原标签）",
-          "score": 93.8,
+          "model": "Gopher",
+          "score": 60.0,
           "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究表2；不是基准官方实时榜或AA独立榜",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "metric": "Average accuracy",
+          "scope": "官方 README 当前可读历史榜；不是2026最新模型实力排名",
+          "model_setting": "280B few-shot",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         },
         {
-          "model": "Claude Opus 5.5（研究表2原标签）",
-          "score": 92.6,
+          "model": "GPT-3",
+          "score": 53.9,
           "unit": "%",
-          "metric": "accuracy（研究表2口径）",
-          "scope": "2026-H2 Jev对比研究表2；不是基准官方实时榜或AA独立榜",
-          "evaluation_date": "论文2026-10-08；精确运行日期和API版本待核实",
+          "metric": "Average accuracy",
+          "scope": "官方 README 当前可读历史榜；不是2026最新模型实力排名",
+          "model_setting": "175B fine-tuned",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/html/2610.11978v1",
+          "url": "https://github.com/hendrycks/test",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "H2对比研究可读结果；保留论文模型标签，未核实精确API日期，不将混合提示或历史引用成绩都视为同协议。未核实当前官方统一实时榜和AA/Epoch/LMArena对应独立单项榜。",
+      "value": "以官方 README 可读表替代非官方研究比较表作为本栏快照；榜单未给统一更新日期，模型年代和提示协议不同，禁止视为2026前沿排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2610.11978v1",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
+          "url": "https://github.com/hendrycks/test",
           "accessed": "2026-11-07"
         }
       ]
@@ -641,6 +637,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -650,6 +651,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2009.03300",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/hendrycks/test",
         "accessed": "2026-11-07"
       }
     ]

@@ -1,7 +1,7 @@
 {
   "id": "mbpp",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "MBPP",
@@ -72,15 +72,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Google Research 根目录 LICENSE 为 Apache-2.0；mbpp目录未读到独立LICENSE（404），数据单独授权仍待核实，不以代码仓库根许可推断第三方题目权利。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2108.07732",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2108.07732",
@@ -260,10 +262,14 @@
   },
   "data_format": {
     "size": {
-      "value": "974 道原始题；原论文 split 为 test 500、fine-tuning 374、few-shot 10、validation 90。",
+      "value": "官方文件实读：原始 mbpp.jsonl 为974题，sanitized-mbpp.json为427题；不是两个独立benchmark。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2108.07732",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/mbpp.jsonl",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/sanitized-mbpp.json",
           "accessed": "2026-11-07"
         }
       ]
@@ -308,10 +314,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "上述划分是研究用途 split；原始文件公开，不等于隐藏评测题。",
+      "value": "官方README按ID划分：11–510测试（500），1–10 few-shot（10），511–600验证（90），601–974训练（374）；sanitized子集继承这些分组。所有文件公开，不是隐藏测试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2108.07732",
+          "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -624,6 +630,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

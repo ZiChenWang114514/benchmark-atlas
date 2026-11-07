@@ -1,290 +1,141 @@
 # Matbench Discovery
 
-> 核验：2026-11-07（KST / Asia/Seoul）。依据官方资料中文改写；“待核实”不表示官方未公开。
+> 第1轮实证核查 · 2026-11-07（KST）。正文与权威 JSON 同步；访问时间不是来源发表时间。未知保留，不以旧论文结果冒充最新总榜。
 
-[📄 阅读原始论文 PDF](https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk)
+## 1. 基本信息
 
-## 基本信息
+- **名称**：Matbench Discovery （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 简称
-Matbench Discovery [来源1](#来源) [来源2](#来源)
+- **全称**：Matbench Discovery 使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 全称
-Matbench Discovery [来源1](#来源) [来源2](#来源)
+- **版本**：待核实 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。
+- **论文版本**：arXiv v3 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 基准版本
-待核实 [来源1](#来源) [来源2](#来源)
+- **发布日期**：2023/08/28 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 论文版本
-arXiv v3 [来源1](#来源) [来源2](#来源)
+- **板块**：材料 Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。 （[来源1](https://arxiv.org/abs/2308.14920)；访问：2026-11-07）
 
-### 发布日期（原来源日期）
-2023/08/28 [来源1](#来源) [来源2](#来源)
+- **子领域**：材料 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 主板块
-材料 [来源1](#来源)
+- **许可**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。
+- **论文**：https://arxiv.org/abs/2308.14920 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 领域标签
-[
-  "材料"
-] [来源1](#来源) [来源2](#来源)
+- **代码**：https://github.com/janosh/matbench-discovery （[来源1](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)；访问：2026-11-07）
 
-### 许可证
-待核实 [来源1](#来源) [来源2](#来源)
+- **数据**：https://matbench-discovery.materialsproject.org/ （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **官方主页**：https://matbench-discovery.materialsproject.org/ （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 论文
-https://arxiv.org/abs/2308.14920 [来源1](#来源) [来源2](#来源)
+- **论文标题**：Matbench Discovery -- A framework to evaluate machine learning crystal stability predictions （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 官方代码
-https://github.com/janosh/matbench-discovery [来源1](#来源) [来源2](#来源)
+## 2. 发起与维护
 
-### 数据地址
-https://matbench-discovery.materialsproject.org/ [来源1](#来源) [来源2](#来源)
+- **发起机构**：剑桥大学、劳伦斯伯克利国家实验室、BAM、加州大学伯克利分校作者团队 主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 官方入口
-https://matbench-discovery.materialsproject.org/ [来源1](#来源) [来源2](#来源)
+- **合作机构**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 论文标题
-Matbench Discovery -- A framework to evaluate machine learning crystal stability predictions [来源1](#来源) [来源2](#来源)
+- **作者**：Riebesell, Janosh；Goodall, Rhys E. A.；Benner, Philipp；Chiang, Yuan；Deng, Bowen；Ceder, Gerbrand；Asta, Mark；Lee, Alpha A.；Jain, Anubhav；Persson, Kristin A. （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-## 发起与维护
+- **维护方**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 机构与作者单位
-剑桥大学、劳伦斯伯克利国家实验室、BAM、加州大学伯克利分校作者团队 [来源1](#来源) [来源2](#来源)
+- **资助方**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。
+## 3. 设计目标
 
-### 合作机构
-待核实 [来源1](#来源) [来源2](#来源)
+- **能力目标**：比较晶体稳定性发现、结构优化、声子/热导率、分子动力学和双原子势能曲线；揭示精度、稳健性与计算成本权衡。 （[来源1](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **设计动机**：评估模型作为稳定无机晶体高通量发现预筛器的实际价值，而非只比较能量回归误差。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 作者
-[
-  "Riebesell, Janosh",
-  "Goodall, Rhys E. A.",
-  "Benner, Philipp",
-  "Chiang, Yuan",
-  "Deng, Bowen",
-  "Ceder, Gerbrand",
-  "Asta, Mark",
-  "Lee, Alpha A.",
-  "Jain, Anubhav",
-  "Persson, Kristin A."
-] [来源1](#来源) [来源2](#来源)
+## 4. 构建方式
 
-### 当前维护方
-待核实 [来源1](#来源) [来源2](#来源)
+- **数据来源**：围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **评审背景**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 资助
-待核实 [来源1](#来源) [来源2](#来源)
+- **审核流程**：围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **质量控制**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-## 设计目标
+- **去污染**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 衡量能力
-评估模型作为稳定无机晶体高通量发现预筛器的实际价值，而非只比较能量回归误差。 [来源1](#来源) [来源2](#来源)
+## 5. 数据形式
 
-### 设计背景
-评估模型作为稳定无机晶体高通量发现预筛器的实际价值，而非只比较能量回归误差。 [来源1](#来源) [来源2](#来源)
+- **规模**：WBM 发现集256,963个材料（ALIGNN 2.0论文表4的全量评测口径）；其他子任务规模须分别核实。 （[来源1](https://arxiv.org/abs/2609.19487)；访问：2026-11-07）
 
-## 构建方式
+- **任务形式**：材料发现评测框架；最新任务级数据规模待核实。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 题目与数据来源
-围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。 [来源1](#来源) [来源2](#来源)
+- **模态**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 出题人背景
-待核实 [来源1](#来源) [来源2](#来源)
+- **语言**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **难度**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 构建与审核流程
-围绕晶体热力学稳定性设计发现任务；用 DFT 参考能量构建评价凸包。 [来源1](#来源) [来源2](#来源)
+- **公开与隐藏划分**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 质量控制
-待核实 [来源1](#来源) [来源2](#来源)
+## 6. 评测方法
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **指标**：CPS综合发现F1（50%）、几何RMSD（10%）和声子κ SRME（40%）；分子动力学与双原子任务不计入CPS。发现使用Unique Prototypes子集。 （[来源1](https://matbench-discovery.materialsproject.org/)；访问：2026-11-07）
 
-### 去污染措施
-待核实 [来源1](#来源) [来源2](#来源)
+- **评分方式**：发现 F1、发现加速因子等任务相关指标；官网最新综合指标定义须另行锁定。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **提示设置**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-## 数据形式
+- **评测脚本**：https://github.com/janosh/matbench-discovery （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 数据规模
-材料发现评测框架；最新任务级数据规模待核实。 [来源1](#来源) [来源2](#来源)
+- **可比性提示**：稳定性凸包由 DFT 参考能量构造，不由模型预测构造；不同训练数据、测试覆盖及子任务不可混比。高排名不代表 Materials Project 背书。 （[来源1](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)；访问：2026-11-07）
 
-### 任务形式
-材料发现评测框架；最新任务级数据规模待核实。 [来源1](#来源) [来源2](#来源)
+## 7. 最新情况
 
-### 模态
-待核实 [来源1](#来源) [来源2](#来源)
+- **核查日期**：2026-11-07 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **最新版本**：待核实 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 语言
-待核实 [来源1](#来源) [来源2](#来源)
+- **修订与2026H2证据**：2026H2 使用证据：ALIGNN 2.0（2026-09-16）表4评测 Matbench Discovery；官方 models 页另有2026-10-31新增 DPA 模型。 （[来源1](https://arxiv.org/abs/2609.19487) [来源2](https://matbench-discovery.materialsproject.org/models)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **饱和度**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 难度分布
-待核实 [来源1](#来源) [来源2](#来源)
+- **已知问题**：首次 WebFetch 返回403；随后用标准公开HTTP读取成功，已保存页面证据。搜索索引和现场页面的模型数量不同，以本次成功读取的官方页面快照为准。 （[来源1](https://matbench-discovery.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **后继资源**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 公开与保留集
-待核实 [来源1](#来源) [来源2](#来源)
+## 8. 榜单快照
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **采集日期**：2026-11-07 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-## 评测方法
+- **官方榜单**：https://matbench-discovery.materialsproject.org/models （[来源1](https://matbench-discovery.materialsproject.org/models)；访问：2026-11-07）
 
-### 评估指标
-CPS综合发现F1（50%）、几何RMSD（10%）和声子κ SRME（40%）；分子动力学与双原子任务不计入CPS。发现使用Unique Prototypes子集。 [来源3](#来源)
+- **第三方榜单**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 评分方法
-发现 F1、发现加速因子等任务相关指标；官网最新综合指标定义须另行锁定。 [来源1](#来源) [来源2](#来源)
+- **结果**：按官方 CPS 排序的前三：DPA-4.1-Max-OAM-PFT CPS 0.913、F1 0.935、RMSD 0.0576；Prophet-OAME-MBD CPS 0.912、F1 0.928、RMSD 0.0591；DPA-4.1-Max-OAM CPS 0.910、F1 0.933、RMSD 0.0573。κ SRME 分别0.081、0.065、0.09。 （[来源1](https://matbench-discovery.materialsproject.org/models)；访问：2026-11-07）
 
-### 提示与工具设置
-待核实 [来源1](#来源) [来源2](#来源)
+- **口径说明**：2026-11-07 直接读取官方 models 页；DPA条目 Added 2026-10-31，Prophet Added 2026-09-13；这些是条目加入日期，不是榜单整体更新时间（未标明）。CPS与单项F1排名不同。 （[来源1](https://matbench-discovery.materialsproject.org/models)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+## 9. 联系方式
 
-### 评测脚本入口
-https://github.com/janosh/matbench-discovery [来源1](#来源) [来源2](#来源)
+- **公开邮箱**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 可比性提醒
-不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。 [来源1](#来源) [来源2](#来源)
+- **问题反馈**：https://github.com/janosh/matbench-discovery/issues 官方README建议支持问题使用 https://github.com/janosh/matbench-discovery/discussions 。 （[来源1](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)；访问：2026-11-07）
 
-## 最新情况
+- **官方社交**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 核验日期（KST）
-2026-11-07 [来源1](#来源) [来源2](#来源)
+- **隐私原则**：只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 （[来源1](urn:benchmark-atlas:constitution:v0.1)；访问：2026-11-07）
 
-### 最新数据版本
-待核实 [来源1](#来源) [来源2](#来源)
+## 10. 原始文件
 
-### 原始论文修订记录（来源原文）
-Submission history From: Rhys Goodall [ view email ] [v1] Mon, 28 Aug 2023 22:29:57 UTC (7,998 KB) [v2] Sun, 4 Feb 2024 17:12:47 UTC (2,545 KB) [v3] Tue, 10 Dec 2024 23:52:04 UTC (6,469 KB) [来源1](#来源) [来源2](#来源)
+- **PDF来源**：https://arxiv.org/pdf/2308.14920 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 饱和程度
-待核实 [来源1](#来源) [来源2](#来源)
+- **SHA256**：6a37da286baaea80b902d6011fcd6e08a090dbec604b3988884baf57b3aed612 本次下载原始字节的SHA-256；未压缩、未修改。 （[来源1](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **PDF字节**：4570226 （[来源1](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）
 
-### 污染、争议与版本差异
-首次 WebFetch 返回403；随后用标准公开HTTP读取成功，已保存页面证据。搜索索引和现场页面的模型数量不同，以本次成功读取的官方页面快照为准。 [来源3](#来源)
+- **Drive文件夹**：id：1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM；webViewLink：https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM （[来源1](https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM)；访问：2026-11-07）
 
-### 衍生基准
-待核实 [来源1](#来源) [来源2](#来源)
+- **其他文档**：kind：中文介绍 Google Doc；id：1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns；webViewLink：https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk （[来源1](https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **Drive PDF**：id：1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO；webViewLink：https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk （[来源1](https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk)；访问：2026-11-07）
 
-## 榜单快照
+## 11. 变更记录
 
-### 快照日期（KST）
-2026-11-07 [来源1](#来源) [来源2](#来源)
-
-### 官方榜单入口
-https://matbench-discovery.materialsproject.org/ [来源3](#来源)
-
-### 第三方入口
-待核实 [来源1](#来源) [来源2](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 可核验结果
-[
-  {
-    "model": "DPA-4.1-Max-OAM-PFT",
-    "score": 0.913,
-    "unit": "比例",
-    "metric": "CPS，越高越好",
-    "rank": 1,
-    "scope": "Unique Prototypes，默认require forces过滤；49/58 eligible models；页面模型名带†标记，定义待核实"
-  },
-  {
-    "model": "Prophet-OAME-MBD",
-    "score": 0.912,
-    "unit": "比例",
-    "metric": "CPS，越高越好",
-    "rank": 2,
-    "scope": "同一过滤和子集"
-  },
-  {
-    "model": "DPA-4.1-Max-OAM",
-    "score": 0.91,
-    "unit": "比例",
-    "metric": "CPS，越高越好",
-    "rank": 3,
-    "scope": "同一过滤和子集；页面模型名带†标记，定义待核实"
-  }
-] [来源3](#来源)
-
-### 覆盖范围说明
-已读取官方首页的默认CPS排序；这是限定过滤条件与Unique Prototypes子集的快照，不是所有材料任务的总排名。 [来源3](#来源)
-
-## 联系方式
-
-### 官方公开邮箱
-待核实 [来源1](#来源) [来源2](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 公开问题反馈
-https://github.com/janosh/matbench-discovery/issues [来源1](#来源) [来源4](#来源)
-
-### 官方账号
-待核实 [来源1](#来源) [来源2](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 联系信息原则
-只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 [来源5](#来源)
-
-## 原始文件
-
-### PDF原始下载地址
-https://arxiv.org/pdf/2308.14920 [来源1](#来源) [来源2](#来源)
-
-### 原始文件SHA-256
-6a37da286baaea80b902d6011fcd6e08a090dbec604b3988884baf57b3aed612 [来源2](#来源)
-
-> 本次下载原始字节的SHA-256；未压缩、未修改。
-
-### 原始文件字节数
-4570226 [来源2](#来源)
-
-### Drive资料夹
-{
-  "id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM",
-  "webViewLink": "https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM"
-} [来源6](#来源)
-
-### 其他文件
-待核实 [来源1](#来源) [来源2](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-## 变更记录
-2026-11-07（KST）：首批收录，核验来源、中文改写并保存PDF原件。
-
-## 来源
-
-1. https://arxiv.org/abs/2308.14920 — 访问 2026-11-07（KST）
-2. https://arxiv.org/pdf/2308.14920 — 访问 2026-11-07（KST）
-3. https://matbench-discovery.materialsproject.org/ — 访问 2026-11-07（KST）
-4. https://github.com/janosh/matbench-discovery — 访问 2026-11-07（KST）
-5. urn:benchmark-atlas:constitution:v0.1 — 访问 2026-11-07（KST）
-6. https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM — 访问 2026-11-07（KST）
+date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。 （[来源1](https://arxiv.org/abs/2308.14920) [来源2](https://arxiv.org/pdf/2308.14920)；访问：2026-11-07）

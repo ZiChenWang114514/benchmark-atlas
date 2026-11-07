@@ -73,14 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "历史terminal-bench-1仓库LICENSE为Apache-2.0；不能自动外推至当前4.0全部任务及第三方软件，4.0具体适用范围待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2601.11868",
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench-1/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
       "status": "待核实"
     },
     "paper_url": {
@@ -453,7 +452,7 @@
       ]
     },
     "scoring": {
-      "value": "在最终容器状态运行每题测试；全部通过才算任务成功。",
+      "value": "4.0每任务必须通过全部测试才记成功；AA运行66题、mini-swe-agent，每题重复3次后报告平均pass@1。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
@@ -622,9 +621,10 @@
           "metric": "pass@1 (%)",
           "benchmark_version": "4.0/66题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
           "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats"
+          "harness": "mini-swe-agent；3 repeats",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Gemini 4 Carbon (High)",
@@ -632,9 +632,10 @@
           "metric": "pass@1 (%)",
           "benchmark_version": "4.0/66题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
           "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats"
+          "harness": "mini-swe-agent；3 repeats",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
@@ -642,9 +643,10 @@
           "metric": "pass@1 (%)",
           "benchmark_version": "4.0/66题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
           "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats"
+          "harness": "mini-swe-agent；3 repeats",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Gemini 4 Carbon (High) + Antigravity CLI",
@@ -652,8 +654,9 @@
           "metric": "Terminal-Bench score (%)",
           "benchmark_version": "4.0",
           "result_type": "AA历史产品agent评测",
-          "source_date": "2026-10-28",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         }
       ],
       "sources": [
@@ -704,15 +707,13 @@
       "note": "公开仓库反馈入口；未发送问题。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://discord.gg/6xWPKhGDbA（官方README公开社区渠道）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2601.11868",
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench-1/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "privacy_policy": {
       "value": "待核实",
@@ -808,6 +809,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "qmof",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
   "basic_info": {
     "name": {
       "value": "QMOF",
@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "官方updates.md最新列出 Figshare v18（加入初步 QMOF Thermo Database）；仓库版本日志不等于本次已核实Figshare全部最新发布。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "url": "https://raw.githubusercontent.com/arosen93/QMOF/main/updates.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_version": {
       "value": "Matter 4,1578–1597 (2021)；20k+版同时引用2022 npj Computational Materials扩展论文。",
@@ -74,10 +72,10 @@
       ]
     },
     "license": {
-      "value": "数据库CC BY 4.0；代码/底层晶体来源许可应另核对。",
+      "value": "数据库数据：CC BY 4.0；须适当署名并注明修改。",
       "sources": [
         {
-          "url": "https://github.com/Andrew-S-Rosen/QMOF",
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -95,7 +93,7 @@
       "value": "https://github.com/Andrew-S-Rosen/QMOF",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -104,7 +102,7 @@
       "value": "https://doi.org/10.6084/m9.figshare.13147324",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -251,10 +249,10 @@
       ]
     },
     "quality_control": {
-      "value": "QMOF ID、结构与计算级别元数据可追溯；2022比较PBE、HLE17、HSE06*、HSE06。",
+      "value": "v9使用pymatgen StructureMatcher移除重复结构并修正186个EDIFF设置；v12移除带错误键合/缺氢问题的部分结构。属于版本化清理，不代表数据无误。",
       "sources": [
         {
-          "url": "https://www.nature.com/articles/s41524-022-00796-6",
+          "url": "https://raw.githubusercontent.com/arosen93/QMOF/main/updates.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -301,10 +299,10 @@
       ]
     },
     "modalities": {
-      "value": "晶体原子结构、图表示与DFT数值性质。",
+      "value": "MOF/配位聚合物原子结构及周期DFT量化学性质；官方FAQ明确不提供轨迹。",
       "sources": [
         {
-          "url": "https://www.nature.com/articles/s41524-022-00796-6",
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -403,37 +401,19 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "仓库更新日志列至v18；v15—v17各移除一个结构，v18加入初步热力学数据库。发布日期待核实。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
+          "url": "https://raw.githubusercontent.com/arosen93/QMOF/main/updates.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_revision_history": {
-      "value": {
-        "2026_H2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2609.19487v1",
-            "date": "2026-09-16",
-            "note": "ALIGNN 2.0 表2以 QMOF 为有固定训练/验证/测试划分的独立材料预测任务，实际报告带隙误差；不是把JARVIS的每个属性拆开计数。"
-          }
-        ],
-        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
-        "paper_metadata": {
-          "note": "见期刊/数据库官方入口"
-        }
-      },
+      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）表2报告QMOF带隙任务，16,340训练/2042验证/2042测试，ALIGNN 2.0与原ALIGNN的MAE均0.202 eV。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19487v1",
+          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
@@ -504,31 +484,19 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "2026-09 ALIGNN2.0论文Table2历史：QMOF测试2042个，ALIGNN2.0 MAE0.202eV，原ALIGNN0.202eV，MAD基线0.946eV。为同文固定划分结果，不声称实时全球SOTA。",
+      "value": "可核实的近期研究对比（非实时官方总榜）：ALIGNN 2.0 与原 ALIGNN，QMOF带隙 MAE 均0.202 eV；同一16,340/2042/2042划分，论文表2。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.19487v1",
+          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "2026-11-07 读取2026-09-16模型论文；这是开发团队自报对比，不代表QMOF数据库维护方官方排名；实时榜前列待核实。",
       "sources": [
         {
-          "url": "https://doi.org/10.1016/j.matt.2021.02.015",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
@@ -550,10 +518,11 @@
       "value": "https://github.com/Andrew-S-Rosen/QMOF/issues",
       "sources": [
         {
-          "url": "https://github.com/Andrew-S-Rosen/QMOF",
+          "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -657,6 +626,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [

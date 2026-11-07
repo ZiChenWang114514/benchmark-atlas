@@ -1,8 +1,6 @@
 # MathVista
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写。待核实不等于未公开；历史榜单、研究复测和独立评测分开。
-
-[阅读原始论文 PDF](https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk)
+> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
 
 ## 基本信息
 
@@ -23,6 +21,8 @@ MathVista
 待核实
 
 > 条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。
+
+核验状态：待核实
 
 来源：[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
 
@@ -50,11 +50,7 @@ arXiv v3
 
 ### 领域
 
-```json
-[
-  "视觉数学推理"
-]
-```
+视觉数学推理
 
 来源：[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）
 
@@ -108,24 +104,13 @@ MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Cont
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
 
 ### 作者
 
-```json
-[
-  "Lu, Pan",
-  "Bansal, Hritik",
-  "Xia, Tony",
-  "Liu, Jiacheng",
-  "Li, Chunyuan",
-  "Hajishirzi, Hannaneh",
-  "Cheng, Hao",
-  "Chang, Kai-Wei",
-  "Galley, Michel",
-  "Gao, Jianfeng"
-]
-```
+Lu, Pan、Bansal, Hritik、Xia, Tony、Liu, Jiacheng、Li, Chunyuan、Hajishirzi, Hannaneh、Cheng, Hao、Chang, Kai-Wei、Galley, Michel、Gao, Jianfeng
 
 来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）
 
@@ -140,6 +125,8 @@ lupantech 官方仓库团队（当前具体个人职责待核实）
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
 
@@ -223,9 +210,9 @@ test答案不公开；官方限制把数据用作训练集。已有来源数据�
 
 ### 公开/隐藏划分
 
-testmini 1,000例用于开发/快速评测；test 5,141例，官网说明test答案不公开。
+testmini 1,000例供开发/验证；test 5,141例用于标准评测，官方明确不会公开test答案标签。
 
-来源：[https://arxiv.org/pdf/2310.02255](https://arxiv.org/pdf/2310.02255)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/lupantech/MathVista/main/README.md](https://raw.githubusercontent.com/lupantech/MathVista/main/README.md)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/lupantech/MathVista/main/README.md](https://raw.githubusercontent.com/lupantech/MathVista/main/README.md)（访问 2026-11-07 KST）
 
 ## 评测方法
 
@@ -273,6 +260,8 @@ testmini与test不混合；官方榜单当前可见历史记录并非保证最�
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
 
 ### 论文版本及2026-H2继续使用证据
@@ -312,6 +301,8 @@ testmini与test不混合；官方榜单当前可见历史记录并非保证最�
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
 
 ### 污染、冲突及协议差异
@@ -322,11 +313,9 @@ testmini与test不混合；官方榜单当前可见历史记录并非保证最�
 
 ### 衍生基准
 
-待核实
+2026-07-27官方README新增社区维护的EvalScope集成；默认testmini/0-shot，以数学解析及numeric equivalence评分，尚无同预测分数一致性报告，不能认作官方评分器等价替代。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
-
-来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/lupantech/MathVista/main/README.md](https://raw.githubusercontent.com/lupantech/MathVista/main/README.md)（访问 2026-11-07 KST）
 
 ## 榜单快照
 
@@ -348,17 +337,71 @@ https://mathvista.github.io/#leaderboard
 
 > 本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。
 
+核验状态：待核实
+
 来源：[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
 
 ### 可核验结果
 
-| 模型/版本 | 分数 | 口径 | 报告日期 | 来源性质 |
-|---|---:|---|---|---|
-| DreamPRM (o4-mini) | 85.2% | testmini 1,000例 | 2025-06-04 | 官方榜单在核验日可读的结果；不等同于当前全球SOTA |
-| VL-Rethinker | 80.3% | testmini 1,000例 | 2025-04-10 | 官方榜单在核验日可读的结果；不等同于当前全球SOTA |
-| Step R1-V-Mini | 80.1% | testmini 1,000例 | 2025-04-07 | 官方榜单在核验日可读的结果；不等同于当前全球SOTA |
-| MMVistaReason-4B (MVR-4B) | 82.4% | MathVista mini | 2026-10-22 | MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测 |
-| MMVistaReason-9B (MVR-9B) | 83.6% | MathVista mini | 2026-10-22 | MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排 |
+```json
+[
+  {
+    "model": "DreamPRM (o4-mini)",
+    "score": 85.2,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "testmini 1,000例",
+    "date": "2025-06-04",
+    "accessed": "2026-11-07",
+    "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+    "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+  },
+  {
+    "model": "VL-Rethinker",
+    "score": 80.3,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "testmini 1,000例",
+    "date": "2025-04-10",
+    "accessed": "2026-11-07",
+    "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+    "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+  },
+  {
+    "model": "Step R1-V-Mini",
+    "score": 80.1,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "testmini 1,000例",
+    "date": "2025-04-07",
+    "accessed": "2026-11-07",
+    "source_url": "https://mathvista.github.io/data/results/model_scores.js",
+    "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+  },
+  {
+    "model": "MMVistaReason-4B (MVR-4B)",
+    "score": 82.4,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MathVista mini",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+  },
+  {
+    "model": "MMVistaReason-9B (MVR-9B)",
+    "score": 83.6,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MathVista mini",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+  }
+]
+```
 
 来源：[https://mathvista.github.io/data/results/model_scores.js](https://mathvista.github.io/data/results/model_scores.js)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
 
@@ -372,11 +415,7 @@ https://mathvista.github.io/#leaderboard
 
 ### 官方公开邮箱
 
-```json
-[
-  "lupantech@gmail.com"
-]
-```
+lupantech@gmail.com
 
 > 项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。
 
@@ -390,11 +429,9 @@ https://github.com/lupantech/MathVista/issues
 
 ### 官方账号/联系更新
 
-待核实
+https://twitter.com/lupantech/status/1717313355780964608（官方README列出的反馈入口；未读取社交平台内容）
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
-
-来源：[https://arxiv.org/abs/2310.02255](https://arxiv.org/abs/2310.02255)（访问 2026-11-07 KST）；[https://mathvista.github.io/](https://mathvista.github.io/)（访问 2026-11-07 KST）
+来源：[https://raw.githubusercontent.com/lupantech/MathVista/main/README.md](https://raw.githubusercontent.com/lupantech/MathVista/main/README.md)（访问 2026-11-07 KST）
 
 ### 联系信息原则
 
@@ -449,6 +486,17 @@ ee5a616e9481f0f0d6b8ccc9e6d261f1c35fcb0b9c64d1c5c9d2d9462d6fc5e9
 
 来源：[https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk](https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk)（访问 2026-11-07 KST）
 
+### Drive 原始 PDF
+
+```json
+{
+  "id": "12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho",
+  "webViewLink": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk"
+}
+```
+
+来源：[https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk](https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk)（访问 2026-11-07 KST）
+
 ## 变更记录
 
 ### 变更记录
@@ -459,6 +507,11 @@ ee5a616e9481f0f0d6b8ccc9e6d261f1c35fcb0b9c64d1c5c9d2d9462d6fc5e9
     "date": "2026-11-07",
     "timezone": "Asia/Seoul",
     "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
   }
 ]
 ```

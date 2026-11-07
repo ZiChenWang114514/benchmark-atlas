@@ -1,7 +1,7 @@
 {
   "id": "charxiv",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "CharXiv",
@@ -87,10 +87,14 @@
       ]
     },
     "license": {
-      "value": "问答等原创贡献CC BY-SA 4.0，代码Apache-2.0；图表版权归各原论文作者。",
+      "value": "原创问答CC BY-SA 4.0，代码Apache-2.0；图表版权属原作者。官方HF卡另声明仅用于评测，不允许用于训练，需同时审阅这些使用限制。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -172,19 +176,21 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "Princeton Language and Intelligence (PLI), Princeton University",
+        "University of Wisconsin–Madison",
+        "The University of Hong Kong"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.18521",
+          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://charxiv.github.io/",
+          "url": "https://arxiv.org/pdf/2406.18521",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -210,10 +216,10 @@
       ]
     },
     "maintainer": {
-      "value": "princeton-nlp 官方仓库团队（当前具体个人职责待核实）",
+      "value": "princeton-nlp / CharXiv作者团队；官方README欢迎Issue/PR，并由Zirui Wang接收数据构建脚本咨询。",
       "sources": [
         {
-          "url": "https://github.com/princeton-nlp/CharXiv",
+          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -302,12 +308,21 @@
         {
           "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv/raw/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "HF数据卡另有公开Erratum：0.jpg推理答案错误；不能因为专家人工审核就宣称零标注错误。"
     },
     "decontamination": {
-      "value": "论文保留test答案私有、无训练集且不应作为训练数据；不等于已证明与预训练材料无重叠。",
+      "value": "test答案刻意设为null而不公开，避免测试答案泄漏；论文datasheet同时承认图表可能与SciCap、SciGraphQA、Multimodal Arxiv有重叠，不能保证图像未进入预训练。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/pdf/2406.18521",
           "accessed": "2026-11-07"
@@ -317,14 +332,14 @@
   },
   "data_format": {
     "size": {
-      "value": "论文和主页为2,323图表、超过10K问题；仓库images说明另写2,333，与正文2,323不一致，按论文口径展示并保留冲突。",
+      "value": "论文及README主体均称2,323 charts；每图4道descriptive和1道reasoning。README代码导览另写2,333 images（ID 0–2399且不连续），是官方文档内部冲突，未用该处覆盖2,323主口径。",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2406.18521",
+          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv",
+          "url": "https://arxiv.org/pdf/2406.18521",
           "accessed": "2026-11-07"
         }
       ]
@@ -356,14 +371,10 @@
       ]
     },
     "languages": {
-      "value": "英文（本次公开问题/官方说明；完整语言分布待核实）",
+      "value": "English（官方HF数据卡language: en）；这是官方语言标注，不推断图中所有原论文文本的语言比例。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
+          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -382,12 +393,8 @@
       ]
     },
     "public_hidden_split": {
-      "value": "validation 1,000图表、test 1,323图表；test答案不公开，数据不得用作训练集。",
+      "value": "validation发布完整问答及已有模型响应/评分；test的答案在JSON中设为null以降低泄漏风险。模型生成与GPT评估流程分别运行，公开本地完整评测应选val。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2406.18521",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
@@ -464,7 +471,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://charxiv.github.io/",
@@ -492,8 +499,10 @@
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
-            "date": "2026-10-22",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            "date": "2026-10-23",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+            "date_kst": "2026-10-23T01:54:37+09:00",
+            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -506,37 +515,43 @@
         {
           "url": "https://arxiv.org/html/2610.01352v2",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.01352",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方val reasoning前三为78.6%、72.0%、64.2%；Human为80.5%，但描述题指标独立且隐藏test不等于val。这里只记录接近程度，不把接近历史人类参照宣称为全任务饱和。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.18521",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://charxiv.github.io/",
+          "url": "https://charxiv.github.io/data/val_result.csv",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "官方CSV与README榜单都可能为历史结果；MMVistaReason的CharXiv reas.是另一研究的CompassVerifier协议，不是官方榜单刷新。",
+      "value": "官网CSV与README静态榜单更新不同，当前快照优先使用官网CSV。2,323 charts与README导览2,333 images冲突并列保留；test答案隐藏不代表图像无污染。MMVistaReason的CompassVerifier协议不能与官方GPT裁判结果混排。 官方HF Erratum明确0.jpg的reasoning参考答案有误（社区#2发现）；数据卡表示未来版本会修正，本轮不自行改写答案。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2406.18521",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
         },
         {
+          "url": "https://charxiv.github.io/data/val_result.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2406.18521",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/princeton-nlp/CharXiv/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -554,7 +569,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "leaderboard": {
@@ -584,7 +599,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -594,33 +609,39 @@
           "score": 78.6,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "validation，reasoning overall（不是descriptive）",
+          "scope": "validation；reasoning overall（非descriptive）",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "官方CSV历史记录；未列报告日期，模型精确API快照若未在名称中出现则待核实"
+          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
+          "leaderboard_updated_at": "待核实",
+          "descriptive_overall": 95.0
         },
         {
           "model": "o4 mini (high)",
           "score": 72.0,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "validation，reasoning overall（不是descriptive）",
+          "scope": "validation；reasoning overall（非descriptive）",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "官方CSV历史记录；未列报告日期，模型精确API快照若未在名称中出现则待核实"
+          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
+          "leaderboard_updated_at": "待核实",
+          "descriptive_overall": 94.3
         },
         {
           "model": "Claude 3.7 Sonnet",
           "score": 64.2,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "validation，reasoning overall（不是descriptive）",
+          "scope": "validation；reasoning overall（非descriptive）",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
-          "provenance": "官方CSV历史记录；未列报告日期，模型精确API快照若未在名称中出现则待核实"
+          "provenance": "本轮重新读取官网实际CSV；未标明榜单更新日及这些条目的提交日。",
+          "leaderboard_updated_at": "待核实",
+          "descriptive_overall": "待核实"
         },
         {
           "model": "MMVistaReason-4B (MVR-4B)",
@@ -628,10 +649,11 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "CharXiv reasoning",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -639,10 +661,11 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "CharXiv reasoning",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         }
       ],
       "sources": [
@@ -657,18 +680,14 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "本轮重新打开官网CSV而非重复使用初建日期。当前可读val reasoning前三o3 (high) 78.6、o4 mini (high) 72.0、Claude 3.7 Sonnet 64.2。CSV未明示整体更新日期，模型API快照和缺失提交日期继续待核实。",
       "sources": [
         {
-          "url": "https://charxiv.github.io/",
+          "url": "https://charxiv.github.io/data/val_result.csv",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
           "accessed": "2026-11-07"
         }
       ]
@@ -685,7 +704,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+      "note": "使用README明确提供的咨询邮箱；论文署名邮箱可能不同，不认定旧地址已失效。"
     },
     "github_issues": {
       "value": "https://github.com/princeton-nlp/CharXiv/issues",
@@ -697,19 +716,14 @@
       ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/zwcolin/status/1816948825036071196",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.18521",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://charxiv.github.io/",
+          "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "官方README引用的项目讨论链接；本轮未访问X内容或发送消息。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -800,6 +814,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "补机构、维护和公开联系；新增2,323/2,333官方文档冲突及test隐藏答案；重读CSV快照并重核H2。 补官方en语言标签、禁止训练声明和0.jpg答案Erratum。"
       }
     ],
     "sources": [

@@ -305,10 +305,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方数据、Docker和测试脚本公开；公开测试可能受适应性优化。",
+      "value": "README列出java_hidden 1,243、python_hidden 1,026；另各有50条public与50条similar；rosalind 253条。名称hidden不等于当前访问受限：README明确完整公共数据已在仓库发布。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -325,10 +325,10 @@
       ]
     },
     "scoring": {
-      "value": "生成代码在执行测试/fuzz cases中通过；Pass@K不是题目准确率简单取最大。",
+      "value": "代码运行与fuzz-testing判断Passed；Rosalind示例每题20次生成，按组合概率估计Pass@1/5/10/20并跨题均值。不可把Pass@20当成一次生成准确率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -347,10 +347,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/gersteinlab/BioCoder",
+      "value": "官方仓库evaluation/包含Docker/AWS队列执行框架，TestRosalind/tester.py生成results.json；README指出完全本地化框架为未来计划，不宣称已提供。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.16458",
+          "url": "https://raw.githubusercontent.com/gersteinlab/BioCoder/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -631,6 +631,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

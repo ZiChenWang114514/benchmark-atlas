@@ -1,7 +1,7 @@
 {
   "id": "minif2f",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "miniF2F",
@@ -22,14 +22,10 @@
       ]
     },
     "version": {
-      "value": "原版v1跨系统集合；现代Lean4移植需另记commit",
+      "value": "v1（2021年8月冻结；官方要求报告v1分支而不是开发main）",
       "sources": [
         {
-          "url": "https://github.com/openai/miniF2F",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2109.00110",
+          "url": "https://raw.githubusercontent.com/openai/miniF2F/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -73,13 +69,10 @@
       ]
     },
     "license": {
-      "value": {
-        "Metamath": "MIT",
-        "Lean/Isabelle": "Apache-2.0（按原论文说明，fork需复核）"
-      },
+      "value": "按形式系统分目录授权：Lean与Isabelle为Apache，Metamath为MIT，HOL Light为FreeBSD；不使用单一总许可概括。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.00110",
+          "url": "https://raw.githubusercontent.com/openai/miniF2F/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -173,15 +166,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "openai/miniF2F 官方仓库贡献者；README欢迎补充形式化题目与证明，不据此断言活跃维护频率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.00110",
+          "url": "https://raw.githubusercontent.com/openai/miniF2F/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -264,10 +255,10 @@
   },
   "data_format": {
     "size": {
-      "value": "488题：验证244、测试244；原版为跨系统benchmark，不只Lean4。",
+      "value": "README统计表：Lean/Metamath/Isabelle各valid 244、test 244；HOL Light各165。版本段又称v1包括244 statements，和分栏表口径不明；保留原文差异，不将多形式系统重复计数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.00110",
+          "url": "https://raw.githubusercontent.com/openai/miniF2F/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -686,6 +677,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

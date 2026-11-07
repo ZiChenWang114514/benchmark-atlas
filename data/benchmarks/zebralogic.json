@@ -73,15 +73,22 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": {
+        "evaluation_code": "Apache-2.0（ZeroEval LICENSE）",
+        "dataset": "待核实（本次打开的WildEval/ZebraLogic数据卡未声明license；代码许可不代替数据授权）"
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.01100",
+          "url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
       "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      "note": "代码许可已核实；数据集许可仍待核实，本字段为部分完成，不计为授权全部核清。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2502.01100",
@@ -267,10 +274,10 @@
   },
   "data_format": {
     "size": {
-      "value": "1000道，25种网格尺寸×40题。",
+      "value": "数据卡grid_mode测试集1000个谜题；mc_mode测试集3259道选择题。两者是不同配置，不相加为独立谜题数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.01100",
+          "url": "https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -350,14 +357,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/WildEval/ZeroEval",
+      "value": "ZeroEval：以-d zebra-grid运行；src/evaluation/zebra_grid_eval.py评分，支持本地及API推理。",
       "sources": [
         {
-          "url": "https://github.com/WildEval/ZeroEval",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2502.01100",
+          "url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -509,6 +512,39 @@
     "results": {
       "value": [
         {
+          "model_version": "grok-3-mini-fast-beta-high",
+          "score": "92.6",
+          "unit": "%",
+          "scope_and_protocol": "作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "o3-mini-2025-01-31-high",
+          "score": "91.7",
+          "unit": "%",
+          "scope_and_protocol": "作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "o3-mini-2025-01-31-medium",
+          "score": "88.9",
+          "unit": "%",
+          "scope_and_protocol": "作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。",
+          "result_date": "待核实",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
           "model_version": "Hunyuan-A13B",
           "score": "84.7",
           "unit": "%",
@@ -533,20 +569,20 @@
       ],
       "sources": [
         {
+          "url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（结果表未注明最后更新日）；2026-11-07仅为采集日期（Asia/Seoul）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.01100",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -676,6 +712,18 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "evaluation.official_scripts",
+          "data_format.size",
+          "leaderboard.results",
+          "leaderboard.coverage_note"
+        ]
       }
     ],
     "sources": [

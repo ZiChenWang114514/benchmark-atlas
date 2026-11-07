@@ -95,19 +95,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "数据 CC-BY-NC-SA-4.0（官方数据卡声明；代码许可另行核验）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2502.00334",
@@ -402,50 +396,31 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "languages": {
-      "value": [
-        "中文",
-        "英文"
-      ],
+      "value": "中文、英文；HF 将 en 和 zh 作为各科配置的 split 名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "大学本科物理，3 大领域、13 门核心科目、59 个关键主题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://github.com/YangLabHKUST/UGPhysics",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "官方 HF 按科目配置、en/zh 语言 split 发布；这些 split 是语言而非 train/test。未确认独立隐藏测试集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -476,19 +451,13 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "开放模型示例为逐步推理并把最终答案置于 boxed 中；闭源 infer_close.py，开放 generate_open.py，统一用 codes/eval.py 评分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://github.com/YangLabHKUST/UGPhysics",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/YangLabHKUST/UGPhysics",
@@ -528,8 +497,17 @@
         {
           "url": "https://arxiv.org/pdf/2502.00334",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13009",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13009",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-09，专家重评论文直接使用并审计本基准；保留集结果不能混作原始全库成绩。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -574,18 +552,17 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "2026 年 9 月独立专家审计指出原评分器及部分参考材料存在问题；纠错结果只针对抽样后保留集，不能外推为全库成绩。原作者的数据质量主张与审计结论并列保留。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
+          "url": "https://github.com/YangLabHKUST/UGPhysics",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://arxiv.org/abs/2609.13009",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -662,14 +639,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "官方 README 的 Leaderboard 仍为 coming soon，不能将引用论文的选定模型成绩称为官方当前排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2502.00334",
+          "url": "https://github.com/YangLabHKUST/UGPhysics",
           "accessed": "2026-11-07"
         }
       ]
@@ -694,10 +667,6 @@
     "github_issues": {
       "value": "https://github.com/YangLabHKUST/UGPhysics/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2502.00334",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/YangLabHKUST/UGPhysics",
           "accessed": "2026-11-07"
@@ -808,6 +777,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -821,5 +795,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

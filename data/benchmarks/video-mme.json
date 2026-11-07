@@ -1,7 +1,7 @@
 {
   "id": "video-mme",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "Video-MME",
@@ -30,15 +30,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原始Video-MME；官方2024-06-15刷新破损/潜在失效视频链接并重新标注，未命名独立数字版本。",
       "sources": [
         {
-          "url": "https://video-mme.github.io/home_page.html",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
@@ -174,19 +172,23 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "Nanjing University",
+        "State Key Laboratory of Cognitive Intelligence",
+        "Xiamen University (XMU)",
+        "The University of Hong Kong (HKU)",
+        "Peking University (PKU)",
+        "The Chinese University of Hong Kong (CUHK)",
+        "East China Normal University (ECNU)",
+        "Institute of Automation, Chinese Academy of Sciences (CASIA)"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2405.21075",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://video-mme.github.io/home_page.html",
+          "url": "https://arxiv.org/pdf/2405.21075",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "依据arXiv v3署名机构；不将榜单参评模型机构误作发起合作方。"
     },
     "authors": {
       "value": [
@@ -220,16 +222,16 @@
       ]
     },
     "maintainer": {
-      "value": "MME-Benchmarks 官方仓库团队（当前具体个人职责待核实）",
+      "value": "MME-Benchmarks / Video-MME团队；数据侵权与移除由videomme2024@gmail.com接收，榜单提交由bradyfu24@gmail.com接收。",
       "sources": [
         {
-          "url": "https://github.com/MME-Benchmarks/Video-MME",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "funders": {
-      "value": "国家自然科学基金，项目号62441234（论文Acknowledgments）。",
+      "value": "National Natural Science Foundation of China，Grant 62441234。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2405.21075",
@@ -316,19 +318,13 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "900段视频及2,700问答由本项目新收集并人工标注，不从已有视频数据集直接复用；2024-06-15替换失效链接并重标注。新收集不是模型训练污染已排除的证明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2405.21075",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://video-mme.github.io/home_page.html",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -398,12 +394,8 @@
       ]
     },
     "public_hidden_split": {
-      "value": "按short（<2min）、medium（4–15min）、long（30–60min）报告；公开数据与标注。",
+      "value": "公开评测900 videos / 2,700 QA；744段字幕，所有long视频有字幕。带字幕设置只使用与所采帧时间对应的字幕，不将完整字幕无条件输入。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2405.21075",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
@@ -426,12 +418,8 @@
       ]
     },
     "scoring": {
-      "value": "选择题准确率，另按视频时长、领域、子类和任务类型汇总；官方评估不调用ChatGPT等第三方评分模型。",
+      "value": "对模型选择字母进行确定性提取并计算accuracy，不引入ChatGPT等第三方模型裁判；分别报告short/medium/long、领域、子类别、任务类型。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2405.21075",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
@@ -480,7 +468,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://video-mme.github.io/home_page.html",
@@ -489,19 +477,13 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "本轮官方README最后明确列出的数据修复为2024-06-15：替换破损和可能失效的视频并重标注；2025-12-05列Gemini 3 Pro采用基准的新闻，不是新数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2405.21075",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://video-mme.github.io/home_page.html",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -523,7 +505,9 @@
           {
             "url": "https://arxiv.org/html/2610.16118v1",
             "date": "2026-10-12",
-            "note": "Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。"
+            "note": "Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。",
+            "date_kst": "2026-10-12T12:33:06+09:00",
+            "verified_in_round1": "本轮重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -536,23 +520,25 @@
         {
           "url": "https://arxiv.org/html/2610.16118v1",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.16118",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "本轮官方带字幕表前列为81.6/81.3/79.6%，不带字幕另表；不同模型帧预算、字幕和音频输入不齐。没有在统一设置下核实整体饱和结论，不因高分自动称饱和。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2405.21075",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://video-mme.github.io/home_page.html",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "带/不带字幕、视频帧预算和音频输入严格区分；2026 FramePack-U摘要把+9.7写成long提升，但附录Table10显示overall +9.7、long +12.8，采用明细表记录冲突。",
@@ -572,19 +558,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方仓库同时链接MME、MME-RealWorld、MME-Survey为相关工作；它们不是Video-MME数据修订版，不能沿用本条榜单成绩。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2405.21075",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://video-mme.github.io/home_page.html",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -614,7 +594,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -626,20 +606,34 @@
           "metric": "accuracy",
           "scope": "overall with subtitles；10fps，上限768帧",
           "date": "2025-09-28",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://video-mme.github.io/home_page.html",
-          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+          "provenance": "本轮重新读取官方表格；按with-subtitles的Overall排序，帧率不同不能当统一预算对比。",
+          "leaderboard_updated_at": "待核实"
         },
         {
           "model": "Gemini 1.5 Pro",
           "score": 81.3,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "overall with subtitles；短中视频1fps，长视频0.5fps",
+          "scope": "overall with subtitles；短/中1fps，长0.5fps",
           "date": "2024-06-15",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://video-mme.github.io/home_page.html",
-          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+          "provenance": "本轮重新读取官方表格；按with-subtitles的Overall排序，帧率不同不能当统一预算对比。",
+          "leaderboard_updated_at": "待核实"
+        },
+        {
+          "model": "AdaReTaKe 72B",
+          "score": 79.6,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "overall with subtitles；1024帧",
+          "date": "2025-03-04",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://video-mme.github.io/home_page.html",
+          "provenance": "本轮重新读取官方表格；按with-subtitles的Overall排序，帧率不同不能当统一预算对比。",
+          "leaderboard_updated_at": "待核实"
         },
         {
           "model": "video-SALMONN 2+ 72B",
@@ -648,9 +642,10 @@
           "metric": "accuracy",
           "scope": "overall without subtitles；10fps，上限768帧",
           "date": "2025-09-28",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://video-mme.github.io/home_page.html",
-          "provenance": "官方榜单在核验日可读的结果；不等同于当前全球SOTA"
+          "provenance": "本轮重新读取官方表格；按with-subtitles的Overall排序，帧率不同不能当统一预算对比。",
+          "leaderboard_updated_at": "待核实"
         },
         {
           "model": "Qwen3.6-27B + FramePack-U",
@@ -676,18 +671,14 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "2026-11-07 KST重新读取官方榜单，带字幕可读前三为81.6/81.3/79.6%；各行Date是来源标注日期，未发现统一更新日。README中更晚的模型采用新闻不等于已更新入该表，历史快照不能声称2026全球SOTA。",
       "sources": [
         {
           "url": "https://video-mme.github.io/home_page.html",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2610.16118v1",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -705,7 +696,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+      "note": "前者处理数据/版权移除，后者接收标准JSON格式榜单结果。"
     },
     "github_issues": {
       "value": "https://github.com/MME-Benchmarks/Video-MME/issues",
@@ -729,7 +720,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -820,6 +811,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。"
       }
     ],
     "sources": [

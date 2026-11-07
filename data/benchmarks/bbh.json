@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "仓库LICENSE为MIT（Copyright 2022 suzgunmirac）；适用措辞为software/documentation，不将其自动扩大为BIG-Bench原始任务或论文的统一授权。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2210.09261",
+          "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2210.09261",
@@ -677,6 +675,14 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.license"
+        ]
       }
     ],
     "sources": [

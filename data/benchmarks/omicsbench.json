@@ -72,10 +72,10 @@
       ]
     },
     "license": {
-      "value": "runner/graders MIT；公开任务CC BY 4.0；底层论文数据与参考数据库保留各自许可。",
+      "value": "Runner及全部grader为MIT；三个公开任务及答案为CC BY 4.0；所附生物数据和标识符数据库仍遵守各原始来源许可证。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -90,15 +90,13 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/gideonshaked/OmicsBench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "dataset_url": {
       "value": "https://huggingface.co/datasets/gideonshaked/OmicsBench",
@@ -223,10 +221,10 @@
       ]
     },
     "review_process": {
-      "value": "writer/reviewer代理最多三轮修改，再由专家修订与QC。",
+      "value": "受过研究生层次计算生物学训练的人类专家选论文及数据；writer agent起草，reviewer agent审核支持性及泄漏，最多三轮修订；自动格式检查后人类复核编辑或拒绝。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -298,10 +296,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "3公开示例、94私有评测任务；runner与参考评分库有公开HF入口。",
+      "value": "97项任务、662个子任务；公开3项任务及答案，94项为私有测试集，需联系作者申请评测。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -318,10 +316,10 @@
       ]
     },
     "scoring": {
-      "value": "确定性grader；gated合格阈值0.7、最多3轮，每任务3次运行。",
+      "value": "58类确定性grader先给答案字段0—1分；子任务取字段均值，任务取子任务均值。single-pass无反馈；gated阈值0.7、最多3次，每轮1800秒；两种模式均记录最佳尝试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -336,15 +334,13 @@
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "官方HF仓库omicsbench_runner/包含runner与全部grader；安装与运行说明见omicsbench_runner/README.md。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://huggingface.co/datasets/gideonshaked/OmicsBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "comparability_warning": {
       "value": "模型与harness混杂；gated反馈可能导致reward hacking，因此提升可作为上界而非独立能力提升。",
@@ -410,20 +406,19 @@
       ]
     },
     "saturation": {
-      "value": "原论文最佳约0.57/0.67，并未饱和；当前公开在线榜单更新频率待核实。",
+      "value": "原论文12个模型、3种harness的实验中，最佳Opus 5/OpenCode为single-pass 0.57、gated 0.67；作者认为未饱和。这是论文判断，不是实时榜单结论。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "contamination_and_issues": {
-      "value": "私有问题仍源于公开研究；反馈泄漏、grader漏洞与模型/harness耦合是重要解释边界。",
+      "value": "94项私有测试防止公开答案暴露；gated反馈允许猜测或调整阈值造成reward hacking，增益是反馈作用的上界；模型与harness效果未完全解耦；失败分析judge未与人工标注验证。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2610.21074",
+          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -622,6 +617,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

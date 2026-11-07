@@ -119,23 +119,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "官网声明 NIST license；具体使用和免责声明应以官方 LICENSE 为准，不标成 MIT。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2306.11688",
@@ -155,22 +145,13 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/usnistgov/jarvis_leaderboard",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "dataset_url": {
       "value": "https://pages.nist.gov/jarvis_leaderboard/",
@@ -319,23 +300,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "NIST-JARVIS infrastructure",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -448,23 +419,13 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "最低自动检查包括通过 GitHub Actions 重建榜单和安装软件；记录预测、软件、硬件和仪器背景以支持复现。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -488,16 +449,8 @@
   },
   "data_format": {
     "size": {
-      "value": "当前官网显示 322 个 benchmarks、2,087 份贡献、8,752,827 数据点；这是平台统计，不是单一测试集大小。",
+      "value": "本次官网快照322个benchmark、2087项贡献、8,752,827个datapoints；这些是平台聚合量，不是单一任务题量。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
@@ -725,18 +678,10 @@
       "status": "待核实"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Kamal Choudhary [ view email ] [v1] Tue, 20 Jun 2023 17:07:07 UTC (1,557 KB) [v2] Tue, 26 Mar 2024 10:40:28 UTC (2,049 KB)",
+      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）沿用 JARVIS-Leaderboard 固定训练、验证、测试划分，表1和表2报告多性质 MAE。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/",
+          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
@@ -820,14 +765,6 @@
       "value": "https://pages.nist.gov/jarvis_leaderboard/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
@@ -859,14 +796,21 @@
           "score": 0.0271,
           "unit": "待核实",
           "metric": "MAE（越低越好）",
-          "scope": "dft_3d_formation_energy_peratom，官网示例结果；非断言全榜第一；软件精确版本待核实"
+          "scope": "dft_3d_formation_energy_peratom；首页示例条目，非全平台总排名"
         },
         {
-          "model": "matminer_xgboost",
-          "score": 0.9361,
-          "unit": "比例",
-          "metric": "ACC",
-          "scope": "dft_3d_optb88vdw_bandgap 分类任务，官网示例；非断言全榜第一"
+          "model": "kgcnn_coGN",
+          "score": 0.1219,
+          "unit": "待核实",
+          "metric": "MAE（越低越好）",
+          "scope": "dft_3d_optb88vdw_bandgap；首页示例条目"
+        },
+        {
+          "model": "kgcnn_coGN",
+          "score": 0.0262,
+          "unit": "待核实",
+          "metric": "MAE（越低越好）",
+          "scope": "dft_3d_optb88vdw_total_energy；首页示例条目"
         }
       ],
       "sources": [
@@ -874,19 +818,12 @@
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "首页示例条目（不是全平台总排名）：dft_3d_formation_energy_peratom：kgcnn_coGN MAE 0.0271；dft_3d_optb88vdw_bandgap：kgcnn_coGN MAE 0.1219；dft_3d_optb88vdw_total_energy：kgcnn_coGN MAE 0.0262。"
     },
     "coverage_note": {
-      "value": "仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。",
+      "value": "2026-11-07 官网示例表快照；每个性质有独立任务页，不能合成总冠军。页面整体更新日期待核实。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
@@ -915,23 +852,14 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/usnistgov/jarvis_leaderboard/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.11688",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.11688",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -1041,6 +969,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [
@@ -1054,5 +987,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
 }

@@ -235,7 +235,7 @@
       ]
     },
     "quality_control": {
-      "value": "2.0较1.1覆盖更多仓库、43%更多 blocking criteria，强化彻底性与回归检查，并放宽不必要的scope限制。",
+      "value": "20多名开源开发者每题投入40小时以上，人工与自动多阶段审核。2.0中80%参考解不同于上游PR（1.0为60%），属于官方自述QC统计而非独立审计。",
       "sources": [
         {
           "url": "https://cognition.com/blog/frontier-code-2.0",
@@ -286,7 +286,7 @@
       ]
     },
     "languages": {
-      "value": "跨仓库语言；公开示例包括 JavaScript 与 Kotlin，完整语言分布待核实。",
+      "value": "官方公开示例涵盖JavaScript（Mock Service Worker）和Kotlin（PostHog Android SDK）；完整语言分布待核实，不由示例外推全套覆盖。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
@@ -334,7 +334,7 @@
       ]
     },
     "prompt_settings": {
-      "value": "AA2.0：Stirrup，132题各3次，最多500turn，GPT-6 Luna medium作LLM评审；1.1上限250turn。",
+      "value": "AA独立实现：全部132题，每题重复3次，Stirrup harness，最多500轮；GPT-6 Luna (medium)作为LLM judge。此设置不等同Cognition官方发布实验。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
@@ -397,15 +397,13 @@
       "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "官方方法文档沿革：1.0于2026-06-08介绍，1.1于2026-07-07修订，2.0于2026-10-27重建132题。这里记录方法文章而非虚构论文修订号。",
       "sources": [
         {
           "url": "https://cognition.com/frontiercode",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "saturation": {
       "value": "2.0官方发布实验最优约45%，官方判断远未饱和；这不是对所有未来系统的绝对结论。",
@@ -471,8 +469,9 @@
           "metric": "weighted score (%)",
           "benchmark_version": "2.0/132题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
@@ -480,8 +479,9 @@
           "metric": "weighted score (%)",
           "benchmark_version": "2.0/132题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "GPT-6 Astra (Max)",
@@ -489,8 +489,9 @@
           "metric": "weighted score (%)",
           "benchmark_version": "2.0/132题",
           "result_type": "AA独立当前页面",
-          "source_date": "2026-11-07",
-          "collected_at": "2026-11-07 KST"
+          "source_date": "待核实（页面未给出该结果运行/发布日期）",
+          "collected_at": "2026-11-07 KST",
+          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
         },
         {
           "model": "Claude Opus 5.5 (best effort)",
@@ -579,11 +580,11 @@
       "value": "待核实",
       "sources": [
         {
-          "url": "https://cognition.com/frontiercode",
+          "url": "https://cognition.com/blog/frontier-code-2.0",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮检索官方2.0方法文章、官网及PDF搜索未定位可验证原始论文PDF；HTML不是原始PDF，不打印网页冒充。",
       "status": "待核实"
     },
     "sha256": {
@@ -667,6 +668,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

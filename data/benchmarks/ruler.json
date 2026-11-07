@@ -1,7 +1,7 @@
 {
   "id": "ruler",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "RULER",
@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原始RULER（13任务配置）；当前仓库另指向v1/v2新pipeline。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
@@ -73,15 +71,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码 Apache-2.0；外部语料应另行遵循各自许可。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
+          "url": "https://raw.githubusercontent.com/hsiehjackson/RULER/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2404.06654",
@@ -169,15 +165,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 hsiehjackson；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -262,10 +256,10 @@
   },
   "data_format": {
     "size": {
-      "value": "13 个任务配置；原论文各任务、各长度 500 条，测试长度 4k、8k、16k、32k、64k、128k token。",
+      "value": "4类任务、13种已评测配置；样本可依随机种子、序列长度和任务复杂度生成，不是固定总题量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
       ]
@@ -375,15 +369,13 @@
       "note": "2026-H2实际使用证据：2026-09-23：Hunyuan-A13B §4.2–4.3实际使用 RULER 并报告结果；厂商自报，需保留各基准的提示/上下文条件。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "官方README已将旧pipeline标为deprecated，指向NVIDIA/RULER的rulerv1-ns和rulerv2-ns分支；v1与v2结果不可无标记混合。",
       "sources": [
         {
           "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -454,14 +446,13 @@
       "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
     },
     "official_url": {
-      "value": "https://arxiv.org/abs/2404.06654",
+      "value": "https://github.com/hsiehjackson/RULER",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "未有已核实实时榜时提供原始论文/数据卡结果入口；不宣称是实时排行榜。"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -477,31 +468,45 @@
     "results": {
       "value": [
         {
-          "model": "Hunyuan-A13B（报告命名）",
-          "score": 76.7,
+          "model": "Jamba-1.5-large*",
+          "score": 96.0,
           "unit": "%",
-          "metric": "RULER QA子任务，0–128K四长度段平均",
-          "scope": "Hunyuan技术报告表6，厂商自报；不是原始13任务综合分",
-          "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
+          "metric": "Avg. over 4K–128K columns",
+          "scope": "当前官方README历史混合结果表；星号为外部作者报告",
+          "leaderboard_updated_at": "待核实",
+          "snapshot_date": "2026-11-07"
+        },
+        {
+          "model": "Gemini-1.5-pro",
+          "score": 95.8,
+          "unit": "%",
+          "metric": "Avg. over 4K–128K columns",
+          "scope": "当前官方README历史混合结果表；星号为外部作者报告",
+          "leaderboard_updated_at": "待核实",
+          "snapshot_date": "2026-11-07"
+        },
+        {
+          "model": "Qwen2.5-14B-Instruct-1M*",
+          "score": 95.7,
+          "unit": "%",
+          "metric": "Avg. over 4K–128K columns",
+          "scope": "当前官方README历史混合结果表；星号为外部作者报告",
+          "leaderboard_updated_at": "待核实",
           "snapshot_date": "2026-11-07"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "仅收录H2技术报告中明确可读的厂商自报成绩；模型标签按报告保留，未核实其精确API运行日期。不能把这些成绩冒充独立机构当前排行榜。",
+      "value": "README同时列出Avg、wAvg(inc)、wAvg(dec)，此处仅按Avg列列示前三行，不冒充加权榜排名。部分为外部作者自报；Hunyuan报告只用QA子任务，与全13任务均值不能混比。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2404.06654",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://github.com/hsiehjackson/RULER",
           "accessed": "2026-11-07"
         }
       ]
@@ -625,6 +630,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -634,6 +644,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2404.06654",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/hsiehjackson/RULER",
         "accessed": "2026-11-07"
       }
     ]

@@ -38,22 +38,13 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "官方说明数据有小幅修订，旧数据保留于 old 分支；未给出语义版本号。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
@@ -121,23 +112,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码 MIT；官方 HF 数据卡亦声明 MIT。教材原文的第三方权利仍需分别审查。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.10635",
+          "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/main/LICENSE",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/mandyyyyii/scibench",
+          "url": "https://huggingface.co/datasets/xw27/scibench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2307.10635",
@@ -174,22 +159,13 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/xw27/scibench",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://scibench-ucla.github.io/",
@@ -423,42 +399,22 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "以人工标注分析模型与标准解答的错误，再由 LLM verifier 归因到十项科学解题能力；这是误差分析协议，不等同题库无误证明。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "官方选题要求题目不易在线以文本取得或提取，以降低泄漏风险；不代表已对模型训练数据完成审计。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/mandyyyyii/scibench",
+          "url": "https://scibench-ucla.github.io/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
@@ -480,40 +436,22 @@
       ]
     },
     "question_types": {
-      "value": "大学层级科学问答；当前精确题量待核实。",
+      "value": "开放式自由作答科学计算题，要求多步推理和数值计算。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/mandyyyyii/scibench",
+          "url": "https://scibench-ucla.github.io/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "文本与图像；仓库 dataset/img 存放多模态数据。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
       "value": "待核实",
@@ -535,23 +473,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "大学教材及课程考试层级，覆盖数学、化学和物理。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/mandyyyyii/scibench",
+          "url": "https://scibench-ucla.github.io/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "待核实",
@@ -609,23 +537,13 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "仓库列 zero_nosys、zero、zeroCot、few、fewCot、python、wolfram 等设置；工具和提示方案须分别比较。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/mandyyyyii/scibench",
@@ -677,26 +595,26 @@
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21601",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-08，K-Bench 相关工作明确引用本基准（文献引用，不声称重新运行）。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "当前主分支数据；官方提示旧版本位于 old 分支。未确认独立发布标签或版本日期。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2307.10635",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Yanqiao Zhu [ view email ] [v1] Thu, 20 Jul 2023 07:01:57 UTC (1,349 KB) [v2] Thu, 8 Feb 2024 23:16:17 UTC (2,142 KB) [v3] Fri, 28 Jun 2024 08:24:13 UTC (2,142 KB)",
@@ -887,10 +805,6 @@
       "value": "https://github.com/mandyyyyii/scibench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.10635",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/mandyyyyii/scibench",
           "accessed": "2026-11-07"
         }
@@ -1004,6 +918,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -1017,5 +936,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

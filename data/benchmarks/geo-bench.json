@@ -120,23 +120,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码Apache 2.0（README徽章）；子数据集许可证须分别核查，不能一概推为Apache 2.0。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2306.03831",
@@ -156,57 +146,31 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/ServiceNow/geo-bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "dataset_url": {
-      "value": "https://zenodo.org/communities/geo-bench",
+      "value": "https://huggingface.co/datasets/recursix/geo-bench-1.0",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "official_homepage": {
-      "value": "待核实",
+      "value": "https://github.com/ServiceNow/geo-bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_title": {
       "value": "GEO-Bench: Toward Foundation Models for Earth Monitoring",
@@ -300,23 +264,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "ServiceNow Research官方项目。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -706,18 +660,19 @@
       "status": "待核实"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Alexandre Lacoste [ view email ] [v1] Tue, 6 Jun 2023 16:16:05 UTC (6,212 KB) [v2] Sat, 23 Dec 2023 17:17:05 UTC (6,679 KB)",
+      "value": {
+        "original_history": "Submission history From: Alexandre Lacoste [ view email ] [v1] Tue, 6 Jun 2023 16:16:05 UTC (6,212 KB) [v2] Sat, 23 Dec 2023 17:17:05 UTC (6,679 KB)",
+        "2026_H2_evidence": [
+          {
+            "url": "https://arxiv.org/html/2609.05351v1",
+            "date": "2026-09（arXiv编号月份；精确提交日待核实）",
+            "note": "MEOX §IV-B与Table III实际评测六项GEO-Bench v1任务，明确使用官方划分和归一化统计。"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://arxiv.org/html/2609.05351v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -742,41 +697,22 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有误，像素未变；HF数据尚未重新生成，需应用官方映射，GeobenchDataset会发出警告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方现推荐迁移至GEO-Bench-2（AI Alliance与IBM、ServiceNow、TUM）；原版保留。活跃评测harness另见torchgeo-bench。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -835,23 +771,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
+      "value": "H2论文使用快照，非官方总榜：MEOX在224输入、冻结encoder时EuroSAT AA 90.56±0.27%、Cashew mIoU 64.08±1.07%；64输入Cashew mIoU 64.42±0.22%。每项为五个head均值±标准差。不同分辨率与fine-tuning不可混排。当前总榜前列待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://arxiv.org/html/2609.05351v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "coverage_note": {
       "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
@@ -892,23 +818,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/ServiceNow/geo-bench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -1018,6 +934,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

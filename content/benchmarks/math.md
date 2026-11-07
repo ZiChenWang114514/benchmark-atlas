@@ -1,8 +1,10 @@
 # MATH｜中文深度介绍
 
+核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+
 评估竞赛数学多步求解、符号操作及最终答案正确性。
 
-来源：[https://arxiv.org/abs/2103.03874](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
 ## 一、基本信息
 
@@ -44,9 +46,7 @@ arXiv v2
 
 ### 子领域
 
-[
-  "竞赛数学问题求解"
-]
+- 竞赛数学问题求解
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -98,24 +98,20 @@ University of California Berkeley、University of Chicago（论文署名）
 
 待核实
 
-状态：待核实。
-
-说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
 ### 作者
 
-[
-  "Hendrycks, Dan",
-  "Burns, Collin",
-  "Kadavath, Saurav",
-  "Arora, Akul",
-  "Basart, Steven",
-  "Tang, Eric",
-  "Song, Dawn",
-  "Steinhardt, Jacob"
-]
+- Hendrycks, Dan
+- Burns, Collin
+- Kadavath, Saurav
+- Arora, Akul
+- Basart, Steven
+- Tang, Eric
+- Song, Dawn
+- Steinhardt, Jacob
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -123,9 +119,7 @@ University of California Berkeley、University of Chicago（论文署名）
 
 待核实
 
-状态：待核实。
-
-说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -133,9 +127,7 @@ University of California Berkeley、University of Chicago（论文署名）
 
 待核实
 
-状态：待核实。
-
-说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -189,7 +181,7 @@ University of California Berkeley、University of Chicago（论文署名）
 
 ### 题量
 
-12500题：训练7500、测试5000；7个学科、5档难度。
+共12500道竞赛数学题：训练7500、测试5000；MATH-500不可当成完整测试集。
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -201,7 +193,7 @@ University of California Berkeley、University of Chicago（论文署名）
 
 ### 模态
 
-文本（数学符号按文本表达）；并非原始图像视频识别任务
+自然语言与LaTeX；几何图形由Asymptote代码表示，不是原生栅格图像评测。
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -245,9 +237,9 @@ University of California Berkeley、University of Chicago（论文署名）
 
 ### 评测脚本
 
-https://github.com/hendrycks/math
+官方hendrycks/math仓库提供dataset loaders与evaluation code；复现须固定代码版本。
 
-来源：[1](https://github.com/hendrycks/math)（采集 2026-11-07）；[2](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/hendrycks/math/main/README.md)（采集 2026-11-07）。
 
 ### 可比性警示
 
@@ -271,17 +263,13 @@ MATH全量5000测试题与MATH-500是不同分母；Hunyuan报告写MATH但引�
 
 ### 修订与2026H2收录证据
 
-{
-  "arxiv_version": "arXiv v2",
-  "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-  "2026_h2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
-      "note": "Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。"
-    }
-  ]
-}
+- **论文版本**：arXiv v2
+- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+- **2026下半年引用/使用证据**：
+  - 
+    - **来源链接**：https://arxiv.org/html/2609.27284v1
+    - **日期**：2026-09-23
+    - **说明**：Hunyuan-A13B §4.1–4.2及表2–4实际报告 MATH。AIME 的不同年份归同一条目，不用年份拆分凑数。
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -289,9 +277,7 @@ MATH全量5000测试题与MATH-500是不同分母；Hunyuan报告写MATH但引�
 
 待核实
 
-状态：待核实。
-
-说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）；[2](https://artificialanalysis.ai/evaluations/math-500)（采集 2026-11-07）；[3](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -319,9 +305,7 @@ MATH-500/PRM800K围绕过程监督发展；AA只给MATH-500榜，不能冒充完
 
 待核实
 
-状态：待核实。
-
-说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+核验说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -333,41 +317,36 @@ https://artificialanalysis.ai/evaluations/math-500
 
 ### 限定范围的分数快照
 
-[
-  {
-    "model_version": "GPT-5 (High)",
-    "score": "99.4",
-    "unit": "%",
-    "scope_and_protocol": "AA MATH-500，非完整MATH5000；确切checkpoint/测量日未明",
-    "result_date": "待核实",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://artificialanalysis.ai/evaluations/math-500",
-    "source_class": "二级：独立评测",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "o3",
-    "score": "99.2",
-    "unit": "%",
-    "scope_and_protocol": "AA MATH-500，同口径",
-    "result_date": "待核实",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://artificialanalysis.ai/evaluations/math-500",
-    "source_class": "二级：独立评测",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "Hunyuan-A13B",
-    "score": "72.35",
-    "unit": "%",
-    "scope_and_protocol": "基础模型，表2 MATH，4-shot CoT；非AA榜",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  }
-]
+- 
+  - **模型版本**：GPT-5 (High)
+  - **分数**：99.4
+  - **单位**：%
+  - **范围与协议**：AA MATH-500，非完整MATH5000；确切checkpoint/测量日未明
+  - **结果日期**：待核实
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://artificialanalysis.ai/evaluations/math-500
+  - **来源等级**：二级：独立评测
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：o3
+  - **分数**：99.2
+  - **单位**：%
+  - **范围与协议**：AA MATH-500，同口径
+  - **结果日期**：待核实
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://artificialanalysis.ai/evaluations/math-500
+  - **来源等级**：二级：独立评测
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：Hunyuan-A13B
+  - **分数**：72.35
+  - **单位**：%
+  - **范围与协议**：基础模型，表2 MATH，4-shot CoT；非AA榜
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
 
 来源：[1](https://artificialanalysis.ai/evaluations/math-500)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -381,9 +360,7 @@ https://artificialanalysis.ai/evaluations/math-500
 
 ### 公开工作邮箱
 
-[
-  "hendrycks@berkeley.edu"
-]
+- hendrycks@berkeley.edu
 
 来源：[1](https://github.com/hendrycks/math)（采集 2026-11-07）；[2](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -397,9 +374,7 @@ https://github.com/hendrycks/math/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实专门官方社交账号，不收录同名个人账户
+核验说明：未核实专门官方社交账号，不收录同名个人账户
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
@@ -407,21 +382,26 @@ https://github.com/hendrycks/math/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
 ## 十、原始文件
 
-### 原始PDF
+### Drive论文PDF
+
+- **id**：1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu
+- **webViewLink**：https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk)（采集 2026-11-07）。
+
+### 原始论文PDF
 
 https://arxiv.org/pdf/2103.03874
 
 来源：[1](https://arxiv.org/abs/2103.03874)（采集 2026-11-07）。
 
-### SHA256
+### SHA256校验值
 
 a6f448173e57d808a38679dd817bcc2e01324176cbf491d08c43cc0e7ca30bfe
 
@@ -433,48 +413,36 @@ a6f448173e57d808a38679dd817bcc2e01324176cbf491d08c43cc0e7ca30bfe
 
 来源：[1](https://arxiv.org/pdf/2103.03874)（采集 2026-11-07）。
 
-### Drive资料夹
+### Drive文件夹
 
-{
-  "id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL",
-  "webViewLink": "https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL"
-}
+- **id**：1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL
+- **webViewLink**：https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL
 
 来源：[1](https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL)（采集 2026-11-07）。
 
-### 中文文档与本地稿
+### 其他文档
 
-{
-  "chinese_intro_doc": {
-    "id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o",
-    "webViewLink": "https://docs.google.com/document/d/1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o/edit?usp=drivesdk",
-    "mimeType": "application/vnd.google-apps.document"
-  },
-  "local_markdown": "content/benchmarks/math.md"
-}
+- **chinese_intro_doc**：
+  - **id**：1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o
+  - **webViewLink**：https://docs.google.com/document/d/1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o/edit?usp=drivesdk
+  - **mimeType**：application/vnd.google-apps.document
+- **local_markdown**：content/benchmarks/math.md
 
 来源：[1](https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL)（采集 2026-11-07）。
-
-### drive_pdf
-
-{
-  "id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu",
-  "webViewLink": "https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk"
-}
-
-来源：[1](https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk)（采集 2026-11-07）。
 
 ## 十一、变更记录
 
-### changelog
-
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  }
-]
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **本轮更新字段**：
+    - evaluation.official_scripts
+    - data_format.size
+    - data_format.modalities
 
 来源：[1](https://github.com/hendrycks/math)（采集 2026-11-07）。
-

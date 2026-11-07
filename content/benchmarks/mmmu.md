@@ -1,8 +1,6 @@
 # MMMU
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写。待核实不等于未公开；历史榜单、研究复测和独立评测分开。
-
-[阅读原始论文 PDF](https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk)
+> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
 
 ## 基本信息
 
@@ -23,6 +21,8 @@ Massive Multi-discipline Multimodal Understanding and Reasoning
 待核实
 
 > 条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。
+
+核验状态：待核实
 
 来源：[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
@@ -50,11 +50,7 @@ arXiv v4
 
 ### 领域
 
-```json
-[
-  "跨学科多模态理解"
-]
-```
+跨学科多模态理解
 
 来源：[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）
 
@@ -108,50 +104,29 @@ MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmar
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）；[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
 ### 作者
 
-```json
-[
-  "Yue, Xiang",
-  "Ni, Yuansheng",
-  "Zhang, Kai",
-  "Zheng, Tianyu",
-  "Liu, Ruoqi",
-  "Zhang, Ge",
-  "Stevens, Samuel",
-  "Jiang, Dongfu",
-  "Ren, Weiming",
-  "Sun, Yuxuan",
-  "Wei, Cong",
-  "Yu, Botao",
-  "Yuan, Ruibin",
-  "Sun, Renliang",
-  "Yin, Ming",
-  "Zheng, Boyuan",
-  "Yang, Zhenzhu",
-  "Liu, Yibo",
-  "Huang, Wenhao",
-  "Sun, Huan",
-  "Su, Yu",
-  "Chen, Wenhu"
-]
-```
+Yue, Xiang、Ni, Yuansheng、Zhang, Kai、Zheng, Tianyu、Liu, Ruoqi、Zhang, Ge、Stevens, Samuel、Jiang, Dongfu、Ren, Weiming、Sun, Yuxuan、Wei, Cong、Yu, Botao、Yuan, Ruibin、Sun, Renliang、Yin, Ming、Zheng, Boyuan、Yang, Zhenzhu、Liu, Yibo、Huang, Wenhao、Sun, Huan、Su, Yu、Chen, Wenhu
 
 来源：[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）
 
 ### 维护方
 
-MMMU-Benchmark 官方仓库团队（当前具体个人职责待核实）
+MMMU Team；主页列Xiang Yue、Yu Su、Wenhu Chen为对应联系作者。
 
-来源：[https://github.com/MMMU-Benchmark/MMMU](https://github.com/MMMU-Benchmark/MMMU)（访问 2026-11-07 KST）
+来源：[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
 ### 资助
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）；[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
@@ -326,6 +301,8 @@ MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validatio
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
+核验状态：待核实
+
 来源：[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）；[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
 ### 污染、冲突及协议差异
@@ -360,37 +337,85 @@ https://mmmu-benchmark.github.io/#leaderboard
 
 > 本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。
 
+核验状态：待核实
+
 来源：[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
 
 ### 可核验结果
 
-| 模型/版本 | 分数 | 口径 | 报告日期 | 来源性质 |
-|---|---:|---|---|---|
-| GPT-5.1 | 85.4% | MMMU validation；官网标注source=author | 2025-11-13 | 官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测 |
-| DreamPRM-1.5 (GPT-5-mini w/ thinking) | 84.6% | MMMU validation；官网标注source=author | 2025-09-05 | 官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测 |
-| GPT-5 w/ thinking | 84.2% | MMMU validation；官网标注source=author | 2025-08-07 | 官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测 |
-| MMVistaReason-4B (MVR-4B) | 71.8% | MMMU val | 2026-10-22 | MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测 |
-| MMVistaReason-9B (MVR-9B) | 73.6% | MMMU val | 2026-10-22 | MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排 |
+```json
+[
+  {
+    "model": "GPT-5.1",
+    "score": 85.4,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "MMMU validation；官网标注source=author",
+    "date": "2025-11-13",
+    "accessed": "2026-11-07",
+    "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+    "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+  },
+  {
+    "model": "DreamPRM-1.5 (GPT-5-mini w/ thinking)",
+    "score": 84.6,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "MMMU validation；官网标注source=author",
+    "date": "2025-09-05",
+    "accessed": "2026-11-07",
+    "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+    "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+  },
+  {
+    "model": "GPT-5 w/ thinking",
+    "score": 84.2,
+    "unit": "%",
+    "metric": "accuracy",
+    "scope": "MMMU validation；官网标注source=author",
+    "date": "2025-08-07",
+    "accessed": "2026-11-07",
+    "source_url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+    "provenance": "官方页面数据文件收录；source=author表示作者/厂商自报，非AA独立评测"
+  },
+  {
+    "model": "MMVistaReason-4B (MVR-4B)",
+    "score": 71.8,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MMMU val",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+  },
+  {
+    "model": "MMVistaReason-9B (MVR-9B)",
+    "score": 73.6,
+    "unit": "%",
+    "metric": "论文协议答案正确率（CompassVerifier）",
+    "scope": "MMMU val",
+    "date": "2026-10-22",
+    "accessed": "2026-11-07",
+    "source_url": "https://arxiv.org/html/2610.01352v2",
+    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+  }
+]
+```
 
 来源：[https://mmmu-benchmark.github.io/leaderboard_data.json](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
 
 ### 覆盖说明
 
-官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。
+官网静态页Last updated为09/05/2025，但官方JSON含更晚日期；不把静态页日期当作所有结果日期。本条前三为原始MMMU validation（85.4/84.6/84.2），不包含MMMU-Pro；MMVistaReason研究复测单列，不能跨协议混排。
 
-来源：[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）；[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
+来源：[https://mmmu-benchmark.github.io/leaderboard_data.json](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-07 KST）
 
 ## 联系方式
 
 ### 官方公开邮箱
 
-```json
-[
-  "xiangyue.work@gmail.com",
-  "su.809@osu.edu",
-  "wenhuchen@uwaterloo.ca"
-]
-```
+xiangyue.work@gmail.com、su.809@osu.edu、wenhuchen@uwaterloo.ca
 
 > 项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。
 
@@ -407,6 +432,8 @@ https://github.com/MMMU-Benchmark/MMMU/issues
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
+
+核验状态：待核实
 
 来源：[https://arxiv.org/abs/2311.16502](https://arxiv.org/abs/2311.16502)（访问 2026-11-07 KST）；[https://mmmu-benchmark.github.io/](https://mmmu-benchmark.github.io/)（访问 2026-11-07 KST）
 
@@ -463,6 +490,17 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 来源：[https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk](https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk)（访问 2026-11-07 KST）
 
+### Drive 原始 PDF
+
+```json
+{
+  "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm",
+  "webViewLink": "https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk"
+}
+```
+
+来源：[https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk](https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk)（访问 2026-11-07 KST）
+
 ## 变更记录
 
 ### 变更记录
@@ -473,6 +511,11 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
     "date": "2026-11-07",
     "timezone": "Asia/Seoul",
     "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
   }
 ]
 ```

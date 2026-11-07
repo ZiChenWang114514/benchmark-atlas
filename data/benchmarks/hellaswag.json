@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "HF的Rowan/hellaswag数据卡标MIT并链接原仓库LICENSE；本轮原LICENSE访问失败，保留此证据层级限制，未完成原许可证逐字核对。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.07830",
+          "url": "https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/1905.07830",
@@ -310,14 +308,14 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方验证/测试均含训练出现及未出现的活动类别；2024年11月后官方测试提交关闭，多数LLM采用验证集。",
+      "value": "HF卡列train 39905、validation 10042、test 10003；官网test榜与普遍采用的validation评测不是同一split。",
       "sources": [
         {
-          "url": "https://rowanzellers.com/hellaswag/",
+          "url": "https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/1905.07830",
+          "url": "https://rowanzellers.com/hellaswag/",
           "accessed": "2026-11-07"
         }
       ]
@@ -393,7 +391,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "2019数据集；官方测试榜于2024年11月停止接收提交",
+      "value": "官网声明自2024年11月关闭提交；当前可读的是历史test榜，不应称为2026年持续更新榜。",
       "sources": [
         {
           "url": "https://rowanzellers.com/hellaswag/",
@@ -511,6 +509,39 @@
     "results": {
       "value": [
         {
+          "model_version": "GPT4 base 10-shot",
+          "score": "95.3",
+          "unit": "%",
+          "scope_and_protocol": "官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。",
+          "result_date": "2023-03-08",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://rowanzellers.com/hellaswag/",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "ALUM",
+          "score": "85.6",
+          "unit": "%",
+          "scope_and_protocol": "官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。",
+          "result_date": "2020-03-23",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://rowanzellers.com/hellaswag/",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
+          "model_version": "RoBERTa",
+          "score": "85.2",
+          "unit": "%",
+          "scope_and_protocol": "官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。",
+          "result_date": "2019-07-25",
+          "snapshot_date": "2026-11-07",
+          "source_url": "https://rowanzellers.com/hellaswag/",
+          "source_class": "一级：官方榜单",
+          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+        },
+        {
           "model_version": "GPT-4 base",
           "score": "95.3",
           "unit": "%",
@@ -550,24 +581,20 @@
           "accessed": "2026-11-07"
         },
         {
+          "url": "https://rowanzellers.com/hellaswag/",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（榜关闭于2024-11；所列结果日依次2023-03-08、2020-03-23、2019-07-25）；2026-11-07仅为采集日期（Asia/Seoul）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.07830",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://rowanzellers.com/hellaswag/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -692,6 +719,18 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "latest_status.latest_dataset_version",
+          "data_format.public_hidden_split",
+          "leaderboard.results",
+          "leaderboard.coverage_note"
+        ]
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "scienceide-hard",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
   "basic_info": {
     "name": {
       "value": "ScienceIDE-Hard",
@@ -72,15 +72,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "自有代码及任务元数据的许可证尚待完整发布时宣布；上游科学代码各自保留许可证，不能把上游 MIT/Apache 许可外推给整个基准。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2609.19134",
@@ -95,7 +93,7 @@
       "value": "https://github.com/aitofound/ScienceIDE",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -276,10 +274,10 @@
       ]
     },
     "quality_control": {
-      "value": "私有科学检查决定严格成功；基础设施错误、容器检索和提供商凭据通道单独审计。",
+      "value": "每个公开任务均经执行验证：官方修复在评分容器得到 1.0，未修复构建留有奖励空间，agent 镜像不含答案材料。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -296,10 +294,10 @@
   },
   "data_format": {
     "size": {
-      "value": "Hard固定85题、18环境；52修复+33实现；MITgcm33、PLUTO31、LAPS11、Athena++9、PHANTOM1。不要把更大任务供应量当榜单分母。",
+      "value": "ScienceIDE-Hard 共 85 项任务；仓库预览公开其中 30 项，另外 55 项仅列名并保留。整体基础设施有 64 个环境，不等于 85 项任务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -332,19 +330,19 @@
       ]
     },
     "difficulty": {
-      "value": "相对于探测策略与计算预算筛选的Hard；不是客观不变难度。",
+      "value": "以未修复得分、编辑位置数量、验证开销和实测通过率描述难度，而不是手工赋予单一难度标签。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "public_hidden_split": {
-      "value": "相同Hard cohort；私有科学检查；SFT任务分区与Hard榜单不应混合。",
+      "value": "Hard85：30 项公开、55 项保留；环境集：15 个公开、49 个保留。两种统计单位不可混淆。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -361,10 +359,10 @@
       ]
     },
     "scoring": {
-      "value": "通过私有领域数值检查才成功；能编译或通过局部测试不足。",
+      "value": "reward 为物理案例评分均值；reward_repair=max(0,(reward−floor)/(1−floor))，其中 floor 为未修复构建的得分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -379,10 +377,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/aitofound/ScienceIDE",
+      "value": "https://github.com/aitofound/ScienceIDE/tree/main/hard85",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.19134",
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -404,19 +402,22 @@
         {
           "url": "https://arxiv.org/abs/2609.19134",
           "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "latest_dataset_version": {
-      "value": "待核实",
-      "sources": [
+        },
         {
           "url": "https://arxiv.org/abs/2609.19134",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "2026H2 活跃性复核：2026-09-16 技术报告及官方仓库包含训练/评估使用；这是发布与自评证据，不是独立外部引用。"
+    },
+    "latest_dataset_version": {
+      "value": "官方 README 标记为 preview/work in progress；完整环境、任务库和出题管线仍待后续发布。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/aitofound/ScienceIDE/main/README.md",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -704,6 +705,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [

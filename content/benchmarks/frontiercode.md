@@ -1,167 +1,280 @@
 # FrontierCode
 
-> 核验：2026-11-07（KST / Asia/Seoul）。依据已打开官方材料中文改写；“待核实”不等于官方未公开。采集日不等于评测运行日。
-
-> 尚未找到独立论文PDF；已保留官方方法页HTML原件，不用示例文件或自行导出的页面冒充原始论文。
+> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
 
 ## 基本信息
 
 ### 简称
-FrontierCode [来源1](https://cognition.com/frontiercode)
+
+FrontierCode
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 全称
-FrontierCode [来源1](https://cognition.com/frontiercode)
+
+FrontierCode
 
 > 保留官方名称，不把论文标题自动扩写为全称。
 
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 基准版本
-2.0；1.1保留为历史快照 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+2.0；1.1保留为历史快照
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 论文版本
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 发布日期
-2.0：2026-10-27（官方文章日期，未标时区/时间） [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+2.0：2026-10-27（官方文章日期，未标时区/时间）
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 主板块
-代码 [来源1](https://cognition.com/frontiercode)
+
+代码
 
 > Benchmark Atlas 编辑归档；跨领域仅主板块计数。
 
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 领域标签
 
-```json
-[
-  "前沿代码Agent能力"
-]
-```
- [来源1](https://cognition.com/frontiercode)
+前沿代码Agent能力
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 许可证
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 论文
-待核实 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+待核实
 
 > 已核实官方方法文章与榜单；检索未找到独立原始学术论文。方法文章不冒充论文。
 
+核验状态：待核实
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
+
 ### 官方代码
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 数据地址
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 官方入口
-https://cognition.com/frontiercode [来源1](https://cognition.com/frontiercode)
+
+https://cognition.com/frontiercode
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 论文标题
-待核实 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+待核实
 
 > 官方方法页标题 FrontierCode 2.0；独立论文标题待核实。
+
+核验状态：待核实
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ## 发起与维护
 
 ### 机构与发起方
-Cognition [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+Cognition
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 合作方
-20 多名顶尖开源维护者参与2.0任务构建。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+20 多名顶尖开源维护者参与2.0任务构建。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 作者
-The Cognition Team（官方方法文章署名） [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+The Cognition Team（官方方法文章署名）
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 当前维护方
-Cognition；Artificial Analysis 独立运行其评测实现。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+Cognition；Artificial Analysis 独立运行其评测实现。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 资助
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ## 设计目标
 
 ### 衡量能力
-能否提交维护者愿意合并的代码：功能正确、理解隐含需求、遵循现有抽象/兼容性并避免过度改写。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+能否提交维护者愿意合并的代码：功能正确、理解隐含需求、遵循现有抽象/兼容性并避免过度改写。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 设计背景
-详尽规格和仅单元测试容易忽略真实开发中的未明说约束、可维护性与合并质量。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+详尽规格和仅单元测试容易忽略真实开发中的未明说约束、可维护性与合并质量。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ## 构建方式
 
 ### 题目来源
-从开源维护者自己维护的真实仓库设计任务；每位维护者每题投入超过40小时；2.0加入更多安全与性能任务。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+从开源维护者自己维护的真实仓库设计任务；每位维护者每题投入超过40小时；2.0加入更多安全与性能任务。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 出题者背景
-20 多位世界级开源开发者，不只是通用标注员。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+20 多位世界级开源开发者，不只是通用标注员。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 审核流程
-人工与自动审查任务说明、参考解和评分规则；2.0中80%参考解区别于上游PR。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+人工与自动审查任务说明、参考解和评分规则；2.0中80%参考解区别于上游PR。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 质量控制
-2.0较1.1覆盖更多仓库、43%更多 blocking criteria，强化彻底性与回归检查，并放宽不必要的scope限制。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+20多名开源开发者每题投入40小时以上，人工与自动多阶段审核。2.0中80%参考解不同于上游PR（1.0为60%），属于官方自述QC统计而非独立审计。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 去污染
-题目保持私有；轨迹扫描若发现查找现成解则记0，不能排除仓库本身的预训练接触。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+题目保持私有；轨迹扫描若发现查找现成解则记0，不能排除仓库本身的预训练接触。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ## 数据形式
 
 ### 题量与规模
-2.0：132任务；1.1 Main 是150任务中的100题，不能混合分母。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+2.0：132任务；1.1 Main 是150任务中的100题，不能混合分母。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 题型
-真实仓库代码修改，综合测试和维护者评分rubric。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+真实仓库代码修改，综合测试和维护者评分rubric。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 模态
 
-```json
-[
-  "文本",
-  "源代码",
-  "仓库环境"
-]
-```
- [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+文本、源代码、仓库环境
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 语言
-跨仓库语言；公开示例包括 JavaScript 与 Kotlin，完整语言分布待核实。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+官方公开示例涵盖JavaScript（Mock Service Worker）和Kotlin（PostHog Android SDK）；完整语言分布待核实，不由示例外推全套覆盖。
+
+核验状态：待核实
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 难度
-强调隐含约束、完整修复和可合并标准；2.0非简单同题扩量。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+强调隐含约束、完整修复和可合并标准；2.0非简单同题扩量。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 公开与隐藏划分
-评分任务私有；官方和AA公开部分例题与方法，而非完整数据集。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+评分任务私有；官方和AA公开部分例题与方法，而非完整数据集。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ## 评测方法
 
 ### 指标
-task等权的加权rubric得分 (%)。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+task等权的加权rubric得分 (%)。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 评分
-任何blocking检查失败或查找解被轨迹扫描标记，整次尝试0分；其余按各项权重汇总。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+任何blocking检查失败或查找解被轨迹扫描标记，整次尝试0分；其余按各项权重汇总。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 提示与运行设置
-AA2.0：Stirrup，132题各3次，最多500turn，GPT-6 Luna medium作LLM评审；1.1上限250turn。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+AA独立实现：全部132题，每题重复3次，Stirrup harness，最多500轮；GPT-6 Luna (medium)作为LLM judge。此设置不等同Cognition官方发布实验。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 官方评测脚本
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
+
 ### 可比性警示
-Cognition官方harness与AA Stirrup独立实现不同；1.1与2.0不同；评分不是简单任务全对率，推理effort增加也可能因scope变化降分。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+Cognition官方harness与AA Stirrup独立实现不同；1.1与2.0不同；评分不是简单任务全对率，推理effort增加也可能因scope变化降分。
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ## 最新情况
 
 ### 核查日期
-2026-11-07 KST / Asia/Seoul [来源1](https://cognition.com/frontiercode)
+
+2026-11-07 KST / Asia/Seoul
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 当前版本与2026年后半年活跃证据
 
@@ -177,34 +290,54 @@ Cognition官方harness与AA Stirrup独立实现不同；1.1与2.0不同；评分
   ]
 }
 ```
- [来源4](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1) [来源2](https://cognition.com/blog/frontier-code-2.0)
 
 > H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-### 论文修订历史
-待核实 [来源1](https://cognition.com/frontiercode)
+来源：[https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（访问 2026-11-07 KST）；[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+### 论文修订历史
+
+官方方法文档沿革：1.0于2026-06-08介绍，1.1于2026-07-07修订，2.0于2026-10-27重建132题。这里记录方法文章而非虚构论文修订号。
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 饱和情况
-2.0官方发布实验最优约45%，官方判断远未饱和；这不是对所有未来系统的绝对结论。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+2.0官方发布实验最优约45%，官方判断远未饱和；这不是对所有未来系统的绝对结论。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 污染与争议
-私有任务降低直接题目泄漏；scope约束与未明说需求会影响解释，官方已在2.0审计并调整范围标准。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+私有任务降低直接题目泄漏；scope约束与未明说需求会影响解释，官方已在2.0审计并调整范围标准。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 衍生与版本关系
-1.0、1.1、2.0是套件版本，本库合计一个 benchmark。 [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+1.0、1.1、2.0是套件版本，本库合计一个 benchmark。
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ## 榜单快照
 
 ### 快照日期
-2026-11-07 KST / Asia/Seoul [来源1](https://cognition.com/frontiercode)
+
+2026-11-07 KST / Asia/Seoul
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 官方榜单
-https://cognition.com/frontiercode [来源1](https://cognition.com/frontiercode)
+
+https://cognition.com/frontiercode
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 独立评测覆盖
-https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0)
+
+https://artificialanalysis.ai/evaluations/frontiercode-2-0
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）
 
 ### 核验结果
 
@@ -216,8 +349,9 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
     "metric": "weighted score (%)",
     "benchmark_version": "2.0/132题",
     "result_type": "AA独立当前页面",
-    "source_date": "2026-11-07",
-    "collected_at": "2026-11-07 KST"
+    "source_date": "待核实（页面未给出该结果运行/发布日期）",
+    "collected_at": "2026-11-07 KST",
+    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
   },
   {
     "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
@@ -225,8 +359,9 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
     "metric": "weighted score (%)",
     "benchmark_version": "2.0/132题",
     "result_type": "AA独立当前页面",
-    "source_date": "2026-11-07",
-    "collected_at": "2026-11-07 KST"
+    "source_date": "待核实（页面未给出该结果运行/发布日期）",
+    "collected_at": "2026-11-07 KST",
+    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
   },
   {
     "model": "GPT-6 Astra (Max)",
@@ -234,8 +369,9 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
     "metric": "weighted score (%)",
     "benchmark_version": "2.0/132题",
     "result_type": "AA独立当前页面",
-    "source_date": "2026-11-07",
-    "collected_at": "2026-11-07 KST"
+    "source_date": "待核实（页面未给出该结果运行/发布日期）",
+    "collected_at": "2026-11-07 KST",
+    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
   },
   {
     "model": "Claude Opus 5.5 (best effort)",
@@ -248,49 +384,90 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
   }
 ]
 ```
- [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0) [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）；[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 覆盖与时效说明
-官方文章明确列45.5%，AA独立页面46.4%，因不同实现/配置分别保留，不将差异强行归为一次分数修正；官方当前交互表完整排名待核实。 [来源3](https://artificialanalysis.ai/evaluations/frontiercode-2-0) [来源2](https://cognition.com/blog/frontier-code-2.0)
+
+官方文章明确列45.5%，AA独立页面46.4%，因不同实现/配置分别保留，不将差异强行归为一次分数修正；官方当前交互表完整排名待核实。
+
+核验状态：待核实
+
+来源：[https://artificialanalysis.ai/evaluations/frontiercode-2-0](https://artificialanalysis.ai/evaluations/frontiercode-2-0)（访问 2026-11-07 KST）；[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ## 联系方式
 
 ### 公开工作邮箱
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 公开反馈
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 官方社交渠道
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 隐私政策
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ## 原始文件
 
 ### 源站论文PDF
-待核实 [来源1](https://cognition.com/frontiercode)
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+待核实
+
+> 本轮检索官方2.0方法文章、官网及PDF搜索未定位可验证原始论文PDF；HTML不是原始PDF，不打印网页冒充。
+
+核验状态：待核实
+
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）
 
 ### 原始PDF SHA-256
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### 原始PDF字节数
-待核实 [来源1](https://cognition.com/frontiercode)
+
+待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+
+核验状态：待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ### Drive资料文件夹
 
@@ -300,7 +477,8 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
   "webViewLink": "https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK"
 }
 ```
- [来源5](https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK)
+
+来源：[https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK](https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK)（访问 2026-11-07 KST）
 
 ### 其他文档
 
@@ -322,17 +500,20 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
   }
 ]
 ```
- [来源2](https://cognition.com/blog/frontier-code-2.0) [来源6](https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk)
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-### Drive论文附件
-待核实 [来源1](https://cognition.com/frontiercode)
+来源：[https://cognition.com/blog/frontier-code-2.0](https://cognition.com/blog/frontier-code-2.0)（访问 2026-11-07 KST）；[https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk](https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk)（访问 2026-11-07 KST）
 
-> 官方方法页已核实，未找到独立原始论文 PDF；不伪造论文附件。
+### Drive 原始 PDF
+
+待核实
+
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）
 
 ## 变更记录
 
+### changelog
 
 ```json
 [
@@ -340,16 +521,13 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0 [来源3](https://art
     "date": "2026-11-07",
     "timezone": "KST / Asia/Seoul",
     "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
   }
 ]
 ```
- [来源1](https://cognition.com/frontiercode)
 
-## 来源
-
-1. https://cognition.com/frontiercode — 采集：2026-11-07 KST。
-2. https://cognition.com/blog/frontier-code-2.0 — 采集：2026-11-07 KST。
-3. https://artificialanalysis.ai/evaluations/frontiercode-2-0 — 采集：2026-11-07 KST。
-4. https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 — 采集：2026-11-07 KST。
-5. https://drive.google.com/drive/folders/17CEUgtPsTmM1-FRtP00KFytv2hRwmeiK — 采集：2026-11-07 KST。
-6. https://docs.google.com/document/d/1vWlLpKFs5bGTOQWxrpv5Pa0O98NReU1uHnlksripJis/edit?usp=drivesdk — 采集：2026-11-07 KST。
+来源：[https://cognition.com/frontiercode](https://cognition.com/frontiercode)（访问 2026-11-07 KST）

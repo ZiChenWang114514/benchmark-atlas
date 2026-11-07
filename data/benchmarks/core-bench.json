@@ -73,10 +73,10 @@
       ]
     },
     "license": {
-      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "value": "MIT（原harness仓库软件与文档）；论文capsule及第三方数据另核各自授权。",
       "sources": [
         {
-          "url": "https://github.com/siegelz/core-bench",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/LICENSE",
           "accessed": "2026-11-07"
         }
       ]
@@ -100,15 +100,13 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/siegelz/core-bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://github.com/siegelz/core-bench",
@@ -262,10 +260,10 @@
       ]
     },
     "question_types": {
-      "value": "运行科研代码、检查产物，回答关于实验/图表的短问题。",
+      "value": "读取科研任务与问题、安装依赖、执行Python/R代码复现结果，并把问题到答案的键值写入report.json。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -340,10 +338,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/siegelz/core-bench",
+      "value": "推荐HAL harness：https://github.com/princeton-pli/hal-harness；旧版：https://github.com/siegelz/core-bench（不再积极维护）。",
       "sources": [
         {
-          "url": "https://github.com/siegelz/core-bench",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -370,7 +368,7 @@
     },
     "latest_dataset_version": {
       "value": {
-        "version": "原始90篇论文×3级=270任务",
+        "version": "原始270任务；原harness已不再积极维护，官方推荐HAL harness",
         "evidence_2026_h2": [
           {
             "url": "https://arxiv.org/html/2609.19134v1",
@@ -381,15 +379,14 @@
       },
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.19134v1",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2409.11363",
+          "url": "https://arxiv.org/html/2609.19134v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Zachary Siegel [ view email ] [v1] 2024-09-18 02:13:19 KST (2,912 KB) [v2] 2026-06-23 07:36:12 KST (2,906 KB)",
@@ -441,13 +438,14 @@
       ]
     },
     "official_url": {
-      "value": "https://github.com/siegelz/core-bench",
+      "value": "https://agent-evals-leaderboard.hf.space",
       "sources": [
         {
-          "url": "https://github.com/siegelz/core-bench",
+          "url": "https://raw.githubusercontent.com/siegelz/core-bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "由官方README指定；本轮访问返回503，分数和榜单更新日期保留待核实。"
     },
     "third_party_url": {
       "value": "待核实",
@@ -638,6 +636,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

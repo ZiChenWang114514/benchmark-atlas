@@ -13,24 +13,22 @@
       ]
     },
     "full_name": {
-      "value": "TruthfulQA",
+      "value": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "官方README推荐2025年1月更新的二选一设置；原MC1、MC2与生成任务需分别标注。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -73,15 +71,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（官方仓库LICENSE；参考答案涉及的外部文献另核授权）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2109.07958",
@@ -164,15 +160,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方代码与反馈由 sylinrl/TruthfulQA 仓库提供；个人持续维护职责及响应时限未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -257,13 +251,18 @@
   },
   "data_format": {
     "size": {
-      "value": "817 道问题、38 个类别。",
+      "value": "原始论文817题、38类；2025年1月更新删除少量失效问题并移除Indexical Error: Time类，当前题量不能直接沿用817。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2109.07958",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮尚未计数当前CSV；H2 Jev研究附录A仍采用817题历史集，版本差异并列保留。"
     },
     "question_types": {
       "value": "开放生成及多项选择两种评测方式",
@@ -313,10 +312,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "生成式 truthfulness、informativeness及二者同时满足率；选择式MC1/MC2需区分。",
+      "value": "生成任务同时报告真实性与信息性；MC1为最高答案对数概率的单正确答案准确率，MC2为正确答案归一化概率总和；2025二选一设置需随机化正确/错误选项顺序。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2109.07958",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -370,15 +369,26 @@
       "note": "2026-H2实际使用证据：2026-10-08：Jev 研究表1–2实际使用 TruthfulQA，并明确区分准确率与MC2等评价口径。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": {
+        "version": "README记载2025年1月二选一更新；精确commit未固定",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2610.11978v1",
+            "date": "2026-10",
+            "note": "Jev研究表1、表2和附录A实际使用TruthfulQA；MC2与所选答案准确率分别注明。"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://github.com/sylinrl/TruthfulQA",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -412,8 +422,12 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "2026-H2 Jev 对比论文混合引用不同历史来源，并对部分 TruthfulQA 分数标明MC2；引用时不可把这些行都当同指标准确率。",
+      "value": "2025更新修正表述并删除过时问题，作者明确尚未完成剩余问题及来源的全面复核。H2 Jev论文采用817题，表2部分外部成绩为MC2而非选项准确率，不能混排。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
@@ -512,7 +526,8 @@
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
     }
   },
   "contact": {
@@ -531,10 +546,11 @@
       "value": "https://github.com/sylinrl/TruthfulQA/issues",
       "sources": [
         {
-          "url": "https://github.com/sylinrl/TruthfulQA",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "公开反馈入口；未发送问题。"
     },
     "official_social": {
       "value": "待核实",
@@ -632,6 +648,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

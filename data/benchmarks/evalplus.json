@@ -1,7 +1,7 @@
 {
   "id": "evalplus",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "EvalPlus",
@@ -100,15 +100,17 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "HumanEval+: https://huggingface.co/datasets/evalplus/humanevalplus；MBPP+版本化发布由官方README链接提供。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.01210",
+          "url": "https://huggingface.co/datasets/evalplus/humanevalplus/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/evalplus/evalplus/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://evalplus.github.io/",
@@ -252,10 +254,14 @@
   },
   "data_format": {
     "size": {
-      "value": "HumanEval+ 164 题；论文报告测试数量约为原 HumanEval 的 80 倍，MBPP+ 约为原 MBPP 的 35 倍。",
+      "value": "HumanEval+ 数据卡test为164题；官方README说明MBPP+ v0.2.0由399减至378题（移除问题题目），不能沿用399作为最新子集题数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.01210",
+          "url": "https://huggingface.co/datasets/evalplus/humanevalplus/raw/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/evalplus/evalplus/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -410,10 +416,10 @@
       "status": "待核实"
     },
     "contamination_and_issues": {
-      "value": "H2 Hunyuan 报告对 EvalPlus 的引用编号关联到 HumanEval 原论文；本条依据 Liu 等人的 EvalPlus 原论文纠正出处，不据错误参考文献重命名。",
+      "value": "H2 Hunyuan 报告对 EvalPlus 的引用编号关联到 HumanEval 原论文；本条依据 Liu 等人的 EvalPlus 原论文纠正出处，不据错误参考文献重命名。 官方README另记MBPP+ v0.2.0删题399→378，预计得分提升约4个百分点；跨此版本不能直接比较。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.01210",
+          "url": "https://raw.githubusercontent.com/evalplus/evalplus/master/README.md",
           "accessed": "2026-11-07"
         },
         {
@@ -469,6 +475,66 @@
     "results": {
       "value": [
         {
+          "model": "O1 Preview (Sept 2024)",
+          "score": 89.0,
+          "metric": "humaneval+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
+          "model": "O1 Mini (Sept 2024)",
+          "score": 89.0,
+          "metric": "humaneval+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
+          "model": "Qwen2.5-Coder-32B-Instruct",
+          "score": 87.2,
+          "metric": "humaneval+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
+          "model": "O1 Preview (Sept 2024)",
+          "score": 80.2,
+          "metric": "mbpp+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
+          "model": "O1 Mini (Sept 2024)",
+          "score": 78.8,
+          "metric": "mbpp+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
+          "model": "Qwen2.5-Coder-32B-Instruct",
+          "score": 77.0,
+          "metric": "mbpp+ pass@1 (%)",
+          "settings": "按官方静态榜该子集独立排序，不合并两子集；提示细节见榜单",
+          "result_type": "官方榜静态快照",
+          "source_url": "https://evalplus.github.io/results.json",
+          "source_updated_at": "待核实：榜单未给出统一更新时间",
+          "collected_at": "2026-11-07 Asia/Seoul"
+        },
+        {
           "model": "Hunyuan-A13B base",
           "score": 78.64,
           "metric": "报告中的 EvalPlus (%)",
@@ -481,17 +547,28 @@
       ],
       "sources": [
         {
+          "url": "https://evalplus.github.io/results.json",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://evalplus.github.io/leaderboard.html",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "coverage_note": {
-      "value": "官方页面核实了评测版本与口径，但本次静态读取未得到完整动态榜单行；不把 Hunyuan 自报当作官方最新第一名。",
+      "value": "已读取官方页面直接加载的results.json，分别录入HumanEval+与MBPP+前三行。静态榜内模型名称包含历史版本，不宣称覆盖2026全部模型；统一更新时间待核实。另保留厂商报告结果，不能跨协议混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://evalplus.github.io/results.json",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://evalplus.github.io/leaderboard.html",
           "accessed": "2026-11-07"
         }
       ]
@@ -624,6 +701,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

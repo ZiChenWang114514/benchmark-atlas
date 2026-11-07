@@ -73,10 +73,10 @@
       ]
     },
     "license": {
-      "value": "MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "value": "MIT；OctoPack官方明确将HumanEvalPack和全部代码纳入本仓库MIT许可，而非只标代码。CommitPack/CommitPackFT样本另有原仓库许可，不应混用。",
       "sources": [
         {
-          "url": "https://github.com/bigcode-project/octopack",
+          "url": "https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -229,10 +229,10 @@
       ]
     },
     "review_process": {
-      "value": "保证有 bug 的程序仍可运行，但至少一个单元测试失败。",
+      "value": "从HumanEval-X各语言解答JSON开始，人工并行向各语言引入bug；修正HumanEval-X问题并记录，转为带bug解答、instruction及元数据的JSONL上传HumanEvalPack。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.07124",
+          "url": "https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -342,10 +342,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "原论文提供 zero-shot 提示与生成评测；需注明 docstring/tests 变体及采样。",
+      "value": "区分humanevalfixtests（给测试、不含docstring，论文主设置）与humanevalfixdocs（给docstring）；官方示例temperature=0.2、n_samples=20、batch_size=5、max_length_generation=2048。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.07124",
+          "url": "https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -360,10 +360,10 @@
       ]
     },
     "comparability_warning": {
-      "value": "不能把 HumanEval 合成、HumanEvalFix 修复或跨语言总分当成同口径；ScienceIDE 只证实 JS 子任务迁移。",
+      "value": "必须分语言及fixdocs/fixtests协议比较；官方说明Python版本和batch_size影响随机性，论文使用Python3.9.13、batch_size=5；执行不可信生成代码应隔离。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.07124",
+          "url": "https://raw.githubusercontent.com/bigcode-project/octopack/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -629,6 +629,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

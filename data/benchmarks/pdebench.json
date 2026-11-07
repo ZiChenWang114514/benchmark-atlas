@@ -96,19 +96,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码 MIT，明确排除另行声明部分；数据许可不能由代码许可推断。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2210.07182",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2210.07182",
+          "url": "https://raw.githubusercontent.com/pdebench/PDEBench/main/LICENSE.txt",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2210.07182",
@@ -449,14 +443,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "按方程与任务评估预测误差，比较数值模拟和 FNO、U-Net、PINN 等基线；完整指标待核实。",
+      "value": "RMSE、归一化 RMSE、最大误差，以及适用方程的守恒、边界与频段诊断；按方程与任务分别报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2210.07182",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2210.07182",
+          "url": "https://arxiv.org/abs/2608.22504",
           "accessed": "2026-11-07"
         }
       ]
@@ -490,14 +480,10 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "official_scripts": {
-      "value": "https://github.com/pdebench/PDEBench",
+      "value": "pdebench/models 的 train_models_forward.py、train_models_inverse.py 与 metrics.py；实际路径和配置以仓库文档为准。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2210.07182",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2210.07182",
+          "url": "https://github.com/pdebench/PDEBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -527,22 +513,26 @@
         {
           "url": "https://arxiv.org/pdf/2210.07182",
           "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "latest_dataset_version": {
-      "value": "待核实",
-      "sources": [
+        },
         {
-          "url": "https://arxiv.org/abs/2210.07182",
+          "url": "https://arxiv.org/abs/2608.22504",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2210.07182",
+          "url": "https://arxiv.org/abs/2608.22504",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实"
+      "note": "2026H2 引用/使用证据：2026-08，论文直接扩展 PDEBench，比较数值准确性与科学证据支持。"
+    },
+    "latest_dataset_version": {
+      "value": "README 最近显式标注兼容性和数据路径提示更新日为 2026-03-30；这不是数据集的新版本号。",
+      "sources": [
+        {
+          "url": "https://github.com/pdebench/PDEBench",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Makoto Takamoto [ view email ] [v1] Thu, 13 Oct 2022 17:03:36 UTC (4,675 KB) [v2] Mon, 17 Oct 2022 08:35:06 UTC (4,680 KB) [v3] Fri, 9 Dec 2022 16:13:17 UTC (4,735 KB) [v4] Fri, 3 Feb 2023 12:45:47 UTC (4,735 KB) [v5] Fri, 3 Mar 2023 16:09:32 UTC (4,735 KB) [v6] Mon, 13 Mar 2023 13:27:02 UTC (4,735 KB) [v7] Mon, 26 Aug 2024 13:43:46 UTC (4,682 KB)",
@@ -573,18 +563,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "README 提醒 Hydra 运行时更改 data_path，影响 forward training；新版依赖仅核心代码及部分模块确认兼容，其余仍在检查。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2210.07182",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2210.07182",
+          "url": "https://github.com/pdebench/PDEBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
       "value": "待核实",
@@ -693,10 +678,6 @@
     "github_issues": {
       "value": "https://github.com/pdebench/PDEBench/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2210.07182",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/pdebench/PDEBench",
           "accessed": "2026-11-07"
@@ -807,6 +788,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -820,5 +806,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

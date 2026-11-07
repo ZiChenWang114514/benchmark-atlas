@@ -1,282 +1,141 @@
 # Matbench
 
-> 核验：2026-11-07（KST / Asia/Seoul）。依据官方资料中文改写；“待核实”不表示官方未公开。
+> 第1轮实证核查 · 2026-11-07（KST）。正文与权威 JSON 同步；访问时间不是来源发表时间。未知保留，不以旧论文结果冒充最新总榜。
 
-[📄 阅读原始论文 PDF](https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk)
+## 1. 基本信息
 
-## 基本信息
+- **名称**：Matbench （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 简称
-Matbench [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **全称**：Matbench 使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 全称
-Matbench [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **版本**：matbench_v0.1 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。
+- **论文版本**：arXiv v2 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 基准版本
-v0.1 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **发布日期**：2020/05/02 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 论文版本
-arXiv v2 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **板块**：材料 Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。 （[来源1](https://arxiv.org/abs/2005.00707)；访问：2026-11-07）
 
-### 发布日期（原来源日期）
-2020/05/02 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **子领域**：材料 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 主板块
-材料 [来源1](#来源)
+- **许可**：软件：MIT（Copyright 2021 Hacking Materials Research Group）；各子数据来源许可分别核对。 （[来源1](https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE)；访问：2026-11-07）
 
-> Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。
+- **论文**：https://arxiv.org/abs/2005.00707 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 领域标签
-[
-  "材料"
-] [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **代码**：https://github.com/materialsproject/matbench （[来源1](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)；访问：2026-11-07）
 
-### 许可证
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **数据**：https://matbench.materialsproject.org/ （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **官方主页**：https://matbench.materialsproject.org/ （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 论文
-https://arxiv.org/abs/2005.00707 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **论文标题**：Benchmarking Materials Property Prediction Methods: The Matbench Test Set and Automatminer Reference Algorithm （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 官方代码
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 2. 发起与维护
 
-### 数据地址
-https://matbench.materialsproject.org/ [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **发起机构**：劳伦斯伯克利国家实验室、加州大学伯克利分校作者团队 主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 官方入口
-https://matbench.materialsproject.org/ [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **合作机构**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 论文标题
-Benchmarking Materials Property Prediction Methods: The Matbench Test Set and Automatminer Reference Algorithm [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **作者**：Dunn, Alexander；Wang, Qi；Ganose, Alex；Dopp, Daniel；Jain, Anubhav （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-## 发起与维护
+- **维护方**：Materials Project；网站页脚注明由 HackingMaterials Group 的 Alex Dunn 维护。 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 机构与作者单位
-劳伦斯伯克利国家实验室、加州大学伯克利分校作者团队 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **资助方**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。
+## 3. 设计目标
 
-### 合作机构
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **能力目标**：为无机固体材料属性预测提供标准监督学习任务和可重复比较。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **设计动机**：为无机固体材料属性预测提供标准监督学习任务和可重复比较。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 作者
-[
-  "Dunn, Alexander",
-  "Wang, Qi",
-  "Ganose, Alex",
-  "Dopp, Daniel",
-  "Jain, Anubhav"
-] [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 4. 构建方式
 
-### 当前维护方
-Materials Project；官网注明 Alex Dunn / HackingMaterials Group [来源3](#来源)
+- **数据来源**：整理来自密度泛函计算和实验来源的预清洗数据，输入为组成和/或晶体结构。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 资助
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **评审背景**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **审核流程**：整理来自密度泛函计算和实验来源的预清洗数据，输入为组成和/或晶体结构。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-## 设计目标
+- **质量控制**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 衡量能力
-为无机固体材料属性预测提供标准监督学习任务和可重复比较。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **去污染**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 设计背景
-为无机固体材料属性预测提供标准监督学习任务和可重复比较。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 5. 数据形式
 
-## 构建方式
+- **规模**：13项监督学习任务；样本数从 steels 的312到 mp_e_form 的132,752，各任务独立，不求和去重为单一题量。 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 题目与数据来源
-整理来自密度泛函计算和实验来源的预清洗数据，输入为组成和/或晶体结构。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **任务形式**：材料结构或化学组成作为输入，预测电子、热力学、力学、热学等性质；包括回归和分类。 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 出题人背景
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **模态**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **语言**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 构建与审核流程
-整理来自密度泛函计算和实验来源的预清洗数据，输入为组成和/或晶体结构。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **难度**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 质量控制
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **公开与隐藏划分**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+## 6. 评测方法
 
-### 去污染措施
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **指标**：回归 MAE 等、分类指标按任务报告；官网已警告历史 ROC-AUC 实际等于 balanced accuracy。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **评分方式**：回归 MAE 等、分类指标按任务报告；官网已警告历史 ROC-AUC 实际等于 balanced accuracy。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-## 数据形式
+- **提示设置**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 数据规模
-13 个任务；论文描述每任务从 312 到约 132k 样本；精确任务计数见官方榜单。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **评测脚本**：待核实 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 任务形式
-13 个任务；论文描述每任务从 312 到约 132k 样本；精确任务计数见官方榜单。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **可比性提示**：官方重大勘误：v0.1 分类榜标作 ROC-AUC 的旧分数来自0.5阈值化预测，实际等于 balanced accuracy；旧榜尚未重算。不得解释为真正 ROC-AUC。 （[来源1](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)；访问：2026-11-07）
 
-### 模态
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 7. 最新情况
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **核查日期**：2026-11-07 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 语言
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **最新版本**：v0.1 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **修订与2026H2证据**：2026H2 引用证据：Digital Discovery 2026-09-04 的 Materials discovery is a composition problem 在第4.2节和参考文献2引用 Dunn et al. (2020) 的 Matbench。正文另称 Matbench 2，不据此把本条v0.1改成v2。 （[来源1](https://pubs.rsc.org/dd/article/5/10/4000/1311628/Materials-discovery-is-a-composition-problem-the)；访问：2026-11-07）
 
-### 难度分布
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **饱和度**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **已知问题**：分类旧分数语义错误，见官方 issues #137、#181；未来评分已修复，但现有榜单没有重算。 （[来源1](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)；访问：2026-11-07）
 
-### 公开与保留集
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **后继资源**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+## 8. 榜单快照
 
-## 评测方法
+- **采集日期**：2026-11-07 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 评估指标
-回归 MAE 等、分类指标按任务报告；官网已警告历史 ROC-AUC 实际等于 balanced accuracy。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **官方榜单**：https://matbench.materialsproject.org/ （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 评分方法
-回归 MAE 等、分类指标按任务报告；官网已警告历史 ROC-AUC 实际等于 balanced accuracy。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **第三方榜单**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 提示与工具设置
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **结果**：分任务快照（无跨任务总冠军）：mp_e_form：coGN MAE 0.0170 eV/atom（132,752样本）；mp_gap：coGN 0.1559 eV（106,113）；dielectric：MODNet v0.1.12 0.2711（4,764）；steels：MODNet v0.1.12 87.7627 MPa（312）。 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **口径说明**：2026-11-07 读取官方首页分任务领先条目；页面未给统一榜单更新日期。分类旧分数不纳入本轮数值快照。 （[来源1](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 评测脚本入口
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 9. 联系方式
 
-### 可比性提醒
-不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **公开邮箱**：ardunn@lbl.gov；ajain@lbl.gov （[来源1](https://arxiv.org/pdf/2005.00707) [来源2](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-## 最新情况
+- **问题反馈**：https://github.com/materialsproject/matbench/issues 官方公开仓库的问题反馈入口；未发送消息。 （[来源1](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)；访问：2026-11-07）
 
-### 核验日期（KST）
-2026-11-07 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **官方社交**：待核实 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707) [来源3](https://matbench.materialsproject.org/)；访问：2026-11-07）
 
-### 最新数据版本
-v0.1 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **隐私原则**：只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 （[来源1](urn:benchmark-atlas:constitution:v0.1)；访问：2026-11-07）
 
-### 原始论文修订记录（来源原文）
-Submission history From: Alexander Dunn [ view email ] [v1] Sat, 2 May 2020 05:17:56 UTC (1,253 KB) [v2] Fri, 8 May 2020 00:34:20 UTC (2,455 KB) [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 10. 原始文件
 
-### 饱和程度
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **PDF来源**：https://arxiv.org/pdf/2005.00707 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **SHA256**：fbdd140ca579e28117736df44e99c3bbe0c30464316a3ed46d13a0c5306d344d 本次下载原始字节的SHA-256；未压缩、未修改。 （[来源1](https://arxiv.org/pdf/2005.00707)；访问：2026-11-07）
 
-### 污染、争议与版本差异
-官方警告旧分类榜的 ROC-AUC 由0.5阈值后的预测计算，实际上等于 balanced accuracy；历史分数未重算，不应解读为真正 ROC-AUC。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **PDF字节**：2513518 （[来源1](https://arxiv.org/pdf/2005.00707)；访问：2026-11-07）
 
-### 衍生基准
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+- **Drive文件夹**：id：1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe；webViewLink：https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe （[来源1](https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe)；访问：2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+- **其他文档**：kind：中文介绍 Google Doc；id：1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk；webViewLink：https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk （[来源1](https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk)；访问：2026-11-07）
 
-## 榜单快照
+- **Drive PDF**：id：1wRPaSl63GECWDwAqW5_HthOwRislygXV；webViewLink：https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk （[来源1](https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk)；访问：2026-11-07）
 
-### 快照日期（KST）
-2026-11-07 [来源1](#来源) [来源2](#来源) [来源3](#来源)
+## 11. 变更记录
 
-### 官方榜单入口
-https://matbench.materialsproject.org/ [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-### 第三方入口
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 可核验结果
-[
-  {
-    "model": "MODNet (v0.1.12)",
-    "score": 87.7627,
-    "unit": "MPa",
-    "metric": "MAE（越低越好）",
-    "scope": "matbench_steels 官方首页领先结果"
-  },
-  {
-    "model": "coGN",
-    "score": 0.017,
-    "unit": "eV/atom",
-    "metric": "MAE（越低越好）",
-    "scope": "matbench_mp_e_form 官方首页领先结果；软件精确版本待核实"
-  },
-  {
-    "model": "coGN",
-    "score": 0.1559,
-    "unit": "eV",
-    "metric": "MAE（越低越好）",
-    "scope": "matbench_mp_gap 官方首页领先结果；软件精确版本待核实"
-  }
-] [来源3](#来源)
-
-### 覆盖范围说明
-仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。 [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-## 联系方式
-
-### 官方公开邮箱
-[
-  "ardunn@lbl.gov",
-  "ajain@lbl.gov"
-] [来源2](#来源) [来源3](#来源)
-
-### 公开问题反馈
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 官方账号
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-### 联系信息原则
-只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 [来源4](#来源)
-
-## 原始文件
-
-### PDF原始下载地址
-https://arxiv.org/pdf/2005.00707 [来源1](#来源) [来源2](#来源)
-
-### 原始文件SHA-256
-fbdd140ca579e28117736df44e99c3bbe0c30464316a3ed46d13a0c5306d344d [来源2](#来源)
-
-> 本次下载原始字节的SHA-256；未压缩、未修改。
-
-### 原始文件字节数
-2513518 [来源2](#来源)
-
-### Drive资料夹
-{
-  "id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe",
-  "webViewLink": "https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe"
-} [来源5](#来源)
-
-### 其他文件
-待核实 [来源1](#来源) [来源2](#来源) [来源3](#来源)
-
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
-
-## 变更记录
-2026-11-07（KST）：首批收录，核验来源、中文改写并保存PDF原件。
-
-## 来源
-
-1. https://arxiv.org/abs/2005.00707 — 访问 2026-11-07（KST）
-2. https://arxiv.org/pdf/2005.00707 — 访问 2026-11-07（KST）
-3. https://matbench.materialsproject.org/ — 访问 2026-11-07（KST）
-4. urn:benchmark-atlas:constitution:v0.1 — 访问 2026-11-07（KST）
-5. https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe — 访问 2026-11-07（KST）
+date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。 （[来源1](https://arxiv.org/abs/2005.00707) [来源2](https://arxiv.org/pdf/2005.00707)；访问：2026-11-07）

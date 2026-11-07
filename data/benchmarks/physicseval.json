@@ -95,19 +95,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "数据 CC-BY-SA-4.0（官方数据卡声明；教材和网站原始内容的第三方权利需另行审查）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2508.00079",
@@ -136,14 +130,10 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/areebuzair/PhysicsEval",
+      "value": "https://huggingface.co/datasets/IUTVanguard/PhysicsEval",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
       ]
@@ -327,19 +317,13 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "清洗原始内容、统一 LaTeX、用 Gemini 2.5 Pro Think 分解解答步骤，并标注主题、难度及物理原理。此过程不等于逐题独立专家复核。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -359,14 +343,10 @@
   },
   "data_format": {
     "size": {
-      "value": "19,609 个物理问题；训练、验证、测试划分的具体数量待核实。",
+      "value": "19,609 题；17,647 训练、1,962 测试，共 19 类。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
       ]
@@ -400,49 +380,31 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语（HF 数据卡 language: en）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://huggingface.co/datasets/IUTVanguard/PhysicsEval/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "逐题标注 1–10 难度；同时提供解题步数，部分题提供替代解法。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "90:10 训练/测试划分，分别 17,647 与 1,962；README 未列独立验证集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2508.00079",
+          "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -525,8 +487,17 @@
         {
           "url": "https://arxiv.org/pdf/2508.00079",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.458.pdf",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.458.pdf",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-07-02 至 07-07（论文页脚会议日期），PhysPRM 第4.1节与附录使用 PhysicsEval；不是新发布版本。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -688,10 +659,6 @@
       "value": "https://github.com/areebuzair/PhysicsEval/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2508.00079",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/areebuzair/PhysicsEval",
           "accessed": "2026-11-07"
         }
@@ -801,6 +768,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -814,5 +786,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

@@ -72,15 +72,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（官方README徽章声明；原始考试材料权利仍须单独审查）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.14371",
+          "url": "https://raw.githubusercontent.com/medmcqa/medmcqa/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2203.14371",
@@ -299,17 +297,14 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方train/dev/test划分；H2 AMR使用训练中不交叉子集做检索与独立子集评测，不等于官方test全量。",
+      "value": "README按考试来源划分：train 182,822；valid 6,150；test 4,183。train为模拟/在线题，test为AIIMS PG，dev为NEET PG；官方声明测试答案不公开。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.14371",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2608.19029v1",
+          "url": "https://raw.githubusercontent.com/medmcqa/medmcqa/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "保留README划分口径，不把valid当作test；需与实际下载版本逐文件核对。"
     }
   },
   "evaluation": {
@@ -341,10 +336,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/medmcqa/medmcqa",
+      "value": "官方train.py用于复现实验；隐藏测试需按README提交CSV，列为id与Prediction (correct option)，答案索引1—4。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.14371",
+          "url": "https://raw.githubusercontent.com/medmcqa/medmcqa/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -516,13 +511,13 @@
   "contact": {
     "public_emails": {
       "value": [
-        "ankit.pal@saama.com",
-        "logesh.umapathi@saama.com",
-        "malaikannan.sankarasubbu@saama.com"
+        "medmcqa@gmail.com",
+        "aadityaura@gmail.com",
+        "logesh.umapathi@saama.com"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.14371",
+          "url": "https://raw.githubusercontent.com/medmcqa/medmcqa/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -633,6 +628,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

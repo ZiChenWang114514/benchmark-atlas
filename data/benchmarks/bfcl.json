@@ -1,7 +1,7 @@
 {
   "id": "bfcl",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "Berkeley Function Calling Leaderboard (BFCL)",
@@ -40,10 +40,14 @@
       ]
     },
     "release_date": {
-      "value": "ICML论文2025-07-13至19会议；首次基准发布日期待核实",
+      "value": "BFCL V4发布于2025-07-17；V2为2024-08-19，V3为2024-09-19。首次V1精确发布日期待核实。",
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md",
           "accessed": "2026-11-07"
         }
       ],
@@ -71,10 +75,10 @@
       ]
     },
     "license": {
-      "value": "Apache-2.0（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）",
+      "value": "官方BFCL README明确榜单统计与用于训练的数据以Apache-2.0发布；第三方工具/API条款须独立遵守。",
       "sources": [
         {
-          "url": "https://github.com/ShishirPatil/gorilla",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -143,7 +147,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "authors": {
@@ -180,7 +184,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -242,10 +246,14 @@
       ]
     },
     "decontamination": {
-      "value": "真实函数多样化与后续版本增加覆盖；公开函数/提示仍不能提供无污染保证。",
+      "value": "V2加入企业和社区真实贡献数据；V4 Web Search博客发现较新模型可能凭已有知识答对部分题，计划周期更新问题。工具使用表现与预训练记忆不能简单分离，非无污染保证。",
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -253,15 +261,32 @@
   },
   "data_format": {
     "size": {
-      "value": "待核实",
+      "value": {
+        "scored_entries_v4": 5088,
+        "scored_categories": {
+          "agentic": 665,
+          "multi_turn": 800,
+          "live": 1351,
+          "non_live": 1150,
+          "irrelevance": 1122
+        },
+        "non_scoring_entries": 5218,
+        "non_scoring_breakdown": {
+          "format_sensitivity": 5200,
+          "relevance": 18
+        },
+        "agentic_breakdown": {
+          "web_search": 200,
+          "memory": 465
+        }
+      },
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "按官方V4博客score composition口径记录。format sensitivity是26×200组配置，不当作5,200个全新独立问题；不同版本不相加。"
     },
     "question_types": {
       "value": "单/并行函数调用、多轮状态交互、相关性/拒绝调用与agentic任务。",
@@ -295,15 +320,17 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "以结构复杂性分层而非统一easy/hard：单/多工具、并行调用、多轮基础/缺函数/缺参数/长上下文，以及web-search和memory。Web Search含多跳链；不估计通用难度比例。",
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "public_hidden_split": {
       "value": "官方发布数据和评测包；各版本子集与隐藏性需按V4材料确认。",
@@ -317,19 +344,32 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "分类准确率；Overall为子类别分数的非加权均值。",
+      "value": "V4 Overall为固定百分比加权：Agentic 40% + Multi-Turn 30% + Live 10% + Non-Live 10% + Irrelevance/Hallucination 10%。类别内部另按官方规则使用加权或非加权均值。",
       "sources": [
+        {
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "纠正旧条目“Overall是所有子类非加权均值”。官网首页仍有笼统unweighted措辞，与V4博客及CHANGELOG不一致；按更具体的V4定义并列保存冲突。"
     },
     "scoring": {
-      "value": "按类别使用AST匹配、执行或有状态检查；FC原生调用与提示转换分别标注。",
+      "value": "单轮AST匹配与多轮状态+响应检查；2025-04-09 CHANGELOG已退休rest及exec_*旧可执行类别，不能再把它们称当前V4总分构成。Web Search/Memory按agentic规则评估，format-sensitivity和relevance不影响主总分。",
       "sources": [
         {
-          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/blogs/15_bfcl_v4_web_search.html",
           "accessed": "2026-11-07"
         }
       ]
@@ -379,7 +419,14 @@
           {
             "url": "https://arxiv.org/html/2609.27284v1",
             "date": "2026-09-23",
-            "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。"
+            "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。",
+            "date_kst": "2026-09-23T12:21:24+09:00",
+            "verified_in_round1": "本轮重新打开Hunyuan-A13B §4.2 Agents表格，确认BFCLv3 78.3/65.9是slow/fast-thinking厂商自报，非V4。"
+          },
+          {
+            "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
+            "date": "2026-08-24",
+            "note": "AA启动文章实际评测BFCL 640任务子集；独立第三方使用证据，不等同BFCL V4全量。"
           }
         ]
       },
@@ -390,6 +437,14 @@
         },
         {
           "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.27284",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
           "accessed": "2026-11-07"
         }
       ],
@@ -403,19 +458,21 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方V4 CHANGELOG明确称单轮趋近饱和，故改为提高多轮/Agentic权重；当前Overall最高77.47%，不能沿用单轮接近饱和的结论到V4全体任务。",
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "contamination_and_issues": {
       "value": "AST正确不等于业务任务完成；多轮与记忆带来新评测维度，版本间不可用一个总分追踪。",
@@ -456,18 +513,109 @@
       ]
     },
     "third_party_url": {
-      "value": "待核实",
+      "value": {
+        "endpoint_accuracy_methodology": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+        "mobile_subset_launch": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference"
+      },
       "sources": [
         {
-          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "url": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
-      "status": "待核实"
+      "note": "AA有500-task offline-only、3 repeats的BFCL v4-500及mobile 640-task子集；都不是官方全量V4，原“无已核实AA覆盖”现纠正。"
     },
     "results": {
       "value": [
+        {
+          "model": "Claude-Opus-4-5-20251101 (FC)",
+          "score": 77.47,
+          "unit": "%",
+          "metric": "V4 weighted overall accuracy",
+          "scope": "BFCL V4 Overall；官方当前data_overall.csv",
+          "date": "待核实",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+          "rank": 1,
+          "benchmark_version": "V4",
+          "leaderboard_updated_at": "2026-04-12",
+          "multi_turn": 68.38,
+          "web_search": 84.5,
+          "memory": 73.76
+        },
+        {
+          "model": "Claude-Sonnet-4-5-20250929 (FC)",
+          "score": 73.24,
+          "unit": "%",
+          "metric": "V4 weighted overall accuracy",
+          "scope": "BFCL V4 Overall；官方当前data_overall.csv",
+          "date": "待核实",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+          "rank": 2,
+          "benchmark_version": "V4",
+          "leaderboard_updated_at": "2026-04-12",
+          "multi_turn": 61.37,
+          "web_search": 81.0,
+          "memory": 64.95
+        },
+        {
+          "model": "Gemini-3-Pro-Preview (Prompt)",
+          "score": 72.51,
+          "unit": "%",
+          "metric": "V4 weighted overall accuracy",
+          "scope": "BFCL V4 Overall；官方当前data_overall.csv",
+          "date": "待核实",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+          "rank": 3,
+          "benchmark_version": "V4",
+          "leaderboard_updated_at": "2026-04-12",
+          "multi_turn": 60.75,
+          "web_search": 80.0,
+          "memory": 61.72
+        },
+        {
+          "model": "GLM-4.6 (FC thinking)",
+          "score": 72.38,
+          "unit": "%",
+          "metric": "V4 weighted overall accuracy",
+          "scope": "BFCL V4 Overall；官方当前data_overall.csv",
+          "date": "待核实",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+          "rank": 4,
+          "benchmark_version": "V4",
+          "leaderboard_updated_at": "2026-04-12",
+          "multi_turn": 68.0,
+          "web_search": 77.5,
+          "memory": 55.7
+        },
+        {
+          "model": "Grok-4-1-fast-reasoning (FC)",
+          "score": 69.57,
+          "unit": "%",
+          "metric": "V4 weighted overall accuracy",
+          "scope": "BFCL V4 Overall；官方当前data_overall.csv",
+          "date": "待核实",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+          "rank": 5,
+          "benchmark_version": "V4",
+          "leaderboard_updated_at": "2026-04-12",
+          "multi_turn": 58.87,
+          "web_search": 82.5,
+          "memory": 53.98
+        },
         {
           "model": "Hunyuan-A13B slow-thinking",
           "score": 78.3,
@@ -485,37 +633,88 @@
           "result_type": "厂商技术报告自报",
           "source_date": "2026-09-23",
           "collected_at": "2026-11-07 KST"
+        },
+        {
+          "model": "Qwen3.5 9B (Non-reasoning)",
+          "score": 77,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "Artificial Analysis mobile BFCL 640-task subset；量化build，16K context",
+          "date": "2026-08-24",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
+          "provenance": "AA独立评测的启动文章；不是全量V4总分，不作为2026-11当前第三方排名。"
+        },
+        {
+          "model": "Nanbeige4.2-3B",
+          "score": 76,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "Artificial Analysis mobile BFCL 640-task subset；量化build，16K context",
+          "date": "2026-08-24",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
+          "provenance": "AA启动文章明确的BFCL子项分数，非Mobile平均指数；不与全量V4混排。"
         }
       ],
       "sources": [
         {
+          "url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2609.27284v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "已核实官方V4页面及2026-04-12更新标示，但静态正文未核出动态榜单行；当前V4前三待核实，不把V3厂商自报移入V4。",
+      "value": "本轮从index_main.js确认官网读取data_overall.csv后重新采集：V4前三Claude-Opus-4-5-20251101 (FC) 77.47、Claude-Sonnet-4-5-20250929 (FC) 73.24、Gemini-3-Pro-Preview (Prompt) 72.51。官网标Last Updated 2026-04-12；不是2026-11-07新跑分。V3厂商报告和AA子集结果分别标scope，不混为V4排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.27284v1",
+          "url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "huanzhimao@berkeley.edu",
+        "shishirpatil@berkeley.edu"
+      ],
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.pdf",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "前者是README联系邮箱；后者为ICML论文公开通讯邮箱。"
     },
     "github_issues": {
       "value": "https://github.com/ShishirPatil/gorilla/issues",
@@ -528,15 +727,14 @@
       "note": "公开仓库反馈入口；未发送问题。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://discord.gg/grXXvj9Whz",
       "sources": [
         {
-          "url": "https://proceedings.mlr.press/v267/patil25a.html",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "官方Discord公开邀请，README指定#leaderboard频道；未加入或发送消息。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -546,7 +744,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -632,6 +830,12 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。"
       }
     ],
     "sources": [

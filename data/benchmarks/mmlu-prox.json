@@ -1,7 +1,7 @@
 {
   "id": "mmlu-prox",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "MMLU-ProX",
@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "MMLU-ProX：29语言全量版及Lite版；2025-05官方发布记录。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2503.10497",
+          "url": "https://github.com/weihao1115/MMLU-ProX",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -73,7 +71,7 @@
       ]
     },
     "license": {
-      "value": "MIT（官方 Hugging Face 数据卡）",
+      "value": "MIT（官方数据集卡声明）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/li-lab/MMLU-ProX",
@@ -191,15 +189,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 weihao1115；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2503.10497",
+          "url": "https://github.com/weihao1115/MMLU-ProX",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "官网致谢列出 JSPS KAKENHI 24K20832、JST ActX JPMJAX24CU、NVIDIA Academic Grant、Google Gemma Academic Program。",
@@ -313,10 +309,10 @@
       ]
     },
     "languages": {
-      "value": "29 种语言，包括英语、中文、日语、韩语、法语、德语、西班牙语以及 Wolof、Yoruba、Zulu 等低资源语言。",
+      "value": "29种语言（官方README当前描述；不是只统计非英语翻译）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2503.10497",
+          "url": "https://github.com/weihao1115/MMLU-ProX",
           "accessed": "2026-11-07"
         }
       ]
@@ -360,10 +356,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "官网结果表标注 5-shot CoT；完整论文包含多种提示策略。",
+      "value": "通过 lm-evaluation-harness 的 mmlu_prox_<lang> 任务评测；README复现要求 vLLM 0.7.3，Llama3.1-405B例外使用0.6.6。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2503.10497",
+          "url": "https://github.com/weihao1115/MMLU-ProX",
           "accessed": "2026-11-07"
         }
       ]
@@ -399,15 +395,13 @@
       "note": "2026-H2实际使用证据：2026-10-08：Jev 对比研究的表1–2和§3.1实际使用 MMLU-ProX，将其纳入13个多选基准的模型评测。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "README 2025-05记录29语言、Full与Lite；2025-08称正在开发更多语言的第二版，不把计划等同已发布。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/li-lab/MMLU-ProX",
+          "url": "https://github.com/weihao1115/MMLU-ProX",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -663,6 +657,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -672,6 +671,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2503.10497",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/weihao1115/MMLU-ProX",
         "accessed": "2026-11-07"
       }
     ]

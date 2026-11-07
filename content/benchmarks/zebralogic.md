@@ -1,8 +1,10 @@
 # ZebraLogic｜中文深度介绍
 
+核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+
 用可验证的斑马逻辑网格谜题评估约束传播、全局一致性和随搜索空间增大而变化的推理能力。
 
-来源：[https://arxiv.org/abs/2502.01100](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
 ## 一、基本信息
 
@@ -44,21 +46,19 @@ arXiv v2
 
 ### 子领域
 
-[
-  "约束逻辑推理"
-]
+- 约束逻辑推理
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
 ### 许可证
 
-待核实
+- **评测代码许可**：Apache-2.0（ZeroEval LICENSE）
+- **数据许可**：待核实（本次打开的WildEval/ZebraLogic数据卡未声明license；代码许可不代替数据授权）
 
-状态：待核实。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE)（采集 2026-11-07）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（采集 2026-11-07）。
 
-说明：数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证
 
-来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
+核验说明：代码许可已核实，数据集许可仍待核实。
 
 ### 论文
 
@@ -102,23 +102,19 @@ University of Washington、Allen Institute for AI、Stanford University（论文
 
 待核实
 
-状态：待核实。
-
-说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
 ### 作者
 
-[
-  "Lin, Bill Yuchen",
-  "Bras, Ronan Le",
-  "Richardson, Kyle",
-  "Sabharwal, Ashish",
-  "Poovendran, Radha",
-  "Clark, Peter",
-  "Choi, Yejin"
-]
+- Lin, Bill Yuchen
+- Bras, Ronan Le
+- Richardson, Kyle
+- Sabharwal, Ashish
+- Poovendran, Radha
+- Clark, Peter
+- Choi, Yejin
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
@@ -126,9 +122,7 @@ University of Washington、Allen Institute for AI、Stanford University（论文
 
 待核实
 
-状态：待核实。
-
-说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
@@ -136,9 +130,7 @@ University of Washington、Allen Institute for AI、Stanford University（论文
 
 待核实
 
-状态：待核实。
-
-说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
@@ -192,9 +184,9 @@ N和M均取2至6，共25种尺寸，每种40题；同时控制搜索空间与逻
 
 ### 题量
 
-1000道，25种网格尺寸×40题。
+数据卡grid_mode测试集1000个谜题；mc_mode测试集3259道选择题。两者是不同配置，不相加为独立谜题数。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
+来源：[1](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（采集 2026-11-07）。
 
 ### 题型
 
@@ -248,9 +240,9 @@ N和M均取2至6，共25种尺寸，每种40题；同时控制搜索空间与逻
 
 ### 评测脚本
 
-https://github.com/WildEval/ZeroEval
+ZeroEval：以-d zebra-grid运行；src/evaluation/zebra_grid_eval.py评分，支持本地及API推理。
 
-来源：[1](https://github.com/WildEval/ZeroEval)（采集 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（采集 2026-11-07）。
 
 ### 可比性警示
 
@@ -274,17 +266,13 @@ https://github.com/WildEval/ZeroEval
 
 ### 修订与2026H2收录证据
 
-{
-  "arxiv_version": "arXiv v2",
-  "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-  "2026_h2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
-      "note": "Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。"
-    }
-  ]
-}
+- **论文版本**：arXiv v2
+- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+- **2026下半年引用/使用证据**：
+  - 
+    - **来源链接**：https://arxiv.org/html/2609.27284v1
+    - **日期**：2026-09-23
+    - **说明**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -292,9 +280,7 @@ https://github.com/WildEval/ZeroEval
 
 待核实
 
-状态：待核实。
-
-说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
@@ -328,55 +314,77 @@ https://huggingface.co/spaces/allenai/ZebraLogic
 
 待核实
 
-状态：待核实。
-
-说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
 ### 限定范围的分数快照
 
-[
-  {
-    "model_version": "Hunyuan-A13B",
-    "score": "84.7",
-    "unit": "%",
-    "scope_and_protocol": "slow thinking，完整题准确率，报告表3",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "OpenAI-o1-1217",
-    "score": "81.0",
-    "unit": "%",
-    "scope_and_protocol": "同表列名，检查点按报告原样记录",
-    "result_date": "2026-09-23",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2609.27284v1",
-    "source_class": "三级：模型厂商自报",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  }
-]
+- 
+  - **模型版本**：grok-3-mini-fast-beta-high
+  - **分数**：92.6
+  - **单位**：%
+  - **范围与协议**：作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。
+  - **结果日期**：待核实
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md
+  - **来源等级**：一级：官方榜单
+  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
+- 
+  - **模型版本**：o3-mini-2025-01-31-high
+  - **分数**：91.7
+  - **单位**：%
+  - **范围与协议**：作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。
+  - **结果日期**：待核实
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md
+  - **来源等级**：一级：官方榜单
+  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
+- 
+  - **模型版本**：o3-mini-2025-01-31-medium
+  - **分数**：88.9
+  - **单位**：%
+  - **范围与协议**：作者仓库ZebraLogic grid结果表；greedy、single、1000 puzzles、Puzzle Acc；不是Cell Acc。
+  - **结果日期**：待核实
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md
+  - **来源等级**：一级：官方榜单
+  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
+- 
+  - **模型版本**：Hunyuan-A13B
+  - **分数**：84.7
+  - **单位**：%
+  - **范围与协议**：slow thinking，完整题准确率，报告表3
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：OpenAI-o1-1217
+  - **分数**：81.0
+  - **单位**：%
+  - **范围与协议**：同表列名，检查点按报告原样记录
+  - **结果日期**：2026-09-23
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2609.27284v1
+  - **来源等级**：三级：模型厂商自报
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
 
-来源：[1](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
 
 ### 覆盖边界
 
-非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。
+新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（结果表未注明最后更新日）；2026-11-07仅为采集日期（Asia/Seoul）。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（采集 2026-11-07）。
 
 ## 九、联系方式
 
 ### 公开工作邮箱
 
-[
-  "byuchen@uw.edu",
-  "ronanlb@allenai.org"
-]
+- byuchen@uw.edu
+- ronanlb@allenai.org
 
 来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（采集 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
@@ -390,9 +398,7 @@ https://github.com/WildEval/ZeroEval/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实专门官方社交账号，不收录同名个人账户
+核验说明：未核实专门官方社交账号，不收录同名个人账户
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
@@ -400,21 +406,26 @@ https://github.com/WildEval/ZeroEval/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
 ## 十、原始文件
 
-### 原始PDF
+### Drive论文PDF
+
+- **id**：1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv
+- **webViewLink**：https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk)（采集 2026-11-07）。
+
+### 原始论文PDF
 
 https://arxiv.org/pdf/2502.01100
 
 来源：[1](https://arxiv.org/abs/2502.01100)（采集 2026-11-07）。
 
-### SHA256
+### SHA256校验值
 
 c252c5c4c6aa7394cb97f81d7e77fd69b3ec8d374ede75c7f0189a1530a3820d
 
@@ -426,48 +437,38 @@ c252c5c4c6aa7394cb97f81d7e77fd69b3ec8d374ede75c7f0189a1530a3820d
 
 来源：[1](https://arxiv.org/pdf/2502.01100)（采集 2026-11-07）。
 
-### Drive资料夹
+### Drive文件夹
 
-{
-  "id": "1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy",
-  "webViewLink": "https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy"
-}
+- **id**：1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy
+- **webViewLink**：https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy
 
 来源：[1](https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy)（采集 2026-11-07）。
 
-### 中文文档与本地稿
+### 其他文档
 
-{
-  "chinese_intro_doc": {
-    "id": "125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs",
-    "webViewLink": "https://docs.google.com/document/d/125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs/edit?usp=drivesdk",
-    "mimeType": "application/vnd.google-apps.document"
-  },
-  "local_markdown": "content/benchmarks/zebralogic.md"
-}
+- **chinese_intro_doc**：
+  - **id**：125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs
+  - **webViewLink**：https://docs.google.com/document/d/125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs/edit?usp=drivesdk
+  - **mimeType**：application/vnd.google-apps.document
+- **local_markdown**：content/benchmarks/zebralogic.md
 
 来源：[1](https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy)（采集 2026-11-07）。
-
-### drive_pdf
-
-{
-  "id": "1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv",
-  "webViewLink": "https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk"
-}
-
-来源：[1](https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk)（采集 2026-11-07）。
 
 ## 十一、变更记录
 
-### changelog
-
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  }
-]
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **本轮更新字段**：
+    - basic_info.license
+    - evaluation.official_scripts
+    - data_format.size
+    - leaderboard.results
+    - leaderboard.coverage_note
 
 来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（采集 2026-11-07）。
-

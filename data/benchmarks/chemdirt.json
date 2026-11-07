@@ -1,7 +1,7 @@
 {
   "id": "chemdirt",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
   "basic_info": {
     "name": {
       "value": "ChemDIRT",
@@ -95,7 +95,7 @@
       "value": "https://github.com/einae-nd/ChemDIRT",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -130,10 +130,10 @@
   },
   "organization": {
     "initiators": {
-      "value": "University of Notre Dame作者团队。",
+      "value": "论文作者单位：University of Notre Dame；不据此推断唯一法律所有人。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://arxiv.org/html/2608.21504v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -233,10 +233,10 @@
       ]
     },
     "quality_control": {
-      "value": "以固定化学真值比较指令与表示，使用任务特定有效性检查和RDKit；保留来源差异。",
+      "value": "官方提供 bundled data/image 校验脚本；运行结果保存原始预测、任务指标、配置、输入哈希和检查点。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -254,10 +254,10 @@
   },
   "data_format": {
     "size": {
-      "value": "4,484例、33个任务—表示设置、八类任务，论文评测23个模型。",
+      "value": "仓库 README：4,484 个问题，附 300 张分子图像。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -272,10 +272,10 @@
       ]
     },
     "modalities": {
-      "value": "SMILES、IUPAC名称、分子图像、英语指令与数值/结构答案。",
+      "value": "分子文本表示和分子图像。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -310,10 +310,10 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "分类准确率/精确匹配、结构EM、MACCS/Morgan/RDK相似度、ROUGE、RMSE/MAE；指标随任务变化。",
+      "value": "分类用 accuracy；分子设计报告 exact match 与 MACCS/Morgan/RDK 指纹相似度；数值任务报告 log RMSE、MAE、relative RMSE 和 RMSE。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://arxiv.org/html/2608.21504v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -328,19 +328,19 @@
       ]
     },
     "prompt_settings": {
-      "value": "共同system、zero-shot；直接回答128token，推理256token上限；部分设置交叉SMILES/IUPAC及四模板。",
+      "value": "论文每任务用 GPT-5 Pro 生成 10 个模板并人工校验语义；报告评估取前 4 个通过验证的模板。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://arxiv.org/html/2608.21504v1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/einae-nd/ChemDIRT",
+      "value": "src/cli.py 运行推理与评分；scripts/validate_data.py 检查数据及图像。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.21504",
+          "url": "https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -362,8 +362,13 @@
         {
           "url": "https://arxiv.org/abs/2608.21504",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.21504",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-08-21 原始论文实际评估多个模型；属于作者自评而非独立引用。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -622,6 +627,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [

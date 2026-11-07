@@ -1,7 +1,7 @@
 {
   "id": "astrommbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
   "basic_info": {
     "name": {
       "value": "AstroMMBench",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-09-30（正式版发表；非推定最早数据上线日）",
+      "value": "2026-09-30（正式发表）；2026-07-13 收稿、2026-09-21 修订、2026-09-23 接受。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -70,7 +70,7 @@
       ]
     },
     "license": {
-      "value": "论文CC BY；源arXiv图的再分发依各原稿许可证，不能把论文许可套给全部图像。",
+      "value": "数据及原始图像再利用须遵循各 arXiv 原文许可；不能把论文或代码许可直接套到全部592题图像。统一数据许可待核实。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -126,7 +126,7 @@
   },
   "organization": {
     "initiators": {
-      "value": "中国科学院国家天文台等论文作者团队。",
+      "value": "中国科学院国家天文台、中国科学院大学、浙江实验室、天津大学作者团队；作者单位不等同于法律所有权。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -171,7 +171,7 @@
       ]
     },
     "funders": {
-      "value": "NSFC 12273076/12203077/12373110/12133001；2025YFA1614101；CMS-CSST-2025-A06；河北A2024205020（正式版致谢）。",
+      "value": "NSFC 12273076、12203077、12373110、12133001；国家重点研发计划2025YFA1614101；载人航天 CMS-CSST-2025-A06；河北自然科学基金A2024205020。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -202,7 +202,7 @@
   },
   "construction": {
     "question_sources": {
-      "value": "2024-01至07的3,592篇astro-ph论文，19,299图文对。LLaMA3.3-70B改写上下文，InternVL2.5-78B拟题。",
+      "value": "2024-01-01 至2024-07-31 的3592篇 arXiv astro-ph 论文，提取19,299个图文对；LLaMA3.3-70B-Instruct 整理文本，InternVL2.5-78B 生成四选一候选。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -211,7 +211,7 @@
       ]
     },
     "author_background": {
-      "value": "15名国家天文台审核者：8博士生、5硕士生、2教授；按研究专长分题。",
+      "value": "15名国家天文台评审：8名天文学博士生、5名硕士生、2名教授；按研究方向分配问题。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -220,7 +220,7 @@
       ]
     },
     "review_process": {
-      "value": "五模型文本盲答筛去易靠语言先验解的题；余9,677中随机选1,800人工审查，保留592。每题一名主审，非独立双盲。",
+      "value": "五个纯文本 LLM 各答5次，单模型至少3次答对判为会答；至少两个模型会答则丢弃。余9677题抽1800题专家审核，保留592题。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -229,7 +229,7 @@
       ]
     },
     "quality_control": {
-      "value": "检查科学正确、图题一致、上下文充分、唯一答案与干扰项；有问题直接丢弃；无一致性系数测量。",
+      "value": "专家检查科学正确性、图题对应、上下文充分性、答案唯一性与干扰项；每题一名主审且可见答案和图注，无独立双评及一致性统计。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -238,7 +238,7 @@
       ]
     },
     "decontamination": {
-      "value": "保留来源arXiv ID；没有训练集审计、近重复搜索或记忆探测。2024公开论文可能被后来模型训练，正式版明确不可称contamination-free。",
+      "value": "记录来源 arXiv ID，但未进行训练语料审计、近重复搜索或记忆探测；不能排除2024年后模型见过来源论文。不得描述为无污染。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -294,7 +294,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "HF公开固定592题；当前不是隐藏测试竞赛。",
+      "value": "论文结果统一使用592题；公开数据地址已给出。论文没有在本次已读段落定义独立训练/验证划分，划分细节待核实。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -305,7 +305,7 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "整体及六子领域accuracy，整体分母固定592；Wilson95%区间辅助解释。",
+      "value": "四选一准确率；总体分母固定592，子领域按各自题数计算。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -314,7 +314,7 @@
       ]
     },
     "scoring": {
-      "value": "A–D精确匹配；自由文本用DeepSeek-V3固定二元判分，失败/无效均记错不丢弃。",
+      "value": "A—D 单字母先精确匹配；其他自由回答交 DeepSeek-V3 固定二元裁判。解析失败、非法输出或 API 失败计错，不从分母删除。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -323,7 +323,7 @@
       ]
     },
     "prompt_settings": {
-      "value": "VLMEvalKit0.2，图像后接问题四选项；不同模型adapter独立缩放/切片，闭源走官方API。",
+      "value": "VLMEvalKit 0.2；输入为图像、题干和四个带标签选项；具体文本及裁判提示见 Supplementary File S1。图像处理沿各模型 adapter，非统一固定分辨率。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -370,24 +370,8 @@
       ]
     },
     "paper_revision_history": {
-      "value": {
-        "2026_H2_evidence": [
-          {
-            "url": "https://www.mdpi.com/2218-1997/12/10/296",
-            "date": "2026-09-30",
-            "note": "期刊正式版发表于2026-09-30，在592道专家筛选题上实际评价25个多模态模型。采用打开的正式版，未沿用搜索摘要的旧621题。"
-          }
-        ],
-        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
-        "paper_metadata": {
-          "note": "见期刊/数据库官方入口"
-        }
-      },
+      "value": "2026H2 使用证据：2026-09-30 正式论文用592题评估25个MLLM（22开放、3闭源）。这是发起方原始使用，不冒称独立后续引用。",
       "sources": [
-        {
-          "url": "https://www.mdpi.com/2218-1997/12/10/296",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
           "accessed": "2026-11-07"
@@ -395,7 +379,7 @@
       ]
     },
     "saturation": {
-      "value": "历史最高71.28%，尚未饱和；头部模型之间小差距无显著性结论。",
+      "value": "本组最高点估计71.28%；论文认为未饱和。前三总体准确率的 Wilson 95% 区间重叠，不能把小差距解读为显著优劣。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -404,7 +388,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "无训练语料审计；每题单主审且见到答案/原caption；五模型过滤选择偏差。文本盲答对照仅覆盖两个模型。",
+      "value": "公开 arXiv 来源可能进入模型预训练；单主审、可见答案和图注、单机构评审团，以及缺少重复运行均限制分数解释。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -435,7 +419,7 @@
       ]
     },
     "official_url": {
-      "value": "https://www.mdpi.com/2218-1997/12/10/296",
+      "value": "https://www.mdpi.com/2218-1997/12/10/296#table_body_display_universe-12-00296-t002",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -455,32 +439,19 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "正式版2026-09 Table2历史：Ovis2-34B71.28%（Wilson67.51–74.78）；ChatGPT-4o69.76%（65.95–73.33）；Doubao1.5-vision-pro69.09%（65.25–72.68）。共同592题；GPT4o具体API快照待核实；不代表后发模型未超越。",
+      "value": "正式论文表2固定版本结果：Ovis2-34B 71.28%，ChatGPT-4o 69.76%，Doubao-1.5-vision-pro 69.09%；总体592题。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "2026-11-07 采集2026-09-30论文表2，不是持续更新的实时榜。前三置信区间重叠；模型后续版本与 API 变更不在此快照。",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
           "accessed": "2026-11-07"
         }
       ]
@@ -605,6 +576,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [

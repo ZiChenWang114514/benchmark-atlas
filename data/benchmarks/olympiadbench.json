@@ -96,19 +96,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（仓库软件许可；不据此推断第三方题目或教材的再授权）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://raw.githubusercontent.com/OpenBMB/OlympiadBench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2402.14008",
@@ -336,19 +330,13 @@
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "Mathpix OCR 解析官方 PDF，再检查、清洗、修订、去重并标注答案类型和子领域。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -409,19 +397,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语与中文，文件名 en/zh 区分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
       "value": "待核实",
@@ -469,32 +451,22 @@
       ]
     },
     "scoring": {
-      "value": "分科目评估答案；双语与多模态设置必须分别记录，不能将数学物理均值作物理成绩。",
+      "value": "开放题标准化答案后用 eval/auto_scoring_judge.py 自动评测；证明题采用抽样评估，不混为同一自动准确率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "官方实验采用 zero-shot；中英开放题分别提供模板，文本与多模态设置分别报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/OpenBMB/OlympiadBench",
@@ -534,22 +506,26 @@
         {
           "url": "https://arxiv.org/pdf/2402.14008",
           "accessed": "2026-11-07"
-        }
-      ]
-    },
-    "latest_dataset_version": {
-      "value": "待核实",
-      "sources": [
+        },
         {
-          "url": "https://arxiv.org/abs/2402.14008",
+          "url": "https://arxiv.org/html/2608.09447",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://arxiv.org/html/2608.09447",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实"
+      "note": "2026H2 引用/使用证据：2026-08，WDL-OPD 第4.2节与表5使用 OlympiadBench 数学评测。"
+    },
+    "latest_dataset_version": {
+      "value": "README 记载 2024-03-24 更新数据和实验代码，并保留前版下载链接；未确认后续版本标签。",
+      "sources": [
+        {
+          "url": "https://github.com/OpenBMB/OlympiadBench",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Chaoqun He [ view email ] [v1] Wed, 21 Feb 2024 18:49:26 UTC (8,221 KB) [v2] Thu, 6 Jun 2024 13:19:44 UTC (8,589 KB)",
@@ -653,29 +629,41 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
+          "model": "GPT-4o",
+          "score": 13.1,
+          "unit": "%",
+          "metric": "Physics score",
+          "scope": "官方 README full benchmark 物理列；历史实验，非实时全网排名"
         },
         {
-          "url": "https://arxiv.org/pdf/2402.14008",
-          "accessed": "2026-11-07"
+          "model": "GPT-4V",
+          "score": 10.74,
+          "unit": "%",
+          "metric": "Physics score",
+          "scope": "官方 README full benchmark 物理列；历史实验，非实时全网排名"
+        },
+        {
+          "model": "Qwen-VL-Max",
+          "score": 5.09,
+          "unit": "%",
+          "metric": "Physics score",
+          "scope": "官方 README full benchmark 物理列；历史实验，非实时全网排名"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
-        },
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "当前 README 表格全模态物理列领先为 GPT-4o 13.10%，但 Overview 仍称 GPT-4V 最好（10.74% 物理、17.97%总分）；属于未同步历史文本，保留此冲突，不混淆两列指标；榜单更新时间待核实。",
+      "sources": [
         {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -683,27 +671,21 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "hechaoqun1998@gmail.com",
+        "renjie.luo@outlook.com",
+        "byz22@mails.tsinghua.edu.cn"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2402.14008",
+          "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/OpenBMB/OlympiadBench/issues",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2402.14008",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://github.com/OpenBMB/OlympiadBench",
           "accessed": "2026-11-07"
@@ -814,6 +796,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [
@@ -827,5 +814,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
 }

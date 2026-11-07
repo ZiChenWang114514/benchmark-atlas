@@ -96,19 +96,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "官方仓库 MIT；不自动代表所有原始 PubMed 摘要的版权条款。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://aclanthology.org/D19-1259/",
@@ -124,28 +118,19 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/pubmedqa/pubmedqa",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "dataset_url": {
-      "value": "https://pubmedqa.github.io/",
+      "value": "https://github.com/pubmedqa/pubmedqa",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -361,45 +346,31 @@
   },
   "data_format": {
     "size": {
-      "value": "1k 专家标注、61.2k 未标注及 211.3k 人工生成实例（按论文原始计数精度）；答案为 yes/no/maybe。",
+      "value": "1k 专家标注、61.2k 未标注、211.3k 人工构造的 QA 实例；三个子集不可混作同一测试集。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "1k 专家标注、61.2k 未标注及 211.3k 人工生成实例（按论文原始计数精度）；答案为 yes/no/maybe。",
+      "value": "依据研究摘要回答 yes/no/maybe 三分类问题。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "研究问题与对应摘要文本。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
       "value": "待核实",
@@ -432,44 +403,30 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "官方 preprocess/split_dataset.py 提供 PQA-A 和 PQA-L 的划分；README 明确 PQA-U 无官方划分代码。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "三分类问答准确率。",
+      "value": "官方 reasoning-required 榜单报告 Accuracy (%) 与 Macro-F1 (%)；部分模型的 Macro-F1 为 NA。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "三分类问答准确率。",
+      "value": "将模型预测按 PMID 对齐后，以官方 evaluation.py 计算性能。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -490,18 +447,13 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "evaluation.py：预测 JSON 的键为 PMID，值为 yes/no/maybe；运行 python evaluation.py PREDICTIONS_PATH。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "comparability_warning": {
       "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
@@ -528,8 +480,13 @@
         {
           "url": "https://aclanthology.org/D19-1259.pdf",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07019",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 活跃性复核：2026-10-04 提交、2026-10-15 v2 的 Calibrated Evidence Inference 报告在 PubMedQA 500 个人工标注测试样本上的评估。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -622,11 +579,7 @@
       "value": "https://pubmedqa.github.io/",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ]
@@ -647,29 +600,39 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
+          "model": "GPT-4 (Medprompt)",
+          "accuracy_percent": 82.0,
+          "macro_f1": "NA",
+          "entry_date": "2023-11-28"
         },
         {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "model": "Med-PaLM 2",
+          "accuracy_percent": 81.8,
+          "macro_f1": "NA",
+          "entry_date": "2023-05-16"
+        },
+        {
+          "model": "MEDITRON 70B",
+          "accuracy_percent": 81.6,
+          "macro_f1": "NA",
+          "entry_date": "2023-11-27"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "2026-11-07 读取官网 reasoning-required 榜单所列前三；条目日期是历史提交日期，榜单整体更新日期待核实，不能称作 2026 年新评测。"
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "官网现列前三为历史模型结果；保留条目日期与评测设定，不将采集日期误作评测日期。",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://pubmedqa.github.io/",
           "accessed": "2026-11-07"
         }
       ]
@@ -677,34 +640,24 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "qiaojin.andy@gmail.com"
+      ],
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/pubmedqa/pubmedqa/issues",
       "sources": [
         {
-          "url": "https://aclanthology.org/D19-1259/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://aclanthology.org/D19-1259.pdf",
+          "url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -810,6 +763,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
       }
     ],
     "sources": [
@@ -823,5 +781,5 @@
       }
     ]
   },
-  "editorial_status": "初次收录；待补全字段见各项 status"
+  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。"
 }

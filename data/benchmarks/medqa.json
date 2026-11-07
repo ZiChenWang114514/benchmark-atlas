@@ -280,10 +280,10 @@
       ]
     },
     "modalities": {
-      "value": "文本题干、选项、标准答案及可检索医学资料。",
+      "value": "文本题干、选项、答案；QA逐行保存为JSONL，每行是一个dict；附英语与简体中文教材检索语料。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -455,15 +455,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方另提供美国和中国大陆4_options处理版；不得与原选项版直接混排比较。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.13081",
+          "url": "https://raw.githubusercontent.com/jind11/MedQA/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -653,6 +651,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

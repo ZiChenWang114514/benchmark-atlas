@@ -1,7 +1,7 @@
 {
   "id": "scienceqa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "ScienceQA",
@@ -30,15 +30,17 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "NeurIPS 2022 原始21,208题发布协议；本轮固定官方problems.json，未发现官方另命名的数字版本。",
       "sources": [
         {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -178,19 +180,18 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "University of California, Los Angeles",
+        "Arizona State University",
+        "Allen Institute for AI"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2209.09513",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://arxiv.org/pdf/2209.09513",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "按论文作者署名机构记录合作研究背景，不把课程来源IXL误写为合作机构。"
     },
     "authors": {
       "value": [
@@ -212,10 +213,10 @@
       ]
     },
     "maintainer": {
-      "value": "lupantech 官方仓库团队（当前具体个人职责待核实）",
+      "value": "Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反馈。",
       "sources": [
         {
-          "url": "https://github.com/lupantech/ScienceQA",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -233,7 +234,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "design_goals": {
@@ -326,7 +327,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "data_format": {
@@ -383,21 +384,46 @@
       ]
     },
     "difficulty": {
-      "value": "小学至高中课程，榜单报告G1-6与G7-12；完整难度分布待核实。",
+      "value": {
+        "proxy": "grade是课程年级，不等同于经校准的题目难度。",
+        "grades_1_to_12_counts": {
+          "grade1": 95,
+          "grade2": 1678,
+          "grade3": 3032,
+          "grade4": 3544,
+          "grade5": 3086,
+          "grade6": 2450,
+          "grade7": 2749,
+          "grade8": 2546,
+          "grade9": 491,
+          "grade10": 558,
+          "grade11": 539,
+          "grade12": 440
+        },
+        "leaderboard_groups": [
+          "G1-6",
+          "G7-12"
+        ]
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2209.09513",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮逐条统计官方problems.json，共21,208条；不估计额外难度等级。"
     },
     "public_hidden_split": {
-      "value": "随机60:20:20；train 12,726、validation 4,241、test 4,241。榜单另有1,000题mini口径。",
+      "value": "官方公开train 12,726、val 4,241、test 4,241及答案；60:20:20随机划分。榜单另有mini 1,000，必须标明全量/mini与IMG等子集。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/pdf/2209.09513",
           "accessed": "2026-11-07"
@@ -478,7 +504,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://scienceqa.github.io/",
@@ -487,19 +513,21 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "当前官方仓库仍提供21,208题原始协议与JSON；README最近列出的主要榜单更新为2023-12-29，交互榜单数据另含2024-01-23 KAM-CoT记录。不存在由访问日期推导出的2026新数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2209.09513",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -516,8 +544,10 @@
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
-            "date": "2026-10-22",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            "date": "2026-10-23",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+            "date_kst": "2026-10-23T01:54:37+09:00",
+            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -530,23 +560,25 @@
         {
           "url": "https://arxiv.org/html/2610.01352v2",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.01352",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "本轮官方榜单数据最高Avg为96.18%（Fine-tune），但榜单混列训练设置且非持续独立复测。可说明该设置高分，不能据此断言所有设置或整个基准已饱和。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2209.09513",
+          "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "官方榜单由论文人工整理，官方提醒可能有错误、歧义和缺失；zero-shot/few-shot/fine-tune、全量与IMG子集、4,241与mini 1,000不能混比。",
@@ -566,19 +598,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方榜单提供mini 1,000与IMG/NAT/SOC/LAN、G1-6/G7-12等报告切片；它们是同一基准的子集，不作为新benchmark计数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2209.09513",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -608,32 +634,46 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
       "value": [
         {
-          "model": "Mutimodal-T-SciQ_Large (738M)",
+          "model": "Mutimodal-T-SciQ_Large",
           "score": 96.18,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "官方汇总表全量test；Fine-tune",
+          "scope": "官方全量test 4,241；Fine-tune；Avg",
           "date": "2023-05-05",
-          "accessed": "2026-11-07",
-          "source_url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
-          "provenance": "官方README人工汇总的历史记录，官方警告有误差与缺失，不代表2026独立复测"
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
+          "provenance": "本轮重新打开官方网页实际使用的leaderboard-data.js；人工摘录论文结果，不是2026重新跑分。",
+          "leaderboard_updated_at": "待核实"
         },
         {
-          "model": "MC-CoT_F-Large (783M)",
+          "model": "MC-CoT_F-Large",
           "score": 94.88,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "官方汇总表全量test；Fine-tune",
+          "scope": "官方全量test 4,241；Fine-tune；Avg",
           "date": "2023-11-23",
-          "accessed": "2026-11-07",
-          "source_url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
-          "provenance": "官方README人工汇总历史记录"
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
+          "provenance": "本轮重新打开官方网页实际使用的leaderboard-data.js；人工摘录论文结果，不是2026重新跑分。",
+          "leaderboard_updated_at": "待核实"
+        },
+        {
+          "model": "Honeybee (Vicuna-13B)",
+          "score": 94.39,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "官方全量test 4,241；Fine-tune；Avg",
+          "date": "2023-12-11",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
+          "provenance": "本轮重新打开官方网页实际使用的leaderboard-data.js；人工摘录论文结果，不是2026重新跑分。",
+          "leaderboard_updated_at": "待核实"
         },
         {
           "model": "MMVistaReason-4B (MVR-4B)",
@@ -641,10 +681,11 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "ScienceQA，论文此表未区分全量/IMG口径",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -652,15 +693,16 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "ScienceQA，论文此表未区分全量/IMG口径",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         }
       ],
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
+          "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-07"
         },
         {
@@ -670,18 +712,18 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "2026-11-07 KST重新读取交互榜单实际数据源；前三为可见历史汇总，未提供统一榜单更新日期。保留2026-H2研究复测于不同scope，不混排或称当前全球SOTA。官方提示人工整理可能有错误和缺失。",
       "sources": [
         {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
           "accessed": "2026-11-07"
         }
       ]
@@ -710,19 +752,14 @@
       ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://twitter.com/lupantech/status/1570828580346802178",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2209.09513",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://scienceqa.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "官方README提供的公开讨论入口；本轮未访问X内容、未发送消息。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -813,6 +850,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "重读官方论文/JSON，补合作机构、维护和社交入口、精确年级分布；刷新官网JS榜单前三；重新核实H2实跑并修正v2日期为KST。"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "mathqa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "MathQA",
@@ -76,12 +76,15 @@
       "value": "待核实",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
+          "url": "https://raw.githubusercontent.com/math-qa/math-QA/master/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://math-qa.github.io/math-QA/",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      "note": "仓库 LICENSE 写 MIT，但版权人为网站模板供应商 Blackrock Digital LLC；README同样是网站模板。不能把网页模板许可当作 MathQA 数据许可证。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/1905.13319",
@@ -102,14 +105,14 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/math-qa/math-QA",
+      "value": "https://math-qa.github.io/math-QA/data/MathQA.zip",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/1905.13319",
+          "url": "https://math-qa.github.io/math-QA/data/MathQA.zip",
           "accessed": "2026-11-07"
         }
       ]
@@ -176,15 +179,13 @@
       "note": "arXiv元数据/官网列Peter Lin，下载PDF列Shanchuan Lin；两种署名并列，未自行认定为不同作者或同名。"
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "MathQA 作者项目主页（Aida Amini 等）；主页列公开联系单位为 University of Washington，不据此断言现行服务承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
+          "url": "https://math-qa.github.io/math-QA/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -271,10 +272,10 @@
   },
   "data_format": {
     "size": {
-      "value": "论文正文称37200，表1为37259；两者并列保留，未固定发布文件前不强行选择一个精确数。",
+      "value": "官方 MathQA.zip 实读：train 29,837、dev 4,475、test 2,985（主划分共37,297）；另有 challenge_test 604，不自动计作互斥新题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
+          "url": "https://math-qa.github.io/math-QA/data/MathQA.zip",
           "accessed": "2026-11-07"
         }
       ]
@@ -487,15 +488,13 @@
       ]
     },
     "official_url": {
-      "value": "待核实",
+      "value": "https://math-qa.github.io/math-QA/html/",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
+          "url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      ]
     },
     "third_party_url": {
       "value": "待核实",
@@ -552,14 +551,10 @@
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "官方历史榜已打开：MathQA Challenge下Seq2Prog+Cat为37.4；榜单没有明确统一更新日期，不能当作2026最新模型排名。既有厂商/研究结果维持独立协议。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1905.13319",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.11978v1",
+          "url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-07"
         }
       ]
@@ -573,10 +568,6 @@
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1905.13319",
           "accessed": "2026-11-07"
         }
       ]
@@ -688,6 +679,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

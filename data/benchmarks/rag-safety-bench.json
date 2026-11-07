@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "v14 frozen release：v14_full_987与v14_balanced_346。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v1",
@@ -73,10 +71,14 @@
       ]
     },
     "license": {
-      "value": "CC BY-SA 4.0（论文数据许可声明）",
+      "value": "存在官方材料差异：论文称数据CC BY-SA 4.0；仓库LICENSING.md仍为待作者批准的分拆提案（数据CC BY-SA 4.0、原创代码MIT），批准前不额外授予超出第三方条款的复用许可。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://arxiv.org/html/2609.11758v1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -161,15 +163,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方代码与反馈由 The-Safe-AI-Lab/RAG-Safety-Bench 仓库提供；个人持续维护职责及响应时限未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "NSERC Discovery Grant RGPIN-2026-05716；Compute Ontario 与 Digital Research Alliance of Canada 计算支持。",
@@ -297,10 +297,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "公开完整集与balanced子集；四条件共享query，不能当独立随机题集相加。",
+      "value": "公开frozen输入、provenance manifests与generation配置；原始模型回答、judge traces及unsafe_majority_v2复评分制品刻意不公开，local judge配置仅是实现示例。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -326,10 +326,14 @@
       ]
     },
     "prompt_settings": {
-      "value": "temperature0、top_p1、关闭sampling、max1024、seed42；每文档截断12,000字符。",
+      "value": "temperature=0.0、top_p=1.0、max_new_tokens=1024；文档使用清洗后的全文前缀，每篇最多12,000字符；论文另注明seed=42。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -365,15 +369,26 @@
       "note": "2026-H2实际使用证据：2026-09-10：RAG-Safety-Bench 原始论文H2发布并开展RAG安全实验；其评测协议与基准作为一个条目。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": {
+        "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.11758v1",
+            "date": "2026-09",
+            "note": "原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -402,10 +417,14 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "论文文字最初把oracle描述为含答案，但balanced审计为200题yes、146题partial；本条明确保留部分答案条件，不能当全部oracle证据完整。",
+      "value": "Oracle可答性并非全为完整答案：balanced中200题yes、146题partial。仓库明确私有v2复评分流程及原始输出未随包发布，local judge示例不能替代论文复评分制品。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2609.11758",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.11758v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -499,7 +518,8 @@
           "url": "https://arxiv.org/html/2609.11758v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
     }
   },
   "contact": {
@@ -519,10 +539,11 @@
       "value": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench/issues",
       "sources": [
         {
-          "url": "https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench",
+          "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "公开反馈入口；未发送问题。"
     },
     "official_social": {
       "value": "待核实",
@@ -620,6 +641,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

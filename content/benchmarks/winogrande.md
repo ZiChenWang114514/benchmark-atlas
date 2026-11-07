@@ -1,8 +1,10 @@
 # WinoGrande｜中文深度介绍
 
+核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+
 评估依靠常识与语境解决代词/指代消歧，而不是只利用词汇关联。
 
-来源：[https://arxiv.org/abs/1907.10641](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
 ## 一、基本信息
 
@@ -20,7 +22,7 @@ WinoGrande
 
 ### 数据/协议版本
 
-1.1
+1.1（官方仓库README）
 
 来源：[1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md)（采集 2026-11-07）。
 
@@ -44,18 +46,14 @@ arXiv v2
 
 ### 子领域
 
-[
-  "常识指代推理"
-]
+- 常识指代推理
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
 ### 许可证
 
-{
-  "code": "Apache-2.0",
-  "dataset": "CC-BY（README未注明具体小版本）"
-}
+- **代码许可**：Apache-2.0
+- **数据许可**：CC-BY（README未注明具体小版本）
 
 来源：[1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md)（采集 2026-11-07）。
 
@@ -101,20 +99,16 @@ Allen Institute for AI、University of Washington
 
 待核实
 
-状态：待核实。
-
-说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
 ### 作者
 
-[
-  "Sakaguchi, Keisuke",
-  "Bras, Ronan Le",
-  "Bhagavatula, Chandra",
-  "Choi, Yejin"
-]
+- Sakaguchi, Keisuke
+- Bras, Ronan Le
+- Bhagavatula, Chandra
+- Choi, Yejin
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
@@ -122,9 +116,7 @@ Allen Institute for AI、University of Washington
 
 待核实
 
-状态：待核实。
-
-说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
+核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
@@ -132,9 +124,7 @@ Allen Institute for AI、University of Washington
 
 待核实
 
-状态：待核实。
-
-说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
@@ -218,9 +208,9 @@ AFLite针对集合内部可学习偏差，不是现代LLM训练语料去重。
 
 ### 公开/隐藏划分
 
-官方test无标签，开发集有标签；训练XS160、S640、M2558、L10234、XL40938。
+train有xs/s/m/l/xl五种规模及独立标签，dev含标签，test不公开标签；预测文件每行五列，依次对应五种训练规模。
 
-来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md)（采集 2026-11-07）。
 
 ## 六、评测方法
 
@@ -244,9 +234,9 @@ AFLite针对集合内部可学习偏差，不是现代LLM训练语料去重。
 
 ### 评测脚本
 
-https://github.com/allenai/winogrande
+官方README指示使用eval.py评估dev，输出metrics.json；test应向官方榜提交predictions.lst。
 
-来源：[1](https://github.com/allenai/winogrande)（采集 2026-11-07）；[2](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md)（采集 2026-11-07）。
 
 ### 可比性警示
 
@@ -264,23 +254,19 @@ debiased与XL训练集合、dev与test、单点准确率与学习曲线必须区
 
 ### 最新可确认数据/协议
 
-1.1（官方README）
+1.1（README所列版本；未以此推断近期开源活动或最新提交）
 
-来源：[1](http://winogrande.allenai.org)（采集 2026-11-07）；[2](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
+来源：[1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md)（采集 2026-11-07）。
 
 ### 修订与2026H2收录证据
 
-{
-  "arxiv_version": "arXiv v2",
-  "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
-  "2026_h2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2610.11978v1",
-      "date": "2026-10-08",
-      "note": "Jev 研究表1–2及§3.1实际在 WinoGrande 上比较多类模型，不将ARC-Easy或其它子集另计。"
-    }
-  ]
-}
+- **论文版本**：arXiv v2
+- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+- **2026下半年引用/使用证据**：
+  - 
+    - **来源链接**：https://arxiv.org/html/2610.11978v1
+    - **日期**：2026-10-08
+    - **说明**：Jev 研究表1–2及§3.1实际在 WinoGrande 上比较多类模型，不将ARC-Easy或其它子集另计。
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
 
@@ -288,9 +274,7 @@ debiased与XL训练集合、dev与test、单点准确率与学习曲线必须区
 
 待核实
 
-状态：待核实。
-
-说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
 
@@ -324,49 +308,42 @@ https://leaderboard.allenai.org/winogrande/submissions/public
 
 待核实
 
-状态：待核实。
-
-说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
 ### 限定范围的分数快照
 
-[
-  {
-    "model_version": "Gemini 3.8 Flash",
-    "score": "97.1",
-    "unit": "%",
-    "scope_and_protocol": "Jev表2；checkpoint日期未列明",
-    "result_date": "2026-10-08",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2610.11978v1",
-    "source_class": "研究论文实验，非官方实时榜",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "Qwen3.8 Flash",
-    "score": "94.4",
-    "unit": "%",
-    "scope_and_protocol": "Jev表2；模型展示名",
-    "result_date": "2026-10-08",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2610.11978v1",
-    "source_class": "研究论文实验，非官方实时榜",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  },
-  {
-    "model_version": "Claude Opus 5.5",
-    "score": "92.7",
-    "unit": "%",
-    "scope_and_protocol": "Jev表2；模型展示名",
-    "result_date": "2026-10-08",
-    "snapshot_date": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2610.11978v1",
-    "source_class": "研究论文实验，非官方实时榜",
-    "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。"
-  }
-]
+- 
+  - **模型版本**：Gemini 3.8 Flash
+  - **分数**：97.1
+  - **单位**：%
+  - **范围与协议**：Jev表2；checkpoint日期未列明
+  - **结果日期**：2026-10-08
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2610.11978v1
+  - **来源等级**：研究论文实验，非官方实时榜
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：Qwen3.8 Flash
+  - **分数**：94.4
+  - **单位**：%
+  - **范围与协议**：Jev表2；模型展示名
+  - **结果日期**：2026-10-08
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2610.11978v1
+  - **来源等级**：研究论文实验，非官方实时榜
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+- 
+  - **模型版本**：Claude Opus 5.5
+  - **分数**：92.7
+  - **单位**：%
+  - **范围与协议**：Jev表2；模型展示名
+  - **结果日期**：2026-10-08
+  - **采集日期**：2026-11-07
+  - **来源链接**：https://arxiv.org/html/2610.11978v1
+  - **来源等级**：研究论文实验，非官方实时榜
+  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
 
 来源：[1](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
 
@@ -380,9 +357,7 @@ https://leaderboard.allenai.org/winogrande/submissions/public
 
 ### 公开工作邮箱
 
-[
-  "keisukes@allenai.org"
-]
+- keisukes@allenai.org
 
 来源：[1](http://winogrande.allenai.org)（采集 2026-11-07）；[2](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
@@ -396,9 +371,7 @@ https://github.com/allenai/winogrande/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实专门官方社交账号，不收录同名个人账户
+核验说明：未核实专门官方社交账号，不收录同名个人账户
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
@@ -406,21 +379,26 @@ https://github.com/allenai/winogrande/issues
 
 待核实
 
-状态：待核实。
-
-说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
 ## 十、原始文件
 
-### 原始PDF
+### Drive论文PDF
+
+- **id**：1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp
+- **webViewLink**：https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk
+
+来源：[1](https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk)（采集 2026-11-07）。
+
+### 原始论文PDF
 
 https://arxiv.org/pdf/1907.10641
 
 来源：[1](https://arxiv.org/abs/1907.10641)（采集 2026-11-07）。
 
-### SHA256
+### SHA256校验值
 
 780b26e4c9dd38c61f2f9e7b99a3e3dfec94fd19bb13bc06338770ca3733e67a
 
@@ -432,48 +410,37 @@ https://arxiv.org/pdf/1907.10641
 
 来源：[1](https://arxiv.org/pdf/1907.10641)（采集 2026-11-07）。
 
-### Drive资料夹
+### Drive文件夹
 
-{
-  "id": "1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4",
-  "webViewLink": "https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4"
-}
+- **id**：1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4
+- **webViewLink**：https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4
 
 来源：[1](https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4)（采集 2026-11-07）。
 
-### 中文文档与本地稿
+### 其他文档
 
-{
-  "chinese_intro_doc": {
-    "id": "1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg",
-    "webViewLink": "https://docs.google.com/document/d/1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg/edit?usp=drivesdk",
-    "mimeType": "application/vnd.google-apps.document"
-  },
-  "local_markdown": "content/benchmarks/winogrande.md"
-}
+- **chinese_intro_doc**：
+  - **id**：1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg
+  - **webViewLink**：https://docs.google.com/document/d/1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg/edit?usp=drivesdk
+  - **mimeType**：application/vnd.google-apps.document
+- **local_markdown**：content/benchmarks/winogrande.md
 
 来源：[1](https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4)（采集 2026-11-07）。
-
-### drive_pdf
-
-{
-  "id": "1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp",
-  "webViewLink": "https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk"
-}
-
-来源：[1](https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk)（采集 2026-11-07）。
 
 ## 十一、变更记录
 
-### changelog
-
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  }
-]
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 
+  - **日期**：2026-11-07
+  - **时区**：Asia/Seoul
+  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **本轮更新字段**：
+    - basic_info.version
+    - latest_status.latest_dataset_version
+    - evaluation.official_scripts
+    - data_format.public_hidden_split
 
 来源：[1](http://winogrande.allenai.org)（采集 2026-11-07）。
-

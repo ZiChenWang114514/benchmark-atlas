@@ -391,12 +391,8 @@
       ]
     },
     "public_hidden_split": {
-      "value": "testmini 1,000例用于开发/快速评测；test 5,141例，官网说明test答案不公开。",
+      "value": "testmini 1,000例供开发/验证；test 5,141例用于标准评测，官方明确不会公开test答案标签。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2310.02255",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
           "accessed": "2026-11-07"
@@ -565,19 +561,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "2026-07-27官方README新增社区维护的EvalScope集成；默认testmini/0-shot，以数学解析及numeric equivalence评分，尚无同预测分数一致性报告，不能认作官方评分器等价替代。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2310.02255",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mathvista.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -720,19 +710,13 @@
       ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://twitter.com/lupantech/status/1717313355780964608（官方README列出的反馈入口；未读取社交平台内容）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2310.02255",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mathvista.github.io/",
+          "url": "https://raw.githubusercontent.com/lupantech/MathVista/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -823,6 +807,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

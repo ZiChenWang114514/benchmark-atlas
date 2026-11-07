@@ -74,10 +74,10 @@
       ]
     },
     "license": {
-      "value": "Apache-2.0（仓库标示；第三方依赖与数据项另核适用条件）",
+      "value": "Apache-2.0（官方HF数据集卡及代码仓库）；第三方资产仍须另核授权。",
       "sources": [
         {
-          "url": "https://github.com/bytedance/FullStackBench",
+          "url": "https://huggingface.co/datasets/ByteDance/FullStackBench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -309,19 +309,21 @@
   },
   "data_format": {
     "size": {
-      "value": "3,374 个问题、16 种编程语言、15,168 个单元测试（论文口径）。",
+      "value": "HF数据集卡：en/test 1,687行，zh/test 1,687行；合计3,374语言配置行，不能据此宣称3,374道独立原题。原条目论文口径3,374问题/15,168测试，独立题量定义待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00535",
+          "url": "https://huggingface.co/datasets/ByteDance/FullStackBench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "保留原论文口径作为待复核冲突，不以语言行数冒充独立问题数。",
+      "status": "待核实"
     },
     "question_types": {
-      "value": "按自然语言规格生成可执行代码。",
+      "value": "代码生成；记录包括content、canonical_solution、id、labels，以及test.asset/test.code；labels含category、difficulty、programming_language、execution_language、fewshot、is_lctx、locale。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00535",
+          "url": "https://huggingface.co/datasets/ByteDance/FullStackBench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -339,10 +341,10 @@
       ]
     },
     "languages": {
-      "value": "16 种编程语言；不能把语言数当成人类语言数。",
+      "value": "自然语言配置为en和zh；编程语言覆盖16种（官方README）。两种语言配置行数不可当作互不重叠的原题数。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00535",
+          "url": "https://huggingface.co/datasets/ByteDance/FullStackBench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -358,10 +360,10 @@
       "status": "待核实"
     },
     "public_hidden_split": {
-      "value": "官方仓库及 Hugging Face 提供公开数据；未核实另有隐藏官方测试集。",
+      "value": "官方HF卡公开en、zh两个配置，各自只有test划分，各1,687行；含canonical_solution和test字段，不是隐藏答案服务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00535",
+          "url": "https://huggingface.co/datasets/ByteDance/FullStackBench/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -408,10 +410,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/bytedance/FullStackBench",
+      "value": "https://github.com/bytedance/FullStackBench；使用SandboxFusion服务及src/main.py，README示例镜像固定server-20241204。",
       "sources": [
         {
-          "url": "https://github.com/bytedance/FullStackBench",
+          "url": "https://raw.githubusercontent.com/bytedance/FullStackBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -701,6 +703,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

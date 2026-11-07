@@ -1,7 +1,7 @@
 {
   "id": "c-eval",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "C-Eval",
@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码 MIT；数据集 CC BY-NC-SA 4.0，二者不可混用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.08322",
+          "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2305.08322",
@@ -174,15 +172,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 hkust-nlp；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.08322",
+          "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "论文致谢中列出 National Key R&D Program of China 2020AAA0106502、清华大学 Guo Qiang Institute 等作者资助。",
@@ -263,10 +259,10 @@
   },
   "data_format": {
     "size": {
-      "value": "13,948 道题，52 个学科，4 个难度层级。",
+      "value": "共13,948题，52学科，四种难度；验证集1,346题，每科5道开发示例。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.08322",
+          "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
       ]
@@ -308,10 +304,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "dev 260、val 1,346、test 12,342；测试标签不公开，需官方评测。",
+      "value": "每科 dev 5题、val 用于调参、test 用于评测。README 新闻称2025-07-27完整测试集已公开，但旧 Data 段仍说test标签不公开；存在文档时效冲突，不能继续一概称隐藏测试。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.08322",
+          "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
       ]
@@ -328,10 +324,10 @@
       ]
     },
     "scoring": {
-      "value": "答案选项匹配；测试集通过官方入口评分。",
+      "value": "通常从生成内容提取 A/B/C/D；不遵循格式时可比较四选项概率。概率法不适用于CoT；零样本、五样本和CoT分开记录。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2305.08322",
+          "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
       ]
@@ -376,15 +372,13 @@
       "note": "2026-H2实际使用证据：2026-10-08：Jev 对比研究的表1–2和§3.1实际使用 C-Eval，将其纳入13个多选基准的模型评测。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "官方 README 新闻记录：2025-07-27完整测试集向社区发布。",
       "sources": [
         {
           "url": "https://github.com/hkust-nlp/ceval",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -625,6 +619,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -634,6 +633,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2305.08322",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/hkust-nlp/ceval",
         "accessed": "2026-11-07"
       }
     ]

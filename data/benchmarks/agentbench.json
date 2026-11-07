@@ -1,7 +1,7 @@
 {
   "id": "agentbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "AgentBench",
@@ -23,14 +23,13 @@
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
     },
     "version": {
-      "value": "原始8环境协议；当前仓库版本待核实",
+      "value": "当前仓库为AgentBench FC（2025-10-10发布，5个函数调用环境）；原始8环境仍在v0.1/v0.2分支。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v3",
@@ -101,15 +100,14 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/THUDM/AgentBench/tree/main/data",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "官方仓库数据目录；KG另需Freebase，不能将目录视为包含所有第三方环境依赖的一键数据包。"
     },
     "official_homepage": {
       "value": "https://github.com/THUDM/AgentBench",
@@ -148,7 +146,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "authors": {
@@ -280,10 +278,10 @@
       ]
     },
     "question_types": {
-      "value": "多轮文本交互与环境行动，包含SQL、shell、游戏、家务与网页。",
+      "value": "原始版8环境包括OS、DB、KG、DCG、LTP、ALFWorld、WebShop、Mind2Web；当前FC版支持alfworld/dbbench/knowledgegraph/os_interaction/webshop共5环境，函数调用提示并支持Docker Compose。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -367,10 +365,14 @@
       ]
     },
     "comparability_warning": {
-      "value": "综合OA与环境百分比不能直接比较；不同环境集、上下文截断和框架会改变结果。",
+      "value": "FC版五环境pass@1均值，与原始八环境Overall归一化分是不同协议；不能将70.4%与4.01直接比较。需固定分支、容器与Prompt/Function Calling模式。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07"
         }
       ]
@@ -388,27 +390,31 @@
     },
     "latest_dataset_version": {
       "value": {
-        "version": "原始8环境协议；当前仓库版本待核实",
+        "version": "AgentBench FC（2025-10-10），当前main；原始8环境v0.1/v0.2独立保留",
         "evidence_2026_h2": [
           {
             "url": "https://arxiv.org/html/2609.19134v1",
-            "date": "2026-09-16",
-            "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+            "date": "2026-09-17",
+            "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
+            "date_kst": "2026-09-17T02:55:47+09:00",
+            "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
           }
         ]
       },
       "sources": [
         {
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2609.19134v1",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://arxiv.org/abs/2609.19134",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。",
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Xiao Liu [ view email ] [v1] 2023-08-08 01:08:11 KST (20,331 KB) [v2] 2023-10-25 16:41:24 KST (20,908 KB) [v3] 2025-10-04 12:54:18 KST (20,753 KB)",
@@ -420,15 +426,13 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前FC榜单最高五环境AVG pass@1为70.4%；ALFWorld与OS等环境差距明显，不能仅用一个均值称原始八环境或全部Agent能力已饱和。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "contamination_and_issues": {
       "value": "异质环境与指标聚合可能掩盖不同短板；公开任务污染与上下文/工具失败须和推理能力分开。",
@@ -440,15 +444,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "AgentBench FC（5环境函数调用、AgentRL/Docker集成）；VisualAgentBench（2024-08-13，视觉Agent的5个独立环境），不与原始8环境合并排名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     }
   },
   "leaderboard": {
@@ -462,10 +464,14 @@
       ]
     },
     "official_url": {
-      "value": "https://github.com/THUDM/AgentBench",
+      "value": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pubhtml",
       "sources": [
         {
-          "url": "https://github.com/THUDM/AgentBench",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07"
         }
       ]
@@ -478,11 +484,47 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
       "value": [
+        {
+          "model": "AgentRL w/ Qwen2.5-32B-Instruct",
+          "score": 70.4,
+          "unit": "%",
+          "metric": "success rate pass@1，五环境均值",
+          "scope": "AgentBench FC，5环境test；AVG pass@1",
+          "date": "2025-10",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "provenance": "官方当前FC表，非原始八环境论文分数。",
+          "leaderboard_updated_at": "2025-11-18"
+        },
+        {
+          "model": "AgentRL w/ Qwen2.5-14B-Instruct",
+          "score": 67.7,
+          "unit": "%",
+          "metric": "success rate pass@1，五环境均值",
+          "scope": "AgentBench FC，5环境test；AVG pass@1",
+          "date": "2025-10",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "provenance": "官方当前FC表，非原始八环境论文分数。",
+          "leaderboard_updated_at": "2025-11-18"
+        },
+        {
+          "model": "AgentRL w/ GLM-4-9B-0414",
+          "score": 65.0,
+          "unit": "%",
+          "metric": "success rate pass@1，五环境均值",
+          "scope": "AgentBench FC，5环境test；AVG pass@1",
+          "date": "2025-10",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "provenance": "官方当前FC表，非原始八环境论文分数。",
+          "leaderboard_updated_at": "2025-11-18"
+        },
         {
           "model": "GPT-4-0613",
           "score": 4.01,
@@ -513,16 +555,28 @@
       ],
       "sources": [
         {
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "原论文Table3结果为历史基线（精确API快照仅在源文有明示时保留），不是当前排行榜；H2 ScienceIDE仅相关工作引用。",
+      "value": "本轮读取官方FC榜单CSV；公开Sheet标题标updated 2025-11-18，当前前三AVG为70.4/67.7/65.0，Release Date均10/2025。采集日在2026不意味着重新评测；原始8环境基线另列，禁止混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pubhtml",
           "accessed": "2026-11-07"
         }
       ]
@@ -531,15 +585,16 @@
   "contact": {
     "public_emails": {
       "value": [
-        "yuxiaod@tsinghua.edu.cn",
-        "jietang@tsinghua.edu.cn"
+        "agentbench_fc@googlegroups.com",
+        "agentbench@googlegroups.com"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://raw.githubusercontent.com/THUDM/AgentBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "FC版结果提交联系前者；仓库原始Google Group入口为后者。"
     },
     "github_issues": {
       "value": "https://github.com/THUDM/AgentBench/issues",
@@ -552,15 +607,14 @@
       "note": "公开仓库反馈入口；未发送问题。"
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://twitter.com/thukeg",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.03688",
+          "url": "https://github.com/THUDM/AgentBench",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "官方仓库展示的团队账号链接；本轮未访问X内容。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -570,7 +624,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -656,6 +710,12 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "纠正当前main已为五环境AgentBench FC，原版八环境留在旧分支；补FC榜单前三和联系；重核H2引用。"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "longbench-v2",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
   "basic_info": {
     "name": {
       "value": "LongBench v2",
@@ -22,10 +22,10 @@
       ]
     },
     "version": {
-      "value": "v2",
+      "value": "LongBench v2（与旧版LongBench v1区分）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://github.com/THUDM/LongBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -40,14 +40,14 @@
       ]
     },
     "release_date": {
-      "value": "2024-12-19",
+      "value": "2024-12-20",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://github.com/THUDM/LongBench",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      "note": "官方README发布公告日期；与论文首发日期区分。"
     },
     "section": {
       "value": "语言",
@@ -71,15 +71,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（官方数据集卡声明）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://huggingface.co/datasets/THUDM/LongBench-v2",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2412.15204",
@@ -171,15 +169,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方公开代码托管于 THUDM；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://github.com/THUDM/LongBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -309,10 +305,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "公开测试题及答案，不能把不同长度段看作同难度随机分组。",
+      "value": "官方HF以 split=train 加载503道评测题，答案公开；这里的train是文件划分名，不代表适合用于训练。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://github.com/THUDM/LongBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -338,10 +334,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "原论文 0-shot / 0-shot CoT；temperature 0.1，直接回答上限 128 token、CoT 1024 token；过长输入中间截断。官网后续模型另有预算说明。",
+      "value": "分别记录直接回答、--cot、--no_context与--rag N；上下文长度和模型config必须一致。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
+          "url": "https://github.com/THUDM/LongBench",
           "accessed": "2026-11-07"
         }
       ]
@@ -447,7 +443,7 @@
       "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
     },
     "official_url": {
-      "value": "https://longbench2.github.io/",
+      "value": "https://longbench2.github.io/#leaderboard",
       "sources": [
         {
           "url": "https://longbench2.github.io/",
@@ -470,30 +466,33 @@
       "value": [
         {
           "model": "Gemini-2.5-Pro",
-          "model_date": "2025-03-25（官网Date列）",
           "score": 63.3,
           "unit": "%",
-          "metric": "overall accuracy w/CoT",
-          "scope": "官方静态榜，1M上下文",
-          "snapshot_date": "2026-11-07"
+          "metric": "Overall accuracy w/ CoT",
+          "model_date": "2025-03-25",
+          "leaderboard_updated_at": "2025-05-06（网页页脚原文，与部分行日期冲突）",
+          "snapshot_date": "2026-11-07",
+          "scope": "当前可读官方网页默认CoT排序前三行；不是推断2026新模型结果"
         },
         {
           "model": "Gemini-2.5-Flash",
-          "model_date": "2025-04-17（官网Date列）",
           "score": 62.1,
           "unit": "%",
-          "metric": "overall accuracy w/CoT",
-          "scope": "官方静态榜，1M上下文",
-          "snapshot_date": "2026-11-07"
+          "metric": "Overall accuracy w/ CoT",
+          "model_date": "2025-04-17",
+          "leaderboard_updated_at": "2025-05-06（网页页脚原文，与部分行日期冲突）",
+          "snapshot_date": "2026-11-07",
+          "scope": "当前可读官方网页默认CoT排序前三行；不是推断2026新模型结果"
         },
         {
           "model": "Qwen3-235B-A22B-Thinking-2507",
-          "model_date": "2025-07-25（官网Date列）",
           "score": 60.6,
           "unit": "%",
-          "metric": "overall accuracy w/CoT",
-          "scope": "官方静态榜，256k上下文",
-          "snapshot_date": "2026-11-07"
+          "metric": "Overall accuracy w/ CoT",
+          "model_date": "2025-07-25",
+          "leaderboard_updated_at": "2025-05-06（网页页脚原文，与部分行日期冲突）",
+          "snapshot_date": "2026-11-07",
+          "scope": "当前可读官方网页默认CoT排序前三行；不是推断2026新模型结果"
         }
       ],
       "sources": [
@@ -504,14 +503,10 @@
       ]
     },
     "coverage_note": {
-      "value": "官网采集日可读表前列如上；页面 Last Update 标为 2025-05-06，却包含 2025-07 行，更新标记不一致。分数是官网可读快照，不宣称覆盖2026所有新模型；H2厂商报告的同名分数不并入此榜。",
+      "value": "官方页脚Last Update为2025-05-06，但榜中有2025-07模型行，存在页面更新日期冲突，保留双方。表内Date不是已证实的测试运行时间；CoT和直接回答不得混排。",
       "sources": [
         {
           "url": "https://longbench2.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -634,6 +629,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
       }
     ],
     "sources": [
@@ -643,6 +643,10 @@
       },
       {
         "url": "https://arxiv.org/pdf/2412.15204",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/THUDM/LongBench",
         "accessed": "2026-11-07"
       }
     ]

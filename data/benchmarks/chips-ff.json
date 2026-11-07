@@ -1,7 +1,7 @@
 {
   "id": "chips-ff",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
   "basic_info": {
     "name": {
       "value": "CHIPS-FF",
@@ -72,15 +72,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "NIST Terms of Use：美国政府雇员作品在美国不受版权保护；境外按声明授予非独占免费使用/修改/分发许可，须保留通知及免责声明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/LICENSE.rst",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2412.10516",
@@ -95,7 +93,7 @@
       "value": "https://github.com/usnistgov/chipsff",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -171,15 +169,13 @@
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "CHIPS Metrology Program（CHIPS for America），美国商务部国家标准与技术研究院 NIST。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -269,10 +265,10 @@
       ]
     },
     "question_types": {
-      "value": "材料物性数值回归与仿真工作流；非LLM问答。",
+      "value": "从原子结构与 JSON 配置驱动弛豫、弹性常数、缺陷/表面/界面、声子、热性质与分子动力学；不是文本问答。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -333,10 +329,14 @@
       ]
     },
     "scoring": {
-      "value": "使用同一物性工作流与DFT参考差值；不能把网站泛称ACC当分类准确率。",
+      "value": "自动将 MLFF 模拟结果与 JARVIS-DFT 比较；具体指标需绑定性质任务页，不能只写一个全平台指标。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
           "accessed": "2026-11-07"
         }
       ]
@@ -395,33 +395,10 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_revision_history": {
-      "value": {
-        "2026_H2_evidence": [
-          {
-            "url": "https://arxiv.org/html/2609.19487v1",
-            "date": "2026-09-16",
-            "note": "ALIGNN 2.0 §2.3.3、表5实际在 CHIPS-FF 上评测缺陷、表面、界面及相关材料物性。"
-          }
-        ],
-        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
-        "paper_metadata": {
-          "title": "CHIPS-FF: Evaluating Universal Machine Learning Force Fields for Material Properties",
-          "authors": [
-            "Wines, Daniel",
-            "Choudhary, Kamal"
-          ],
-          "release": "2024-12-13",
-          "latest": "2025-03-19",
-          "version": "v4"
-        }
-      },
+      "value": "2026H2 使用证据：ALIGNN 2.0（2026-09-16）表5使用 CHIPS-FF 性质套件；采用自洽元素参照和统一弛豫协议，不应与不同协议的旧榜直接合并。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19487v1",
+          "url": "https://arxiv.org/abs/2609.19487",
           "accessed": "2026-11-07"
         }
       ]
@@ -475,10 +452,10 @@
       ]
     },
     "official_url": {
-      "value": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_vac_en/",
+      "value": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
       "sources": [
         {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_vac_en/",
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
           "accessed": "2026-11-07"
         }
       ]
@@ -495,35 +472,23 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "官网48点vacancy MAE(eV)快照：eqV2_31M_omat_mp_salex0.357、eqV2_86M_omat_mp_salex0.3619、mace-mpa0.4122。页面提交日期原样3-11-2025，格式歧义未擅转日期。H2 Table5另协议：UMA-S0.464eV/surface0.122Jm^-2，不能与官网48点混排。",
+      "value": "晶格常数 a（104材料）子任务：alignn_ff 0.0111；orb-v2 与 eqV2_31M_omat 均0.0154；eqV2_31M_omat_mp_salex 0.0161。官方表头标 ACC，描述却明确 MAE（Å），保留此冲突，暂按描述解释为越小越好。",
       "sources": [
         {
-          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_vac_en/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2609.19487v1",
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
+      "value": "2026-11-07 读取；每行提交日期原样为3-11-2025，日期格式未核实，不能当整体更新日。专题页称 Pearson，但该a子任务描述用MAE、表头ACC；三种标签冲突须官方澄清。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://pages.nist.gov/jarvis_leaderboard/Special/CHIPS_FF/",
           "accessed": "2026-11-07"
         }
       ]
@@ -537,7 +502,7 @@
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.10516",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -546,10 +511,11 @@
       "value": "https://github.com/usnistgov/chipsff/issues",
       "sources": [
         {
-          "url": "https://github.com/usnistgov/chipsff",
+          "url": "https://raw.githubusercontent.com/usnistgov/chipsff/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方公开仓库的问题反馈入口；未发送消息。"
     },
     "official_social": {
       "value": "待核实",
@@ -648,6 +614,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
       }
     ],
     "sources": [

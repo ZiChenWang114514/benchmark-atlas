@@ -101,15 +101,14 @@
       "note": "论文链接openai/preparedness；本次GitHub元数据请求跳转至openai/frontier-evals。仓库根代码许可不自动等同每篇论文及rubric许可。"
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/openai/frontier-evals/tree/main/project/paperbench/data",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.01848",
+          "url": "https://raw.githubusercontent.com/openai/frontier-evals/main/project/paperbench/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "官方README说明数据由Git-LFS分发；JudgeEval部分材料不可自动再分发。"
     },
     "official_homepage": {
       "value": "https://openai.com/index/paperbench/",
@@ -262,10 +261,10 @@
   },
   "data_format": {
     "size": {
-      "value": "20篇正式论文、8,316个评分叶节点；叶节点不是8,316个独立论文复现任务。",
+      "value": "20篇ICML 2024 Spotlight/Oral论文，共8,316项可独立评分的rubric子任务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.01848",
+          "url": "https://openai.com/index/paperbench/",
           "accessed": "2026-11-07"
         }
       ]
@@ -331,10 +330,10 @@
       ]
     },
     "scoring": {
-      "value": "先在fresh VM运行reproduce.sh，裁判据执行结果与代码核验；Code-Dev跳过运行，不能替代完整Replication。",
+      "value": "三阶段：agent在容器编写代码；独立带GPU容器复现执行；第三容器按论文rubric评分。Code-Dev跳过复现，只评代码开发要求，不可与完整PaperBench分数直比。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.01848",
+          "url": "https://raw.githubusercontent.com/openai/frontier-evals/main/project/paperbench/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -421,10 +420,14 @@
       "status": "待核实"
     },
     "contamination_and_issues": {
-      "value": "自动裁判不完美且非确定；原论文JudgeEval F1约0.83。公开论文/禁用仓库可能仍在预训练中；禁止检索不等于排除记忆。",
+      "value": "官网介绍最佳测试agent为Claude 3.5 Sonnet (New) 21.0%；README同时列出IterativeAgent o1-high 36h的26.0%与24h的24.4%。预算和脚手架不同，保留各自证据，不互相覆盖。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.01848",
+          "url": "https://raw.githubusercontent.com/openai/frontier-evals/main/project/paperbench/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://openai.com/index/paperbench/",
           "accessed": "2026-11-07"
         }
       ]
@@ -450,10 +453,10 @@
       ]
     },
     "official_url": {
-      "value": "https://openai.com/index/paperbench/",
+      "value": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
       "sources": [
         {
-          "url": "https://openai.com/index/paperbench/",
+          "url": "https://raw.githubusercontent.com/openai/frontier-evals/main/project/paperbench/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -472,52 +475,43 @@
     "results": {
       "value": [
         {
-          "model": "BasicAgent + Claude 3.5 Sonnet 20241022",
-          "score": 21,
-          "metric": "Replication Score (%)",
-          "benchmark_version": "20论文",
-          "result_type": "论文历史基线",
-          "source_date": "2025-04",
+          "model": "IterativeAgent o1-high",
+          "score": 26.0,
+          "metric": "PaperBench replication score (%)",
+          "runs": 3,
+          "source_date": "2025-04-02",
           "collected_at": "2026-11-07 KST",
-          "uncertainty": "±0.8百分点"
+          "result_type": "官方README历史结果（非2026新实验）",
+          "settings": "36h limit；±0.3"
         },
         {
-          "model": "BasicAgent + o1-2024-12-17 high",
-          "score": 13.2,
-          "metric": "Replication Score (%)",
-          "benchmark_version": "20论文",
-          "result_type": "论文历史基线",
-          "source_date": "2025-04",
-          "collected_at": "2026-11-07 KST",
-          "uncertainty": "±0.3百分点"
-        },
-        {
-          "model": "IterativeAgent + o1-2024-12-17 high",
+          "model": "IterativeAgent o1-high",
           "score": 24.4,
-          "metric": "Replication Score (%)",
-          "benchmark_version": "20论文/12小时",
-          "result_type": "论文历史基线",
-          "source_date": "2025-04",
+          "metric": "PaperBench replication score (%)",
+          "runs": 3,
+          "source_date": "2025-04-02",
           "collected_at": "2026-11-07 KST",
-          "uncertainty": "±0.7百分点"
+          "result_type": "官方README历史结果（非2026新实验）",
+          "settings": "24h limit；±0.7"
         },
         {
-          "model": "IterativeAgent + o1-2024-12-17 high",
-          "score": 26,
-          "metric": "Replication Score (%)",
-          "benchmark_version": "20论文/36小时",
-          "result_type": "论文历史基线",
-          "source_date": "2025-04",
+          "model": "BasicAgent claude-3.5-sonnet",
+          "score": 21.0,
+          "metric": "PaperBench replication score (%)",
+          "runs": 3,
+          "source_date": "2025-04-02",
           "collected_at": "2026-11-07 KST",
-          "uncertainty": "±0.3百分点"
+          "result_type": "官方README历史结果（非2026新实验）",
+          "settings": "BasicAgent；±0.8"
         }
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2504.01848",
+          "url": "https://raw.githubusercontent.com/openai/frontier-evals/main/project/paperbench/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方当前可读榜表的前三行；不同预算/脚手架不作同条件排名。官网介绍最佳21.0%对应当时测得的BasicAgent，不否认README后续列出的26.0%。"
     },
     "coverage_note": {
       "value": "所有结果为原论文设置的历史实验，不冒称2026当前SOTA；H2 ScienceIDE引用PaperBench作科学研究复现先行基准，没有在其上实跑。",
@@ -655,6 +649,11 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "数据卡YAML声明CC-BY-SA-4.0，但正文Licensing Information仍为More Information Needed；本轮以发布卡头部标记为准并保留不一致说明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1803.05457",
+          "url": "https://huggingface.co/datasets/allenai/ai2_arc/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/1803.05457",
@@ -267,10 +265,10 @@
   },
   "data_format": {
     "size": {
-      "value": "Challenge 2590题：训练1119、开发299、测试1172；整个ARC为7787题，不能当Challenge题量。",
+      "value": "ARC-Challenge：train 1119、validation 299、test 1172，共2590题；不得用全ARC的7787题或ARC-Easy混替。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1803.05457",
+          "url": "https://huggingface.co/datasets/allenai/ai2_arc/raw/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -350,14 +348,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/allenai/arc-solvers",
+      "value": "官方arc-solvers提供scripts/evaluate_solver.sh与scripts/evaluate_bidaf.sh；为历史检索/蕴含/阅读理解基线，不是现代LLM统一提示协议。",
       "sources": [
         {
-          "url": "https://github.com/allenai/arc-solvers",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1803.05457",
+          "url": "https://raw.githubusercontent.com/allenai/arc-solvers/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -682,6 +676,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "data_format.size",
+          "evaluation.official_scripts"
+        ]
       }
     ],
     "sources": [

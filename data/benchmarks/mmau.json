@@ -1,7 +1,7 @@
 {
   "id": "mmau",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "MMAU",
@@ -172,19 +172,16 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "University of Maryland, College Park",
+        "Adobe"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2410.19168",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sakshi113.github.io/mmau_homepage/",
+          "url": "https://arxiv.org/pdf/2410.19168",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -206,10 +203,10 @@
       ]
     },
     "maintainer": {
-      "value": "Sakshi113 官方仓库团队（当前具体个人职责待核实）",
+      "value": "MMAU作者团队；官方README列S Sakshi、Sonal Kumar与Sreyan Ghosh为联系方，test评测自2026-01-30迁至sonalkum/MMAU-Eval。",
       "sources": [
         {
-          "url": "https://github.com/Sakshi113/MMAU",
+          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -227,7 +224,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "design_goals": {
@@ -295,14 +292,14 @@
       ]
     },
     "quality_control": {
-      "value": "不同专家团队剔除歧义、过度复杂及音质差的问答；2025年版本更新进一步修订问题答案和部分音频。",
+      "value": "v05.15.25按社区反馈修订约25%问答、改善约5%音频；原论文C.3要求音频不损坏、英语问句、task/difficulty/dataset标签、仅保留MCQ。版权指南要求排除禁止复制和再分发的网站素材。",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2410.19168",
+          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
+          "url": "https://arxiv.org/pdf/2410.19168",
           "accessed": "2026-11-07"
         }
       ]
@@ -358,17 +355,18 @@
       ]
     },
     "languages": {
-      "value": "英文问题；源音频可能包含其他语言，具体分布待核实",
+      "value": {
+        "question_language": "English（原论文Appendix C.3要求所有问题使用英语）",
+        "audio_language_distribution": "待核实"
+      },
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/gamma-lab-umd/MMAU-test-mini",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
+          "url": "https://arxiv.org/pdf/2410.19168",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "严格区分问句语言和源音频语言，不用英语问题推断所有音频为英语。",
+      "status": "待核实"
     },
     "difficulty": {
       "value": "原论文Easy:Medium:Hard = 22%:56%:22%；不能默认代表v05.15.25修订后的精确分布。",
@@ -384,12 +382,8 @@
       ]
     },
     "public_hidden_split": {
-      "value": "test-mini公开答案；9,000题test不公开答案和解释，提交HF评测空间。",
+      "value": "10,000题：test-mini 1,000题公开答案；test 9,000题公开问题而保留答案与解释，通过官方HF Space提交预测评测。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2410.19168",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
@@ -466,7 +460,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://sakshi113.github.io/mmau_homepage/",
@@ -495,7 +489,9 @@
           {
             "url": "https://arxiv.org/html/2609.28879v1",
             "date": "2026-09-24",
-            "note": "Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。"
+            "note": "Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。",
+            "date_kst": "2026-09-24T09:58:42+09:00",
+            "verified_in_round1": "本轮重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -508,23 +504,25 @@
         {
           "url": "https://arxiv.org/html/2609.28879v1",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.28879",
+          "accessed": "2026-11-07"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "v05.15.25完整test当前官方parsed文件最高Avg 75.98%，低于满分；不能拿test-mini、旧版本或选择题排列平均结果混合推断饱和。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2410.19168",
+          "url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://sakshi113.github.io/mmau_homepage/",
+          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "新版v05.15.25与旧榜单不可混用；README/主页称12提取+15推理任务，但arXiv v1正文为11提取+16推理，合计均27，细分待核实。",
@@ -580,7 +578,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -590,33 +588,45 @@
           "score": 75.98,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "MMAU-v05.15.25 test，Avg；不混用test-mini",
+          "scope": "MMAU-v05.15.25 test 9,000；Avg；官方parsed文件",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
-          "provenance": "官方parsed结果文件，非community unverified文件；官方未提供模型报告日期，不推测"
+          "provenance": "本轮重新读取官方parsed结果JSON，不含community/unverified条目；单模型日期与榜单更新日期未提供。",
+          "leaderboard_updated_at": "待核实",
+          "sound": 78.8,
+          "music": 73.8,
+          "speech": 75.16
         },
         {
-          "model": "Nova 2 Omni -",
+          "model": "Nova 2 Omni",
           "score": 75.28,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "MMAU-v05.15.25 test，Avg；不混用test-mini",
+          "scope": "MMAU-v05.15.25 test 9,000；Avg；官方parsed文件",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
-          "provenance": "官方parsed结果文件，非community unverified文件；官方未提供模型报告日期，不推测"
+          "provenance": "本轮重新读取官方parsed结果JSON，不含community/unverified条目；单模型日期与榜单更新日期未提供。",
+          "leaderboard_updated_at": "待核实",
+          "sound": 77.87,
+          "music": 66.37,
+          "speech": 81.82
         },
         {
-          "model": "Step-Audio-2 -",
+          "model": "Step-Audio-2",
           "score": 73.86,
           "unit": "%",
           "metric": "accuracy",
-          "scope": "MMAU-v05.15.25 test，Avg；不混用test-mini",
+          "scope": "MMAU-v05.15.25 test 9,000；Avg；官方parsed文件",
           "date": "待核实",
-          "accessed": "2026-11-07",
+          "accessed": "2026-11-07 KST",
           "source_url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
-          "provenance": "官方parsed结果文件，非community unverified文件；官方未提供模型报告日期，不推测"
+          "provenance": "本轮重新读取官方parsed结果JSON，不含community/unverified条目；单模型日期与榜单更新日期未提供。",
+          "leaderboard_updated_at": "待核实",
+          "sound": 80.6,
+          "music": 68.23,
+          "speech": 72.75
         },
         {
           "model": "Qwen2.5-Omni-7B",
@@ -653,18 +663,14 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "2026-11-07 KST本轮重新读取官方v15 parsed JSON：Audio-Thinker 75.98、Nova 2 Omni 75.28、Step-Audio-2 73.86（9,000题test，非mini）。单行提交日期和榜单统一更新日未提供，继续待核实。",
       "sources": [
         {
-          "url": "https://sakshi113.github.io/mmau_homepage/",
+          "url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2609.28879v1",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
+          "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -682,8 +688,7 @@
           "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/Sakshi113/MMAU/issues",
@@ -707,7 +712,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -798,6 +803,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "补机构、维护、英语问句与音频语言的区分、隐藏test协议；重读官方parsed榜单并重核H2。"
       }
     ],
     "sources": [

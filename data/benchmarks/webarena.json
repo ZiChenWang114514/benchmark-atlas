@@ -1,7 +1,7 @@
 {
   "id": "webarena",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "WebArena",
@@ -23,10 +23,10 @@
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
     },
     "version": {
-      "value": "原始812任务协议；不同WebArena衍生独立注明",
+      "value": "canonical WebArena v0.2.0（2023-10-24注释修复后的812任务协议）；AgentLab/BrowserGym属于推荐运行框架。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -138,15 +138,17 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "Carnegie Mellon University",
+        "Inspired Cognition"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://webarena.dev/og/",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "依论文项目页作者署名机构；与环境中模仿的网站品牌无合作推断。"
     },
     "authors": {
       "value": [
@@ -171,10 +173,10 @@
       ]
     },
     "maintainer": {
-      "value": "WebArena / web-arena-x 项目团队",
+      "value": "web-arena-x / WebArena团队维护canonical复现仓库；2024-12-05官方建议新实验使用AgentLab/BrowserGym以改善并行运行、边界处理与统一报告。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -238,10 +240,14 @@
       ]
     },
     "quality_control": {
-      "value": "Docker可复现环境，程序化网站终态检查；信息查询支持exact/must-include/fuzzy比较。",
+      "value": "2023-10-24重新检查全部数据集并修复发现的标注错误；官方将v0.2.0称为相对稳定版本。每个测试任务以程序核查目标信息或网站状态。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://webarena.dev/og/",
           "accessed": "2026-11-07"
         }
       ]
@@ -336,10 +342,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "原论文2-shot，温度1、top-p0.9、最多30步；可达性提示变体须另列。",
+      "value": "canonical README示例使用accessibility tree、p_cot_id_actree_2s.json两例CoT提示；评测须自部署网站而非演示站，跑完812例后重置环境。模型、最大步数和是否提供not-achievable hint需逐结果固定。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -375,26 +381,40 @@
     },
     "latest_dataset_version": {
       "value": {
-        "version": "原始812任务协议；不同WebArena衍生独立注明",
+        "version": "canonical v0.2.0，812任务；2023-10-24完成全数据复查与标注修复；2024-12-05推荐AgentLab",
         "evidence_2026_h2": [
           {
             "url": "https://arxiv.org/html/2609.19134v1",
-            "date": "2026-09-16",
-            "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+            "date": "2026-09-17",
+            "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
+            "date_kst": "2026-09-17T02:55:47+09:00",
+            "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+            "date": "2026-09",
+            "note": "官方维护Sheet主榜收录Narada AI Code 86.1，时间列09/2026；是当期榜单收录的参评者成绩，不推断独立复跑。"
           }
         ]
       },
       "sources": [
         {
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/html/2609.19134v1",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://arxiv.org/abs/2609.19134",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+      ]
     },
     "paper_revision_history": {
       "value": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 KST (9,497 KB) [v2] 2023-10-24 12:19:22 KST (8,751 KB) [v3] 2023-10-25 10:56:14 KST (8,751 KB) [v4] 2024-04-17 00:13:18 KST (9,472 KB)",
@@ -406,15 +426,13 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方Sheet最高汇总结果86.1%，不等同于统一协议独立评测；原始人类78.24%只在按模板选择的任务上，不应与全量系统结果直接比较。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      ]
     },
     "contamination_and_issues": {
       "value": "固定模板、公开测试和使用LLM模糊裁判会影响泛化解释；网站环境版本需要固定。",
@@ -446,10 +464,14 @@
       ]
     },
     "official_url": {
-      "value": "https://webarena.dev/og/",
+      "value": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/edit",
       "sources": [
         {
           "url": "https://webarena.dev/og/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
           "accessed": "2026-11-07"
         }
       ]
@@ -462,11 +484,50 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
       "value": [
+        {
+          "model": "Narada AI Code",
+          "score": 86.1,
+          "unit": "%",
+          "metric": "task success (%)",
+          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
+          "date": "09/2026",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "provenance": "官方汇总参评者报告；非独立统一复跑。",
+          "leaderboard_updated_at": "待核实",
+          "result_source": "Narada AI Code"
+        },
+        {
+          "model": "Deepseek v3.2",
+          "score": 74.3,
+          "unit": "%",
+          "metric": "task success (%)",
+          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
+          "date": "02/2026",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "provenance": "官方汇总参评者报告；非独立统一复跑。",
+          "leaderboard_updated_at": "待核实",
+          "result_source": "WebTactix"
+        },
+        {
+          "model": "OpAgent",
+          "score": 71.6,
+          "unit": "%",
+          "metric": "task success (%)",
+          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
+          "date": "01/2026",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "provenance": "官方汇总参评者报告；非独立统一复跑。",
+          "leaderboard_updated_at": "待核实",
+          "result_source": "OpAgent"
+        },
         {
           "model": "GPT-4-0613 + CoT",
           "score": 14.41,
@@ -480,14 +541,22 @@
       ],
       "sources": [
         {
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://arxiv.org/abs/2307.13854",
           "accessed": "2026-11-07"
         }
       ]
     },
     "coverage_note": {
-      "value": "保留原论文无不可达提示的历史基线；有提示11.70%是另一设置，不当作同榜更新。当前网站已出现WebArena-x内容，原始协议用/og/归档核验；H2证据是ScienceIDE引用而非实跑。",
+      "value": "本轮从原始项目页Leaderboard链接读取公开Sheet，当前主榜前三Narada AI Code 86.1（09/2026）、Deepseek v3.2 74.3（02/2026，WebTactix）、OpAgent 71.6（01/2026）。日期是表中月份，不擅补日；整体榜单更新日待核实。不同系统、训练数据、harness与可达性提示不统一，部分结果自报。论文历史GPT-4+CoT 14.41与Sheet gpt-4-0613 14.9未完全一致，保留双方来源，不将其视为相同复测。",
       "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2307.13854",
           "accessed": "2026-11-07"
@@ -527,7 +596,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "privacy_policy": {
@@ -538,7 +607,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -624,6 +693,12 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "补v0.2.0/AgentLab运行口径，重读官方Sheet当前前三和H2收录；并列论文14.41与Sheet14.9历史差异。"
       }
     ],
     "sources": [

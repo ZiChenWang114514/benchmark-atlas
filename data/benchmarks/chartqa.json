@@ -1,7 +1,7 @@
 {
   "id": "chartqa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "ChartQA",
@@ -30,15 +30,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "官方Full Version（含annotations）；另保留不含annotations的First Version。README未采用可核实的数字版本号。",
       "sources": [
         {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v1",
@@ -174,19 +172,18 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": [
+        "York University, Canada",
+        "Nanyang Technological University, Singapore",
+        "Salesforce Research"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.10244",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "论文作者署名机构，不推断额外商业合作关系。"
     },
     "authors": {
       "value": [
@@ -204,28 +201,23 @@
       ]
     },
     "maintainer": {
-      "value": "vis-nlp 官方仓库团队（当前具体个人职责待核实）",
+      "value": "vis-nlp / Ahmed Masry；官方仓库Contact由Ahmed Masry负责接收问题。",
       "sources": [
         {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Natural Sciences and Engineering Research Council (NSERC) of Canada。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.10244",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "论文Acknowledgement明确资助机构；未补造项目编号。"
     }
   },
   "design_goals": {
@@ -293,14 +285,14 @@
       ]
     },
     "quality_control": {
-      "value": "自动生成数据移除无效问答；SVG自动解析得到视觉标注；Pew缺SVG，另做人工标注和启发式处理。",
+      "value": "官方从SVG自动产生框标注；损坏、缺失或带噪的SVG会引入噪声。Pew图表没有SVG，需人工标注并用启发式加速；机器生成测试问答另经手工清理。",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2203.10244",
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         }
       ]
@@ -318,22 +310,32 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "data_format": {
     "size": {
-      "value": "论文：20,882图表、9,608人工问题、23,111生成问题。当前官方HF train 28,299、val 1,920、test 2,500行。",
+      "value": {
+        "total_qa": 32719,
+        "train_qa": 28299,
+        "validation_qa": 1920,
+        "test_qa": 2500,
+        "paper_human_qa": 9608,
+        "paper_machine_qa": 23111,
+        "paper_human_charts": 4804,
+        "paper_machine_charts": 17141
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2203.10244",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA",
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "论文Table2与官方HF splits一致；图表计数为两个来源集合口径，不将4804+17141冒充全库去重图表数。"
     },
     "question_types": {
       "value": "开放式数值或文本回答；条形图、折线图和饼图，附原始表格及部分框标注。",
@@ -375,19 +377,17 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": {
+        "proxy": "无统一easy/medium/hard标注；论文以任务类型和推理操作分析。",
+        "sample_analysis": "论文Table4随机300个人工问题：data retrieval 13.0%、visual 10.7%、compositional 43.0%、visual+compositional 33.3%。"
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2203.10244",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "这是论文抽样类型分布，不外推为完整32,719题的难度分布。"
     },
     "public_hidden_split": {
       "value": "官方数据含train/val/test；human与augmented子集独立文件，test共2,500问题。",
@@ -472,7 +472,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://github.com/vis-nlp/ChartQA",
@@ -481,19 +481,17 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "本轮核实官方Full Version（含图像框标注），HF train/val/test为28,299/1,920/2,500；官方后续ChartQAPro是独立基准，不替代原版数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2203.10244",
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://huggingface.co/datasets/ahmed-masry/ChartQA/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": {
@@ -506,8 +504,10 @@
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
-            "date": "2026-10-22",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            "date": "2026-10-23",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+            "date_kst": "2026-10-23T01:54:37+09:00",
+            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -519,6 +519,10 @@
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.01352",
           "accessed": "2026-11-07"
         }
       ]
@@ -536,7 +540,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "contamination_and_issues": {
       "value": "机器生成/人工子集分别报告；官方指出SVG缺失/损坏使框标注有噪声。MMVistaReason使用CompassVerifier，不等同于原始5%数值容差。",
@@ -592,21 +596,55 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
       "value": [
+        {
+          "model": "VisionTaPas",
+          "score": 45.52,
+          "unit": "%",
+          "metric": "原论文准确率（数值答案允许5%容差）",
+          "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
+          "date": "2022-05",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
+          "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"
+        },
+        {
+          "model": "VL-T5",
+          "score": 41.56,
+          "unit": "%",
+          "metric": "原论文准确率（数值答案允许5%容差）",
+          "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
+          "date": "2022-05",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
+          "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"
+        },
+        {
+          "model": "TaPas",
+          "score": 41.28,
+          "unit": "%",
+          "metric": "原论文准确率（数值答案允许5%容差）",
+          "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
+          "date": "2022-05",
+          "accessed": "2026-11-07 KST",
+          "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
+          "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。"
+        },
         {
           "model": "MMVistaReason-4B (MVR-4B)",
           "score": 86.2,
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "ChartQA",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -614,13 +652,18 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "ChartQA",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         }
       ],
       "sources": [
+        {
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
           "accessed": "2026-11-07"
@@ -628,22 +671,26 @@
       ]
     },
     "coverage_note": {
-      "value": "官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。",
+      "value": "本轮重新检查官方README、Full Version数据卡及AA评测目录，未核实持续更新的原版ChartQA独立榜单。以下新采集官方论文Table5历史基线（无gold table），与2026-H2作者复测分组；这些不是2026实时前三。当前官方排名仍待核实。",
       "sources": [
         {
-          "url": "https://github.com/vis-nlp/ChartQA",
+          "url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2610.01352v2",
+          "url": "https://aclanthology.org/2022.findings-acl.177.pdf",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations?skill=multimodal",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
         }
       ],
-      "note": "本批未核实官方当前排名，故只列明确注明来源的2026-H2研究复测，不把研究复测冒充官方榜单。"
+      "status": "待核实"
     }
   },
   "contact": {
@@ -657,7 +704,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。"
+      "note": "官方README明确旧邮箱masry20@yorku.ca已停用；当前联系不再推荐旧邮箱。"
     },
     "github_issues": {
       "value": "https://github.com/vis-nlp/ChartQA/issues",
@@ -766,6 +813,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "补Full/First版本区别、NSERC资助、机构、最新联系邮箱和题量/类型分布；采集官方论文历史基线，当前独立实时榜仍未核实；重核H2。"
       }
     ],
     "sources": [

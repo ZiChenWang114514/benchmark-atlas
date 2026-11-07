@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（llm-attacks仓库软件与文档；数据/第三方材料适用范围须按制品核查）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.15043",
+          "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2307.15043",
@@ -167,15 +165,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方代码与反馈由 llm-attacks/llm-attacks 仓库提供；个人持续维护职责及响应时限未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.15043",
+          "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "论文致谢列出 DARPA/AFRL FA8750-15-2-0277、Army MURI W911NF-21-1-0317、NSF CNS1943016 等支持。",
@@ -427,15 +423,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "官方2024-08-01公告发布nanoGCG作为更易用的GCG算法实现；这是攻击实现更新，不等于AdvBench数据新版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.15043",
+          "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -492,7 +486,8 @@
           "url": "https://arxiv.org/html/2609.18471v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
     }
   },
   "contact": {
@@ -511,10 +506,11 @@
       "value": "https://github.com/llm-attacks/llm-attacks/issues",
       "sources": [
         {
-          "url": "https://github.com/llm-attacks/llm-attacks",
+          "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "公开反馈入口；未发送问题。"
     },
     "official_social": {
       "value": "待核实",
@@ -612,6 +608,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

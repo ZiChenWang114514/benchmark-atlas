@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "HarmBench 1.0（README 2024-02-26公告）；不能据论文修订号推定新数据版本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.04249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
@@ -73,15 +71,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（官方仓库LICENSE，2024 centerforaisafety；模型权重及第三方材料须另核条款）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.04249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2402.04249",
@@ -173,15 +169,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方代码与反馈由 centerforaisafety/HarmBench 仓库提供；个人持续维护职责及响应时限未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.04249",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -349,10 +343,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/centerforaisafety/HarmBench",
+      "value": "官方scripts/run_pipeline.py及evaluation_pipeline文档；步骤依次为测试用例生成、可选合并、目标模型回答、回答分类。",
       "sources": [
         {
-          "url": "https://github.com/centerforaisafety/HarmBench",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -379,15 +373,26 @@
       "note": "2026-H2实际使用证据：2026-09-07：An Empirical Measurement of Jailbreaking Evaluators 实际比较 HarmBench 等越狱评估器的行为及可靠性。"
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": {
+        "version": "README最近明确标示HarmBench 1.0，2024-02-26",
+        "evidence_2026_h2": [
+          {
+            "url": "https://arxiv.org/html/2609.10594v1",
+            "date": "2026-09",
+            "note": "实际比较HarmBench专用分类器与其他越狱裁判，在两个人工标注集上评测。"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://github.com/centerforaisafety/HarmBench",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_revision_history": {
       "value": [
@@ -495,7 +500,8 @@
           "url": "https://arxiv.org/html/2609.10594v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
     }
   },
   "contact": {
@@ -514,10 +520,11 @@
       "value": "https://github.com/centerforaisafety/HarmBench/issues",
       "sources": [
         {
-          "url": "https://github.com/centerforaisafety/HarmBench",
+          "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "公开反馈入口；未发送问题。"
     },
     "official_social": {
       "value": "待核实",
@@ -615,6 +622,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

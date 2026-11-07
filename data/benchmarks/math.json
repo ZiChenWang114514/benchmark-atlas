@@ -266,7 +266,7 @@
   },
   "data_format": {
     "size": {
-      "value": "12500题：训练7500、测试5000；7个学科、5档难度。",
+      "value": "共12500道竞赛数学题：训练7500、测试5000；MATH-500不可当成完整测试集。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
@@ -284,7 +284,7 @@
       ]
     },
     "modalities": {
-      "value": "文本（数学符号按文本表达）；并非原始图像视频识别任务",
+      "value": "自然语言与LaTeX；几何图形由Asymptote代码表示，不是原生栅格图像评测。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
@@ -349,14 +349,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/hendrycks/math",
+      "value": "官方hendrycks/math仓库提供dataset loaders与evaluation code；复现须固定代码版本。",
       "sources": [
         {
-          "url": "https://github.com/hendrycks/math",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2103.03874",
+          "url": "https://raw.githubusercontent.com/hendrycks/math/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -697,6 +693,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "evaluation.official_scripts",
+          "data_format.size",
+          "data_format.modalities"
+        ]
       }
     ],
     "sources": [

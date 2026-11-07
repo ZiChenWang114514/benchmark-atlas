@@ -89,19 +89,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（官方仓库LICENSE）；不自动覆盖公共数据集和互联网原图等第三方权利。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.06281",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mmbench.opencompass.org.cn/",
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2307.06281",
@@ -399,12 +393,8 @@
       "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
     },
     "public_hidden_split": {
-      "value": "官方README下载表分别提供EN/CN dev和test；test预测提交官方平台。题量及划分须绑定下载文件版本。",
+      "value": "下载表EN/CN各有dev 1,164及test 1,784题；VLMEvalKit格式仅保留一份图片，Legacy为N选项CircularEval保留N份，正文内容相同；不能据图片副本数推题量。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2307.06281",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
           "accessed": "2026-11-07"
@@ -427,12 +417,8 @@
       ]
     },
     "scoring": {
-      "value": "CircularEval准确率：N个选项循环移位N次，全部答对才算该题成功；与单次准确率分开。",
+      "value": "先用规则提取选项，失败后用ChatGPT匹配答案，最多尝试3次；CircularEval循环移位全部选项，N次全部正确才判该原题成功。",
       "sources": [
-        {
-          "url": "https://arxiv.org/pdf/2307.06281",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
           "accessed": "2026-11-07"
@@ -581,19 +567,13 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "仓库另列CCBench：中文文化相关，dev 510题；2023-12-26公告删除噪声样本并更新榜单。CCBench不是MMBench EN/CN同一划分。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.06281",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://mmbench.opencompass.org.cn/",
+          "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      ]
     }
   },
   "leaderboard": {
@@ -807,6 +787,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
       }
     ],
     "sources": [

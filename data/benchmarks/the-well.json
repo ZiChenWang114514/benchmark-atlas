@@ -1,7 +1,7 @@
 {
   "id": "the-well",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。",
   "basic_info": {
     "name": {
       "value": "The Well",
@@ -72,15 +72,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "代码 BSD-3-Clause；已核验 active_matter 数据卡为 CC-BY-4.0，其他子集需逐一核验。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00568",
+          "url": "https://raw.githubusercontent.com/PolymathicAI/the_well/master/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2412.00568",
@@ -193,12 +195,8 @@
       ]
     },
     "maintainer": {
-      "value": "PolymathicAI/the_well官方仓库与文档团队。",
+      "value": "Polymathic AI 项目团队；官方文档列 Ruben Ohana、Michael McCabe 为公开联系方。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2412.00568",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://polymathic-ai.org/the_well/",
           "accessed": "2026-11-07"
@@ -366,10 +364,10 @@
       ]
     },
     "prompt_settings": {
-      "value": "非LLM提示评测。原论文基线以4个历史时间步预测下一帧，每模型单H100限时12小时训练。",
+      "value": "非问答提示评测；用 Hydra 配置固定模型、数据、优化器和训练资源。官方示例为 active_matter 上的 FNO。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.00568",
+          "url": "https://polymathic-ai.org/the_well/",
           "accessed": "2026-11-07"
         }
       ]
@@ -400,8 +398,17 @@
         {
           "url": "https://arxiv.org/abs/2412.00568",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.22504",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.22504",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "2026H2 引用/使用证据：2026-08，论文表1及参考文献14明确引用 The Well，属于文献引用，不声称重跑整库。"
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -681,6 +688,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
       }
     ],
     "sources": [

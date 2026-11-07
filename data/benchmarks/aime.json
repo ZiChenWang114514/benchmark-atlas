@@ -1,7 +1,7 @@
 {
   "id": "aime",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "AIME",
@@ -432,10 +432,14 @@
       "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
     },
     "contamination_and_issues": {
-      "value": "本条无单一原始AI论文；不能伪造论文PDF。MAA官方PDF下载本轮403，原始试卷/政策PDF待补，未用第三方题解冒充。",
+      "value": "AIME为竞赛系列，没有单一原始AI论文。本轮MAA主页/政策页返回403，尚未取得官方原始试卷或政策PDF；保留缺失，不以第三方题解或AA网页转换件冒充。AA 2025页面当前标Legacy。",
       "sources": [
         {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
+          "url": "https://artificialanalysis.ai/evaluations/aime-2025",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://maa.org/student-programs/amc/",
           "accessed": "2026-11-07"
         }
       ]
@@ -528,12 +532,8 @@
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "本轮重开AA AIME2025页面，99.0/98.7/97.0三项与已有记录一致；页面标为Legacy。榜单未显示统一更新日期，记待核实；不得据此声称覆盖2026试题或所有AIME年份。",
       "sources": [
-        {
-          "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07"
@@ -667,6 +667,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

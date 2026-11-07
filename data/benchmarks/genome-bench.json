@@ -101,10 +101,10 @@
       ]
     },
     "dataset_url": {
-      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "value": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://raw.githubusercontent.com/mingyin0312/RL4GenomeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -207,10 +207,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "2013—2023公开CRISPR Google讨论组约4,000个线程。",
+      "value": "CRISPR相关专家讨论和论坛线程；官方dataset_pipeline可解析.mbox邮件档案并转换为标准MCQ及QA格式。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://raw.githubusercontent.com/mingyin0312/RL4GenomeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -254,10 +254,10 @@
   },
   "data_format": {
     "size": {
-      "value": "3,332道五选一题：2,671 train、661 test。",
+      "value": "官方HF页面显示3,332行；仓库README概述为超过3,000个MCQ与QA条目。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://huggingface.co/datasets/Mingyin0312/Genome-Bench",
           "accessed": "2026-11-07"
         }
       ]
@@ -337,10 +337,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/mingyin0312/RL4GenomeBench",
+      "value": "evaluation/genome-bench_eval.py（官方README的测试集评测入口）。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.19501",
+          "url": "https://raw.githubusercontent.com/mingyin0312/RL4GenomeBench/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -621,6 +621,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
       }
     ],
     "sources": [

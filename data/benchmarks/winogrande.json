@@ -22,7 +22,7 @@
       ]
     },
     "version": {
-      "value": "1.1",
+      "value": "1.1（官方仓库README）",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/allenai/winogrande/master/README.md",
@@ -306,10 +306,10 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方test无标签，开发集有标签；训练XS160、S640、M2558、L10234、XL40938。",
+      "value": "train有xs/s/m/l/xl五种规模及独立标签，dev含标签，test不公开标签；预测文件每行五列，依次对应五种训练规模。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1907.10641",
+          "url": "https://raw.githubusercontent.com/allenai/winogrande/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -344,14 +344,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/allenai/winogrande",
+      "value": "官方README指示使用eval.py评估dev，输出metrics.json；test应向官方榜提交predictions.lst。",
       "sources": [
         {
-          "url": "https://github.com/allenai/winogrande",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1907.10641",
+          "url": "https://raw.githubusercontent.com/allenai/winogrande/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -385,14 +381,10 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "1.1（官方README）",
+      "value": "1.1（README所列版本；未以此推断近期开源活动或最新提交）",
       "sources": [
         {
-          "url": "http://winogrande.allenai.org",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1907.10641",
+          "url": "https://raw.githubusercontent.com/allenai/winogrande/master/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -680,6 +672,17 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "fields_updated": [
+          "basic_info.version",
+          "latest_status.latest_dataset_version",
+          "evaluation.official_scripts",
+          "data_format.public_hidden_split"
+        ]
       }
     ],
     "sources": [

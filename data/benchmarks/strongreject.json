@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（本项目代码）；汇编数据继承来源约束：README注明部分来源无许可，不能把MIT直接套用全部数据。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.10260",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2402.10260",
@@ -172,15 +170,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方代码与反馈由 dsbowen/strong_reject 仓库提供；个人持续维护职责及响应时限未核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.10260",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -216,10 +212,10 @@
   },
   "construction": {
     "question_sources": {
-      "value": "313条禁止请求；约70%新编，约10%来自AdvBench、约10%来自DAN，其余来自其他来源。",
+      "value": "从既有越狱数据与系统卡中筛选整理，包括AdvBench、DAN、MasterKey、MaliciousInstruct、HarmfulQ及GPT-4 System Card；按6类危害组织。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2402.10260",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -348,10 +344,10 @@
       ]
     },
     "official_scripts": {
-      "value": "https://github.com/dsbowen/strong_reject",
+      "value": "strong_reject包提供evaluate_dataset；rubric-based LLM evaluator和fine-tuned Gemma 2B evaluator是两个不同实现，报告需明确选择。",
       "sources": [
         {
-          "url": "https://github.com/dsbowen/strong_reject",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -424,10 +420,14 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "H2研究将StrongREJECT作为裁判做可靠性比较；另一H2研究使用StrongReject提示、却由Llama-Guard-3-8B判安全，不能把那里的ASR等同于StrongREJECT原始连续分。",
+      "value": "README列明若干源数据无license；项目MIT不自动补足来源授权。H2裁判比较使用共享Qwen3.8-27B-Uncensored backbone的rubric版，不能视为原生微调评分器验证。",
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.18471v1",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.10594v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -515,7 +515,8 @@
           "url": "https://arxiv.org/html/2609.18471v1",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。"
     }
   },
   "contact": {
@@ -535,10 +536,11 @@
       "value": "https://github.com/dsbowen/strong_reject/issues",
       "sources": [
         {
-          "url": "https://github.com/dsbowen/strong_reject",
+          "url": "https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "公开反馈入口；未发送问题。"
     },
     "official_social": {
       "value": "待核实",
@@ -636,6 +638,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
       }
     ],
     "sources": [

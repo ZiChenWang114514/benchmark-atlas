@@ -1,7 +1,7 @@
 {
   "id": "aqua-rat",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
   "basic_info": {
     "name": {
       "value": "AQuA-RAT",
@@ -73,15 +73,13 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（官方仓库 LICENSE；论文版本及第三方原始材料的权利需另辨）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1705.04146",
+          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "数据、代码、论文和原题权利分开；尚未核实对应发布文件许可证"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/1705.04146",
@@ -173,15 +171,13 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "Google DeepMind 官方 AQuA 仓库；不据仓库归属推断持续活跃维护。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1705.04146",
+          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认"
+      ]
     },
     "funders": {
       "value": "待核实",
@@ -264,10 +260,18 @@
   },
   "data_format": {
     "size": {
-      "value": "原论文过滤后训练100949、开发250、测试250；公开release具体计数须以文件实测为准，Jev测试口径254，不能默认为同一版。",
+      "value": "当前公开原始 JSON 行数：train 97,467；dev 254；test 254，共97,975题。README概述约100,000题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/1705.04146",
+          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/train.json",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/dev.json",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/test.json",
           "accessed": "2026-11-07"
         },
         {
@@ -447,14 +451,10 @@
       "note": "是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断"
     },
     "contamination_and_issues": {
-      "value": "官方明确公开版不同于初始发表版，这是版本冲突而非采集者可自行修正的笔误。",
+      "value": "官方 README 明示：论文初始结果使用过一个无法完整发布的旧版本；当前公开数据为完全众包版本，运行论文系统所得分数会不同。不能把论文旧版数字和现行公开题库直接混排。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-deepmind/AQuA/master/README.md",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07"
         }
       ]
@@ -689,6 +689,11 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
       }
     ],
     "sources": [

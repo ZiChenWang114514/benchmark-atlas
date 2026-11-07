@@ -1,7 +1,7 @@
 {
   "id": "realworldqa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
   "basic_info": {
     "name": {
       "value": "RealWorldQA",
@@ -22,15 +22,13 @@
       ]
     },
     "version": {
-      "value": "待核实",
+      "value": "初始版本（官方称\"initial release\"，并表示将随多模态模型改进扩充）；无语义版本号",
       "sources": [
         {
-          "url": "https://x.ai/news/grok-1.5v",
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。",
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "待核实",
@@ -41,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "release_date": {
       "value": "待核实",
@@ -52,7 +50,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "section": {
       "value": "多模态",
@@ -90,10 +88,14 @@
         {
           "url": "https://x.ai/news/grok-1.5v",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。",
+      "status": "待核实"
     },
     "code_url": {
       "value": "待核实",
@@ -104,7 +106,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "dataset_url": {
       "value": "https://huggingface.co/datasets/xai-org/RealworldQA",
@@ -134,9 +136,13 @@
         {
           "url": "https://x.ai/news/grok-1.5v",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+          "accessed": "2026-11-07"
         }
       ],
-      "note": "本批核实的是官方发布公告和数据集；未找到可核实的独立基准论文，不造标题或PDF。",
+      "note": "本轮检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。",
       "status": "待核实"
     }
   },
@@ -159,7 +165,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "authors": {
       "value": "待核实",
@@ -170,7 +176,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "maintainer": {
       "value": "xai-org官方数据集发布账号",
@@ -190,7 +196,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "design_goals": {
@@ -232,7 +238,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "review_process": {
       "value": "官方说明答案易于验证；具体出题、复核人员和流程未在本批材料中核实。",
@@ -261,12 +267,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "data_format": {
     "size": {
-      "value": "初始公告称超过700张图；官方HF viewer显示test 765行，以本次数据集行数为明确口径。",
+      "value": "官方公告称初始版本超过700张图、每图一题；HF数据集viewer显示765行，数据总大小678 MB（公告下载链接标注677MB）。",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
@@ -365,7 +371,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "comparability_warning": {
       "value": "初始公告的over700和HF的765不冲突；2024首发厂商自报结果不能作2026实时独立排名。不存在已核实的独立论文PDF，不能用其他论文冒充。",
@@ -383,7 +389,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
@@ -400,7 +406,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "paper_revision_history": {
       "value": {
@@ -408,8 +414,10 @@
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
-            "date": "2026-10-22",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+            "date": "2026-10-23",
+            "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
+            "date_kst": "2026-10-23T01:54:37+09:00",
+            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -421,6 +429,10 @@
         },
         {
           "url": "https://arxiv.org/html/2610.01352v2",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.01352",
           "accessed": "2026-11-07"
         }
       ]
@@ -434,13 +446,17 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "contamination_and_issues": {
-      "value": "初始公告的over700和HF的765不冲突；2024首发厂商自报结果不能作2026实时独立排名。不存在已核实的独立论文PDF，不能用其他论文冒充。",
+      "value": "首发公告over700和官方HF test 765不冲突；2024厂商首发分数不作2026实时独立榜单。独立原始论文/PDF仍待核实：仅未在本轮检查的公告与数据卡找到，不等于不存在，禁止其他论文冒充。",
       "sources": [
         {
           "url": "https://x.ai/news/grok-1.5v",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
           "accessed": "2026-11-07"
         },
         {
@@ -458,7 +474,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "leaderboard": {
@@ -488,7 +504,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -521,10 +537,11 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "RealWorldQA",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+          "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         },
         {
           "model": "MMVistaReason-9B (MVR-9B)",
@@ -532,10 +549,11 @@
           "unit": "%",
           "metric": "论文协议答案正确率（CompassVerifier）",
           "scope": "RealWorldQA",
-          "date": "2026-10-22",
+          "date": "2026-10-23",
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
-          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+          "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
+          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。"
         }
       ],
       "sources": [
@@ -577,7 +595,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "github_issues": {
       "value": "待核实",
@@ -588,7 +606,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "official_social": {
       "value": "待核实",
@@ -599,7 +617,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -620,7 +638,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本批未核实独立论文PDF；保留官方网页和中文介绍，不以打印网页冒充原始论文。",
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "sha256": {
@@ -632,7 +650,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -643,7 +661,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批尚未完成此字段的精确核验；不等于官方未公开。"
+      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "drive_folder": {
       "value": {
@@ -690,6 +708,12 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "KST / Asia/Seoul",
+        "round": "1 / 深度实证复核",
+        "change": "撤销论文题名和URL未公开断言，恢复待核实并注明查过的官方页；重核H2且换算KST。未伪造原始PDF。"
       }
     ],
     "sources": [
