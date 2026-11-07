@@ -1,499 +1,214 @@
 # LiveCodeBench
+> 核验：2026-11-08（KST / Asia/Seoul）。已核验存在；研究快照，未核实字段保留标记
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
+LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，并把生成、自修复、执行与测试输出预测分开评估。滚动并不自动等于无污染：必须同时固定题目日期窗、模型训练截止信息、release、测试集lite设置及采样预算。
+
+概述依据：[S1](https://arxiv.org/abs/2403.07974) [S2](https://livecodebench.github.io/) [S3](https://livecodebench.github.io/leaderboard.html) [S4](https://livecodebench.github.io/performances_generation.json) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
 ## 基本信息
 
-### 简称
+**简称**：LiveCodeBench [S2](https://livecodebench.github.io/)
 
-LiveCodeBench
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 全称
-
-LiveCodeBench
+**全称**：LiveCodeBench [S2](https://livecodebench.github.io/)
 
 > 保留官方名称，不把论文标题自动扩写为全称。
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+**版本口径**：README列举到release_v6；默认release_latest是可变别名，复现须锁定release_version和题目日期窗。 [S6](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)
 
-### 基准版本
+**论文修订**：arXiv v2 [S7](https://arxiv.org/abs/2403.07974)
 
-README列举到release_v6；默认release_latest是可变别名，复现须锁定release_version和题目日期窗。
-
-来源：[https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)（访问 2026-11-07 KST）
-
-### 论文版本
-
-arXiv v2
-
-> 论文修订版本不等同数据集版本。
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 发布日期
-
-2024-03-13 02:58:04 KST
+**发布时间**：2024-03-13 02:58:04 KST [S1](https://arxiv.org/abs/2403.07974)
 
 > 首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 主板块
-
-代码
+**主板块**：代码 [S1](https://arxiv.org/abs/2403.07974)
 
 > Benchmark Atlas 编辑归档；跨领域仅主板块计数。
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**领域**：滚动编程竞赛评测 [S1](https://arxiv.org/abs/2403.07974)
 
-### 领域标签
+**许可与权利边界**：仓库代码MIT；官方HF code_generation_lite卡license字段仅写cc，未指定Creative Commons具体版本/条款。不得把MIT或一个模糊cc标签直接扩展为全部竞赛原题的使用许可。 [S8](https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE) [S9](https://huggingface.co/datasets/livecodebench/code_generation_lite)
 
-滚动编程竞赛评测
+**论文**：https://arxiv.org/abs/2403.07974 [S1](https://arxiv.org/abs/2403.07974)
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**代码入口**：https://github.com/LiveCodeBench/LiveCodeBench [S2](https://livecodebench.github.io/)
 
-### 许可证
+**数据入口**：https://huggingface.co/datasets/livecodebench/code_generation_lite [S10](https://github.com/LiveCodeBench/LiveCodeBench)
 
-MIT（GitHub仓库代码标示；不自动覆盖原题、第三方材料或私有测试数据）
+**官网**：https://livecodebench.github.io/ [S2](https://livecodebench.github.io/)
 
-来源：[https://github.com/LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)（访问 2026-11-07 KST）
-
-### 论文
-
-https://arxiv.org/abs/2403.07974
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 官方代码
-
-https://github.com/LiveCodeBench/LiveCodeBench
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 数据地址
-
-https://huggingface.co/livecodebench/
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 官方入口
-
-https://livecodebench.github.io/
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 论文标题
-
-LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**论文标题**：LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code [S1](https://arxiv.org/abs/2403.07974)
 
 ## 发起与维护
 
-### 机构与发起方
+**发起方**：UC Berkeley、MIT、Cornell University 作者团队（单位口径） [S1](https://arxiv.org/abs/2403.07974)
 
-UC Berkeley、MIT、Cornell University 作者团队（单位口径）
+**署名与合作**：作者单位含UC Berkeley、MIT与Cornell；记录学术署名单位，不将SKY Lab资助企业自动视作出题合作机构。 [S11](https://arxiv.org/pdf/2403.07974)
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**作者**：Jain, Naman；Han, King；Gu, Alex；Li, Wen-Ding；Yan, Fanjia；Zhang, Tianjun；Wang, Sida；Solar-Lezama, Armando；Sen, Koushik；Stoica, Ion [S1](https://arxiv.org/abs/2403.07974)
 
-### 合作方
+**维护入口**：LiveCodeBench 项目团队 [S1](https://arxiv.org/abs/2403.07974)
 
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 作者
-
-Jain, Naman、Han, King、Gu, Alex、Li, Wen-Ding、Yan, Fanjia、Zhang, Tianjun、Wang, Sida、Solar-Lezama, Armando、Sen, Koushik、Stoica, Ion
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 当前维护方
-
-LiveCodeBench 项目团队
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 资助
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**资助**：NSF CCF:1900968、CCF:1908870及SKY Lab企业赞助/关联方；Alex Gu获NSF Graduate Research Fellowship 2141064，Armando Solar-Lezama获NSF与Intel CCF:2217064支持。详见论文致谢。 [S11](https://arxiv.org/pdf/2403.07974)
 
 ## 设计目标
 
-### 衡量能力
+**衡量能力**：代码生成、自修复、代码执行和测试输出预测的综合能力。 [S1](https://arxiv.org/abs/2403.07974)
 
-代码生成、自修复、代码执行和测试输出预测的综合能力。
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 设计背景
-
-静态题库可能被训练反复接触；仅生成任务无法完整评估代码理解与修复。
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**设计动机**：静态题库可能被训练反复接触；仅生成任务无法完整评估代码理解与修复。 [S1](https://arxiv.org/abs/2403.07974)
 
 ## 构建方式
 
-### 题目来源
+**题目/样本来源**：持续收集 LeetCode、AtCoder、Codeforces 定期竞赛的新题，记录发布时间。 [S2](https://livecodebench.github.io/)
 
-持续收集 LeetCode、AtCoder、Codeforces 定期竞赛的新题，记录发布时间。
+**构建者背景**：三校程序合成、软件与机器学习研究团队；原题来自竞赛平台。 [S2](https://livecodebench.github.io/)
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+**审查流程**：整理问题、测试与场景，官方接受附生成记录的 GitHub PR 并审核后入榜。 [S2](https://livecodebench.github.io/)
 
-### 出题者背景
+**质量控制**：ERRATA追踪错误测试及不适合自动评分的问题；code_generation_lite删减测试以加速，原始集需--not_fast。官方提示超时可造成小于0.5点分数变化。 [S6](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)
 
-三校程序合成、软件与机器学习研究团队；原题来自竞赛平台。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 审核流程
-
-整理问题、测试与场景，官方接受附生成记录的 GitHub PR 并审核后入榜。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 质量控制
-
-ERRATA追踪错误测试及不适合自动评分的问题；code_generation_lite删减测试以加速，原始集需--not_fast。官方提示超时可造成小于0.5点分数变化。
-
-来源：[https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)（访问 2026-11-07 KST）
-
-### 去污染
-
-可选在模型训练截止日期之后发布的题，以降低污染；截止日期不透明、题库公开后再训练仍会影响有效性。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+**去污染与防泄漏**：可选在模型训练截止日期之后发布的题，以降低污染；截止日期不透明、题库公开后再训练仍会影响有效性。 [S2](https://livecodebench.github.io/)
 
 ## 数据形式
 
-### 题量与规模
+**规模**：README明确列出 release_v1 400、v2 511、v3 612、v4 713、v5 880、v6 1,055题；v6覆盖2023-05至2025-04。主页300+与论文500+属历史窗口，不能当作当前总量。 [S6](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)
 
-README明确列出 release_v1 400、v2 511、v3 612、v4 713、v5 880、v6 1,055题；v6覆盖2023-05至2025-04。主页300+与论文500+属历史窗口，不能当作当前总量。
+**任务形式**：算法程序生成、基于反馈的修复、程序执行、测试输出预测。 [S2](https://livecodebench.github.io/) [S1](https://arxiv.org/abs/2403.07974)
 
-来源：[https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)（访问 2026-11-07 KST）
+**模态**：文本；代码 [S2](https://livecodebench.github.io/) [S1](https://arxiv.org/abs/2403.07974)
 
-### 题型
+**语言**：英语竞赛描述；生成代码支持范围依场景/脚本。 [S2](https://livecodebench.github.io/) [S1](https://arxiv.org/abs/2403.07974)
 
-算法程序生成、基于反馈的修复、程序执行、测试输出预测。
+**难度与覆盖**：保留竞赛题难度差异，按 easy / medium / hard 分析；不能仅据旧 easy 子集判断整体饱和。 [S2](https://livecodebench.github.io/) [S1](https://arxiv.org/abs/2403.07974)
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 模态
-
-文本、代码
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 语言
-
-英语竞赛描述；生成代码支持范围依场景/脚本。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 难度
-
-保留竞赛题难度差异，按 easy / medium / hard 分析；不能仅据旧 easy 子集判断整体饱和。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 公开与隐藏划分
-
-题目与评测工具逐批公开；去污染依时间窗，不等同永久私有题库。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**公开与测试划分**：题目与评测工具逐批公开；去污染依时间窗，不等同永久私有题库。 [S2](https://livecodebench.github.io/) [S1](https://arxiv.org/abs/2403.07974)
 
 ## 评测方法
 
-### 指标
+**指标**：各场景执行正确率 / pass@k；生成、修复和输出预测分开。 [S1](https://arxiv.org/abs/2403.07974)
 
-各场景执行正确率 / pass@k；生成、修复和输出预测分开。
+**评分**：根据竞赛测试或已知输入输出检查生成结果。 [S1](https://arxiv.org/abs/2403.07974)
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**提示/训练/运行设置**：官方代码生成示例n=10、temperature=0.2；按模型设置提示；生成计算pass@1/pass@5。必须固定release_version、start_date/end_date、lite或原始测试。 [S6](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)
 
-### 评分
+**官方脚本**：https://github.com/LiveCodeBench/LiveCodeBench [S2](https://livecodebench.github.io/)
 
-根据竞赛测试或已知输入输出检查生成结果。
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 提示与运行设置
-
-官方代码生成示例n=10、temperature=0.2；按模型设置提示；生成计算pass@1/pass@5。必须固定release_version、start_date/end_date、lite或原始测试。
-
-来源：[https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)（访问 2026-11-07 KST）
-
-### 官方评测脚本
-
-https://github.com/LiveCodeBench/LiveCodeBench
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 可比性警示
-
-不同时窗、题目数量和场景不可直排。AA 当前摘要未给出精确评测窗，保留范围待核实。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**可比性警示**：官方默认网页窗口为2024-08-01至2025-05-01（题目日期）；按公开JSON及页面算法复算，与AA摘要未知窗口分赛道。release_latest是可变别名，lite/原始测试、采样参数及窗口都必须锁定。 [S3](https://livecodebench.github.io/leaderboard.html) [S4](https://livecodebench.github.io/performances_generation.json) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
 ## 最新情况
 
-### 核查日期
+**核查日**：2026-11-08 KST / Asia/Seoul [S12](https://livecodebench.github.io/)
 
-2026-11-07 KST / Asia/Seoul
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 当前版本与2026年后半年活跃证据
-
-```json
-{
-  "version": "持续滚动采题；必须按评测时间窗固定快照",
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
-      "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
-    }
-  ]
-}
-```
+**数据版本与持续使用**：持续滚动采题；必须按评测时间窗固定快照；历史持续使用证据：2026-09-23 Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。 https://arxiv.org/html/2609.27284v1 [S13](https://arxiv.org/html/2609.27284v1) [S2](https://livecodebench.github.io/)
 
 > H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-来源：[https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07 KST）；[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+**论文版本与证据历史**：v1 2024-03-13T02:58:04+09:00（KST）；v2 2024-06-07T02:41:21+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S7](https://arxiv.org/abs/2403.07974)
 
-### 论文修订历史
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
 
-Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 KST (6,890 KB) [v2] 2024-06-07 02:41:21 KST (7,772 KB)
+**饱和度边界**：动态窗口改变题目分母；当前AA摘要最高91.7%，官方默认窗口另行计算。没有一个可跨时窗引用的全套饱和结论。 [S3](https://livecodebench.github.io/leaderboard.html) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
+**已知问题与争议**：“Contamination Free”是设计目标/标题；成立范围取决于模型截止日、题目发布时间和后续训练，不能绝对保证。 [S2](https://livecodebench.github.io/) [S14](https://artificialanalysis.ai/evaluations/livecodebench)
 
-### 饱和情况
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 污染与争议
-
-“Contamination Free”是设计目标/标题；成立范围取决于模型截止日、题目发布时间和后续训练，不能绝对保证。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)（访问 2026-11-07 KST）
-
-### 衍生与版本关系
-
-代码生成、self-repair、execution、test-output prediction 为同套件场景，不拆为四条。
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)（访问 2026-11-07 KST）
+**版本/衍生关系**：代码生成、self-repair、execution、test-output prediction 为同套件场景，不拆为四条。 [S2](https://livecodebench.github.io/) [S14](https://artificialanalysis.ai/evaluations/livecodebench)
 
 ## 榜单快照
 
-### 快照日期
+**快照日**：2026-11-08 KST / Asia/Seoul [S3](https://livecodebench.github.io/leaderboard.html)
 
-2026-11-07 KST / Asia/Seoul
+**官方榜入口**：https://livecodebench.github.io/leaderboard.html [S10](https://github.com/LiveCodeBench/LiveCodeBench)
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+**第三方入口**：https://artificialanalysis.ai/evaluations/livecodebench [S14](https://artificialanalysis.ai/evaluations/livecodebench)
 
-### 官方榜单
+### 官方网页默认窗口：2024-08-01–2025-05-01
 
-https://livecodebench.github.io/
+| 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
+|---|---|---|---|---|
+| 1 | O4-Mini (High) | 80.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 2 | O3 (High) | 75.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 3 | O4-Mini (Medium) | 74.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 4 | Gemini-2.5-Pro-06-05 | 73.6 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 5 | DeepSeek-R1-0528 | 73.1 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 6 | Gemini-2.5-Pro-05-06 | 71.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 7 | EXAONE-4.0-32B | 70.0 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 8 | OpenReasoning-Nemotron-32B | 69.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 9 | O3-Mini-2025-01-31 (High) | 67.4 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 10 | OpenCodeReasoning-Nemotron-1.1-32B | 66.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+### AA当前摘要；评测窗待核实
 
-### 独立评测覆盖
+| 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
+|---|---|---|---|---|
+| 1 | Gemini 3 Pro Preview (High) | 91.7 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
+| 2 | Gemini 3 Flash Preview (Reasoning) | 90.8 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
+| 3 | DeepSeek V3.2 Speciale | 89.6 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
 
-https://artificialanalysis.ai/evaluations/livecodebench
+分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S3](https://livecodebench.github.io/leaderboard.html) [S4](https://livecodebench.github.io/performances_generation.json) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
-来源：[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)（访问 2026-11-07 KST）
-
-### 核验结果
-
-```json
-[
-  {
-    "model": "Gemini 3 Pro Preview (High)",
-    "score": 91.7,
-    "metric": "AA LiveCodeBench score (%)",
-    "benchmark_version": "AA窗口待核实",
-    "result_type": "独立第三方当前页面",
-    "source_date": "待核实（页面未给出该结果运行/发布日期）",
-    "collected_at": "2026-11-07 KST",
-    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-  },
-  {
-    "model": "Gemini 3 Flash Preview (Reasoning)",
-    "score": 90.8,
-    "metric": "AA LiveCodeBench score (%)",
-    "benchmark_version": "AA窗口待核实",
-    "result_type": "独立第三方当前页面",
-    "source_date": "待核实（页面未给出该结果运行/发布日期）",
-    "collected_at": "2026-11-07 KST",
-    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-  },
-  {
-    "model": "DeepSeek V3.2 Speciale",
-    "score": 89.6,
-    "metric": "AA LiveCodeBench score (%)",
-    "benchmark_version": "AA窗口待核实",
-    "result_type": "独立第三方当前页面",
-    "source_date": "待核实（页面未给出该结果运行/发布日期）",
-    "collected_at": "2026-11-07 KST",
-    "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-  },
-  {
-    "model": "Hunyuan-A13B slow-thinking",
-    "score": 63.9,
-    "metric": "报告中的 LiveCodeBench (%)",
-    "benchmark_version": "日期窗待核实",
-    "result_type": "厂商技术报告自报",
-    "source_date": "2026-09-23",
-    "collected_at": "2026-11-07 KST"
-  }
-]
-```
-
-核验状态：待核实
-
-来源：[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)（访问 2026-11-07 KST）；[https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07 KST）
-
-### 覆盖与时效说明
-
-AA 页面确有前三结果，但未从该页面静态正文核实题目日期窗和每个运行日期；采集日不是运行日。官方旧主页图表不是 2026 完整榜，不能与厂商报告跨窗排序。
-
-来源：[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)（访问 2026-11-07 KST）；[https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07 KST）
+**覆盖与时效**：官方网页静态表只是Loading占位；本次读取其明确引用的performances_generation.json，并严格依网页筛窗/均值/一位小数显示规则重建前十有排名条目。日期标记止于2025-05-01，不伪装2026新题。每模型覆盖题数单列；AA成绩窗口不明，绝不混排。 [S3](https://livecodebench.github.io/leaderboard.html) [S4](https://livecodebench.github.io/performances_generation.json) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
 ## 联系方式
 
-### 公开工作邮箱
+**公开研究邮箱**：naman_jain@berkeley.edu [S2](https://livecodebench.github.io/)
 
-naman_jain@berkeley.edu
+**问题反馈**：https://github.com/LiveCodeBench/LiveCodeBench/issues [S2](https://livecodebench.github.io/)
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 公开反馈
-
-https://github.com/LiveCodeBench/LiveCodeBench/issues
-
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
-
-### 官方社交渠道
-
-待核实
+**官方发布渠道**：待核实 [S1](https://arxiv.org/abs/2403.07974)
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
-
-### 隐私政策
-
-待核实
+**隐私口径**：待核实 [S1](https://arxiv.org/abs/2403.07974)
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)（访问 2026-11-07 KST）
 
 ## 原始文件
 
-### 源站论文PDF
-
-https://arxiv.org/pdf/2403.07974
+**源站PDF**：https://arxiv.org/pdf/2403.07974 [S15](https://arxiv.org/pdf/2403.07974)
 
 > 归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。
 
-来源：[https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974)（访问 2026-11-07 KST）
+**PDF SHA-256**：a9bd3f7b96ac846ac53506e7b58197d9213919f18f402a27910dcf9fc948b427 [S11](https://arxiv.org/pdf/2403.07974)
 
-### 原始PDF SHA-256
+> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
 
-a9bd3f7b96ac846ac53506e7b58197d9213919f18f402a27910dcf9fc948b427
+**PDF字节数**：4960954 [S11](https://arxiv.org/pdf/2403.07974)
 
-> 源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
+**原有Drive文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV"} [S16](https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV)
 
-来源：[https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974)（访问 2026-11-07 KST）
-
-### 原始PDF字节数
-
-4960954
-
-> 源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
-
-来源：[https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974)（访问 2026-11-07 KST）
-
-### Drive资料文件夹
-
-```json
-{
-  "id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV",
-  "webViewLink": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV"
-}
-```
-
-来源：[https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV](https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV)（访问 2026-11-07 KST）
-
-### 其他文档
-
-```json
-[
-  {
-    "type": "中文介绍Google Doc",
-    "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s",
-    "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"
-  }
-]
-```
+**其他材料**：[{"type": "中文介绍Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"}] [S2](https://livecodebench.github.io/) [S17](https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk)
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）；[https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk](https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk)（访问 2026-11-07 KST）
-
-### Drive 原始 PDF
-
-```json
-{
-  "id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ",
-  "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"
-}
-```
-
-来源：[https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk](https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk)（访问 2026-11-07 KST）
+**原有Drive PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"} [S18](https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk)
 
 ## 变更记录
 
-### changelog
+- 2026-11-07 · 首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- 2026-11-07 · 第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+[S2](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/)
 
-```json
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
-  {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
-  }
-]
-```
+### 来源索引
 
-来源：[https://livecodebench.github.io/](https://livecodebench.github.io/)（访问 2026-11-07 KST）
+访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
+
+- S1 · [https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974) · 访问 2026-11-07
+- S2 · [https://livecodebench.github.io/](https://livecodebench.github.io/) · 访问 2026-11-07
+- S3 · [https://livecodebench.github.io/leaderboard.html](https://livecodebench.github.io/leaderboard.html) · 访问 2026-11-08
+- S4 · [https://livecodebench.github.io/performances_generation.json](https://livecodebench.github.io/performances_generation.json) · 访问 2026-11-08
+- S5 · [https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench) · 访问 2026-11-08
+- S6 · [https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md) · 访问 2026-11-07
+- S7 · [https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974) · 访问 2026-11-08
+- S8 · [https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE](https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE) · 访问 2026-11-08
+- S9 · [https://huggingface.co/datasets/livecodebench/code_generation_lite](https://huggingface.co/datasets/livecodebench/code_generation_lite) · 访问 2026-11-08
+- S10 · [https://github.com/LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) · 访问 2026-11-08
+- S11 · [https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974) · 访问 2026-11-08
+- S12 · [https://livecodebench.github.io/](https://livecodebench.github.io/) · 访问 2026-11-08
+- S13 · [https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1) · 访问 2026-11-07
+- S14 · [https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench) · 访问 2026-11-07
+- S15 · [https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974) · 访问 2026-11-07
+- S16 · [https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV](https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV) · 访问 2026-11-07
+- S17 · [https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk](https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk) · 访问 2026-11-07
+- S18 · [https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk](https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk) · 访问 2026-11-07

@@ -398,18 +398,32 @@
             "timezone": "Asia/Seoul (KST)"
           }
         ],
-        "previous_evidence": [
-          {
-            "version": "v1",
-            "submitted_at": "2024-12-20T03:59:17+09:00",
-            "timezone": "Asia/Seoul (KST)"
-          },
-          {
-            "version": "v2",
-            "submitted_at": "2025-01-03T20:44:51+09:00",
-            "timezone": "Asia/Seoul (KST)"
-          }
-        ]
+        "previous_evidence": {
+          "revisions": [
+            {
+              "version": "v1",
+              "submitted_at": "2024-12-20T03:59:17+09:00",
+              "timezone": "Asia/Seoul (KST)"
+            },
+            {
+              "version": "v2",
+              "submitted_at": "2025-01-03T20:44:51+09:00",
+              "timezone": "Asia/Seoul (KST)"
+            }
+          ],
+          "previous_evidence": [
+            {
+              "version": "v1",
+              "submitted_at": "2024-12-20T03:59:17+09:00",
+              "timezone": "Asia/Seoul (KST)"
+            },
+            {
+              "version": "v2",
+              "submitted_at": "2025-01-03T20:44:51+09:00",
+              "timezone": "Asia/Seoul (KST)"
+            }
+          ]
+        }
       },
       "sources": [
         {
@@ -1886,15 +1900,14 @@
       ]
     },
     "official_social": {
-      "value": "待核实",
+      "value": "https://x.com/realYushiBai/status/1869946577349132766",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2412.15204",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/THUDM/LongBench",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "官方README所链接的项目发布Thread；未在本轮读取X内容。"
     },
     "privacy_policy": {
       "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
@@ -2006,6 +2019,27 @@
           "original_files.pdf_bytes",
           "original_files.sha256"
         ]
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "fields_updated": [
+          "basic_info.license",
+          "basic_info.paper_version",
+          "construction.decontamination",
+          "contact.official_social",
+          "data_format.difficulty",
+          "evaluation.prompt_settings",
+          "latest_status.checked_at",
+          "latest_status.paper_revision_history",
+          "leaderboard.coverage_note",
+          "leaderboard.results",
+          "leaderboard.snapshot_date",
+          "organization.partners",
+          "original_files.pdf_bytes",
+          "original_files.sha256"
+        ]
       }
     ],
     "sources": [
@@ -2020,6 +2054,10 @@
       {
         "url": "https://github.com/THUDM/LongBench",
         "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://longbench2.github.io/",
+        "accessed": "2026-11-08"
       },
       {
         "url": "https://longbench2.github.io/",
