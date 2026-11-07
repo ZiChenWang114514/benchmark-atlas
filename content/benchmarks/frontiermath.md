@@ -2,6 +2,50 @@
 
 > 第1轮深度复核 · 2026-11-07（Asia/Seoul）。以下结论按字段列明证据；待核实项不是已确认事实。
 
+## 本次热门版本更新（2026-11-07，Asia/Shanghai UTC+8）
+
+v2修正42%题目中的错误：Tiers 1–3改123题并删5题，Tier 4改12题并删7题；现分别295题和43题，总计338题，公开10+2题。v1留作历史，不混合跨版分数；Erdős/Open Problems并非v2 Tiers 1–4同一分母。
+
+FrontierMath v2；Tiers 1–3与Tier 4独立计分
+
+发布时间：v2：2026-06-12（官方更新日志日期，无时刻）
+
+- [https://epoch.ai/benchmarks/frontiermath](https://epoch.ai/benchmarks/frontiermath)（accessed 2026-11-07）
+- [https://epoch.ai/frontiermath/tiers-1-4](https://epoch.ai/frontiermath/tiers-1-4)（accessed 2026-11-07）
+- [https://epoch.ai/benchmarks/use-this-data](https://epoch.ai/benchmarks/use-this-data)（accessed 2026-11-07）
+- [https://epoch.ai/data/benchmark_data.zip](https://epoch.ai/data/benchmark_data.zip)（accessed 2026-11-07）
+
+### 为什么近期热门
+
+证据等级：B。Epoch官方2026-11-07更新的下载包含v2 Tiers 1–3的123条、Tier 4的79条评测配置，其中有2026年8–10月启动的评测。此次直接核实的带日期近期实跑证据主要来自Epoch单一评测机构，保守列B，不把多模型厂商等同多家独立采用机构。
+
+- [https://epoch.ai/benchmarks/frontiermath](https://epoch.ai/benchmarks/frontiermath)（accessed 2026-11-07）
+- [https://epoch.ai/frontiermath/tiers-1-4](https://epoch.ai/frontiermath/tiers-1-4)（accessed 2026-11-07）
+- [https://epoch.ai/benchmarks/use-this-data](https://epoch.ai/benchmarks/use-this-data)（accessed 2026-11-07）
+- [https://epoch.ai/data/benchmark_data.zip](https://epoch.ai/data/benchmark_data.zip)（accessed 2026-11-07）
+
+### 当前榜单快照
+
+当前快照来源：https://epoch.ai/data/benchmark_data.zip。Epoch官方ZIP按两个v2 CSV独立排序，分数保留0–1比例，不把模型发布日期或Started at当榜单更新日。 
+
+| 名次（同协议） | 模型配置 | 分数 | 版本/范围 |
+|---|---|---|---|
+| 1 | gpt-6.1-sol_max | 0.9368421052631579 | Tiers 1–3 |
+| 1 | gpt-6-astra_max | 0.9368421052631579 | Tiers 1–3 |
+| 3 | claude-opus-5-5_max | 0.9122807017543859 | Tiers 1–3 |
+| 4 | gpt-6.1-terra_max | 0.9087719298245615 | Tiers 1–3 |
+| 5 | claude-fable-5-1_max | 0.9017543859649123 | Tiers 1–3 |
+| 1 | gpt-6.1-sol_max | 1.0 | Tier 4 |
+| 2 | gpt-6-astra_high | 0.976 | Tier 4 |
+| 2 | gpt-6-astra_xhigh | 0.976 | Tier 4 |
+| 2 | gpt-6-astra_max | 0.976 | Tier 4 |
+| 5 | gpt-6-astra_medium | 0.975609756097561 | Tier 4 |
+
+指标：mean_score；FrontierMath数值如适用均为0–1比例，非百分数。采集：2026-11-07（Asia/Shanghai UTC+8）；采集日不等于评测运行日。
+
+- [https://epoch.ai/data/benchmark_data.zip](https://epoch.ai/data/benchmark_data.zip)（accessed 2026-11-07）
+
+
 ## 1. 基本信息
 
 **简称**：FrontierMath
@@ -234,3 +278,12 @@
 - date：2026-11-07；timezone：Asia/Seoul；change：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
 来源：[1](https://epoch.ai/frontiermath)（访问 2026-11-07）
 
+
+### 2026-11-07 热门版本复核
+
+近期热门版本复核：v2修正42%题目中的错误：Tiers 1–3改123题并删5题，Tier 4改12题并删7题；现分别295题和43题，总计338题，公开10+2题。v1留作历史，不混合跨版分数；Erdős/Open Problems并非v2 Tiers 1–4同一分母。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
+
+- [https://epoch.ai/benchmarks/frontiermath](https://epoch.ai/benchmarks/frontiermath)（accessed 2026-11-07）
+- [https://epoch.ai/frontiermath/tiers-1-4](https://epoch.ai/frontiermath/tiers-1-4)（accessed 2026-11-07）
+- [https://epoch.ai/benchmarks/use-this-data](https://epoch.ai/benchmarks/use-this-data)（accessed 2026-11-07）
+- [https://epoch.ai/data/benchmark_data.zip](https://epoch.ai/data/benchmark_data.zip)（accessed 2026-11-07）

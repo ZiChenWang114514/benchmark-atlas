@@ -1,7 +1,7 @@
 {
   "id": "frontiercode",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记；trending: A",
   "basic_info": {
     "name": {
       "value": "FrontierCode",
@@ -23,10 +23,14 @@
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
     },
     "version": {
-      "value": "2.0；1.1保留为历史快照",
+      "value": "FrontierCode 2.0；1.0与1.1保留为历史版本",
       "sources": [
         {
           "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
         }
       ]
@@ -43,13 +47,18 @@
       "status": "待核实"
     },
     "release_date": {
-      "value": "2.0：2026-10-27（官方文章日期，未标时区/时间）",
+      "value": "2.0：2026-10-27（官方文章仅给日期，无时区或时刻）",
       "sources": [
         {
           "url": "https://cognition.com/blog/frontier-code-2.0",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "原始论文/旧版发布日期保留在最新情况的历史资料中；来源仅给日期者不推定时区。"
     },
     "section": {
       "value": "代码",
@@ -365,36 +374,137 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
-          "url": "https://cognition.com/frontiercode",
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "2.0；1.1保留为历史快照",
-        "evidence_2026_h2": [
-          {
-            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-            "date": "2026-10-28",
-            "note": "Artificial Analysis 2026-10-28文章明确报告 FrontierCode v1.1 的结果并将其纳入Coding Agent Index；独立机构评测。"
+        "current_version": "FrontierCode 2.0；1.0与1.1保留为历史版本",
+        "release_date": "2.0：2026-10-27（官方文章仅给日期，无时区或时刻）",
+        "version_changes": "2.0为132个私有任务；相较1.0覆盖的仓库多55%，blocking criteria多43%；相较1.1，参考解修改文件数多67%、行数多89%，代码库大25%。强化隐含正确性/thoroughness、审计与安全任务，同时放宽部分scope标准。各数字比较基线不同，不能混用。",
+        "trending": "A",
+        "why_trending": "Cognition于2026-10-27发布2.0并公布跨模型对照；AA现独立运行完整132题、3次/题，且AA当前Intelligence Index v5.0.1列入FrontierCode 2.0。发布方与独立评测方均有实际采用，列A级；不是把10月28日仍报告的1.1成绩误当2.0。",
+        "history": {
+          "previous_version_field": {
+            "value": "2.0；1.1保留为历史快照",
+            "sources": [
+              {
+                "url": "https://cognition.com/blog/frontier-code-2.0",
+                "accessed": "2026-11-07"
+              }
+            ]
+          },
+          "previous_release_date_field": {
+            "value": "2.0：2026-10-27（官方文章日期，未标时区/时间）",
+            "sources": [
+              {
+                "url": "https://cognition.com/blog/frontier-code-2.0",
+                "accessed": "2026-11-07"
+              }
+            ]
+          },
+          "previous_status_field": {
+            "value": {
+              "version": "2.0；1.1保留为历史快照",
+              "evidence_2026_h2": [
+                {
+                  "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+                  "date": "2026-10-28",
+                  "note": "Artificial Analysis 2026-10-28文章明确报告 FrontierCode v1.1 的结果并将其纳入Coding Agent Index；独立机构评测。"
+                }
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://cognition.com/blog/frontier-code-2.0",
+                "accessed": "2026-11-07"
+              }
+            ],
+            "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+          },
+          "previous_results_field": {
+            "value": [
+              {
+                "model": "Claude Opus 5.5 (Max, Default Fallback)",
+                "score": 46.4,
+                "metric": "weighted score (%)",
+                "benchmark_version": "2.0/132题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+                "score": 43.8,
+                "metric": "weighted score (%)",
+                "benchmark_version": "2.0/132题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "GPT-6 Astra (Max)",
+                "score": 42.4,
+                "metric": "weighted score (%)",
+                "benchmark_version": "2.0/132题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "Claude Opus 5.5 (best effort)",
+                "score": 45.5,
+                "metric": "weighted score (%)",
+                "benchmark_version": "2.0",
+                "result_type": "Cognition官方发布实验",
+                "source_date": "2026-10-27",
+                "collected_at": "2026-11-07 KST"
+              }
+            ],
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://cognition.com/blog/frontier-code-2.0",
+                "accessed": "2026-11-07"
+              }
+            ]
           }
-        ]
+        }
       },
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "url": "https://cognition.com/blog/frontier-code-2.0",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+      "note": "保留历史字段原貌；旧快照不是新的排名。热度等级为编辑证据分级，不是官方认证。"
     },
     "paper_revision_history": {
       "value": "官方方法文档沿革：1.0于2026-06-08介绍，1.1于2026-07-07修订，2.0于2026-10-27重建132题。这里记录方法文章而非虚构论文修订号。",
@@ -435,10 +545,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
-          "url": "https://cognition.com/frontiercode",
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
         }
       ]
@@ -464,69 +574,59 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 46.4,
-          "metric": "weighted score (%)",
-          "benchmark_version": "2.0/132题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "metric": "weighted rubric score (%)，Stirrup，3 attempts/task",
+          "benchmark_version": "2.0",
+          "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 2,
           "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
           "score": 43.8,
-          "metric": "weighted score (%)",
-          "benchmark_version": "2.0/132题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "metric": "weighted rubric score (%)，Stirrup，3 attempts/task",
+          "benchmark_version": "2.0",
+          "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 3,
           "model": "GPT-6 Astra (Max)",
           "score": 42.4,
-          "metric": "weighted score (%)",
-          "benchmark_version": "2.0/132题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-        },
-        {
-          "model": "Claude Opus 5.5 (best effort)",
-          "score": 45.5,
-          "metric": "weighted score (%)",
+          "metric": "weighted rubric score (%)，Stirrup，3 attempts/task",
           "benchmark_version": "2.0",
-          "result_type": "Cognition官方发布实验",
-          "source_date": "2026-10-27",
-          "collected_at": "2026-11-07 KST"
+          "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
-        },
+        }
+      ],
+      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
+    },
+    "coverage_note": {
+      "value": "当前快照来源：https://artificialanalysis.ai/evaluations/frontiercode-2-0。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 ",
+      "sources": [
         {
           "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
           "accessed": "2026-11-07"
         }
       ]
-    },
-    "coverage_note": {
-      "value": "官方文章明确列45.5%，AA独立页面46.4%，因不同实现/配置分别保留，不将差异强行归为一次分数修正；官方当前交互表完整排名待核实。",
-      "sources": [
-        {
-          "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://cognition.com/blog/frontier-code-2.0",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实"
     }
   },
   "contact": {
@@ -673,11 +773,38 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai",
+        "change": "近期热门版本复核：2.0为132个私有任务；相较1.0覆盖的仓库多55%，blocking criteria多43%；相较1.1，参考解修改文件数多67%、行数多89%，代码库大25%。强化隐含正确性/thoroughness、审计与安全任务，同时放宽部分scope标准。各数字比较基线不同，不能混用。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。",
+        "sources": [
+          {
+            "url": "https://cognition.com/blog/frontier-code-2.0",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+            "accessed": "2026-11-07"
+          }
+        ]
       }
     ],
     "sources": [
       {
         "url": "https://cognition.com/frontiercode",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://cognition.com/blog/frontier-code-2.0",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://artificialanalysis.ai/evaluations/omniscience",
         "accessed": "2026-11-07"
       }
     ]

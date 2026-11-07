@@ -1,7 +1,7 @@
 {
   "id": "aa-omniscience",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留；trending: B",
   "basic_info": {
     "name": {
       "value": "AA-Omniscience",
@@ -22,10 +22,18 @@
       ]
     },
     "version": {
-      "value": "v1.1",
+      "value": "AA-Omniscience v1.1；v1.0为历史版本，分数不直接可比",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ]
@@ -40,14 +48,22 @@
       ]
     },
     "release_date": {
-      "value": "2025-11-17",
+      "value": "v1.1：2026-10（官方数据卡仅确认月份；精确日与时刻待核实）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2511.13029",
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+      "note": "原始论文/旧版发布日期保留在最新情况的历史资料中；来源仅给日期者不推定时区。"
     },
     "section": {
       "value": "语言",
@@ -103,7 +119,7 @@
       "value": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
       ]
@@ -252,10 +268,10 @@
   },
   "data_format": {
     "size": {
-      "value": "v1.1完整3000题，公开300题（10%），其余2700题私有；v1.0为6000题，公开600题，不可混算。",
+      "value": "v1.1全量3000题，公开300题、私有2700题；v1.0为6000题、公开600题。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md",
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
           "accessed": "2026-11-07"
         }
       ]
@@ -359,23 +375,147 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": {
+        "current_version": "AA-Omniscience v1.1；v1.0为历史版本，分数不直接可比",
+        "release_date": "v1.1：2026-10（官方数据卡仅确认月份；精确日与时刻待核实）",
+        "version_changes": "v1.0为6000题/公开600题；v1.1为3000题/公开300题、私有2700题，保留6大领域。删除饱和题及旧公开题，增加新题，修正歧义和错误；v1.0/v1.1分数不能直接比较。公开子集Apache-2.0许可，不自动外推至私有题。",
+        "trending": "B",
+        "why_trending": "AA官方数据卡明确v1.1于2026年10月上线，发布时比较86个模型；AA 2026-10-28文章明确报道v1.1，当前官方页面继续跟踪124个模型配置。近期证据主要来自AA同一机构，保守列B，不写成行业普遍采用。",
+        "history": {
+          "previous_version_field": {
+            "value": "v1.1",
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "accessed": "2026-11-07"
+              }
+            ]
+          },
+          "previous_release_date_field": {
+            "value": "2025-11-17",
+            "sources": [
+              {
+                "url": "https://arxiv.org/abs/2511.13029",
+                "accessed": "2026-11-07"
+              }
+            ],
+            "note": "原始论文首发日期，不保证等同于数据文件首次公开日。"
+          },
+          "previous_status_field": {
+            "value": "v1.1（官方卡注明2026年10月上线）；与v1.0分数不直接可比。",
+            "sources": [
+              {
+                "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md",
+                "accessed": "2026-11-07"
+              }
+            ]
+          },
+          "previous_results_field": {
+            "value": [
+              {
+                "model_version": "Gemini 4 Carbon (High)",
+                "score": "54",
+                "unit": "指数点",
+                "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
+                "result_date": "待核实",
+                "snapshot_date": "2026-11-07",
+                "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "source_class": "一级：官方榜单",
+                "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+              },
+              {
+                "model_version": "Claude Opus 5.5 (Max, Default Fallback)",
+                "score": "48",
+                "unit": "指数点",
+                "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
+                "result_date": "待核实",
+                "snapshot_date": "2026-11-07",
+                "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "source_class": "一级：官方榜单",
+                "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+              },
+              {
+                "model_version": "Gemini 4 Carbon (Medium)",
+                "score": "47",
+                "unit": "指数点",
+                "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
+                "result_date": "待核实",
+                "snapshot_date": "2026-11-07",
+                "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "source_class": "一级：官方榜单",
+                "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
+              },
+              {
+                "model": "Gemini 4 Carbon (High)",
+                "score": 54,
+                "unit": "points",
+                "metric": "v1.1 Net Score",
+                "scope": "AA独立评测官网可读前列",
+                "snapshot_date": "2026-11-07",
+                "model_release_date": "2026-10-28"
+              },
+              {
+                "model": "Claude Opus 5.5 (Max, Default Fallback)",
+                "score": 48,
+                "unit": "points",
+                "metric": "v1.1 Net Score",
+                "scope": "AA独立评测官网可读前列",
+                "snapshot_date": "2026-11-07"
+              },
+              {
+                "model": "Gemini 4 Carbon (Medium)",
+                "score": 47,
+                "unit": "points",
+                "metric": "v1.1 Net Score",
+                "scope": "AA独立评测官网可读前列",
+                "snapshot_date": "2026-11-07"
+              }
+            ],
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://artificialanalysis.ai/evaluations/omniscience",
+                "accessed": "2026-11-07"
+              }
+            ]
+          }
+        }
+      },
+      "sources": [
+        {
+          "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "2026-H2实际使用证据：2026-10-28：Artificial Analysis 2026-10-28 评测文章明确报告 AA-Omniscience v1.1 的分数、准确率及幻觉率；独立评测机构结果。"
-    },
-    "latest_dataset_version": {
-      "value": "v1.1（官方卡注明2026年10月上线）；与v1.0分数不直接可比。",
-      "sources": [
-        {
-          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md",
-          "accessed": "2026-11-07"
-        }
-      ]
+      "note": "保留历史字段原貌；旧快照不是新的排名。热度等级为编辑证据分级，不是官方认证。"
     },
     "paper_revision_history": {
       "value": {
@@ -433,14 +573,13 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。"
+      ]
     },
     "official_url": {
       "value": "https://artificialanalysis.ai/evaluations/omniscience",
@@ -463,80 +602,60 @@
     "results": {
       "value": [
         {
-          "model_version": "Gemini 4 Carbon (High)",
-          "score": "54",
-          "unit": "指数点",
-          "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
-        },
-        {
-          "model_version": "Claude Opus 5.5 (Max, Default Fallback)",
-          "score": "48",
-          "unit": "指数点",
-          "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
-        },
-        {
-          "model_version": "Gemini 4 Carbon (Medium)",
-          "score": "47",
-          "unit": "指数点",
-          "scope_and_protocol": "AA-Omniscience v1.1 Net Score，范围−100至100；仅官方页面摘要可读的前三名。",
-          "result_date": "待核实",
-          "snapshot_date": "2026-11-07",
-          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
-          "source_class": "一级：官方榜单",
-          "checkpoint_note": "按来源展示名原样记录，未推断API checkpoint。"
-        },
-        {
+          "rank": 1,
           "model": "Gemini 4 Carbon (High)",
           "score": 54,
-          "unit": "points",
-          "metric": "v1.1 Net Score",
-          "scope": "AA独立评测官网可读前列",
-          "snapshot_date": "2026-11-07",
-          "model_release_date": "2026-10-28"
+          "metric": "AA-Omniscience Net Score (-100–100)",
+          "benchmark_version": "v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 2,
           "model": "Claude Opus 5.5 (Max, Default Fallback)",
           "score": 48,
-          "unit": "points",
-          "metric": "v1.1 Net Score",
-          "scope": "AA独立评测官网可读前列",
-          "snapshot_date": "2026-11-07"
+          "metric": "AA-Omniscience Net Score (-100–100)",
+          "benchmark_version": "v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 3,
           "model": "Gemini 4 Carbon (Medium)",
           "score": 47,
-          "unit": "points",
-          "metric": "v1.1 Net Score",
-          "scope": "AA独立评测官网可读前列",
-          "snapshot_date": "2026-11-07"
+          "metric": "AA-Omniscience Net Score (-100–100)",
+          "benchmark_version": "v1.1",
+          "source_url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/omniscience",
-          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
     },
     "coverage_note": {
-      "value": "新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（页面未展示全榜最后更新日）；2026-11-07仅为采集日期（Asia/Seoul）。",
+      "value": "当前快照来源：https://artificialanalysis.ai/evaluations/omniscience。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 ",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/omniscience",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ]
@@ -677,6 +796,25 @@
           "leaderboard.results",
           "leaderboard.coverage_note"
         ]
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai",
+        "change": "近期热门版本复核：v1.0为6000题/公开600题；v1.1为3000题/公开300题、私有2700题，保留6大领域。删除饱和题及旧公开题，增加新题，修正歧义和错误；v1.0/v1.1分数不能直接比较。公开子集Apache-2.0许可，不自动外推至私有题。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。",
+        "sources": [
+          {
+            "url": "https://artificialanalysis.ai/evaluations/omniscience",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+            "accessed": "2026-11-07"
+          }
+        ]
       }
     ],
     "sources": [
@@ -686,6 +824,14 @@
       },
       {
         "url": "https://arxiv.org/pdf/2511.13029",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
         "accessed": "2026-11-07"
       }
     ]

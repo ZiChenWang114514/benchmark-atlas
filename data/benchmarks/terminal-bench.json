@@ -1,7 +1,7 @@
 {
   "id": "terminal-bench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "已核验存在；研究快照，未核实字段保留标记；trending: A",
   "basic_info": {
     "name": {
       "value": "Terminal-Bench",
@@ -23,10 +23,30 @@
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
     },
     "version": {
-      "value": "当前官网 / AA 为 4.0；保留论文2.0与H2研究2.1",
+      "value": "Terminal-Bench 4.0（榜单口径）；官方最新tag已为4.1.0，不能称4.0是最新发布版",
       "sources": [
         {
+          "url": "https://www.tbench.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ]
@@ -42,14 +62,34 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2026-01-17 10:29:30 KST",
+      "value": "4.0.0：2026-08-26 12:48:12（Asia/Shanghai，UTC+8，官方tag发布时间）；4.1.0：2026-11-04 04:39:05（Asia/Shanghai，UTC+8）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2601.11868",
+          "url": "https://www.tbench.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "原始论文/旧版发布日期保留在最新情况的历史资料中；来源仅给日期者不推定时区。"
     },
     "section": {
       "value": "代码",
@@ -92,25 +132,24 @@
       ]
     },
     "code_url": {
-      "value": "https://github.com/harbor-framework/terminal-bench-1",
+      "value": "https://github.com/harbor-framework/terminal-bench",
       "sources": [
         {
-          "url": "https://github.com/harbor-framework/terminal-bench-1",
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方旧链接laude-institute/terminal-bench当前跳转至terminal-bench-1；只确认历史仓库，4.0精确任务注册表/commit待核实，不能据旧代码许可替代4.0任务许可。"
+      "note": "当前官方仓库；历史terminal-bench-1许可及论文另行保留。"
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://hub.harborframework.com/datasets/terminal-bench/terminal-bench/4",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2601.11868",
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。",
-      "status": "待核实"
+      "note": "4.0版本固定链接；不使用latest替代版本固定。"
     },
     "official_homepage": {
       "value": "https://www.tbench.ai/",
@@ -490,45 +529,179 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
           "url": "https://www.tbench.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
           "accessed": "2026-11-07"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "当前官网 / AA 为 4.0；保留论文2.0与H2研究2.1",
-        "evidence_2026_h2": [
-          {
-            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-            "date": "2026-10-28",
-            "note": "Artificial Analysis 2026-10-28明确报告 Terminal-Bench 4.0 的评测结果；作为版本化套件只计一次。"
+        "current_version": "Terminal-Bench 4.0（榜单口径）；官方最新tag已为4.1.0，不能称4.0是最新发布版",
+        "release_date": "4.0.0：2026-08-26 12:48:12（Asia/Shanghai，UTC+8，官方tag发布时间）；4.1.0：2026-11-04 04:39:05（Asia/Shanghai，UTC+8）",
+        "version_changes": "4.0从3.0的74题中移除8题，保留66题，重新校准计算/时间预算并改进指令、环境及验证器。2.0与2.1的89题仅作为旧协议，不与66题相混。另：官方4.1.0已发布，66题均有修改但未增删任务，新增63题CPU-only数据集；4.0成绩不能重标为4.1。",
+        "trending": "A",
+        "why_trending": "2026-08-26官方发布4.0；Cognition 2026-10-27官方FrontierCode 2.0文章将Terminal-Bench 4.0作对照；AA 2026-10-28独立发布Gemini 4 Carbon在4.0上的结果，当前另有66题统一harness榜。多机构材料支持A级，但不将不同agent的64%与65.2%混排。",
+        "history": {
+          "previous_version_field": {
+            "value": "当前官网 / AA 为 4.0；保留论文2.0与H2研究2.1",
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+                "accessed": "2026-11-07"
+              }
+            ]
           },
-          {
-            "url": "https://arxiv.org/html/2609.20804v1",
-            "date": "2026-09-17",
-            "note": "H2 harness研究同时在 Terminal-Bench 2.1 的89个端到端CLI任务上实际开展实验，显示版本差异必须保留。"
+          "previous_release_date_field": {
+            "value": "2026-01-17 10:29:30 KST",
+            "sources": [
+              {
+                "url": "https://arxiv.org/abs/2601.11868",
+                "accessed": "2026-11-07"
+              }
+            ],
+            "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+          },
+          "previous_status_field": {
+            "value": {
+              "version": "当前官网 / AA 为 4.0；保留论文2.0与H2研究2.1",
+              "evidence_2026_h2": [
+                {
+                  "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+                  "date": "2026-10-28",
+                  "note": "Artificial Analysis 2026-10-28明确报告 Terminal-Bench 4.0 的评测结果；作为版本化套件只计一次。"
+                },
+                {
+                  "url": "https://arxiv.org/html/2609.20804v1",
+                  "date": "2026-09-17",
+                  "note": "H2 harness研究同时在 Terminal-Bench 2.1 的89个端到端CLI任务上实际开展实验，显示版本差异必须保留。"
+                }
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://arxiv.org/html/2609.20804v1",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+                "accessed": "2026-11-07"
+              }
+            ],
+            "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+          },
+          "previous_results_field": {
+            "value": [
+              {
+                "model": "Kimi K3.1 Pro",
+                "score": 67.2,
+                "metric": "pass@1 (%)",
+                "benchmark_version": "4.0/66题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "harness": "mini-swe-agent；3 repeats",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "Gemini 4 Carbon (High)",
+                "score": 65.2,
+                "metric": "pass@1 (%)",
+                "benchmark_version": "4.0/66题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "harness": "mini-swe-agent；3 repeats",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+                "score": 63.6,
+                "metric": "pass@1 (%)",
+                "benchmark_version": "4.0/66题",
+                "result_type": "AA独立当前页面",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "harness": "mini-swe-agent；3 repeats",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              },
+              {
+                "model": "Gemini 4 Carbon (High) + Antigravity CLI",
+                "score": 64,
+                "metric": "Terminal-Bench score (%)",
+                "benchmark_version": "4.0",
+                "result_type": "AA历史产品agent评测",
+                "source_date": "待核实（页面未给出该结果运行/发布日期）",
+                "collected_at": "2026-11-07 KST",
+                "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+              }
+            ],
+            "sources": [
+              {
+                "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+                "accessed": "2026-11-07"
+              },
+              {
+                "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+                "accessed": "2026-11-07"
+              }
+            ]
           }
-        ]
+        }
       },
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "url": "https://www.tbench.ai/",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2609.20804v1",
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "accessed": "2026-11-07"
         }
       ],
-      "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
+      "note": "保留历史字段原貌；旧快照不是新的排名。热度等级为编辑证据分级，不是官方认证。"
     },
     "paper_revision_history": {
       "value": "Submission history From: Mike A. Merrill [ view email ] [v1] 2026-01-17 10:29:30 KST (17,342 KB)",
@@ -587,10 +760,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
       "sources": [
         {
-          "url": "https://www.tbench.ai/",
+          "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-07"
         }
       ]
@@ -616,65 +789,68 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Kimi K3.1 Pro",
           "score": 67.2,
-          "metric": "pass@1 (%)",
-          "benchmark_version": "4.0/66题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "metric": "pass@1 (%)，mini-swe-agent，3 repeats/task",
+          "benchmark_version": "4.0",
+          "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 2,
           "model": "Gemini 4 Carbon (High)",
           "score": 65.2,
-          "metric": "pass@1 (%)",
-          "benchmark_version": "4.0/66题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "metric": "pass@1 (%)，mini-swe-agent，3 repeats/task",
+          "benchmark_version": "4.0",
+          "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         },
         {
+          "rank": 3,
           "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
           "score": 63.6,
-          "metric": "pass@1 (%)",
-          "benchmark_version": "4.0/66题",
-          "result_type": "AA独立当前页面",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "harness": "mini-swe-agent；3 repeats",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
-        },
-        {
-          "model": "Gemini 4 Carbon (High) + Antigravity CLI",
-          "score": 64,
-          "metric": "Terminal-Bench score (%)",
+          "metric": "pass@1 (%)，mini-swe-agent，3 repeats/task",
           "benchmark_version": "4.0",
-          "result_type": "AA历史产品agent评测",
-          "source_date": "待核实（页面未给出该结果运行/发布日期）",
-          "collected_at": "2026-11-07 KST",
-          "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
+          "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07",
+          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "仅展示本次核实的同协议前列；旧版本、其他harness及子集的全部旧快照保留在latest_status历史字段，禁止混排。"
     },
     "coverage_note": {
-      "value": "官网当前版本标题核实；AA 页面给出独立模型榜前三。10月28日64%来自不同产品CLI设置，不与65.2%认定为同次更新或错误。实际各次运行日期未公开于摘要。",
+      "value": "当前快照来源：https://artificialanalysis.ai/evaluations/terminalbench-4-0。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 注意官方tag已到4.1.0，以上榜单明确仍是4.0。",
       "sources": [
         {
+          "url": "https://www.tbench.ai/",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://github.com/harbor-framework/terminal-bench/releases",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://cognition.com/blog/frontier-code-2.0",
           "accessed": "2026-11-07"
         },
         {
@@ -814,11 +990,62 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Shanghai",
+        "change": "近期热门版本复核：4.0从3.0的74题中移除8题，保留66题，重新校准计算/时间预算并改进指令、环境及验证器。2.0与2.1的89题仅作为旧协议，不与66题相混。另：官方4.1.0已发布，66题均有修改但未增删任务，新增63题CPU-only数据集；4.0成绩不能重标为4.1。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。",
+        "sources": [
+          {
+            "url": "https://www.tbench.ai/",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://github.com/harbor-framework/terminal-bench/releases",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://cognition.com/blog/frontier-code-2.0",
+            "accessed": "2026-11-07"
+          },
+          {
+            "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+            "accessed": "2026-11-07"
+          }
+        ]
       }
     ],
     "sources": [
       {
         "url": "https://www.tbench.ai/",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://github.com/harbor-framework/terminal-bench/releases",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/README.md",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://cognition.com/blog/frontier-code-2.0",
+        "accessed": "2026-11-07"
+      },
+      {
+        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
         "accessed": "2026-11-07"
       }
     ]

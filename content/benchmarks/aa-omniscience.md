@@ -6,6 +6,41 @@
 
 来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
 
+## 本次热门版本更新（2026-11-07，Asia/Shanghai UTC+8）
+
+v1.0为6000题/公开600题；v1.1为3000题/公开300题、私有2700题，保留6大领域。删除饱和题及旧公开题，增加新题，修正歧义和错误；v1.0/v1.1分数不能直接比较。公开子集Apache-2.0许可，不自动外推至私有题。
+
+AA-Omniscience v1.1；v1.0为历史版本，分数不直接可比
+
+发布时间：v1.1：2026-10（官方数据卡仅确认月份；精确日与时刻待核实）
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
+
+### 为什么近期热门
+
+证据等级：B。AA官方数据卡明确v1.1于2026年10月上线，发布时比较86个模型；AA 2026-10-28文章明确报道v1.1，当前官方页面继续跟踪124个模型配置。近期证据主要来自AA同一机构，保守列B，不写成行业普遍采用。
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
+
+### 当前榜单快照
+
+当前快照来源：https://artificialanalysis.ai/evaluations/omniscience。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 
+
+| 名次（同协议） | 模型配置 | 分数 | 版本/范围 |
+|---|---|---|---|
+| 1 | Gemini 4 Carbon (High) | 54 | v1.1 |
+| 2 | Claude Opus 5.5 (Max, Default Fallback) | 48 | v1.1 |
+| 3 | Gemini 4 Carbon (Medium) | 47 | v1.1 |
+
+指标：AA-Omniscience Net Score (-100–100)；FrontierMath数值如适用均为0–1比例，非百分数。采集：2026-11-07（Asia/Shanghai UTC+8）；采集日不等于评测运行日。
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+
+
 ## 一、基本信息
 
 ### 简称
@@ -22,9 +57,11 @@ AA-Omniscience
 
 ### 基准版本
 
-v1.1
+AA-Omniscience v1.1；v1.0为历史版本，分数不直接可比
 
-来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
 
 ### 论文版本
 
@@ -34,11 +71,14 @@ arXiv v1
 
 ### 发布日期
 
-2025-11-17
+v1.1：2026-10（官方数据卡仅确认月份；精确日与时刻待核实）
 
-核验说明：原始论文首发日期，不保证等同于数据文件首次公开日。
+历史首发/论文日期：2025-11-17
 
-来源：[1](https://arxiv.org/abs/2511.13029)（采集 2026-11-07）。
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
+- [https://arxiv.org/abs/2511.13029](https://arxiv.org/abs/2511.13029)（accessed 2026-11-07）
 
 ### 主板块
 
@@ -70,15 +110,17 @@ https://arxiv.org/abs/2511.13029
 
 待核实
 
-核验说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
+已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
 
 ### 数据地址
 
 https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1
 
-来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
+
+
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
 
 ### 官方入口
 
@@ -181,9 +223,9 @@ v1.1移除v1.0公开集问题、过滤饱和题、增补新题并修正歧义/�
 
 ### 题量
 
-v1.1完整3000题，公开300题（10%），其余2700题私有；v1.0为6000题，公开600题，不可混算。
+v1.1全量3000题，公开300题、私有2700题；v1.0为6000题、公开600题。
 
-来源：[1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md)（采集 2026-11-07）。
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
 
 ### 题型
 
@@ -255,17 +297,21 @@ v1 与 v1.1 题库和分数不可直接混比；当前页仍保留 v1 论文摘�
 
 ### 本次核验日与H2使用证据
 
-2026-11-07
+2026-11-07（Asia/Shanghai，UTC+8）。AA官方数据卡明确v1.1于2026年10月上线，发布时比较86个模型；AA 2026-10-28文章明确报道v1.1，当前官方页面继续跟踪124个模型配置。近期证据主要来自AA同一机构，保守列B，不写成行业普遍采用。
 
-核验说明：2026-H2实际使用证据：2026-10-28：Artificial Analysis 2026-10-28 评测文章明确报告 AA-Omniscience v1.1 的分数、准确率及幻觉率；独立评测机构结果。
-
-来源：[1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（采集 2026-11-07）。
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
 
 ### 数据版本
 
-v1.1（官方卡注明2026年10月上线）；与v1.0分数不直接可比。
+AA-Omniscience v1.1；v1.0为历史版本，分数不直接可比
 
-来源：[1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1/raw/main/README.md)（采集 2026-11-07）。
+v1.0为6000题/公开600题；v1.1为3000题/公开300题、私有2700题，保留6大领域。删除饱和题及旧公开题，增加新题，修正歧义和错误；v1.0/v1.1分数不能直接比较。公开子集Apache-2.0许可，不自动外推至私有题。
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
 
 ### 论文修订记录
 
@@ -302,7 +348,7 @@ v1.1（官方卡注明2026年10月上线）；与v1.0分数不直接可比。
 
 来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
 
-## 八、榜单快照
+## 八、历史榜单快照（保留；当前结构化排名见页首）
 
 ### 采集日
 
@@ -383,9 +429,13 @@ https://artificialanalysis.ai/evaluations/omniscience
 
 ### 覆盖与时效限制
 
-新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（页面未展示全榜最后更新日）；2026-11-07仅为采集日期（Asia/Seoul）。
+当前快照来源：https://artificialanalysis.ai/evaluations/omniscience。保留模型配置原名。整体更新时间与各模型实际运行日期待核实。 
 
-来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）。
+下面保留的上轮结果只作历史，不与页首当前榜混排。
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
 
 ## 九、联系方式
 
@@ -486,3 +536,11 @@ abedc69e8235329cbfe0fe49cc33928a5b1732bc054637328c00b07f588b5dfa
     - leaderboard.coverage_note
 
 来源：[1](https://artificialanalysis.ai/evaluations/omniscience)（采集 2026-11-07）；[2](https://arxiv.org/pdf/2511.13029)（采集 2026-11-07）。
+
+### 2026-11-07 热门版本复核
+
+近期热门版本复核：v1.0为6000题/公开600题；v1.1为3000题/公开300题、私有2700题，保留6大领域。删除饱和题及旧公开题，增加新题，修正歧义和错误；v1.0/v1.1分数不能直接比较。公开子集Apache-2.0许可，不自动外推至私有题。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
+
+- [https://artificialanalysis.ai/evaluations/omniscience](https://artificialanalysis.ai/evaluations/omniscience)（accessed 2026-11-07）
+- [https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1](https://huggingface.co/datasets/ArtificialAnalysis/AA-Omniscience-Public-v1.1)（accessed 2026-11-07）
+- [https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)（accessed 2026-11-07）
