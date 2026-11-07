@@ -1,14 +1,14 @@
 {
   "id": "webarena",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
+  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
   "basic_info": {
     "name": {
       "value": "WebArena",
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "保留官方名称，不把论文标题自动扩写为全称。"
@@ -27,7 +27,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -36,30 +36,31 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "论文修订版本不等同数据集版本。"
+      ]
     },
     "release_date": {
-      "value": "2023-07-26 07:59:32 KST",
+      "value": {
+        "paper_first_submission_kst": "2023-07-26T07:59:32+09:00",
+        "date_type": "论文首次提交，不等同数据集首次上线"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      ]
     },
     "section": {
       "value": "Agent",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨领域仅主板块计数。"
+      "note": "Benchmark Constitution 编辑归档；跨领域仅主板块计数。"
     },
     "subfields": {
       "value": [
@@ -68,7 +69,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -86,7 +87,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -95,7 +96,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -104,7 +105,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -113,7 +114,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -122,7 +123,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -133,7 +134,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -145,7 +146,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "依论文项目页作者署名机构；与环境中模仿的网站品牌无合作推断。"
@@ -168,7 +169,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -177,7 +178,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -186,7 +187,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -197,7 +198,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -206,7 +207,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -217,7 +218,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -226,7 +227,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -235,7 +236,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -244,11 +245,11 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -257,7 +258,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -268,7 +269,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -277,7 +278,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -290,7 +291,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -299,7 +300,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -308,7 +309,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -317,7 +318,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -328,7 +329,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -337,7 +338,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -346,7 +347,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -355,7 +356,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -364,18 +365,22 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2307.13854",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -400,7 +405,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/html/2609.19134v1",
@@ -412,16 +417,37 @@
         },
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 KST (9,497 KB) [v2] 2023-10-24 12:19:22 KST (8,751 KB) [v3] 2023-10-25 10:56:14 KST (8,751 KB) [v4] 2024-04-17 00:13:18 KST (9,472 KB)",
+      "value": {
+        "previous_evidence_note": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 KST (9,497 KB) [v2] 2023-10-24 12:19:22 KST (8,751 KB) [v3] 2023-10-25 10:56:14 KST (8,751 KB) [v4] 2024-04-17 00:13:18 KST (9,472 KB)",
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2023-07-26T07:59:32+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2023-10-24T12:19:22+09:00"
+          },
+          {
+            "version": "v3",
+            "date_kst": "2023-10-25T10:56:14+09:00"
+          },
+          {
+            "version": "v4",
+            "date_kst": "2024-04-17T00:13:18+09:00"
+          }
+        ],
+        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -430,7 +456,7 @@
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -439,27 +465,31 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "VisualWebArena等增加视觉条件，WebArena-x/Infinity另有新任务；原始812题成绩不转贴到衍生版。",
+      "value": "VisualWebArena增加视觉条件；WebArena-Infinity按文档生成新环境及可验证任务。官方HF的webarena-infinity-trajectories为Infinity成功轨迹，不是canonical812任务原始测试卡；不得替代其数据身份。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/webarena-x/webarena-infinity-trajectories/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST",
       "sources": [
         {
-          "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -468,11 +498,11 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -481,7 +511,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
@@ -490,76 +520,1118 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "Narada AI Code",
           "score": 86.1,
           "unit": "%",
-          "metric": "task success (%)",
-          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
-          "date": "09/2026",
-          "accessed": "2026-11-07 KST",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "09/2026",
+          "result_source": "Narada AI Code",
+          "settings": "",
+          "open_source": "✗",
+          "model_size_billion": "-",
           "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "provenance": "官方汇总参评者报告；非独立统一复跑。",
-          "leaderboard_updated_at": "待核实",
-          "result_source": "Narada AI Code"
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
         },
         {
+          "rank": 2,
           "model": "Deepseek v3.2",
           "score": 74.3,
           "unit": "%",
-          "metric": "task success (%)",
-          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
-          "date": "02/2026",
-          "accessed": "2026-11-07 KST",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "02/2026",
+          "result_source": "WebTactix",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
           "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "provenance": "官方汇总参评者报告；非独立统一复跑。",
-          "leaderboard_updated_at": "待核实",
-          "result_source": "WebTactix"
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
         },
         {
+          "rank": 3,
           "model": "OpAgent",
           "score": 71.6,
           "unit": "%",
-          "metric": "task success (%)",
-          "scope": "官方WebArena Sheet主榜；success rate，原始812任务口径，具体harness见原工作",
-          "date": "01/2026",
-          "accessed": "2026-11-07 KST",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2026",
+          "result_source": "OpAgent",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
           "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "provenance": "官方汇总参评者报告；非独立统一复跑。",
-          "leaderboard_updated_at": "待核实",
-          "result_source": "OpAgent"
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
         },
         {
-          "model": "GPT-4-0613 + CoT",
+          "rank": 4,
+          "model": "ColorBrowserAgent",
+          "score": 71.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "12/2025",
+          "result_source": "ColorBrowserAgent",
+          "settings": "ite-specific knowledge adaptation & progressive summarization for long-horizon tasks.",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 5,
+          "model": "Claude Code + GBOX MCP",
+          "score": 68.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2025",
+          "result_source": "GBOX AI",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 6,
+          "model": "DeepSky Agent",
+          "score": 66.9,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "09/2025",
+          "result_source": "Self-reported",
+          "settings": "",
+          "open_source": "✗",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 7,
+          "model": "Narada AI",
+          "score": 64.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2025",
+          "result_source": "Self-reported",
+          "settings": "",
+          "open_source": "✗",
+          "model_size_billion": "",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 8,
+          "model": "IBM CUGA",
+          "score": 61.7,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "02/2025",
+          "result_source": "IBM CUGA",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 9,
+          "model": "OpenAI Operator",
+          "score": 58.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2025",
+          "result_source": "OpenAI CUA",
+          "settings": "System card",
+          "open_source": "✗",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 10,
+          "model": "Jace.AI",
+          "score": 57.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "08/2024",
+          "result_source": "Reported by zetalabs.ai",
+          "settings": "Note from the developer of the work, see the comment of the cell",
+          "open_source": "✗",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 11,
+          "model": "GLM-4-32B + Qwen2.5-VL-7B",
+          "score": 56.3,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "06/2026",
+          "result_source": "WebChallenger",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "32 + 7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 12,
+          "model": "WebOperator + GPT-4o",
+          "score": 54.6,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "12/2025",
+          "result_source": "WebOperator",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 13,
+          "model": "ScribeAgent + GPT-4o",
+          "score": 53.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "12/2024",
+          "result_source": "ScribeAgent",
+          "settings": "ScribeAgent is finetuned with proprietary data",
+          "open_source": "✗",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 14,
+          "model": "AgentSymbiotic",
+          "score": 52.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2025",
+          "result_source": "AgentSymbiotic",
+          "settings": "Code",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 15,
+          "model": "Learn-by-Interact",
+          "score": 48.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2025",
+          "result_source": "Learn-by-interact",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 16,
+          "model": "AgentOccam-Judge",
+          "score": 45.7,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2024",
+          "result_source": "AgentOccam-Judge",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 17,
+          "model": "A3-Qwen3.5-9B",
+          "score": 42.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2026",
+          "result_source": "Agent-as-Annotators",
+          "settings": "Multimodal (AXTree + screenshots). SFT on 2,322 synthetic trajectories from Gemini 3 Pro. Evaluated using GenericAgent/BrowserGym.",
+          "open_source": "✔",
+          "model_size_billion": "9",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 18,
+          "model": "WebPilot",
+          "score": 37.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "08/2024",
+          "result_source": "WebPilot",
+          "settings": "No open source code or trajectory released from the work",
+          "open_source": "✗",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 19,
+          "model": "GUI-API Hybrid Agent",
+          "score": 35.8,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2024",
+          "result_source": "Beyond Browsing",
+          "settings": "Using both API and GUI",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 20,
+          "model": "Agent Workflow Memory",
+          "score": 35.5,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "09/2024",
+          "result_source": "AWM",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 21,
+          "model": "SteP",
+          "score": 33.5,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "SteP",
+          "settings": "High-level plans are derived by human",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 22,
+          "model": "TTI",
+          "score": 26.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "06/2025",
+          "result_source": "TTI",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "12",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 23,
+          "model": "BrowserGym + GPT-4",
+          "score": 23.5,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "WorkArena",
+          "settings": "different observation representation",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 24,
+          "model": "AgentTrek-1.0-32B",
+          "score": 22.4,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2025",
+          "result_source": "AgentTrek",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "32",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 25,
+          "model": "GPT-4 + Auto Eval",
+          "score": 20.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "Auto Eval & Refine",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 26,
+          "model": "GPT-4o + Tree Search",
+          "score": 19.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "06/2024",
+          "result_source": "Tree Search for LM Agents",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 27,
+          "model": "AutoWebGLM",
+          "score": 18.2,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "AutoWebGLM",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 28,
+          "model": "NNetNav",
+          "score": 16.3,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2025",
+          "result_source": "NNetscape",
+          "settings": "LLama 3.1-8B-instruct fine-tuned on NNetNav6k (a newer version of the dataset where the work keeps the best of 3 trajectories for each instruction, where we use a llama 3.1 70b as the reward model). \nThe model is available here: https://huggingface.co/stanfordnlp/llama8b-nnetnav-wa",
+          "open_source": "✔",
+          "model_size_billion": "8",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 29,
+          "model": "gpt-4-0613",
+          "score": 14.9,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "06/2023",
+          "result_source": "WebArena",
+          "settings": "when \"not achievable\" hint is not provided",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 30,
+          "model": "gpt-4o-2024-05-13",
+          "score": 13.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "05/2024",
+          "result_source": "WebArena Team",
+          "settings": "when \"not achievable\" hint is provided",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 31,
+          "model": "gpt-4-0613",
+          "score": 11.7,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "06/2023",
+          "result_source": "WebArena",
+          "settings": "when \"not achievable\" hint is provided",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 32,
+          "model": "Patel et al + 2024",
+          "score": 9.36,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "05/2024",
+          "result_source": "Patel et al + 2024",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "72",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 33,
+          "model": "gpt-3.5-turbo-16k-0613",
+          "score": 8.87,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "03/2023",
+          "result_source": "WebArena",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 34,
+          "model": "Qwen-1.5-chat-72b",
+          "score": 7.14,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "09/2023",
+          "result_source": "Patel et al + 2024",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "72",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 35,
+          "model": "Gemini Pro",
+          "score": 7.12,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "12/2023",
+          "result_source": "WebArena",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "-",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 36,
+          "model": "Llama3-chat-70b",
+          "score": 7.02,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "WebArena Team",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "70",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 37,
+          "model": "Synatra-CodeLLama7b",
+          "score": 6.28,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2024",
+          "result_source": "Synatra",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 38,
+          "model": "Lemur-chat-70b",
+          "score": 5.3,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2023",
+          "result_source": "Lemur",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "70",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 39,
+          "model": "Agent Flan",
+          "score": 4.68,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "03/2024",
+          "result_source": "Agent Flan",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 40,
+          "model": "CodeLlama-instruct-34b",
+          "score": 4.06,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "08/2023",
+          "result_source": "Lemur",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "34",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 41,
+          "model": "AgentLM-70b",
+          "score": 3.81,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2023",
+          "result_source": "Agent Tuning",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "70",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 42,
+          "model": "Llama3-chat-8b",
+          "score": 3.32,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "04/2024",
+          "result_source": "WebArena Team",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "8",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 43,
+          "model": "CodeAct Agent",
+          "score": 2.3,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "02/2024",
+          "result_source": "WebArena Team",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 44,
+          "model": "AgentLM-13b",
+          "score": 1.6,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2023",
+          "result_source": "Agent Tuning",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "13",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 45,
+          "model": "Mixtral",
+          "score": 1.39,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "01/2024",
+          "result_source": "Gemini In-depth look",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "8x7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 46,
+          "model": "AgentLM-7b",
+          "score": 0.74,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2023",
+          "result_source": "Agent Tuning",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 47,
+          "model": "FireAct",
+          "score": 0.25,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "10/2023",
+          "result_source": "Agent Flan",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": 48,
+          "model": "CodeLlama-instruct-7b",
+          "score": 0.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet主榜（参评者汇总）",
+          "source_date": "08/2023",
+          "result_source": "WebArena Team",
+          "settings": "",
+          "open_source": "✔",
+          "model_size_billion": "7",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "排名按原主榜展示序；并非统一harness/训练数据独立复跑。"
+        },
+        {
+          "rank": null,
+          "model": "AutoGuide",
+          "score": 43.7,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet/Reddit子集",
+          "source_date": "03/2024",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "原CSV尾部子集行错位，按原行AutoGuide/AutoManual和数值解析；不混入812题主榜。"
+        },
+        {
+          "rank": null,
+          "model": "AutoManual",
+          "score": 65.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet/Reddit子集",
+          "source_date": "09/2024",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "note": "原CSV尾部子集行错位，按原行AutoGuide/AutoManual和数值解析；不混入812题主榜。"
+        },
+        {
+          "rank": null,
+          "model": "Human",
+          "score": 78.24,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "官方Sheet/按模板选择的人类子集",
+          "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
+          "accessed": "2026-11-08",
+          "settings": "Selected tasks by templates"
+        },
+        {
+          "rank": null,
+          "model": "TEXT-BISON-001",
+          "score": 5.05,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "TEXT-BISON-001",
+          "score": 4.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "TEXT-BISON-001",
+          "score": 27.78,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 6.41,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=True/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 4.9,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=True/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 38.89,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=True/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 8.75,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 6.44,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 58.33,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
+          "score": 11.7,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
+          "score": 8.63,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
+          "score": 77.78,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=True/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 5.1,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=False/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 4.9,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=False/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 8.33,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=False/UA_hint=False/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 6.16,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 6.06,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5",
+          "score": 8.33,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
           "score": 14.41,
-          "metric": "task success (%)",
-          "benchmark_version": "原始812任务",
-          "result_type": "论文历史基线",
-          "source_date": "原论文Table3",
-          "collected_at": "2026-11-07 KST",
-          "settings": "no unachievable hint；2-shot/30步"
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
+          "score": 13.02,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4",
+          "score": 44.44,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=True/UA_hint=False/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "Human",
+          "score": 78.24,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=None/UA_hint=True/all",
+          "scope": "all",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "Human",
+          "score": 77.3,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=None/UA_hint=True/achievable",
+          "scope": "achievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
+        },
+        {
+          "rank": null,
+          "model": "Human",
+          "score": 100.0,
+          "unit": "%",
+          "metric": "task success rate",
+          "track": "原论文v4 Table 2/CoT=None/UA_hint=True/unachievable",
+          "scope": "unachievable",
+          "source_url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08",
+          "provenance": "论文历史基线；human仅按模板选取任务，非完整812独立人类结果。"
         }
       ],
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "本轮从原始项目页Leaderboard链接读取公开Sheet，当前主榜前三Narada AI Code 86.1（09/2026）、Deepseek v3.2 74.3（02/2026，WebTactix）、OpAgent 71.6（01/2026）。日期是表中月份，不擅补日；整体榜单更新日待核实。不同系统、训练数据、harness与可达性提示不统一，部分结果自报。论文历史GPT-4+CoT 14.41与Sheet gpt-4-0613 14.9未完全一致，保留双方来源，不将其视为相同复测。",
+      "value": "本轮读取官方Sheet全部51行：48主榜、2个Reddit子集、1个人类模板抽样；子集CSV字段错位已按原值复位，保留原source_date月份。追加原论文v4 Table 2全部8配置的all/achievable/unachievable三类成绩。旧档把14.41归为Table 3已纠正为Table 2；Sheet14.9与论文14.41不强行合并。",
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2307.13854",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -574,7 +1646,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -583,7 +1655,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "公开仓库反馈入口；未发送问题。"
@@ -593,7 +1665,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
@@ -604,7 +1676,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
@@ -617,7 +1689,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "归档为下载时源站提供的 PDF；论文版本和基准版本分别记录。"
@@ -627,20 +1699,19 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 9128123,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2307.13854",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
+      ]
     },
     "drive_folder": {
       "value": {
@@ -665,7 +1736,7 @@
       "sources": [
         {
           "url": "https://webarena.dev/og/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk",
@@ -699,12 +1770,22 @@
         "timezone": "KST / Asia/Seoul",
         "round": "1 / 深度实证复核",
         "change": "补v0.2.0/AgentLab运行口径，重读官方Sheet当前前三和H2收录；并列论文14.41与Sheet14.9历史差异。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "round": "2",
+        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
       }
     ],
     "sources": [
       {
-        "url": "https://webarena.dev/og/",
-        "accessed": "2026-11-07"
+        "url": "https://arxiv.org/abs/2307.13854",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/web-arena-x/webarena/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

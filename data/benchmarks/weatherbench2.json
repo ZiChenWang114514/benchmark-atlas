@@ -7,15 +7,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -28,15 +28,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -46,66 +46,32 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "WeatherBench 2框架；代码/数据按仓库及具体存储路径管理，不将论文v2当数据版本。当前评测代码后继为WeatherBench-X，WB2数据指南仍适用。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
       "value": "arXiv v2",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "2023/08/29",
+      "value": {
+        "paper_first_submission_kst": "2023-08-30T03:32:08+09:00",
+        "date_type": "论文首次提交，不等同数据集首次上线"
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -114,10 +80,10 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+      "note": "Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
     },
     "subfields": {
       "value": [
@@ -126,15 +92,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -143,11 +109,19 @@
       ]
     },
     "license": {
-      "value": "代码：Apache-2.0；各来源气象数据的许可需分别核对。",
+      "value": "代码Apache-2.0；本轮打开GCS era5/LICENSE为Copernicus Products Licence v1.2（2019-11）：合法用途可使用，须署名及遵守再分发/修改声明要求。数据指南警告各基线许可不同、TIGGE仅供研究；不得把Apache覆盖整个数据桶。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://storage.googleapis.com/weatherbench2/datasets/era5/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -156,15 +130,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -177,7 +151,7 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -186,15 +160,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -207,15 +181,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -228,15 +202,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -247,128 +221,84 @@
   },
   "organization": {
     "initiators": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
-    },
-    "partners": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
-    },
-    "authors": {
       "value": [
-        "Rasp, Stephan",
-        "Hoyer, Stephan",
-        "Merose, Alexander",
-        "Langmore, Ian",
-        "Battaglia, Peter",
-        "Russel, Tyler",
-        "Sanchez-Gonzalez, Alvaro",
-        "Yang, Vivian",
-        "Carver, Rob",
-        "Agrawal, Shreya",
-        "Chantry, Matthew",
-        "Bouallegue, Zied Ben",
-        "Dueben, Peter",
-        "Bromberg, Carla",
-        "Sisk, Jared",
-        "Barrington, Luke",
-        "Bell, Aaron",
-        "Sha, Fei"
+        "Google Research",
+        "Google DeepMind",
+        "ECMWF"
       ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
-    "maintainer": {
-      "value": "待核实",
+    "partners": {
+      "value": [
+        "Google Research",
+        "Google DeepMind",
+        "European Centre for Medium-Range Weather Forecasts"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "论文作者署名机构，不额外推断出资/商业合作。"
+    },
+    "authors": {
+      "value": [
+        "Stephan Rasp",
+        "Stephan Hoyer",
+        "Alexander Merose",
+        "Ian Langmore",
+        "Peter Battaglia",
+        "Tyler Russell",
+        "Alvaro Sanchez-Gonzalez",
+        "Vivian Yang",
+        "Rob Carver",
+        "Shreya Agrawal",
+        "Matthew Chantry",
+        "Zied Ben Bouallegue",
+        "Peter Dueben",
+        "Carla Bromberg",
+        "Jared Sisk",
+        "Luke Barrington",
+        "Aaron Bell",
+        "Fei Sha"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2308.15560",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "note": "按PDF首页更正Tyler Russell拼写。"
+    },
+    "maintainer": {
+      "value": "Google Research的weatherbench2项目；官方README接收社区GitHub issues/contributions，并推荐迁移WeatherBench-X计分代码，WB2数据指南继续适用。",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "funders": {
       "value": "待核实",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -385,15 +315,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -402,23 +332,15 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "更新全球中期天气预报评测，比较数据驱动与传统数值预报。",
+      "value": "相较WB1，提高数据分辨率和云端可访问性、提供可扩展计分，加入概率预测、频谱与偏差等指标，并让业务物理模式对自己的analysis验证以改善初值/真值可比性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -429,15 +351,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -446,115 +368,69 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "Google Research/DeepMind与ECMWF的机器学习和业务数值天气研究者设计数据与评测；不是人工编写语言试题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "整合公开训练、真值和基线数据，以业务气象中心惯例设计评估。",
+      "value": "以气象中心/WMO常规验证为依据，统一初始时次、验证年份、变量、网格及指标；业务模式用IFS analysis，ERA5训练模式用ERA5。具体模式训练/验证年份各自披露，不是全体共用训练集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "数据用一阶保守重网格，按网格单元重叠面积加权；论文默认1.5°（240×121）评测。分别研究分辨率、初始时次、analysis与ERA5及再分析真值局限，降水示例不可过度解读为观测预测精度。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "天气时序不是文本去污染任务。初始论文评测2020年00/12 UTC初始化，个别模型训练保留不同年份；当前官网headline为2022。必须披露训练年份是否包含测试年份/未来年份，官网WeatherMesh 4明确标未来年份训练，不等于所有模式均遵守严格时间外推。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "天气时空场；论文描述 1–14 天，当前官网概述为 1–15 天，应保留版本差异。",
+      "value": "当前数据指南：ERA5 1959–2023资料，常用版本6小时、13层，另有1小时37层原始高分辨率文件；提供1440×721、240×121（含两极）及64×32（不含两极）多种网格。不是固定数量的自然语言样本。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -563,15 +439,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -580,96 +456,60 @@
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "数值时空气象场：上层/地表变量、压力层、经纬网格和预报时效；云优化Zarr、xarray/Beam处理，不是图文多选题。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "不适用：有物理坐标和单位的数组；英文变量/文档并非自然语言能力评测语言。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "按变量、压力层、地理区域、预报时效及确定性/概率任务分层，不设一道题一个难度等级；原论文中期1–14天，当前官网概述1–15天。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "云端公开真值/基线；无统一“题库train/test”。原论文2020年所有00/12 UTC初始化，预报可延伸到2021；当前官网headline评测2022，交互页可选2018/2020/2022。各模式训练年份须独立检查。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -678,7 +518,7 @@
       "sources": [
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -687,15 +527,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -704,42 +544,36 @@
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "不适用提示词；固定初始时次、起报年、lead_time、变量/层、region和网格。业务模式对analysis，其他模式对ERA5；确定性ensemble mean与单成员、概率CRPS必须分开。当前交互页默认Temperature/RMSE/850hPa/Global/2022/240×121。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
       "value": "https://github.com/google-research/weatherbench2",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -752,30 +586,22 @@
       "sources": [
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -784,13 +610,30 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_revision_history": {
-      "value": "2026H2 引用证据：ClimateBench v2.0 第5.4节引用 Rasp et al. (2024) 的 WeatherBench 2，采用按变量与时效报告而不压成总排名的原则。",
+      "value": {
+        "previous_evidence_note": "2026H2 引用证据：ClimateBench v2.0 第5.4节引用 Rasp et al. (2024) 的 WeatherBench 2，采用按变量与时效报告而不压成总排名的原则。",
+        "revisions": [
+          {
+            "version": "v1",
+            "date_kst": "2023-08-30T03:32:08+09:00"
+          },
+          {
+            "version": "v2",
+            "date_kst": "2024-01-26T23:26:23+09:00"
+          }
+        ],
+        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+      },
       "sources": [
+        {
+          "url": "https://arxiv.org/abs/2308.15560",
+          "accessed": "2026-11-08"
+        },
         {
           "url": "https://arxiv.org/abs/2610.04558",
           "accessed": "2026-11-07"
@@ -798,46 +641,32 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方FAQ明确不指定单一“最佳模型”，也不能以单一RMSE/CRPS高分推断饱和。预报场清晰度、偏差、概率校准、极端事件与地区差异需并行考察；没有总体百分比准确率。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "论文摘要为1–14天，当前官网为1–15天；当前官网还说明评测代码更新为 WeatherBench-X。保留版本差异，不擅自统一。",
+      "value": "官网headline评测2022，而FAQ部分模型说明仍沿用2020；WeatherMesh4条目写训练1971–2019及2021–2023、评测2020，必须保留该具体语境。ERA5/analysis不是直接站点观测，尤其降水不宜当可靠观测真值。原论文1–14天与官网1–15天也分开。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2308.15560",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -846,30 +675,22 @@
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-08 KST",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -878,7 +699,7 @@
       "sources": [
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -887,15 +708,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -906,68 +727,3143 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "待核实",
+      "value": [
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 41,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 136,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 306,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 521,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 809,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 0.63,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.19,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.84,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 2.62,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 3.62,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 0.53,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 0.96,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.28,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.55,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.84,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 1.6,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 3.23,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 5.15,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 7.07,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS HRES",
+          "score": 9.13,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 40,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 132,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 278,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 439,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 621,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 0.62,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.09,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.6,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 2.14,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 2.76,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 0.5,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 0.82,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.05,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.22,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.38,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 1.57,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 2.93,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 4.4,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 5.7,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "IFS ENS (mean)",
+          "score": 6.9,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 45,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 138,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 304,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 517,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 799,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 0.68,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.12,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.76,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 2.55,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 3.57,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 0.53,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 0.87,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.18,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.46,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.78,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 1.69,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 3.03,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 4.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 6.81,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather (oper.)",
+          "score": 8.91,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 38,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 120,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 270,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 465,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 747,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 0.56,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 0.95,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 1.55,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 2.31,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 3.36,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 0.47,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 0.75,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 1.01,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 1.28,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 1.6,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 1.46,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 2.68,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 4.41,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 6.28,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast (oper.)",
+          "score": 8.47,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 39,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 124,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 264,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 421,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 607,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 0.56,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 0.95,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 1.47,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 2.04,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 2.69,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 0.48,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 0.76,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 0.98,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 1.15,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 1.33,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 1.49,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 2.7,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 4.16,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 5.48,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GenCast (oper.) (mean)",
+          "score": 6.77,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 38,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 119,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 262,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 442,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 668,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 0.56,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 0.95,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 1.5,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 2.15,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 2.97,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 0.47,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 0.77,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 1.01,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 1.21,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 1.43,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 1.43,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 2.67,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 4.21,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 5.68,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Aurora (oper.)",
+          "score": 7.14,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 32,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 104,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 233,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 388,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 583,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 0.51,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 0.86,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 1.34,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 1.91,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 2.59,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 0.44,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 0.7,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 0.91,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 1.1,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 1.3,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 1.33,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 2.43,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 3.82,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 5.2,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "FGN (oper.) (mean)",
+          "score": 6.6,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/analysis",
+          "truth_dataset": "analysis",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 44,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 134,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 295,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 503,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 789,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 0.62,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.05,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.71,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 2.51,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 3.56,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 0.53,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 0.86,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.16,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.45,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.76,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 1.65,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 2.98,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 4.8,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 6.71,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Pangu-Weather",
+          "score": 8.85,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 33,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 112,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 250,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 407,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 599,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 0.47,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 0.88,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 1.42,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 2.0,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 2.67,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 0.45,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 0.75,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 0.96,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 1.14,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 1.34,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 1.31,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 2.59,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 4.07,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 5.41,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Tianji",
+          "score": 6.75,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 39,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 122,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 270,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 459,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 732,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 0.51,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 0.93,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 1.54,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 2.3,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 3.36,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 0.46,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 0.77,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 1.03,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 1.28,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 1.58,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 1.4,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 2.71,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 4.42,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 6.2,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "GraphCast",
+          "score": 8.27,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 810,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 810,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 810,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 810,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 810,
+          "metric": "Z500 RMSE",
+          "unit": "m²/s²（依论文物理定义；官网图标签kg²/m²与论文物理单位冲突）",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 3.41,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 3.41,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 3.41,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 3.41,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 3.41,
+          "metric": "T850 RMSE",
+          "unit": "K",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 1.59,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 1.59,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 1.59,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 1.59,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 1.59,
+          "metric": "Q700 RMSE",
+          "unit": "g/kg",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 7.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 1,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 7.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 3,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 7.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 5,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 7.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 7,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        },
+        {
+          "rank": null,
+          "model": "Climatology",
+          "score": 7.88,
+          "metric": "WV850 RMSE",
+          "unit": "m/s",
+          "track": "官网2022上层确定性scorecard/ERA5",
+          "truth_dataset": "ERA5",
+          "evaluation_year": 2022,
+          "lead_time_days": 10,
+          "source_url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08",
+          "note": "逐格转录图上显示值，非由颜色估算；图表原显示精度。列表行序不表示排名。"
+        }
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://sites.research.google/weatherbench/",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "coverage_note": {
-      "value": "2026-11-07 读取官方页面，图形 scorecard 数值未可靠提取，results 保留待核实；不能把 participating models 表当排名。官网未明示整体榜单更新日期。",
+      "value": "本轮直接打开官网原始2022上层确定性scorecard PNG，逐格转录11方法×4指标×5时效=220个明确显示数值；不从颜色或曲线估读。仅该图可见模型，不含全部参与者/地表/概率榜。业务/业务初始化模型对analysis，其余对ERA5；不设唯一总排名。Z500图标签与论文物理单位不一致，单位按论文定义说明，数值不改。FAQ的2020训练年份说明不能自动套到2022图。",
       "sources": [
         {
+          "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://sites.research.google/gr/weatherbench/faq/",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2308.15560",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "srasp@google.com"
+      ],
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://weatherbench2.readthedocs.io/en/latest/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/google-research/weatherbench2/issues",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "官方公开仓库的问题反馈入口；未发送消息。"
@@ -977,15 +3873,15 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://sites.research.google/weatherbench/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://weatherbench2.readthedocs.io/en/latest/",
@@ -1011,11 +3907,11 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -1024,17 +3920,17 @@
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 28480050,
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.15560",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -1089,18 +3985,24 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul",
+        "round": "2",
+        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
       }
     ],
     "sources": [
       {
         "url": "https://arxiv.org/abs/2308.15560",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       },
       {
-        "url": "https://arxiv.org/pdf/2308.15560",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   },
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
+  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实"
 }
