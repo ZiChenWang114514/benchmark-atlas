@@ -27,22 +27,20 @@
       ]
     },
     "version": {
-      "value": "待核实",
-      "sources": [
-        {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
-    },
-    "paper_version": {
-      "value": "arXiv v2（2026-10-01 修订）",
+      "value": "论文v2所定义262实例/1,572任务；无单独数据集语义版本号",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.11469",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "v2（论文版本；不等于数据集版本）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -78,15 +76,14 @@
       ]
     },
     "license": {
-      "value": "未公开",
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "未公开",
-      "note": "Vals 页面标注 Proprietary，19个程序为私有。"
+      "status": "待核实"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2608.11469",
@@ -140,15 +137,13 @@
   },
   "organization": {
     "initiators": {
-      "value": "待核实",
+      "value": "Columbia University等论文作者团队，Vals AI参与共建及托管；包括UC Berkeley、UCLA、Tufts以及产业研究作者。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "partners": {
       "value": "待核实",
@@ -230,35 +225,31 @@
       ]
     },
     "author_background": {
-      "value": "逆向工程领域专家，投入超过5,000专家小时",
+      "value": "逆向工程专家平均6年经验，总投入超过5,000专家小时；19程序分别从私有设计规范独立实现，不共享代码且不基于公开项目。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.11469",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "每程序私有参考解必须得6/6作为可解性及回归门；用Opus 4.8与GPT-6-Astra进行对抗性reward-hacking审计，发现可读隐藏行为字符串后移除并加入构建回归检查。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "目标、评分基础设施及保护套件全部内部构建；评分代码、参考解和开发产物从agent容器移除，运行中不提供评分反馈；域级任务通过确定性server、回放或沙箱验证。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "decontamination": {
       "value": "全部从零 clean-room 构建、程序私有，以避免出现在训练数据中",
@@ -310,26 +301,22 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "目标程序实现语言：C、C++、Rust、Go；固件不含Go。交互/问题自然语言完整分布待核实。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "19程序平均16,915.8行代码，44保护原语组成8预设；262二进制实例，每实例6确定性子任务。论文公共API评测中最佳149/181已评分实例全解，并非149/262的条件成功率。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "私有（Vals 标注 Proprietary）",
@@ -343,31 +330,33 @@
   },
   "evaluation": {
     "metrics": {
-      "value": "Fully Solved（实例6任务全对才计）与 Capability Score（1,572任务完成比例）；Vals 榜显示 Accuracy",
+      "value": "Fully Solved：每实例6项全对才算解决；Capability Score：每实例完成6项的比例。论文Table 4只平均可评分实例；Vals Accuracy把全部262实例纳入且失败计0。总任务库存为262×6=1,572，不是论文条件平均的固定分母。",
       "sources": [
         {
+          "url": "https://arxiv.org/pdf/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "scoring": {
-      "value": "待核实",
+      "value": "论文Table 4的Score、Solved与Zeros只对gradable runs计算，拒答及上下文失败不入分母；Vals方法则明确以全部262实例为分母，失败记零。两套百分比不可直接比较。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "prompt_settings": {
-      "value": "所有 agent 在相同的仅 shell 循环与相同逆向工具箱中运行",
+      "value": "论文公共设置：mini-SWE-agent、最高推理档、最多500模型steps和6小时，标准RE工具箱；内部unconstrained设置：Codex/Claude Code、关闭cyber safeguards且无预算上限。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -383,26 +372,26 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "comparability_warning": {
-      "value": "论文中有公开设置与关闭安全护栏、无预算上限的内部设置，两者不可混比；Vals 榜分数与论文表格口径可能不同。",
+      "value": "论文gradable-run条件成绩与Vals全262实例成绩分母明确不同；内部关闭安全护栏、无预算上限、多尝试Codex/Claude Code又是独立协议，不能混排。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.11469",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.11469",
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -451,55 +440,68 @@
       "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
     },
     "paper_revision_history": {
-      "value": "v1 2026-08-11；v2 2026-10-01",
+      "value": [
+        {
+          "version": "v1",
+          "submitted_at": "2026-08-12T07:14:57+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2026-10-01T10:37:46+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.11469",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "Vals当前最高Accuracy为56.87%；论文内部无约束配置GPT-6-Astra Max达到88.0% pass@1和99.2% pass@4（4尝试）。后者不衡量无私有grader的正确候选选择能力，也不意味着公共API单次评测饱和。",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "论文明确不公开二进制与任务实例以维持污染抵抗，提供受控评测服务；19程序的覆盖面有限且平均规模仍小于大型真实软件。“contamination-free”是作者设计主张，不等于独立审计已证明所有未来训练均无泄漏。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "SRE表示二进制逆向评测，不是Site Reliability Engineering。与ProgramBench的行为重实现不同，后者提供已知公开程序及文档。",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -526,79 +528,642 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "GPT-6 Astra",
-          "score": "56.87%",
-          "metric": "Accuracy",
-          "result_type": "官方榜单快照",
-          "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "score": 56.87,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 1,
+          "source_date": "2026-11-05"
         },
         {
-          "rank": 2,
           "model": "GPT-6.1 Sol",
-          "score": "50.76%",
-          "metric": "Accuracy",
-          "result_type": "官方榜单快照",
-          "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "score": 50.76,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2,
+          "source_date": "2026-11-05"
         },
         {
-          "rank": 3,
           "model": "Gemini 4 Argon",
-          "score": "44.27%",
-          "metric": "Accuracy",
-          "result_type": "官方榜单快照",
-          "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "score": 44.27,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3,
+          "source_date": "2026-11-05"
         },
         {
-          "rank": 4,
           "model": "Claude Opus 5.5",
-          "score": "33.59%",
-          "metric": "Accuracy",
-          "result_type": "官方榜单快照",
-          "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "score": 33.59,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "source_date": "2026-11-05"
         },
         {
-          "rank": 5,
           "model": "Daybreak Blue",
-          "score": "31.68%",
-          "metric": "Accuracy",
-          "result_type": "官方榜单快照",
-          "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST"
+          "score": 31.68,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 30.53,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT-6 Sol",
+          "score": 30.53,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 7,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Sonnet 5.5",
+          "score": 30.15,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Kimi K3.1 Pro",
+          "score": 27.1,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 9,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 22.9,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 10,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Opus 5.5 (CVP)",
+          "score": 21.76,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 11,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Opus 5",
+          "score": 12.21,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 12,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Wonder Full",
+          "score": 11.83,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 13,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "score": 11.07,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 14,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT-5.6 Terra",
+          "score": 9.54,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 15,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GLM 5.3",
+          "score": 9.16,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 16,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Haiku 5.5",
+          "score": 5.72,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 17,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Gemini 3.7 Flash",
+          "score": 4.58,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 18,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "MiMo V2.6 Flash",
+          "score": 4.2,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 19,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Grok 4.7",
+          "score": 3.82,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 20,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT 5.5",
+          "score": 3.82,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 21,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Muse Spark 1.3 Max",
+          "score": 3.82,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 22,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "MiMo V2.6 Pro",
+          "score": 3.05,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 23,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT-6 Luna",
+          "score": 2.67,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 24,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Hy4 Preview",
+          "score": 2.29,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 25,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813",
+          "score": 1.91,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 26,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Inkling 2 Small",
+          "score": 1.91,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 27,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GPT-5.6 Luna",
+          "score": 1.53,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 28,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "DeepSeek V4.1 Flash",
+          "score": 0.76,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 29,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GLM 5.3 Flash",
+          "score": 0.76,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 30,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Grok 4.5",
+          "score": 0.76,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 31,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "score": 0.38,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 32,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Step 5 Preview",
+          "score": 0.38,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 33,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "GLM 5.2",
+          "score": 0.0,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 34,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Muse Spark 1.2",
+          "score": 0.0,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 35,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview (02/26)",
+          "score": 0.0,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 36,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "Inkling",
+          "score": 0.0,
+          "metric": "Accuracy (%)；全262实例",
+          "track": "Vals current / denominator 262",
+          "source_url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 37,
+          "source_date": "2026-11-05"
+        },
+        {
+          "model": "gpt-6-astra",
+          "score": 5.55,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 181,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 82.3
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "score": 3.69,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 254,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 31.5
+        },
+        {
+          "model": "claude-fable-5.1",
+          "score": 2.58,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 223,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 26.9
+        },
+        {
+          "model": "claude-opus-5",
+          "score": 1.91,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 256,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 12.5
+        },
+        {
+          "model": "gpt-5.5",
+          "score": 1.02,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 262,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 3.8
+        },
+        {
+          "model": "deepseek-v4.1-flash",
+          "score": 0.85,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 262,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 0.8
+        },
+        {
+          "model": "grok-4.5",
+          "score": 0.45,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 218,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 0.9
+        },
+        {
+          "model": "glm-5.2",
+          "score": 0.21,
+          "metric": "mean successful tasks per graded binary (0–6)",
+          "track": "paper v2 Table 4 public / graded-only",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "n_graded": 262,
+          "total_instances": 262,
+          "fully_solved_percent_of_graded": 0.0
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 55.8,
+          "metric": "pass@1 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@1",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 68.7,
+          "metric": "pass@4 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@4",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "GPT-5.6 Cyber",
+          "score": 56.8,
+          "metric": "pass@1 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@1",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "GPT-5.6 Cyber",
+          "score": 72.5,
+          "metric": "pass@4 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@4",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "GPT-6-Astra",
+          "score": 88.0,
+          "metric": "pass@1 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@1",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "GPT-6-Astra",
+          "score": 99.2,
+          "metric": "pass@4 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@4",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "Opus 5.5",
+          "score": 82.1,
+          "metric": "pass@1 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@1",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
+        },
+        {
+          "model": "Opus 5.5",
+          "score": 98.1,
+          "metric": "pass@4 (%)",
+          "track": "paper v2 Table 11 internal unconstrained Max / pass@4",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "reasoning_effort": "Max",
+          "safety_guards": "disabled",
+          "attempts_per_instance": 4
         }
       ],
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "Vals 页面自写更新 2026-11-05，共37个模型。",
+      "value": "Vals全部37模型Accuracy按262实例分母单独成轨；论文Table 4的8模型分别记录条件Score与条件Solved，明确n_graded；Table 11 Max内部pass@1/pass@4另轨，不混作公开API榜。官网BibTeX称forthcoming、但arXiv v2已实际打开，以arXiv完整署名和修订史为准。",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "js6721@columbia.edu",
+        "41zz@cs.columbia.edu"
+      ],
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "github_issues": {
       "value": "待核实",
@@ -639,32 +1204,29 @@
       "value": "https://arxiv.org/pdf/2608.11469",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2608.11469",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.11469",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "04416ad347e07e0cb2d4eda5e80fba82bcb3e296ed9ef16b38edbc1a4e5d2905",
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.11469",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本次实际下载的PDF字节计算；未上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 692156,
       "sources": [
         {
-          "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2608.11469",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -678,15 +1240,28 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
+          "type": "本轮已打开一手材料",
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
           "url": "https://www.vals.ai/benchmarks/srebench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11469",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -706,12 +1281,21 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
+        "url": "https://arxiv.org/abs/2608.11469",
+        "accessed": "2026-11-08"
+      },
+      {
         "url": "https://www.vals.ai/benchmarks/srebench",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

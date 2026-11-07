@@ -1,8 +1,10 @@
 # SciUniverse Level 1
 
-> 核查：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；待核实不等于未公开。
+> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
 
-已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
+SciUniverse把科研评测的起点前移到样品、仪器和实验操作：模型既要做计划，也要面对材料不足、设备故障和测量噪声。Level 1混合真实实验、模拟实验和实测数据解释，不能用“92次湿实验”概括。总体指标为17个家族等权，不是92题简单平均。
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -10,19 +12,19 @@
 
 SciUniverse Level 1
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 全称
 
 SciUniverse Level 1
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 基准版本
 
 Level 1
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 论文版本
 
@@ -30,7 +32,7 @@ Level 1
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 发布日期
 
@@ -38,29 +40,33 @@ Level 1
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 主板块
 
 化学
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 子领域
+### 领域
 
-- 生物与医学
-- 材料
-- 湿实验
+```json
+[
+  "生物与医学",
+  "材料",
+  "湿实验"
+]
+```
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 许可
+### 许可与适用范围
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 论文
 
@@ -68,15 +74,15 @@ Level 1
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 代码
+### 官方代码
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 数据
 
@@ -84,13 +90,13 @@ Level 1
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 官网
+### 官方入口
 
 https://c5r.net/sciuniverse/
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 论文标题
 
@@ -98,7 +104,7 @@ https://c5r.net/sciuniverse/
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 发起与维护
 
@@ -106,15 +112,15 @@ https://c5r.net/sciuniverse/
 
 C5R
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 合作方
+### 合作/参与机构
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 作者
 
@@ -122,13 +128,13 @@ C5R
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 维护方
 
 C5R
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 资助
 
@@ -136,7 +142,7 @@ C5R
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 设计目标
 
@@ -144,13 +150,13 @@ C5R
 
 化学、生物、材料科研全流程：样品准备、仪器操作、协议调整、实验学习、设施管理、真实测量解释。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 设计背景
 
 不只从清洁数据分析开始；检验真实材料仪器约束下的计划执行和失败后调整。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 构建方式
 
@@ -158,15 +164,13 @@ C5R
 
 Facility-0真实实验与模拟任务；反应优化用AIChemEco，NMR用nmrXiv/BMRB/NP-MRD，XRD用Dara，LC-MRM用CPTAC Study 9。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 出题人背景
+### 出题者背景
 
-待核实
+官方致谢将任务实施归于Facility-0的科学家、操作员和工程师，并列出外部实验数据及软件贡献者；本页未逐人署名。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ### 审核流程
 
@@ -174,44 +178,48 @@ Facility-0真实实验与模拟任务；反应优化用AIChemEco，NMR用nmrXiv/
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 质量控制
 
-模型通过facility harness控制设备并指示人类操作员；以实际产物/仪器结果检验计划。
+真实实验由模型调度设备并指示人类操作员，以LC–MS、XRD、荧光测量等实际结果检验；模拟优化任务使用已测反应结果，不能把全部92题称为湿实验。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-### 去污染
+### 污染控制
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 数据形式
 
-### 规模
+### 题量
 
 Level 1共92任务、17任务家族：化学7、生物5、材料4、跨域1。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 题型
+### 任务形式
 
 给定科学目标，执行实验/分析/模拟环境交互；不同家族有各自任务与评分。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 模态
 
-- 实验数据
-- 仪器接口
-- 文本指令
-- 真实实验与模拟
+```json
+[
+  "实验数据",
+  "仪器接口",
+  "文本指令",
+  "真实实验与模拟"
+]
+```
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 语言
 
@@ -219,19 +227,19 @@ Level 1共92任务、17任务家族：化学7、生物5、材料4、跨域1。
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 难度
 
 Level 1定位为科学家几小时内可完成的基础任务；未来更难级别不计入本版。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 公开与隐藏划分
 
 官网提供示例轨迹和任务评分入口；完整数据下载与隐藏划分待核实。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 评测方法
 
@@ -239,55 +247,61 @@ Level 1定位为科学家几小时内可完成的基础任务；未来更难级�
 
 Pass@1；17家族等权平均。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 评分
 
-按任务及家族权重平均，重复尝试保持相同权重；完整任务级判据需进一步核查。
+总体Pass@1按17任务家族等权，领域分别按化学7、生物5、材料4、跨域1家族等权；同一任务重复尝试沿用相同任务/家族权重。各家族有独立成功条件。 例如单反应优化：3批各8次共24个实验，最终推荐已测条件，用独立确认实验的平均产率评分；不是只看探索期最高值。 单反应优化通过阈值是相对随机搜索基线到受约束oracle差距的90%归一化改善，不是原始产率90%。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）；[来源2](https://c5r.net/sciuniverse/suites/optimize-one-reaction/)（访问 2026-11-08）
 
-### 提示与运行设置
+### 运行设置
 
 模型通过Facility-0 harness调度设备/人类操作员；存在真实和模拟任务，不宜全部称湿实验。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 评测脚本
+### 评测工具
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 可比性警示
+### 可比性
 
 费用只含模型/API推理，不含实验室与人力成本；家族等权不是92题直接均值。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 最新情况
 
-### 为什么近期热门
+### 复核日期
 
-热度B：主要单一机构当前展示或厂商持续自评，不代表行业广泛采纳。
+2026-11-08 KST / Asia/Seoul
 
-### 核查日期
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-2026-11-07 KST / Asia/Seoul
+### 当前版本及历史热度证据
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
-
-### 当前版本与热门证据
-
-- **version**：Level 1
-- **heat_confidence**：B
-- **evidence_2026_h2**：[{"url": "https://c5r.net/sciuniverse/", "date": "2026-11-07", "note": "C5R当前展示Level 1多模型结果；观察日，主要单一机构评测。"}]
+```json
+{
+  "version": "Level 1",
+  "heat_confidence": "B",
+  "evidence_2026_h2": [
+    {
+      "url": "https://c5r.net/sciuniverse/",
+      "date": "2026-11-07",
+      "note": "C5R当前展示Level 1多模型结果；观察日，主要单一机构评测。"
+    }
+  ]
+}
+```
 
 > B：主要单一机构当前评测/厂商采用，不能声称行业广泛采用。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ### 修订历史
 
@@ -295,67 +309,68 @@ Pass@1；17家族等权平均。
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 饱和情况
+### 饱和与能力边界
 
-待核实
+当前公开总体最高45.3%，六配置结果为9.4%–45.3%；尚未显示总体满分，但仅是单一设施harness快照，不据此预测饱和年份。
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+### 风险与争议
 
-### 污染与争议
+模拟任务复用了公开实验数据，真实任务与模拟任务须分开解释；官网列出的失败类型包括物理约束、实验习惯、协议知识、结果解释和任务规避。总体结果不证明每一科研领域均可靠。
 
-待核实
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+### 系列与衍生关系
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+当前官方公开展示Level 1；17任务家族是同一设施评测的分项，不拆成17个独立benchmark。
 
-### 衍生及版本关系
-
-与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。
-
-> 编辑去重结论；版本关系以下述专门说明为准。
-
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ## 榜单快照
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-### 官方榜单
+### 官方入口
 
 https://c5r.net/sciuniverse/
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 独立评测入口
+### 独立来源
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 核验结果
+### 分来源与协议结果
 
-- {"rank": 1, "model": "Claude Fable 5.1 xhigh", "score": "45.3%", "metric": "SciUniverse Level 1 Pass@1（家族等权）", "source_url": "https://c5r.net/sciuniverse/", "source_date": "待核实", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
-- {"rank": 2, "model": "GPT–6 Astra xhigh", "score": "32.5%", "metric": "SciUniverse Level 1 Pass@1（家族等权）", "source_url": "https://c5r.net/sciuniverse/", "source_date": "待核实", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
-- {"rank": 3, "model": "Claude Opus 5 xhigh", "score": "30.5%", "metric": "SciUniverse Level 1 Pass@1（家族等权）", "source_url": "https://c5r.net/sciuniverse/", "source_date": "待核实", "collected_at": "2026-11-07 KST", "result_type": "公开榜单快照"}
+#### C5R Level 1 overall
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+| 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
+|---|---|---|---|---|
+| 1 | Claude Fable 5.1 xhigh | 45.3 | Pass@1 (%)；17家族等权 | {} |
+| 2 | GPT–6 Astra xhigh | 32.5 | Pass@1 (%)；17家族等权 | {} |
+| 3 | Claude Opus 5 xhigh | 30.5 | Pass@1 (%)；17家族等权 | {} |
+| 4 | Grok 4.6 xhigh | 26.2 | Pass@1 (%)；17家族等权 | {} |
+| 5 | Gemini 3.8 Flash high | 14.6 | Pass@1 (%)；17家族等权 | {} |
+| 6 | GPT–5.6 Sol xhigh | 9.4 | Pass@1 (%)；17家族等权 | {} |
 
-### 覆盖与时效说明
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
-仅保留所列来源与协议下的结果；榜单自写更新时间：待核实。访问日期不是评测运行日期。
+### 覆盖与时效
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+完整收录官网总体表六配置；只列总体家族等权结果，不把17家族分数混排。模型/API费用不含实验室和人力；页面没有写整体榜更新时间，采集日不是运行日。
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -363,80 +378,98 @@ https://c5r.net/sciuniverse/
 
 contact@c5r.net
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 公开反馈
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
-
-### 官方社交
+### 官方反馈
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 隐私政策
+### 公开社区
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+
+### 隐私边界
+
+仅记录官方页面公开的机构联系渠道；不收集实验操作员的私人联系方式。
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ## 原始文件
 
-### 源站论文PDF
+### 源站PDF
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### PDF SHA-256
-
-待核实
-
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
-
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
-
-### PDF字节数
+### 本轮PDF SHA-256
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### Drive资料夹
+### 本轮PDF字节数
 
 待核实
 
 > 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
-### 其他官方材料
+### Drive文件夹
 
-- {"type": "官方介绍/协议", "url": "https://c5r.net/sciuniverse/"}
+待核实
 
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+
+### 其他材料
+
+```json
+[
+  {
+    "type": "官方介绍/协议",
+    "url": "https://c5r.net/sciuniverse/"
+  }
+]
+```
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）
 
 ### Drive PDF归档
 
-待核实（本任务未上传）
+待核实
+
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-07）
 
 ## 变更记录
 
-### changelog
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+  }
+]
+```
 
-- {"date": "2026-11-07", "timezone": "KST / Asia/Seoul", "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"}
-
-[来源](https://c5r.net/sciuniverse/)（访问 2026-11-07）
+[来源1](https://c5r.net/sciuniverse/)（访问 2026-11-08）

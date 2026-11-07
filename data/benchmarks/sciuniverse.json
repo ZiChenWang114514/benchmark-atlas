@@ -223,15 +223,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "官方致谢将任务实施归于Facility-0的科学家、操作员和工程师，并列出外部实验数据及软件贡献者；本页未逐人署名。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "review_process": {
       "value": "待核实",
@@ -245,11 +243,11 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "quality_control": {
-      "value": "模型通过facility harness控制设备并指示人类操作员；以实际产物/仪器结果检验计划。",
+      "value": "真实实验由模型调度设备并指示人类操作员，以LC–MS、XRD、荧光测量等实际结果检验；模拟优化任务使用已测反应结果，不能把全部92题称为湿实验。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -339,11 +337,15 @@
       ]
     },
     "scoring": {
-      "value": "按任务及家族权重平均，重复尝试保持相同权重；完整任务级判据需进一步核查。",
+      "value": "总体Pass@1按17任务家族等权，领域分别按化学7、生物5、材料4、跨域1家族等权；同一任务重复尝试沿用相同任务/家族权重。各家族有独立成功条件。 例如单反应优化：3批各8次共24个实验，最终推荐已测条件，用独立确认实验的平均产率评分；不是只看探索期最高值。 单反应优化通过阈值是相对随机搜索基线到受约束oracle差距的90%归一化改善，不是原始产率90%。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://c5r.net/sciuniverse/suites/optimize-one-reaction/",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -379,11 +381,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -419,45 +421,40 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前公开总体最高45.3%，六配置结果为9.4%–45.3%；尚未显示总体满分，但仅是单一设施harness快照，不据此预测饱和年份。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "模拟任务复用了公开实验数据，真实任务与模拟任务须分开解释；官网列出的失败类型包括物理约束、实验习惯、协议知识、结果解释和任务规避。总体结果不证明每一科研领域均可靠。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "value": "当前官方公开展示Level 1；17任务家族是同一设施评测的分项，不拆成17个独立benchmark。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -484,49 +481,79 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "Claude Fable 5.1 xhigh",
-          "score": "45.3%",
-          "metric": "SciUniverse Level 1 Pass@1（家族等权）",
+          "score": 45.3,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
           "source_url": "https://c5r.net/sciuniverse/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 1
         },
         {
-          "rank": 2,
           "model": "GPT–6 Astra xhigh",
-          "score": "32.5%",
-          "metric": "SciUniverse Level 1 Pass@1（家族等权）",
+          "score": 32.5,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
           "source_url": "https://c5r.net/sciuniverse/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2
         },
         {
-          "rank": 3,
           "model": "Claude Opus 5 xhigh",
-          "score": "30.5%",
-          "metric": "SciUniverse Level 1 Pass@1（家族等权）",
+          "score": 30.5,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
           "source_url": "https://c5r.net/sciuniverse/",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "公开榜单快照"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3
+        },
+        {
+          "model": "Grok 4.6 xhigh",
+          "score": 26.2,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
+          "source_url": "https://c5r.net/sciuniverse/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4
+        },
+        {
+          "model": "Gemini 3.8 Flash high",
+          "score": 14.6,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
+          "source_url": "https://c5r.net/sciuniverse/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5
+        },
+        {
+          "model": "GPT–5.6 Sol xhigh",
+          "score": 9.4,
+          "metric": "Pass@1 (%)；17家族等权",
+          "track": "C5R Level 1 overall",
+          "source_url": "https://c5r.net/sciuniverse/",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6
         }
       ],
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "仅保留所列来源与协议下的结果；榜单自写更新时间：待核实。访问日期不是评测运行日期。",
+      "value": "完整收录官网总体表六配置；只列总体家族等权结果，不把17家族分数混排。模型/API费用不含实验室和人力；页面没有写整体榜更新时间，采集日不是运行日。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -564,15 +591,13 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "仅记录官方页面公开的机构联系渠道；不收集实验操作员的私人联系方式。",
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "original_files": {
@@ -630,7 +655,7 @@
       "sources": [
         {
           "url": "https://c5r.net/sciuniverse/",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -652,12 +677,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
         "url": "https://c5r.net/sciuniverse/",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

@@ -22,24 +22,22 @@
       ]
     },
     "version": {
-      "value": "V2",
+      "value": "V2 / dataset 2.0.0；default=642题，hard=51题，v1=731题",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "v2（论文版本；不等于数据集版本）",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "release_date": {
       "value": "2026-09-22（Scale 公告日期）",
@@ -73,48 +71,44 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "评测harness/tooling MIT；任务说明、patch和tests派生自11个上游仓库，仍受各自许可约束，不把MIT覆盖到GPL来源任务。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/abs/2509.16941",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://github.com/scaleapi/SWE-bench_Pro-os",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
@@ -126,15 +120,13 @@
       ]
     },
     "paper_title": {
-      "value": "待核实",
+      "value": "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?（原始系列论文；不冒充V2专门论文）",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "organization": {
@@ -157,15 +149,13 @@
       ]
     },
     "authors": {
-      "value": "待核实",
+      "value": "原始系列论文：Xiang Deng、Jeff Da（共同第一作者），Edwin Pan、Yannis Yiming He、Charles Ide、Kanak Garg、Niklas Lauffer、Andrew Park、Nitin Pasari、Chetan Rane、Karmini Sampath、Maya Krishnan、Srivatsa Kundurthy、Sean Hendryx、Zifan Wang、Vijay Bharadwaj、Jeff Holm、Raja Aluri、Chen Bo Calvin Zhang、Noah Jacobson、Bing Liu、Brad Kenstler；V2合作方Reflection，不自动当作原论文作者。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "maintainer": {
       "value": "Scale AI",
@@ -232,20 +222,28 @@
       ]
     },
     "review_process": {
-      "value": "每条改写的指令交给未见过该任务的第二位工程师盲解，未通过隐藏测试则退回复审",
+      "value": "官方V2发布树/HF卡记载529条问题说明重写，逐条由第二位未见任务工程师盲解；214个test patch、38个gold patch修订。网页公告仅列69条指令与测试矛盾更正，二者统计范围不同，不悄悄替换为同一数字。",
       "sources": [
         {
-          "url": "https://labs.scale.com/blog/swe-bench-pro-v2",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "quality_control": {
-      "value": "发布前双向门控：参考补丁必须通过、空补丁必须失败；211任务改进依赖支持，10任务修环境",
+      "value": "642/642 reference patch通过、642/642 empty patch不通过；每题GHCR公共镜像，清除修复历史；Verifier恢复隐藏测试路径、回滚agent改动fixtures/snapshots、清除过时pyc并修复残留git锁；211镜像依赖修复。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -265,11 +263,11 @@
   },
   "data_format": {
     "size": {
-      "value": "642 任务、11 个仓库（由731减去89个无效任务）；另有 HARD 切片",
+      "value": "642任务、11仓库；HARD-51为同一642题内51任务切片，原731题保留为v1 config/tag v1.0。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -295,15 +293,13 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "Go 256、Python 237、JavaScript 145、TypeScript 4；合计642。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "difficulty": {
       "value": "SWE-Bench Pro 参考解平均107.4行、4.1个文件",
@@ -344,24 +340,26 @@
       ]
     },
     "prompt_settings": {
-      "value": "非灰显结果为无成本上限、250轮上限；灰显为有成本上限、50轮",
+      "value": "V2每题沙箱50分钟，agent阶段仅放行模型端点，网页工具禁用；verifier不在agent旧沙箱执行。榜页非灰显配置无成本上限/250轮，灰显配置有成本上限/50轮；harness与预算需随成绩保留。",
       "sources": [
         {
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "v2/tasks/<instance_id>/为Harbor任务，含tests/test.sh、run_script.sh、parser.py、test_patch；v2/tooling提供LockedClaudeCode/LockedMiniSwe/LockedCodex和PatchReplayAgent，新沙箱regrade为报告权威分。根目录swe_bench_pro_eval.py是旧v1流程，不用于V2。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "comparability_warning": {
       "value": "V2 与原731题公开集及 SWE-bench Verified 不可直接比较；不同 harness（Claude Code、Codex、mini-swe-agent）混排。",
@@ -375,11 +373,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -438,22 +436,24 @@
       "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "原始系列arXiv v1/v2修订与2026-09-22数据V2不是同一版本轴；静态Scale PDF仍描述旧公共731题且旧23.3%成绩，不能用其分数覆盖当前V2 Full/HARD。",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "saturation": {
-      "value": "Full 集前列已达约99%（Opus 5 99.40±0.40），接近饱和；Scale 另设 HARD 切片。",
+      "value": "Full当前最高99.40±0.40%，HARD-51最高98.00±0.00%（官方当前表值，保留原CI不推算）；两轨均已高分，HARD不是自动永不饱和。Rank(UB)按置信区间排序而非普通点估计同分规则。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -478,11 +478,23 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -509,90 +521,551 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "Opus 5 (Claude Code) xhigh",
-          "score": "99.40 ± 0.40",
-          "metric": "Resolve Rate (Full)",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写榜单更新日；V2公告 2026-09-22）",
-          "collected_at": "2026-11-07 KST"
+          "score": 99.4,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 1,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0.4,
+          "dataset_size": 642,
+          "deprecated": false
         },
         {
-          "rank": 2,
           "model": "Gemini 4 Argon (mini-swe-agent) high",
-          "score": "99.22 ± 0.45",
-          "metric": "Resolve Rate (Full)",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写榜单更新日；V2公告 2026-09-22）",
-          "collected_at": "2026-11-07 KST"
-        },
-        {
+          "score": 99.22,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "rank": 2,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0.45,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
           "model": "Fable 5.1 (Claude Code) high",
-          "score": "99.10 ± 0.50",
-          "metric": "Resolve Rate (Full)",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写榜单更新日；V2公告 2026-09-22）",
-          "collected_at": "2026-11-07 KST"
+          "score": 99.1,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0.5,
+          "dataset_size": 642,
+          "deprecated": false
         },
         {
-          "rank": 3,
           "model": "Kimi-K3 (mini-swe-agent) max",
-          "score": "97.70 ± 0.90",
-          "metric": "Resolve Rate (Full)",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写榜单更新日；V2公告 2026-09-22）",
-          "collected_at": "2026-11-07 KST"
+          "score": 97.7,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0.9,
+          "dataset_size": 642,
+          "deprecated": false
         },
         {
-          "rank": 4,
           "model": "Inkling Small 2",
-          "score": "97.66 ± 1.46",
-          "metric": "Resolve Rate (Full)",
-          "result_type": "官方榜单快照",
-          "source_date": "待核实（页面未写榜单更新日；V2公告 2026-09-22）",
-          "collected_at": "2026-11-07 KST"
+          "score": 97.66,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.46,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-6-Astra (Codex) high",
+          "score": 96.9,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.1,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Muse Wonder 1.0 (mini-swe-agent) xhigh",
+          "score": 96.73,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.12,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Minimax M3p1 Flash (mini-swe-agent) xhigh",
+          "score": 96.57,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.16,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-6.1-Sol (mini-swe-agent) xhigh",
+          "score": 96.11,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.24,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Sonnet 5.5 (mini-swe-agent) xhigh",
+          "score": 95.79,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 7,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.3,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "GLM-5.3 (mini-swe-agent) max",
+          "score": 95.6,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 7,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.3,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-5.6-sol (Codex) xhigh",
+          "score": 95.5,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.4,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Muse Spark Open (mini-swe-agent) xhigh",
+          "score": 95.02,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.43,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Gemini 3.8 Flash (mini-swe-agent) high",
+          "score": 94.86,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 9,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.46,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Sonnet 5 (Claude Code) xhigh",
+          "score": 93.15,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 10,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.71,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-5.6-Terra (Codex) xhigh",
+          "score": 92.37,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 11,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 1.81,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Inkling (mini-swe-agent) xhigh",
+          "score": 89.88,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 12,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 2.1,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Haiku 5.5 (mini-swe-agent) high",
+          "score": 87.23,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / full",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 13,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 2.36,
+          "dataset_size": 642,
+          "deprecated": false
+        },
+        {
+          "model": "Opus 5 (Claude Code) xhigh",
+          "score": 98,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 1,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Fable 5.1 (Claude Code) high",
+          "score": 92.2,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Gemini 4 Argon (mini-swe-agent) high",
+          "score": 92.16,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-6 Astra (Codex) high",
+          "score": 90.2,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Muse Wonder 1.0 (mini-swe-agent) xhigh",
+          "score": 90.2,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Kimi-K3 (mini-swe-agent) max",
+          "score": 88.2,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Sonnet 5 (Claude Code) xhigh",
+          "score": 88.2,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-5.6 Terra (Codex) xhigh",
+          "score": 86.3,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Inkling Small 2",
+          "score": 86.27,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Minimax M3p1 Flash (mini-swe-agent) xhigh",
+          "score": 84.31,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 9,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "GLM-5.3 (mini-swe-agent) max",
+          "score": 84.3,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 10,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "GPT-5.6 Sol (Codex) xhigh",
+          "score": 82.4,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 11,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Muse Spark Open (mini-swe-agent) xhigh",
+          "score": 82.35,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 12,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Sonnet 5.5 (mini-swe-agent) xhigh",
+          "score": 70.59,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 13,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Gemini 3.8 Flash (mini-swe-agent) high",
+          "score": 58.8,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 14,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Inkling (mini-swe-agent) xhigh",
+          "score": 56.9,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 15,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Haiku 5.5 (mini-swe-agent) high",
+          "score": 52.94,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 16,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 13.01,
+          "dataset_size": 51,
+          "deprecated": false
+        },
+        {
+          "model": "Haiku 4.5 (Claude Code) xhigh",
+          "score": 25.5,
+          "metric": "Resolve Rate (%)",
+          "track": "Scale V2 / hard",
+          "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 17,
+          "rank_type": "official Rank(UB)",
+          "ci_plus_minus": 0,
+          "dataset_size": 51,
+          "deprecated": false
         }
       ],
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "Scale 官方榜 Full 集；同分区间按 Rank(UB) 并列。",
+      "value": "从官方嵌入variants完整提取Full及HARD各18行；原rank与CI原样保留。Rank(UB)=1+下置信界超过本模型上置信界的模型数，不是点估计同分才并列。网页整体更新日未标，数据V2公告2026-09-22不能当所有模型运行日；HF自动widget可能混含v1厂商结果，不纳入本V2榜。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "jeffrey.da@scale.com"
+      ],
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/scaleapi/SWE-bench_Pro-os/issues",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -619,37 +1092,32 @@
   },
   "original_files": {
     "paper_pdf_url": {
-      "value": "待核实",
+      "value": "https://arxiv.org/pdf/2509.16941v2",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.16941v2",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "V2 无独立论文；原 SWE-Bench Pro 论文链接见官方页面，本轮未单独打开 PDF。"
+      ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "38bafe017fe2e259f27aba35ec3583b0332af001d4a8e7b3330e522076beeb0f",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.16941v2",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "note": "本次实际下载的PDF字节计算；未上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 1585853,
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.16941v2",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -663,15 +1131,46 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
+          "type": "本轮已打开一手材料",
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
           "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2509.16941",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -691,12 +1190,29 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
+        "url": "https://arxiv.org/abs/2509.16941",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+        "accessed": "2026-11-08"
+      },
+      {
         "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ]
   }

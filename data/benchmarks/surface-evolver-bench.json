@@ -77,11 +77,15 @@
       ]
     },
     "license": {
-      "value": "Apache-2.0（官网页脚声明；适用范围以原仓库文件为准）",
+      "value": "Apache-2.0（已打开官方LICENSE）；Surface Evolver及其他依赖仍按其自身授权。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -106,15 +110,13 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/yhenon/surface-evolver-llm-eval/tree/main/tasks_public",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "official_homepage": {
       "value": "https://yhenon.github.io/surface-evolver-llm-eval/",
@@ -159,15 +161,13 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "authors": {
-      "value": "待核实",
+      "value": "Yann Henon（官方项目作者；不是已找到独立论文的作者表）",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "maintainer": {
       "value": "Yann Henon",
@@ -232,15 +232,13 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "review_process": {
-      "value": "待核实",
+      "value": "作者手写参考解并求收敛液面；静态与隐藏模拟器验收共同核查；独立多专家人工审稿流程待核实。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "quality_control": {
       "value": "静态检查、隐藏Evolver脚本、与参考物理量的容差比较；不采用LLM裁判。",
@@ -265,11 +263,15 @@
   },
   "data_format": {
     "size": {
-      "value": "16任务。",
+      "value": "16任务；官方aggregate共448模型-任务运行、28配置，每配置16任务。",
       "sources": [
         {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -316,15 +318,13 @@
       ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "仓库区分tasks_public/与tasks_private/，默认运行private任务目录；agent只见prompt、可读文档与公开运行反馈，最终由hidden_command_script和隐藏物理量阈值验收。目录名称private不等于文件必然不可下载。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -338,33 +338,31 @@
       ]
     },
     "scoring": {
-      "value": "有效文件、初始几何、约束等可获部分分；严格通过要求全部检查满足。",
+      "value": "加权部分分：静态检查0.3、隐藏Surface Evolver运行0.3、隐藏物理量容差检查0.4；passed要求静态和全部动态检查都通过。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "prompt_settings": {
-      "value": "每任务运行一次agent循环；推理档不同的同一模型独立列项。",
+      "value": "工具为get_evolver_doc、run_surface_evolver、submit_fe_file；可迭代修复到max-rounds上限；原始.fe必须经结构化工具提交。推理档与API provider作为运行配置保留。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "se_eval.run_eval（generate/grade）、se_eval.run_matrix、se_eval.rescore_results；任务JSON提供static_checks和dynamic_checks.evolver_metrics。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "comparability_warning": {
       "value": "Epoch展示mean score不是pass rate；harness文档和反馈环会显著影响成绩。",
@@ -378,11 +376,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -423,43 +421,44 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方aggregate最高mean_score=0.95（claude-fable-5 high及kimi-k3），两者严格pass_rate均0.875（14/16）；部分给分接近满分不等于所有物理检查均已解决。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "Epoch评审2026-10-09结论为Not enough info，不能将被收录等同质量认证。",
+      "value": "低资源领域不等于无污染。作者称早期无文档或弱反馈harness成绩很低，工具、文档与反馈环显著影响结果；小型16题、一次运行不支持把微小名次差当统计显著差。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "derivatives": {
-      "value": "与现有100条slug核对未发现同名旧版；不将评测实现或分项重复计为新benchmark。",
+      "value": "Surface Evolver是底层求解器，本评测是其16任务的LLM建模harness；平均部分得分与严格通过率是同任务两指标，不是两个独立benchmark。",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重结论；版本关系以下述专门说明为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -482,22 +481,385 @@
       ]
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "model": "claude-fable-5 (high)",
+          "score": 0.95,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 14,
+          "pass_rate": 0.875,
+          "rank": 1
+        },
+        {
+          "model": "kimi-k3",
+          "score": 0.95,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 14,
+          "pass_rate": 0.875,
+          "rank": 1
+        },
+        {
+          "model": "gpt-5.6-sol (xhigh)",
+          "score": 0.93125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 14,
+          "pass_rate": 0.875,
+          "rank": 3
+        },
+        {
+          "model": "gpt-5.5 (high)",
+          "score": 0.88125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 12,
+          "pass_rate": 0.75,
+          "rank": 4
+        },
+        {
+          "model": "claude-opus-4.8 (high)",
+          "score": 0.875,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 11,
+          "pass_rate": 0.6875,
+          "rank": 5
+        },
+        {
+          "model": "gpt-5.6-terra (xhigh)",
+          "score": 0.8375,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 11,
+          "pass_rate": 0.6875,
+          "rank": 6
+        },
+        {
+          "model": "gpt-5.5 (medium)",
+          "score": 0.8125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 10,
+          "pass_rate": 0.625,
+          "rank": 7
+        },
+        {
+          "model": "gemini-3.8-flash (high)",
+          "score": 0.76875,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 9,
+          "pass_rate": 0.5625,
+          "rank": 8
+        },
+        {
+          "model": "grok-4.5 (high)",
+          "score": 0.74375,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 8,
+          "pass_rate": 0.5,
+          "rank": 9
+        },
+        {
+          "model": "claude-opus-4.8 (none)",
+          "score": 0.68125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 4,
+          "pass_rate": 0.25,
+          "rank": 10
+        },
+        {
+          "model": "gpt-5.6-luna (medium)",
+          "score": 0.61875,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 11
+        },
+        {
+          "model": "claude-sonnet-5 (medium)",
+          "score": 0.6,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 12
+        },
+        {
+          "model": "gemini-3.5-flash (medium)",
+          "score": 0.58125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 6,
+          "pass_rate": 0.375,
+          "rank": 13
+        },
+        {
+          "model": "glm-5.2 (high)",
+          "score": 0.55625,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 5,
+          "pass_rate": 0.3125,
+          "rank": 14
+        },
+        {
+          "model": "minimax-m3",
+          "score": 0.5499999999999999,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 15
+        },
+        {
+          "model": "muse-spark-1.1 (high)",
+          "score": 0.525,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 6,
+          "pass_rate": 0.375,
+          "rank": 16
+        },
+        {
+          "model": "glm-5.3-flash (max)",
+          "score": 0.525,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 16
+        },
+        {
+          "model": "kimi-k2.7-code",
+          "score": 0.4875,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 6,
+          "pass_rate": 0.375,
+          "rank": 18
+        },
+        {
+          "model": "deepseek-v4.1-flash (high)",
+          "score": 0.4625,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 5,
+          "pass_rate": 0.3125,
+          "rank": 19
+        },
+        {
+          "model": "qwen3.8-27b (xhigh)",
+          "score": 0.45,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 20
+        },
+        {
+          "model": "qwen3.6-35b-a3b",
+          "score": 0.44375,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 2,
+          "pass_rate": 0.125,
+          "rank": 21
+        },
+        {
+          "model": "deepseek-v4-pro (high)",
+          "score": 0.4,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 4,
+          "pass_rate": 0.25,
+          "rank": 22
+        },
+        {
+          "model": "gemma-4-31b-it (none)",
+          "score": 0.30624999999999997,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 1,
+          "pass_rate": 0.0625,
+          "rank": 23
+        },
+        {
+          "model": "mistral-large-4-0",
+          "score": 0.28125,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 3,
+          "pass_rate": 0.1875,
+          "rank": 24
+        },
+        {
+          "model": "mistral-medium-3-5 (high)",
+          "score": 0.26875,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 1,
+          "pass_rate": 0.0625,
+          "rank": 25
+        },
+        {
+          "model": "gpt-oss-120b",
+          "score": 0.25,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 1,
+          "pass_rate": 0.0625,
+          "rank": 26
+        },
+        {
+          "model": "laguna-m.1",
+          "score": 0.15625,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 1,
+          "pass_rate": 0.0625,
+          "rank": 27
+        },
+        {
+          "model": "trinity-large-thinking",
+          "score": 0.15625,
+          "metric": "mean partial-credit score (0–1)",
+          "track": "official aggregate / mean score",
+          "source_url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "runs": 16,
+          "passed": 1,
+          "pass_rate": 0.0625,
+          "rank": 27
         }
       ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
-    },
-    "coverage_note": {
-      "value": "官网有交互图但本轮可读返回没有模型数值；Epoch可读页给协议亦未返回数值，results保留待核实，不猜榜首。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
-          "accessed": "2026-11-07"
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "直接解析官方发布data/aggregates.json，完整保留28配置的原始mean_score、pass_rate、passed与runs，按mean_score同分并列；不从图表估读，不将Epoch转载当独立重测。源文件没有全榜更新时间。",
+      "sources": [
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -515,15 +877,13 @@
       "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/yhenon/surface-evolver-llm-eval/issues",
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -598,12 +958,26 @@
         {
           "type": "官方介绍/协议",
           "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
         }
       ],
       "sources": [
         {
-          "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-          "accessed": "2026-11-07"
+          "url": "https://github.com/yhenon/surface-evolver-llm-eval",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -625,12 +999,21 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
-        "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
-        "accessed": "2026-11-07"
+        "url": "https://github.com/yhenon/surface-evolver-llm-eval",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json",
+        "accessed": "2026-11-08"
       }
     ]
   }

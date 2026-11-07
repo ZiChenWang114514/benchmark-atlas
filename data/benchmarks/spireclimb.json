@@ -22,11 +22,11 @@
       ]
     },
     "version": {
-      "value": "StS2冻结v0.107.1.1；StS1 A20 Heart与StS2 A10双轨",
+      "value": "StS2冻结v0.107.1；StS1 A20 Heart与StS2 A10双轨",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -42,11 +42,11 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "release_date": {
-      "value": "2026-10（官方BibTeX月份；具体日待核实）",
+      "value": "2026-10-14 KST（官方首发分析页date元数据：2026-10-14T09:00:00+09:00；不是评测运行日）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -146,24 +146,26 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "评测由Epoch独立于Mega Crit Games开展，官方明确不分发或出售游戏版权内容；Mega Crit不能据此列为合作研发方。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
-    },
-    "authors": {
-      "value": "Epoch AI（官方建议引用署名）",
-      "sources": [
-        {
-          "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
+    },
+    "authors": {
+      "value": [
+        "Benjamin Ou",
+        "Simon Chen"
+      ],
+      "sources": [
+        {
+          "url": "https://epoch.ai/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "note": "官方首发分析署名；不冒充尚未确认的独立学术论文作者表。"
     },
     "maintainer": {
       "value": "Epoch AI",
@@ -217,15 +219,13 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "首发分析作者Benjamin Ou与Simon Chen；文章作者简介称Ou为Epoch benchmarking researcher、UC Berkeley物理与计算机科学本科背景。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "review_process": {
       "value": "待核实",
@@ -311,11 +311,11 @@
       ]
     },
     "public_hidden_split": {
-      "value": "固定共享种子；种子清单及隐藏划分细节待核实。",
+      "value": "每角色15个固定任意选定种子，所有模型使用相同种子；运行配置全部内容解锁。官网没有给出完整种子清单或独立隐藏集说明，相关细节待核实。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -371,44 +371,26 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "StS2冻结v0.107.1.1；StS1 A20 Heart与StS2 A10双轨",
-        "heat_confidence": "A",
-        "evidence_2026_h2": [
-          {
-            "url": "https://epoch.ai/benchmarks/spireclimb",
-            "date": "2026-11-05",
-            "date_type": "source_calendar_date",
-            "note": "Epoch公布Neow奖励修复并重新评分。"
-          },
-          {
-            "url": "https://epoch.ai/data/eci-documentation/data",
-            "date": "2026-11-07",
-            "date_type": "observed_on",
-            "note": "当前ECI纳入SpireClimb。"
-          }
-        ]
+        "version": "StS2 v0.107.1",
+        "method_update": "2026-11-05 Neow奖励修复",
+        "note": "网页v0.107.1后的上标1为脚注，不是第四段游戏版本号。"
       },
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。"
+      ]
     },
     "paper_revision_history": {
       "value": "2026-11-05方法修复Neow奖励：GPT-6 Astra StS1 16.7%→33.3%，GPT-6.1 Sol 20%→18.3%，不是两游戏合成分数。",
@@ -420,15 +402,13 @@
       ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "官方认为热门游戏可能被针对性训练并较快饱和，但本次CSV总体最高0.33999999999999997，并非满分；不能把最低难度的高胜率写成最高难度成绩。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "训练针对热门游戏的风险、版本固定后偏离玩家最新策略的风险；save scumming靠行为检查排除而非机械禁止。",
@@ -440,24 +420,26 @@
       ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "Slay the Spire 1与2是同一基准的两个组成轨；最高难度总体为两游戏胜率等权平均，不拆分成两条新增benchmark。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -484,58 +466,351 @@
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "GPT-6 Astra (max)",
           "score": 0.33999999999999997,
           "metric": "equal-weight two-game win rate (0–1)",
-          "stderr": 0.04131325151634216,
+          "track": "SpireClimb / CSV未标合成task version",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-11-05T03:35:57.934000+09:00 KST",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "run_id": "steambench-sts1-a20h-cd6cd8bb290a7ae3+steambench-sts2-a10-cdf1c9fa85cb6300",
-          "task_version": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "run_started_at_kst": "2026-11-05T03:35:57.934000+09:00",
+          "stderr": "0.04131325151634216",
+          "rank": 1
         },
         {
-          "rank": 2,
           "model": "GPT-6.1 Sol (max)",
           "score": 0.23833333333333334,
           "metric": "equal-weight two-game win rate (0–1)",
-          "stderr": 0.03653377199465138,
+          "track": "SpireClimb / CSV未标合成task version",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-11-05T03:36:01.058000+09:00 KST",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "run_id": "steambench-sts1-a20h-e795fd781f73bd66+steambench-sts2-a10-9a23c8dea53b6755",
-          "task_version": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "run_started_at_kst": "2026-11-05T03:36:01.058000+09:00",
+          "stderr": "0.03653377199465138",
+          "rank": 2
         },
         {
-          "rank": 3,
           "model": "GPT-6.1 Terra (max)",
           "score": 0.22333333333333333,
           "metric": "equal-weight two-game win rate (0–1)",
-          "stderr": 0.03386031744341088,
+          "track": "SpireClimb / CSV未标合成task version",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（CSV不提供整体榜单更新日）",
-          "run_started_at": "2026-11-05T03:35:54.875000+09:00 KST",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "run_id": "steambench-sts1-a20h-263bd0e64b156075+steambench-sts2-a10-1102b0b9cf1785f6",
-          "task_version": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "run_started_at_kst": "2026-11-05T03:35:54.875000+09:00",
+          "stderr": "0.03386031744341088",
+          "rank": 3
+        },
+        {
+          "model": "GPT-6 Sol (max)",
+          "score": 0.09166666666666667,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "track": "SpireClimb / CSV未标合成task version",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf",
+          "run_started_at_kst": "2026-11-06T00:14:53.647000+09:00",
+          "stderr": "0.024324094573715753",
+          "rank": 4
+        },
+        {
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.058333333333333334,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "track": "SpireClimb / CSV未标合成task version",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-789f946c67a789f5+steambench-sts2-a10-ef454c368767b2a0",
+          "run_started_at_kst": "2026-11-05T04:04:14.742000+09:00",
+          "stderr": "0.020285004230980282",
+          "rank": 5
+        },
+        {
+          "model": "Claude Fable 5.1 (max)",
+          "score": 0.02,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "track": "SpireClimb / CSV未标合成task version",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-2057a494867d184c+steambench-sts2-a10-413d1cc930f6d4c6",
+          "run_started_at_kst": "2026-11-06T00:14:53.017000+09:00",
+          "stderr": "0.011389895949029987",
+          "rank": 6
+        },
+        {
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 0.013333333333333334,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "track": "SpireClimb / CSV未标合成task version",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-e8f930bf4d4f1a14+steambench-sts2-a10-5db0e95e99f6b21c",
+          "run_started_at_kst": "2026-11-06T00:14:37.615000+09:00",
+          "stderr": "0.009364170421755878",
+          "rank": 7
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": 0.0,
+          "metric": "equal-weight two-game win rate (0–1)",
+          "track": "SpireClimb / CSV未标合成task version",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-f7325d71b8b16f57+steambench-sts2-a10-0e148062f8e47c4a",
+          "run_started_at_kst": "2026-11-06T00:14:35.795000+09:00",
+          "stderr": "0.0",
+          "rank": 8
+        },
+        {
+          "model": "GPT-6 Astra (max)",
+          "score": 0.3333333333333333,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-cd6cd8bb290a7ae3",
+          "run_started_at_kst": "2026-11-05T03:35:57.934000+09:00",
+          "stderr": "0.06137164119322156",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6.1 Sol (max)",
+          "score": 0.18333333333333332,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-e795fd781f73bd66",
+          "run_started_at_kst": "2026-11-05T03:36:01.058000+09:00",
+          "stderr": "0.05037523978531015",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 2
+        },
+        {
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.1,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-263bd0e64b156075",
+          "run_started_at_kst": "2026-11-05T03:35:54.875000+09:00",
+          "stderr": "0.039056673294247155",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 3
+        },
+        {
+          "model": "GPT-6 Sol (max)",
+          "score": 0.05,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-831fe00153e0f0b1",
+          "run_started_at_kst": "2026-11-06T00:14:53.647000+09:00",
+          "stderr": "0.028374015326751195",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 4
+        },
+        {
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.05,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-789f946c67a789f5",
+          "run_started_at_kst": "2026-11-05T04:04:14.742000+09:00",
+          "stderr": "0.028374015326751195",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 4
+        },
+        {
+          "model": "Claude Fable 5.1 (max)",
+          "score": 0.0,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-2057a494867d184c",
+          "run_started_at_kst": "2026-11-06T00:14:53.017000+09:00",
+          "stderr": "0.0",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 6
+        },
+        {
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 0.0,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-e8f930bf4d4f1a14",
+          "run_started_at_kst": "2026-11-06T00:14:37.615000+09:00",
+          "stderr": "0.0",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 6
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": 0.0,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts1-a20h-f7325d71b8b16f57",
+          "run_started_at_kst": "2026-11-06T00:14:35.795000+09:00",
+          "stderr": "0.0",
+          "task_version": "0.3.3_cd56aef",
+          "rank": 6
+        },
+        {
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.3466666666666667,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_447ebe2",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-1102b0b9cf1785f6",
+          "run_started_at_kst": "2026-11-04T06:06:29.333000+09:00",
+          "stderr": "0.055323237980623115",
+          "task_version": "0.3.3_447ebe2",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra (max)",
+          "score": 0.3466666666666667,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-cdf1c9fa85cb6300",
+          "run_started_at_kst": "2026-09-23T01:01:07+09:00",
+          "stderr": "0.055323237980623115",
+          "task_version": "0.3.3_e52e280",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6.1 Sol (max)",
+          "score": 0.29333333333333333,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-9a23c8dea53b6755",
+          "run_started_at_kst": "2026-09-30T10:02:59.538000+09:00",
+          "stderr": "0.052926375288708374",
+          "task_version": "0.3.3_e52e280",
+          "rank": 2
+        },
+        {
+          "model": "GPT-6 Sol (max)",
+          "score": 0.13333333333333333,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-edacf7bb0ae31edf",
+          "run_started_at_kst": "2026-09-23T03:47:16.810000+09:00",
+          "stderr": "0.03951659855758794",
+          "task_version": "0.3.3_e52e280",
+          "rank": 3
+        },
+        {
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.06666666666666667,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-ef454c368767b2a0",
+          "run_started_at_kst": "2026-09-23T11:48:47.719000+09:00",
+          "stderr": "0.028997255746722662",
+          "task_version": "0.3.3_e52e280",
+          "rank": 4
+        },
+        {
+          "model": "Claude Fable 5.1 (max)",
+          "score": 0.04,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-413d1cc930f6d4c6",
+          "run_started_at_kst": "2026-09-25T11:52:06.300000+09:00",
+          "stderr": "0.022779791898059974",
+          "task_version": "0.3.3_e52e280",
+          "rank": 5
+        },
+        {
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 0.02666666666666667,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-5db0e95e99f6b21c",
+          "run_started_at_kst": "2026-09-30T00:20:30.511000+09:00",
+          "stderr": "0.018728340843511757",
+          "task_version": "0.3.3_e52e280",
+          "rank": 6
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": 0.0,
+          "metric": "win rate (0–1)",
+          "track": "SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "run_id": "steambench-sts2-a10-0e148062f8e47c4a",
+          "run_started_at_kst": "2026-09-29T06:23:58.598000+09:00",
+          "stderr": "0.0",
+          "task_version": "0.3.3_e52e280",
+          "rank": 7
         }
       ],
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "由官方CSV构建可审计快照：每个精确model配置先取最新成功run，再按mean_score降序；rank为该最新run集合中的点估计名次，同分并列。不是Epoch网页平滑或聚合榜；不以旧run最佳成绩挑分。CSV整体更新日待核实，run开始时间已转换KST。",
+      "value": "完整提取CSV当前24行SpireClimb记录，按task+task_version+精确model配置取最新成功run；总体8行与两游戏16行分轨，StS2两个task版本也分开。总体mean_score直接取源值，不重新近似合成；CSV没有全榜更新时间，started_at只作为运行开始时间且已转KST。",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -575,15 +850,13 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "privacy_policy": {
-      "value": "待核实",
+      "value": "仅记录Epoch公开的benchmark工作联系渠道，不收集游戏玩家或第三方个人信息。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "original_files": {
@@ -636,12 +909,21 @@
         {
           "type": "官方方法/介绍网页（不是论文PDF）",
           "url": "https://epoch.ai/benchmarks/spireclimb"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
         }
       ],
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/spireclimb",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -663,12 +945,21 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
         "url": "https://epoch.ai/benchmarks/spireclimb",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://epoch.ai/data/benchmarks.csv",
+        "accessed": "2026-11-08"
       }
     ]
   }

@@ -1,19 +1,10 @@
 # SWE-Bench Pro V2
 
-> 近期热门批次核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未核实不等于官方未公开。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
-原始论文 PDF：待核实
+SWE-Bench Pro V2是同系列公开集的修订与隔离协议，不是SWE-bench Verified的新名字。默认642任务、HARD-51与保留的旧731题需要明确区分；agent离线、清洁镜像重评和双向发布门控是本版关键变化。官方Full与HARD榜分别记录，Rank(UB)按置信区间而非普通同分规则给名次。
 
-## 为什么近期热门
-
-SWE-Bench Pro V2 是 Scale 在 2026-09 推出的刷新协议，修掉了无效任务和作弊通道，迅速成为代码 agent 对比的主榜之一。注意 Full 集前列已近饱和。
-
-- 2026-11-07 · Scale AI：当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。（[链接](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)）
-- 2026-11-07 · Scale AI：Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。（[链接](https://labs.scale.com/leaderboard)）
-- 2026-11-07 · Scale AI：官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。（[链接](https://labs.scale.com/blog/swe-bench-pro-v2)）
-- 2026-09-01 · Epoch AI：Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。（[链接](https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks)）
-
-热度等级：**trending: A**。
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -31,17 +22,15 @@ SWE-Bench Pro V2（公开集刷新版，锁定评测协议）
 
 ### 基准版本
 
-V2
+V2 / dataset 2.0.0；default=642题，hard=51题，v1=731题
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
 ### 论文版本
 
-待核实
+v2（论文版本；不等于数据集版本）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
 ### 发布日期
 
@@ -57,44 +46,40 @@ V2
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 领域标签
+### 领域
 
-- 长程软件工程
-- 代码 agent
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 许可证
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+```json
+[
+  "长程软件工程",
+  "代码 agent"
+]
+```
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+
+### 许可与适用范围
+
+评测harness/tooling MIT；任务说明、patch和tests派生自11个上游仓库，仍受各自许可约束，不把MIT覆盖到GPL来源任务。
+
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/LICENSE)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
 ### 论文
 
-待核实
+https://arxiv.org/abs/2509.16941
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
 ### 官方代码
 
-待核实
+https://github.com/scaleapi/SWE-bench_Pro-os
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/README.md)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+### 数据
 
-### 数据地址
+https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro
 
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
 ### 官方入口
 
@@ -104,21 +89,19 @@ https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full
 
 ### 论文标题
 
-待核实
+SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?（原始系列论文；不冒充V2专门论文）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
 ## 发起与维护
 
-### 机构与发起方
+### 发起方
 
 Scale AI
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 合作方
+### 合作/参与机构
 
 Reflection（V2 联合开发）
 
@@ -126,13 +109,11 @@ Reflection（V2 联合开发）
 
 ### 作者
 
-待核实
+原始系列论文：Xiang Deng、Jeff Da（共同第一作者），Edwin Pan、Yannis Yiming He、Charles Ide、Kanak Garg、Niklas Lauffer、Andrew Park、Nitin Pasari、Chetan Rane、Karmini Sampath、Maya Krishnan、Srivatsa Kundurthy、Sean Hendryx、Zifan Wang、Vijay Bharadwaj、Jeff Holm、Raja Aluri、Chen Bo Calvin Zhang、Noah Jacobson、Bing Liu、Brad Kenstler；V2合作方Reflection，不自动当作原论文作者。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 当前维护方
+### 维护方
 
 Scale AI
 
@@ -176,17 +157,17 @@ V2 修正由23名合同工程师完成，各自使用其专业编程语言，覆
 
 ### 审核流程
 
-每条改写的指令交给未见过该任务的第二位工程师盲解，未通过隐藏测试则退回复审
+官方V2发布树/HF卡记载529条问题说明重写，逐条由第二位未见任务工程师盲解；214个test patch、38个gold patch修订。网页公告仅列69条指令与测试矛盾更正，二者统计范围不同，不悄悄替换为同一数字。
 
-[来源1](https://labs.scale.com/blog/swe-bench-pro-v2)（访问 2026-11-07）
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源3](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
 ### 质量控制
 
-发布前双向门控：参考补丁必须通过、空补丁必须失败；211任务改进依赖支持，10任务修环境
+642/642 reference patch通过、642/642 empty patch不通过；每题GHCR公共镜像，清除修复历史；Verifier恢复隐藏测试路径、回滚agent改动fixtures/snapshots、清除过时pyc并修复残留git锁；211镜像依赖修复。
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md)（访问 2026-11-08）
 
-### 去污染
+### 污染控制
 
 copyleft 许可降低进入训练语料可能；V2 agent 阶段仅能访问模型端点，禁用网页工具；镜像清除 git 历史与隐藏文件
 
@@ -194,13 +175,13 @@ copyleft 许可降低进入训练语料可能；V2 agent 阶段仅能访问模�
 
 ## 数据形式
 
-### 题量与规模
+### 题量
 
-642 任务、11 个仓库（由731减去89个无效任务）；另有 HARD 切片
+642任务、11仓库；HARD-51为同一642题内51任务切片，原731题保留为v1 config/tag v1.0。
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
-### 题型
+### 任务形式
 
 仓库级代码补丁生成
 
@@ -208,18 +189,20 @@ copyleft 许可降低进入训练语料可能；V2 agent 阶段仅能访问模�
 
 ### 模态
 
-- 代码
-- 文本
+```json
+[
+  "代码",
+  "文本"
+]
+```
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
 ### 语言
 
-待核实
+Go 256、Python 237、JavaScript 145、TypeScript 4；合计642。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
 ### 难度
 
@@ -247,21 +230,19 @@ fail-to-pass 测试全部通过且 pass-to-pass 无回归才算解决；每个 a
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 提示与运行设置
+### 运行设置
 
-非灰显结果为无成本上限、250轮上限；灰显为有成本上限、50轮
+V2每题沙箱50分钟，agent阶段仅放行模型端点，网页工具禁用；verifier不在agent旧沙箱执行。榜页非灰显配置无成本上限/250轮，灰显配置有成本上限/50轮；harness与预算需随成绩保留。
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md)（访问 2026-11-08）；[来源2](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
-### 官方评测脚本
+### 评测工具
 
-待核实
+v2/tasks/<instance_id>/为Harbor任务，含tests/test.sh、run_script.sh、parser.py、test_patch；v2/tooling提供LockedClaudeCode/LockedMiniSwe/LockedCodex和PatchReplayAgent，新沙箱regrade为报告权威分。根目录swe_bench_pro_eval.py是旧v1流程，不用于V2。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/v2/README.md)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 可比性警示
+### 可比性
 
 V2 与原731题公开集及 SWE-bench Verified 不可直接比较；不同 harness（Claude Code、Codex、mini-swe-agent）混排。
 
@@ -269,62 +250,73 @@ V2 与原731题公开集及 SWE-bench Verified 不可直接比较；不同 harne
 
 ## 最新情况
 
-### 核查日期
+### 复核日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
-### 当前版本与2026年后半年活跃证据
+### 当前版本及历史热度证据
 
-- **version**：V2
-- **evidence_2026_h2**：- **url**：https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full
-- **date**：2026-11-07
-- **organization**：Scale AI
-- **note**：当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。
-
-- **url**：https://labs.scale.com/leaderboard
-- **date**：2026-11-07
-- **organization**：Scale AI
-- **note**：Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。
-
-- **url**：https://labs.scale.com/blog/swe-bench-pro-v2
-- **date**：2026-11-07
-- **organization**：Scale AI
-- **note**：官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。
-
-- **url**：https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks
-- **date**：2026-09-01
-- **organization**：Epoch AI
-- **note**：Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。
-- **trending**：- **heat_confidence**：A
-- **summary**：Scale 当前长程代码主榜，V2 为刷新且网络隔离的新协议；Epoch AI 亦有收录。
+```json
+{
+  "version": "V2",
+  "evidence_2026_h2": [
+    {
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+      "date": "2026-11-07",
+      "organization": "Scale AI",
+      "note": "当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。"
+    },
+    {
+      "url": "https://labs.scale.com/leaderboard",
+      "date": "2026-11-07",
+      "organization": "Scale AI",
+      "note": "Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。"
+    },
+    {
+      "url": "https://labs.scale.com/blog/swe-bench-pro-v2",
+      "date": "2026-11-07",
+      "organization": "Scale AI",
+      "note": "官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。"
+    },
+    {
+      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+      "date": "2026-09-01",
+      "organization": "Epoch AI",
+      "note": "Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。"
+    }
+  ],
+  "trending": {
+    "heat_confidence": "A",
+    "summary": "Scale 当前长程代码主榜，V2 为刷新且网络隔离的新协议；Epoch AI 亦有收录。"
+  }
+}
+```
 
 > 近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard)（访问 2026-11-07）；[来源3](https://labs.scale.com/blog/swe-bench-pro-v2)（访问 2026-11-07）；[来源4](https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks)（访问 2026-11-07）
 
-### 论文修订历史
+### 修订历史
 
-待核实
+原始系列arXiv v1/v2修订与2026-09-22数据V2不是同一版本轴；静态Scale PDF仍描述旧公共731题且旧23.3%成绩，不能用其分数覆盖当前V2 Full/HARD。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+### 饱和与能力边界
 
-### 饱和情况
+Full当前最高99.40±0.40%，HARD-51最高98.00±0.00%（官方当前表值，保留原CI不推算）；两轨均已高分，HARD不是自动永不饱和。Rank(UB)按置信区间排序而非普通点估计同分规则。
 
-Full 集前列已达约99%（Opus 5 99.40±0.40），接近饱和；Scale 另设 HARD 切片。
+[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 污染与争议
+### 风险与争议
 
 重评发现 Opus 5 伪造 Go 模块校验和、Inkling 修改 Go 模块缓存；残余风险：模型端点为受信中继，补丁内代码仍会被验证器执行。
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 衍生与版本关系
+### 系列与衍生关系
 
 原 SWE-Bench Pro（1865题，41仓库）为前身；HARD 是 V2 切片不另计。
 
@@ -334,17 +326,17 @@ Full 集前列已达约99%（Opus 5 99.40±0.40），接近饱和；Scale 另设
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul
+2026-11-08 KST / Asia/Seoul
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
-### 官方榜单
+### 官方入口
 
 https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 独立评测覆盖
+### 独立来源
 
 待核实
 
@@ -352,83 +344,89 @@ https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 核验结果
+### 分来源与协议结果
 
-- **rank**：1
-- **model**：Opus 5 (Claude Code) xhigh
-- **score**：99.40 ± 0.40
-- **metric**：Resolve Rate (Full)
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写榜单更新日；V2公告 2026-09-22）
-- **collected_at**：2026-11-07 KST
+#### Scale V2 / full
 
-- **rank**：2
-- **model**：Gemini 4 Argon (mini-swe-agent) high
-- **score**：99.22 ± 0.45
-- **metric**：Resolve Rate (Full)
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写榜单更新日；V2公告 2026-09-22）
-- **collected_at**：2026-11-07 KST
+| 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
+|---|---|---|---|---|
+| 1 | Opus 5 (Claude Code) xhigh | 99.4 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0.4,"dataset_size":642,"deprecated":false} |
+| 2 | Gemini 4 Argon (mini-swe-agent) high | 99.22 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0.45,"dataset_size":642,"deprecated":false} |
+| 2 | Fable 5.1 (Claude Code) high | 99.1 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0.5,"dataset_size":642,"deprecated":false} |
+| 3 | Kimi-K3 (mini-swe-agent) max | 97.7 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0.9,"dataset_size":642,"deprecated":false} |
+| 4 | Inkling Small 2 | 97.66 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.46,"dataset_size":642,"deprecated":false} |
+| 5 | GPT-6-Astra (Codex) high | 96.9 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.1,"dataset_size":642,"deprecated":false} |
+| 5 | Muse Wonder 1.0 (mini-swe-agent) xhigh | 96.73 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.12,"dataset_size":642,"deprecated":false} |
+| 6 | Minimax M3p1 Flash (mini-swe-agent) xhigh | 96.57 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.16,"dataset_size":642,"deprecated":false} |
+| 6 | GPT-6.1-Sol (mini-swe-agent) xhigh | 96.11 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.24,"dataset_size":642,"deprecated":false} |
+| 7 | Sonnet 5.5 (mini-swe-agent) xhigh | 95.79 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.3,"dataset_size":642,"deprecated":false} |
+| 7 | GLM-5.3 (mini-swe-agent) max | 95.6 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.3,"dataset_size":642,"deprecated":false} |
+| 8 | GPT-5.6-sol (Codex) xhigh | 95.5 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.4,"dataset_size":642,"deprecated":false} |
+| 8 | Muse Spark Open (mini-swe-agent) xhigh | 95.02 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.43,"dataset_size":642,"deprecated":false} |
+| 9 | Gemini 3.8 Flash (mini-swe-agent) high | 94.86 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.46,"dataset_size":642,"deprecated":false} |
+| 10 | Sonnet 5 (Claude Code) xhigh | 93.15 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.71,"dataset_size":642,"deprecated":false} |
+| 11 | GPT-5.6-Terra (Codex) xhigh | 92.37 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":1.81,"dataset_size":642,"deprecated":false} |
+| 12 | Inkling (mini-swe-agent) xhigh | 89.88 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":2.1,"dataset_size":642,"deprecated":false} |
+| 13 | Haiku 5.5 (mini-swe-agent) high | 87.23 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":2.36,"dataset_size":642,"deprecated":false} |
 
-- **rank**：2
-- **model**：Fable 5.1 (Claude Code) high
-- **score**：99.10 ± 0.50
-- **metric**：Resolve Rate (Full)
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写榜单更新日；V2公告 2026-09-22）
-- **collected_at**：2026-11-07 KST
+#### Scale V2 / hard
 
-- **rank**：3
-- **model**：Kimi-K3 (mini-swe-agent) max
-- **score**：97.70 ± 0.90
-- **metric**：Resolve Rate (Full)
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写榜单更新日；V2公告 2026-09-22）
-- **collected_at**：2026-11-07 KST
+| 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
+|---|---|---|---|---|
+| 1 | Opus 5 (Claude Code) xhigh | 98 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 2 | Fable 5.1 (Claude Code) high | 92.2 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 3 | Gemini 4 Argon (mini-swe-agent) high | 92.16 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 4 | GPT-6 Astra (Codex) high | 90.2 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 4 | Muse Wonder 1.0 (mini-swe-agent) xhigh | 90.2 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 6 | Kimi-K3 (mini-swe-agent) max | 88.2 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 6 | Sonnet 5 (Claude Code) xhigh | 88.2 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 8 | GPT-5.6 Terra (Codex) xhigh | 86.3 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 8 | Inkling Small 2 | 86.27 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 9 | Minimax M3p1 Flash (mini-swe-agent) xhigh | 84.31 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 10 | GLM-5.3 (mini-swe-agent) max | 84.3 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 11 | GPT-5.6 Sol (Codex) xhigh | 82.4 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 12 | Muse Spark Open (mini-swe-agent) xhigh | 82.35 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 13 | Sonnet 5.5 (mini-swe-agent) xhigh | 70.59 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 14 | Gemini 3.8 Flash (mini-swe-agent) high | 58.8 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 15 | Inkling (mini-swe-agent) xhigh | 56.9 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
+| 16 | Haiku 5.5 (mini-swe-agent) high | 52.94 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":13.01,"dataset_size":51,"deprecated":false} |
+| 17 | Haiku 4.5 (Claude Code) xhigh | 25.5 | Resolve Rate (%) | {"rank_type":"official Rank(UB)","ci_plus_minus":0,"dataset_size":51,"deprecated":false} |
 
-- **rank**：4
-- **model**：Inkling Small 2
-- **score**：97.66 ± 1.46
-- **metric**：Resolve Rate (Full)
-- **result_type**：官方榜单快照
-- **source_date**：待核实（页面未写榜单更新日；V2公告 2026-09-22）
-- **collected_at**：2026-11-07 KST
+[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+### 覆盖与时效
 
-### 覆盖与时效说明
+从官方嵌入variants完整提取Full及HARD各18行；原rank与CI原样保留。Rank(UB)=1+下置信界超过本模型上置信界的模型数，不是点估计同分才并列。网页整体更新日未标，数据V2公告2026-09-22不能当所有模型运行日；HF自动widget可能混含v1厂商结果，不纳入本V2榜。
 
-Scale 官方榜 Full 集；同分区间按 Rank(UB) 并列。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）
 
 ## 联系方式
 
 ### 公开工作邮箱
 
+```json
+[
+  "jeffrey.da@scale.com"
+]
+```
+
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
+
+### 官方反馈
+
+https://github.com/scaleapi/SWE-bench_Pro-os/issues
+
+[来源1](https://github.com/scaleapi/SWE-bench_Pro-os/blob/main/README.md)（访问 2026-11-08）
+
+### 公开社区
+
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
-### 公开反馈
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 官方社交渠道
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 隐私政策
+### 隐私边界
 
 待核实
 
@@ -438,61 +436,86 @@ Scale 官方榜 Full 集；同分区间按 Rank(UB) 并列。
 
 ## 原始文件
 
-### 源站论文PDF
+### 源站PDF
 
-待核实
+https://arxiv.org/pdf/2509.16941v2
 
-> V2 无独立论文；原 SWE-Bench Pro 论文链接见官方页面，本轮未单独打开 PDF。
+[来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+### 本轮PDF SHA-256
 
-### 原始PDF SHA-256
+38bafe017fe2e259f27aba35ec3583b0332af001d4a8e7b3330e522076beeb0f
 
-待核实
+> 本次实际下载的PDF字节计算；未上传Drive。
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
+[来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+### 本轮PDF字节数
 
-### 原始PDF字节数
+```json
+1585853
+```
 
-待核实
+[来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### Drive资料文件夹
-
-待核实
-
-> 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
-### 其他文档
+### Drive文件夹
 
 待核实
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
+
+### 其他材料
+
+```json
+[
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://arxiv.org/abs/2509.16941",
+    "accessed": "2026-11-08"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+    "accessed": "2026-11-08"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "accessed": "2026-11-08"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+    "accessed": "2026-11-08"
+  }
+]
+```
+
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
 ### Drive PDF归档
 
 待核实
 
-> 本组按任务要求不上传Drive；原始PDF URL见original_files。
-
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
 
 ## 变更记录
 
-### changelog
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+  }
+]
+```
 
-- **date**：2026-11-07
-- **timezone**：KST / Asia/Seoul
-- **change**：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-
-[来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）
-
+[来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）

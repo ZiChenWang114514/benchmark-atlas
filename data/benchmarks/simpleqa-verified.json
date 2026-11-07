@@ -33,24 +33,22 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "paper_version": {
-      "value": "v2（本次arXiv返回版本）",
+      "value": "v2（论文版本；不等于数据集版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2509.07968",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2025-09-10 KST（arXiv v1提交2025-09-10T02:53:58+09:00；PDF首页同日）",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "section": {
       "value": "语言",
@@ -75,11 +73,11 @@
       "note": "编辑标签"
     },
     "license": {
-      "value": "MIT（官方数据集卡声明）",
+      "value": "MIT（HF官方README YAML明确license: mit）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/simpleqa-verified/raw/main/README.md",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -93,15 +91,14 @@
       ]
     },
     "code_url": {
-      "value": "待核实",
+      "value": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "官方提供Kaggle starter notebook与评测提示；没有把另一个项目的GitHub冒充本基准代码。"
     },
     "dataset_url": {
       "value": "https://huggingface.co/datasets/google/simpleqa-verified",
@@ -113,11 +110,15 @@
       ]
     },
     "official_homepage": {
-      "value": "https://huggingface.co/datasets/google/simpleqa-verified",
+      "value": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
       "sources": [
         {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://huggingface.co/datasets/google/simpleqa-verified",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -142,15 +143,13 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Kaggle托管数据与官方榜；论文致谢Gemini Factuality团队提供反馈。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -295,15 +294,13 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "长尾事实知识；构建时优先保留GPT-4o、Gemini 2.0 Flash与Claude 3.7 Sonnet均答错的题，再选择最终1,000道较难题。元数据中3.7%需推理、7.3%为多步。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "公开1,000题；无本次核实到的独立隐藏测试划分。",
@@ -326,11 +323,11 @@
       ]
     },
     "scoring": {
-      "value": "GPT-4.1版本autorater将回答分为正确、错误、未尝试；数字允许范围按题给定。",
+      "value": "gpt-4.1-2025-04-14自动分成CORRECT、INCORRECT、NOT_ATTEMPTED；F1是Accuracy与Accuracy given attempted的调和平均，非token级F1；数字答案按题目明确允许区间判分。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -344,11 +341,15 @@
       ]
     },
     "official_scripts": {
-      "value": "Kaggle官方starter notebook含autorater提示。",
+      "value": "Kaggle官方starter notebook；论文附录A完整公布autorater提示。",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
-          "accessed": "2026-11-07"
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -364,11 +365,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -406,26 +407,37 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "version": "v1",
+          "submitted_at": "2025-09-10T02:53:58+09:00",
+          "timezone": "Asia/Seoul (KST)"
+        },
+        {
+          "version": "v2",
+          "submitted_at": "2026-03-10T21:28:26+09:00",
+          "timezone": "Asia/Seoul (KST)"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        }
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "Kaggle 2026-10-20展示最高Score 77.5%；论文v2历史F1最高55.6。工具检索会使任务近乎可解完，故不能把有工具成绩解释为参数知识饱和。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "contamination_and_issues": {
       "value": "题集公开、依赖参数知识；检索增强结果与无工具协议不具可比性。",
@@ -437,32 +449,39 @@
       ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "基于OpenAI SimpleQA的4,326题筛选与修订；Verified为1,000题独立清洗版，不能把原SimpleQA分数直接替代。",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重口径；具体版本差异仍以官方材料为准。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08 KST / Asia/Seoul",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "official_url": {
-      "value": "https://epoch.ai/data/eci-documentation/data",
+      "value": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -471,71 +490,1803 @@
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "results": {
       "value": [
         {
+          "model": "Gemini 3.1 Pro Preview",
+          "score": 77.5,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "rank": 1,
+          "uncertainty_plus_minus": 2.6,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 75.8,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2,
+          "uncertainty_plus_minus": 2.6,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "score": 75.6,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3,
+          "uncertainty_plus_minus": 2.6,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "score": 74.6,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "uncertainty_plus_minus": 2.7,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "score": 73.8,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5,
+          "uncertainty_plus_minus": 2.8,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Gemini 3 Pro Preview",
+          "score": 72.1,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "uncertainty_plus_minus": 2.9,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 69.2,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 7,
+          "uncertainty_plus_minus": 2.9,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "GPT-6 Sol",
+          "score": 64.4,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "uncertainty_plus_minus": 3.0,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Claude Opus 5",
+          "score": 63.3,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 9,
+          "uncertainty_plus_minus": 3.2,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Grok 4.7",
+          "score": 59.4,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 10,
+          "uncertainty_plus_minus": 3.2,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Grok 4.5",
+          "score": 53.8,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 11,
+          "uncertainty_plus_minus": 3.2,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Qwen 3 235B A22B Thinking",
+          "score": 53.7,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 12,
+          "uncertainty_plus_minus": 3.4,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Grok 4.6",
+          "score": 52.9,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 13,
+          "uncertainty_plus_minus": 3.1,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "score": 45.2,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 14,
+          "uncertainty_plus_minus": 3.1,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Claude Sonnet 5.5",
+          "score": 44.7,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 15,
+          "uncertainty_plus_minus": 3.2,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Claude Opus 4.8",
+          "score": 44.5,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 16,
+          "uncertainty_plus_minus": 3.1,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Deepseek V4.1 Flash",
+          "score": 42.3,
+          "metric": "Kaggle页面Score (%)；不擅自改名为F1",
+          "track": "official Kaggle current",
+          "source_url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 17,
+          "uncertainty_plus_minus": 3.2,
+          "source_date": "2026-10-20"
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "score": 55.6,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 1,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "GPT 5",
+          "score": 52.3,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 2,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "o3",
+          "score": 51.9,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 3,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "GPT 4.1",
+          "score": 39.9,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 4,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "GPT 4o",
+          "score": 34.9,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 5,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "DeepSeek R1 (0528)",
+          "score": 33.3,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 6,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "Claude Opus 4",
+          "score": 28.3,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 7,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "score": 28.2,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 8,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "GPT 5 Mini",
+          "score": 24.6,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 9,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "o4-mini",
+          "score": 23.4,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 10,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "Claude Sonnet 4",
+          "score": 18.7,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 11,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "GPT 5 Nano",
+          "score": 14.4,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 12,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "Gemini 2.5 Flash Lite",
+          "score": 11.1,
+          "metric": "F1 (%)",
+          "track": "paper v2 Table 7 historical; no tools",
+          "source_url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "rank": 13,
+          "judge": "gpt-4.1-2025-04-14"
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "score": 0.735,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "VGeF8Xac4WcSAGgSXVdEBi",
+          "run_started_at_kst": "2026-08-11T06:35:39+09:00",
+          "stderr": "0.013963164754810065",
+          "rank": 1
+        },
+        {
+          "model": "Claude Fable 5 (xhigh)",
+          "score": 0.707,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "SEnvgtunRa5GwAtU2sHa87",
+          "run_started_at_kst": "2026-08-11T08:44:03+09:00",
+          "stderr": "0.014399942998441292",
+          "rank": 2
+        },
+        {
+          "model": "GPT-5.6 Sol (max)",
+          "score": 0.697,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "UnRUSuZzm2X27TUbpeMPva",
+          "run_started_at_kst": "2026-08-11T08:44:30+09:00",
+          "stderr": "0.014539683710535193",
+          "rank": 3
+        },
+        {
+          "model": "Claude Opus 5 (max)",
+          "score": 0.599,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "Zftz2yk4X5NF28JQzjN3hZ",
+          "run_started_at_kst": "2026-08-11T08:44:04+09:00",
+          "stderr": "0.01550610974549837",
+          "rank": 4
+        },
+        {
+          "model": "GPT-5.6 Terra (max)",
+          "score": 0.432,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "DienatPbgfgn3EzM7Gvzxr",
+          "run_started_at_kst": "2026-08-11T08:44:21+09:00",
+          "stderr": "0.015672320237336324",
+          "rank": 5
+        },
+        {
+          "model": "GPT-5.6 Luna (max)",
+          "score": 0.41,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "CeDghdBk8CqtiFSbUzxNH5",
+          "run_started_at_kst": "2026-08-11T08:44:20+09:00",
+          "stderr": "0.015560917136921657",
+          "rank": 6
+        },
+        {
+          "model": "Claude Sonnet 4.6 (high)",
+          "score": 0.355,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "LJyKf8Xy4dymxNHbGLwNdA",
+          "run_started_at_kst": "2026-08-11T07:42:23+09:00",
+          "stderr": "0.015139491543780595",
+          "rank": 7
+        },
+        {
+          "model": "Kimi K2.6",
+          "score": 0.349,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "hHnQVatVTbQjM4sfrjw7GH",
+          "run_started_at_kst": "2026-08-11T06:35:30+09:00",
+          "stderr": "0.015080663991563052",
+          "rank": 8
+        },
+        {
+          "model": "Claude Sonnet 4.5 (no thinking)",
+          "score": 0.237,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "MhqeuRVx4JcRfxPQDYPq7Z",
+          "run_started_at_kst": "2026-08-11T07:42:10+09:00",
+          "stderr": "0.013454070462577935",
+          "rank": 9
+        },
+        {
+          "model": "GPT-5 mini (high)",
+          "score": 0.216,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "8d5RuFTTJKuJ5iJYmPZVJe",
+          "run_started_at_kst": "2026-08-11T06:35:29+09:00",
+          "stderr": "0.013019735539307761",
+          "rank": 10
+        },
+        {
+          "model": "Claude Haiku 4.5",
+          "score": 0.132,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "J2kUEjR9r6Spd594qDNTTf",
+          "run_started_at_kst": "2026-08-11T06:26:22+09:00",
+          "stderr": "0.010709373963527967",
+          "rank": 11
+        },
+        {
+          "model": "GPT-5 nano (high)",
+          "score": 0.117,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.0.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.0.0",
+          "run_id": "KgUCEfVCyRnY8B5kVChyiD",
+          "run_started_at_kst": "2026-08-11T06:35:25+09:00",
+          "stderr": "0.010169287802713343",
+          "rank": 12
+        },
+        {
           "model": "Gemini 4 Argon (high)",
           "score": 0.76,
-          "metric": "CSV mean_score (0–1)",
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "task_version": "1.2.0",
-          "original_task_name": "SimpleQA Verified (anti-abstention)",
           "run_id": "iq4Y9tXpiyLP25yotySxJW",
           "run_started_at_kst": "2026-10-14T02:15:14+09:00",
           "stderr": "0.013512312258920845",
-          "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "rank": 1
         },
         {
-          "rank": 2,
           "model": "GPT-6 Astra (max)",
           "score": 0.756,
-          "metric": "CSV mean_score (0–1)",
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "task_version": "1.2.0",
-          "original_task_name": "SimpleQA Verified (anti-abstention)",
           "run_id": "PppwnX7EjXx2SeTcFN8Ujn",
           "run_started_at_kst": "2026-08-30T23:57:43+09:00",
           "stderr": "0.013588548437881386",
-          "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "rank": 2
         },
         {
-          "rank": 3,
           "model": "GPT-6.1 Sol (max)",
           "score": 0.739,
-          "metric": "CSV mean_score (0–1)",
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
           "task_version": "1.2.0",
-          "original_task_name": "SimpleQA Verified (anti-abstention)",
           "run_id": "dfT5VD7cQug8XW6GQHyJUF",
           "run_started_at_kst": "2026-09-30T07:00:34+09:00",
           "stderr": "0.013895037677965185",
+          "rank": 3
+        },
+        {
+          "model": "Claude Opus 5.5 (max)",
+          "score": 0.722,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "Epoch CSV同task/版本已成功运行记录按mean_score排序；非跨harness完整总榜"
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "CgLfiGcNwMPVzxr8GdNUAK",
+          "run_started_at_kst": "2026-09-23T03:27:39+09:00",
+          "stderr": "0.014174516461485273",
+          "rank": 4
+        },
+        {
+          "model": "Claude Fable 5.1 (max)",
+          "score": 0.708,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "ExyL3GN8s34tizrXV3VmS3",
+          "run_started_at_kst": "2026-09-02T03:31:59+09:00",
+          "stderr": "0.014385511563477433",
+          "rank": 5
+        },
+        {
+          "model": "Gemini 3.8 Flash (high)",
+          "score": 0.697,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "gZ4bwozTKtpmZTqnqX3a33",
+          "run_started_at_kst": "2026-09-03T02:15:36+09:00",
+          "stderr": "0.014539683710535193",
+          "rank": 6
+        },
+        {
+          "model": "Gemini 3.7 Flash (high)",
+          "score": 0.692,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "84ARuGyhQsjgh8umRmBvas",
+          "run_started_at_kst": "2026-08-28T04:30:25+09:00",
+          "stderr": "0.01460648312734278",
+          "rank": 7
+        },
+        {
+          "model": "Gemini 3 Flash Preview",
+          "score": 0.668,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "7cc6cDCXjsPjtKt36bbeMR",
+          "run_started_at_kst": "2026-08-28T04:30:06+09:00",
+          "stderr": "0.014899597242811567",
+          "rank": 8
+        },
+        {
+          "model": "Gemini 3.5 Flash",
+          "score": 0.662,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "GJ6YsSuzyRD9YXe6SBwvsu",
+          "run_started_at_kst": "2026-08-28T04:30:35+09:00",
+          "stderr": "0.014965960710224383",
+          "rank": 9
+        },
+        {
+          "model": "Gemini 3.6 Flash",
+          "score": 0.662,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "F83pa7Gfsb4UNVttTnS5Hk",
+          "run_started_at_kst": "2026-08-28T04:30:09+09:00",
+          "stderr": "0.014965960710224383",
+          "rank": 9
+        },
+        {
+          "model": "GPT-5.5 (xhigh)",
+          "score": 0.63,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "TijCafTTJUFrJ6jPGvBbgq",
+          "run_started_at_kst": "2026-08-28T04:28:25+09:00",
+          "stderr": "0.015275252316519465",
+          "rank": 11
+        },
+        {
+          "model": "Kimi K3.1 Pro (Together, max)",
+          "score": 0.622,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "HumfsXVh5BZWuTo6Z8Gqnf",
+          "run_started_at_kst": "2026-11-06T09:59:23+09:00",
+          "stderr": "0.015341165254026547",
+          "rank": 12
+        },
+        {
+          "model": "GPT-6 Sol (max)",
+          "score": 0.607,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "donMeEKBZZdqpQsojKWJEm",
+          "run_started_at_kst": "2026-09-23T04:59:24+09:00",
+          "stderr": "0.015452824654081525",
+          "rank": 13
+        },
+        {
+          "model": "Muse Spark 1.2 (xhigh)",
+          "score": 0.6030150753768844,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "mLLmVVvo6t23MM5yxq7ryW",
+          "run_started_at_kst": "2026-08-28T04:36:49+09:00",
+          "stderr": "0.015518791563606454",
+          "rank": 14
+        },
+        {
+          "model": "Muse Spark 1.1",
+          "score": 0.5778894472361809,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "bCdwpRXgZtvQLYC4wA9JXr",
+          "run_started_at_kst": "2026-09-01T04:21:58+09:00",
+          "stderr": "0.015665429072238852",
+          "rank": 15
+        },
+        {
+          "model": "GPT-6.1 Terra (max)",
+          "score": 0.573,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Bixeio8A6SejZtUzFXFSXK",
+          "run_started_at_kst": "2026-10-27T05:00:37+09:00",
+          "stderr": "0.01564978964446219",
+          "rank": 16
+        },
+        {
+          "model": "Muse Spark Open (xhigh)",
+          "score": 0.566,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "dNuxLdV4DWqfSvtTq6NnK8",
+          "run_started_at_kst": "2026-10-16T03:52:04+09:00",
+          "stderr": "0.01568087656637504",
+          "rank": 17
+        },
+        {
+          "model": "Grok 4.7 (xhigh)",
+          "score": 0.56,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "6izDCw5ygCLZJEKPS8jV5T",
+          "run_started_at_kst": "2026-09-23T06:49:22+09:00",
+          "stderr": "0.015704987954361718",
+          "rank": 18
+        },
+        {
+          "model": "Qwen3.7 Max",
+          "score": 0.5576730190571715,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "DMjUrG6eZEqwcQ4SqUoViu",
+          "run_started_at_kst": "2026-08-28T04:34:09+09:00",
+          "stderr": "0.015737359397180177",
+          "rank": 19
+        },
+        {
+          "model": "Claude Opus 4.8",
+          "score": 0.53,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "ViC6pxQZUVS3E9M9iEubF7",
+          "run_started_at_kst": "2026-08-28T04:27:24+09:00",
+          "stderr": "0.015790799515836722",
+          "rank": 20
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813 (max)",
+          "score": 0.5290581162324649,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "2xfFf6KZAp2gUWYhHGkFgs",
+          "run_started_at_kst": "2026-08-28T04:30:20+09:00",
+          "stderr": "0.015808394665706597",
+          "rank": 21
+        },
+        {
+          "model": "Qwen 3.6 Max (Preview)",
+          "score": 0.5200400801603207,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "iyPiR8GUuyNNA6Fssziq32",
+          "run_started_at_kst": "2026-08-28T04:33:58+09:00",
+          "stderr": "0.015822434816352416",
+          "rank": 22
+        },
+        {
+          "model": "Claude Opus 4.7 (xhigh)",
+          "score": 0.517,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "2c4rvmf5N7QXTugrFLMZ83",
+          "run_started_at_kst": "2026-08-28T04:27:26+09:00",
+          "stderr": "0.015810153729833274",
+          "rank": 23
+        },
+        {
+          "model": "Kimi K3 (max)",
+          "score": 0.506,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "mZLWt2JSYvJyGhMvji7CT8",
+          "run_started_at_kst": "2026-08-28T04:36:12+09:00",
+          "stderr": "0.015818160898606836",
+          "rank": 24
+        },
+        {
+          "model": "GPT-5 (high)",
+          "score": 0.501,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "gTLurbyKU63i2opsGkJGwh",
+          "run_started_at_kst": "2026-08-28T04:28:49+09:00",
+          "stderr": "0.015819268290576817",
+          "rank": 25
+        },
+        {
+          "model": "o3 (high)",
+          "score": 0.494,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "CxHSa2gY7ySiPPGTZEZaRt",
+          "run_started_at_kst": "2026-08-28T04:28:51+09:00",
+          "stderr": "0.015818160898606833",
+          "rank": 26
+        },
+        {
+          "model": "Grok 4.6 (high)",
+          "score": 0.493,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "TpHYtuPG6kYZFvMK7Z6Hqj",
+          "run_started_at_kst": "2026-08-28T04:29:53+09:00",
+          "stderr": "0.01581774956184353",
+          "rank": 27
+        },
+        {
+          "model": "Grok 4.6 (xhigh)",
+          "score": 0.489,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "dKCWFaoGCWJTnD5CPWQGru",
+          "run_started_at_kst": "2026-08-28T04:29:19+09:00",
+          "stderr": "0.015815471195292575",
+          "rank": 28
+        },
+        {
+          "model": "Qwen3-Max-Instruct",
+          "score": 0.4874874874874875,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "fXG2GPt5F25tHRTPhAoZ4K",
+          "run_started_at_kst": "2026-08-28T04:32:02+09:00",
+          "stderr": "0.01582226675546796",
+          "rank": 29
+        },
+        {
+          "model": "Grok 4.5 (high)",
+          "score": 0.483,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "7HWW3sjRstKzb9JpcnvLaV",
+          "run_started_at_kst": "2026-08-28T04:29:30+09:00",
+          "stderr": "0.015810153729833274",
+          "rank": 30
+        },
+        {
+          "model": "GPT-5.1 (high)",
+          "score": 0.48,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "QCLnRy69NBH9ip3VYtQneh",
+          "run_started_at_kst": "2026-08-28T04:28:24+09:00",
+          "stderr": "0.015806639423035177",
+          "rank": 31
+        },
+        {
+          "model": "Qwen3.8 Max (0902) (xhigh)",
+          "score": 0.473,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "nBcLJJomVoeg2zh5F8Mnsu",
+          "run_started_at_kst": "2026-09-03T03:04:58+09:00",
+          "stderr": "0.01579621855130273",
+          "rank": 32
+        },
+        {
+          "model": "Claude Opus 4.6 (max)",
+          "score": 0.47,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "85fhMxLaebWtLoi6oLpTbi",
+          "run_started_at_kst": "2026-08-28T04:27:45+09:00",
+          "stderr": "0.015790799515836722",
+          "rank": 33
+        },
+        {
+          "model": "DeepSeek v4 Pro (max)",
+          "score": 0.46993987975951906,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Sq9xqkVTmFvELpQy9KH5TM",
+          "run_started_at_kst": "2026-08-28T04:30:29+09:00",
+          "stderr": "0.015806515332355317",
+          "rank": 34
+        },
+        {
+          "model": "Claude Sonnet 5.5 (max)",
+          "score": 0.465,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "GtJ5yd3ZPQ7HVcm6Q9ssQz",
+          "run_started_at_kst": "2026-09-30T00:15:14+09:00",
+          "stderr": "0.015780495050030086",
+          "rank": 35
+        },
+        {
+          "model": "GPT-5.4 Pro (xhigh)",
+          "score": 0.463,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "RfSJbuuuMkeVHQj7xrth4u",
+          "run_started_at_kst": "2026-08-28T04:28:24+09:00",
+          "stderr": "0.015775927227262426",
+          "rank": 36
+        },
+        {
+          "model": "Qwen3.8 Max (xhigh)",
+          "score": 0.458,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "bfftd5EzUK9yAekafEofvK",
+          "run_started_at_kst": "2026-08-28T04:30:55+09:00",
+          "stderr": "0.015763390640483554",
+          "rank": 37
+        },
+        {
+          "model": "Claude Opus 4.5 (32k thinking)",
+          "score": 0.457,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "CA5LW4phRnHSsZUGXEm8H6",
+          "run_started_at_kst": "2026-08-28T04:28:02+09:00",
+          "stderr": "0.0157606915901365",
+          "rank": 38
+        },
+        {
+          "model": "GPT-5.4 (xhigh)",
+          "score": 0.451,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "AzCkm282PLhDdLJ8DnAQQc",
+          "run_started_at_kst": "2026-08-28T04:28:16+09:00",
+          "stderr": "0.015743152379585443",
+          "rank": 39
+        },
+        {
+          "model": "Doubao Seed 2.1 Pro (high)",
+          "score": 0.447,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "7TdGnviq5zZhNSXK5nJSAL",
+          "run_started_at_kst": "2026-10-29T08:55:29+09:00",
+          "stderr": "0.0157301760460091",
+          "rank": 40
+        },
+        {
+          "model": "Qwen 3.6 Plus (2026-04-02)",
+          "score": 0.44144144144144143,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "4LWNorP8Fy8V8doxirNFcH",
+          "run_started_at_kst": "2026-08-28T04:34:06+09:00",
+          "stderr": "0.015718302238794238",
+          "rank": 41
+        },
+        {
+          "model": "DeepSeek V4.1 Flash (max)",
+          "score": 0.429,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "3JJ4ChNxMo8CGAh3HrKNrw",
+          "run_started_at_kst": "2026-10-13T21:59:33+09:00",
+          "stderr": "0.015658997547870177",
+          "rank": 42
+        },
+        {
+          "model": "DeepSeek V4.1 Flash 1017 (max)",
+          "score": 0.425,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Ei4XWaCH5drYUnDRo2MYCW",
+          "run_started_at_kst": "2026-10-20T07:38:54+09:00",
+          "stderr": "0.01564032031704017",
+          "rank": 43
+        },
+        {
+          "model": "Doubao Seed Evolving (Nov 2026, high)",
+          "score": 0.419,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "PWieWgMJqvCcm7zkN9iYqH",
+          "run_started_at_kst": "2026-11-03T05:57:35+09:00",
+          "stderr": "0.015610338967577953",
+          "rank": 44
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": 0.414,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "HX9sRVWJtZiNvneALnVzs8",
+          "run_started_at_kst": "2026-09-23T07:14:05+09:00",
+          "stderr": "0.015583544104177553",
+          "rank": 45
+        },
+        {
+          "model": "o1 (high)",
+          "score": 0.411,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "LQfu4ngArcgMEyQZxuR7r4",
+          "run_started_at_kst": "2026-09-01T07:01:34+09:00",
+          "stderr": "0.01556667341859915",
+          "rank": 46
+        },
+        {
+          "model": "GLM-5.3 (max)",
+          "score": 0.41,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "TY8R8FV7zCwByEipkqyg2P",
+          "run_started_at_kst": "2026-08-29T02:00:06+09:00",
+          "stderr": "0.015560917136921659",
+          "rank": 47
+        },
+        {
+          "model": "Qwen3-235B-A22B (Jul 2025)",
+          "score": 0.4044044044044044,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "4ACEC4x26HWRGiAepHGw43",
+          "run_started_at_kst": "2026-08-28T04:36:29+09:00",
+          "stderr": "0.015535255725079345",
+          "rank": 48
+        },
+        {
+          "model": "Inkling (xhigh)",
+          "score": 0.403,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "bpnzC6CCi3hWuKCfqX4KEY",
+          "run_started_at_kst": "2026-08-28T04:36:45+09:00",
+          "stderr": "0.015518757419066513",
+          "rank": 49
+        },
+        {
+          "model": "Doubao-Seed-2.0 Pro (high)",
+          "score": 0.394,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "GvNEYw523w8aUy63WpgovD",
+          "run_started_at_kst": "2026-10-29T08:55:39+09:00",
+          "stderr": "0.015459721957493382",
+          "rank": 50
+        },
+        {
+          "model": "GPT-5.2 (xhigh)",
+          "score": 0.371,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "E3325ytkSNYP8ez53VA4fE",
+          "run_started_at_kst": "2026-08-28T04:27:55+09:00",
+          "stderr": "0.015283736211823095",
+          "rank": 51
+        },
+        {
+          "model": "Kimi K2.7 Code",
+          "score": 0.365,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "5AijYw5bFJtSuahnbzNo6Z",
+          "run_started_at_kst": "2026-08-28T04:36:03+09:00",
+          "stderr": "0.015231776226264846",
+          "rank": 52
+        },
+        {
+          "model": "Kimi K2.5",
+          "score": 0.343,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "RbXXg4JEbTSBnzw3CMSHnD",
+          "run_started_at_kst": "2026-08-28T04:35:45+09:00",
+          "stderr": "0.015019206922357007",
+          "rank": 53
+        },
+        {
+          "model": "GPT-5.2 (high)",
+          "score": 0.343,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Xp4qkZ32zjDeSYii2eQpnm",
+          "run_started_at_kst": "2026-08-28T04:28:37+09:00",
+          "stderr": "0.015019206922357007",
+          "rank": 53
+        },
+        {
+          "model": "GLM-5.2",
+          "score": 0.342,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "WgjFZzojpiv54XqUhvfuUG",
+          "run_started_at_kst": "2026-08-28T04:36:05+09:00",
+          "stderr": "0.015008706182121802",
+          "rank": 55
+        },
+        {
+          "model": "GLM-5.1",
+          "score": 0.34,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "R2fMFAtRXah864hMifdQGV",
+          "run_started_at_kst": "2026-08-28T04:36:21+09:00",
+          "stderr": "0.014987482264363972",
+          "rank": 56
+        },
+        {
+          "model": "Claude Sonnet 5 (max)",
+          "score": 0.337,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "LPo74T9L3CawnKX5LLUrSZ",
+          "run_started_at_kst": "2026-08-28T04:27:42+09:00",
+          "stderr": "0.014955087918653461",
+          "rank": 57
+        },
+        {
+          "model": "DeepSeek V4 Flash 0731 (max)",
+          "score": 0.33633633633633636,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "TqFmiGvqozt7TSZYmhgF8m",
+          "run_started_at_kst": "2026-08-28T04:30:16+09:00",
+          "stderr": "0.01495531772489948",
+          "rank": 58
+        },
+        {
+          "model": "Grok 4.3 Beta",
+          "score": 0.332,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Y39ZRp553ULpUDBV2XrBbc",
+          "run_started_at_kst": "2026-08-28T04:29:33+09:00",
+          "stderr": "0.014899597242811567",
+          "rank": 59
+        },
+        {
+          "model": "Claude Sonnet 5 (xhigh)",
+          "score": 0.329,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Qw4tGw38pk4sdsEehhrLSR",
+          "run_started_at_kst": "2026-08-28T04:28:11+09:00",
+          "stderr": "0.014865395385928355",
+          "rank": 60
+        },
+        {
+          "model": "GPT-5.2 (low)",
+          "score": 0.328,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Cyw3GA9a64AmT4pqLAhtTF",
+          "run_started_at_kst": "2026-08-28T04:29:12+09:00",
+          "stderr": "0.014853842487270312",
+          "rank": 61
+        },
+        {
+          "model": "Claude Sonnet 4.6 (max)",
+          "score": 0.328,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Zs5fCvNzaz8LhqgwDSAztU",
+          "run_started_at_kst": "2026-08-28T04:27:37+09:00",
+          "stderr": "0.014853842487270312",
+          "rank": 61
+        },
+        {
+          "model": "GPT-5.2 (medium)",
+          "score": 0.327,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "esr5dcSuHiVoteo6vZfHjP",
+          "run_started_at_kst": "2026-08-28T04:29:07+09:00",
+          "stderr": "0.014842213153411162",
+          "rank": 63
+        },
+        {
+          "model": "GLM-4.7",
+          "score": 0.322,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "aYau6EG7CCaWVSyVq3vvQc",
+          "run_started_at_kst": "2026-08-28T04:36:02+09:00",
+          "stderr": "0.014782913600996744",
+          "rank": 64
+        },
+        {
+          "model": "Doubao Seed 2.0 Lite (Apr 2026, high)",
+          "score": 0.315,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "3rTiRa2THK8MWXtVJZQHxS",
+          "run_started_at_kst": "2026-10-29T08:55:56+09:00",
+          "stderr": "0.014696631960792619",
+          "rank": 65
+        },
+        {
+          "model": "GPT-4.1",
+          "score": 0.311,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "avdYKfKUuY6EvfVdxftBE8",
+          "run_started_at_kst": "2026-09-01T07:01:48+09:00",
+          "stderr": "0.014645596385722692",
+          "rank": 66
+        },
+        {
+          "model": "Claude Sonnet 4.5 (59k thinking)",
+          "score": 0.307,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "XQEGUQjpXupjdyKoGuSmum",
+          "run_started_at_kst": "2026-08-28T04:28:19+09:00",
+          "stderr": "0.014593284892852741",
+          "rank": 67
+        },
+        {
+          "model": "Grok 4.20",
+          "score": 0.302,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "GVm7khGvtdnQKGfkgAHD8q",
+          "run_started_at_kst": "2026-08-28T04:29:44+09:00",
+          "stderr": "0.014526080235459494",
+          "rank": 68
+        },
+        {
+          "model": "Doubao Seed 2.1 Turbo (high)",
+          "score": 0.297,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "9wS2NJacFaJp9tkq8FSRyF",
+          "run_started_at_kst": "2026-10-30T21:30:09+09:00",
+          "stderr": "0.01445683229480096",
+          "rank": 69
+        },
+        {
+          "model": "GPT-5.4 mini (high)",
+          "score": 0.294,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Z3pjKgAULY9j9wmzQpdqZG",
+          "run_started_at_kst": "2026-08-28T04:28:49+09:00",
+          "stderr": "0.014414290540008265",
+          "rank": 70
+        },
+        {
+          "model": "GPT-4o (Aug 2024)",
+          "score": 0.26,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "bDFqfWxMG7gLDq4Mz8PRTP",
+          "run_started_at_kst": "2026-09-01T07:02:02+09:00",
+          "stderr": "0.01387777332977422",
+          "rank": 71
+        },
+        {
+          "model": "Qwen3.5 Plus",
+          "score": 0.2535070140280561,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "jrawnM2wHFbVfJFJsap4kS",
+          "run_started_at_kst": "2026-08-28T06:29:42+09:00",
+          "stderr": "0.013777178222916077",
+          "rank": 72
+        },
+        {
+          "model": "Claude Haiku 5.5 (max)",
+          "score": 0.238,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "NwnrUMtveqHDYB2Um4ycmA",
+          "run_started_at_kst": "2026-10-09T23:36:06+09:00",
+          "stderr": "0.013473586661967093",
+          "rank": 73
+        },
+        {
+          "model": "Mistral Large 4 (high)",
+          "score": 0.224,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "JYSfRXRddi6hYzpnSD3G7V",
+          "run_started_at_kst": "2026-11-02T22:47:17+09:00",
+          "stderr": "0.013190830072364589",
+          "rank": 74
+        },
+        {
+          "model": "Qwen3.5 Flash",
+          "score": 0.2032032032032032,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "K8zTckSXLKLesoLBv24TWc",
+          "run_started_at_kst": "2026-08-28T04:32:07+09:00",
+          "stderr": "0.012737194890497593",
+          "rank": 75
+        },
+        {
+          "model": "Mistral Large 4 Preview (high)",
+          "score": 0.2,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "hvNNKdnzLvr9X8zVxWKcfk",
+          "run_started_at_kst": "2026-10-09T23:12:09+09:00",
+          "stderr": "0.012655439943366657",
+          "rank": 76
+        },
+        {
+          "model": "o4-mini (low)",
+          "score": 0.196,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "Dzky9brdTFbSoVd2zTKiUp",
+          "run_started_at_kst": "2026-08-28T04:29:17+09:00",
+          "stderr": "0.012559527926707347",
+          "rank": 77
+        },
+        {
+          "model": "Inkling Small (xhigh)",
+          "score": 0.191,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "eJfbDKqeg9kNXFoxpeV7HG",
+          "run_started_at_kst": "2026-08-28T04:36:17+09:00",
+          "stderr": "0.012436787112179482",
+          "rank": 78
+        },
+        {
+          "model": "o4-mini (high)",
+          "score": 0.188,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "gaGdPvvfvAw7MjP4HaVQCT",
+          "run_started_at_kst": "2026-08-28T04:28:50+09:00",
+          "stderr": "0.012361586015103758",
+          "rank": 79
+        },
+        {
+          "model": "Doubao-Seed-1.6 (thinking)",
+          "score": 0.174,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "jn6ts6NmQFtBGauL9n5i82",
+          "run_started_at_kst": "2026-10-31T03:28:17+09:00",
+          "stderr": "0.01199449323097345",
+          "rank": 80
+        },
+        {
+          "model": "Qwen 3.6 Flash (2026-04-16)",
+          "score": 0.15915915915915915,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "FoMSS4FmH3VxpsvZiUJPCv",
+          "run_started_at_kst": "2026-08-28T04:33:42+09:00",
+          "stderr": "0.011579970321213651",
+          "rank": 81
+        },
+        {
+          "model": "o3-mini (high)",
+          "score": 0.153,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "UCba4H3NNtUiWXMisWnh9g",
+          "run_started_at_kst": "2026-09-01T07:01:45+09:00",
+          "stderr": "0.011389500459665504",
+          "rank": 82
+        },
+        {
+          "model": "GPT-4.1 mini",
+          "score": 0.127,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "gYV4CJTjSd7VonfzMmnwcw",
+          "run_started_at_kst": "2026-09-01T07:01:51+09:00",
+          "stderr": "0.010534798620855644",
+          "rank": 83
+        },
+        {
+          "model": "Claude 3 Opus",
+          "score": 0.126,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "NxVp4VF8uQbL5S6hx6HFRB",
+          "run_started_at_kst": "2026-09-01T03:18:52+09:00",
+          "stderr": "0.010499249222407964",
+          "rank": 84
+        },
+        {
+          "model": "Claude Haiku 4.5",
+          "score": 0.126,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "VhBM9HgJ2RuSVwXriRXMVJ",
+          "run_started_at_kst": "2026-08-28T04:27:58+09:00",
+          "stderr": "0.010499249222407964",
+          "rank": 84
+        },
+        {
+          "model": "GPT-5.4 nano (high)",
+          "score": 0.117,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "3QBsxKkbF2R2LEXTd6HDrJ",
+          "run_started_at_kst": "2026-08-28T04:28:50+09:00",
+          "stderr": "0.010169287802713345",
+          "rank": 86
+        },
+        {
+          "model": "Gemma 4 31B IT",
+          "score": 0.104,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "D5cbXacPnJ8akq2jAtifEQ",
+          "run_started_at_kst": "2026-08-28T04:30:07+09:00",
+          "stderr": "0.009658016218524242",
+          "rank": 87
+        },
+        {
+          "model": "GPT-4o mini",
+          "score": 0.083,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "DLr586bZUHpghAf8m3GRSm",
+          "run_started_at_kst": "2026-09-01T07:02:07+09:00",
+          "stderr": "0.008728527206074758",
+          "rank": 88
+        },
+        {
+          "model": "GPT-4.1 nano",
+          "score": 0.06,
+          "metric": "mean_score (0–1)",
+          "track": "Epoch anti-abstention 1.2.0",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "collected_at": "2026-11-08 KST",
+          "task_version": "1.2.0",
+          "run_id": "A4JEeJR5LQfLR3Hb8z7kL2",
+          "run_started_at_kst": "2026-09-01T07:01:58+09:00",
+          "stderr": "0.007513751157474971",
+          "rank": 89
         }
       ],
       "sources": [
         {
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "CSV快照；只对上述筛选配置已成功记录排序，不冒充所有模型官方统一排名。运行开始时间不等于榜单更新时间。SimpleQA的anti-abstention mean_score不等于原论文F1。",
+      "value": "官方Kaggle可读17行（页称显示48/58，并不声称本档收齐58模型）；论文Table 7完整13行历史F1独立成轨；Epoch对每个精确model+task_version取最新成功run，1.0.0/1.2.0分轨。Kaggle Score列名称、论文F1与anti-abstention mean_score不得混同。",
       "sources": [
         {
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -564,11 +2315,11 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "official_social": {
-      "value": "数据集卡指向官方discussion forum作为问题反馈渠道。",
+      "value": "https://huggingface.co/datasets/google/simpleqa-verified/discussions",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/simpleqa-verified",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -586,35 +2337,32 @@
   },
   "original_files": {
     "paper_pdf_url": {
-      "value": "https://arxiv.org/pdf/2509.07968",
+      "value": "https://arxiv.org/pdf/2509.07968v2",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.07968v2",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "sha256": {
-      "value": "待核实",
+      "value": "df3bf66ebdba21e01dec4fc760d53ca8944ed2010bf1a15e9e57b5a404ed8686",
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.07968v2",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "note": "本次实际下载的PDF字节计算；未上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 815212,
       "sources": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2509.07968v2",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -628,15 +2376,37 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
+          "type": "本轮已打开一手材料",
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "本轮已打开一手材料",
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2509.07968",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/google/simpleqa-verified",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -656,12 +2426,25 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
       }
     ],
     "sources": [
       {
-        "url": "https://epoch.ai/data/eci-documentation/data",
-        "accessed": "2026-11-07"
+        "url": "https://arxiv.org/abs/2509.07968",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://huggingface.co/datasets/google/simpleqa-verified",
+        "accessed": "2026-11-08"
+      },
+      {
+        "url": "https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified",
+        "accessed": "2026-11-08"
       }
     ]
   }

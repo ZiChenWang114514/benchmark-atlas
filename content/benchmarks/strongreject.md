@@ -1,8 +1,10 @@
 # StrongREJECT
 
-> 第1轮核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；未核实不等于官方未公开。榜单快照与H2使用证据分别记录。
+> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
 
-[阅读归档原始论文 PDF](https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk)
+StrongREJECT首先是越狱输出评估器与313请求提示集，而不是一张通用模型安全榜。它关注回答是否具体、可信且真正有助于有害请求，纠正“没有拒绝就是越狱成功”的误判。下方MAE榜只验证自动评分与人工标签的一致性，越低越好，不代表目标模型更安全。
+
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -20,25 +22,21 @@ StrongREJECT
 
 ### 基准版本
 
-待核实
+313请求公开提示集；rubric与Gemma-2B微调评估器是两种实现，独立包release版本待核实。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）；[来源2](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
 ### 论文版本
 
-arXiv v2
+v2（论文版本；不等于数据集版本）
 
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
 ### 发布日期
 
-2024-02-15
+2024-02-16 KST（arXiv v1 2024-02-16T03:58:09+09:00；arXiv网页历日为2024-02-15 UTC）
 
-> 原始论文首发日期，不保证等同于数据文件首次公开日。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
 ### 主板块
 
@@ -48,13 +46,17 @@ arXiv v2
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 领域标签
+### 领域
 
-- 有害请求完成度与拒答评价
+```json
+[
+  "有害请求完成度与拒答评价"
+]
+```
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 许可证
+### 许可与适用范围
 
 MIT（本项目代码）；汇编数据继承来源约束：README注明部分来源无许可，不能把MIT直接套用全部数据。
 
@@ -72,7 +74,7 @@ https://github.com/dsbowen/strong_reject
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 数据地址
+### 数据
 
 https://github.com/dsbowen/strong_reject
 
@@ -92,13 +94,13 @@ A StrongREJECT for Empty Jailbreaks
 
 ## 发起与维护
 
-### 机构与作者单位
+### 发起方
 
 UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 正式合作机构
+### 合作/参与机构
 
 待核实
 
@@ -108,31 +110,25 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 ### 作者
 
-- Souly, Alexandra
-
-- Lu, Qingyuan
-
-- Bowen, Dillon
-
-- Trinh, Tu
-
-- Hsieh, Elvis
-
-- Pandey, Sana
-
-- Abbeel, Pieter
-
-- Svegliato, Justin
-
-- Emmons, Scott
-
-- Watkins, Olivia
-
-- Toyer, Sam
+```json
+[
+  "Souly, Alexandra",
+  "Lu, Qingyuan",
+  "Bowen, Dillon",
+  "Trinh, Tu",
+  "Hsieh, Elvis",
+  "Pandey, Sana",
+  "Abbeel, Pieter",
+  "Svegliato, Justin",
+  "Emmons, Scott",
+  "Watkins, Olivia",
+  "Toyer, Sam"
+]
+```
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 当前维护方
+### 维护方
 
 官方代码与反馈由 dsbowen/strong_reject 仓库提供；个人持续维护职责及响应时限未核实。
 
@@ -148,13 +144,13 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 ## 设计目标
 
-### 测量能力
+### 衡量能力
 
 判定越狱输出是否真正提供具体、可信的有害帮助，而不只判断是否拒答。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 既有评测缺口
+### 设计背景
 
 简单非拒答指标会把空泛、无用或不可信回答错误计为越狱成功。
 
@@ -168,13 +164,13 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 [来源1](https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md)（访问 2026-11-07）
 
-### 出题与标注背景
+### 出题者背景
 
 研究团队结合人工、GPT-4与pplx-70b-online辅助编写及核实。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 审核
+### 审核流程
 
 语义去重，检查拒答、回答可能性与提示质量，并人工复核。
 
@@ -186,13 +182,11 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 去污染
+### 污染控制
 
-待核实
+汇编既有公开有害请求，论文不声称提示库无预训练污染；对评估器验证集与微调训练/验证提示作区分。不能把评估器验证一致性当成目标模型未见过请求的证明。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
 ## 数据形式
 
@@ -202,7 +196,7 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 题型
+### 任务形式
 
 禁止请求与回答完成度评价；不在本页复现危害操作内容
 
@@ -246,19 +240,19 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 提示与生成设置
+### 运行设置
 
 按官方评价提示对有害请求及目标回答打分，必须记录裁判模型版本。
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 脚本
+### 评测工具
 
 strong_reject包提供evaluate_dataset；rubric-based LLM evaluator和fine-tuned Gemma 2B evaluator是两个不同实现，报告需明确选择。
 
 [来源1](https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md)（访问 2026-11-07）
 
-### 可比性警告
+### 可比性
 
 rubric评分、微调评估器分数和二值ASR不同；评估器MAE也不是目标模型的安全分。
 
@@ -266,67 +260,64 @@ rubric评分、微调评估器分数和二值ASR不同；评估器MAE也不是�
 
 ## 最新情况
 
-### 本次核验日与H2使用证据
+### 复核日期
 
-2026-11-07
+2026-11-08 KST / Asia/Seoul
 
-> 2026-H2实际使用证据：2026-09-07：同一H2越狱评估器研究实际研究 StrongREJECT 评分及其可靠性。；2026-09-16：First Token Matters 也明确使用 StrongReject 数据集分析推理模型安全崩塌。
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/html/2609.10594v1)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.18471v1)（访问 2026-11-07）
+### 当前版本及历史热度证据
 
-### 数据版本
+本次官方文档仍描述六类请求与两种StrongREJECT评价器；没有将WMDP beta混入原始313题库存。
 
-待核实
+[来源1](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）；[来源2](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
+### 修订历史
 
-[来源1](https://github.com/dsbowen/strong_reject)（访问 2026-11-07）
+```json
+[
+  {
+    "version": "v1",
+    "submitted_at": "2024-02-16T03:58:09+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  },
+  {
+    "version": "v2",
+    "submitted_at": "2024-08-27T12:32:47+09:00",
+    "timezone": "Asia/Seoul (KST)"
+  }
+]
+```
 
-### 论文修订记录
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
-- **版本**：v1
-- **submitted_at**：2024-02-16T03:58:09+09:00
-- **时区**：Asia/Seoul (KST)
+### 饱和与能力边界
 
-- **版本**：v2
-- **submitted_at**：2024-08-27T12:32:47+09:00
-- **时区**：Asia/Seoul (KST)
+本基准核心是越狱评估器而非统一模型能力榜。论文MAE=0.077/0.084衡量相对人工标签误差，不能用接近0或1判断目标模型安全能力饱和。
 
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
-### 饱和情况
-
-待核实
-
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
-
-### 污染与已知问题
+### 风险与争议
 
 README列明若干源数据无license；项目MIT不自动补足来源授权。H2裁判比较使用共享Qwen3.8-27B-Uncensored backbone的rubric版，不能视为原生微调评分器验证。
 
 [来源1](https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.10594v1)（访问 2026-11-07）
 
-### 衍生评测
+### 系列与衍生关系
 
-待核实
+官方文档另有WMDP开放问答beta：从多选转开放题、附危险性权重及StrongREJECT风格评价器；不是原313请求集的同版本扩容。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
 ## 榜单快照
 
-### 采集日
+### 快照日期
 
-2026-11-07
+2026-11-08 KST / Asia/Seoul
 
-> 采集日期，不代表所有列出模型的运行日期；结果行另标历史/实时属性。
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
-
-### 官方榜或原始结果入口
+### 官方入口
 
 https://arxiv.org/abs/2402.10260
 
@@ -334,7 +325,7 @@ https://arxiv.org/abs/2402.10260
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 二级机构榜单
+### 独立来源
 
 待核实
 
@@ -342,41 +333,44 @@ https://arxiv.org/abs/2402.10260
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 可读结果
+### 分来源与协议结果
 
-- **模型 / Agent**：StrongREJECT rubric evaluator
-- **分数**：0.077
-- **指标**：相对人类标签MAE
-- **scope**：原始论文评估器验证，非目标模型安全榜
-- **evaluation_date**：2024年原论文，精确日期待核实
+#### paper v2 Table 1 evaluator validation
 
-- **模型 / Agent**：StrongREJECT finetuned evaluator
-- **分数**：0.084
-- **指标**：相对人类标签MAE
-- **scope**：原始论文评估器验证，非目标模型安全榜
-- **evaluation_date**：2024年原论文，精确日期待核实
+| 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
+|---|---|---|---|---|
+| 9 | String matching | 0.58 | MAE vs human labels；lower is better | {"bias":0.484,"mae_95ci_plus_minus":0.03,"mae_human_nonzero":0.372,"mae_human_nonzero_95ci_plus_minus":0.04,"spearman_jailbreak_rank":-0.394} |
+| 8 | Jailbroken - binary | 0.407 | MAE vs human labels；lower is better | {"bias":0.354,"mae_95ci_plus_minus":0.03,"mae_human_nonzero":0.254,"mae_human_nonzero_95ci_plus_minus":0.04,"spearman_jailbreak_rank":-0.291} |
+| 7 | PICT | 0.291 | MAE vs human labels；lower is better | {"bias":0.232,"mae_95ci_plus_minus":0.02,"mae_human_nonzero":0.278,"mae_human_nonzero_95ci_plus_minus":0.04,"spearman_jailbreak_rank":0.101} |
+| 6 | GPT-4 Judge | 0.262 | MAE vs human labels；lower is better | {"bias":0.208,"mae_95ci_plus_minus":0.02,"mae_human_nonzero":0.212,"mae_human_nonzero_95ci_plus_minus":0.03,"spearman_jailbreak_rank":0.157} |
+| 5 | PAIR | 0.205 | MAE vs human labels；lower is better | {"bias":0.152,"mae_95ci_plus_minus":0.02,"mae_human_nonzero":0.224,"mae_human_nonzero_95ci_plus_minus":0.03,"spearman_jailbreak_rank":0.249} |
+| 4 | OpenAI moderation API | 0.197 | MAE vs human labels；lower is better | {"bias":-0.161,"mae_95ci_plus_minus":0.02,"mae_human_nonzero":0.761,"mae_human_nonzero_95ci_plus_minus":0.04,"spearman_jailbreak_rank":-0.103} |
+| 3 | HarmBench | 0.09 | MAE vs human labels；lower is better | {"bias":0.013,"mae_95ci_plus_minus":0.01,"mae_human_nonzero":0.239,"mae_human_nonzero_95ci_plus_minus":0.03,"spearman_jailbreak_rank":0.819} |
+| 2 | StrongREJECT fine-tuned | 0.084 | MAE vs human labels；lower is better | {"bias":-0.023,"mae_95ci_plus_minus":0.01,"mae_human_nonzero":0.244,"mae_human_nonzero_95ci_plus_minus":0.02,"spearman_jailbreak_rank":0.9} |
+| 1 | StrongREJECT rubric | 0.077 | MAE vs human labels；lower is better | {"bias":0.012,"mae_95ci_plus_minus":0.01,"mae_human_nonzero":0.196,"mae_human_nonzero_95ci_plus_minus":0.03,"spearman_jailbreak_rank":0.846} |
 
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
-### 覆盖与时效限制
+### 覆盖与时效
 
-此处只列原始评估器校验，不能据此排序被攻击模型；未核实当前统一官方实时安全榜。
+完整收录论文Table 1九个自动评估器MAE等验证统计；rank仅按MAE越低越好重排，非被攻击模型的安全排名。HF walledai/StrongREJECT卡已打开，但它是第三方镜像且未列独立实时统一安全榜。
 
-> 本轮重新打开官方README及H2实证论文；仍未核验到同协议实时全榜，历史论文结果不得称2026当前前三。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）；[来源2](https://arxiv.org/html/2609.10594v1)（访问 2026-11-07）；[来源3](https://arxiv.org/html/2609.18471v1)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/walledai/StrongREJECT)（访问 2026-11-08）
 
 ## 联系方式
 
-### 公开研究联系邮箱
+### 公开工作邮箱
 
-- alexandrasouly@gmail.com
-
-- sdt@berkeley.edu
+```json
+[
+  "alexandrasouly@gmail.com",
+  "sdt@berkeley.edu"
+]
+```
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
 
-### 仓库讨论与Issues
+### 官方反馈
 
 https://github.com/dsbowen/strong_reject/issues
 
@@ -384,15 +378,13 @@ https://github.com/dsbowen/strong_reject/issues
 
 [来源1](https://raw.githubusercontent.com/dsbowen/strong_reject/main/README.md)（访问 2026-11-07）
 
-### 官方社交渠道
+### 公开社区
 
-待核实
+官方文档和GitHub Issues为已核实反馈入口；不将第三方HF镜像当官方维护账号。
 
-> 已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
+[来源1](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）
 
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）
-
-### 收录边界
+### 隐私边界
 
 只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。
 
@@ -400,56 +392,99 @@ https://github.com/dsbowen/strong_reject/issues
 
 ## 原始文件
 
-### 源PDF
+### 源站PDF
 
 https://arxiv.org/pdf/2402.10260
 
-[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### 原件SHA-256
+### 本轮PDF SHA-256
 
 10caab98ed5a75b019ef3c8a6697527f83edda067516996d2cb612f02ff746bc
 
-> 原始下载字节SHA-256；未压缩或改写。
+> 本次实际下载的PDF字节计算；未上传Drive。
 
-[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### 原件字节数
+### 本轮PDF字节数
 
+```json
 600542
+```
 
-[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### Drive目录
+### Drive文件夹
 
-- **id**：1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV
-- **webViewLink**：https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV
+```json
+{
+  "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV",
+  "webViewLink": "https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
+}
+```
 
 [来源1](https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV)（访问 2026-11-07）
 
-### 中文介绍
+### 其他材料
 
-- **kind**：中文介绍 Google Doc
-- **id**：15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE
-- **webViewLink**：https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk
+```json
+[
+  {
+    "kind": "中文介绍 Google Doc",
+    "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE",
+    "webViewLink": "https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://arxiv.org/abs/2402.10260",
+    "accessed": "2026-11-08"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://github.com/dsbowen/strong_reject",
+    "accessed": "2026-11-08"
+  },
+  {
+    "type": "本轮已打开一手材料",
+    "url": "https://strong-reject.readthedocs.io/en/latest/",
+    "accessed": "2026-11-08"
+  }
+]
+```
 
-[来源1](https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
 ### Drive PDF归档
 
-- **id**：1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor
-- **webViewLink**：https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk
+```json
+{
+  "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor",
+  "webViewLink": "https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk"
+}
+```
+
+[来源1](https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk)（访问 2026-11-07）
 
 ## 变更记录
 
-### changelog
+```json
+[
+  {
+    "date": "2026-11-07",
+    "timezone": "Asia/Seoul",
+    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+  },
+  {
+    "date": "2026-11-07",
+    "timezone": "KST / Asia/Seoul",
+    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+  },
+  {
+    "date": "2026-11-08",
+    "timezone": "Asia/Seoul (KST)",
+    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+  }
+]
+```
 
-- **日期**：2026-11-07
-- **时区**：Asia/Seoul
-- **变更内容**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-
-- **日期**：2026-11-07
-- **时区**：KST / Asia/Seoul
-- **变更内容**：第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-07）；[来源2](https://arxiv.org/pdf/2402.10260)（访问 2026-11-07）
+[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
