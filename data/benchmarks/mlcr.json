@@ -8,7 +8,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -21,7 +21,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -43,7 +43,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -63,7 +63,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "编辑主板块归档，不据此限制跨学科覆盖。"
@@ -76,20 +76,16 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "license": {
-      "value": "HF数据卡license: other；精确条款待核实，不能当作MIT或Apache。",
+      "value": "HF数据卡明确license: other；具体可再分发条款待核实。官方仓库main/LICENSE请求404，不能由README称open-source推断MIT。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
-          "accessed": "2026-11-07"
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -98,7 +94,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -109,7 +105,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -122,7 +118,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -135,7 +131,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -144,7 +140,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -157,38 +153,46 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Artificial Analysis（共同发布MLCR-AA，独立运行其私有评测）",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "authors": {
-      "value": "待核实",
+      "value": [
+        "Denys Linkov（2026-06-18官方技术博客作者）",
+        "Aryan Dhar（2026-08-31 v1.1官方技术博客作者）"
+      ],
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "此处是公开技术材料作者，不冒称完整学术论文作者表。"
     },
     "maintainer": {
       "value": "Wisedocs维护原始MLCR；Artificial Analysis维护MLCR-AA评测。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -197,7 +201,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -210,7 +214,7 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -219,7 +223,7 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -235,22 +239,20 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "问题模仿医疗及保险理赔专业人员审阅记录的工作；参考答案由人类验证、以真实案例构成为灵感生成合成病例。具体逐题出题人资历待核实。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "review_process": {
       "value": "专家标注ground truth，三裁判对照原记录与参考答案。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -259,29 +261,39 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "官方明确将Tier4–6难题留作私有评测，以降低污染；病例和Tier1–3公开。私有保留是控制措施，不等于已验证所有受测模型从未接触相关材料。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "公开数据：10病例目录（Tier1–3），131空白表格OCR文件和131生成表格OCR文件；AA私有60题×3重复，不能相加成题量。",
+      "value": "10个合成病例，每例50–150份医疗摘要、25k–64k tokens；首发博客称250个问题，并公开100+个Tier1–3问题。公开仓库另有131份空表OCR及131份合成填表OCR；AA私有60题×3重复独立计数，不累加到题量。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -290,7 +302,7 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -306,7 +318,7 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
@@ -319,31 +331,43 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "difficulty": {
-      "value": "原MLCR六层；AA只取expert和compound两层。",
+      "value": "原MLCR六层：Easy、Medium、Hard、Expert、Multi-part Compound、Compound Hallucination Check。AA当前页称使用最难两类expert/compound；v1.1博客称three difficult tiers，口径冲突照录，不强行统一。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "public_hidden_split": {
-      "value": "公开下载仅text，含questions/cases_summaries/filler_files，不含图片；仓库支持图片模式不等于已发布图片。AA独立私有最难两层60题另计。",
+      "value": "公开Tier1–3及10病例；官方说明Tier4–6私有。HF配置questions、cases_summaries、filler_files均命名train，仅是发布分区标签，不应误称模型训练集。AA另取私有60题、每题3重复。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset/raw/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -397,11 +421,11 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08（KST / Asia/Seoul）",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -425,7 +449,7 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         },
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/blob/main/README.md",
@@ -434,57 +458,69 @@
       ]
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": "技术材料时间线：2026-06-18首发博客；2026-08-31发布MLCR v1.1，属于裁判校准与参考答案修订。独立arXiv论文版本待核实。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "当前AA页面最高联合pass rate为41.7%；accuracy与completeness是独立维度，不能用98.3% accuracy声称整个MLCR-AA已饱和。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "v1.1把accuracy错误与completeness缺漏分开，依据原始记录而不只参考答案，并将长度门槛由3×放宽到5×。v1.1博客的历史64.4%联合通过率与当前AA的41.7%不是同一快照；难题两类/三层表述亦有冲突。HF卡片写Multi-Length Context Retrieval，与官方博客Medical Long Context Reasoning不一致，本条名称以博客及AA为准。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset/raw/main/README.md",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "MLCR-AA是Artificial Analysis独立执行的私有难题实现；公开MLCR harness、v1.1博客快照与当前AA榜不混排。",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
       "sources": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -493,7 +529,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -502,56 +538,166 @@
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "GPT-6 Astra (Max)",
-          "score": "41.7%",
-          "metric": "MLCR-AA pass rate",
+          "score": "41.7",
+          "track": "AA当前独立评测 / pass rate",
           "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+          "accessed": "2026-11-08",
+          "rank": 1,
+          "unit": "%",
+          "metric": "pass rate",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
         },
         {
-          "rank": 2,
           "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
-          "score": "41.7%",
-          "metric": "MLCR-AA pass rate",
+          "score": "41.7",
+          "track": "AA当前独立评测 / pass rate",
           "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+          "accessed": "2026-11-08",
+          "rank": 1,
+          "unit": "%",
+          "metric": "pass rate",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
         },
         {
-          "rank": 3,
           "model": "GPT-6.1 Sol (Max)",
-          "score": "38.3%",
-          "metric": "MLCR-AA pass rate",
+          "score": "38.3",
+          "track": "AA当前独立评测 / pass rate",
           "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST",
-          "result_type": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。"
+          "accessed": "2026-11-08",
+          "rank": 3,
+          "unit": "%",
+          "metric": "pass rate",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+          "score": "64.8",
+          "track": "AA当前独立评测 / completeness",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 1,
+          "unit": "%",
+          "metric": "completeness",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "Claude Opus 5.5 (Max, Default Fallback)",
+          "score": "63.3",
+          "track": "AA当前独立评测 / completeness",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 2,
+          "unit": "%",
+          "metric": "completeness",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "Claude Fable 5.1 (Max, Default Fallback)",
+          "score": "61.1",
+          "track": "AA当前独立评测 / completeness",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 3,
+          "unit": "%",
+          "metric": "completeness",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "GPT-6.1 Terra (Max)",
+          "score": "98.3",
+          "track": "AA当前独立评测 / accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 1,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "GPT-6.1 Sol (Max)",
+          "score": "96.7",
+          "track": "AA当前独立评测 / accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 2,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "GPT-6 Astra (Max)",
+          "score": "95.6",
+          "track": "AA当前独立评测 / accuracy",
+          "source_url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
+          "accessed": "2026-11-08",
+          "rank": 3,
+          "unit": "%",
+          "metric": "accuracy",
+          "scope": "私有60题，每题3重复；仅页面文字列出的前三，不推造其余27模型明细"
+        },
+        {
+          "model": "Claude Fable 5",
+          "score": "64.4",
+          "track": "Wisedocs v1.1博客历史快照 / overall",
+          "source_url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "metric": "overall pass rate",
+          "published_date": "2026-08-31",
+          "configuration": "博客正文未在该数值段给出完整配置，不能映射到当前AA模型行"
+        },
+        {
+          "model": "Claude Opus 5",
+          "score": "59.4",
+          "track": "Wisedocs v1.1博客历史快照 / overall",
+          "source_url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "metric": "overall pass rate",
+          "published_date": "2026-08-31",
+          "configuration": "博客正文未在该数值段给出完整配置，不能映射到当前AA模型行"
+        },
+        {
+          "model": "Claude Opus 5",
+          "score": "58.3",
+          "track": "Wisedocs v1.1博客历史快照 / overall",
+          "source_url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08",
+          "unit": "%",
+          "metric": "overall pass rate",
+          "published_date": "2026-08-31",
+          "configuration": "博客正文未在该数值段给出完整配置，不能映射到当前AA模型行"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "coverage_note": {
-      "value": "AA当前页面文字报告；前两显示分相同，不表示显著优劣；不是accuracy榜。",
+      "value": "三个AA指标独立分轨；41.7%为显示精度下并列，不能宣称显著差异。博客历史overall分轨保留，未知精确运行日期待核实；未提取动态完整27模型表。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -562,7 +708,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -573,7 +719,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -582,7 +728,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -593,7 +739,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -606,7 +752,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -617,7 +763,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -628,7 +774,7 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -639,22 +785,35 @@
       "sources": [
         {
           "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
       "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-          "accessed": "2026-11-07"
+          "title": "Benchmarking LLMs For Medical Document Work",
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "published_date": "2026-06-18"
+        },
+        {
+          "title": "MLCR v1.1: Calibrating LLM Judges for Long-Context Medical Reasoning",
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "published_date": "2026-08-31"
         }
       ],
-      "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "sources": [
+        {
+          "url": "https://www.wisedocs.ai/blogs/medical-long-context-reasoning",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning",
+          "accessed": "2026-11-08"
+        }
+      ]
     }
   },
   "drive_pdf": {
@@ -662,7 +821,7 @@
     "sources": [
       {
         "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ],
     "status": "待核实",
@@ -674,12 +833,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
       }
     ],
     "sources": [
       {
-        "url": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

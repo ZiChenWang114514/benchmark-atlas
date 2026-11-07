@@ -8,7 +8,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -17,50 +17,48 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "沿用官方名称；不将论文标题臆造为全称。"
     },
     "version": {
-      "value": "待核实",
+      "value": "当前main的pyproject.toml为0.1.193；运行CSV另含0.1.198。二者是不同代码快照，不能据此断言main就是最新已部署版本。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/pyproject.toml",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v2",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2026-06-29T20:57:32+09:00（KST；arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "section": {
       "value": "代码",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "Benchmark Atlas编辑分类。"
@@ -72,27 +70,29 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT（官方仓库LICENSE及pyproject.toml）；不自动覆盖各目标上游项目原有权利。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/LICENSE",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/pyproject.toml",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2606.30182",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -101,27 +101,26 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "https://github.com/epoch-research/MirrorCode/",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/README.md",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "公共任务定义与harness同仓发布；不是独立HF数据集。"
     },
     "official_homepage": {
       "value": "https://epoch.ai/benchmarks/mirrorcode",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -130,7 +129,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -141,7 +140,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -150,7 +149,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -167,7 +166,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -176,7 +175,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -185,7 +184,7 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -196,7 +195,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -205,7 +204,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -216,7 +215,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -225,7 +224,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -234,7 +233,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -243,7 +242,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -252,7 +251,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -263,7 +262,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -272,7 +271,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -285,7 +284,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -294,7 +293,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -303,7 +302,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -312,7 +311,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -323,16 +322,16 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "scoring": {
-      "value": "参考与候选stdout/stderr一致才能通过；不以99%部分实现替代100%解题指标。",
+      "value": "评分harness在独立容器外比较stdout、stderr及exit status；必须全部端到端用例通过才算100%-solve，99%-solve只是论文另报的部分实现指标。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -341,7 +340,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -350,7 +349,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -359,103 +358,106 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08（KST / Asia/Seoul）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/README.md",
+          "accessed": "2026-11-08"
         }
       ]
     },
     "latest_dataset_version": {
       "value": {
-        "version": "待核实",
-        "heat_confidence": "A",
-        "evidence_2026_h2": [
+        "repository_package": "0.1.193（当前main）",
+        "observed_run_versions": [
+          "0.1.198",
+          "0.1.200"
+        ],
+        "leaderboard_configuration": "ML,+Private,2L；与论文全25程序协议分开"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/pyproject.toml",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": {
+        "revisions": [
           {
-            "url": "https://epoch.ai/data/benchmarks.csv",
-            "date": "2026-11-07",
-            "date_type": "observed_on",
-            "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
+            "version": "v1",
+            "submitted_at": "2026-06-29T20:57:32+09:00",
+            "timezone": "Asia/Seoul (KST)"
           },
           {
-            "url": "https://epoch.ai/data/eci-documentation/data",
-            "date": "2026-11-07",
-            "date_type": "observed_on",
-            "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
+            "version": "v2",
+            "submitted_at": "2026-07-17T19:56:56+09:00",
+            "timezone": "Asia/Seoul (KST)"
           }
         ]
       },
       "sources": [
         {
-          "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2606.30182",
+          "accessed": "2026-11-08"
         },
         {
-          "url": "https://epoch.ai/data/eci-documentation/data",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "note": "Epoch公开CSV在2026年8–10月有15条MirrorCode运行，当前ECI纳入；这证明持续评测，不等于15家机构采纳。"
-    },
-    "paper_revision_history": {
-      "value": "待核实",
-      "sources": [
-        {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "saturation": {
-      "value": "待核实",
+      "value": "论文全25程序实验中8/25从未达到100%通过，4/25从未达到99%通过；这属于论文历史实验。当前ML,+Private,2L榜分数另列，不跨协议推断饱和。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "原论文记忆筛查在17个目标上找到潜在记忆证据，但也观察到未记忆目标被解决、记忆目标未解。离线黑箱与隐藏测试主要抑制运行时作弊，并不证明无预训练污染；另仅衡量功能，不衡量代码质量。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "论文将ProgramBench列为同期独立相关工作，并明确预算、提示与目标覆盖不同；它不是MirrorCode新版本。",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
-      ],
-      "note": "编辑去重说明；不将同基准子集、指标或版本重复计数。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -464,7 +466,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
@@ -473,57 +475,271 @@
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "results": {
       "value": [
         {
-          "rank": 1,
           "model": "Claude Opus 5.5 (high)",
-          "score": 0.7889,
-          "metric": "solve_at_100 proportion (0–1)",
+          "score": "0.7889",
+          "track": "Epoch运行CSV / ML,+Private,2L",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST",
-          "detail": "stderr 0.0788；task version 0.1.198；运行开始2026-09-23 01:42 KST"
+          "accessed": "2026-11-08",
+          "rank": 1,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.0788",
+          "run_id": "mirrorcode-ml-2l-claude-opus-5-5",
+          "model_version": "claude-opus-5-5_high",
+          "run_started_at_kst": "2026-09-23T01:42:00+09:00",
+          "task_version": "0.1.198",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
         {
-          "rank": 2,
           "model": "Claude Fable 5.1 (high)",
-          "score": 0.733,
-          "metric": "solve_at_100 proportion (0–1)",
+          "score": "0.733",
+          "track": "Epoch运行CSV / ML,+Private,2L",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST",
-          "detail": "stderr 0.0917；CSV task version为空；运行开始2026-09-10 22:19:30 KST"
+          "accessed": "2026-11-08",
+          "rank": 2,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.0917",
+          "run_id": "mirrorcode-ml-2l-claude-fable-5-1",
+          "model_version": "claude-fable-5-1_high",
+          "run_started_at_kst": "2026-09-10T22:19:30.449000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
         {
-          "rank": 3,
           "model": "Claude Fable 5 (high)",
-          "score": 0.638888888888889,
-          "metric": "solve_at_100 proportion (0–1)",
+          "score": "0.638888888888889",
+          "track": "Epoch运行CSV / ML,+Private,2L",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "source_date": "待核实（页面未明示榜表更新时间）",
-          "collected_at": "2026-11-07 KST",
-          "detail": "stderr 0.1040409294；CSV task version为空；运行开始2026-08-11 01:12:44 KST"
+          "accessed": "2026-11-08",
+          "rank": 3,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.10404092940368063",
+          "run_id": "mirrorcode-ml-2l-claude-fable-5",
+          "model_version": "claude-fable-5_high",
+          "run_started_at_kst": "2026-08-11T01:12:44.227000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Gemini 4 Argon (high)",
+          "score": "0.5888888888888889",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 4,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.1171381252539371",
+          "run_id": "h7xMzFUTMGSGqUSKUpxkUW",
+          "model_version": "gemini-4-argon_high",
+          "run_started_at_kst": "2026-10-14T19:00:34+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-6 Astra (high)",
+          "score": "0.467",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 5,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.1186",
+          "run_id": "mirrorcode-ml-2l-gpt-6-astra",
+          "model_version": "gpt-6-astra_high",
+          "run_started_at_kst": "2026-08-31T01:51:09+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Gemini 3.7 Flash (high)",
+          "score": "0.4111111111111111",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 6,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.12157113738962926",
+          "run_id": "eeq6feqZLzfjfVsx4aeAWL",
+          "model_version": "gemini-3.7-flash_high",
+          "run_started_at_kst": "2026-10-22T01:49:08+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Grok 4.6 (xhigh)",
+          "score": "0.4111111111111111",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 7,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.1101546131612538",
+          "run_id": "Hoz4Uioui4GNZaLD6fiAvD",
+          "model_version": "grok-4.6_xhigh",
+          "run_started_at_kst": "2026-10-22T01:48:25+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Grok 4.5 (high)",
+          "score": "0.32222222222222224",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 8,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.10723394129558436",
+          "run_id": "fiqzdAtVJVP9wdMT2QFeUn",
+          "model_version": "grok-4.5_high",
+          "run_started_at_kst": "2026-10-22T01:49:00+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Claude Opus 4.7 (high)",
+          "score": "0.3111111111111111",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 9,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.09036473223803354",
+          "run_id": "mirrorcode-ml-2l-claude-opus-4-7",
+          "model_version": "claude-opus-4-7_high",
+          "run_started_at_kst": "2026-08-12T20:43:31+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-6 Luna (max)",
+          "score": "0.26666666666666666",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 10,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.09026709338484401",
+          "run_id": "WQ4gVVhGBfWoRkRwUvNYgs",
+          "model_version": "gpt-6-luna_max",
+          "run_started_at_kst": "2026-10-22T01:48:12+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-5.6 Sol (high)",
+          "score": "0.2",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 11,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.09229582069908972",
+          "run_id": "mirrorcode-ml-2l-gpt-5-6-sol",
+          "model_version": "gpt-5.6-sol_high",
+          "run_started_at_kst": "2026-08-11T01:12:44.772000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-5.4 (high)",
+          "score": "0.15555555555555556",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 12,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.0770945044100374",
+          "run_id": "mirrorcode-ml-2l-gpt-5-4",
+          "model_version": "gpt-5.4-2026-03-05_high",
+          "run_started_at_kst": "2026-08-11T01:12:45.299000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-5.5 (high)",
+          "score": "0.1",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 13,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.06042179781166438",
+          "run_id": "mirrorcode-ml-2l-gpt-5-5",
+          "model_version": "gpt-5.5_high",
+          "run_started_at_kst": "2026-08-11T01:12:45.865000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview (high)",
+          "score": "0.08888888888888888",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 14,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.04561939004190448",
+          "run_id": "mirrorcode-ml-2l-gemini-3-1-pro-preview",
+          "model_version": "gemini-3.1-pro-preview_high",
+          "run_started_at_kst": "2026-08-11T01:12:46.343000+09:00",
+          "task_version": "待核实",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
+        },
+        {
+          "model": "GPT-5 (high)",
+          "score": "0.044444444444444446",
+          "track": "Epoch运行CSV / ML,+Private,2L",
+          "source_url": "https://epoch.ai/data/benchmarks.csv",
+          "accessed": "2026-11-08",
+          "rank": 15,
+          "metric": "solve_at_100",
+          "unit": "proportion (0–1)",
+          "stderr": "0.034375250520170986",
+          "run_id": "Th39ihgvLFnsDGMed7Q55b",
+          "model_version": "gpt-5-2025-08-07_high",
+          "run_started_at_kst": "2026-10-22T01:48:08+09:00",
+          "task_version": "0.1.200",
+          "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         }
       ],
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
-      "note": "从Epoch公开CSV按mean_score降序提取已有运行，不冒称全部同一软件版本；页面定义的榜配置另列。source_date为各行运行开始而非网页更新日。"
+      "note": "保留CSV十进制原字符串，未四舍五入；rank仅为该CSV已收录运行的显示顺序。"
     },
     "coverage_note": {
-      "value": "Epoch是基准共同创建者及运行机构，不称独立复核；已记录不同task version与缺失版本。",
+      "value": "全量转录CSV中MirrorCode已收录运行；Epoch是共同创建者，不是独立第三方复测。运行开始时间与榜单网页更新日不同；缺失task version待核实。",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -536,27 +752,25 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/epoch-research/MirrorCode/issues",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -567,7 +781,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -580,39 +794,37 @@
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
     },
     "sha256": {
-      "value": "待核实",
+      "value": "d0ab2a256a1ab9cee34842128aaee124c38bc2f43e95571d37aa1bec42df9e37",
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 660665,
       "sources": [
         {
-          "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/pdf/2606.30182",
+          "accessed": "2026-11-08"
         }
       ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      "note": "本轮直接下载的PDF文件字节数。"
     },
     "drive_folder": {
       "value": "待核实",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ],
       "status": "待核实",
@@ -628,7 +840,7 @@
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/mirrorcode",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-08"
         }
       ]
     }
@@ -638,7 +850,7 @@
     "sources": [
       {
         "url": "https://epoch.ai/benchmarks/mirrorcode",
-        "accessed": "2026-11-07"
+        "accessed": "2026-11-08"
       }
     ],
     "status": "待核实",
@@ -650,12 +862,17 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+      },
+      {
+        "date": "2026-11-08",
+        "timezone": "Asia/Seoul (KST)",
+        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
       }
     ],
     "sources": [
       {
-        "url": "https://epoch.ai/benchmarks/mirrorcode",
-        "accessed": "2026-11-07"
+        "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/README.md",
+        "accessed": "2026-11-08"
       }
     ]
   }

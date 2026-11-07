@@ -1,124 +1,135 @@
 # MMBench
 
-> 核验：2026-11-07（KST / Asia/Seoul）。官方材料中文改写；采集日不等于运行日，历史榜单、研究复测与独立评测分别记录。
+> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
+
+MMBench以分层视觉能力而非单一任务组织图文选择题，核心协议是CircularEval：将候选项循环移位，所有轮次均答对才计成功。原README、论文和当前VLMEvalKit包含不同数量与命名版本；V11、EN/CN、dev/test及答案抽取器必须固定，单次准确率并非等价指标。
+
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
 ### 简称
 
 MMBench
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ### 全称
 
 MMBench
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ### 基准版本
 
-待核实
+原版MMBench EN/CN及V11命名数据并存；官方VLMEvalKit明确提供DEV/TEST_EN/CN_V11四个配置，不与旧版混同。
 
-> 条目识别原始基准而非衍生Pro；未核实正式语义版本号，不把arXiv版本误当数据版本。
-
-核验状态：待核实
-
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/VLMEvalKit/main/vlmeval/dataset/image_mcq.py)（访问 2026-11-08）
 
 ### 论文版本
 
 arXiv v5
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
-### 首发日期
+### 发布日期
 
-2023-07-12
+2023-07-13T01:23:09+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
 
-> arXiv元数据首发日期原值；不是推测数据集首次上线时间。
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ### 主板块
 
 多模态
 
-> Benchmark Atlas编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。
+> Benchmark Constitution编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
-### 领域
+### 领域标签
 
-通用图文能力
+- 通用图文能力
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
-### 许可证
+### 许可证与权利边界
 
 Apache-2.0（官方仓库LICENSE）；不自动覆盖公共数据集和互联网原图等第三方权利。
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/LICENSE](https://raw.githubusercontent.com/open-compass/MMBench/main/LICENSE)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/LICENSE)（访问 2026-11-08）
 
-### 论文地址
+### 论文入口
 
 https://arxiv.org/abs/2307.06281
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
-### 代码
+### 代码仓库
 
 https://github.com/open-compass/MMBench
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
-### 数据集
+### 数据集入口
 
-https://raw.githubusercontent.com/open-compass/MMBench/main/README.md
+- **repository_download_table**：https://github.com/open-compass/MMBench#dataset
+- **current_vlmevalkit_config_source**：https://raw.githubusercontent.com/open-compass/VLMEvalKit/main/vlmeval/dataset/image_mcq.py
+- **hf_mirror**：https://huggingface.co/datasets/opencompass/MMBench
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+> HF卡片内容极少；以项目下载表及官方工具定义为协议依据。
+
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/VLMEvalKit/main/vlmeval/dataset/image_mcq.py)（访问 2026-11-08）；[来源](https://huggingface.co/datasets/opencompass/MMBench/raw/main/README.md)（访问 2026-11-08）
 
 ### 官方主页
 
 https://mmbench.opencompass.org.cn/
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ### 论文标题
 
 MMBench: Is Your Multi-modal Model an All-around Player?
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ## 发起与维护
 
-### 机构
+### 发起方与作者单位
 
 OpenCompass Community开发；论文作者单位包括上海人工智能实验室、南洋理工大学、香港中文大学、新加坡国立大学、浙江大学。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
-### 合作机构
+### 合作方
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ### 作者
 
-Liu, Yuan、Duan, Haodong、Zhang, Yuanhan、Li, Bo、Zhang, Songyang、Zhao, Wangbo、Yuan, Yike、Wang, Jiaqi、He, Conghui、Liu, Ziwei、Chen, Kai、Lin, Dahua
+- Liu, Yuan
+- Duan, Haodong
+- Zhang, Yuanhan
+- Li, Bo
+- Zhang, Songyang
+- Zhao, Wangbo
+- Yuan, Yike
+- Wang, Jiaqi
+- He, Conghui
+- Liu, Ziwei
+- Chen, Kai
+- Lin, Dahua
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
 ### 维护方
 
 open-compass 官方仓库团队（当前具体个人职责待核实）
 
-来源：[https://github.com/open-compass/MMBench](https://github.com/open-compass/MMBench)（访问 2026-11-07 KST）
+[来源](https://github.com/open-compass/MMBench)（访问 2026-11-07）
 
 ### 资助
 
@@ -126,9 +137,7 @@ open-compass 官方仓库团队（当前具体个人职责待核实）
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ## 设计目标
 
@@ -136,13 +145,13 @@ open-compass 官方仓库团队（当前具体个人职责待核实）
 
 细粒度图文感知与推理，按分层能力体系给出诊断。
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ### 设计背景
 
 VQAv2、图像描述等任务不充分反映细粒度能力，纯字符串匹配难兼容自由回答，人工主观打分难扩展。
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ## 构建方式
 
@@ -150,77 +159,71 @@ VQAv2、图像描述等任务不充分反映细粒度能力，纯字符串匹配
 
 从公开数据集及互联网搜集图文题，组织为三层能力体系，20项细粒度能力；每题单一正确选项。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
-### 出题背景
+### 出题与审阅者背景
 
 研究团队负责能力体系、数据筛选和质量控制；标注员具体招募背景待核实。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
 ### 审核流程
 
-论文提出针对题目正确性和有效性的质量控制；中文版本经人工核验；CircularEval减轻选项排列影响。
+论文附录B：先用GPT-4、Gemini-Pro、Qwen-Max做text-only CircularEval，能脱离图片答对的题送人工核验；再用五个VLM筛出全答错题，人工检查歧义、重复选项与错误标签。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
 ### 质量控制
 
-论文提出针对题目正确性和有效性的质量控制；中文版本经人工核验；CircularEval减轻选项排列影响。
+原论文按三层20能力组织题目，附录B分别处理text-only捷径题和可能的错题；中文翻译再由人工核验。这不是对所有源图像授权或训练污染的保证。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 去污染措施
+### 去污染及其证据边界
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ## 数据形式
 
-### 规模
+### 题量与版本口径
 
 2024年论文v5为3,217题；仓库README正文仍为2,974题，下载表dev 1,164及test 1,784，两者也不相加为2,974。保留各口径，不推测统一题量。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
 ### 题型
 
 图像+问题+选项的单选题。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
 ### 模态
 
 图像+文本
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ### 语言
 
 中文与英文
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-### 难度分布
+### 难度
 
-待核实
+以三层细粒度能力分类而非统一学业等级定难度；CircularEval要求每次选项轮换都答对，官方README指出较单次评测更难。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-核验状态：待核实
-
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
-
-### 公开/隐藏划分
+### 公开与隐藏划分
 
 下载表EN/CN各有dev 1,164及test 1,784题；VLMEvalKit格式仅保留一份图片，Legacy为N选项CircularEval保留N份，正文内容相同；不能据图片副本数推题量。
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
 ## 评测方法
 
@@ -228,285 +231,213 @@ VQAv2、图像描述等任务不充分反映细粒度能力，纯字符串匹配
 
 CircularEval准确率：N个选项循环移位N次，全部答对才算该题成功；与单次准确率分开。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-### 评分
+### 评分方法
 
 先用规则提取选项，失败后用ChatGPT匹配答案，最多尝试3次；CircularEval循环移位全部选项，N次全部正确才判该原题成功。
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-### 提示设置
+### 运行与提示设置
 
 官方VLMEvalKit构建含图像、hint、问题、候选答案及选项指令的提示；保留EN/CN和CircularEval次数。
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 评测脚本
+### 官方脚本
 
-https://github.com/open-compass/MMBench
+https://github.com/open-compass/VLMEvalKit
 
-来源：[https://github.com/open-compass/MMBench](https://github.com/open-compass/MMBench)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-### 可比性提醒
+### 可比性警示
 
 README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和单次/CircularEval不能混比。MMVistaReason采用CompassVerifier，不能默认为官方CircularEval等价。
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
 ## 最新情况
 
-### 核验日期（KST）
+### 核查日期
 
-2026-11-07
+2026-11-08（KST / Asia/Seoul）
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
-### 最新数据状态
+### 当前数据与工具版本
 
-待核实
+当前VLMEvalKit可见V11（EN/CN dev/test），而原项目README仍列旧下载表。复现应记录确切配置名与文件校验值，不根据README题量猜版本。
 
-> 本批尚未完成此字段的精确核验；不等于官方未公开。
+[来源](https://raw.githubusercontent.com/open-compass/VLMEvalKit/main/vlmeval/dataset/image_mcq.py)（访问 2026-11-08）
 
-核验状态：待核实
+### 论文修订及历史证据
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+- **revisions**：- - **version**：v1；- **submitted_at**：2023-07-13T01:23:09+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v2；- **submitted_at**：2023-07-27T01:02:57+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v3；- **submitted_at**：2023-08-13T22:12:47+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v4；- **submitted_at**：2024-04-30T00:21:19+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v5；- **submitted_at**：2024-08-20T12:56:03+09:00；- **timezone**：Asia/Seoul (KST)
+- **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.01352v2；- **date**：2026-10-22；- **note**：MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。
+- **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
 
-### 论文版本及2026-H2继续使用证据
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
-```json
-{
-  "revisions": [
-    {
-      "version": "v1",
-      "date_kst": "2023-07-13T01:23:09+09:00"
-    },
-    {
-      "version": "v2",
-      "date_kst": "2023-07-27T01:02:57+09:00"
-    },
-    {
-      "version": "v3",
-      "date_kst": "2023-08-13T22:12:47+09:00"
-    },
-    {
-      "version": "v4",
-      "date_kst": "2024-04-30T00:21:19+09:00"
-    },
-    {
-      "version": "v5",
-      "date_kst": "2024-08-20T12:56:03+09:00"
-    }
-  ],
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-22",
-      "note": "MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-    }
-  ],
-  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
-}
-```
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
-
-### 饱和程度
+### 饱和情况
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
-
-### 污染、冲突及协议差异
+### 污染、争议与限制
 
 README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和单次/CircularEval不能混比。MMVistaReason采用CompassVerifier，不能默认为官方CircularEval等价。
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
-### 衍生基准
+### 衍生与版本关系
 
 仓库另列CCBench：中文文化相关，dev 510题；2023-12-26公告删除噪声样本并更新榜单。CCBench不是MMBench EN/CN同一划分。
 
-来源：[https://raw.githubusercontent.com/open-compass/MMBench/main/README.md](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
 ## 榜单快照
 
-### 快照日期（KST）
+### 快照日期
 
-2026-11-07
+2026-11-08（KST；采集日，不冒充评测运行日）
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 官方榜单
+### 官方入口
 
 https://mmbench.opencompass.org.cn/leaderboard
 
 > 本次抓取页面无可读榜单行；当前官方排名待核实，不改用研究论文伪装官方排名。
 
-来源：[https://mmbench.opencompass.org.cn/leaderboard](https://mmbench.opencompass.org.cn/leaderboard)（访问 2026-11-07 KST）
+[来源](https://mmbench.opencompass.org.cn/leaderboard)（访问 2026-11-08）
 
-### 第三方独立跟踪
+### 第三方覆盖入口
 
 待核实
 
 > 本次打开AA评测目录，未确认该原始基准的独立追踪页。AA追踪MMMU-Pro不等于追踪MMMU原版；不拿LMArena偏好Elo或其他基准分数替代。Epoch/LMArena的同口径结果仍待逐项核实。
 
-核验状态：待核实
+[来源](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07）
 
-来源：[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
+### 分来源与协议的精确成绩
 
-### 可核验结果
+#### 原论文v5表3 / EN test / CircularEval
 
-```json
-[
-  {
-    "model": "MMVistaReason-4B (MVR-4B)",
-    "score": 90.6,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "MMBench-EN，论文未精确列出下载版本",
-    "date": "2026-10-22",
-    "accessed": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
-  },
-  {
-    "model": "MMVistaReason-9B (MVR-9B)",
-    "score": 92.2,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "MMBench-EN，论文未精确列出下载版本",
-    "date": "2026-10-22",
-    "accessed": "2026-11-07",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
-  }
-]
-```
+| 模型 / 配置 | 原始分数 | 指标与单位 |
+|---|---:|---|
+| InternLM-XComposer2* | 78.1 | CircularEval Top-1 accuracy / % |
+| Qwen-VL-Max | 75.4 | CircularEval Top-1 accuracy / % |
+| GPT-4v | 74.3 | CircularEval Top-1 accuracy / % |
 
-来源：[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）
+- **InternLM-XComposer2***：- **scope**：历史论文榜，非当前官方网页动态榜
+- **Qwen-VL-Max**：- **scope**：历史论文榜，非当前官方网页动态榜
+- **GPT-4v**：- **scope**：历史论文榜，非当前官方网页动态榜
 
-### 覆盖说明
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-官方可见记录与2026-H2研究复测分开标注；日期缺失不推测。研究论文结果不是官方榜单，更不是Artificial Analysis独立评测。模型名仅保留来源标识；来源未给出精确API快照时不得自行补全。
+#### MMVistaReason作者论文 / EN / CompassVerifier
 
-> 本批未核实官方当前排名，故只列明确注明来源的2026-H2研究复测，不把研究复测冒充官方榜单。
+| 模型 / 配置 | 原始分数 | 指标与单位 |
+|---|---:|---|
+| MMVistaReason-4B (MVR-4B) | 90.6 | 论文协议答案正确率（CompassVerifier） / % |
+| MMVistaReason-9B (MVR-9B) | 92.2 | 论文协议答案正确率（CompassVerifier） / % |
 
-来源：[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）；[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07 KST）；[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 KST）
+- **MMVistaReason-4B (MVR-4B)**：- **scope**：MMBench-EN，论文未精确列出下载版本；- **date**：2026-10-22；- **provenance**：MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测
+- **MMVistaReason-9B (MVR-9B)**：- **scope**：MMBench-EN，论文未精确列出下载版本；- **date**：2026-10-22；- **provenance**：MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排
+
+[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
+
+
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
+
+### 覆盖范围与时效
+
+本轮官方leaderboard URL只返回前端应用壳，未取得动态分数，不能声称已刷新到其最新排名。补列原论文v5表3历史test成绩，并把2026研究CompassVerifier结果另轨；不同数据版、CN/EN、dev/test与评分器不得混排。
+
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
 ## 联系方式
 
-### 官方公开邮箱
+### 公开工作邮箱
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
 ### 公开反馈
 
 https://github.com/open-compass/MMBench/issues
 
-来源：[https://github.com/open-compass/MMBench](https://github.com/open-compass/MMBench)（访问 2026-11-07 KST）
+[来源](https://github.com/open-compass/MMBench)（访问 2026-11-07）
 
-### 官方账号/联系更新
+### 官方社交
 
 待核实
 
 > 本批尚未完成此字段的精确核验；不等于官方未公开。
 
-核验状态：待核实
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://mmbench.opencompass.org.cn/)（访问 2026-11-08）
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
-
-### 联系信息原则
+### 隐私边界
 
 仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。
 
-来源：[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07 KST）
+[来源](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
 ## 原始文件
 
-### 原始论文PDF
+### 原论文PDF
 
 https://arxiv.org/pdf/2307.06281
 
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### SHA-256
+### 本轮PDF SHA-256
 
 3cd9025569600c548d29a987e1cef6bdac8dc07cdeb6bd49ef04690ae80ebd6b
 
-> 下载原始字节校验，未压缩、未改写。
+> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 字节数
+### 本轮PDF字节数
 
 7311810
 
-来源：[https://arxiv.org/pdf/2307.06281](https://arxiv.org/pdf/2307.06281)（访问 2026-11-07 KST）
+> 本轮直接下载的PDF文件字节数。
 
-### Drive资料夹
+[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-```json
-{
-  "id": "1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE",
-  "webViewLink": "https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE"
-}
-```
+### Drive文件夹
 
-来源：[https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE](https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE)（访问 2026-11-07 KST）
+- **id**：1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
+- **webViewLink**：https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
 
-### 中文介绍与其他原件
+[来源](https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE)（访问 2026-11-07）
 
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc",
-    "id": "1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE",
-    "webViewLink": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk"
-  }
-]
-```
+### 其他官方材料
 
-来源：[https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk](https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk)（访问 2026-11-07 KST）
+- - **kind**：中文介绍 Google Doc；- **id**：1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE；- **webViewLink**：https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk
 
-### Drive 原始 PDF
+[来源](https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk)（访问 2026-11-07）
 
-```json
-{
-  "id": "14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai",
-  "webViewLink": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk"
-}
-```
+### Drive PDF归档
 
-来源：[https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk](https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk)（访问 2026-11-07 KST）
+- **id**：14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai
+- **webViewLink**：https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk
+
+[来源](https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk)（访问 2026-11-07）
 
 ## 变更记录
 
-### 变更记录
+- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+- - **date**：2026-11-07；- **timezone**：KST / Asia/Seoul；- **change**：第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
-```json
-[
-  {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  },
-  {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
-  }
-]
-```
-
-来源：[https://arxiv.org/abs/2307.06281](https://arxiv.org/abs/2307.06281)（访问 2026-11-07 KST）；[https://mmbench.opencompass.org.cn/](https://mmbench.opencompass.org.cn/)（访问 2026-11-07 KST）
+[来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
