@@ -34,15 +34,17 @@
       "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v3",
       "sources": [
+        {
+          "url": "https://export.arxiv.org/api/query?id_list=2507.02833",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2507.02833",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "论文修订号尚未完成精确核实。"
+      ]
     },
     "release_date": {
       "value": "待核实",
@@ -77,15 +79,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（GitHub 仓库 allenai/IFBench 的 LICENSE 文件；仅覆盖仓库内容，第三方原始材料权利另行核查）",
       "sources": [
         {
           "url": "https://github.com/allenai/IFBench",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://api.github.com/repos/allenai/IFBench",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已检查所列材料，尚未精确核实此字段；不代表官方没有公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2507.02833",

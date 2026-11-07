@@ -67,7 +67,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档。"
+      "note": "Benchmark Constitution 编辑归档。"
     },
     "subfields": {
       "value": [
@@ -220,48 +220,48 @@
   },
   "construction": {
     "question_sources": {
-      "value": "待核实",
+      "value": "从各执业领域律师经办的真实客户事项出发，拆分为可分派给associate的具体任务；给定指令、案卷及交付物要求。来源并未逐项证明公开材料的脱敏或授权细节，相关流程待核实。",
       "sources": [
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "执业律师参与任务来源，rubric由领域专家撰写；首发称75,000+标准，不能把该历史数当作本轮实测条数。",
       "sources": [
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "review_process": {
-      "value": "待核实",
+      "value": "将合伙人/客户会审核的事实、结论、引用、风险等级和交付格式拆成二元标准，并将每条标准绑定具体输出文件；公开集允许法律专业人员审查任务并审核rubric。",
       "sources": [
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "Vals v1.1披露移除17条不可完成标准、替换1份错配源文件，hold-out仍120任务；官方2026-11-05变更让裁判看到DOCX修订和评论，带修订输出与旧评分不可直接比较。",
       "sources": [
         {
-          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/CHANGELOG.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "decontamination": {
       "value": "待核实",
@@ -277,14 +277,26 @@
   },
   "data_format": {
     "size": {
-      "value": "首版开源 1,200+ agent 任务、24 个执业领域、75,000+ 条专家撰写评分标准；AA 使用 Harvey 120 个私有任务",
+      "value": "当前README徽章为2,010任务；评测文档写2,010任务、27执业领域，README仍写24+contracting（分类口径未统一）。首发博客为1,200+任务、24领域、75,000+专家rubric，属于首版而非当前总量。AA与Vals各使用120个私有hold-out任务，不能以2,010作为榜单分母。",
       "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
           "accessed": "2026-11-07"
         },
         {
           "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
           "accessed": "2026-11-07"
         }
       ]
@@ -322,15 +334,21 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "长程专业法律交付物；all-pass要求一位裁判判定全部标准通过，不能用criteria pass rate代替任务解决率。AA另加实质性幻觉门控。",
       "sources": [
         {
-          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "有公开集与 held-out 测试集；Vals 结果来自 held-out 集；AA 使用私有数据集",
@@ -361,10 +379,18 @@
       ]
     },
     "scoring": {
-      "value": "AA v1.1 用 GPT-6 Sol、Grok 4.7、Claude Opus 5.5 三裁判逐条评分并平均，另做两阶段幻觉检查",
+      "value": "开源标准双裁判claude-sonnet-4-6与gpt-5.5：逐裁判计算任务all-pass，再取平均；一题可为0、0.5或1，严格双裁判都通过另列。AA v1.1使用三裁判并有实质性幻觉门控；Vals为两裁判任务pass率均值。",
       "sources": [
         {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md",
+          "accessed": "2026-11-07"
+        },
+        {
           "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
           "accessed": "2026-11-07"
         }
       ]
@@ -407,10 +433,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
-          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -482,10 +508,22 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "contamination_and_issues": {
-      "value": "Harvey 首发时有意不设榜单，预期数据集会持续演化。",
+      "value": "公开任务可用于研究和训练，不能视为无污染。当前开源评分受harness、SDK及DOCX修订解析变更影响；11月5日以前/以后的修订文档任务结果应分版。AA/Vals private hold-out与公开全集不是同一数据范围。",
       "sources": [
         {
-          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/CHANGELOG.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
           "accessed": "2026-11-07"
         }
       ]
@@ -504,10 +542,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
-          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+          "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
           "accessed": "2026-11-07"
         }
       ]
@@ -536,29 +574,112 @@
         {
           "rank": 1,
           "model": "Muse Wonder Full (Max)",
-          "score": "13.1%",
-          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
-          "result_type": "AA 实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 13.1,
+          "metric": "Hallucination-Gated All-Pass Rate %",
+          "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
+          "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "collected_at": "2026-11-07 KST",
+          "criterion_pass_rate_percent": 95.5,
+          "material_hallucinations_per_task": 0.62,
+          "source_date": "待核实（页面未标明更新日）"
         },
         {
           "rank": 2,
           "model": "Muse Wonder (Max)",
-          "score": "10.0%",
-          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
-          "result_type": "AA 实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 10.0,
+          "metric": "Hallucination-Gated All-Pass Rate %",
+          "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
+          "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "collected_at": "2026-11-07 KST",
+          "criterion_pass_rate_percent": 95.1,
+          "material_hallucinations_per_task": 0.89,
+          "source_date": "待核实（页面未标明更新日）"
         },
         {
           "rank": 3,
           "model": "Grok 4.7 (Xhigh)",
-          "score": "9.4%",
-          "metric": "Harvey LAB-AA v1.1 Hallucination-Gated All-Pass Rate",
-          "result_type": "AA 实现榜快照",
-          "source_date": "待核实（采集日2026-11-07）",
-          "collected_at": "2026-11-07 KST"
+          "score": 9.4,
+          "metric": "Hallucination-Gated All-Pass Rate %",
+          "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
+          "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "collected_at": "2026-11-07 KST",
+          "criterion_pass_rate_percent": 92.8,
+          "material_hallucinations_per_task": 0.74,
+          "source_date": "待核实（页面未标明更新日）"
+        },
+        {
+          "rank": 4,
+          "model": "Muse Spark 1.3 (Max)",
+          "score": 8.9,
+          "metric": "Hallucination-Gated All-Pass Rate %",
+          "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
+          "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "collected_at": "2026-11-07 KST",
+          "criterion_pass_rate_percent": 96.0,
+          "material_hallucinations_per_task": 1.68,
+          "source_date": "待核实（页面未标明更新日）"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-6 Astra (Max)",
+          "score": 8.6,
+          "metric": "Hallucination-Gated All-Pass Rate %",
+          "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
+          "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+          "collected_at": "2026-11-07 KST",
+          "criterion_pass_rate_percent": 90.6,
+          "material_hallucinations_per_task": 0.03,
+          "source_date": "待核实（页面未标明更新日）"
+        },
+        {
+          "rank": 1,
+          "model": "Gemini 4 Argon",
+          "score": 27.08,
+          "metric": "Task Pass Rate %",
+          "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
+          "source_url": "https://www.vals.ai/benchmarks/hlab",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05（页面自报更新日期，未给时区）"
+        },
+        {
+          "rank": 2,
+          "model": "Muse Spark Open",
+          "score": 25.0,
+          "metric": "Task Pass Rate %",
+          "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
+          "source_url": "https://www.vals.ai/benchmarks/hlab",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05（页面自报更新日期，未给时区）"
+        },
+        {
+          "rank": 3,
+          "model": "Wonder",
+          "score": 23.75,
+          "metric": "Task Pass Rate %",
+          "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
+          "source_url": "https://www.vals.ai/benchmarks/hlab",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05（页面自报更新日期，未给时区）"
+        },
+        {
+          "rank": 4,
+          "model": "Wonder Full",
+          "score": 23.33,
+          "metric": "Task Pass Rate %",
+          "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
+          "source_url": "https://www.vals.ai/benchmarks/hlab",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05（页面自报更新日期，未给时区）"
+        },
+        {
+          "rank": 5,
+          "model": "Inkling 2 Small",
+          "score": 21.67,
+          "metric": "Task Pass Rate %",
+          "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
+          "source_url": "https://www.vals.ai/benchmarks/hlab",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         }
       ],
       "sources": [
@@ -573,7 +694,7 @@
       ]
     },
     "coverage_note": {
-      "value": "AA 榜采集于2026-11-07；Vals HLAB-Vals-1.1 自写更新2026-11-05，第一为 Gemini 4 Argon 27.08%、Muse Spark Open 25.00%、Wonder 23.75%，口径不同不合并。",
+      "value": "分别转录AA v1.1与Vals v1.1各前五；两个榜的harness、裁判、幻觉门控和修复版本不同，绝不互相比名次。AA未显示榜单更新日；Vals页面明确Updated 11/5/2026。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
@@ -676,15 +797,34 @@
       "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
     },
     "other_documents": {
-      "value": "待核实",
+      "value": [
+        {
+          "type": "官方首发博客（非论文）",
+          "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
+        },
+        {
+          "type": "评分方法",
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md"
+        },
+        {
+          "type": "影响分数的版本日志",
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/CHANGELOG.md"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/CHANGELOG.md",
+          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。"
+      ]
     }
   },
   "drive_pdf": {
@@ -704,11 +844,16 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

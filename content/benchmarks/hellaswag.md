@@ -1,106 +1,107 @@
-# HellaSwag｜中文深度介绍
+# HellaSwag
 
-核验日期：2026-11-07（Asia/Seoul）。事实按所列来源理解；未核实项不作推断。
+> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
 
-衡量日常活动和操作说明中下一事件的常识合理性判断。
+HellaSwag由ActivityNet字幕和WikiHow说明构造四选一续写题，以生成负例及对抗过滤减少表面语言线索。官方test提交已在2024年11月关闭；当代常用validation成绩不能接在该历史榜上宣称同一赛道进步。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+导读来源：[https://arxiv.org/abs/1905.07830](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）; [https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1)（访问 2026-11-07）
 
-## 一、基本信息
+## 1. 基本信息
 
 ### 简称
 
 HellaSwag
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 全称
 
 HellaSwag: Can a Machine Really Finish Your Sentence?
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 数据/协议版本
 
 2019数据集；官方测试榜于2024年11月停止接收提交
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 论文版本
 
-arXiv v1
+v1；2019-05-20T08:57:23+09:00（KST；论文修订号，不是数据版本）
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 发布日期
+### 发布日期及口径
 
-2019-05-20（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）
+2019-05-20T08:57:23+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 板块
+### 主板块
 
 推理
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
 ### 子领域
 
 - 常识情景推理
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 许可证
 
 HF的Rowan/hellaswag数据卡标MIT并链接原仓库LICENSE；本轮原LICENSE访问失败，保留此证据层级限制，未完成原许可证逐字核对。
 
-来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（采集 2026-11-07）。
+来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（访问 2026-11-07）
 
 ### 论文
 
 https://arxiv.org/abs/1905.07830
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 代码
-
-https://github.com/rowanz/hellaswag
-
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
-
-### 数据集
+### 代码入口
 
 https://github.com/rowanz/hellaswag
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-### 官网
+### 数据入口
+
+https://github.com/rowanz/hellaswag
+
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
+
+### 官方主页
 
 https://rowanzellers.com/hellaswag/
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 论文题名
+### 论文标题
 
 HellaSwag: Can a Machine Really Finish Your Sentence?
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-## 二、发起与维护
 
-### 发起机构
+## 2. 发起与维护
+
+### 发起团队
 
 University of Washington、Allen Institute for AI
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 正式合作方
+### 合作及署名机构
 
 待核实
 
-核验说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
+说明：仅确认论文署名机构，不将所有署名单位自动认定为正式合作方
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 作者
 
@@ -110,370 +111,302 @@ University of Washington、Allen Institute for AI
 - Farhadi, Ali
 - Choi, Yejin
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 当前维护
+### 维护方
 
-待核实
+官方页面由Rowan Zellers团队提供，明确自2024年11月关闭test榜提交；不据旧榜推断持续维护承诺。
 
-核验说明：组织/仓库归属已核实，当前责任维护人和活跃维护状态未确认
-
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
 ### 资助
 
-待核实
+NSF Graduate Research Fellowship及研究资助、DARPA CwC（经ARO）、IARPA DIVA、Sloan Fellowship、Allen Institute for AI、NVIDIA AI Lab，及Google/Facebook赠款；Google Cloud TPU团队提供计算协助。
 
-核验说明：未逐项核实论文致谢及当前运营资助；机构归属不等于资金来源
+来源：[1](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
 
-## 三、设计目标
+## 3. 设计目标
 
-### 测量能力
+### 评测能力
 
 衡量日常活动和操作说明中下一事件的常识合理性判断。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 设计缺口
+### 设计动机
 
 语言模型可能利用表面流畅度而不理解物理与事件常识；需要人类容易、模型困难的干扰项。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-## 四、构建方式
 
-### 题源
+## 4. 构建方式
+
+### 材料来源
 
 ActivityNet视频字幕与WikiHow操作说明作为上下文和正确结尾，生成模型产生错误结尾。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 出题/标注人员
+### 编制背景
 
 研究团队设计对抗过滤；众包人员判断候选结尾的合理性。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 审核
+### 审核流程
 
 多轮判别器过滤模型生成负例，并以人工验证保留可区分样本。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 质量控制
 
 对抗过滤迭代挑选不易被当时判别模型识别的错误答案；同时控制长度与语境。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 去污染边界
 
 按活动类别设置in-domain与zero-shot类别；这不等于现代预训练污染审计。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-## 五、数据形式
 
-### 题量
+## 5. 数据形式
 
-论文概述约70000题，ActivityNet约25000、WikiHow约45000；精确当前发布包题数待固定版本后复核。
+### 规模
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+HF数据卡公开行数：train 39,905、validation 10,042、test 10,003，共59,950；论文约70,000的收集规模不能替代这个公开包精确计数。
+
+来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（访问 2026-11-07）；[2](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）
 
 ### 题型
 
 给上下文和4个候选结尾，选择唯一合理的续写。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 模态
 
-文本（数学符号按文本表达）；并非原始图像视频识别任务
+文本上下文及4个文本结尾；ActivityNet视频提供字幕题源，但公开标准任务不要求模型直接观看视频。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）；[2](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（访问 2026-11-07）
 
 ### 语言
 
 英语题面；形式化/数学符号另见模态与仓库格式
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 难度
 
 原论文人类95.6%与当时模型差距是历史背景，不能描述2026模型仍低于48%。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 公开/隐藏划分
+### 公开及隐藏划分
 
 HF卡列train 39905、validation 10042、test 10003；官网test榜与普遍采用的validation评测不是同一split。
 
-来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-## 六、评测方法
+
+## 6. 评测方法
 
 ### 指标
 
 4选1准确率；官方榜另分in-domain/zero-shot、ActivityNet/WikiHow。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 评分实现
+### 计分
 
 选择标签与参考答案匹配；LLM的生成字母或对数似然实现需说明。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 提示与预算
+### 提示与运行设置
 
 官方历史榜GPT-4 base使用10-shot；当代生成/似然模板、长度归一化和shot数必须注明。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 评测脚本
+### 评测入口
 
 https://github.com/rowanz/hellaswag
 
-来源：[1](https://github.com/rowanz/hellaswag)（采集 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://github.com/rowanz/hellaswag)（访问 2026-11-07）；[2](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 可比性警示
+### 可比性边界
 
 停止更新的官方测试榜不等于当代验证集SOTA；不能把两个split混排。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（访问 2026-11-07）
 
-## 七、最新情况
 
-### 核对日期
+## 7. 最新情况
 
-2026-11-07（Asia/Seoul）
+### 核查日
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
 
-### 最新可确认数据/协议
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
+
+### 已核实版本
 
 官网声明自2024年11月关闭提交；当前可读的是历史test榜，不应称为2026年持续更新榜。
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-### 修订与2026H2收录证据
+### 论文历史及后续证据
 
-- **论文版本**：arXiv v1
-- **历史说明**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
-- **2026下半年引用/使用证据**：
-  - 
-    - **来源链接**：https://arxiv.org/html/2610.11978v1
-    - **日期**：2026-10-08
-    - **说明**：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
+arxiv_submissions：- version：v1；submitted_at：2019-05-20T08:57:23+09:00；timezone：Asia/Seoul (KST)；2026_h2_evidence：- url：https://arxiv.org/html/2610.11978v1；date：2026-10-08；note：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 饱和判断
+### 饱和情况
 
 待核实
 
-核验说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
+说明：是否饱和依赖具体split、工具和协议；下方分数仅为限定来源快照，不作整体饱和或SOTA判断
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[3](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）；[3](https://arxiv.org/html/2610.11978v1)（访问 2026-11-07）
 
-### 污染、争议与版本冲突
+### 已知问题
 
 验证集普遍公开使用；对抗过滤是构建方式，不是防止未来训练污染的保证。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-### 衍生与排除项
+### 衍生关系
 
 继承SWAG方向但扩大干扰项难度；本条不把ActivityNet与WikiHow视作独立benchmark。
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-## 八、榜单快照
 
-### 榜单采集日
+## 8. 榜单快照
 
-2026-11-07（Asia/Seoul；采集日不是测量日）
+### 采集日期
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
 
-### 官方榜
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
+
+### 官方结果入口
 
 https://rowanzellers.com/hellaswag/
 
-来源：[1](https://github.com/rowanz/hellaswag)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://github.com/rowanz/hellaswag)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-### 二级机构榜
+### 第三方结果入口
 
 待核实
 
-核验说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
+说明：未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### 限定范围的分数快照
+### 结果
 
-- 
-  - **模型版本**：GPT4 base 10-shot
-  - **分数**：95.3
-  - **单位**：%
-  - **范围与协议**：官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。
-  - **结果日期**：2023-03-08
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://rowanzellers.com/hellaswag/
-  - **来源等级**：一级：官方榜单
-  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
-- 
-  - **模型版本**：ALUM
-  - **分数**：85.6
-  - **单位**：%
-  - **范围与协议**：官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。
-  - **结果日期**：2020-03-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://rowanzellers.com/hellaswag/
-  - **来源等级**：一级：官方榜单
-  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
-- 
-  - **模型版本**：RoBERTa
-  - **分数**：85.2
-  - **单位**：%
-  - **范围与协议**：官方test历史榜overall accuracy；提交自2024年11月关闭，不与validation论文表混排。
-  - **结果日期**：2019-07-25
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://rowanzellers.com/hellaswag/
-  - **来源等级**：一级：官方榜单
-  - **检查点说明**：按来源展示名原样记录，未推断API checkpoint。
-- 
-  - **模型版本**：GPT-4 base
-  - **分数**：95.3
-  - **单位**：%
-  - **范围与协议**：官方历史测试榜，10-shot
-  - **结果日期**：2023-03-08
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://rowanzellers.com/hellaswag/
-  - **来源等级**：一级：官方榜（可能为历史结果）
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
-- 
-  - **模型版本**：ALUM
-  - **分数**：85.6
-  - **单位**：%
-  - **范围与协议**：官方历史测试榜
-  - **结果日期**：2020-03-23
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://rowanzellers.com/hellaswag/
-  - **来源等级**：一级：官方榜（可能为历史结果）
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
-- 
-  - **模型版本**：Gemini 3.8 Flash
-  - **分数**：97.5
-  - **单位**：%
-  - **范围与协议**：Jev论文表2，作者测量；非官方测试榜
-  - **结果日期**：2026-10-08
-  - **采集日期**：2026-11-07
-  - **来源链接**：https://arxiv.org/html/2610.11978v1
-  - **来源等级**：研究论文实验，非官方实时榜
-  - **检查点说明**：模型名按来源原样；若来源未列API checkpoint则不补造。
+| 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
+|---|---|---|---|---|---|
+| 官方历史test榜；2024-11停止接收提交 | 1 | GPT4 base 10-shot | 95.3 | overall test accuracy % | [原始来源](https://rowanzellers.com/hellaswag/)；采集2026-11-07 KST；2023-03-08（官网列示日期，未给时区） |
+| 官方历史test榜；2024-11停止接收提交 | 2 | ALUM | 85.6 | overall test accuracy % | [原始来源](https://rowanzellers.com/hellaswag/)；采集2026-11-07 KST；2020-03-23（官网列示日期，未给时区） |
+| 官方历史test榜；2024-11停止接收提交 | 3 | RoBERTa | 85.2 | overall test accuracy % | [原始来源](https://rowanzellers.com/hellaswag/)；采集2026-11-07 KST；2019-07-25（官网列示日期，未给时区） |
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）；[3](https://arxiv.org/html/2610.11978v1)（采集 2026-11-07）。
+说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
 ### 覆盖边界
 
-新增官方快照与既有论文/厂商结果分开解读，不能跨split/协议混排。榜单自身最后更新日期：待核实（榜关闭于2024-11；所列结果日依次2023-03-08、2020-03-23、2019-07-25）；2026-11-07仅为采集日期（Asia/Seoul）。
+本轮去掉重复GPT-4/ALUM行，仅列可在官方关闭榜核对的前三个模型；不混入validation研究结果。榜单关闭月份为2024-11，最后一次更新日待核实；模型旁日期不是采集日。
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-## 九、联系方式
 
-### 公开工作邮箱
+## 9. 联系方式
+
+### 公开研究联系邮箱
 
 待核实
 
-核验说明：未从已核实官方材料收录专门联系邮箱；不猜测个人邮箱
+说明：未从已核实官方材料收录专门联系邮箱；不猜测个人邮箱
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### Issues
+### 问题反馈
 
 https://github.com/rowanz/hellaswag/issues
 
-来源：[1](https://github.com/rowanz/hellaswag)（采集 2026-11-07）。
+来源：[1](https://github.com/rowanz/hellaswag)（访问 2026-11-07）
 
-### 官方社交
+### 官方账号
 
 待核实
 
-核验说明：未核实专门官方社交账号，不收录同名个人账户
+说明：未核实专门官方社交账号，不收录同名个人账户
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 隐私政策
 
 待核实
 
-核验说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
+说明：未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-## 十、原始文件
 
-### Drive论文PDF
+## 10. 原始文件
 
-- **id**：14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL
-- **webViewLink**：https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk
-
-来源：[1](https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk)（采集 2026-11-07）。
-
-### 原始论文PDF
+### 原文PDF
 
 https://arxiv.org/pdf/1905.07830
 
-来源：[1](https://arxiv.org/abs/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-### SHA256校验值
+### PDF SHA-256
 
 9a042fdcc4a22848cffde37e9c5257e423443980172bab7367dffb4e779aac37
 
-来源：[1](https://arxiv.org/pdf/1905.07830)（采集 2026-11-07）。
+说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+
+来源：[1](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）
 
 ### PDF字节数
 
 1192712
 
-来源：[1](https://arxiv.org/pdf/1905.07830)（采集 2026-11-07）。
+来源：[1](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）
 
 ### Drive文件夹
 
-- **id**：1XmPAIntfyK79BR_x3RMsy2mZCedenwBL
-- **webViewLink**：https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL
+id：1XmPAIntfyK79BR_x3RMsy2mZCedenwBL；webViewLink：https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL
 
-来源：[1](https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL)（采集 2026-11-07）。
+来源：[1](https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL)（访问 2026-11-07）
 
-### 其他文档
+### 其他原始材料
 
-- **chinese_intro_doc**：
-  - **id**：1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc
-  - **webViewLink**：https://docs.google.com/document/d/1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc/edit?usp=drivesdk
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/hellaswag.md
+chinese_intro_doc：id：1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc；webViewLink：https://docs.google.com/document/d/1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/hellaswag.md
 
-来源：[1](https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL)（采集 2026-11-07）。
+来源：[1](https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL)（访问 2026-11-07）
 
-## 十一、变更记录
+### Drive PDF
 
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 
-  - **日期**：2026-11-07
-  - **时区**：Asia/Seoul
-  - **变更内容**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **本轮更新字段**：
-    - basic_info.license
-    - latest_status.latest_dataset_version
-    - data_format.public_hidden_split
-    - leaderboard.results
-    - leaderboard.coverage_note
+id：14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL；webViewLink：https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk
 
-来源：[1](https://rowanzellers.com/hellaswag/)（采集 2026-11-07）。
+来源：[1](https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk)（访问 2026-11-07）
+
+
+## 11. 变更记录
+
+### 本页修订
+
+- date：2026-11-07；timezone：Asia/Seoul；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；timezone：Asia/Seoul；change：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：- basic_info.license；- latest_status.latest_dataset_version；- data_format.public_hidden_split；- leaderboard.results；- leaderboard.coverage_note
+- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+
+来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
+

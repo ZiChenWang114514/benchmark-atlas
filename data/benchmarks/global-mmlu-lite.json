@@ -31,15 +31,13 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "v2；2025-02-19T22:30:23+09:00（KST；论文修订号，不是数据版本）",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+          "url": "https://arxiv.org/abs/2412.03304",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "release_date": {
       "value": "2024-12首发；3.0于2026-05更新（数据卡仅给月份）",
@@ -58,7 +56,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑分类。"
+      "note": "Benchmark Constitution 编辑分类。"
     },
     "subfields": {
       "value": [
@@ -144,15 +142,17 @@
       ]
     },
     "partners": {
-      "value": "待核实",
+      "value": "Cohere For AI社区及付费语言专家共同完成文化标注和译校；本字段只陈述贡献，不把所有作者单位视为正式合作机构。",
       "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.03304",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "authors": {
       "value": "Shivalika Singh、Angelika Romanou、Clémentine Fourrier、David I. Adelani等；全量作者以论文为准。",
@@ -258,15 +258,17 @@
       ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "沿用公开MMLU题源，人工翻译与文化标注改进译质和解释性，但不构成消除预训练接触的保证；专项训练污染审计待核实。",
       "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.03304",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     }
   },
   "data_format": {
@@ -309,15 +311,17 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "沿用MMLU学科问题，不另设Lite统一难度等级；CS/CA是文化敏感性标签，不是简单/困难标签。",
       "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2412.03304",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "公开test与dev；不要把数据查看器总行数14,000当作精确测试题量。",
@@ -412,10 +416,10 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+          "url": "https://arxiv.org/abs/2412.03304",
           "accessed": "2026-11-07"
         }
       ]
@@ -442,10 +446,23 @@
       "note": "热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。"
     },
     "paper_revision_history": {
-      "value": "Lite 1.0：2024-12，15语言；2.0：2025-12加入Albanian/Burmese/Welsh；3.0：2026-05扩展至23语言。",
+      "value": {
+        "arxiv_submissions": [
+          {
+            "version": "v1",
+            "submitted_at": "2024-12-04T22:27:09+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2025-02-19T22:30:23+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ]
+      },
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+          "url": "https://arxiv.org/abs/2412.03304",
           "accessed": "2026-11-07"
         }
       ]
@@ -486,10 +503,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+          "url": "https://artificialanalysis.ai/evaluations/global-mmlu-lite",
           "accessed": "2026-11-07"
         }
       ]
@@ -518,28 +535,34 @@
           "rank": 1,
           "model": "Gemini 3.1 Pro Preview",
           "score": 93.2,
-          "metric": "AA Global-MMLU-Lite accuracy %",
+          "metric": "accuracy %",
+          "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/global-mmlu-lite",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
         },
         {
           "rank": 2,
           "model": "Gemini 3 Flash Preview (Non-reasoning)",
           "score": 92.7,
-          "metric": "AA Global-MMLU-Lite accuracy %",
+          "metric": "accuracy %",
+          "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/global-mmlu-lite",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
         },
         {
           "rank": 3,
           "model": "Gemini 3 Pro Preview (High)",
           "score": 92.2,
-          "metric": "AA Global-MMLU-Lite accuracy %",
+          "metric": "accuracy %",
+          "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/global-mmlu-lite",
-          "source_date": "待核实",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
         }
       ],
       "sources": [
@@ -561,15 +584,17 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "shivalika@cohere.com",
+        "beyza@cohere.com",
+        "sarahooker@cohere.com"
+      ],
       "sources": [
         {
-          "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+          "url": "https://arxiv.org/pdf/2412.03304",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "github_issues": {
       "value": "待核实",
@@ -624,7 +649,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 7733572,
@@ -633,8 +658,7 @@
           "url": "https://arxiv.org/pdf/2412.03304",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "本轮实际获取源站PDF原始字节并计算；未上传Drive。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -679,11 +703,16 @@
         "date": "2026-11-07",
         "timezone": "KST / Asia/Seoul",
         "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

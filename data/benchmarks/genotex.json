@@ -33,7 +33,7 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
-      "value": "v3；最近论文日期 2025-04-08",
+      "value": "v3；2025-04-09T02:09:04+09:00（KST；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.15341",
@@ -42,7 +42,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-06-21（首个arXiv版本日期；非推定数据上线日）",
+      "value": "2024-06-22T02:55:24+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.15341",
@@ -99,13 +99,18 @@
       ]
     },
     "dataset_url": {
-      "value": "https://doi.org/10.34740/kaggle/dsv/11309048",
+      "value": "https://huggingface.co/datasets/Liu-Hy/GenoTEX",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/HEAD/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Liu-Hy/GenoTEX/raw/main/README.md",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "官方README同时提供Kaggle DOI；HF为完整代码+数据捆绑分发，非新增benchmark。"
     },
     "official_homepage": {
       "value": "https://github.com/Liu-Hy/GenoTEX",
@@ -138,15 +143,13 @@
       "status": "待核实"
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文署名单位为University of Illinois Urbana-Champaign与Novartis；仅记录作者单位，不推定正式合作合同或共同所有权。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://arxiv.org/pdf/2406.15341",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -353,7 +356,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.15341",
@@ -374,6 +377,23 @@
     },
     "paper_revision_history": {
       "value": {
+        "arxiv_submissions": [
+          {
+            "version": "v1",
+            "submitted_at": "2024-06-22T02:55:24+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2025-03-28T02:59:22+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v3",
+            "submitted_at": "2025-04-09T02:09:04+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ],
         "2026_H2_evidence": [
           {
             "url": "https://arxiv.org/html/2610.21074v1",
@@ -381,27 +401,11 @@
             "note": "OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。"
           }
         ],
-        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
-        "paper_metadata": {
-          "title": "GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis",
-          "authors": [
-            "Liu, Haoyang",
-            "Chen, Shuyu",
-            "Zhang, Ye",
-            "Wang, Haohan"
-          ],
-          "release": "2024-06-21",
-          "latest": "2025-04-08",
-          "version": "v3"
-        }
+        "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。"
       },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.15341",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2610.21074v1",
           "accessed": "2026-11-07"
         }
       ]
@@ -438,10 +442,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://github.com/Liu-Hy/GenoTEX",
           "accessed": "2026-11-07"
         }
       ]
@@ -467,32 +471,120 @@
       "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
-      "value": "2025 v3论文历史：GenoAgent+o1端到端AUROC0.74/F1 41.39%；人工参考AUROC0.89；预处理后任务可到0.97但协议不同。o1具体API快照待核实；H2仅被引用。",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
-          "accessed": "2026-11-07"
+          "rank": null,
+          "model": "GenoAgent + OpenAI o1",
+          "score": 0.74,
+          "metric": "GTA AUROC",
+          "track": "论文v3表2：端到端，从原始数据开始",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 41.39,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "GenoAgent + Claude 3.5 Sonnet",
+          "score": 0.71,
+          "metric": "GTA AUROC",
+          "track": "论文v3表2：端到端，从原始数据开始",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 33.88,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "GenoAgent + OpenAI o3-mini",
+          "score": 0.7,
+          "metric": "GTA AUROC",
+          "track": "论文v3表2：端到端，从原始数据开始",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 31.04,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "GenoAgent + DeepSeek R1",
+          "score": 0.7,
+          "metric": "GTA AUROC",
+          "track": "论文v3表2：端到端，从原始数据开始",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 30.73,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "GenoAgent",
+          "score": 0.97,
+          "metric": "GTA AUROC",
+          "track": "论文v3表3：给定专家预处理数据",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 93.83,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "Data Interpreter",
+          "score": 0.95,
+          "metric": "GTA AUROC",
+          "track": "论文v3表3：给定专家预处理数据",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 89.52,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "MetaGPT",
+          "score": 0.95,
+          "metric": "GTA AUROC",
+          "track": "论文v3表3：给定专家预处理数据",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 87.59,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
+        },
+        {
+          "rank": null,
+          "model": "CodeAct",
+          "score": 0.92,
+          "metric": "GTA AUROC",
+          "track": "论文v3表3：给定专家预处理数据",
+          "source_url": "https://arxiv.org/pdf/2406.15341",
+          "collected_at": "2026-11-07 KST",
+          "f1_percent": 81.23,
+          "result_type": "官方论文历史实验",
+          "source_date": "2025-04-09 KST（论文修订）"
         }
       ],
-      "status": "待核实"
-    },
-    "coverage_note": {
-      "value": "本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2406.15341",
+          "url": "https://arxiv.org/pdf/2406.15341",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "表2与表3为不同输入条件的历史实验；本轮已复核PDF全部所列行，但未得到可核验实时总榜。rank=null表示未给跨模型实时名次；模型API快照仍待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2406.15341",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://epoch.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://lmarena.ai/",
+          "url": "https://raw.githubusercontent.com/Liu-Hy/GenoTEX/HEAD/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -562,7 +654,8 @@
           "url": "https://arxiv.org/pdf/2406.15341",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 1364730,
@@ -624,11 +717,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2406.15341",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

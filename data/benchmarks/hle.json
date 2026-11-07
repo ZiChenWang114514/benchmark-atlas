@@ -1802,13 +1802,14 @@
       ]
     },
     "github_issues": {
-      "value": "https://github.com/centerforaisafety/hle/issues",
+      "value": "未开放（官方仓库关闭了 Issues）",
       "sources": [
         {
-          "url": "https://github.com/centerforaisafety/hle",
+          "url": "https://api.github.com/repos/centerforaisafety/hle",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "更正：上一版写成 /issues 链接，但 GitHub API 返回 has_issues=false"
     },
     "official_social": {
       "value": "待核实",

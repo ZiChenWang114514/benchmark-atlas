@@ -20,71 +20,41 @@
       ]
     },
     "full_name": {
-      "value": "GEO-Bench",
+      "value": "General Earth Observation benchmark（GEO-Bench）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
+      ]
     },
     "version": {
-      "value": "待核实",
+      "value": "原版GEO-Bench 1.0（官方HF仓库geo-bench-1.0，README示例classification_v1.0）；GEO-Bench-2为后继项目，非本条换名。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://huggingface.co/datasets/recursix/geo-bench-1.0",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_version": {
-      "value": "arXiv v2",
+      "value": "v2；2023-12-24T02:17:05+09:00（KST；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "release_date": {
-      "value": "2023/06/06",
+      "value": "2023-06-07T01:16:05+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
@@ -97,7 +67,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+      "note": "Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
     },
     "subfields": {
       "value": [
@@ -120,10 +90,14 @@
       ]
     },
     "license": {
-      "value": "代码Apache 2.0（README徽章）；子数据集许可证须分别核查，不能一概推为Apache 2.0。",
+      "value": "代码Apache-2.0（本轮逐字读取LICENSE）；论文表1：BigEarthNet/Chesapeake为CDLA-P-1.0，So2Sat/ForestNet/Cashew/SA-crop/NZ-cattle为CC-BY-4.0，Brick-kiln为CC-BY-SA-4.0，EuroSAT/PV4GER/PV4GER-seg为MIT，NeonTree为CC0-1.0。使用须按各数据资产条款。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/LICENSE",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
         }
       ]
@@ -311,18 +285,10 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "比较面向地球监测的基础模型，提供比一般图像任务更贴合遥感应用的评估。",
+      "value": "一般自然图像基准忽略遥感的多光谱、SAR、空间分辨率和少标签迁移条件；统一12项下游任务与报告协议，以检验预训练表征能否适应真实地球监测任务。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
@@ -347,263 +313,222 @@
       ]
     },
     "author_background": {
-      "value": "待核实",
+      "value": "六名行业专家参与选题，覆盖林业和气候科学等领域；科学家指导委员会负责高层决策。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "review_process": {
-      "value": "由领域专家整理并改造既有地球监测数据集，覆盖多国家、多传感器模态。",
+      "value": "按易用性、现实用途、模态与任务多样性、宽松许可选取并改造既有数据；检测和计数任务转成语义分割；保留原划分或重建无空间重叠验证/测试集。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "quality_control": {
-      "value": "待核实",
+      "value": "将训练样本过多的数据集下采样至最多20,000，近似均衡大类；公开转换流水线、统一加载格式与统计报告规范。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "decontamination": {
-      "value": "待核实",
+      "value": "空间隔离用于降低下游train/validation/test地理泄漏；不等同于证明所有预训练影像都未与测试区域重叠。预训练语料重叠审计仍待核实。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "data_format": {
     "size": {
-      "value": "6 个分类任务、6 个语义分割任务；任务级样本数量待核实。",
+      "value": {
+        "task_count": 12,
+        "classification_tasks": 6,
+        "segmentation_tasks": 6,
+        "paper_table_1_splits": [
+          {
+            "task": "m-bigearthnet",
+            "train": 20000,
+            "validation": 1000,
+            "test": 1000
+          },
+          {
+            "task": "m-so2sat",
+            "train": 19992,
+            "validation": 986,
+            "test": 986
+          },
+          {
+            "task": "m-brick-kiln",
+            "train": 15063,
+            "validation": 999,
+            "test": 999
+          },
+          {
+            "task": "m-forestnet",
+            "train": 6464,
+            "validation": 989,
+            "test": 993
+          },
+          {
+            "task": "m-eurosat",
+            "train": 2000,
+            "validation": 1000,
+            "test": 1000
+          },
+          {
+            "task": "m-pv4ger",
+            "train": 11814,
+            "validation": 999,
+            "test": 999
+          },
+          {
+            "task": "m-pv4ger-seg",
+            "train": 3000,
+            "validation": 403,
+            "test": 403
+          },
+          {
+            "task": "m-chesapeake-landcover",
+            "train": 3000,
+            "validation": 1000,
+            "test": 1000
+          },
+          {
+            "task": "m-cashew-plantation",
+            "train": 1350,
+            "validation": 400,
+            "test": 50
+          },
+          {
+            "task": "m-SA-crop-type",
+            "train": 3000,
+            "validation": 1000,
+            "test": 1000
+          },
+          {
+            "task": "m-nz-cattle",
+            "train": 524,
+            "validation": 66,
+            "test": 65
+          },
+          {
+            "task": "m-NeonTree",
+            "train": 270,
+            "validation": 94,
+            "test": 93
+          }
+        ],
+        "scope": "原论文v2表1；不是GEO-Bench-2样本数。"
+      },
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "question_types": {
-      "value": "6 个分类任务、6 个语义分割任务；任务级样本数量待核实。",
+      "value": "图像分类（含多标签）与像素语义分割各6项；检测/计数原任务已转换成分割，不是文本问答。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "modalities": {
-      "value": "待核实",
+      "value": "多光谱、SAR、高光谱、高程、云概率等地理栅格；传感器涵盖Sentinel-1/2、Landsat-8、航空RGB等，空间分辨率0.1至30 m/pixel。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "不适用文本问答语言标签：输入为数值遥感影像，输出为类别或分割掩膜；任务元数据/文档使用英语。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "没有统一题目难度等级；小样本迁移任务，论文同时比较全量和不同训练集规模。不得将容易的EuroSAT子任务代表全部12任务。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "发布train/validation/test；尽可能保持原数据划分，否则生成验证及测试集并保证无空间重叠；精确各项数量见规模字段。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
     "metrics": {
-      "value": "采用统一评测与聚合报告方法；各任务指标和聚合细则待核实。",
+      "value": "分类报告accuracy；分割报告IoU。跨任务先用官方基线最小/最大值线性归一化，再计算IQM并报告分层bootstrap置信区间；归一化结果可超过1。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "scoring": {
-      "value": "采用统一评测与聚合报告方法；各任务指标和聚合细则待核实。",
+      "value": "建议每任务最多16次超参数试验，按验证集早停，所选配置至少10个随机种子；IQM裁掉最高/最低各25%，用1000次bootstrap估计不确定性。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "prompt_settings": {
-      "value": "待核实",
+      "value": "非语言提示式测试；应固定微调或冻结encoder、输入band映射、归一化、分辨率与数据增强；论文建议90度旋转及水平/垂直翻转。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2306.03831",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "official_scripts": {
-      "value": "待核实",
+      "value": "https://github.com/ServiceNow/geo-bench-experiments",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实"
+      "note": "README的实验复现入口；geobench负责下载/数据加载，torchgeo-bench为维护中的另一个harness。"
     },
     "comparability_warning": {
       "value": "不同数据版本、子集、提示、工具权限及模型快照不得直接混比；历史论文分数不代表当前SOTA。",
@@ -625,43 +550,41 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
     },
     "latest_dataset_version": {
-      "value": "待核实",
+      "value": "官方README仍链接geo-bench-1.0并推荐迁移GEO-Bench-2；旧版band元数据问题尚需用户应用映射。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://huggingface.co/datasets/recursix/geo-bench-1.0",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "paper_revision_history": {
       "value": {
-        "original_history": "Submission history From: Alexandre Lacoste [ view email ] [v1] Tue, 6 Jun 2023 16:16:05 UTC (6,212 KB) [v2] Sat, 23 Dec 2023 17:17:05 UTC (6,679 KB)",
+        "arxiv_submissions": [
+          {
+            "version": "v1",
+            "submitted_at": "2023-06-07T01:16:05+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          },
+          {
+            "version": "v2",
+            "submitted_at": "2023-12-24T02:17:05+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ],
         "2026_H2_evidence": [
           {
             "url": "https://arxiv.org/html/2609.05351v1",
@@ -672,7 +595,7 @@
       },
       "sources": [
         {
-          "url": "https://arxiv.org/html/2609.05351v1",
+          "url": "https://arxiv.org/abs/2306.03831",
           "accessed": "2026-11-07"
         }
       ]
@@ -717,18 +640,10 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
           "accessed": "2026-11-07"
         }
       ]
@@ -771,7 +686,44 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "results": {
-      "value": "H2论文使用快照，非官方总榜：MEOX在224输入、冻结encoder时EuroSAT AA 90.56±0.27%、Cashew mIoU 64.08±1.07%；64输入Cashew mIoU 64.42±0.22%。每项为五个head均值±标准差。不同分辨率与fine-tuning不可混排。当前总榜前列待核实。",
+      "value": [
+        {
+          "rank": null,
+          "model": "MEOX",
+          "score": 90.56,
+          "metric": "AA %",
+          "track": "MEOX论文表III：冻结encoder，输入224×224，EuroSAT",
+          "source_url": "https://arxiv.org/html/2609.05351v1",
+          "collected_at": "2026-11-07 KST",
+          "std": 0.27,
+          "aggregation": "5个head均值±标准差",
+          "result_type": "第三方研究论文实测；非官方统一榜"
+        },
+        {
+          "rank": null,
+          "model": "MEOX",
+          "score": 64.08,
+          "metric": "mIoU %",
+          "track": "MEOX论文表III：冻结encoder，输入224×224，Cashew",
+          "source_url": "https://arxiv.org/html/2609.05351v1",
+          "collected_at": "2026-11-07 KST",
+          "std": 1.07,
+          "aggregation": "5个head均值±标准差",
+          "result_type": "第三方研究论文实测；非官方统一榜"
+        },
+        {
+          "rank": null,
+          "model": "MEOX",
+          "score": 64.42,
+          "metric": "mIoU %",
+          "track": "MEOX论文表III：冻结encoder，输入64×64，Cashew",
+          "source_url": "https://arxiv.org/html/2609.05351v1",
+          "collected_at": "2026-11-07 KST",
+          "std": 0.22,
+          "aggregation": "5个head均值±标准差",
+          "result_type": "第三方研究论文实测；非官方统一榜"
+        }
+      ],
       "sources": [
         {
           "url": "https://arxiv.org/html/2609.05351v1",
@@ -780,18 +732,14 @@
       ]
     },
     "coverage_note": {
-      "value": "本次未取得可核验完整实时榜单；不得将论文旧分数标成当前第一。",
+      "value": "保留第三方MEOX论文可精确转录的实测行，不录其图像数字化近似对照值；分辨率、冻结/微调与任务不同不做统一排名。官方实时总榜入口仍待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2306.03831",
+          "url": "https://arxiv.org/html/2609.05351v1",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://arxiv.org/pdf/2306.03831",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/html/2306.03831v2/",
+          "url": "https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md",
           "accessed": "2026-11-07"
         }
       ]
@@ -877,7 +825,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 6887795,
@@ -939,15 +887,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2306.03831",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2306.03831",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

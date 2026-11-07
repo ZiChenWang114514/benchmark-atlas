@@ -102,8 +102,13 @@
         {
           "url": "https://labs.scale.com/leaderboard/mcp_atlas",
           "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://api.github.com/repos/scaleapi/mcp-atlas",
+          "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "note": "来源冲突：GitHub API 将仓库许可识别为 MIT，与本条所记 CC BY 4.0/Apache 2.0 分层表述并列保留，以官方 README/数据卡逐层声明为准"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2602.00933",
@@ -668,15 +673,14 @@
       "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/scaleapi/mcp-atlas/issues",
       "sources": [
         {
-          "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+          "url": "https://api.github.com/repos/scaleapi/mcp-atlas",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "GitHub API has_issues=true"
     },
     "official_social": {
       "value": "待核实",

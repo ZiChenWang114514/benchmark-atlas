@@ -43,15 +43,17 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "arXiv v1",
       "sources": [
+        {
+          "url": "https://export.arxiv.org/api/query?id_list=2502.05352",
+          "accessed": "2026-11-07"
+        },
         {
           "url": "https://arxiv.org/abs/2502.05352",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "release_date": {
       "value": "待核实",
@@ -88,15 +90,17 @@
       "note": "编辑标签；空列表表示尚未补充细分标签。"
     },
     "license": {
-      "value": "待核实",
+      "value": "Apache-2.0（GitHub 仓库 itbench-hub/ITBench 的 LICENSE 文件；仅覆盖仓库内容，第三方原始材料权利另行核查）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.05352",
+          "url": "https://github.com/itbench-hub/ITBench",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://api.github.com/repos/itbench-hub/ITBench",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2502.05352",
@@ -653,15 +657,14 @@
       "note": "论文公开通讯作者工作邮箱。"
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/itbench-hub/ITBench/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2502.05352",
+          "url": "https://api.github.com/repos/itbench-hub/ITBench",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "GitHub API has_issues=true"
     },
     "official_social": {
       "value": "待核实",

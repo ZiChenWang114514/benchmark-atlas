@@ -68,43 +68,19 @@
       "status": "待核实"
     },
     "paper_version": {
-      "value": "arXiv v1",
+      "value": "v1；2023-11-21T03:57:34+09:00（KST；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
     },
     "release_date": {
-      "value": "2023/11/20",
+      "value": "2023-11-21T03:57:34+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
@@ -117,7 +93,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "Benchmark Atlas 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
+      "note": "Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。"
     },
     "subfields": {
       "value": [
@@ -145,10 +121,14 @@
       ]
     },
     "license": {
-      "value": "MIT（仓库软件许可；不据此推断第三方题目或教材的再授权）",
+      "value": "数据集CC-BY-4.0（官方HF公开数据卡）；代码仓库MIT（本轮读取LICENSE）。两者范围不同，不可只将MIT当作题目数据许可。",
       "sources": [
         {
-          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/main/LICENSE",
+          "url": "https://huggingface.co/datasets/idavidrein/gpqa",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/HEAD/LICENSE",
           "accessed": "2026-11-07"
         }
       ]
@@ -283,27 +263,13 @@
       "note": "主要依据论文作者单位/官方团队介绍；不据此推断法律所有权或唯一发起方。文本已明确标注未核实的正式发起关系。"
     },
     "partners": {
-      "value": "待核实",
+      "value": "论文作者单位包括New York University、Cohere与Anthropic；这是署名单位记录，并非正式合作协议证明。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "authors": {
       "value": [
@@ -336,50 +302,22 @@
       ]
     },
     "maintainer": {
-      "value": "待核实",
+      "value": "官方发布与反馈入口为idavidrein/gpqa；个人持续维护职责不作推断。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "funders": {
-      "value": "待核实",
+      "value": "Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性能计算中心实物支持、NSF grants 1922658与2046556、Berkeley Existential Risk Initiative。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "design_goals": {
@@ -405,22 +343,10 @@
       ]
     },
     "gap_in_prior_benchmarks": {
-      "value": "研究生层级科学知识与推理，以及难题答案的可监督性。",
+      "value": "构造非专家即使可自由上网仍难解决、领域专家可验证的客观难题，用于研究模型超过监督者能力时的可扩展监督，而非单纯增加考试题数量。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
@@ -503,22 +429,10 @@
   },
   "data_format": {
     "size": {
-      "value": "448 道选择题；Diamond 是独立的 198 题子集，不能与全量成绩混用。",
+      "value": "共收集564题；保留18题不发布。公开Extended 546题，Main 448题，Diamond 198题；Main与Diamond为筛选子集，不可将题数相加。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
@@ -566,59 +480,39 @@
       ]
     },
     "languages": {
-      "value": "待核实",
+      "value": "英语四选一科学问题；题干与解释为文本，不是多语言平行题集。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "difficulty": {
-      "value": "研究生层级；原论文专家准确率 65%，排除事后识别的明确失误为 74%；非专家为 34%。这些是历史人类验证结果，不是当前模型分数。",
+      "value": "研究生级；65%专家/34%非专家为Extended验证统计，不能作为Diamond同口径人类基线。Diamond表2专家81.3%、非专家22.1%，作者明确提示两者受子集筛选效应影响。",
       "sources": [
         {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
         }
       ]
     },
     "public_hidden_split": {
-      "value": "待核实",
+      "value": "18题是论文明确不发布的held-out；546题Extended与448题Main、198题Diamond对外发布。HF访问需同意防泄漏条款并分享账号信息，本轮未登录或下载受限题目。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "url": "https://huggingface.co/datasets/idavidrein/gpqa",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "evaluation": {
@@ -718,34 +612,13 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2608.21601",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/abs/2608.21601",
-          "accessed": "2026-11-07"
         }
-      ],
-      "note": "2026H2 引用/使用证据：2026-08，K-Bench 相关工作明确引用本基准（文献引用，不声称重新运行）。"
+      ]
     },
     "latest_dataset_version": {
       "value": "待核实",
@@ -770,22 +643,18 @@
       "status": "待核实"
     },
     "paper_revision_history": {
-      "value": "Submission history From: David Rein [ view email ] [v1] Mon, 20 Nov 2023 18:57:34 UTC (7,790 KB)",
+      "value": {
+        "arxiv_submissions": [
+          {
+            "version": "v1",
+            "submitted_at": "2023-11-21T03:57:34+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ]
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
@@ -814,69 +683,38 @@
       "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "公开题及解释可能进入后续训练语料；canary和HF不转载条款用于降低风险，不证明实际无污染。专家回看纠错与Diamond选择效应必须注明。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://github.com/idavidrein/gpqa",
+          "url": "https://raw.githubusercontent.com/idavidrein/gpqa/HEAD/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "url": "https://huggingface.co/datasets/idavidrein/gpqa",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "derivatives": {
-      "value": "待核实",
+      "value": "GPQA Extended/Main/Diamond为同族题集子集，本库不拆成独立benchmark；其他衍生题集关系待核实。",
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2311.12022",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
           "accessed": "2026-11-07"
         }
       ]
@@ -926,31 +764,76 @@
     "results": {
       "value": [
         {
+          "rank": 1,
           "model": "GPT-6 Astra (Xhigh)",
           "score": 96.3,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "GPQA Diamond，198题",
-          "provenance": "Artificial Analysis 独立评测页面，抓取日可见第一名；不是模型厂商自报"
+          "metric": "GPQA Diamond accuracy %",
+          "track": "Artificial Analysis独立评测",
+          "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
         },
         {
+          "rank": 2,
           "model": "GPT-6 Astra (Max)",
           "score": 96.1,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "GPQA Diamond，198题"
+          "metric": "GPQA Diamond accuracy %",
+          "track": "Artificial Analysis独立评测",
+          "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
         },
         {
+          "rank": 3,
           "model": "Gemini 3.8 Flash (High)",
           "score": 95.3,
-          "unit": "%",
-          "metric": "accuracy",
-          "scope": "GPQA Diamond，198题"
+          "metric": "GPQA Diamond accuracy %",
+          "track": "Artificial Analysis独立评测",
+          "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "collected_at": "2026-11-07 KST",
+          "source_date": "待核实（页面未显示测量/更新日）",
+          "result_type": "网页当前可读快照"
+        },
+        {
+          "rank": null,
+          "model": "Few-Shot CoT GPT-4",
+          "score": 39.7,
+          "metric": "accuracy %",
+          "track": "原论文表5：Main 448题，few-shot CoT",
+          "source_url": "https://arxiv.org/pdf/2311.12022",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方历史实验"
+        },
+        {
+          "rank": null,
+          "model": "Few-Shot CoT GPT-4",
+          "score": 38.8,
+          "metric": "accuracy %",
+          "track": "原论文表5：Diamond 198题，few-shot CoT",
+          "source_url": "https://arxiv.org/pdf/2311.12022",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方历史实验"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4 with search (backoff to CoT on abstention)",
+          "score": 41.0,
+          "metric": "accuracy %",
+          "track": "原论文表5：Main 448题，检索",
+          "source_url": "https://arxiv.org/pdf/2311.12022",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方历史实验"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
         }
       ]
@@ -980,27 +863,17 @@
   },
   "contact": {
     "public_emails": {
-      "value": "待核实",
+      "value": [
+        "idavidrein@gmail.com",
+        "julianjm@nyu.edu",
+        "bowman@nyu.edu"
+      ],
       "sources": [
-        {
-          "url": "https://arxiv.org/abs/2311.12022",
-          "accessed": "2026-11-07"
-        },
         {
           "url": "https://arxiv.org/pdf/2311.12022",
           "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://github.com/idavidrein/gpqa",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      ]
     },
     "github_issues": {
       "value": "https://github.com/idavidrein/gpqa/issues",
@@ -1067,7 +940,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次下载原始字节的SHA-256；未压缩、未修改。"
+      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 617128,
@@ -1129,15 +1002,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Seoul",
         "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2311.12022",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://arxiv.org/pdf/2311.12022",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

@@ -31,26 +31,22 @@
       ]
     },
     "paper_version": {
-      "value": "待核实",
+      "value": "v1；2025-05-14T02:53:59+09:00（KST；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "release_date": {
-      "value": "待核实",
+      "value": "2025-05-14T02:53:59+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "section": {
       "value": "生物与医学",
@@ -74,15 +70,17 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "MIT；官方simple-evals README的HealthBench条目明确链接本仓库MIT LICENSE，本轮已读许可证全文。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://raw.githubusercontent.com/openai/simple-evals/HEAD/README.md",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/simple-evals/HEAD/LICENSE",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2505.08775",
@@ -288,15 +286,13 @@
       ]
     },
     "difficulty": {
-      "value": "待核实",
+      "value": "Hard为1,000个困难样本：先对o3、Grok 3、Gemini 2.5 Pro、Claude 3.7 Sonnet与Llama 4 Maverick逐题计分，剔除所有模型均未取得正分的题，再按五模型平均分选最低1,000题；不是自然医疗分布的随机抽样。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "public_hidden_split": {
       "value": "公开主集与少量同分布私有hold-out；hold-out精确题量待核实。",
@@ -319,10 +315,10 @@
       ]
     },
     "scoring": {
-      "value": "每项rubric分值-10至10且非零；命中计全分，否则0；总分除正分上限，逐题平均后截断到[0,1]。默认GPT-4.1裁判。",
+      "value": "每条rubric权重为-10至10且不为0；满足计该条全部分，否则0；每题除以正权重总和，再对所有题平均，最后将总体分数裁剪至[0,1]。单题可为负，不应逐题先裁剪。默认GPT-4.1裁判。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
       ]
@@ -357,7 +353,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -386,15 +382,21 @@
       "note": "热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
     },
     "paper_revision_history": {
-      "value": "待核实",
+      "value": {
+        "arxiv_submissions": [
+          {
+            "version": "v1",
+            "submitted_at": "2025-05-14T02:53:59+09:00",
+            "timezone": "Asia/Seoul (KST)"
+          }
+        ]
+      },
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "saturation": {
       "value": "待核实",
@@ -408,30 +410,31 @@
       "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
     },
     "contamination_and_issues": {
-      "value": "待核实",
+      "value": "作者用canary和私有同分布集检查训练污染风险；公开集不可据此宣称无污染。论文讨论医生对rubric解释和容错偏好存在分歧；模型裁判得分不是临床真实获益或患者安全的直接证明。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "derivatives": {
-      "value": "与当前100条目的id、名称、版本字段去重后未收录",
+      "value": "HealthBench Hard与Consensus为原版衍生切片；HealthBench Professional是另一个525例临床工作对话基准，本库单独建档，不把其榜归入本条。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
+          "accessed": "2026-11-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.27470",
           "accessed": "2026-11-07"
         }
-      ],
-      "note": "已与existing_slugs清单去重；版本关系基于所列方法页，不把不同任务域当同题更新。"
+      ]
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8）",
+      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -458,21 +461,80 @@
       ]
     },
     "results": {
-      "value": "待核实",
-      "sources": [
+      "value": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
-          "accessed": "2026-11-07"
+          "rank": null,
+          "model": "o3",
+          "score": 0.599,
+          "metric": "HealthBench归一化rubric得分（0–1）",
+          "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
+          "source_url": "https://arxiv.org/pdf/2505.08775",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方论文历史快照",
+          "std": 0.0016,
+          "source_date": "2025-05-14 KST（论文提交）"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4.1",
+          "score": 0.4778,
+          "metric": "HealthBench归一化rubric得分（0–1）",
+          "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
+          "source_url": "https://arxiv.org/pdf/2505.08775",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方论文历史快照",
+          "std": 0.0022,
+          "source_date": "2025-05-14 KST（论文提交）"
+        },
+        {
+          "rank": null,
+          "model": "o1",
+          "score": 0.42,
+          "metric": "HealthBench归一化rubric得分（0–1）",
+          "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
+          "source_url": "https://arxiv.org/pdf/2505.08775",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方论文历史快照",
+          "std": 0.0022,
+          "source_date": "2025-05-14 KST（论文提交）"
+        },
+        {
+          "rank": null,
+          "model": "GPT-4o (Aug 2024)",
+          "score": 0.3233,
+          "metric": "HealthBench归一化rubric得分（0–1）",
+          "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
+          "source_url": "https://arxiv.org/pdf/2505.08775",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方论文历史快照",
+          "std": 0.002,
+          "source_date": "2025-05-14 KST（论文提交）"
+        },
+        {
+          "rank": null,
+          "model": "GPT-3.5 Turbo",
+          "score": 0.1554,
+          "metric": "HealthBench归一化rubric得分（0–1）",
+          "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
+          "source_url": "https://arxiv.org/pdf/2505.08775",
+          "collected_at": "2026-11-07 KST",
+          "result_type": "官方论文历史快照",
+          "std": 0.0029,
+          "source_date": "2025-05-14 KST（论文提交）"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
-    },
-    "coverage_note": {
-      "value": "当前AA /evaluations/healthbench实际呈现Professional的525题榜，不能用于原始5,000题HealthBench。原论文o3=60%是历史结果而非2026当前第一；最新原版榜单数值待核实。",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
+          "accessed": "2026-11-07"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "本轮从原论文表7恢复16次运行的精确均值/标准差，不以摘要四舍五入60%代替0.5990，不将此历史切片称当前SOTA。Professional 525题AA现榜在独立条目，不能迁入本条。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
       ]
@@ -491,15 +553,13 @@
       ]
     },
     "github_issues": {
-      "value": "待核实",
+      "value": "https://github.com/openai/simple-evals/issues",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://raw.githubusercontent.com/openai/simple-evals/HEAD/README.md",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "official_social": {
       "value": "待核实",
@@ -536,26 +596,23 @@
       "note": "官方arXiv原论文PDF入口；本组不下载、不上传Drive。"
     },
     "sha256": {
-      "value": "待核实",
+      "value": "f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
       ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
-      "value": "待核实",
+      "value": 8359760,
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2505.08775",
+          "url": "https://arxiv.org/pdf/2505.08775",
           "accessed": "2026-11-07"
         }
-      ],
-      "status": "待核实",
-      "note": "已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。"
+      ]
     },
     "drive_folder": {
       "value": "待核实",
@@ -601,11 +658,16 @@
         "date": "2026-11-07",
         "timezone": "Asia/Shanghai (UTC+8)",
         "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+      },
+      {
+        "date": "2026-11-07",
+        "timezone": "Asia/Seoul",
+        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
       }
     ],
     "sources": [
       {
-        "url": "https://arxiv.org/abs/2505.08775",
+        "url": "urn:benchmark-constitution:editorial:r2-q4",
         "accessed": "2026-11-07"
       }
     ]

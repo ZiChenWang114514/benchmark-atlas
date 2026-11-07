@@ -1,6 +1,10 @@
 # GenoTEX
 
-> 核查日期：2026-11-07（Asia/Seoul）。事实按字段附来源；论文实验不代表当前排名，待核实不等于未公开。
+> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+
+GenoTEX把基因表达分析拆成数据选择、预处理和基因—性状关联，核心考察从原始数据执行完整分析，而非只回答生物知识题。阅读结果时首先区分端到端输入和专家预处理输入：两者的AUROC不能合并为同一榜单。
+
+导读来源：[https://arxiv.org/abs/2406.15341](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
 ## 1. 基本信息
 
@@ -16,7 +20,7 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 数据版本
+### 数据/协议版本
 
 待核实
 
@@ -26,17 +30,17 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 ### 论文版本
 
-v3；最近论文日期 2025-04-08
+v3；2025-04-09T02:09:04+09:00（KST；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 发布日期
+### 发布日期及口径
 
-2024-06-21（首个arXiv版本日期；非推定数据上线日）
+2024-06-22T02:55:24+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 板块
+### 主板块
 
 生物与医学
 
@@ -46,7 +50,7 @@ v3；最近论文日期 2025-04-08
 
 ### 子领域
 
-基因表达数据分析
+- 基因表达数据分析
 
 来源：[1](https://arxiv.org/html/2610.21074v1)（访问 2026-11-07）
 
@@ -70,9 +74,11 @@ https://github.com/Liu-Hy/GenoTEX
 
 ### 数据入口
 
-https://doi.org/10.34740/kaggle/dsv/11309048
+https://huggingface.co/datasets/Liu-Hy/GenoTEX
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+说明：官方README同时提供Kaggle DOI；HF为完整代码+数据捆绑分发，非新增benchmark。
+
+来源：[1](https://raw.githubusercontent.com/Liu-Hy/GenoTEX/HEAD/README.md)（访问 2026-11-07）；[2](https://huggingface.co/datasets/Liu-Hy/GenoTEX/raw/main/README.md)（访问 2026-11-07）
 
 ### 官方主页
 
@@ -86,6 +92,7 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
+
 ## 2. 发起与维护
 
 ### 发起团队
@@ -94,17 +101,18 @@ UIUC/Novartis署名作者团队；正式共同发起关系待核实。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 合作与署名机构
+### 合作及署名机构
 
-待核实
+论文署名单位为University of Illinois Urbana-Champaign与Novartis；仅记录作者单位，不推定正式合作合同或共同所有权。
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
-
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2406.15341)（访问 2026-11-07）
 
 ### 作者
 
-Liu, Haoyang；Chen, Shuyu；Zhang, Ye；Wang, Haohan
+- Liu, Haoyang
+- Chen, Shuyu
+- Zhang, Ye
+- Wang, Haohan
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -120,6 +128,7 @@ National AI Research Resource（NAIRR），grant 240283。
 
 来源：[1](https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md)（访问 2026-11-07）
 
+
 ## 3. 设计目标
 
 ### 评测能力
@@ -133,6 +142,7 @@ National AI Research Resource（NAIRR），grant 240283。
 一般代码题缺少完整生物数据筛选及质量控制，与真实研究链条脱节。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+
 
 ## 4. 构建方式
 
@@ -160,11 +170,12 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 去污染
+### 去污染边界
 
 依赖公开数据与公共文献；人工参考与任务划分不等于排除基础模型训练暴露。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+
 
 ## 5. 数据形式
 
@@ -180,7 +191,7 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 模态与格式
+### 模态
 
 基因表达矩阵、表型/临床元数据、代码与结果表。
 
@@ -198,11 +209,12 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 公开与隐藏划分
+### 公开及隐藏划分
 
 数据/参考分析公开；全流程任务与预处理后任务为不同协议，不能合并分数。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+
 
 ## 6. 评测方法
 
@@ -212,13 +224,13 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 评分流程
+### 计分
 
 与专家参考流程及结果比较；基因发现不是因果生物真理证明。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 提示设置
+### 提示与运行设置
 
 GenoAgent多代理工作流，模型与已有预处理输入条件需在比较时固定。
 
@@ -236,11 +248,12 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
+
 ## 7. 最新情况
 
-### 核查日期
+### 核查日
 
-2026-11-07 Asia/Seoul
+2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -252,11 +265,11 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 版本历史及后续引用
+### 论文历史及后续证据
 
-2026_H2_evidence：url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。；paper_metadata：title：GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis；authors：Liu, Haoyang；Chen, Shuyu；Zhang, Ye；Wang, Haohan；release：2024-06-21；latest：2025-04-08；version：v3
+arxiv_submissions：- version：v1；submitted_at：2024-06-22T02:55:24+09:00；timezone：Asia/Seoul (KST)；- version：v2；submitted_at：2025-03-28T02:59:22+09:00；timezone：Asia/Seoul (KST)；- version：v3；submitted_at：2025-04-09T02:09:04+09:00；timezone：Asia/Seoul (KST)；2026_H2_evidence：- url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）；[2](https://arxiv.org/html/2610.21074v1)（访问 2026-11-07）
+来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -270,29 +283,30 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 衍生版本
+### 衍生关系
 
 待核实
 
 说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+
 
 ## 8. 榜单快照
 
 ### 采集日期
 
-2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）
+2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+来源：[1](https://github.com/Liu-Hy/GenoTEX)（访问 2026-11-07）
 
-### 官方榜单入口
+### 官方结果入口
 
 https://github.com/Liu-Hy/GenoTEX
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 第三方榜单
+### 第三方结果入口
 
 待核实
 
@@ -300,23 +314,36 @@ https://github.com/Liu-Hy/GenoTEX
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 结果快照
+### 结果
 
-2025 v3论文历史：GenoAgent+o1端到端AUROC0.74/F1 41.39%；人工参考AUROC0.89；预处理后任务可到0.97但协议不同。o1具体API快照待核实；H2仅被引用。
+| 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
+|---|---|---|---|---|---|
+| 论文v3表2：端到端，从原始数据开始 | — | GenoAgent + OpenAI o1 | 0.74 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表2：端到端，从原始数据开始 | — | GenoAgent + Claude 3.5 Sonnet | 0.71 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表2：端到端，从原始数据开始 | — | GenoAgent + OpenAI o3-mini | 0.7 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表2：端到端，从原始数据开始 | — | GenoAgent + DeepSeek R1 | 0.7 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表3：给定专家预处理数据 | — | GenoAgent | 0.97 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表3：给定专家预处理数据 | — | Data Interpreter | 0.95 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表3：给定专家预处理数据 | — | MetaGPT | 0.95 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
+| 论文v3表3：给定专家预处理数据 | — | CodeAct | 0.92 | GTA AUROC | [原始来源](https://arxiv.org/pdf/2406.15341)；采集2026-11-07 KST；2025-04-09 KST（论文修订） |
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
 ### 覆盖边界
 
-本轮官方入口与Artificial Analysis / Epoch AI / LMArena定向检索未核实到可比的实时统一榜单；不以检索未命中证明不存在。下列论文分数均是历史快照，不宣称截至采集日SOTA。
+表2与表3为不同输入条件的历史实验；本轮已复核PDF全部所列行，但未得到可核验实时总榜。rank=null表示未给跨模型实时名次；模型API快照仍待核实。
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）；[2](https://artificialanalysis.ai/)（访问 2026-11-07）；[3](https://epoch.ai/)（访问 2026-11-07）；[4](https://lmarena.ai/)（访问 2026-11-07）
+来源：[1](https://arxiv.org/pdf/2406.15341)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/Liu-Hy/GenoTEX/HEAD/README.md)（访问 2026-11-07）
+
 
 ## 9. 联系方式
 
-### 公开邮箱
+### 公开研究联系邮箱
 
-hl57@illinois.edu；shuyu5@illinois.edu；haohanw@illinois.edu；ye-4.zhang@novartis.com
+- hl57@illinois.edu
+- shuyu5@illinois.edu
+- haohanw@illinois.edu
+- ye-4.zhang@novartis.com
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -342,6 +369,7 @@ https://github.com/Liu-Hy/GenoTEX/issues
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
+
 ## 10. 原始文件
 
 ### 原文PDF
@@ -353,6 +381,8 @@ https://arxiv.org/pdf/2406.15341
 ### PDF SHA-256
 
 a736e1f4af1ac40df8d1727de6722e005292ffdc20ea002a847ac5114d2ce790
+
+说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2406.15341)（访问 2026-11-07）
 
@@ -368,9 +398,9 @@ id：1fUMNCa76uvA8Rrlhv0dnpnOz5L1LD5Di；webViewLink：https://drive.google.com/
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-### 其他文档
+### 其他原始材料
 
-type：中文介绍 Google Doc；id：1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts；webViewLink：https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit
+- type：中文介绍 Google Doc；id：1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts；webViewLink：https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit
 
 来源：[1](https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit)（访问 2026-11-07）
 
@@ -380,10 +410,14 @@ id：14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV；webViewLink：https://drive.google.com/
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
+
 ## 11. 变更记录
 
 ### 本页修订
 
-date：2026-11-07；timezone：Asia/Seoul；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；timezone：Asia/Seoul；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- date：2026-11-07；timezone：Asia/Seoul；change：第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
-来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
+来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
+
