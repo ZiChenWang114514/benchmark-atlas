@@ -1,6 +1,6 @@
 ---
 import Value from './Value.astro';
-import { badgeClass, formatBytes, isEmail, labelFor, safeUrl } from '../lib/format';
+import { badgeClass, formatBytes, isEmail, labelFor, publicText, safeUrl } from '../lib/format';
 
 interface Props {
   value: unknown;
@@ -103,7 +103,7 @@ function tight(cell: unknown): boolean {
 ) : typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value) ? (
   <span class="mono">{value}</span>
 ) : typeof value === 'string' ? (
-  <span>{value}</span>
+  <span>{publicText(value)}</span>
 ) : typeof value === 'number' && (name === 'pdf_bytes' || name === 'bytes') ? (
   <span class="num">{formatBytes(value)}</span>
 ) : typeof value === 'number' ? (

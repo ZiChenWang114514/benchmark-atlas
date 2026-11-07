@@ -33,7 +33,7 @@ for (const item of index.benchmarks ?? []) {
 if (!home.includes('最新动态')) fail('首页缺少最新动态');
 if (!home.includes('近期热门')) fail('首页缺少近期热门');
 if (!home.includes('收集宪法')) fail('首页缺少宪法入口');
-if (!home.includes('/benchmark-atlas/benchmarks/')) fail('首页链接没有站点前缀');
+if (!home.includes('/benchmark-constitution/benchmarks/')) fail('首页链接没有站点前缀');
 if (index.count != null && index.count !== index.benchmarks.length) {
   fail(`index.count ${index.count} 与条目数 ${index.benchmarks.length} 不一致`);
 }
@@ -93,7 +93,7 @@ if (read('api/constitution.md') !== readFileSync(join(repoRoot, 'CONSTITUTION.md
 }
 
 if (!apiPage.includes('只读')) fail('接口页没有说明只读');
-if (!apiPage.includes('/benchmark-atlas/api/benchmarks/gpqa.json')) fail('接口页缺少 GPQA JSON 地址');
+if (!apiPage.includes('/benchmark-constitution/api/benchmarks/gpqa.json')) fail('接口页缺少 GPQA JSON 地址');
 if (!apiPage.includes('catalog.json')) fail('接口页没有提到 catalog.json');
 
 const catalog = JSON.parse(read('api/catalog.json') || '{"resources":[]}');
@@ -114,7 +114,7 @@ if (!home.includes('🔥 近期热门')) fail('首页卡片没有近期热门徽
 const trendingJson = JSON.parse(read('api/trending.json') || '{}');
 if (!Array.isArray(trendingJson.items) || trendingJson.items.length < 1) fail('api/trending.json 没有条目');
 if (existsSync(join(dist, 'benchmarks/terminal-bench-science/index.html'))) {
-  if (!trendingPage.includes('/benchmark-atlas/benchmarks/terminal-bench-science/')) {
+  if (!trendingPage.includes('/benchmark-constitution/benchmarks/terminal-bench-science/')) {
     fail('Terminal-Bench-Science 已有档案，热门页却没有链过去');
   }
   const hotDetail = read('benchmarks/terminal-bench-science/index.html');
@@ -126,6 +126,30 @@ const news = JSON.parse(read('api/news.json') || '[]');
 for (const item of news) {
   if (!home.includes(item.title)) fail(`首页缺少动态：${item.title}`);
 }
+
+const heatPage = read('frontier-heat/index.html');
+const impactPage = read('impact/index.html');
+const methodPage = read('impact/method/index.html');
+const registryPage = read('registry/index.html');
+for (const [label, html] of [['业界热度榜', heatPage], ['学术影响力榜', impactPage], ['方法页', methodPage], ['名录', registryPage]]) {
+  if (!html) fail(`缺少${label}`);
+  else if (!html.includes('数据生成中')) fail(`${label}在数据文件缺席时应该显示数据生成中`);
+  else if (html.includes('Benchmark Atlas')) fail(`${label}仍出现旧名称`);
+}
+function walkHtml(dir) {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) walkHtml(full);
+    else if (entry.name.endsWith('.html') && readFileSync(full, 'utf8').includes('Benchmark Atlas')) {
+      fail(`旧名称仍出现在 ${full.replace(dist + '/', '')}`);
+    }
+  }
+}
+walkHtml(dist);
+if (!existsSync(join(dist, 'api/trending.json'))) fail('缺少 api/trending.json');
+if (!home.includes('/benchmark-constitution/frontier-heat/')) fail('首页没有链到业界热度榜');
+if (!home.includes('/benchmark-constitution/impact/')) fail('首页没有链到学术影响力榜');
+if (!home.includes('/benchmark-constitution/registry/')) fail('首页没有链到名录');
 
 if (errors.length) {
   console.error('站点校验失败：');

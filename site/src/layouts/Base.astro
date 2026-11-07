@@ -6,10 +6,10 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description: string;
-  active?: 'home' | 'trending' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
 }
 const { title, description, active } = Astro.props;
-const fullTitle = title === 'Benchmark Atlas' ? 'Benchmark Atlas · 自然科学评测图鉴' : `${title} · Benchmark Atlas`;
+const fullTitle = title === 'Benchmark Constitution' ? 'Benchmark Constitution · 基准收集宪法' : `${title} · Benchmark Constitution`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>

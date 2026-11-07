@@ -1,0 +1,129 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadHeat, rankArrow, type HeatFile } from '../lib/boards';
+import { loadIndex } from '../lib/data';
+import { page, safeUrl } from '../lib/format';
+
+const heat = loadHeat();
+const known = new Set(loadIndex().benchmarks.map((item) => item.id));
+const modelName = new Map((heat?.models ?? []).map((model) => [model.id, model.name]));
+
+function spark(id: string, file: HeatFile): string {
+  const history = file.history ?? [];
+  if (history.length < 2) return '';
+  const points = history.map((entry, index) => {
+    const place = entry.top.indexOf(id);
+    const y = place === -1 ? 22 : 2 + (place / Math.max(entry.top.length - 1, 1)) * 18;
+    const x = history.length === 1 ? 40 : (index / (history.length - 1)) * 76 + 2;
+    return `${x},${y}`;
+  });
+  return points.join(' ');
+}
+
+const movers = (() => {
+  const history = heat?.history ?? [];
+  if (history.length < 2) return [];
+  const prev = new Map(history[history.length - 2].top.map((id, index) => [id, index + 1]));
+  const last = history[history.length - 1].top;
+  return last
+    .map((id, index) => {
+      const before = prev.get(id);
+      const now = index + 1;
+      return { id, name: heat?.ranking.find((row) => row.benchmark_id === id)?.name ?? id, delta: before == null ? null : before - now };
+    })
+    .filter((row) => row.delta != null && row.delta > 0)
+    .sort((a, b) => (b.delta ?? 0) - (a.delta ?? 0))
+    .slice(0, 5);
+})();
+---
+<Base title="业界热度榜" description="最近 20 个前沿模型的发布材料里，被多少个模型报告过的 benchmark。" active="heat">
+  <div class="wrap doc-title">
+    <p class="eyebrow">Frontier Heat</p>
+    <h1>业界热度榜</h1>
+    <p class="lede">统计最近 20 个前沿模型在模型卡、发布页或技术报告里报告过的 benchmark，按被多少个模型提到来排名。</p>
+  </div>
+  <div class="wrap">
+    {heat ? (
+      <>
+        <p class="daily-badge">每日更新 · {heat.generated_at ?? '日期未写'}{heat.window?.rule ? ` · ${heat.window.rule}` : ''}</p>
+        <section class="section" aria-labelledby="heat-models">
+          <header class="flag"><h2 id="heat-models">这 20 个模型</h2><p>{heat.models.length} 个</p></header>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>模型</th><th>机构</th><th>发布日期</th><th>来源</th></tr></thead>
+              <tbody>
+                {heat.models.map((model) => {
+                  const source = model.sources?.find((item) => item.url && safeUrl(item.url));
+                  return (
+                    <tr>
+                      <td>{model.name}</td>
+                      <td>{model.organization || '—'}</td>
+                      <td>{model.release_date || '—'}</td>
+                      <td>{source?.url && safeUrl(source.url) ? <a href={source.url} target="_blank" rel="noopener noreferrer">打开</a> : '—'}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="section" aria-labelledby="heat-rank">
+          <header class="flag"><h2 id="heat-rank">按被报告次数</h2><p>份额是占这 20 个模型的比例</p></header>
+          <div class="table-wrap">
+            <table class="heat-table">
+              <thead>
+                <tr><th>名次</th><th>变化</th><th>基准</th><th>领域</th><th>次数</th><th>份额</th><th>近期轨迹</th></tr>
+              </thead>
+              <tbody>
+                {heat.ranking.map((row) => {
+                  const arrow = rankArrow(row.rank_change);
+                  const share = typeof row.share === 'number' ? Math.max(0, Math.min(1, row.share)) : (heat.models.length ? row.count / heat.models.length : 0);
+                  const points = spark(row.benchmark_id, heat);
+                  return (
+                    <>
+                      <tr>
+                        <td class="num">{row.rank}</td>
+                        <td><span class="rank-change" title={arrow.label}>{arrow.mark}</span></td>
+                        <td>
+                          {known.has(row.benchmark_id) ? <a href={page(`benchmarks/${row.benchmark_id}`)}>{row.name}</a> : row.name}
+                        </td>
+                        <td>{row.domain || '—'}</td>
+                        <td class="num">{row.count}</td>
+                        <td>
+                          <div class="share" title={`${Math.round(share * 100)}%`}><span style={`width:${Math.round(share * 100)}%`}></span></div>
+                        </td>
+                        <td>
+                          {points ? <svg class="spark" viewBox="0 0 80 24" aria-hidden="true"><polyline points={points} /></svg> : '—'}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="7">
+                          <details>
+                            <summary>哪些模型报告了它（{(row.models ?? []).length}）</summary>
+                            <ul class="doc-list">
+                              {(row.models ?? []).map((id) => <li>{modelName.get(id) ?? id}</li>)}
+                            </ul>
+                          </details>
+                        </td>
+                      </tr>
+                    </>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="section" aria-labelledby="heat-movers">
+          <header class="flag"><h2 id="heat-movers">名次上升最多</h2><p>比较历史里最近两个快照</p></header>
+          {movers.length === 0 ? <p>还没有足够的历史点，轨迹会在每天更新后出现。</p> : (
+            <ul class="doc-list">
+              {movers.map((row) => <li>{row.name} · 上升 {row.delta}</li>)}
+            </ul>
+          )}
+        </section>
+      </>
+    ) : (
+      <p class="pending-data">数据生成中</p>
+    )}
+  </div>
+</Base>

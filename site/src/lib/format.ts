@@ -135,10 +135,14 @@ export function badgeClass(status: string): string {
   return status === '待核实' ? 'badge-pending' : 'badge-muted';
 }
 
+export function publicText(value: string): string {
+  return value.replaceAll('Benchmark Atlas', 'Benchmark Constitution');
+}
+
 export function notableNote(field: Field | undefined): string | null {
   const note = field?.note?.trim();
   if (!note || note === PENDING_EXPLANATION) return null;
-  return note;
+  return publicText(note);
 }
 
 export function safeUrl(url: string): string | null {

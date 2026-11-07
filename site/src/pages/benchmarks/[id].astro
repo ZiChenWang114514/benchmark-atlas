@@ -10,6 +10,7 @@ import {
   labelFor,
   orderedEntries,
   page,
+  publicText,
   safeUrl,
   statusOf,
   textValue,
@@ -80,7 +81,7 @@ function host(url: string): string {
     return '来源';
   }
 }
-const summary = record.index.summary;
+const summary = publicText(record.index.summary);
 const hot = trendingFor(record.index.id);
 ---
 <Base title={record.index.name} description={summary} active="home">
@@ -146,7 +147,7 @@ const hot = trendingFor(record.index.id);
       )}
       {record.index.cited_2026h2 && (
         <div class="callout">
-          <p><strong>2026下半年仍被引用。</strong>{record.index.citation_note}</p>
+          <p><strong>2026下半年仍被引用。</strong>{record.index.citation_note ? publicText(record.index.citation_note) : ''}</p>
           {(record.index.cited_2026h2_evidence ?? []).length > 0 && (
             <ul class="doc-list">
               {(record.index.cited_2026h2_evidence ?? []).map((item) => {
@@ -178,7 +179,7 @@ const hot = trendingFor(record.index.id);
                     {item.event_date && item.event_date !== '待核实' ? ` · 事件 ${item.event_date}` : ' · 事件日期待核实'}
                   </p>
                   <p>{item.title}</p>
-                  <p class="news-body">{item.body}</p>
+                  <p class="news-body">{publicText(item.body)}</p>
                   <p class="news-links">
                     {item.sources.flatMap((source) => {
                       const href = safeUrl(source.url);
@@ -198,7 +199,7 @@ const hot = trendingFor(record.index.id);
 
       <p class="fine">
         schema {file.schema_version ?? '未注明'}
-        {file.editorial_status ? ` · ${file.editorial_status}` : ''}
+        {file.editorial_status ? ` · ${publicText(file.editorial_status)}` : ''}
       </p>
       <nav class="pager" aria-label="同板块">
         {previous ? (

@@ -6,13 +6,13 @@
 
 ## 地址
 
-- 网站：https://zichenwang114514.github.io/benchmark-atlas/
-- 一条档案：https://zichenwang114514.github.io/benchmark-atlas/benchmarks/gpqa/
-- 宪法：https://zichenwang114514.github.io/benchmark-atlas/constitution/
-- 接口说明：https://zichenwang114514.github.io/benchmark-atlas/api/
-- 原始 JSON：https://zichenwang114514.github.io/benchmark-atlas/api/benchmarks/gpqa.json
+- 网站：https://zichenwang114514.github.io/benchmark-constitution/
+- 一条档案：https://zichenwang114514.github.io/benchmark-constitution/benchmarks/gpqa/
+- 宪法：https://zichenwang114514.github.io/benchmark-constitution/constitution/
+- 接口说明：https://zichenwang114514.github.io/benchmark-constitution/api/
+- 原始 JSON：https://zichenwang114514.github.io/benchmark-constitution/api/benchmarks/gpqa.json
 
-站点前缀是 `/benchmark-atlas/`。如果仓库改名，要同时改 `site/astro.config.mjs` 里的 `site` 和 `base`。
+站点前缀是 `/benchmark-constitution/`。如果仓库改名，要同时改 `site/astro.config.mjs` 里的 `site` 和 `base`。
 
 ## 改哪些文件
 
@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-打开 http://127.0.0.1:4321/benchmark-atlas/
+打开 http://127.0.0.1:4321/benchmark-constitution/
 
 发布前可以先在本地构建并校验：
 
@@ -61,13 +61,13 @@ npm run preview
 仓库的 Pages 来源需要是 GitHub Actions：
 
 ```bash
-gh api repos/ZiChenWang114514/benchmark-atlas/pages -X POST -f build_type=workflow
+gh api repos/ZiChenWang114514/benchmark-constitution/pages -X POST -f build_type=workflow
 ```
 
 如果 Pages 已经开过，改用更新：
 
 ```bash
-gh api repos/ZiChenWang114514/benchmark-atlas/pages -X PUT -f build_type=workflow
+gh api repos/ZiChenWang114514/benchmark-constitution/pages -X PUT -f build_type=workflow
 ```
 
 发布完成后，上面的网站、详情页和 JSON 地址应返回 200。JSON 正文以 `{` 开头；详情页应能看到该基准的名称和「待核实」。

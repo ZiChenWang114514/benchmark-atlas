@@ -1,12 +1,15 @@
 ---
 import { page } from '../lib/format';
 interface Props {
-  active?: 'home' | 'trending' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
 }
 const { active } = Astro.props;
 const items = [
   { id: 'home', href: page(), label: '首页' },
   { id: 'trending', href: page('trending'), label: '近期热门' },
+  { id: 'heat', href: page('frontier-heat'), label: '业界热度榜' },
+  { id: 'impact', href: page('impact'), label: '学术影响力榜' },
+  { id: 'registry', href: page('registry'), label: '名录' },
   { id: 'constitution', href: page('constitution'), label: '收集宪法' },
   { id: 'api', href: page('api'), label: '数据接口' },
 ];
@@ -14,8 +17,8 @@ const items = [
 <header class="site-header">
   <div class="header-inner">
     <a class="wordmark" href={page()}>
-      Benchmark Atlas
-      <small>自然科学评测图鉴</small>
+      Benchmark Constitution
+      <small>基准收集宪法</small>
     </a>
     <nav class="nav" aria-label="站点">
       {items.map((item) => (

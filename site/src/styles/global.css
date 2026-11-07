@@ -104,7 +104,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   letter-spacing: 0.08em;
   color: var(--muted);
 }
-.nav { display: flex; gap: 1.15rem; align-items: center; }
+.nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.05rem; align-items: center; justify-content: flex-end; }
 .nav a {
   color: var(--ink-soft);
   text-decoration: none;
@@ -466,6 +466,25 @@ a.trend-card:hover { border-color: var(--tone, var(--ink)); }
 }
 .trend-evidence li { margin: 0.35rem 0; }
 .trend-evidence p { margin: 0.12rem 0 0; color: var(--muted); line-height: 1.5; }
+.pending-data { margin: 1rem 0 1.4rem; padding: 0.9rem 1rem; border: 1px dashed var(--line-strong); color: var(--muted); }
+.daily-badge { display: inline-block; margin: 0.2rem 0 0.6rem; padding: 0.15rem 0.55rem; border-radius: 999px; background: #e7efe9; color: #1a4338; font-size: 0.85rem; }
+.widget-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.widget { border: 1px solid var(--line); border-top: 3px solid var(--ink); background: var(--paper-2); padding: 0.85rem 1rem 1rem; }
+.widget h3 { margin: 0 0 0.45rem; font-size: 1.25rem; }
+.widget-list { margin: 0; padding-left: 1.2rem; }
+.widget-list li { margin: 0.2rem 0; }
+.share { height: 0.45rem; background: #e7e1d6; }
+.share span { display: block; height: 100%; background: var(--cinnabar); }
+.spark { width: 4.5rem; height: 1.4rem; }
+.spark polyline { fill: none; stroke: var(--cinnabar); stroke-width: 1.5; }
+.mini-bars { display: flex; gap: 0.2rem; align-items: flex-end; min-height: 1.2rem; }
+.mini-bar { width: 0.45rem; height: 1.15rem; background: #e7e1d6; position: relative; }
+.mini-bar::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: var(--w); background: var(--moss); }
+.dimension-legend { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.7rem; }
+.dimension-legend li { border-top: 1px solid var(--line); padding-top: 0.4rem; }
+.dimension-legend p { color: var(--muted); font-size: 0.88rem; }
+.pager-buttons { display: flex; gap: 0.7rem; align-items: center; margin: 0.8rem 0 1.2rem; }
+.rank-change { font-variant-numeric: tabular-nums; }
 .card-section { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.5rem; }
 .muted-inline { color: var(--muted); }
 .record-list { display: grid; gap: 0.75rem; }
@@ -590,7 +609,7 @@ pre {
   .footer-grid, .principles { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 800px) {
-  .news-layout, .detail-layout, .doc-layout, .api-layout, .principles, .footer-grid { grid-template-columns: 1fr; }
+  .news-layout, .detail-layout, .doc-layout, .api-layout, .principles, .footer-grid, .widget-grid { grid-template-columns: 1fr; }
   .toc {
     position: sticky;
     top: var(--header);

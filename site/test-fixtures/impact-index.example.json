@@ -1,0 +1,22 @@
+{
+  "_example": true,
+  "_label": "EXAMPLE FIXTURE — not live data. Numbers are invented.",
+  "generated_at": "2026-11-07",
+  "method_version": "example-0",
+  "dimensions": [
+    { "key": "citations", "name_zh": "引用", "weight": 0.5, "description_zh": "示例权重，不是正式方法。" }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "example-bench",
+      "name": "Example Bench",
+      "domain": "其他",
+      "release_date": "2024-01",
+      "score": 50,
+      "components": { "citations": 50 },
+      "raw": { "citations": 1, "gh_stars": 1 },
+      "flags": ["example"]
+    }
+  ]
+}

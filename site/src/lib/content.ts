@@ -50,3 +50,18 @@ export function loadConstitution(): { title: string; html: string; toc: TocItem[
   }
   return { title, html: parsed, toc };
 }
+
+export function renderMarkdownDocument(markdown: string): string {
+  const marked = new Marked();
+  marked.use({
+    gfm: true,
+    renderer: {
+      html({ text }) {
+        return escapeHtml(text);
+      },
+    },
+  });
+  const parsed = marked.parse(markdown, { async: false });
+  if (typeof parsed !== 'string') throw new Error('Markdown 没有同步渲染');
+  return parsed;
+}
