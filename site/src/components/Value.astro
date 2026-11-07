@@ -1,0 +1,209 @@
+---
+import Value from './Value.astro';
+import { badgeClass, formatBytes, isEmail, labelFor, safeUrl } from '../lib/format';
+
+interface Props {
+  value: unknown;
+  name?: string;
+}
+const { value, name } = Astro.props;
+
+const isRecord = (item: unknown): item is Record<string, unknown> =>
+  !!item && typeof item === 'object' && !Array.isArray(item);
+const isScalar = (item: unknown): boolean => item == null || typeof item === 'string' || typeof item === 'number' || typeof item === 'boolean';
+
+const href = typeof value === 'string' ? safeUrl(value) : null;
+const records = Array.isArray(value) && value.length > 0 && value.every(isRecord) ? (value as Record<string, unknown>[]) : null;
+const strings = Array.isArray(value) && value.every((item) => typeof item === 'string') ? (value as string[]) : null;
+const scalarRows = records && records.every((row) => Object.values(row).every(isScalar)) ? records : null;
+const nestedRows = records && !scalarRows ? records : null;
+const record = !Array.isArray(value) && isRecord(value) ? value : null;
+const mixed = Array.isArray(value) && !strings && !records ? value : null;
+
+const PREFERRED = [
+  'model',
+  'model_version',
+  'score',
+  'result',
+  'unit',
+  'metric',
+  'scope',
+  'scope_and_protocol',
+  'benchmark_version',
+  'result_type',
+  'rank',
+  'evaluation_date',
+  'result_date',
+  'snapshot_date',
+  'source_date',
+  'collected_at',
+  'model_release',
+  'model_date',
+  'settings',
+  'ci',
+  'uncertainty',
+  'harness',
+  'source_url',
+  'source_class',
+  'provenance',
+  'checkpoint_note',
+  'version',
+  'submitted_at',
+  'timezone',
+  'date',
+  'change',
+  'kind',
+  'type',
+  'id',
+  'webViewLink',
+  'url',
+  'accessed',
+  'note',
+  'sha256',
+  'bytes',
+];
+
+function columnsOf(rows: Record<string, unknown>[]): string[] {
+  const keys = new Set<string>();
+  for (const row of rows) for (const key of Object.keys(row)) keys.add(key);
+  return [...keys].sort((a, b) => {
+    const left = PREFERRED.indexOf(a);
+    const right = PREFERRED.indexOf(b);
+    if (left === -1 && right === -1) return a.localeCompare(b, 'zh');
+    if (left === -1) return 1;
+    if (right === -1) return -1;
+    return left - right;
+  });
+}
+
+const changelogKeys = new Set(['date', 'timezone', 'change']);
+const isChangelog =
+  !!scalarRows &&
+  scalarRows.every((row) => typeof row.date === 'string' && typeof row.change === 'string') &&
+  scalarRows.every((row) => Object.keys(row).every((key) => changelogKeys.has(key)));
+const cols = scalarRows && !isChangelog ? columnsOf(scalarRows) : [];
+const drive = record && typeof record.webViewLink === 'string' ? record : null;
+const emailList = !!strings && strings.length > 0 && strings.every((item) => isEmail(item));
+const pillList = !!strings && !emailList && strings.length < 6 && strings.every((item) => item.length <= 16);
+
+function tight(cell: unknown): boolean {
+  if (typeof cell === 'number') return true;
+  if (typeof cell !== 'string' || !cell || safeUrl(cell)) return false;
+  return cell.length <= 24;
+}
+---
+{value === '待核实' || value === '未公开' ? (
+  <span class:list={['badge', badgeClass(value)]}>{value}</span>
+) : value == null || value === '' ? (
+  <span class="muted-inline">（空）</span>
+) : href ? (
+  <a href={href} target="_blank" rel="noopener noreferrer">{href}</a>
+) : typeof value === 'string' && isEmail(value) ? (
+  <a href={`mailto:${value}`}>{value}</a>
+) : typeof value === 'string' && /^[a-f0-9]{64}$/i.test(value) ? (
+  <span class="mono">{value}</span>
+) : typeof value === 'string' ? (
+  <span>{value}</span>
+) : typeof value === 'number' && (name === 'pdf_bytes' || name === 'bytes') ? (
+  <span class="num">{formatBytes(value)}</span>
+) : typeof value === 'number' ? (
+  <span class="num">{new Intl.NumberFormat('zh-Hans').format(value)}</span>
+) : typeof value === 'boolean' ? (
+  <span>{value ? '是' : '否'}</span>
+) : strings && strings.length === 0 ? (
+  <span class="muted-inline">（空）</span>
+) : emailList && strings ? (
+  <ul class="doc-list">
+    {strings.map((email) => <li><a href={`mailto:${email}`}>{email}</a></li>)}
+  </ul>
+) : strings && strings.length >= 6 ? (
+  <ul class="people">
+    {strings.map((item) => <li>{item}</li>)}
+  </ul>
+) : pillList && strings ? (
+  <ul class="pills">
+    {strings.map((item) => <li>{item}</li>)}
+  </ul>
+) : strings ? (
+  <span>{strings.join('、')}</span>
+) : isChangelog && scalarRows ? (
+  <ol class="changelog">
+    {scalarRows.map((item) => (
+      <li>
+        <p class="when">{String(item.date)}{item.timezone ? ` · ${item.timezone}` : ''}</p>
+        <p>{String(item.change)}</p>
+      </li>
+    ))}
+  </ol>
+) : scalarRows ? (
+  <div class="table-wrap">
+    <table class="results">
+      <thead>
+        <tr>
+          {cols.map((column) => <th scope="col">{labelFor(column)}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {scalarRows.map((row) => (
+          <tr>
+            {cols.map((column) => (
+              <td class:list={[{ tight: tight(row[column]), num: typeof row[column] === 'number' }]}>
+                <Value value={row[column]} name={column} />
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+) : nestedRows ? (
+  <div class="record-list">
+    {nestedRows.map((row) => (
+      <div class="record-card">
+        {typeof row.webViewLink === 'string' && safeUrl(row.webViewLink) && (
+          <p class="field-value"><a href={row.webViewLink} target="_blank" rel="noopener noreferrer">{typeof row.kind === 'string' ? row.kind : typeof row.type === 'string' ? row.type : '打开链接'}</a></p>
+        )}
+        <dl class="kv">
+          {Object.entries(row).filter(([key]) => key !== 'webViewLink' || !safeUrl(String(row.webViewLink ?? ''))).map(([key, item]) => (
+            <div>
+              <dt>{labelFor(key)}</dt>
+              <dd><Value value={item} name={key} /></dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    ))}
+  </div>
+) : drive && safeUrl(String(drive.webViewLink)) ? (
+  <div>
+    <p class="field-value">
+      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : '在 Google Drive 打开'}</a>
+      {drive.id ? <span class="file-id">{String(drive.id)}</span> : null}
+    </p>
+    {Object.keys(drive).some((key) => !['webViewLink', 'id', 'kind', 'type'].includes(key)) && (
+      <dl class="kv">
+        {Object.entries(drive).filter(([key]) => !['webViewLink', 'id', 'kind', 'type'].includes(key)).map(([key, item]) => (
+          <div>
+            <dt>{labelFor(key)}</dt>
+            <dd><Value value={item} name={key} /></dd>
+          </div>
+        ))}
+      </dl>
+    )}
+  </div>
+) : record ? (
+  <dl class="kv">
+    {Object.entries(record).map(([key, item]) => (
+      <div>
+        <dt>{labelFor(key)}</dt>
+        <dd><Value value={item} name={key} /></dd>
+      </div>
+    ))}
+  </dl>
+) : mixed ? (
+  <ul class="doc-list">
+    {mixed.map((item) => <li><Value value={item} /></li>)}
+  </ul>
+) : (
+  <span class="mono">{JSON.stringify(value)}</span>
+)}

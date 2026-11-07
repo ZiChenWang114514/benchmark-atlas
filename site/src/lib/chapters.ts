@@ -95,12 +95,20 @@ export const CHAPTERS: ChapterSpec[] = [
   },
 ];
 
-export const PRIMARY_SECTIONS: { id: string; blurb: string }[] = [
+export const SECTIONS: { id: string; blurb: string }[] = [
   { id: '物理', blurb: '物理知识、推理与科学计算' },
   { id: '化学', blurb: '化学知识、分子与实验相关任务' },
   { id: '生物与医学', blurb: '生物医学问题、实验流程与文献' },
   { id: '地球与天文', blurb: '天文、地球观测、气候与天气' },
   { id: '材料', blurb: '材料属性、稳定性与发现' },
+  { id: '语言', blurb: '语言理解与生成' },
+  { id: '推理', blurb: '多步推理与逻辑' },
+  { id: '数学', blurb: '数学问题与证明' },
+  { id: '代码', blurb: '代码生成与软件任务' },
+  { id: '多模态', blurb: '图文、视频与跨模态' },
+  { id: 'Agent', blurb: '交互、工具与长程任务' },
+  { id: '安全', blurb: '安全、越狱与有害内容' },
 ];
 
-export const SECONDARY_SECTIONS = ['语言', '推理', '数学', '代码', '多模态', 'Agent', '安全'];
+export const PRIMARY_SECTIONS = SECTIONS.slice(0, 5);
+export const SECONDARY_SECTIONS = SECTIONS.slice(5).map((section) => section.id);

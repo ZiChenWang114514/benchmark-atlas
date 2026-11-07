@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { PRIMARY_SECTIONS, SECONDARY_SECTIONS } from './chapters';
+import { SECTIONS } from './chapters';
 import { countPending, sortDate, textValue, type Field, type Source } from './format';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
@@ -14,10 +14,19 @@ export type IndexBenchmark = {
   summary: string;
   json: string;
   content: string;
-  drive_pdf?: { id?: string; webViewLink?: string };
-  drive_intro?: { id?: string; webViewLink?: string };
+  drive_pdf?: { id?: string; webViewLink?: string } | string;
+  drive_intro?: { id?: string; webViewLink?: string; kind?: string };
   sources?: Source[];
   last_checked?: string;
+  cited_2026h2?: boolean;
+  citation_note?: string;
+  cited_2026h2_evidence?: {
+    url: string;
+    date?: string;
+    note?: string;
+    accessed?: string;
+    date_precision?: string;
+  }[];
 };
 
 export type IndexFile = {
@@ -182,17 +191,15 @@ export function sectionGroups(records: RecordView[]): { groups: SectionGroup[]; 
     bySection.set(section, list);
   }
   const groups: SectionGroup[] = [];
-  for (const section of PRIMARY_SECTIONS) {
+  for (const section of SECTIONS) {
     const items = bySection.get(section.id);
     if (items?.length) groups.push({ id: section.id, blurb: section.blurb, items });
   }
   for (const [id, items] of bySection) {
     if (groups.some((group) => group.id === id)) continue;
-    const blurb = SECONDARY_SECTIONS.includes(id) ? '次要板块，已开始收录' : '新增板块';
-    groups.push({ id, blurb, items });
+    groups.push({ id, blurb: '新增板块', items });
   }
-  const used = new Set(groups.map((group) => group.id));
-  const reserved = SECONDARY_SECTIONS.filter((section) => !used.has(section));
+  const reserved = SECTIONS.filter((section) => !bySection.get(section.id)?.length).map((section) => section.id);
   return { groups, reserved };
 }
 
