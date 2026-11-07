@@ -5,6 +5,8 @@
 OpenAI MRCR测试长对话中多份同类写作回复的顺序辨识与重现。公开HF版有2/4/8-needle配置，评分是带随机前缀门槛的SequenceMatcher匹配率，不是严格逐字全对准确率。厂商发布文的“v2”尚未映射到公开HF commit，本页不把二者当作已确认同一数据版本；其灵感来源Michelangelo论文也不冒称OpenAI的独立基准论文。
 [本页导读依据](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
+[补充导读依据](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称

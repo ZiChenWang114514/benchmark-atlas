@@ -5,6 +5,8 @@
 OpenAI将MMLU测试题以专业人工翻译扩展到14个非英语语种，核心用途是比较同类学科知识的跨语言可用性，而非重新出一道更难的MMLU题库。本次固定HF commit下载全部14个CSV：每个语种14042行、57学科，总计196588条译文。HF查看器393176的聚合计数重复包含default与各语种配置，不能当作独立题数。
 [本页导读依据](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）
 
+[补充导读依据](https://huggingface.co/api/datasets/openai/MMMLU)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称

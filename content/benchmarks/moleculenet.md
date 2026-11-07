@@ -5,6 +5,8 @@
 MoleculeNet不是自然语言问答题库，而是统一分子性质预测数据、特征表示、划分和指标的监督学习评测集合。原论文核心为17个数据集，既有分类也有回归；当前DeepChem社区维护的MoleculeNet已扩展到更广科学数据。新补回的官方README成绩来自2020–2021历史提交，只按子任务展示，不把仍可访问的旧榜称为2026年SOTA。
 [本页导读依据](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）
 
+[补充导读依据](https://github.com/deepchem/moleculenet/blob/master/README.md)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称

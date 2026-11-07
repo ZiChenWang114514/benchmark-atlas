@@ -5,6 +5,12 @@
 MultiChallenge考查多轮指令保持、用户信息推断记忆、可靠版本编辑和自洽。原论文与原GitHub数据为273段对话，当前官方HF test为266段，这一差异尚无本轮可核验的官方解释，不能用一个分母笼统描述所有成绩。在线榜已修改裁判与54条rubric，原仓库多次attempts又按至少一次成功计分，因此人评、历史自动评、现在线榜及best-of-attempts必须分开。
 [本页导读依据](https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md)（访问 2026-11-08）
 
+[补充导读依据](https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl)（访问 2026-11-08）
+
+[补充导读依据](https://github.com/ekwinox117/multi-challenge/blob/main/README.md)（访问 2026-11-08）
+
+[补充导读依据](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称

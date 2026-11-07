@@ -5,6 +5,10 @@
 MultiPL-E把HumanEval和MBPP的接口、说明与测试翻译到多种编程语言，功能正确性仍由编译及单元测试确定。原论文19语言的实验不能代表当前HF发布：数据卡最新列3.3版，修正Lua停止词问题；其HumanEval与MBPP目标语言配置数量也已不同。GitHub额外禁止机器学习训练，而HF标MIT，两种授权声明冲突仍显式保留。
 [本页导读依据](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）
 
+[补充导读依据](https://github.com/nuprl/MultiPL-E/blob/main/LICENSE)（访问 2026-11-08）
+
+[补充导读依据](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称

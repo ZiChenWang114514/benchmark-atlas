@@ -5,6 +5,8 @@
 MMMU-Pro从原版筛去文本捷径可答题，扩展候选选项，并将题目嵌入图片以测试“看与读”的联合能力。底层1730道题对应Standard四选项、Standard十选项和Vision三种配置，不是5190道独立题。原论文整体分、官方JSON各列、Vals四选项与AA十选项均分轨；论文人类表现是作者利用原MMMU数据估计，不视作Pro重新实测。
 [本页导读依据](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
 
+[补充导读依据](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）
+
 ## 基本信息
 
 ### 简称
