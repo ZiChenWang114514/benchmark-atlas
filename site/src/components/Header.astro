@@ -1,0 +1,25 @@
+---
+import { page } from '../lib/format';
+interface Props {
+  active?: 'home' | 'constitution' | 'api';
+}
+const { active } = Astro.props;
+const items = [
+  { id: 'home', href: page(), label: '首页' },
+  { id: 'constitution', href: page('constitution'), label: '收集宪法' },
+  { id: 'api', href: page('api'), label: '数据接口' },
+];
+---
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href={page()}>
+      Benchmark Atlas
+      <small>自然科学评测图鉴</small>
+    </a>
+    <nav class="nav" aria-label="站点">
+      {items.map((item) => (
+        <a href={item.href} aria-current={active === item.id ? 'page' : undefined}>{item.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
