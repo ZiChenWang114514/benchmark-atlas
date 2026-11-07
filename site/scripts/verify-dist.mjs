@@ -78,7 +78,7 @@ if (!gpqa.includes('<table')) fail('GPQA 榜单没有表格');
 if (!gpqa.includes('待核实')) fail('GPQA 缺少待核实');
 if (!gpqa.includes('使用官方名称')) fail('GPQA 缺少字段备注');
 if (!gpqa.includes('2026下半年仍被引用')) fail('GPQA 没有标出 2026下半年引用');
-if (!read('benchmarks/hle/index.html').includes('2026下半年证据')) fail('HLE 的嵌套证据没有按字段展开');
+if (!read('benchmarks/frontiermath/index.html').includes('2026下半年证据')) fail('FrontierMath 的嵌套证据没有按字段展开');
 if (!read('benchmarks/hle/index.html').includes('https://lastexam.ai')) fail('HLE 榜单来源链接没有渲染');
 if (read('benchmarks/mmlu/index.html').includes('[object Object]')) fail('MMLU 仍有未格式化对象');
 
