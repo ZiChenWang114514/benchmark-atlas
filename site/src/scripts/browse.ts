@@ -58,7 +58,7 @@ function apply(writeUrl: boolean) {
     for (const card of list) grid.append(card);
   }
 
-  count.textContent = `本批 ${cards.length} 个基准 · 当前显示 ${shown} 个`;
+  count.textContent = `本批 ${cards.length} 个基准，当前显示 ${shown} 个`;
   empty.hidden = shown !== 0;
   tail.hidden = query !== '' || section !== '全部' || tag !== '';
 

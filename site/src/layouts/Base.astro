@@ -9,7 +9,7 @@ interface Props {
   active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
 }
 const { title, description, active } = Astro.props;
-const fullTitle = title === 'Benchmark Constitution' ? 'Benchmark Constitution · 基准收集宪法' : `${title} · Benchmark Constitution`;
+const fullTitle = title === 'Benchmark Constitution' ? 'Benchmark Constitution' : `${title} — Benchmark Constitution`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
@@ -20,7 +20,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical.href} />
-    <meta name="theme-color" content="#f3efe6" />
+    <meta name="theme-color" content="#f4f6f8" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />

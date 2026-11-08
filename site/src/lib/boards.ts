@@ -29,6 +29,10 @@ export type HeatFile = {
   models: HeatModel[];
   ranking: HeatRank[];
   history?: { date: string; top: string[] }[];
+  coverage?: {
+    interpretation_zh?: string;
+    rank_change_reference_date?: string | null;
+  };
 };
 
 export type ImpactDimension = {
@@ -39,7 +43,7 @@ export type ImpactDimension = {
 };
 
 export type ImpactRow = {
-  rank: number;
+  rank: number | null;
   id: string;
   name: string;
   domain?: string | null;
@@ -55,6 +59,11 @@ export type ImpactFile = {
   method_version?: string;
   dimensions: ImpactDimension[];
   ranking: ImpactRow[];
+  unscored?: ImpactRow[];
+  minimum_ranking_coverage?: number;
+  official_ranking_count?: number;
+  publication_warning_zh?: string;
+  ranking_status?: string;
 };
 
 export type RegistryItem = {
@@ -109,7 +118,7 @@ export function loadMethodology(): string | null {
 
 export function rankArrow(change: HeatRank['rank_change']): { mark: string; label: string } {
   if (change === 'new') return { mark: '新', label: '新进入窗口' };
-  if (typeof change === 'number' && change < 0) return { mark: `↑${Math.abs(change)}`, label: `名次上升 ${Math.abs(change)}` };
-  if (typeof change === 'number' && change > 0) return { mark: `↓${change}`, label: `名次下降 ${change}` };
+  if (typeof change === 'number' && change < 0) return { mark: `+${Math.abs(change)}`, label: `名次上升 ${Math.abs(change)}` };
+  if (typeof change === 'number' && change > 0) return { mark: `−${change}`, label: `名次下降 ${change}` };
   return { mark: '—', label: '名次未变' };
 }

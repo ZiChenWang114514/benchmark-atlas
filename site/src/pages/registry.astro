@@ -1,8 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
+import { visualCopy } from '../i18n/visual';
 import { loadRegistry } from '../lib/boards';
 import { loadIndex } from '../lib/data';
-import { page } from '../lib/format';
+import { dateStamp, page } from '../lib/format';
+
+const ui = visualCopy('zh');
 
 const registry = loadRegistry();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
@@ -24,11 +27,13 @@ const payload = (registry?.items ?? []).map((item) => ({
 const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh'));
 ---
 <Base title="名录" description="已发现的 benchmark 名录。可按名称搜索，并按引用、star 或发布日期排序。" active="registry">
-  <div class="wrap doc-title">
-    <p class="eyebrow">Registry</p>
+  <div class="wrap page-hero">
     <h1>名录</h1>
     <p class="lede">这里收已经确认存在的评测集。有完整十一节档案的，名称会链到档案页；其余只给出论文、代码或数据集入口。</p>
-    <p class="meta-line">{registry?.generated_at ? `生成 ${registry.generated_at}` : ''}{registry ? ` · ${registry.count ?? payload.length} 条` : ''}</p>
+    <p class="meta-row">
+      {dateStamp(registry?.generated_at) && <span>{ui.snapshot} {dateStamp(registry?.generated_at)}</span>}
+      {registry && <span>{registry.count ?? payload.length} 条</span>}
+    </p>
   </div>
   <div class="wrap">
     {registry ? (
@@ -53,18 +58,25 @@ const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))]
           </label>
         </div>
         <p id="reg-count" class="result-count"></p>
-        <div class="table-wrap">
-          <table>
+        <div class="board-scroll">
+          <table class="board" id="reg-table" data-null-tip={ui.nullTip}>
             <thead>
-              <tr><th>名称</th><th>领域</th><th>发布</th><th>引用</th><th>Star</th><th>入口</th></tr>
+              <tr>
+                <th class="name-col" scope="col">名称</th>
+                <th scope="col">领域</th>
+                <th scope="col">发布</th>
+                <th scope="col">引用</th>
+                <th scope="col">Star</th>
+                <th scope="col">入口</th>
+              </tr>
             </thead>
             <tbody id="reg-body"></tbody>
           </table>
         </div>
-        <div class="pager-buttons">
-          <button type="button" class="chip" id="reg-prev">上一页</button>
+        <div class="pager-bar">
+          <button type="button" class="pager-btn" id="reg-prev">{ui.prev}</button>
           <span id="reg-page"></span>
-          <button type="button" class="chip" id="reg-next">下一页</button>
+          <button type="button" class="pager-btn" id="reg-next">{ui.next}</button>
         </div>
         <script id="reg-data" type="application/json" set:html={JSON.stringify(payload).replaceAll('<', '\\u003c')}></script>
         <script>
@@ -131,7 +143,11 @@ const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))]
               body.innerHTML = slice.map((item) => {
                 const name = item.archive ? `<a href="${safeHref(item.archive)}">${esc(item.name)}</a>` : esc(item.name);
                 const hf = item.hf_dataset ? `https://huggingface.co/datasets/${item.hf_dataset}` : '';
-                return `<tr><td>${name}</td><td>${esc(item.domain || '—')}</td><td>${esc(item.release_date || '—')}</td><td>${item.citations ?? '—'}</td><td>${item.stars ?? '—'}</td><td>${[link(item.paper_url, '论文'), link(item.github_url, '代码'), link(hf, '数据集'), link(item.homepage, '主页')].filter(Boolean).join(' · ') || '—'}</td></tr>`;
+                const links = [link(item.paper_url, '论文'), link(item.github_url, '代码'), link(hf, '数据集'), link(item.homepage, '主页')].filter(Boolean);
+                const nullTip = document.querySelector('#reg-table')?.getAttribute('data-null-tip') || '';
+                const dash = `<span class="na" title="${esc(nullTip)}">—</span>`;
+                const entry = links.length ? `<span class="row-links">${links.join('')}</span>` : dash;
+                return `<tr><td class="name-cell" data-label="名称">${name}</td><td data-label="领域">${item.domain ? `<span class="domain-tag">${esc(item.domain)}</span>` : dash}</td><td data-label="发布">${esc(item.release_date || '') || dash}</td><td class="num" data-label="引用">${item.citations ?? dash}</td><td class="num" data-label="Star">${item.stars ?? dash}</td><td data-label="入口">${entry}</td></tr>`;
               }).join('');
             }
             if (count) count.textContent = `${rows.length} 条`;

@@ -1,152 +1,136 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { loadImpact } from '../../lib/boards';
+import { visualCopy } from '../../i18n/visual';
+import { loadImpact, type ImpactRow } from '../../lib/boards';
 import { loadIndex } from '../../lib/data';
-import { page } from '../../lib/format';
+import { dateStamp, page } from '../../lib/format';
 
+const ui = visualCopy('zh');
 const impact = loadImpact();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
-const domains = [...new Set((impact?.ranking ?? []).map((row) => row.domain).filter((domain): domain is string => !!domain))].sort((a, b) => a.localeCompare(b, 'zh'));
+const dimensions = new Map((impact?.dimensions ?? []).map((dimension) => [dimension.key, dimension.name_zh]));
+
+function num(value: unknown): number | null {
+  return typeof value === 'number' && Number.isFinite(value) ? value : null;
+}
+function slim(row: ImpactRow, tier: 'ranked' | 'insufficient') {
+  const components = row.components ?? {};
+  return {
+    rank: typeof row.rank === 'number' ? row.rank : null,
+    id: row.id,
+    name: row.name,
+    domain: row.domain ?? '',
+    score: num(row.score),
+    quality: num(components.quality),
+    community: num(components.community),
+    saturation: num(components.headroom),
+    github: num(components.github),
+    tier,
+    href: known.has(row.id) ? page(`benchmarks/${row.id}`) : '',
+  };
+}
+const rows = impact
+  ? [...impact.ranking.map((row) => slim(row, 'ranked')), ...(impact.unscored ?? []).map((row) => slim(row, 'insufficient'))]
+  : [];
+const domains = [...new Set(rows.map((row) => row.domain).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh'));
+const rankedCount = impact?.ranking.length ?? 0;
+const thinCount = impact?.unscored?.length ?? 0;
+const stamp = dateStamp(impact?.generated_at);
+const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
 ---
 <Base title="学术影响力榜" description="按引用、代码、社区采用和饱和度等维度合成的 benchmark 影响力指数。" active="impact">
-  <div class="wrap doc-title">
-    <p class="eyebrow">Academic Impact</p>
+  <div class="wrap page-hero">
     <h1>学术影响力榜</h1>
-    <p class="lede">综合分把各维度压到 0–100 后再按权重相加。展开一行可以看到原始计数。不知道的维度留空，不补成 0。</p>
-    <p class="meta-line">
-      {impact?.generated_at ? `生成 ${impact.generated_at}` : ''}
-      {impact?.method_version ? ` · 方法 ${impact.method_version}` : ''}
-      {' · '}<a href={page('impact/method')}>方法说明</a>
+    <p class="lede">综合分把各维度压到 0–100 后再按权重相加。不知道的维度留空，不补成 0。</p>
+    {impact?.publication_warning_zh && <p class="disclaimer">{impact.publication_warning_zh}</p>}
+    <p class="meta-row">
+      {stamp && <span>{ui.snapshot} {stamp}</span>}
+      <a href={page('impact/method')}>方法说明</a>
     </p>
+    {impact && (
+      <div class="stat-row">
+        <a class="stat" href="#impact-board">
+          <span>{ui.statAll}</span>
+          <strong>{new Intl.NumberFormat('zh-Hans').format(rows.length)}</strong>
+        </a>
+        <a class="stat" href="#impact-board">
+          <span>{ui.statRanked}</span>
+          <strong>{new Intl.NumberFormat('zh-Hans').format(rankedCount)}</strong>
+        </a>
+        <a class="stat" href="#impact-board">
+          <span>{ui.statThin}</span>
+          <strong>{new Intl.NumberFormat('zh-Hans').format(thinCount)}</strong>
+        </a>
+      </div>
+    )}
   </div>
-  <div class="wrap">
+  <div class="wrap" id="impact-board">
     {impact ? (
       <>
-        <section class="section" aria-labelledby="impact-legend">
-          <header class="flag"><h2 id="impact-legend">维度和权重</h2></header>
-          <ul class="dimension-legend">
-            {impact.dimensions.map((dimension) => (
-              <li>
-                <strong>{dimension.name_zh}</strong>
-                <span>权重 {dimension.weight}</span>
-                {dimension.description_zh ? <p>{dimension.description_zh}</p> : null}
-              </li>
-            ))}
-          </ul>
-        </section>
-        <div class="controls">
-          <label class="sel" for="impact-domain">领域
-            <select id="impact-domain">
-              <option value="">全部领域</option>
-              {domains.map((domain) => <option value={domain}>{domain}</option>)}
-            </select>
-          </label>
-          <label class="sel" for="impact-sort">排序
-            <select id="impact-sort">
-              <option value="score">综合分</option>
-              {impact.dimensions.map((dimension) => <option value={dimension.key}>{dimension.name_zh}</option>)}
-            </select>
-          </label>
-        </div>
-        <p id="impact-count" class="result-count">{impact.ranking.length} 条</p>
-        <div class="table-wrap">
-          <table class="impact-table" id="impact-table">
+        <form id="impact-form" class="board-toolbar" role="search" action={page('impact')} method="get">
+          <div class="tabs" role="tablist">
+            <button type="button" role="tab" data-tier="ranked" aria-selected="true">{ui.impactTabRanked} <span class="num">{rankedCount}</span></button>
+            <button type="button" role="tab" data-tier="insufficient" aria-selected="false">{ui.impactTabThin} <span class="num">{thinCount}</span></button>
+          </div>
+          <label class="sr-only" for="impact-q">{ui.searchBenchmarks}</label>
+          <input id="impact-q" class="search" type="search" placeholder={ui.searchBenchmarks} autocomplete="off" enterkeyhint="search" />
+          <label class="sr-only" for="impact-domain">{ui.colDomain}</label>
+          <select id="impact-domain">
+            <option value="">{ui.allDomains}</option>
+            {domains.map((domain) => <option value={domain}>{domain}</option>)}
+          </select>
+          <p id="impact-count" class="result-count" data-showing={ui.showing} data-unit={ui.rows} aria-live="polite"></p>
+        </form>
+        <p id="impact-empty" class="empty" hidden>{ui.emptyFilter}</p>
+        <div class="board-scroll">
+          <table
+            class="board"
+            id="impact-table"
+            data-label-rank={ui.colRank}
+            data-label-name={ui.colName}
+            data-label-domain={ui.colDomain}
+            data-label-score={ui.colScore}
+            data-label-quality={ui.evQuality}
+            data-label-community={ui.evCommunity}
+            data-label-headroom={ui.evHeadroom}
+            data-label-github={ui.evGithub}
+            data-tip-quality={dimensions.get('quality') || ui.evQuality}
+            data-tip-community={dimensions.get('community') || ui.evCommunity}
+            data-tip-headroom={dimensions.get('headroom') || ui.evHeadroom}
+            data-tip-github={dimensions.get('github') || ui.evGithub}
+            data-null-tip={ui.nullTip}
+            data-unranked={ui.unranked}
+          >
+            <caption class="sr-only">学术影响力榜</caption>
             <thead>
               <tr>
-                <th>名次</th>
-                <th>基准</th>
-                <th>领域</th>
-                <th>综合分</th>
-                <th>维度</th>
-                <th>标记</th>
+                <th class="rank-col" scope="col">{ui.colRank}</th>
+                <th class="name-col" scope="col">{ui.colName}</th>
+                <th scope="col">{ui.colDomain}</th>
+                <th scope="col">{ui.colScore}</th>
+                <th scope="col">{ui.evQuality}</th>
+                <th scope="col">{ui.evCommunity}</th>
+                <th scope="col">{ui.evHeadroom}</th>
+                <th scope="col">{ui.evGithub}</th>
               </tr>
             </thead>
-            <tbody>
-              {impact.ranking.map((row) => (
-                <>
-                  <tr data-impact-row data-domain={row.domain ?? ''} data-score={row.score ?? ''} data-name={row.name} data-components={JSON.stringify(row.components ?? {})}>
-                    <td class="num">{row.rank}</td>
-                    <td>{known.has(row.id) ? <a href={page(`benchmarks/${row.id}`)}>{row.name}</a> : row.name}</td>
-                    <td>{row.domain || '—'}</td>
-                    <td class="num">{row.score ?? '—'}</td>
-                    <td>
-                      <div class="mini-bars">
-                        {impact.dimensions.map((dimension) => {
-                          const value = row.components?.[dimension.key];
-                          const width = typeof value === 'number' ? Math.max(0, Math.min(100, value)) : 0;
-                          return <span class="mini-bar" title={`${dimension.name_zh} ${value ?? '空'}`} style={`--w:${width}%`}></span>;
-                        })}
-                      </div>
-                    </td>
-                    <td>
-                      {(row.flags ?? []).map((flag) => <span class="badge badge-muted">{flag}</span>)}
-                    </td>
-                  </tr>
-                  <tr data-impact-extra data-domain={row.domain ?? ''}>
-                    <td colspan="6">
-                      <details>
-                        <summary>原始计数</summary>
-                        <dl class="kv">
-                          {Object.entries(row.raw ?? {}).map(([key, value]) => (
-                            <div><dt>{key}</dt><dd>{value ?? '—'}</dd></div>
-                          ))}
-                        </dl>
-                      </details>
-                    </td>
-                  </tr>
-                </>
-              ))}
-            </tbody>
+            <tbody id="impact-body"></tbody>
           </table>
         </div>
+        <div class="pager-bar">
+          <button type="button" class="pager-btn" id="impact-prev">{ui.prev}</button>
+          <span id="impact-page"></span>
+          <button type="button" class="pager-btn" id="impact-next">{ui.next}</button>
+        </div>
+        <noscript><p class="disclaimer">{ui.scriptNote}</p></noscript>
+        <script id="impact-data" type="application/json" set:html={payload}></script>
+        <script>
+          import { mountImpactBoard } from '../../scripts/impact-board.ts';
+          mountImpactBoard();
+        </script>
       </>
     ) : (
       <p class="pending-data">数据生成中。方法说明会放在 <a href={page('impact/method')}>/impact/method/</a>。</p>
     )}
   </div>
-  {impact && (
-    <script>
-      const domain = document.querySelector<HTMLSelectElement>('#impact-domain');
-      const sort = document.querySelector<HTMLSelectElement>('#impact-sort');
-      const table = document.querySelector('#impact-table tbody');
-      const count = document.querySelector('#impact-count');
-      function rows() {
-        if (!table) return [];
-        const all = [...table.querySelectorAll<HTMLTableRowElement>('tr[data-impact-row]')];
-        return all.map((row) => ({ row, extra: row.nextElementSibling as HTMLTableRowElement | null }));
-      }
-      function valueOf(row: HTMLTableRowElement, key: string) {
-        if (key === 'score') return Number(row.dataset.score || NaN);
-        let comps: Record<string, unknown> = {};
-        try { comps = JSON.parse(row.dataset.components || '{}'); } catch { comps = {}; }
-        const value = comps[key];
-        return typeof value === 'number' ? value : Number.NaN;
-      }
-      function apply() {
-        const selected = domain?.value || '';
-        const key = sort?.value || 'score';
-        const pairs = rows();
-        pairs.sort((a, b) => {
-          const av = valueOf(a.row, key);
-          const bv = valueOf(b.row, key);
-          if (Number.isNaN(av) && Number.isNaN(bv)) return 0;
-          if (Number.isNaN(av)) return 1;
-          if (Number.isNaN(bv)) return -1;
-          return bv - av;
-        });
-        let shown = 0;
-        for (const pair of pairs) {
-          const match = !selected || pair.row.dataset.domain === selected;
-          pair.row.hidden = !match;
-          if (pair.extra) pair.extra.hidden = !match;
-          if (match) shown += 1;
-          table?.append(pair.row);
-          if (pair.extra) table?.append(pair.extra);
-        }
-        if (count) count.textContent = `${shown} 条`;
-      }
-      domain?.addEventListener('change', apply);
-      sort?.addEventListener('change', apply);
-    </script>
-  )}
 </Base>

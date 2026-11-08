@@ -224,6 +224,12 @@ export function asset(path: string): string {
   return `${base}${path.replace(/^\/+/, '')}`;
 }
 
+export function dateStamp(value?: string | null): string {
+  if (!value) return '';
+  const match = /^(\d{4}-\d{2}-\d{2})/.exec(value.trim());
+  return match ? match[1] : value;
+}
+
 export const TONES: Record<string, string> = {
   物理: '#243e66',
   化学: '#1d5c4f',

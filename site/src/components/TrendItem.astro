@@ -9,12 +9,13 @@ interface Props {
 const { item, showWhat = true } = Astro.props;
 const confidence = item.heat_confidence === 'A' ? '多家机构共同采用' : '主要单一机构在用';
 const showEvidence = showWhat || !item.linked;
+const podium = item.rank <= 3 ? `podium podium-${item.rank}` : '';
 ---
-<article class="trend-card" id={`trend-${item.slug}`} style={`--tone:${tone(item.section)}`} data-trend data-section={item.section}>
+<article class:list={['trend-card', podium]} id={`trend-${item.slug}`} style={`--tone:${tone(item.section)}`} data-trend data-section={item.section}>
   <p class="trend-kicker">
     <span class="rank-no">{item.rank}</span>
     <span class:list={['badge', item.heat_confidence === 'A' ? 'badge-heat-a' : 'badge-heat-b']} title={confidence}>{item.heat_confidence}</span>
-    <span style={`color:${tone(item.section)}`}>{item.section}</span>
+    <span class="domain-tag">{item.section}</span>
   </p>
   <h3>
     {item.linked ? <a href={page(`benchmarks/${item.slug}`)}>{item.name}</a> : item.name}
@@ -25,10 +26,21 @@ const showEvidence = showWhat || !item.linked;
     <ul class="trend-evidence">
       {item.evidence.map((entry) => {
         const href = safeUrl(entry.url);
-        const label = [entry.organization, entry.date].filter(Boolean).join(' · ') || entry.url;
         return (
           <li>
-            {href ? <a href={href} target="_blank" rel="noopener noreferrer">{label}</a> : <span>{label}</span>}
+            {href ? (
+              <a class="inline-meta" href={href} target="_blank" rel="noopener noreferrer">
+                {entry.organization && <span>{entry.organization}</span>}
+                {entry.date && <span>{entry.date}</span>}
+                {!entry.organization && !entry.date && <span>{entry.url}</span>}
+              </a>
+            ) : (
+              <span class="inline-meta">
+                {entry.organization && <span>{entry.organization}</span>}
+                {entry.date && <span>{entry.date}</span>}
+                {!entry.organization && !entry.date && <span>{entry.url}</span>}
+              </span>
+            )}
             {showWhat && entry.what ? <p>{entry.what}</p> : null}
           </li>
         );
