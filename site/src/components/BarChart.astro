@@ -8,8 +8,9 @@ interface Item {
 }
 interface Props {
   items: Item[];
+  strong?: boolean;
 }
-const { items } = Astro.props;
+const { items, strong = false } = Astro.props;
 const locale = currentLocale();
 
 function chooseStep(span: number): number {
@@ -62,7 +63,7 @@ function label(value: number): string {
   return Number.isInteger(value) ? String(value) : value.toFixed(1);
 }
 ---
-<div class="chart-figure">
+<div class:list={['chart-figure', strong && 'bars-strong']}>
   <ol class="bar-chart">
     {items.map((item) => (
       <li>

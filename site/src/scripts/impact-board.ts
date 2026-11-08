@@ -112,12 +112,10 @@ export function mountImpactBoard(): void {
         <td class="name-cell" data-label="${esc(label.name)}">${name}</td>
         <td data-label="${esc(label.domain)}">${domainText}</td>
         <td class="score-cell" data-label="${esc(label.score)}"><div class="tip-host">${score}${tip}</div></td>
-        ${metric(row.quality, label.quality, row.qualityPrior === true, priorTip, nullTip)}
         ${metric(row.community, label.community, false, '', nullTip)}
-        ${metric(row.saturation, label.headroom, false, '', nullTip)}
         ${metric(row.github, label.github, false, '', nullTip)}
       </tr>
-      <tr class="detail" id="bd-${esc(row.id)}"><td colspan="8">${chart}</td></tr>
+      <tr class="detail" id="bd-${esc(row.id)}"><td colspan="6">${chart}</td></tr>
     </tbody>`;
   };
 

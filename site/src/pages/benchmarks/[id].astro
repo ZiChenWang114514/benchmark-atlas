@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Chapter from '../../components/Chapter.astro';
 import Timeline from '../../components/Timeline.astro';
 import { currentLocale, t } from '../../i18n';
-import { impactById, loadImpact } from '../../lib/boards';
+import { impactById, loadHeat, loadImpact } from '../../lib/boards';
 import { profileHtml, profileParts } from '../../lib/profile';
 import { CHAPTERS } from '../../lib/chapters';
 import { sectionLabel, sectionSlug } from '../../lib/sections';
@@ -14,9 +14,13 @@ import {
   isField,
   labelFor,
   orderedEntries,
+  displayName,
   page,
   publicText,
   safeUrl,
+  hasPublicValue,
+  isStatusWord,
+  notableNote,
   statusOf,
   textValue,
   type Field,
@@ -94,7 +98,53 @@ const profilePartsView = impactRow
       note: part.id === 'penalties' ? t(locale, 'impact.part.penalties_note') : '',
     }))
   : [];
-const profileMarkup = profileHtml(profilePartsView, profileTitle, t(locale, 'detail.profile_aria', { name: record.index.name }));
+const profileMarkup = profilePartsView.length >= 3
+  ? profileHtml(profilePartsView, profileTitle, t(locale, 'detail.profile_aria', { name: record.index.name }))
+  : '';
+const heatFile = loadHeat();
+const heatRow = heatFile?.ranking.find((row) => row.benchmark_id === record.index.id);
+const heatNames = new Map((heatFile?.models ?? []).map((model) => [model.id, model.name]));
+const domainPeers = (impactFile?.ranking ?? [])
+  .filter((row) => row.domain === impactRow?.domain && typeof row.score === 'number')
+  .sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+const peerShown = domainPeers.slice(0, 8);
+if (impactRow && typeof impactRow.score === 'number' && !peerShown.some((row) => row.id === impactRow.id)) {
+  peerShown.splice(7, 1, impactRow);
+}
+const peerMax = Math.max(1, ...peerShown.map((row) => row.score ?? 0));
+const percentile = impactRow && typeof impactRow.score === 'number' && domainPeers.length > 1
+  ? Math.round((domainPeers.filter((row) => (row.score ?? 0) < (impactRow.score ?? 0)).length / (domainPeers.length - 1)) * 100)
+  : null;
+function pendingOnly(field: Field): boolean {
+  return !hasPublicValue(field) && !notableNote(field);
+}
+function pendingStatus(field: Field): string {
+  return statusOf(field) || (isStatusWord(field.value) ? String(field.value) : t(locale, 'status.unverified'));
+}
+const chapterViews = CHAPTERS.map((chapter) => {
+  const entries = entriesFor(chapter.id, chapter.keys);
+  return {
+    chapter,
+    shown: entries.filter((entry) => !pendingOnly(entry.field)),
+    hidden: entries.filter((entry) => pendingOnly(entry.field)),
+  };
+});
+const extraViews = extras.map(([key, field]) => {
+  const entry = { label: labelFor(key), name: key, field };
+  return pendingOnly(field)
+    ? { key, shown: null, hidden: entry }
+    : { key, shown: entry, hidden: null };
+});
+const pendingGroups = [
+  ...chapterViews.filter((view) => view.hidden.length > 0).map((view) => ({
+    title: t(locale, `chapter.${view.chapter.id}.title`),
+    entries: view.hidden,
+  })),
+  ...extraViews.filter((view) => view.hidden).map((view) => ({
+    title: view.hidden?.label || '',
+    entries: view.hidden ? [view.hidden] : [],
+  })),
+];
 
 function dated(value: string | null | undefined): string {
   if (!value) return '';
@@ -161,9 +211,53 @@ const timeline = [
         <div class="actions">
           {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
         </div>
+        {(impactRow?.score != null || peerShown.length > 1 || heatFile) && (
+          <div class="lead-charts">
+            {impactRow?.score != null && (
+              <section class="viz-card" aria-label={t(locale, 'detail.score_label')}>
+                <h2>{t(locale, 'detail.score_label')}</h2>
+                <p class="gauge-num">{impactRow.score.toFixed(1)}</p>
+                {percentile != null && <p class="gauge-note">{t(locale, 'detail.percentile', { n: percentile, domain: sectionLabel(record.index.section, locale) })}</p>}
+                <svg class="gauge" viewBox="0 0 120 64" role="img" aria-label={t(locale, 'detail.score_label')}>
+                  <path d="M12 54 A 48 48 0 0 1 108 54" fill="none" stroke="#efe4cc" stroke-width="8" stroke-linecap="round" />
+                  <path d="M12 54 A 48 48 0 0 1 108 54" fill="none" stroke="#e8b423" stroke-width="8" stroke-linecap="round" pathLength="100" stroke-dasharray={`${Math.max(0, Math.min(100, impactRow.score))} 100`} />
+                </svg>
+              </section>
+            )}
+            {peerShown.length > 1 && (
+              <section class="viz-card" aria-label={t(locale, 'detail.peers', { domain: sectionLabel(record.index.section, locale) })}>
+                <h2>{t(locale, 'detail.peers', { domain: sectionLabel(record.index.section, locale) })}</h2>
+                <ol class="peer-bars">
+                  {peerShown.map((row) => (
+                    <li class:list={[row.id === record.index.id && 'is-self']}>
+                      <span>{displayName(row.name)}</span>
+                      <span class="track" aria-hidden="true"><span style={`width:${((row.score ?? 0) / peerMax) * 100}%`}></span></span>
+                      <b class="num">{(row.score ?? 0).toFixed(1)}</b>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+            {heatFile && (
+              <section class="viz-card" aria-label={t(locale, 'detail.heat_panel')}>
+                <h2>{t(locale, 'detail.heat_panel')}</h2>
+                {heatRow ? (
+                  <>
+                    <p class="gauge-num">{heatRow.count}</p>
+                    <p class="gauge-note">{t(locale, 'detail.heat_count', { n: heatRow.count, total: heatFile.models.length })}</p>
+                    <span class="track heat-share" aria-hidden="true"><span style={`width:${Math.round((heatRow.count / Math.max(heatFile.models.length, 1)) * 100)}%`}></span></span>
+                    <ul class="heat-names">
+                      {(heatRow.models ?? []).slice(0, 6).map((modelId) => <li>{heatNames.get(modelId) ?? modelId}</li>)}
+                    </ul>
+                  </>
+                ) : <p class="gauge-note">{t(locale, 'detail.heat_none')}</p>}
+              </section>
+            )}
+          </div>
+        )}
         {(profileMarkup || timeline.length > 0) && (
-          <div class="dossier-viz">
-            {profileMarkup && <div class="reveal" set:html={profileMarkup} />}
+          <div class:list={['dossier-viz', profileMarkup && timeline.length > 0 && 'two']}>
+            {profileMarkup && <div set:html={profileMarkup} />}
             {timeline.length > 0 && <Timeline title={t(locale, 'detail.timeline')} aria={t(locale, 'detail.timeline_aria', { name: record.index.name })} events={timeline} />}
           </div>
         )}
@@ -224,8 +318,8 @@ const timeline = [
         </div>
       )}
 
-      {CHAPTERS.map((chapter) => (
-        <Chapter id={chapter.id} title={t(locale, `chapter.${chapter.id}.title`)} intro={t(locale, `chapter.${chapter.id}.intro`)} entries={entriesFor(chapter.id, chapter.keys)}>
+      {chapterViews.map(({ chapter, shown }) => (
+        <Chapter id={chapter.id} title={t(locale, `chapter.${chapter.id}.title`)} intro={t(locale, `chapter.${chapter.id}.intro`)} entries={shown} hideEmpty>
           {chapter.id === 'latest_status' && news.length > 0 && (
             <div class="related">
               <h3>{t(locale, 'detail.related')}</h3>
@@ -251,9 +345,24 @@ const timeline = [
         </Chapter>
       ))}
 
-      {extras.map(([key, field]) => (
-        <Chapter id={`extra-${key}`} title={labelFor(key)} entries={[{ label: labelFor(key), name: key, field }]} />
+      {extraViews.filter((view) => view.shown).map((view) => (
+        <Chapter id={`extra-${view.key}`} title={view.shown?.label || ''} entries={view.shown ? [view.shown] : []} hideEmpty />
       ))}
+      {pendingGroups.length > 0 && (
+        <details class="pending-fold">
+          <summary>{t(locale, 'detail.not_public')}</summary>
+          {pendingGroups.map((group) => (
+            <div>
+              <h3>{group.title}</h3>
+              <ul>
+                {group.entries.map((entry) => (
+                  <li><span>{entry.label}</span> <span class:list={['badge', badgeClass(pendingStatus(entry.field))]}>{pendingStatus(entry.field)}</span></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </details>
+      )}
 
       <nav class="pager" aria-label={t(locale, 'detail.pager_aria')}>
         {previous ? (

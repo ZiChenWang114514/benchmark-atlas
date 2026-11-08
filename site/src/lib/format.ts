@@ -151,6 +151,16 @@ export function isStatusWord(value: unknown): value is string {
   return value === '待核实' || value === '未公开' || value === 'Unverified' || value === 'Not disclosed';
 }
 
+export function hasPublicValue(field: Field | undefined): boolean {
+  if (!field) return false;
+  if (statusOf(field)) return false;
+  const value = field.value;
+  if (isStatusWord(value) || value == null || value === '') return false;
+  if (Array.isArray(value)) return value.length > 0;
+  if (typeof value === 'object') return Object.keys(value as object).length > 0;
+  return true;
+}
+
 export function badgeClass(status: string): string {
   return status === '待核实' || status === 'Unverified' ? 'badge-pending' : 'badge-muted';
 }

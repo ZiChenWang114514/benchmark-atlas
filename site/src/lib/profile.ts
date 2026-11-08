@@ -117,15 +117,15 @@ function radar(parts: Drawn[], aria: string): string {
 }
 
 function bars(parts: Drawn[], aria: string): string {
-  const row = 28;
-  const height = Math.max(36, parts.length * row + 8);
+  const row = 22;
+  const height = 12 + parts.length * row;
   const body = parts.map((part, index) => {
-    const y = 8 + index * row;
-    const width = (clamp(part.value) / 100) * 148;
-    const fill = AMBER_RAMP[Math.min(AMBER_RAMP.length - 1, 4 + index)];
-    return `<text x="0" y="${y + 14}" fill="#3a342c" font-size="11">${esc(part.label)}</text><rect x="112" y="${y + 4}" width="148" height="10" rx="5" fill="#efe4cc" /><rect x="112" y="${y + 4}" width="${width.toFixed(1)}" height="10" rx="5" fill="${fill}" /><text x="268" y="${y + 14}" fill="#1b1916" font-size="11">${part.value.toFixed(1)}</text>`;
+    const y = 6 + index * row;
+    const width = (clamp(part.value) / 100) * 120;
+    const fill = AMBER_RAMP[Math.min(AMBER_RAMP.length - 1, 6 + index)];
+    return `<text x="0" y="${y + 12}" fill="#3a342c" font-size="11">${esc(part.label)}</text><rect x="108" y="${y + 4}" width="120" height="8" rx="4" fill="#efe4cc" /><rect x="108" y="${y + 4}" width="${width.toFixed(1)}" height="8" rx="4" fill="${fill}" /><text x="234" y="${y + 12}" fill="#1b1916" font-size="11">${part.value.toFixed(1)}</text>`;
   }).join('');
-  return `<svg class="chart-svg" viewBox="0 0 320 ${height}" role="img" aria-label="${esc(aria)}">${body}</svg>`;
+  return `<svg class="chart-svg chart-svg-compact" viewBox="0 0 280 ${height}" role="img" aria-label="${esc(aria)}">${body}</svg>`;
 }
 
 export function chartSvg(parts: Drawn[], aria: string): string {

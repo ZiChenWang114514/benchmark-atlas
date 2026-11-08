@@ -1063,13 +1063,108 @@ summary { min-height: 44px; display: flex; align-items: center; cursor: pointer;
   }
 }
 
-.masthead-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(12rem, 22rem);
-  gap: 1rem 1.5rem;
-  align-items: center;
+.stat-viz { width: 100%; height: 1.4rem; display: block; margin-top: 0.35rem; }
+.hero-chart, .scatter-block, .chart-band {
+  margin-top: 0.9rem;
+  padding: 0.85rem 1rem 0.4rem;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
 }
-.hero-sky { width: 100%; height: auto; display: block; }
+.hero-chart figcaption, .scatter-block figcaption, .chart-band h2 { margin: 0 0 0.45rem; }
+.bars-strong .bar-track { height: 14px; }
+.bars-strong .bar-name { font-size: 1rem; font-weight: 600; }
+.bars-strong li { min-height: 2.5rem; }
+.treemap { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.treemap a {
+  flex: 1 1 7.2rem;
+  min-height: 4.6rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.55rem 0.7rem;
+  border-radius: 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.treemap a:hover { text-decoration: none; filter: brightness(0.97); }
+.treemap b { font-family: var(--serif); font-size: 1.35rem; }
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+.news-feature, .news-tile {
+  min-width: 0;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--elev-sm);
+}
+.news-feature { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+.news-feature > div, .news-tile > div:last-child { padding: 0.9rem 1rem 1rem; }
+.news-tile h3, .news-feature h3 { margin: 0.15rem 0 0.35rem; }
+.news-cover { display: block; width: 100%; height: auto; }
+.scatter-scroll { max-width: 100%; overflow-x: auto; }
+.scatter { width: 100%; min-width: 36rem; height: auto; display: block; }
+.scatter a:focus-visible { outline: 2px solid var(--accent); }
+.lead-charts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.viz-card, .pending-fold {
+  min-width: 0;
+  background: var(--row);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.8rem 0.9rem 0.9rem;
+}
+.viz-card h2, .timeline-card h2, .profile figcaption {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+}
+.gauge-num {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  line-height: 1;
+}
+.gauge-note { margin: 0.25rem 0 0.4rem; color: var(--ink-soft); font-size: 0.88rem; }
+.gauge { width: min(100%, 9rem); height: auto; display: block; }
+.peer-bars { display: grid; gap: 0.28rem; }
+.peer-bars li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(3rem, 1fr) auto;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.82rem;
+}
+.peer-bars .track { height: 7px; }
+.peer-bars .track > span { background: #e0b04a; }
+.peer-bars .is-self .track > span { background: #7a4e08; }
+.peer-bars .is-self span:first-child { font-weight: 650; }
+.heat-share { margin: 0.35rem 0; }
+.heat-names { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.heat-names li {
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+  font-size: 0.78rem;
+}
+.dossier-viz.two { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
+.dossier-viz.two > * { height: 100%; }
+.profile-svg svg.chart-svg-compact { width: min(100%, 16rem); }
+.pending-fold { margin-top: 1rem; }
+.pending-fold summary { font-weight: 600; }
+.pending-fold h3 { margin: 0.8rem 0 0.25rem; font-size: 0.95rem; }
+.pending-fold li { display: flex; justify-content: space-between; gap: 0.6rem; padding: 0.28rem 0; border-top: 1px solid var(--line); }
+.score-wrap .track { height: 9px; min-width: 4.5rem; }
+.board td { padding-top: 0.42rem; padding-bottom: 0.42rem; }
+.score-summary { min-height: 36px; }
 .sky-grid { stroke: #e6dcc8; stroke-width: 1; }
 .sky-link { stroke: #e8b423; stroke-width: 1.2; opacity: 0.7; }
 .sky-dot { opacity: 0.9; }
@@ -1080,11 +1175,10 @@ summary { min-height: 44px; display: flex; align-items: center; cursor: pointer;
   transform: translateY(-2px);
   box-shadow: var(--elev);
 }
-html.motion .reveal { opacity: 0; }
-html.motion .reveal.inview { opacity: 1; transition: opacity 0.55s ease; }
-html.motion .grow { transform: scaleX(0); transform-origin: left center; }
-html.motion .reveal.inview .grow,
-html.motion .grow-root.inview .grow {
+html.motion .reveal.pending:not(.inview) { opacity: 0; }
+html.motion .reveal.pending.inview { opacity: 1; transition: opacity 0.55s ease; }
+html.motion .pending:not(.inview) .grow { transform: scaleX(0); transform-origin: left center; }
+html.motion .pending.inview .grow {
   transform: scaleX(1);
   transition: transform 0.75s cubic-bezier(.16, .84, .32, 1);
 }
@@ -1376,9 +1470,11 @@ details[open] > .score-summary .score-wrap::after { transform: rotate(225deg) tr
   .board tbody.entry.podium-3 { box-shadow: inset 3px 0 0 var(--bronze-edge), var(--elev-sm); }
   .tip { position: static; width: auto; max-width: 100%; margin-top: 0.35rem; }
 }
+@media (max-width: 800px) {
+  .news-grid, .news-feature, .lead-charts, .dossier-viz.two { grid-template-columns: minmax(0, 1fr); }
+  .news-feature { display: block; }
+}
 @media (max-width: 720px) {
-  .masthead-grid, .domain-layout { grid-template-columns: minmax(0, 1fr); }
-  .hero-sky { max-width: 22rem; margin: 0 auto; }
   .timeline li { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -1396,6 +1492,6 @@ details[open] > .score-summary .score-wrap::after { transform: rotate(225deg) tr
   .card, .trend-card, .stat, .section-index a, .news-lead, .rail, .domain-chart, .profile, .timeline-card { transition: none; }
   .card:hover, .trend-card:hover, .stat:hover, .section-index a:hover, .news-lead:hover, .rail:hover, .domain-chart:hover { transform: none; }
   .hero-sky .sky-dot, .hero-sky .sky-link { animation: none; opacity: 0.9; }
-  html.motion .reveal, html.motion .reveal.inview { opacity: 1; transition: none; }
-  html.motion .grow, html.motion .reveal.inview .grow, html.motion .grow-root.inview .grow { transform: none; transition: none; }
+  html.motion .reveal, html.motion .reveal.pending, html.motion .reveal.inview { opacity: 1; transition: none; }
+  html.motion .grow, html.motion .pending .grow, html.motion .pending.inview .grow { transform: none; transition: none; }
 }

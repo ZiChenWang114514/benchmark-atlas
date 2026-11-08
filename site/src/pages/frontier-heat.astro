@@ -48,7 +48,7 @@ const movers = (() => {
     .slice(0, 5);
 })();
 
-const heatChart = (heat?.ranking ?? []).slice(0, 10).map((row) => ({
+const heatChart = (heat?.ranking ?? []).slice(0, 12).map((row) => ({
   rank: row.rank,
   name: displayName(row.name),
   value: row.count,
@@ -79,7 +79,7 @@ const matrixRows = (heat?.ranking ?? []).filter((row) => row.count >= matrixMin)
           {stamp && <span>{ui.snapshot} {stamp}</span>}
           <span>{t(locale, 'home.models', { n: heat.models.length })}</span>
         </p>
-        <div class="stat-row reveal">
+        <div class="stat-row">
           <div class="stat">
             <span>{ui.statModels}</span>
             <strong data-count={heat.models.length} data-count-label={String(heat.models.length)}>{heat.models.length}</strong>
@@ -95,14 +95,8 @@ const matrixRows = (heat?.ranking ?? []).filter((row) => row.count >= matrixMin)
   <div class="wrap">
     {heat ? (
       <>
-        {heatChart.length > 0 && (
-          <section class="chart-block reveal" aria-labelledby="heat-top">
-            <h2 id="heat-top">{ui.topChart}</h2>
-            <BarChart items={heatChart} />
-          </section>
-        )}
         {matrixRows.length > 0 && (
-          <section class="section reveal" aria-labelledby="heat-matrix-title">
+          <section class="section" aria-labelledby="heat-matrix-title">
             <header class="flag">
               <h2 id="heat-matrix-title">{t(locale, 'heat.matrix')}</h2>
               <p>{t(locale, 'heat.matrix_note', { n: matrixMin })}</p>
@@ -145,6 +139,12 @@ const matrixRows = (heat?.ranking ?? []).filter((row) => row.count >= matrixMin)
               </table>
             </div>
             <div id="heat-tip" class="heat-tip" role="tooltip" hidden></div>
+          </section>
+        )}
+        {heatChart.length > 0 && (
+          <section class="chart-block" aria-labelledby="heat-top">
+            <h2 id="heat-top">{ui.topChart}</h2>
+            <BarChart items={heatChart} strong />
           </section>
         )}
         <section class="section" aria-labelledby="heat-models">

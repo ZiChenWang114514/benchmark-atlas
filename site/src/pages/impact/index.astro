@@ -5,10 +5,11 @@ import { translateContent } from '../../i18n/content';
 import { visualCopy } from '../../i18n/visual';
 import { sectionLabel } from '../../lib/sections';
 import { loadImpact, type ImpactRow } from '../../lib/boards';
-import { loadIndex } from '../../lib/data';
-import { dateStamp, displayName, page } from '../../lib/format';
-import { isQualityPrior, profileHtml, profileParts, scoreTier } from '../../lib/profile';
+import { loadIndex, loadRecords } from '../../lib/data';
+import { dateStamp, displayName, page, textValue } from '../../lib/format';
+import { AMBER_RAMP, isQualityPrior, profileHtml, profileParts, scoreTier } from '../../lib/profile';
 import BarChart from '../../components/BarChart.astro';
+import ScatterChart from '../../components/ScatterChart.astro';
 
 const locale = currentLocale();
 const ui = visualCopy(locale);
@@ -75,14 +76,33 @@ const topChart = (impact?.ranking ?? [])
     value: row.score,
     href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
   }));
+const yearById = new Map<string, number>();
+for (const record of loadRecords()) {
+  const match = /^(\d{4})/.exec(textValue(record.file.basic_info.release_date));
+  if (match) yearById.set(record.index.id, Number(match[1]));
+}
+const domainOrder = [...new Set((impact?.ranking ?? []).map((row) => row.domain || ''))];
+const scatterPoints = (impact?.ranking ?? []).flatMap((row) => {
+  const fromRow = /^(\d{4})/.exec(row.release_date || '');
+  const year = yearById.get(row.id) || (fromRow ? Number(fromRow[1]) : 0);
+  if (!year || typeof row.score !== 'number') return [];
+  const citations = typeof row.raw?.citations === 'number' ? row.raw.citations : 0;
+  const colorIndex = Math.max(0, domainOrder.indexOf(row.domain || ''));
+  return [{
+    name: displayName(row.name),
+    href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
+    year,
+    score: row.score,
+    citations,
+    color: AMBER_RAMP[colorIndex % AMBER_RAMP.length],
+  }];
+});
 const sortFields = [
   ['rank', ui.colRank],
   ['name', ui.colName],
   ['domain', ui.colDomain],
   ['score', ui.colScore],
-  ['quality', ui.evQuality],
   ['community', ui.evCommunity],
-  ['headroom', ui.evHeadroom],
   ['github', ui.evGithub],
 ] as const;
 const sortOptions = sortFields.flatMap(([key, text]) => (['asc', 'desc'] as const).map((dir) => ({
@@ -105,7 +125,7 @@ function widthOf(value: number): number {
       <a href={page('impact/method')}>{t(locale, 'impact.method_link')}</a>
     </p>
     {impact && (
-      <div class="stat-row reveal">
+      <div class="stat-row">
         <a class="stat" href="#impact-board">
           <span>{ui.statAll}</span>
           <strong data-count={ranked.length + thin.length} data-count-label={nf.format(ranked.length + thin.length)}>{nf.format(ranked.length + thin.length)}</strong>
@@ -124,10 +144,24 @@ function widthOf(value: number): number {
   <div class="wrap" id="impact-board">
     {impact ? (
       <>
+        {scatterPoints.length > 0 && (
+          <section class="chart-block" aria-labelledby="impact-scatter">
+            <h2 id="impact-scatter">{t(locale, 'impact.scatter')}</h2>
+            <p class="index-note">{t(locale, 'impact.scatter_note')}</p>
+            <ScatterChart
+              points={scatterPoints}
+              title=""
+              aria={t(locale, 'impact.scatter_aria')}
+              yearLabel={t(locale, 'impact.axis_year')}
+              scoreLabel={t(locale, 'impact.axis_score')}
+              tip={t(locale, 'impact.bubble')}
+            />
+          </section>
+        )}
         {topChart.length > 0 && (
-          <section class="chart-block reveal" aria-labelledby="impact-top">
+          <section class="chart-block" aria-labelledby="impact-top">
             <h2 id="impact-top">{ui.topChart}</h2>
-            <BarChart items={topChart} />
+            <BarChart items={topChart} strong />
           </section>
         )}
         <form id="impact-form" class="board-toolbar" role="search" action={page('impact')} method="get">
@@ -184,9 +218,7 @@ function widthOf(value: number): number {
                 <th class="name-col" scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="name">{ui.colName}</button></th>
                 <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="domain">{ui.colDomain}</button></th>
                 <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="score">{ui.colScore}</button></th>
-                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="quality">{ui.evQuality}</button></th>
                 <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="community">{ui.evCommunity}</button></th>
-                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="headroom">{ui.evHeadroom}</button></th>
                 <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="github">{ui.evGithub}</button></th>
               </tr>
             </thead>
@@ -225,14 +257,12 @@ function widthOf(value: number): number {
                       </div>
                     )}
                   </td>
-                  <td data-label={ui.evQuality}>{row.qualityPrior ? <span class="na prior" title={ui.priorTip}>—</span> : row.quality == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.quality.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.quality), 'grow']} style={`width:${widthOf(row.quality)}%`}></span></span></span>}</td>
                   <td data-label={ui.evCommunity}>{row.community == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.community.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.community), 'grow']} style={`width:${widthOf(row.community)}%`}></span></span></span>}</td>
-                  <td data-label={ui.evHeadroom}>{row.saturation == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.saturation.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.saturation), 'grow']} style={`width:${widthOf(row.saturation)}%`}></span></span></span>}</td>
                   <td data-label={ui.evGithub}>{row.github == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.github.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.github), 'grow']} style={`width:${widthOf(row.github)}%`}></span></span></span>}</td>
                 </tr>
                 {row.parts.length > 0 && row.score != null && (
                   <tr class="detail" id={`bd-${row.id}`}>
-                    <td colspan="8"><div set:html={row.chart} /></td>
+                    <td colspan="6"><div set:html={row.chart} /></td>
                   </tr>
                 )}
               </tbody>
