@@ -180,11 +180,11 @@ Epoch Chess Puzzles以100个程序新生成局面检验最佳下一着推理，�
 
 ## 最新情况
 
-**本次核验**：2026-11-07（Asia/Seoul，KST）
+**本次核验**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
-**当前版本证据**：version：2.1.0已见官方运行CSV和2026-11-05镜像README；CHANGELOG标题仍标unreleased，保留文档状态冲突。；evidence_2026_h2：url：https://epoch.ai/data/benchmarks.csv；date：2026-11-06；date_type：source_calendar_date；note：最新CSV中Kimi K3.1 Pro(Together,max)实跑2.1.0，45%；开始时间2026-11-06 09:59:23（Asia/Seoul，KST）；不是引用次数。
+**当前版本证据**：version：2.1.0已见官方运行CSV和2026-11-05镜像README；CHANGELOG标题仍标unreleased，保留文档状态冲突。；evidence_2026_h2：url：https://epoch.ai/data/benchmarks.csv；date：2026-11-06；date_type：source_calendar_date；note：最新CSV中Kimi K3.1 Pro(Together,max)实跑2.1.0，45%；开始时间2026-11-06 09:59:23；不是引用次数。
 
 来源：[1](https://raw.githubusercontent.com/epoch-research/chess-puzzles-mirror/main/README.md)（访问2026-11-07）；[2](https://raw.githubusercontent.com/epoch-research/chess-puzzles-mirror/main/bench/task/chess_puzzles/CHANGELOG.md)（访问2026-11-07）；[3](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
@@ -208,7 +208,7 @@ Epoch Chess Puzzles以100个程序新生成局面检验最佳下一着推理，�
 
 ## 榜单快照
 
-**快照日**：2026-11-07（Asia/Seoul，KST）
+**快照日**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
@@ -252,7 +252,7 @@ Epoch Chess Puzzles以100个程序新生成局面检验最佳下一着推理，�
 
 来源：[https://epoch.ai/data/benchmarks.csv](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）；其他运行ID、时间、误差及配置见配套JSON。
 
-**覆盖范围**：Success运行按Chess Puzzles和任务版本独立排序，各列前三配置；不混入Decision、不合并2.0.0/2.0.1/2.1.0。2.1.0当前仅见一条成功运行；采集日期不是实验日期，运行时间转KST。
+**覆盖范围**：Success运行按Chess Puzzles和任务版本独立排序，各列前三配置；不混入Decision、不合并2.0.0/2.0.1/2.1.0。2.1.0当前仅见一条成功运行；采集日期不是实验日期，运行时间转。
 
 来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）；[2](https://raw.githubusercontent.com/epoch-research/chess-puzzles-mirror/main/bench/task/chess_puzzles/CHANGELOG.md)（访问2026-11-07）
 
@@ -300,7 +300,7 @@ Epoch Chess Puzzles以100个程序新生成局面检验最佳下一着推理，�
 
 核验说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-**Drive目录**：待核实
+**目录**：待核实
 
 来源：[1](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
@@ -310,11 +310,11 @@ Epoch Chess Puzzles以100个程序新生成局面检验最佳下一着推理，�
 
 来源：[1](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
-**Drive PDF**：待核实
+** PDF**：待核实
 
 来源：[1](https://epoch.ai/benchmarks/chess-puzzles)（访问2026-11-07）
 
 ## 变更记录
 
-- date：2026-11-07；timezone：Asia/Shanghai (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone： (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

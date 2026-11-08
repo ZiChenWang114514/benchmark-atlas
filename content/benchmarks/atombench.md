@@ -1,8 +1,8 @@
 # AtomBench
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -32,7 +32,7 @@ v2；最近论文日期 2026-07-07
 
 ### 发布日期
 
-2025-10-18 03:07:37（Asia/Shanghai，UTC+8；arXiv v1首次提交；非推定软件上架日）
+2025-10-18 03:07:37（，UTC+8；arXiv v1首次提交；非推定软件上架日）
 
 来源：[1]
 
@@ -245,7 +245,7 @@ https://github.com/atomgptlab/atombench
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -259,7 +259,7 @@ https://github.com/atomgptlab/atombench
 
 ### 版本脉络
 
-v1：2025-10-18T03:07:37+08:00；v2：2026-07-07T23:17:42+08:00；change_boundary：v2标题/协议强调generative crystal reconstruction；ccRMSD不等于旧网页单晶格参数RMSE。
+v1：2025-10-18；v2：2026-07-07；change_boundary：v2标题/协议强调generative crystal reconstruction；ccRMSD不等于旧网页单晶格参数RMSE。
 
 来源：[1][5]
 
@@ -281,7 +281,7 @@ v1：2025-10-18T03:07:37+08:00；v2：2026-07-07T23:17:42+08:00；change_boundar
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -289,7 +289,7 @@ v1：2025-10-18T03:07:37+08:00；v2：2026-07-07T23:17:42+08:00；change_boundar
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -305,7 +305,7 @@ https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -413,7 +413,7 @@ https://github.com/atomgptlab/atombench/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -423,7 +423,7 @@ https://github.com/atomgptlab/atombench/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -441,7 +441,7 @@ cf0464f374b215992e91190f1bc398d1dbb01af8199cb2fcb7b4fdb0ae39dcf6
 
 来源：[5]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -449,9 +449,9 @@ cf0464f374b215992e91190f1bc398d1dbb01af8199cb2fcb7b4fdb0ae39dcf6
 
 来源：[5]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1AGppe7PfAY02bOHYn6m1h1RjoUZ2h3ON；webViewLink：https://drive.google.com/drive/folders/1AGppe7PfAY02bOHYn6m1h1RjoUZ2h3ON
+id：1AGppe7PfAY02bOHYn6m1h1RjoUZ2h3ON；webViewLink：
 
 来源：[1]
 
@@ -461,19 +461,19 @@ id：1AGppe7PfAY02bOHYn6m1h1RjoUZ2h3ON；webViewLink：https://drive.google.com/
 
 来源：[8]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0；webViewLink：https://drive.google.com/file/d/11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0/view
+id：11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0；webViewLink：
 
 来源：[1]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- 2026-11-07（Asia/Seoul）：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- 2026-11-07：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

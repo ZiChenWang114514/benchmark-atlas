@@ -1,7 +1,7 @@
 {
   "id": "scienceide-hard",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ScienceIDE-Hard",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "v1；最近提交 2026-09-17T02:55:47+09:00 KST",
+      "value": "v1；最近提交 2026-09-17",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-09-17T02:55:47+09:00（KST；首个arXiv提交，不推定数据上线日）",
+      "value": "2026-09-17（；首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
@@ -147,7 +147,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
       "value": {
@@ -251,7 +251,7 @@
           "Yingcheng Wu",
           "Ling Yang"
         ],
-        "conflict": "本轮arXiv摘要元数据45人，PDF首页51人；完整并列保留，不能只把摘要名单称为完整PDF作者名单。"
+        "conflict": "arXiv摘要元数据45人，PDF首页51人；完整并列保留，不能只把摘要名单称为完整PDF作者名单。"
       },
       "sources": [
         {
@@ -459,7 +459,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
@@ -543,8 +543,7 @@
         "arxiv_submission_history_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2026-09-17T02:55:47+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2026-09-17"
           }
         ]
       },
@@ -582,12 +581,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
+      "value": "2026-11-08 （访问日，不是实验运行日）",
       "sources": [
         {
           "url": "https://aitonomy.org/projects/scienceide",
@@ -613,7 +612,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -625,7 +624,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 1,
           "repeat_note": "单次尝试估计"
@@ -638,7 +637,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 2,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -651,7 +650,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 3,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -664,7 +663,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 4,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -677,7 +676,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 5,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -690,7 +689,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 6,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -703,7 +702,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 7,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -716,7 +715,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 8,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -729,7 +728,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 9,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -742,7 +741,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 10,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -755,7 +754,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 11,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -768,7 +767,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 12,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -781,7 +780,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 13,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -794,7 +793,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 14,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -807,7 +806,7 @@
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 15,
           "repeat_note": "按论文within-task repeat-bootstrap协议"
@@ -865,7 +864,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -876,7 +875,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -897,7 +896,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。"
+      "note": "实际下载原始PDF字节计算；不据此更改既有文件。"
     },
     "pdf_bytes": {
       "value": 1276454,
@@ -909,10 +908,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1M4oZUj7501UWir_irDTwM567TEAuDbnD",
-        "webViewLink": "https://drive.google.com/drive/folders/1M4oZUj7501UWir_irDTwM567TEAuDbnD"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
@@ -937,10 +933,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "10Ctq-Va8GHSTojWWiXGYcZGSYJpVTiGN",
-      "webViewLink": "https://drive.google.com/file/d/10Ctq-Va8GHSTojWWiXGYcZGSYJpVTiGN/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2609.19134",
@@ -952,18 +945,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：Hard85明确18环境、52修复/33实现；修复非结构化榜单为Figure7全部15行；补官方hard85发布地址和封面Sponsors。；arXiv提交时间统一换算KST，避免源站UTC日期与本地日期跨日混淆。；发现作者名单冲突：arXiv摘要45人、实际PDF首页51人，双源并列而不静默覆盖。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "itbench",
   "schema_version": "0.1.0",
-  "editorial_status": "官方存在性已核验；字段级研究快照；note: trending: B",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ITBench / ITBench-AA",
@@ -52,7 +52,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-02-08T06:46:52+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2025-02-08（arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2502.05352",
@@ -213,7 +213,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     }
   },
   "design_goals": {
@@ -367,7 +367,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "difficulty": {
       "value": "原始按故障传播链、操作步骤与技术多样性设Easy/Medium/Hard，不用通用代码题难度代替。",
@@ -489,7 +489,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2502.05352",
@@ -520,14 +520,13 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。"
+      "note": "热度B：近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。"
     },
     "paper_revision_history": {
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2025-02-08T06:46:52+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2025-02-08"
         }
       ],
       "sources": [
@@ -536,7 +535,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+      "note": "arXiv原始UTC时间已转换为；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "AA当前最高56.2%；原仓库SRE单次轨GPT-4o修复25.00%，多次轨24.79%。均非任务普遍解决的证据；各自协议内解读，不混排。",
@@ -576,7 +575,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
+      "value": "2026-11-08 （采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
@@ -616,7 +615,7 @@
           "track": "AA独立59场景，静态根因分析",
           "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
           "source_date": "待核实（页面快照）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -626,7 +625,7 @@
           "track": "AA独立59场景，静态根因分析",
           "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
           "source_date": "待核实（页面快照）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -636,7 +635,7 @@
           "track": "AA独立59场景，静态根因分析",
           "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
           "source_date": "待核实（页面快照）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -646,7 +645,7 @@
           "track": "原始SRE Single Trial / 16 incidents",
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
           "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -656,7 +655,7 @@
           "track": "原始SRE Single Trial / 16 incidents",
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
           "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -666,7 +665,7 @@
           "track": "原始SRE Single Trial / 16 incidents",
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
           "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -675,7 +674,7 @@
           "metric": "% Resolved",
           "track": "原始SRE Multiple Trials / 162 incidents",
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": null,
@@ -686,7 +685,7 @@
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md",
           "scenario_category": "Gen-CIS-b-RHEL9-Ansible-OPA",
           "passed": 3,
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": null,
@@ -697,7 +696,7 @@
           "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md",
           "scenario_category": "Gen-CIS-b-K8s-Kyverno",
           "passed": 2,
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         }
       ],
       "sources": [
@@ -717,7 +716,7 @@
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "原项目SRE操作环境单次与多次轨、AA静态根因轨分开。README现已有SRE/CISO榜，修正此前只链接AA为官方榜的做法；原榜更新时间标签不明时区/日月格式，不把它当本轮运行日。",
+      "value": "原项目SRE操作环境单次与多次轨、AA静态根因轨分开。README现已有SRE/CISO榜，修正此前只链接AA为官方榜的做法；原榜更新时间标签不明时区/日月格式，不把它当运行日。",
       "sources": [
         {
           "url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
@@ -776,7 +775,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     }
   },
   "original_files": {
@@ -797,7 +796,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 4068098,
@@ -807,7 +806,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -818,7 +817,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
+      "note": "已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。"
     },
     "other_documents": {
       "value": [
@@ -836,15 +835,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1jGpwUXziOEbqtZ9x3W5C3qigHqhe0iAJ",
-      "webViewLink": "https://drive.google.com/file/d/1jGpwUXziOEbqtZ9x3W5C3qigHqhe0iAJ/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1jGpwUXziOEbqtZ9x3W5C3qigHqhe0iAJ/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2502.05352",
         "accessed": "2026-11-08"
@@ -855,13 +847,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+        "change": "最近复核"
       }
     ],
     "sources": [

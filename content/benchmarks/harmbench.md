@@ -1,6 +1,6 @@
 # HarmBench
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HarmBench统一有害行为分类、目标模型回答和成功判定，服务于红队/稳健拒答研究。ASR属于攻击方法、目标模型、行为范围、裁判和预算组成的完整设置，不存在脱离设置的单一安全分数；本页不转载具体有害请求或攻击串。
 
@@ -28,13 +28,13 @@ HarmBench 1.0（README 2024-02-26公告）；不能据论文修订号推定新�
 
 ### 论文版本
 
-v2；2024-02-27T13:43:08+09:00（KST；论文修订号，不是数据版本）
+v2；2024-02-27（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2024-02-07T03:59:08+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
+2024-02-07（；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -261,7 +261,7 @@ Attack Success Rate (ASR)，依攻击方法、行为子集、目标模型与预�
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -273,7 +273,7 @@ version：README最近明确标示HarmBench 1.0，2024-02-26；evidence_2026_h2�
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-02-07T03:59:08+09:00；timezone：Asia/Seoul (KST)；- version：v2；submitted_at：2024-02-27T13:43:08+09:00；timezone：Asia/Seoul (KST)
+arxiv_submissions：- version：v1；submitted_at：2024-02-07；timezone：；- version：v2；submitted_at：2024-02-27；timezone：
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -304,7 +304,7 @@ arxiv_submissions：- version：v1；submitted_at：2024-02-07T03:59:08+09:00；
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -328,17 +328,17 @@ https://arxiv.org/abs/2402.04249
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Llama 2 7B Chat | 9.4 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | GPT-4 0613 | 39.4 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | GPT-4 Turbo 1106 | 33.8 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Claude 2 | 4.1 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Claude 2.1 | 2.2 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07 KST；原始实验日期未单列 |
+| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Llama 2 7B Chat | 9.4 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07；原始实验日期未单列 |
+| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | GPT-4 0613 | 39.4 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07；原始实验日期未单列 |
+| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | GPT-4 Turbo 1106 | 33.8 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07；原始实验日期未单列 |
+| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Claude 2 | 4.1 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07；原始实验日期未单列 |
+| 原论文v2表7：test，standard/contextual/copyright，PAIR攻击 | — | Claude 2.1 | 2.2 | ASR %（越低表示该攻击下越稳健） | [原始来源](https://arxiv.org/pdf/2402.04249)；采集2026-11-07；原始实验日期未单列 |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
 ### 覆盖边界
 
-本轮精确转录同一PAIR攻击、同一test功能类别范围的历史切片；没有给不同攻击预算/模态混合的当前安全总排名。rank=null，不把所列五个模型宣称完整榜单前五。
+精确转录同一PAIR攻击、同一test功能类别范围的历史切片；没有给不同攻击预算/模态混合的当前安全总排名。rank=null，不把所列五个模型宣称完整榜单前五。
 
 来源：[1](https://arxiv.org/pdf/2402.04249)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/centerforaisafety/HarmBench/HEAD/README.md)（访问 2026-11-07）
 
@@ -386,7 +386,7 @@ https://arxiv.org/pdf/2402.04249
 
 e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2402.04249)（访问 2026-11-07）
 
@@ -396,32 +396,32 @@ e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732
 
 来源：[1](https://arxiv.org/pdf/2402.04249)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
-id：1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ；webViewLink：https://drive.google.com/drive/folders/1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ
+id：1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ；webViewLink：https://docs.google.com/document/d/10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ/edit?usp=drivesdk
+- kind：中文介绍 Google Doc；id：10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ；webViewLink：
 
-来源：[1](https://docs.google.com/document/d/10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ/edit?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
-### Drive PDF
+### PDF
 
-id：1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT；webViewLink：https://drive.google.com/file/d/1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT/view?usp=drivesdk
+id：1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT/view?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- date：2026-11-07；timezone：；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

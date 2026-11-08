@@ -1,6 +1,6 @@
 # SRE Bench（SRE-Bench）
 
-> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
 SRE-Bench评测从未知二进制恢复程序语义的能力，不是站点可靠性工程。19个私有程序被构建为262个二进制实例，每实例6个可确定验证任务。最关键的阅读门槛是分母：论文只对gradable runs计算条件成绩，Vals把全部262实例纳入；内部关闭护栏的多尝试成绩又是第三套条件。
 
@@ -52,7 +52,7 @@ v2（论文版本；不等于数据集版本）
 
 ```json
 [
-  "二进制逆向工程",
+  "二进制逆向工程"
   "网络安全"
 ]
 ```
@@ -199,7 +199,7 @@ shell 环境中的 agent 逆向任务，确定性验证
 
 ```json
 [
-  "二进制文件",
+  "二进制文件"
   "文本/命令行"
 ]
 ```
@@ -262,7 +262,7 @@ Fully Solved：每实例6项全对才算解决；Capability Score：每实例完
 
 ### 复核日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2608.11469)（访问 2026-11-08）
 
@@ -270,35 +270,35 @@ Fully Solved：每实例6项全对才算解决；Capability Score：每实例完
 
 ```json
 {
-  "version": "待核实",
+  "version": "待核实"
   "evidence_2026_h2": [
     {
-      "url": "https://www.vals.ai/benchmarks/srebench",
-      "date": "2026-11-05",
-      "organization": "Vals AI",
+      "url": "https://www.vals.ai/benchmarks/srebench"
+      "date": "2026-11-05"
+      "organization": "Vals AI"
       "note": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、37模型二进制逆向理解测试；不能误译为站点可靠性工程基准。"
-    },
+    }
     {
-      "url": "https://www.vals.ai/benchmarks",
-      "date": "2026-11-05",
-      "organization": "Vals AI",
+      "url": "https://www.vals.ai/benchmarks"
+      "date": "2026-11-05"
+      "organization": "Vals AI"
       "note": "目录卡片：Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details"
-    },
+    }
     {
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "date": "2026-11-07",
-      "organization": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/"
+      "date": "2026-11-07"
+      "organization": "OpenAI"
       "note": "GPT-6 Astra正式发布评测表明确报告SRE Bench，作为近期厂商采用证据。"
     }
-  ],
+  ]
   "trending": {
-    "heat_confidence": "A",
+    "heat_confidence": "A"
     "summary": "8月发布的二进制逆向评测已进入 GPT-6 Astra 正式发布表，Vals 11月仍更新37模型榜。"
   }
 }
 ```
 
-> 近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+> 近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 [来源1](https://www.vals.ai/benchmarks/srebench)（访问 2026-11-07）；[来源2](https://www.vals.ai/benchmarks)（访问 2026-11-07）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-07）
 
@@ -307,14 +307,14 @@ Fully Solved：每实例6项全对才算解决；Capability Score：每实例完
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-08-12T07:14:57+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2026-08-12"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2026-10-01T10:37:46+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v2"
+    "submitted_at": "2026-10-01"
+    "timezone": ""
   }
 ]
 ```
@@ -343,7 +343,7 @@ SRE表示二进制逆向评测，不是Site Reliability Engineering。与Program
 
 ### 快照日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2608.11469)（访问 2026-11-08）；[来源2](https://www.vals.ai/benchmarks/srebench)（访问 2026-11-08）
 
@@ -450,7 +450,7 @@ Vals全部37模型Accuracy按262实例分母单独成轨；论文Table 4的8模�
 
 ```json
 [
-  "js6721@columbia.edu",
+  "js6721@columbia.edu"
   "41zz@cs.columbia.edu"
 ]
 ```
@@ -489,15 +489,15 @@ https://arxiv.org/pdf/2608.11469
 
 [来源1](https://arxiv.org/pdf/2608.11469)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 04416ad347e07e0cb2d4eda5e80fba82bcb3e296ed9ef16b38edbc1a4e5d2905
 
-> 本次实际下载的PDF字节计算；未上传Drive。
+> 本次实际下载的PDF字节计算；未上传。
 
 [来源1](https://arxiv.org/pdf/2608.11469)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 692156
@@ -505,7 +505,7 @@ https://arxiv.org/pdf/2608.11469
 
 [来源1](https://arxiv.org/pdf/2608.11469)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -518,13 +518,13 @@ https://arxiv.org/pdf/2608.11469
 ```json
 [
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://arxiv.org/abs/2608.11469",
+    "type": "已打开一手材料"
+    "url": "https://arxiv.org/abs/2608.11469"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://www.vals.ai/benchmarks/srebench",
+    "type": "已打开一手材料"
+    "url": "https://www.vals.ai/benchmarks/srebench"
     "accessed": "2026-11-08"
   }
 ]
@@ -532,7 +532,7 @@ https://arxiv.org/pdf/2608.11469
 
 [来源1](https://arxiv.org/abs/2608.11469)（访问 2026-11-08）；[来源2](https://www.vals.ai/benchmarks/srebench)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
@@ -543,14 +543,14 @@ https://arxiv.org/pdf/2608.11469
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

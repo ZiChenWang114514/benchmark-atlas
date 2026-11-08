@@ -1,6 +1,6 @@
 # HealthBench
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 原版HealthBench用医生撰写的rubric评价5,000段医疗对话的最后一条回复；Hard与Consensus是其切片。它不等于525例HealthBench Professional，后者的长度调整榜不能当作原版更新成绩，也不能将rubric得分当作临床正确率。
 
@@ -28,13 +28,13 @@ HealthBench
 
 ### 论文版本
 
-v1；2025-05-14T02:53:59+09:00（KST；论文修订号，不是数据版本）
+v1；2025-05-14（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2025-05-14T02:53:59+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
+2025-05-14（；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -54,7 +54,7 @@ v1；2025-05-14T02:53:59+09:00（KST；论文修订号，不是数据版本）
 
 ### 许可证
 
-MIT；官方simple-evals README的HealthBench条目明确链接本仓库MIT LICENSE，本轮已读许可证全文。
+MIT；官方simple-evals README的HealthBench条目明确链接本仓库MIT LICENSE，已读许可证全文。
 
 来源：[1](https://raw.githubusercontent.com/openai/simple-evals/HEAD/README.md)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/openai/simple-evals/HEAD/LICENSE)（访问 2026-11-07）
 
@@ -250,21 +250,21 @@ OpenAI simple-evals中的HealthBench评测、meta-evaluation、Hard/Consensus与
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
 ### 已核实版本
 
-version：原始HealthBench（非Professional）；evidence_2026_h2：- url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；date_type：observed_on；note：AA当前附加评测表明确分别列原始5,000题HealthBench和525题Professional；不把Professional网页排行榜归本条。候选另列10月系统卡，本轮未核实，不能算第二份已核实热度证据。
+version：原始HealthBench（非Professional）；evidence_2026_h2：- url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；date_type：observed_on；note：AA当前附加评测表明确分别列原始5,000题HealthBench和525题Professional；不把Professional网页排行榜归本条。候选另列10月系统卡，未核实，不能算第二份已核实热度证据。
 
-说明：热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
+说明：热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2025-05-14T02:53:59+09:00；timezone：Asia/Seoul (KST)
+arxiv_submissions：- version：v1；submitted_at：2025-05-14；timezone：
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -293,7 +293,7 @@ HealthBench Hard与Consensus为原版衍生切片；HealthBench Professional是�
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -313,17 +313,17 @@ https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | o3 | 0.599 ± 0.0016 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07 KST；2025-05-14 KST（论文提交） |
-| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-4.1 | 0.4778 ± 0.0022 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07 KST；2025-05-14 KST（论文提交） |
-| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | o1 | 0.42 ± 0.0022 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07 KST；2025-05-14 KST（论文提交） |
-| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-4o (Aug 2024) | 0.3233 ± 0.002 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07 KST；2025-05-14 KST（论文提交） |
-| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-3.5 Turbo | 0.1554 ± 0.0029 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07 KST；2025-05-14 KST（论文提交） |
+| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | o3 | 0.599 ± 0.0016 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07；2025-05-14 （论文提交） |
+| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-4.1 | 0.4778 ± 0.0022 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07；2025-05-14 （论文提交） |
+| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | o1 | 0.42 ± 0.0022 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07；2025-05-14 （论文提交） |
+| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-4o (Aug 2024) | 0.3233 ± 0.002 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07；2025-05-14 （论文提交） |
+| 原论文表7：原版5,000题，16次运行均值，无长度调整 | — | GPT-3.5 Turbo | 0.1554 ± 0.0029 | HealthBench归一化rubric得分（0–1） | [原始来源](https://arxiv.org/pdf/2505.08775)；采集2026-11-07；2025-05-14 （论文提交） |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
 ### 覆盖边界
 
-本轮从原论文表7恢复16次运行的精确均值/标准差，不以摘要四舍五入60%代替0.5990，不将此历史切片称当前SOTA。Professional 525题AA现榜在独立条目，不能迁入本条。
+从原论文表7恢复16次运行的精确均值/标准差，不以摘要四舍五入60%代替0.5990，不将此历史切片称当前SOTA。Professional 525题AA现榜在独立条目，不能迁入本条。
 
 来源：[1](https://arxiv.org/pdf/2505.08775)（访问 2026-11-07）
 
@@ -365,7 +365,7 @@ https://github.com/openai/simple-evals/issues
 
 https://arxiv.org/pdf/2505.08775
 
-说明：官方arXiv原论文PDF入口；本组不下载、不上传Drive。
+说明：官方arXiv原论文PDF入口；本组不下载、不上传。
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -373,7 +373,7 @@ https://arxiv.org/pdf/2505.08775
 
 f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2505.08775)（访问 2026-11-07）
 
@@ -383,7 +383,7 @@ f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
 来源：[1](https://arxiv.org/pdf/2505.08775)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -397,11 +397,11 @@ f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-### Drive PDF
+### PDF
 
 待核实
 
-说明：本组只建立暂存条目，未上传Drive。
+说明：本组只建立暂存条目，未上传。
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -410,8 +410,8 @@ f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
 ### 本页修订
 
-- date：2026-11-07；timezone：Asia/Shanghai (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone： (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

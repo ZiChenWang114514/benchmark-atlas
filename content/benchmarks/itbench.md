@@ -1,6 +1,6 @@
 # ITBench / ITBench-AA
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
 ITBench原框架评测可部署IT环境内的诊断与修复，覆盖SRE、CISO和FinOps；ITBench-AA则只测59个快照场景的离线根因分析。本页将实际修复率与根因实体precision分轨，不能把后者称为事故修复成功率。
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2025-02-08T06:46:52+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2025-02-08（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-08）。
 
@@ -50,7 +50,7 @@ arXiv v1
 
 ```json
 [
-  "运维",
+  "运维"
   "根因分析"
 ]
 ```
@@ -127,7 +127,7 @@ ITBench团队维护原项目，Artificial Analysis维护ITBench-AA独立结果�
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
@@ -195,11 +195,11 @@ AA的59任务含40公开和19私有，不等同原论文11/94公开口径。
 
 ```json
 [
-  "文本",
-  "日志",
-  "指标",
-  "调用trace",
-  "拓扑",
+  "文本"
+  "日志"
+  "指标"
+  "调用trace"
+  "拓扑"
   "结构化JSON诊断"
 ]
 ```
@@ -210,7 +210,7 @@ AA的59任务含40公开和19私有，不等同原论文11/94公开口径。
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
@@ -260,9 +260,9 @@ AA仅离线根因实体识别，不是实际修复成功率；原论文94场景�
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-08）；[2](https://github.com/itbench-hub/ITBench)（访问 2026-11-08）。
 
@@ -270,20 +270,20 @@ AA仅离线根因实体识别，不是实际修复成功率；原论文94场景�
 
 ```json
 {
-  "version": "原始ITBench与AA独立59场景实现分轨记录",
-  "heat_confidence": "B",
+  "version": "原始ITBench与AA独立59场景实现分轨记录"
+  "heat_confidence": "B"
   "evidence_2026_h2": [
     {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "AA当前持续开展59场景ITBench-AA根因分析。"
     }
   ]
 }
 ```
 
-> 热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。
+> 热度B：近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。
 
 来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）。
 
@@ -292,14 +292,14 @@ AA仅离线根因实体识别，不是实际修复成功率；原论文94场景�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2025-02-08T06:46:52+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v1"
+    "submitted_at": "2025-02-08"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-08）。
 
@@ -325,7 +325,7 @@ ITBench-AA（README公告2026-05-27，59个SRE任务）；STRATUS论文为基于
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://artificialanalysis.ai/evaluations/itbench-aa)（访问 2026-11-08）；[2](https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md)（访问 2026-11-08）。
 
@@ -346,95 +346,95 @@ https://artificialanalysis.ai/evaluations/itbench-aa
 ```json
 [
   {
-    "rank": 1,
-    "model": "GPT-5.6 Sol (Max)",
-    "score": "56.2",
-    "metric": "Average precision at full recall (%)",
-    "track": "AA独立59场景，静态根因分析",
-    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-5.6 Sol (Max)"
+    "score": "56.2"
+    "metric": "Average precision at full recall (%)"
+    "track": "AA独立59场景，静态根因分析"
+    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "Step 5 Preview",
-    "score": "55.6",
-    "metric": "Average precision at full recall (%)",
-    "track": "AA独立59场景，静态根因分析",
-    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "Step 5 Preview"
+    "score": "55.6"
+    "metric": "Average precision at full recall (%)"
+    "track": "AA独立59场景，静态根因分析"
+    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "Gemini 3.8 Flash (High)",
-    "score": "52.5",
-    "metric": "Average precision at full recall (%)",
-    "track": "AA独立59场景，静态根因分析",
-    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "Gemini 3.8 Flash (High)"
+    "score": "52.5"
+    "metric": "Average precision at full recall (%)"
+    "track": "AA独立59场景，静态根因分析"
+    "source_url": "https://artificialanalysis.ai/evaluations/itbench-aa"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "ITBench-SRE-Agent-GPT-4o",
-    "score": "25.00",
-    "metric": "% Resolved",
-    "track": "原始SRE Single Trial / 16 incidents",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
-    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "ITBench-SRE-Agent-GPT-4o"
+    "score": "25.00"
+    "metric": "% Resolved"
+    "track": "原始SRE Single Trial / 16 incidents"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md"
+    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "ITBench-SRE-Agent-LLama-3-3-70B",
-    "score": "12.50",
-    "metric": "% Resolved",
-    "track": "原始SRE Single Trial / 16 incidents",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
-    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "ITBench-SRE-Agent-LLama-3-3-70B"
+    "score": "12.50"
+    "metric": "% Resolved"
+    "track": "原始SRE Single Trial / 16 incidents"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md"
+    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "ITBench-SRE-Agent-Granite-3-2",
-    "score": "0.00",
-    "metric": "% Resolved",
-    "track": "原始SRE Single Trial / 16 incidents",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
-    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "ITBench-SRE-Agent-Granite-3-2"
+    "score": "0.00"
+    "metric": "% Resolved"
+    "track": "原始SRE Single Trial / 16 incidents"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md"
+    "source_update_label": "02/05/2025 18:06:54（原文无明确时区及日月格式，保留原标签，不擅自转日期）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "ITBench-SRE-Agent-GPT-4o",
-    "score": "24.79",
-    "metric": "% Resolved",
-    "track": "原始SRE Multiple Trials / 162 incidents",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "ITBench-SRE-Agent-GPT-4o"
+    "score": "24.79"
+    "metric": "% Resolved"
+    "track": "原始SRE Multiple Trials / 162 incidents"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": null,
-    "model": "ciso-agent-expert-rhel9-opa",
-    "score": "0.30",
-    "metric": "Average benchmark score (0–1)",
-    "track": "原始CISO / 各自场景类别",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md",
-    "scenario_category": "Gen-CIS-b-RHEL9-Ansible-OPA",
-    "passed": 3,
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": null
+    "model": "ciso-agent-expert-rhel9-opa"
+    "score": "0.30"
+    "metric": "Average benchmark score (0–1)"
+    "track": "原始CISO / 各自场景类别"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md"
+    "scenario_category": "Gen-CIS-b-RHEL9-Ansible-OPA"
+    "passed": 3
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": null,
-    "model": "pre-release-agent-2025-0428",
-    "score": "0.20",
-    "metric": "Average benchmark score (0–1)",
-    "track": "原始CISO / 各自场景类别",
-    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md",
-    "scenario_category": "Gen-CIS-b-K8s-Kyverno",
-    "passed": 2,
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+    "rank": null
+    "model": "pre-release-agent-2025-0428"
+    "score": "0.20"
+    "metric": "Average benchmark score (0–1)"
+    "track": "原始CISO / 各自场景类别"
+    "source_url": "https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_CISO.md"
+    "scenario_category": "Gen-CIS-b-K8s-Kyverno"
+    "passed": 2
+    "snapshot_date": "2026-11-08 "
   }
 ]
 ```
@@ -443,7 +443,7 @@ https://artificialanalysis.ai/evaluations/itbench-aa
 
 ### 覆盖与局限
 
-原项目SRE操作环境单次与多次轨、AA静态根因轨分开。README现已有SRE/CISO榜，修正此前只链接AA为官方榜的做法；原榜更新时间标签不明时区/日月格式，不把它当本轮运行日。
+原项目SRE操作环境单次与多次轨、AA静态根因轨分开。README现已有SRE/CISO榜，修正此前只链接AA为官方榜的做法；原榜更新时间标签不明时区/日月格式，不把它当运行日。
 
 来源：[1](https://github.com/itbench-hub/ITBench/blob/main/LEADERBOARD_SRE.md)（访问 2026-11-08）；[2](https://artificialanalysis.ai/evaluations/itbench-aa)（访问 2026-11-08）；[3](https://github.com/itbench-hub/ITBench/blob/main/README.md)（访问 2026-11-08）。
 
@@ -453,8 +453,8 @@ https://artificialanalysis.ai/evaluations/itbench-aa
 
 ```json
 [
-  "agent-bench-automation@ibm.com",
-  "saurabh.jha@ibm.com",
+  "agent-bench-automation@ibm.com"
+  "saurabh.jha@ibm.com"
   "muew@jp.ibm.com"
 ]
 ```
@@ -479,7 +479,7 @@ https://discord.gg/6fzy3JRHmt
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
@@ -491,29 +491,29 @@ https://arxiv.org/pdf/2502.05352
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 da47aa02d9cf0cd2a330d3c9890e0338d4f3c3cdd89521c7b8979ab4986f932c
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2502.05352)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 4068098
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2502.05352)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
@@ -522,7 +522,7 @@ da47aa02d9cf0cd2a330d3c9890e0338d4f3c3cdd89521c7b8979ab4986f932c
 ```json
 [
   {
-    "type": "官方方法/介绍网页（不是论文PDF）",
+    "type": "官方方法/介绍网页（不是论文PDF）"
     "url": "https://arxiv.org/abs/2502.05352"
   }
 ]
@@ -530,11 +530,11 @@ da47aa02d9cf0cd2a330d3c9890e0338d4f3c3cdd89521c7b8979ab4986f932c
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 待核实
 
-> 本组只建立本地研究文件，不上传或声明已有Drive PDF。
+> 本组只建立本地研究文件，不上传或声明已有 PDF。
 
 来源：[1](https://arxiv.org/abs/2502.05352)（访问 2026-11-07）。
 
@@ -545,14 +545,14 @@ da47aa02d9cf0cd2a330d3c9890e0338d4f3c3cdd89521c7b8979ab4986f932c
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

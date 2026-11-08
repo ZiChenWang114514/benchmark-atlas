@@ -1,6 +1,6 @@
 # Benchmark Constitution · Frontier Heat
 
-快照日期：2026-11-07（Asia/Seoul）。**暂定/可复核下界，不是已证明全球完整的最新20清单。**
+快照日期：2026-11-07。**暂定/可复核下界，不是已证明全球完整的最新20清单。**
 
 20个模型；240个规范化benchmark家族；2456条来源/位置提及（计入2283，排除173）。所有数字为当前缓存证据的统计。
 
@@ -29,7 +29,7 @@
 | Gemini 3.8 Flash | 2026-09-02 | https://deepmind.google/models/model-cards/gemini-3-8-flash/ |
 | Muse Spark 1.3 | 2026-09-02 | https://research.meta.ai/blog/introducing-muse-spark-1-3<br>https://research.meta.ai/static/muse-spark-1-3-evaluation-report |
 
-日期按首发，不把后续GA/开权重日期当首发；有UTC原始时间时换算Asia/Seoul。同日按id排序，9月2日边界并列不意味着日内发布时间已查清。
+日期按首发，不把后续GA/开权重日期当首发；有UTC原始时间时换算。同日按id排序，9月2日边界并列不意味着日内发布时间已查清。
 
 ## 前30（每项至多20；同频按id排序）
 
@@ -68,15 +68,15 @@
 
 ## 文件
 
-* `/workspace/bc/frontier/heat.json` — SPEC结构，窗口、模型benchmark数组、count/share、rank_change、今日history。
-* `/workspace/bc/frontier/models.json` — 模型审核输入。
-* `/workspace/bc/frontier/mentions.json` — 逐条模型、规范化ID、原名、官方URL、正文行/PDF页/图表标签。
-* `/workspace/bc/frontier/normalization.json` — 合并家族、保留原始变体的词表。
-* `/workspace/bc/frontier/update_heat.py` — 追加、滚动、去重模型计数、历史与排名变化。
-* `/workspace/bc/frontier/test_update_heat.py` — 8项测试通过。
-* `/workspace/bc/registry/frontier.jsonl` — 240条名录，未知元数据保留null。
-* `/workspace/bc/frontier/source-catalog.json`、`webfetch-evidence.json`、`image-mentions.json`、`sources/` — 页面/图表缓存和实读证据。
-* `/workspace/bc/frontier/coverage.json` — 缺失路径与覆盖限制。
+* ` — SPEC结构，窗口、模型benchmark数组、count/share、rank_change、今日history。
+* ` — 模型审核输入。
+* ` — 逐条模型、规范化ID、原名、官方URL、正文行/PDF页/图表标签。
+* ` — 合并家族、保留原始变体的词表。
+* ` — 追加、滚动、去重模型计数、历史与排名变化。
+* ` — 8项测试通过。
+* ` — 240条名录，未知元数据保留null。
+* ` — 页面/图表缓存和实读证据。
+* ` — 缺失路径与覆盖限制。
 
 ## 缺失/打不开或原路径失败
 
@@ -120,16 +120,16 @@ Qwen原JS空壳与受限HF页已用阿里云官方完整博客补上；Muse Spar
 见 `update_heat.py` 文件顶部完整流程。每日先人工打开官方新发布并校验日期，再追加models/mentions、补normalization和registry，运行：
 
 ```bash
-python3 /workspace/bc/frontier/update_heat.py --date YYYY-MM-DD --append-models /path/new_models.json --append-mentions /path/new_mentions.json
-python3 /workspace/bc/frontier/test_update_heat.py
+python3 --date YYYY-MM-DD --append-models /path/new_models.json --append-mentions /path/new_mentions.json
+python3
 ```
 
 没有新模型时不加两个append参数即可。脚本不联网，不能代替新发布发现与全文审读。保留旧模型/提及档案，仅榜单窗口移出最旧模型。同日覆盖今日history，不会伪造昨日rank_change；首次均为new。
 
 一次性缓存重建流程（不要作为日常数据更新，bootstrap会覆盖人工维护输入）：
 ```bash
-python3 /workspace/bc/frontier/bootstrap_data.py
-python3 /workspace/bc/frontier/add_image_evidence.py
-python3 /workspace/bc/frontier/build_registry.py
-python3 /workspace/bc/frontier/update_heat.py --date 2026-11-07
+python3
+python3
+python3
+python3 --date 2026-11-07
 ```

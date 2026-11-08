@@ -26,11 +26,11 @@ CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分
 
 核验说明：论文修订版本不等同数据集版本。
 
-**发布日期**：2024-01-06 05:53:51 KST
+**发布日期**：2024-01-06 05:53:51
 
 来源：[1](https://arxiv.org/abs/2401.03065)（访问2026-11-07）
 
-核验说明：首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+核验说明：首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 **主板块**：代码
 
@@ -170,7 +170,7 @@ CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://crux-eval.github.io/)（访问2026-11-07）
 
@@ -180,7 +180,7 @@ CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分
 
 核验说明：H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-**修订历史**：Submission history From: Alex Gu [ view email ] [v1] 2024-01-06 05:53:51 KST (1,309 KB)
+**修订历史**：Submission history From: Alex Gu [ view email ] [v1] 2024-01-06 05:53:51 (1,309 KB)
 
 来源：[1](https://arxiv.org/abs/2401.03065)（访问2026-11-07）
 
@@ -200,7 +200,7 @@ CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分
 
 ## 榜单快照
 
-**快照日**：2026-11-07 KST / Asia/Seoul
+**快照日**：2026-11-07
 
 来源：[1](https://crux-eval.github.io/)（访问2026-11-07）
 
@@ -344,22 +344,22 @@ CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分
 
 核验说明：源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
 
-**Drive目录**：id：1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou；webViewLink：https://drive.google.com/drive/folders/1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou
+**目录**：id：1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou)（访问2026-11-07）
+来源：[1](
 
-**其他文档**：type：中文介绍Google Doc；id：14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c；webViewLink：https://docs.google.com/document/d/14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c/edit?usp=drivesdk
+**其他文档**：type：中文介绍Google Doc；id：14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c；webViewLink：
 
-来源：[1](https://crux-eval.github.io/)（访问2026-11-07）；[2](https://docs.google.com/document/d/14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](https://crux-eval.github.io/)（访问2026-11-07）；[2](
 
 核验说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-**Drive PDF**：id：1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9；webViewLink：https://drive.google.com/file/d/1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9/view?usp=drivesdk
+** PDF**：id：1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- date：2026-11-07；timezone：Asia/Seoul；change：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- date：2026-11-07；timezone：；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

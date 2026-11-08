@@ -1,8 +1,8 @@
 # Berkeley Function Calling Leaderboard (BFCL)
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留；trending: B
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留；trending: B
 
 ## 1. 基本信息
 
@@ -100,7 +100,7 @@ UC Berkeley Gorilla研究团队（机构口径）
 
 来源：[2]
 
-说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -122,7 +122,7 @@ Gorilla / BFCL团队
 
 来源：[2]
 
-说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -253,7 +253,7 @@ V1(AST)、V2(真实贡献函数)、V3(多轮)、V4(agentic)覆盖变化，Hunyua
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[2]
 
@@ -291,7 +291,7 @@ BFCL V1–V4为演进版本；本库只计一个函数调用benchmark。
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[2]
 
@@ -341,7 +341,7 @@ endpoint_accuracy_methodology：https://artificialanalysis.ai/methodology/endpoi
 
 ### 覆盖边界
 
-重新打开官方CSV，精确转录前10且保留native FC/Prompt/thinking配置。官网Last Updated=2026-04-12，非本轮新运行。V4按博客固定权重而非官网概述unweighted文字；HF卡是2024旧发布描述，不用它更新V4规模。
+重新打开官方CSV，精确转录前10且保留native FC/Prompt/thinking配置。官网Last Updated=2026-04-12，非新运行。V4按博客固定权重而非官网概述unweighted文字；HF卡是2024旧发布描述，不用它更新V4规模。
 
 来源：[3][4][10][1]
 
@@ -377,7 +377,7 @@ https://discord.gg/grXXvj9Whz
 
 来源：[2]
 
-说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -397,7 +397,7 @@ https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.
 
 来源：[12]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -405,34 +405,34 @@ https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.
 
 来源：[12]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT；webViewLink：https://drive.google.com/drive/folders/1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT
+id：1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT；webViewLink：
 
 来源：[13]
 
 ### 其他材料
 
-- type：中文介绍Google Doc；id：1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748；webViewLink：https://docs.google.com/document/d/1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748/edit?usp=drivesdk
+- type：中文介绍Google Doc；id：1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748；webViewLink：
 
 来源：[1][14]
 
 说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：https://drive.google.com/file/d/1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw/view?usp=drivesdk
+id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：
 
 来源：[15]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（KST / Asia/Seoul）：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- 2026-11-07（KST / Asia/Seoul）：读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。
-- 2026-11-07（Asia/Shanghai）：近期热门版本复核：V1引入AST单轮，V2引入企业/社区贡献，V3引入多轮；V4新增Web Search、Memory与Format Sensitivity。总分权重为Agentic40%、Multi-Turn30%、Live10%、Non-Live10%、Hallucination10%；Format Sensitivity不计总分。以官方V4方法博客为准；官网概述“unweighted average of all sub-categories”不应覆盖明细的固定权重定义。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- 2026-11-07：读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。
+- 2026-11-07：近期热门版本复核：V1引入AST单轮，V2引入企业/社区贡献，V3引入多轮；V4新增Web Search、Memory与Format Sensitivity。总分权重为Agentic40%、Multi-Turn30%、Live10%、Non-Live10%、Hallucination10%；Format Sensitivity不计总分。以官方V4方法博客为准；官网概述“unweighted average of all sub-categories”不应覆盖明细的固定权重定义。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1][3][4][5][6][7]
 
@@ -450,6 +450,6 @@ id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：https://drive.google.com/
 [10]: https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard "访问 2026-11-07"
 [11]: https://artificialanalysis.ai/methodology/endpoint-accuracy-index "访问 2026-11-07"
 [12]: https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.pdf "访问 2026-11-07"
-[13]: https://drive.google.com/drive/folders/1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT "访问 2026-11-07"
-[14]: https://docs.google.com/document/d/1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748/edit?usp=drivesdk "访问 2026-11-07"
-[15]: https://drive.google.com/file/d/1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw/view?usp=drivesdk "访问 2026-11-07"
+[13]: "访问 2026-11-07"
+[14]: "访问 2026-11-07"
+[15]: "访问 2026-11-07"

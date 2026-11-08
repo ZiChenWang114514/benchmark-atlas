@@ -1,7 +1,7 @@
 {
   "id": "scigym",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "SciGym",
@@ -35,7 +35,7 @@
       ]
     },
     "paper_version": {
-      "value": "v2；最近提交 2025-07-15T00:17:16+09:00 KST",
+      "value": "v2；最近提交 2025-07-15",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2507.02083",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-07-03T03:41:44+09:00（KST；首个arXiv提交，不推定数据上线日）",
+      "value": "2025-07-03（；首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2507.02083",
@@ -82,7 +82,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2507.02083",
@@ -185,7 +185,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "design_goals": {
@@ -360,7 +360,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2507.02083",
@@ -415,13 +415,11 @@
         "arxiv_submission_history_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2025-07-03T03:41:44+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2025-07-03"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2025-07-15T00:17:16+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2025-07-15"
           }
         ]
       },
@@ -459,12 +457,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
+      "value": "2026-11-08 （访问日，不是实验运行日）",
       "sources": [
         {
           "url": "https://h4duan.github.io/scigym-benchmark/",
@@ -490,7 +488,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -510,7 +508,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 1
         },
@@ -530,7 +528,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 2
         },
@@ -550,7 +548,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 3
         },
@@ -570,7 +568,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 4
         },
@@ -590,7 +588,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 5
         },
@@ -610,7 +608,7 @@
           "track": "官方项目页/论文v2 Table1；small 137系统历史实验",
           "source_url": "https://h4duan.github.io/scigym-benchmark/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 6
         }
@@ -654,7 +652,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "github_issues": {
       "value": "https://github.com/h4duan/SciGym/issues",
@@ -674,7 +672,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "仅使用项目站、论文和官方仓库公开反馈渠道，不采集私人联系方式。",
@@ -704,7 +702,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。"
+      "note": "实际下载原始PDF字节计算；不据此更改既有文件。"
     },
     "pdf_bytes": {
       "value": 7093862,
@@ -716,10 +714,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1pMHOGBbhMwADTWVpcSndAPPvQYNqM5DP",
-        "webViewLink": "https://drive.google.com/drive/folders/1pMHOGBbhMwADTWVpcSndAPPvQYNqM5DP"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2507.02083",
@@ -744,10 +739,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT",
-      "webViewLink": "https://drive.google.com/file/d/16ZviC4sNbrI2MV3Z7ORtEc02fArVV7WT/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2507.02083",
@@ -759,18 +751,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：恢复六模型×七指标完整表，避免只列STE前三；记录官方评测工件HF 2466条与350个系统的不同统计单位；仓库无LICENSE、HF卡无许可标记，仍保留许可待核实。；arXiv提交时间统一换算KST，避免源站UTC日期与本地日期跨日混淆。"
+        "change": "最近复核"
       }
     ],
     "sources": [

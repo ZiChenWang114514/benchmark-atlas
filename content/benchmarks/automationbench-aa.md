@@ -1,8 +1,8 @@
 # AutomationBench-AA
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2026-04-21 08:14:59（Asia/Shanghai，UTC+8；Zapier母论文arXiv v1提交，不冒称AA实现首发时刻）
+2026-04-21 08:14:59（，UTC+8；Zapier母论文arXiv v1提交，不冒称AA实现首发时刻）
 
 来源：[3]
 
@@ -251,7 +251,7 @@ AA对无guardrail违规任务按目标完成比例给分，违规或执行错误
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[3]
 
@@ -263,7 +263,7 @@ version：AutomationBench 1.0.6；AA私有657任务；evidence_2026_h2：- url�
 
 ### 版本脉络
 
-mother_paper：arXiv:2604.18934v1；submitted_at：2026-04-21T08:14:59+08:00；boundary：Zapier论文首发不是AA私有集上线日。
+mother_paper：arXiv:2604.18934v1；submitted_at：2026-04-21；boundary：Zapier论文首发不是AA私有集上线日。
 
 来源：[3]
 
@@ -289,7 +289,7 @@ AutomationBench-AA为AA实现；母协议600公开题与657私有评测不拆计
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[3]
 
@@ -395,7 +395,7 @@ https://arxiv.org/pdf/2604.18934
 
 来源：[8]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -403,33 +403,33 @@ https://arxiv.org/pdf/2604.18934
 
 来源：[8]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1NgpzI8h2aK9daBTqXuWmUYkvoL9R-H1O；webViewLink：https://drive.google.com/drive/folders/1NgpzI8h2aK9daBTqXuWmUYkvoL9R-H1O
+id：1NgpzI8h2aK9daBTqXuWmUYkvoL9R-H1O；webViewLink：
 
 来源：[9]
 
 ### 其他材料
 
-- type：中文介绍Google Doc；id：1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM；webViewLink：https://docs.google.com/document/d/1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM/edit?usp=drivesdk
+- type：中文介绍Google Doc；id：1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM；webViewLink：
 
 来源：[1][10]
 
 说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE；webViewLink：https://drive.google.com/file/d/1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE/view?usp=drivesdk
+id：1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE；webViewLink：
 
 来源：[11]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（KST / Asia/Seoul）：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- 2026-11-07（KST / Asia/Seoul）：第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- 2026-11-07：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 
@@ -443,6 +443,6 @@ id：1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE；webViewLink：https://drive.google.com/
 [6]: https://raw.githubusercontent.com/zapier/AutomationBench/main/README.md "访问 2026-11-07"
 [7]: https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 "访问 2026-11-07"
 [8]: https://arxiv.org/pdf/2604.18934 "访问 2026-11-07"
-[9]: https://drive.google.com/drive/folders/1NgpzI8h2aK9daBTqXuWmUYkvoL9R-H1O "访问 2026-11-07"
-[10]: https://docs.google.com/document/d/1xuE7UD_fnv0r_Y6v-6IQezjMhLDP9jVjF6dZfaSbSJM/edit?usp=drivesdk "访问 2026-11-07"
-[11]: https://drive.google.com/file/d/1UHMv5FX-27Vo0lMavoG2Ju3n9jV3NsNE/view?usp=drivesdk "访问 2026-11-07"
+[9]: "访问 2026-11-07"
+[10]: "访问 2026-11-07"
+[11]: "访问 2026-11-07"

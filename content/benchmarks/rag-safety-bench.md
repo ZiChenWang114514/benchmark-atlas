@@ -1,10 +1,10 @@
 # RAG-Safety-Bench
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 RAG-Safety-Bench把同一有害请求放入无检索、含答案oracle、同主题无答案和随机良性文档四种受控条件，用于解释RAG为何改变安全行为。unsafe-capability准确率、有害率与拒答率是三件事：有害问题答得越准不代表系统越安全。冻结公开输入可用于独立复测，但不含论文私有v2复评分制品。
 
-编辑状态：已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
+最近复核
 
 ## 1. 基本信息
 
@@ -114,7 +114,7 @@ University of Ottawa；作者 Adithiyan Rajan Indira Saravanan、Kathleen C. Fra
 
 ```json
 [
-  "Saravanan, Adithiyan Rajan Indira",
+  "Saravanan, Adithiyan Rajan Indira"
   "Fraser, Kathleen C."
 ]
 ```
@@ -253,7 +253,7 @@ https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
@@ -261,11 +261,11 @@ https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
 ```json
 {
-  "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行",
+  "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.11758v1",
-      "date": "2026-09",
+      "url": "https://arxiv.org/html/2609.11758v1"
+      "date": "2026-09"
       "note": "原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。"
     }
   ]
@@ -279,9 +279,9 @@ https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-09-11T01:12:25+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v1"
+    "submitted_at": "2026-09-11"
+    "timezone": ""
   }
 ]
 ```
@@ -312,7 +312,7 @@ Oracle可答性并非全为完整答案：balanced中200题yes、146题partial�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）
 
@@ -357,7 +357,7 @@ https://arxiv.org/abs/2609.11758
 | 论文v1 Table 3 / balanced 346 / On-topic | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 17.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
 | 论文v1 Table 3 / balanced 346 / Random | — | [Qwen-2.5-7B](https://arxiv.org/pdf/2609.11758) | 2.3 | unsafe-capability answer accuracy (%)，不是harmfulness | 2026-09-11 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
@@ -373,7 +373,7 @@ https://arxiv.org/abs/2609.11758
 
 ```json
 [
-  "aindi023@uottawa.ca",
+  "aindi023@uottawa.ca"
   "kathleen.fraser@uottawa.ca"
 ]
 ```
@@ -422,32 +422,32 @@ https://arxiv.org/pdf/2609.11758
 
 [1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh",
-  "webViewLink": "https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
+  "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
+  "webViewLink": "
 }
 ```
 
-[1](https://drive.google.com/drive/folders/1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh)（访问 2026-11-07）
+[1]( 2026-11-07）
 
 ### 其他材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o",
-    "webViewLink": "https://docs.google.com/document/d/1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o/edit?usp=drivesdk"
-  },
+    "kind": "中文介绍 Google Doc"
+    "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o"
+    "webViewLink": "
+  }
   {
-    "type": "官方数据卡（非HF发布）",
+    "type": "官方数据卡（非HF发布）"
     "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"
-  },
+  }
   {
-    "type": "许可提案及限制",
+    "type": "许可提案及限制"
     "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md"
   }
 ]
@@ -455,32 +455,32 @@ https://arxiv.org/pdf/2609.11758
 
 [1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-08）
 
-### Drive论文PDF
+### 论文PDF
 
 {
-  "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z",
-  "webViewLink": "https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk"
+  "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z"
+  "webViewLink": "
 }
 
-[1](https://drive.google.com/file/d/1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z/view?usp=drivesdk)（访问 2026-11-07）
+[1]( 2026-11-07）
 
 ## 11. 变更记录
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

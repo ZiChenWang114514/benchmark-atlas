@@ -1,7 +1,7 @@
 {
   "id": "mirrorcode",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MirrorCode",
@@ -45,7 +45,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-06-29T20:57:32+09:00（KST；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2026-06-29（；arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
@@ -365,7 +365,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08（KST / Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/epoch-research/MirrorCode/main/README.md",
@@ -402,13 +402,11 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2026-06-29T20:57:32+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2026-06-29"
           },
           {
             "version": "v2",
-            "submitted_at": "2026-07-17T19:56:56+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2026-07-17"
           }
         ]
       },
@@ -453,7 +451,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（；采集日，不冒充评测运行日）",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
@@ -493,7 +491,7 @@
           "stderr": "0.0788",
           "run_id": "mirrorcode-ml-2l-claude-opus-5-5",
           "model_version": "claude-opus-5-5_high",
-          "run_started_at_kst": "2026-09-23T01:42:00+09:00",
+          "run_started_at_kst": "2026-09-23",
           "task_version": "0.1.198",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -509,7 +507,7 @@
           "stderr": "0.0917",
           "run_id": "mirrorcode-ml-2l-claude-fable-5-1",
           "model_version": "claude-fable-5-1_high",
-          "run_started_at_kst": "2026-09-10T22:19:30.449000+09:00",
+          "run_started_at_kst": "2026-09-10",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -525,7 +523,7 @@
           "stderr": "0.10404092940368063",
           "run_id": "mirrorcode-ml-2l-claude-fable-5",
           "model_version": "claude-fable-5_high",
-          "run_started_at_kst": "2026-08-11T01:12:44.227000+09:00",
+          "run_started_at_kst": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -541,7 +539,7 @@
           "stderr": "0.1171381252539371",
           "run_id": "h7xMzFUTMGSGqUSKUpxkUW",
           "model_version": "gemini-4-argon_high",
-          "run_started_at_kst": "2026-10-14T19:00:34+09:00",
+          "run_started_at_kst": "2026-10-14",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -557,7 +555,7 @@
           "stderr": "0.1186",
           "run_id": "mirrorcode-ml-2l-gpt-6-astra",
           "model_version": "gpt-6-astra_high",
-          "run_started_at_kst": "2026-08-31T01:51:09+09:00",
+          "run_started_at_kst": "2026-08-31",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -573,7 +571,7 @@
           "stderr": "0.12157113738962926",
           "run_id": "eeq6feqZLzfjfVsx4aeAWL",
           "model_version": "gemini-3.7-flash_high",
-          "run_started_at_kst": "2026-10-22T01:49:08+09:00",
+          "run_started_at_kst": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -589,7 +587,7 @@
           "stderr": "0.1101546131612538",
           "run_id": "Hoz4Uioui4GNZaLD6fiAvD",
           "model_version": "grok-4.6_xhigh",
-          "run_started_at_kst": "2026-10-22T01:48:25+09:00",
+          "run_started_at_kst": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -605,7 +603,7 @@
           "stderr": "0.10723394129558436",
           "run_id": "fiqzdAtVJVP9wdMT2QFeUn",
           "model_version": "grok-4.5_high",
-          "run_started_at_kst": "2026-10-22T01:49:00+09:00",
+          "run_started_at_kst": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -621,7 +619,7 @@
           "stderr": "0.09036473223803354",
           "run_id": "mirrorcode-ml-2l-claude-opus-4-7",
           "model_version": "claude-opus-4-7_high",
-          "run_started_at_kst": "2026-08-12T20:43:31+09:00",
+          "run_started_at_kst": "2026-08-12",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -637,7 +635,7 @@
           "stderr": "0.09026709338484401",
           "run_id": "WQ4gVVhGBfWoRkRwUvNYgs",
           "model_version": "gpt-6-luna_max",
-          "run_started_at_kst": "2026-10-22T01:48:12+09:00",
+          "run_started_at_kst": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -653,7 +651,7 @@
           "stderr": "0.09229582069908972",
           "run_id": "mirrorcode-ml-2l-gpt-5-6-sol",
           "model_version": "gpt-5.6-sol_high",
-          "run_started_at_kst": "2026-08-11T01:12:44.772000+09:00",
+          "run_started_at_kst": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -669,7 +667,7 @@
           "stderr": "0.0770945044100374",
           "run_id": "mirrorcode-ml-2l-gpt-5-4",
           "model_version": "gpt-5.4-2026-03-05_high",
-          "run_started_at_kst": "2026-08-11T01:12:45.299000+09:00",
+          "run_started_at_kst": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -685,7 +683,7 @@
           "stderr": "0.06042179781166438",
           "run_id": "mirrorcode-ml-2l-gpt-5-5",
           "model_version": "gpt-5.5_high",
-          "run_started_at_kst": "2026-08-11T01:12:45.865000+09:00",
+          "run_started_at_kst": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -701,7 +699,7 @@
           "stderr": "0.04561939004190448",
           "run_id": "mirrorcode-ml-2l-gemini-3-1-pro-preview",
           "model_version": "gemini-3.1-pro-preview_high",
-          "run_started_at_kst": "2026-08-11T01:12:46.343000+09:00",
+          "run_started_at_kst": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -717,7 +715,7 @@
           "stderr": "0.034375250520170986",
           "run_id": "Th39ihgvLFnsDGMed7Q55b",
           "model_version": "gpt-5-2025-08-07_high",
-          "run_started_at_kst": "2026-10-22T01:48:08+09:00",
+          "run_started_at_kst": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         }
@@ -797,7 +795,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+      "note": "原始论文PDF入口；未下载或上传，哈希与字节数待核实。"
     },
     "sha256": {
       "value": "d0ab2a256a1ab9cee34842128aaee124c38bc2f43e95571d37aa1bec42df9e37",
@@ -807,7 +805,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。"
+      "note": "下载PDF字节的SHA-256；不冒称已重新上传。"
     },
     "pdf_bytes": {
       "value": 660665,
@@ -817,7 +815,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮直接下载的PDF文件字节数。"
+      "note": "直接下载的PDF文件字节数。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -846,15 +844,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1mP-Z-UTpGh9pCiYNBg-G55vFWBXZkLnd",
-      "webViewLink": "https://drive.google.com/file/d/1mP-Z-UTpGh9pCiYNBg-G55vFWBXZkLnd/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1mP-Z-UTpGh9pCiYNBg-G55vFWBXZkLnd/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2606.30182",
         "accessed": "2026-11-08"
@@ -865,13 +856,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "sysbench",
   "schema_version": "0.1.0",
-  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "SysBench",
@@ -33,7 +33,7 @@
       "note": "已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。"
     },
     "paper_version": {
-      "value": "arXiv v2；提交于 2024-10-23 00:07:35 KST",
+      "value": "arXiv v2；提交于 2024-10-23 00:07:35",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2408.10943",
@@ -42,7 +42,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-08-21 00:33:16 KST（arXiv v1提交；论文日期标示8月20日不含时区）",
+      "value": "2024-08-21 00:33:16 （arXiv v1提交；论文日期标示8月20日不含时区）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2408.10943",
@@ -371,7 +371,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://github.com/PKU-Baichuan-MLSystemLab/SysBench",
@@ -394,13 +394,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2024-08-21 00:33:16 KST",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2024-08-21 00:33:16"
         },
         {
           "version": "v2",
-          "submitted_at": "2024-10-23 00:07:35 KST",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2024-10-23 00:07:35"
         }
       ],
       "sources": [
@@ -446,7 +444,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2408.10943",
@@ -486,9 +484,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 1
         },
         {
@@ -498,9 +496,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 2
         },
         {
@@ -510,9 +508,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 1
         },
         {
@@ -522,9 +520,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 2
         },
         {
@@ -534,9 +532,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 1
         },
         {
@@ -546,9 +544,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 2
         },
         {
@@ -558,9 +556,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 3
         },
         {
@@ -570,9 +568,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 3
         },
         {
@@ -582,9 +580,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 3
         },
         {
@@ -594,9 +592,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 7
         },
         {
@@ -606,9 +604,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 8
         },
         {
@@ -618,9 +616,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 8
         },
         {
@@ -630,9 +628,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 10
         },
         {
@@ -642,9 +640,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 10
         },
         {
@@ -654,9 +652,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 11
         },
         {
@@ -666,9 +664,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 12
         },
         {
@@ -678,9 +676,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 11
         },
         {
@@ -690,9 +688,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 12
         },
         {
@@ -702,9 +700,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 13
         },
         {
@@ -714,9 +712,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 13
         },
         {
@@ -726,9 +724,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 13
         },
         {
@@ -738,9 +736,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 14
         },
         {
@@ -750,9 +748,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 14
         },
         {
@@ -762,9 +760,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 15
         },
         {
@@ -774,9 +772,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 4
         },
         {
@@ -786,9 +784,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 4
         },
         {
@@ -798,9 +796,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 4
         },
         {
@@ -810,9 +808,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 6
         },
         {
@@ -822,9 +820,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 5
         },
         {
@@ -834,9 +832,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 5
         },
         {
@@ -846,9 +844,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 5
         },
         {
@@ -858,9 +856,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 6
         },
         {
@@ -870,9 +868,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 5
         },
         {
@@ -882,9 +880,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 8
         },
         {
@@ -894,9 +892,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 7
         },
         {
@@ -906,9 +904,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 7
         },
         {
@@ -918,9 +916,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 9
         },
         {
@@ -930,9 +928,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 9
         },
         {
@@ -942,9 +940,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 9
         },
         {
@@ -954,9 +952,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 11
         },
         {
@@ -966,9 +964,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 12
         },
         {
@@ -978,9 +976,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 10
         },
         {
@@ -990,9 +988,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 15
         },
         {
@@ -1002,9 +1000,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 15
         },
         {
@@ -1014,9 +1012,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 14
         },
         {
@@ -1026,9 +1024,9 @@
           "track": "原论文v2表2 / CSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 16
         },
         {
@@ -1038,9 +1036,9 @@
           "track": "原论文v2表2 / ISR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 16
         },
         {
@@ -1050,9 +1048,9 @@
           "track": "原论文v2表2 / SSR",
           "source_url": "https://arxiv.org/pdf/2408.10943",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "500 sessions × 5 turns",
-          "source_date": "2024-10-23 KST（v2提交日，非运行日）",
+          "source_date": "2024-10-23 （v2提交日，非运行日）",
           "rank": 16
         },
         {
@@ -1062,7 +1060,7 @@
           "track": "厂商报告表3 / slow-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "slow-thinking",
           "rank": 1
         },
@@ -1073,7 +1071,7 @@
           "track": "厂商报告表3 / slow-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "slow-thinking",
           "rank": 2
         },
@@ -1084,7 +1082,7 @@
           "track": "厂商报告表3 / slow-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "slow-thinking",
           "rank": 4
         },
@@ -1095,7 +1093,7 @@
           "track": "厂商报告表3 / slow-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "slow-thinking",
           "rank": 3
         },
@@ -1106,7 +1104,7 @@
           "track": "厂商报告表4 / fast-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "fast-thinking",
           "rank": 4
         },
@@ -1117,7 +1115,7 @@
           "track": "厂商报告表4 / fast-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "fast-thinking",
           "rank": 2
         },
@@ -1128,7 +1126,7 @@
           "track": "厂商报告表4 / fast-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "fast-thinking",
           "rank": 1
         },
@@ -1139,7 +1137,7 @@
           "track": "厂商报告表4 / fast-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "fast-thinking",
           "rank": 3
         }
@@ -1240,13 +1238,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1pfSl-HONOkg-IIPEDuBZHElwxzgJxc7M",
-        "webViewLink": "https://drive.google.com/drive/folders/1pfSl-HONOkg-IIPEDuBZHElwxzgJxc7M"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1pfSl-HONOkg-IIPEDuBZHElwxzgJxc7M",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1254,27 +1249,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I",
-          "webViewLink": "https://docs.google.com/document/d/1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "19-Vjl0qkIT7uZezwcrYIIYyGtVxhAIAU",
-      "webViewLink": "https://drive.google.com/file/d/19-Vjl0qkIT7uZezwcrYIIYyGtVxhAIAU/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/19-Vjl0qkIT7uZezwcrYIIYyGtVxhAIAU/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1283,18 +1273,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐源深核：16模型三粒度48条原始精确结果；Hunyuan快/慢思考另8条。；核实中文原数据与21名标注者，明确日志去重不等于训练去污染；无LICENSE继续待核实。"
+        "change": "最近复核"
       }
     ],
     "sources": [

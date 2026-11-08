@@ -20,11 +20,11 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 来源：[1](https://arxiv.org/abs/2509.26574)（访问2026-11-07）
 
-**论文版本**：arXiv v4（2026-05-09 06:22:01 KST提交）；软件部署v2是另一个版本概念。
+**论文版本**：arXiv v4（2026-05-09 06:22:01 提交）；软件部署v2是另一个版本概念。
 
 来源：[1](https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md)（访问2026-11-07）；[2](https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md)（访问2026-11-07）；[3](https://arxiv.org/pdf/2509.26574)（访问2026-11-07）
 
-**发布日期**：原论文v1：2025-10-01 02:34:03 KST；仓库明确2025-11-21公开评测管线及70题，不能将二者视为v2首次上线日。
+**发布日期**：原论文v1：2025-10-01 02:34:03；仓库明确2025-11-21公开评测管线及70题，不能将二者视为v2首次上线日。
 
 来源：[1](https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md)（访问2026-11-07）；[2](https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md)（访问2026-11-07）；[3](https://arxiv.org/pdf/2509.26574)（访问2026-11-07）
 
@@ -170,7 +170,7 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://critpt.com/)（访问2026-11-07）
 
@@ -180,7 +180,7 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 核验说明：AA当前指数以40题Hard Subset计10%权重，且继续跑70题全量；Epoch 2026-10-30专项评审结论为信息不足。
 
-**修订历史**：arXiv提交：v1 2025-10-01 02:34:03 KST；v2 2025-10-01 11:12:55 KST；v3 2025-11-21 03:01:52 KST；v4 2026-05-09 06:22:01 KST。与部署数据v2分开。
+**修订历史**：arXiv提交：v1 2025-10-01 02:34:03；v2 2025-10-01 11:12:55；v3 2025-11-21 03:01:52；v4 2026-05-09 06:22:01。与部署数据v2分开。
 
 来源：[1](https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md)（访问2026-11-07）；[2](https://huggingface.co/datasets/CritPt-Benchmark/CritPt/raw/main/README.md)（访问2026-11-07）；[3](https://arxiv.org/pdf/2509.26574)（访问2026-11-07）
 
@@ -198,7 +198,7 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 ## 榜单快照
 
-**快照日**：2026-11-07 KST / Asia/Seoul
+**快照日**：2026-11-07
 
 来源：[1](https://critpt.com/)（访问2026-11-07）
 
@@ -264,19 +264,19 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 来源：[1](https://arxiv.org/abs/2509.26574)（访问2026-11-07）
 
-核验说明：本轮已下载并计算SHA-256及字节数；未上传Drive。
+核验说明：已下载并计算SHA-256及字节数；未上传。
 
 **原件SHA-256**：8762cee2328a98058fd22a2e0310c331122058f5b4255d5a57f845a31878d269
 
 来源：[1](https://arxiv.org/pdf/2509.26574)（访问2026-11-07）
 
-核验说明：本次下载PDF原字节散列；不声称已上传Drive。
+核验说明：本次下载PDF原字节散列；不声称已上传。
 
 **PDF字节数**：1308790
 
 来源：[1](https://arxiv.org/pdf/2509.26574)（访问2026-11-07）
 
-**Drive目录**：待核实
+**目录**：待核实
 
 来源：[1](https://critpt.com/)（访问2026-11-07）
 
@@ -286,11 +286,11 @@ CritPt把物理原创研究问题转化为可机器验证的复合挑战。原�
 
 来源：[1](https://critpt.com/)（访问2026-11-07）
 
-**Drive PDF**：待核实
+** PDF**：待核实
 
 来源：[1](https://critpt.com/)（访问2026-11-07）
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

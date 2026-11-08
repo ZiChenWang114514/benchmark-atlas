@@ -1,7 +1,7 @@
 {
   "id": "furniture-assembly",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Furniture Assembly Benchmark",
@@ -22,7 +22,7 @@
       ]
     },
     "version": {
-      "value": "运行CSV中见1.0.0与1.0.1；本轮榜单限1.0.0分轨",
+      "value": "运行CSV中见1.0.0与1.0.1；榜单限1.0.0分轨",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/furniture-assembly",
@@ -106,7 +106,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -117,7 +117,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "official_homepage": {
       "value": "https://epoch.ai/benchmarks/furniture-assembly",
@@ -187,7 +187,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "design_goals": {
@@ -302,7 +302,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "difficulty": {
       "value": "三产品按复杂度选择，错误可发生于较早而非最后一步。",
@@ -360,7 +360,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "comparability_warning": {
       "value": "不能把人类84%最佳组合称单人全卷成绩；运行CSV有不同任务版本，须分轨。",
@@ -374,7 +374,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/furniture-assembly",
@@ -389,7 +389,7 @@
           {
             "url": "https://epoch.ai/data/benchmarks.csv",
             "date": "2026-11-06",
-            "note": "Kimi K3.1 Pro，运行2026-11-06 20:34:34 KST，id UNKjzcpUBaxGsrr7zZZZWC；持续实跑证据。"
+            "note": "Kimi K3.1 Pro，运行2026-11-06 20:34:34，id UNKjzcpUBaxGsrr7zZZZWC；持续实跑证据。"
           }
         ]
       },
@@ -414,7 +414,7 @@
       ]
     },
     "saturation": {
-      "value": "本轮CSV中1.0.0最高0.833333（Claude Opus 5.5）；1.0.1最高0.791667（GPT-6.1 Terra）。不同版本分轨，60张照片/三产品不能支持泛化到全部空间推理已饱和。",
+      "value": "CSV中1.0.0最高0.833333（Claude Opus 5.5）；1.0.1最高0.791667（GPT-6.1 Terra）。不同版本分轨，60张照片/三产品不能支持泛化到全部空间推理已饱和。",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/furniture-assembly",
@@ -448,12 +448,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/furniture-assembly",
@@ -479,7 +479,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "results": {
       "value": [
@@ -490,9 +490,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.0",
           "run_id": "4QrkRM7KEDCQvg4wvfhz7N",
-          "run_started_at_kst": "2026-09-23T01:51:00+09:00",
+          "run_started_at_kst": "2026-09-23",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -502,9 +502,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.0",
           "run_id": "R4vjsSfDrDo6ECQWGTUdWe",
-          "run_started_at_kst": "2026-09-30T03:29:32+09:00",
+          "run_started_at_kst": "2026-09-30",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -514,9 +514,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.0",
           "run_id": "BSzNeBCFhFUnZswSqHtAed",
-          "run_started_at_kst": "2026-09-11T05:22:39+09:00",
+          "run_started_at_kst": "2026-09-11",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -526,9 +526,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.0",
           "run_id": "5xgoV6NXxdDqscnFNpP2vv",
-          "run_started_at_kst": "2026-09-30T00:17:08+09:00",
+          "run_started_at_kst": "2026-09-30",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -538,9 +538,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.0",
           "run_id": "9LZMBmKxeBgnf5mvgNvBjW",
-          "run_started_at_kst": "2026-09-11T05:23:45+09:00",
+          "run_started_at_kst": "2026-09-11",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -550,9 +550,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.1",
           "run_id": "HXVXUbvUJFGTDHeKh4XCiP",
-          "run_started_at_kst": "2026-10-27T05:00:34+09:00",
+          "run_started_at_kst": "2026-10-27",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -562,9 +562,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.1",
           "run_id": "bRw53PXBsZXrvWau95hb23",
-          "run_started_at_kst": "2026-10-14T02:15:28+09:00",
+          "run_started_at_kst": "2026-10-14",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -574,9 +574,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.1",
           "run_id": "UNKjzcpUBaxGsrr7zZZZWC",
-          "run_started_at_kst": "2026-11-06T20:34:34+09:00",
+          "run_started_at_kst": "2026-11-06",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -586,9 +586,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.1",
           "run_id": "iuNhWVj65sV54m3cKVwv9x",
-          "run_started_at_kst": "2026-10-16T07:49:11+09:00",
+          "run_started_at_kst": "2026-10-16",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         },
         {
@@ -598,9 +598,9 @@
           "metric": "mean_score (0–1)",
           "task_version": "1.0.1",
           "run_id": "KHGiQxkc3Xh4BiQAaBUizx",
-          "run_started_at_kst": "2026-11-02T22:47:12+09:00",
+          "run_started_at_kst": "2026-11-02",
           "source_url": "https://epoch.ai/data/benchmarks.csv",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "Epoch成功运行记录；rank只限同任务版本分轨"
         }
       ],
@@ -635,7 +635,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "github_issues": {
       "value": "待核实",
@@ -646,7 +646,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "official_social": {
       "value": "https://x.com/EpochAIResearch",
@@ -677,7 +677,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -688,7 +688,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -699,7 +699,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -710,7 +710,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
       "value": [
@@ -744,18 +744,17 @@
       }
     ],
     "status": "待核实",
-    "note": "本组仅本地研究，未上传Drive。"
+    "note": "本组仅本地研究，未上传。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "aa-briefcase",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AA-Briefcase",
@@ -382,7 +382,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
@@ -453,7 +453,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
@@ -491,7 +491,7 @@
           "track": "官方当前v1.1",
           "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "confidence_interval_95": "-11 / +12"
         },
         {
@@ -502,7 +502,7 @@
           "track": "官方当前v1.1",
           "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "confidence_interval_95": "-11 / +12"
         },
         {
@@ -513,7 +513,7 @@
           "track": "官方当前v1.1",
           "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "confidence_interval_95": "-10 / +11"
         }
       ],
@@ -600,7 +600,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮检查官方评测页、首发文章和方法页及PDF检索，未定位原始论文PDF。网页方法材料不冒充原始PDF；drive_pdf维持缺失。"
+      "note": "检查官方评测页、首发文章和方法页及PDF检索，未定位原始论文PDF。网页方法材料不冒充原始PDF；drive_pdf维持缺失。"
     },
     "sha256": {
       "value": "待核实",
@@ -625,13 +625,10 @@
       "status": "待核实"
     },
     "drive_folder": {
-      "value": {
-        "id": "1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv",
-        "webViewLink": "https://drive.google.com/drive/folders/1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -640,26 +637,18 @@
       "value": [
         {
           "type": "官方方法页HTML归档（非论文PDF）",
-          "id": "1VG1TTaPBvlUifj4SjEE83SCeWJeFjjiM",
-          "webViewLink": "https://drive.google.com/file/d/1VG1TTaPBvlUifj4SjEE83SCeWJeFjjiM/view?usp=drivesdk",
           "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
           "accessed": "2026-11-07",
           "sha256": "ba0e7c1f5b6e70c09d9a33f7ba0cf670630625c0edfde2d374b56fdeef8c0033",
           "bytes": 1813260
         },
         {
-          "type": "中文介绍Google Doc",
-          "id": "1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I",
-          "webViewLink": "https://docs.google.com/document/d/1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -681,18 +670,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,6 +1,6 @@
 # MoleculeNet
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 MoleculeNet不是自然语言问答题库，而是统一分子性质预测数据、特征表示、划分和指标的监督学习评测集合。原论文核心为17个数据集，既有分类也有回归；当前DeepChem社区维护的MoleculeNet已扩展到更广科学数据。新补回的官方README成绩来自2020–2021历史提交，只按子任务展示，不把仍可访问的旧榜称为2026年SOTA。
 [本页导读依据](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）
@@ -39,7 +39,7 @@ arXiv v3
 
 ### 发布日期
 
-2017-03-02 09:39:53 KST（arXiv v1）
+2017-03-02 09:39:53 （arXiv v1）
 
 [来源1](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）
 
@@ -187,128 +187,128 @@ DeepChem开发者社区维护MoleculeNet loaders；当前官方教程明确说�
 
 ```json
 {
-  "scope": "原论文v3表1；17个数据集；化合物可跨数据集重叠，不把各行相加当唯一分子数",
+  "scope": "原论文v3表1；17个数据集；化合物可跨数据集重叠，不把各行相加当唯一分子数"
   "datasets": [
     {
-      "dataset": "QM7",
-      "compounds": 7160,
-      "tasks": 1,
-      "recommended_split": "stratified",
+      "dataset": "QM7"
+      "compounds": 7160
+      "tasks": 1
+      "recommended_split": "stratified"
       "metric": "MAE"
-    },
+    }
     {
-      "dataset": "QM7b",
-      "compounds": 7210,
-      "tasks": 14,
-      "recommended_split": "random",
+      "dataset": "QM7b"
+      "compounds": 7210
+      "tasks": 14
+      "recommended_split": "random"
       "metric": "MAE"
-    },
+    }
     {
-      "dataset": "QM8",
-      "compounds": 21786,
-      "tasks": 12,
-      "recommended_split": "random",
+      "dataset": "QM8"
+      "compounds": 21786
+      "tasks": 12
+      "recommended_split": "random"
       "metric": "MAE"
-    },
+    }
     {
-      "dataset": "QM9",
-      "compounds": 133885,
-      "tasks": 12,
-      "recommended_split": "random",
+      "dataset": "QM9"
+      "compounds": 133885
+      "tasks": 12
+      "recommended_split": "random"
       "metric": "MAE"
-    },
+    }
     {
-      "dataset": "ESOL",
-      "compounds": 1128,
-      "tasks": 1,
-      "recommended_split": "random",
+      "dataset": "ESOL"
+      "compounds": 1128
+      "tasks": 1
+      "recommended_split": "random"
       "metric": "RMSE"
-    },
+    }
     {
-      "dataset": "FreeSolv",
-      "compounds": 642,
-      "tasks": 1,
-      "recommended_split": "random",
+      "dataset": "FreeSolv"
+      "compounds": 642
+      "tasks": 1
+      "recommended_split": "random"
       "metric": "RMSE"
-    },
+    }
     {
-      "dataset": "Lipophilicity",
-      "compounds": 4200,
-      "tasks": 1,
-      "recommended_split": "random",
+      "dataset": "Lipophilicity"
+      "compounds": 4200
+      "tasks": 1
+      "recommended_split": "random"
       "metric": "RMSE"
-    },
+    }
     {
-      "dataset": "PCBA",
-      "compounds": 437929,
-      "tasks": 128,
-      "recommended_split": "random",
+      "dataset": "PCBA"
+      "compounds": 437929
+      "tasks": 128
+      "recommended_split": "random"
       "metric": "PRC-AUC"
-    },
+    }
     {
-      "dataset": "MUV",
-      "compounds": 93087,
-      "tasks": 17,
-      "recommended_split": "random",
+      "dataset": "MUV"
+      "compounds": 93087
+      "tasks": 17
+      "recommended_split": "random"
       "metric": "PRC-AUC"
-    },
+    }
     {
-      "dataset": "HIV",
-      "compounds": 41127,
-      "tasks": 1,
-      "recommended_split": "scaffold",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "PDBbind",
-      "compounds": 11908,
-      "tasks": 1,
-      "recommended_split": "time",
-      "metric": "RMSE"
-    },
-    {
-      "dataset": "BACE",
-      "compounds": 1513,
-      "tasks": 1,
-      "recommended_split": "scaffold",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "BBBP",
-      "compounds": 2039,
-      "tasks": 1,
-      "recommended_split": "scaffold",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "Tox21",
-      "compounds": 7831,
-      "tasks": 12,
-      "recommended_split": "random",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "ToxCast",
-      "compounds": 8575,
-      "tasks": 617,
-      "recommended_split": "random",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "SIDER",
-      "compounds": 1427,
-      "tasks": 27,
-      "recommended_split": "random",
-      "metric": "ROC-AUC"
-    },
-    {
-      "dataset": "ClinTox",
-      "compounds": 1478,
-      "tasks": 2,
-      "recommended_split": "random",
+      "dataset": "HIV"
+      "compounds": 41127
+      "tasks": 1
+      "recommended_split": "scaffold"
       "metric": "ROC-AUC"
     }
-  ],
+    {
+      "dataset": "PDBbind"
+      "compounds": 11908
+      "tasks": 1
+      "recommended_split": "time"
+      "metric": "RMSE"
+    }
+    {
+      "dataset": "BACE"
+      "compounds": 1513
+      "tasks": 1
+      "recommended_split": "scaffold"
+      "metric": "ROC-AUC"
+    }
+    {
+      "dataset": "BBBP"
+      "compounds": 2039
+      "tasks": 1
+      "recommended_split": "scaffold"
+      "metric": "ROC-AUC"
+    }
+    {
+      "dataset": "Tox21"
+      "compounds": 7831
+      "tasks": 12
+      "recommended_split": "random"
+      "metric": "ROC-AUC"
+    }
+    {
+      "dataset": "ToxCast"
+      "compounds": 8575
+      "tasks": 617
+      "recommended_split": "random"
+      "metric": "ROC-AUC"
+    }
+    {
+      "dataset": "SIDER"
+      "compounds": 1427
+      "tasks": 27
+      "recommended_split": "random"
+      "metric": "ROC-AUC"
+    }
+    {
+      "dataset": "ClinTox"
+      "compounds": 1478
+      "tasks": 2
+      "recommended_split": "random"
+      "metric": "ROC-AUC"
+    }
+  ]
   "current_scope": "当前MoleculeNet已扩为更广科学数据集合，不能把当前全部loaders等同原论文17子集"
 }
 ```
@@ -379,11 +379,11 @@ https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html)（访问 2026-11-08）
 
@@ -401,16 +401,16 @@ https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py
 {
   "revisions": [
     {
-      "version": "v1",
-      "date_kst": "2017-03-02T09:39:53+09:00"
-    },
+      "version": "v1"
+      "date_kst": "2017-03-02"
+    }
     {
-      "version": "v2",
-      "date_kst": "2017-10-11T17:05:38+09:00"
-    },
+      "version": "v2"
+      "date_kst": "2017-10-11"
+    }
     {
-      "version": "v3",
-      "date_kst": "2018-10-26T09:52:38+09:00"
+      "version": "v3"
+      "date_kst": "2018-10-26"
     }
   ]
 }
@@ -626,81 +626,81 @@ a017e94ab6a9b3165a99035b4839a10646e07f632f9406de98dd4c220cae3701
 
 [来源1](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1bnYWtj3DVPxne0_RTddz8y_X4XewlF6z",
-  "webViewLink": "https://drive.google.com/drive/folders/1bnYWtj3DVPxne0_RTddz8y_X4XewlF6z"
+  "id": "1bnYWtj3DVPxne0_RTddz8y_X4XewlF6z"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1bnYWtj3DVPxne0_RTddz8y_X4XewlF6z)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw",
-    "webViewLink": "https://docs.google.com/document/d/1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw/edit?usp=drivesdk"
-  },
+    "kind": "中文介绍 Google Doc"
+    "id": "1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw"
+    "webViewLink": "
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/abs/1703.00564",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/abs/1703.00564"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/pdf/1703.00564",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/pdf/1703.00564"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://deepchem.io/tutorials/an-introduction-to-moleculenet/",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://deepchem.io/tutorials/an-introduction-to-moleculenet/"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/deepchem/deepchem/blob/master/LICENSE",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/deepchem/deepchem/blob/master/LICENSE"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/deepchem/deepchem/blob/master/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/deepchem/deepchem/blob/master/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/deepchem/moleculenet/blob/master/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/deepchem/moleculenet/blob/master/README.md"
     "accessed": "2026-11-08"
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw/edit?usp=drivesdk)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）；[来源4](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）；[来源5](https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html)（访问 2026-11-08）；[来源6](https://github.com/deepchem/deepchem/blob/master/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/deepchem/deepchem/blob/master/README.md)（访问 2026-11-08）；[来源8](https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py)（访问 2026-11-08）；[来源9](https://github.com/deepchem/moleculenet/blob/master/README.md)（访问 2026-11-08）
+[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）；[来源4](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）；[来源5](https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html)（访问 2026-11-08）；[来源6](https://github.com/deepchem/deepchem/blob/master/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/deepchem/deepchem/blob/master/README.md)（访问 2026-11-08）；[来源8](https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py)（访问 2026-11-08）；[来源9](https://github.com/deepchem/moleculenet/blob/master/README.md)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 ```json
 {
-  "id": "1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G",
-  "webViewLink": "https://drive.google.com/file/d/1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G/view?usp=drivesdk"
+  "id": "1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1k7ZzQNpV6YbUUq_qGKgtE-gaBLO1xC3G/view?usp=drivesdk)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ## 变更记录
 
@@ -709,19 +709,19 @@ a017e94ab6a9b3165a99035b4839a10646e07f632f9406de98dd4c220cae3701
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

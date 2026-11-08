@@ -1,7 +1,7 @@
 {
   "id": "humanevalfix",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "HumanEvalFix",
@@ -41,7 +41,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-08-14T22:53:54+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2023-08-14（arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.07124",
@@ -367,7 +367,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.07124",
@@ -406,13 +406,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-08-14T22:53:54+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2023-08-14"
         },
         {
           "version": "v2",
-          "submitted_at": "2024-02-18T18:46:06+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2024-02-18"
         }
       ],
       "sources": [
@@ -421,7 +419,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+      "note": "arXiv原始UTC时间已转换为；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "原论文表2六语言平均pass@1：GPT-4 47.8%、OctoCoder 27.0%；这是2023/2024历史基线，不能据此判定2026年当前饱和程度。",
@@ -453,7 +451,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
+      "value": "2026-11-08 （采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.07124",
@@ -496,7 +494,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -507,7 +505,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -518,7 +516,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -529,7 +527,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -540,7 +538,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -551,7 +549,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -562,7 +560,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -573,7 +571,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -584,7 +582,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -595,7 +593,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -606,7 +604,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -617,7 +615,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -628,7 +626,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -639,7 +637,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -650,7 +648,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -661,7 +659,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -672,7 +670,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -683,7 +681,7 @@
           "source_url": "https://arxiv.org/pdf/2308.07124",
           "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
           "source_date": "论文v2；实际API运行日待核实",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "model": "ScienceIDE 4B SFT 训练设置（精确检查点待核实）",
@@ -692,9 +690,9 @@
           "benchmark_version": "HumanEvalFix JS",
           "result_type": "H2 学术实验",
           "source_date": "2026-09-16",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "track": "ScienceIDE H2学术实验（相对改善，非绝对榜分）",
-          "snapshot_date": "2026-11-07 KST（历史证据保留，本轮未复开此文）",
+          "snapshot_date": "2026-11-07 （历史证据保留，未复开此文）",
           "rank": null
         }
       ],
@@ -711,7 +709,7 @@
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "本轮补入原作者论文表2的精确分语言FixTests基线；未找到独立实时官方总榜。ScienceIDE相对改善保留旧采集日并单列，不转换为绝对pass@1；FixDocs不得混入本轨。",
+      "value": "补入原作者论文表2的精确分语言FixTests基线；未找到独立实时官方总榜。ScienceIDE相对改善保留旧采集日并单列，不转换为绝对pass@1；FixDocs不得混入本轨。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2308.07124",
@@ -788,7 +786,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 2618401,
@@ -798,16 +796,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK",
-        "webViewLink": "https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -815,18 +810,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY",
-          "webViewLink": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://github.com/bigcode-project/octopack",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -834,13 +823,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn",
-      "webViewLink": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -849,18 +835,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+        "change": "最近复核"
       }
     ],
     "sources": [

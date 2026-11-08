@@ -1,10 +1,10 @@
 # Excel Modeling Benchmark v1.1
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 EMB评估的是能在真实Excel中重算、联动并切换情景的金融工作簿，而非单独回答某个财务数字。Template和Scratch对同一专家任务施加不同交付约束；榜单的部分信用得分反映完成程度，不等于可交付率。
 
-编辑状态：已核实存在；官方资料研究快照，未知保留待核实；trending: B
+最近复核
 
 ## 基本信息
 
@@ -35,7 +35,7 @@ v1.1
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -83,7 +83,7 @@ Agent
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -94,7 +94,7 @@ Agent
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -121,7 +121,7 @@ https://www.vals.ai/benchmarks/emb-v1-1
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -306,7 +306,7 @@ Vals AI
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -322,7 +322,7 @@ v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -335,7 +335,7 @@ v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.
     - **date_type**：source_calendar_date
     - **note**：Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。
 
-说明：热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
+说明：热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -372,7 +372,7 @@ EMB v1.0是归档旧版；v1.1调整裁判和匹配。Template与Scratch是同�
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -398,30 +398,30 @@ https://www.vals.ai/benchmarks/emb-v1-1
 ```json
 [
   {
-    "rank": 1,
-    "model": "Claude Fable 5.1",
-    "score": 76.73,
-    "metric": "Accuracy (%)",
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
-    "accessed": "2026-11-07",
+    "rank": 1
+    "model": "Claude Fable 5.1"
+    "score": 76.73
+    "metric": "Accuracy (%)"
+    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+    "accessed": "2026-11-07"
     "source_date": "2026-11-05"
-  },
+  }
   {
-    "rank": 2,
-    "model": "Gemini 4 Carbon",
-    "score": 76.47,
-    "metric": "Accuracy (%)",
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
-    "accessed": "2026-11-07",
+    "rank": 2
+    "model": "Gemini 4 Carbon"
+    "score": 76.47
+    "metric": "Accuracy (%)"
+    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+    "accessed": "2026-11-07"
     "source_date": "2026-11-05"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Claude Sonnet 5.5",
-    "score": 75.9,
-    "metric": "Accuracy (%)",
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1",
-    "accessed": "2026-11-07",
+    "rank": 3
+    "model": "Claude Sonnet 5.5"
+    "score": 75.9
+    "metric": "Accuracy (%)"
+    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+    "accessed": "2026-11-07"
     "source_date": "2026-11-05"
   }
 ]
@@ -484,7 +484,7 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 
 状态：待核实。
 
-说明：本轮已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
+说明：已打开官方方法与榜页，未从已读取的一手资料定位相应论文/公开代码资产；保留待核实，不把未定位写成官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
@@ -511,7 +511,7 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 待核实
 
@@ -527,24 +527,24 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 - - **type**：官方方法或项目页
   - **url**：https://www.vals.ai/benchmarks/emb-v1-1
   - **accessed**：2026-11-07
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://www.vals.ai/benchmarks/emb-v1-1
   - **accessed**：2026-11-07
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：Asia/Shanghai (UTC+8)
-  - **change**：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。
+  - **timezone**： (UTC+8)
+  - **change**：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

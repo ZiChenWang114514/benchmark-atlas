@@ -1,10 +1,10 @@
 # FrontierMath
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 FrontierMath Tiers1–4强调原创高难数学和可验证最终答案，但必须跟踪修订。当前v2处理了大量题目错误，官方CSV已出现Tier4满分配置；这既不同于最初论文低分时代，也不意味着开放数学问题被一并解决。
 
-编辑状态：第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造；trending: B
+最近复核
 
 ## 基本信息
 
@@ -237,7 +237,7 @@ v2共338题：Tiers1–3为295、Tier4为43；公开12题（10+2），其余私�
 
 ### 任务形式
 
-难数学问题，提交无参Python answer()函数返回整数或SymPy对象等；不是仅输出自然语言证明。
+难数学问题，提交无参Python answer函数返回整数或SymPy对象等；不是仅输出自然语言证明。
 
 [一手资料1](https://arxiv.org/abs/2411.04872)（访问 2026-11-07）
 
@@ -281,7 +281,7 @@ Tiers1–3与极难Tier4；不能把不同tier混为同一分母。
 
 ### 评分
 
-返回Python对象由验证器检查；answer()与每次Python工具调用运行上限30秒。
+返回Python对象由验证器检查；answer与每次Python工具调用运行上限30秒。
 
 [一手资料1](https://epoch.ai/benchmarks/frontiermath)（访问 2026-11-07）
 
@@ -315,7 +315,7 @@ v1与v2、Tiers1–3与Tier4、私有与公开样例、不同工具/token预算�
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://epoch.ai/frontiermath)（访问 2026-11-07）
 
@@ -332,7 +332,7 @@ v1与v2、Tiers1–3与Tier4、私有与公开样例、不同工具/token预算�
         - **accessed**：2026-11-07
       - - **url**：https://arxiv.org/abs/2411.04872
         - **accessed**：2026-11-07
-  - **previous_release_date_field**：- **value**：2024-11-08（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）
+  - **previous_release_date_field**：- **value**：2024-11-08（arXiv初稿日期，非独立数据集首发声明）
     - **sources**：- - **url**：https://arxiv.org/abs/2411.04872
         - **accessed**：2026-11-07
   - **previous_status_field**：- **value**：Tiers 1–4 v2于2026-06-12发布；官网称修正了42%题目中的错误。官网总项目另列Open Problems、Erdős组件，不与Tiers 1–4分数混用。
@@ -352,28 +352,28 @@ v1与v2、Tiers1–3与Tier4、私有与公开样例、不同工具/token预算�
 ### 材料沿革
 
 - **arxiv_history**：- - **version**：v1
-    - **submitted_at_kst**：2024-11-08T02:07:35+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2024-11-08
+    - **timezone**：
   - - **version**：v2
-    - **submitted_at_kst**：2024-11-13T10:06:35+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2024-11-13
+    - **timezone**：
   - - **version**：v3
-    - **submitted_at_kst**：2024-11-15T01:26:03+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2024-11-15
+    - **timezone**：
   - - **version**：v4
-    - **submitted_at_kst**：2024-11-23T03:00:00+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2024-11-23
+    - **timezone**：
   - - **version**：v5
-    - **submitted_at_kst**：2024-12-20T12:27:06+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2024-12-20
+    - **timezone**：
   - - **version**：v6
-    - **submitted_at_kst**：2025-08-29T08:10:50+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2025-08-29
+    - **timezone**：
   - - **version**：v7
-    - **submitted_at_kst**：2025-12-23T11:23:47+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2025-12-23
+    - **timezone**：
 - **previous_context**：- **arxiv_version**：arXiv v7
-  - **history_note**：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。
+  - **history_note**：完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。
   - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2609.19134v1
       - **date**：2026-09-16
       - **note**：ScienceIDE §4.1–4.2及参考文献[34]引用 FrontierMath 作为前沿数学评测；为H2学术引用，不等同于本论文实跑。
@@ -408,7 +408,7 @@ v1与v2、Tiers1–3与Tier4、私有与公开样例、不同工具/token预算�
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://epoch.ai/benchmarks/frontiermath)（访问 2026-11-07）
 
@@ -432,173 +432,173 @@ https://epoch.ai/benchmarks/frontiermath
 ```json
 [
   {
-    "rank": 1,
-    "model": "gpt-6.1-sol_max",
-    "score": 0.9368421052631579,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tiers 1–3",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tiers_1_3_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-09-30T07:00:34+09:00",
-    "model_release_date": "2026-09-29",
-    "stderr": 0.014434038295343787,
-    "result_id": "aBoQLaqnXsLPrsbN8wYgUp",
+    "rank": 1
+    "model": "gpt-6.1-sol_max"
+    "score": 0.9368421052631579
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tiers 1–3"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tiers_1_3_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-09-30"
+    "model_release_date": "2026-09-29"
+    "stderr": 0.014434038295343787
+    "result_id": "aBoQLaqnXsLPrsbN8wYgUp"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 1,
-    "model": "gpt-6-astra_max",
-    "score": 0.9368421052631579,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tiers 1–3",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tiers_1_3_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-08-30T23:57:43+09:00",
-    "model_release_date": "2026-09-03",
-    "stderr": 0.014434038295343787,
-    "result_id": "csK2fe5T8p2R7WgoJUu6bZ",
+    "rank": 1
+    "model": "gpt-6-astra_max"
+    "score": 0.9368421052631579
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tiers 1–3"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tiers_1_3_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-08-30"
+    "model_release_date": "2026-09-03"
+    "stderr": 0.014434038295343787
+    "result_id": "csK2fe5T8p2R7WgoJUu6bZ"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 3,
-    "model": "claude-opus-5-5_max",
-    "score": 0.9122807017543859,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tiers 1–3",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tiers_1_3_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-09-23T03:27:39+09:00",
-    "model_release_date": "2026-09-22",
-    "stderr": 0.016786209858442095,
-    "result_id": "LPxhvBNEn7S3xkRZUgcvc9",
+    "rank": 3
+    "model": "claude-opus-5-5_max"
+    "score": 0.9122807017543859
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tiers 1–3"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tiers_1_3_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-09-23"
+    "model_release_date": "2026-09-22"
+    "stderr": 0.016786209858442095
+    "result_id": "LPxhvBNEn7S3xkRZUgcvc9"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 4,
-    "model": "gpt-6.1-terra_max",
-    "score": 0.9087719298245615,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tiers 1–3",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tiers_1_3_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-10-27T05:00:37+09:00",
-    "model_release_date": "2026-10-26",
-    "stderr": 0.017085690144166794,
-    "result_id": "KkEoE6hBF8RB4ff43Xv63e",
+    "rank": 4
+    "model": "gpt-6.1-terra_max"
+    "score": 0.9087719298245615
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tiers 1–3"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tiers_1_3_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-10-27"
+    "model_release_date": "2026-10-26"
+    "stderr": 0.017085690144166794
+    "result_id": "KkEoE6hBF8RB4ff43Xv63e"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 5,
-    "model": "claude-fable-5-1_max",
-    "score": 0.9017543859649123,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tiers 1–3",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tiers_1_3_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-09-02T03:38:24+09:00",
-    "model_release_date": "2026-09-01",
-    "stderr": 0.017662067789031757,
-    "result_id": "g7dXwZH2tWvqLg3X5idGs2",
+    "rank": 5
+    "model": "claude-fable-5-1_max"
+    "score": 0.9017543859649123
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tiers 1–3"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tiers_1_3_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-09-02"
+    "model_release_date": "2026-09-01"
+    "stderr": 0.017662067789031757
+    "result_id": "g7dXwZH2tWvqLg3X5idGs2"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 1,
-    "model": "gpt-6.1-sol_max",
-    "score": 1.0,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tier 4",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tier_4_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-09-30T07:00:34+09:00",
-    "model_release_date": "2026-09-29",
-    "stderr": 0.0,
-    "result_id": "HgAUm5zxrWbkfYUdeJMGzL",
+    "rank": 1
+    "model": "gpt-6.1-sol_max"
+    "score": 1.0
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tier 4"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tier_4_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-09-30"
+    "model_release_date": "2026-09-29"
+    "stderr": 0.0
+    "result_id": "HgAUm5zxrWbkfYUdeJMGzL"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "gpt-6-astra_high",
-    "score": 0.976,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tier 4",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tier_4_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
-    "model_release_date": "2026-09-03",
-    "stderr": 0.024,
-    "result_id": "f46NQY9jSxyKqo9qzrmk6F",
+    "rank": 2
+    "model": "gpt-6-astra_high"
+    "score": 0.976
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tier 4"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tier_4_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-08-30"
+    "model_release_date": "2026-09-03"
+    "stderr": 0.024
+    "result_id": "f46NQY9jSxyKqo9qzrmk6F"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "gpt-6-astra_xhigh",
-    "score": 0.976,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tier 4",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tier_4_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
-    "model_release_date": "2026-09-03",
-    "stderr": 0.024,
-    "result_id": "AfKJ2DGMhkjZmeFZxGoY3w",
+    "rank": 2
+    "model": "gpt-6-astra_xhigh"
+    "score": 0.976
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tier 4"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tier_4_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-08-30"
+    "model_release_date": "2026-09-03"
+    "stderr": 0.024
+    "result_id": "AfKJ2DGMhkjZmeFZxGoY3w"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "gpt-6-astra_max",
-    "score": 0.976,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tier 4",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tier_4_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
-    "model_release_date": "2026-09-03",
-    "stderr": 0.024,
-    "result_id": "f7BCT27LzcAtaLDP2tcrWF",
+    "rank": 2
+    "model": "gpt-6-astra_max"
+    "score": 0.976
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tier 4"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tier_4_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-08-30"
+    "model_release_date": "2026-09-03"
+    "stderr": 0.024
+    "result_id": "f7BCT27LzcAtaLDP2tcrWF"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
-  },
+  }
   {
-    "rank": 5,
-    "model": "gpt-6-astra_medium",
-    "score": 0.975609756097561,
-    "unit": "fraction (0–1)",
-    "metric": "mean_score",
-    "scope": "Tier 4",
-    "benchmark_version": "v2",
-    "source_url": "https://epoch.ai/data/benchmark_data.zip",
-    "source_file": "frontiermath_tier_4_v2.csv",
-    "accessed": "2026-11-07",
-    "evaluation_started_at_kst": "2026-08-30T11:22:12+09:00",
-    "model_release_date": "2026-09-03",
-    "stderr": 0.024390243902439022,
-    "result_id": "5sNRWemuVwb4adBaSwrLFf",
+    "rank": 5
+    "model": "gpt-6-astra_medium"
+    "score": 0.975609756097561
+    "unit": "fraction (0–1)"
+    "metric": "mean_score"
+    "scope": "Tier 4"
+    "benchmark_version": "v2"
+    "source_url": "https://epoch.ai/data/benchmark_data.zip"
+    "source_file": "frontiermath_tier_4_v2.csv"
+    "accessed": "2026-11-07"
+    "evaluation_started_at_kst": "2026-08-30"
+    "model_release_date": "2026-09-03"
+    "stderr": 0.024390243902439022
+    "result_id": "5sNRWemuVwb4adBaSwrLFf"
     "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
   }
 ]
@@ -608,7 +608,7 @@ https://epoch.ai/benchmarks/frontiermath
 
 ### 覆盖范围
 
-重下载官方ZIP，Tiers1–3 v2有123配置、Tier4 v2有79配置；分别取前5，保留0–1原始比例和stderr，不跨tier混排。现有得分已与源CSV逐行复核；运行启动时间转为KST，发布日与采集日不冒充运行结束日。
+重下载官方ZIP，Tiers1–3 v2有123配置、Tier4 v2有79配置；分别取前5，保留0–1原始比例和stderr，不跨tier混排。现有得分已与源CSV逐行复核；运行启动时间转为，发布日与采集日不冒充运行结束日。
 
 [一手资料1](https://epoch.ai/data/benchmark_data.zip)（访问 2026-11-07）
 
@@ -660,7 +660,7 @@ https://arxiv.org/pdf/2411.04872
 
 9e6210b5b8afe17f70a1a5eaed89e4ed2f4f38e255b1766db34763208a6dcd25
 
-说明：实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。
+说明：实际下载的源站PDF字节摘要；不据此声称副本已更新。
 
 [一手资料1](https://arxiv.org/pdf/2411.04872)（访问 2026-11-07）
 
@@ -672,44 +672,44 @@ https://arxiv.org/pdf/2411.04872
 [一手资料1](https://arxiv.org/pdf/2411.04872)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 - **id**：1VBc_OBS50BtqPUaQmD_1gMoO-UJfb59i
-- **webViewLink**：https://drive.google.com/drive/folders/1VBc_OBS50BtqPUaQmD_1gMoO-UJfb59i
+- **webViewLink**：
 
-[一手资料1](https://drive.google.com/drive/folders/1VBc_OBS50BtqPUaQmD_1gMoO-UJfb59i)（访问 2026-11-07）
+[一手资料1]( 2026-11-07）
 
 
 ### 其他官方资料
 
 - - **existing_archive**：- **chinese_intro_doc**：- **id**：19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM
-      - **webViewLink**：https://docs.google.com/document/d/19TAdXbQK7MSnuGLX_OwAb3DsSO3sRLkB6f31wFOoAAM/edit?usp=drivesdk
+      - **webViewLink**：
       - **mimeType**：application/vnd.google-apps.document
     - **local_markdown**：content/benchmarks/frontiermath.md
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://epoch.ai/data/benchmark_data.zip
   - **accessed**：2026-11-07
 
 [一手资料1](https://epoch.ai/data/benchmark_data.zip)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：1quGcTxfR3XDelfNEEcAA4tKk4cCwjZX3
-- **webViewLink**：https://drive.google.com/file/d/1quGcTxfR3XDelfNEEcAA4tKk4cCwjZX3/view?usp=drivesdk
+- **webViewLink**：
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul
+  - **timezone**：
   - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul
-  - **change**：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+  - **timezone**：
+  - **change**：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Shanghai
+  - **timezone**：
   - **change**：近期热门版本复核：v2修正42%题目中的错误：Tiers 1–3改123题并删5题，Tier 4改12题并删7题；现分别295题和43题，总计338题，公开10+2题。v1留作历史，不混合跨版分数；Erdős/Open Problems并非v2 Tiers 1–4同一分母。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
   - **sources**：- - **url**：https://epoch.ai/benchmarks/frontiermath
       - **accessed**：2026-11-07
@@ -720,5 +720,5 @@ https://arxiv.org/pdf/2411.04872
     - - **url**：https://epoch.ai/data/benchmark_data.zip
       - **accessed**：2026-11-07
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

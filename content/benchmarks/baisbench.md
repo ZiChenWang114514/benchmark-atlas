@@ -1,8 +1,8 @@
 # BAISBench
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -24,7 +24,7 @@ Biological AI Scientist Benchmark（BAISBench；仓库README仍称AISBench）
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -36,7 +36,7 @@ v2；最近论文日期 2026-01-18
 
 ### 发布日期
 
-2025-05-13 16:33:54（Asia/Shanghai，UTC+8；arXiv v1首次提交）
+2025-05-13 16:33:54（，UTC+8；arXiv v1首次提交）
 
 来源：[1]
 
@@ -124,7 +124,7 @@ EperLuo/BAISBench与EperLuo/BaisBench数据账号。
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -251,7 +251,7 @@ Task1保存输出中Pantheon只运行organ_list[:6]，其均分0.420766729440657
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -261,13 +261,13 @@ Task1保存输出中Pantheon只运行organ_list[:6]，其均分0.420766729440657
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
 ### 版本脉络
 
-v1：2025-05-13T16:33:54+08:00；v2：2026-01-18T17:39:51+08:00；scope：两任务官方发布与复现Notebook；引用不代表他人重新运行。
+v1：2025-05-13；v2：2026-01-18；scope：两任务官方发布与复现Notebook；引用不代表他人重新运行。
 
 来源：[1][4]
 
@@ -289,7 +289,7 @@ v1：2025-05-13T16:33:54+08:00；v2：2026-01-18T17:39:51+08:00；scope：两任
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -297,7 +297,7 @@ v1：2025-05-13T16:33:54+08:00；v2：2026-01-18T17:39:51+08:00；scope：两任
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -313,7 +313,7 @@ https://github.com/EperLuo/BAISBench；https://raw.githubusercontent.com/EperLuo
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -329,11 +329,11 @@ https://github.com/EperLuo/BAISBench；https://raw.githubusercontent.com/EperLuo
 | 4 | scChat | 0.15367114184342404 | hierarchical annotation macro score (0–1) |
 | 5 | AutoBA | 0.0 | hierarchical annotation macro score (0–1) |
 
-- STELLA：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；本轮未重跑；n_organs：15
-- Human with GPT-4o：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；本轮未重跑；n_organs：15
-- Biomni：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；本轮未重跑；n_organs：15
-- scChat：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；本轮未重跑；n_organs：15
-- AutoBA：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；本轮未重跑；n_organs：15
+- STELLA：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；未重跑；n_organs：15
+- Human with GPT-4o：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；未重跑；n_organs：15
+- Biomni：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；未重跑；n_organs：15
+- scChat：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；未重跑；n_organs：15
+- AutoBA：source_url：https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb；accessed：2026-11-07；source_type：官方复现notebook既有输出；未重跑；n_organs：15
 
 #### 官方Task1.ipynb保存输出：DPTA，仅前6器官
 
@@ -355,7 +355,7 @@ https://github.com/EperLuo/BAISBench；https://raw.githubusercontent.com/EperLuo
 
 ### 覆盖边界
 
-本轮实际读取两个官方Notebook保存输出，不估算论文图柱。DPTA15器官、Pantheon6器官、SD193题三轨分开；rank只在本页已转录同轨条目内排序，不能称项目完整实时排名。Notebook未注明每次运行日期，采集日不是实验日。论文其他系统精确数值仍待核实。
+实际读取两个官方Notebook保存输出，不估算论文图柱。DPTA15器官、Pantheon6器官、SD193题三轨分开；rank只在本页已转录同轨条目内排序，不能称项目完整实时排名。Notebook未注明每次运行日期，采集日不是实验日。论文其他系统精确数值仍待核实。
 
 来源：[7][8][2]
 
@@ -379,7 +379,7 @@ https://github.com/EperLuo/BAISBench/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -389,7 +389,7 @@ https://github.com/EperLuo/BAISBench/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -407,7 +407,7 @@ https://arxiv.org/pdf/2505.08341
 
 来源：[2]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -415,9 +415,9 @@ https://arxiv.org/pdf/2505.08341
 
 来源：[2]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1UnT52NfQw39t6FVzCs21Y3-XVIzVzNJC；webViewLink：https://drive.google.com/drive/folders/1UnT52NfQw39t6FVzCs21Y3-XVIzVzNJC
+id：1UnT52NfQw39t6FVzCs21Y3-XVIzVzNJC；webViewLink：
 
 来源：[1]
 
@@ -427,19 +427,19 @@ id：1UnT52NfQw39t6FVzCs21Y3-XVIzVzNJC；webViewLink：https://drive.google.com/
 
 来源：[11]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo；webViewLink：https://drive.google.com/file/d/1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo/view
+id：1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo；webViewLink：
 
 来源：[1]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- 2026-11-07（Asia/Seoul）：第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

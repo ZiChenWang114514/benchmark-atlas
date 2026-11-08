@@ -1,2063 +1,2063 @@
 {
- "generated_at": "2026-11-07",
- "window": {
-  "from": "2026-08-01",
-  "through": "2026-11-07",
-  "frontier_launch_extension_from": "2026-07-01"
- },
- "note": "近期热门：2026-08 起被评测机构、前沿模型发布或快速采纳的 benchmark。A=多家机构共同采用；B=主要单一机构在用。",
- "items": [
-  {
-   "slug": "terminal-bench-science",
-   "name": "Terminal-Bench-Science 0.1",
-   "section": "物理",
-   "rank": 1,
-   "heat_score": 100,
-   "heat_confidence": "A",
-   "rationale": "同时进入AA Intelligence Index v5和Vals Science Index，且GPT-6.1 Terra发布文直接汇报，科学Agent最优先补缺。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将Terminal-Bench-Science 0.1列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列Terminal-Bench-Science 0.1，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-     "what": "10月27日指数升级将其作为新增科学评测，权重15%。",
-     "date": "2026-10-27",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks/science_index",
-     "what": "Vals Science Index三项等权组成之一，10月更新。",
-     "date": "2026-10-25",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "what": "GPT-6.1 Terra发布文专节比较Terminal-Bench-Science 0.1结果。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "osworld-v2",
-   "name": "OSWorld 2.1",
-   "section": "Agent",
-   "rank": 2,
-   "heat_score": 97,
-   "heat_confidence": "A",
-   "rationale": "9月发布的长程桌面任务已同时出现在OpenAI与Anthropic 10月模型发布比较中。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "what": "GPT-6.1 Terra发布文用OSWorld 2.1比较多步骤桌面操作。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://www.anthropic.com/claude-haiku-5-5",
-     "what": "10月7日Haiku发布表和成本图报告OSWorld 2.1 offline subset。",
-     "date": "2026-10-07",
-     "organization": "Anthropic"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "Epoch 9月28日评审OSWorld 2.1为Flawed。",
-     "date": "2026-09-28",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "critpt-v2",
-   "name": "CritPt v2",
-   "section": "物理",
-   "rank": 3,
-   "heat_score": 96,
-   "heat_confidence": "A",
-   "rationale": "AA v5用其Hard Subset作为10%科学分项，Epoch在10月底专门评审新版。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将CritPt v2列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列CritPt v2，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-     "what": "指数升级采纳CritPt v2的40题Hard Subset。",
-     "date": "2026-10-27",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "评审表列CritPt v2，结论Not enough info。",
-     "date": "2026-10-30",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "hle-diamond",
-   "name": "HLE-Diamond",
-   "section": "推理",
-   "rank": 4,
-   "heat_score": 96,
-   "heat_confidence": "A",
-   "rationale": "10月27日AA v5用新版替换原HLE，Scale也有独立Diamond榜。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将HLE-Diamond列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列HLE-Diamond，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-     "what": "v5升级明确用HLE-Diamond替换HLE，权重10%。",
-     "date": "2026-10-27",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard/hle-diamond",
-     "what": "Scale当前公开Diamond独立榜单。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "gdpval",
-   "name": "GDPval (GDPval-AA v2.1)",
-   "section": "Agent",
-   "rank": 5,
-   "heat_score": 95,
-   "heat_confidence": "A",
-   "rationale": "Anthropic 10月发布表以GDPval-AA v2.1衡量知识工作，AA仍维护独立榜，Epoch ECI也收录GDPval。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将GDPval (GDPval-AA v2.1)列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列GDPval (GDPval-AA v2.1)，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://www.anthropic.com/claude-haiku-5-5",
-     "what": "10月7日Haiku 5.5发布表把GDPval-AA v2.1作为知识工作主指标。",
-     "date": "2026-10-07",
-     "organization": "Anthropic"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI列出GDPval。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "mmmu-pro",
-   "name": "MMMU-Pro",
-   "section": "多模态",
-   "rank": 6,
-   "heat_score": 95,
-   "heat_confidence": "A",
-   "rationale": "AA、Vals持续评测，GPT-6.1 Terra发布文直接用它比较视觉推理。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将MMMU-Pro列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列MMMU-Pro，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks/mmmu",
-     "what": "Vals当前MMMU Pro独立评测页。",
-     "date": "2026-11-07",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "what": "Terra发布文专段报告MMMU-Pro视觉推理提升。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "healthbench-professional",
-   "name": "HealthBench Professional",
-   "section": "生物与医学",
-   "rank": 7,
-   "heat_score": 94,
-   "heat_confidence": "A",
-   "rationale": "OpenAI 10月系统卡明确推荐Professional衡量前沿医疗进展，AA也持续独立评测。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将HealthBench Professional列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
-     "what": "10月GPT-6 Sol/Luna系统卡报告Professional，认为较旧版更有区分度并建议用于前沿进展。",
-     "date": "2026-10",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra正式发布评测表明确报告HealthBench Professional，作为近期厂商采用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "exploitbench",
-   "name": "ExploitBench v0.1",
-   "section": "安全",
-   "rank": 8,
-   "heat_score": 94,
-   "heat_confidence": "A",
-   "rationale": "OpenAI Astra正式网络安全评测、Epoch当前ECI和9月Verified审查共同覆盖，当前前沿风险核心缺口。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "发布文明确在ExploitBench测试Astra及上一代模型；仅记录采用，不比较不同harness分数。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI纳入ExploitBench v0.1。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "9月12日独立审查ExploitBench v0.1为Verified。",
-     "date": "2026-09-12",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "exploitgym",
-   "name": "ExploitGym",
-   "section": "安全",
-   "rank": 9,
-   "heat_score": 93,
-   "heat_confidence": "A",
-   "rationale": "OpenAI Astra与Anthropic Haiku 5.5系统卡共同使用的真实漏洞利用评测，补足拒答型安全基准以外的能力风险。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra发布文网络安全章节明确报告ExploitGym并披露时间预算区别。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
-     "what": "10月7日系统卡3.3.4节详细报告ExploitGym及各Claude5.5模型结果。",
-     "date": "2026-10-07",
-     "organization": "Anthropic"
-    }
-   ]
-  },
-  {
-   "slug": "browsecomp",
-   "name": "BrowseComp",
-   "section": "Agent",
-   "rank": 10,
-   "heat_score": 92,
-   "heat_confidence": "A",
-   "rationale": "OpenAI、Kimi等前沿发布反复采用的深度搜索测试，独立追踪器10月仍更新。",
-   "evidence": [
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3生产力评测脚注详细规定BrowseComp上下文压缩，并报告无压缩对照。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    },
-    {
-     "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-     "what": "10月11日更新的独立榜单列OpenAI、Anthropic、Moonshot多方带来源结果。",
-     "date": "2026-10-11",
-     "organization": "Steel.dev"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra正式发布评测表明确报告BrowseComp，作为近期厂商采用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "chartography",
-   "name": "Chartography",
-   "section": "多模态",
-   "rank": 11,
-   "heat_score": 92,
-   "heat_confidence": "A",
-   "rationale": "8月专业图表评测，Anthropic 10月发布表正式采用，Epoch随后专门评审。",
-   "evidence": [
-    {
-     "url": "https://www.anthropic.com/claude-haiku-5-5",
-     "what": "10月7日Haiku 5.5性能表用Chartography报告视觉推理。",
-     "date": "2026-10-07",
-     "organization": "Anthropic"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "10月21日Epoch审查Chartography为Not enough info。",
-     "date": "2026-10-21",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://surgehq.ai/benchmarks/chartography",
-     "what": "原始官方榜单当前展示多个前沿模型。",
-     "date": "2026-11-07",
-     "organization": "Surge AI"
-    }
-   ]
-  },
-  {
-   "slug": "mcp-atlas",
-   "name": "MCP Atlas",
-   "section": "Agent",
-   "rank": 12,
-   "heat_score": 92,
-   "heat_confidence": "A",
-   "rationale": "Scale当前前沿工具使用主榜，Kimi K3发布文明确使用其500题公开子集。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/mcp_atlas",
-     "what": "当前官方榜单及方法公开；Scale当前前沿工具使用主榜，Kimi K3发布文明确使用其500题公开子集。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将MCP Atlas单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "生产力评测脚注明确MCP Atlas的500题与100轮限制。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    }
-   ]
-  },
-  {
-   "slug": "frontiermath-erdos",
-   "name": "FrontierMath Erdős",
-   "section": "数学",
-   "rank": 13,
-   "heat_score": 91,
-   "heat_confidence": "A",
-   "rationale": "9月3日新推出未解Erdős问题形式化证明基准，10月持续独立实测。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内14次运行；最新一条模型Gemini 4 Argon，运行开始2026-10-21T02:29:42 KST，task=FrontierMath-Erdos，row id=bloom68-nhb6jkzaqrdr7pf8。",
-     "date": "2026-10-21",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "gdp-pdf",
-   "name": "GDP.pdf",
-   "section": "语言",
-   "rank": 14,
-   "heat_score": 91,
-   "heat_confidence": "A",
-   "rationale": "7月发布的专业长PDF基准，10月仍为AA v5的知识工作分项，覆盖多行业真实文档。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将GDP.pdf列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列GDP.pdf，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-     "what": "10月27日继续保留GDP.pdf为指数5%组成。",
-     "date": "2026-10-27",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://surgehq.ai/benchmarks/gdp-pdf",
-     "what": "Surge原始GDP.pdf榜当前列GPT-6.1 Sol、GPT-6 Astra等，与AA独立实现并存。",
-     "date": "2026-11-07",
-     "organization": "Surge AI"
-    }
-   ]
-  },
-  {
-   "slug": "apex-agents",
-   "name": "APEX-Agents",
-   "section": "Agent",
-   "rank": 15,
-   "heat_score": 90,
-   "heat_confidence": "A",
-   "rationale": "AA独立实现、Epoch ECI和Kimi K3报告同时覆盖，专业服务长程Agent持续受关注。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将APEX-Agents列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列APEX-Agents，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI纳入APEX-Agents。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3生产力评测脚注明确引用APEX-Agents与AA结果。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    }
-   ]
-  },
-  {
-   "slug": "agents-last-exam",
-   "name": "Agents’ Last Exam v1.1",
-   "section": "Agent",
-   "rank": 16,
-   "heat_score": 90,
-   "heat_confidence": "A",
-   "rationale": "OpenAI最新Terra发布文以其为专业工作主测试，Epoch 10月18日专门审查。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "what": "发布文首个计算机使用章节明确使用Agents’ Last Exam。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "10月18日评审Agents’ Last Exam v1.1，结论Flawed。",
-     "date": "2026-10-18",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "posttrainbench",
-   "name": "PostTrainBench v1.1",
-   "section": "代码",
-   "rank": 17,
-   "heat_score": 90,
-   "heat_confidence": "A",
-   "rationale": "Kimi K3报告自主后训练任务，Epoch当前ECI并于9月9日审查为Verified。",
-   "evidence": [
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3 Coding benchmarks脚注单列PostTrainBench v1.1并说明harness或硬件。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    },
-    {
-     "url": "https://posttrainbench.com/",
-     "what": "当前官方原始协议与前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "posttrainbench.com"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI明确纳入PostTrainBench v1.1。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "sre-bench",
-   "name": "SRE Bench",
-   "section": "代码",
-   "rank": 18,
-   "heat_score": 90,
-   "heat_confidence": "A",
-   "rationale": "8月二进制逆向评测已进入GPT-6 Astra正式发布表，Vals 11月仍更新37模型榜。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/srebench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、37模型二进制逆向理解测试；不能误译为站点可靠性工程基准。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra正式发布评测表明确报告SRE Bench，作为近期厂商采用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "mirrorcode",
-   "name": "MirrorCode",
-   "section": "代码",
-   "rank": 19,
-   "heat_score": 89,
-   "heat_confidence": "A",
-   "rationale": "Epoch与METR长周期整程序重建评测，10月仍有实测运行，当前ECI已纳入。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/mirrorcode",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内15次运行；最新一条模型Gemini 3.7 Flash，运行开始2026-10-22T01:49:08 KST，task=MirrorCode，row id=eeq6feqZLzfjfVsx4aeAWL。",
-     "date": "2026-10-22",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "remote-labor-index",
-   "name": "Remote Labor Index",
-   "section": "Agent",
-   "rank": 20,
-   "heat_score": 89,
-   "heat_confidence": "A",
-   "rationale": "Scale当前真实远程工作主榜，Epoch当前ECI与10月评审也覆盖。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/rli",
-     "what": "当前官方榜单及方法公开；Scale当前真实远程工作主榜，Epoch当前ECI与10月评审也覆盖。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将Remote Labor Index单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI名单纳入Remote Labor Index。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "10月12日独立审查为Not enough info。",
-     "date": "2026-10-12",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "frontierswe",
-   "name": "FrontierSWE v2",
-   "section": "代码",
-   "rank": 21,
-   "heat_score": 88,
-   "heat_confidence": "A",
-   "rationale": "Kimi K3发布文正式使用，Epoch当前ECI明确纳入FrontierSWE v2，区别已有FrontierCode。",
-   "evidence": [
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3 Coding benchmarks脚注单列FrontierSWE v2并说明harness或硬件。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    },
-    {
-     "url": "https://www.frontierswe.com/",
-     "what": "当前官方原始协议与前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "frontierswe.com"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI明确纳入FrontierSWE v2。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "livebench-2",
-   "name": "LiveBench 2.0",
-   "section": "Agent",
-   "rank": 22,
-   "heat_score": 88,
-   "heat_confidence": "A",
-   "rationale": "10月14日转向长程实务工作、10月25日再次更新，涵盖代码、浏览器、研究等七套件。",
-   "evidence": [
-    {
-     "url": "https://livebench.ai/",
-     "what": "官网明确版本2.0、10月14日及25日发布记录与当前多前沿模型表。",
-     "date": "2026-10-25",
-     "organization": "LiveBench"
-    },
-    {
-     "url": "https://www.benchleader.com/benchmarks/livebench2_global",
-     "what": "独立追踪器当前单列LiveBench 2 Global及最新前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "BenchLeader"
-    }
-   ]
-  },
-  {
-   "slug": "programbench",
-   "name": "ProgramBench",
-   "section": "代码",
-   "rank": 23,
-   "heat_score": 88,
-   "heat_confidence": "A",
-   "rationale": "11月5日更新、65模型整程序构建榜；Kimi K3发布评测也明确使用。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/programbench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、65模型整程序构建榜；Kimi K3发布评测也明确使用。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Coding Academic ProgramBench Updated: 11/5/2026 Models Tested: 65 Can language models rebuild programs from scratch? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3 Coding benchmarks脚注单列Program Bench并链接Vals结果。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    }
-   ]
-  },
-  {
-   "slug": "healthbench",
-   "name": "HealthBench",
-   "section": "生物与医学",
-   "rank": 24,
-   "heat_score": 87,
-   "heat_confidence": "A",
-   "rationale": "AA当前公开医疗评测与OpenAI 10月系统卡共同覆盖；虽趋近噪声上限，仍是活跃常报指标。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将HealthBench列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列HealthBench，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
-     "what": "GPT-6 Sol/Luna系统卡继续报告HealthBench及其Hard、Consensus切片。",
-     "date": "2026-10",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "deepswe",
-   "name": "DeepSWE v1.1",
-   "section": "代码",
-   "rank": 25,
-   "heat_score": 87,
-   "heat_confidence": "A",
-   "rationale": "Kimi K3正式发布评测单列DeepSWE v1.1；Epoch 9月7日独立审查，前沿代码Agent仍采用。",
-   "evidence": [
-    {
-     "url": "https://www.kimi.com/blog/kimi-k3",
-     "what": "Kimi K3 Coding benchmarks脚注单列DeepSWE v1.1并说明harness或硬件。",
-     "date": "2026-11-07",
-     "organization": "Moonshot AI"
-    },
-    {
-     "url": "https://deepswe.datacurve.ai/",
-     "what": "当前官方原始协议与前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "deepswe.datacurve.ai"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "9月7日审查DeepSWE v1.1为Flawed。",
-     "date": "2026-09-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra正式发布评测表明确报告DeepSWE v1.1，作为近期厂商采用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "swe-bench-pro-v2",
-   "name": "SWE-bench Pro V2",
-   "section": "代码",
-   "rank": 26,
-   "heat_score": 87,
-   "heat_confidence": "A",
-   "rationale": "Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-     "what": "当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/blog/swe-bench-pro-v2",
-     "what": "官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。",
-     "date": "2026-09-01",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "proofbench",
-   "name": "ProofBench v1.1",
-   "section": "数学",
-   "rank": 27,
-   "heat_score": 86,
-   "heat_confidence": "A",
-   "rationale": "10月29日更新的形式化证明榜，Epoch当前ECI也纳入ProofBench。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/proof_bench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新的形式化证明榜，Epoch当前ECI也纳入ProofBench。",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Math Proprietary ProofBench v1.1 Updated: 10/29/2026 Models Tested: 54 Can models write math proofs that are formally verified? Top Models 1 Claude Sonnet 5.5 2 Claude Opus 5.5 3 Claude Fable 5.1 View Details",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI将ProofBench列为benchmark creator administered评测。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "biomysterybench",
-   "name": "BioMysteryBench",
-   "section": "生物与医学",
-   "rank": 28,
-   "heat_score": 85,
-   "heat_confidence": "A",
-   "rationale": "11月更新的生物数据调查榜，并成为Vals Science Index的三项组成之一。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/biomysterybench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月更新的生物数据调查榜，并成为Vals Science Index的三项组成之一。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Science Industry Partner BioMysteryBench Updated: 11/5/2026 Models Tested: 30 Can agents solve agentic biology data investigations? Top Models 1 Claude Sonnet 5.5 2 GPT-6.1 Sol 3 GPT-6 Astra View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks/science_index",
-     "what": "10月推出的Science Index将其与MysteryMechanism、Terminal-Bench-Science等权聚合。",
-     "date": "2026-10-25",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-     "what": "Anthropic原始99题生物数据分析评测；Vals在11月独立重新评测并加入Science Index。",
-     "date": "2026-04-29",
-     "organization": "Anthropic"
-    }
-   ]
-  },
-  {
-   "slug": "arc-agi-3",
-   "name": "ARC-AGI-3",
-   "section": "推理",
-   "rank": 29,
-   "heat_score": 85,
-   "heat_confidence": "A",
-   "rationale": "官方交互式泛化推理榜与2026赛事持续活跃，当前最新前沿模型已有标准harness结果。",
-   "evidence": [
-    {
-     "url": "https://arcprize.org/arc-agi/3/leaderboard",
-     "what": "当前官方Standard与Provider Adapter分别列模型，含10月前沿模型。",
-     "date": "2026-11-07",
-     "organization": "ARC Prize"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "GPT-6 Astra发布文以ARC-AGI-3为抽象推理主指标，并明确其自有harness；不能与官方Standard直接混比。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "ebr-bench",
-   "name": "EBR-bench",
-   "section": "Agent",
-   "rank": 30,
-   "heat_score": 85,
-   "heat_confidence": "A",
-   "rationale": "Epoch近期更新并持续实测从重复游戏经验中学习的能力，当前ECI采用。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/ebr-bench",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内14次运行；最新一条模型Mistral Large 4，运行开始2026-11-02T23:05:31 KST，task=EBR-bench，row id=Xhk47x2m6incQifzec3pqC。",
-     "date": "2026-11-02",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "vials",
-   "name": "VIALS",
-   "section": "多模态",
-   "rank": 31,
-   "heat_score": 84,
-   "heat_confidence": "A",
-   "rationale": "2026年8月科学图像评测已有AA独立Agent实现，当前目录标为New。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将VIALS列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列VIALS，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://joinhandshake.com/research/benchmarks/vials/",
-     "what": "Handshake官方原始评测与AA独立实现并存；两者的工具、评分口径不能混算。",
-     "date": "2026-11-07",
-     "organization": "Handshake AI"
-    }
-   ]
-  },
-  {
-   "slug": "mysterymechanism",
-   "name": "MysteryMechanism",
-   "section": "推理",
-   "rank": 32,
-   "heat_score": 83,
-   "heat_confidence": "B",
-   "rationale": "10月29日更新，测有限实验中的隐机制发现，成为Vals Science Index核心分项。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/mysterymechanism",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新，测有限实验中的隐机制发现，成为Vals Science Index核心分项。",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Science Proprietary MysteryMechanism Updated: 10/29/2026 Models Tested: 29 Can agents rediscover sealed mathematical mechanisms through bounded experiments? Top Models 1 GPT-6 Astra 2 Claude Opus 5.5 3 Claude Sonnet 5.5 View Details",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks/science_index",
-     "what": "Science Index把MysteryMechanism作为三项等权科学研究测试之一。",
-     "date": "2026-10-25",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "mrcr-v2",
-   "name": "OpenAI MRCR (model-card label: MRCR v2)",
-   "section": "语言",
-   "rank": 33,
-   "heat_score": 83,
-   "heat_confidence": "B",
-   "rationale": "GPT-6 Astra最新发布表直接用8-needle、256K–1M长上下文比较前代，补齐长上下文精确检索。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "发布表Long Context明确列OpenAI MRCR v2的8-needle两段长度窗口。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://huggingface.co/datasets/openai/mrcr",
-     "what": "OpenAI官方公开数据集给出MRCR任务协议与多needle设置；证明可收录性而不是第二个独立采纳。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "harvey-lab",
-   "name": "Harvey Legal Agent Benchmark (LAB v1.1)",
-   "section": "Agent",
-   "rank": 34,
-   "heat_score": 82,
-   "heat_confidence": "A",
-   "rationale": "AA目录标记更新，已与Harvey联合升级为幻觉门控的法律工作评测，Vals也持续评同族任务。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将Harvey Legal Agent Benchmark (LAB v1.1)列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列Harvey Legal Agent Benchmark (LAB v1.1)，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks/hlab",
-     "what": "Vals 11月5日更新HLAB-Vals-1.1专业法律交付物榜；与AA设置分开记录。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "mystery-game-puzzles",
-   "name": "Mystery Game Puzzles",
-   "section": "推理",
-   "rank": 35,
-   "heat_score": 82,
-   "heat_confidence": "A",
-   "rationale": "Epoch 8–11月大量最新模型运行，聚焦推断隐藏游戏规则。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内123次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T09:59:23 KST，task=Mystery Game Puzzles，row id=ba7BQr2N7kTuzakT8fZ3WU。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "otis-mock-aime",
-   "name": "OTIS Mock AIME 2024–2025",
-   "section": "数学",
-   "rank": 36,
-   "heat_score": 82,
-   "heat_confidence": "A",
-   "rationale": "比普通AIME更难的独立模拟题套件；11月仍被Epoch大量用于最新模型实测。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks",
-     "what": "Epoch当前官方说明明确列出该测试。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "窗口内153行该task运行；最新Kimi K3.1 Pro，row id=8Qe2qf4Eg77PMfp2Eh7V6K。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "simpleqa-verified",
-   "name": "SimpleQA Verified",
-   "section": "语言",
-   "rank": 37,
-   "heat_score": 82,
-   "heat_confidence": "A",
-   "rationale": "清洗事实问答集是Epoch当前ECI组成，11月仍持续独立实测。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "Epoch当前官方说明明确列出该测试。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "窗口内101行该task运行；最新Kimi K3.1 Pro，row id=HumfsXVh5BZWuTo6Z8Gqnf。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "dualchem",
-   "name": "DualChem",
-   "section": "化学",
-   "rank": 38,
-   "heat_score": 81,
-   "heat_confidence": "B",
-   "rationale": "10月28日Scale与NIST CAISSI合作首个基准，官方报告已评30+前沿模型，是新近化学安全重点。",
-   "evidence": [
-    {
-     "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
-     "what": "官方10月28日首发说明，公布600题及30+模型评测。",
-     "date": "2026-10-28",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://fedscoop.com/scale-chemistry-ai-benchmark-caissi-partnership-dualchem/",
-     "what": "独立报道该CAISSI合作首个评测，作为关注度线索；题量与结论以Scale官方为准。",
-     "date": "2026-11-07",
-     "organization": "FedScoop"
-    }
-   ]
-  },
-  {
-   "slug": "surface-evolver-bench",
-   "name": "Surface Evolver Bench",
-   "section": "物理",
-   "rank": 39,
-   "heat_score": 81,
-   "heat_confidence": "B",
-   "rationale": "Epoch当前ECI正式纳入，并在10月9日独立审查其液面物理仿真任务，补充计算物理。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
-     "what": "Epoch当前专页给出物理仿真评测和当前模型结果来源。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/eci-documentation/data",
-     "what": "当前ECI Included benchmarks列表明确纳入Surface Evolver Bench。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-     "what": "10月9日评审结论Not enough info；热门不等于质量合格。",
-     "date": "2026-10-09",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "chess-puzzles",
-   "name": "Chess Puzzles (Epoch)",
-   "section": "推理",
-   "rank": 40,
-   "heat_score": 81,
-   "heat_confidence": "A",
-   "rationale": "Epoch 11月持续用于最新模型快速评估，考查棋局空间规划而非普通知识问答。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/chess-puzzles",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内162次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T09:59:23 KST，task=Chess Puzzles，row id=8eSYUWwajdBjKiiM9CwnKu。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "furniture-assembly",
-   "name": "Furniture Assembly Benchmark",
-   "section": "多模态",
-   "rank": 41,
-   "heat_score": 81,
-   "heat_confidence": "A",
-   "rationale": "Epoch 11月仍反复运行的装配图错误识别测试，补足空间与步骤推理。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/furniture-assembly",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内37次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T20:34:34 KST，task=Furniture Assembly，row id=UNKjzcpUBaxGsrr7zZZZWC。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "hss",
-   "name": "Humanity’s Sixth Sense (HSS)",
-   "section": "多模态",
-   "rank": 42,
-   "heat_score": 81,
-   "heat_confidence": "B",
-   "rationale": "Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/hss",
-     "what": "当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "drugdiscoverybench",
-   "name": "DrugDiscoveryBench",
-   "section": "化学",
-   "rank": 43,
-   "heat_score": 80,
-   "heat_confidence": "B",
-   "rationale": "Scale当前主榜专列药物发现Agent测试，公开任务和复现材料，覆盖早期发现计算工作流。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
-     "what": "当前官方榜单及方法公开；Scale当前主榜专列药物发现Agent测试，公开任务和复现材料，覆盖早期发现计算工作流。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将DrugDiscoveryBench单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
-     "what": "官方榜单链接的公开任务集，配套当前前沿模型对比；证明可收录性，不单独视为独立采纳。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "spireclimb",
-   "name": "SpireClimb",
-   "section": "Agent",
-   "rank": 44,
-   "heat_score": 80,
-   "heat_confidence": "A",
-   "rationale": "Epoch当前纳入ECI，11月仍运行Slay the Spire长程决策任务。",
-   "evidence": [
-    {
-     "url": "https://epoch.ai/benchmarks/spireclimb",
-     "what": "Epoch官方专题页介绍该独立测试及当前结果。",
-     "date": "2026-11-07",
-     "organization": "Epoch AI"
-    },
-    {
-     "url": "https://epoch.ai/data/benchmarks.csv",
-     "what": "原始CSV找到窗口内8次运行；最新一条模型GPT-6 Sol，运行开始2026-11-06T00:14:53 KST，task=SpireClimb，row id=steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf。",
-     "date": "2026-11-06",
-     "organization": "Epoch AI"
-    }
-   ]
-  },
-  {
-   "slug": "genebench",
-   "name": "GeneBench / GeneBench Pro",
-   "section": "生物与医学",
-   "rank": 45,
-   "heat_score": 79,
-   "heat_confidence": "B",
-   "rationale": "Rosalind定量组学长程任务与Astra的GeneBench Pro持续用于前沿生命科学比较。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
-     "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
-     "date": "2026-06-03",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "当前GPT-6 Astra正式Science and Health评测表单列GeneBench / GeneBench Pro，构成H2继续使用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "lifescibench",
-   "name": "LifeSciBench",
-   "section": "生物与医学",
-   "rank": 46,
-   "heat_score": 79,
-   "heat_confidence": "B",
-   "rationale": "Rosalind原始专业科研工作评测继续进入GPT-6 Astra发布表；不是只有6月介绍后就无人使用。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
-     "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
-     "date": "2026-06-03",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "当前GPT-6 Astra正式Science and Health评测表单列LifeSciBench，构成H2继续使用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "medchembench",
-   "name": "MedChemBench",
-   "section": "化学",
-   "rank": 47,
-   "heat_score": 79,
-   "heat_confidence": "B",
-   "rationale": "药物化学多模态与优化工作流评测，GPT-6 Astra发布仍单列，补齐现库化学空白。",
-   "evidence": [
-    {
-     "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
-     "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
-     "date": "2026-06-03",
-     "organization": "OpenAI"
-    },
-    {
-     "url": "https://openai.com/index/gpt-6-astra/",
-     "what": "当前GPT-6 Astra正式Science and Health评测表单列MedChemBench，构成H2继续使用证据。",
-     "date": "2026-11-07",
-     "organization": "OpenAI"
-    }
-   ]
-  },
-  {
-   "slug": "audio-multichallenge",
-   "name": "AudioMultiChallenge",
-   "section": "语音",
-   "rank": 48,
-   "heat_score": 79,
-   "heat_confidence": "B",
-   "rationale": "Scale当前独立多轮口语交互榜，同时列音频输出与文本输出结果，补齐现库语音盲区。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/audiomc",
-     "what": "当前官方榜单及方法公开；Scale当前独立多轮口语交互榜，同时列音频输出与文本输出结果，补齐现库语音盲区。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将AudioMultiChallenge单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "mlcr",
-   "name": "MLCR / MLCR-AA",
-   "section": "生物与医学",
-   "rank": 49,
-   "heat_score": 78,
-   "heat_confidence": "A",
-   "rationale": "AA当前Healthcare & Medical Index采用的长医疗记录推理，评测目录标有更新。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将MLCR / MLCR-AA列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列MLCR / MLCR-AA，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
-     "what": "AA方法页指向Wisedocs官方公开数据，AA另测私有高难集；二者不能直接混比。",
-     "date": "2026-11-07",
-     "organization": "Wisedocs"
-    }
-   ]
-  },
-  {
-   "slug": "code2video",
-   "name": "Code2Video Bench",
-   "section": "多模态",
-   "rank": 50,
-   "heat_score": 78,
-   "heat_confidence": "A",
-   "rationale": "HeyGen视频生成代码评测被AA目录标New并独立跑114设计brief，拓展视频与代码交叉能力。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将Code2Video Bench列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列Code2Video Bench，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
-     "what": "HeyGen官方原始基准介绍与AA独立实现并存。",
-     "date": "2026-11-07",
-     "organization": "HeyGen"
-    }
-   ]
-  },
-  {
-   "slug": "distressbench",
-   "name": "DistressBench",
-   "section": "安全",
-   "rank": 51,
-   "heat_score": 78,
-   "heat_confidence": "B",
-   "rationale": "Scale当前主榜用它比较危机支持质量，补齐一般有害提示之外的心理支持安全。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/distressbench",
-     "what": "当前官方榜单及方法公开；Scale当前主榜用它比较危机支持质量，补齐一般有害提示之外的心理支持安全。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将DistressBench单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "global-mmlu-lite",
-   "name": "Global-MMLU-Lite",
-   "section": "语言",
-   "rank": 52,
-   "heat_score": 78,
-   "heat_confidence": "B",
-   "rationale": "AA当前Multilingual Index基于Global-MMLU-Lite，补足跨文化多语种对比。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将Global-MMLU-Lite列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列Global-MMLU-Lite，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    }
-   ]
-  },
-  {
-   "slug": "swe-atlas",
-   "name": "SWE Atlas",
-   "section": "代码",
-   "rank": 53,
-   "heat_score": 78,
-   "heat_confidence": "B",
-   "rationale": "Scale新主榜从仓库问答、测试编写、重构三个方向比较当前前沿模型。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall",
-     "what": "当前官方榜单及方法公开；Scale新主榜从仓库问答、测试编写、重构三个方向比较当前前沿模型。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将SWE Atlas单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "skillsbench",
-   "name": "SkillsBench",
-   "section": "Agent",
-   "rank": 54,
-   "heat_score": 78,
-   "heat_confidence": "B",
-   "rationale": "10月29日更新、35模型的技能增强Agent对照测试，帮助区分模型与skill基础设施收益。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/skillsbench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、35模型的技能增强Agent对照测试，帮助区分模型与skill基础设施收益。",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Coding Academic SkillsBench Updated: 10/29/2026 Models Tested: 35 How important are skills for agents? Top Models 1 DeepSeek V4.1 Flash 2 Grok 4.5 3 Gemini 3.7 Flash View Details",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "sciuniverse",
-   "name": "SciUniverse Level 1",
-   "section": "化学",
-   "rank": 55,
-   "heat_score": 77,
-   "heat_confidence": "B",
-   "rationale": "当前官方持续列出多家前沿模型在真实实验/模拟实验任务上的结果，跨化学、生物、材料。",
-   "evidence": [
-    {
-     "url": "https://c5r.net/sciuniverse/",
-     "what": "当前官方Level 1任务协议和多前沿模型榜单。",
-     "date": "2026-11-07",
-     "organization": "C5R"
-    },
-    {
-     "url": "https://benchlm.ai/benchmarks/sciuniverse",
-     "what": "独立跟踪器单列SciUniverse Level 1并链接原始基准，属于关注度证据不是复现。",
-     "date": "2026-11-07",
-     "organization": "BenchLM"
-    }
-   ]
-  },
-  {
-   "slug": "swe-bench-multimodal",
-   "name": "SWE-bench Multimodal",
-   "section": "代码",
-   "rank": 56,
-   "heat_score": 77,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新、21模型的截图驱动JS仓库问题测试，独立于Verified。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/swebench-multimodal",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、21模型的截图驱动JS仓库问题测试，独立于Verified。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Coding Academic SWE-bench Multimodal Updated: 11/5/2026 Models Tested: 21 Do AI Systems Generalize to Visual Software Domains? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "cyberbench",
-   "name": "CyberBench v1.1",
-   "section": "安全",
-   "rank": 57,
-   "heat_score": 76,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新、48模型真实安全漏洞发现与修补测试。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/cyber",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、48模型真实安全漏洞发现与修补测试。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Cyber Proprietary CyberBench v1.1 Updated: 11/5/2026 Models Tested: 48 Can AI agents find security bugs and patch them? Top Models 1 Wonder 2 GPT-6 Sol 3 Gemini 4 Argon View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "enterpriseops-gym",
-   "name": "EnterpriseOps-Gym",
-   "section": "Agent",
-   "rank": 58,
-   "heat_score": 76,
-   "heat_confidence": "A",
-   "rationale": "ServiceNow企业工作流基准已有AA独立评测，状态验证而非仅文本答案，是当前企业Agent补缺。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将EnterpriseOps-Gym列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列EnterpriseOps-Gym，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
-     "what": "AA当前实现明确基于ServiceNow公开数据并以终态SQL验证。",
-     "date": "2026-11-07",
-     "organization": "ServiceNow"
-    }
-   ]
-  },
-  {
-   "slug": "voicecodebench",
-   "name": "VoiceCodeBench",
-   "section": "语音",
-   "rank": 59,
-   "heat_score": 76,
-   "heat_confidence": "B",
-   "rationale": "9月24日更新、20个语音模型的结构化值转写榜，衡量工作场景精确数据而非只看WER。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/voice-code-bench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；9月24日更新、20个语音模型的结构化值转写榜，衡量工作场景精确数据而非只看WER。",
-     "date": "2026-09-24",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Voice Industry Partner VoiceCodeBench Updated: 9/24/2026 Models Tested: 20 How good are speech-to-text models at handling exact structured values in English workplace speech? Top Models 1 GPT Live Transcribe 2 Grok Voice Transcribe 2.0 3 Cartesia Ink 2 View Details",
-     "date": "2026-09-24",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "medscribe",
-   "name": "MedScribe",
-   "section": "生物与医学",
-   "rank": 60,
-   "heat_score": 75,
-   "heat_confidence": "B",
-   "rationale": "10月29日更新、109模型的医生行政记录工作测试，补齐医学考试以外任务。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/medscribe",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、109模型的医生行政记录工作测试，补齐医学考试以外任务。",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Healthcare Proprietary MedScribe Updated: 10/29/2026 Models Tested: 109 Can models support doctors with their administrative work? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "fortress",
-   "name": "Fortress",
-   "section": "安全",
-   "rank": 61,
-   "heat_score": 75,
-   "heat_confidence": "B",
-   "rationale": "Scale当前主榜列前沿风险与国家安全评测，并出现最新模型更新。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/fortress",
-     "what": "当前官方榜单及方法公开；Scale当前主榜列前沿风险与国家安全评测，并出现最新模型更新。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将Fortress单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "robo-bench",
-   "name": "Robo-bench",
-   "section": "机器人与具身",
-   "rank": 62,
-   "heat_score": 75,
-   "heat_confidence": "B",
-   "rationale": "10月13日更新，7个前沿模型比较机器人运动与摄像机闭环控制，补齐具身盲区。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/robo_bench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新，7个前沿模型比较机器人运动与摄像机闭环控制，补齐具身盲区。",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Science Proprietary Robo-bench Updated: 10/13/2026 Models Tested: 7 Can a model control a robot arm and a humanoid in a real-time physics simulation, from motor commands and camera images alone? Most tasks are held out. Top Models 1 GPT-6.1 Sol 2 GPT-6 Astra 3 Claude Opus 5.5 View Details",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "safe-teen",
-   "name": "SAFE-Teen",
-   "section": "安全",
-   "rank": 63,
-   "heat_score": 75,
-   "heat_confidence": "B",
-   "rationale": "10月13日更新、17模型的青少年多轮心理健康安全测试。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/mental-health",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、17模型的青少年多轮心理健康安全测试。",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Mental Health Proprietary SAFE-Teen Updated: 10/13/2026 Models Tested: 17 Can models respond safely as teens disclose concerns, resist advice, and ask for help? Risk Areas 1 Urgent safety & safeguarding 2 Health advice & clinical boundaries 3 AI relationships & emotional dependence View Details",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "vibe-code-bench",
-   "name": "Vibe Code Bench v1.1",
-   "section": "代码",
-   "rank": 64,
-   "heat_score": 75,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新、125模型从零构建可用网页应用的实测榜。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/vibe-code",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、125模型从零构建可用网页应用的实测榜。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Coding Proprietary Vibe Code Bench v1.1 Updated: 11/5/2026 Models Tested: 125 Can models build web applications from scratch? Top Models 1 Claude Sonnet 5.5 2 Gemini 4 Argon 3 Claude Haiku 5.5 View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "medcode",
-   "name": "MedCode",
-   "section": "生物与医学",
-   "rank": 65,
-   "heat_score": 74,
-   "heat_confidence": "B",
-   "rationale": "10月29日更新、107模型的医疗编码对比，连接诊疗记录与实际医疗工作。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/medcode",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、107模型的医疗编码对比，连接诊疗记录与实际医疗工作。",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Healthcare Proprietary MedCode Updated: 10/29/2026 Models Tested: 107 Can models support the medical billing process? Top Models 1 Claude Opus 5 2 Gemini 3.1 Pro Preview (02/26) 3 Gemini 4 Argon View Details",
-     "date": "2026-10-29",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "aa-analyst-agent",
-   "name": "AA-AnalystAgent",
-   "section": "Agent",
-   "rank": 66,
-   "heat_score": 74,
-   "heat_confidence": "B",
-   "rationale": "AA当前独立80题数据分析榜，直接测试表格与文档量化分析，用pass^5强调稳定性。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将AA-AnalystAgent列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列AA-AnalystAgent，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    }
-   ]
-  },
-  {
-   "slug": "ifbench",
-   "name": "IFBench",
-   "section": "语言",
-   "rank": 67,
-   "heat_score": 74,
-   "heat_confidence": "B",
-   "rationale": "AA持续独立测试精确指令遵循，补充已有IFEval而不是换个别名。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将IFBench列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列IFBench，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    }
-   ]
-  },
-  {
-   "slug": "itbench",
-   "name": "ITBench / ITBench-AA",
-   "section": "代码",
-   "rank": 68,
-   "heat_score": 74,
-   "heat_confidence": "B",
-   "rationale": "IBM运维诊断任务已成为AA独立评测，补齐Kubernetes根因分析而非通用代码生成。",
-   "evidence": [
-    {
-     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-     "what": "当前方法页将ITBench / ITBench-AA列为正在实施的评测，披露任务或评分协议。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    },
-    {
-     "url": "https://artificialanalysis.ai/evaluations",
-     "what": "当前公开评测目录单列ITBench / ITBench-AA，不是新闻提及。",
-     "date": "2026-11-07",
-     "organization": "Artificial Analysis"
-    }
-   ]
-  },
-  {
-   "slug": "legal-research-bench",
-   "name": "Legal Research Bench",
-   "section": "Agent",
-   "rank": 69,
-   "heat_score": 74,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新、91模型的法律研究工具工作流评测。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/legal_research",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、91模型的法律研究工具工作流评测。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Legal Proprietary Legal Research Bench Updated: 11/5/2026 Models Tested: 91 Evaluating agents on legal research tasks across diverse areas of US law Top Models 1 Gemini 4 Carbon 2 Muse Spark 1.3 Max 3 Claude Opus 5 View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "cua-bench",
-   "name": "CUA-bench",
-   "section": "Agent",
-   "rank": 70,
-   "heat_score": 73,
-   "heat_confidence": "B",
-   "rationale": "10月13日更新、9模型只用键鼠玩商业游戏，补充真实GUI决策。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/cua_bench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、9模型只用键鼠玩商业游戏，补充真实GUI决策。",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Games Proprietary CUA-bench Updated: 10/13/2026 Models Tested: 9 Can an AI agent play six commercial video games with only a keyboard and a mouse? Half of them are held out. Top Models 1 GPT-6 Astra 2 Claude Opus 5.5 3 Claude Fable 5.1 View Details",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "cyberoffense",
-   "name": "CyberOffense",
-   "section": "安全",
-   "rank": 71,
-   "heat_score": 73,
-   "heat_confidence": "B",
-   "rationale": "10月23日更新、7模型自主企业网络渗透场景；补齐能力风险评测。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/cyber_offense",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月23日更新、7模型自主企业网络渗透场景；补齐能力风险评测。",
-     "date": "2026-10-23",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Cyber Proprietary CyberOffense Updated: 10/23/2026 Models Tested: 7 Can AI autonomously compromise realistic enterprise networks? Top Models 1 GPT-6 Sol Daybreak 2 DeepSeek V4.1 Flash 1017 3 Kimi K3.1 Pro View Details",
-     "date": "2026-10-23",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "excel-modeling",
-   "name": "Excel Modeling Benchmark v1.1",
-   "section": "Agent",
-   "rank": 72,
-   "heat_score": 73,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新，39模型的可执行Excel财务建模对比，补齐交付物型工作。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/emb-v1-1",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新，39模型的可执行Excel财务建模对比，补齐交付物型工作。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Finance Proprietary Excel Modeling Benchmark v1.1 Updated: 11/5/2026 Models Tested: 39 Evaluating agents on Excel-based financial modeling tasks Top Models 1 Claude Fable 5.1 2 Gemini 4 Carbon 3 Claude Sonnet 5.5 View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "finance-agent",
-   "name": "Finance Agent v2.1",
-   "section": "Agent",
-   "rank": 73,
-   "heat_score": 73,
-   "heat_confidence": "B",
-   "rationale": "11月5日更新，37模型核心金融分析Agent评测。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/fabv2-1",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新，37模型核心金融分析Agent评测。",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Finance Proprietary Finance Agent v2.1 Updated: 11/5/2026 Models Tested: 37 Evaluating agents on core financial analyst tasks Top Models 1 Claude Opus 5.5 2 Gemini 4 Argon 3 Wonder Full View Details",
-     "date": "2026-11-05",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "legalbench",
-   "name": "LegalBench",
-   "section": "推理",
-   "rank": 74,
-   "heat_score": 73,
-   "heat_confidence": "B",
-   "rationale": "10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/legal_bench",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Legal Academic LegalBench Updated: 10/13/2026 Models Tested: 151 Evaluating language models on a wide range of open source legal reasoning tasks. Top Models 1 Claude Fable 5 2 Claude Fable 5.1 3 Gemini 4 Argon View Details",
-     "date": "2026-10-13",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "code-migration",
-   "name": "Code Migration v1.1",
-   "section": "代码",
-   "rank": 75,
-   "heat_score": 72,
-   "heat_confidence": "B",
-   "rationale": "10月30日更新、29模型程序跨语言重实现评测。",
-   "evidence": [
-    {
-     "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
-     "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月30日更新、29模型程序跨语言重实现评测。",
-     "date": "2026-10-30",
-     "organization": "Vals AI"
-    },
-    {
-     "url": "https://www.vals.ai/benchmarks",
-     "what": "目录卡片：Coding Proprietary Code Migration v1.1 Updated: 10/30/2026 Models Tested: 29 Can language models reimplement working programs in another language? Top Models 1 Claude Sonnet 5.5 2 Claude Opus 5.5 3 GPT-6 Astra View Details",
-     "date": "2026-10-30",
-     "organization": "Vals AI"
-    }
-   ]
-  },
-  {
-   "slug": "prbench-finance",
-   "name": "PRBench – Finance",
-   "section": "推理",
-   "rank": 76,
-   "heat_score": 72,
-   "heat_confidence": "B",
-   "rationale": "Scale持续维护专业金融推理主榜，当前前沿Meta模型已有结果。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/prbench-finance",
-     "what": "当前官方榜单及方法公开；Scale持续维护专业金融推理主榜，当前前沿Meta模型已有结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将PRBench – Finance单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "prbench-legal",
-   "name": "PRBench – Legal",
-   "section": "推理",
-   "rank": 77,
-   "heat_score": 72,
-   "heat_confidence": "B",
-   "rationale": "Scale持续维护专业法律推理主榜，补齐通识考试未覆盖的职业任务。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/prbench-legal",
-     "what": "当前官方榜单及方法公开；Scale持续维护专业法律推理主榜，补齐通识考试未覆盖的职业任务。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将PRBench – Legal单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  },
-  {
-   "slug": "multichallenge",
-   "name": "MultiChallenge",
-   "section": "语言",
-   "rank": 78,
-   "heat_score": 71,
-   "heat_confidence": "B",
-   "rationale": "Scale当前仍以多轮跨约束挑战评测大小模型；补充单轮IFEval。",
-   "evidence": [
-    {
-     "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large",
-     "what": "当前官方榜单及方法公开；Scale当前仍以多轮跨约束挑战评测大小模型；补充单轮IFEval。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    },
-    {
-     "url": "https://labs.scale.com/leaderboard",
-     "what": "Scale当前总榜将MultiChallenge单列，并展示当前前沿模型结果。",
-     "date": "2026-11-07",
-     "organization": "Scale AI"
-    }
-   ]
-  }
- ]
+  "generated_at": "2026-11-07",
+  "window": {
+    "from": "2026-08-01",
+    "through": "2026-11-07",
+    "frontier_launch_extension_from": "2026-07-01"
+  },
+  "note": "近期热门：2026-08 起被评测机构、前沿模型发布或快速采纳的 benchmark。A=多家机构共同采用；B=主要单一机构在用。",
+  "items": [
+    {
+      "slug": "terminal-bench-science",
+      "name": "Terminal-Bench-Science 0.1",
+      "section": "物理",
+      "rank": 1,
+      "heat_score": 100,
+      "heat_confidence": "A",
+      "rationale": "同时进入AA Intelligence Index v5和Vals Science Index，且GPT-6.1 Terra发布文直接汇报，科学Agent最优先补缺。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将Terminal-Bench-Science 0.1列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列Terminal-Bench-Science 0.1，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "what": "10月27日指数升级将其作为新增科学评测，权重15%。",
+          "date": "2026-10-27",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/science_index",
+          "what": "Vals Science Index三项等权组成之一，10月更新。",
+          "date": "2026-10-25",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "what": "GPT-6.1 Terra发布文专节比较Terminal-Bench-Science 0.1结果。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "osworld-v2",
+      "name": "OSWorld 2.1",
+      "section": "Agent",
+      "rank": 2,
+      "heat_score": 97,
+      "heat_confidence": "A",
+      "rationale": "9月发布的长程桌面任务已同时出现在OpenAI与Anthropic 10月模型发布比较中。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "what": "GPT-6.1 Terra发布文用OSWorld 2.1比较多步骤桌面操作。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "what": "10月7日Haiku发布表和成本图报告OSWorld 2.1 offline subset。",
+          "date": "2026-10-07",
+          "organization": "Anthropic"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "Epoch 9月28日评审OSWorld 2.1为Flawed。",
+          "date": "2026-09-28",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "critpt-v2",
+      "name": "CritPt v2",
+      "section": "物理",
+      "rank": 3,
+      "heat_score": 96,
+      "heat_confidence": "A",
+      "rationale": "AA v5用其Hard Subset作为10%科学分项，Epoch在10月底专门评审新版。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将CritPt v2列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列CritPt v2，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "what": "指数升级采纳CritPt v2的40题Hard Subset。",
+          "date": "2026-10-27",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "评审表列CritPt v2，结论Not enough info。",
+          "date": "2026-10-30",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "hle-diamond",
+      "name": "HLE-Diamond",
+      "section": "推理",
+      "rank": 4,
+      "heat_score": 96,
+      "heat_confidence": "A",
+      "rationale": "10月27日AA v5用新版替换原HLE，Scale也有独立Diamond榜。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将HLE-Diamond列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列HLE-Diamond，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "what": "v5升级明确用HLE-Diamond替换HLE，权重10%。",
+          "date": "2026-10-27",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard/hle-diamond",
+          "what": "Scale当前公开Diamond独立榜单。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "gdpval",
+      "name": "GDPval (GDPval-AA v2.1)",
+      "section": "Agent",
+      "rank": 5,
+      "heat_score": 95,
+      "heat_confidence": "A",
+      "rationale": "Anthropic 10月发布表以GDPval-AA v2.1衡量知识工作，AA仍维护独立榜，Epoch ECI也收录GDPval。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将GDPval (GDPval-AA v2.1)列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列GDPval (GDPval-AA v2.1)，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "what": "10月7日Haiku 5.5发布表把GDPval-AA v2.1作为知识工作主指标。",
+          "date": "2026-10-07",
+          "organization": "Anthropic"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI列出GDPval。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "mmmu-pro",
+      "name": "MMMU-Pro",
+      "section": "多模态",
+      "rank": 6,
+      "heat_score": 95,
+      "heat_confidence": "A",
+      "rationale": "AA、Vals持续评测，GPT-6.1 Terra发布文直接用它比较视觉推理。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将MMMU-Pro列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列MMMU-Pro，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/mmmu",
+          "what": "Vals当前MMMU Pro独立评测页。",
+          "date": "2026-11-07",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "what": "Terra发布文专段报告MMMU-Pro视觉推理提升。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "healthbench-professional",
+      "name": "HealthBench Professional",
+      "section": "生物与医学",
+      "rank": 7,
+      "heat_score": 94,
+      "heat_confidence": "A",
+      "rationale": "OpenAI 10月系统卡明确推荐Professional衡量前沿医疗进展，AA也持续独立评测。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将HealthBench Professional列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
+          "what": "10月GPT-6 Sol/Luna系统卡报告Professional，认为较旧版更有区分度并建议用于前沿进展。",
+          "date": "2026-10",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra正式发布评测表明确报告HealthBench Professional，作为近期厂商采用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "exploitbench",
+      "name": "ExploitBench v0.1",
+      "section": "安全",
+      "rank": 8,
+      "heat_score": 94,
+      "heat_confidence": "A",
+      "rationale": "OpenAI Astra正式网络安全评测、Epoch当前ECI和9月Verified审查共同覆盖，当前前沿风险核心缺口。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "发布文明确在ExploitBench测试Astra及上一代模型；仅记录采用，不比较不同harness分数。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI纳入ExploitBench v0.1。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "9月12日独立审查ExploitBench v0.1为Verified。",
+          "date": "2026-09-12",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "exploitgym",
+      "name": "ExploitGym",
+      "section": "安全",
+      "rank": 9,
+      "heat_score": 93,
+      "heat_confidence": "A",
+      "rationale": "OpenAI Astra与Anthropic Haiku 5.5系统卡共同使用的真实漏洞利用评测，补足拒答型安全基准以外的能力风险。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra发布文网络安全章节明确报告ExploitGym并披露时间预算区别。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
+          "what": "10月7日系统卡3.3.4节详细报告ExploitGym及各Claude5.5模型结果。",
+          "date": "2026-10-07",
+          "organization": "Anthropic"
+        }
+      ]
+    },
+    {
+      "slug": "browsecomp",
+      "name": "BrowseComp",
+      "section": "Agent",
+      "rank": 10,
+      "heat_score": 92,
+      "heat_confidence": "A",
+      "rationale": "OpenAI、Kimi等前沿发布反复采用的深度搜索测试，独立追踪器10月仍更新。",
+      "evidence": [
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3生产力评测脚注详细规定BrowseComp上下文压缩，并报告无压缩对照。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        },
+        {
+          "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
+          "what": "10月11日更新的独立榜单列OpenAI、Anthropic、Moonshot多方带来源结果。",
+          "date": "2026-10-11",
+          "organization": "Steel.dev"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra正式发布评测表明确报告BrowseComp，作为近期厂商采用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "chartography",
+      "name": "Chartography",
+      "section": "多模态",
+      "rank": 11,
+      "heat_score": 92,
+      "heat_confidence": "A",
+      "rationale": "8月专业图表评测，Anthropic 10月发布表正式采用，Epoch随后专门评审。",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "what": "10月7日Haiku 5.5性能表用Chartography报告视觉推理。",
+          "date": "2026-10-07",
+          "organization": "Anthropic"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "10月21日Epoch审查Chartography为Not enough info。",
+          "date": "2026-10-21",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://surgehq.ai/benchmarks/chartography",
+          "what": "原始官方榜单当前展示多个前沿模型。",
+          "date": "2026-11-07",
+          "organization": "Surge AI"
+        }
+      ]
+    },
+    {
+      "slug": "mcp-atlas",
+      "name": "MCP Atlas",
+      "section": "Agent",
+      "rank": 12,
+      "heat_score": 92,
+      "heat_confidence": "A",
+      "rationale": "Scale当前前沿工具使用主榜，Kimi K3发布文明确使用其500题公开子集。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+          "what": "当前官方榜单及方法公开；Scale当前前沿工具使用主榜，Kimi K3发布文明确使用其500题公开子集。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将MCP Atlas单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "生产力评测脚注明确MCP Atlas的500题与100轮限制。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        }
+      ]
+    },
+    {
+      "slug": "frontiermath-erdos",
+      "name": "FrontierMath Erdős",
+      "section": "数学",
+      "rank": 13,
+      "heat_score": 91,
+      "heat_confidence": "A",
+      "rationale": "9月3日新推出未解Erdős问题形式化证明基准，10月持续独立实测。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内14次运行；最新一条模型Gemini 4 Argon，运行开始2026-10-21T02:29:42，task=FrontierMath-Erdos，row id=bloom68-nhb6jkzaqrdr7pf8。",
+          "date": "2026-10-21",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "gdp-pdf",
+      "name": "GDP.pdf",
+      "section": "语言",
+      "rank": 14,
+      "heat_score": 91,
+      "heat_confidence": "A",
+      "rationale": "7月发布的专业长PDF基准，10月仍为AA v5的知识工作分项，覆盖多行业真实文档。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将GDP.pdf列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列GDP.pdf，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "what": "10月27日继续保留GDP.pdf为指数5%组成。",
+          "date": "2026-10-27",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://surgehq.ai/benchmarks/gdp-pdf",
+          "what": "Surge原始GDP.pdf榜当前列GPT-6.1 Sol、GPT-6 Astra等，与AA独立实现并存。",
+          "date": "2026-11-07",
+          "organization": "Surge AI"
+        }
+      ]
+    },
+    {
+      "slug": "apex-agents",
+      "name": "APEX-Agents",
+      "section": "Agent",
+      "rank": 15,
+      "heat_score": 90,
+      "heat_confidence": "A",
+      "rationale": "AA独立实现、Epoch ECI和Kimi K3报告同时覆盖，专业服务长程Agent持续受关注。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将APEX-Agents列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列APEX-Agents，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI纳入APEX-Agents。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3生产力评测脚注明确引用APEX-Agents与AA结果。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        }
+      ]
+    },
+    {
+      "slug": "agents-last-exam",
+      "name": "Agents’ Last Exam v1.1",
+      "section": "Agent",
+      "rank": 16,
+      "heat_score": 90,
+      "heat_confidence": "A",
+      "rationale": "OpenAI最新Terra发布文以其为专业工作主测试，Epoch 10月18日专门审查。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "what": "发布文首个计算机使用章节明确使用Agents’ Last Exam。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "10月18日评审Agents’ Last Exam v1.1，结论Flawed。",
+          "date": "2026-10-18",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "posttrainbench",
+      "name": "PostTrainBench v1.1",
+      "section": "代码",
+      "rank": 17,
+      "heat_score": 90,
+      "heat_confidence": "A",
+      "rationale": "Kimi K3报告自主后训练任务，Epoch当前ECI并于9月9日审查为Verified。",
+      "evidence": [
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3 Coding benchmarks脚注单列PostTrainBench v1.1并说明harness或硬件。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        },
+        {
+          "url": "https://posttrainbench.com/",
+          "what": "当前官方原始协议与前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "posttrainbench.com"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI明确纳入PostTrainBench v1.1。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "sre-bench",
+      "name": "SRE Bench",
+      "section": "代码",
+      "rank": 18,
+      "heat_score": 90,
+      "heat_confidence": "A",
+      "rationale": "8月二进制逆向评测已进入GPT-6 Astra正式发布表，Vals 11月仍更新37模型榜。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/srebench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、37模型二进制逆向理解测试；不能误译为站点可靠性工程基准。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra正式发布评测表明确报告SRE Bench，作为近期厂商采用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "mirrorcode",
+      "name": "MirrorCode",
+      "section": "代码",
+      "rank": 19,
+      "heat_score": 89,
+      "heat_confidence": "A",
+      "rationale": "Epoch与METR长周期整程序重建评测，10月仍有实测运行，当前ECI已纳入。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/mirrorcode",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内15次运行；最新一条模型Gemini 3.7 Flash，运行开始2026-10-22T01:49:08，task=MirrorCode，row id=eeq6feqZLzfjfVsx4aeAWL。",
+          "date": "2026-10-22",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "remote-labor-index",
+      "name": "Remote Labor Index",
+      "section": "Agent",
+      "rank": 20,
+      "heat_score": 89,
+      "heat_confidence": "A",
+      "rationale": "Scale当前真实远程工作主榜，Epoch当前ECI与10月评审也覆盖。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/rli",
+          "what": "当前官方榜单及方法公开；Scale当前真实远程工作主榜，Epoch当前ECI与10月评审也覆盖。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将Remote Labor Index单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI名单纳入Remote Labor Index。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "10月12日独立审查为Not enough info。",
+          "date": "2026-10-12",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "frontierswe",
+      "name": "FrontierSWE v2",
+      "section": "代码",
+      "rank": 21,
+      "heat_score": 88,
+      "heat_confidence": "A",
+      "rationale": "Kimi K3发布文正式使用，Epoch当前ECI明确纳入FrontierSWE v2，区别已有FrontierCode。",
+      "evidence": [
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3 Coding benchmarks脚注单列FrontierSWE v2并说明harness或硬件。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        },
+        {
+          "url": "https://www.frontierswe.com/",
+          "what": "当前官方原始协议与前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "frontierswe.com"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI明确纳入FrontierSWE v2。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "livebench-2",
+      "name": "LiveBench 2.0",
+      "section": "Agent",
+      "rank": 22,
+      "heat_score": 88,
+      "heat_confidence": "A",
+      "rationale": "10月14日转向长程实务工作、10月25日再次更新，涵盖代码、浏览器、研究等七套件。",
+      "evidence": [
+        {
+          "url": "https://livebench.ai/",
+          "what": "官网明确版本2.0、10月14日及25日发布记录与当前多前沿模型表。",
+          "date": "2026-10-25",
+          "organization": "LiveBench"
+        },
+        {
+          "url": "https://www.benchleader.com/benchmarks/livebench2_global",
+          "what": "独立追踪器当前单列LiveBench 2 Global及最新前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "BenchLeader"
+        }
+      ]
+    },
+    {
+      "slug": "programbench",
+      "name": "ProgramBench",
+      "section": "代码",
+      "rank": 23,
+      "heat_score": 88,
+      "heat_confidence": "A",
+      "rationale": "11月5日更新、65模型整程序构建榜；Kimi K3发布评测也明确使用。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/programbench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、65模型整程序构建榜；Kimi K3发布评测也明确使用。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Coding Academic ProgramBench Updated: 11/5/2026 Models Tested: 65 Can language models rebuild programs from scratch? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3 Coding benchmarks脚注单列Program Bench并链接Vals结果。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        }
+      ]
+    },
+    {
+      "slug": "healthbench",
+      "name": "HealthBench",
+      "section": "生物与医学",
+      "rank": 24,
+      "heat_score": 87,
+      "heat_confidence": "A",
+      "rationale": "AA当前公开医疗评测与OpenAI 10月系统卡共同覆盖；虽趋近噪声上限，仍是活跃常报指标。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将HealthBench列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列HealthBench，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
+          "what": "GPT-6 Sol/Luna系统卡继续报告HealthBench及其Hard、Consensus切片。",
+          "date": "2026-10",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "deepswe",
+      "name": "DeepSWE v1.1",
+      "section": "代码",
+      "rank": 25,
+      "heat_score": 87,
+      "heat_confidence": "A",
+      "rationale": "Kimi K3正式发布评测单列DeepSWE v1.1；Epoch 9月7日独立审查，前沿代码Agent仍采用。",
+      "evidence": [
+        {
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "what": "Kimi K3 Coding benchmarks脚注单列DeepSWE v1.1并说明harness或硬件。",
+          "date": "2026-11-07",
+          "organization": "Moonshot AI"
+        },
+        {
+          "url": "https://deepswe.datacurve.ai/",
+          "what": "当前官方原始协议与前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "deepswe.datacurve.ai"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "9月7日审查DeepSWE v1.1为Flawed。",
+          "date": "2026-09-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra正式发布评测表明确报告DeepSWE v1.1，作为近期厂商采用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "swe-bench-pro-v2",
+      "name": "SWE-bench Pro V2",
+      "section": "代码",
+      "rank": 26,
+      "heat_score": 87,
+      "heat_confidence": "A",
+      "rationale": "Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+          "what": "当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/blog/swe-bench-pro-v2",
+          "what": "官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。",
+          "date": "2026-09-01",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "proofbench",
+      "name": "ProofBench v1.1",
+      "section": "数学",
+      "rank": 27,
+      "heat_score": 86,
+      "heat_confidence": "A",
+      "rationale": "10月29日更新的形式化证明榜，Epoch当前ECI也纳入ProofBench。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/proof_bench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新的形式化证明榜，Epoch当前ECI也纳入ProofBench。",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Math Proprietary ProofBench v1.1 Updated: 10/29/2026 Models Tested: 54 Can models write math proofs that are formally verified? Top Models 1 Claude Sonnet 5.5 2 Claude Opus 5.5 3 Claude Fable 5.1 View Details",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI将ProofBench列为benchmark creator administered评测。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "biomysterybench",
+      "name": "BioMysteryBench",
+      "section": "生物与医学",
+      "rank": 28,
+      "heat_score": 85,
+      "heat_confidence": "A",
+      "rationale": "11月更新的生物数据调查榜，并成为Vals Science Index的三项组成之一。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/biomysterybench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月更新的生物数据调查榜，并成为Vals Science Index的三项组成之一。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Science Industry Partner BioMysteryBench Updated: 11/5/2026 Models Tested: 30 Can agents solve agentic biology data investigations? Top Models 1 Claude Sonnet 5.5 2 GPT-6.1 Sol 3 GPT-6 Astra View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/science_index",
+          "what": "10月推出的Science Index将其与MysteryMechanism、Terminal-Bench-Science等权聚合。",
+          "date": "2026-10-25",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+          "what": "Anthropic原始99题生物数据分析评测；Vals在11月独立重新评测并加入Science Index。",
+          "date": "2026-04-29",
+          "organization": "Anthropic"
+        }
+      ]
+    },
+    {
+      "slug": "arc-agi-3",
+      "name": "ARC-AGI-3",
+      "section": "推理",
+      "rank": 29,
+      "heat_score": 85,
+      "heat_confidence": "A",
+      "rationale": "官方交互式泛化推理榜与2026赛事持续活跃，当前最新前沿模型已有标准harness结果。",
+      "evidence": [
+        {
+          "url": "https://arcprize.org/arc-agi/3/leaderboard",
+          "what": "当前官方Standard与Provider Adapter分别列模型，含10月前沿模型。",
+          "date": "2026-11-07",
+          "organization": "ARC Prize"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "GPT-6 Astra发布文以ARC-AGI-3为抽象推理主指标，并明确其自有harness；不能与官方Standard直接混比。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "ebr-bench",
+      "name": "EBR-bench",
+      "section": "Agent",
+      "rank": 30,
+      "heat_score": 85,
+      "heat_confidence": "A",
+      "rationale": "Epoch近期更新并持续实测从重复游戏经验中学习的能力，当前ECI采用。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/ebr-bench",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内14次运行；最新一条模型Mistral Large 4，运行开始2026-11-02T23:05:31，task=EBR-bench，row id=Xhk47x2m6incQifzec3pqC。",
+          "date": "2026-11-02",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "vials",
+      "name": "VIALS",
+      "section": "多模态",
+      "rank": 31,
+      "heat_score": 84,
+      "heat_confidence": "A",
+      "rationale": "2026年8月科学图像评测已有AA独立Agent实现，当前目录标为New。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将VIALS列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列VIALS，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://joinhandshake.com/research/benchmarks/vials/",
+          "what": "Handshake官方原始评测与AA独立实现并存；两者的工具、评分口径不能混算。",
+          "date": "2026-11-07",
+          "organization": "Handshake AI"
+        }
+      ]
+    },
+    {
+      "slug": "mysterymechanism",
+      "name": "MysteryMechanism",
+      "section": "推理",
+      "rank": 32,
+      "heat_score": 83,
+      "heat_confidence": "B",
+      "rationale": "10月29日更新，测有限实验中的隐机制发现，成为Vals Science Index核心分项。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mysterymechanism",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新，测有限实验中的隐机制发现，成为Vals Science Index核心分项。",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Science Proprietary MysteryMechanism Updated: 10/29/2026 Models Tested: 29 Can agents rediscover sealed mathematical mechanisms through bounded experiments? Top Models 1 GPT-6 Astra 2 Claude Opus 5.5 3 Claude Sonnet 5.5 View Details",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/science_index",
+          "what": "Science Index把MysteryMechanism作为三项等权科学研究测试之一。",
+          "date": "2026-10-25",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "mrcr-v2",
+      "name": "OpenAI MRCR (model-card label: MRCR v2)",
+      "section": "语言",
+      "rank": 33,
+      "heat_score": 83,
+      "heat_confidence": "B",
+      "rationale": "GPT-6 Astra最新发布表直接用8-needle、256K–1M长上下文比较前代，补齐长上下文精确检索。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "发布表Long Context明确列OpenAI MRCR v2的8-needle两段长度窗口。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://huggingface.co/datasets/openai/mrcr",
+          "what": "OpenAI官方公开数据集给出MRCR任务协议与多needle设置；证明可收录性而不是第二个独立采纳。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "harvey-lab",
+      "name": "Harvey Legal Agent Benchmark (LAB v1.1)",
+      "section": "Agent",
+      "rank": 34,
+      "heat_score": 82,
+      "heat_confidence": "A",
+      "rationale": "AA目录标记更新，已与Harvey联合升级为幻觉门控的法律工作评测，Vals也持续评同族任务。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将Harvey Legal Agent Benchmark (LAB v1.1)列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列Harvey Legal Agent Benchmark (LAB v1.1)，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks/hlab",
+          "what": "Vals 11月5日更新HLAB-Vals-1.1专业法律交付物榜；与AA设置分开记录。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "mystery-game-puzzles",
+      "name": "Mystery Game Puzzles",
+      "section": "推理",
+      "rank": 35,
+      "heat_score": 82,
+      "heat_confidence": "A",
+      "rationale": "Epoch 8–11月大量最新模型运行，聚焦推断隐藏游戏规则。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内123次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T09:59:23，task=Mystery Game Puzzles，row id=ba7BQr2N7kTuzakT8fZ3WU。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "otis-mock-aime",
+      "name": "OTIS Mock AIME 2024–2025",
+      "section": "数学",
+      "rank": 36,
+      "heat_score": 82,
+      "heat_confidence": "A",
+      "rationale": "比普通AIME更难的独立模拟题套件；11月仍被Epoch大量用于最新模型实测。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks",
+          "what": "Epoch当前官方说明明确列出该测试。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "窗口内153行该task运行；最新Kimi K3.1 Pro，row id=8Qe2qf4Eg77PMfp2Eh7V6K。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "simpleqa-verified",
+      "name": "SimpleQA Verified",
+      "section": "语言",
+      "rank": 37,
+      "heat_score": 82,
+      "heat_confidence": "A",
+      "rationale": "清洗事实问答集是Epoch当前ECI组成，11月仍持续独立实测。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "Epoch当前官方说明明确列出该测试。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "窗口内101行该task运行；最新Kimi K3.1 Pro，row id=HumfsXVh5BZWuTo6Z8Gqnf。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "dualchem",
+      "name": "DualChem",
+      "section": "化学",
+      "rank": 38,
+      "heat_score": 81,
+      "heat_confidence": "B",
+      "rationale": "10月28日Scale与NIST CAISSI合作首个基准，官方报告已评30+前沿模型，是新近化学安全重点。",
+      "evidence": [
+        {
+          "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+          "what": "官方10月28日首发说明，公布600题及30+模型评测。",
+          "date": "2026-10-28",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://fedscoop.com/scale-chemistry-ai-benchmark-caissi-partnership-dualchem/",
+          "what": "独立报道该CAISSI合作首个评测，作为关注度线索；题量与结论以Scale官方为准。",
+          "date": "2026-11-07",
+          "organization": "FedScoop"
+        }
+      ]
+    },
+    {
+      "slug": "surface-evolver-bench",
+      "name": "Surface Evolver Bench",
+      "section": "物理",
+      "rank": 39,
+      "heat_score": 81,
+      "heat_confidence": "B",
+      "rationale": "Epoch当前ECI正式纳入，并在10月9日独立审查其液面物理仿真任务，补充计算物理。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/surface-evolver-bench",
+          "what": "Epoch当前专页给出物理仿真评测和当前模型结果来源。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/eci-documentation/data",
+          "what": "当前ECI Included benchmarks列表明确纳入Surface Evolver Bench。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
+          "what": "10月9日评审结论Not enough info；热门不等于质量合格。",
+          "date": "2026-10-09",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "chess-puzzles",
+      "name": "Chess Puzzles (Epoch)",
+      "section": "推理",
+      "rank": 40,
+      "heat_score": 81,
+      "heat_confidence": "A",
+      "rationale": "Epoch 11月持续用于最新模型快速评估，考查棋局空间规划而非普通知识问答。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/chess-puzzles",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内162次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T09:59:23，task=Chess Puzzles，row id=8eSYUWwajdBjKiiM9CwnKu。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "furniture-assembly",
+      "name": "Furniture Assembly Benchmark",
+      "section": "多模态",
+      "rank": 41,
+      "heat_score": 81,
+      "heat_confidence": "A",
+      "rationale": "Epoch 11月仍反复运行的装配图错误识别测试，补足空间与步骤推理。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/furniture-assembly",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内37次运行；最新一条模型Kimi K3.1 Pro，运行开始2026-11-06T20:34:34，task=Furniture Assembly，row id=UNKjzcpUBaxGsrr7zZZZWC。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "hss",
+      "name": "Humanity’s Sixth Sense (HSS)",
+      "section": "多模态",
+      "rank": 42,
+      "heat_score": 81,
+      "heat_confidence": "B",
+      "rationale": "Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/hss",
+          "what": "当前官方榜单及方法公开；Scale当前标New的图像/视频直觉推理主榜，覆盖最新GPT与Gemini模型。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将Humanity’s Sixth Sense (HSS)单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "drugdiscoverybench",
+      "name": "DrugDiscoveryBench",
+      "section": "化学",
+      "rank": 43,
+      "heat_score": 80,
+      "heat_confidence": "B",
+      "rationale": "Scale当前主榜专列药物发现Agent测试，公开任务和复现材料，覆盖早期发现计算工作流。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/drugdiscoverybench",
+          "what": "当前官方榜单及方法公开；Scale当前主榜专列药物发现Agent测试，公开任务和复现材料，覆盖早期发现计算工作流。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将DrugDiscoveryBench单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench-Preview",
+          "what": "官方榜单链接的公开任务集，配套当前前沿模型对比；证明可收录性，不单独视为独立采纳。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "spireclimb",
+      "name": "SpireClimb",
+      "section": "Agent",
+      "rank": 44,
+      "heat_score": 80,
+      "heat_confidence": "A",
+      "rationale": "Epoch当前纳入ECI，11月仍运行Slay the Spire长程决策任务。",
+      "evidence": [
+        {
+          "url": "https://epoch.ai/benchmarks/spireclimb",
+          "what": "Epoch官方专题页介绍该独立测试及当前结果。",
+          "date": "2026-11-07",
+          "organization": "Epoch AI"
+        },
+        {
+          "url": "https://epoch.ai/data/benchmarks.csv",
+          "what": "原始CSV找到窗口内8次运行；最新一条模型GPT-6 Sol，运行开始2026-11-06T00:14:53，task=SpireClimb，row id=steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf。",
+          "date": "2026-11-06",
+          "organization": "Epoch AI"
+        }
+      ]
+    },
+    {
+      "slug": "genebench",
+      "name": "GeneBench / GeneBench Pro",
+      "section": "生物与医学",
+      "rank": 45,
+      "heat_score": 79,
+      "heat_confidence": "B",
+      "rationale": "Rosalind定量组学长程任务与Astra的GeneBench Pro持续用于前沿生命科学比较。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
+          "date": "2026-06-03",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "当前GPT-6 Astra正式Science and Health评测表单列GeneBench / GeneBench Pro，构成H2继续使用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "lifescibench",
+      "name": "LifeSciBench",
+      "section": "生物与医学",
+      "rank": 46,
+      "heat_score": 79,
+      "heat_confidence": "B",
+      "rationale": "Rosalind原始专业科研工作评测继续进入GPT-6 Astra发布表；不是只有6月介绍后就无人使用。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
+          "date": "2026-06-03",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "当前GPT-6 Astra正式Science and Health评测表单列LifeSciBench，构成H2继续使用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "medchembench",
+      "name": "MedChemBench",
+      "section": "化学",
+      "rank": 47,
+      "heat_score": 79,
+      "heat_confidence": "B",
+      "rationale": "药物化学多模态与优化工作流评测，GPT-6 Astra发布仍单列，补齐现库化学空白。",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "what": "官方原始工作流评测定义；此页主发布为6月3日，9月更新是产品开放，不能冒充新benchmark发布。",
+          "date": "2026-06-03",
+          "organization": "OpenAI"
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "what": "当前GPT-6 Astra正式Science and Health评测表单列MedChemBench，构成H2继续使用证据。",
+          "date": "2026-11-07",
+          "organization": "OpenAI"
+        }
+      ]
+    },
+    {
+      "slug": "audio-multichallenge",
+      "name": "AudioMultiChallenge",
+      "section": "语音",
+      "rank": 48,
+      "heat_score": 79,
+      "heat_confidence": "B",
+      "rationale": "Scale当前独立多轮口语交互榜，同时列音频输出与文本输出结果，补齐现库语音盲区。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/audiomc",
+          "what": "当前官方榜单及方法公开；Scale当前独立多轮口语交互榜，同时列音频输出与文本输出结果，补齐现库语音盲区。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将AudioMultiChallenge单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "mlcr",
+      "name": "MLCR / MLCR-AA",
+      "section": "生物与医学",
+      "rank": 49,
+      "heat_score": 78,
+      "heat_confidence": "A",
+      "rationale": "AA当前Healthcare & Medical Index采用的长医疗记录推理，评测目录标有更新。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将MLCR / MLCR-AA列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列MLCR / MLCR-AA，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://huggingface.co/datasets/Wisedocs/mlcr-dataset",
+          "what": "AA方法页指向Wisedocs官方公开数据，AA另测私有高难集；二者不能直接混比。",
+          "date": "2026-11-07",
+          "organization": "Wisedocs"
+        }
+      ]
+    },
+    {
+      "slug": "code2video",
+      "name": "Code2Video Bench",
+      "section": "多模态",
+      "rank": 50,
+      "heat_score": 78,
+      "heat_confidence": "A",
+      "rationale": "HeyGen视频生成代码评测被AA目录标New并独立跑114设计brief，拓展视频与代码交叉能力。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将Code2Video Bench列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列Code2Video Bench，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://www.heygen.com/research/introducing-code2video-benchmark",
+          "what": "HeyGen官方原始基准介绍与AA独立实现并存。",
+          "date": "2026-11-07",
+          "organization": "HeyGen"
+        }
+      ]
+    },
+    {
+      "slug": "distressbench",
+      "name": "DistressBench",
+      "section": "安全",
+      "rank": 51,
+      "heat_score": 78,
+      "heat_confidence": "B",
+      "rationale": "Scale当前主榜用它比较危机支持质量，补齐一般有害提示之外的心理支持安全。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/distressbench",
+          "what": "当前官方榜单及方法公开；Scale当前主榜用它比较危机支持质量，补齐一般有害提示之外的心理支持安全。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将DistressBench单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "global-mmlu-lite",
+      "name": "Global-MMLU-Lite",
+      "section": "语言",
+      "rank": 52,
+      "heat_score": 78,
+      "heat_confidence": "B",
+      "rationale": "AA当前Multilingual Index基于Global-MMLU-Lite，补足跨文化多语种对比。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将Global-MMLU-Lite列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列Global-MMLU-Lite，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        }
+      ]
+    },
+    {
+      "slug": "swe-atlas",
+      "name": "SWE Atlas",
+      "section": "代码",
+      "rank": 53,
+      "heat_score": 78,
+      "heat_confidence": "B",
+      "rationale": "Scale新主榜从仓库问答、测试编写、重构三个方向比较当前前沿模型。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall",
+          "what": "当前官方榜单及方法公开；Scale新主榜从仓库问答、测试编写、重构三个方向比较当前前沿模型。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将SWE Atlas单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "skillsbench",
+      "name": "SkillsBench",
+      "section": "Agent",
+      "rank": 54,
+      "heat_score": 78,
+      "heat_confidence": "B",
+      "rationale": "10月29日更新、35模型的技能增强Agent对照测试，帮助区分模型与skill基础设施收益。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/skillsbench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、35模型的技能增强Agent对照测试，帮助区分模型与skill基础设施收益。",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Coding Academic SkillsBench Updated: 10/29/2026 Models Tested: 35 How important are skills for agents? Top Models 1 DeepSeek V4.1 Flash 2 Grok 4.5 3 Gemini 3.7 Flash View Details",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "sciuniverse",
+      "name": "SciUniverse Level 1",
+      "section": "化学",
+      "rank": 55,
+      "heat_score": 77,
+      "heat_confidence": "B",
+      "rationale": "当前官方持续列出多家前沿模型在真实实验/模拟实验任务上的结果，跨化学、生物、材料。",
+      "evidence": [
+        {
+          "url": "https://c5r.net/sciuniverse/",
+          "what": "当前官方Level 1任务协议和多前沿模型榜单。",
+          "date": "2026-11-07",
+          "organization": "C5R"
+        },
+        {
+          "url": "https://benchlm.ai/benchmarks/sciuniverse",
+          "what": "独立跟踪器单列SciUniverse Level 1并链接原始基准，属于关注度证据不是复现。",
+          "date": "2026-11-07",
+          "organization": "BenchLM"
+        }
+      ]
+    },
+    {
+      "slug": "swe-bench-multimodal",
+      "name": "SWE-bench Multimodal",
+      "section": "代码",
+      "rank": 56,
+      "heat_score": 77,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新、21模型的截图驱动JS仓库问题测试，独立于Verified。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/swebench-multimodal",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、21模型的截图驱动JS仓库问题测试，独立于Verified。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Coding Academic SWE-bench Multimodal Updated: 11/5/2026 Models Tested: 21 Do AI Systems Generalize to Visual Software Domains? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "cyberbench",
+      "name": "CyberBench v1.1",
+      "section": "安全",
+      "rank": 57,
+      "heat_score": 76,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新、48模型真实安全漏洞发现与修补测试。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/cyber",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、48模型真实安全漏洞发现与修补测试。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Cyber Proprietary CyberBench v1.1 Updated: 11/5/2026 Models Tested: 48 Can AI agents find security bugs and patch them? Top Models 1 Wonder 2 GPT-6 Sol 3 Gemini 4 Argon View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "enterpriseops-gym",
+      "name": "EnterpriseOps-Gym",
+      "section": "Agent",
+      "rank": 58,
+      "heat_score": 76,
+      "heat_confidence": "A",
+      "rationale": "ServiceNow企业工作流基准已有AA独立评测，状态验证而非仅文本答案，是当前企业Agent补缺。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将EnterpriseOps-Gym列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列EnterpriseOps-Gym，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym",
+          "what": "AA当前实现明确基于ServiceNow公开数据并以终态SQL验证。",
+          "date": "2026-11-07",
+          "organization": "ServiceNow"
+        }
+      ]
+    },
+    {
+      "slug": "voicecodebench",
+      "name": "VoiceCodeBench",
+      "section": "语音",
+      "rank": 59,
+      "heat_score": 76,
+      "heat_confidence": "B",
+      "rationale": "9月24日更新、20个语音模型的结构化值转写榜，衡量工作场景精确数据而非只看WER。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/voice-code-bench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；9月24日更新、20个语音模型的结构化值转写榜，衡量工作场景精确数据而非只看WER。",
+          "date": "2026-09-24",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Voice Industry Partner VoiceCodeBench Updated: 9/24/2026 Models Tested: 20 How good are speech-to-text models at handling exact structured values in English workplace speech? Top Models 1 GPT Live Transcribe 2 Grok Voice Transcribe 2.0 3 Cartesia Ink 2 View Details",
+          "date": "2026-09-24",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "medscribe",
+      "name": "MedScribe",
+      "section": "生物与医学",
+      "rank": 60,
+      "heat_score": 75,
+      "heat_confidence": "B",
+      "rationale": "10月29日更新、109模型的医生行政记录工作测试，补齐医学考试以外任务。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/medscribe",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、109模型的医生行政记录工作测试，补齐医学考试以外任务。",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Healthcare Proprietary MedScribe Updated: 10/29/2026 Models Tested: 109 Can models support doctors with their administrative work? Top Models 1 Claude Opus 5.5 2 Claude Fable 5.1 3 Claude Sonnet 5.5 View Details",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "fortress",
+      "name": "Fortress",
+      "section": "安全",
+      "rank": 61,
+      "heat_score": 75,
+      "heat_confidence": "B",
+      "rationale": "Scale当前主榜列前沿风险与国家安全评测，并出现最新模型更新。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "what": "当前官方榜单及方法公开；Scale当前主榜列前沿风险与国家安全评测，并出现最新模型更新。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将Fortress单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "robo-bench",
+      "name": "Robo-bench",
+      "section": "机器人与具身",
+      "rank": 62,
+      "heat_score": 75,
+      "heat_confidence": "B",
+      "rationale": "10月13日更新，7个前沿模型比较机器人运动与摄像机闭环控制，补齐具身盲区。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/robo_bench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新，7个前沿模型比较机器人运动与摄像机闭环控制，补齐具身盲区。",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Science Proprietary Robo-bench Updated: 10/13/2026 Models Tested: 7 Can a model control a robot arm and a humanoid in a real-time physics simulation, from motor commands and camera images alone? Most tasks are held out. Top Models 1 GPT-6.1 Sol 2 GPT-6 Astra 3 Claude Opus 5.5 View Details",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "safe-teen",
+      "name": "SAFE-Teen",
+      "section": "安全",
+      "rank": 63,
+      "heat_score": 75,
+      "heat_confidence": "B",
+      "rationale": "10月13日更新、17模型的青少年多轮心理健康安全测试。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/mental-health",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、17模型的青少年多轮心理健康安全测试。",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Mental Health Proprietary SAFE-Teen Updated: 10/13/2026 Models Tested: 17 Can models respond safely as teens disclose concerns, resist advice, and ask for help? Risk Areas 1 Urgent safety & safeguarding 2 Health advice & clinical boundaries 3 AI relationships & emotional dependence View Details",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "vibe-code-bench",
+      "name": "Vibe Code Bench v1.1",
+      "section": "代码",
+      "rank": 64,
+      "heat_score": 75,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新、125模型从零构建可用网页应用的实测榜。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/vibe-code",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、125模型从零构建可用网页应用的实测榜。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Coding Proprietary Vibe Code Bench v1.1 Updated: 11/5/2026 Models Tested: 125 Can models build web applications from scratch? Top Models 1 Claude Sonnet 5.5 2 Gemini 4 Argon 3 Claude Haiku 5.5 View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "medcode",
+      "name": "MedCode",
+      "section": "生物与医学",
+      "rank": 65,
+      "heat_score": 74,
+      "heat_confidence": "B",
+      "rationale": "10月29日更新、107模型的医疗编码对比，连接诊疗记录与实际医疗工作。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/medcode",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月29日更新、107模型的医疗编码对比，连接诊疗记录与实际医疗工作。",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Healthcare Proprietary MedCode Updated: 10/29/2026 Models Tested: 107 Can models support the medical billing process? Top Models 1 Claude Opus 5 2 Gemini 3.1 Pro Preview (02/26) 3 Gemini 4 Argon View Details",
+          "date": "2026-10-29",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "aa-analyst-agent",
+      "name": "AA-AnalystAgent",
+      "section": "Agent",
+      "rank": 66,
+      "heat_score": 74,
+      "heat_confidence": "B",
+      "rationale": "AA当前独立80题数据分析榜，直接测试表格与文档量化分析，用pass^5强调稳定性。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将AA-AnalystAgent列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列AA-AnalystAgent，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        }
+      ]
+    },
+    {
+      "slug": "ifbench",
+      "name": "IFBench",
+      "section": "语言",
+      "rank": 67,
+      "heat_score": 74,
+      "heat_confidence": "B",
+      "rationale": "AA持续独立测试精确指令遵循，补充已有IFEval而不是换个别名。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将IFBench列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列IFBench，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        }
+      ]
+    },
+    {
+      "slug": "itbench",
+      "name": "ITBench / ITBench-AA",
+      "section": "代码",
+      "rank": 68,
+      "heat_score": 74,
+      "heat_confidence": "B",
+      "rationale": "IBM运维诊断任务已成为AA独立评测，补齐Kubernetes根因分析而非通用代码生成。",
+      "evidence": [
+        {
+          "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+          "what": "当前方法页将ITBench / ITBench-AA列为正在实施的评测，披露任务或评分协议。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        },
+        {
+          "url": "https://artificialanalysis.ai/evaluations",
+          "what": "当前公开评测目录单列ITBench / ITBench-AA，不是新闻提及。",
+          "date": "2026-11-07",
+          "organization": "Artificial Analysis"
+        }
+      ]
+    },
+    {
+      "slug": "legal-research-bench",
+      "name": "Legal Research Bench",
+      "section": "Agent",
+      "rank": 69,
+      "heat_score": 74,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新、91模型的法律研究工具工作流评测。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_research",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新、91模型的法律研究工具工作流评测。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Legal Proprietary Legal Research Bench Updated: 11/5/2026 Models Tested: 91 Evaluating agents on legal research tasks across diverse areas of US law Top Models 1 Gemini 4 Carbon 2 Muse Spark 1.3 Max 3 Claude Opus 5 View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "cua-bench",
+      "name": "CUA-bench",
+      "section": "Agent",
+      "rank": 70,
+      "heat_score": 73,
+      "heat_confidence": "B",
+      "rationale": "10月13日更新、9模型只用键鼠玩商业游戏，补充真实GUI决策。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/cua_bench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、9模型只用键鼠玩商业游戏，补充真实GUI决策。",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Games Proprietary CUA-bench Updated: 10/13/2026 Models Tested: 9 Can an AI agent play six commercial video games with only a keyboard and a mouse? Half of them are held out. Top Models 1 GPT-6 Astra 2 Claude Opus 5.5 3 Claude Fable 5.1 View Details",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "cyberoffense",
+      "name": "CyberOffense",
+      "section": "安全",
+      "rank": 71,
+      "heat_score": 73,
+      "heat_confidence": "B",
+      "rationale": "10月23日更新、7模型自主企业网络渗透场景；补齐能力风险评测。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月23日更新、7模型自主企业网络渗透场景；补齐能力风险评测。",
+          "date": "2026-10-23",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Cyber Proprietary CyberOffense Updated: 10/23/2026 Models Tested: 7 Can AI autonomously compromise realistic enterprise networks? Top Models 1 GPT-6 Sol Daybreak 2 DeepSeek V4.1 Flash 1017 3 Kimi K3.1 Pro View Details",
+          "date": "2026-10-23",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "excel-modeling",
+      "name": "Excel Modeling Benchmark v1.1",
+      "section": "Agent",
+      "rank": 72,
+      "heat_score": 73,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新，39模型的可执行Excel财务建模对比，补齐交付物型工作。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/emb-v1-1",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新，39模型的可执行Excel财务建模对比，补齐交付物型工作。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Finance Proprietary Excel Modeling Benchmark v1.1 Updated: 11/5/2026 Models Tested: 39 Evaluating agents on Excel-based financial modeling tasks Top Models 1 Claude Fable 5.1 2 Gemini 4 Carbon 3 Claude Sonnet 5.5 View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "finance-agent",
+      "name": "Finance Agent v2.1",
+      "section": "Agent",
+      "rank": 73,
+      "heat_score": 73,
+      "heat_confidence": "B",
+      "rationale": "11月5日更新，37模型核心金融分析Agent评测。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/fabv2-1",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；11月5日更新，37模型核心金融分析Agent评测。",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Finance Proprietary Finance Agent v2.1 Updated: 11/5/2026 Models Tested: 37 Evaluating agents on core financial analyst tasks Top Models 1 Claude Opus 5.5 2 Gemini 4 Argon 3 Wonder Full View Details",
+          "date": "2026-11-05",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "legalbench",
+      "name": "LegalBench",
+      "section": "推理",
+      "rank": 74,
+      "heat_score": 73,
+      "heat_confidence": "B",
+      "rationale": "10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/legal_bench",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Legal Academic LegalBench Updated: 10/13/2026 Models Tested: 151 Evaluating language models on a wide range of open source legal reasoning tasks. Top Models 1 Claude Fable 5 2 Claude Fable 5.1 3 Gemini 4 Argon View Details",
+          "date": "2026-10-13",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "code-migration",
+      "name": "Code Migration v1.1",
+      "section": "代码",
+      "rank": 75,
+      "heat_score": 72,
+      "heat_confidence": "B",
+      "rationale": "10月30日更新、29模型程序跨语言重实现评测。",
+      "evidence": [
+        {
+          "url": "https://www.vals.ai/benchmarks/code-migration-v1-1",
+          "what": "当前方法与榜单页展示多家前沿模型的实测结果；10月30日更新、29模型程序跨语言重实现评测。",
+          "date": "2026-10-30",
+          "organization": "Vals AI"
+        },
+        {
+          "url": "https://www.vals.ai/benchmarks",
+          "what": "目录卡片：Coding Proprietary Code Migration v1.1 Updated: 10/30/2026 Models Tested: 29 Can language models reimplement working programs in another language? Top Models 1 Claude Sonnet 5.5 2 Claude Opus 5.5 3 GPT-6 Astra View Details",
+          "date": "2026-10-30",
+          "organization": "Vals AI"
+        }
+      ]
+    },
+    {
+      "slug": "prbench-finance",
+      "name": "PRBench – Finance",
+      "section": "推理",
+      "rank": 76,
+      "heat_score": 72,
+      "heat_confidence": "B",
+      "rationale": "Scale持续维护专业金融推理主榜，当前前沿Meta模型已有结果。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-finance",
+          "what": "当前官方榜单及方法公开；Scale持续维护专业金融推理主榜，当前前沿Meta模型已有结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将PRBench – Finance单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "prbench-legal",
+      "name": "PRBench – Legal",
+      "section": "推理",
+      "rank": 77,
+      "heat_score": 72,
+      "heat_confidence": "B",
+      "rationale": "Scale持续维护专业法律推理主榜，补齐通识考试未覆盖的职业任务。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/prbench-legal",
+          "what": "当前官方榜单及方法公开；Scale持续维护专业法律推理主榜，补齐通识考试未覆盖的职业任务。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将PRBench – Legal单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    },
+    {
+      "slug": "multichallenge",
+      "name": "MultiChallenge",
+      "section": "语言",
+      "rank": 78,
+      "heat_score": 71,
+      "heat_confidence": "B",
+      "rationale": "Scale当前仍以多轮跨约束挑战评测大小模型；补充单轮IFEval。",
+      "evidence": [
+        {
+          "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large",
+          "what": "当前官方榜单及方法公开；Scale当前仍以多轮跨约束挑战评测大小模型；补充单轮IFEval。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        },
+        {
+          "url": "https://labs.scale.com/leaderboard",
+          "what": "Scale当前总榜将MultiChallenge单列，并展示当前前沿模型结果。",
+          "date": "2026-11-07",
+          "organization": "Scale AI"
+        }
+      ]
+    }
+  ]
 }

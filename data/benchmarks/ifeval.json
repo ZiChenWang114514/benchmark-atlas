@@ -1,7 +1,7 @@
 {
   "id": "ifeval",
   "schema_version": "0.1.0",
-  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "IFEval",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-11-14T14:13:55+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2023-11-14（arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
@@ -367,7 +367,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.07911",
@@ -380,7 +380,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "本轮Google官方HF卡显示541行，25种指令以原论文为准；未编造语义版本号。",
+      "value": "Google官方HF卡显示541行，25种指令以原论文为准；未编造语义版本号。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/IFEval",
@@ -396,8 +396,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-11-14T14:13:55+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2023-11-14"
         }
       ],
       "sources": [
@@ -406,7 +405,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+      "note": "arXiv原始UTC时间已转换为；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "原论文GPT-4 prompt-strict为76.89%；后续IFBench论文表3的定向IF-RLVR训练可达到IFEval 92.2（该文prompt-loose口径）。高分与可验证任务训练的泛化局限需分开，不能宣称所有指令能力已饱和。",
@@ -442,7 +441,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
+      "value": "2026-11-08 （采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.07911",
@@ -485,7 +484,7 @@
           "track": "作者论文表3 / prompt-level strict",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -495,7 +494,7 @@
           "track": "作者论文表3 / prompt-level strict",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -505,7 +504,7 @@
           "track": "作者论文表3 / instruction-level strict",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -515,7 +514,7 @@
           "track": "作者论文表3 / instruction-level strict",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -525,7 +524,7 @@
           "track": "作者论文表3 / prompt-level loose",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -535,7 +534,7 @@
           "track": "作者论文表3 / prompt-level loose",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -545,7 +544,7 @@
           "track": "作者论文表3 / instruction-level loose",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -555,7 +554,7 @@
           "track": "作者论文表3 / instruction-level loose",
           "source_url": "https://arxiv.org/pdf/2311.07911",
           "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "model": "Hunyuan-A13B（报告命名）",
@@ -564,7 +563,7 @@
           "metric": "IF-Eval，报告表3原标签",
           "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比",
           "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
-          "snapshot_date": "2026-11-07 KST（保留历史证据；本轮未复开厂商报告）",
+          "snapshot_date": "2026-11-07 （保留历史证据；未复开厂商报告）",
           "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）",
           "rank": null
         }
@@ -655,7 +654,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 464152,
@@ -665,16 +664,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ",
-        "webViewLink": "https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -682,27 +678,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU",
-          "webViewLink": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM",
-      "webViewLink": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -711,18 +702,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+        "change": "最近复核"
       }
     ],
     "sources": [

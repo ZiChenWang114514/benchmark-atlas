@@ -1,7 +1,7 @@
 {
   "id": "zebralogic",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ZebraLogic",
@@ -45,7 +45,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2025-02-03T15:44:49+09:00",
+        "paper_first_submission_kst": "2025-02-03",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -333,7 +333,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "公开评测集合；没有在本轮材料中确认一个独立隐藏官方测试集。",
+      "value": "公开评测集合；没有在材料中确认一个独立隐藏官方测试集。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2502.01100",
@@ -403,7 +403,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2502.01100",
@@ -431,7 +431,7 @@
     "paper_revision_history": {
       "value": {
         "arxiv_version": "arXiv v2",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+        "history_note": "完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。",
         "2026_h2_evidence": [
           {
             "url": "https://arxiv.org/html/2609.27284v1",
@@ -442,14 +442,14 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2025-02-03T15:44:49+09:00"
+            "date_kst": "2025-02-03"
           },
           {
             "version": "v2",
-            "date_kst": "2025-07-15T10:14:25+09:00"
+            "date_kst": "2025-07-15"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -500,7 +500,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST；厂商自报保留既有采集日",
+      "value": "2026-11-08；厂商自报保留既有采集日",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md",
@@ -8755,7 +8755,7 @@
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "source_class": "三级：模型厂商自报",
           "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
-          "track": "既有厂商自报（本轮未刷新）"
+          "track": "既有厂商自报（未刷新）"
         },
         {
           "model_version": "OpenAI-o1-1217",
@@ -8767,7 +8767,7 @@
           "source_url": "https://arxiv.org/html/2609.27284v1",
           "source_class": "三级：模型厂商自报",
           "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
-          "track": "既有厂商自报（本轮未刷新）"
+          "track": "既有厂商自报（未刷新）"
         }
       ],
       "sources": [
@@ -8841,13 +8841,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv",
-      "webViewLink": "https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -8870,7 +8867,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 3577291,
@@ -8882,13 +8879,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy",
-        "webViewLink": "https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -8896,15 +8890,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs",
-          "webViewLink": "https://docs.google.com/document/d/125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/zebralogic.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -8914,13 +8906,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license",
           "evaluation.official_scripts",
@@ -8931,9 +8921,7 @@
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [

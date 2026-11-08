@@ -136,11 +136,9 @@ function publish(from, to, description, group, page) {
   });
 }
 
-publish(join(repoRoot, 'data/index.json'), 'index.json', '导航索引：名称、主板块、标签、摘要、来源和 Drive 链接。', 'overview');
-publish(join(repoRoot, 'data/news.json'), 'news.json', '最新动态。观察日和事件日分开；没有证实的事件日写“待核实”。', 'overview');
+publish(join(repoRoot, 'data/index.json'), 'index.json', '导航索引：名称、主板块、标签、摘要和来源。', 'overview');
+publish(join(repoRoot, 'data/news.json'), 'news.json', '最新动态。观察日和事件日分开。', 'overview');
 publish(join(repoRoot, 'data/trending.json'), 'trending.json', '近期热门。heat_confidence 为 A 或 B；没有对应档案的 slug 不会因此构建失败。', 'overview');
-publish(join(repoRoot, 'data/drive-manifest.json'), 'drive-manifest.json', 'Drive 总目录、宪法文档、总表，以及每条基准的 PDF 和介绍文档。', 'overview');
-publish(join(repoRoot, 'data/quality-report.json'), 'quality-report.json', '校验摘要、待核实字段路径，以及暂缓收录的说明。', 'overview');
 publish(join(repoRoot, 'data/master-index.csv'), 'master-index.csv', '总表，可供表格软件导入。', 'overview');
 publish(join(repoRoot, 'CONSTITUTION.md'), 'constitution.md', '《收集宪法》原文。', 'overview');
 publish(join(repoRoot, 'schema/benchmark.schema.json'), 'schema/benchmark.schema.json', '单条基准 JSON 的字段契约。', 'overview');

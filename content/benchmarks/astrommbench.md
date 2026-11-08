@@ -1,8 +1,8 @@
 # AstroMMBench
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -26,13 +26,13 @@ AstroMMBench: A Benchmark for Evaluating Multimodal Large Language Model Capabil
 
 ### 论文版本
 
-arXiv v2（2025-10-22 01:29:47，Asia/Shanghai）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。
+arXiv v2（2025-10-22 01:29:47，）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。
 
 来源：[2][3]
 
 ### 发布日期
 
-2025-09-29 17:02:30（Asia/Shanghai，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。
+2025-09-29 17:02:30（，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。
 
 来源：[2][3]
 
@@ -56,7 +56,7 @@ hf_card：README标记apache-2.0；preprint_promise：2025预印本Ethics Statem
 
 来源：[4][5][3]
 
-说明：三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库本轮没有找到README/LICENSE根文件，代码许可仍待核实。
+说明：三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库没有找到README/LICENSE根文件，代码许可仍待核实。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -205,7 +205,7 @@ NSFC 12273076、12203077、12373110、12133001；国家重点研发计划2025YFA
 
 ### 公开、隐藏与划分
 
-本轮HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。
+HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。
 
 来源：[4][3]
 
@@ -247,7 +247,7 @@ https://github.com/Shijinghang/benchmark_pipeline
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -259,7 +259,7 @@ https://github.com/Shijinghang/benchmark_pipeline
 
 ### 版本脉络
 
-arxiv_v1：2025-09-29T17:02:30+08:00；arxiv_v2：2025-10-22T01:29:47+08:00；preprint_questions：621；journal_publication：2026-09-30；journal_questions：592；version_boundary：题量、作者表和分数随正式版本变化；不是简单保留同一分母重命名。
+arxiv_v1：2025-09-29；arxiv_v2：2025-10-22；preprint_questions：621；journal_publication：2026-09-30；journal_questions：592；version_boundary：题量、作者表和分数随正式版本变化；不是简单保留同一分母重命名。
 
 来源：[2][3]
 
@@ -281,7 +281,7 @@ arxiv_v1：2025-09-29T17:02:30+08:00；arxiv_v2：2025-10-22T01:29:47+08:00；pr
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -289,7 +289,7 @@ arxiv_v1：2025-09-29T17:02:30+08:00；arxiv_v2：2025-10-22T01:29:47+08:00；pr
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -305,7 +305,7 @@ https://www.mdpi.com/2218-1997/12/10/296#table_body_display_universe-12-00296-t0
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -367,7 +367,7 @@ https://github.com/Shijinghang/benchmark_pipeline/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -377,7 +377,7 @@ https://github.com/Shijinghang/benchmark_pipeline/issues
 
 来源：[1]
 
-说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -395,7 +395,7 @@ https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/univ
 
 来源：[3]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -403,9 +403,9 @@ https://mdpi-res.com/d_attachment/universe/universe-12-00296/article_deploy/univ
 
 来源：[3]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：https://drive.google.com/drive/folders/1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh
+id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：
 
 来源：[1]
 
@@ -415,19 +415,19 @@ id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：https://drive.google.com/
 
 来源：[7]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO；webViewLink：https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view
+id：1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO；webViewLink：
 
 来源：[1]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- 2026-11-07（Asia/Seoul）：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- 2026-11-07：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

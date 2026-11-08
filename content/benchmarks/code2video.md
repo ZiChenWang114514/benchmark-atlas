@@ -170,7 +170,7 @@ Code2Video Bench评估“写代码生成好视频”，不是只检查代码能�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
@@ -198,7 +198,7 @@ Code2Video Bench评估“写代码生成好视频”，不是只检查代码能�
 
 ## 榜单快照
 
-**快照日**：2026-11-07 KST / Asia/Seoul
+**快照日**：2026-11-07
 
 来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
@@ -353,7 +353,7 @@ scope：报告overall top5中的轴内排名，非全部模型轴榜
 
 核验说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-**Drive目录**：待核实
+**目录**：待核实
 
 来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
@@ -363,11 +363,11 @@ scope：报告overall top5中的轴内排名，非全部模型轴榜
 
 来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/code2video-aa)（访问2026-11-07）；[3](https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md)（访问2026-11-07）
 
-**Drive PDF**：待核实
+** PDF**：待核实
 
 来源：[1](https://www.heygen.com/research/introducing-code2video-benchmark)（访问2026-11-07）
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

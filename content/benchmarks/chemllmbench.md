@@ -182,7 +182,7 @@ ChemLLMBench不是一套化学常识选择题，而是用既有分子与反应�
 
 来源：[1](https://raw.githubusercontent.com/ChemFoundationModels/ChemLLMBench/main/README.md)（访问2026-11-07）
 
-**修订历史**：arXiv v1：2023-05-27 23:17:33 KST；v2：2023-09-11 01:37:36 KST；v3：2023-12-28 13:29:36 KST。
+**修订历史**：arXiv v1：2023-05-27 23:17:33；v2：2023-09-11 01:37:36；v3：2023-12-28 13:29:36。
 
 来源：[1](https://arxiv.org/abs/2305.18365)（访问2026-11-07）
 
@@ -294,20 +294,20 @@ ChemLLMBench不是一套化学常识选择题，而是用既有分子与反应�
 
 来源：[1](https://arxiv.org/pdf/2305.18365)（访问2026-11-07）
 
-**Drive目录**：id：1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW；webViewLink：https://drive.google.com/drive/folders/1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW
+**目录**：id：1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1rnLv5w-KyxXj6v6acgKJkn464Y4KrWXW)（访问2026-11-07）
+来源：[1](
 
-**其他文档**：kind：中文介绍 Google Doc；id：1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k；webViewLink：https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk
+**其他文档**：kind：中文介绍 Google Doc；id：1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k；webViewLink：
 
-来源：[1](https://docs.google.com/document/d/1RgH6aRlibeAwuM2MO9ufxqZg_8x3ZY4jdZCFtuK5c_k/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
-**Drive PDF**：id：1QT72MOldRvsA2alWgK2XKk53Vq45tzGv；webViewLink：https://drive.google.com/file/d/1QT72MOldRvsA2alWgK2XKk53Vq45tzGv/view?usp=drivesdk
+** PDF**：id：1QT72MOldRvsA2alWgK2XKk53Vq45tzGv；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1QT72MOldRvsA2alWgK2XKk53Vq45tzGv/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；timezone：；change：：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

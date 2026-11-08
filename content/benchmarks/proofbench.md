@@ -1,10 +1,10 @@
 # ProofBench
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 ProofBench（论文名FormalProofBench）让模型提交由Lean 4检验的数学证明，而非让裁判读自然语言解答。当前v1.1在100道私有题评测，已与原始200题论文协议分离。形式检查规则、Lean/Mathlib版本、是否联网、能否添加辅助引理和预算差异都会改变可比性；native_decide获准也不等于所有证明仅依赖kernel。
 
-编辑状态：已核验存在；中文研究快照；note: trending: A；未核实保留标记
+最近复核
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv:2603.26996v1；ICLR 2026 Workshop VerifAI-2论文。
 
 ### 发布时间
 
-论文首发：2026-03-28 06:14:53 KST（源站2026-03-27 21:14:53 UTC）；不是当前v1.1榜单更新时间。
+论文首发：2026-03-28 06:14:53 （源站2026-03-27 21:14:53 UTC）；不是当前v1.1榜单更新时间。
 
 [1](https://arxiv.org/abs/2603.26996)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2603.26996)（访问 2026-11-08）
 
@@ -108,9 +108,9 @@ Vals AI与论文形式化贡献者
 
 ```json
 [
-  "EPFL",
-  "Moscow Institute of Physics and Technology",
-  "Indiana University Bloomington",
+  "EPFL"
+  "Moscow Institute of Physics and Technology"
+  "Indiana University Bloomington"
   "独立研究者（依论文作者单位）"
 ]
 ```
@@ -121,13 +121,13 @@ Vals AI与论文形式化贡献者
 
 ```json
 [
-  "Nikil Ravi",
-  "Kexing Ying",
-  "Vasilii Nesterov",
-  "Rayan Krishnan",
-  "Elif Uskuplu",
-  "Bingyu Xia",
-  "Janitha Aswedige",
+  "Nikil Ravi"
+  "Kexing Ying"
+  "Vasilii Nesterov"
+  "Rayan Krishnan"
+  "Elif Uskuplu"
+  "Bingyu Xia"
+  "Janitha Aswedige"
   "Langston Nashold"
 ]
 ```
@@ -212,7 +212,7 @@ Lean 4专家，包括博士生与领域专家。
 
 ```json
 [
-  "文本",
+  "文本"
   "Lean代码"
 ]
 ```
@@ -273,7 +273,7 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）
 
@@ -281,19 +281,19 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 
 ```json
 {
-  "version": "v1.1",
-  "heat_confidence": "A",
+  "version": "v1.1"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://www.vals.ai/benchmarks/proof_bench",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://www.vals.ai/benchmarks/proof_bench"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
-    },
+    }
     {
-      "url": "https://epoch.ai/data/eci-documentation/data",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://epoch.ai/data/eci-documentation/data"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
     }
   ]
@@ -309,9 +309,9 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-03-28T06:14:53+09:00",
-    "timezone": "Asia/Seoul"
+    "version": "v1"
+    "submitted_at": "2026-03-28"
+    "timezone": ""
   }
 ]
 ```
@@ -326,7 +326,7 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 
 ### 污染/限制/争议
 
-v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模型在2道题中的单题分数。Aristotle可联网、使用Lean 4.28及整文件辅助引理；语言模型无网络、Lean 4.25.2、仅提交证明体。AlephProver可辅助引理、禁网络，用4.25.2；第二轮预算$500/24h获得100，首轮$75/90min为99。这些系统和预算不能当作同一受控配置。
+v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模型在2道题中的单题分数。Aristotle可联网、使用Lean 4.28及整文件辅助引理；语言模型无网络、Lean 4.25.2、仅提交证明体。AlephProver可辅助引理、禁网络，用4.25.2；预算$500/24h获得100，首轮$75/90min为99。这些系统和预算不能当作同一受控配置。
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）
 
@@ -342,7 +342,7 @@ v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）
 
@@ -430,7 +430,7 @@ https://epoch.ai/data/eci-documentation/data
 | 论文v1 Table 2 / 历史200题 | 12 | [Grok 4.1 Fast (Reasoning)](https://arxiv.org/pdf/2603.26996) | 4 | FormalProofBench旧版200题 Accuracy (%) | 2026-03-28 |
 | 论文v1 Table 2 / 历史200题 | 13 | [DeepSeek V3.2 (Thinking)](https://arxiv.org/pdf/2603.26996) | 3 | FormalProofBench旧版200题 Accuracy (%) | 2026-03-28 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2603.26996)（访问 2026-11-08）
 
@@ -476,7 +476,7 @@ https://github.com/vals-ai/proof-bench/issues
 
 https://arxiv.org/pdf/2603.26996
 
-> 原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。
+> 原始论文PDF入口；未下载或上传，哈希与字节数待核实。
 
 [1](https://arxiv.org/abs/2603.26996)（访问 2026-11-07）
 
@@ -492,7 +492,7 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 
 [1](https://arxiv.org/pdf/2603.26996)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -505,7 +505,7 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 ```json
 [
   {
-    "type": "官方网页方法与榜单（非PDF）",
+    "type": "官方网页方法与榜单（非PDF）"
     "url": "https://www.vals.ai/benchmarks/proof_bench"
   }
 ]
@@ -513,7 +513,7 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -523,14 +523,14 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

@@ -49,7 +49,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2020-02-03T04:20:46+09:00",
+        "paper_first_submission_kst": "2020-02-03",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -438,7 +438,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2002.00469",
@@ -465,18 +465,18 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2020-02-03T04:20:46+09:00"
+            "date_kst": "2020-02-03"
           },
           {
             "version": "v2",
-            "date_kst": "2020-02-12T22:45:27+09:00"
+            "date_kst": "2020-02-12"
           },
           {
             "version": "v3",
-            "date_kst": "2020-06-12T04:13:22+09:00"
+            "date_kst": "2020-06-12"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -490,7 +490,7 @@
       ]
     },
     "saturation": {
-      "value": "这是一组有单位、误差越小越好的天气指标，不存在准确率100%式的统一饱和点。官方旧表仍给出不同物理/数据驱动基线差距；本轮不据历史榜推断2026年整体能力极限。",
+      "value": "这是一组有单位、误差越小越好的天气指标，不存在准确率100%式的统一饱和点。官方旧表仍给出不同物理/数据驱动基线差距；不据历史榜推断2026年整体能力极限。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
@@ -531,7 +531,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/pangeo-data/WeatherBench/master/README.md",
@@ -1100,7 +1100,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 5734556,
@@ -1112,13 +1112,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH",
-        "webViewLink": "https://drive.google.com/drive/folders/1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1DrGzbkVTidm6O_FvSVbTgui8CwOFi0DH",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1126,27 +1123,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw",
-          "webViewLink": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp",
-      "webViewLink": "https://drive.google.com/file/d/1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1CoA6xcHxeaeDVqAhG5_Mw5oLdP-K8kGp/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1155,19 +1147,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [
@@ -1181,5 +1169,5 @@
       }
     ]
   },
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实"
+  "editorial_status": ""
 }

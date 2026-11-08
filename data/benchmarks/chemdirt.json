@@ -1,7 +1,7 @@
 {
   "id": "chemdirt",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ChemDIRT",
@@ -30,7 +30,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
       "value": "v1；最近论文日期 2026-08-21",
@@ -80,7 +80,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2608.21504",
@@ -147,7 +147,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
       "value": [
@@ -181,7 +181,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "design_goals": {
@@ -375,7 +375,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
@@ -396,7 +396,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_revision_history": {
       "value": {
@@ -423,7 +423,7 @@
         "arxiv_revisions_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2026-08-22T01:58:30+09:00"
+            "submitted_at_kst": "2026-08-22"
           }
         ]
       },
@@ -469,12 +469,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
+      "value": "2026-11-08 （实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
@@ -500,7 +500,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -592,7 +592,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -603,7 +603,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -635,10 +635,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5",
-        "webViewLink": "https://drive.google.com/drive/folders/1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21504",
@@ -663,10 +660,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB",
-      "webViewLink": "https://drive.google.com/file/d/186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2608.21504",
@@ -678,18 +672,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+        "change": "最近复核"
       }
     ],
     "sources": [

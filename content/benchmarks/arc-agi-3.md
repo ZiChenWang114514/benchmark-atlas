@@ -1,6 +1,6 @@
 # ARC-AGI-3
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
 研究快照；trending: A；未核实字段保留标记
 
@@ -258,7 +258,7 @@ Standard与Provider Adapter分轨，不能用99.9% Adapter替代62.7% Standard�
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://arcprize.org/arc-agi/3)（访问2026-11-07）
 
@@ -266,22 +266,22 @@ Standard与Provider Adapter分轨，不能用99.9% Adapter替代62.7% Standard�
 
 ```json
 {
-  "version": "3",
-  "heat_confidence": "A",
-  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+  "version": "3"
+  "heat_confidence": "A"
+  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。"
   "evidence_2026_h2": [
     {
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "OpenAI"
       "note": "当前发布页实际报告该benchmark分数；厂商自报。"
-    },
+    }
     {
-      "url": "https://arcprize.org/arc-agi/3",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "官方维护方",
+      "url": "https://arcprize.org/arc-agi/3"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "官方维护方"
       "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
     }
   ]
@@ -320,7 +320,7 @@ ARC-AGI-3在ARC-AGI-1/2静态视觉推理之外增加交互探索；三版本的
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://arcprize.org/arc-agi/3)（访问2026-11-07）
 
@@ -430,7 +430,7 @@ https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf
 
 [来源1](https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -445,18 +445,18 @@ https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf
 ```json
 [
   {
-    "type": "正式发布文章",
-    "url": "https://arcprize.org/blog/arc-agi-3-launch",
+    "type": "正式发布文章"
+    "url": "https://arcprize.org/blog/arc-agi-3-launch"
     "accessed": "2026-11-07"
-  },
+  }
   {
-    "type": "Toolkit文档",
-    "url": "https://docs.arcprize.org/",
+    "type": "Toolkit文档"
+    "url": "https://docs.arcprize.org/"
     "accessed": "2026-11-07"
-  },
+  }
   {
-    "type": "AI Verified榜",
-    "url": "https://arcprize.org/leaderboard",
+    "type": "AI Verified榜"
+    "url": "https://arcprize.org/leaderboard"
     "accessed": "2026-11-07"
   }
 ]
@@ -464,7 +464,7 @@ https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf
 
 [来源1](https://arcprize.org/arc-agi/3)（访问2026-11-07）
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -475,14 +475,14 @@ https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

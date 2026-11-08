@@ -1,7 +1,7 @@
 # LifeSciBench
-> 核验：2026-11-08（KST / Asia/Seoul）。已核验存在；研究快照；note: trending: B；未核实字段保留标记
+> 核验：2026-11-08。已核验存在；研究快照；note: trending: B；未核实字段保留标记
 
-本轮找到独立方法介绍与完整预印本，补齐此前只有产品宣传页的证据。LifeSciBench的750任务方法文覆盖七类科研工作流，使用细粒度rubric评分；早期产品文的六工作流及后续Gold v1不能不加说明地当成完全相同的数据快照。它评估的是单轮科研任务能力，不直接证明真实研发提速。
+找到独立方法介绍与完整预印本，补齐此前只有产品宣传页的证据。LifeSciBench的750任务方法文覆盖七类科研工作流，使用细粒度rubric评分；早期产品文的六工作流及后续Gold v1不能不加说明地当成完全相同的数据快照。它评估的是单轮科研任务能力，不直接证明真实研发提速。
 
 概述依据：[S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/) [S4](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) [S5](https://openai.com/index/gpt-6-astra/)
 
@@ -25,17 +25,17 @@
 
 **许可与权利边界**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **论文**：https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 **代码入口**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **数据入口**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **官网**：https://openai.com/index/introducing-life-sci-bench/ [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
@@ -55,7 +55,7 @@
 
 **资助**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 ## 设计目标
 
@@ -75,7 +75,7 @@
 
 **去污染与防泄漏**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 ## 数据形式
 
@@ -87,11 +87,11 @@
 
 **语言**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **难度与覆盖**：79%任务需多步推理或决策，平均四步；53%需至少一份附件。论文报告171题在所测模型中无通过样本、261题最佳模型通过率低于20%。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
-**公开与测试划分**：本轮核实的是方法说明及示例，不是公开train/test发布；PDF附录A.5说明发布可能受许可、隐私、专有信息与生物安全限制，并排除或限制风险内容；完整下载与划分仍待核实。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
+**公开与测试划分**：核实的是方法说明及示例，不是公开train/test发布；PDF附录A.5说明发布可能受许可、隐私、专有信息与生物安全限制，并排除或限制风险内容；完整下载与划分仍待核实。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 ## 评测方法
 
@@ -103,17 +103,17 @@
 
 **官方脚本**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **可比性警示**：将750任务方法论文的归一化得分/通过率与Astra Gold v1厂商表分赛道；Gold v1题集映射未核实，不跨来源统一排名。LifeSciBench不是MedChemBench、GeneBench或LabWorkBench。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/) [S4](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) [S5](https://openai.com/index/gpt-6-astra/)
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S3](https://openai.com/index/introducing-life-sci-bench/)
+**核查日**：2026-11-08 [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 **数据版本与持续使用**：750任务、七工作流方法版；Astra脚注写Gold v1，其与750任务版本的逐项映射待核实。；历史持续使用证据：2026-11-07 本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。 https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/；2026-11-07 本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。 https://openai.com/index/gpt-6-astra/ [S3](https://openai.com/index/introducing-life-sci-bench/) [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S5](https://openai.com/index/gpt-6-astra/)
 
-**论文版本与证据历史**：{"biorxiv": "v1；Posted August 18, 2026（页面只给日期，未给时刻，不伪造KST时分秒）", "cdn_pdf": "标题相同，19名署名；bioRxiv另列Jeremy Li，应保留文档版本/署名差异。"} [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
+**论文版本与证据历史**：{"biorxiv": "v1；Posted August 18, 2026（页面只给日期，未给时刻，不伪造时分秒）", "cdn_pdf": "标题相同，19名署名；bioRxiv另列Jeremy Li，应保留文档版本/署名差异。"} [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 **饱和度边界**：750任务论文仍有171题无所测模型通过样本、261题最佳通过率低于20%；是该论文五模型实验的未饱和证据，不外推到后来的Gold v1。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
@@ -123,13 +123,13 @@
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S5](https://openai.com/index/gpt-6-astra/)
+**快照日**：2026-11-08 [S5](https://openai.com/index/gpt-6-astra/)
 
 **官方榜入口**：https://openai.com/index/gpt-6-astra/ [S7](https://openai.com/index/gpt-6-astra/)
 
 **第三方入口**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 ### 750题预印本§6.1
 
@@ -157,19 +157,19 @@
 
 **公开研究邮箱**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **问题反馈**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **官方发布渠道**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **隐私口径**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 ## 原始文件
 
@@ -177,24 +177,24 @@
 
 **PDF SHA-256**：830d366ed65061a7c2b404e7f93231cf96f44ff5fef702c268d7296ed8edfb9b [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：2245992 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)
 
-**原有Drive文件夹**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
+**原有文件夹**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 **其他材料**：[{"type": "独立方法介绍", "url": "https://openai.com/index/introducing-life-sci-bench/"}, {"type": "bioRxiv摘要", "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1"}, {"type": "早期产品提及", "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"}, {"type": "后续Gold v1自报", "url": "https://openai.com/index/gpt-6-astra/"}] [S3](https://openai.com/index/introducing-life-sci-bench/) [S2](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) [S4](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) [S5](https://openai.com/index/gpt-6-astra/)
 
-**原有Drive PDF**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
+**原有 PDF**：待核实 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)
 
-> 本组仅本地建页，未上传Drive，不伪造归档链接。
+> 本组仅本地建页，未上传，不伪造归档链接。
 
 ## 变更记录
 
 - 2026-11-07 · 首次建立近期热门中文研究条目。本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。 热度与榜单口径分离，不确定值标记待核实。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 ### 来源索引

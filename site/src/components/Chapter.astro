@@ -74,7 +74,7 @@ const rows = entries.map((entry) => {
               {href ? (
                 <a href={href} target="_blank" rel="noopener noreferrer">{source.url}</a>
               ) : (
-                <span title={source.url}>{sourceText(source.url)}</span>
+                <span>{sourceText(source.url)}</span>
               )}
               <span class="accessed">访问 {source.accessed}</span>
             </li>

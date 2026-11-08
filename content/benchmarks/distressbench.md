@@ -1,6 +1,6 @@
 # DistressBench
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 已核验存在；中文研究快照；note: trending: B；未核实保留标记
 
@@ -46,7 +46,7 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 **仍待核实**（不推断为未公开）：
 
-- 合作方：本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://labs.scale.com/leaderboard/distressbench)
+- 合作方：正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://labs.scale.com/leaderboard/distressbench)
 - 资助方：已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ## 设计目标
@@ -95,11 +95,11 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST / Asia/Seoul [1](https://labs.scale.com/leaderboard/distressbench)
+- **核验日期**：2026-11-07 [1](https://labs.scale.com/leaderboard/distressbench)
 
 - **现行版本与采用证据**：version：v1；heat_confidence：B；evidence_2026_h2：url：https://labs.scale.com/leaderboard/distressbench；date：2026-11-07；date_type：observed_on；note：2026年10月论文及当前Scale榜仍比较前沿模型。热度B：主要单一机构评测，非多机构普遍采用。；url：https://arxiv.org/abs/2610.12758；date：2026-11-07；date_type：observed_on；note：2026年10月论文及当前Scale榜仍比较前沿模型。热度B：主要单一机构评测，非多机构普遍采用。 [1](https://labs.scale.com/leaderboard/distressbench) [2](https://arxiv.org/abs/2610.12758) 注：2026年10月论文及当前Scale榜仍比较前沿模型。热度B：主要单一机构评测，非多机构普遍采用。
 
-- **更新与修订**：本轮读取arXiv v1及HF公开359题发布卡；论文25模型实验与实时网页扩展模型名单需分开记录，不能把旧论文名次当最新榜。 [2](https://arxiv.org/abs/2610.12758) [3](https://huggingface.co/datasets/ScaleAI/DistressBench) [1](https://labs.scale.com/leaderboard/distressbench)
+- **更新与修订**：读取arXiv v1及HF公开359题发布卡；论文25模型实验与实时网页扩展模型名单需分开记录，不能把旧论文名次当最新榜。 [2](https://arxiv.org/abs/2610.12758) [3](https://huggingface.co/datasets/ScaleAI/DistressBench) [1](https://labs.scale.com/leaderboard/distressbench)
 
 - **饱和度判断**：主榜最高约88.4%权重满足率不等于完全rubric通过或临床安全；高分不授权心理健康产品部署。 [2](https://arxiv.org/abs/2610.12758)
 
@@ -109,7 +109,7 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [1](https://labs.scale.com/leaderboard/distressbench)
+- **快照采集日**：2026-11-07 [1](https://labs.scale.com/leaderboard/distressbench)
 
 - **官方榜/正式委托榜**：https://labs.scale.com/leaderboard/distressbench [1](https://labs.scale.com/leaderboard/distressbench)
 
@@ -132,13 +132,13 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 > qwen3.8-max：ci95_halfwidth：1.03；rank_type：网页显示位置，不等于统计band [1](https://labs.scale.com/leaderboard/distressbench)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官网动态表有部分模型名/分数无法完整配对，仅记录可可靠对应的已显示条目；榜页序号与论文统计band不是同一口径。网页扩展名单超过论文25模型，页面具体更新日没有精确核实。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 **仍待核实**（不推断为未公开）：
 
-- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://labs.scale.com/leaderboard/distressbench)
+- 独立第三方入口：未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ## 联系方式
 
@@ -150,28 +150,28 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 **仍待核实**（不推断为未公开）：
 
-- 公开问题追踪：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://labs.scale.com/leaderboard/distressbench)
+- 公开问题追踪：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ## 原始文件
 
 - **原始PDF**：https://arxiv.org/pdf/2610.12758 [5](https://arxiv.org/pdf/2610.12758)
 
-- **SHA-256**：7f2a98944fd44c993a37758dfd157b672e9025cc3d10933fa5b83f368f1cf900 [5](https://arxiv.org/pdf/2610.12758) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
+- **SHA-256**：7f2a98944fd44c993a37758dfd157b672e9025cc3d10933fa5b83f368f1cf900 [5](https://arxiv.org/pdf/2610.12758) 注：实际下载的PDF字节计算；不是外部网页抄录。
 
-- **PDF字节数**：610907 [5](https://arxiv.org/pdf/2610.12758) 注：本轮下载字节数；未上传Drive。
+- **PDF字节数**：610907 [5](https://arxiv.org/pdf/2610.12758) 注：下载字节数；未上传。
 
 - **其他正式文档**：type：官方网页方法与榜单（非PDF）；url：https://labs.scale.com/leaderboard/distressbench [1](https://labs.scale.com/leaderboard/distressbench)
 
-- **Drive中的论文副本**：待核实 [1](https://labs.scale.com/leaderboard/distressbench)
+- **中的论文副本**：待核实 [1](https://labs.scale.com/leaderboard/distressbench)
 
 **仍待核实**（不推断为未公开）：
 
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [1](https://labs.scale.com/leaderboard/distressbench)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/distressbench)
+- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

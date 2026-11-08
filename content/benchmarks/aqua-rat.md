@@ -1,8 +1,8 @@
 # AQuA-RAT
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
-第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造
+官方证据复核；授权与版本冲突显式保留；未核实项不补造
 
 带自然语言推理解释的五选一代数应用题。公开众包release与论文不能完整公开的先前版本不同；raw/tokenized是同题表示，不可双计题量。
 
@@ -34,7 +34,7 @@ arXiv v3
 
 ### 发布日期
 
-2017-05-11 21:04:47 Asia/Shanghai（UTC+8）（arXiv首稿，不等同数据发布声明）
+2017-05-11 21:04:47 （UTC+8）（arXiv首稿，不等同数据发布声明）
 
 [来源1](https://arxiv.org/abs/1705.04146)（访问2026-11-07）
 
@@ -249,7 +249,7 @@ https://github.com/google-deepmind/AQuA
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://github.com/google-deepmind/AQuA)（访问2026-11-07）
 
@@ -264,16 +264,16 @@ https://github.com/google-deepmind/AQuA
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2017-05-11T21:04:47+08:00"
-  },
+    "version": "v1"
+    "submitted_at": "2017-05-11"
+  }
   {
-    "version": "v2",
-    "submitted_at": "2017-10-10T22:57:26+08:00"
-  },
+    "version": "v2"
+    "submitted_at": "2017-10-10"
+  }
   {
-    "version": "v3",
-    "submitted_at": "2017-10-24T00:45:03+08:00"
+    "version": "v3"
+    "submitted_at": "2017-10-24"
   }
 ]
 ```
@@ -302,7 +302,7 @@ MathQA从AQuA题源重标运算程序；两者不能按相同数据及评分方�
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://github.com/google-deepmind/AQuA)（访问2026-11-07）
 
@@ -312,7 +312,7 @@ MathQA从AQuA题源重标运算程序；两者不能按相同数据及评分方�
 
 > 字段状态：待核实
 
-> 本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+> 未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 [来源1](https://arxiv.org/abs/1705.04146)（访问2026-11-07）
 
@@ -355,7 +355,7 @@ https://arxiv.org/html/2610.11978v1
 
 ### 覆盖说明
 
-本轮核验Jev全文Table2及附录A（test254，单次运行）和原论文Table3；两者不是同一版本/同一协议，不据选列分数宣称全局榜首。
+核验Jev全文Table2及附录A（test254，单次运行）和原论文Table3；两者不是同一版本/同一协议，不据选列分数宣称全局榜首。
 
 [来源1](https://arxiv.org/html/2610.11978v1)（访问2026-11-07）；[来源2](https://arxiv.org/abs/1705.04146)（访问2026-11-07）；[来源3](https://github.com/google-deepmind/AQuA)（访问2026-11-07）
 
@@ -410,7 +410,7 @@ https://arxiv.org/pdf/1705.04146
 
 5111754b10c77d287685cc64992c92989eecc9b7cca65089f97c0efd48a4feb7
 
-> 本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。
+> 实际下载字节的SHA-256；不表示已有副本已替换。
 
 [来源1](https://arxiv.org/pdf/1705.04146)（访问2026-11-07）
 
@@ -420,61 +420,61 @@ https://arxiv.org/pdf/1705.04146
 
 [来源1](https://arxiv.org/pdf/1705.04146)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc",
-  "webViewLink": "https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc"
+  "id": "14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 {
   "chinese_intro_doc": {
-    "id": "1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU",
-    "webViewLink": "https://docs.google.com/document/d/1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU/edit?usp=drivesdk",
+    "id": "1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU"
+    "webViewLink": "
     "mimeType": "application/vnd.google-apps.document"
-  },
+  }
   "local_markdown": "content/benchmarks/aqua-rat.md"
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc)（访问2026-11-07）
+[来源1](
 
-### Drive论文副本
+### 论文副本
 
 ```json
 {
-  "id": "1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J",
-  "webViewLink": "https://drive.google.com/file/d/1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J/view?usp=drivesdk"
+  "id": "1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

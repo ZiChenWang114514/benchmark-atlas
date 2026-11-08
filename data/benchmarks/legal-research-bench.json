@@ -1,7 +1,7 @@
 {
   "id": "legal-research-bench",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: B；未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Legal Research Bench",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-10-01T04:13:16+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2026-10-01（arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.00609",
@@ -372,7 +372,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.00609",
@@ -407,8 +407,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-10-01T04:13:16+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2026-10-01"
         }
       ],
       "sources": [
@@ -417,7 +416,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+      "note": "arXiv原始UTC时间已转换为；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "当前严格All-Pass第一55.77%，未达全题可靠。",
@@ -449,7 +448,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
+      "value": "2026-11-08 （采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/legal_research",
@@ -490,10 +489,10 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "官方榜单快照",
           "track": "官方当前208题test / All-Pass",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 2,
@@ -502,10 +501,10 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "官方榜单快照",
           "track": "官方当前208题test / All-Pass",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 3,
@@ -514,10 +513,10 @@
           "metric": "All-Pass (%)，208题Test",
           "source_url": "https://www.vals.ai/benchmarks/legal_research",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "官方榜单快照",
           "track": "官方当前208题test / All-Pass",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         },
         {
           "rank": 1,
@@ -527,7 +526,7 @@
           "track": "原论文413题全量 / 历史作者实验",
           "source_url": "https://arxiv.org/pdf/2610.00609",
           "result_type": "论文摘要历史结果，非208题当前官网榜",
-          "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+          "snapshot_date": "2026-11-08"
         }
       ],
       "sources": [
@@ -614,7 +613,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 467211,
@@ -624,7 +623,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -661,15 +660,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1JbvU3jjzehA3WUxAeSNBXWpgQN-rm7d1",
-      "webViewLink": "https://drive.google.com/file/d/1JbvU3jjzehA3WUxAeSNBXWpgQN-rm7d1/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1JbvU3jjzehA3WUxAeSNBXWpgQN-rm7d1/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2610.00609",
         "accessed": "2026-11-08"
@@ -680,13 +672,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+        "change": "最近复核"
       }
     ],
     "sources": [

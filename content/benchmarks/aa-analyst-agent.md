@@ -1,6 +1,6 @@
 # AA-AnalystAgent
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
 已核验存在；近期热门新建条目，未核实字段保留标记；trending: B
 
@@ -36,7 +36,7 @@ AA-AnalystAgent Benchmark
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
@@ -75,7 +75,7 @@ Stirrup运行框架MIT；题目、参考答案与输入文件明确不公开；�
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
@@ -107,7 +107,7 @@ https://artificialanalysis.ai/evaluations/aa-analyst-agent
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
@@ -285,7 +285,7 @@ https://github.com/ArtificialAnalysis/Stirrup
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）
 
@@ -293,29 +293,29 @@ https://github.com/ArtificialAnalysis/Stirrup
 
 ```json
 {
-  "version": "待核实",
+  "version": "待核实"
   "evidence_2026_h2": [
     {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-      "date": "2026-11-07",
-      "organization": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+      "date": "2026-11-07"
+      "organization": "Artificial Analysis"
       "note": "当前方法页将AA-AnalystAgent列为正在实施的评测，披露任务或评分协议。"
-    },
+    }
     {
-      "url": "https://artificialanalysis.ai/evaluations",
-      "date": "2026-11-07",
-      "organization": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/evaluations"
+      "date": "2026-11-07"
+      "organization": "Artificial Analysis"
       "note": "当前公开评测目录单列AA-AnalystAgent，不是新闻提及。"
     }
-  ],
+  ]
   "trending": {
-    "heat_confidence": "B",
+    "heat_confidence": "B"
     "summary": "AA 当前独立80题数据分析榜，用 pass^5 强调稳定性。"
   }
 }
 ```
 
-> 近期热门证据取自候选研究与本轮重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。
+> 近期热门证据取自候选研究与重开页面；B级：主要为单一机构在用，不代表行业广泛采纳。
 
 [来源1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/evaluations)（访问2026-11-07）
 
@@ -325,13 +325,13 @@ https://github.com/ArtificialAnalysis/Stirrup
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
 ### 饱和情况
 
-本轮官网pass^5最高60.0%，pass@1最高71.3%、pass@5最高86.3%；不同指标榜首不同，不把一次答对视为稳定解决。
+官网pass^5最高60.0%，pass@1最高71.3%、pass@5最高86.3%；不同指标榜首不同，不把一次答对视为稳定解决。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）
 
@@ -355,7 +355,7 @@ https://github.com/ArtificialAnalysis/Stirrup
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）
 
@@ -460,7 +460,7 @@ https://artificialanalysis.ai/privacy-policy
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
@@ -470,7 +470,7 @@ https://artificialanalysis.ai/privacy-policy
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
@@ -480,11 +480,11 @@ https://artificialanalysis.ai/privacy-policy
 
 > 字段状态：待核实
 
-> 本轮实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
+> 实际阅读评测页、首发文章与方法页；所读材料未链接独立原始论文，不由此断言论文不存在。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-analyst-agent)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-analyst-agent)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -499,13 +499,13 @@ https://artificialanalysis.ai/privacy-policy
 ```json
 [
   {
-    "type": "首发文章",
-    "url": "https://artificialanalysis.ai/articles/aa-analyst-agent",
+    "type": "首发文章"
+    "url": "https://artificialanalysis.ai/articles/aa-analyst-agent"
     "accessed": "2026-11-07"
-  },
+  }
   {
-    "type": "完整运行与评分提示",
-    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent",
+    "type": "完整运行与评分提示"
+    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent"
     "accessed": "2026-11-07"
   }
 ]
@@ -513,7 +513,7 @@ https://artificialanalysis.ai/privacy-policy
 
 [来源1](https://artificialanalysis.ai/methodology/intelligence-benchmarking#aa-analyst-agent)（访问2026-11-07）
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -524,14 +524,14 @@ https://artificialanalysis.ai/privacy-policy
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

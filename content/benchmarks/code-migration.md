@@ -190,7 +190,7 @@ Vals Code Migration v1.1检验完整程序迁移后的行为保持：30个CLI仓
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://www.vals.ai/benchmarks/code-migration-v1-1)（访问2026-11-07）
 
@@ -220,7 +220,7 @@ Vals Code Migration v1.1检验完整程序迁移后的行为保持：30个CLI仓
 
 ## 榜单快照
 
-**快照日**：2026-11-07 KST / Asia/Seoul
+**快照日**：2026-11-07
 
 来源：[1](https://www.vals.ai/benchmarks/code-migration-v1-1)（访问2026-11-07）
 
@@ -322,7 +322,7 @@ Vals Code Migration v1.1检验完整程序迁移后的行为保持：30个CLI仓
 
 核验说明：已检查所列材料，尚未精确核实此字段；不代表官方没有公开。
 
-**Drive目录**：待核实
+**目录**：待核实
 
 来源：[1](https://www.vals.ai/benchmarks/code-migration-v1-1)（访问2026-11-07）
 
@@ -332,11 +332,11 @@ Vals Code Migration v1.1检验完整程序迁移后的行为保持：30个CLI仓
 
 来源：[1](https://www.vals.ai/benchmarks/code-migration-v1-1)（访问2026-11-07）
 
-**Drive PDF**：待核实
+** PDF**：待核实
 
 来源：[1](https://www.vals.ai/benchmarks/code-migration-v1-1)（访问2026-11-07）
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

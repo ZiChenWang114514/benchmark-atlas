@@ -1,7 +1,7 @@
 {
   "id": "lifescibench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；note: trending: B；未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "LifeSciBench",
@@ -128,7 +128,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "paper_url": {
       "value": "https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1",
@@ -156,7 +156,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -167,7 +167,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "official_homepage": {
       "value": "https://openai.com/index/introducing-life-sci-bench/",
@@ -283,7 +283,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -392,7 +392,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     }
   },
   "data_format": {
@@ -464,7 +464,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "difficulty": {
       "value": "79%任务需多步推理或决策，平均四步；53%需至少一份附件。论文报告171题在所测模型中无通过样本、261题最佳模型通过率低于20%。",
@@ -484,7 +484,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "本轮核实的是方法说明及示例，不是公开train/test发布；PDF附录A.5说明发布可能受许可、隐私、专有信息与生物安全限制，并排除或限制风险内容；完整下载与划分仍待核实。",
+      "value": "核实的是方法说明及示例，不是公开train/test发布；PDF附录A.5说明发布可能受许可、隐私、专有信息与生物安全限制，并排除或限制风险内容；完整下载与划分仍待核实。",
       "sources": [
         {
           "url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
@@ -570,7 +570,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "comparability_warning": {
       "value": "将750任务方法论文的归一化得分/通过率与Astra Gold v1厂商表分赛道；Gold v1题集映射未核实，不跨来源统一排名。LifeSciBench不是MedChemBench、GeneBench或LabWorkBench。",
@@ -600,7 +600,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://openai.com/index/introducing-life-sci-bench/",
@@ -646,7 +646,7 @@
     },
     "paper_revision_history": {
       "value": {
-        "biorxiv": "v1；Posted August 18, 2026（页面只给日期，未给时刻，不伪造KST时分秒）",
+        "biorxiv": "v1；Posted August 18, 2026（页面只给日期，未给时刻，不伪造时分秒）",
         "cdn_pdf": "标题相同，19名署名；bioRxiv另列Jeremy Li，应保留文档版本/署名差异。"
       },
       "sources": [
@@ -726,7 +726,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://openai.com/index/gpt-6-astra/",
@@ -752,7 +752,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "results": {
       "value": [
@@ -764,7 +764,7 @@
           "track": "750题预印本§6.1",
           "source_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "开发方论文历史实验",
           "pass_rate_percent": "36.1"
         },
@@ -776,7 +776,7 @@
           "track": "750题预印本§6.1",
           "source_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "开发方论文历史实验",
           "pass_rate_percent": "25.7"
         },
@@ -788,7 +788,7 @@
           "track": "750题预印本§6.1",
           "source_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "开发方论文历史实验",
           "pass_rate_percent": "23.6"
         },
@@ -800,7 +800,7 @@
           "track": "750题预印本§6.1",
           "source_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "开发方论文历史实验",
           "pass_rate_percent": "20.7"
         },
@@ -812,7 +812,7 @@
           "track": "750题预印本§6.1",
           "source_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "开发方论文历史实验",
           "pass_rate_percent": "13.0"
         },
@@ -824,7 +824,7 @@
           "track": "Astra发布表 / Gold v1脚注",
           "source_url": "https://openai.com/index/gpt-6-astra/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "厂商自报；未与750题论文协议对齐"
         },
         {
@@ -835,7 +835,7 @@
           "track": "Astra发布表 / Gold v1脚注",
           "source_url": "https://openai.com/index/gpt-6-astra/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "厂商自报；未与750题论文协议对齐"
         }
       ],
@@ -874,7 +874,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "github_issues": {
       "value": "待核实",
@@ -885,7 +885,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "official_social": {
       "value": "待核实",
@@ -896,7 +896,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -907,7 +907,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     }
   },
   "original_files": {
@@ -936,7 +936,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 2245992,
@@ -956,7 +956,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -998,15 +998,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1dQZxDj_jwXmfVt9f4Pdfrpm6M_o06iTO",
-      "webViewLink": "https://drive.google.com/file/d/1dQZxDj_jwXmfVt9f4Pdfrpm6M_o06iTO/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1dQZxDj_jwXmfVt9f4Pdfrpm6M_o06iTO/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
         "accessed": "2026-11-08"
@@ -1017,13 +1010,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门中文研究条目。本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。 热度与榜单口径分离，不确定值标记待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.full_name",
           "basic_info.official_homepage",

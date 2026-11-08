@@ -1,6 +1,6 @@
 # BioProBench
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 BioProBench考查的是实验协议的程序性理解，而不是仅凭术语回忆做生物知识问答。五类任务分别诊断问答、顺序、纠错、生成与推理；其中生成更接近对已有协议事实的受约束重建，不能等同自主发明新实验。523,784个结构化实例是总资源规模，公开许可部分为350,565个；法律条款和公开范围必须与技术成绩一起解释。
 
@@ -116,11 +116,11 @@ BioProBench: A Corpus and Benchmark for Biological Protocol Reasoning in Autonom
 
 ```json
 [
-  "Yuyang Liu",
-  "Liuzhenghao Lv",
-  "Xiancheng Zhang",
-  "Jingya Wang",
-  "Li Yuan",
+  "Yuyang Liu"
+  "Liuzhenghao Lv"
+  "Xiancheng Zhang"
+  "Jingya Wang"
+  "Li Yuan"
   "Yonghong Tian"
 ]
 ```
@@ -259,7 +259,7 @@ PQA：Accuracy/Brier；ORD：Exact Match/Kendall tau；ERR：Accuracy/Precision/
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-08）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-08）；[来源4](https://arxiv.org/html/2608.25286v1)（访问2026-11-08）
 
@@ -275,20 +275,20 @@ PQA：Accuracy/Brier；ORD：Exact Match/Kendall tau；ERR：Accuracy/Precision/
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2025-05-11T18:42:24+09:00"
-    },
+      "version": "v1"
+      "submitted_at_kst": "2025-05-11"
+    }
     {
-      "version": "v2",
-      "submitted_at_kst": "2025-05-29T16:31:28+09:00"
-    },
+      "version": "v2"
+      "submitted_at_kst": "2025-05-29"
+    }
     {
-      "version": "v3",
-      "submitted_at_kst": "2026-01-22T01:21:36+09:00"
-    },
+      "version": "v3"
+      "submitted_at_kst": "2026-01-22"
+    }
     {
-      "version": "v4",
-      "submitted_at_kst": "2026-07-27T10:08:26+09:00"
+      "version": "v4"
+      "submitted_at_kst": "2026-07-27"
     }
   ]
 }
@@ -320,7 +320,7 @@ PQA：Accuracy/Brier；ORD：Exact Match/Kendall tau；ERR：Accuracy/Precision/
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-08）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-08）
 
@@ -343,113 +343,113 @@ https://arxiv.org/pdf/2505.07889
 ```json
 [
   {
-    "rank": 1,
-    "model": "gemini-3.1-pro-preview",
-    "score": 0.7408,
-    "metric": "PQA accuracy",
-    "track": "arXiv v4 Table 14／PQA accuracy",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 1
+    "model": "gemini-3.1-pro-preview"
+    "score": 0.7408
+    "metric": "PQA accuracy"
+    "track": "arXiv v4 Table 14／PQA accuracy"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 2,
-    "model": "claude-4-6-opus",
-    "score": 0.7391,
-    "metric": "PQA accuracy",
-    "track": "arXiv v4 Table 14／PQA accuracy",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 2
+    "model": "claude-4-6-opus"
+    "score": 0.7391
+    "metric": "PQA accuracy"
+    "track": "arXiv v4 Table 14／PQA accuracy"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 3,
-    "model": "gemini-3-flash-preview",
-    "score": 0.7333,
-    "metric": "PQA accuracy",
-    "track": "arXiv v4 Table 14／PQA accuracy",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 3
+    "model": "gemini-3-flash-preview"
+    "score": 0.7333
+    "metric": "PQA accuracy"
+    "track": "arXiv v4 Table 14／PQA accuracy"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 4,
-    "model": "gpt-5.4-2026-03-05",
-    "score": 0.7067,
-    "metric": "PQA accuracy",
-    "track": "arXiv v4 Table 14／PQA accuracy",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 4
+    "model": "gpt-5.4-2026-03-05"
+    "score": 0.7067
+    "metric": "PQA accuracy"
+    "track": "arXiv v4 Table 14／PQA accuracy"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 5,
-    "model": "claude-3-5-sonnet",
-    "score": 0.6802,
-    "metric": "PQA accuracy",
-    "track": "arXiv v4 Table 14／PQA accuracy",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 5
+    "model": "claude-3-5-sonnet"
+    "score": 0.6802
+    "metric": "PQA accuracy"
+    "track": "arXiv v4 Table 14／PQA accuracy"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 1,
-    "model": "gemini-3.1-pro-preview",
-    "score": 0.6949,
-    "metric": "ERR F1",
-    "track": "arXiv v4 Table 14／ERR F1",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 1
+    "model": "gemini-3.1-pro-preview"
+    "score": 0.6949
+    "metric": "ERR F1"
+    "track": "arXiv v4 Table 14／ERR F1"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 2,
-    "model": "claude-4-6-opus",
-    "score": 0.6143,
-    "metric": "ERR F1",
-    "track": "arXiv v4 Table 14／ERR F1",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 2
+    "model": "claude-4-6-opus"
+    "score": 0.6143
+    "metric": "ERR F1"
+    "track": "arXiv v4 Table 14／ERR F1"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 3,
-    "model": "gpt-5.4-2026-03-05",
-    "score": 0.572,
-    "metric": "ERR F1",
-    "track": "arXiv v4 Table 14／ERR F1",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 3
+    "model": "gpt-5.4-2026-03-05"
+    "score": 0.572
+    "metric": "ERR F1"
+    "track": "arXiv v4 Table 14／ERR F1"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 4,
-    "model": "gemini-3-flash-preview",
-    "score": 0.5287,
-    "metric": "ERR F1",
-    "track": "arXiv v4 Table 14／ERR F1",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 4
+    "model": "gemini-3-flash-preview"
+    "score": 0.5287
+    "metric": "ERR F1"
+    "track": "arXiv v4 Table 14／ERR F1"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
-  },
+  }
   {
-    "rank": 5,
-    "model": "claude-3-5-sonnet",
-    "score": 0.5216,
-    "metric": "ERR F1",
-    "track": "arXiv v4 Table 14／ERR F1",
-    "source_url": "https://arxiv.org/pdf/2505.07889",
-    "accessed": "2026-11-08",
-    "unit": "比例",
+    "rank": 5
+    "model": "claude-3-5-sonnet"
+    "score": 0.5216
+    "metric": "ERR F1"
+    "track": "arXiv v4 Table 14／ERR F1"
+    "source_url": "https://arxiv.org/pdf/2505.07889"
+    "accessed": "2026-11-08"
+    "unit": "比例"
     "result_type": "基准作者论文历史实验"
   }
 ]
@@ -517,60 +517,60 @@ b722ec435db3bbab35cfd48c97451bca10ce312ff42ae37e3bf1c16657c31cb8
 
 [来源1](https://arxiv.org/pdf/2505.07889)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1u9OnK5kR7Bof_sFs8aouKAgGPJXXsGHg",
-  "webViewLink": "https://drive.google.com/drive/folders/1u9OnK5kR7Bof_sFs8aouKAgGPJXXsGHg"
+  "id": "1u9OnK5kR7Bof_sFs8aouKAgGPJXXsGHg"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1u9OnK5kR7Bof_sFs8aouKAgGPJXXsGHg)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs",
-    "webViewLink": "https://docs.google.com/document/d/1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN",
-  "webViewLink": "https://drive.google.com/file/d/1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN/view?usp=drivesdk"
+  "id": "1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1OD8Zfbsm_LZlk_Kv9HKXzEtgoCfkFMyN/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

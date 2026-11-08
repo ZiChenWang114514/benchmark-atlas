@@ -1,7 +1,7 @@
 {
   "id": "voicecodebench",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "VoiceCodeBench",
@@ -46,7 +46,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2026-08-29T07:23:42+09:00",
+        "paper_first_submission_kst": "2026-08-29",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -386,7 +386,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.28916",
@@ -434,14 +434,14 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2026-08-29T07:23:42+09:00"
+            "date_kst": "2026-08-29"
           },
           {
             "version": "v2",
-            "date_kst": "2026-09-12T13:29:58+09:00"
+            "date_kst": "2026-09-12"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -520,7 +520,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv",
@@ -3602,7 +3602,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+      "note": "原始论文PDF入口；未下载或上传，哈希与字节数待核实。"
     },
     "sha256": {
       "value": "80f42d91580ff561e9cff6ac999e9130020642fc63bd1f43f8e53342579cfddb",
@@ -3612,7 +3612,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 454778,
@@ -3650,15 +3650,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1gMpQlWaxfR-tJuQe_-R-g83pXNOJnF9m",
-      "webViewLink": "https://drive.google.com/file/d/1gMpQlWaxfR-tJuQe_-R-g83pXNOJnF9m/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1gMpQlWaxfR-tJuQe_-R-g83pXNOJnF9m/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2608.28916",
         "accessed": "2026-11-08"
@@ -3669,14 +3662,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [

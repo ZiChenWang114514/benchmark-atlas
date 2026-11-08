@@ -1,6 +1,6 @@
 # MMMU-Pro
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 MMMU-Pro从原版筛去文本捷径可答题，扩展候选选项，并将题目嵌入图片以测试“看与读”的联合能力。底层1730道题对应Standard四选项、Standard十选项和Vision三种配置，不是5190道独立题。原论文整体分、官方JSON各列、Vals四选项与AA十选项均分轨；论文人类表现是作者利用原MMMU数据估计，不视作Pro重新实测。
 [本页导读依据](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
@@ -29,13 +29,13 @@ Pro（数据修订截至2026-10-04）
 
 ### 论文版本
 
-arXiv v3（2025-05-22 17:22:02 KST；ACL 2025论文）
+arXiv v3（2025-05-22 17:22:02；ACL 2025论文）
 
 [来源1](https://arxiv.org/abs/2409.02813)（访问 2026-11-08）；[来源2](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）
 
 ### 发布日期
 
-2024-09-05（官方数据首发公告；arXiv v1为2024-09-05 00:31:26 KST）
+2024-09-05（官方数据首发公告；arXiv v1为2024-09-05 00:31:26 ）
 
 [来源1](https://arxiv.org/abs/2409.02813)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）
 
@@ -105,7 +105,7 @@ MMMU Team
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）
 
@@ -127,7 +127,7 @@ MMMU Team
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）
 
@@ -155,7 +155,7 @@ MMMU Team
 
 ### 出题/构建者背景
 
-由领域专家扩展选项并审查原答案/图像关联；先模型初筛，再人工两轮复核，第二轮由额外两名人工专家复查。不是重新组织整套题目的全新专家考试。
+由领域专家扩展选项并审查原答案/图像关联；先模型初筛，再人工两轮复核，由额外两名人工专家复查。不是重新组织整套题目的全新专家考试。
 
 [来源1](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
 
@@ -239,7 +239,7 @@ HF三个配置均为test split；样本id保留原版validation/test来源，不
 
 https://github.com/MMMU-Benchmark/MMMU
 
-> 链接由已打开原始论文/数据卡指向；本轮未逐文件核验代码。
+> 链接由已打开原始论文/数据卡指向；未逐文件核验代码。
 
 [来源1](https://arxiv.org/abs/2409.02813)（访问 2026-11-08）
 
@@ -251,11 +251,11 @@ Vals使用Standard 4选项；AA使用10选项；原论文综合还包含Vision�
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://mmmu-benchmark.github.io/)（访问 2026-11-08）
 
@@ -263,26 +263,26 @@ Vals使用Standard 4选项；AA使用10选项；原论文综合还包含Vision�
 
 ```json
 {
-  "version": "Pro（数据修订截至2026-10-04）",
-  "trending": "A",
-  "heat_evidence": "AA当前方法页仍运行1,730题十选项；HF于2026-10-04修正选项及缺失条件。Vals于9月1日保留榜，但现已停止新模型评测，不能写成仍持续更新。",
+  "version": "Pro（数据修订截至2026-10-04）"
+  "trending": "A"
+  "heat_evidence": "AA当前方法页仍运行1,730题十选项；HF于2026-10-04修正选项及缺失条件。Vals于9月1日保留榜，但现已停止新模型评测，不能写成仍持续更新。"
   "evidence_2026_h2": [
     {
-      "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    },
+    }
     {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    },
+    }
     {
-      "url": "https://www.vals.ai/benchmarks/mmmu",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://www.vals.ai/benchmarks/mmmu"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
     }
   ]
@@ -297,41 +297,41 @@ Vals使用Standard 4选项；AA使用10选项；原论文综合还包含Vision�
 {
   "arxiv_revisions": [
     {
-      "version": "v1",
-      "date_kst": "2024-09-05T00:31:26+09:00"
-    },
-    {
-      "version": "v2",
-      "date_kst": "2024-09-10T21:55:31+09:00"
-    },
-    {
-      "version": "v3",
-      "date_kst": "2025-05-22T17:22:02+09:00"
+      "version": "v1"
+      "date_kst": "2024-09-05"
     }
-  ],
+    {
+      "version": "v2"
+      "date_kst": "2024-09-10"
+    }
+    {
+      "version": "v3"
+      "date_kst": "2025-05-22"
+    }
+  ]
   "dataset_corrections": [
     {
-      "date": "2026-05-30",
+      "date": "2026-05-30"
       "ids": [
         "validation_Diagnostics_and_Laboratory_Medicine_17"
-      ],
-      "change": "Vision/十选项扩展修正"
-    },
+      ]
+      最近复核
+    }
     {
-      "date": "2026-07-10",
+      "date": "2026-07-10"
       "ids": [
-        "validation_Design_15",
+        "validation_Design_15"
         "validation_Art_Theory_4"
-      ],
-      "change": "参考答案标签修正"
-    },
+      ]
+      最近复核
+    }
     {
-      "date": "2026-10-04",
+      "date": "2026-10-04"
       "ids": [
-        "test_Chemistry_240",
+        "test_Chemistry_240"
         "validation_Finance_5"
-      ],
-      "change": "选项扩展及缺失题设条件修正"
+      ]
+      最近复核
     }
   ]
 }
@@ -598,7 +598,7 @@ https://github.com/MMMU-Benchmark/MMMU/issues
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）
 
@@ -614,7 +614,7 @@ https://github.com/MMMU-Benchmark/MMMU/issues
 
 https://arxiv.org/pdf/2409.02813
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
 
@@ -622,7 +622,7 @@ https://arxiv.org/pdf/2409.02813
 
 f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
 
@@ -630,17 +630,17 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 
 17320142
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-07）
 
@@ -649,44 +649,44 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 ```json
 [
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://arxiv.org/abs/2409.02813"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://www.vals.ai/benchmarks/mmmu"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://artificialanalysis.ai/evaluations/mmmu-pro",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://artificialanalysis.ai/evaluations/mmmu-pro"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/pdf/2409.02813",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/pdf/2409.02813"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://mmmu-benchmark.github.io/",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://mmmu-benchmark.github.io/"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
     "accessed": "2026-11-08"
   }
 ]
@@ -694,13 +694,13 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-08）；[来源2](https://artificialanalysis.ai/evaluations/mmmu-pro)（访问 2026-11-08）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-08）；[来源4](https://arxiv.org/abs/2409.02813)（访问 2026-11-08）；[来源5](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）；[来源6](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）；[来源9](https://www.vals.ai/benchmarks/mmmu)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 待核实
 
 > 状态：待核实。
 
-> 本组仅本地建页，未上传Drive，不伪造归档链接。
+> 本组仅本地建页，未上传，不伪造归档链接。
 
 [来源1](https://huggingface.co/datasets/MMMU/MMMU_Pro)（访问 2026-11-07）
 
@@ -711,14 +711,14 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目。本页只收MMMU-Pro；原版保留在既有条目 /benchmarks/mmmu，Pro为其防捷径增强衍生版，不能用原版11.5K题量填入本页。 热度与榜单口径分离，不确定值标记待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

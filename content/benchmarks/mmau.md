@@ -1,6 +1,6 @@
 # MMAU
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2024-10-25T06:20:10+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
+2024-10-25（；arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）
 
@@ -127,7 +127,7 @@ MMAU作者团队；官方README列S Sakshi、Sonal Kumar与Sreyan Ghosh为联系
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）；[来源](https://sakshi113.github.io/mmau_homepage/)（访问 2026-11-08）
 
@@ -254,7 +254,7 @@ https://github.com/Sakshi113/MMAU
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md)（访问 2026-11-08）
 
@@ -266,8 +266,8 @@ MMAU-v05.15.25：约25%问答修订、约5%音频改进；2026-01-30 test评测�
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2024-10-25T06:20:10+09:00；- **timezone**：Asia/Seoul (KST)
-- **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2609.28879v1；- **date**：2026-09-24；- **note**：Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。；- **date_kst**：2026-09-24T09:58:42+09:00；- **verified_in_round1**：本轮重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。
+- **revisions**：- - **version**：v1；- **submitted_at**：2024-10-25；- **timezone**：
+- **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2609.28879v1；- **date**：2026-09-24；- **note**：Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。；- **date_kst**：2026-09-24；- **verified_in_round1**：重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。
 - **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）；[来源](https://arxiv.org/html/2609.28879v1)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2609.28879)（访问 2026-11-08）
@@ -294,7 +294,7 @@ MMAU-Pro（官方2025-08-19公告），不与MMAU原版/修订版成绩混合。
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json)（访问 2026-11-08）
 
@@ -308,7 +308,7 @@ https://sakshi113.github.io/mmau_homepage/#leaderboard-v15-parsed
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07）
 
@@ -487,7 +487,7 @@ https://github.com/Sakshi113/MMAU/issues
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）；[来源](https://sakshi113.github.io/mmau_homepage/)（访问 2026-11-08）
 
@@ -505,46 +505,46 @@ https://arxiv.org/pdf/2410.19168
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2410.19168)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 455dbfa3f7cb020120e3e0d0c624f707324e9596dd3b26b8c82e9b855580d41a
 
-> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
+> 下载PDF字节的SHA-256；不冒称已重新上传。
 
 [来源](https://arxiv.org/pdf/2410.19168)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 8505593
 
-> 本轮直接下载的PDF文件字节数。
+> 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2410.19168)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 - **id**：1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP
-- **webViewLink**：https://drive.google.com/drive/folders/1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP
+- **webViewLink**：
 
-[来源](https://drive.google.com/drive/folders/1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks；- **webViewLink**：https://docs.google.com/document/d/1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks/edit?usp=drivesdk
+- - **kind**：中文介绍 Google Doc；- **id**：1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks；- **webViewLink**：
 
-[来源](https://docs.google.com/document/d/1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks/edit?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG
-- **webViewLink**：https://drive.google.com/file/d/13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG/view?usp=drivesdk
+- **webViewLink**：
 
-[来源](https://drive.google.com/file/d/13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG/view?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
-- - **date**：2026-11-07；- **timezone**：KST / Asia/Seoul；- **round**：1 / 深度实证复核；- **change**：补机构、维护、英语问句与音频语言的区分、隐藏test协议；重读官方parsed榜单并重核H2。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+- - **date**：2026-11-07；- **timezone**：；- **round**：1 / 深度实证复核；- **change**：补机构、维护、英语问句与音频语言的区分、隐藏test协议；重读官方parsed榜单并重核H2。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md)（访问 2026-11-08）

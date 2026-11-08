@@ -1,7 +1,7 @@
 {
   "id": "mmmlu",
   "schema_version": "0.1.0",
-  "editorial_status": "第二轮主源/论文/分轨成绩复核完成；第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MMMLU",
@@ -28,7 +28,7 @@
       },
       "sources": [
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         },
         {
@@ -38,7 +38,7 @@
       ]
     },
     "paper_version": {
-      "value": "所链接的是MMLU母题论文arXiv v3（2021-01-13 03:57:11 KST）；MMMLU独立论文及版本待核实。",
+      "value": "所链接的是MMLU母题论文arXiv v3（2021-01-13 03:57:11 ）；MMMLU独立论文及版本待核实。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2009.03300",
@@ -52,10 +52,10 @@
       "status": "待核实"
     },
     "release_date": {
-      "value": "HF仓库创建于2024-09-14 01:37:19 KST；这不是已确认的MMMLU正式首发时间，正式发布日期待核实。",
+      "value": "HF仓库创建于2024-09-14 01:37:19；这不是已确认的MMMLU正式首发时间，正式发布日期待核实。",
       "sources": [
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         }
       ],
@@ -297,7 +297,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         },
         {
@@ -487,17 +487,17 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。"
+      "note": "本次源站访问日期；时区；不等于榜单运行日期。"
     },
     "latest_dataset_version": {
       "value": {
         "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504",
-        "last_modified_kst": "2024-10-17T03:39:00+09:00",
+        "last_modified_kst": "2024-10-17",
         "scope": "HF公开MMMLU译文，不是新MMLU版本"
       },
       "sources": [
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         },
         {
@@ -512,18 +512,18 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2020-09-08T02:59:25+09:00"
+            "date_kst": "2020-09-08"
           },
           {
             "version": "v2",
-            "date_kst": "2020-09-21T14:06:57+09:00"
+            "date_kst": "2020-09-21"
           },
           {
             "version": "v3",
-            "date_kst": "2021-01-13T03:57:11+09:00"
+            "date_kst": "2021-01-13"
           }
         ],
-        "mmmlu_repository_last_modified_kst": "2024-10-17T03:39:00+09:00"
+        "mmmlu_repository_last_modified_kst": "2024-10-17"
       },
       "sources": [
         {
@@ -531,7 +531,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         }
       ]
@@ -775,7 +775,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "PDF已重下载读文并验证hash一致；该Drive存档是MMLU母题论文，不标为MMMLU独立论文。"
+      "note": "PDF已重下载读文并验证hash一致；该存档是MMLU母题论文，不标为MMMLU独立论文。"
     },
     "sha256": {
       "value": "d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1",
@@ -797,13 +797,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1OPPheSgFyaAe2V-nV5RJwvz34TO4r8qC",
-        "webViewLink": "https://drive.google.com/drive/folders/1OPPheSgFyaAe2V-nV5RJwvz34TO4r8qC"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1OPPheSgFyaAe2V-nV5RJwvz34TO4r8qC",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -811,132 +808,126 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g",
-          "webViewLink": "https://docs.google.com/document/d/1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/abs/2009.03300",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/pdf/2009.03300",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://github.com/openai/simple-evals/blob/main/README.md",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://github.com/openai/simple-evals/blob/main/common.py",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://github.com/openai/simple-evals/blob/main/mmlu_eval.py",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
-          "accessed": "2026-11-08"
-        },
-        {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
+          "accessed": "2026-11-08"
+        },
+        {
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv",
           "accessed": "2026-11-08"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g/edit?usp=drivesdk",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/abs/2009.03300",
           "accessed": "2026-11-08"
         },
@@ -961,7 +952,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/MMMLU",
+          "url": "https://huggingface.co/datasets/openai/MMMLU",
           "accessed": "2026-11-08"
         },
         {
@@ -1032,13 +1023,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "10nTX-hZcL0fXPaatAK5f_f47-_-daG2g",
-      "webViewLink": "https://drive.google.com/file/d/10nTX-hZcL0fXPaatAK5f_f47-_-daG2g/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/10nTX-hZcL0fXPaatAK5f_f47-_-daG2g/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ],
@@ -1048,18 +1036,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST, UTC+9)",
-        "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+        "change": "最近复核"
       }
     ],
     "sources": [

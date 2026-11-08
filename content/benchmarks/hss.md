@@ -1,8 +1,8 @@
 # HSS
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
-HSS针对成人直觉可解、但模型容易过度思考的视觉隐含推理：522道人工作答与rubric题，含288图像和234视频。本轮补齐arXiv论文及2026-10-08题卡修订，明确标注MIT只覆盖标注，不覆盖原始媒体。
+HSS针对成人直觉可解、但模型容易过度思考的视觉隐含推理：522道人工作答与rubric题，含288图像和234视频。补齐arXiv论文及2026-10-08题卡修订，明确标注MIT只覆盖标注，不覆盖原始媒体。
 
 导读依据：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）；[3](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2026-10-07T03:31:35+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2026-10-07（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
@@ -50,8 +50,8 @@ arXiv v2
 
 ```json
 [
-  "直觉视觉推理",
-  "视频理解",
+  "直觉视觉推理"
+  "视频理解"
   "空间/社会推理"
 ]
 ```
@@ -62,7 +62,7 @@ arXiv v2
 
 ```json
 {
-  "annotations": "MIT：提示、参考答案、rubric、taxonomy标签",
+  "annotations": "MIT：提示、参考答案、rubric、taxonomy标签"
   "media": "图像/视频不受上述MIT授权覆盖；权利仍归原作者，HF声明仅随基准提供供非商业研究/评测，使用者须遵守原媒体条款。"
 }
 ```
@@ -117,7 +117,7 @@ Elorian；另有University of California, Santa Cruz作者单位。
 
 ### 作者
 
- Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz · *Equal contribution 
+ Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz · *Equal contribution
 
 来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
@@ -199,7 +199,7 @@ Scale AI
 
 ```json
 [
-  "图像",
+  "图像"
   "视频（无音轨、无字幕）"
 ]
 ```
@@ -260,9 +260,9 @@ Claude-Opus-5 作为自动 LLM 裁判逐条判定
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）；[2](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
@@ -277,19 +277,19 @@ Claude-Opus-5 作为自动 LLM 裁判逐条判定
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-10-07T03:31:35+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2026-10-07"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2026-10-09T02:39:44+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v2"
+    "submitted_at": "2026-10-09"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
@@ -317,7 +317,7 @@ Claude-Opus-5 作为自动 LLM 裁判逐条判定
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）。
 
@@ -340,64 +340,64 @@ https://labs.scale.com/leaderboard/hss
 ```json
 [
   {
-    "rank": 1,
-    "model": "Gemini-4-Argon (high)",
-    "score": "55.40 ± 4.20",
-    "metric": "Pass@1",
-    "result_type": "官方榜单快照",
-    "source_date": "待核实（页面未标榜单更新日）",
-    "collected_at": "2026-11-08 KST",
-    "source_url": "https://labs.scale.com/leaderboard/hss",
-    "track": "官方当前522题，pass@1，按模型行保留推理设置",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "Gemini-4-Argon (high)"
+    "score": "55.40 ± 4.20"
+    "metric": "Pass@1"
+    "result_type": "官方榜单快照"
+    "source_date": "待核实（页面未标榜单更新日）"
+    "collected_at": "2026-11-08 "
+    "source_url": "https://labs.scale.com/leaderboard/hss"
+    "track": "官方当前522题，pass@1，按模型行保留推理设置"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "GPT-6-Astra (max)",
-    "score": "53.60 ± 4.10",
-    "metric": "Pass@1",
-    "result_type": "官方榜单快照",
-    "source_date": "待核实（页面未标榜单更新日）",
-    "collected_at": "2026-11-08 KST",
-    "source_url": "https://labs.scale.com/leaderboard/hss",
-    "track": "官方当前522题，pass@1，按模型行保留推理设置",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "GPT-6-Astra (max)"
+    "score": "53.60 ± 4.10"
+    "metric": "Pass@1"
+    "result_type": "官方榜单快照"
+    "source_date": "待核实（页面未标榜单更新日）"
+    "collected_at": "2026-11-08 "
+    "source_url": "https://labs.scale.com/leaderboard/hss"
+    "track": "官方当前522题，pass@1，按模型行保留推理设置"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "GPT-6.1-Sol (max)",
-    "score": "46.60 ± 3.80",
-    "metric": "Pass@1",
-    "result_type": "官方榜单快照",
-    "source_date": "待核实（页面未标榜单更新日）",
-    "collected_at": "2026-11-08 KST",
-    "source_url": "https://labs.scale.com/leaderboard/hss",
-    "track": "官方当前522题，pass@1，按模型行保留推理设置",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "GPT-6.1-Sol (max)"
+    "score": "46.60 ± 3.80"
+    "metric": "Pass@1"
+    "result_type": "官方榜单快照"
+    "source_date": "待核实（页面未标榜单更新日）"
+    "collected_at": "2026-11-08 "
+    "source_url": "https://labs.scale.com/leaderboard/hss"
+    "track": "官方当前522题，pass@1，按模型行保留推理设置"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 4,
-    "model": "Claude-Opus-5.5 (xhigh)",
-    "score": "44.60 ± 3.80",
-    "metric": "Pass@1",
-    "result_type": "官方榜单快照",
-    "source_date": "待核实（页面未标榜单更新日）",
-    "collected_at": "2026-11-08 KST",
-    "source_url": "https://labs.scale.com/leaderboard/hss",
-    "track": "官方当前522题，pass@1，按模型行保留推理设置",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 4
+    "model": "Claude-Opus-5.5 (xhigh)"
+    "score": "44.60 ± 3.80"
+    "metric": "Pass@1"
+    "result_type": "官方榜单快照"
+    "source_date": "待核实（页面未标榜单更新日）"
+    "collected_at": "2026-11-08 "
+    "source_url": "https://labs.scale.com/leaderboard/hss"
+    "track": "官方当前522题，pass@1，按模型行保留推理设置"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 5,
-    "model": "Muse Wonder 1.0 (max)",
-    "score": "43.70 ± 4.20",
-    "metric": "Pass@1",
-    "result_type": "官方榜单快照",
-    "source_date": "待核实（页面未标榜单更新日）",
-    "collected_at": "2026-11-08 KST",
-    "source_url": "https://labs.scale.com/leaderboard/hss",
-    "track": "官方当前522题，pass@1，按模型行保留推理设置",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+    "rank": 5
+    "model": "Muse Wonder 1.0 (max)"
+    "score": "43.70 ± 4.20"
+    "metric": "Pass@1"
+    "result_type": "官方榜单快照"
+    "source_date": "待核实（页面未标榜单更新日）"
+    "collected_at": "2026-11-08 "
+    "source_url": "https://labs.scale.com/leaderboard/hss"
+    "track": "官方当前522题，pass@1，按模型行保留推理设置"
+    "snapshot_date": "2026-11-08 "
   }
 ]
 ```
@@ -424,7 +424,7 @@ https://labs.scale.com/leaderboard/hss
 
 待核实
 
-> 官网提到evaluation harness，但本轮公开页面/论文未提供可验证GitHub仓库地址；不编造仓库。
+> 官网提到evaluation harness，但公开页面/论文未提供可验证GitHub仓库地址；不编造仓库。
 
 来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-08）；[2](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 
@@ -450,25 +450,25 @@ https://arxiv.org/pdf/2610.08966
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 86538d4f2ff2e648a97693fff6bfc2f2c25d99c71f877f4d7797430d4ef283ed
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 9845488
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2610.08966)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 待核实
 
@@ -481,11 +481,11 @@ https://arxiv.org/pdf/2610.08966
 ```json
 [
   {
-    "type": "官方数据卡/方法入口",
+    "type": "官方数据卡/方法入口"
     "url": "https://huggingface.co/datasets/ScaleAI/HSS"
-  },
+  }
   {
-    "type": "官方说明",
+    "type": "官方说明"
     "url": "https://labs.scale.com/leaderboard/hss"
   }
 ]
@@ -493,11 +493,11 @@ https://arxiv.org/pdf/2610.08966
 
 来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）；[2](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 待核实
 
-> 本组按任务要求不上传Drive；原始PDF URL见original_files。
+> 本组按任务要求不上传；原始PDF URL见original_files。
 
 来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
@@ -508,14 +508,14 @@ https://arxiv.org/pdf/2610.08966
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

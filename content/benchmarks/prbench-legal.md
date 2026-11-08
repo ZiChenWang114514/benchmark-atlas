@@ -1,10 +1,10 @@
 # PRBench – Legal
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 PRBench法律轨评估客户和专业工作中的开放法律推理。500题覆盖12类法律主题，每题10–30项带权rubric，并由独立专家与o4-mini裁判评分。应同时阅读法域、风险披露和过程透明性，而非将rubric总分当作执业可靠性或客观法律正确率。
 
-编辑状态：研究快照；trending: B；未核实字段保留标记
+最近复核
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv:2511.11562v1；当前abs仅列v1。
 
 ### 发布时间
 
-论文首发：2025-11-15 03:55:12 KST（源站为2025-11-14 18:55:12 UTC）；不冒称数据首次公开时刻。
+论文首发：2025-11-15 03:55:12 （源站为2025-11-14 18:55:12 UTC）；不冒称数据首次公开时刻。
 
 [1](https://arxiv.org/abs/2511.11562)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2511.11562)（访问 2026-11-08）；[3](https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md)（访问 2026-11-08）
 
@@ -50,7 +50,7 @@ arXiv:2511.11562v1；当前abs仅列v1。
 
 ```json
 [
-  "法律",
+  "法律"
   "专业推理"
 ]
 ```
@@ -115,29 +115,29 @@ Scale AI
 
 ```json
 [
-  "Afra Feyza Akyürek",
-  "Advait Gosai",
-  "Chen Bo Calvin Zhang",
-  "Vipul Gupta",
-  "Jaehwan Jeong",
-  "Anisha Gunjal",
-  "Tahseen Rabbani",
-  "Maria Mazzone",
-  "David Randolph",
-  "Mohammad Mahmoudi Meymand",
-  "Gurshaan Chattha",
-  "Paula Rodriguez",
-  "Diego Mares",
-  "Pavit Singh",
-  "Michael Liu",
-  "Subodh Chawla",
-  "Pete Cline",
-  "Lucy Ogaz",
-  "Ernesto Hernandez",
-  "Zihao Wang",
-  "Pavi Bhatter",
-  "Marcos Ayestaran",
-  "Bing Liu",
+  "Afra Feyza Akyürek"
+  "Advait Gosai"
+  "Chen Bo Calvin Zhang"
+  "Vipul Gupta"
+  "Jaehwan Jeong"
+  "Anisha Gunjal"
+  "Tahseen Rabbani"
+  "Maria Mazzone"
+  "David Randolph"
+  "Mohammad Mahmoudi Meymand"
+  "Gurshaan Chattha"
+  "Paula Rodriguez"
+  "Diego Mares"
+  "Pavit Singh"
+  "Michael Liu"
+  "Subodh Chawla"
+  "Pete Cline"
+  "Lucy Ogaz"
+  "Ernesto Hernandez"
+  "Zihao Wang"
+  "Pavi Bhatter"
+  "Marcos Ayestaran"
+  "Bing Liu"
   "Yunzhong He"
 ]
 ```
@@ -282,7 +282,7 @@ https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报�
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://labs.scale.com/leaderboard/prbench-legal)（访问 2026-11-08）
 
@@ -290,15 +290,15 @@ https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报�
 
 ```json
 {
-  "version": "PRBench公开Legal 500题 / Hard 250题（本次可核验发布集）",
-  "heat_confidence": "B",
-  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。",
+  "version": "PRBench公开Legal 500题 / Hard 250题（本次可核验发布集）"
+  "heat_confidence": "B"
+  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
   "evidence_2026_h2": [
     {
-      "url": "https://labs.scale.com/leaderboard/prbench-legal",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "官方维护方",
+      "url": "https://labs.scale.com/leaderboard/prbench-legal"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "官方维护方"
       "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
     }
   ]
@@ -312,9 +312,9 @@ https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2025-11-15T03:55:12+09:00",
-    "timezone": "Asia/Seoul"
+    "version": "v1"
+    "submitted_at": "2025-11-15"
+    "timezone": ""
   }
 ]
 ```
@@ -343,7 +343,7 @@ HF卡正文18,692条criteria，论文及README为19,356；论文分域金融10,2
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://labs.scale.com/leaderboard/prbench-legal)（访问 2026-11-08）
 
@@ -414,7 +414,7 @@ https://labs.scale.com/leaderboard/prbench-legal
 | 官方页面正文 / 历史Legal-Hard | 2 | [GPT-5](https://labs.scale.com/leaderboard/prbench-legal) | 0.36 | Hard加权rubric分数（0–1） | 未标注 |
 | 官方页面正文 / 历史Legal-Hard | 3 | [o3 (High)](https://labs.scale.com/leaderboard/prbench-legal) | 0.35 | Hard加权rubric分数（0–1） | 未标注 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://labs.scale.com/leaderboard/prbench-legal)（访问 2026-11-08）
 
@@ -476,7 +476,7 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 
 [1](https://arxiv.org/pdf/2511.11562)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -489,15 +489,15 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 ```json
 [
   {
-    "type": "官方README",
+    "type": "官方README"
     "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
-  },
+  }
   {
-    "type": "HF数据卡",
+    "type": "HF数据卡"
     "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
-  },
+  }
   {
-    "type": "代码MIT许可",
+    "type": "代码MIT许可"
     "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
   }
 ]
@@ -505,7 +505,7 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 
 [1](https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE)（访问 2026-11-08）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -515,14 +515,14 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

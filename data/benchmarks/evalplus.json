@@ -1,7 +1,7 @@
 {
   "id": "evalplus",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "EvalPlus",
@@ -41,14 +41,14 @@
       ]
     },
     "release_date": {
-      "value": "2023-05-02 14:46:48 KST",
+      "value": "2023-05-02 14:46:48",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2305.01210",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "代码",
@@ -114,7 +114,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已读取的公开HF卡revision: d32357cf319e50e9c8d8dab5ea876c72b0fd321b；只固定公开卡/仓库状态，不外推为私有测试版本。"
+      "note": "已读取的公开HF卡revision: d32357cf319e50e9c8d8dab5ea876c72b0fd321b；只固定公开卡/仓库状态，不外推为私有测试版本。"
     },
     "official_homepage": {
       "value": "https://evalplus.github.io/",
@@ -376,7 +376,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
+      "value": "2026-11-07 （资料快照日期）",
       "sources": [
         {
           "url": "https://evalplus.github.io/",
@@ -411,18 +411,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2023-05-02T14:46:48+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2023-05-02"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2023-06-12T15:49:51+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2023-06-12"
         },
         {
           "version": "v3",
-          "submitted_at_kst": "2023-10-31T04:37:09+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2023-10-31"
         }
       ],
       "sources": [
@@ -440,7 +437,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "编辑依据本轮读取的快照作有限范围判断；不外推未收录模型。"
+      "note": "编辑依据读取的快照作有限范围判断；不外推未收录模型。"
     },
     "contamination_and_issues": {
       "value": "H2 Hunyuan 报告对 EvalPlus 的引用编号关联到 HumanEval 原论文；本条依据 Liu 等人的 EvalPlus 原论文纠正出处，不据错误参考文献重命名。 官方README另记MBPP+ v0.2.0删题399→378，预计得分提升约4个百分点；跨此版本不能直接比较。",
@@ -467,7 +464,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
+      "value": "2026-11-07 （快照日，非实跑日）",
       "sources": [
         {
           "url": "https://evalplus.github.io/leaderboard.html",
@@ -614,7 +611,7 @@
           "benchmark_version": "套件/版本待核实",
           "result_type": "厂商技术报告自报",
           "source_date": "2026-09-23",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "settings": "0-shot"
         }
       ],
@@ -711,7 +708,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
+      "note": "实际下载的源站PDF字节摘要；不据此声称副本已更新。"
     },
     "pdf_bytes": {
       "value": 970804,
@@ -723,13 +720,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj",
-        "webViewLink": "https://drive.google.com/drive/folders/1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -737,17 +731,15 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo",
-          "webViewLink": "https://docs.google.com/document/d/1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         },
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://github.com/evalplus/evalplus/blob/master/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://huggingface.co/datasets/evalplus/humanevalplus",
           "accessed": "2026-11-07"
         }
@@ -765,13 +757,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1",
-      "webViewLink": "https://drive.google.com/file/d/1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -780,18 +769,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "frames",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "FRAMES",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-09-20T02:52:07+09:00（KST；arXiv初稿时间，不冒充数据集独立发布日期）",
+      "value": "2024-09-20（；arXiv初稿时间，不冒充数据集独立发布日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -106,7 +106,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已读取的公开HF卡revision: 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；只固定公开卡/仓库状态，不外推为私有测试版本。"
+      "note": "已读取的公开HF卡revision: 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；只固定公开卡/仓库状态，不外推为私有测试版本。"
     },
     "official_homepage": {
       "value": "https://huggingface.co/datasets/google/frames-benchmark",
@@ -364,7 +364,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
+      "value": "2026-11-07 （资料快照日期）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
@@ -376,7 +376,7 @@
       "value": {
         "public_dataset_revision": "58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef",
         "size": 824,
-        "source": "官方HF主分支本轮resolve响应的x-repo-commit；不当作论文版本"
+        "source": "官方HF主分支resolve响应的x-repo-commit；不当作论文版本"
       },
       "sources": [
         {
@@ -389,18 +389,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2024-09-20T02:52:07+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2024-09-20"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2024-10-19T06:37:34+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2024-10-19"
         },
         {
           "version": "v3",
-          "submitted_at_kst": "2025-01-25T04:23:15+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2025-01-25"
         }
       ],
       "sources": [
@@ -448,7 +445,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
+      "value": "2026-11-07 （快照日，非实跑日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.12941",
@@ -615,7 +612,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
+      "note": "实际下载的源站PDF字节摘要；不据此声称副本已更新。"
     },
     "pdf_bytes": {
       "value": 1163381,
@@ -627,13 +624,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD",
-        "webViewLink": "https://drive.google.com/drive/folders/1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -641,12 +635,10 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0",
-          "webViewLink": "https://docs.google.com/document/d/10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         },
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
         }
@@ -660,13 +652,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq",
-      "webViewLink": "https://drive.google.com/file/d/12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -675,13 +664,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "data_format.size",
           "data_format.languages",
@@ -690,8 +677,7 @@
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
+        "change": "最近复核"
       }
     ],
     "sources": [

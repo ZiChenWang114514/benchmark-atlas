@@ -1,6 +1,6 @@
 # MMLU-ProX
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2025-03-14T00:59:20+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
+2025-03-14（；arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
@@ -273,7 +273,7 @@ full/lite、语言集合及 CoT 策略不同不能混比；官网模型名称未
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/weihao1115/MMLU-ProX/main/README.md)（访问 2026-11-08）
 
@@ -285,7 +285,7 @@ README 2025-05记录29语言、Full与Lite；2025-08称正在开发更多语言�
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2025-03-14T00:59:20+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v2；- **submitted_at**：2025-05-27T02:20:21+09:00；- **timezone**：Asia/Seoul (KST)
+- **revisions**：- - **version**：v1；- **submitted_at**：2025-03-14；- **timezone**：；- - **version**：v2；- **submitted_at**：2025-05-27；- **timezone**：
 
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
@@ -311,7 +311,7 @@ MMLU-ProX-Lite是同项目节省评测成本的子集版，不另算一个独立
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
@@ -415,46 +415,46 @@ https://arxiv.org/pdf/2503.10497
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 b171ff829bfbb567974812dfebb860a63df7f756daf5662c7a1b659df76833bd
 
-> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
+> 下载PDF字节的SHA-256；不冒称已重新上传。
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 730780
 
-> 本轮直接下载的PDF文件字节数。
+> 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 - **id**：1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9
-- **webViewLink**：https://drive.google.com/drive/folders/1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9
+- **webViewLink**：
 
-[来源](https://drive.google.com/drive/folders/1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：https://docs.google.com/document/d/1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE/edit?usp=drivesdk
+- - **kind**：中文介绍 Google Doc；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：
 
-[来源](https://docs.google.com/document/d/1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE/edit?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR
-- **webViewLink**：https://drive.google.com/file/d/1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR/view?usp=drivesdk
+- **webViewLink**：
 
-[来源](https://drive.google.com/file/d/1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR/view?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- - **date**：2026-11-07；- **timezone**：；- **change**：深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/weihao1115/MMLU-ProX/main/README.md)（访问 2026-11-08）

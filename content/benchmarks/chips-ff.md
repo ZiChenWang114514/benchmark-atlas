@@ -72,7 +72,7 @@ CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 **作者**：Wines, Daniel；Choudhary, Kamal
 
@@ -168,7 +168,7 @@ CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有
 
 ## 最新情况
 
-**本次核验**：2026-11-07 Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
@@ -176,7 +176,7 @@ CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有
 
 来源：[1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_chipsff_a)（访问2026-11-07）
 
-**修订历史**：arXiv：v1 2024-12-14 04:22:31 KST；v2 2024-12-21 11:49:32 KST；v3 2025-01-15 13:10:22 KST；v4 2025-03-19 12:10:46 KST。
+**修订历史**：arXiv：v1 2024-12-14 04:22:31；v2 2024-12-21 11:49:32；v3 2025-01-15 13:10:22；v4 2025-03-19 12:10:46。
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
@@ -192,11 +192,11 @@ CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ## 榜单快照
 
-**快照日**：2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）
+**快照日**：2026-11-07 （网页采集日，不等于模型实验日期）
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
@@ -208,7 +208,7 @@ CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 分轨结果（不合并来源/题集/协议）
 
@@ -257,13 +257,13 @@ direction：lower_is_better
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 **隐私原则**：待核实
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ## 原始文件
 
@@ -279,7 +279,7 @@ direction：lower_is_better
 
 来源：[1](https://arxiv.org/pdf/2412.10516)（访问2026-11-07）
 
-**Drive目录**：id：1VwsQVL22mQmsezJ5BqVl6vjHB-pYsNFl；webViewLink：https://drive.google.com/drive/folders/1VwsQVL22mQmsezJ5BqVl6vjHB-pYsNFl
+**目录**：id：1VwsQVL22mQmsezJ5BqVl6vjHB-pYsNFl；webViewLink：
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
@@ -287,12 +287,12 @@ direction：lower_is_better
 
 来源：[1](https://docs.google.com/document/d/19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo/edit)（访问2026-11-07）
 
-**Drive PDF**：id：1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL；webViewLink：https://drive.google.com/file/d/1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL/view
+** PDF**：id：1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL；webViewLink：
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
 ## 变更记录
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- date：2026-11-07；timezone：；change：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

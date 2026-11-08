@@ -1,7 +1,7 @@
 {
   "id": "finance-agent",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: B；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Finance Agent",
@@ -52,7 +52,7 @@
       ]
     },
     "release_date": {
-      "value": "原始论文初稿 2025-05-21T03:22:10+09:00（KST）；v2.1独立发布日期待核实",
+      "value": "原始论文初稿 2025-05-21；v2.1独立发布日期待核实",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2508.00828",
@@ -149,7 +149,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已读取的公开HF卡revision: 1f80cefae847f2e8b6bdf773f789c90f70293f78；只固定公开卡/仓库状态，不外推为私有测试版本。"
+      "note": "已读取的公开HF卡revision: 1f80cefae847f2e8b6bdf773f789c90f70293f78；只固定公开卡/仓库状态，不外推为私有测试版本。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/fabv2-1",
@@ -193,7 +193,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "authors": {
       "value": "原始论文：Antoine Bigeard、Rayan Krishnan、Shirley Wu、Langston Nashold；不把旧论文作者名单当v2.1完整人员名单。",
@@ -222,7 +222,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "design_goals": {
@@ -418,7 +418,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
+      "value": "2026-11-07 （资料快照日期）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/fabv2-1",
@@ -450,8 +450,7 @@
         "arxiv_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2025-05-21T03:22:10+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2025-05-21"
           }
         ],
         "v2_1_method_changes": "v2.1更新题目/rubric、替换jury为GPT-6.1 Sol/Gemini3.8 Flash/Claude Sonnet5.5，hedged多候选答案按失败处理。"
@@ -501,7 +500,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
+      "value": "2026-11-07 （快照日，非实跑日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/fabv2-1",
@@ -527,7 +526,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "results": {
       "value": [
@@ -538,7 +537,7 @@
           "metric": "v2.1 Partial Credit（表标Accuracy）",
           "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
         },
         {
@@ -548,7 +547,7 @@
           "metric": "v2.1 Partial Credit（表标Accuracy）",
           "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
         },
         {
@@ -558,7 +557,7 @@
           "metric": "v2.1 Partial Credit（表标Accuracy）",
           "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
         }
       ],
@@ -618,7 +617,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "original_files": {
@@ -640,7 +639,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
+      "note": "实际下载的源站PDF字节摘要；不据此声称副本已更新。"
     },
     "pdf_bytes": {
       "value": 1321074,
@@ -660,17 +659,17 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
       "value": [
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://github.com/vals-ai/finance-agent-v2/blob/main/README.md",
           "accessed": "2026-11-07"
         },
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://huggingface.co/datasets/vals-ai/finance_agent_benchmark",
           "accessed": "2026-11-07"
         }
@@ -688,15 +687,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "10pzGHnEb8Xi8T5Dd9NKY_qsTtWfso-nE",
-      "webViewLink": "https://drive.google.com/file/d/10pzGHnEb8Xi8T5Dd9NKY_qsTtWfso-nE/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/10pzGHnEb8Xi8T5Dd9NKY_qsTtWfso-nE/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2508.00828",
         "accessed": "2026-11-08"
@@ -707,13 +699,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
+        "change": "最近复核"
       }
     ],
     "sources": [

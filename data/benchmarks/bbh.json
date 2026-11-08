@@ -1,7 +1,7 @@
 {
   "id": "bbh",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "BIG-Bench Hard (BBH)",
@@ -22,7 +22,7 @@
       ]
     },
     "version": {
-      "value": "2022 公开任务集；未固定本轮仓库 commit",
+      "value": "2022 公开任务集；未固定仓库 commit",
       "sources": [
         {
           "url": "https://github.com/suzgunmirac/BIG-Bench-Hard",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2022-10-18 01:08:26（Asia/Shanghai，UTC+8；arXiv v1首次提交）",
+      "value": "2022-10-18 01:08:26（，UTC+8；arXiv v1首次提交）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -380,7 +380,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -389,7 +389,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "2022 公开任务集；未固定本轮仓库 commit",
+      "value": "2022 公开任务集；未固定仓库 commit",
       "sources": [
         {
           "url": "https://github.com/suzgunmirac/BIG-Bench-Hard",
@@ -403,7 +403,7 @@
     },
     "paper_revision_history": {
       "value": {
-        "original_v1": "2022-10-18T01:08:26+08:00",
+        "original_v1": "2022-10-18",
         "subsequent_use": {
           "url": "https://arxiv.org/html/2609.27284v1",
           "evidence": "基础/slow-thinking/fast-thinking分别报告BBH；不是同一轨"
@@ -458,7 +458,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -475,7 +475,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      "note": "未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
       "value": "待核实",
@@ -683,7 +683,7 @@
       ]
     },
     "coverage_note": {
-      "value": "公开仓库不是持续滚动的排行榜；本轮重新读取原论文表2及Hunyuan报告表2/3/4。基础、慢思考、快思考、原始CoT和直接回答分轨，不将不同设置排序为统一SOTA。BBH宏平均以原论文23任务口径为准。",
+      "value": "公开仓库不是持续滚动的排行榜；重新读取原论文表2及Hunyuan报告表2/3/4。基础、慢思考、快思考、原始CoT和直接回答分轨，不将不同设置排序为统一SOTA。BBH宏平均以原论文23任务口径为准。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md",
@@ -749,13 +749,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW",
-      "webViewLink": "https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -778,7 +775,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
+      "note": "实际下载的源站PDF字节校验；未声称重新核验文件内容。"
     },
     "pdf_bytes": {
       "value": 5375941,
@@ -790,13 +787,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq",
-        "webViewLink": "https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -804,15 +798,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs",
-          "webViewLink": "https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/bbh.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -822,22 +814,18 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license"
         ]
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "round": "2 / queue[1]",
-        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.release_date",
           "organization.partners",

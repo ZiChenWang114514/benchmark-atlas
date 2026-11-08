@@ -1,7 +1,7 @@
 {
   "id": "fortress",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: B；未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Fortress",
@@ -42,7 +42,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-06-18T04:08:02+09:00（KST；arXiv初稿时间，不冒充数据集独立发布日期）",
+      "value": "2025-06-18（；arXiv初稿时间，不冒充数据集独立发布日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2506.14922",
@@ -114,7 +114,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已读取的公开HF卡revision: 0c096becbc75bb12065c8059a53960c7f0d4d35c；只固定公开卡/仓库状态，不外推为私有测试版本。"
+      "note": "已读取的公开HF卡revision: 0c096becbc75bb12065c8059a53960c7f0d4d35c；只固定公开卡/仓库状态，不外推为私有测试版本。"
     },
     "official_homepage": {
       "value": "https://labs.scale.com/leaderboard/fortress",
@@ -375,7 +375,7 @@
       "note": "已检查所列官方材料，但本字段尚未完成精确核验；不表示官方未公开。"
     },
     "comparability_warning": {
-      "value": "当前Performance Comparison的ARS与正文Rankings历史表、原论文500公开集不同；本轮只录当前榜ARS，不把老表ORS贴给新模型，也不把±数值未经定义当标准误。",
+      "value": "当前Performance Comparison的ARS与正文Rankings历史表、原论文500公开集不同；只录当前榜ARS，不把老表ORS贴给新模型，也不把±数值未经定义当标准误。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/fortress",
@@ -390,7 +390,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul（资料快照日期）",
+      "value": "2026-11-07 （资料快照日期）",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/fortress",
@@ -424,13 +424,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2025-06-18T04:08:02+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2025-06-18"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2025-06-25T04:55:23+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at_kst": "2025-06-25"
         }
       ],
       "sources": [
@@ -478,7 +476,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul（快照日，非实跑日）",
+      "value": "2026-11-07 （快照日，非实跑日）",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/fortress",
@@ -653,7 +651,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。"
+      "note": "实际下载的源站PDF字节摘要；不据此声称副本已更新。"
     },
     "pdf_bytes": {
       "value": 4776777,
@@ -678,7 +676,7 @@
     "other_documents": {
       "value": [
         {
-          "type": "本轮核验的官方原始资料",
+          "type": "核验的官方原始资料",
           "url": "https://huggingface.co/datasets/ScaleAI/fortress_public",
           "accessed": "2026-11-07"
         }
@@ -692,15 +690,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1Ml4o2jd8TMJNSTcpn4fxIY46kf0wDlJW",
-      "webViewLink": "https://drive.google.com/file/d/1Ml4o2jd8TMJNSTcpn4fxIY46kf0wDlJW/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1Ml4o2jd8TMJNSTcpn4fxIY46kf0wDlJW/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2506.14922",
         "accessed": "2026-11-08"
@@ -711,13 +702,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。"
+        "change": "最近复核"
       }
     ],
     "sources": [

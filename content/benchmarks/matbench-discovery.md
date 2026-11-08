@@ -1,5 +1,5 @@
 # Matbench Discovery
-> 核验：2026-11-08（KST / Asia/Seoul）。第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留
+> 核验：2026-11-08。实证优化；已补官方事实与分任务快照，未核实项明确保留
 
 Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少昂贵DFT验证，而不只看能量回归误差。当前站点还评几何、声子、分子动力学和双原子势；CPS与发现F1分别排名，完整WBM与unique-prototype子集不能混用分母。
 
@@ -17,7 +17,7 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **论文修订**：arXiv v3 [S7](https://arxiv.org/abs/2308.14920)
 
-**发布时间**：2023-08-29 07:29:57 KST（arXiv v1）；后发表于Nature Machine Intelligence 7, 836–847 (2025)。 [S4](https://arxiv.org/pdf/2308.14920) [S5](https://matbench-discovery.materialsproject.org/benchmarks/discovery) [S6](https://matbench-discovery.materialsproject.org/)
+**发布时间**：2023-08-29 07:29:57 （arXiv v1）；后发表于Nature Machine Intelligence 7, 836–847 (2025)。 [S4](https://arxiv.org/pdf/2308.14920) [S5](https://matbench-discovery.materialsproject.org/benchmarks/discovery) [S6](https://matbench-discovery.materialsproject.org/)
 
 **主板块**：材料 [S1](https://arxiv.org/abs/2308.14920)
 
@@ -97,13 +97,13 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S6](https://matbench-discovery.materialsproject.org/)
+**核查日**：2026-11-08 [S6](https://matbench-discovery.materialsproject.org/)
 
 **数据版本与持续使用**：发现任务WBM/MP参考凸包；在线框架已扩展多任务，当前默认unique-prototype设置。模型新增日期不是数据版本号。 [S4](https://arxiv.org/pdf/2308.14920) [S5](https://matbench-discovery.materialsproject.org/benchmarks/discovery) [S6](https://matbench-discovery.materialsproject.org/)
 
-**论文版本与证据历史**：v1 2023-08-29T07:29:57+09:00（KST）；v2 2024-02-05T02:12:47+09:00（KST）；v3 2024-12-11T08:52:04+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S7](https://arxiv.org/abs/2308.14920)
+**论文版本与证据历史**：v1 2023-08-29；v2 2024-02-05；v3 2024-12-11。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S7](https://arxiv.org/abs/2308.14920)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：当前CPS最高0.913、发现F1最高0.935；仍需结合RMSD、κ SRME及MD/双原子稳健性，不能把综合高分当所有模拟情境已饱和。 [S4](https://arxiv.org/pdf/2308.14920) [S5](https://matbench-discovery.materialsproject.org/benchmarks/discovery) [S6](https://matbench-discovery.materialsproject.org/)
 
@@ -113,7 +113,7 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S11](https://matbench-discovery.materialsproject.org/models)
+**快照日**：2026-11-08 [S11](https://matbench-discovery.materialsproject.org/models)
 
 **官方榜入口**：https://matbench-discovery.materialsproject.org/models [S13](https://matbench-discovery.materialsproject.org/models)
 
@@ -153,7 +153,7 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **问题反馈**：https://github.com/janosh/matbench-discovery/issues [S3](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)
 
-> 官方README建议支持问题使用 https://github.com/janosh/matbench-discovery/discussions 。
+> 官方README建议支持问题使用 https://github.com/janosh/matbench-discovery/discussions。
 
 **官方发布渠道**：待核实 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920)
 
@@ -167,21 +167,21 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **PDF SHA-256**：6a37da286baaea80b902d6011fcd6e08a090dbec604b3988884baf57b3aed612 [S4](https://arxiv.org/pdf/2308.14920)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：4570226 [S4](https://arxiv.org/pdf/2308.14920)
 
-**原有Drive文件夹**：{"id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM", "webViewLink": "https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM"} [S15](https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM)
+**原有文件夹**：{"id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM", "webViewLink": " [S15](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns", "webViewLink": "https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk"}] [S16](https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk)
+**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns", "webViewLink": " [S16](
 
-**原有Drive PDF**：{"id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO", "webViewLink": "https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk"} [S17](https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk)
+**原有 PDF**：{"id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO", "webViewLink": " [S17](
 
 ## 变更记录
 
-- 2026-11-07 · 首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- 2026-11-07 · 第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 首批官方材料核验、中文改写、；未核实字段显式标记。
+- 2026-11-07 · ：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S6](https://matbench-discovery.materialsproject.org/)
 
 ### 来源索引
@@ -202,6 +202,6 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 - S12 · [https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/) · 访问 2026-11-07
 - S13 · [https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models) · 访问 2026-11-07
 - S14 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S15 · [https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM](https://drive.google.com/drive/folders/1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM) · 访问 2026-11-07
-- S16 · [https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk](https://docs.google.com/document/d/1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns/edit?usp=drivesdk) · 访问 2026-11-07
-- S17 · [https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk](https://drive.google.com/file/d/1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO/view?usp=drivesdk) · 访问 2026-11-07
+- S15 · [ · 访问 2026-11-07
+- S16 · [ · 访问 2026-11-07
+- S17 · [ · 访问 2026-11-07

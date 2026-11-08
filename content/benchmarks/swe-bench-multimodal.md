@@ -1,6 +1,6 @@
 # SWE-bench Multimodal
 
-> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核实存在；官方资料研究快照，未知保留待核实；trending: B
+> Benchmark Constitution · 深度复核 2026-11-08。已核实存在；官方资料研究快照，未知保留待核实；trending: B
 
 SWE-bench Multimodal把视觉软件issue修复纳入仓库级agent评测，图像不只是装饰输入。官网2026年v2保留480可复现任务，但原论文、项目历史介绍和当前HF卡对旧题量仍存在多套数字。本档并列这些证据并提醒锁定revision，不能把HF main和480题协议自动视为完全一致。
 
@@ -110,18 +110,18 @@ Stanford University与Princeton University研究团队
 
 ```json
 [
-  "John Yang",
-  "Carlos E. Jimenez",
-  "Alex L. Zhang",
-  "Kilian Lieret",
-  "Joyce Yang",
-  "Xindi Wu",
-  "Ori Press",
-  "Niklas Muennighoff",
-  "Gabriel Synnaeve",
-  "Karthik R. Narasimhan",
-  "Diyi Yang",
-  "Sida I. Wang",
+  "John Yang"
+  "Carlos E. Jimenez"
+  "Alex L. Zhang"
+  "Kilian Lieret"
+  "Joyce Yang"
+  "Xindi Wu"
+  "Ori Press"
+  "Niklas Muennighoff"
+  "Gabriel Synnaeve"
+  "Karthik R. Narasimhan"
+  "Diyi Yang"
+  "Sida I. Wang"
   "Ofir Press"
 ]
 ```
@@ -204,8 +204,8 @@ issue文本与图像输入，输出代码diff。
 
 ```json
 [
-  "文本",
-  "图像",
+  "文本"
+  "图像"
   "代码"
 ]
 ```
@@ -266,7 +266,7 @@ mini-swe-agent；issue文本、首轮附截图、shell与独立sandbox；每模�
 
 ### 复核日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2410.03859)（访问 2026-11-08）
 
@@ -274,19 +274,19 @@ mini-swe-agent；issue文本、首轮附截图、shell与独立sandbox；每模�
 
 ```json
 {
-  "version": "Multimodal v2",
+  "version": "Multimodal v2"
   "evidence_2026_h2": [
     {
-      "url": "https://www.vals.ai/benchmarks/swebench-multimodal",
-      "date": "2026-11-05",
-      "date_type": "source_calendar_date",
+      "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
+      "date": "2026-11-05"
+      "date_type": "source_calendar_date"
       "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
     }
   ]
 }
 ```
 
-> 热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
+> 热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 [来源1](https://www.vals.ai/benchmarks/swebench-multimodal)（访问 2026-11-07）
 
@@ -295,9 +295,9 @@ mini-swe-agent；issue文本、首轮附截图、shell与独立sandbox；每模�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2024-10-05T03:48:58+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v1"
+    "submitted_at": "2024-10-05"
+    "timezone": ""
   }
 ]
 ```
@@ -328,7 +328,7 @@ Vals禁网v2当前最高70.21%，尚非满分；联网诊断最高77.92%不能�
 
 ### 快照日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2410.03859)（访问 2026-11-08）；[来源2](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal)（访问 2026-11-08）；[来源4](https://www.vals.ai/benchmarks/swebench-multimodal)（访问 2026-11-08）
 
@@ -402,7 +402,7 @@ https://www.vals.ai/benchmarks/swebench-multimodal
 
 ```json
 [
-  "johnby@stanford.edu",
+  "johnby@stanford.edu"
   "carlosej@cs.princeton.edu"
 ]
 ```
@@ -439,15 +439,15 @@ https://arxiv.org/pdf/2410.03859
 
 [来源1](https://arxiv.org/pdf/2410.03859)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 4fa09c3734547e8ba4a5288e7e8d9273d1136c70295e4f91ef3592df0ead2a71
 
-> 本次实际下载的PDF字节计算；未上传Drive。
+> 本次实际下载的PDF字节计算；未上传。
 
 [来源1](https://arxiv.org/pdf/2410.03859)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 4379827
@@ -455,7 +455,7 @@ https://arxiv.org/pdf/2410.03859
 
 [来源1](https://arxiv.org/pdf/2410.03859)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -468,23 +468,23 @@ https://arxiv.org/pdf/2410.03859
 ```json
 [
   {
-    "type": "官方方法或项目页",
-    "url": "https://www.vals.ai/benchmarks/swebench-multimodal",
+    "type": "官方方法或项目页"
+    "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
     "accessed": "2026-11-07"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://arxiv.org/abs/2410.03859",
+    "type": "已打开一手材料"
+    "url": "https://arxiv.org/abs/2410.03859"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://github.com/SWE-bench/SWE-bench",
+    "type": "已打开一手材料"
+    "url": "https://github.com/SWE-bench/SWE-bench"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal",
+    "type": "已打开一手材料"
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal"
     "accessed": "2026-11-08"
   }
 ]
@@ -492,7 +492,7 @@ https://arxiv.org/pdf/2410.03859
 
 [来源1](https://arxiv.org/abs/2410.03859)（访问 2026-11-08）；[来源2](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal)（访问 2026-11-08）；[来源4](https://www.vals.ai/benchmarks/swebench-multimodal)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
@@ -503,14 +503,14 @@ https://arxiv.org/pdf/2410.03859
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
-  },
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

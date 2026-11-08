@@ -1,8 +1,8 @@
 # BIG-Bench Hard (BBH)
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -20,7 +20,7 @@ BIG-Bench Hard
 
 ### 数据/软件版本
 
-2022 公开任务集；未固定本轮仓库 commit
+2022 公开任务集；未固定仓库 commit
 
 来源：[2][1]
 
@@ -32,7 +32,7 @@ arXiv v1
 
 ### 发布日期
 
-2022-10-18 01:08:26（Asia/Shanghai，UTC+8；arXiv v1首次提交）
+2022-10-18 01:08:26（，UTC+8；arXiv v1首次提交）
 
 来源：[1]
 
@@ -245,19 +245,19 @@ BIG-Bench 多任务平均值可能掩盖难题；本研究选择此前语言模�
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
 ### 当前发布
 
-2022 公开任务集；未固定本轮仓库 commit
+2022 公开任务集；未固定仓库 commit
 
 来源：[2][1]
 
 ### 版本脉络
 
-original_v1：2022-10-18T01:08:26+08:00；subsequent_use：url：https://arxiv.org/html/2609.27284v1；evidence：基础/slow-thinking/fast-thinking分别报告BBH；不是同一轨
+original_v1：2022-10-18；subsequent_use：url：https://arxiv.org/html/2609.27284v1；evidence：基础/slow-thinking/fast-thinking分别报告BBH；不是同一轨
 
 来源：[1][6]
 
@@ -283,7 +283,7 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -293,7 +293,7 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 来源：[1]
 
-说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+说明：未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -379,7 +379,7 @@ BBH是BIG-Bench子集，不等于完整BIG-Bench；本库不把各子任务拆�
 
 ### 覆盖边界
 
-公开仓库不是持续滚动的排行榜；本轮重新读取原论文表2及Hunyuan报告表2/3/4。基础、慢思考、快思考、原始CoT和直接回答分轨，不将不同设置排序为统一SOTA。BBH宏平均以原论文23任务口径为准。
+公开仓库不是持续滚动的排行榜；重新读取原论文表2及Hunyuan报告表2/3/4。基础、慢思考、快思考、原始CoT和直接回答分轨，不将不同设置排序为统一SOTA。BBH宏平均以原论文23任务口径为准。
 
 来源：[5][6][4]
 
@@ -431,7 +431,7 @@ https://arxiv.org/pdf/2210.09261
 
 来源：[4]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -439,31 +439,31 @@ https://arxiv.org/pdf/2210.09261
 
 来源：[4]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq；webViewLink：https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq
+id：1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq；webViewLink：
 
 来源：[7]
 
 ### 其他材料
 
-chinese_intro_doc：id：1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs；webViewLink：https://docs.google.com/document/d/1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/bbh.md
+chinese_intro_doc：id：1N0fQBJOZu3qwT8NX-UfZwCJuvdJnfJzP3HGJtXaKrqs；webViewLink：
 
 来源：[7]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW；webViewLink：https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk
+id：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW；webViewLink：
 
 来源：[8]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07（Asia/Seoul）：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 2026-11-07：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[2]
 
@@ -475,5 +475,5 @@ id：1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW；webViewLink：https://drive.google.com/
 [4]: https://arxiv.org/pdf/2210.09261 "访问 2026-11-07"
 [5]: https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/README.md "访问 2026-11-07"
 [6]: https://arxiv.org/html/2609.27284v1 "访问 2026-11-07"
-[7]: https://drive.google.com/drive/folders/1ISeb201NpVdzOdwUQ5IA9veSJL8smlBq "访问 2026-11-07"
-[8]: https://drive.google.com/file/d/1nmUl5QNGTZKijqLcX6GXqLqwODkV0-GW/view?usp=drivesdk "访问 2026-11-07"
+[7]: "访问 2026-11-07"
+[8]: "访问 2026-11-07"

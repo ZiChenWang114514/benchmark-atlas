@@ -26,11 +26,11 @@ CORE-Bench要求Agent利用研究者已发布的代码和数据复现结果并�
 
 核验说明：论文修订版本不等同数据集版本。
 
-**发布日期**：2024-09-18 02:13:19 KST
+**发布日期**：2024-09-18 02:13:19
 
 来源：[1](https://arxiv.org/abs/2409.11363)（访问2026-11-07）
 
-核验说明：首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+核验说明：首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 **主板块**：Agent
 
@@ -172,7 +172,7 @@ CORE-Bench要求Agent利用研究者已发布的代码和数据复现结果并�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://github.com/siegelz/core-bench)（访问2026-11-07）
 
@@ -180,7 +180,7 @@ CORE-Bench要求Agent利用研究者已发布的代码和数据复现结果并�
 
 来源：[1](https://raw.githubusercontent.com/siegelz/core-bench/main/README.md)（访问2026-11-07）；[2](https://arxiv.org/html/2609.19134v1)（访问2026-11-07）
 
-**修订历史**：Submission history From: Zachary Siegel [ view email ] [v1] 2024-09-18 02:13:19 KST (2,912 KB) [v2] 2026-06-23 07:36:12 KST (2,906 KB)
+**修订历史**：Submission history From: Zachary Siegel [ view email ] [v1] 2024-09-18 02:13:19 (2,912 KB) [v2] 2026-06-23 07:36:12 (2,906 KB)
 
 来源：[1](https://arxiv.org/abs/2409.11363)（访问2026-11-07）
 
@@ -200,7 +200,7 @@ CORE-Bench要求Agent利用研究者已发布的代码和数据复现结果并�
 
 ## 榜单快照
 
-**快照日**：2026-11-07 KST / Asia/Seoul
+**快照日**：2026-11-07
 
 来源：[1](https://github.com/siegelz/core-bench)（访问2026-11-07）
 
@@ -208,7 +208,7 @@ CORE-Bench要求Agent利用研究者已发布的代码和数据复现结果并�
 
 来源：[1](https://raw.githubusercontent.com/siegelz/core-bench/main/README.md)（访问2026-11-07）
 
-核验说明：由官方README指定；本轮访问返回503，分数和榜单更新日期保留待核实。
+核验说明：由官方README指定；访问返回503，分数和榜单更新日期保留待核实。
 
 **独立评测**：待核实
 
@@ -307,22 +307,22 @@ protocol：CORE-Agent 3次运行平均；AutoGPT 1次
 
 核验说明：源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。
 
-**Drive目录**：id：1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl；webViewLink：https://drive.google.com/drive/folders/1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl
+**目录**：id：1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl)（访问2026-11-07）
+来源：[1](
 
-**其他文档**：type：中文介绍Google Doc；id：1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA；webViewLink：https://docs.google.com/document/d/1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA/edit?usp=drivesdk
+**其他文档**：type：中文介绍Google Doc；id：1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA；webViewLink：
 
-来源：[1](https://github.com/siegelz/core-bench)（访问2026-11-07）；[2](https://docs.google.com/document/d/1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](https://github.com/siegelz/core-bench)（访问2026-11-07）；[2](
 
 核验说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-**Drive PDF**：id：1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8；webViewLink：https://drive.google.com/file/d/1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8/view?usp=drivesdk
+** PDF**：id：1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- date：2026-11-07；timezone：；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

@@ -1,7 +1,7 @@
 {
   "id": "aime",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AIME",
@@ -48,7 +48,7 @@
         }
       ],
       "status": "待核实",
-      "note": "原赛事首届日期未在本轮核实；AI评测必须指明年份，2025不是本系列首次发布日"
+      "note": "原赛事首届日期未在核实；AI评测必须指明年份，2025不是本系列首次发布日"
     },
     "section": {
       "value": "数学",
@@ -210,7 +210,7 @@
       ]
     },
     "author_background": {
-      "value": "MAA竞赛命题体系；本轮未核实2025逐题命题人名单。",
+      "value": "MAA竞赛命题体系；未核实2025逐题命题人名单。",
       "sources": [
         {
           "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
@@ -369,7 +369,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
@@ -409,7 +409,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "本轮已成功读取MAA邀请赛官方页，修正旧档“官方页仅403”的过时表述。2025题早已公开传播，不能证明无训练污染；AA方法页当前明确其AIME2025已退出active reporting。",
+      "value": "已成功读取MAA邀请赛官方页，修正旧档“官方页仅403”的过时表述。2025题早已公开传播，不能证明无训练污染；AA方法页当前明确其AIME2025已退出active reporting。",
       "sources": [
         {
           "url": "https://maa.org/maa-invitational-competitions/",
@@ -433,7 +433,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/",
@@ -450,7 +450,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      "note": "未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
       "value": "https://artificialanalysis.ai/evaluations/aime-2025",
@@ -471,7 +471,7 @@
           "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 2,
@@ -481,7 +481,7 @@
           "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 3,
@@ -491,7 +491,7 @@
           "track": "AA已退役Legacy评测",
           "source_url": "https://artificialanalysis.ai/evaluations/aime-2025",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         }
       ],
       "sources": [
@@ -508,7 +508,7 @@
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "本轮重开AA Legacy页核对99.0/98.7/97.0；方法页补齐每题10次重复。MAA未在此官方赛事页提供AI模型榜，第三方榜不能当MAA官方认证。",
+      "value": "重开AA Legacy页核对99.0/98.7/97.0；方法页补齐每题10次重复。MAA未在此官方赛事页提供AI模型榜，第三方榜不能当MAA官方认证。",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/aime-2025",
@@ -582,7 +582,7 @@
       }
     ],
     "status": "待核实",
-    "note": "AIME无单一原始论文；官方支持PDF下载403，本轮未上传PDF，不用其他竞赛资料冒充"
+    "note": "AIME无单一原始论文；官方支持PDF下载403，未上传PDF，不用其他竞赛资料冒充"
   },
   "original_files": {
     "paper_pdf_url": {
@@ -613,13 +613,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu",
-        "webViewLink": "https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -627,15 +624,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI",
-          "webViewLink": "https://docs.google.com/document/d/1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/aime.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -645,18 +640,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

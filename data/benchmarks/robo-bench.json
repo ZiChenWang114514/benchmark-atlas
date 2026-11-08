@@ -1,7 +1,7 @@
 {
   "id": "robo-bench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；note: trending: B；未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Robo-bench",
@@ -39,7 +39,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "release_date": {
       "value": "待核实",
@@ -50,7 +50,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "section": {
       "value": "机器人与具身",
@@ -85,7 +85,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "paper_url": {
       "value": "待核实",
@@ -96,7 +96,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "code_url": {
       "value": "待核实",
@@ -107,7 +107,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -118,7 +118,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "official_homepage": {
       "value": "https://www.vals.ai/benchmarks/robo_bench",
@@ -138,7 +138,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     }
   },
   "organization": {
@@ -160,7 +160,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "authors": {
       "value": "待核实",
@@ -171,7 +171,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "maintainer": {
       "value": "Vals AI",
@@ -191,7 +191,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -233,7 +233,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "review_process": {
       "value": "每个任务参考解须在五个seed全部成功，静止agent不应成功；仿真器位于agent不可读端并签名计分。",
@@ -306,7 +306,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "difficulty": {
       "value": "任务覆盖装配、灵巧操作、动力学、推理、堆叠、工具使用及人形多阶段障碍；参考解在五个seed均成功，静止agent不成功。未用统一人工难度等级。",
@@ -364,7 +364,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "comparability_warning": {
       "value": "每任务只跑一次；官方说明重复运行总分可变约10分，小差距无显著性保证。不同厂商harness也影响分数。",
@@ -378,7 +378,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/robo_bench",
@@ -416,7 +416,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "saturation": {
       "value": "本次官方七模型中最高平均里程碑分28.33/100；所有模型的人形分项均低于2/100。该快照仍有显著未解决空间，不将平均里程碑分当完整任务成功率。",
@@ -448,7 +448,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
+      "value": "2026-11-08 （访问日，不是实验运行日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/robo_bench",
@@ -474,7 +474,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "results": {
       "value": [
@@ -486,7 +486,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$4.97",
           "time_to_first_move": "79.89s",
@@ -500,7 +500,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$28.48",
           "time_to_first_move": "74.88s",
@@ -514,7 +514,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$11.38",
           "time_to_first_move": "2m07s",
@@ -528,7 +528,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$19.68",
           "time_to_first_move": "2m14s",
@@ -542,7 +542,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$20.40",
           "time_to_first_move": "2m04s",
@@ -556,7 +556,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$17.33",
           "time_to_first_move": "2m32s",
@@ -570,7 +570,7 @@
           "track": "Vals官方；各厂商最高推理coding agent；单seed/任务；3分钟",
           "source_url": "https://www.vals.ai/benchmarks/robo_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "estimated_api_cost": "$11.25",
           "time_to_first_move": "2m31s",
@@ -605,7 +605,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "github_issues": {
       "value": "待核实",
@@ -616,7 +616,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "official_social": {
       "value": "https://x.com/ValsAI",
@@ -647,7 +647,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -658,7 +658,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -669,7 +669,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -680,7 +680,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所列已打开材料未完成精确核验；不代表官方未公开。"
+      "note": "所列已打开材料未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -706,19 +706,17 @@
       }
     ],
     "status": "待核实",
-    "note": "本组仅本地建页，未上传Drive，不伪造归档链接。"
+    "note": "本组仅本地建页，未上传，不伪造归档链接。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门中文研究条目。仿真机器人评测，不等于实机部署安全认证；机器人平台分项不另建benchmark。 热度与榜单口径分离，不确定值标记待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：补齐7行官方精确分数；补21项私有题的去污染目的与难度验证，不把28.33解释为任务成功率。"
+        "change": "最近复核"
       }
     ],
     "sources": [

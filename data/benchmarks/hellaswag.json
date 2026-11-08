@@ -1,7 +1,7 @@
 {
   "id": "hellaswag",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "HellaSwag",
@@ -35,7 +35,7 @@
       ]
     },
     "paper_version": {
-      "value": "v1；2019-05-20T08:57:23+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v1；2019-05-20（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.07830",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2019-05-20T08:57:23+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2019-05-20（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.07830",
@@ -73,7 +73,7 @@
       ]
     },
     "license": {
-      "value": "HF的Rowan/hellaswag数据卡标MIT并链接原仓库LICENSE；本轮原LICENSE访问失败，保留此证据层级限制，未完成原许可证逐字核对。",
+      "value": "HF的Rowan/hellaswag数据卡标MIT并链接原仓库LICENSE；原LICENSE访问失败，保留此证据层级限制，未完成原许可证逐字核对。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md",
@@ -382,7 +382,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.07830",
@@ -404,8 +404,7 @@
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2019-05-20T08:57:23+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2019-05-20"
           }
         ],
         "2026_h2_evidence": [
@@ -471,7 +470,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://rowanzellers.com/hellaswag/",
@@ -512,7 +511,7 @@
           "metric": "overall test accuracy %",
           "track": "官方历史test榜；2024-11停止接收提交",
           "source_url": "https://rowanzellers.com/hellaswag/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2023-03-08（官网列示日期，未给时区）",
           "result_type": "官方关闭榜历史快照"
         },
@@ -523,7 +522,7 @@
           "metric": "overall test accuracy %",
           "track": "官方历史test榜；2024-11停止接收提交",
           "source_url": "https://rowanzellers.com/hellaswag/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2020-03-23（官网列示日期，未给时区）",
           "result_type": "官方关闭榜历史快照"
         },
@@ -534,7 +533,7 @@
           "metric": "overall test accuracy %",
           "track": "官方历史test榜；2024-11停止接收提交",
           "source_url": "https://rowanzellers.com/hellaswag/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2019-07-25（官网列示日期，未给时区）",
           "result_type": "官方关闭榜历史快照"
         }
@@ -547,7 +546,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮去掉重复GPT-4/ALUM行，仅列可在官方关闭榜核对的前三个模型；不混入validation研究结果。榜单关闭月份为2024-11，最后一次更新日待核实；模型旁日期不是采集日。",
+      "value": "去掉重复GPT-4/ALUM行，仅列可在官方关闭榜核对的前三个模型；不混入validation研究结果。榜单关闭月份为2024-11，最后一次更新日待核实；模型旁日期不是采集日。",
       "sources": [
         {
           "url": "https://rowanzellers.com/hellaswag/",
@@ -601,13 +600,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL",
-      "webViewLink": "https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -630,7 +626,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 1192712,
@@ -642,13 +638,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
-        "webViewLink": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -656,15 +649,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc",
-          "webViewLink": "https://docs.google.com/document/d/1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/hellaswag.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1XmPAIntfyK79BR_x3RMsy2mZCedenwBL",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -674,13 +665,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license",
           "latest_status.latest_dataset_version",
@@ -691,13 +680,12 @@
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

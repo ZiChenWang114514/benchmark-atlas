@@ -1,7 +1,7 @@
 {
   "id": "aqua-rat",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AQuA-RAT",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2017-05-11 21:04:47 Asia/Shanghai（UTC+8）（arXiv首稿，不等同数据发布声明）",
+      "value": "2017-05-11 21:04:47 （UTC+8）（arXiv首稿，不等同数据发布声明）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1705.04146",
@@ -383,7 +383,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://github.com/google-deepmind/AQuA",
@@ -408,15 +408,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2017-05-11T21:04:47+08:00"
+          "submitted_at": "2017-05-11"
         },
         {
           "version": "v2",
-          "submitted_at": "2017-10-10T22:57:26+08:00"
+          "submitted_at": "2017-10-10"
         },
         {
           "version": "v3",
-          "submitted_at": "2017-10-24T00:45:03+08:00"
+          "submitted_at": "2017-10-24"
         }
       ],
       "sources": [
@@ -464,7 +464,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://github.com/google-deepmind/AQuA",
@@ -481,7 +481,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      "note": "未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
       "value": "https://arxiv.org/html/2610.11978v1",
@@ -503,7 +503,7 @@
           "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 2,
@@ -513,7 +513,7 @@
           "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 3,
@@ -523,7 +523,7 @@
           "track": "Jev论文Table2/非官方实时榜",
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -533,7 +533,7 @@
           "track": "原论文Table3/不可完整公开旧版本",
           "source_url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -543,7 +543,7 @@
           "track": "原论文Table3/不可完整公开旧版本",
           "source_url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -553,7 +553,7 @@
           "track": "原论文Table3/不可完整公开旧版本",
           "source_url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -563,7 +563,7 @@
           "track": "原论文Table3/不可完整公开旧版本",
           "source_url": "https://arxiv.org/abs/1705.04146",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         }
       ],
       "sources": [
@@ -580,7 +580,7 @@
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "本轮核验Jev全文Table2及附录A（test254，单次运行）和原论文Table3；两者不是同一版本/同一协议，不据选列分数宣称全局榜首。",
+      "value": "核验Jev全文Table2及附录A（test254，单次运行）和原论文Table3；两者不是同一版本/同一协议，不据选列分数宣称全局榜首。",
       "sources": [
         {
           "url": "https://arxiv.org/html/2610.11978v1",
@@ -646,13 +646,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J",
-      "webViewLink": "https://drive.google.com/file/d/1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1gjTQogYMjSS4Mf4MbpT3wwXbuZawnC5J/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -675,7 +672,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
+      "note": "实际下载字节的SHA-256；不表示已有副本已替换。"
     },
     "pdf_bytes": {
       "value": 534332,
@@ -687,13 +684,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc",
-        "webViewLink": "https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -701,15 +695,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU",
-          "webViewLink": "https://docs.google.com/document/d/1eZjRI88WySYba1wenrGtoejhe6_rdLemJEcXKXDbWLU/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/aqua-rat.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/14h-nu4DAu3Vs6hx0zge6frTv-jqcw9Vc",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -719,18 +711,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

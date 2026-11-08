@@ -1,6 +1,6 @@
 # EBR-bench
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 已核验存在；研究快照；note: trending: A；未核实字段保留标记
 
@@ -33,8 +33,8 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 **仍待核实**（不推断为未公开）：
 
 - 许可证与限制：已检查正式发表材料，尚未确认覆盖任务数据/游戏资产的明确使用授权；软件、匿名预发布数据和商业游戏的许可证不能互套。 [1](https://epoch.ai/benchmarks/ebr-bench)
-- 官方代码：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
-- 数据入口：本轮可读https://epoch.ai/data/benchmarks.csv仅含模型评测结果，不是原游戏任务/卡牌材料；正式任务数据发布地址尚未定位。 [1](https://epoch.ai/benchmarks/ebr-bench) [3](https://epoch.ai/data/benchmarks.csv)
+- 官方代码：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 数据入口：可读https://epoch.ai/data/benchmarks.csv仅含模型评测结果，不是原游戏任务/卡牌材料；正式任务数据发布地址尚未定位。 [1](https://epoch.ai/benchmarks/ebr-bench) [3](https://epoch.ai/data/benchmarks.csv)
 
 ## 发起与维护
 
@@ -68,7 +68,7 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 
 **仍待核实**（不推断为未公开）：
 
-- 出题与审核人员：正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 出题与审核人员：正式方法页可确认发布维护机构，但未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ## 数据形式
 
@@ -98,11 +98,11 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 
 **仍待核实**（不推断为未公开）：
 
-- 评分/运行脚本：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 评分/运行脚本：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST / Asia/Seoul [1](https://epoch.ai/benchmarks/ebr-bench)
+- **核验日期**：2026-11-07 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 - **现行版本与采用证据**：version：v4 methodology（2026-09-22）；trending：A；heat_evidence：官方2026-09-22更新v4并在10月审计回应中报告新模型学习结果；本次重读Epoch CSV可见11月2日Mistral Large 4运行。A为候选分级，不据此声称多个独立创建机构。；evidence_2026_h2：url：https://epoch.ai/benchmarks/ebr-bench；date：2026-11-07；date_type：observed_on；note：本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
@@ -116,7 +116,7 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [1](https://epoch.ai/benchmarks/ebr-bench)
+- **快照采集日**：2026-11-07 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 - **官方榜/正式委托榜**：https://epoch.ai/benchmarks/ebr-bench [1](https://epoch.ai/benchmarks/ebr-bench)
 
@@ -128,24 +128,24 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 | 4 | Gemini 4 Argon (high) | 0.6476190476190476 | CSV mean_score (0–1；21目标比例)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 | 5 | Claude Fable 5.1 (max) | 0.5714285714285714 | CSV mean_score (0–1；21目标比例)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 
-> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at_kst：2026-10-27T05:01:15+09:00 KST；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at_kst：2026-10-27；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at_kst：2026-08-31T00:38:49+09:00 KST；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at_kst：2026-08-31；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at_kst：2026-09-23T06:38:58+09:00 KST；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at_kst：2026-09-23；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at_kst：2026-10-14T02:16:18+09:00 KST；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at_kst：2026-10-14；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at_kst：2026-09-08T23:59:49+09:00 KST；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at_kst：2026-09-08；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：当前CSV重读并按task=EBR-bench精确筛选；task version字段为空，保留run_id与运行起始时间。与方法页所列v1/v2/v3/v4存在可比性限制；CSV未提供统一榜表更新时间，不用采集日代替。 [3](https://epoch.ai/data/benchmarks.csv) [1](https://epoch.ai/benchmarks/ebr-bench)
 
 **仍待核实**（不推断为未公开）：
 
-- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 独立第三方入口：未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ## 联系方式
 
@@ -155,26 +155,26 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 
 **仍待核实**（不推断为未公开）：
 
-- 公开联系邮箱：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://epoch.ai/benchmarks/ebr-bench)
-- 公开问题追踪：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 公开联系邮箱：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 公开问题追踪：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ## 原始文件
 
 - **其他正式文档**：type：官方研究文章，非独立PDF；url：https://epoch.ai/publications/earthborne-rangers-benchmark；type：模型成绩CSV，不是任务数据；url：https://epoch.ai/data/benchmarks.csv [1](https://epoch.ai/benchmarks/ebr-bench) [3](https://epoch.ai/data/benchmarks.csv)
 
-- **Drive中的论文副本**：待核实 [1](https://epoch.ai/benchmarks/ebr-bench)
+- **中的论文副本**：待核实 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 **仍待核实**（不推断为未公开）：
 
 - 原始PDF：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://epoch.ai/benchmarks/ebr-bench)
 - SHA-256：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://epoch.ai/benchmarks/ebr-bench)
 - PDF字节数：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://epoch.ai/benchmarks/ebr-bench)
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立近期热门中文研究条目。Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

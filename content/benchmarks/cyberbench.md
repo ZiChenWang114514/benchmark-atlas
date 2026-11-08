@@ -1,6 +1,6 @@
 # CyberBench
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 研究快照；trending: B；未知信息保留待核实。
 
@@ -27,10 +27,10 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 **仍待核实**（不推断为未公开）：
 
 - 论文/报告版本：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
-- 发布日期：已核对正式页的更新日期；尚不能把榜单更新日或本轮访问日当作首次发布日期。 [1](https://www.vals.ai/benchmarks/cyber)
+- 发布日期：已核对正式页的更新日期；尚不能把榜单更新日或访问日当作首次发布日期。 [1](https://www.vals.ai/benchmarks/cyber)
 - 论文/报告：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
-- 官方代码：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
-- 数据入口：已检查正式方法页及其外链；本轮未定位经维护方确认的任务数据仓库/HF卡，不将结果表或上游数据充作完整题库。 [1](https://www.vals.ai/benchmarks/cyber)
+- 官方代码：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
+- 数据入口：已检查正式方法页及其外链；未定位经维护方确认的任务数据仓库/HF卡，不将结果表或上游数据充作完整题库。 [1](https://www.vals.ai/benchmarks/cyber)
 - 报告标题：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 发起与维护
@@ -41,8 +41,8 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 
 **仍待核实**（不推断为未公开）：
 
-- 合作方：本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://www.vals.ai/benchmarks/cyber)
-- 核心作者：正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://www.vals.ai/benchmarks/cyber)
+- 合作方：正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://www.vals.ai/benchmarks/cyber)
+- 核心作者：正式方法页可确认发布维护机构，但未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://www.vals.ai/benchmarks/cyber)
 - 资助方：已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 设计目标
@@ -63,7 +63,7 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 
 **仍待核实**（不推断为未公开）：
 
-- 出题与审核人员：正式方法页可确认发布维护机构，但本轮未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://www.vals.ai/benchmarks/cyber)
+- 出题与审核人员：正式方法页可确认发布维护机构，但未找到足以确认作者姓名/出题者资格的署名或方法细目。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 数据形式
 
@@ -93,11 +93,11 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 
 **仍待核实**（不推断为未公开）：
 
-- 评分/运行脚本：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
+- 评分/运行脚本：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST [1](https://www.vals.ai/benchmarks/cyber)
+- **核验日期**：2026-11-07 [1](https://www.vals.ai/benchmarks/cyber)
 
 - **现行版本与采用证据**：version：v1.1；heat_confidence：B；evidence_2026_h2：url：https://www.vals.ai/benchmarks/cyber；date：2026-11-05；note：Vals当前48模型榜；热度主要来自单一评测机构，不能称行业广泛采纳。 [1](https://www.vals.ai/benchmarks/cyber)
 
@@ -111,7 +111,7 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [1](https://www.vals.ai/benchmarks/cyber)
+- **快照采集日**：2026-11-07 [1](https://www.vals.ai/benchmarks/cyber)
 
 - **官方榜/正式委托榜**：https://www.vals.ai/benchmarks/cyber [1](https://www.vals.ai/benchmarks/cyber)
 
@@ -129,41 +129,41 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 | 10 | DeepSeek V4.1 Flash | 73.69 | Overall Accuracy (%)；2026-11-05；[1](https://www.vals.ai/benchmarks/cyber) |
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官方页面结果；采集日期不等于榜单更新时间。 [1](https://www.vals.ai/benchmarks/cyber)
 
 **仍待核实**（不推断为未公开）：
 
-- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://www.vals.ai/benchmarks/cyber)
+- 独立第三方入口：未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 联系方式
 
-- **官方社交**：https://x.com/ValsAI [1](https://www.vals.ai/benchmarks/cyber) 注：官网页脚公开链接；本轮不读取或操作X账户。
+- **官方社交**：https://x.com/ValsAI [1](https://www.vals.ai/benchmarks/cyber) 注：官网页脚公开链接；不读取或操作X账户。
 
 **仍待核实**（不推断为未公开）：
 
-- 公开联系邮箱：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://www.vals.ai/benchmarks/cyber)
-- 公开问题追踪：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
-- 隐私政策：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://www.vals.ai/benchmarks/cyber)
+- 公开联系邮箱：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://www.vals.ai/benchmarks/cyber)
+- 公开问题追踪：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://www.vals.ai/benchmarks/cyber)
+- 隐私政策：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 原始文件
 
 - **其他正式文档**：type：v1.1官方方法与结果；url：https://www.vals.ai/benchmarks/cyber；type：上游ARVO镜像项目，非本基准实现；url：https://github.com/n132/ARVO-Meta [1](https://www.vals.ai/benchmarks/cyber)
 
-- **Drive中的论文副本**：待核实 [1](https://www.vals.ai/benchmarks/cyber)
+- **中的论文副本**：待核实 [1](https://www.vals.ai/benchmarks/cyber)
 
 **仍待核实**（不推断为未公开）：
 
 - 原始PDF：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
 - SHA-256：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
 - PDF字节数：已重读正式方法页及其外链；未定位可交叉确认的独立arXiv条目/PDF，故不填写论文版本、PDF校验或大小。网页研究报告与独立PDF区别记录；不将未定位解释为官方未公开。 [1](https://www.vals.ai/benchmarks/cyber)
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [1](https://www.vals.ai/benchmarks/cyber)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber)
+- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

@@ -1,6 +1,6 @@
 # BioMysteryBench
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。官方存在性已核验；字段级研究快照；note: trending: A
+> Benchmark Constitution · 深度复核：2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
 
 BioMysteryBench把真实组学文件交给可编程智能体，检验其能否恢复物种、组织来源或实验操作等有独立真值的信息，而不强迫采用某条指定分析路线。它的关键区分是“可验证答案”与“人类从零可解”并非一回事：最终99题中76题至少被一位专家解出，23题未被最多五位专家解出。后者不能直接称为科学未解难题；Vals独立评测与Anthropic原版实验也不是同一条计分轨道。
 
@@ -26,7 +26,7 @@ BioMysteryBench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 论文版本
 
@@ -34,7 +34,7 @@ BioMysteryBench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 发布日期
 
@@ -74,7 +74,7 @@ Vals方法页称任务材料CC BY 4.0，另有禁止模型训练限制；底层�
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 官方代码
 
@@ -82,7 +82,7 @@ Vals方法页称任务材料CC BY 4.0，另有禁止模型训练限制；底层�
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 数据入口
 
@@ -90,7 +90,7 @@ Vals方法页称任务材料CC BY 4.0，另有禁止模型训练限制；底层�
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 官方主页
 
@@ -104,7 +104,7 @@ https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-Bio
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 发起与维护
 
@@ -120,7 +120,7 @@ Anthropic
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 作者
 
@@ -140,7 +140,7 @@ Anthropic原始基准；Vals AI维护独立评测榜
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 设计目标
 
@@ -188,7 +188,7 @@ Anthropic原始基准；Vals AI维护独立评测榜
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 数据形式
 
@@ -196,10 +196,10 @@ Anthropic原始基准；Vals AI维护独立评测榜
 
 ```json
 {
-  "final_questions": 99,
-  "human_solvable": 76,
-  "human_difficult": 23,
-  "excluded_broken_questions": 4,
+  "final_questions": 99
+  "human_solvable": 76
+  "human_difficult": 23
+  "excluded_broken_questions": 4
   "warning": "99为剔除4题后的最终集合；不是从99中再扣4。Vals评测分母与原版一致性待核实。"
 }
 ```
@@ -216,8 +216,8 @@ Anthropic原始基准；Vals AI维护独立评测榜
 
 ```json
 [
-  "文本",
-  "测序及组学数据文件",
+  "文本"
+  "测序及组学数据文件"
   "代码与数据库输出"
 ]
 ```
@@ -230,7 +230,7 @@ Anthropic原始基准；Vals AI维护独立评测榜
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 难度
 
@@ -244,7 +244,7 @@ human-difficult是最多5名领域专家未解，不等同已证明人类不可�
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 评测方法
 
@@ -272,7 +272,7 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 可比性边界
 
@@ -284,7 +284,7 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
 
@@ -292,13 +292,13 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 ```json
 {
-  "version": "待核实",
-  "heat_confidence": "A",
+  "version": "待核实"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://www.vals.ai/benchmarks/biomysterybench",
-      "date": "2026-11-05",
-      "date_type": "source_calendar_date",
+      "url": "https://www.vals.ai/benchmarks/biomysterybench"
+      "date": "2026-11-05"
+      "date_type": "source_calendar_date"
       "note": "Vals当前独立重新评测，覆盖30模型；不是仅转述Anthropic自报。"
     }
   ]
@@ -315,7 +315,7 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 饱和情况
 
@@ -323,7 +323,7 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 风险与冲突
 
@@ -337,13 +337,13 @@ Vals：Terminus 2生物信息sandbox，200轮/4小时限制；仅允许必需科
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 榜单快照
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
 
@@ -364,58 +364,58 @@ https://www.vals.ai/benchmarks/biomysterybench
 ```json
 [
   {
-    "rank": 1,
-    "model": "Claude Sonnet 5.5",
-    "score": 81.11,
-    "metric": "Vals Accuracy %; 3 runs",
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
-    "track": "Vals 独立复测／3 runs",
+    "rank": 1
+    "model": "Claude Sonnet 5.5"
+    "score": 81.11
+    "metric": "Vals Accuracy %; 3 runs"
+    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
+    "track": "Vals 独立复测／3 runs"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": 2,
-    "model": "GPT-6.1 Sol",
-    "score": 79.63,
-    "metric": "Vals Accuracy %; 3 runs",
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
-    "track": "Vals 独立复测／3 runs",
+    "rank": 2
+    "model": "GPT-6.1 Sol"
+    "score": 79.63
+    "metric": "Vals Accuracy %; 3 runs"
+    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
+    "track": "Vals 独立复测／3 runs"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": 3,
-    "model": "GPT-6 Astra",
-    "score": 79.26,
-    "metric": "Vals Accuracy %; 3 runs",
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
-    "track": "Vals 独立复测／3 runs",
+    "rank": 3
+    "model": "GPT-6 Astra"
+    "score": 79.26
+    "metric": "Vals Accuracy %; 3 runs"
+    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
+    "track": "Vals 独立复测／3 runs"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": null,
-    "model": "Claude Opus 4.6",
-    "score": 77.4,
-    "metric": "accuracy (%)",
-    "track": "Anthropic 原始报告／human-solvable／5 episodes",
-    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-    "accessed": "2026-11-08",
-    "unit": "%",
+    "rank": null
+    "model": "Claude Opus 4.6"
+    "score": 77.4
+    "metric": "accuracy (%)"
+    "track": "Anthropic 原始报告／human-solvable／5 episodes"
+    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+    "accessed": "2026-11-08"
+    "unit": "%"
     "source_context": "官方文章中附带并认可的可靠性分析段落"
-  },
+  }
   {
-    "rank": null,
-    "model": "Claude Opus 4.6",
-    "score": 23.5,
-    "metric": "accuracy (%)",
-    "track": "Anthropic 原始报告／human-difficult／5 episodes",
-    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-    "accessed": "2026-11-08",
-    "unit": "%",
+    "rank": null
+    "model": "Claude Opus 4.6"
+    "score": 23.5
+    "metric": "accuracy (%)"
+    "track": "Anthropic 原始报告／human-difficult／5 episodes"
+    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+    "accessed": "2026-11-08"
+    "unit": "%"
     "source_context": "同一模型的另一子集，不能与Vals百分比直接混排"
   }
 ]
@@ -449,7 +449,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 官方社交入口
 
@@ -457,7 +457,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 联系信息边界
 
@@ -465,7 +465,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ## 原始文件
 
@@ -475,7 +475,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### PDF SHA-256
 
@@ -483,7 +483,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### PDF字节数
 
@@ -491,22 +491,22 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-### Drive目录
+### 目录
 
 待核实
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "type": "官方方法/介绍网页（不是论文PDF）",
+    "type": "官方方法/介绍网页（不是论文PDF）"
     "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
   }
 ]
@@ -514,7 +514,7 @@ https://www.vals.ai/benchmarks/biomysterybench
 
 [来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-07）
 
-### Drive论文归档
+### 论文归档
 
 待核实
 
@@ -525,14 +525,14 @@ https://www.vals.ai/benchmarks/biomysterybench
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

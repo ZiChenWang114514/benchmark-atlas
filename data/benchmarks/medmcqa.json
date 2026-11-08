@@ -1,7 +1,7 @@
 {
   "id": "medmcqa",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MedMCQA",
@@ -30,10 +30,10 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
-      "value": "arXiv v1（2022-03-28 03:59:16 KST）；CHIL 2022 / PMLR174, pp248–260为正式发表书目信息。",
+      "value": "arXiv v1（2022-03-28 03:59:16 ）；CHIL 2022 / PMLR174, pp248–260为正式发表书目信息。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2203.14371",
@@ -46,7 +46,7 @@
       ]
     },
     "release_date": {
-      "value": "2022-03-28 03:59:16 KST（arXiv v1；arXiv UTC日历日期2022-03-27，不当成数据上传日）",
+      "value": "2022-03-28 03:59:16 （arXiv v1；arXiv UTC日历日期2022-03-27，不当成数据上传日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2203.14371",
@@ -91,7 +91,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮已通过官方目录查到LICENSE.md；最初请求无扩展名LICENSE的404不代表缺许可证。"
+      "note": "已通过官方目录查到LICENSE.md；最初请求无扩展名LICENSE的404不代表缺许可证。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2203.14371",
@@ -158,7 +158,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
       "value": [
@@ -191,7 +191,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "design_goals": {
@@ -375,7 +375,7 @@
       ]
     },
     "comparability_warning": {
-      "value": "官方网页栏标Acc(%)却以0.xx显示，本轮保留fraction原值；test/dev、with/without context及HF/原GitHub split分开。原始提交索引1–4与HF0–3不可直接混用；AMR的独立子集90.0%不替代官方test结果。",
+      "value": "官方网页栏标Acc(%)却以0.xx显示，保留fraction原值；test/dev、with/without context及HF/原GitHub split分开。原始提交索引1–4与HF0–3不可直接混用；AMR的独立子集90.0%不替代官方test结果。",
       "sources": [
         {
           "url": "https://medmcqa.github.io/",
@@ -398,7 +398,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://medmcqa.github.io/",
@@ -492,12 +492,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）",
+      "value": "2026-11-08 （访问；各来源运行/提交日期另列）",
       "sources": [
         {
           "url": "https://medmcqa.github.io/",
@@ -523,7 +523,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -863,7 +863,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -874,7 +874,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -899,7 +899,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载的arXiv原始字节；不表示已替换Drive中的旧文件。"
+      "note": "下载的arXiv原始字节；不表示已替换中的旧文件。"
     },
     "pdf_bytes": {
       "value": 3140147,
@@ -911,10 +911,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1TZvRNjX4BKhgQMDVTkCT3_-h4gSJi7Bi",
-        "webViewLink": "https://drive.google.com/drive/folders/1TZvRNjX4BKhgQMDVTkCT3_-h4gSJi7Bi"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2203.14371",
@@ -939,10 +936,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1mfILYNh2uZGTOTqvrkA78sBFgF2-XQ1_",
-      "webViewLink": "https://drive.google.com/file/d/1mfILYNh2uZGTOTqvrkA78sBFgF2-XQ1_/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2203.14371",
@@ -954,18 +948,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "核实193155精确题量；披露论文/README/HF的dev-test反置、1–4/0–3索引及MIT/Apache2.0许可冲突；榜单23行结构化。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "paperbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "PaperBench",
@@ -42,14 +42,14 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2025-04-03 00:55:24 KST",
+      "value": "2025-04-03 00:55:24",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2504.01848",
           "accessed": "2026-11-08"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "Agent",
@@ -376,7 +376,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST（Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2504.01848",
@@ -408,7 +408,7 @@
       "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
     },
     "paper_revision_history": {
-      "value": "Submission history From: James Aung [ view email ] [v1] 2025-04-03 00:55:24 KST (4,982 KB) [v2] 2025-04-04 21:44:57 KST (4,982 KB) [v3] 2025-04-07 21:15:49 KST (4,982 KB)",
+      "value": "Submission history From: James Aung [ view email ] [v1] 2025-04-03 00:55:24 (4,982 KB) [v2] 2025-04-04 21:44:57 (4,982 KB) [v3] 2025-04-07 21:15:49 (4,982 KB)",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2504.01848",
@@ -454,7 +454,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST（网页访问日期；历史结果日期分别保留）",
+      "value": "2026-11-08 （网页访问日期；历史结果日期分别保留）",
       "sources": [
         {
           "url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
@@ -490,7 +490,7 @@
           "track": "官方README/完整PaperBench/36h",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.3,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -503,7 +503,7 @@
           "track": "官方README/完整PaperBench/24h",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.7,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -516,7 +516,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.8,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -529,7 +529,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.1,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -542,7 +542,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.3,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -555,7 +555,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.8,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -568,7 +568,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.3,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -581,7 +581,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.1,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -594,7 +594,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.2,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -607,7 +607,7 @@
           "track": "官方README/完整PaperBench/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.2,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -620,7 +620,7 @@
           "track": "官方README/Code-Dev/论文默认预算",
           "metric": "Replication score (%)",
           "source_url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "reported_uncertainty": 0.8,
           "runs": 3,
           "source_date": "2025-04-02",
@@ -706,7 +706,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载字节的校验；没有覆盖或上传Drive，不能据此认定既存Drive原件同版本。"
+      "note": "2026-11-08 下载字节的校验；没有覆盖或上传，不能据此认定既存原件同版本。"
     },
     "pdf_bytes": {
       "value": 1703363,
@@ -718,13 +718,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c",
-        "webViewLink": "https://drive.google.com/drive/folders/1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1ugn5Ag6iAx7DM3rz_I3B-g5wtpW_px2c",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -732,18 +729,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE",
-          "webViewLink": "https://docs.google.com/document/d/1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://openai.com/index/paperbench/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1ime8OV20vnxVACWfQdB0nSVryUAmmb13tYiSkhmq4vE/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -751,13 +742,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk",
-      "webViewLink": "https://drive.google.com/file/d/1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1q29o7CEuVufMTKP1jYkNvVCdw6BPOrCk/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -766,18 +754,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,8 +1,8 @@
 # ARC-Challenge
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -32,7 +32,7 @@ arXiv v1
 
 ### 发布日期
 
-2018-03-15 02:04:21（Asia/Shanghai，UTC+8；arXiv v1提交时刻；不是数据单独上线时刻）
+2018-03-15 02:04:21（，UTC+8；arXiv v1提交时刻；不是数据单独上线时刻）
 
 来源：[1]
 
@@ -243,7 +243,7 @@ ARC-Challenge不是ARC-Easy、更不是视觉抽象推理ARC-AGI；1172题和合
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -255,7 +255,7 @@ ARC-Challenge（2018）；不包含ARC-Easy
 
 ### 版本脉络
 
-paper：v1；submitted_at：2018-03-15T02:04:21+08:00；later_use：report：https://arxiv.org/html/2610.11978v1；scope：ARC-Challenge；区别于ARC-Easy+Challenge合并3548题
+paper：v1；submitted_at：2018-03-15；later_use：report：https://arxiv.org/html/2610.11978v1；scope：ARC-Challenge；区别于ARC-Easy+Challenge合并3548题
 
 来源：[1][8]
 
@@ -281,7 +281,7 @@ Jev报告表2在ARC-Challenge上列Jev 97.6%、Gemini 3.8 Flash 97.5%；所列�
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -337,7 +337,7 @@ https://arxiv.org/html/2610.11978v1
 
 ### 覆盖边界
 
-分轨展示：Jev报告中的Jev+六前沿模型，与2018原始基线分开。官方旧站本轮未取得可读榜；不冒称2026 AllenAI官方前列。Jev表2另列代表模型，其中部分成绩为外部来源转引，未与本轮实测模型合并排序。
+分轨展示：Jev报告中的Jev+六前沿模型，与2018原始基线分开。官方旧站未取得可读榜；不冒称2026 AllenAI官方前列。Jev表2另列代表模型，其中部分成绩为外部来源转引，未与实测模型合并排序。
 
 来源：[8][1]
 
@@ -349,7 +349,7 @@ peterc@allenai.org；isaacc@allenai.org；orene@allenai.org；tushark@allenai.or
 
 来源：[5]
 
-说明：原论文首页公开作者工作邮箱；属于2018历史联系方式，本轮不发信验证有效性。
+说明：原论文首页公开作者工作邮箱；属于2018历史联系方式，不发信验证有效性。
 
 ### 公开反馈
 
@@ -391,7 +391,7 @@ b24b722c93f304df6c3b4a48ebbe429e836f3b3e80837bb613112398e59bde43
 
 来源：[5]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -399,31 +399,31 @@ b24b722c93f304df6c3b4a48ebbe429e836f3b3e80837bb613112398e59bde43
 
 来源：[5]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1hOZWrRuLGFb18AWzwJHfyFuJuPV_yLnk；webViewLink：https://drive.google.com/drive/folders/1hOZWrRuLGFb18AWzwJHfyFuJuPV_yLnk
+id：1hOZWrRuLGFb18AWzwJHfyFuJuPV_yLnk；webViewLink：
 
 来源：[10]
 
 ### 其他材料
 
-chinese_intro_doc：id：1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24；webViewLink：https://docs.google.com/document/d/1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/arc-challenge.md
+chinese_intro_doc：id：1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24；webViewLink：
 
 来源：[10]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q；webViewLink：https://drive.google.com/file/d/1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q/view?usp=drivesdk
+id：1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q；webViewLink：
 
 来源：[11]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07（Asia/Seoul）：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 2026-11-07：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[2]
 
@@ -438,5 +438,5 @@ id：1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q；webViewLink：https://drive.google.com/
 [7]: https://huggingface.co/datasets/allenai/ai2_arc/raw/main/README.md "访问 2026-11-07"
 [8]: https://arxiv.org/html/2610.11978v1 "访问 2026-11-07"
 [9]: https://github.com/allenai/arc-solvers "访问 2026-11-07"
-[10]: https://drive.google.com/drive/folders/1hOZWrRuLGFb18AWzwJHfyFuJuPV_yLnk "访问 2026-11-07"
-[11]: https://drive.google.com/file/d/1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q/view?usp=drivesdk "访问 2026-11-07"
+[10]: "访问 2026-11-07"
+[11]: "访问 2026-11-07"

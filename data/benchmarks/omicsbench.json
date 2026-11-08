@@ -1,7 +1,7 @@
 {
   "id": "omicsbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照；缺失字段显式待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "OmicsBench",
@@ -30,7 +30,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
       "value": "v1；最近论文日期 2026-10-15",
@@ -182,7 +182,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "design_goals": {
@@ -361,7 +361,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST（Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.21074",
@@ -378,7 +378,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_revision_history": {
       "value": {
@@ -439,12 +439,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST（网页访问日期；历史结果日期分别保留）",
+      "value": "2026-11-08 （网页访问日期；历史结果日期分别保留）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/gideonshaked/OmicsBench",
@@ -470,7 +470,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -480,7 +480,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -492,7 +492,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -504,7 +504,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -516,7 +516,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -528,7 +528,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -540,7 +540,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -552,7 +552,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -564,7 +564,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -576,7 +576,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -588,7 +588,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -600,7 +600,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -612,7 +612,7 @@
           "track": "原论文v1/OpenCode/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -624,7 +624,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -636,7 +636,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -648,7 +648,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -660,7 +660,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -672,7 +672,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -684,7 +684,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -696,7 +696,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -708,7 +708,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -720,7 +720,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -732,7 +732,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -744,7 +744,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -756,7 +756,7 @@
           "track": "原论文v1/OpenCode/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "OpenCode",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -768,7 +768,7 @@
           "track": "原论文v1/Claude Code/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "Claude Code",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -780,7 +780,7 @@
           "track": "原论文v1/Claude Code/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "Claude Code",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -792,7 +792,7 @@
           "track": "原论文v1/Codex/single-pass",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "Codex",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -804,7 +804,7 @@
           "track": "原论文v1/Codex/gated",
           "metric": "Mean task score (0–1)",
           "source_url": "https://arxiv.org/pdf/2610.21074",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "harness": "Codex",
           "runs_per_task": 3,
           "result_type": "论文Figure4A标出的精确两位小数；已逐数视觉核对，未从柱高估值",
@@ -849,7 +849,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "official_social": {
       "value": "待核实",
@@ -860,7 +860,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。",
@@ -890,7 +890,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载字节的校验；没有覆盖或上传Drive，不能据此认定既存Drive原件同版本。"
+      "note": "2026-11-08 下载字节的校验；没有覆盖或上传，不能据此认定既存原件同版本。"
     },
     "pdf_bytes": {
       "value": 1891438,
@@ -902,10 +902,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1xJuAwVBG1yPF04Nbzc7zU3ba0C80UKaf",
-        "webViewLink": "https://drive.google.com/drive/folders/1xJuAwVBG1yPF04Nbzc7zU3ba0C80UKaf"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2610.21074",
@@ -930,10 +927,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1MBjoelJtmqKWsHEhAC4vwW6VbwC4iX6G",
-      "webViewLink": "https://drive.google.com/file/d/1MBjoelJtmqKWsHEhAC4vwW6VbwC4iX6G/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2610.21074",
@@ -945,18 +939,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"
+        "change": "最近复核"
       }
     ],
     "sources": [

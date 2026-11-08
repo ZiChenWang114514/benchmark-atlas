@@ -1,6 +1,6 @@
 # MMLU-Pro
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v6
 
 ### 发布日期
 
-2024-06-04T02:53:00+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
+2024-06-04（；arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2406.01574)（访问 2026-11-08）
 
@@ -262,7 +262,7 @@ https://github.com/TIGER-AI-Lab/MMLU-Pro
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/TIGER-AI-Lab/MMLU-Pro/main/README.md)（访问 2026-11-08）
 
@@ -274,7 +274,7 @@ https://github.com/TIGER-AI-Lab/MMLU-Pro
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2024-06-04T02:53:00+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v2；- **submitted_at**：2024-06-04T19:36:49+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v3；- **submitted_at**：2024-06-05T13:03:36+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v4；- **submitted_at**：2024-06-24T00:57:16+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v5；- **submitted_at**：2024-10-08T02:46:08+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v6；- **submitted_at**：2024-11-06T11:54:00+09:00；- **timezone**：Asia/Seoul (KST)
+- **revisions**：- - **version**：v1；- **submitted_at**：2024-06-04；- **timezone**：；- - **version**：v2；- **submitted_at**：2024-06-04；- **timezone**：；- - **version**：v3；- **submitted_at**：2024-06-05；- **timezone**：；- - **version**：v4；- **submitted_at**：2024-06-24；- **timezone**：；- - **version**：v5；- **submitted_at**：2024-10-08；- **timezone**：；- - **version**：v6；- **submitted_at**：2024-11-06；- **timezone**：
 
 [来源](https://arxiv.org/abs/2406.01574)（访问 2026-11-08）
 
@@ -300,7 +300,7 @@ https://github.com/TIGER-AI-Lab/MMLU-Pro
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://huggingface.co/datasets/TIGER-Lab/mmlu_pro_leaderboard_submission/raw/main/results.csv)（访问 2026-11-08）
 
@@ -881,7 +881,7 @@ https://artificialanalysis.ai/evaluations/mmlu-pro
 
 ### 覆盖范围与时效
 
-通过公开Space app.py→utils.py确认底表为TIGER-Lab/mmlu_pro_leaderboard_submission/results.csv，已全量读取。TIGER-Lab实测与Self-Reported分轨，README mini榜不再冒充最新榜。AA页面本轮打开，但可读正文没有具体模型分数，不补造AA排名。
+通过公开Space app.py→utils.py确认底表为TIGER-Lab/mmlu_pro_leaderboard_submission/results.csv，已全量读取。TIGER-Lab实测与Self-Reported分轨，README mini榜不再冒充最新榜。AA页面打开，但可读正文没有具体模型分数，不补造AA排名。
 
 [来源](https://huggingface.co/datasets/TIGER-Lab/mmlu_pro_leaderboard_submission/raw/main/results.csv)（访问 2026-11-08）；[来源](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro/raw/main/utils.py)（访问 2026-11-08）；[来源](https://artificialanalysis.ai/evaluations/mmlu-pro)（访问 2026-11-08）
 
@@ -923,46 +923,46 @@ https://arxiv.org/pdf/2406.01574
 
 [来源](https://arxiv.org/pdf/2406.01574)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 e8f695db151fc8820f20c2864e6f6e27769fd94a307b7e60e211912cc9a3ef59
 
-> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
+> 下载PDF字节的SHA-256；不冒称已重新上传。
 
 [来源](https://arxiv.org/pdf/2406.01574)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 959520
 
-> 本轮直接下载的PDF文件字节数。
+> 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2406.01574)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 - **id**：1Po20Xg2cDMJSdwXW4FNQNzaDKXQL8Zyk
-- **webViewLink**：https://drive.google.com/drive/folders/1Po20Xg2cDMJSdwXW4FNQNzaDKXQL8Zyk
+- **webViewLink**：
 
-[来源](https://drive.google.com/drive/folders/1Po20Xg2cDMJSdwXW4FNQNzaDKXQL8Zyk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM；- **webViewLink**：https://docs.google.com/document/d/1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM/edit?usp=drivesdk
+- - **kind**：中文介绍 Google Doc；- **id**：1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM；- **webViewLink**：
 
-[来源](https://docs.google.com/document/d/1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM/edit?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：1Da_rxFnMCLvHV1ywvyHwmTfVzKATfUgQ
-- **webViewLink**：https://drive.google.com/file/d/1Da_rxFnMCLvHV1ywvyHwmTfVzKATfUgQ/view?usp=drivesdk
+- **webViewLink**：
 
-[来源](https://drive.google.com/file/d/1Da_rxFnMCLvHV1ywvyHwmTfVzKATfUgQ/view?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- - **date**：2026-11-07；- **timezone**：；- **change**：深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/TIGER-AI-Lab/MMLU-Pro/main/README.md)（访问 2026-11-08）

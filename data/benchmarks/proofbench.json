@@ -1,7 +1,7 @@
 {
   "id": "proofbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ProofBench",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "论文首发：2026-03-28 06:14:53 KST（源站2026-03-27 21:14:53 UTC）；不是当前v1.1榜单更新时间。",
+      "value": "论文首发：2026-03-28 06:14:53 （源站2026-03-27 21:14:53 UTC）；不是当前v1.1榜单更新时间。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2603.26996",
@@ -389,7 +389,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
@@ -432,8 +432,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-03-28T06:14:53+09:00",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2026-03-28"
         }
       ],
       "sources": [
@@ -457,7 +456,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模型在2道题中的单题分数。Aristotle可联网、使用Lean 4.28及整文件辅助引理；语言模型无网络、Lean 4.25.2、仅提交证明体。AlephProver可辅助引理、禁网络，用4.25.2；第二轮预算$500/24h获得100，首轮$75/90min为99。这些系统和预算不能当作同一受控配置。",
+      "value": "v1.1与旧版不可直接比较。native_decide先拒后接受，影响7个模型在2道题中的单题分数。Aristotle可联网、使用Lean 4.28及整文件辅助引理；语言模型无网络、Lean 4.25.2、仅提交证明体。AlephProver可辅助引理、禁网络，用4.25.2；预算$500/24h获得100，首轮$75/90min为99。这些系统和预算不能当作同一受控配置。",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
@@ -478,7 +477,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
+      "value": "2026-11-08 （采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://www.vals.ai/benchmarks/proof_bench",
@@ -514,7 +513,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.52",
           "reported_tokens_per_task": "420.28k",
           "reported_duration_per_task": "5m48s",
@@ -528,7 +527,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.92",
           "reported_tokens_per_task": "261.87k",
           "reported_duration_per_task": "5m51s",
@@ -542,7 +541,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.70",
           "reported_tokens_per_task": "297.51k",
           "reported_duration_per_task": "7m58s",
@@ -556,7 +555,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$9.35",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "18m28s",
@@ -570,7 +569,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.23",
           "reported_tokens_per_task": "338.81k",
           "reported_duration_per_task": "4m45s",
@@ -584,7 +583,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.71",
           "reported_tokens_per_task": "366.39k",
           "reported_duration_per_task": "5m08s",
@@ -598,7 +597,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.78",
           "reported_tokens_per_task": "389.33k",
           "reported_duration_per_task": "6m20s",
@@ -612,7 +611,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.79",
           "reported_tokens_per_task": "557.88k",
           "reported_duration_per_task": "9m51s",
@@ -626,7 +625,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$5.23",
           "reported_tokens_per_task": "434.89k",
           "reported_duration_per_task": "13m43s",
@@ -640,7 +639,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.86",
           "reported_tokens_per_task": "654.27k",
           "reported_duration_per_task": "11m36s",
@@ -654,7 +653,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.47",
           "reported_tokens_per_task": "757.55k",
           "reported_duration_per_task": "8m16s",
@@ -668,7 +667,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.17",
           "reported_tokens_per_task": "519.74k",
           "reported_duration_per_task": "6m58s",
@@ -682,7 +681,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.65",
           "reported_tokens_per_task": "1.12m",
           "reported_duration_per_task": "34m31s",
@@ -696,7 +695,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "-",
@@ -710,7 +709,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.31",
           "reported_tokens_per_task": "871.96k",
           "reported_duration_per_task": "15m29s",
@@ -724,7 +723,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.48",
           "reported_tokens_per_task": "1.00m",
           "reported_duration_per_task": "5m05s",
@@ -738,7 +737,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.44",
           "reported_tokens_per_task": "1.26m",
           "reported_duration_per_task": "8m40s",
@@ -752,7 +751,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.37",
           "reported_tokens_per_task": "1.69m",
           "reported_duration_per_task": "14m58s",
@@ -766,7 +765,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.34",
           "reported_tokens_per_task": "1.42m",
           "reported_duration_per_task": "22m54s",
@@ -780,7 +779,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.27",
           "reported_tokens_per_task": "2.45m",
           "reported_duration_per_task": "12m57s",
@@ -794,7 +793,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.25",
           "reported_tokens_per_task": "2.30m",
           "reported_duration_per_task": "1h02m",
@@ -808,7 +807,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.04",
           "reported_tokens_per_task": "1.29m",
           "reported_duration_per_task": "7m31s",
@@ -822,7 +821,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.12",
           "reported_tokens_per_task": "4.22m",
           "reported_duration_per_task": "1h03m",
@@ -836,7 +835,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.74",
           "reported_tokens_per_task": "1.19m",
           "reported_duration_per_task": "21m09s",
@@ -850,7 +849,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.12",
           "reported_tokens_per_task": "2.11m",
           "reported_duration_per_task": "8m34s",
@@ -864,7 +863,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.56",
           "reported_tokens_per_task": "598.08k",
           "reported_duration_per_task": "7m04s",
@@ -878,7 +877,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.48",
           "reported_tokens_per_task": "1.15m",
           "reported_duration_per_task": "9m29s",
@@ -892,7 +891,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.50",
           "reported_tokens_per_task": "2.27m",
           "reported_duration_per_task": "31m08s",
@@ -906,7 +905,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.16",
           "reported_tokens_per_task": "1.76m",
           "reported_duration_per_task": "15m34s",
@@ -920,7 +919,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.43",
           "reported_tokens_per_task": "1.11m",
           "reported_duration_per_task": "8m54s",
@@ -934,7 +933,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.13",
           "reported_tokens_per_task": "1.91m",
           "reported_duration_per_task": "9m07s",
@@ -948,7 +947,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.82",
           "reported_tokens_per_task": "899.07k",
           "reported_duration_per_task": "14m22s",
@@ -962,7 +961,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.26",
           "reported_tokens_per_task": "1.36m",
           "reported_duration_per_task": "12m12s",
@@ -976,7 +975,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.08",
           "reported_tokens_per_task": "2.98m",
           "reported_duration_per_task": "42m23s",
@@ -990,7 +989,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.60",
           "reported_tokens_per_task": "722.62k",
           "reported_duration_per_task": "6m09s",
@@ -1004,7 +1003,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.44",
           "reported_tokens_per_task": "1.13m",
           "reported_duration_per_task": "7m49s",
@@ -1018,7 +1017,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.71",
           "reported_tokens_per_task": "2.72m",
           "reported_duration_per_task": "38m34s",
@@ -1032,7 +1031,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.57",
           "reported_tokens_per_task": "715.95k",
           "reported_duration_per_task": "6m34s",
@@ -1046,7 +1045,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.57",
           "reported_tokens_per_task": "766.46k",
           "reported_duration_per_task": "11m09s",
@@ -1060,7 +1059,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.79",
           "reported_tokens_per_task": "722.19k",
           "reported_duration_per_task": "12m47s",
@@ -1074,7 +1073,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.78",
           "reported_tokens_per_task": "703.60k",
           "reported_duration_per_task": "14m49s",
@@ -1088,7 +1087,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.09",
           "reported_tokens_per_task": "1.15m",
           "reported_duration_per_task": "19m37s",
@@ -1102,7 +1101,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.45",
           "reported_tokens_per_task": "7.36m",
           "reported_duration_per_task": "1h11m",
@@ -1116,7 +1115,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "659.65k",
           "reported_duration_per_task": "4m27s",
@@ -1130,7 +1129,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.42",
           "reported_tokens_per_task": "1.68m",
           "reported_duration_per_task": "11m59s",
@@ -1144,7 +1143,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.14",
           "reported_tokens_per_task": "627.03k",
           "reported_duration_per_task": "7m03s",
@@ -1158,7 +1157,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.06",
           "reported_tokens_per_task": "1.54m",
           "reported_duration_per_task": "20m56s",
@@ -1172,7 +1171,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.30",
           "reported_tokens_per_task": "3.75m",
           "reported_duration_per_task": "24m14s",
@@ -1186,7 +1185,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.33",
           "reported_tokens_per_task": "613.67k",
           "reported_duration_per_task": "20m59s",
@@ -1200,7 +1199,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.30",
           "reported_tokens_per_task": "783.49k",
           "reported_duration_per_task": "7m59s",
@@ -1214,7 +1213,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.08",
           "reported_tokens_per_task": "654.29k",
           "reported_duration_per_task": "8m27s",
@@ -1228,7 +1227,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.04",
           "reported_tokens_per_task": "558.30k",
           "reported_duration_per_task": "3m22s",
@@ -1242,7 +1241,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.20",
           "reported_tokens_per_task": "582.42k",
           "reported_duration_per_task": "7m16s",
@@ -1256,7 +1255,7 @@
           "track": "官方当前v1.1 / private 100",
           "source_url": "https://www.vals.ai/benchmarks/proof_bench",
           "source_date": "2026-10-29",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.02",
           "reported_tokens_per_task": "490.76k",
           "reported_duration_per_task": "15m19s",
@@ -1270,8 +1269,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 2,
@@ -1281,8 +1280,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 3,
@@ -1292,8 +1291,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 4,
@@ -1303,8 +1302,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 5,
@@ -1314,8 +1313,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 6,
@@ -1325,8 +1324,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 7,
@@ -1336,8 +1335,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 8,
@@ -1347,8 +1346,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 9,
@@ -1358,8 +1357,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 10,
@@ -1369,8 +1368,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 11,
@@ -1380,8 +1379,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 12,
@@ -1391,8 +1390,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         },
         {
           "rank": 13,
@@ -1402,8 +1401,8 @@
           "track": "论文v1 Table 2 / 历史200题",
           "source_url": "https://arxiv.org/pdf/2603.26996",
           "source_date": "2026-03-28",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
-          "date_note": "论文提交时间换算KST，不是运行日期。"
+          "collected_at": "2026-11-08",
+          "date_note": "论文提交时间换算，不是运行日期。"
         }
       ],
       "sources": [
@@ -1482,7 +1481,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。"
+      "note": "原始论文PDF入口；未下载或上传，哈希与字节数待核实。"
     },
     "sha256": {
       "value": "e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac",
@@ -1529,15 +1528,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1kJhWZwQxmvKUcunERCfoKLRBm-0FeGeE",
-      "webViewLink": "https://drive.google.com/file/d/1kJhWZwQxmvKUcunERCfoKLRBm-0FeGeE/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1kJhWZwQxmvKUcunERCfoKLRBm-0FeGeE/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2603.26996",
         "accessed": "2026-11-08"
@@ -1548,13 +1540,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+        "change": "最近复核"
       }
     ],
     "sources": [

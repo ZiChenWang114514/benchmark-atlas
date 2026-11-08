@@ -1,10 +1,10 @@
 # Fortress
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 FORTRESS衡量国家安全与公共安全双用途场景中的防护稳健性，同时用主题相近的良性请求量化过度拒绝。它不是直接测“危险知识掌握率”；当前ARS榜与论文公开集成绩不同，低风险分还需结合ORS解读。
 
-编辑状态：研究快照；trending: B；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -42,7 +42,7 @@ arXiv v2（论文修订，不等于数据集版本）
 
 ### 发布日期
 
-2025-06-18T04:08:02+09:00（KST；arXiv初稿时间，不冒充数据集独立发布日期）
+2025-06-18（；arXiv初稿时间，不冒充数据集独立发布日期）
 
 [一手资料1](https://arxiv.org/abs/2506.14922)（访问 2026-11-07）
 
@@ -95,7 +95,7 @@ https://arxiv.org/abs/2506.14922
 
 https://huggingface.co/datasets/ScaleAI/fortress_public
 
-说明：本轮已读取的公开HF卡revision: 0c096becbc75bb12065c8059a53960c7f0d4d35c；只固定公开卡/仓库状态，不外推为私有测试版本。
+说明：已读取的公开HF卡revision: 0c096becbc75bb12065c8059a53960c7f0d4d35c；只固定公开卡/仓库状态，不外推为私有测试版本。
 
 [一手资料1](https://labs.scale.com/leaderboard/fortress)（访问 2026-11-07）；[一手资料2](https://huggingface.co/datasets/ScaleAI/fortress_public)（访问 2026-11-07）
 
@@ -298,7 +298,7 @@ ARS：每条rubric由o3、Claude 3.7 Sonnet、Gemini 2.5 Pro多数表决；ORS�
 
 ### 可比性警示
 
-当前Performance Comparison的ARS与正文Rankings历史表、原论文500公开集不同；本轮只录当前榜ARS，不把老表ORS贴给新模型，也不把±数值未经定义当标准误。
+当前Performance Comparison的ARS与正文Rankings历史表、原论文500公开集不同；只录当前榜ARS，不把老表ORS贴给新模型，也不把±数值未经定义当标准误。
 
 [一手资料1](https://labs.scale.com/leaderboard/fortress)（访问 2026-11-07）；[一手资料2](https://arxiv.org/abs/2506.14922)（访问 2026-11-07）
 
@@ -307,7 +307,7 @@ ARS：每条rubric由o3、Claude 3.7 Sonnet、Gemini 2.5 Pro多数表决；ORS�
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://labs.scale.com/leaderboard/fortress)（访问 2026-11-07）
 
@@ -329,11 +329,11 @@ ARS：每条rubric由o3、Claude 3.7 Sonnet、Gemini 2.5 Pro多数表决；ORS�
 ### 材料沿革
 
 - - **version**：v1
-  - **submitted_at_kst**：2025-06-18T04:08:02+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2025-06-18
+  - **timezone**：
 - - **version**：v2
-  - **submitted_at_kst**：2025-06-25T04:55:23+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2025-06-25
+  - **timezone**：
 
 [一手资料1](https://arxiv.org/abs/2506.14922)（访问 2026-11-07）
 
@@ -363,7 +363,7 @@ ARS：每条rubric由o3、Claude 3.7 Sonnet、Gemini 2.5 Pro多数表决；ORS�
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://labs.scale.com/leaderboard/fortress)（访问 2026-11-07）
 
@@ -391,68 +391,68 @@ https://labs.scale.com/leaderboard/fortress
 ```json
 [
   {
-    "rank": 1,
-    "model": "claude-opus-5-5-max",
-    "score": 5.78,
-    "metric": "Average Risk Score (ARS), 越低越好",
-    "displayed_uncertainty": 1.26,
-    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI",
-    "scope": "当前Performance Comparison，非正文历史Rankings表",
-    "source_url": "https://labs.scale.com/leaderboard/fortress",
-    "accessed": "2026-11-07",
-    "ORS": "待核实：当前这些行未给配对ORS",
+    "rank": 1
+    "model": "claude-opus-5-5-max"
+    "score": 5.78
+    "metric": "Average Risk Score (ARS), 越低越好"
+    "displayed_uncertainty": 1.26
+    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI"
+    "scope": "当前Performance Comparison，非正文历史Rankings表"
+    "source_url": "https://labs.scale.com/leaderboard/fortress"
+    "accessed": "2026-11-07"
+    "ORS": "待核实：当前这些行未给配对ORS"
     "result_type": "官方当前页面快照"
-  },
+  }
   {
-    "rank": 2,
-    "model": "muse-spark-open",
-    "score": 7.64,
-    "metric": "Average Risk Score (ARS), 越低越好",
-    "displayed_uncertainty": 1.15,
-    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI",
-    "scope": "当前Performance Comparison，非正文历史Rankings表",
-    "source_url": "https://labs.scale.com/leaderboard/fortress",
-    "accessed": "2026-11-07",
-    "ORS": "待核实：当前这些行未给配对ORS",
+    "rank": 2
+    "model": "muse-spark-open"
+    "score": 7.64
+    "metric": "Average Risk Score (ARS), 越低越好"
+    "displayed_uncertainty": 1.15
+    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI"
+    "scope": "当前Performance Comparison，非正文历史Rankings表"
+    "source_url": "https://labs.scale.com/leaderboard/fortress"
+    "accessed": "2026-11-07"
+    "ORS": "待核实：当前这些行未给配对ORS"
     "result_type": "官方当前页面快照"
-  },
+  }
   {
-    "rank": 3,
-    "model": "gpt-oss-120b",
-    "score": 8.24,
-    "metric": "Average Risk Score (ARS), 越低越好",
-    "displayed_uncertainty": 1.93,
-    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI",
-    "scope": "当前Performance Comparison，非正文历史Rankings表",
-    "source_url": "https://labs.scale.com/leaderboard/fortress",
-    "accessed": "2026-11-07",
-    "ORS": "待核实：当前这些行未给配对ORS",
+    "rank": 3
+    "model": "gpt-oss-120b"
+    "score": 8.24
+    "metric": "Average Risk Score (ARS), 越低越好"
+    "displayed_uncertainty": 1.93
+    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI"
+    "scope": "当前Performance Comparison，非正文历史Rankings表"
+    "source_url": "https://labs.scale.com/leaderboard/fortress"
+    "accessed": "2026-11-07"
+    "ORS": "待核实：当前这些行未给配对ORS"
     "result_type": "官方当前页面快照"
-  },
+  }
   {
-    "rank": 4,
-    "model": "Claude Haiku 5.5",
-    "score": 9.48,
-    "metric": "Average Risk Score (ARS), 越低越好",
-    "displayed_uncertainty": 1.34,
-    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI",
-    "scope": "当前Performance Comparison，非正文历史Rankings表",
-    "source_url": "https://labs.scale.com/leaderboard/fortress",
-    "accessed": "2026-11-07",
-    "ORS": "待核实：当前这些行未给配对ORS",
+    "rank": 4
+    "model": "Claude Haiku 5.5"
+    "score": 9.48
+    "metric": "Average Risk Score (ARS), 越低越好"
+    "displayed_uncertainty": 1.34
+    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI"
+    "scope": "当前Performance Comparison，非正文历史Rankings表"
+    "source_url": "https://labs.scale.com/leaderboard/fortress"
+    "accessed": "2026-11-07"
+    "ORS": "待核实：当前这些行未给配对ORS"
     "result_type": "官方当前页面快照"
-  },
+  }
   {
-    "rank": 5,
-    "model": "claude-opus-4-5-20251101-thinking",
-    "score": 9.63,
-    "metric": "Average Risk Score (ARS), 越低越好",
-    "displayed_uncertainty": 2.11,
-    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI",
-    "scope": "当前Performance Comparison，非正文历史Rankings表",
-    "source_url": "https://labs.scale.com/leaderboard/fortress",
-    "accessed": "2026-11-07",
-    "ORS": "待核实：当前这些行未给配对ORS",
+    "rank": 5
+    "model": "claude-opus-4-5-20251101-thinking"
+    "score": 9.63
+    "metric": "Average Risk Score (ARS), 越低越好"
+    "displayed_uncertainty": 2.11
+    "uncertainty_definition": "待核实：当前显示±，未据此推断SE或CI"
+    "scope": "当前Performance Comparison，非正文历史Rankings表"
+    "source_url": "https://labs.scale.com/leaderboard/fortress"
+    "accessed": "2026-11-07"
+    "ORS": "待核实：当前这些行未给配对ORS"
     "result_type": "官方当前页面快照"
   }
 ]
@@ -518,7 +518,7 @@ https://arxiv.org/pdf/2506.14922
 
 0ad431682c60664c7af8efc9620eff9d384dfa55a0324f304d1a738a8a94edfd
 
-说明：实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。
+说明：实际下载的源站PDF字节摘要；不据此声称副本已更新。
 
 [一手资料1](https://arxiv.org/pdf/2506.14922)（访问 2026-11-07）
 
@@ -530,7 +530,7 @@ https://arxiv.org/pdf/2506.14922
 [一手资料1](https://arxiv.org/pdf/2506.14922)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 待核实
 
@@ -543,24 +543,24 @@ https://arxiv.org/pdf/2506.14922
 
 ### 其他官方资料
 
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://huggingface.co/datasets/ScaleAI/fortress_public
   - **accessed**：2026-11-07
 
 [一手资料1](https://huggingface.co/datasets/ScaleAI/fortress_public)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：KST / Asia/Seoul
+  - **timezone**：
   - **change**：首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

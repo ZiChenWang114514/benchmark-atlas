@@ -1,6 +1,6 @@
 # GPQA
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GPQA的关键是领域专家验证与非专家可上网验证的差异，而不是“搜索不到答案”的绝对保证。Main、Extended和Diamond是有包含关系的不同题集；现代常见Diamond榜与原始448题主集必须分开报告。
 
@@ -30,13 +30,13 @@ GPQA: A Graduate-Level Google-Proof Q&A Benchmark
 
 ### 论文版本
 
-v1；2023-11-21T03:57:34+09:00（KST；论文修订号，不是数据版本）
+v1；2023-11-21（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2023-11-21T03:57:34+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
+2023-11-21（；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
@@ -58,7 +58,7 @@ v1；2023-11-21T03:57:34+09:00（KST；论文修订号，不是数据版本）
 
 ### 许可证
 
-数据集CC-BY-4.0（官方HF公开数据卡）；代码仓库MIT（本轮读取LICENSE）。两者范围不同，不可只将MIT当作题目数据许可。
+数据集CC-BY-4.0（官方HF公开数据卡）；代码仓库MIT（读取LICENSE）。两者范围不同，不可只将MIT当作题目数据许可。
 
 来源：[1](https://huggingface.co/datasets/idavidrein/gpqa)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/idavidrein/gpqa/HEAD/LICENSE)（访问 2026-11-07）
 
@@ -217,7 +217,7 @@ Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性�
 
 ### 公开及隐藏划分
 
-18题是论文明确不发布的held-out；546题Extended与448题Main、198题Diamond对外发布。HF访问需同意防泄漏条款并分享账号信息，本轮未登录或下载受限题目。
+18题是论文明确不发布的held-out；546题Extended与448题Main、198题Diamond对外发布。HF访问需同意防泄漏条款并分享账号信息，未登录或下载受限题目。
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[2](https://huggingface.co/datasets/idavidrein/gpqa)（访问 2026-11-07）
 
@@ -259,7 +259,7 @@ https://github.com/idavidrein/gpqa
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
@@ -271,7 +271,7 @@ https://github.com/idavidrein/gpqa
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2023-11-21T03:57:34+09:00；timezone：Asia/Seoul (KST)
+arxiv_submissions：- version：v1；submitted_at：2023-11-21；timezone：
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
@@ -300,7 +300,7 @@ GPQA Extended/Main/Diamond为同族题集子集，本库不拆成独立benchmark
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://github.com/idavidrein/gpqa)（访问 2026-11-07）
 
@@ -320,12 +320,12 @@ https://artificialanalysis.ai/evaluations/gpqa-diamond
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| Artificial Analysis独立评测 | 1 | GPT-6 Astra (Xhigh) | 96.3 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
-| Artificial Analysis独立评测 | 2 | GPT-6 Astra (Max) | 96.1 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
-| Artificial Analysis独立评测 | 3 | Gemini 3.8 Flash (High) | 95.3 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
-| 原论文表5：Main 448题，few-shot CoT | — | Few-Shot CoT GPT-4 | 39.7 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文表5：Diamond 198题，few-shot CoT | — | Few-Shot CoT GPT-4 | 38.8 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07 KST；原始实验日期未单列 |
-| 原论文表5：Main 448题，检索 | — | GPT-4 with search (backoff to CoT on abstention) | 41.0 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07 KST；原始实验日期未单列 |
+| Artificial Analysis独立评测 | 1 | GPT-6 Astra (Xhigh) | 96.3 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07；待核实（页面未显示测量/更新日） |
+| Artificial Analysis独立评测 | 2 | GPT-6 Astra (Max) | 96.1 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07；待核实（页面未显示测量/更新日） |
+| Artificial Analysis独立评测 | 3 | Gemini 3.8 Flash (High) | 95.3 | GPQA Diamond accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/gpqa-diamond)；采集2026-11-07；待核实（页面未显示测量/更新日） |
+| 原论文表5：Main 448题，few-shot CoT | — | Few-Shot CoT GPT-4 | 39.7 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07；原始实验日期未单列 |
+| 原论文表5：Diamond 198题，few-shot CoT | — | Few-Shot CoT GPT-4 | 38.8 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07；原始实验日期未单列 |
+| 原论文表5：Main 448题，检索 | — | GPT-4 with search (backoff to CoT on abstention) | 41.0 | accuracy % | [原始来源](https://arxiv.org/pdf/2311.12022)；采集2026-11-07；原始实验日期未单列 |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
@@ -333,7 +333,7 @@ https://artificialanalysis.ai/evaluations/gpqa-diamond
 
 仅收录来源页面明确可读的结果；具体子集、指标与历史/实时属性以每行 scope 为准。
 
-说明：本轮重开 AA 页面确认原有前三名及分数；页面未提供可读的榜单更新时间，更新时间待核实，不以访问日替代。
+说明：重开 AA 页面确认原有前三名及分数；页面未提供可读的榜单更新时间，更新时间待核实，不以访问日替代。
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
@@ -383,7 +383,7 @@ https://arxiv.org/pdf/2311.12022
 
 58a85a21b653a01d5794f84952936f58e6a5218d781588f44ae183bb749bf023
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）
 
@@ -393,32 +393,32 @@ https://arxiv.org/pdf/2311.12022
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
-id：1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1；webViewLink：https://drive.google.com/drive/folders/1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1
+id：1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI；webViewLink：https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk
+- kind：中文介绍 Google Doc；id：1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI；webViewLink：
 
-来源：[1](https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
-### Drive PDF
+### PDF
 
-id：1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I；webViewLink：https://drive.google.com/file/d/1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I/view?usp=drivesdk
+id：1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I/view?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；timezone：；change：深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

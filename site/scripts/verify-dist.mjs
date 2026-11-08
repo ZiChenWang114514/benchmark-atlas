@@ -19,7 +19,6 @@ function read(path) {
 
 const home = read('index.html');
 const constitution = read('constitution/index.html');
-const apiPage = read('api/index.html');
 const index = JSON.parse(read('api/index.json') || '{}');
 const boilerplate = '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。';
 const chapters = ['基本信息', '发起与维护', '设计目标', '构建方式', '数据形式', '评测方法', '最新情况', '榜单快照', '联系方式', '原始文件', '变更记录'];
@@ -62,7 +61,7 @@ for (const item of index.benchmarks ?? []) {
   for (const title of chapters) {
     if (!detail.includes(title)) fail(`${item.id} 缺少章节 ${title}`);
   }
-  if (!detail.includes('drive.google.com')) fail(`${item.id} 缺少 Drive 链接`);
+  if (detail.includes('drive.google.com') || detail.includes('Drive')) fail(`${item.id} 仍暴露网盘链接`);
   if (detail.includes('[object Object]')) fail(`${item.id} 出现了未格式化的对象`);
   const copies = detail.split(boilerplate).length - 1;
   if (copies !== 1) fail(`${item.id} 的待核实说明出现 ${copies} 次`);
@@ -91,10 +90,6 @@ if (!constitution.includes('第八章')) fail('宪法页缺少第八章');
 if (read('api/constitution.md') !== readFileSync(join(repoRoot, 'CONSTITUTION.md'), 'utf8')) {
   fail('发布的宪法原文与仓库不一致');
 }
-
-if (!apiPage.includes('只读')) fail('接口页没有说明只读');
-if (!apiPage.includes('/benchmark-constitution/api/benchmarks/gpqa.json')) fail('接口页缺少 GPQA JSON 地址');
-if (!apiPage.includes('catalog.json')) fail('接口页没有提到 catalog.json');
 
 const catalog = JSON.parse(read('api/catalog.json') || '{"resources":[]}');
 for (const resource of catalog.resources ?? []) {
@@ -127,6 +122,9 @@ for (const item of news) {
   if (!home.includes(item.title)) fail(`首页缺少动态：${item.title}`);
 }
 
+const apiPagePath = join(dist, 'api/index.html');
+const apiPage = existsSync(apiPagePath) ? readFileSync(apiPagePath, 'utf8') : '';
+if (apiPage) fail('不应再发布接口说明页');
 const heatPage = read('frontier-heat/index.html');
 const impactPage = read('impact/index.html');
 const methodPage = read('impact/method/index.html');
@@ -139,12 +137,35 @@ for (const [label, html] of [['业界热度榜', heatPage], ['学术影响力榜
   else if (hasData && label === '业界热度榜' && html.includes('数据生成中')) fail(`${label}已有数据却仍显示数据生成中`);
   else if (html.includes('Benchmark Atlas')) fail(`${label}仍出现旧名称`);
 }
+const bannedMarkers = [
+  [/Asia\/Seoul/, 'Asia/Seoul'],
+  [/KST/, 'KST'],
+  [/首尔/, '首尔'],
+  [/\bSeoul\b/, 'Seoul'],
+  [/待核实字段数/, '待核实字段数'],
+  [/项待核实/, '项待核实'],
+  [/补传/, '补传'],
+  [/第\s*[0-9一二三四五六七八九十两]+\s*轮/, '核验轮次'],
+  [/\/api\//, '/api/'],
+  [/\/workspace\//, '/workspace'],
+  [/\/home\//, '/home'],
+  [/drive\.google\.com/, 'drive.google.com'],
+  [/drivesdk/, 'drivesdk'],
+  [/\bDrive\b/, 'Drive'],
+  [/\bTODO\b/, 'TODO'],
+  [/GH_TOKEN|API_KEY/, '凭据名'],
+];
 function walkHtml(dir) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     const full = join(dir, entry.name);
     if (entry.isDirectory()) walkHtml(full);
-    else if (entry.name.endsWith('.html') && readFileSync(full, 'utf8').includes('Benchmark Atlas')) {
-      fail(`旧名称仍出现在 ${full.replace(dist + '/', '')}`);
+    else if (entry.name.endsWith('.html')) {
+      const html = readFileSync(full, 'utf8');
+      const rel = full.replace(dist + '/', '');
+      if (html.includes('Benchmark Atlas')) fail(`旧名称仍出现在 ${rel}`);
+      for (const [pattern, label] of bannedMarkers) {
+        if (pattern.test(html)) fail(`${rel} 含内部标记 ${label}`);
+      }
     }
   }
 }

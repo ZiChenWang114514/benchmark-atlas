@@ -84,7 +84,7 @@ export const CHAPTERS: ChapterSpec[] = [
   {
     id: 'original_files',
     title: '原始文件',
-    intro: 'Drive 中的 PDF 是下载下来的原件，不改内容。哈希对应那一次下载。',
+    intro: '原始文件保留下载时的原件，不改内容。哈希对应那一次下载。',
     keys: ['paper_pdf_url', 'drive_pdf', 'sha256', 'pdf_bytes', 'drive_folder', 'other_documents'],
   },
   {

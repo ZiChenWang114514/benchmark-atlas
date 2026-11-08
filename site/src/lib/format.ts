@@ -65,9 +65,9 @@ const LABELS: Record<string, string> = {
   paper_pdf_url: '论文 PDF 下载',
   sha256: 'SHA-256',
   pdf_bytes: '文件大小',
-  drive_folder: 'Drive 文件夹',
+  drive_folder: '归档位置',
   other_documents: '其他文档',
-  drive_pdf: 'Drive 论文 PDF',
+  drive_pdf: '论文 PDF',
   id: '文件标识',
   kind: '类型',
   type: '类型',
@@ -156,7 +156,7 @@ export function safeUrl(url: string): string | null {
 }
 
 export function sourceText(url: string): string {
-  if (url.startsWith('urn:benchmark-atlas:constitution')) return '收集宪法';
+  if (url.startsWith('urn:')) return '收录记录';
   return url;
 }
 

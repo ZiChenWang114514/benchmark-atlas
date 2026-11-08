@@ -1,8 +1,8 @@
 # AIME
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
-第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造
+官方证据复核；授权与版本冲突显式保留；未核实项不补造
 
 AIME首先是MAA年度邀请数学竞赛，其后才被转录成AI评测。2025的30题Legacy榜不代表全部年份；2027赛事已改机考与双阶段，不再固定I/II。
 
@@ -38,7 +38,7 @@ American Invitational Mathematics Examination
 
 > 字段状态：待核实
 
-> 原赛事首届日期未在本轮核实；AI评测必须指明年份，2025不是本系列首次发布日
+> 原赛事首届日期未在核实；AI评测必须指明年份，2025不是本系列首次发布日
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -160,7 +160,7 @@ MAA组织的年度邀请数学考试；AIME2025评测常合并I和II共30题。
 
 ### 出题者背景
 
-MAA竞赛命题体系；本轮未核实2025逐题命题人名单。
+MAA竞赛命题体系；未核实2025逐题命题人名单。
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -260,7 +260,7 @@ AIME2024/2025、I/II、30题均值、consensus@N与pass@1必须分开；非MAA�
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -284,7 +284,7 @@ AA保留的2025 Legacy快照最高99.0%，该30题/重复采样协议区分度�
 
 ### 污染与争议
 
-本轮已成功读取MAA邀请赛官方页，修正旧档“官方页仅403”的过时表述。2025题早已公开传播，不能证明无训练污染；AA方法页当前明确其AIME2025已退出active reporting。
+已成功读取MAA邀请赛官方页，修正旧档“官方页仅403”的过时表述。2025题早已公开传播，不能证明无训练污染；AA方法页当前明确其AIME2025已退出active reporting。
 
 [来源1](https://maa.org/maa-invitational-competitions/)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）
 
@@ -298,7 +298,7 @@ AA保留的2025 Legacy快照最高99.0%，该30题/重复采样协议区分度�
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -308,7 +308,7 @@ AA保留的2025 Legacy快照最高99.0%，该30题/重复采样协议区分度�
 
 > 字段状态：待核实
 
-> 本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+> 未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -338,7 +338,7 @@ https://artificialanalysis.ai/evaluations/aime-2025
 
 ### 覆盖说明
 
-本轮重开AA Legacy页核对99.0/98.7/97.0；方法页补齐每题10次重复。MAA未在此官方赛事页提供AI模型榜，第三方榜不能当MAA官方认证。
+重开AA Legacy页核对99.0/98.7/97.0；方法页补齐每题10次重复。MAA未在此官方赛事页提供AI模型榜，第三方榜不能当MAA官方认证。
 
 [来源1](https://artificialanalysis.ai/evaluations/aime-2025)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）；[来源3](https://maa.org/maa-invitational-competitions/)（访问2026-11-07）
 
@@ -403,33 +403,33 @@ https://artificialanalysis.ai/evaluations/aime-2025
 
 [来源1](https://maa.org/maa-invitational-competitions/)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu",
-  "webViewLink": "https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu"
+  "id": "19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 {
   "chinese_intro_doc": {
-    "id": "1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI",
-    "webViewLink": "https://docs.google.com/document/d/1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI/edit?usp=drivesdk",
+    "id": "1QjYu0uFMnYZlPh5YDSJX9uRhXQ6HOx3smq0_1bx05UI"
+    "webViewLink": "
     "mimeType": "application/vnd.google-apps.document"
-  },
+  }
   "local_markdown": "content/benchmarks/aime.md"
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/19-cW361EnJXicFIwKbVUvnJB-Hu2uDAu)（访问2026-11-07）
+[来源1](
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -440,19 +440,19 @@ https://artificialanalysis.ai/evaluations/aime-2025
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

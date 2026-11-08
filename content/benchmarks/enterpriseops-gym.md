@@ -1,6 +1,6 @@
 # EnterpriseOps-Gym
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
@@ -36,7 +36,7 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 **仍待核实**（不推断为未公开）：
 
-- 基准版本：已读取本轮所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。 [2](https://arxiv.org/abs/2603.13594)
+- 基准版本：已读取所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。 [2](https://arxiv.org/abs/2603.13594)
 
 ## 发起与维护
 
@@ -60,7 +60,7 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 ## 构建方式
 
-- **题目来源**：根据公开企业API文档和领域SME设计合成数据库与任务，不使用私有企业数据；Calendar、CSM、Drive、Email、HR、ITSM、Teams及Hybrid八域。 [2](https://arxiv.org/abs/2603.13594)
+- **题目来源**：根据公开企业API文档和领域SME设计合成数据库与任务，不使用私有企业数据；Calendar、CSM、、Email、HR、ITSM、Teams及Hybrid八域。 [2](https://arxiv.org/abs/2603.13594)
 
 - **出题与审核人员**：Turing组织160余名工程师、领域SME与标注人员；工程/计算机等相关学士背景，平均每域20名标注者和6名reviewer，历时约4个月含1个月试点。 [2](https://arxiv.org/abs/2603.13594)
 
@@ -98,9 +98,9 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST / Asia/Seoul [2](https://arxiv.org/abs/2603.13594)
+- **核验日期**：2026-11-07 [2](https://arxiv.org/abs/2603.13594)
 
-- **现行版本与采用证据**：version：待核实；evidence_2026_h2：url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；organization：Artificial Analysis；note：当前方法页将EnterpriseOps-Gym列为正在实施的评测，披露任务或评分协议。；url：https://artificialanalysis.ai/evaluations；date：2026-11-07；organization：Artificial Analysis；note：当前公开评测目录单列EnterpriseOps-Gym，不是新闻提及。；url：https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym；date：2026-11-07；organization：ServiceNow；note：AA当前实现明确基于ServiceNow公开数据并以终态SQL验证。；trending：heat_confidence：A；summary：ServiceNow 企业工作流基准已有 AA 独立评测，按终态验证。 [7](https://artificialanalysis.ai/methodology/intelligence-benchmarking) [8](https://artificialanalysis.ai/evaluations) [6](https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym) 注：近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+- **现行版本与采用证据**：version：待核实；evidence_2026_h2：url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；organization：Artificial Analysis；note：当前方法页将EnterpriseOps-Gym列为正在实施的评测，披露任务或评分协议。；url：https://artificialanalysis.ai/evaluations；date：2026-11-07；organization：Artificial Analysis；note：当前公开评测目录单列EnterpriseOps-Gym，不是新闻提及。；url：https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym；date：2026-11-07；organization：ServiceNow；note：AA当前实现明确基于ServiceNow公开数据并以终态SQL验证。；trending：heat_confidence：A；summary：ServiceNow 企业工作流基准已有 AA 独立评测，按终态验证。 [7](https://artificialanalysis.ai/methodology/intelligence-benchmarking) [8](https://artificialanalysis.ai/evaluations) [6](https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym) 注：近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 - **更新与修订**：论文首版arXiv:2603.13594v1（2026-03-13）。当前README增列Opus4.6 45.9%、Sonnet4.6 42.2%，首页仍写旧34.1%；项目页旧论文摘要仍为37.4%，最新结果已委托AA维护。 [2](https://arxiv.org/abs/2603.13594) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [1](https://enterpriseops-gym.github.io/)
 
@@ -112,7 +112,7 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [2](https://arxiv.org/abs/2603.13594)
+- **快照采集日**：2026-11-07 [2](https://arxiv.org/abs/2603.13594)
 
 - **官方榜/正式委托榜**：https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa [1](https://enterpriseops-gym.github.io/) 注：官方项目页明确声明最新model results由AA维护；AA同时声明独立实现。
 
@@ -131,9 +131,9 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 > Gemini 3.5 Flash (High)：result_type：AA 独立实现榜快照；protocol：Stirrup；oracle tools；每任务3次；严格全verifier通过 [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
-- **覆盖范围与版本限制**：本轮重读AA前三51.1/50.4/50.1。另读取官方README全量Oracle快照前三：Opus4.6 45.9、Sonnet4.6 42.2、Opus4.5 39.4；不与AA榜混排。原论文Opus4.5 37.4与README39.4亦有差异，优先按各来源原样标记。 [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [2](https://arxiv.org/abs/2603.13594)
+- **覆盖范围与版本限制**：重读AA前三51.1/50.4/50.1。另读取官方README全量Oracle快照前三：Opus4.6 45.9、Sonnet4.6 42.2、Opus4.5 39.4；不与AA榜混排。原论文Opus4.5 37.4与README39.4亦有差异，优先按各来源原样标记。 [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [2](https://arxiv.org/abs/2603.13594)
 
 ## 联系方式
 
@@ -143,29 +143,29 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 **仍待核实**（不推断为未公开）：
 
-- 官方社交：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/2603.13594)
-- 隐私政策：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/2603.13594)
+- 官方社交：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/2603.13594)
+- 隐私政策：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/2603.13594)
 
 ## 原始文件
 
 - **原始PDF**：https://arxiv.org/pdf/2603.13594 [10](https://arxiv.org/pdf/2603.13594)
 
-- **SHA-256**：8a7639982494f4802148fa4bdb6de40040f9d2e01c061db57f4e2e5d0d66d751 [10](https://arxiv.org/pdf/2603.13594) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
+- **SHA-256**：8a7639982494f4802148fa4bdb6de40040f9d2e01c061db57f4e2e5d0d66d751 [10](https://arxiv.org/pdf/2603.13594) 注：实际下载的PDF字节计算；不是外部网页抄录。
 
-- **PDF字节数**：5330988 [10](https://arxiv.org/pdf/2603.13594) 注：本轮下载字节数；未上传Drive。
+- **PDF字节数**：5330988 [10](https://arxiv.org/pdf/2603.13594) 注：下载字节数；未上传。
 
 - **其他正式文档**：type：官方README及Oracle榜快照；url：https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md；type：官方项目页面；url：https://enterpriseops-gym.github.io/；type：官方HF数据卡；url：https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym [1](https://enterpriseops-gym.github.io/) [9](https://github.com/ServiceNow/EnterpriseOps-Gym) [6](https://huggingface.co/datasets/ServiceNow-AI/EnterpriseOps-Gym)
 
-- **Drive中的论文副本**：待核实 [2](https://arxiv.org/abs/2603.13594)
+- **中的论文副本**：待核实 [2](https://arxiv.org/abs/2603.13594)
 
 **仍待核实**（不推断为未公开）：
 
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [2](https://arxiv.org/abs/2603.13594)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [2](https://arxiv.org/abs/2603.13594)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://enterpriseops-gym.github.io/)
+- date：2026-11-07；timezone：；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://enterpriseops-gym.github.io/)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

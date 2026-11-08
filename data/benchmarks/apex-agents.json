@@ -1,7 +1,7 @@
 {
   "id": "apex-agents",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "APEX-Agents",
@@ -30,10 +30,10 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "paper_version": {
-      "value": "arXiv v3（2026-02-24 01:49:38 Asia/Shanghai（UTC+8））",
+      "value": "arXiv v3（2026-02-24 01:49:38 （UTC+8））",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2601.14242",
@@ -42,7 +42,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-01-21 02:53:44 Asia/Shanghai（UTC+8）（arXiv首稿；来源UTC日期为1月20日）",
+      "value": "2026-01-21 02:53:44 （UTC+8）（arXiv首稿；来源UTC日期为1月20日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2601.14242",
@@ -179,7 +179,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -390,7 +390,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/mercor/apex-agents",
@@ -422,15 +422,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-01-21T02:53:44+08:00"
+          "submitted_at": "2026-01-21"
         },
         {
           "version": "v2",
-          "submitted_at": "2026-01-28T01:31:16+08:00"
+          "submitted_at": "2026-01-28"
         },
         {
           "version": "v3",
-          "submitted_at": "2026-02-24T01:49:38+08:00"
+          "submitted_at": "2026-02-24"
         }
       ],
       "sources": [
@@ -478,7 +478,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/mercor/apex-agents",
@@ -518,7 +518,7 @@
           "track": "Mercor当前240题/31worlds · pass-1",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 4.3,
           "n_samples_source": 960,
@@ -532,7 +532,7 @@
           "track": "Mercor当前240题/31worlds · pass-1",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 4.3,
           "n_samples_source": 954,
@@ -546,7 +546,7 @@
           "track": "Mercor当前240题/31worlds · pass-1",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 4.5,
           "n_samples_source": 960,
@@ -560,7 +560,7 @@
           "track": "Mercor当前240题/31worlds · mean-score",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 3.1,
           "n_samples_source": 960,
@@ -574,7 +574,7 @@
           "track": "Mercor当前240题/31worlds · mean-score",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 3.3,
           "n_samples_source": 954,
@@ -588,7 +588,7 @@
           "track": "Mercor当前240题/31worlds · mean-score",
           "source_url": "https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "harness": "loop_truncated_tools_agent",
           "source_error_plus_minus": 3.6,
           "n_samples_source": 960,
@@ -602,7 +602,7 @@
           "track": "Artificial Analysis独立452题",
           "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 2,
@@ -612,7 +612,7 @@
           "track": "Artificial Analysis独立452题",
           "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 3,
@@ -622,7 +622,7 @@
           "track": "Artificial Analysis独立452题",
           "source_url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 1,
@@ -632,7 +632,7 @@
           "track": "论文v3/480题历史基线",
           "source_url": "https://arxiv.org/abs/2601.14242",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 2,
@@ -642,7 +642,7 @@
           "track": "论文v3/480题历史基线",
           "source_url": "https://arxiv.org/abs/2601.14242",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": 3,
@@ -652,7 +652,7 @@
           "track": "论文v3/480题历史基线",
           "source_url": "https://arxiv.org/abs/2601.14242",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         }
       ],
       "sources": [
@@ -718,7 +718,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -729,7 +729,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "original_files": {
@@ -750,7 +750,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
+      "note": "实际下载字节的SHA-256；不表示已有副本已替换。"
     },
     "pdf_bytes": {
       "value": 1645464,
@@ -770,7 +770,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -788,15 +788,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1Ta-08493IHwnpPOzYUrIHnbwOX7ix5fS",
-      "webViewLink": "https://drive.google.com/file/d/1Ta-08493IHwnpPOzYUrIHnbwOX7ix5fS/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1Ta-08493IHwnpPOzYUrIHnbwOX7ix5fS/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2601.14242",
         "accessed": "2026-11-08"
@@ -807,13 +800,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

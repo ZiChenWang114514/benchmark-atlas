@@ -1,7 +1,7 @@
 {
   "id": "charxiv",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "CharXiv",
@@ -48,7 +48,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-06-27 02:50:11 KST（arXiv v1；原站日历日期2024-06-26）",
+      "value": "2024-06-27 02:50:11 （arXiv v1；原站日历日期2024-06-26）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.18521",
@@ -481,7 +481,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://charxiv.github.io/",
@@ -503,7 +503,7 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2024-06-27T02:50:11+09:00"
+            "date_kst": "2024-06-27"
           }
         ],
         "continued_use_2026h2": [
@@ -511,15 +511,15 @@
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-23",
             "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-            "date_kst": "2026-10-23T01:54:37+09:00",
-            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+            "date_kst": "2026-10-23",
+            "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
         "arxiv_revisions_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2024-06-27T02:50:11+09:00"
+            "submitted_at_kst": "2024-06-27"
           }
         ]
       },
@@ -540,7 +540,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "官网CSV与README静态榜单更新不同，当前快照优先使用官网CSV。2,323 charts与README导览2,333 images冲突并列保留；test答案隐藏不代表图像无污染。MMVistaReason的CompassVerifier协议不能与官方GPT裁判结果混排。 官方HF Erratum明确0.jpg的reasoning参考答案有误（社区#2发现）；数据卡表示未来版本会修正，本轮不自行改写答案。",
+      "value": "官网CSV与README静态榜单更新不同，当前快照优先使用官网CSV。2,323 charts与README导览2,333 images冲突并列保留；test答案隐藏不代表图像无污染。MMVistaReason的CompassVerifier协议不能与官方GPT裁判结果混排。 官方HF Erratum明确0.jpg的reasoning参考答案有误（社区#2发现）；数据卡表示未来版本会修正，不自行改写答案。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md",
@@ -577,12 +577,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
+      "value": "2026-11-08 （实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://charxiv.github.io/",
@@ -607,7 +607,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -694,7 +694,7 @@
           "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。",
           "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
           "rank": null
         },
@@ -708,7 +708,7 @@
           "accessed": "2026-11-08",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。",
           "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
           "rank": null
         }
@@ -768,7 +768,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方README引用的项目讨论链接；本轮未访问X内容或发送消息。"
+      "note": "官方README引用的项目讨论链接；未访问X内容或发送消息。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -814,13 +814,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh",
-        "webViewLink": "https://drive.google.com/drive/folders/1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -828,27 +825,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4",
-          "webViewLink": "https://docs.google.com/document/d/1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J",
-      "webViewLink": "https://drive.google.com/file/d/18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -857,19 +849,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "补机构、维护和公开联系；新增2,323/2,333官方文档冲突及test隐藏答案；重读CSV快照并重核H2。 补官方en语言标签、禁止训练声明和0.jpg答案Erratum。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+        "change": "最近复核"
       }
     ],
     "sources": [

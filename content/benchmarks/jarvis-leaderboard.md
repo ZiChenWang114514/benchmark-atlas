@@ -1,8 +1,8 @@
 # JARVIS-Leaderboard
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
-JARVIS-Leaderboard是材料方法的可复现多任务平台，不是单一LLM题库。本轮从首页示例深入到三个材料性质子榜，按各自MAE及物理单位提取精确成绩；不同性质、参考DFT及实验条件之间不存在统一总冠军。
+JARVIS-Leaderboard是材料方法的可复现多任务平台，不是单一LLM题库。从首页示例深入到三个材料性质子榜，按各自MAE及物理单位提取精确成绩；不同性质、参考DFT及实验条件之间不存在统一总冠军。
 
 导读依据：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-08）；[2](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-08）。
 
@@ -24,7 +24,7 @@ JARVIS-Leaderboard
 
 ### 基准版本
 
-持续更新的多任务榜单平台；本轮官网322 benchmark、2087贡献、8752827 datapoints。聚合统计不是单一测试题集版本。
+持续更新的多任务榜单平台；官网322 benchmark、2087贡献、8752827 datapoints。聚合统计不是单一测试题集版本。
 
 来源：[1](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-08）。
 
@@ -36,7 +36,7 @@ arXiv v2
 
 ### 发布日期
 
-2023-06-21T02:07:07+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2023-06-21（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-08）。
 
@@ -116,43 +116,43 @@ JARVIS-Leaderboard: A Large Scale Benchmark of Materials Design Methods
 
 ```json
 [
-  "Choudhary, Kamal",
-  "Wines, Daniel",
-  "Li, Kangming",
-  "Garrity, Kevin F.",
-  "Gupta, Vishu",
-  "Romero, Aldo H.",
-  "Krogel, Jaron T.",
-  "Saritas, Kayahan",
-  "Fuhr, Addis",
-  "Ganesh, Panchapakesan",
-  "Kent, Paul R. C.",
-  "Yan, Keqiang",
-  "Lin, Yuchao",
-  "Ji, Shuiwang",
-  "Blaiszik, Ben",
-  "Reiser, Patrick",
-  "Friederich, Pascal",
-  "Agrawal, Ankit",
-  "Tiwary, Pratyush",
-  "Beyerle, Eric",
-  "Minch, Peter",
-  "Rhone, Trevor David",
-  "Takeuchi, Ichiro",
-  "Wexler, Robert B.",
-  "Mannodi-Kanakkithodi, Arun",
-  "Ertekin, Elif",
-  "Mishra, Avanish",
-  "Mathew, Nithin",
-  "Baird, Sterling G.",
-  "Wood, Mitchell",
-  "Rohskopf, Andrew Dale",
-  "Hattrick-Simpers, Jason",
-  "Wang, Shih-Han",
-  "Achenie, Luke E. K.",
-  "Xin, Hongliang",
-  "Williams, Maureen",
-  "Biacchi, Adam J.",
+  "Choudhary, Kamal"
+  "Wines, Daniel"
+  "Li, Kangming"
+  "Garrity, Kevin F."
+  "Gupta, Vishu"
+  "Romero, Aldo H."
+  "Krogel, Jaron T."
+  "Saritas, Kayahan"
+  "Fuhr, Addis"
+  "Ganesh, Panchapakesan"
+  "Kent, Paul R. C."
+  "Yan, Keqiang"
+  "Lin, Yuchao"
+  "Ji, Shuiwang"
+  "Blaiszik, Ben"
+  "Reiser, Patrick"
+  "Friederich, Pascal"
+  "Agrawal, Ankit"
+  "Tiwary, Pratyush"
+  "Beyerle, Eric"
+  "Minch, Peter"
+  "Rhone, Trevor David"
+  "Takeuchi, Ichiro"
+  "Wexler, Robert B."
+  "Mannodi-Kanakkithodi, Arun"
+  "Ertekin, Elif"
+  "Mishra, Avanish"
+  "Mathew, Nithin"
+  "Baird, Sterling G."
+  "Wood, Mitchell"
+  "Rohskopf, Andrew Dale"
+  "Hattrick-Simpers, Jason"
+  "Wang, Shih-Han"
+  "Achenie, Luke E. K."
+  "Xin, Hongliang"
+  "Williams, Maureen"
+  "Biacchi, Adam J."
   "Tavazza, Francesca"
 ]
 ```
@@ -235,11 +235,11 @@ NIST材料计算与数据研究人员及来自电子结构、机器学习力场�
 
 ```json
 [
-  "化学式与原子结构",
-  "材料性质数值/力/光谱",
-  "STEM图像",
-  "论文文本",
-  "实验数据",
+  "化学式与原子结构"
+  "材料性质数值/力/光谱"
+  "STEM图像"
+  "论文文本"
+  "实验数据"
   "Hamiltonian与量子结果"
 ]
 ```
@@ -298,15 +298,15 @@ jarvis_populate_data.py生成参考划分；jarvis_upload.py协助提交；各�
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-08）；[2](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-08）。
 
 ### 最新数据状态
 
-持续增长平台；本轮页面322个任务、2087项贡献、8752827数据点；每任务必须另锁定数据名称和split，不能当单一v1/v2。
+持续增长平台；页面322个任务、2087项贡献、8752827数据点；每任务必须另锁定数据名称和split，不能当单一v1/v2。
 
 来源：[1](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-08）。
 
@@ -315,19 +315,19 @@ jarvis_populate_data.py生成参考划分；jarvis_upload.py协助提交；各�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2023-06-21T02:07:07+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2023-06-21"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2024-03-26T19:40:28+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v2"
+    "submitted_at": "2024-03-26"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-08）。
 
@@ -355,7 +355,7 @@ jarvis_populate_data.py生成参考划分；jarvis_upload.py协助提交；各�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/)（访问 2026-11-08）；[2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/)（访问 2026-11-08）；[3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/)（访问 2026-11-08）；[4](https://arxiv.org/pdf/2306.11688)（访问 2026-11-08）。
 
@@ -378,129 +378,129 @@ https://pages.nist.gov/jarvis_leaderboard/
 ```json
 [
   {
-    "rank": 1,
-    "model": "kgcnn_coGN",
-    "score": "0.0271",
-    "unit": "eV/atom",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_formation_energy_peratom / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 1
+    "model": "kgcnn_coGN"
+    "score": "0.0271"
+    "unit": "eV/atom"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_formation_energy_peratom / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "kgcnn_coNGN",
-    "score": "0.0291",
-    "unit": "eV/atom",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_formation_energy_peratom / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 2
+    "model": "kgcnn_coNGN"
+    "score": "0.0291"
+    "unit": "eV/atom"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_formation_energy_peratom / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 3,
-    "model": "potnet",
-    "score": "0.0293",
-    "unit": "eV/atom",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_formation_energy_peratom / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "06-02-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 3
+    "model": "potnet"
+    "score": "0.0293"
+    "unit": "eV/atom"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_formation_energy_peratom / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "06-02-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 1,
-    "model": "kgcnn_coGN",
-    "score": "0.1219",
-    "unit": "eV",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_bandgap / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 1
+    "model": "kgcnn_coGN"
+    "score": "0.1219"
+    "unit": "eV"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_bandgap / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "potnet",
-    "score": "0.1246",
-    "unit": "eV",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_bandgap / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "06-02-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 2
+    "model": "potnet"
+    "score": "0.1246"
+    "unit": "eV"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_bandgap / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "06-02-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 3,
-    "model": "kgcnn_coNGN",
-    "score": "0.1267",
-    "unit": "eV",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_bandgap / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 3
+    "model": "kgcnn_coNGN"
+    "score": "0.1267"
+    "unit": "eV"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_bandgap / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
-  },
+  }
   {
-    "rank": 1,
-    "model": "kgcnn_coGN",
-    "score": "0.0262",
-    "unit": "待核实（此任务页未明确每原子归一化）",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_total_energy / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 1
+    "model": "kgcnn_coGN"
+    "score": "0.0262"
+    "unit": "待核实（此任务页未明确每原子归一化）"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_total_energy / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "kgcnn_coNGN",
-    "score": "0.0273",
-    "unit": "待核实（此任务页未明确每原子归一化）",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_total_energy / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "05-06-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 2
+    "model": "kgcnn_coNGN"
+    "score": "0.0273"
+    "unit": "待核实（此任务页未明确每原子归一化）"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_total_energy / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "05-06-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
-  },
+  }
   {
-    "rank": 3,
-    "model": "potnet",
-    "score": "0.0321",
-    "unit": "待核实（此任务页未明确每原子归一化）",
-    "metric": "MAE（越低越好）",
-    "track": "dft_3d_optb88vdw_total_energy / test",
-    "dataset": "dft_3d",
-    "dataset_total_size": "55713",
-    "source_submitted_label": "06-02-2023",
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-    "snapshot_date": "2026-11-08 KST",
+    "rank": 3
+    "model": "potnet"
+    "score": "0.0321"
+    "unit": "待核实（此任务页未明确每原子归一化）"
+    "metric": "MAE（越低越好）"
+    "track": "dft_3d_optb88vdw_total_energy / test"
+    "dataset": "dft_3d"
+    "dataset_total_size": "55713"
+    "source_submitted_label": "06-02-2023"
+    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+    "snapshot_date": "2026-11-08 "
     "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
   }
 ]
@@ -554,59 +554,59 @@ https://arxiv.org/pdf/2306.11688
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 823f8a1bcf1d15753ac95cc117f9a7e1ba5a4813bd0aeff56cd0eb4c2ca000a6
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2306.11688)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 1781869
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2306.11688)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 ```json
 {
-  "id": "16m-5FRpc9unlxQloFVTETcCGOka_DdPF",
-  "webViewLink": "https://drive.google.com/drive/folders/16m-5FRpc9unlxQloFVTETcCGOka_DdPF"
+  "id": "16m-5FRpc9unlxQloFVTETcCGOka_DdPF"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/drive/folders/16m-5FRpc9unlxQloFVTETcCGOka_DdPF)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc",
-    "webViewLink": "https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc"
+    "webViewLink": "
   }
 ]
 ```
 
-来源：[1](https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 ```json
 {
-  "id": "1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep",
-  "webViewLink": "https://drive.google.com/file/d/1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep/view?usp=drivesdk"
+  "id": "1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/file/d/1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep/view?usp=drivesdk)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ## 变更记录
 
@@ -615,19 +615,19 @@ https://arxiv.org/pdf/2306.11688
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

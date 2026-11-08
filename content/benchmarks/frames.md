@@ -1,10 +1,10 @@
 # FRAMES
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 FRAMES把检索、事实性与多来源推理放在同一端到端任务中。最终824题是人工构建而非原始LLM合成结果；oracle提供相关文章，因此72.9%与真实多步检索的66.0%不能当作不同模型的统一排名。
 
-编辑状态：已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
+最近复核
 
 ## 基本信息
 
@@ -38,7 +38,7 @@ arXiv v3（论文修订，不等于数据集版本）
 
 ### 发布日期
 
-2024-09-20T02:52:07+09:00（KST；arXiv初稿时间，不冒充数据集独立发布日期）
+2024-09-20（；arXiv初稿时间，不冒充数据集独立发布日期）
 
 [一手资料1](https://arxiv.org/abs/2409.12941)（访问 2026-11-07）
 
@@ -88,7 +88,7 @@ https://arxiv.org/abs/2409.12941
 
 https://huggingface.co/datasets/google/frames-benchmark
 
-说明：本轮已读取的公开HF卡revision: 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；只固定公开卡/仓库状态，不外推为私有测试版本。
+说明：已读取的公开HF卡revision: 58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef；只固定公开卡/仓库状态，不外推为私有测试版本。
 
 [一手资料1](https://arxiv.org/abs/2409.12941)（访问 2026-11-07）
 
@@ -300,7 +300,7 @@ Google HF组织下的google/frames-benchmark发布账户；学术联系为论文
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://huggingface.co/datasets/google/frames-benchmark)（访问 2026-11-07）
 
@@ -309,7 +309,7 @@ Google HF组织下的google/frames-benchmark发布账户；学术联系为论文
 
 - **public_dataset_revision**：58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef
 - **size**：824
-- **source**：官方HF主分支本轮resolve响应的x-repo-commit；不当作论文版本
+- **source**：官方HF主分支resolve响应的x-repo-commit；不当作论文版本
 
 [一手资料1](https://huggingface.co/datasets/google/frames-benchmark/blob/58d9fb6330f3ab1316d1eca12e5e8ef23dcc22ef/README.md)（访问 2026-11-07）
 
@@ -317,14 +317,14 @@ Google HF组织下的google/frames-benchmark发布账户；学术联系为论文
 ### 材料沿革
 
 - - **version**：v1
-  - **submitted_at_kst**：2024-09-20T02:52:07+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2024-09-20
+  - **timezone**：
 - - **version**：v2
-  - **submitted_at_kst**：2024-10-19T06:37:34+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2024-10-19
+  - **timezone**：
 - - **version**：v3
-  - **submitted_at_kst**：2025-01-25T04:23:15+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2025-01-25
+  - **timezone**：
 
 [一手资料1](https://arxiv.org/abs/2409.12941)（访问 2026-11-07）
 
@@ -362,7 +362,7 @@ Google HF组织下的google/frames-benchmark发布账户；学术联系为论文
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://arxiv.org/abs/2409.12941)（访问 2026-11-07）
 
@@ -392,51 +392,51 @@ https://arxiv.org/abs/2409.12941
 ```json
 [
   {
-    "rank": null,
-    "model": "Gemini-Pro-1.5-0514",
-    "score": 40.8,
-    "unit": "%",
-    "metric": "answer accuracy",
-    "settings": "naive prompting",
-    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
-    "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
-    "accessed": "2026-11-07",
+    "rank": null
+    "model": "Gemini-Pro-1.5-0514"
+    "score": 40.8
+    "unit": "%"
+    "metric": "answer accuracy"
+    "settings": "naive prompting"
+    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名"
+    "source_url": "https://huggingface.co/datasets/google/frames-benchmark"
+    "accessed": "2026-11-07"
     "evaluation_date": "待核实：卡片未列精确实验日"
-  },
+  }
   {
-    "rank": null,
-    "model": "Gemini-Pro-1.5-0514",
-    "score": 47.4,
-    "unit": "%",
-    "metric": "answer accuracy",
-    "settings": "BM25, top4 docs",
-    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
-    "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
-    "accessed": "2026-11-07",
+    "rank": null
+    "model": "Gemini-Pro-1.5-0514"
+    "score": 47.4
+    "unit": "%"
+    "metric": "answer accuracy"
+    "settings": "BM25, top4 docs"
+    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名"
+    "source_url": "https://huggingface.co/datasets/google/frames-benchmark"
+    "accessed": "2026-11-07"
     "evaluation_date": "待核实：卡片未列精确实验日"
-  },
+  }
   {
-    "rank": null,
-    "model": "Gemini-Pro-1.5-0514",
-    "score": 72.9,
-    "unit": "%",
-    "metric": "answer accuracy",
-    "settings": "oracle retrieval",
-    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
-    "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
-    "accessed": "2026-11-07",
+    "rank": null
+    "model": "Gemini-Pro-1.5-0514"
+    "score": 72.9
+    "unit": "%"
+    "metric": "answer accuracy"
+    "settings": "oracle retrieval"
+    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名"
+    "source_url": "https://huggingface.co/datasets/google/frames-benchmark"
+    "accessed": "2026-11-07"
     "evaluation_date": "待核实：卡片未列精确实验日"
-  },
+  }
   {
-    "rank": null,
-    "model": "Gemini-Pro-1.5-0514",
-    "score": 66.0,
-    "unit": "%",
-    "metric": "answer accuracy",
-    "settings": "multi-step retrieval & reasoning",
-    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名",
-    "source_url": "https://huggingface.co/datasets/google/frames-benchmark",
-    "accessed": "2026-11-07",
+    "rank": null
+    "model": "Gemini-Pro-1.5-0514"
+    "score": 66.0
+    "unit": "%"
+    "metric": "answer accuracy"
+    "settings": "multi-step retrieval & reasoning"
+    "scope": "官方数据卡2024原论文历史baseline；设置不同不作模型排名"
+    "source_url": "https://huggingface.co/datasets/google/frames-benchmark"
+    "accessed": "2026-11-07"
     "evaluation_date": "待核实：卡片未列精确实验日"
   }
 ]
@@ -502,7 +502,7 @@ https://arxiv.org/pdf/2409.12941
 
 4f4f33ebd7be7ccb97af2be83fa123940fc38bc8256ecbdf2afde749481a091c
 
-说明：实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。
+说明：实际下载的源站PDF字节摘要；不据此声称副本已更新。
 
 [一手资料1](https://arxiv.org/pdf/2409.12941)（访问 2026-11-07）
 
@@ -514,44 +514,44 @@ https://arxiv.org/pdf/2409.12941
 [一手资料1](https://arxiv.org/pdf/2409.12941)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 - **id**：1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD
-- **webViewLink**：https://drive.google.com/drive/folders/1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD
+- **webViewLink**：
 
-[一手资料1](https://drive.google.com/drive/folders/1zSYlUJaUCjrqhUwIsS3H7UhyVBCD-7GD)（访问 2026-11-07）
+[一手资料1]( 2026-11-07）
 
 
 ### 其他官方资料
 
 - - **kind**：中文介绍 Google Doc
   - **id**：10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0
-  - **webViewLink**：https://docs.google.com/document/d/10JG8gXXEf2Ztv2XsbMxIHl5xlk91cQX1b9nmf8-aGD0/edit?usp=drivesdk
-- - **type**：本轮核验的官方原始资料
+  - **webViewLink**：
+- - **type**：核验的官方原始资料
   - **url**：https://huggingface.co/datasets/google/frames-benchmark
   - **accessed**：2026-11-07
 
 [一手资料1](https://huggingface.co/datasets/google/frames-benchmark)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq
-- **webViewLink**：https://drive.google.com/file/d/12q4xCRz_D8WiC27veCZz7ZOgQsMshCzq/view?usp=drivesdk
+- **webViewLink**：
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul
+  - **timezone**：
   - **change**：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul
-  - **change**：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+  - **timezone**：
+  - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
   - **fields_updated**：- data_format.size
     - data_format.languages
     - data_format.question_types
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

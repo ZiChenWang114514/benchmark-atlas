@@ -1,6 +1,6 @@
 # SWE-Bench Pro V2
 
-> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
 SWE-Bench Pro V2是同系列公开集的修订与隔离协议，不是SWE-bench Verified的新名字。默认642任务、HARD-51与保留的旧731题需要明确区分；agent离线、清洁镜像重评和双向发布门控是本版关键变化。官方Full与HARD榜分别记录，Rank(UB)按置信区间而非普通同分规则给名次。
 
@@ -50,7 +50,7 @@ v2（论文版本；不等于数据集版本）
 
 ```json
 [
-  "长程软件工程",
+  "长程软件工程"
   "代码 agent"
 ]
 ```
@@ -191,7 +191,7 @@ copyleft 许可降低进入训练语料可能；V2 agent 阶段仅能访问模�
 
 ```json
 [
-  "代码",
+  "代码"
   "文本"
 ]
 ```
@@ -252,7 +252,7 @@ V2 与原731题公开集及 SWE-bench Verified 不可直接比较；不同 harne
 
 ### 复核日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）
 
@@ -260,41 +260,41 @@ V2 与原731题公开集及 SWE-bench Verified 不可直接比较；不同 harne
 
 ```json
 {
-  "version": "V2",
+  "version": "V2"
   "evidence_2026_h2": [
     {
-      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
-      "date": "2026-11-07",
-      "organization": "Scale AI",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
+      "date": "2026-11-07"
+      "organization": "Scale AI"
       "note": "当前官方榜单及方法公开；Scale当前长程代码主榜，V2是专门刷新且网络隔离的新协议，不是SWE-bench Verified别名。"
-    },
+    }
     {
-      "url": "https://labs.scale.com/leaderboard",
-      "date": "2026-11-07",
-      "organization": "Scale AI",
+      "url": "https://labs.scale.com/leaderboard"
+      "date": "2026-11-07"
+      "organization": "Scale AI"
       "note": "Scale当前总榜将SWE-bench Pro V2单列，并展示当前前沿模型结果。"
-    },
+    }
     {
-      "url": "https://labs.scale.com/blog/swe-bench-pro-v2",
-      "date": "2026-11-07",
-      "organization": "Scale AI",
+      "url": "https://labs.scale.com/blog/swe-bench-pro-v2"
+      "date": "2026-11-07"
+      "organization": "Scale AI"
       "note": "官方V2升级说明及Full/Hard结果；Hard仅切片，不重复计数。"
-    },
+    }
     {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-      "date": "2026-09-01",
-      "organization": "Epoch AI",
+      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+      "date": "2026-09-01"
+      "organization": "Epoch AI"
       "note": "Epoch 9月1日审查SWE-Bench Pro，结论Flawed；该历史审查不能自动等同V2质量结论。"
     }
-  ],
+  ]
   "trending": {
-    "heat_confidence": "A",
+    "heat_confidence": "A"
     "summary": "Scale 当前长程代码主榜，V2 为刷新且网络隔离的新协议；Epoch AI 亦有收录。"
   }
 }
 ```
 
-> 近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+> 近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 [来源1](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-07）；[来源2](https://labs.scale.com/leaderboard)（访问 2026-11-07）；[来源3](https://labs.scale.com/blog/swe-bench-pro-v2)（访问 2026-11-07）；[来源4](https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks)（访问 2026-11-07）
 
@@ -326,7 +326,7 @@ Full当前最高99.40±0.40%，HARD-51最高98.00±0.00%（官方当前表值，
 
 ### 快照日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
@@ -442,15 +442,15 @@ https://arxiv.org/pdf/2509.16941v2
 
 [来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 38bafe017fe2e259f27aba35ec3583b0332af001d4a8e7b3330e522076beeb0f
 
-> 本次实际下载的PDF字节计算；未上传Drive。
+> 本次实际下载的PDF字节计算；未上传。
 
 [来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 1585853
@@ -458,7 +458,7 @@ https://arxiv.org/pdf/2509.16941v2
 
 [来源1](https://arxiv.org/pdf/2509.16941v2)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -471,23 +471,23 @@ https://arxiv.org/pdf/2509.16941v2
 ```json
 [
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://arxiv.org/abs/2509.16941",
+    "type": "已打开一手材料"
+    "url": "https://arxiv.org/abs/2509.16941"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+    "type": "已打开一手材料"
+    "url": "https://github.com/scaleapi/SWE-bench_Pro-os"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "type": "已打开一手材料"
+    "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+    "type": "已打开一手材料"
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
     "accessed": "2026-11-08"
   }
 ]
@@ -495,7 +495,7 @@ https://arxiv.org/pdf/2509.16941v2
 
 [来源1](https://arxiv.org/abs/2509.16941)（访问 2026-11-08）；[来源2](https://github.com/scaleapi/SWE-bench_Pro-os)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro)（访问 2026-11-08）；[来源4](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
@@ -506,14 +506,14 @@ https://arxiv.org/pdf/2509.16941v2
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

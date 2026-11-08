@@ -1,7 +1,7 @@
 {
   "id": "qmof",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "QMOF",
@@ -155,7 +155,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
       "value": [
@@ -402,7 +402,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
@@ -438,7 +438,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "需区分QMOF版本、训练/测试结构及DFT泛函；维护方v13对比和NIST协议不能默认相同。原始2021论文PDF本轮Cell/化学预印本下载仍受403限制；仅重开ChemRxiv摘要、仓库、NIST及2026下游论文，未以其他论文冒充原始PDF。",
+      "value": "需区分QMOF版本、训练/测试结构及DFT泛函；维护方v13对比和NIST协议不能默认相同。原始2021论文PDFCell/化学预印本下载仍受403限制；仅重开ChemRxiv摘要、仓库、NIST及2026下游论文，未以其他论文冒充原始PDF。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
@@ -470,7 +470,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
+      "value": "2026-11-08 （采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md",
@@ -506,7 +506,7 @@
           "track": "ALIGNN 2.0作者论文v1 Table 2 / 固定16340-2042-2042",
           "source_url": "https://arxiv.org/pdf/2609.19487",
           "source_date": "2026-09-17",
-          "collected_at": "2026-11-08 KST / Asia/Seoul"
+          "collected_at": "2026-11-08"
         },
         {
           "rank": null,
@@ -516,7 +516,7 @@
           "track": "ALIGNN 2.0作者论文v1 Table 2 / 固定16340-2042-2042",
           "source_url": "https://arxiv.org/pdf/2609.19487",
           "source_date": "2026-09-17",
-          "collected_at": "2026-11-08 KST / Asia/Seoul"
+          "collected_at": "2026-11-08"
         },
         {
           "rank": null,
@@ -526,7 +526,7 @@
           "track": "ALIGNN 2.0作者论文补充Table S2 / radius消融",
           "source_url": "https://arxiv.org/pdf/2609.19487",
           "source_date": "2026-09-17",
-          "collected_at": "2026-11-08 KST / Asia/Seoul"
+          "collected_at": "2026-11-08"
         },
         {
           "rank": null,
@@ -536,7 +536,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul"
+          "collected_at": "2026-11-08"
         },
         {
           "rank": null,
@@ -546,7 +546,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.004
         },
         {
@@ -557,7 +557,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.005
         },
         {
@@ -568,7 +568,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.006
         },
         {
@@ -579,7 +579,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.004
         },
         {
@@ -590,7 +590,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.004
         },
         {
@@ -601,7 +601,7 @@
           "track": "QMOF维护方 / v13 / 80%训练",
           "source_url": "https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md",
           "source_date": null,
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_plus_minus": 0.011
         },
         {
@@ -612,7 +612,7 @@
           "track": "NIST JARVIS / qmof_bandgap / 20424样本",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
           "source_date": "01-14-2023",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "team": "ALIGNN",
           "dataset_size": 20424,
           "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
@@ -625,7 +625,7 @@
           "track": "NIST JARVIS / qmof_bandgap / 20424样本",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
           "source_date": "05-22-2023",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "team": "UofT",
           "dataset_size": 20424,
           "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
@@ -638,7 +638,7 @@
           "track": "NIST JARVIS / qmof_bandgap / 20424样本",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/",
           "source_date": "05-22-2023",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "team": "UofT",
           "dataset_size": 20424,
           "date_note": "官网仅给提交日MM-DD-YYYY，无时区或精确时刻。"
@@ -708,7 +708,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "仅记录官方项目材料明确公开的研究联络方式与Issues，不收集或推断私人资料。",
@@ -730,7 +730,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -741,7 +741,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -752,13 +752,10 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "drive_folder": {
-      "value": {
-        "id": "16710civVuRQy4imv33HqI4LGvAE8rIGF",
-        "webViewLink": "https://drive.google.com/drive/folders/16710civVuRQy4imv33HqI4LGvAE8rIGF"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://doi.org/10.1016/j.matt.2021.02.015",
@@ -791,24 +788,21 @@
       }
     ],
     "status": "待核实",
-    "note": "原始2021论文PDF的公开下载入口本轮被站点拦截；未用别篇论文冒充。"
+    "note": "原始2021论文PDF的公开下载入口被站点拦截；未用别篇论文冒充。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+        "change": "最近复核"
       }
     ],
     "sources": [

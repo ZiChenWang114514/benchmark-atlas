@@ -1,5 +1,5 @@
 # LongBench v2
-> 核验：2026-11-08（KST / Asia/Seoul）。第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
+> 核验：2026-11-08。官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
 
 LongBench v2使用真实长材料上的四选一问题，重点是深层理解与推理而非单纯检索。长度单位是words；503道题虽在HF命名为train，实为公开评测题。直接回答和CoT是两个独立协议，官网数据许可与软件许可也应分开。
 
@@ -97,13 +97,13 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S8](https://longbench2.github.io/)
+**核查日**：2026-11-08 [S8](https://longbench2.github.io/)
 
 **数据版本与持续使用**：v2 [S9](https://huggingface.co/datasets/THUDM/LongBench-v2)
 
-**论文版本与证据历史**：v1 2024-12-20T03:59:17+09:00（KST）；v2 2025-01-03T20:44:51+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S3](https://arxiv.org/abs/2412.15204)
+**论文版本与证据历史**：v1 2024-12-20；v2 2025-01-03。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S3](https://arxiv.org/abs/2412.15204)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：官网可读最高 overall w/CoT 为 63.3%，不足以据此宣布全部长上下文任务已饱和；其静态表更新时间也需谨慎。 [S10](https://longbench2.github.io/)
 
@@ -115,7 +115,7 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S11](https://longbench2.github.io/#leaderboard)
+**快照日**：2026-11-08 [S11](https://longbench2.github.io/#leaderboard)
 
 **官方榜入口**：https://longbench2.github.io/#leaderboard [S10](https://longbench2.github.io/)
 
@@ -212,7 +212,7 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 **官方发布渠道**：https://x.com/realYushiBai/status/1869946577349132766 [S7](https://github.com/THUDM/LongBench)
 
-> 官方README所链接的项目发布Thread；未在本轮读取X内容。
+> 官方README所链接的项目发布Thread；未在读取X内容。
 
 **隐私口径**：只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。 [S12](urn:benchmark-atlas:constitution:v0.1)
 
@@ -222,21 +222,21 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 **PDF SHA-256**：35e7e66bb3323d8da0a6dde553a9f5fc9be97ed3232d87a24be89f5a8f9024d5 [S6](https://arxiv.org/pdf/2412.15204)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：9951437 [S6](https://arxiv.org/pdf/2412.15204)
 
-**原有Drive文件夹**：{"id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE", "webViewLink": "https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE"} [S14](https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE)
+**原有文件夹**：{"id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE", "webViewLink": " [S14](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": "https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk"}] [S15](https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk)
+**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": " [S15](
 
-**原有Drive PDF**：{"id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx", "webViewLink": "https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk"} [S16](https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk)
+**原有 PDF**：{"id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx", "webViewLink": " [S16](
 
 ## 变更记录
 
 - 2026-11-07 · 首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- 2026-11-07 · 第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2412.15204) [S13](https://arxiv.org/pdf/2412.15204) [S2](https://github.com/THUDM/LongBench) [S8](https://longbench2.github.io/)
 
 ### 来源索引
@@ -256,6 +256,6 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 - S11 · [https://longbench2.github.io/#leaderboard](https://longbench2.github.io/#leaderboard) · 访问 2026-11-08
 - S12 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
 - S13 · [https://arxiv.org/pdf/2412.15204](https://arxiv.org/pdf/2412.15204) · 访问 2026-11-07
-- S14 · [https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE](https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE) · 访问 2026-11-07
-- S15 · [https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk](https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk) · 访问 2026-11-07
-- S16 · [https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk](https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk) · 访问 2026-11-07
+- S14 · [ · 访问 2026-11-07
+- S15 · [ · 访问 2026-11-07
+- S16 · [ · 访问 2026-11-07

@@ -1,10 +1,10 @@
 # RealWorldQA
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
-RealWorldQA由真实场景图像与易验证问答组成，主要考查基础空间理解；官方初始HF test有765行。它的原始发布证据是2024年公告和数据卡，本轮未确认独立原始论文或官方代码仓库，不以其他模型论文充当基准原件。2024厂商首发比较与2026研究模型裁判协议严格分开。
+RealWorldQA由真实场景图像与易验证问答组成，主要考查基础空间理解；官方初始HF test有765行。它的原始发布证据是2024年公告和数据卡，未确认独立原始论文或官方代码仓库，不以其他模型论文充当基准原件。2024厂商首发比较与2026研究模型裁判协议严格分开。
 
-编辑状态：第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+最近复核
 
 ## 1. 基本信息
 
@@ -30,13 +30,13 @@ RealWorldQA
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
 ### 发布时间
 
-2024-04-12（官方发布页自写日历日期，无精确时刻/时区，不能伪造KST小时）。
+2024-04-12（官方发布页自写日历日期，无精确时刻/时区，不能伪造小时）。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）
 
@@ -68,7 +68,7 @@ CC BY-ND 4.0
 
 待核实
 
-> 本轮检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。
+> 检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）；[2](https://huggingface.co/datasets/xai-org/RealworldQA)（访问 2026-11-07）
 
@@ -76,7 +76,7 @@ CC BY-ND 4.0
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -96,7 +96,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。
+> 检查xAI Grok-1.5 Vision Preview公告及xai-org/RealworldQA官方数据卡：未找到独立benchmark论文链接或题名；两页均未明确声称“不存在论文”或“未公开论文”，故撤销未公开，恢复待核实。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）；[2](https://huggingface.co/datasets/xai-org/RealworldQA)（访问 2026-11-07）
 
@@ -112,7 +112,7 @@ xAI发布并在xai-org维护数据集。
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -120,7 +120,7 @@ xAI发布并在xai-org维护数据集。
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -134,7 +134,7 @@ xai-org官方数据集发布账号
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -164,7 +164,7 @@ xai-org官方数据集发布账号
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -184,7 +184,7 @@ xai-org官方数据集发布账号
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -250,7 +250,7 @@ xai-org官方数据集发布账号
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -264,7 +264,7 @@ xai-org官方数据集发布账号
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）
 
@@ -272,30 +272,30 @@ xai-org官方数据集发布账号
 
 ```json
 {
-  "release": "官方initial release；test 765行",
-  "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd",
-  "hf_last_modified_kst": "2024-04-19T08:05:22+09:00",
-  "timezone": "Asia/Seoul",
+  "release": "官方initial release；test 765行"
+  "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd"
+  "hf_last_modified_kst": "2024-04-19"
+  "timezone": ""
   "note": "仓库最后修改时间不是初次发布日，也不代表新增题目版本。"
 }
 ```
 
-[1](https://huggingface.co/datasets/xai-org/RealworldQA/raw/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/api/datasets/xai-org/RealworldQA)（访问 2026-11-08）
+[1](https://huggingface.co/datasets/xai-org/RealworldQA/raw/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/xai-org/RealworldQA)（访问 2026-11-08）
 
 ### 论文修订
 
 ```json
 {
-  "revisions": [],
+  "revisions": []
   "continued_use_2026h2": [
     {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-23",
-      "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-      "date_kst": "2026-10-23T01:54:37+09:00",
-      "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+      "url": "https://arxiv.org/html/2610.01352v2"
+      "date": "2026-10-23"
+      "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+      "date_kst": "2026-10-23"
+      "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
     }
-  ],
+  ]
   "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
 }
 ```
@@ -310,7 +310,7 @@ xai-org官方数据集发布账号
 
 ### 污染/限制/争议
 
-首发公告over700和官方HF test 765不冲突；2024厂商首发分数不作2026实时独立榜单。独立原始论文/PDF仍待核实：仅未在本轮检查的公告与数据卡找到，不等于不存在，禁止其他论文冒充。
+首发公告over700和官方HF test 765不冲突；2024厂商首发分数不作2026实时独立榜单。独立原始论文/PDF仍待核实：仅未在检查的公告与数据卡找到，不等于不存在，禁止其他论文冒充。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）；[2](https://huggingface.co/datasets/xai-org/RealworldQA)（访问 2026-11-07）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07）
 
@@ -318,7 +318,7 @@ xai-org官方数据集发布账号
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -326,7 +326,7 @@ xai-org官方数据集发布账号
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）
 
@@ -340,7 +340,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07）
 
@@ -365,7 +365,7 @@ https://x.ai/news/grok-1.5v
 | MMVistaReason论文v2 Table 2 / 作者研究评测 | — | [MVR 4B](https://arxiv.org/html/2610.01352v2) | 77.4 | 论文协议accuracy (%)，CompassVerifier模型裁判 | 2026-10-23 |
 | MMVistaReason论文v2 Table 2 / 作者研究评测 | — | [MVR 9B](https://arxiv.org/html/2610.01352v2) | 77.4 | 论文协议accuracy (%)，CompassVerifier模型裁判 | 2026-10-23 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）；[2](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
@@ -381,7 +381,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -389,7 +389,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -397,7 +397,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -413,7 +413,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -421,7 +421,7 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
@@ -429,36 +429,36 @@ https://x.ai/news/grok-1.5v
 
 待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd",
-  "webViewLink": "https://drive.google.com/drive/folders/11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd"
+  "id": "11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd"
+  "webViewLink": "
 }
 ```
 
-[1](https://drive.google.com/drive/folders/11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd)（访问 2026-11-07）
+[1]( 2026-11-07）
 
 ### 其他材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw",
-    "webViewLink": "https://docs.google.com/document/d/1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw"
+    "webViewLink": "
   }
 ]
 ```
 
-[1](https://docs.google.com/document/d/1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw/edit?usp=drivesdk)（访问 2026-11-07）
+[1]( 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -468,20 +468,20 @@ https://x.ai/news/grok-1.5v
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "round": "1 / 深度实证复核",
-    "change": "撤销论文题名和URL未公开断言，恢复待核实并注明查过的官方页；重核H2且换算KST。未伪造原始PDF。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    "round": "1 / 深度实证复核"
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

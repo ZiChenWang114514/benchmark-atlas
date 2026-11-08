@@ -1,8 +1,8 @@
 # AstroBench
 
-> 核查：2026-11-07（Asia/Shanghai，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2024-07-16 03:28:14（Asia/Shanghai，UTC+8；原论文arXiv v1提交时刻）
+2024-07-16 03:28:14（，UTC+8；原论文arXiv v1提交时刻）
 
 来源：[1]
 
@@ -128,7 +128,7 @@ AstroMLab：天文学与AI研究者协作团队，官方HF组织维护数据与�
 
 ## 3. 设计目标
 
-本轮最重要的变化是补上官方后续论文：4425题原始内部实验与3846题公开清理版之间的差异已有明确清理说明。它主要测试天文知识召回；不能把博士领域定位直接当作原创科研能力证明。
+最重要的变化是补上官方后续论文：4425题原始内部实验与3846题公开清理版之间的差异已有明确清理说明。它主要测试天文知识召回；不能把博士领域定位直接当作原创科研能力证明。
 来源：[1][2][3][2][4]
 
 ### 测量能力
@@ -251,25 +251,25 @@ HF名为train的split只公开题干与A/B/C/D选项，故意不含正确答案�
 
 ### 核查日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
 ### 当前发布
 
-本轮打开HF公开Astrobench_MCQ_v1_Public，3846题；2026-02修订AstroMLab-4使用同一清理版，不把模型论文版本当作新数据版本。
+打开HF公开Astrobench_MCQ_v1_Public，3846题；2026-02修订AstroMLab-4使用同一清理版，不把模型论文版本当作新数据版本。
 
 来源：[3][7]
 
 ### 版本脉络
 
-original_paper：v1：2024-07-16T03:28:14+08:00；v2：2024-11-09T06:00:26+08:00；later_evaluation_paper：url：https://arxiv.org/abs/2505.17592；v1：2025-05-23T15:58:50+08:00；v2：2026-02-20T07:28:22+08:00
+original_paper：v1：2024-07-16；v2：2024-11-09；later_evaluation_paper：url：https://arxiv.org/abs/2505.17592；v1：2025-05-23；v2：2026-02-20
 
 来源：[1][7]
 
 ### 分数上限与饱和度
 
-2026-02 AstroMLab-4表1最高Gemini 3.0 Flash 90.3%（3846题）；仍有错误，不据此宣布本轮2026-11全球实时SOTA或完全饱和。
+2026-02 AstroMLab-4表1最高Gemini 3.0 Flash 90.3%（3846题）；仍有错误，不据此宣布2026-11全球实时SOTA或完全饱和。
 
 来源：[4]
 
@@ -289,7 +289,7 @@ HF组织还列Astrobench_MCQ_v1_Chinese_Public（中文公开版）；AstroSage�
 
 ### 采集日期
 
-2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）
+2026-11-07（，UTC+8；采集日，不是实验日）
 
 来源：[1]
 
@@ -323,11 +323,11 @@ https://arxiv.org/pdf/2505.17592
 | 3 | Claude 4.5 Opus | 89.0 | accuracy (%) |
 | 5 | Gemini 3.0 Pro | 88.9 | accuracy (%) |
 
-- Gemini 3.0 Flash：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（Asia/Shanghai；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- GPT-5.2：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（Asia/Shanghai；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- AstroSage-Llama-3.1-70B：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（Asia/Shanghai；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- Claude 4.5 Opus：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（Asia/Shanghai；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- Gemini 3.0 Pro：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（Asia/Shanghai；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Gemini 3.0 Flash：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- GPT-5.2：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- AstroSage-Llama-3.1-70B：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Claude 4.5 Opus：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Gemini 3.0 Pro：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
 
 #### AstroMLab-1 v2表1/2：4425题内部集（历史）
 
@@ -347,7 +347,7 @@ https://arxiv.org/pdf/2505.17592
 
 ### 覆盖边界
 
-本轮优先转录2026-02-20（Asia/Shanghai）修订AstroMLab-4表1，并保留原始2024内部集作为独立历史轨。119模型是该论文覆盖数，不是2026-11已评119个最新模型；HF组织卡旧分数不与新版表混排。
+优先转录2026-02-20修订AstroMLab-4表1，并保留原始2024内部集作为独立历史轨。119模型是该论文覆盖数，不是2026-11已评119个最新模型；HF组织卡旧分数不与新版表混排。
 
 来源：[7][4][5]
 
@@ -399,7 +399,7 @@ b31348a943177637d2e96d698974d5566a42a33f06e7c4a5772f2104984e074e
 
 来源：[2]
 
-说明：本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。
+说明：实际下载的源站PDF字节校验；未声称重新核验文件内容。
 
 ### 下载源文件字节数
 
@@ -407,31 +407,31 @@ b31348a943177637d2e96d698974d5566a42a33f06e7c4a5772f2104984e074e
 
 来源：[2]
 
-### 既有Drive文件夹
+### 既有文件夹
 
-id：1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L；webViewLink：https://drive.google.com/drive/folders/1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L
+id：1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L；webViewLink：
 
 来源：[9]
 
 ### 其他材料
 
-- kind：中文介绍 Google Doc；id：1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8；webViewLink：https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk
+- kind：中文介绍 Google Doc；id：1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8；webViewLink：
 
 来源：[10]
 
-### 既有Drive PDF链接
+### 既有 PDF链接
 
-id：1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT；webViewLink：https://drive.google.com/file/d/1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT/view?usp=drivesdk
+id：1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT；webViewLink：
 
 来源：[11]
 
-> 本轮没有上传或改写Drive文件。以上SHA-256和字节数针对本轮实际下载的源站PDF，不等于重新核验既有Drive文件。
+> 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
 ## 11. 变更记录
 
-- 2026-11-07（Asia/Seoul）：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- 2026-11-07（Asia/Seoul）：第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（Asia/Shanghai (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。
+- 2026-11-07：首批官方材料核验、中文改写、；未核实字段显式标记。
+- 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1][2]
 
@@ -445,6 +445,6 @@ id：1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT；webViewLink：https://drive.google.com/
 [6]: https://arxiv.org/html/2407.11194v2 "访问 2026-11-07"
 [7]: https://arxiv.org/abs/2505.17592 "访问 2026-11-07"
 [8]: urn:benchmark-atlas:constitution:v0.1 "访问 2026-11-07"
-[9]: https://drive.google.com/drive/folders/1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L "访问 2026-11-07"
-[10]: https://docs.google.com/document/d/1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8/edit?usp=drivesdk "访问 2026-11-07"
-[11]: https://drive.google.com/file/d/1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT/view?usp=drivesdk "访问 2026-11-07"
+[9]: "访问 2026-11-07"
+[10]: "访问 2026-11-07"
+[11]: "访问 2026-11-07"

@@ -1,7 +1,7 @@
 {
   "id": "longbench-v2",
   "schema_version": "0.1.0",
-  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "LongBench v2",
@@ -367,7 +367,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://longbench2.github.io/",
@@ -389,25 +389,21 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2024-12-20T03:59:17+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-12-20"
           },
           {
             "version": "v2",
-            "submitted_at": "2025-01-03T20:44:51+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2025-01-03"
           }
         ],
         "previous_evidence": [
           {
             "version": "v1",
-            "submitted_at": "2024-12-20T03:59:17+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-12-20"
           },
           {
             "version": "v2",
-            "submitted_at": "2025-01-03T20:44:51+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2025-01-03"
           }
         ]
       },
@@ -417,7 +413,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。"
     },
     "saturation": {
       "value": "官网可读最高 overall w/CoT 为 63.3%，不足以据此宣布全部长上下文任务已饱和；其静态表更新时间也需谨慎。",
@@ -451,7 +447,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://longbench2.github.io/#leaderboard",
@@ -489,7 +485,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Human",
           "context": "N/A",
           "source_model_date": "N/A",
@@ -510,7 +506,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "MiniMax-Text-01 MiniMax",
           "context": "4M",
           "source_model_date": "2025-01-15",
@@ -531,7 +527,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o OpenAI",
           "context": "128k",
           "source_model_date": "2024-08-06",
@@ -552,7 +548,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-Exp-1206 Google",
           "context": "2M",
           "source_model_date": "2024-12-06",
@@ -573,7 +569,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-2.0-Flash Google",
           "context": "1M",
           "source_model_date": "2024-12-11",
@@ -594,7 +590,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-235B-A22B-Instruct-2507 Alibaba",
           "context": "256k",
           "source_model_date": "2025-07-22",
@@ -615,7 +611,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o OpenAI",
           "context": "128k",
           "source_model_date": "2024-11-20",
@@ -636,7 +632,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Kimi-K2-Instruct Moonshot AI",
           "context": "128k",
           "source_model_date": "2025-07-11",
@@ -657,7 +653,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4-Plus Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2024-10-11",
@@ -678,7 +674,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen2.5-72B Alibaba",
           "context": "128k",
           "source_model_date": "2024-09-19",
@@ -699,7 +695,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Claude 3.5 Sonnet Anthropic",
           "context": "200k",
           "source_model_date": "2024-10-22",
@@ -720,7 +716,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-235B-A22B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -741,7 +737,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-32B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -762,7 +758,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "o1-mini OpenAI",
           "context": "128k",
           "source_model_date": "2024-09-12",
@@ -783,7 +779,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Mistral Large 24.11 Mistral AI",
           "context": "128k",
           "source_model_date": "2024-11-24",
@@ -804,7 +800,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-30B-A3B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -825,7 +821,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.1 70B Meta",
           "context": "128k",
           "source_model_date": "2024-07-23",
@@ -846,7 +842,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Nemotron 70B Nvidia",
           "context": "128k",
           "source_model_date": "2024-10-15",
@@ -867,7 +863,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "NExtLong 8B CAS",
           "context": "512k",
           "source_model_date": "2025-01-23",
@@ -888,7 +884,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4-9B Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2024-06-05",
@@ -909,7 +905,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen2.5-7B Alibaba",
           "context": "128k",
           "source_model_date": "2024-09-19",
@@ -930,7 +926,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.1 8B Meta",
           "context": "128k",
           "source_model_date": "2024-07-23",
@@ -951,7 +947,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.3 70B Meta",
           "context": "128k",
           "source_model_date": "2024-12-06",
@@ -972,7 +968,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o mini OpenAI",
           "context": "128k",
           "source_model_date": "2024-07-18",
@@ -993,7 +989,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Command R+ Cohere",
           "context": "128k",
           "source_model_date": "2024-08-30",
@@ -1014,7 +1010,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Mistral Large 2 Mistral AI",
           "context": "128k",
           "source_model_date": "2024-07-24",
@@ -1035,7 +1031,7 @@
           "track": "官方：直接回答",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Random",
           "context": "N/A",
           "source_model_date": "N/A",
@@ -1056,7 +1052,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-2.5-Pro 🧠 Google",
           "context": "1M",
           "source_model_date": "2025-03-25",
@@ -1077,7 +1073,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-2.5-Flash 🧠 Google",
           "context": "1M",
           "source_model_date": "2025-04-17",
@@ -1098,7 +1094,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-235B-A22B-Thinking-2507 🧠 Alibaba",
           "context": "256k",
           "source_model_date": "2025-07-25",
@@ -1119,7 +1115,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "DeepSeek-R1 🧠 DeepSeek",
           "context": "128k",
           "source_model_date": "2025-01-20",
@@ -1140,7 +1136,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-235B-A22B-Instruct-2507 Alibaba",
           "context": "256k",
           "source_model_date": "2025-07-22",
@@ -1161,7 +1157,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "o1-preview 🧠 OpenAI",
           "context": "128k",
           "source_model_date": "2024-09-12",
@@ -1182,7 +1178,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "DeepSeek-R1-0528 🧠 DeepSeek",
           "context": "128k",
           "source_model_date": "2025-05-28",
@@ -1203,7 +1199,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "MiniMax-Text-01 MiniMax",
           "context": "4M",
           "source_model_date": "2025-01-15",
@@ -1224,7 +1220,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-2.0-Flash-Thinking 🧠 Google",
           "context": "1M",
           "source_model_date": "2025-01-21",
@@ -1245,7 +1241,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Human",
           "context": "N/A",
           "source_model_date": "N/A",
@@ -1266,7 +1262,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-Exp-1206 Google",
           "context": "2M",
           "source_model_date": "2024-12-06",
@@ -1287,7 +1283,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o OpenAI",
           "context": "128k",
           "source_model_date": "2024-11-20",
@@ -1308,7 +1304,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o OpenAI",
           "context": "128k",
           "source_model_date": "2024-08-06",
@@ -1329,7 +1325,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Gemini-2.0-Flash Google",
           "context": "1M",
           "source_model_date": "2024-12-11",
@@ -1350,7 +1346,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4.5 🧠 Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2025-07-28",
@@ -1371,7 +1367,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-30B-A3B-Thinking-2507 🧠 Alibaba",
           "context": "256k",
           "source_model_date": "2025-07-25",
@@ -1392,7 +1388,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-235B-A22B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -1413,7 +1409,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-32B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -1434,7 +1430,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "QwQ-32B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-03-06",
@@ -1455,7 +1451,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4.5-Air 🧠 Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2025-07-28",
@@ -1476,7 +1472,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Claude 3.5 Sonnet Anthropic",
           "context": "200k",
           "source_model_date": "2024-10-22",
@@ -1497,7 +1493,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4-Plus Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2024-10-11",
@@ -1518,7 +1514,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Kimi-K2-Instruct Moonshot AI",
           "context": "128k",
           "source_model_date": "2025-07-11",
@@ -1539,7 +1535,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen2.5-72B Alibaba",
           "context": "128k",
           "source_model_date": "2024-09-19",
@@ -1560,7 +1556,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen3-30B-A3B 🧠 Alibaba",
           "context": "128k",
           "source_model_date": "2025-04-29",
@@ -1581,7 +1577,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Mistral Large 24.11 Mistral AI",
           "context": "128k",
           "source_model_date": "2024-11-24",
@@ -1602,7 +1598,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "o1-mini OpenAI",
           "context": "128k",
           "source_model_date": "2024-09-12",
@@ -1623,7 +1619,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.1 70B Meta",
           "context": "128k",
           "source_model_date": "2024-07-23",
@@ -1644,7 +1640,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.3 70B Meta",
           "context": "128k",
           "source_model_date": "2024-12-06",
@@ -1665,7 +1661,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Qwen2.5-7B Alibaba",
           "context": "128k",
           "source_model_date": "2024-09-19",
@@ -1686,7 +1682,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Nemotron 70B Nvidia",
           "context": "128k",
           "source_model_date": "2024-10-15",
@@ -1707,7 +1703,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Mistral Large 2 Mistral AI",
           "context": "128k",
           "source_model_date": "2024-07-24",
@@ -1728,7 +1724,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GPT-4o mini OpenAI",
           "context": "128k",
           "source_model_date": "2024-07-18",
@@ -1749,7 +1745,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "NExtLong 8B CAS",
           "context": "512k",
           "source_model_date": "2025-01-23",
@@ -1770,7 +1766,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Command R+ Cohere",
           "context": "128k",
           "source_model_date": "2024-08-30",
@@ -1791,7 +1787,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "GLM-4-9B Z.ai & Tsinghua",
           "context": "128k",
           "source_model_date": "2024-06-05",
@@ -1812,7 +1808,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Llama 3.1 8B Meta",
           "context": "128k",
           "source_model_date": "2024-07-23",
@@ -1833,7 +1829,7 @@
           "track": "官方：w/ CoT",
           "source_url": "https://longbench2.github.io/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_model_label": "Random",
           "context": "N/A",
           "source_model_date": "N/A",
@@ -1893,7 +1889,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "官方README所链接的项目发布Thread；未在本轮读取X内容。"
+      "note": "官方README所链接的项目发布Thread；未在读取X内容。"
     },
     "privacy_policy": {
       "value": "只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。",
@@ -1923,7 +1919,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 9951437,
@@ -1935,13 +1931,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE",
-        "webViewLink": "https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1949,27 +1942,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8",
-          "webViewLink": "https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx",
-      "webViewLink": "https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1978,18 +1966,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license",
           "basic_info.paper_version",

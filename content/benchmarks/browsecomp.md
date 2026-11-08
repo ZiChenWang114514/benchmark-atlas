@@ -1,6 +1,6 @@
 # BrowseComp
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution · 深度复核：2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
 BrowseComp用短答案衡量长程网页检索：答案容易核验，寻找答案却可能需要持续搜索、重述查询和交叉约束。它不是对真实用户查询的随机抽样，也不评价长报告是否实用。原论文明确使用AI裁判核对语义等价性，因此第三方追踪页“不需要LLM judge”的说法不能覆盖官方协议；多agent、压缩策略和运行预算不同的分数也不应被当作同协议排名。
 
@@ -50,8 +50,8 @@ Agent
 
 ```json
 [
-  "深度搜索",
-  "网页浏览",
+  "深度搜索"
+  "网页浏览"
   "信息检索"
 ]
 ```
@@ -196,7 +196,7 @@ OpenAI
 
 ```json
 [
-  "文本",
+  "文本"
   "网页"
 ]
 ```
@@ -263,7 +263,7 @@ https://github.com/openai/simple-evals
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://openai.com/index/browsecomp/)（访问2026-11-08）
 
@@ -271,29 +271,29 @@ https://github.com/openai/simple-evals
 
 ```json
 {
-  "version": "v1（1,266题原始集）",
+  "version": "v1（1,266题原始集）"
   "evidence_2026_h2": [
     {
-      "url": "https://www.kimi.com/blog/kimi-k3",
-      "date": "2026-11-07",
-      "organization": "Moonshot AI",
+      "url": "https://www.kimi.com/blog/kimi-k3"
+      "date": "2026-11-07"
+      "organization": "Moonshot AI"
       "note": "Kimi K3生产力评测脚注详细规定BrowseComp上下文压缩，并报告无压缩对照。"
-    },
+    }
     {
-      "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-      "date": "2026-10-11",
-      "organization": "Steel.dev",
+      "url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+      "date": "2026-10-11"
+      "organization": "Steel.dev"
       "note": "10月11日更新的独立榜单列OpenAI、Anthropic、Moonshot多方带来源结果。"
-    },
+    }
     {
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "date": "2026-11-07",
-      "organization": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/"
+      "date": "2026-11-07"
+      "organization": "OpenAI"
       "note": "GPT-6 Astra正式发布评测表明确报告BrowseComp，作为近期厂商采用证据。"
     }
-  ],
+  ]
   "trending": {
-    "heat_confidence": "A",
+    "heat_confidence": "A"
     "summary": "OpenAI、Moonshot 等前沿发布反复采用，独立追踪器10月仍更新。"
   }
 }
@@ -301,7 +301,7 @@ https://github.com/openai/simple-evals
 
 [来源1](https://www.kimi.com/blog/kimi-k3)（访问2026-11-07）；[来源2](https://leaderboard.steel.dev/leaderboards/browsecomp.md)（访问2026-11-07）；[来源3](https://openai.com/index/gpt-6-astra/)（访问2026-11-07）
 
-> 近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+> 近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 ### 论文修订与后续使用
 
@@ -309,8 +309,8 @@ https://github.com/openai/simple-evals
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2025-04-17T07:27:45+09:00"
+      "version": "v1"
+      "submitted_at_kst": "2025-04-17"
     }
   ]
 }
@@ -340,7 +340,7 @@ BrowseComp-ZH、BrowseComp-Plus 等衍生基准不并入本条。
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://openai.com/index/browsecomp/)（访问2026-11-08）
 
@@ -361,121 +361,121 @@ https://leaderboard.steel.dev/leaderboards/browsecomp.md
 ```json
 [
   {
-    "model": "GPT-5.6 Sol Ultra",
-    "score": "92.2%",
-    "metric": "BrowseComp accuracy",
-    "note": "4个并行agent",
-    "result_type": "Steel汇总／厂商自报，非Steel独立复测",
-    "source_date": "2026-10-11",
-    "collected_at": "2026-11-07 KST",
-    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-    "reported_rank": 1,
-    "rank": null,
-    "track": "Steel 混合配置参考表／不得视为同协议排名",
+    "model": "GPT-5.6 Sol Ultra"
+    "score": "92.2%"
+    "metric": "BrowseComp accuracy"
+    "note": "4个并行agent"
+    "result_type": "Steel汇总／厂商自报，非Steel独立复测"
+    "source_date": "2026-10-11"
+    "collected_at": "2026-11-07 "
+    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+    "reported_rank": 1
+    "rank": null
+    "track": "Steel 混合配置参考表／不得视为同协议排名"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "model": "GPT-6 Astra",
-    "score": "91.5%",
-    "metric": "BrowseComp accuracy",
-    "note": "单agent",
-    "result_type": "Steel汇总／厂商自报，非Steel独立复测",
-    "source_date": "2026-10-11",
-    "collected_at": "2026-11-07 KST",
-    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-    "reported_rank": 2,
-    "rank": null,
-    "track": "Steel 混合配置参考表／不得视为同协议排名",
+    "model": "GPT-6 Astra"
+    "score": "91.5%"
+    "metric": "BrowseComp accuracy"
+    "note": "单agent"
+    "result_type": "Steel汇总／厂商自报，非Steel独立复测"
+    "source_date": "2026-10-11"
+    "collected_at": "2026-11-07 "
+    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+    "reported_rank": 2
+    "rank": null
+    "track": "Steel 混合配置参考表／不得视为同协议排名"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "model": "Kimi K3",
-    "score": "91.2%",
-    "metric": "BrowseComp accuracy",
-    "note": "300K压缩",
-    "result_type": "Steel汇总／厂商自报，非Steel独立复测",
-    "source_date": "2026-10-11",
-    "collected_at": "2026-11-07 KST",
-    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-    "reported_rank": 3,
-    "rank": null,
-    "track": "Steel 混合配置参考表／不得视为同协议排名",
+    "model": "Kimi K3"
+    "score": "91.2%"
+    "metric": "BrowseComp accuracy"
+    "note": "300K压缩"
+    "result_type": "Steel汇总／厂商自报，非Steel独立复测"
+    "source_date": "2026-10-11"
+    "collected_at": "2026-11-07 "
+    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+    "reported_rank": 3
+    "rank": null
+    "track": "Steel 混合配置参考表／不得视为同协议排名"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "model": "Claude Opus 5",
-    "score": "90.8%",
-    "metric": "BrowseComp accuracy",
-    "result_type": "Steel汇总／厂商自报，非Steel独立复测",
-    "source_date": "2026-10-11",
-    "collected_at": "2026-11-07 KST",
-    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-    "reported_rank": 4,
-    "rank": null,
-    "track": "Steel 混合配置参考表／不得视为同协议排名",
+    "model": "Claude Opus 5"
+    "score": "90.8%"
+    "metric": "BrowseComp accuracy"
+    "result_type": "Steel汇总／厂商自报，非Steel独立复测"
+    "source_date": "2026-10-11"
+    "collected_at": "2026-11-07 "
+    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+    "reported_rank": 4
+    "rank": null
+    "track": "Steel 混合配置参考表／不得视为同协议排名"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "model": "GPT-5.6 Sol",
-    "score": "90.4%",
-    "metric": "BrowseComp accuracy",
-    "result_type": "Steel汇总／厂商自报，非Steel独立复测",
-    "source_date": "2026-10-11",
-    "collected_at": "2026-11-07 KST",
-    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
-    "reported_rank": 5,
-    "rank": null,
-    "track": "Steel 混合配置参考表／不得视为同协议排名",
+    "model": "GPT-5.6 Sol"
+    "score": "90.4%"
+    "metric": "BrowseComp accuracy"
+    "result_type": "Steel汇总／厂商自报，非Steel独立复测"
+    "source_date": "2026-10-11"
+    "collected_at": "2026-11-07 "
+    "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md"
+    "reported_rank": 5
+    "rank": null
+    "track": "Steel 混合配置参考表／不得视为同协议排名"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": null,
-    "model": "OpenAI Deep Research",
-    "score": 51.5,
-    "metric": "accuracy (%)",
-    "track": "原论文Table 3／浏览系统历史实验",
-    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
-    "accessed": "2026-11-08",
+    "rank": null
+    "model": "OpenAI Deep Research"
+    "score": 51.5
+    "metric": "accuracy (%)"
+    "track": "原论文Table 3／浏览系统历史实验"
+    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf"
+    "accessed": "2026-11-08"
     "unit": "%"
-  },
+  }
   {
-    "rank": null,
-    "model": "gpt-4o-search-preview-2025-03-11",
-    "score": 1.9,
-    "metric": "accuracy (%)",
-    "track": "原论文Table 3／浏览系统历史实验",
-    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
-    "accessed": "2026-11-08",
+    "rank": null
+    "model": "gpt-4o-search-preview-2025-03-11"
+    "score": 1.9
+    "metric": "accuracy (%)"
+    "track": "原论文Table 3／浏览系统历史实验"
+    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf"
+    "accessed": "2026-11-08"
     "unit": "%"
-  },
+  }
   {
-    "rank": 1,
-    "model": "o1-2024-12-17 (medium)",
-    "score": 9.9,
-    "metric": "accuracy (%)",
-    "track": "原论文Table 3／无浏览历史实验",
-    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
-    "accessed": "2026-11-08",
+    "rank": 1
+    "model": "o1-2024-12-17 (medium)"
+    "score": 9.9
+    "metric": "accuracy (%)"
+    "track": "原论文Table 3／无浏览历史实验"
+    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf"
+    "accessed": "2026-11-08"
     "unit": "%"
-  },
+  }
   {
-    "rank": 2,
-    "model": "gpt-4.5-preview-2025-02-27",
-    "score": 0.9,
-    "metric": "accuracy (%)",
-    "track": "原论文Table 3／无浏览历史实验",
-    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
-    "accessed": "2026-11-08",
+    "rank": 2
+    "model": "gpt-4.5-preview-2025-02-27"
+    "score": 0.9
+    "metric": "accuracy (%)"
+    "track": "原论文Table 3／无浏览历史实验"
+    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf"
+    "accessed": "2026-11-08"
     "unit": "%"
-  },
+  }
   {
-    "rank": 3,
-    "model": "gpt-4o-2024-08-06",
-    "score": 0.6,
-    "metric": "accuracy (%)",
-    "track": "原论文Table 3／无浏览历史实验",
-    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
-    "accessed": "2026-11-08",
+    "rank": 3
+    "model": "gpt-4o-2024-08-06"
+    "score": 0.6
+    "metric": "accuracy (%)"
+    "track": "原论文Table 3／无浏览历史实验"
+    "source_url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf"
+    "accessed": "2026-11-08"
     "unit": "%"
   }
 ]
@@ -535,7 +535,7 @@ https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf
 
 [来源1](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf)（访问2026-11-08）
 
-> 本轮下载PDF字节的SHA-256；不表示已上传Drive。
+> 下载PDF字节的SHA-256；不表示已上传。
 
 ### PDF字节数
 
@@ -543,9 +543,9 @@ https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf
 
 [来源1](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf)（访问2026-11-08）
 
-> 本轮下载PDF字节数；Drive归档仍待核实。
+> 下载PDF字节数；归档仍待核实。
 
-### Drive目录
+### 目录
 
 待核实
 
@@ -563,7 +563,7 @@ https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf
 
 [来源1](https://arxiv.org/abs/2504.12516)（访问2026-11-07）
 
-### Drive论文归档
+### 论文归档
 
 待核实
 
@@ -574,14 +574,14 @@ https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

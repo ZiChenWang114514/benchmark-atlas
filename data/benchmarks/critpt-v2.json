@@ -1,7 +1,7 @@
 {
   "id": "critpt-v2",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；中文研究快照；note: trending: A；未核实保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "CritPt v2",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v4（2026-05-09 06:22:01 KST提交）；软件部署v2是另一个版本概念。",
+      "value": "arXiv v4（2026-05-09 06:22:01 提交）；软件部署v2是另一个版本概念。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
@@ -48,7 +48,7 @@
       ]
     },
     "release_date": {
-      "value": "原论文v1：2025-10-01 02:34:03 KST；仓库明确2025-11-21公开评测管线及70题，不能将二者视为v2首次上线日。",
+      "value": "原论文v1：2025-10-01 02:34:03；仓库明确2025-11-21公开评测管线及70题，不能将二者视为v2首次上线日。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
@@ -483,7 +483,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://critpt.com/",
@@ -523,7 +523,7 @@
       "note": "AA当前指数以40题Hard Subset计10%权重，且继续跑70题全量；Epoch 2026-10-30专项评审结论为信息不足。"
     },
     "paper_revision_history": {
-      "value": "arXiv提交：v1 2025-10-01 02:34:03 KST；v2 2025-10-01 11:12:55 KST；v3 2025-11-21 03:01:52 KST；v4 2026-05-09 06:22:01 KST。与部署数据v2分开。",
+      "value": "arXiv提交：v1 2025-10-01 02:34:03；v2 2025-10-01 11:12:55；v3 2025-11-21 03:01:52；v4 2026-05-09 06:22:01。与部署数据v2分开。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/CritPt-Benchmark/CritPt/main/README.md",
@@ -581,7 +581,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://critpt.com/",
@@ -755,7 +755,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已下载并计算SHA-256及字节数；未上传Drive。"
+      "note": "已下载并计算SHA-256及字节数；未上传。"
     },
     "sha256": {
       "value": "8762cee2328a98058fd22a2e0310c331122058f5b4255d5a57f845a31878d269",
@@ -765,7 +765,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本次下载PDF原字节散列；不声称已上传Drive。"
+      "note": "本次下载PDF原字节散列；不声称已上传。"
     },
     "pdf_bytes": {
       "value": 1308790,
@@ -803,15 +803,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1xbpLPutR1SX6KzmSXLXRLNCMwIow5tcE",
-      "webViewLink": "https://drive.google.com/file/d/1xbpLPutR1SX6KzmSXLXRLNCMwIow5tcE/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1xbpLPutR1SX6KzmSXLXRLNCMwIow5tcE/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2509.26574",
         "accessed": "2026-11-08"
@@ -822,13 +815,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
+        "change": "最近复核"
       }
     ],
     "sources": [

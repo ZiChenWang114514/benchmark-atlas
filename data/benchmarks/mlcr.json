@@ -1,7 +1,7 @@
 {
   "id": "mlcr",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MLCR / MLCR-AA",
@@ -47,7 +47,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "release_date": {
       "value": "2026-06-18首发；2026-08-31 v1.1",
@@ -98,7 +98,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "code_url": {
       "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning",
@@ -144,7 +144,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "organization": {
@@ -205,7 +205,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "design_goals": {
@@ -335,7 +335,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "difficulty": {
       "value": "原MLCR六层：Easy、Medium、Hard、Expert、Multi-part Compound、Compound Hallucination Check。AA当前页称使用最难两类expert/compound；v1.1博客称three difficult tiers，口径冲突照录，不强行统一。",
@@ -421,7 +421,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08（KST / Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md",
@@ -516,7 +516,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（；采集日，不冒充评测运行日）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/mlcr-aa",
@@ -712,7 +712,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "github_issues": {
       "value": "https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues",
@@ -732,7 +732,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -743,7 +743,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "original_files": {
@@ -756,7 +756,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -767,7 +767,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -778,7 +778,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -789,7 +789,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
       "value": [
@@ -825,19 +825,17 @@
       }
     ],
     "status": "待核实",
-    "note": "本组仅本地研究，未上传Drive。"
+    "note": "本组仅本地研究，未上传。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
+        "change": "最近复核"
       }
     ],
     "sources": [

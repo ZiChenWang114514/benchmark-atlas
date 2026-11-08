@@ -1,7 +1,7 @@
 {
   "id": "mrcr-v2",
   "schema_version": "0.1.0",
-  "editorial_status": "第二轮主源/论文/分轨成绩复核完成；研究快照；trending: B；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "OpenAI MRCR / MRCR v2",
@@ -39,13 +39,13 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "release_date": {
-      "value": "公开HF仓库创建2025-04-12 08:55:25 KST；数据卡写4/12/2025 initial publication。公开初版与厂商MRCR v2首发不是同一事实，v2首发日期待核实。",
+      "value": "公开HF仓库创建2025-04-12 08:55:25；数据卡写4/12/2025 initial publication。公开初版与厂商MRCR v2首发不是同一事实，v2首发日期待核实。",
       "sources": [
         {
-          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
           "accessed": "2026-11-08"
         },
         {
@@ -95,7 +95,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "code_url": {
       "value": "待核实",
@@ -106,7 +106,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "dataset_url": {
       "value": "https://huggingface.co/datasets/openai/mrcr",
@@ -135,7 +135,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "organization": {
@@ -157,7 +157,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "authors": {
       "value": "待核实",
@@ -168,7 +168,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "maintainer": {
       "value": "OpenAI",
@@ -188,7 +188,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "design_goals": {
@@ -249,7 +249,7 @@
       ]
     },
     "decontamination": {
-      "value": "公开数据存在训练接触可能；本轮未核实v2额外防污染措施。",
+      "value": "公开数据存在训练接触可能；未核实v2额外防污染措施。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/openai/mrcr",
@@ -372,7 +372,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。"
+      "note": "本次源站访问日期；时区；不等于榜单运行日期。"
     },
     "latest_dataset_version": {
       "value": {
@@ -383,7 +383,7 @@
             "url": "https://openai.com/index/gpt-6-astra/",
             "date": "2026-11-07",
             "date_type": "observed_on",
-            "note": "OpenAI当前发布表使用MRCR v2；本轮热度主要来自单一机构OpenAI，不能称行业广泛采用。"
+            "note": "OpenAI当前发布表使用MRCR v2；热度主要来自单一机构OpenAI，不能称行业广泛采用。"
           }
         ],
         "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
@@ -395,7 +395,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
           "accessed": "2026-11-08"
         },
         {
@@ -409,7 +409,7 @@
       "value": {
         "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射",
         "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
-        "last_modified_kst": "2025-12-09T04:10:11+09:00",
+        "last_modified_kst": "2025-12-09",
         "card_dates_verbatim": [
           "4/12/2025: Initial dataset published",
           "12/5/2025: Bugfix"
@@ -428,7 +428,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
           "accessed": "2026-11-08"
         },
         {
@@ -450,7 +450,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "contamination_and_issues": {
       "value": "公开版历史约10%样本needle过多、约5%ground truth错误，官方称已替换并添加date_added；比例指过去bug而非当前残留错误率。v2发布文未明确映射公开HF commit；重复相似请求导致的顺序辨识和最长token筛选均影响比较。",
@@ -507,7 +507,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "results": {
       "value": [
@@ -595,7 +595,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "github_issues": {
       "value": "https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈入口，不是已核验的独立GitHub仓库）",
@@ -615,7 +615,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "privacy_policy": {
       "value": "仅记录公开官方研究入口；不收集示例中占位符的姓名、地址、邮箱或其他私人联系信息。",
@@ -637,7 +637,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "sha256": {
       "value": "待核实",
@@ -648,7 +648,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "pdf_bytes": {
       "value": "待核实",
@@ -659,7 +659,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -670,7 +670,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
       "value": [
@@ -681,7 +681,7 @@
         },
         {
           "type": "公开HF commit元数据",
-          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
           "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
           "accessed": "2026-11-08"
         },
@@ -696,7 +696,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/abs/2409.12640",
           "accessed": "2026-11-08"
         }
@@ -707,7 +707,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/openai/mrcr",
+          "url": "https://huggingface.co/datasets/openai/mrcr",
           "accessed": "2026-11-08"
         },
         {
@@ -734,19 +734,17 @@
       }
     ],
     "status": "待核实",
-    "note": "本组仅本地研究，未上传Drive。"
+    "note": "本组仅本地研究，未上传。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST, UTC+9)",
-        "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+        "change": "最近复核"
       }
     ],
     "sources": [

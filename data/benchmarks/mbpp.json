@@ -1,7 +1,7 @@
 {
   "id": "mbpp",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MBPP",
@@ -41,14 +41,14 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2021-08-16 12:57:30 KST",
+      "value": "2021-08-16 12:57:30",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2108.07732",
           "accessed": "2026-11-08"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "代码",
@@ -388,7 +388,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/README.md",
@@ -420,7 +420,7 @@
       "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Augustus Odena [ view email ] [v1] 2021-08-16 12:57:30 KST (2,247 KB)",
+      "value": "Submission history From: Augustus Odena [ view email ] [v1] 2021-08-16 12:57:30 (2,247 KB)",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2108.07732",
@@ -462,7 +462,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）",
+      "value": "2026-11-08 （访问；各来源运行/提交日期另列）",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/README.md",
@@ -566,7 +566,7 @@
       "status": "待核实"
     },
     "coverage_note": {
-      "value": "原始仓库提供数据与论文，不冒充持续维护的官方分数总榜。本轮新增原论文80采样结果与2026报告整行MBPP比较，按来源和采样协议分轨；所有Hunyuan报告值的精确测试划分仍待核实。",
+      "value": "原始仓库提供数据与论文，不冒充持续维护的官方分数总榜。新增原论文80采样结果与2026报告整行MBPP比较，按来源和采样协议分轨；所有Hunyuan报告值的精确测试划分仍待核实。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/README.md",
@@ -651,7 +651,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载的arXiv原始字节；不表示已替换Drive中的旧文件。"
+      "note": "下载的arXiv原始字节；不表示已替换中的旧文件。"
     },
     "pdf_bytes": {
       "value": 1540169,
@@ -663,13 +663,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB",
-        "webViewLink": "https://drive.google.com/drive/folders/1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1lBLOX-D6U7R6GsMuUhauqxp8YiFrKuWB",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -677,18 +674,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw",
-          "webViewLink": "https://docs.google.com/document/d/18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://github.com/google-research/google-research/tree/master/mbpp",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/18bh5SmB0B_lb71z2FyPK0mJi2n75wvzwjSqinegTWWw/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -696,13 +687,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P",
-      "webViewLink": "https://drive.google.com/file/d/1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1WKLwDaRewmUx2tg1DJLInPU9kqdDOS6P/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -711,18 +699,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "补数据CC BY4.0与代码Apache2.0作用域；补sanitized四split；原论文80采样与厂商3-shot分轨。"
+        "change": "最近复核"
       }
     ],
     "sources": [
