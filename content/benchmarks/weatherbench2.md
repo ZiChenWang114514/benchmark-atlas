@@ -4,7 +4,7 @@
 
 WeatherBench 2比较全球数值天气预报的多维质量，而不是选出一个通吃的冠军。这里把2020原论文、2022官网scorecard与各模型训练年份分开，并直接转录官方图中的明确数值，拒绝从颜色估分。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ## 基本信息
 
@@ -12,7 +12,7 @@ WeatherBench 2比较全球数值天气预报的多维质量，而不是选出一
 
 WeatherBench 2
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 全称
 
@@ -20,26 +20,26 @@ WeatherBench 2
 
 > 使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 基准版本
 
 WeatherBench 2框架；代码/数据按仓库及具体存储路径管理，不将论文v2当数据版本。当前评测代码后继为WeatherBench-X，WB2数据指南仍适用。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 论文版本
 
 arXiv v2
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）。
 
 ### 发布日期
 
-- **paper_first_submission_kst**：2023-08-30
+- **paper_first_submission**：2023-08-30
 - **date_type**：论文首次提交，不等同数据集首次上线
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）。
 
 ### 主板块
 
@@ -47,49 +47,49 @@ arXiv v2
 
 > Benchmark Constitution 编辑归档；跨学科条目只在主板块计数，另用标签导航。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）。
 
 ### 领域标签
 
 - 气象科学
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 许可证
 
 代码Apache-2.0；打开GCS era5/LICENSE为Copernicus Products Licence v1.2（2019-11）：合法用途可使用，须署名及遵守再分发/修改声明要求。数据指南警告各基线许可不同、TIGGE仅供研究；不得把Apache覆盖整个数据桶。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/LICENSE)（访问 2026-11-08 ）；[2](https://storage.googleapis.com/weatherbench2/datasets/era5/LICENSE)（访问 2026-11-08 ）；[3](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/LICENSE)（访问 2026-11-08）；[2](https://storage.googleapis.com/weatherbench2/datasets/era5/LICENSE)（访问 2026-11-08）；[3](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08）。
 
 ### 论文
 
 https://arxiv.org/abs/2308.15560
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 官方代码
 
 https://github.com/google-research/weatherbench2
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 数据地址
 
 https://weatherbench2.readthedocs.io/en/latest/
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 官方入口
 
 https://sites.research.google/weatherbench/
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 论文标题
 
 WeatherBench 2: A benchmark for the next generation of data-driven global weather models
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ## 发起与维护
 
@@ -99,7 +99,7 @@ WeatherBench 2: A benchmark for the next generation of data-driven global weathe
 - Google DeepMind
 - ECMWF
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 署名合作机构
 
@@ -109,7 +109,7 @@ WeatherBench 2: A benchmark for the next generation of data-driven global weathe
 
 > 论文作者署名机构，不额外推断出资/商业合作。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 作者
 
@@ -134,21 +134,21 @@ WeatherBench 2: A benchmark for the next generation of data-driven global weathe
 
 > 按PDF首页更正Tyler Russell拼写。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 维护方
 
 Google Research的weatherbench2项目；官方README接收社区GitHub issues/contributions，并推荐迁移WeatherBench-X计分代码，WB2数据指南继续适用。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 资助
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ## 设计目标
 
@@ -156,13 +156,13 @@ Google Research的weatherbench2项目；官方README接收社区GitHub issues/co
 
 更新全球中期天气预报评测，比较数据驱动与传统数值预报。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 设计背景
 
 相较WB1，提高数据分辨率和云端可访问性、提供可扩展计分，加入概率预测、频谱与偏差等指标，并让业务物理模式对自己的analysis验证以改善初值/真值可比性。
 
-来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ## 构建方式
 
@@ -170,31 +170,31 @@ Google Research的weatherbench2项目；官方README接收社区GitHub issues/co
 
 整合公开训练、真值和基线数据，以业务气象中心惯例设计评估。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 构建者背景
 
 Google Research/DeepMind与ECMWF的机器学习和业务数值天气研究者设计数据与评测；不是人工编写语言试题。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 审核流程
 
 以气象中心/WMO常规验证为依据，统一初始时次、验证年份、变量、网格及指标；业务模式用IFS analysis，ERA5训练模式用ERA5。具体模式训练/验证年份各自披露，不是全体共用训练集。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）。
 
 ### 质量控制
 
 数据用一阶保守重网格，按网格单元重叠面积加权；论文默认1.5°（240×121）评测。分别研究分辨率、初始时次、analysis与ERA5及再分析真值局限，降水示例不可过度解读为观测预测精度。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08 ）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）。
 
 ### 去污染与泄漏防范
 
 天气时序不是文本去污染任务。初始论文评测2020年00/12 UTC初始化，个别模型训练保留不同年份；当前官网headline为2022。必须披露训练年份是否包含测试年份/未来年份，官网WeatherMesh 4明确标未来年份训练，不等于所有模式均遵守严格时间外推。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）。
 
 ## 数据形式
 
@@ -202,37 +202,37 @@ Google Research/DeepMind与ECMWF的机器学习和业务数值天气研究者设
 
 当前数据指南：ERA5 1959–2023资料，常用版本6小时、13层，另有1小时37层原始高分辨率文件；提供1440×721、240×121（含两极）及64×32（不含两极）多种网格。不是固定数量的自然语言样本。
 
-来源：[1](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08 ）。
+来源：[1](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08）。
 
 ### 任务形式
 
 天气时空场；论文描述 1–14 天，当前官网概述为 1–15 天，应保留版本差异。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 模态
 
 数值时空气象场：上层/地表变量、压力层、经纬网格和预报时效；云优化Zarr、xarray/Beam处理，不是图文多选题。
 
-来源：[1](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 语言
 
 不适用：有物理坐标和单位的数组；英文变量/文档并非自然语言能力评测语言。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://weatherbench2.readthedocs.io/en/latest/data-guide.html)（访问 2026-11-08）。
 
 ### 难度与类型
 
 按变量、压力层、地理区域、预报时效及确定性/概率任务分层，不设一道题一个难度等级；原论文中期1–14天，当前官网概述1–15天。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）。
 
 ### 公开与隐藏划分
 
 云端公开真值/基线；无统一“题库train/test”。原论文2020年所有00/12 UTC初始化，预报可延伸到2021；当前官网headline评测2022，交互页可选2018/2020/2022。各模式训练年份须独立检查。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout)（访问 2026-11-08）。
 
 ## 评测方法
 
@@ -240,31 +240,31 @@ Google Research/DeepMind与ECMWF的机器学习和业务数值天气研究者设
 
 确定性：全球 RMSE；概率预测：CRPS；降水另用 SEEPS。按变量、时效和地面/高空分别比较，不设唯一总分。
 
-来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08）。
 
 ### 评分
 
 确定性 RMSE、概率预报 CRPS 等分指标呈现；不设脱离变量和提前期的单一总榜。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 提示和复现设置
 
 不适用提示词；固定初始时次、起报年、lead_time、变量/层、region和网格。业务模式对analysis，其他模式对ERA5；确定性ensemble mean与单成员、概率CRPS必须分开。当前交互页默认Temperature/RMSE/850hPa/Global/2022/240×121。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://researchsites.withgoogle.com/weatherbench/deterministic/_dash-layout)（访问 2026-11-08）。
 
 ### 官方脚本
 
 https://github.com/google-research/weatherbench2
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 可比性提示
 
 官网 scorecard 使用2022年评测期；业务模式对 IFS analysis，其余模式对 ERA5；模型顺序反映发表日期，不是名次。WeatherMesh 4 有未来年份训练提示，需核对 FAQ。
 
-来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08）。
 
 ## 最新情况
 
@@ -272,42 +272,42 @@ https://github.com/google-research/weatherbench2
 
 2026-11-08
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 数据版本与当前状态
 
 评测代码后继为 WeatherBench-X；不能将其名称当作旧数据集的语义版本号。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 论文修订与H2证据
 
 - **previous_evidence_note**：2026H2 引用证据：ClimateBench v2.0 第5.4节引用 Rasp et al. (2024) 的 WeatherBench 2，采用按变量与时效报告而不压成总排名的原则。
 - **revisions**：- - **version**：v1
-    - **date_kst**：2023-08-30
-  - - **version**：v2
-    - **date_kst**：2024-01-26
+ - **date**：2023-08-30
+ - - **version**：v2
+ - **date**：2024-01-26
 - **note**：论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2610.04558)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/abs/2610.04558)（访问 2026-11-07）。
 
 ### 饱和程度
 
 官方FAQ明确不指定单一“最佳模型”，也不能以单一RMSE/CRPS高分推断饱和。预报场清晰度、偏差、概率校准、极端事件与地区差异需并行考察；没有总体百分比准确率。
 
-来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 污染、冲突与限制
 
 官网headline评测2022，而FAQ部分模型说明仍沿用2020；WeatherMesh4条目写训练1971–2019及2021–2023、评测2020，必须保留该具体语境。ERA5/analysis不是直接站点观测，尤其降水不宜当可靠观测真值。原论文1–14天与官网1–15天也分开。
 
-来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 后续工作与衍生
 
 官方已发布 WeatherBench-X，建议用户切换评测代码；WeatherBench 2 的 data guide 仍适用。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ## 榜单快照
 
@@ -315,21 +315,21 @@ https://github.com/google-research/weatherbench2
 
 2026-11-08
 
-来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[2](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[2](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08）。
 
 ### 官方榜单
 
 https://sites.research.google/weatherbench/
 
-来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）。
+来源：[1](https://sites.research.google/weatherbench/)（访问 2026-11-08）。
 
 ### 第三方覆盖
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 结果快照
 
@@ -565,13 +565,13 @@ https://sites.research.google/weatherbench/
 | — | Climatology | 7.88 m/s | WV850 RMSE | 7；https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png |
 | — | Climatology | 7.88 m/s | WV850 RMSE | 10；https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png |
 
-来源：[1](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 覆盖说明
 
 直接打开官网原始2022上层确定性scorecard PNG，逐格转录11方法×4指标×5时效=220个明确显示数值；不从颜色或曲线估读。仅该图可见模型，不含全部参与者/地表/概率榜。业务/业务初始化模型对analysis，其余对ERA5；不设唯一总排名。Z500图标签与论文物理单位不一致，单位按论文定义说明，数值不改。FAQ的2020训练年份说明不能自动套到2022图。
 
-来源：[1](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08 ）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08 ）；[4](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png)（访问 2026-11-08）；[2](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[3](https://sites.research.google/gr/weatherbench/faq/)（访问 2026-11-08）；[4](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ## 联系方式
 
@@ -579,7 +579,7 @@ https://sites.research.google/weatherbench/
 
 - srasp@google.com
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 问题反馈
 
@@ -587,21 +587,21 @@ https://github.com/google-research/weatherbench2/issues
 
 > 官方公开仓库的问题反馈入口；未发送消息。
 
-来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。
 
 ### 官方讨论渠道
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07）。
 
 ### 隐私与数据使用
 
 只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。
 
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07 ）。
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）。
 
 ## 原始文件
 
@@ -609,7 +609,7 @@ https://github.com/google-research/weatherbench2/issues
 
 https://arxiv.org/pdf/2308.15560
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### SHA-256
 
@@ -617,49 +617,36 @@ fd50ff122d158efef833be8f414539f6be59f0b994be80f3d2c0dca2c65d61da
 
 > 重新下载的原始PDF字节；既有副本未覆盖。
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 字节数
 
 28480050
 
-来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08）。
 
 ### 文件夹
 
-- **id**：1RnLF5vU4eOTLj4izgLG5x_OBWohQc1OI
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 其他文档
 
-- - **kind**：中文介绍 Google Doc
-  - **id**：1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI
-  - **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 原文归档
 
-- **id**：1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ## 变更记录
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：首批官方材料核验、中文改写、；未核实字段显式标记。
+ - **change**：首批官方材料核验、中文改写、；未核实字段显式标记。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+ - **change**：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/google-research/weatherbench2/main/README.md)（访问 2026-11-08）。

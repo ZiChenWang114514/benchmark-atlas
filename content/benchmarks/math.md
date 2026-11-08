@@ -1,5 +1,5 @@
 # MATH
-> 核验：2026-11-08。已核实存在；深度条目；显式待核实项保留
+> 核验：2026-11-08。深度条目；显式待核实项保留
 
 MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常见MATH-500只是其中一个子集。现代模型的推理预算、代码工具、投票及答案归一化会显著改变协议，不能把一个子集的接近满分扩展成所有竞赛数学能力已饱和。
 
@@ -121,9 +121,9 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | GPT-5 (High) | 99.4% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500) · 2026-11-08 |
-| 2 | o3 | 99.2% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500) · 2026-11-08 |
-| 3 | Grok 3 mini Reasoning (High) | 99.2% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500) · 2026-11-08 |
+| 1 | GPT-5 (High) | 99.4% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500)，2026-11-08 |
+| 2 | o3 | 99.2% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500)，2026-11-08 |
+| 3 | Grok 3 mini Reasoning (High) | 99.2% | AA MATH-500 accuracy | [来源](https://artificialanalysis.ai/evaluations/math-500)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S10](https://artificialanalysis.ai/evaluations/math-500)
 
@@ -153,33 +153,27 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 
 **PDF字节数**：2030715 [S6](https://arxiv.org/pdf/2103.03874)
 
-**原有文件夹**：{"id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL", "webViewLink": " [S12](
-
-**其他材料**：{"chinese_intro_doc": {"id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/math.md"} [S12](
-
-**原有 PDF**：{"id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu", "webViewLink": " [S13](
-
 ## 变更记录
 
-- 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07 · 实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 2026-11-07，实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://github.com/hendrycks/math) [S8](https://github.com/hendrycks/math)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2103.03874](https://arxiv.org/abs/2103.03874) · 访问 2026-11-07
-- S2 · [https://github.com/hendrycks/math](https://github.com/hendrycks/math) · 访问 2026-11-07
-- S3 · [https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1) · 访问 2026-11-07
-- S4 · [https://arxiv.org/abs/2103.03874](https://arxiv.org/abs/2103.03874) · 访问 2026-11-08
-- S5 · [https://github.com/hendrycks/math/blob/main/LICENSE](https://github.com/hendrycks/math/blob/main/LICENSE) · 访问 2026-11-08
-- S6 · [https://arxiv.org/pdf/2103.03874](https://arxiv.org/pdf/2103.03874) · 访问 2026-11-08
-- S7 · [https://huggingface.co/datasets/qwedsacf/competition_math](https://huggingface.co/datasets/qwedsacf/competition_math) · 访问 2026-11-08
-- S8 · [https://github.com/hendrycks/math](https://github.com/hendrycks/math) · 访问 2026-11-08
-- S9 · [https://raw.githubusercontent.com/hendrycks/math/main/README.md](https://raw.githubusercontent.com/hendrycks/math/main/README.md) · 访问 2026-11-07
-- S10 · [https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500) · 访问 2026-11-08
-- S11 · [https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500) · 访问 2026-11-07
-- S12 · [ · 访问 2026-11-07
-- S13 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/2103.03874](https://arxiv.org/abs/2103.03874)，访问 2026-11-07
+- S2，[https://github.com/hendrycks/math](https://github.com/hendrycks/math)，访问 2026-11-07
+- S3，[https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1)，访问 2026-11-07
+- S4，[https://arxiv.org/abs/2103.03874](https://arxiv.org/abs/2103.03874)，访问 2026-11-08
+- S5，[https://github.com/hendrycks/math/blob/main/LICENSE](https://github.com/hendrycks/math/blob/main/LICENSE)，访问 2026-11-08
+- S6，[https://arxiv.org/pdf/2103.03874](https://arxiv.org/pdf/2103.03874)，访问 2026-11-08
+- S7，[https://huggingface.co/datasets/qwedsacf/competition_math](https://huggingface.co/datasets/qwedsacf/competition_math)，访问 2026-11-08
+- S8，[https://github.com/hendrycks/math](https://github.com/hendrycks/math)，访问 2026-11-08
+- S9，[https://raw.githubusercontent.com/hendrycks/math/main/README.md](https://raw.githubusercontent.com/hendrycks/math/main/README.md)，访问 2026-11-07
+- S10，[https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500)，访问 2026-11-08
+- S11，[https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500)，访问 2026-11-07
+- S12，[，访问 2026-11-07
+- S13，[，访问 2026-11-07

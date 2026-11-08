@@ -1,6 +1,6 @@
 # SciUniverse Level 1
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
+> Benchmark Constitution，深度复核 2026-11-08。
 
 SciUniverse把科研评测的起点前移到样品、仪器和实验操作：模型既要做计划，也要面对材料不足、设备故障和测量噪声。Level 1混合真实实验、模拟实验和实测数据解释，不能用“92次湿实验”概括。总体指标为17个家族等权，不是92题简单平均。
 
@@ -52,9 +52,9 @@ Level 1
 
 ```json
 [
-  "生物与医学"
-  "材料"
-  "湿实验"
+ "生物与医学"
+ "材料"
+ "湿实验"
 ]
 ```
 
@@ -212,10 +212,10 @@ Level 1共92任务、17任务家族：化学7、生物5、材料4、跨域1。
 
 ```json
 [
-  "实验数据"
-  "仪器接口"
-  "文本指令"
-  "真实实验与模拟"
+ "实验数据"
+ "仪器接口"
+ "文本指令"
+ "真实实验与模拟"
 ]
 ```
 
@@ -287,15 +287,15 @@ Pass@1；17家族等权平均。
 
 ```json
 {
-  "version": "Level 1"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://c5r.net/sciuniverse/"
-      "date": "2026-11-07"
-      "note": "C5R当前展示Level 1多模型结果；观察日，主要单一机构评测。"
-    }
-  ]
+ "version": "Level 1"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://c5r.net/sciuniverse/"
+ "date": "2026-11-07"
+ "note": "C5R当前展示Level 1多模型结果；观察日，主要单一机构评测。"
+ }
+ ]
 }
 ```
 
@@ -440,10 +440,10 @@ contact@c5r.net
 
 ```json
 [
-  {
-    "type": "官方介绍/协议"
-    "url": "https://c5r.net/sciuniverse/"
-  }
+ {
+ "type": "官方介绍/协议"
+ "url": "https://c5r.net/sciuniverse/"
+ }
 ]
 ```
 
@@ -459,16 +459,14 @@ contact@c5r.net
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

@@ -2,8 +2,6 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
-
 CyberOffense使用Nova和Lighthouse两个隔离企业网络靶场，观察agent能否在长程、多步骤探索中完成授权目标。它不靠自报成功，而是检查命令输出是否含有私有答案键对应的隐藏marker；每次运行重建靶场并审查捷径。此处只记录评测协议与汇总成绩，不复述具体攻击步骤。 [1](https://www.vals.ai/benchmarks/cyber_offense)
 
 每次最多48小时、累计500M token（含缓存和推理）。Nova领先两模型各三次取均值，其他多为单次；21个与31个目标必须分列，不能把原始目标数相加成“总体成功率”。2026-10-23网页报告中没有模型完成Lighthouse最终阶段，完整任务完成度仍显著低于部分目标得分。 [1](https://www.vals.ai/benchmarks/cyber_offense)
@@ -130,7 +128,6 @@ CyberOffense使用Nova和Lighthouse两个隔离企业网络靶场，观察agent�
 | 官网表行序，非总榜名次 | Kimi K3 | Nova：9/21；Lighthouse：10/31 | 目标完成数（两靶场分列）；2026-10-23；[1](https://www.vals.ai/benchmarks/cyber_offense) |
 | 官网表行序，非总榜名次 | GLM 5.3 Flash | Nova：5/21；Lighthouse：5/31 | 目标完成数（两靶场分列）；2026-10-23；[1](https://www.vals.ai/benchmarks/cyber_offense) |
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：仅保留所列来源与协议下的结果；榜单自写更新时间：2026-10-23。访问日期不是评测运行日期。 [1](https://www.vals.ai/benchmarks/cyber_offense)
@@ -164,7 +161,7 @@ CyberOffense使用Nova和Lighthouse两个隔离企业网络靶场，观察agent�
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber_offense)
+- date：2026-11-07；；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber_offense)
 
 ---
 

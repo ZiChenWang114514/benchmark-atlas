@@ -1,6 +1,6 @@
 # MysteryMechanism
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 MysteryMechanism要求代理从匿名变量、物理边界及两条被动观测出发，在2d+1次实验预算内恢复隐藏数学规律。222个机制覆盖多类科学关系，验证/测试机制保持私有，只公开三个冻结示例。提交以私有探针上的函数等价性判定，不要求公式文字相同；公开示范路径不是模型逐字轨迹，成功时未说出来源领域也不证明没有利用先验科学知识。
 [本页导读依据](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）
@@ -297,15 +297,15 @@ functional recovery accuracy（%）
 
 ```json
 {
-  "version": "待核实"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-      "date": "2026-10-29"
-      "date_type": "source_calendar_date"
-      "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
-    }
-  ]
+ "version": "待核实"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "date": "2026-10-29"
+ "date_type": "source_calendar_date"
+ "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
+ }
+ ]
 }
 ```
 
@@ -497,16 +497,16 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 
 ```json
 [
-  {
-    "type": "官方方法或项目页"
-    "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-    "accessed": "2026-11-07"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "官方方法或项目页"
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "accessed": "2026-11-07"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -528,16 +528,14 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": " (UTC+8)"
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

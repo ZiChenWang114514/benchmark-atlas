@@ -1,6 +1,6 @@
 # MMLU
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v3
 
 ### 发布日期
 
-2020-09-08（；arXiv首稿时间，不等于独立数据集首发）
+2020-09-08（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）
 
@@ -264,8 +264,6 @@ https://github.com/hendrycks/test
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2020-09-08；- **timezone**：；- - **version**：v2；- **submitted_at**：2020-09-21；- **timezone**：；- - **version**：v3；- **submitted_at**：2021-01-13；- **timezone**：
-
 [来源](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）
 
 ### 饱和情况
@@ -292,7 +290,7 @@ MMLU-Pro 与 MMLU-Redux 的原始研究分别指出简单题、噪声与标签�
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://raw.githubusercontent.com/hendrycks/test/master/README.md)（访问 2026-11-08）
 
@@ -343,7 +341,6 @@ https://github.com/hendrycks/test#test-leaderboard
 - **Random Baseline**：- **humanities**：25.0；- **social_sciences**：25.0；- **stem**：25.0；- **other**：25.0；- **authors**：N/A；- **scope**：不同few-shot/fine-tuned设置按原表保留，不是2026统一实时榜
 
 [来源](https://raw.githubusercontent.com/hendrycks/test/master/README.md)（访问 2026-11-08）
-
 
 [来源](https://raw.githubusercontent.com/hendrycks/test/master/README.md)（访问 2026-11-08）
 
@@ -406,26 +403,6 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 > 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）
-
-### 文件夹
-
-- **id**：16jdkBY7vMWPeny-ZoCn5i4limN90OF26
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍 Google Doc；- **id**：10X_jNgeT4GCIeP3q17ZGinf7YmmYmD1g4wxlM6aLIOc；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1_7QVvJvbgngMAfsCYTyOLG7QjAa1NbO9
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## 变更记录
 

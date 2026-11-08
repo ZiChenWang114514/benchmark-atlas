@@ -4,7 +4,7 @@
 
 SWE-bench Verified 是原始软件修复题经过人工可解性审核后的500题子集，不是新抓取的隐藏测试集。本次找到官网首页内嵌的完整投稿榜，保留系统、agent、release及是否被官方检查；同一模型更换scaffold后的分数不能看成模型本身直接升级。
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08，）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -12,7 +12,7 @@ SWE-bench Verified 是原始软件修复题经过人工可解性审核后的500�
 
 SWE-bench Verified
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 全称
 
@@ -20,25 +20,25 @@ SWE-bench Verified
 
 说明：保留官方名称，不把论文标题自动扩写为全称。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 基准版本
 
 SWE-bench Verified，500题
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 论文版本
 
 arXiv v3；提交于 2024-11-12 08:05:04
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ### 发布日期
 
 2024-08-13（官方公告日期，未标时间/时区）
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 主板块
 
@@ -46,19 +46,19 @@ arXiv v3；提交于 2024-11-12 08:05:04
 
 说明：Benchmark Constitution 编辑归档；跨领域仅主板块计数。
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ### 领域标签
 
 - 仓库级真实软件问题修复
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ### 许可与适用范围
 
 代码 MIT（当前仓库 LICENSE）；本次原始HF Verified数据卡没有license元数据，数据许可适用范围待核实，不能把代码MIT自动外推到原issue、补丁及第三方软件。
 
-来源：[1](https://github.com/SWE-bench/SWE-bench/blob/main/LICENSE)（访问 2026-11-08，）；[2](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified)（访问 2026-11-08，）
+来源：[1](https://github.com/SWE-bench/SWE-bench/blob/main/LICENSE)（访问 2026-11-08）；[2](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified)（访问 2026-11-08）
 
 ### 论文
 
@@ -66,31 +66,31 @@ https://arxiv.org/abs/2310.06770
 
 说明：2310.06770 是 SWE-bench 母基准论文，Verified 的筛选协议主要见官方公告，不冒称独立 Verified 论文。
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ### 代码仓库
 
 https://github.com/SWE-bench/SWE-bench
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 数据地址
 
 https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 官方主页
 
 https://www.swebench.com/verified
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 论文标题
 
 SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ## 发起与维护
 
@@ -98,31 +98,31 @@ SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
 
 OpenAI 与 SWE-bench 原作者合作发布。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 合作机构
 
 OpenAI（官网明确Verified在人类筛选中与OpenAI合作建立）。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 作者
 
 Verified 公告：Neil Chowdhury、James Aung、Chan Jun Shern、Oliver Jaffe、Dane Sherburn、Giulio Starace 等；母论文作者另见论文元数据。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 当前维护方
 
 SWE-bench 官方团队维护数据与评测框架；OpenAI 提供人工标注和 Verified 公告。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 资助与支持
 
 SWE-bench 官网致谢 Open Philanthropy、AWS、Modal、Andreessen Horowitz、OpenAI、Anthropic 的支持；此列表不是 Verified 专项资金分配表。
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）
 
 ## 设计目标
 
@@ -130,13 +130,13 @@ SWE-bench 官网致谢 Open Philanthropy、AWS、Modal、Andreessen Horowitz、O
 
 理解真实 GitHub issue、定位代码并提交能解决问题且不造成回归的仓库级补丁。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 设计背景
 
 原 SWE-bench 中描述欠明确、测试过窄及环境安装失败可把合理解判错；Verified 筛除这些不公平实例。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ## 构建方式
 
@@ -144,31 +144,31 @@ SWE-bench 官网致谢 Open Philanthropy、AWS、Modal、Andreessen Horowitz、O
 
 来自 12 个开源 Python 仓库的已解决 issue / PR；从原测试集 1,699 个随机标注样本中筛出 500。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 出题背景
 
 93 名具有 Python 经验的专业开发者；先通过 50 道高置信 onboarding 题并获得反馈。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 审核流程
 
 每个样本由 3 名独立标注者评价描述和测试；采用最高严重程度标签，任一严重问题均剔除。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 质量控制
 
 描述/测试严重度 0–3；剔除任一维度 ≥2 或其他重大问题；Docker harness 提高运行稳定性。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 去污染与泄漏
 
 原 issue、仓库与 PR 公开；官方明确承认静态互联网抓取数据可能已进入预训练，人工 Verified 不表示去污染。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ## 数据形式
 
@@ -176,13 +176,13 @@ SWE-bench 官网致谢 Open Philanthropy、AWS、Modal、Andreessen Horowitz、O
 
 500 题；196 道预估少于 15 分钟的 easy、45 道大于 1 小时的 hard（人工估计，不是模型时限）。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 题型
 
 仓库与问题说明 → 修改文件/代码补丁。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 模态
 
@@ -190,25 +190,25 @@ SWE-bench 官网致谢 Open Philanthropy、AWS、Modal、Andreessen Horowitz、O
 - 代码
 - 仓库环境
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 语言
 
 仓库主要为Python；数据卡声明问题文本主要英语，但未按语言过滤或清洗，不保证全部纯英语。
 
-来源：[1](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified)（访问 2026-11-08，）
+来源：[1](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified)（访问 2026-11-08）
 
 ### 难度
 
 人工按 <15min、15min–1h、1–4h、>4h 标注；与是否可解筛选分开。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 数据划分
 
 Verified 数据公开；运行时不向 agent 提供 gold patch 和评分测试，公开可得性仍有污染风险。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ## 评测方法
 
@@ -216,31 +216,31 @@ Verified 数据公开；运行时不向 agent 提供 gold patch 和评分测试�
 
 Resolved rate：完全解决任务的比例。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 评分方式
 
 补丁可应用且 FAIL_TO_PASS 与 PASS_TO_PASS 两组测试全部通过才算 resolved。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）
 
 ### 提示与运行设置
 
 官方Bash Only采用mini-SWE-agent最小ReAct循环。release 1.x支持时temperature=0；2.x及以后不设置temperature；版本记录必须随分数保留。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 评测脚本
 
 当前 v5 CLI：swebench eval verified -p <predictions> --run-id <run_id> -j <workers>；旧 python -m swebench.harness.run_evaluation 仍支持。新补丁复评须使用新 run_id，避免按 run_id/instance_id 缓存旧结果。
 
-来源：[1](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08，）
+来源：[1](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08）
 
 ### 可比性提醒
 
 完整榜比较任意agent系统，Bash Only才固定mini-SWE-agent；1.x解析输出字符串，2.x用tool calling，官网明确两代结果不一定可比。500题Verified不是完整SWE-bench或SWE-bench Pro。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ## 最新情况
 
@@ -248,52 +248,52 @@ Resolved rate：完全解决任务的比例。
 
 2026-11-08
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-08）
 
 ### 数据版本与更新
 
 ```json
 {
-  "version": "SWE-bench Verified，500题"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.20804v1"
-      "date": "2026-09-17"
-      "note": "Harness Design 研究§3.1实际使用500个人工核验GitHub问题，比较不同harness设置；不是同名SWE-Bench Pro Verified。"
-    }
-  ]
+ "version": "SWE-bench Verified，500题"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.20804v1"
+ "date": "2026-09-17"
+ "note": "Harness Design 研究§3.1实际使用500个人工核验GitHub问题，比较不同harness设置；不是同名SWE-Bench Pro Verified。"
+ }
+ ]
 }
 ```
 
 说明：H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-来源：[1](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07，）；[2](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07）；[2](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2023-10-11 01:47:29 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2024-04-06 03:16:29 ", "timezone": ""}
-- {"version": "v3", "submitted_at": "2024-11-12 08:05:04 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2023-10-11 01:47:29 "}
+- {"version": "v2", "submitted_at": "2024-04-06 03:16:29 "}
+- {"version": "v3", "submitted_at": "2024-11-12 08:05:04 "}
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-08）
 
 ### 饱和证据与局限
 
 官网采集快照最高系统结果为79.2%（两条并列）；这是投稿榜可见结果，不是“所有模型已饱和”的证据。
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）
 
 ### 争议与已知问题
 
 Verified 是质量筛选而非隐藏新题，且主要覆盖 Python 软件 issue；不能视为一般软件开发或无污染保证。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）；[2](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07）
 
 ### 衍生或后继基准
 
 与 SWE-bench Lite、Multimodal、Multilingual 及 SWE-bench Pro 有关系但不同口径，不混排。
 
-来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07，）；[2](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07，）
+来源：[1](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.20804v1)（访问 2026-11-07）
 
 ## 榜单快照
 
@@ -301,13 +301,13 @@ Verified 是质量筛选而非隐藏新题，且主要覆盖 Python 软件 issue
 
 2026-11-08
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08，）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08）
 
 ### 官方榜单入口
 
 https://www.swebench.com/?tab=verified
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）
 
 ### 第三方入口
 
@@ -315,7 +315,7 @@ https://www.swebench.com/?tab=verified
 
 说明：未在本次来源中核实 AA / Epoch / LMArena 对该基准的独立同口径榜单覆盖；不以其他任务替代。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 可核验结果
 
@@ -504,13 +504,13 @@ https://www.swebench.com/?tab=verified
 | 官方公告历史基线 | 1 | gpt-4o-2024-05-13 + Agentless | 33.2 | resolved (%) | Verified500； | [2024-08-13](https://openai.com/index/introducing-swe-bench-verified/)；采集2026-11-07 |
 | H2 学术实验 | 1 | Nemotron-3 550B / 研究harness | 69.4 | SR (%) | Verified500；T4/128k、planning、bash-only、最多300步、温度0 | [2026-09-17](https://arxiv.org/html/2609.20804v1)；采集2026-11-07 |
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08，）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08）
 
 ### 榜单覆盖边界
 
 本次从官网首页公开 leaderboard-data JSON 读取 Verified 全部180条系统结果，而非 /verified 介绍页的空白动态区。按完整系统与 Bash Only release 分轨；checked=false 不等于官方复现实验，不能将投稿系统榜称为固定模型榜。保留两条此前核验的历史实验（沿用原采集日）。
 
-来源：[1](https://www.swebench.com/)（访问 2026-11-08，）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08，）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/)（访问 2026-11-08）；[2](https://openai.com/index/introducing-swe-bench-verified/)（访问 2026-11-08）；[3](https://arxiv.org/html/2609.20804v1)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -519,7 +519,7 @@ https://www.swebench.com/?tab=verified
 - carlosej@princeton.edu
 - johnby@stanford.edu
 
-来源：[1](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08，）
+来源：[1](https://github.com/SWE-bench/SWE-bench)（访问 2026-11-08）
 
 ### 公开反馈渠道
 
@@ -527,7 +527,7 @@ https://github.com/SWE-bench/SWE-bench/issues
 
 说明：公开仓库反馈入口；未发送问题。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）
 
 ### 官方社交账号
 
@@ -535,7 +535,7 @@ https://github.com/SWE-bench/SWE-bench/issues
 
 说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-07）
 
 ### 联系方式/隐私原则
 
@@ -543,7 +543,7 @@ https://github.com/SWE-bench/SWE-bench/issues
 
 说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
-来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/abs/2310.06770)（访问 2026-11-07）
 
 ## 原始文件
 
@@ -551,13 +551,13 @@ https://github.com/SWE-bench/SWE-bench/issues
 
 https://arxiv.org/pdf/2310.06770
 
-来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08）
 
 ### PDF SHA-256
 
 f7e8e1df64129742b8199a21a042734519a823a1dafd6f48f8f3ddcfb48ee296
 
-来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08）
 
 ### PDF字节数
 
@@ -565,35 +565,19 @@ f7e8e1df64129742b8199a21a042734519a823a1dafd6f48f8f3ddcfb48ee296
 4533722
 ```
 
-来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2310.06770)（访问 2026-11-08）
 
 ### 文件夹
-
-```json
-{
-  "id": "1-YvqNLfMxUXoiTYWqbyPSsbJWrK7H9iL"
-  "webViewLink": "
-}
-```
 
 来源：[1]( 2026-11-07，）
 
 ### 其他文档
 
-- {"type": "中文介绍Google Doc", "id": "193rLgS0oSSznAPMtMovoito3n3jfiZIvz4T3WcUxaBQ", "webViewLink": "
-
 说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-07，）；[2]( 2026-11-07，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-07）；[2]( 2026-11-07，）
 
 ### 论文原件
-
-```json
-{
-  "id": "1n47Le3puVRH6y64GwRSgTy41zEGlU32T"
-  "webViewLink": "
-}
-```
 
 来源：[1]( 2026-11-07，）
 
@@ -603,4 +587,4 @@ f7e8e1df64129742b8199a21a042734519a823a1dafd6f48f8f3ddcfb48ee296
 最近复核
 最近复核
 
-来源：[1](https://www.swebench.com/verified)（访问 2026-11-08，）
+来源：[1](https://www.swebench.com/verified)（访问 2026-11-08）

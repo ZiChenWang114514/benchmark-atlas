@@ -65,7 +65,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2023-08-30",
+        "paper_first_submission": "2023-08-30",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -306,7 +306,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     }
   },
   "design_goals": {
@@ -620,11 +620,11 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-08-30"
+            "date": "2023-08-30"
           },
           {
             "version": "v2",
-            "date_kst": "2024-01-26"
+            "date": "2024-01-26"
           }
         ],
         "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
@@ -724,7 +724,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
@@ -3083,7 +3083,7 @@
         {
           "rank": null,
           "model": "Tianji",
-          "score": 2.0,
+          "score": 2,
           "metric": "T850 RMSE",
           "unit": "K",
           "track": "官网2022上层确定性scorecard/ERA5",
@@ -3889,7 +3889,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -3944,11 +3944,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

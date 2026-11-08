@@ -1,6 +1,6 @@
 # MMBench
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v5
 
 ### 发布日期
 
-2023-07-13（；arXiv首稿时间，不等于独立数据集首发）
+2023-07-13（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
@@ -273,9 +273,7 @@ README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2023-07-13；- **timezone**：；- - **version**：v2；- **submitted_at**：2023-07-27；- **timezone**：；- - **version**：v3；- **submitted_at**：2023-08-13；- **timezone**：；- - **version**：v4；- **submitted_at**：2024-04-30；- **timezone**：；- - **version**：v5；- **submitted_at**：2024-08-20；- **timezone**：
 - **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.01352v2；- **date**：2026-10-22；- **note**：MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。
-- **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
 
 [来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
@@ -303,7 +301,7 @@ README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
@@ -350,7 +348,6 @@ https://mmbench.opencompass.org.cn/leaderboard
 - **MMVistaReason-9B (MVR-9B)**：- **scope**：MMBench-EN，论文未精确列出下载版本；- **date**：2026-10-22；- **provenance**：MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排
 
 [来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
-
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
@@ -413,26 +410,6 @@ https://arxiv.org/pdf/2307.06281
 > 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
-
-### 文件夹
-
-- **id**：1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍 Google Doc；- **id**：1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## 变更记录
 

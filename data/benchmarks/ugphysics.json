@@ -521,7 +521,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     }
   },
   "leaderboard": {
@@ -1165,7 +1165,7 @@
         },
         {
           "model": "LLaMA3.1-8B-Instruct",
-          "score": 13.0,
+          "score": 13,
           "metric": "accuracy (%)",
           "track": "原论文v4表5 / Modern Physics ZH",
           "source_url": "https://arxiv.org/pdf/2502.00334",
@@ -1321,7 +1321,7 @@
         },
         {
           "model": "Yi-1.5-9B-Chat",
-          "score": 16.0,
+          "score": 16,
           "metric": "accuracy (%)",
           "track": "原论文v4表5 / Mechanics & Thermodynamics EN",
           "source_url": "https://arxiv.org/pdf/2502.00334",
@@ -1501,7 +1501,7 @@
         },
         {
           "model": "Mistral-Nemo-Instruct-2407",
-          "score": 16.0,
+          "score": 16,
           "metric": "accuracy (%)",
           "track": "原论文v4表5 / Overall EN",
           "source_url": "https://arxiv.org/pdf/2502.00334",
@@ -1621,7 +1621,7 @@
         },
         {
           "model": "DeepSeek-MOE-16B-Chat",
-          "score": 4.0,
+          "score": 4,
           "metric": "accuracy (%)",
           "track": "原论文v4表5 / Overall ZH",
           "source_url": "https://arxiv.org/pdf/2502.00334",
@@ -4151,7 +4151,7 @@
         },
         {
           "model": "Fable 5",
-          "score": 82.0,
+          "score": 82,
           "metric": "pass@4 (%)",
           "track": "专家审计v2表1 / before / pass@4",
           "source_url": "https://arxiv.org/html/2609.13009",
@@ -4173,7 +4173,7 @@
         },
         {
           "model": "GPT-5.6-Sol",
-          "score": 83.0,
+          "score": 83,
           "metric": "mean@4 (%)",
           "track": "专家审计v2表1 / before / mean@4",
           "source_url": "https://arxiv.org/html/2609.13009",
@@ -4195,7 +4195,7 @@
         },
         {
           "model": "GPT-5.6-Sol",
-          "score": 85.0,
+          "score": 85,
           "metric": "pass@4 (%)",
           "track": "专家审计v2表1 / before / pass@4",
           "source_url": "https://arxiv.org/html/2609.13009",
@@ -4239,7 +4239,7 @@
         },
         {
           "model": "Gemini 3.1 Pro",
-          "score": 88.0,
+          "score": 88,
           "metric": "pass@4 (%)",
           "track": "专家审计v2表1 / before / pass@4",
           "source_url": "https://arxiv.org/html/2609.13009",
@@ -4327,7 +4327,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -4377,11 +4377,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

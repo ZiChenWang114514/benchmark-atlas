@@ -1,27 +1,38 @@
 ---
+import { visualCopy } from '../i18n/visual';
 import { loadIndex } from '../lib/data';
-import { page } from '../lib/format';
+import { dateStamp, page } from '../lib/format';
+
+import { currentLocale, t } from '../i18n';
+
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const index = loadIndex();
+const stamp = dateStamp(index.generated_at);
 ---
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <h2>关于这本图鉴</h2>
-      <p>
-        页面在构建时写成静态文件。数据快照 {index.generated_at ?? '未注明'}
-        {index.timezone ? `· ${index.timezone}` : ''}。推送新的数据到 main 之后，站点会按那些文件重新发布。
+      <h2>{ui.footerAboutTitle}</h2>
+      <p class="inline-meta">
+        <span>{ui.footerAbout}</span>
+        {stamp && <span>{ui.snapshot} {stamp}</span>}
       </p>
     </div>
     <div>
-      <h2>档案</h2>
+      <h2>{ui.footerSections}</h2>
       <ul>
-        <li><a href={page('constitution')}>《收集宪法》</a></li>
+        <li><a href={page('trending')}>{t(locale, 'nav.trending')}</a></li>
+        <li><a href={page('frontier-heat')}>{t(locale, 'nav.heat')}</a></li>
+        <li><a href={page('impact')}>{t(locale, 'nav.impact')}</a></li>
+        <li><a href={page('registry')}>{t(locale, 'nav.registry')}</a></li>
+        <li><a href={page('constitution')}>{t(locale, 'nav.constitution')}</a></li>
       </ul>
     </div>
     <div>
-      <h2>读取数据</h2>
+      <h2>{ui.footerSources}</h2>
       <ul>
-        <li><a href="https://github.com/ZiChenWang114514/benchmark-constitution">仓库</a></li>
+        <li><a href="https://github.com/ZiChenWang114514/benchmark-constitution">{ui.repo}</a></li>
       </ul>
     </div>
   </div>

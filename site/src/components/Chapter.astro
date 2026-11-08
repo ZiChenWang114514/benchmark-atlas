@@ -1,5 +1,6 @@
 ---
 import FieldValue from './FieldValue.astro';
+import { currentLocale, t } from '../i18n';
 import { badgeClass, notableNote, safeUrl, sourceText, statusOf, type Field, type Source } from '../lib/format';
 
 interface Entry {
@@ -14,6 +15,7 @@ interface Props {
   entries: Entry[];
 }
 const { id, title, intro, entries } = Astro.props;
+const locale = currentLocale();
 const sourceList: Source[] = [];
 const seen = new Map<string, number>();
 let previous = '';
@@ -42,18 +44,18 @@ const rows = entries.map((entry) => {
 <section class="chapter" id={id} aria-labelledby={`${id}-title`}>
   <h2 id={`${id}-title`}>{title}</h2>
   {intro && <p class="chapter-intro">{intro}</p>}
-  {rows.length === 0 && <p class="note">这一节还没有字段。</p>}
+  {rows.length === 0 && <p class="note">{t(locale, 'detail.empty_chapter')}</p>}
   {rows.map((row) => (
     <div class="field">
       <div class="field-top">
         {row.label && <h3>{row.label}</h3>}
         {row.status && <span class:list={['badge', badgeClass(row.status)]}>{row.status}</span>}
         {row.same ? (
-          <span class="same-src">来源同上</span>
+          <span class="same-src">{t(locale, 'detail.same_source')}</span>
         ) : (
           <sup class="cites">
             {row.nums.map((num) => (
-              <a href={`#${id}-src-${num}`}><span class="sr-only">来源 </span>{num}</a>
+              <a href={`#${id}-src-${num}`}><span class="sr-only">{t(locale, 'detail.source')} </span>{num}</a>
             ))}
           </sup>
         )}
@@ -65,7 +67,7 @@ const rows = entries.map((entry) => {
   <slot />
   {sourceList.length > 0 && (
     <>
-      <h3 class="sr-only">本节来源</h3>
+      <h3 class="sr-only">{t(locale, 'detail.sources')}</h3>
       <ol class="source-list">
         {sourceList.map((source, index) => {
           const href = safeUrl(source.url);
@@ -76,7 +78,7 @@ const rows = entries.map((entry) => {
               ) : (
                 <span>{sourceText(source.url)}</span>
               )}
-              <span class="accessed">访问 {source.accessed}</span>
+              <span class="accessed">{t(locale, 'detail.accessed', { date: source.accessed })}</span>
             </li>
           );
         })}

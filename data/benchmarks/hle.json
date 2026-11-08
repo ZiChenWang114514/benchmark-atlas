@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-01-24（arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2025-01-24（arXiv初稿日期，不是数据集的单独发布日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2501.14249",
@@ -134,7 +134,7 @@
       ]
     },
     "paper_title": {
-      "value": "Humanity's Last Exam",
+      "value": "Humanity’s Last Exam",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2501.14249",
@@ -1913,18 +1913,14 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "mimeType": "application/vnd.google-apps.document"
-        },
-        "local_markdown": "content/benchmarks/hle.md"
-      },
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "changelog": {
@@ -1935,16 +1931,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.license",
-          "organization.partners",
-          "construction.decontamination",
-          "evaluation.prompt_settings",
-          "data_format.size",
-          "leaderboard.results",
-          "leaderboard.coverage_note"
-        ]
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",

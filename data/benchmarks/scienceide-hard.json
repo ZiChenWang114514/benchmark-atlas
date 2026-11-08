@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-09-17（；首个arXiv提交，不推定数据上线日）",
+      "value": "2026-09-17（首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.19134",
@@ -538,12 +538,12 @@
           "release": "2026-09-16",
           "latest": "2026-09-16",
           "version": "v1",
-          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history_kst为准。"
+          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history为准。"
         },
-        "arxiv_submission_history_kst": [
+        "arxiv_submission_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2026-09-17"
+            "submitted_at": "2026-09-17"
           }
         ]
       },
@@ -658,7 +658,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "GPT-5.6 Sol",
-          "score": 55.0,
+          "score": 55,
           "metric": "严格科学任务成功率（%）",
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
@@ -684,7 +684,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "DeepSeek V4.1 Flash",
-          "score": 36.0,
+          "score": 36,
           "metric": "严格科学任务成功率（%）",
           "track": "论文v1 Figure7；相同Hard85；每题1小时；模型-harness组合",
           "source_url": "https://arxiv.org/pdf/2609.19134",
@@ -917,16 +917,10 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "type": "中文介绍 Google Doc",
-          "id": "1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo",
-          "webViewLink": "https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]

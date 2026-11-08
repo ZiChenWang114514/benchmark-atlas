@@ -50,7 +50,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-05-13 16:33:54（，UTC+8；arXiv v1首次提交）",
+      "value": "2025-05-13 16:33:54（arXiv v1首次提交）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08341",
@@ -420,7 +420,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08341",
@@ -512,7 +512,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08341",
@@ -601,7 +601,7 @@
         {
           "rank": 5,
           "model": "AutoBA",
-          "score": 0.0,
+          "score": 0,
           "metric": "hierarchical annotation macro score (0–1)",
           "track": "官方Task1.ipynb保存输出：DPTA，15器官",
           "source_url": "https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task1.ipynb",
@@ -629,7 +629,7 @@
           "source_url": "https://raw.githubusercontent.com/EperLuo/BAISBench/main/Task2.ipynb",
           "accessed": "2026-11-07",
           "source_type": "官方复现notebook保存输出；非实时榜",
-          "total_score": 136.0,
+          "total_score": 136,
           "questions": 193
         }
       ],
@@ -745,16 +745,10 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "type": "中文介绍 Google Doc",
-          "id": "1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg",
-          "webViewLink": "https://docs.google.com/document/d/1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg/edit"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg/edit",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -781,28 +775,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.full_name",
-          "basic_info.license",
-          "basic_info.release_date",
-          "organization.initiators",
-          "organization.partners",
-          "data_format.size",
-          "construction.quality_control",
-          "evaluation.scoring",
-          "evaluation.comparability_warning",
-          "latest_status.saturation",
-          "latest_status.contamination_and_issues",
-          "latest_status.paper_revision_history",
-          "leaderboard.results",
-          "leaderboard.official_url",
-          "leaderboard.coverage_note",
-          "latest_status.checked_at",
-          "leaderboard.snapshot_date",
-          "original_files.sha256",
-          "original_files.pdf_bytes"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

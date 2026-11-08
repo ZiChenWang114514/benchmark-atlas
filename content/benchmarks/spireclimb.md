@@ -1,6 +1,6 @@
 # SpireClimb
 
-> Benchmark Constitution · 深度复核 2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
+> Benchmark Constitution，深度复核 2026-11-08。
 
 SpireClimb让模型通过截图和鼠标键盘完成两款Slay the Spire最高难度整局游戏，测量长程决策和计算机操作可靠性。两游戏胜率等权，不能直接按135局混算；2026-11-05修复开局Neow奖励改变了一代游戏的测试设置。StS2冻结版本是v0.107.1，网页后面的脚注1并非版本后缀。
 
@@ -52,7 +52,7 @@ Agent
 
 ```json
 [
-  "游戏"
+ "游戏"
 ]
 ```
 
@@ -122,8 +122,8 @@ Epoch AI
 
 ```json
 [
-  "Benjamin Ou"
-  "Simon Chen"
+ "Benjamin Ou"
+ "Simon Chen"
 ]
 ```
 
@@ -211,10 +211,10 @@ StS1：4角色×15=60局；StS2：5角色×15=75局。
 
 ```json
 [
-  "截图"
-  "鼠标键盘动作"
-  "文字笔记"
-  "限定wiki搜索"
+ "截图"
+ "鼠标键盘动作"
+ "文字笔记"
+ "限定wiki搜索"
 ]
 ```
 
@@ -286,9 +286,9 @@ Inspect ReAct computer-use harness；模型最大推理档，300,000 tokens压�
 
 ```json
 {
-  "version": "StS2 v0.107.1"
-  "method_update": "2026-11-05 Neow奖励修复"
-  "note": "网页v0.107.1后的上标1为脚注，不是第四段游戏版本号。"
+ "version": "StS2 v0.107.1"
+ "method_update": "2026-11-05 Neow奖励修复"
+ "note": "网页v0.107.1后的上标1为脚注，不是第四段游戏版本号。"
 }
 ```
 
@@ -346,45 +346,45 @@ https://epoch.ai/benchmarks/spireclimb
 
 | 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
 |---|---|---|---|---|
-| 1 | GPT-6 Astra (max) | 0.33999999999999997 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-cd6cd8bb290a7ae3+steambench-sts2-a10-cdf1c9fa85cb6300","run_started_at_kst":"2026-11-05","stderr":"0.04131325151634216"} |
-| 2 | GPT-6.1 Sol (max) | 0.23833333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-e795fd781f73bd66+steambench-sts2-a10-9a23c8dea53b6755","run_started_at_kst":"2026-11-05","stderr":"0.03653377199465138"} |
-| 3 | GPT-6.1 Terra (max) | 0.22333333333333333 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-263bd0e64b156075+steambench-sts2-a10-1102b0b9cf1785f6","run_started_at_kst":"2026-11-05","stderr":"0.03386031744341088"} |
-| 4 | GPT-6 Sol (max) | 0.09166666666666667 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf","run_started_at_kst":"2026-11-06","stderr":"0.024324094573715753"} |
-| 5 | Claude Opus 5.5 (max) | 0.058333333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-789f946c67a789f5+steambench-sts2-a10-ef454c368767b2a0","run_started_at_kst":"2026-11-05","stderr":"0.020285004230980282"} |
-| 6 | Claude Fable 5.1 (max) | 0.02 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-2057a494867d184c+steambench-sts2-a10-413d1cc930f6d4c6","run_started_at_kst":"2026-11-06","stderr":"0.011389895949029987"} |
-| 7 | Claude Sonnet 5.5 (max) | 0.013333333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-e8f930bf4d4f1a14+steambench-sts2-a10-5db0e95e99f6b21c","run_started_at_kst":"2026-11-06","stderr":"0.009364170421755878"} |
-| 8 | GPT-6 Luna (max) | 0.0 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-f7325d71b8b16f57+steambench-sts2-a10-0e148062f8e47c4a","run_started_at_kst":"2026-11-06","stderr":"0.0"} |
+| 1 | GPT-6 Astra (max) | 0.33999999999999997 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-cd6cd8bb290a7ae3+steambench-sts2-a10-cdf1c9fa85cb6300","run_started_at":"2026-11-05","stderr":"0.04131325151634216"} |
+| 2 | GPT-6.1 Sol (max) | 0.23833333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-e795fd781f73bd66+steambench-sts2-a10-9a23c8dea53b6755","run_started_at":"2026-11-05","stderr":"0.03653377199465138"} |
+| 3 | GPT-6.1 Terra (max) | 0.22333333333333333 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-263bd0e64b156075+steambench-sts2-a10-1102b0b9cf1785f6","run_started_at":"2026-11-05","stderr":"0.03386031744341088"} |
+| 4 | GPT-6 Sol (max) | 0.09166666666666667 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf","run_started_at":"2026-11-06","stderr":"0.024324094573715753"} |
+| 5 | Claude Opus 5.5 (max) | 0.058333333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-789f946c67a789f5+steambench-sts2-a10-ef454c368767b2a0","run_started_at":"2026-11-05","stderr":"0.020285004230980282"} |
+| 6 | Claude Fable 5.1 (max) | 0.02 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-2057a494867d184c+steambench-sts2-a10-413d1cc930f6d4c6","run_started_at":"2026-11-06","stderr":"0.011389895949029987"} |
+| 7 | Claude Sonnet 5.5 (max) | 0.013333333333333334 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-e8f930bf4d4f1a14+steambench-sts2-a10-5db0e95e99f6b21c","run_started_at":"2026-11-06","stderr":"0.009364170421755878"} |
+| 8 | GPT-6 Luna (max) | 0.0 | equal-weight two-game win rate (0–1) | {"run_id":"steambench-sts1-a20h-f7325d71b8b16f57+steambench-sts2-a10-0e148062f8e47c4a","run_started_at":"2026-11-06","stderr":"0.0"} |
 
 #### SpireClimb (Slay the Spire 1, Ascension 20 Heart) / 0.3.3_cd56aef
 
 | 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
 |---|---|---|---|---|
-| 1 | GPT-6 Astra (max) | 0.3333333333333333 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-cd6cd8bb290a7ae3","run_started_at_kst":"2026-11-05","stderr":"0.06137164119322156","task_version":"0.3.3_cd56aef"} |
-| 2 | GPT-6.1 Sol (max) | 0.18333333333333332 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-e795fd781f73bd66","run_started_at_kst":"2026-11-05","stderr":"0.05037523978531015","task_version":"0.3.3_cd56aef"} |
-| 3 | GPT-6.1 Terra (max) | 0.1 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-263bd0e64b156075","run_started_at_kst":"2026-11-05","stderr":"0.039056673294247155","task_version":"0.3.3_cd56aef"} |
-| 4 | GPT-6 Sol (max) | 0.05 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-831fe00153e0f0b1","run_started_at_kst":"2026-11-06","stderr":"0.028374015326751195","task_version":"0.3.3_cd56aef"} |
-| 4 | Claude Opus 5.5 (max) | 0.05 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-789f946c67a789f5","run_started_at_kst":"2026-11-05","stderr":"0.028374015326751195","task_version":"0.3.3_cd56aef"} |
-| 6 | Claude Fable 5.1 (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-2057a494867d184c","run_started_at_kst":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
-| 6 | Claude Sonnet 5.5 (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-e8f930bf4d4f1a14","run_started_at_kst":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
-| 6 | GPT-6 Luna (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-f7325d71b8b16f57","run_started_at_kst":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
+| 1 | GPT-6 Astra (max) | 0.3333333333333333 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-cd6cd8bb290a7ae3","run_started_at":"2026-11-05","stderr":"0.06137164119322156","task_version":"0.3.3_cd56aef"} |
+| 2 | GPT-6.1 Sol (max) | 0.18333333333333332 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-e795fd781f73bd66","run_started_at":"2026-11-05","stderr":"0.05037523978531015","task_version":"0.3.3_cd56aef"} |
+| 3 | GPT-6.1 Terra (max) | 0.1 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-263bd0e64b156075","run_started_at":"2026-11-05","stderr":"0.039056673294247155","task_version":"0.3.3_cd56aef"} |
+| 4 | GPT-6 Sol (max) | 0.05 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-831fe00153e0f0b1","run_started_at":"2026-11-06","stderr":"0.028374015326751195","task_version":"0.3.3_cd56aef"} |
+| 4 | Claude Opus 5.5 (max) | 0.05 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-789f946c67a789f5","run_started_at":"2026-11-05","stderr":"0.028374015326751195","task_version":"0.3.3_cd56aef"} |
+| 6 | Claude Fable 5.1 (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-2057a494867d184c","run_started_at":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
+| 6 | Claude Sonnet 5.5 (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-e8f930bf4d4f1a14","run_started_at":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
+| 6 | GPT-6 Luna (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts1-a20h-f7325d71b8b16f57","run_started_at":"2026-11-06","stderr":"0.0","task_version":"0.3.3_cd56aef"} |
 
 #### SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_447ebe2
 
 | 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
 |---|---|---|---|---|
-| 1 | GPT-6.1 Terra (max) | 0.3466666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-1102b0b9cf1785f6","run_started_at_kst":"2026-11-04","stderr":"0.055323237980623115","task_version":"0.3.3_447ebe2"} |
+| 1 | GPT-6.1 Terra (max) | 0.3466666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-1102b0b9cf1785f6","run_started_at":"2026-11-04","stderr":"0.055323237980623115","task_version":"0.3.3_447ebe2"} |
 
 #### SpireClimb (Slay the Spire 2, Ascension 10) / 0.3.3_e52e280
 
 | 名次 | 模型 / 配置 | 原始分数 | 指标 | 关键配置 |
 |---|---|---|---|---|
-| 1 | GPT-6 Astra (max) | 0.3466666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-cdf1c9fa85cb6300","run_started_at_kst":"2026-09-23","stderr":"0.055323237980623115","task_version":"0.3.3_e52e280"} |
-| 2 | GPT-6.1 Sol (max) | 0.29333333333333333 | win rate (0–1) | {"run_id":"steambench-sts2-a10-9a23c8dea53b6755","run_started_at_kst":"2026-09-30","stderr":"0.052926375288708374","task_version":"0.3.3_e52e280"} |
-| 3 | GPT-6 Sol (max) | 0.13333333333333333 | win rate (0–1) | {"run_id":"steambench-sts2-a10-edacf7bb0ae31edf","run_started_at_kst":"2026-09-23","stderr":"0.03951659855758794","task_version":"0.3.3_e52e280"} |
-| 4 | Claude Opus 5.5 (max) | 0.06666666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-ef454c368767b2a0","run_started_at_kst":"2026-09-23","stderr":"0.028997255746722662","task_version":"0.3.3_e52e280"} |
-| 5 | Claude Fable 5.1 (max) | 0.04 | win rate (0–1) | {"run_id":"steambench-sts2-a10-413d1cc930f6d4c6","run_started_at_kst":"2026-09-25","stderr":"0.022779791898059974","task_version":"0.3.3_e52e280"} |
-| 6 | Claude Sonnet 5.5 (max) | 0.02666666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-5db0e95e99f6b21c","run_started_at_kst":"2026-09-30","stderr":"0.018728340843511757","task_version":"0.3.3_e52e280"} |
-| 7 | GPT-6 Luna (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts2-a10-0e148062f8e47c4a","run_started_at_kst":"2026-09-29","stderr":"0.0","task_version":"0.3.3_e52e280"} |
+| 1 | GPT-6 Astra (max) | 0.3466666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-cdf1c9fa85cb6300","run_started_at":"2026-09-23","stderr":"0.055323237980623115","task_version":"0.3.3_e52e280"} |
+| 2 | GPT-6.1 Sol (max) | 0.29333333333333333 | win rate (0–1) | {"run_id":"steambench-sts2-a10-9a23c8dea53b6755","run_started_at":"2026-09-30","stderr":"0.052926375288708374","task_version":"0.3.3_e52e280"} |
+| 3 | GPT-6 Sol (max) | 0.13333333333333333 | win rate (0–1) | {"run_id":"steambench-sts2-a10-edacf7bb0ae31edf","run_started_at":"2026-09-23","stderr":"0.03951659855758794","task_version":"0.3.3_e52e280"} |
+| 4 | Claude Opus 5.5 (max) | 0.06666666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-ef454c368767b2a0","run_started_at":"2026-09-23","stderr":"0.028997255746722662","task_version":"0.3.3_e52e280"} |
+| 5 | Claude Fable 5.1 (max) | 0.04 | win rate (0–1) | {"run_id":"steambench-sts2-a10-413d1cc930f6d4c6","run_started_at":"2026-09-25","stderr":"0.022779791898059974","task_version":"0.3.3_e52e280"} |
+| 6 | Claude Sonnet 5.5 (max) | 0.02666666666666667 | win rate (0–1) | {"run_id":"steambench-sts2-a10-5db0e95e99f6b21c","run_started_at":"2026-09-30","stderr":"0.018728340843511757","task_version":"0.3.3_e52e280"} |
+| 7 | GPT-6 Luna (max) | 0.0 | win rate (0–1) | {"run_id":"steambench-sts2-a10-0e148062f8e47c4a","run_started_at":"2026-09-29","stderr":"0.0","task_version":"0.3.3_e52e280"} |
 
 [来源1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
@@ -400,7 +400,7 @@ https://epoch.ai/benchmarks/spireclimb
 
 ```json
 [
-  "benchmarks@epoch.ai"
+ "benchmarks@epoch.ai"
 ]
 ```
 
@@ -466,15 +466,15 @@ https://epoch.ai/benchmarks/spireclimb
 
 ```json
 [
-  {
-    "type": "官方方法/介绍网页（不是论文PDF）"
-    "url": "https://epoch.ai/benchmarks/spireclimb"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://epoch.ai/data/benchmarks.csv"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "官方方法/介绍网页（不是论文PDF）"
+ "url": "https://epoch.ai/benchmarks/spireclimb"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -490,16 +490,14 @@ https://epoch.ai/benchmarks/spireclimb
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

@@ -1,6 +1,6 @@
 # MMMU
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 MMMU以11550道大学及专业学科图文题考查专业知识与视觉推理；dev、validation、test分别为150、900和10500题。2026-02-12官方已开放test答案，因此本页不再把它称为隐藏答案测试集。论文v4写30种图像类型，当前README写32种，两者缺少官方映射说明，现并列保留而非强行统一。
 [本页导读依据](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）
@@ -181,16 +181,16 @@ MMMU Team；主页列Xiang Yue、Yu Su、Wenhu Chen为对应联系作者。
 
 ```json
 {
-  "questions": 11550
-  "dev": 150
-  "validation": 900
-  "test": 10500
-  "disciplines": 6
-  "subjects": 30
-  "subfields": 183
-  "image_types_paper_v4": 30
-  "image_types_current_readme": 32
-  "conflict": "论文v4表1和正文为30类图像，当前README写32类；未提供逐类映射/修订解释，不静默统一。"
+ "questions": 11550
+ "dev": 150
+ "validation": 900
+ "test": 10500
+ "disciplines": 6
+ "subjects": 30
+ "subfields": 183
+ "image_types_paper_v4": 30
+ "image_types_current_readme": 32
+ "conflict": "论文v4表1和正文为30类图像，当前README写32类；未提供逐类映射/修订解释，不静默统一。"
 }
 ```
 
@@ -278,41 +278,41 @@ MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validatio
 
 ```json
 {
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2023-11-28"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2023-12-18"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2023-12-21"
-    }
-    {
-      "version": "v4"
-      "date_kst": "2024-06-14"
-    }
-  ]
-  "repository_news": [
-    {
-      "date": "2026-02-12"
-      最近复核
-    }
-    {
-      "date": "2026-07-28"
-      最近复核
-    }
-  ]
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2"
-      "date": "2026-10-22"
-      "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-    }
-  ]
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2023-11-28"
+ }
+ {
+ "version": "v2"
+ "date": "2023-12-18"
+ }
+ {
+ "version": "v3"
+ "date": "2023-12-21"
+ }
+ {
+ "version": "v4"
+ "date": "2024-06-14"
+ }
+ ]
+ "repository_news": [
+ {
+ "date": "2026-02-12"
+ 最近复核
+ }
+ {
+ "date": "2026-07-28"
+ 最近复核
+ }
+ ]
+ "continued_use_2026h2": [
+ {
+ "url": "https://arxiv.org/html/2610.01352v2"
+ "date": "2026-10-22"
+ "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+ }
+ ]
 }
 ```
 
@@ -475,76 +475,9 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 [来源1](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）
 
-### 文件夹
-
-```json
-{
-  "id": "1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc"
-    "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg"
-    "webViewLink": "
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/abs/2311.16502"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/html/2610.01352v2"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/pdf/2311.16502"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/MMMU/MMMU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://mmmu-benchmark.github.io/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
-
-### 原始PDF
-
-```json
-{
-  "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
+；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
 
 ## 变更记录
 
@@ -552,21 +485,18 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

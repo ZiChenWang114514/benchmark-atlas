@@ -1,6 +1,6 @@
 # HellaSwag
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HellaSwag由ActivityNet字幕和WikiHow说明构造四选一续写题，以生成负例及对抗过滤减少表面语言线索。官方test提交已在2024年11月关闭；当代常用validation成绩不能接在该历史榜上宣称同一赛道进步。
 
@@ -28,13 +28,13 @@ HellaSwag: Can a Machine Really Finish Your Sentence?
 
 ### 论文版本
 
-v1；2019-05-20（；论文修订号，不是数据版本）
+v1；2019-05-20（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2019-05-20（；arXiv初稿提交时间，非推定数据首发日）
+2019-05-20（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
@@ -86,7 +86,6 @@ HellaSwag: Can a Machine Really Finish Your Sentence?
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -125,7 +124,6 @@ NSF Graduate Research Fellowship及研究资助、DARPA CwC（经ARO）、IARPA 
 
 来源：[1](https://arxiv.org/pdf/1905.07830)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -139,7 +137,6 @@ NSF Graduate Research Fellowship及研究资助、DARPA CwC（经ARO）、IARPA 
 语言模型可能利用表面流畅度而不理解物理与事件常识；需要人类容易、模型困难的干扰项。
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -172,7 +169,6 @@ ActivityNet视频字幕与WikiHow操作说明作为上下文和正确结尾，�
 按活动类别设置in-domain与zero-shot类别；这不等于现代预训练污染审计。
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -212,7 +208,6 @@ HF卡列train 39905、validation 10042、test 10003；官网test榜与普遍采�
 
 来源：[1](https://huggingface.co/datasets/Rowan/hellaswag/raw/main/README.md)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -245,7 +240,6 @@ https://github.com/rowanz/hellaswag
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://arxiv.org/html/2610.11978v1)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -262,7 +256,7 @@ https://github.com/rowanz/hellaswag
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2019-05-20；timezone：；2026_h2_evidence：- url：https://arxiv.org/html/2610.11978v1；date：2026-10-08；note：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
+arxiv_submissions：- version：v1；submitted_at：2019-05-20；；2026_h2_evidence：- url：https://arxiv.org/html/2610.11978v1；date：2026-10-08；note：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
@@ -285,7 +279,6 @@ arxiv_submissions：- version：v1；submitted_at：2019-05-20；timezone：；2
 继承SWAG方向但扩大干扰项难度；本条不把ActivityNet与WikiHow视作独立benchmark。
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）；[2](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -325,7 +318,6 @@ https://rowanzellers.com/hellaswag/
 
 来源：[1](https://rowanzellers.com/hellaswag/)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -358,7 +350,6 @@ https://github.com/rowanz/hellaswag/issues
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
-
 ## 10. 原始文件
 
 ### 原文PDF
@@ -383,30 +374,22 @@ https://arxiv.org/pdf/1905.07830
 
 ### 文件夹
 
-id：1XmPAIntfyK79BR_x3RMsy2mZCedenwBL；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### 其他原始材料
 
-chinese_intro_doc：id：1Ht_XIC4UXIKL0om0ZQTRcNfOJ4hDUFIchol5N807ACc；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### PDF
 
-id：14I9LvyrpWsQfFnhlwJu0O_Ag-RrqKjNL；webViewLink：
-
-来源：[1]( 2026-11-07）
-
+来源：
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- date：2026-11-07；timezone：；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：- basic_info.license；- latest_status.latest_dataset_version；- data_format.public_hidden_split；- leaderboard.results；- leaderboard.coverage_note
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：- basic_info.license；- latest_status.latest_dataset_version；- data_format.public_hidden_split；- leaderboard.results；- leaderboard.coverage_note
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

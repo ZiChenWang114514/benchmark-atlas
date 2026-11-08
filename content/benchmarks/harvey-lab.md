@@ -1,6 +1,6 @@
 # Harvey LAB（Legal Agent Benchmark）
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 Harvey LAB要求agent处理案卷并交付可审核的法律文件，测的是长程工作完成而非孤立法律选择题。公开任务库现已大于首发规模，但AA与Vals榜仍各用120个私有任务；双裁判all-pass与AA幻觉门控是独立赛道。
 
@@ -99,7 +99,6 @@ https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -134,7 +133,6 @@ Harvey（harveyai/harvey-labs）
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -148,7 +146,6 @@ Harvey（harveyai/harvey-labs）
 LegalBench、CUAD、LEXam、BigLaw Bench 等只评短程推理，缺少长程法律 agent 基准。
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -183,7 +180,6 @@ Vals v1.1披露移除17条不可完成标准、替换1份错配源文件，hold-
 说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -226,7 +222,6 @@ Vals v1.1披露移除17条不可完成标准、替换1份错配源文件，hold-
 
 来源：[1](https://www.vals.ai/benchmarks/hlab)（访问 2026-11-07）；[2](https://artificialanalysis.ai/evaluations/harvey-lab-aa)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -258,7 +253,6 @@ https://github.com/harveyai/harvey-labs
 AA v1.1 与 v1.0 不可比；Vals HLAB-Vals-1.1 与 AA LAB-AA 不可比（Vals 页面明确说明）。
 
 来源：[1](https://artificialanalysis.ai/evaluations/harvey-lab-aa)（访问 2026-11-07）；[2](https://www.vals.ai/benchmarks/hlab)（访问 2026-11-07）
-
 
 ## 7. 最新情况
 
@@ -306,7 +300,6 @@ version：开源仓库 lab-core v1.3.0；AA 实现为 Harvey LAB-AA v1.1；Vals 
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
-
 ## 8. 榜单快照
 
 ### 采集日期
@@ -352,7 +345,6 @@ https://www.vals.ai/benchmarks/hlab
 
 来源：[1](https://artificialanalysis.ai/evaluations/harvey-lab-aa)（访问 2026-11-07）；[2](https://www.vals.ai/benchmarks/hlab)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -384,7 +376,6 @@ https://github.com/harveyai/harvey-labs/issues
 说明：本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
-
 
 ## 10. 原始文件
 
@@ -436,13 +427,11 @@ https://github.com/harveyai/harvey-labs/issues
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
-
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

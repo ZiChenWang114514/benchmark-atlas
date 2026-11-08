@@ -1,5 +1,5 @@
 # LiveCodeBench
-> 核验：2026-11-08。已核验存在；研究快照，未核实字段保留标记
+> 核验：2026-11-08。，
 
 LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，并把生成、自修复、执行与测试输出预测分开评估。滚动并不自动等于无污染：必须同时固定题目日期窗、模型训练截止信息、release、测试集lite设置及采样预算。
 
@@ -125,24 +125,24 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | O4-Mini (High) | 80.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 2 | O3 (High) | 75.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 3 | O4-Mini (Medium) | 74.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 4 | Gemini-2.5-Pro-06-05 | 73.6 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 5 | DeepSeek-R1-0528 | 73.1 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 6 | Gemini-2.5-Pro-05-06 | 71.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 7 | EXAONE-4.0-32B | 70.0 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 8 | OpenReasoning-Nemotron-32B | 69.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 9 | O3-Mini-2025-01-31 (High) | 67.4 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
-| 10 | OpenCodeReasoning-Nemotron-1.1-32B | 66.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json) · 2026-11-08 |
+| 1 | O4-Mini (High) | 80.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 2 | O3 (High) | 75.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 3 | O4-Mini (Medium) | 74.2 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 4 | Gemini-2.5-Pro-06-05 | 73.6 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 5 | DeepSeek-R1-0528 | 73.1 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 6 | Gemini-2.5-Pro-05-06 | 71.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 7 | EXAONE-4.0-32B | 70.0 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 8 | OpenReasoning-Nemotron-32B | 69.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 9 | O3-Mini-2025-01-31 (High) | 67.4 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
+| 10 | OpenCodeReasoning-Nemotron-1.1-32B | 66.8 | Pass@1 (%) | [来源](https://livecodebench.github.io/performances_generation.json)，2026-11-08 |
 
 ### AA当前摘要；评测窗待核实
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Gemini 3 Pro Preview (High) | 91.7 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
-| 2 | Gemini 3 Flash Preview (Reasoning) | 90.8 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
-| 3 | DeepSeek V3.2 Speciale | 89.6 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench) · 2026-11-08 |
+| 1 | Gemini 3 Pro Preview (High) | 91.7 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench)，2026-11-08 |
+| 2 | Gemini 3 Flash Preview (Reasoning) | 90.8 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench)，2026-11-08 |
+| 3 | DeepSeek V3.2 Speciale | 89.6 | AA LiveCodeBench score (%) | [来源](https://artificialanalysis.ai/evaluations/livecodebench)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S3](https://livecodebench.github.io/leaderboard.html) [S4](https://livecodebench.github.io/performances_generation.json) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
@@ -174,40 +174,34 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 **PDF字节数**：4960954 [S11](https://arxiv.org/pdf/2403.07974)
 
-**原有文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": " [S16](
-
-**其他材料**：[{"type": "中文介绍Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": " [S2](https://livecodebench.github.io/) [S17](
-
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
-
-**原有 PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": " [S18](
 
 ## 变更记录
 
-- 2026-11-07 · 首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- 2026-11-07 · 深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
+- 2026-11-07，深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974) · 访问 2026-11-07
-- S2 · [https://livecodebench.github.io/](https://livecodebench.github.io/) · 访问 2026-11-07
-- S3 · [https://livecodebench.github.io/leaderboard.html](https://livecodebench.github.io/leaderboard.html) · 访问 2026-11-08
-- S4 · [https://livecodebench.github.io/performances_generation.json](https://livecodebench.github.io/performances_generation.json) · 访问 2026-11-08
-- S5 · [https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench) · 访问 2026-11-08
-- S6 · [https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md) · 访问 2026-11-07
-- S7 · [https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974) · 访问 2026-11-08
-- S8 · [https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE](https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE) · 访问 2026-11-08
-- S9 · [https://huggingface.co/datasets/livecodebench/code_generation_lite](https://huggingface.co/datasets/livecodebench/code_generation_lite) · 访问 2026-11-08
-- S10 · [https://github.com/LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) · 访问 2026-11-08
-- S11 · [https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974) · 访问 2026-11-08
-- S12 · [https://livecodebench.github.io/](https://livecodebench.github.io/) · 访问 2026-11-08
-- S13 · [https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1) · 访问 2026-11-07
-- S14 · [https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench) · 访问 2026-11-07
-- S15 · [https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974) · 访问 2026-11-07
-- S16 · [ · 访问 2026-11-07
-- S17 · [ · 访问 2026-11-07
-- S18 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)，访问 2026-11-07
+- S2，[https://livecodebench.github.io/](https://livecodebench.github.io/)，访问 2026-11-07
+- S3，[https://livecodebench.github.io/leaderboard.html](https://livecodebench.github.io/leaderboard.html)，访问 2026-11-08
+- S4，[https://livecodebench.github.io/performances_generation.json](https://livecodebench.github.io/performances_generation.json)，访问 2026-11-08
+- S5，[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)，访问 2026-11-08
+- S6，[https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md](https://raw.githubusercontent.com/LiveCodeBench/LiveCodeBench/main/README.md)，访问 2026-11-07
+- S7，[https://arxiv.org/abs/2403.07974](https://arxiv.org/abs/2403.07974)，访问 2026-11-08
+- S8，[https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE](https://github.com/LiveCodeBench/LiveCodeBench/blob/main/LICENSE)，访问 2026-11-08
+- S9，[https://huggingface.co/datasets/livecodebench/code_generation_lite](https://huggingface.co/datasets/livecodebench/code_generation_lite)，访问 2026-11-08
+- S10，[https://github.com/LiveCodeBench/LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench)，访问 2026-11-08
+- S11，[https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974)，访问 2026-11-08
+- S12，[https://livecodebench.github.io/](https://livecodebench.github.io/)，访问 2026-11-08
+- S13，[https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1)，访问 2026-11-07
+- S14，[https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench)，访问 2026-11-07
+- S15，[https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974)，访问 2026-11-07
+- S16，[，访问 2026-11-07
+- S17，[，访问 2026-11-07
+- S18，[，访问 2026-11-07

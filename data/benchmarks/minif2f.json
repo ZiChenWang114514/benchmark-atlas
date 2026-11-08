@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2021-09-01（；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2021-09-01（arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2109.00110",
@@ -476,7 +476,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（采集日，不是评测运行日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2109.00110",
@@ -529,7 +529,7 @@
         },
         {
           "model": "tidy",
-          "score": 18.0,
+          "score": 18,
           "track": "原论文v2表3 / Lean / Pass@1",
           "source_url": "https://arxiv.org/pdf/2109.00110",
           "accessed": "2026-11-08",
@@ -723,18 +723,14 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "mimeType": "application/vnd.google-apps.document"
-        },
-        "local_markdown": "content/benchmarks/minif2f.md"
-      },
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "changelog": {

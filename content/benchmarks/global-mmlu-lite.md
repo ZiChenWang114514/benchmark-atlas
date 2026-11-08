@@ -1,6 +1,6 @@
 # Global-MMLU-Lite
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 Global-MMLU-Lite用人工翻译或后编辑的MMLU子集评估多语言能力，并将文化敏感性与模型表现分开分析。当前3.0数据卡的23语言范围不同于原论文15语言实验和AA实现覆盖，不应只凭同名将三者合并。
 
@@ -28,7 +28,7 @@ Global-MMLU-Lite
 
 ### 论文版本
 
-v2；2025-02-19（；论文修订号，不是数据版本）
+v2；2025-02-19（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
@@ -92,7 +92,6 @@ Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Mult
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -127,7 +126,6 @@ Cohere Labs与Open Science社区
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -141,7 +139,6 @@ Cohere Labs与Open Science社区
 单纯机器翻译英文MMLU既有翻译伪影也保留西方知识偏差；人工译校与文化标注使评估更可解释。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）；[2](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -174,7 +171,6 @@ CS/CA均衡；保留country、region、culture、time_sensitive等元信息。
 沿用公开MMLU题源，人工翻译与文化标注改进译质和解释性，但不构成消除预训练接触的保证；专项训练污染审计待核实。
 
 来源：[1](https://arxiv.org/pdf/2412.03304)（访问 2026-11-07）；[2](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -214,7 +210,6 @@ test 9,200条（23语言，每语言400）；dev 4,655条（22语言）。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -249,7 +244,6 @@ AA标准zero-shot指令；约400题/语言。原论文5-shot实验不能不加�
 
 来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）；[2](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）；[3](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -268,9 +262,7 @@ version：3.0；heat_confidence：B；evidence_2026_h2：- url：https://artific
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-12-04；timezone：；- version：v2；submitted_at：2025-02-19；timezone：
-
-来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2024-12-04；；- version：v2；submitted_at：2025-02-19；来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -291,7 +283,6 @@ arxiv_submissions：- version：v1；submitted_at：2024-12-04；timezone：；-
 同族Global-MMLU全量不再拆条；与OpenAI MMMLU存在部分翻译源重叠，但不是同一题集。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）；[2](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -329,7 +320,6 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 
 来源：[1](https://artificialanalysis.ai/evaluations/global-mmlu-lite)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -363,7 +353,6 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
-
 
 ## 10. 原始文件
 
@@ -411,13 +400,11 @@ https://arxiv.org/pdf/2412.03304
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
-
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

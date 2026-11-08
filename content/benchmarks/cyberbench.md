@@ -2,7 +2,7 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-研究快照；trending: B；未知信息保留待核实。
+未知信息保留待核实。
 
 CyberBench v1.1测两种互补能力：构造能区分漏洞版与修复版的输入，以及修补程序同时保留正常功能。任务来自ARVO的OSS-Fuzz原生软件漏洞回归镜像，采用mini-swe-agent；60道PoC题和56道Patch题不应与完整企业网络入侵混为一谈。 [1](https://www.vals.ai/benchmarks/cyber)
 
@@ -128,7 +128,6 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 | 9 | Claude Opus 5.5 (CVP) | 74.58 | Overall Accuracy (%)；2026-11-05；[1](https://www.vals.ai/benchmarks/cyber) |
 | 10 | DeepSeek V4.1 Flash | 73.69 | Overall Accuracy (%)；2026-11-05；[1](https://www.vals.ai/benchmarks/cyber) |
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官方页面结果；采集日期不等于榜单更新时间。 [1](https://www.vals.ai/benchmarks/cyber)
@@ -162,7 +161,7 @@ v1.1更换离线沙箱和clean-room评分器，替代而非直接延续v1成绩�
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber)
+- date：2026-11-07；；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber)
 
 ---
 

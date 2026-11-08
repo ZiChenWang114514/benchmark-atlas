@@ -50,8 +50,8 @@ arXiv:2511.11562v1；当前abs仅列v1。
 
 ```json
 [
-  "法律"
-  "专业推理"
+ "法律"
+ "专业推理"
 ]
 ```
 
@@ -115,30 +115,30 @@ Scale AI
 
 ```json
 [
-  "Afra Feyza Akyürek"
-  "Advait Gosai"
-  "Chen Bo Calvin Zhang"
-  "Vipul Gupta"
-  "Jaehwan Jeong"
-  "Anisha Gunjal"
-  "Tahseen Rabbani"
-  "Maria Mazzone"
-  "David Randolph"
-  "Mohammad Mahmoudi Meymand"
-  "Gurshaan Chattha"
-  "Paula Rodriguez"
-  "Diego Mares"
-  "Pavit Singh"
-  "Michael Liu"
-  "Subodh Chawla"
-  "Pete Cline"
-  "Lucy Ogaz"
-  "Ernesto Hernandez"
-  "Zihao Wang"
-  "Pavi Bhatter"
-  "Marcos Ayestaran"
-  "Bing Liu"
-  "Yunzhong He"
+ "Afra Feyza Akyürek"
+ "Advait Gosai"
+ "Chen Bo Calvin Zhang"
+ "Vipul Gupta"
+ "Jaehwan Jeong"
+ "Anisha Gunjal"
+ "Tahseen Rabbani"
+ "Maria Mazzone"
+ "David Randolph"
+ "Mohammad Mahmoudi Meymand"
+ "Gurshaan Chattha"
+ "Paula Rodriguez"
+ "Diego Mares"
+ "Pavit Singh"
+ "Michael Liu"
+ "Subodh Chawla"
+ "Pete Cline"
+ "Lucy Ogaz"
+ "Ernesto Hernandez"
+ "Zihao Wang"
+ "Pavi Bhatter"
+ "Marcos Ayestaran"
+ "Bing Liu"
+ "Yunzhong He"
 ]
 ```
 
@@ -222,7 +222,7 @@ Legal全量500题、Legal-Hard 250题；9,092项rubric标准；金融600题另�
 
 ```json
 [
-  "文本"
+ "文本"
 ]
 ```
 
@@ -290,18 +290,18 @@ https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报�
 
 ```json
 {
-  "version": "PRBench公开Legal 500题 / Hard 250题（本次可核验发布集）"
-  "heat_confidence": "B"
-  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/prbench-legal"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "organization": "官方维护方"
-      "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
-    }
-  ]
+ "version": "PRBench公开Legal 500题 / Hard 250题（本次可核验发布集）"
+ "heat_confidence": "B"
+ "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/prbench-legal"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "organization": "官方维护方"
+ "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
+ }
+ ]
 }
 ```
 
@@ -311,11 +311,10 @@ https://github.com/scaleapi/PRBench；python evals.py config.yaml；results/报�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-11-15"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-11-15"
+ }
 ]
 ```
 
@@ -430,7 +429,7 @@ https://labs.scale.com/leaderboard/prbench-legal
 
 ```json
 [
-  "yunzhong.he@scale.com"
+ "yunzhong.he@scale.com"
 ]
 ```
 
@@ -488,18 +487,18 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 
 ```json
 [
-  {
-    "type": "官方README"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
-  }
-  {
-    "type": "HF数据卡"
-    "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
-  }
-  {
-    "type": "代码MIT许可"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
-  }
+ {
+ "type": "官方README"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
+ }
+ {
+ "type": "HF数据卡"
+ "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
+ }
+ {
+ "type": "代码MIT许可"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
+ }
 ]
 ```
 
@@ -514,16 +513,14 @@ f36249e74c865bbd352546aa9d9014031dd22e6c86b88a7ab1d07c6b4bb05c59
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://labs.scale.com/leaderboard/prbench-legal)（访问 2026-11-08）

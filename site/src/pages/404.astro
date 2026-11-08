@@ -1,15 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentLocale, t } from '../i18n';
 import { page } from '../lib/format';
+const locale = currentLocale();
 ---
-<Base title="没有这一页" description="这个地址没有对应的档案或页面。">
-  <div class="wrap doc-title">
-    <p class="eyebrow">404</p>
-    <h1>没有这一页</h1>
-    <p class="lede">地址可能写错了，或者这条基准还没收录。可以回到目录，或直接看原始 JSON。</p>
+<Base title={t(locale, 'notfound.title')} description={t(locale, 'notfound.description')}>
+  <div class="wrap page-hero">
+    <h1>{t(locale, 'notfound.title')}</h1>
+    <p class="lede">{t(locale, 'notfound.lede')}</p>
     <p class="actions">
-      <a class="action action-primary" href={page()}>回到目录</a>
-      <a class="action" href={page('constitution')}>收集宪法</a>
+      <a class="action action-primary" href={page()}>{t(locale, 'notfound.home')}</a>
+      <a class="action" href={page('constitution')}>{t(locale, 'nav.constitution')}</a>
     </p>
   </div>
 </Base>

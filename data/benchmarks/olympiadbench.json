@@ -530,7 +530,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     }
   },
   "leaderboard": {
@@ -565,7 +565,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
@@ -791,7 +791,7 @@
         },
         {
           "model": "GPT-4",
-          "score": 32.0,
+          "score": 32,
           "track": "官方README/Text-only/Math accuracy (%)",
           "metric": "Math accuracy (%)",
           "source_url": "https://github.com/OpenBMB/OlympiadBench",
@@ -1133,7 +1133,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。",
@@ -1188,11 +1188,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

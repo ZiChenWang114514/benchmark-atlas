@@ -1,6 +1,6 @@
 # HealthBench
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 原版HealthBench用医生撰写的rubric评价5,000段医疗对话的最后一条回复；Hard与Consensus是其切片。它不等于525例HealthBench Professional，后者的长度调整榜不能当作原版更新成绩，也不能将rubric得分当作临床正确率。
 
@@ -28,13 +28,13 @@ HealthBench
 
 ### 论文版本
 
-v1；2025-05-14（；论文修订号，不是数据版本）
+v1；2025-05-14（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2025-05-14（；arXiv初稿提交时间，非推定数据首发日）
+2025-05-14（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -88,7 +88,6 @@ HealthBench: Evaluating Large Language Models Towards Improved Human Health
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -125,7 +124,6 @@ OpenAI
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -139,7 +137,6 @@ OpenAI
 医学选择题和短答案难反映真实医疗交互，也常缺乏与医生判断的一致性验证。
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -172,7 +169,6 @@ OpenAI
 发布canary及避免传播题例的请求，并保留少量同分布私有hold-out；其规模待核实。
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -212,7 +208,6 @@ Hard为1,000个困难样本：先对o3、Grok 3、Gemini 2.5 Pro、Claude 3.7 So
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -245,7 +240,6 @@ OpenAI simple-evals中的HealthBench评测、meta-evaluation、Hard/Consensus与
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -264,9 +258,7 @@ version：原始HealthBench（非Professional）；evidence_2026_h2：- url：ht
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2025-05-14；timezone：
-
-来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2025-05-14；来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -287,7 +279,6 @@ arxiv_submissions：- version：v1；submitted_at：2025-05-14；timezone：
 HealthBench Hard与Consensus为原版衍生切片；HealthBench Professional是另一个525例临床工作对话基准，本库单独建档，不把其榜归入本条。
 
 来源：[1](https://arxiv.org/pdf/2505.08775)（访问 2026-11-07）；[2](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -327,7 +318,6 @@ https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 来源：[1](https://arxiv.org/pdf/2505.08775)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -357,7 +347,6 @@ https://github.com/openai/simple-evals/issues
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
-
 
 ## 10. 原始文件
 
@@ -405,13 +394,11 @@ f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
-
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone： (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

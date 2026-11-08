@@ -2,7 +2,7 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核实存在；深度条目；显式待核实项保留
+深度条目；显式待核实项保留
 
 DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解数据集：模型在Wikipedia段落中找证据，完成计数、加减、比较及多跨度回答，而非仅抽取连续文本。原论文96567题，按段落分为77409训练、9536开发、9622隐藏测试，避免同一段落跨集。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
@@ -126,7 +126,6 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 > Expert human：exact_match：94.09；result_type：2019历史人工参考 [2](https://arxiv.org/abs/1903.00161)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官方隐藏测试榜不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。 [2](https://arxiv.org/abs/1903.00161)
@@ -154,15 +153,9 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 - **PDF字节数**：1989064 [10](https://arxiv.org/pdf/1903.00161) 注：下载字节数；未上传。
 
-- **归档目录**：id：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc；webViewLink： [11](
-
-- **其他正式文档**：chinese_intro_doc：id：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w；webViewLink： [11](
-
-- **中的论文副本**：id：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_；webViewLink： [12](
-
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；timezone：；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://allennlp.org/drop)
+- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://allennlp.org/drop)
 
 ---
 

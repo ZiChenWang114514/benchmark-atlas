@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2023-11-14（arXiv初稿日期，不冒充数据集单独首发日）
+2023-11-14（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）。
 
@@ -50,7 +50,7 @@ arXiv v1
 
 ```json
 [
-  "可验证指令遵循"
+ "可验证指令遵循"
 ]
 ```
 
@@ -114,14 +114,14 @@ Google Research 研究团队；Jeffrey Zhou 的研究实习与 Yale 背景在论
 
 ```json
 [
-  "Zhou, Jeffrey"
-  "Lu, Tianjian"
-  "Mishra, Swaroop"
-  "Brahma, Siddhartha"
-  "Basu, Sujoy"
-  "Luan, Yi"
-  "Zhou, Denny"
-  "Hou, Le"
+ "Zhou, Jeffrey"
+ "Lu, Tianjian"
+ "Mishra, Swaroop"
+ "Brahma, Siddhartha"
+ "Basu, Sujoy"
+ "Luan, Yi"
+ "Zhou, Denny"
+ "Hou, Le"
 ]
 ```
 
@@ -277,11 +277,10 @@ Google官方HF卡显示541行，25种指令以原论文为准；未编造语义�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2023-11-14"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2023-11-14"
+ }
 ]
 ```
 
@@ -335,97 +334,97 @@ https://arxiv.org/abs/2311.07911
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "76.89"
-    "metric": "prompt-level strict accuracy (%)"
-    "track": "作者论文表3 / prompt-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "43.07"
-    "metric": "prompt-level strict accuracy (%)"
-    "track": "作者论文表3 / prompt-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "83.57"
-    "metric": "instruction-level strict accuracy (%)"
-    "track": "作者论文表3 / instruction-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "55.76"
-    "metric": "instruction-level strict accuracy (%)"
-    "track": "作者论文表3 / instruction-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "79.30"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "作者论文表3 / prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "46.95"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "作者论文表3 / prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "85.37"
-    "metric": "instruction-level loose accuracy (%)"
-    "track": "作者论文表3 / instruction-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "59.11"
-    "metric": "instruction-level loose accuracy (%)"
-    "track": "作者论文表3 / instruction-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "model": "Hunyuan-A13B（报告命名）"
-    "score": 84.7
-    "unit": "%"
-    "metric": "IF-Eval，报告表3原标签"
-    "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比"
-    "evaluation_date": "报告日期2026-09-23；精确运行日期待核实"
-    "snapshot_date": "2026-11-07 （保留历史证据；未复开厂商报告）"
-    "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）"
-    "rank": null
-  }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "76.89"
+ "metric": "prompt-level strict accuracy (%)"
+ "track": "作者论文表3 / prompt-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "43.07"
+ "metric": "prompt-level strict accuracy (%)"
+ "track": "作者论文表3 / prompt-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "83.57"
+ "metric": "instruction-level strict accuracy (%)"
+ "track": "作者论文表3 / instruction-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "55.76"
+ "metric": "instruction-level strict accuracy (%)"
+ "track": "作者论文表3 / instruction-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "79.30"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "作者论文表3 / prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "46.95"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "作者论文表3 / prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "85.37"
+ "metric": "instruction-level loose accuracy (%)"
+ "track": "作者论文表3 / instruction-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "59.11"
+ "metric": "instruction-level loose accuracy (%)"
+ "track": "作者论文表3 / instruction-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "model": "Hunyuan-A13B（报告命名）"
+ "score": 84.7
+ "unit": "%"
+ "metric": "IF-Eval，报告表3原标签"
+ "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比"
+ "evaluation_date": "报告日期2026-09-23；精确运行日期待核实"
+ "snapshot_date": "2026-11-07 （保留历史证据；未复开厂商报告）"
+ "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）"
+ "rank": null
+ }
 ]
 ```
 
@@ -443,7 +442,7 @@ https://arxiv.org/abs/2311.07911
 
 ```json
 [
-  "lehou@google.com"
+ "lehou@google.com"
 ]
 ```
 
@@ -497,39 +496,15 @@ https://arxiv.org/pdf/2311.07911
 
 ### 已有文件夹
 
-```json
-{
-  "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
-  "webViewLink": "
-}
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc"
-    "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU"
-    "webViewLink": "
-  }
-]
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ### 已有 PDF归档
 
-```json
-{
-  "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM"
-  "webViewLink": "
-}
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ## 变更记录
 
@@ -537,23 +512,19 @@ https://arxiv.org/pdf/2311.07911
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.07911)（访问 2026-11-07）；[3](https://github.com/google-research/google-research/tree/master/instruction_following_eval)（访问 2026-11-07）；[4](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）；[5](https://github.com/google-research/google-research/tree/master/instruction_following_eval)（访问 2026-11-08）。
-

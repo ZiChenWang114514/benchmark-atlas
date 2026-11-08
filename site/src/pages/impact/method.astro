@@ -1,19 +1,20 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { currentLocale, t } from '../../i18n';
 import { loadMethodology } from '../../lib/boards';
 import { renderMarkdownDocument } from '../../lib/content';
 import { page } from '../../lib/format';
 
+const locale = currentLocale();
 const markdown = loadMethodology();
 const html = markdown ? renderMarkdownDocument(markdown) : '';
 ---
-<Base title="影响力方法" description="学术影响力榜各维度的定义和权重。" active="impact">
-  <div class="wrap doc-title">
-    <p class="eyebrow">方法</p>
-    <h1>学术影响力怎么算</h1>
-    <p class="meta-line"><a href={page('impact')}>返回榜单</a></p>
+<Base title={t(locale, 'method.title')} description={t(locale, 'method.description')} active="impact">
+  <div class="wrap page-hero">
+    <h1>{t(locale, 'method.heading')}</h1>
+    <p class="meta-row"><a href={page('impact')}>{t(locale, 'method.back')}</a></p>
   </div>
   <div class="wrap">
-    {html ? <article class="prose" set:html={html} /> : <p class="pending-data">数据生成中</p>}
+    {html ? <article class="prose" set:html={html} /> : <p class="pending-data">{t(locale, 'home.pending_data')}</p>}
   </div>
 </Base>

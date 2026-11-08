@@ -4,7 +4,7 @@
 
 Vibe Code Bench要求从自然语言规格构建可部署Web应用，用浏览器工作流核验功能而非只测代码片段。本次完整记录125条官网配置；它不测安全与代码质量，也不是从已有应用连续改需求的VCB 1–100。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -12,31 +12,31 @@ Vibe Code Bench要求从自然语言规格构建可部署Web应用，用浏览�
 
 Vibe Code Bench v1.1
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 全称
 
 Vibe Code Bench v1.1
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 基准版本
 
 v1.1
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 论文版本
 
 arXiv v3；提交于 2026-05-14 08:00:10
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 发布日期
 
 2026-02-24（v1.1）
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 主板块
 
@@ -44,31 +44,31 @@ arXiv v3；提交于 2026-05-14 08:00:10
 
 说明：编辑归档；跨领域只计主板块。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 领域标签
 
 - 代码
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 许可与适用范围
 
 公开OpenHands scaffold除enterprise/目录外为MIT，enterprise/按其独立许可；官网将benchmark标为Proprietary，测试集许可待核实，不把scaffold MIT外推至题库。
 
-来源：[1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/blob/main/LICENSE)（访问 2026-11-08，）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/blob/main/LICENSE)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 论文
 
 https://arxiv.org/abs/2603.04601
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 代码仓库
 
 https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 数据地址
 
@@ -76,19 +76,19 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 官方主页
 
 https://www.vals.ai/benchmarks/vibe-code
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 论文标题
 
 Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 发起与维护
 
@@ -96,25 +96,25 @@ Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development
 
 Vals AI
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 合作机构
 
 作者隶属Vals AI及MIT；不据作者隶属推断正式合作协议。
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 作者
 
 Hung Tran、Langston Nashold、Rayan Krishnan、Antoine Bigeard、Alex Gu
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）；[2](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）；[2](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 当前维护方
 
 Vals AI
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 资助与支持
 
@@ -122,7 +122,7 @@ Vals AI
 
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 设计目标
 
@@ -130,13 +130,13 @@ Vals AI
 
 从自然语言规格零到一构建可部署网页应用，完成认证、数据、支付、邮件等用户流程。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 设计背景
 
 函数生成或已有仓库修bug不足以检验完整应用交付、部署与服务集成。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 构建方式
 
@@ -144,31 +144,31 @@ Vals AI
 
 LLM生成初稿，PM与软件工程师多轮审查，规格与测试对齐，测试经人工检查。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 出题背景
 
 专业产品经理与软件工程师审查规格；题目初稿由LLM生成，灵感来自咨询案例、自由职业开发任务及创业应用模式。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### 审核流程
 
 产品经理与软件工程师多轮审核应用规格与测试；人工检查需求是否足以支持验证步骤。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 质量控制
 
 每规格多轮PM/工程师审阅；官网称每测试由专业工程师三重验证。论文另做人类对齐研究，模型裁判间子步骤一致率31.8–93.6%，评分器选择影响结果；可用性不等于设计、代码质量或安全审计。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### 去污染与泄漏
 
 验证/测试应用任务互不重叠，运行隔离新浏览器会话并使用唯一账户/数据防工作流状态泄漏；这是评测状态隔离，预训练数据污染审计仍待核实。
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ## 数据形式
 
@@ -176,13 +176,13 @@ LLM生成初稿，PM与软件工程师多轮审查，规格与测试对齐，测
 
 论文：100应用规格，50验证/50测试；964浏览器工作流、10,131子步骤。当前网页另称每规格20–60测试，与论文6–23工作流口径不一致。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）；[2](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）；[2](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 题型
 
 完整应用规格输入；输出可部署应用，浏览器逐步验证。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 模态
 
@@ -190,25 +190,25 @@ LLM生成初稿，PM与软件工程师多轮审查，规格与测试对齐，测
 - 代码
 - 网页视觉交互
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 语言
 
 英文自然语言应用规格与UI工作流；生成物涉及Web代码、终端及浏览器视觉交互，不能解读为固定编程语言单元测试。
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### 难度
 
 论文按16模型平均通过率后验分为Easy23、Medium19、Hard8（测试50题）；不是先验专家固定难度标签，新增模型不应重写历史分组。
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### 数据划分
 
 论文摘要称50私有验证/50隐藏测试，表3写Validation(public)；公开性互相矛盾，待确认，不能擅称完整开放。
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ## 评测方法
 
@@ -216,19 +216,19 @@ LLM生成初稿，PM与软件工程师多轮审查，规格与测试对齐，测
 
 工作流通过率，按应用平均，误差条±1标准误。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 评分方式
 
 浏览器agent执行预写用户工作流；至少90%子步骤成功则该工作流通过；按应用工作流通过比例再对应用平均。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 提示与运行设置
 
 OpenHands改造容器环境，最多5小时或1,000轮；终端、浏览器、自托管Supabase、Stripe测试模式、MailHog。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 评测脚本
 
@@ -236,13 +236,13 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
 说明：本地址是公开改造OpenHands scaffold；并不保证私有规格、测试和评分服务全部公开。
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 可比性提醒
 
 网页与论文对技术栈约束、测试数量及验证集公开性描述有冲突，分来源记录；当前v1.1榜单不等于论文早期16模型结果。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 最新情况
 
@@ -250,53 +250,53 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
 2026-11-08
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 数据版本与更新
 
 ```json
 {
-  "version": "v1.1"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/vibe-code"
-      "date": "2026-11-05"
-      "date_type": "source_calendar_date"
-      "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
-    }
-  ]
+ "version": "v1.1"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/vibe-code"
+ "date": "2026-11-05"
+ "date_type": "source_calendar_date"
+ "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
+ }
+ ]
 }
 ```
 
 说明：热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2026-03-05 06:00:33 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2026-05-05 12:37:49 ", "timezone": ""}
-- {"version": "v3", "submitted_at": "2026-05-14 08:00:10 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2026-03-05 06:00:33 "}
+- {"version": "v2", "submitted_at": "2026-05-05 12:37:49 "}
+- {"version": "v3", "submitted_at": "2026-05-14 08:00:10 "}
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-08）
 
 ### 饱和证据与局限
 
 官网2026-11-05更新的v1.1榜最高92.39%，但逐应用仍有低通过率异常；工作流通过率高不证明完整应用、代码质量、安全全部合格。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 争议与已知问题
 
 arXiv v3摘要/正文称50 private validation，表3又标Validation(public)；公开性矛盾保留。官网v1.1已经125个系统配置，论文16模型为历史，不混为同次实验。
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 衍生或后继基准
 
 VCB 1–100从v1.1已通过应用出发，连续最多10轮需求变更；有50测试/50验证场景，测演进与回归，不是本页从零建应用的替代分数。
 
-来源：[1](https://www.vals.ai/benchmarks/vcb-1-100)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vcb-1-100)（访问 2026-11-08）
 
 ## 榜单快照
 
@@ -304,13 +304,13 @@ VCB 1–100从v1.1已通过应用出发，连续最多10轮需求变更；有50�
 
 2026-11-08
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 官方榜单入口
 
 https://www.vals.ai/benchmarks/vibe-code
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 第三方入口
 
@@ -318,7 +318,7 @@ https://www.vals.ai/benchmarks/vibe-code
 
 说明：Vals自建基准与独立运行外部基准性质不同；同机构多URL不等于独立复核。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 可核验结果
 
@@ -450,13 +450,13 @@ https://www.vals.ai/benchmarks/vibe-code
 | Vals官网v1.1 / OpenHands | 114 | Grok 4 Fast (Reasoning) | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05（网页Updated）](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
 | Vals官网v1.1 / OpenHands | 114 | Mistral Small 4 | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05（网页Updated）](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ### 榜单覆盖边界
 
 完整转录官网125条模型×harness配置，保留原表全榜rank；本页rank按harness分轨重算，不能将不同scaffold当同一基础模型配置。11月5日为网页更新时间，不冒充精确评测运行日期；不混入VCB 1–100的33.98%等后继任务结果。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -466,13 +466,13 @@ https://www.vals.ai/benchmarks/vibe-code
 - langston@vals.ai
 - rayan@vals.ai
 
-来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/abs/2603.04601)（访问 2026-11-07）
 
 ### 公开反馈渠道
 
 https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
 
-来源：[1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold)（访问 2026-11-08，）
+来源：[1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold)（访问 2026-11-08）
 
 ### 官方社交账号
 
@@ -480,7 +480,7 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
 
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 联系方式/隐私原则
 
@@ -488,7 +488,7 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
 
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 原始文件
 
@@ -496,13 +496,13 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
 
 https://arxiv.org/pdf/2603.04601
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### PDF SHA-256
 
 1933eb3da0f6f6b6905903c1c6952238d0347ec6c2f5526f02e5346cac0fbf5f
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### PDF字节数
 
@@ -510,7 +510,7 @@ https://arxiv.org/pdf/2603.04601
 2556686
 ```
 
-来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2603.04601)（访问 2026-11-08）
 
 ### 文件夹
 
@@ -518,23 +518,23 @@ https://arxiv.org/pdf/2603.04601
 
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 其他文档
 
 - {"type": "官方方法或项目页", "url": "https://www.vals.ai/benchmarks/vibe-code", "accessed": "2026-11-07"}
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ### 论文原件
 
 待核实
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-07）
 
 ## 变更记录
 
 最近复核
 最近复核
 
-来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08，）
+来源：[1](https://www.vals.ai/benchmarks/vibe-code)（访问 2026-11-08）

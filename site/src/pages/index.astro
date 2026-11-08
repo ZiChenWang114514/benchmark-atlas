@@ -1,94 +1,185 @@
 ---
 import Base from '../layouts/Base.astro';
+import HeatLegend from '../components/HeatLegend.astro';
+import TrendItem from '../components/TrendItem.astro';
+import { currentLocale, t } from '../i18n';
+import { visualCopy } from '../i18n/visual';
+import { sectionLabel, sectionSlug } from '../lib/sections';
 import {
   allTags,
   benchmarksMentioned,
   loadIndex,
   loadNews,
-  loadQuality,
   loadRecords,
   loadTrending,
   newsWhen,
   sectionGroups,
   trendingViews,
 } from '../lib/data';
-import HeatLegend from '../components/HeatLegend.astro';
-import TrendItem from '../components/TrendItem.astro';
 import { loadHeat, loadImpact } from '../lib/boards';
-import { page, publicText, safeUrl, textValue, tone } from '../lib/format';
+import { dateStamp, displayName, page, publicText, safeUrl, textValue, tone } from '../lib/format';
 
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const index = loadIndex();
 const records = loadRecords();
 const news = loadNews();
-const quality = loadQuality();
-const { groups, reserved } = sectionGroups(records);
+const { groups } = sectionGroups(records);
 const tags = allTags(records);
-const chips = ['全部', ...groups.map((group) => group.id)];
+const chips = [{ id: 'all', label: t(locale, 'home.all_sections') }, ...groups.map((group) => ({ id: sectionSlug(group.id), label: sectionLabel(group.id, locale) }))];
 const [lead, ...rest] = news;
-const deferred = quality.deferred ?? [];
-const excluded = (quality.excluded_as_nonexistent ?? []).filter((item) => item.name && item.reason);
 const catalog = records.map((record) => record.index);
 const trending = loadTrending();
 const hotList = trendingViews();
 const hotBySlug = new Map(hotList.map((item) => [item.slug, item]));
-const hotPreview = hotList.slice(0, 12);
+const hotPreview = hotList.slice(0, 6);
 const heat = loadHeat();
 const impact = loadImpact();
-const heatTop = (heat?.ranking ?? []).slice(0, 10);
-const impactTop = (impact?.ranking ?? []).slice(0, 10);
+const known = new Set(records.map((record) => record.index.id));
+const heatTop = (heat?.ranking ?? []).slice(0, 5);
+const impactTop = (impact?.ranking ?? []).filter((row) => row.score != null).slice(0, 5);
+const stamp = dateStamp(index.generated_at);
+const windowText = trending.window?.from && trending.window?.through ? t(locale, 'home.window', { from: trending.window.from, through: trending.window.through }) : '';
+const stats = [
+  { href: '#browse', label: ui.statDossiers, value: records.length },
+  { href: '#news', label: ui.statNews, value: news.length },
+  impact ? { href: page('impact'), label: ui.statRanked, value: impact.ranking.length } : null,
+  heat ? { href: page('frontier-heat'), label: ui.statHeat, value: heat.ranking.length } : null,
+].filter((item): item is { href: string; label: string; value: number } => !!item);
+
 function hostOf(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
   } catch {
-    return '来源';
+    return t(locale, 'home.source');
   }
+}
+function pct(value: number): number {
+  return Math.max(0, Math.min(100, value));
 }
 ---
 <Base
   title="Benchmark Constitution"
-  description="自然科学 AI benchmark 图鉴。首页是最新动态和分板块档案，每条事实保留来源；没核验完的标明待核实。"
+  description={t(locale, 'home.description')}
   active="home"
 >
   <div class="wrap">
     <header class="masthead">
-      <p class="eyebrow">Benchmark Constitution</p>
-      <h1>基准收集宪法</h1>
-      <p class="lede">追踪值得读的科学评测，而不只追逐分数。每条事实带来源和访问日期；没有核验完的，标明待核实。</p>
-      <p class="meta-line">
-        数据快照 {index.generated_at ?? '未注明'}{index.timezone ? ` · ${index.timezone}` : ''} · {records.length} 则档案
-        · <a href={page('constitution')}>收录范围与真实性原则见《收集宪法》</a>
+      <h1>Benchmark Constitution</h1>
+      <p class="lede">{t(locale, 'home.lede')}</p>
+      <p class="meta-row">
+        {stamp && <span>{ui.snapshot} {stamp}</span>}
+        <span>{t(locale, 'home.records', { n: records.length })}</span>
+        <a href={page('constitution')}>{t(locale, 'home.constitution_link')}</a>
       </p>
     </header>
 
-    <section class="section" aria-labelledby="board-widgets">
-      <header class="flag"><h2 id="board-widgets">两个榜</h2><p>数据每天写入后，这里显示前 10 名</p></header>
-      <div class="widget-grid">
-        <article class="widget">
-          <h3><a href={page('frontier-heat')}>业界热度榜</a></h3>
-          {heat ? (
-            <ol class="widget-list">
-              {heatTop.map((row) => <li><span class="num">{row.rank}</span> {row.name} <span class="card-tags">{row.count} 个模型</span></li>)}
-            </ol>
-          ) : <p class="pending-data">数据生成中</p>}
-        </article>
-        <article class="widget">
-          <h3><a href={page('impact')}>学术影响力榜</a></h3>
-          {impact ? (
-            <ol class="widget-list">
-              {impactTop.map((row) => <li><span class="num">{row.rank}</span> {row.name} <span class="card-tags">{row.score ?? '—'}</span></li>)}
-            </ol>
-          ) : <p class="pending-data">数据生成中</p>}
-        </article>
-      </div>
+    <div class="stat-row">
+      {stats.map((item) => (
+        <a class="stat" href={item.href}>
+          <span>{item.label}</span>
+          <strong>{new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(item.value)}</strong>
+        </a>
+      ))}
+    </div>
+
+    <section class="section" id="news" aria-labelledby="news-title">
+      <header class="flag">
+        <h2 id="news-title">{t(locale, 'home.news')}</h2>
+        <p>{t(locale, 'home.news_note')}</p>
+      </header>
+      {news.length === 0 ? (
+        <p>{t(locale, 'home.news_empty')}</p>
+      ) : (
+        <div class="home-split">
+          <div>
+            {lead && (
+              <article class="news-lead" data-news>
+                {lead.type && <p class="kicker">{lead.type}</p>}
+                <h3>{lead.title}</h3>
+                <p class="when">{newsWhen(lead)}</p>
+                <p class="news-body">{publicText(lead.body)}</p>
+                <p class="news-links">
+                  {lead.sources.map((source) => safeUrl(source.url) && (
+                    <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+                  ))}
+                  {benchmarksMentioned(`${lead.title}\n${lead.body}`, catalog).map((item) => (
+                    <a class="dossier-link" href={page(`benchmarks/${item.id}`)}><span>{ui.dossierLink}</span><span>{item.name}</span></a>
+                  ))}
+                </p>
+              </article>
+            )}
+            {rest.length > 0 && (
+              <div class="news-rest">
+                {rest.map((item) => (
+                  <article class="news-item" data-news>
+                    {item.type && <p class="kicker">{item.type}</p>}
+                    <h3>{item.title}</h3>
+                    <p class="when">{newsWhen(item)}</p>
+                    <p class="news-body">{publicText(item.body)}</p>
+                    <p class="news-links">
+                      {item.sources.map((source) => safeUrl(source.url) && (
+                        <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+                      ))}
+                      {benchmarksMentioned(`${item.title}\n${item.body}`, catalog).map((match) => (
+                        <a class="dossier-link" href={page(`benchmarks/${match.id}`)}><span>{ui.dossierLink}</span><span>{match.name}</span></a>
+                      ))}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            )}
+          </div>
+          <aside>
+            {impactTop.length > 0 && (
+              <section class="rail" aria-labelledby="rail-impact">
+                <h2 id="rail-impact"><a href={page('impact')}>{t(locale, 'nav.impact')}</a></h2>
+                {impactTop.map((row) => {
+                  const href = known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact');
+                  const score = row.score ?? 0;
+                  return (
+                    <a class="rail-row" href={href}>
+                      <span class:list={['rank-no', row.rank != null && row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
+                      <span class="rail-name">{displayName(row.name)}</span>
+                      <span class="rail-score">
+                        <span class="num">{score.toFixed(1)}</span>
+                        <span class="track" aria-hidden="true"><span style={`width:${pct(score)}%`}></span></span>
+                      </span>
+                    </a>
+                  );
+                })}
+              </section>
+            )}
+            {heatTop.length > 0 && heat && (
+              <section class="rail" aria-labelledby="rail-heat">
+                <h2 id="rail-heat"><a href={page('frontier-heat')}>{t(locale, 'nav.heat')}</a></h2>
+                {heatTop.map((row) => {
+                  const href = known.has(row.benchmark_id) ? page(`benchmarks/${row.benchmark_id}`) : page('frontier-heat');
+                  const share = typeof row.share === 'number' ? row.share : (heat.models.length ? row.count / heat.models.length : 0);
+                  return (
+                    <a class="rail-row" href={href}>
+                      <span class:list={['rank-no', row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
+                      <span class="rail-name">{displayName(row.name)}</span>
+                      <span class="rail-score">
+                        <span class="num">{row.count}</span>
+                        <span class="track" aria-hidden="true"><span style={`width:${pct(share * 100)}%`}></span></span>
+                      </span>
+                    </a>
+                  );
+                })}
+              </section>
+            )}
+          </aside>
+        </div>
+      )}
     </section>
 
     <section class="section" id="trending" aria-labelledby="trending-title">
       <header class="flag">
-        <h2 id="trending-title">近期热门</h2>
-        <p>
-          {trending.window?.from && trending.window?.through ? `${trending.window.from} 至 ${trending.window.through}` : '按热度排序'}
-          {' · '}
-          <a href={page('trending')}>全部 {hotList.length} 条</a>
+        <h2 id="trending-title">{t(locale, 'home.trending')}</h2>
+        <p class="inline-meta">
+          {windowText && <span>{windowText}</span>}
+          <a href={page('trending')}>{t(locale, 'home.all_trending', { n: hotList.length })}</a>
         </p>
       </header>
       <HeatLegend />
@@ -97,114 +188,65 @@ function hostOf(url: string): string {
       </div>
     </section>
 
-    <section class="section" id="news" aria-labelledby="news-title">
-      <header class="flag">
-        <h2 id="news-title">最新动态</h2>
-        <p>观察日不等于事件发生日{news[0]?.timezone ? ` · ${news[0].timezone}` : ''}</p>
-      </header>
-      {news.length === 0 ? (
-        <p>这一期还没有动态。</p>
-      ) : (
-        <div class="news-layout">
-          {lead && (
-            <article class="news-lead" data-news>
-              {lead.type && <p class="kicker">{lead.type}</p>}
-              <h3>{lead.title}</h3>
-              <p class="when">{newsWhen(lead)}</p>
-              <p class="news-body">{publicText(lead.body)}</p>
-              <p class="news-links">
-                {lead.sources.map((source) => safeUrl(source.url) && (
-                  <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
-                ))}
-                {benchmarksMentioned(`${lead.title}\n${lead.body}`, catalog).map((item) => (
-                  <a href={page(`benchmarks/${item.id}`)}>档案 · {item.name}</a>
-                ))}
-              </p>
-            </article>
-          )}
-          {rest.length > 0 && (
-            <div class="news-rest">
-              {rest.map((item) => (
-                <article class="news-item" data-news>
-                  {item.type && <p class="kicker">{item.type}</p>}
-                  <h3>{item.title}</h3>
-                  <p class="when">{newsWhen(item)}</p>
-                  <p class="news-body">{publicText(item.body)}</p>
-                  <p class="news-links">
-                    {item.sources.map((source) => safeUrl(source.url) && (
-                      <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
-                    ))}
-                    {benchmarksMentioned(`${item.title}\n${item.body}`, catalog).map((match) => (
-                      <a href={page(`benchmarks/${match.id}`)}>档案 · {match.name}</a>
-                    ))}
-                  </p>
-                </article>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-    </section>
-
     <section class="section" id="sections" aria-labelledby="sections-title">
       <header class="flag">
-        <h2 id="sections-title">按板块看</h2>
-        <p>主板块有条目才出现在这里</p>
+        <h2 id="sections-title">{t(locale, 'home.sections')}</h2>
+        <p>{t(locale, 'home.sections_note')}</p>
       </header>
-      <nav class="section-index" aria-label="板块">
+      <nav class="section-index" aria-label={t(locale, 'home.sections_aria')}>
         {groups.map((group) => (
-          <a href={`#sec-${group.id}`}>
-            <span>{group.id}</span>
+          <a href={`#sec-${sectionSlug(group.id)}`}>
+            <span>{sectionLabel(group.id, locale)}</span>
             <strong>{group.items.length}</strong>
             <small>{group.blurb}</small>
           </a>
         ))}
       </nav>
-      <p class="index-note">十二个板块按收录顺序列出，数字是该板块的条目数。跨学科基准只计入一个主板块，其他学科用标签找回来。标了「2026下半年仍被引用」的，索引里有对应引用证据。</p>
+      <p class="index-note">{t(locale, 'home.index_note')}</p>
     </section>
 
     <section class="section" id="browse" aria-labelledby="browse-title">
       <header class="flag">
-        <h2 id="browse-title">搜索与筛选</h2>
-        <p id="result-count">本批 {records.length} 个基准 · 当前显示 {records.length} 个</p>
+        <h2 id="browse-title">{t(locale, 'home.browse')}</h2>
+        <p id="result-count">{t(locale, 'home.count', { total: records.length, shown: records.length })}</p>
       </header>
-      <form id="browse-form" class="browse-form" role="search" action={page()} method="get">
-        <label class="sr-only" for="q">搜索基准</label>
-        <input id="q" class="search" name="q" type="search" placeholder="搜索名称、任务或标签，例如 GPQA、分子、天气" autocomplete="off" enterkeyhint="search" />
-        <div class="chips" role="group" aria-label="板块筛选">
+      <form id="browse-form" class="browse-form" role="search" action={page()} method="get" data-all="all" data-locale={locale} data-count-template={t(locale, 'home.count', { total: '{total}', shown: '{shown}' })}>
+        <label class="sr-only" for="q">{t(locale, 'home.search_label')}</label>
+        <input id="q" class="search" name="q" type="search" placeholder={t(locale, 'home.search_placeholder')} autocomplete="off" enterkeyhint="search" />
+        <div class="chips" role="group" aria-label={t(locale, 'home.chips_aria')}>
           {chips.map((chip) => (
-            <button type="button" class="chip" data-section-chip={chip} aria-pressed={chip === '全部' ? 'true' : 'false'}>{chip}</button>
+            <button type="button" class="chip" data-section-chip={chip.id} aria-pressed={chip.id === 'all' ? 'true' : 'false'}>{chip.label}</button>
           ))}
         </div>
         <div class="controls">
-          <label class="sel" for="tag">标签
+          <label class="sel" for="tag">{t(locale, 'home.tag')}
             <select id="tag" name="tag">
-              <option value="">全部标签</option>
+              <option value="">{t(locale, 'home.all_tags')}</option>
               {tags.map((tag) => <option value={tag}>{tag}</option>)}
             </select>
           </label>
-          <label class="sel" for="sort">排列
+          <label class="sel" for="sort">{t(locale, 'home.sort')}
             <select id="sort" name="sort">
-              <option value="section">板块顺序</option>
-              <option value="name">名称</option>
-              <option value="date">同板块内较新</option>
+              <option value="section">{t(locale, 'home.sort_section')}</option>
+              <option value="name">{t(locale, 'home.sort_name')}</option>
+              <option value="date">{t(locale, 'home.sort_date')}</option>
             </select>
           </label>
-          <button type="button" class="ghost" id="reset">重置</button>
+          <button type="button" class="ghost" id="reset">{t(locale, 'home.reset')}</button>
         </div>
       </form>
-      <noscript><p class="note">筛选和排序需要脚本。不启用时，下面仍按板块列出全部基准。</p></noscript>
-      <p id="empty" class="empty" hidden>没有符合的基准。换一个词，或重置筛选。</p>
+      <noscript><p class="note">{t(locale, 'home.noscript')}</p></noscript>
+      <p id="empty" class="empty" hidden>{t(locale, 'home.empty')}</p>
     </section>
 
     {groups.map((group) => (
-      <section class="group" id={`sec-${group.id}`} data-group={group.id} aria-labelledby={`heading-${group.id}`}>
+      <section class="group" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
         <header class="group-head">
           <div>
-            <h2 id={`heading-${group.id}`}>{group.id}</h2>
+            <h2 id={`heading-${sectionSlug(group.id)}`}>{sectionLabel(group.id, locale)}</h2>
             <p>{group.blurb}</p>
           </div>
-          <p>{group.items.length} 个基准</p>
+          <p>{t(locale, 'home.benchmarks_count', { n: group.items.length })}</p>
         </header>
         <div class="card-grid" data-grid>
           {group.items.map((record) => {
@@ -215,7 +257,7 @@ function hostOf(url: string): string {
               <a
                 class="card"
                 data-card
-                data-section={record.index.section}
+                data-section={sectionSlug(record.index.section)}
                 data-name={record.index.name}
                 data-date={record.date}
                 data-order={record.order}
@@ -225,18 +267,18 @@ function hostOf(url: string): string {
                 style={`--tone:${tone(record.index.section)}`}
               >
                 <span class="card-section">
-                  {record.index.section}
-                  {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
+                  <span class="domain-tag">{sectionLabel(record.index.section, locale)}</span>
+                  {record.index.cited_2026h2 && <span class="badge badge-cite">{t(locale, 'home.cited')}</span>}
                   {hotBySlug.get(record.index.id) && (
-                    <span class="badge badge-hot">🔥 近期热门 {hotBySlug.get(record.index.id)?.heat_confidence}</span>
+                    <span class="badge badge-hot">🔥 {t(locale, 'home.hot', { grade: hotBySlug.get(record.index.id)?.heat_confidence ?? '' })}</span>
                   )}
                 </span>
                 <h3>{record.index.name}</h3>
                 <p class="card-summary">{publicText(record.index.summary)}</p>
-                {size && <p class="card-size">{size === '待核实' || size === '未公开' ? `规模${size}` : size}</p>}
-                {extra.length > 0 && <p class="card-tags">同时涉及 {extra.join('、')}</p>}
+                {size && <p class="card-size">{size === '待核实' || size === '未公开' || size === 'Unverified' || size === 'Not disclosed' ? t(locale, 'home.size_status', { status: size }) : size}</p>}
+                {extra.length > 0 && <p class="card-tags">{t(locale, 'home.also', { tags: extra.join(t(locale, 'value.join')) })}</p>}
                 <p class="card-foot">
-                  <span>{release ? `发布 ${release}` : '发布日期待核实'}</span>
+                  <span>{release ? t(locale, 'home.released', { date: release }) : t(locale, 'home.release_unverified')}</span>
                 </p>
               </a>
             );
@@ -244,63 +286,7 @@ function hostOf(url: string): string {
         </div>
       </section>
     ))}
-
-    <div id="tail">
-      {reserved.length > 0 && (
-        <section class="section" id="secondary" aria-labelledby="secondary-title">
-          <header class="flag">
-            <h2 id="secondary-title">尚未收录的板块</h2>
-            <p>宪法里有这个位置，当前索引还没有条目</p>
-          </header>
-          <ul class="reserved">
-            {reserved.map((section) => (
-              <li><span>{section}</span><em>0</em></li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <section class="section" id="principles" aria-labelledby="principles-title">
-        <header class="flag">
-          <h2 id="principles-title">收录原则</h2>
-          <p>{quality.validated_date ? `质量记录 ${quality.validated_date}` : '以宪法为准'}</p>
-        </header>
-        <div class="principles">
-          <div class="callout stack">
-            <p><strong>不把未知写成事实。</strong>每一条事实都要有来源和访问日期。查不到就写待核实；只有证据支持时才写未公开。榜单分数必须连同子集、指标和采集日一起读。</p>
-            <p><a href={page('constitution')}>阅读《收集宪法》</a></p>
-          </div>
-          <div>
-            {deferred.length > 0 && (
-              <>
-                <h3>暂缓单列</h3>
-                <ul class="deferred">
-                  {deferred.map((item) => (
-                    <li>
-                      <strong>{item.name}</strong>
-                      <p>{item.reason}</p>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-            {excluded.length > 0 && (
-              <>
-                <h3>已排除</h3>
-                <ul class="deferred">
-                  {excluded.map((item) => (
-                    <li>
-                      <strong>{item.name}</strong>
-                      <p>{item.reason}</p>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </div>
-        </div>
-      </section>
-    </div>
+    <div id="tail"></div>
   </div>
   <script>
     import '../scripts/browse.ts';

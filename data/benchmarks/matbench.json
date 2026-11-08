@@ -637,7 +637,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
@@ -847,7 +847,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -902,11 +902,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
@@ -936,30 +932,7 @@
       },
       {
         "date": "2026-11-08",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.paper_version",
-          "construction.author_background",
-          "construction.decontamination",
-          "construction.quality_control",
-          "data_format.difficulty",
-          "data_format.languages",
-          "data_format.modalities",
-          "data_format.public_hidden_split",
-          "evaluation.official_scripts",
-          "evaluation.prompt_settings",
-          "latest_status.checked_at",
-          "latest_status.derivatives",
-          "latest_status.paper_revision_history",
-          "latest_status.saturation",
-          "leaderboard.coverage_note",
-          "leaderboard.results",
-          "leaderboard.snapshot_date",
-          "organization.funders",
-          "organization.partners",
-          "original_files.pdf_bytes",
-          "original_files.sha256"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

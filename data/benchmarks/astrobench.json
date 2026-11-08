@@ -68,7 +68,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-07-16 03:28:14（，UTC+8；原论文arXiv v1提交时刻）",
+      "value": "2024-07-16 03:28:14（原论文arXiv v1提交时刻）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2407.11194",
@@ -546,7 +546,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2407.11194",
@@ -620,7 +620,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2407.11194",
@@ -655,7 +655,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
@@ -667,7 +667,7 @@
           "track": "AstroMLab-4 v2表1：3846题清理版",
           "source_url": "https://arxiv.org/pdf/2505.17592",
           "accessed": "2026-11-07",
-          "result_date": "2026-02-20（；论文修订日，不是逐模型运行日）",
+          "result_date": "2026-02-20（论文修订日，不是逐模型运行日）",
           "source_type": "官方作者论文历史实验"
         },
         {
@@ -678,29 +678,29 @@
           "track": "AstroMLab-4 v2表1：3846题清理版",
           "source_url": "https://arxiv.org/pdf/2505.17592",
           "accessed": "2026-11-07",
-          "result_date": "2026-02-20（；论文修订日，不是逐模型运行日）",
+          "result_date": "2026-02-20（论文修订日，不是逐模型运行日）",
           "source_type": "官方作者论文历史实验"
         },
         {
           "rank": 3,
           "model": "AstroSage-Llama-3.1-70B",
-          "score": 89.0,
+          "score": 89,
           "metric": "accuracy (%)",
           "track": "AstroMLab-4 v2表1：3846题清理版",
           "source_url": "https://arxiv.org/pdf/2505.17592",
           "accessed": "2026-11-07",
-          "result_date": "2026-02-20（；论文修订日，不是逐模型运行日）",
+          "result_date": "2026-02-20（论文修订日，不是逐模型运行日）",
           "source_type": "官方作者论文历史实验"
         },
         {
           "rank": 3,
           "model": "Claude 4.5 Opus",
-          "score": 89.0,
+          "score": 89,
           "metric": "accuracy (%)",
           "track": "AstroMLab-4 v2表1：3846题清理版",
           "source_url": "https://arxiv.org/pdf/2505.17592",
           "accessed": "2026-11-07",
-          "result_date": "2026-02-20（；论文修订日，不是逐模型运行日）",
+          "result_date": "2026-02-20（论文修订日，不是逐模型运行日）",
           "source_type": "官方作者论文历史实验"
         },
         {
@@ -711,13 +711,13 @@
           "track": "AstroMLab-4 v2表1：3846题清理版",
           "source_url": "https://arxiv.org/pdf/2505.17592",
           "accessed": "2026-11-07",
-          "result_date": "2026-02-20（；论文修订日，不是逐模型运行日）",
+          "result_date": "2026-02-20（论文修订日，不是逐模型运行日）",
           "source_type": "官方作者论文历史实验"
         },
         {
           "rank": 1,
           "model": "Claude-3.5-Sonnet",
-          "score": 85.0,
+          "score": 85,
           "metric": "accuracy (%)",
           "track": "AstroMLab-1 v2表1/2：4425题内部集（历史）",
           "source_url": "https://arxiv.org/pdf/2407.11194",
@@ -813,7 +813,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "official_social": {
       "value": "待核实",
@@ -832,7 +832,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -887,11 +887,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
@@ -921,36 +917,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.release_date",
-          "basic_info.version",
-          "organization.partners",
-          "organization.maintainer",
-          "organization.funders",
-          "design_goals.gap_in_prior_benchmarks",
-          "construction.author_background",
-          "construction.quality_control",
-          "construction.decontamination",
-          "data_format.size",
-          "data_format.question_types",
-          "data_format.modalities",
-          "data_format.difficulty",
-          "evaluation.scoring",
-          "evaluation.prompt_settings",
-          "evaluation.comparability_warning",
-          "latest_status.latest_dataset_version",
-          "latest_status.paper_revision_history",
-          "latest_status.saturation",
-          "latest_status.derivatives",
-          "leaderboard.official_url",
-          "leaderboard.results",
-          "leaderboard.coverage_note",
-          "latest_status.checked_at",
-          "leaderboard.snapshot_date",
-          "original_files.sha256",
-          "original_files.pdf_bytes"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

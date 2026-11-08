@@ -1,6 +1,6 @@
 # HealthBench Professional
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HealthBench Professional聚焦医生工作中的咨询、文书和研究对话，525个公开任务含困难及红队富集，并非自然临床频率样本。论文内部产品评测、参考外部实现及AA裸模型评测需分开；长度校正会奖励短于2,000字符的答案，不只是惩罚长答案。
 
@@ -28,13 +28,13 @@ HealthBench Professional
 
 ### 论文版本
 
-v1；2026-04-30（；论文修订号，不是数据版本）
+v1；2026-04-30（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2026-04-30（；arXiv初稿提交时间，非推定数据首发日）
+2026-04-30（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
@@ -91,7 +91,6 @@ HealthBench Professional: Evaluating Large Language Models on Real Clinician Cha
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -128,7 +127,6 @@ OpenAI
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -142,7 +140,6 @@ OpenAI
 医学选择题或合成病历不能覆盖常见临床聊天工作；Professional补充而非替代面向患者和医生的HealthBench。
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -175,7 +172,6 @@ OpenAI
 论文请求不要在线逐题发布数据；使用canary，并保留小型私有held-out集监测训练污染。
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -215,7 +211,6 @@ typical为医生Likert 3–7，difficult为1–2；困难选择针对当时OpenA
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -248,7 +243,6 @@ typical为医生Likert 3–7，difficult为1–2；困难选择针对当时OpenA
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -265,9 +259,7 @@ version：2026-04论文v1配套525例数据包；未另给语义版本；heat_co
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2026-04-30；timezone：
-
-来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2026-04-30；来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -288,7 +280,6 @@ Epoch于2026-09-10评审判为Flawed；该目录未说明具体错误，不臆�
 Professional是对HealthBench的互补临床工作评测，不是Hard/Consensus切片，也不宣称取代HealthBench。
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -328,7 +319,6 @@ https://artificialanalysis.ai/evaluations/healthbench-professional
 
 来源：[1](https://artificialanalysis.ai/evaluations/healthbench-professional)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -362,7 +352,6 @@ https://artificialanalysis.ai/evaluations/healthbench-professional
 说明：已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
-
 
 ## 10. 原始文件
 
@@ -412,13 +401,11 @@ ac61ef9d93b93e827e6543e7449d51381539a4bd37dbfa90e7e48b5fd235a628
 
 来源：[1](https://arxiv.org/abs/2604.27470)（访问 2026-11-07）
 
-
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

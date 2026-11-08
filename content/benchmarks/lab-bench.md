@@ -36,7 +36,7 @@ arXiv v3
 
 ### 发布日期
 
-2024-07-15（arXiv初稿日期，不冒充数据集单独首发日）
+2024-07-15（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-08）。
 
@@ -52,11 +52,11 @@ arXiv v3
 
 ```json
 [
-  "生物研究工作流"
-  "文献与数据库检索"
-  "科研图表理解"
-  "实验协议排错"
-  "序列计算与分子克隆"
+ "生物研究工作流"
+ "文献与数据库检索"
+ "科研图表理解"
+ "实验协议排错"
+ "序列计算与分子克隆"
 ]
 ```
 
@@ -112,7 +112,7 @@ FutureHouse
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -120,15 +120,15 @@ FutureHouse
 
 ```json
 [
-  "Laurent, Jon M."
-  "Janizek, Joseph D."
-  "Ruzo, Michael"
-  "Hinks, Michaela M."
-  "Hammerling, Michael J."
-  "Narayanan, Siddharth"
-  "Ponnapati, Manvitha"
-  "White, Andrew D."
-  "Rodriques, Samuel G."
+ "Laurent, Jon M."
+ "Janizek, Joseph D."
+ "Ruzo, Michael"
+ "Hinks, Michaela M."
+ "Hammerling, Michael J."
+ "Narayanan, Siddharth"
+ "Ponnapati, Manvitha"
+ "White, Andrew D."
+ "Rodriques, Samuel G."
 ]
 ```
 
@@ -198,28 +198,28 @@ Eric and Wendy Schmidt的支持及OpenPhilanthropy grant（论文Acknowledgments
 
 ```json
 {
-  "paper_total": 2457
-  "paper_categories": {
-    "LitQA2": 248
-    "SuppQA": 102
-    "FigQA": 226
-    "TableQA": 305
-    "DbQA": 650
-    "ProtocolQA": 135
-    "SeqQA": 750
-    "CloningScenarios": 41
-  }
-  "HF_public_rows": {
-    "LitQA2": 199
-    "SuppQA": 82
-    "FigQA": 181
-    "TableQA": 244
-    "DbQA": 520
-    "ProtocolQA": 108
-    "SeqQA": 600
-    "CloningScenarios": 33
-  }
-  "scope_note": "论文全量与HF公开子集不同；不要将公开行数和2457混加。"
+ "paper_total": 2457
+ "paper_categories": {
+ "LitQA2": 248
+ "SuppQA": 102
+ "FigQA": 226
+ "TableQA": 305
+ "DbQA": 650
+ "ProtocolQA": 135
+ "SeqQA": 750
+ "CloningScenarios": 41
+ }
+ "HF_public_rows": {
+ "LitQA2": 199
+ "SuppQA": 82
+ "FigQA": 181
+ "TableQA": 244
+ "DbQA": 520
+ "ProtocolQA": 108
+ "SeqQA": 600
+ "CloningScenarios": 33
+ }
+ "scope_note": "论文全量与HF公开子集不同；不要将公开行数和2457混加。"
 }
 ```
 
@@ -305,21 +305,18 @@ labbench.Evaluator.score_agent；scripts/score_baselines.py、run_baselines.sh �
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2024-07-15"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-07-17"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2024-07-18"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2024-07-15"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-07-17"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2024-07-18"
+ }
 ]
 ```
 
@@ -343,7 +340,7 @@ labbench.Evaluator.score_agent；scripts/score_baselines.py、run_baselines.sh �
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -367,7 +364,7 @@ https://arxiv.org/abs/2407.10362
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -375,96 +372,96 @@ https://arxiv.org/abs/2407.10362
 
 ```json
 [
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.46"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / FigQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.29"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / FigQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gemini-1.5-pro-001"
-    "score": "0.25"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / FigQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.83"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / TableQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.71"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / TableQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-opus-20240229"
-    "score": "0.67"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / TableQA / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.28"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.28"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-opus-20240229"
-    "score": "0.27"
-    "metric": "Accuracy (0–1)"
-    "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "历史作者实验；只展示部分模型而非当前全榜"
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.46"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / FigQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.29"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / FigQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gemini-1.5-pro-001"
+ "score": "0.25"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / FigQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.83"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / TableQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.71"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / TableQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-opus-20240229"
+ "score": "0.67"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / TableQA / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.28"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.28"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-opus-20240229"
+ "score": "0.27"
+ "metric": "Accuracy (0–1)"
+ "track": "原论文补表2 / CloningScenarios / public+private，3次均值"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "历史作者实验；只展示部分模型而非当前全榜"
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
@@ -482,8 +479,8 @@ https://arxiv.org/abs/2407.10362
 
 ```json
 [
-  "andrew@futurehouse.org"
-  "sam@futurehouse.org"
+ "andrew@futurehouse.org"
+ "sam@futurehouse.org"
 ]
 ```
 
@@ -499,7 +496,7 @@ https://github.com/Future-House/LAB-Bench/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -537,39 +534,15 @@ https://arxiv.org/pdf/2407.10362
 
 ### 已有文件夹
 
-```json
-{
-  "id": "1BRtTEYKj1y2jzDcP9dniY8gIfoL8OOeI"
-  "webViewLink": "
-}
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc"
-    "id": "1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M"
-    "webViewLink": "
-  }
-]
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ### 已有 PDF归档
 
-```json
-{
-  "id": "1HH9ZDHCphE4BAdmg5XueFKIgzTexV5ov"
-  "webViewLink": "
-}
-```
-
-来源：[1]( 2026-11-07）。
+来源：。
 
 ## 变更记录
 
@@ -577,23 +550,19 @@ https://arxiv.org/pdf/2407.10362
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://arxiv.org/abs/2407.10362)（访问 2026-11-08）；[4](https://github.com/Future-House/LAB-Bench)（访问 2026-11-08）。
-

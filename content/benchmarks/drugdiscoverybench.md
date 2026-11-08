@@ -2,8 +2,6 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核验存在；中文研究快照；note: trending: B；未核实保留标记
-
 DrugDiscoveryBench由Scale AI与Phylo构建，用82道执行型任务覆盖早期药物发现七类能力、四个阶段。agent需要调用真实生物医学工具和数据源，完成多步调查后给出可验证的简短答案；920项标准区分最终结果与研究过程，主榜只按结果是否完全达标计任务成功。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench) [2](https://labs.scale.com/papers/drugdiscoverybench) [3](https://github.com/scaleapi/DrugDiscoveryBench/blob/main/README.md) [4](https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench)
 
 GitHub已公开运行框架与MIT许可；HF Preview只有题目和元数据，完整gated卡含答案及结果/过程rubric，均标CC BY 4.0并提示不得为刷榜训练。当前动态榜最高68.70%，不是旧正文的51.6%。原报告120分钟与当前README的45分钟quickstart、网站76/82与PDF80/82的专家恢复数均应显式区分。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench) [2](https://labs.scale.com/papers/drugdiscoverybench) [3](https://github.com/scaleapi/DrugDiscoveryBench/blob/main/README.md) [4](https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench)
@@ -132,7 +130,6 @@ GitHub已公开运行框架与MIT许可；HF Preview只有题目和元数据，�
 
 > Deepseek V4p1 Flash 1017 (mini-swe-agent) xhigh：rank_type：网页行序 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：读取动态榜前五完整对应行；早期正文仍写12/16配置、当前表有25行，不能用正文配置数概括当前榜。网页具体更新日没有精确核实；采集日不是运行日。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
@@ -169,7 +166,7 @@ GitHub已公开运行框架与MIT许可；HF Preview只有题目和元数据，�
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
+- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
 ---
 

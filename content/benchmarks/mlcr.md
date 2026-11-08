@@ -1,6 +1,6 @@
 # MLCR / MLCR-AA
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -294,7 +294,7 @@ MLCR-AA是Artificial Analysis独立执行的私有难题实现；公开MLCR harn
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://artificialanalysis.ai/evaluations/mlcr-aa)（访问 2026-11-08）
 
@@ -367,7 +367,6 @@ https://artificialanalysis.ai/evaluations/mlcr-aa
 - **Claude Opus 5**：- **published_date**：2026-08-31；- **configuration**：博客正文未在该数值段给出完整配置，不能映射到当前AA模型行
 
 [来源](https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning)（访问 2026-11-08）
-
 
 [来源](https://artificialanalysis.ai/evaluations/mlcr-aa)（访问 2026-11-08）；[来源](https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning)（访问 2026-11-08）
 

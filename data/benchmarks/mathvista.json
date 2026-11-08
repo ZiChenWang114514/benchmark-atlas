@@ -507,15 +507,15 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-10-04"
+            "date": "2023-10-04"
           },
           {
             "version": "v2",
-            "date_kst": "2023-10-26"
+            "date": "2023-10-26"
           },
           {
             "version": "v3",
-            "date_kst": "2024-01-21"
+            "date": "2024-01-21"
           }
         ],
         "continued_use_2026h2": [
@@ -524,8 +524,7 @@
             "date": "2026-10-22",
             "note": "MMVistaReason v2 §4.1及表2实际评测 MathVista（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
           }
-        ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        ]
       },
       "sources": [
         {
@@ -651,7 +650,7 @@
         {
           "rank": 4,
           "model": "Kimi-k1.6-preview-20250308",
-          "score": 80.0,
+          "score": 80,
           "unit": "%",
           "metric": "Accuracy",
           "track": "官方testmini / 1,000例",
@@ -929,11 +928,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

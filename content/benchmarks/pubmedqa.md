@@ -52,7 +52,7 @@ EMNLP-IJCNLP 2019正式论文D19-1259；arXiv:1909.06146v1。
 
 ```json
 [
-  "生物与医学"
+ "生物与医学"
 ]
 ```
 
@@ -100,9 +100,9 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh"
-  "Carnegie Mellon University"
-  "Google AI（按论文作者单位）"
+ "University of Pittsburgh"
+ "Carnegie Mellon University"
+ "Google AI（按论文作者单位）"
 ]
 ```
 
@@ -112,9 +112,9 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh"
-  "Carnegie Mellon University"
-  "Google AI（论文合作作者单位；非额外推定的机构协议）"
+ "University of Pittsburgh"
+ "Carnegie Mellon University"
+ "Google AI（论文合作作者单位；非额外推定的机构协议）"
 ]
 ```
 
@@ -124,11 +124,11 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "Qiao Jin"
-  "Bhuwan Dhingra"
-  "Zhengping Liu"
-  "William Cohen"
-  "Xinghua Lu"
+ "Qiao Jin"
+ "Bhuwan Dhingra"
+ "Zhengping Liu"
+ "William Cohen"
+ "Xinghua Lu"
 ]
 ```
 
@@ -144,7 +144,7 @@ pubmedqa官方GitHub组织；Qiao Jin在README列为项目联系人。
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -192,7 +192,7 @@ PQA-L由两位具资格的M.D. candidates标注；原文未把他们称作已执
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -202,10 +202,10 @@ PQA-L由两位具资格的M.D. candidates标注；原文未把他们称作已执
 
 ```json
 {
-  "pqa_labeled": 1000
-  "pqa_unlabeled": 61249
-  "pqa_artificial": 211269
-  "basis": "HF数据卡精确行数；原论文1k/61.2k/211.3k为四舍五入描述，非精确行数。"
+ "pqa_labeled": 1000
+ "pqa_unlabeled": 61249
+ "pqa_artificial": 211269
+ "basis": "HF数据卡精确行数；原论文1k/61.2k/211.3k为四舍五入描述，非精确行数。"
 }
 ```
 
@@ -291,16 +291,15 @@ PQA-L官方test为500题；HF把全部1,000个PQA-L样本标作train只是打包
 
 ```json
 [
-  {
-    "version": "arXiv v1"
-    "submitted_at": "2019-09-13"
-    "timezone": ""
-  }
-  {
-    "version": "EMNLP-IJCNLP正式论文"
-    "date": "2019-11"
-    "identifier": "D19-1259"
-  }
+ {
+ "version": "arXiv v1"
+ "submitted_at": "2019-09-13"
+ }
+ {
+ "version": "EMNLP-IJCNLP正式论文"
+ "date": "2019-11"
+ "identifier": "D19-1259"
+ }
 ]
 ```
 
@@ -322,7 +321,7 @@ PQA-L仅1,000题，需严守500题test隔离；HF打包train包含全部PQA-L，
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -344,7 +343,7 @@ https://pubmedqa.github.io/
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -394,7 +393,7 @@ https://pubmedqa.github.io/
 
 ```json
 [
-  "qiaojin.andy@gmail.com"
+ "qiaojin.andy@gmail.com"
 ]
 ```
 
@@ -410,7 +409,7 @@ https://github.com/pubmedqa/pubmedqa/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -440,58 +439,27 @@ https://aclanthology.org/D19-1259.pdf
 
 [1](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-08）
 
-### 文件夹
-
-```json
-{
-  "id": "1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "中文介绍 Google Doc"
-    "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4"
-    "webViewLink": "
-  }
-]
-```
-
-[1]( 2026-11-07）
-
 ### 论文PDF
 
 {
-  "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV"
-  "webViewLink": "
+ "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV"
 }
-
-[1]( 2026-11-07）
 
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://pubmedqa.github.io/)（访问 2026-11-08）

@@ -516,19 +516,19 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-11-28"
+            "date": "2023-11-28"
           },
           {
             "version": "v2",
-            "date_kst": "2023-12-18"
+            "date": "2023-12-18"
           },
           {
             "version": "v3",
-            "date_kst": "2023-12-21"
+            "date": "2023-12-21"
           },
           {
             "version": "v4",
-            "date_kst": "2024-06-14"
+            "date": "2024-06-14"
           }
         ],
         "repository_news": [
@@ -690,7 +690,7 @@
         {
           "rank": 4,
           "model": "Gemini 2.5 Pro Deep-Think",
-          "score": 84.0,
+          "score": 84,
           "track": "MMMU官方JSON / validation",
           "metric": "accuracy",
           "unit": "%",
@@ -957,7 +957,7 @@
         {
           "rank": 9,
           "model": "NVLM-H 1.0 78B",
-          "score": 53.0,
+          "score": 53,
           "track": "MMMU官方JSON / test",
           "metric": "accuracy",
           "unit": "%",
@@ -1137,9 +1137,6 @@
     },
     "other_documents": {
       "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        },
         {
           "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/abs/2311.16502",

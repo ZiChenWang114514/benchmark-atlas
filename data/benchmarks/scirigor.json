@@ -41,7 +41,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-09-06（；首个arXiv提交，不推定数据上线日）",
+      "value": "2026-09-06（首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.06192",
@@ -417,12 +417,12 @@
           "release": "2026-09-05",
           "latest": "2026-09-05",
           "version": "v1",
-          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history_kst为准。"
+          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history为准。"
         },
-        "arxiv_submission_history_kst": [
+        "arxiv_submission_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2026-09-06"
+            "submitted_at": "2026-09-06"
           }
         ]
       },
@@ -500,14 +500,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.5 (xhigh)",
           "score": {
-            "execution_percent": 100.0,
+            "execution_percent": 100,
             "transform_fidelity_percent": 57.9,
             "result_fidelity_percent": 68.2,
             "visual_fidelity_percent": 72.8,
             "claim_fidelity_percent": 57.2,
             "result_to_claim_consistency_percent": 93.4,
             "SoftECS_percent": 62.6,
-            "Strict_percent": 18.0
+            "Strict_percent": 18
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -521,14 +521,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.5 (high)",
           "score": {
-            "execution_percent": 100.0,
+            "execution_percent": 100,
             "transform_fidelity_percent": 58.5,
             "result_fidelity_percent": 69.8,
             "visual_fidelity_percent": 70.8,
             "claim_fidelity_percent": 59.1,
             "result_to_claim_consistency_percent": 91.3,
             "SoftECS_percent": 59.2,
-            "Strict_percent": 16.0
+            "Strict_percent": 16
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -542,14 +542,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.6-Sol (high)",
           "score": {
-            "execution_percent": 100.0,
+            "execution_percent": 100,
             "transform_fidelity_percent": 59.5,
             "result_fidelity_percent": 64.7,
             "visual_fidelity_percent": 72.8,
             "claim_fidelity_percent": 58.7,
-            "result_to_claim_consistency_percent": 90.0,
+            "result_to_claim_consistency_percent": 90,
             "SoftECS_percent": 61.1,
-            "Strict_percent": 13.0
+            "Strict_percent": 13
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -563,14 +563,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.6-Sol (xhigh)",
           "score": {
-            "execution_percent": 100.0,
+            "execution_percent": 100,
             "transform_fidelity_percent": 58.7,
             "result_fidelity_percent": 64.8,
             "visual_fidelity_percent": 70.9,
             "claim_fidelity_percent": 57.7,
             "result_to_claim_consistency_percent": 88.9,
             "SoftECS_percent": 57.6,
-            "Strict_percent": 11.0
+            "Strict_percent": 11
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -584,14 +584,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.5 (low)",
           "score": {
-            "execution_percent": 63.0,
+            "execution_percent": 63,
             "transform_fidelity_percent": 58.3,
             "result_fidelity_percent": 50.4,
             "visual_fidelity_percent": 75.4,
             "claim_fidelity_percent": 46.4,
             "result_to_claim_consistency_percent": 97.8,
-            "SoftECS_percent": 28.0,
-            "Strict_percent": 3.0
+            "SoftECS_percent": 28,
+            "Strict_percent": 3
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -605,14 +605,14 @@
           "rank": "不设跨协议名次",
           "model": "Qwen3.8-Max",
           "score": {
-            "execution_percent": 47.0,
+            "execution_percent": 47,
             "transform_fidelity_percent": 24.1,
             "result_fidelity_percent": 18.2,
-            "visual_fidelity_percent": 34.0,
+            "visual_fidelity_percent": 34,
             "claim_fidelity_percent": 23.5,
             "result_to_claim_consistency_percent": 46.5,
             "SoftECS_percent": 20.1,
-            "Strict_percent": 2.0
+            "Strict_percent": 2
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -626,14 +626,14 @@
           "rank": "不设跨协议名次",
           "model": "Kimi-K3",
           "score": {
-            "execution_percent": 79.0,
+            "execution_percent": 79,
             "transform_fidelity_percent": 43.5,
             "result_fidelity_percent": 36.4,
             "visual_fidelity_percent": 55.9,
             "claim_fidelity_percent": 40.2,
             "result_to_claim_consistency_percent": 73.2,
-            "SoftECS_percent": 35.0,
-            "Strict_percent": 1.0
+            "SoftECS_percent": 35,
+            "Strict_percent": 1
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -647,14 +647,14 @@
           "rank": "不设跨协议名次",
           "model": "GPT-5.6 (low)",
           "score": {
-            "execution_percent": 88.0,
+            "execution_percent": 88,
             "transform_fidelity_percent": 55.5,
             "result_fidelity_percent": 47.2,
             "visual_fidelity_percent": 77.3,
             "claim_fidelity_percent": 52.5,
             "result_to_claim_consistency_percent": 97.9,
-            "SoftECS_percent": 43.0,
-            "Strict_percent": 0.0
+            "SoftECS_percent": 43,
+            "Strict_percent": 0
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -668,14 +668,14 @@
           "rank": "不设跨协议名次",
           "model": "Claude Sonnet 5",
           "score": {
-            "execution_percent": 75.0,
+            "execution_percent": 75,
             "transform_fidelity_percent": 44.5,
             "result_fidelity_percent": 40.6,
             "visual_fidelity_percent": 54.3,
-            "claim_fidelity_percent": 24.0,
+            "claim_fidelity_percent": 24,
             "result_to_claim_consistency_percent": 71.9,
             "SoftECS_percent": 22.1,
-            "Strict_percent": 0.0
+            "Strict_percent": 0
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -689,14 +689,14 @@
           "rank": "不设跨协议名次",
           "model": "Qwen3-Coder-30B-A3B",
           "score": {
-            "execution_percent": 29.0,
+            "execution_percent": 29,
             "transform_fidelity_percent": 9.3,
             "result_fidelity_percent": 7.8,
             "visual_fidelity_percent": 17.6,
-            "claim_fidelity_percent": 5.0,
+            "claim_fidelity_percent": 5,
             "result_to_claim_consistency_percent": 21.1,
             "SoftECS_percent": 1.7,
-            "Strict_percent": 0.0
+            "Strict_percent": 0
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -710,14 +710,14 @@
           "rank": "不设跨协议名次",
           "model": "Qwen-AgentWorld-35B-A3B",
           "score": {
-            "execution_percent": 12.0,
+            "execution_percent": 12,
             "transform_fidelity_percent": 5.1,
             "result_fidelity_percent": 3.4,
             "visual_fidelity_percent": 7.1,
             "claim_fidelity_percent": 6.1,
             "result_to_claim_consistency_percent": 11.4,
-            "SoftECS_percent": 0.0,
-            "Strict_percent": 0.0
+            "SoftECS_percent": 0,
+            "Strict_percent": 0
           },
           "metric": "各列均为%；SoftECS与Strict不可互换",
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
@@ -835,16 +835,10 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "type": "中文介绍 Google Doc",
-          "id": "1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4",
-          "webViewLink": "https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]

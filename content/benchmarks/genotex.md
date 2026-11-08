@@ -1,6 +1,6 @@
 # GenoTEX
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GenoTEX把基因表达分析拆成数据选择、预处理和基因—性状关联，核心考察从原始数据执行完整分析，而非只回答生物知识题。阅读结果时首先区分端到端输入和专家预处理输入：两者的AUROC不能合并为同一榜单。
 
@@ -30,13 +30,13 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 ### 论文版本
 
-v3；2025-04-09（；论文修订号，不是数据版本）
+v3；2025-04-09（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2024-06-22（；arXiv初稿提交时间，非推定数据首发日）
+2024-06-22（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -92,7 +92,6 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -128,7 +127,6 @@ National AI Research Resource（NAIRR），grant 240283。
 
 来源：[1](https://raw.githubusercontent.com/Liu-Hy/GenoTEX/main/README.md)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -142,7 +140,6 @@ National AI Research Resource（NAIRR），grant 240283。
 一般代码题缺少完整生物数据筛选及质量控制，与真实研究链条脱节。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -175,7 +172,6 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 依赖公开数据与公共文献；人工参考与任务划分不等于排除基础模型训练暴露。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -215,7 +211,6 @@ GEO、TCGA/UCSC Xena表达数据，OpenTargets/NCBI Gene等辅助资料。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -248,7 +243,6 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -267,7 +261,7 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-06-22；timezone：；- version：v2；submitted_at：2025-03-28；timezone：；- version：v3；submitted_at：2025-04-09；timezone：；2026_H2_evidence：- url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。
+arxiv_submissions：- version：v1；submitted_at：2024-06-22；；- version：v2；submitted_at：2025-03-28；；- version：v3；submitted_at：2025-04-09；；2026_H2_evidence：- url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -290,7 +284,6 @@ arxiv_submissions：- version：v1；submitted_at：2024-06-22；timezone：；-
 说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -335,7 +328,6 @@ https://github.com/Liu-Hy/GenoTEX
 
 来源：[1](https://arxiv.org/pdf/2406.15341)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/Liu-Hy/GenoTEX/HEAD/README.md)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -369,7 +361,6 @@ https://github.com/Liu-Hy/GenoTEX/issues
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
-
 ## 10. 原始文件
 
 ### 原文PDF
@@ -394,30 +385,22 @@ a736e1f4af1ac40df8d1727de6722e005292ffdc20ea002a847ac5114d2ce790
 
 ### 文件夹
 
-id：1fUMNCa76uvA8Rrlhv0dnpnOz5L1LD5Di；webViewLink：
-
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
 ### 其他原始材料
 
-- type：中文介绍 Google Doc；id：1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts；webViewLink：https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit
-
-来源：[1](https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit)（访问 2026-11-07）
+来源：[1]（访问 2026-11-07）
 
 ### PDF
 
-id：14eUzgPi0ENwV5ruQZg9wUciFdtwVURCV；webViewLink：
-
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
-
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- date：2026-11-07；timezone：；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- date：2026-11-07；；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

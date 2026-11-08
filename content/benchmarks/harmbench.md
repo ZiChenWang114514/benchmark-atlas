@@ -1,6 +1,6 @@
 # HarmBench
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HarmBench统一有害行为分类、目标模型回答和成功判定，服务于红队/稳健拒答研究。ASR属于攻击方法、目标模型、行为范围、裁判和预算组成的完整设置，不存在脱离设置的单一安全分数；本页不转载具体有害请求或攻击串。
 
@@ -28,13 +28,13 @@ HarmBench 1.0（README 2024-02-26公告）；不能据论文修订号推定新�
 
 ### 论文版本
 
-v2；2024-02-27（；论文修订号，不是数据版本）
+v2；2024-02-27（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2024-02-07（；arXiv初稿提交时间，非推定数据首发日）
+2024-02-07（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -88,7 +88,6 @@ HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Rob
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -136,7 +135,6 @@ HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Rob
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -150,7 +148,6 @@ HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Rob
 以往越狱评测在行为集、目标模型、裁判和预算上不统一，容易产生不可复现或夸大的成功率。
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -183,7 +180,6 @@ HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Rob
 论文要求test行为及test分类器不用于开发攻击或防御，另设validation分类器；这控制评测开发泄漏，不证明目标LLM预训练没有见过公开数据。
 
 来源：[1](https://arxiv.org/pdf/2402.04249)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -223,7 +219,6 @@ HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Rob
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -256,7 +251,6 @@ Attack Success Rate (ASR)，依攻击方法、行为子集、目标模型与预�
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -273,9 +267,7 @@ version：README最近明确标示HarmBench 1.0，2024-02-26；evidence_2026_h2�
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-02-07；timezone：；- version：v2；submitted_at：2024-02-27；timezone：
-
-来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2024-02-07；；- version：v2；submitted_at：2024-02-27；来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -298,7 +290,6 @@ arxiv_submissions：- version：v1；submitted_at：2024-02-07；timezone：；-
 说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -342,7 +333,6 @@ https://arxiv.org/abs/2402.04249
 
 来源：[1](https://arxiv.org/pdf/2402.04249)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/centerforaisafety/HarmBench/HEAD/README.md)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -373,7 +363,6 @@ https://github.com/centerforaisafety/HarmBench/issues
 
 来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
-
 ## 10. 原始文件
 
 ### 原文PDF
@@ -398,30 +387,22 @@ e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732
 
 ### 文件夹
 
-id：1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### PDF
 
-id：1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT；webViewLink：
-
-来源：[1]( 2026-11-07）
-
+来源：
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- date：2026-11-07；timezone：；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- date：2026-11-07；；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

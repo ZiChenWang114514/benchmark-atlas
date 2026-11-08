@@ -4,7 +4,7 @@
 
 ZebraLogic把实体—属性关系写成有唯一解的约束谜题，观察模型如何随搜索空间与回溯复杂度退化。整题准确率、部分单元格正确率和最难XL子集不能互换；取最佳多次尝试也不等于一次作答。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 基本信息
 
@@ -12,44 +12,44 @@ ZebraLogic把实体—属性关系写成有唯一解的约束谜题，观察模�
 
 ZebraLogic
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 全称
 
 ZebraLogic
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 基准版本
 
 公开1000题集合；2024首发、2025论文版，未固定数据revision
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 论文版本
 
 arXiv v2
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 发布日期
 
-- **paper_first_submission_kst**：2025-02-03
+- **paper_first_submission**：2025-02-03
 - **date_type**：论文首次提交，不等同数据集首次上线
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 主板块
 
 推理
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）。
 
 ### 领域标签
 
 - 约束逻辑推理
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 许可证
 
@@ -58,37 +58,37 @@ arXiv v2
 
 > 代码许可已核实；数据集许可仍待核实，本字段为部分完成，不计为授权全部核清。
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE)（访问 2026-11-08 ）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE)（访问 2026-11-08）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08）。
 
 ### 论文
 
 https://arxiv.org/abs/2502.01100
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 官方代码
 
 https://github.com/WildEval/ZeroEval
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）。
 
 ### 数据地址
 
 https://huggingface.co/datasets/WildEval/ZebraLogic
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 官方入口
 
 https://huggingface.co/spaces/allenai/ZebraLogic
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 论文标题
 
 ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 发起与维护
 
@@ -96,7 +96,7 @@ ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning
 
 University of Washington、Allen Institute for AI、Stanford University（论文署名）
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 署名合作机构
 
@@ -106,7 +106,7 @@ University of Washington、Allen Institute for AI、Stanford University（论文
 
 > PDF首页署名机构，不推断额外出资合作。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ### 作者
 
@@ -118,19 +118,19 @@ University of Washington、Allen Institute for AI、Stanford University（论文
 - Clark, Peter
 - Choi, Yejin
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 维护方
 
 WildEval/ZeroEval维护公开评测与汇总表；数据卡位于WildEval/ZebraLogic，官方交互榜为allenai/ZebraLogic Space（配置同时链接allenai/ZebraLogicBench）。
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08 ）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08 ）；[3](https://huggingface.co/spaces/allenai/ZebraLogic/raw/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08）；[3](https://huggingface.co/spaces/allenai/ZebraLogic/raw/main/README.md)（访问 2026-11-08）。
 
 ### 资助
 
 Yejin Choi研究获NSF DMS-2134012部分支持（论文致谢）；不推断该grant覆盖所有作者/全部项目成本。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ## 设计目标
 
@@ -138,13 +138,13 @@ Yejin Choi研究获NSF DMS-2134012部分支持（论文致谢）；不推断该g
 
 用可验证的斑马逻辑网格谜题评估约束传播、全局一致性和随搜索空间增大而变化的推理能力。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 设计背景
 
 传统知识问答难以区分记忆与逻辑搜索；该集合用可控规模的CSP分析推理计算的扩展极限。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 构建方式
 
@@ -152,31 +152,31 @@ Yejin Choi研究获NSF DMS-2134012部分支持（论文致谢）；不推断该g
 
 程序先采样完整网格解，再生成线索并用求解器检查唯一解；删除冗余线索后得到自然语言题目。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 构建者背景
 
 逻辑与自然语言推理研究者设计模板和生成程序，不是每题人工出题。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 审核流程
 
 通过约束求解验证可解性及唯一解；论文分析求解器冲突数与模型难度的对应关系。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 质量控制
 
 2–6个房屋×2–6个属性共25种尺寸，每种40题；求解器保证唯一解，逐条尝试去除冗余线索，得到相对于逐条删除的极小线索集，不等同全局最小题面。Z3每题运行32次，平均冲突数辅助刻画搜索难度。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ### 去污染与泄漏防范
 
 合成与唯一解验证降低某些数据问题，但公开集合和模板不能证明后续模型未见过测试题。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 数据形式
 
@@ -184,37 +184,37 @@ Yejin Choi研究获NSF DMS-2134012部分支持（论文致谢）；不推断该g
 
 数据卡grid_mode测试集1000个谜题；mc_mode测试集3259道选择题。两者是不同配置，不相加为独立谜题数。
 
-来源：[1](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08）。
 
 ### 任务形式
 
 根据自然语言线索填写完整实体—属性对应网格，输出结构化JSON。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 模态
 
 纯文本线索与结构化实体—属性网格；答案为JSON表格。不是图像网格识别或数学公式问答。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）；[2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md)（访问 2026-11-08）。
 
 ### 语言
 
 英文自然语言线索、实体属性和JSON字段。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ### 难度与类型
 
 按网格尺寸、搜索空间与Z3冲突等划分；同尺寸不代表同等求解难度。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 公开与隐藏划分
 
 公开评测集合；没有在材料中确认一个独立隐藏官方测试集。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 评测方法
 
@@ -222,31 +222,31 @@ Yejin Choi研究获NSF DMS-2134012部分支持（论文致谢）；不推断该g
 
 整题完整网格正确率为主要指标，单元格正确率为辅助指标。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 评分
 
 完整网格必须所有对应关系均正确；部分格正确不能等价成整题通过。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 提示和复现设置
 
 论文§3采用one-shot格式示例并输出推理及JSON；大多数模型同一greedy提示/解析，o1例外运行三次取最佳。当前ZeroEval汇总表的Mode/N_Mode/N_Size照表记录；即使同模型81.0%，也不将表的single标记和论文best-of-3解释强行统一。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08 ）；[3](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ### 官方脚本
 
 ZeroEval：以-d zebra-grid运行；src/evaluation/zebra_grid_eval.py评分，支持本地及API推理。
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08）。
 
 ### 可比性提示
 
 整题Puzzle Acc、Cell Acc及Small/Medium/Large/XL分开；论文one-shot与o1三次取最佳、仓库greedy/single标签、模型提供商和API检查点都需保留。官方表包含仅16题的Llama-3.1-405B@hyperbolic行，不能当1000题全量名次。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ## 最新情况
 
@@ -254,46 +254,46 @@ ZeroEval：以-d zebra-grid运行；src/evaluation/zebra_grid_eval.py评分，�
 
 2026-11-08
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08）。
 
 ### 数据版本与当前状态
 
 公开1000题集合；2024首发、2025论文版，未固定数据revision
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 论文修订与H2证据
 
 - **arxiv_version**：arXiv v2
 - **history_note**：完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2609.27284v1
-    - **date**：2026-09-23
-    - **note**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。
+ - **date**：2026-09-23
+ - **note**：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 ZebraLogic；厂商自报评测。
 - **revisions**：- - **version**：v1
-    - **date_kst**：2025-02-03
-  - - **version**：v2
-    - **date_kst**：2025-07-15
+ - **date**：2025-02-03
+ - - **version**：v2
+ - **date**：2025-07-15
 - **note**：论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07）。
 
 ### 饱和程度
 
 当前作者表最高全量Puzzle Acc为92.6%（grok-3-mini-fast-beta-high），同一行XL为76.5%；整体高分不等同大搜索空间已解决。o3-mini-high全量91.7%、XL75.5%，按困难子集与解码预算解释。
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ### 污染、冲突与限制
 
 生成时保证唯一解不意味着后续模型未见公开题目。论文的尺寸分类正文用10^10为Large/XL界限，但Table1表头写10^9，存在原文阈值不一致，优先记录正文的明确尺寸列表，不自行合并类别。o1论文三次取最佳与仓库single行标签也保留差异；16题不完整结果单列。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ### 后续工作与衍生
 
 属于ZeroEval评测框架中的zebra-grid任务；不是数独，也不等同所有Einstein谜题。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）；[2](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）；[2](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）。
 
 ## 榜单快照
 
@@ -301,13 +301,13 @@ ZeroEval：以-d zebra-grid运行；src/evaluation/zebra_grid_eval.py评分，�
 
 2026-11-08；厂商自报保留既有采集日
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ### 官方榜单
 
 https://huggingface.co/spaces/allenai/ZebraLogic
 
-来源：[1](https://github.com/WildEval/ZeroEval)（访问 2026-11-07 ）；[2](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）。
+来源：[1](https://github.com/WildEval/ZeroEval)（访问 2026-11-07）；[2](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）。
 
 ### 第三方覆盖
 
@@ -315,7 +315,7 @@ https://huggingface.co/spaces/allenai/ZebraLogic
 
 > 未确认AA/Epoch/LMArena有单独追踪该精确版本的可读榜；下列研究/厂商表仅补充，不冒充二级榜
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 结果快照
 
@@ -821,13 +821,13 @@ https://huggingface.co/spaces/allenai/ZebraLogic
 | — | Hunyuan-A13B | 84.7 % | accuracy slow thinking，完整题准确率，报告表3 | 2026-09-23；https://arxiv.org/html/2609.27284v1 |
 | — | OpenAI-o1-1217 | 81.0 % | accuracy 同表列名，检查点按报告原样记录 | 2026-09-23；https://arxiv.org/html/2609.27284v1 |
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07）。
 
 ### 覆盖说明
 
 逐格恢复当前作者仓库汇总表全部69行的7项百分比指标，共483个数值；记录total_puzzles、mode、n_mode、n_size与reason length。完整1000题与16题不完整子集分轨；不制造未公开的运行日。既有Hunyuan两行自报保留原日期及来源，不列进官方排名。
 
-来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md)（访问 2026-11-08）。
 
 ## 联系方式
 
@@ -836,13 +836,13 @@ https://huggingface.co/spaces/allenai/ZebraLogic
 - byuchen@uw.edu
 - ronanlb@allenai.org
 
-来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07 ）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://huggingface.co/spaces/allenai/ZebraLogic)（访问 2026-11-07）；[2](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 问题反馈
 
 https://github.com/WildEval/ZeroEval/issues
 
-来源：[1](https://github.com/WildEval/ZeroEval)（访问 2026-11-07 ）。
+来源：[1](https://github.com/WildEval/ZeroEval)（访问 2026-11-07）。
 
 ### 官方讨论渠道
 
@@ -850,7 +850,7 @@ https://github.com/WildEval/ZeroEval/issues
 
 > 未核实专门官方社交账号，不收录同名个人账户
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### 隐私与数据使用
 
@@ -858,7 +858,7 @@ https://github.com/WildEval/ZeroEval/issues
 
 > 未核实benchmark专门隐私条款；许可证不能代替隐私政策
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ## 原始文件
 
@@ -866,7 +866,7 @@ https://github.com/WildEval/ZeroEval/issues
 
 https://arxiv.org/pdf/2502.01100
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）。
 
 ### SHA-256
 
@@ -874,55 +874,41 @@ c252c5c4c6aa7394cb97f81d7e77fd69b3ec8d374ede75c7f0189a1530a3820d
 
 > 重新下载的原始PDF字节；既有副本未覆盖。
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ### 字节数
 
 3577291
 
-来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2502.01100)（访问 2026-11-08）。
 
 ### 文件夹
 
-- **id**：1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 其他文档
 
-- **chinese_intro_doc**：- **id**：125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs
-  - **webViewLink**：
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/zebralogic.md
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 原文归档
 
-- **id**：1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ## 变更记录
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+ - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **fields_updated**：- basic_info.license
-    - evaluation.official_scripts
-    - data_format.size
-    - leaderboard.results
-    - leaderboard.coverage_note
+ - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+ - **fields_updated**：- basic_info.license
+ - evaluation.official_scripts
+ - data_format.size
+ - leaderboard.results
+ - leaderboard.coverage_note
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2502.01100)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md)（访问 2026-11-08）。

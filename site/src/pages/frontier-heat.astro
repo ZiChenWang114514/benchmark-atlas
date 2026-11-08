@@ -1,12 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentLocale, t } from '../i18n';
+import { translateContent } from '../i18n/content';
+import { visualCopy } from '../i18n/visual';
+import { sectionLabel, sectionSlug } from '../lib/sections';
 import { loadHeat, rankArrow, type HeatFile } from '../lib/boards';
 import { loadIndex } from '../lib/data';
-import { page, safeUrl } from '../lib/format';
+import { dateStamp, displayName, page, safeUrl } from '../lib/format';
+import BarChart from '../components/BarChart.astro';
 
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const heat = loadHeat();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
 const modelName = new Map((heat?.models ?? []).map((model) => [model.id, model.name]));
+const stamp = dateStamp(heat?.generated_at);
+const domains = [...new Set((heat?.ranking ?? []).map((row) => row.domain).filter((domain): domain is string => !!domain))].sort((a, b) => a.localeCompare(b, 'zh'));
+const showSpark = (heat?.history?.length ?? 0) >= 2;
+const showMovement = Boolean(heat?.coverage?.rank_change_reference_date)
+  || (heat?.ranking ?? []).some((row) => typeof row.rank_change === 'number');
 
 function spark(id: string, file: HeatFile): string {
   const history = file.history ?? [];
@@ -15,7 +27,7 @@ function spark(id: string, file: HeatFile): string {
     const place = entry.top.indexOf(id);
     const y = place === -1 ? 22 : 2 + (place / Math.max(entry.top.length - 1, 1)) * 18;
     const x = history.length === 1 ? 40 : (index / (history.length - 1)) * 76 + 2;
-    return `${x},${y}`;
+    return x + ',' + y;
   });
   return points.join(' ');
 }
@@ -35,31 +47,75 @@ const movers = (() => {
     .sort((a, b) => (b.delta ?? 0) - (a.delta ?? 0))
     .slice(0, 5);
 })();
+
+const heatChart = (heat?.ranking ?? []).slice(0, 10).map((row) => ({
+  rank: row.rank,
+  name: displayName(row.name),
+  value: row.count,
+  href: known.has(row.benchmark_id) ? page('benchmarks/' + row.benchmark_id) : page('frontier-heat'),
+}));
+function shareOf(count: number, share: number | null | undefined, models: number): number {
+  const value = typeof share === 'number' ? share : (models ? count / models : 0);
+  return Math.max(0, Math.min(1, value));
+}
 ---
-<Base title="业界热度榜" description="最近 20 个前沿模型的发布材料里，被多少个模型报告过的 benchmark。" active="heat">
-  <div class="wrap doc-title">
-    <p class="eyebrow">Frontier Heat</p>
-    <h1>业界热度榜</h1>
-    <p class="lede">统计最近 20 个前沿模型在模型卡、发布页或技术报告里报告过的 benchmark，按被多少个模型提到来排名。</p>
+<Base title={t(locale, 'heat.title')} description={t(locale, 'heat.description')} active="heat">
+  <div class="wrap page-hero">
+    <h1>{t(locale, 'heat.title')}</h1>
+    <p class="lede">{t(locale, 'heat.lede')}</p>
+    {heat?.coverage?.interpretation_zh && <p class="disclaimer">{translateContent(heat.coverage.interpretation_zh, locale)}</p>}
+    {heat && (
+      <>
+        <p class="meta-row">
+          {stamp && <span>{ui.snapshot} {stamp}</span>}
+          <span>{t(locale, 'home.models', { n: heat.models.length })}</span>
+        </p>
+        <div class="stat-row">
+          <div class="stat">
+            <span>{ui.statModels}</span>
+            <strong>{heat.models.length}</strong>
+          </div>
+          <div class="stat">
+            <span>{ui.statListed}</span>
+            <strong>{heat.ranking.length}</strong>
+          </div>
+        </div>
+      </>
+    )}
   </div>
   <div class="wrap">
     {heat ? (
       <>
-        <p class="daily-badge">每日更新 · {heat.generated_at ?? '日期未写'}{heat.window?.rule ? ` · ${heat.window.rule}` : ''}</p>
+        {heatChart.length > 0 && (
+          <section class="chart-block" aria-labelledby="heat-top">
+            <h2 id="heat-top">{ui.topChart}</h2>
+            <BarChart items={heatChart} />
+          </section>
+        )}
         <section class="section" aria-labelledby="heat-models">
-          <header class="flag"><h2 id="heat-models">这 20 个模型</h2><p>{heat.models.length} 个</p></header>
+          <header class="flag">
+            <h2 id="heat-models">{t(locale, 'heat.models')}</h2>
+            <p>{t(locale, 'heat.model_count', { n: heat.models.length })}</p>
+          </header>
           <div class="table-wrap">
-            <table>
-              <thead><tr><th>模型</th><th>机构</th><th>发布日期</th><th>来源</th></tr></thead>
+            <table class="board">
+              <thead>
+                <tr>
+                  <th scope="col">{ui.models}</th>
+                  <th scope="col">{ui.organization}</th>
+                  <th scope="col">{ui.release}</th>
+                  <th scope="col">{ui.source}</th>
+                </tr>
+              </thead>
               <tbody>
                 {heat.models.map((model) => {
                   const source = model.sources?.find((item) => item.url && safeUrl(item.url));
                   return (
                     <tr>
-                      <td>{model.name}</td>
-                      <td>{model.organization || '—'}</td>
-                      <td>{model.release_date || '—'}</td>
-                      <td>{source?.url && safeUrl(source.url) ? <a href={source.url} target="_blank" rel="noopener noreferrer">打开</a> : '—'}</td>
+                      <td class="name-cell" data-label={ui.models}>{model.name}</td>
+                      <td data-label={ui.organization}>{model.organization || <span class="na" title={ui.nullTip}>—</span>}</td>
+                      <td data-label={ui.release}>{dateStamp(model.release_date) || <span class="na" title={ui.nullTip}>—</span>}</td>
+                      <td data-label={ui.source}>{source?.url && safeUrl(source.url) ? <a href={source.url} target="_blank" rel="noopener noreferrer">{ui.open}</a> : <span class="na" title={ui.nullTip}>—</span>}</td>
                     </tr>
                   );
                 })}
@@ -68,62 +124,105 @@ const movers = (() => {
           </div>
         </section>
         <section class="section" aria-labelledby="heat-rank">
-          <header class="flag"><h2 id="heat-rank">按被报告次数</h2><p>份额是占这 20 个模型的比例</p></header>
-          <div class="table-wrap">
-            <table class="heat-table">
+          <header class="flag">
+            <h2 id="heat-rank">{t(locale, 'heat.by_count')}</h2>
+            <p>{t(locale, 'heat.share_note')}</p>
+          </header>
+          <form id="heat-form" class="board-toolbar" role="search" action={page('frontier-heat')} method="get">
+            <label class="sr-only" for="heat-q">{ui.heatSearch}</label>
+            <input id="heat-q" class="search" type="search" placeholder={ui.heatSearch} autocomplete="off" enterkeyhint="search" />
+            <label class="sr-only" for="heat-domain">{ui.colDomain}</label>
+            <select id="heat-domain">
+              <option value="">{ui.allDomains}</option>
+              {domains.map((domain) => <option value={sectionSlug(domain)}>{sectionLabel(domain, locale)}</option>)}
+            </select>
+            <p id="heat-count" class="result-count" data-showing={ui.showing} data-unit={ui.rows} aria-live="polite"></p>
+          </form>
+          <p id="heat-empty" class="empty" hidden>{ui.emptyFilter}</p>
+          <div class="board-scroll">
+            <table class="board">
+              <caption class="sr-only">{t(locale, 'heat.title')}</caption>
               <thead>
-                <tr><th>名次</th><th>变化</th><th>基准</th><th>领域</th><th>次数</th><th>份额</th><th>近期轨迹</th></tr>
+                <tr>
+                  <th class="rank-col" scope="col">{ui.colRank}</th>
+                  {showMovement && <th scope="col">{t(locale, 'heat.col.change')}</th>}
+                  <th class="name-col" scope="col">{ui.colName}</th>
+                  <th scope="col">{ui.colDomain}</th>
+                  <th scope="col">{ui.reported}</th>
+                  <th scope="col">{ui.share}</th>
+                  {showSpark && <th scope="col">{t(locale, 'heat.col.spark')}</th>}
+                  <th scope="col">{ui.reportedModels}</th>
+                </tr>
               </thead>
               <tbody>
                 {heat.ranking.map((row) => {
                   const arrow = rankArrow(row.rank_change);
-                  const share = typeof row.share === 'number' ? Math.max(0, Math.min(1, row.share)) : (heat.models.length ? row.count / heat.models.length : 0);
-                  const points = spark(row.benchmark_id, heat);
+                  const share = shareOf(row.count, row.share, heat.models.length);
+                  const sharePct = Math.round(share * 100);
+                  const points = showSpark ? spark(row.benchmark_id, heat) : '';
+                  const podium = row.rank <= 3 ? 'podium podium-' + row.rank : '';
+                  const search = [row.name, row.benchmark_id, sectionLabel(row.domain, locale)].join(' ').toLowerCase();
                   return (
-                    <>
-                      <tr>
-                        <td class="num">{row.rank}</td>
-                        <td><span class="rank-change" title={arrow.label}>{arrow.mark}</span></td>
-                        <td>
-                          {known.has(row.benchmark_id) ? <a href={page(`benchmarks/${row.benchmark_id}`)}>{row.name}</a> : row.name}
+                    <tr class={podium} data-heat-row data-domain={sectionSlug(row.domain)} data-search={search}>
+                      <td class="rank-cell" data-label={ui.colRank}><span class="rank-no">{row.rank}</span></td>
+                      {showMovement && (
+                        <td data-label={t(locale, 'heat.col.change')}>
+                          {row.rank_change === 'new' ? <span class="move-new" title={arrow.label}>{t(locale, 'rank.new_mark')}</span> : <span class:list={['rank-change', typeof row.rank_change === 'number' && row.rank_change < 0 && 'move-up', typeof row.rank_change === 'number' && row.rank_change > 0 && 'move-down']} title={arrow.label}>{arrow.mark}</span>}
                         </td>
-                        <td>{row.domain || '—'}</td>
-                        <td class="num">{row.count}</td>
-                        <td>
-                          <div class="share" title={`${Math.round(share * 100)}%`}><span style={`width:${Math.round(share * 100)}%`}></span></div>
+                      )}
+                      <td class="name-cell" data-label={ui.colName}>
+                        {known.has(row.benchmark_id) ? <a href={page('benchmarks/' + row.benchmark_id)}>{displayName(row.name)}</a> : displayName(row.name)}
+                      </td>
+                      <td data-label={ui.colDomain}>{row.domain ? <span class="domain-tag">{sectionLabel(row.domain, locale)}</span> : <span class="na" title={ui.nullTip}>—</span>}</td>
+                      <td class="num" data-label={ui.reported}>{row.count}</td>
+                      <td data-label={ui.share}>
+                        <span class="score-wrap" title={sharePct + '%'}>
+                          <span class="score-num">{sharePct}%</span>
+                          <span class="track" aria-hidden="true"><span style={'width:' + sharePct + '%'}></span></span>
+                        </span>
+                      </td>
+                      {showSpark && (
+                        <td data-label={t(locale, 'heat.col.spark')}>
+                          {points ? <svg class="spark" viewBox="0 0 80 24" aria-hidden="true"><polyline points={points} /></svg> : <span class="na" title={ui.nullTip}>—</span>}
                         </td>
-                        <td>
-                          {points ? <svg class="spark" viewBox="0 0 80 24" aria-hidden="true"><polyline points={points} /></svg> : '—'}
-                        </td>
-                      </tr>
-                      <tr>
-                        <td colspan="7">
-                          <details>
-                            <summary>哪些模型报告了它（{(row.models ?? []).length}）</summary>
-                            <ul class="doc-list">
-                              {(row.models ?? []).map((id) => <li>{modelName.get(id) ?? id}</li>)}
-                            </ul>
-                          </details>
-                        </td>
-                      </tr>
-                    </>
+                      )}
+                      <td data-label={ui.reportedModels}>
+                        <details>
+                          <summary>{t(locale, 'home.models', { n: (row.models ?? []).length })}</summary>
+                          <ul class="doc-list">
+                            {(row.models ?? []).map((id) => <li>{modelName.get(id) ?? id}</li>)}
+                          </ul>
+                        </details>
+                      </td>
+                    </tr>
                   );
                 })}
               </tbody>
             </table>
           </div>
+          <div class="pager-bar">
+            <button type="button" class="pager-btn" id="heat-prev">{ui.prev}</button>
+            <span id="heat-page"></span>
+            <button type="button" class="pager-btn" id="heat-next">{ui.next}</button>
+          </div>
         </section>
-        <section class="section" aria-labelledby="heat-movers">
-          <header class="flag"><h2 id="heat-movers">名次上升最多</h2><p>比较历史里最近两个快照</p></header>
-          {movers.length === 0 ? <p>还没有足够的历史点，轨迹会在每天更新后出现。</p> : (
+        {movers.length > 0 && (
+          <section class="section" aria-labelledby="heat-movers">
+            <header class="flag"><h2 id="heat-movers">{t(locale, 'heat.movers')}</h2><p>{t(locale, 'heat.movers_note')}</p></header>
             <ul class="doc-list">
-              {movers.map((row) => <li>{row.name} · 上升 {row.delta}</li>)}
+              {movers.map((row) => (
+                <li class="inline-meta"><span>{row.name}</span><span>{t(locale, 'rank.up', { n: row.delta ?? 0 })}</span></li>
+              ))}
             </ul>
-          )}
-        </section>
+          </section>
+        )}
+        <script>
+          import { mountHeatBoard } from '../scripts/heat-board.ts';
+          mountHeatBoard();
+        </script>
       </>
     ) : (
-      <p class="pending-data">数据生成中</p>
+      <p class="pending-data">{t(locale, 'home.pending_data')}</p>
     )}
   </div>
 </Base>

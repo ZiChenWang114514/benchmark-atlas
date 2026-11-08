@@ -46,7 +46,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2026-08-29",
+        "paper_first_submission": "2026-08-29",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -434,11 +434,11 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2026-08-29"
+            "date": "2026-08-29"
           },
           {
             "version": "v2",
-            "date_kst": "2026-09-12"
+            "date": "2026-09-12"
           }
         ],
         "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
@@ -2051,7 +2051,7 @@
         {
           "rank": 3,
           "model": "Cartesia Ink 2",
-          "score": 62.0,
+          "score": 62,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2090,7 +2090,7 @@
         {
           "rank": 6,
           "model": "Reson8 Resonant-1",
-          "score": 59.0,
+          "score": 59,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2116,7 +2116,7 @@
         {
           "rank": 8,
           "model": "Whisper Large-v3 Turbo",
-          "score": 57.0,
+          "score": 57,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2129,7 +2129,7 @@
         {
           "rank": 9,
           "model": "Muse Voice Transcribe",
-          "score": 57.0,
+          "score": 57,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2194,7 +2194,7 @@
         {
           "rank": 14,
           "model": "Voxtral Mini Transcribe 2",
-          "score": 53.0,
+          "score": 53,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2207,7 +2207,7 @@
         {
           "rank": 15,
           "model": "Grok Voice Transcribe 1.0",
-          "score": 52.0,
+          "score": 52,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2233,7 +2233,7 @@
         {
           "rank": 17,
           "model": "Voxtral Mini Transcribe Realtime 2602",
-          "score": 46.0,
+          "score": 46,
           "unit": "%",
           "metric": "TSR",
           "track": "Vals独立实现",
@@ -2369,7 +2369,7 @@
         {
           "rank": null,
           "model": "GPT 4o Transcribe",
-          "score": 96.0,
+          "score": 96,
           "unit": "%",
           "metric": "WAcc",
           "track": "Vals独立实现/图表一位小数",
@@ -2381,7 +2381,7 @@
         {
           "rank": null,
           "model": "Deepgram Nova-3 (Streaming)",
-          "score": 88.0,
+          "score": 88,
           "unit": "%",
           "metric": "CTEM",
           "track": "Vals独立实现/图表一位小数",
@@ -2429,7 +2429,7 @@
         {
           "rank": null,
           "model": "Inworld STT 1",
-          "score": 88.0,
+          "score": 88,
           "unit": "%",
           "metric": "CTEM",
           "track": "Vals独立实现/图表一位小数",
@@ -2597,7 +2597,7 @@
         {
           "rank": null,
           "model": "Voxtral Mini Transcribe 2",
-          "score": 87.0,
+          "score": 87,
           "unit": "%",
           "metric": "CTEM",
           "track": "Vals独立实现/图表一位小数",
@@ -2633,7 +2633,7 @@
         {
           "rank": null,
           "model": "Grok Voice Transcribe 1.0",
-          "score": 91.0,
+          "score": 91,
           "unit": "%",
           "metric": "WAcc",
           "track": "Vals独立实现/图表一位小数",
@@ -2705,7 +2705,7 @@
         {
           "rank": null,
           "model": "Cohere Transcribe",
-          "score": 93.0,
+          "score": 93,
           "unit": "%",
           "metric": "WAcc",
           "track": "Vals独立实现/图表一位小数",
@@ -2870,7 +2870,7 @@
           "rank": null,
           "model": "OpenAI gpt-transcribe",
           "mode": "batch",
-          "score": 61.0,
+          "score": 61,
           "metric": "TSR",
           "unit": "%",
           "track": "原论文v2 Table 5（19配置）",
@@ -3104,7 +3104,7 @@
           "rank": null,
           "model": "Inworld STT 1",
           "mode": "batch",
-          "score": 44.0,
+          "score": 44,
           "metric": "TSR",
           "unit": "%",
           "track": "原论文v2 Table 5（19配置）",
@@ -3364,7 +3364,7 @@
           "rank": null,
           "model": "ElevenLabs Scribe v2 Realtime",
           "mode": "streaming",
-          "score": 84.0,
+          "score": 84,
           "metric": "CTEM",
           "unit": "%",
           "track": "原论文v2 Table 5（19配置）",
@@ -3416,7 +3416,7 @@
           "rank": null,
           "model": "AssemblyAI Universal-3 Pro",
           "mode": "streaming",
-          "score": 33.0,
+          "score": 33,
           "metric": "TSR",
           "unit": "%",
           "track": "原论文v2 Table 5（19配置）",

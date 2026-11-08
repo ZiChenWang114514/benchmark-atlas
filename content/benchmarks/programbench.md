@@ -48,10 +48,10 @@ arXiv:2605.03546v1；abs当前仅列v1。
 
 ```json
 [
-  "从零程序重建"
-  "软件架构"
-  "行为等价测试"
-  "代码Agent"
+ "从零程序重建"
+ "软件架构"
+ "行为等价测试"
+ "代码Agent"
 ]
 ```
 
@@ -99,9 +99,9 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 ```json
 [
-  "Meta Superintelligence Labs"
-  "Stanford University"
-  "Harvard University"
+ "Meta Superintelligence Labs"
+ "Stanford University"
+ "Harvard University"
 ]
 ```
 
@@ -119,18 +119,18 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 ```json
 [
-  "John Yang"
-  "Kilian Lieret"
-  "Jeffrey Ma"
-  "Parth Thakkar"
-  "Dmitrii Pedchenko"
-  "Sten Sootla"
-  "Emily McMilin"
-  "Pengcheng Yin"
-  "Rui Hou"
-  "Gabriel Synnaeve"
-  "Diyi Yang"
-  "Ofir Press"
+ "John Yang"
+ "Kilian Lieret"
+ "Jeffrey Ma"
+ "Parth Thakkar"
+ "Dmitrii Pedchenko"
+ "Sten Sootla"
+ "Emily McMilin"
+ "Pengcheng Yin"
+ "Rui Hou"
+ "Gabriel Synnaeve"
+ "Diyi Yang"
+ "Ofir Press"
 ]
 ```
 
@@ -214,10 +214,10 @@ agent探索原程序，覆盖率引导fuzz生成行为断言，收集现有行�
 
 ```json
 [
-  "程序二进制"
-  "文档"
-  "源代码"
-  "终端交互"
+ "程序二进制"
+ "文档"
+ "源代码"
+ "终端交互"
 ]
 ```
 
@@ -285,20 +285,20 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 
 ```json
 {
-  "version": "公开200任务及ProgramBench-Tests（访问日快照，未自拟语义版本）"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://programbench.com"
-      "date": "2026-10-22"
-      "note": "官方榜单自写更新日。"
-    }
-    {
-      "url": "https://www.vals.ai/benchmarks/programbench"
-      "date": "2026-11-05"
-      "note": "Vals独立评测榜单自写更新日。"
-    }
-  ]
+ "version": "公开200任务及ProgramBench-Tests（访问日快照，未自拟语义版本）"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://programbench.com"
+ "date": "2026-10-22"
+ "note": "官方榜单自写更新日。"
+ }
+ {
+ "url": "https://www.vals.ai/benchmarks/programbench"
+ "date": "2026-11-05"
+ "note": "Vals独立评测榜单自写更新日。"
+ }
+ ]
 }
 ```
 
@@ -308,11 +308,10 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-05-05"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-05-05"
+ }
 ]
 ```
 
@@ -477,8 +476,8 @@ https://www.vals.ai/benchmarks/programbench
 
 ```json
 [
-  "johnby@meta.com"
-  "klieret@meta.com"
+ "johnby@meta.com"
+ "klieret@meta.com"
 ]
 ```
 
@@ -538,10 +537,10 @@ https://arxiv.org/pdf/2605.03546
 
 ```json
 [
-  {
-    "type": "官方介绍/协议"
-    "url": "https://www.vals.ai/benchmarks/programbench"
-  }
+ {
+ "type": "官方介绍/协议"
+ "url": "https://www.vals.ai/benchmarks/programbench"
+ }
 ]
 ```
 
@@ -556,16 +555,14 @@ https://arxiv.org/pdf/2605.03546
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://programbench.com)（访问 2026-11-08）

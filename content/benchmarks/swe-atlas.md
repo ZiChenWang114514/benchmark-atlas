@@ -1,6 +1,6 @@
 # SWE Atlas
 
-> Benchmark Constitution · 深度复核 2026-11-08。研究快照；trending: B；未核实字段保留标记
+> Benchmark Constitution，深度复核 2026-11-08。
 
 SWE Atlas针对补bug以外的软件工程工作：代码库运行时理解、测试编写和行为保持重构。284题分成124/90/70三类，评分同时看程序行为与专家rubric；新judge下的v1.1不能和原论文旧judge结果直接做增长对比。完整任务与运行工具已经公开，本档补上其仓库而非继续把它当仅有私有榜单的项目。
 
@@ -50,7 +50,7 @@ v1（论文版本；不等于数据集版本）
 
 ```json
 [
-  "代码"
+ "代码"
 ]
 ```
 
@@ -112,21 +112,21 @@ v1.1致谢Artificial Analysis与Inductive ML的评分措辞及奖励投机反馈
 
 ```json
 [
-  "Mohit Raghavendra"
-  "Soham Dan"
-  "Miguel Romero Calvo"
-  "Yannis Yiming He"
-  "Johannes Baptist Mols"
-  "Gautam Anand"
-  "Cole McCollum"
-  "Edgar Arakelyan"
-  "Vijay Bharadwaj"
-  "Andrew Park"
-  "Jeff Da"
-  "MohammadHossein Rezaei"
-  "Bing Liu"
-  "Brad Kenstler"
-  "Yunzhong He"
+ "Mohit Raghavendra"
+ "Soham Dan"
+ "Miguel Romero Calvo"
+ "Yannis Yiming He"
+ "Johannes Baptist Mols"
+ "Gautam Anand"
+ "Cole McCollum"
+ "Edgar Arakelyan"
+ "Vijay Bharadwaj"
+ "Andrew Park"
+ "Jeff Da"
+ "MohammadHossein Rezaei"
+ "Bing Liu"
+ "Brad Kenstler"
+ "Yunzhong He"
 ]
 ```
 
@@ -210,8 +210,8 @@ Test Writing/Refactoring对passing agent补丁与gold补丁作Jaccard与sequence
 
 ```json
 [
-  "代码"
-  "文本"
+ "代码"
+ "文本"
 ]
 ```
 
@@ -279,18 +279,18 @@ v1.1与v1.0裁判与环境不同，分数不能直接比较。
 
 ```json
 {
-  "version": "v1.1（2026年11月更新）"
-  "heat_confidence": "B"
-  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "organization": "官方维护方"
-      "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
-    }
-  ]
+ "version": "v1.1（2026年11月更新）"
+ "heat_confidence": "B"
+ "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "organization": "官方维护方"
+ "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
+ }
+ ]
 }
 ```
 
@@ -300,11 +300,10 @@ v1.1与v1.0裁判与环境不同，分数不能直接比较。
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-05-09"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-05-09"
+ }
 ]
 ```
 
@@ -452,7 +451,7 @@ https://labs.scale.com/leaderboard/swe-atlas?tab=overall
 
 ```json
 [
-  "mohit.raghavendra@scale.com"
+ "mohit.raghavendra@scale.com"
 ]
 ```
 
@@ -516,21 +515,21 @@ af39ccd39558020ce2229788542294d61342d791ef5e01547b78f160bf4dd5a7
 
 ```json
 [
-  {
-    "type": "已打开一手材料"
-    "url": "https://arxiv.org/abs/2605.08366"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://github.com/scaleapi/SWE-Atlas"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "已打开一手材料"
+ "url": "https://arxiv.org/abs/2605.08366"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://github.com/scaleapi/SWE-Atlas"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -546,16 +545,14 @@ af39ccd39558020ce2229788542294d61342d791ef5e01547b78f160bf4dd5a7
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

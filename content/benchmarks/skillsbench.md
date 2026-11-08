@@ -1,6 +1,6 @@
 # SkillsBench
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；研究快照；note: trending: B；未核实字段保留标记
+> Benchmark Constitution，深度复核 2026-11-08。
 
 SkillsBench把“技能是否真的有用”变成配对实验：同一模型与同一agent，在有技能和无技能两条件下完成专家任务。默认v1.1含87题，额外14题不能并入默认库存。官方87题发布、HF审计导出和Vals独立实现有不同配置与时间快照，本档不将它们拼成统一裸模型榜。
 
@@ -50,8 +50,8 @@ Agent
 
 ```json
 [
-  "代码"
-  "技能"
+ "代码"
+ "技能"
 ]
 ```
 
@@ -191,9 +191,9 @@ v1.1：87默认任务、8领域；另14个需要凭据或与集成不兼容的�
 
 ```json
 [
-  "文本"
-  "代码"
-  "数据文件"
+ "文本"
+ "代码"
+ "数据文件"
 ]
 ```
 
@@ -265,11 +265,11 @@ https://github.com/benchflow-ai/skillsbench
 
 ```json
 {
-  "version": "v1.1"
-  "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9"
-  "active_tasks": 87
-  "excluded_tasks": 14
-  "source_snapshots": "官网25配置/2026-07-16；HF归档24配置/卡称2026-06-16；Vals独立35行/2026-10-29，不能强行合并。"
+ "version": "v1.1"
+ "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9"
+ "active_tasks": 87
+ "excluded_tasks": 14
+ "source_snapshots": "官网25配置/2026-07-16；HF归档24配置/卡称2026-06-16；Vals独立35行/2026-10-29，不能强行合并。"
 }
 ```
 
@@ -279,26 +279,22 @@ https://github.com/benchflow-ai/skillsbench
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-02-13"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2026-03-07"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2026-03-13"
-    "timezone": ""
-  }
-  {
-    "version": "v4"
-    "submitted_at": "2026-06-15"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-02-13"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2026-03-07"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2026-03-13"
+ }
+ {
+ "version": "v4"
+ "submitted_at": "2026-06-15"
+ }
 ]
 ```
 
@@ -578,29 +574,29 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 
 ```json
 [
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://www.vals.ai/benchmarks/skillsbench"
-  }
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://arxiv.org/abs/2602.12670"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://github.com/benchflow-ai/skillsbench"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://huggingface.co/datasets/benchflow/skillsbench"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://www.skillsbench.ai"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://www.vals.ai/benchmarks/skillsbench"
+ }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://arxiv.org/abs/2602.12670"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://github.com/benchflow-ai/skillsbench"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://huggingface.co/datasets/benchflow/skillsbench"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://www.skillsbench.ai"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -616,16 +612,14 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

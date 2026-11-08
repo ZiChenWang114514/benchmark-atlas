@@ -4,7 +4,7 @@
 
 Video-MME以真实长短视频为证据，区分视频理解与只靠问题文本猜测的语言捷径。阅读结果时，字幕、音轨和采帧预算比单个“总体分数”更重要。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ## 基本信息
 
@@ -12,33 +12,33 @@ Video-MME以真实长短视频为证据，区分视频理解与只靠问题文�
 
 Video-MME
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 全称
 
 Video-MME
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 基准版本
 
 原始Video-MME；官方2024-06-15刷新破损/潜在失效视频链接并重新标注，未命名独立数字版本。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 论文版本
 
 arXiv v3
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 发布日期
 
-- **paper_first_submission_kst**：2024-06-01
+- **paper_first_submission**：2024-06-01
 - **project_launch_announcement**：2024-06-03
 - **note**：README公告日未附时区，不擅自换日。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 主板块
 
@@ -46,49 +46,49 @@ arXiv v3
 
 > Benchmark Constitution编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 领域标签
 
 - 视频理解与长视频
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 许可证
 
 仅供学术研究、禁止商业用途；未经许可禁止分发、发布、复制、传播或修改数据，视频版权归原视频所有者。这里只归档论文PDF，不再分发受限视频。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 论文
 
 https://arxiv.org/abs/2405.21075
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 官方代码
 
 https://github.com/MME-Benchmarks/Video-MME
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 数据地址
 
 https://huggingface.co/datasets/lmms-lab/Video-MME
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://huggingface.co/datasets/lmms-lab/Video-MME)（访问 2026-11-07 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://huggingface.co/datasets/lmms-lab/Video-MME)（访问 2026-11-07）。
 
 ### 官方入口
 
 https://video-mme.github.io/home_page.html
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 论文标题
 
 Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ## 发起与维护
 
@@ -96,7 +96,7 @@ Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs
 
 Video-MME Team；论文作者单位包括南京大学、认知智能全国重点实验室、厦门大学、香港大学、北京大学、香港中文大学、华东师范大学、中科院自动化所。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 署名合作机构
 
@@ -111,7 +111,7 @@ Video-MME Team；论文作者单位包括南京大学、认知智能全国重点
 
 > 依据arXiv v3署名机构；不将榜单参评模型机构误作发起合作方。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 作者
 
@@ -137,19 +137,19 @@ Video-MME Team；论文作者单位包括南京大学、认知智能全国重点
 - He, Ran
 - Sun, Xing
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）。
 
 ### 维护方
 
 MME-Benchmarks / Video-MME团队；数据侵权与移除由videomme2024@gmail.com接收，榜单提交由bradyfu24@gmail.com接收。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 资助
 
 National Natural Science Foundation of China，Grant 62441234。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ## 设计目标
 
@@ -157,13 +157,13 @@ National Natural Science Foundation of China，Grant 62441234。
 
 多领域、多时长、多输入模态的视频理解与长时序上下文能力。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 设计背景
 
 早期多模态评测侧重静态图像，难系统检验连续视觉输入与长视频。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ## 构建方式
 
@@ -171,31 +171,31 @@ National Natural Science Foundation of China，Grant 62441234。
 
 非从已有视频数据集复用；团队新收集真实视频，完整反复观看后人工编写问答，覆盖短中长三个时长段。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 构建者背景
 
 招募英语能力较强、具有视觉—语言学习研究经验的标注者；不是泛称未说明资质的专家。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 审核流程
 
 每位标注者完整观看视频后编写3道四选一题；另一名标注者检查表达清晰、可回答性、选项逻辑与正确答案。不合格题返还修改。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 质量控制
 
 人工交叉复核后，以仅题目文本输入Gemini 1.5 Pro筛除无需视频即可作答的题目；论文报告该text-only设置准确率低于15%。这验证视频依赖性，不是训练污染检测。2024-06-15另替换失效视频并重新标注。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 去污染与泄漏防范
 
 新收集YouTube视频并人工写题，不复用已有视频数据集；用Gemini 1.5 Pro的text-only过滤减轻语言捷径。公开互联网视频与公开问答仍可能进入后续训练，不能据此证明无污染。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ## 数据形式
 
@@ -203,37 +203,37 @@ National Natural Science Foundation of China，Grant 62441234。
 
 900段视频、254小时、2,700道四选一问答；900段音频及744份字幕，每视频3题，覆盖6大领域、30子类、12任务类型。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 任务形式
 
 四选一视频QA；可使用视频帧、字幕和音频。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 模态
 
 视频帧+文本，可含音频和字幕
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 语言
 
 题面和选项为英文；视频来源含Multilingual领域，不能把题面语言等同视频/音轨语言。完整音轨语言分布仍待核实。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://huggingface.co/datasets/lmms-lab/Video-MME/raw/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://huggingface.co/datasets/lmms-lab/Video-MME/raw/main/README.md)（访问 2026-11-08）。
 
 ### 难度与类型
 
 短视频<2分钟、中视频4–15分钟、长视频30–60分钟；全体范围11秒至1小时。时长不是独立难度标注；论文按证据片段长度分析长程依赖。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 公开与隐藏划分
 
 公开评测900 videos / 2,700 QA；744段字幕，所有long视频有字幕。带字幕设置只使用与所采帧时间对应的字幕，不将完整字幕无条件输入。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ## 评测方法
 
@@ -241,31 +241,31 @@ National Natural Science Foundation of China，Grant 62441234。
 
 选择题准确率，另按视频时长、领域、子类和任务类型汇总；官方评估不调用ChatGPT等第三方评分模型。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 评分
 
 对模型选择字母进行确定性提取并计算accuracy，不引入ChatGPT等第三方模型裁判；分别报告short/medium/long、领域、子类别、任务类型。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 提示和复现设置
 
 只输出A/B/C/D；含字幕时仅使用采样帧对应的字幕，无字幕协议删掉字幕段；须记录帧数、fps、分辨率和音频权限。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 官方脚本
 
 https://github.com/MME-Benchmarks/Video-MME
 
-来源：[1](https://github.com/MME-Benchmarks/Video-MME)（访问 2026-11-07 ）。
+来源：[1](https://github.com/MME-Benchmarks/Video-MME)（访问 2026-11-07）。
 
 ### 可比性提示
 
 带/不带字幕、视频帧预算和音频输入严格区分；2026 FramePack-U摘要把+9.7写成long提升，但附录Table10显示overall +9.7、long +12.8，采用明细表记录冲突。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）；[3](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）；[3](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07）。
 
 ## 最新情况
 
@@ -273,49 +273,48 @@ https://github.com/MME-Benchmarks/Video-MME
 
 2026-11-08
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 数据版本与当前状态
 
 官方README最后明确列出的数据修复为2024-06-15：替换破损和可能失效的视频并重标注；2025-12-05列Gemini 3 Pro采用基准的新闻，不是新数据版本。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 论文修订与H2证据
 
 - **revisions**：- - **version**：v1
-    - **date_kst**：2024-06-01
-  - - **version**：v2
-    - **date_kst**：2024-06-17
-  - - **version**：v3
-    - **date_kst**：2025-05-30
+ - **date**：2024-06-01
+ - - **version**：v2
+ - **date**：2024-06-17
+ - - **version**：v3
+ - **date**：2025-05-30
 - **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.16118v1
-    - **date**：2026-10-12
-    - **note**：Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。
-    - **date_kst**：2026-10-12
-    - **verified_in_round1**：重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。
-- **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
+ - **date**：2026-10-12
+ - **note**：Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。
+ - **date**：2026-10-12
+；是实际评测而非仅参考文献。
 - **note**：论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07 ）；[3](https://arxiv.org/abs/2610.16118)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07）；[3](https://arxiv.org/abs/2610.16118)（访问 2026-11-07）。
 
 ### 饱和程度
 
 官方带字幕表前列为81.6/81.3/79.6%，不带字幕另表；不同模型帧预算、字幕和音频输入不齐。没有在统一设置下核实整体饱和结论，不因高分自动称饱和。
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 污染、冲突与限制
 
 带/不带字幕、视频帧预算和音频输入严格区分；2026 FramePack-U摘要把+9.7写成long提升，但附录Table10显示overall +9.7、long +12.8，采用明细表记录冲突。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）；[3](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）；[3](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07）。
 
 ### 后续工作与衍生
 
 官方仓库同时链接MME、MME-RealWorld、MME-Survey为相关工作；它们不是Video-MME数据修订版，不能沿用本条榜单成绩。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ## 榜单快照
 
@@ -323,13 +322,13 @@ https://github.com/MME-Benchmarks/Video-MME
 
 2026-11-08；H2研究复测沿用旧采集日
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 官方榜单
 
 https://video-mme.github.io/home_page.html#leaderboard
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 第三方覆盖
 
@@ -337,7 +336,7 @@ https://video-mme.github.io/home_page.html#leaderboard
 
 > 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07 ）。
+来源：[1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07）。
 
 ### 结果快照
 
@@ -797,13 +796,13 @@ https://video-mme.github.io/home_page.html#leaderboard
 |---|---|---|---|---|
 | — | Qwen3.6-27B + FramePack-U | 76.3 % | accuracy Video-MME overall，128-frame等效预算，d1f16d2f448 | https://arxiv.org/html/2610.16118v1 |
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07）。
 
 ### 覆盖说明
 
 逐格读取官网唯一结果表，新增408个数值（overall/short/medium/long × 带/不带字幕；缺失格不补零）。原表行序不等于统一预算名次；逐行日期是表中Date，不推测整体更新日。保留FramePack-U研究复测的原2026-11-07证据，未重验其字幕/音频配置；不是官方实时榜。
 
-来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://video-mme.github.io/home_page.html)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ## 联系方式
 
@@ -814,13 +813,13 @@ https://video-mme.github.io/home_page.html#leaderboard
 
 > 前者处理数据/版权移除，后者接收标准JSON格式榜单结果。
 
-来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。
 
 ### 问题反馈
 
 https://github.com/MME-Benchmarks/Video-MME/issues
 
-来源：[1](https://github.com/MME-Benchmarks/Video-MME)（访问 2026-11-07 ）。
+来源：[1](https://github.com/MME-Benchmarks/Video-MME)（访问 2026-11-07）。
 
 ### 官方讨论渠道
 
@@ -828,13 +827,13 @@ https://github.com/MME-Benchmarks/Video-MME/issues
 
 > 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://video-mme.github.io/home_page.html)（访问 2026-11-08）。
 
 ### 隐私与数据使用
 
 仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。
 
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07 ）。
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）。
 
 ## 原始文件
 
@@ -842,7 +841,7 @@ https://github.com/MME-Benchmarks/Video-MME/issues
 
 https://arxiv.org/pdf/2405.21075
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### SHA-256
 
@@ -850,50 +849,37 @@ https://arxiv.org/pdf/2405.21075
 
 > 重新下载的原始PDF字节；既有副本未覆盖。
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 字节数
 
 4306222
 
-来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/pdf/2405.21075)（访问 2026-11-08）。
 
 ### 文件夹
 
-- **id**：1UHQvAjcQ6OuugtmPo2QFyxa7DvwpAN9v
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 其他文档
 
-- - **kind**：中文介绍 Google Doc
-  - **id**：1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0
-  - **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ### 原文归档
 
-- **id**：1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo
-- **webViewLink**：
-
-来源：[1]( 2026-11-07 ）。
+来源：。
 
 ## 变更记录
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+ - **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **round**：1 / 深度实证复核
-  - **change**：补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。
+ - **round**：1 / 深度实证复核
+ - **change**：补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08 ）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08 ）。
+来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md)（访问 2026-11-08）。

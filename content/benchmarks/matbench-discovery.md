@@ -119,27 +119,27 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **第三方入口**：待核实 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920)
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 官方models / CPS
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | DPA-4.1-Max-OAM-PFT | 0.913 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models) · 2026-11-08 |
-| 2 | Prophet-OAME-MBD | 0.912 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models) · 2026-11-08 |
-| 3 | DPA-4.1-Max-OAM | 0.910 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models) · 2026-11-08 |
-| 4 | TECE-OAM-RRA-1.0 | 0.908 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models) · 2026-11-08 |
-| 5 | EquFlashV2 | 0.907 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models) · 2026-11-08 |
+| 1 | DPA-4.1-Max-OAM-PFT | 0.913 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models)，2026-11-08 |
+| 2 | Prophet-OAME-MBD | 0.912 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models)，2026-11-08 |
+| 3 | DPA-4.1-Max-OAM | 0.910 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models)，2026-11-08 |
+| 4 | TECE-OAM-RRA-1.0 | 0.908 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models)，2026-11-08 |
+| 5 | EquFlashV2 | 0.907 | CPS ↑ | [来源](https://matbench-discovery.materialsproject.org/models)，2026-11-08 |
 
 ### 官方发现 / Unique Prototypes / require forces
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | DPA-4.1-Max-OAM-PFT | 0.935 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 2026-11-08 |
-| 2 | DPA-4.1-Max-OAM | 0.933 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 2026-11-08 |
-| 3 | EquiformerV3+DeNS-OAM | 0.931 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 2026-11-08 |
-| 4 | TECE-OAM-RRA-1.0 | 0.929 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 2026-11-08 |
-| 5 | EquFlashV2 | 0.929 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 2026-11-08 |
+| 1 | DPA-4.1-Max-OAM-PFT | 0.935 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，2026-11-08 |
+| 2 | DPA-4.1-Max-OAM | 0.933 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，2026-11-08 |
+| 3 | EquiformerV3+DeNS-OAM | 0.931 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，2026-11-08 |
+| 4 | TECE-OAM-RRA-1.0 | 0.929 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，2026-11-08 |
+| 5 | EquFlashV2 | 0.929 | F1 ↑ | [来源](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S11](https://matbench-discovery.materialsproject.org/models) [S5](https://matbench-discovery.materialsproject.org/benchmarks/discovery)
 
@@ -157,7 +157,7 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **官方发布渠道**：待核实 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920)
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 **隐私口径**：只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 [S14](urn:benchmark-atlas:constitution:v0.1)
 
@@ -171,37 +171,31 @@ Matbench Discovery关注机器学习是否能有效预筛假想晶体，减少�
 
 **PDF字节数**：4570226 [S4](https://arxiv.org/pdf/2308.14920)
 
-**原有文件夹**：{"id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM", "webViewLink": " [S15](
-
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns", "webViewLink": " [S16](
-
-**原有 PDF**：{"id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO", "webViewLink": " [S17](
-
 ## 变更记录
 
-- 2026-11-07 · 首批官方材料核验、中文改写、；未核实字段显式标记。
-- 2026-11-07 · ：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首批官方材料核验、中文改写、；未核实字段显式标记。
+- 2026-11-07，：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv.org/pdf/2308.14920) [S6](https://matbench-discovery.materialsproject.org/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2308.14920](https://arxiv.org/abs/2308.14920) · 访问 2026-11-07
-- S2 · [https://arxiv.org/pdf/2308.14920](https://arxiv.org/pdf/2308.14920) · 访问 2026-11-07
-- S3 · [https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md) · 访问 2026-11-07
-- S4 · [https://arxiv.org/pdf/2308.14920](https://arxiv.org/pdf/2308.14920) · 访问 2026-11-08
-- S5 · [https://matbench-discovery.materialsproject.org/benchmarks/discovery](https://matbench-discovery.materialsproject.org/benchmarks/discovery) · 访问 2026-11-08
-- S6 · [https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/) · 访问 2026-11-08
-- S7 · [https://arxiv.org/abs/2308.14920](https://arxiv.org/abs/2308.14920) · 访问 2026-11-08
-- S8 · [https://github.com/janosh/matbench-discovery](https://github.com/janosh/matbench-discovery) · 访问 2026-11-07
-- S9 · [https://api.github.com/repos/janosh/matbench-discovery](https://api.github.com/repos/janosh/matbench-discovery) · 访问 2026-11-07
-- S10 · [https://github.com/janosh/matbench-discovery](https://github.com/janosh/matbench-discovery) · 访问 2026-11-08
-- S11 · [https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models) · 访问 2026-11-08
-- S12 · [https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/) · 访问 2026-11-07
-- S13 · [https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models) · 访问 2026-11-07
-- S14 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S15 · [ · 访问 2026-11-07
-- S16 · [ · 访问 2026-11-07
-- S17 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/2308.14920](https://arxiv.org/abs/2308.14920)，访问 2026-11-07
+- S2，[https://arxiv.org/pdf/2308.14920](https://arxiv.org/pdf/2308.14920)，访问 2026-11-07
+- S3，[https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md](https://raw.githubusercontent.com/janosh/matbench-discovery/main/readme.md)，访问 2026-11-07
+- S4，[https://arxiv.org/pdf/2308.14920](https://arxiv.org/pdf/2308.14920)，访问 2026-11-08
+- S5，[https://matbench-discovery.materialsproject.org/benchmarks/discovery](https://matbench-discovery.materialsproject.org/benchmarks/discovery)，访问 2026-11-08
+- S6，[https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/)，访问 2026-11-08
+- S7，[https://arxiv.org/abs/2308.14920](https://arxiv.org/abs/2308.14920)，访问 2026-11-08
+- S8，[https://github.com/janosh/matbench-discovery](https://github.com/janosh/matbench-discovery)，访问 2026-11-07
+- S9，[https://api.github.com/repos/janosh/matbench-discovery](https://api.github.com/repos/janosh/matbench-discovery)，访问 2026-11-07
+- S10，[https://github.com/janosh/matbench-discovery](https://github.com/janosh/matbench-discovery)，访问 2026-11-08
+- S11，[https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models)，访问 2026-11-08
+- S12，[https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/)，访问 2026-11-07
+- S13，[https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models)，访问 2026-11-07
+- S14，[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)，访问 2026-11-07
+- S15，[，访问 2026-11-07
+- S16，[，访问 2026-11-07
+- S17，[，访问 2026-11-07

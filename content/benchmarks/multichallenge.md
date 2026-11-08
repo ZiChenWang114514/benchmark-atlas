@@ -1,6 +1,6 @@
 # MultiChallenge
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 MultiChallenge考查多轮指令保持、用户信息推断记忆、可靠版本编辑和自洽。原论文与原GitHub数据为273段对话，当前官方HF test为266段，这一差异尚无可核验的官方解释，不能用一个分母笼统描述所有成绩。在线榜已修改裁判与54条rubric，原仓库多次attempts又按至少一次成功计分，因此人评、历史自动评、现在线榜及best-of-attempts必须分开。
 [本页导读依据](https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md)（访问 2026-11-08）
@@ -191,17 +191,17 @@ MT-Bench近饱和；纯格式多轮指令测试未覆盖自然对话中混合推
 
 ```json
 {
-  "paper_v2_conversations": 273
-  "original_github_jsonl_rows": 273
-  "original_axes": {
-    "INFERENCE_MEMORY": 113
-    "SELF_COHERENCE": 50
-    "INSTRUCTION_RETENTION": 69
-    "RELIABLE_VERSION_EDITING": 41
-  }
-  "current_hf_test_rows": 266
-  "scope_caveat": "原论文/原JSONL273与当前HF266不一致；54个rubric修改公告并不等于删除7题的说明。未核实7题差异原因和当前官网每条成绩的精确样本数，禁止统一分母。"
-  "turn_count": "论文最多10轮（用户-助手来回）；HF num_turns为消息数，显示3至19，不把19条消息误写成19轮来回。"
+ "paper_v2_conversations": 273
+ "original_github_jsonl_rows": 273
+ "original_axes": {
+ "INFERENCE_MEMORY": 113
+ "SELF_COHERENCE": 50
+ "INSTRUCTION_RETENTION": 69
+ "RELIABLE_VERSION_EDITING": 41
+ }
+ "current_hf_test_rows": 266
+ "scope_caveat": "原论文/原JSONL273与当前HF266不一致；54个rubric修改公告并不等于删除7题的说明。未核实7题差异原因和当前官网每条成绩的精确样本数，禁止统一分母。"
+ "turn_count": "论文最多10轮（用户-助手来回）；HF num_turns为消息数，显示3至19，不把19条消息误写成19轮来回。"
 }
 ```
 
@@ -285,17 +285,17 @@ https://github.com/ekwinox117/multi-challenge
 
 ```json
 {
-  "version": "官方榜2026-02-03裁判/题目修订口径"
-  "trending": "B"
-  "heat_evidence": "2026-11-07打开Scale官方榜可见新前沿模型及当前结果；仅证明单一创建机构仍维护展示（B），不是11月7日发生新运行的证据。"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    }
-  ]
+ "version": "官方榜2026-02-03裁判/题目修订口径"
+ "trending": "B"
+ "heat_evidence": "2026-11-07打开Scale官方榜可见新前沿模型及当前结果；仅证明单一创建机构仍维护展示（B），不是11月7日发生新运行的证据。"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+ }
+ ]
 }
 ```
 
@@ -305,22 +305,22 @@ https://github.com/ekwinox117/multi-challenge
 
 ```json
 {
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2025-01-29"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2025-03-06"
-    }
-  ]
-  "online_update": {
-    "date": "2026-02-03"
-    "judge": "Gemini 2.5 Pro"
-    "rubric_questions_modified": 54
-  }
-  "dataset_count_conflict": "论文/原仓库273；当前官方HF266，差异原因未在已读官方材料中明确解释"
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2025-01-29"
+ }
+ {
+ "version": "v2"
+ "date": "2025-03-06"
+ }
+ ]
+ "online_update": {
+ "date": "2026-02-03"
+ "judge": "Gemini 2.5 Pro"
+ "rubric_questions_modified": 54
+ }
+ "dataset_count_conflict": "论文/原仓库273；当前官方HF266，差异原因未在已读官方材料中明确解释"
 }
 ```
 
@@ -525,39 +525,39 @@ https://arxiv.org/pdf/2501.17399
 
 ```json
 [
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
-  }
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://arxiv.org/abs/2501.17399"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/pdf/2501.17399"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
+ }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://arxiv.org/abs/2501.17399"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://arxiv.org/pdf/2501.17399"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -579,16 +579,14 @@ https://arxiv.org/pdf/2501.17399
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

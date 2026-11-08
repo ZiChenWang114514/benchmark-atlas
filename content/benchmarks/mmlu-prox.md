@@ -1,6 +1,6 @@
 # MMLU-ProX
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2025-03-14（；arXiv首稿时间，不等于独立数据集首发）
+2025-03-14（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
@@ -285,8 +285,6 @@ README 2025-05记录29语言、Full与Lite；2025-08称正在开发更多语言�
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2025-03-14；- **timezone**：；- - **version**：v2；- **submitted_at**：2025-05-27；- **timezone**：
-
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
 ### 饱和情况
@@ -311,7 +309,7 @@ MMLU-ProX-Lite是同项目节省评测成本的子集版，不另算一个独立
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
@@ -368,7 +366,6 @@ https://mmluprox.github.io/
 - **Qwen3-14B-Think**：- **language_scores**：- **EN**：74.7；- **FR**：72.2；- **DE**：71.4；- **ES**：72.2；- **PT**：71.6；- **IT**：73.0；- **HI**：67.9；- **BN**：66.8；- **UR**：68.0；- **TE**：64.6；- **MR**：66.9；- **NE**：67.3；- **ZH**：66.5；- **JA**：70.8；- **KO**：70.0；- **VI**：71.4；- **TH**：69.8；- **ID**：72.3；- **AR**：69.1；- **AF**：71.3；- **SW**：48.0；- **WO**：28.3；- **YO**：32.5；- **ZU**：32.3；- **RU**：72.2；- **UK**：71.3；- **SR**：71.6；- **CS**：71.1；- **HU**：69.8；- **scope**：官网静态Performance Results；独立Leaderboard Coming Soon，不冒称实时榜
 
 [来源](https://mmluprox.github.io/)（访问 2026-11-08）
-
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）；[来源](https://mmluprox.github.io/)（访问 2026-11-08）
 
@@ -430,26 +427,6 @@ b171ff829bfbb567974812dfebb860a63df7f756daf5662c7a1b659df76833bd
 > 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
-
-### 文件夹
-
-- **id**：1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍 Google Doc；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## 变更记录
 

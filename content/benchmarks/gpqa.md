@@ -1,6 +1,6 @@
 # GPQA
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GPQA的关键是领域专家验证与非专家可上网验证的差异，而不是“搜索不到答案”的绝对保证。Main、Extended和Diamond是有包含关系的不同题集；现代常见Diamond榜与原始448题主集必须分开报告。
 
@@ -30,13 +30,13 @@ GPQA: A Graduate-Level Google-Proof Q&A Benchmark
 
 ### 论文版本
 
-v1；2023-11-21（；论文修订号，不是数据版本）
+v1；2023-11-21（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2023-11-21（；arXiv初稿提交时间，非推定数据首发日）
+2023-11-21（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
@@ -92,7 +92,6 @@ GPQA: A Graduate-Level Google-Proof Q&A Benchmark
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -134,7 +133,6 @@ Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性�
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -148,7 +146,6 @@ Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性�
 构造非专家即使可自由上网仍难解决、领域专家可验证的客观难题，用于研究模型超过监督者能力时的可扩展监督，而非单纯增加考试题数量。
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -181,7 +178,6 @@ Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性�
 仓库声明数据含 canary 标记，用于提示训练数据排除；不能证明所有模型均未接触题目。
 
 来源：[1](https://github.com/idavidrein/gpqa)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -221,7 +217,6 @@ Eric与Wendy Schmidt（Schmidt Futures推荐）、Open Philanthropy、NYU高性�
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[2](https://huggingface.co/datasets/idavidrein/gpqa)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -254,7 +249,6 @@ https://github.com/idavidrein/gpqa
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -271,15 +265,13 @@ https://github.com/idavidrein/gpqa
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2023-11-21；timezone：
-
-来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2023-11-21；来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
 ### 饱和情况
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
@@ -294,7 +286,6 @@ arxiv_submissions：- version：v1；submitted_at：2023-11-21；timezone：
 GPQA Extended/Main/Diamond为同族题集子集，本库不拆成独立benchmark；其他衍生题集关系待核实。
 
 来源：[1](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -337,7 +328,6 @@ https://artificialanalysis.ai/evaluations/gpqa-diamond
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -360,7 +350,7 @@ https://github.com/idavidrein/gpqa/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
@@ -369,7 +359,6 @@ https://github.com/idavidrein/gpqa/issues
 只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。
 
 来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
-
 
 ## 10. 原始文件
 
@@ -395,30 +384,22 @@ https://arxiv.org/pdf/2311.12022
 
 ### 文件夹
 
-id：1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### PDF
 
-id：1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I；webViewLink：
-
-来源：[1]( 2026-11-07）
-
+来源：
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
-- date：2026-11-07；timezone：；change：深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；；change：深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

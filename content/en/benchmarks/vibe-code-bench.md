@@ -1,0 +1,540 @@
+# Vibe Code Bench v1.1
+
+> Chinese compilation and review of this page: 2026-11-08. Historical results, different data versions, scaffolds, and scoring protocols are recorded separately; Unverified is not the same as Not disclosed.
+
+Vibe Code Bench asks for a web application that can be deployed, built from a specification in natural language, and it checks that the application works by a workflow in the browser rather than by testing only a fragment of code. All 125 configurations on the official site are recorded in this pass. It does not measure security, and it does not measure the quality of the code. It is also not VCB 1–100, in which the requirements of an application that already exists keep being changed.
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+## Basic information
+
+### Short name
+
+Vibe Code Bench v1.1
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Full name
+
+Vibe Code Bench v1.1
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Benchmark version
+
+v1.1
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Paper version
+
+arXiv v3; submitted at 2026-05-14 08:00:10.
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### Release date
+
+2026-02-24（v1.1）
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Section
+
+Code
+
+Note: Editorial filing. Only the main section is counted.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Field tags
+
+- 代码
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 许可与适用范围
+
+The public OpenHands scaffold is MIT outside the enterprise/ directory, and enterprise/ follows its own license; the official site marks the benchmark as Proprietary. The license of the test set is Unverified, and the MIT license of the scaffold is not extrapolated to the question bank.
+
+Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/blob/main/LICENSE) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### Paper
+
+https://arxiv.org/abs/2603.04601
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Code repository
+
+https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### 数据地址
+
+Unverified
+
+Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Official homepage
+
+https://www.vals.ai/benchmarks/vibe-code
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Paper title
+
+Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Origin and maintenance
+
+### 机构与发起关系
+
+Vals AI
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Partner organizations
+
+The authors are affiliated with Vals AI and MIT; a formal collaboration agreement is not inferred from author affiliation.
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### Authors
+
+Hung Tran、Langston Nashold、Rayan Krishnan、Antoine Bigeard、Alex Gu
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07); [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### Current maintainer
+
+Vals AI
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 资助与支持
+
+Unverified
+
+Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Design goals
+
+### Abilities measured
+
+A deployable web application is built from scratch from a natural-language specification, completing user flows such as authentication, data, payment, and email.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Design background
+
+Function generation, or fixing bugs in an existing repository, is not enough to test complete application delivery, deployment, and service integration.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Construction
+
+### 题目或数据来源
+
+An LLM generates the first draft, product managers and software engineers review it over multiple rounds, the specification is aligned with the tests, and the tests are checked by hand.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 出题背景
+
+Professional product managers and software engineers review the specifications; first drafts of the questions are generated by an LLM, drawing on consulting cases, freelance development tasks, and patterns of startup applications.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### Review process
+
+Product managers and software engineers review the application specification and the tests over multiple rounds; people check whether the requirements are sufficient to support the verification steps.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Quality control
+
+Each specification goes through several rounds of review by PMs and engineers. The official site says that each test is verified three times by professional engineers. The paper also runs a human-alignment study. Agreement among model judges on substeps is 31.8–93.6%, and the choice of scorer affects the result. Usability does not equal design quality, code quality, or a security audit.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### 去污染与泄漏
+
+Validation and test application tasks do not overlap. A run isolates a new browser session and uses a unique account and unique data, so that workflow state does not leak; this is isolation of evaluation state. An audit of contamination in pretraining data remains Unverified.
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+## Data format
+
+### Size
+
+The paper: 100 application specifications, 50 for validation and 50 for test; 964 browser workflows and 10,131 substeps. The current web page also says 20–60 tests per specification, which does not match the paper’s basis of 6–23 workflows.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07); [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### Question types
+
+The input is a complete application specification; the output is a deployable application, checked step by step in a browser.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Modalities
+
+- 文本
+- 代码
+- Web visual interaction
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Languages
+
+English natural-language application specifications and UI workflows; the outputs involve Web code, a terminal, and visual interaction in a browser, and cannot be read as unit tests in a fixed programming language.
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### Difficulty
+
+Using the average pass rate of 16 models, the paper retrospectively divides the 50 test questions into Easy23, Medium19, and Hard8; these are not difficulty labels fixed in advance by experts, and models added later should not rewrite the historical grouping.
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### 数据划分
+
+The paper abstract says 50 private validation and 50 hidden test, while Table 3 writes Validation(public); the statements of public availability contradict each other and are Unverified. The set must not be called fully open.
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+## Evaluation
+
+### Metrics
+
+Workflow pass rate, averaged by application, with error bars of ±1 standard error.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Scoring
+
+A browser agent executes prewritten user workflows; a workflow passes if at least 90% of its substeps succeed. Workflow pass rates are computed by application and then averaged across applications.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 提示与运行设置
+
+OpenHands adapts the container environment, with a maximum of 5 hours or 1,000 turns; a terminal, a browser, self-hosted Supabase, Stripe test mode, and MailHog.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 评测脚本
+
+https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
+
+Note: This address is a publicly modified OpenHands scaffold; it does not guarantee that the private specification, the tests, and the scoring service are all public.
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 可比性提醒
+
+The web page and the paper conflict in their descriptions of technology-stack constraints, the number of tests, and whether the validation set is public, and the two are recorded by source; the current v1.1 leaderboard is not the paper's early result on 16 models.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Current status
+
+### Date checked
+
+2026-11-08
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 数据版本与更新
+
+```json
+{
+ "version": "v1.1"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/vibe-code"
+ "date": "2026-11-05"
+ "date_type": "source_calendar_date"
+ "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
+ }
+ ]
+}
+```
+
+Note: The heat grade is adopted from the candidate; only evidence that has been opened and can be verified is retained. A does not guarantee that every version received independent reruns by multiple institutions.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 论文修订记录
+
+- {"version": "v1", "submitted_at": "2026-03-05 06:00:33 "}
+- {"version": "v2", "submitted_at": "2026-05-05 12:37:49 "}
+- {"version": "v3", "submitted_at": "2026-05-14 08:00:10 "}
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
+
+### 饱和证据与局限
+
+The v1.1 leaderboard updated on the official site on 2026-11-05 has a high of 92.39%, but individual applications still show low-pass-rate anomalies; a high workflow pass rate does not prove that the complete application, code quality, and security all pass.
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 争议与已知问题
+
+The abstract and the body of arXiv v3 say that there are 50 items of private validation, while Table 3 marks Validation(public). The contradiction about what is public is kept. v1.1 on the official site already has 125 system configurations. The 16 models in the paper are historical, and they are not mixed in as if they were the same experiment.
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 衍生或后继基准
+
+VCB 1–100 starts from applications that already passed in v1.1, with at most 10 consecutive rounds of requirement changes; there are 50 test and 50 validation scenarios, measuring evolution and regression, and this is not a substitute score on this page for building an application from scratch.
+
+Sources: [1](https://www.vals.ai/benchmarks/vcb-1-100) (accessed 2026-11-08)
+
+## Leaderboard snapshot
+
+### 快照访问日期
+
+2026-11-08
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 官方榜单入口
+
+https://www.vals.ai/benchmarks/vibe-code
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 第三方入口
+
+https://www.vals.ai/benchmarks/vibe-code
+
+Note: A benchmark built by Vals and an external benchmark that Vals runs independently differ in kind; multiple URLs from the same organization do not equal independent review.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 可核验结果
+
+| 分轨 | 轨内名次 | 模型/系统 | 分数 | 指标 | 版本/设置 | 来源 |
+|---|---:|---|---:|---|---|---|
+| Vals official site v1.1 / OpenHands | 1 | Claude Sonnet 5.5 | 92.39 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 2 | Gemini 4 Argon | 91.91 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 3 | Claude Haiku 5.5 | 90.44 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 4 | Claude Fable 5 | 90.35 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 5 | Claude Opus 5.5 | 90.29 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 6 | Claude Fable 5.1 | 90.26 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 7 | GPT-6 Astra | 89.59 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 8 | Gemini 4 Carbon | 89.06 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 9 | GPT-6.1 Sol | 88.93 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 10 | Claude Opus 5 | 88.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 11 | GPT-6 Sol | 87.82 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 12 | DeepSeek V4.1 Flash 1017 | 87.73 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 13 | Grok 4.7 | 86.17 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 14 | Wonder Full | 86.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 15 | Muse Spark 1.3 Max | 85.86 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 16 | MiMo V2.6 Pro | 85.22 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 17 | Kimi K3 | 84.97 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 18 | Kimi K3.1 Pro | 84.89 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 19 | DeepSeek V4.1 Flash | 84.74 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 20 | GPT-6.1 Terra | 84.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 21 | Ember-1 | 83.87 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 22 | Wonder | 83.09 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 23 | Muse Spark 1.3 | 82.86 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 24 | Claude Opus 4.8 | 82.72 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 25 | DeepSeek V4 Pro 0813 | 82.3 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 26 | GPT-6 Luna | 81.65 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 27 | Mistral Large 4 | 81.56 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 28 | Inkling 2 Small | 81.55 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 29 | Claude Sonnet 5 | 81.33 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 30 | Hy4 | 81.01 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 31 | GPT-5.6 Sol | 80.5 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 32 | Muse Spark 1.2 | 79.1 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 33 | MiMo V2.6 Flash | 78.96 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 34 | Gemini 3.8 Flash | 78.65 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 35 | Mistral Large 4 Preview | 78.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 36 | GLM 5.3 | 78.13 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Claude Code | 1 | Claude Opus 4.8 | 77.48 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 37 | Hy4 Preview | 77.48 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 38 | Qwen 3.8 Max 0902 | 77.14 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 39 | GPT-5.6 Luna | 77.06 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 40 | Grok 4.6 | 76.24 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 41 | Muse Spark Open | 76.19 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 42 | DeepSeek V4 Flash 0731 | 74.74 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 43 | GPT-5.6 Terra | 74.59 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 44 | MiniMax-M3.1-Flash | 73.94 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 45 | Muse Spark 1.1 | 72.16 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 46 | Claude Opus 4.7 | 71.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 47 | Step 5 Preview | 70.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 48 | Gemini 3.7 Flash | 70.39 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 49 | GPT 5.5 | 69.85 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 50 | Grok 4.5 | 69.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 51 | GPT 5.4 (xhigh) | 67.42 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Factory | 1 | GPT 5.5 | 67.39 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 52 | Beam 1.0 | 66.44 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 53 | Qwen 3.8 27B | 64.85 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 54 | Qwen 3.8 Max | 64.7 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 55 | Gemini 3.6 Flash | 64.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 56 | GLM 5.2 | 63.96 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 57 | GPT 5.3 Codex | 61.77 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 58 | Mercury 3 | 60.93 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Codex | 1 | GPT 5.5 | 58.19 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 59 | Claude Opus 4.6 (Nonthinking) | 57.57 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Claude Code | 2 | Claude Sonnet 4.6 | 55.77 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 60 | GPT 5.2 | 53.5 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 60 | Claude Opus 4.6 (Thinking) | 53.5 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 62 | Claude Sonnet 4.6 | 51.48 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 63 | DeepSeek V4 | 49.93 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Cursor CLI | 1 | Composer 2.5 | 49.61 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 64 | Gemini 3.5 Flash | 48.68 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Codex | 2 | GPT 5.4 | 48.47 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 65 | GPT 5.4 Mini | 47.97 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 66 | Qwen 3.7 Max | 47.67 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 67 | MiniMax-M3 | 47.57 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 68 | Kimi K2.7 Code | 47.21 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 69 | Qwen 3.7 Plus | 46.39 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 70 | MiMo V2.5 | 42.17 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 71 | GPT 5.2 Codex | 37.91 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 72 | Kimi K2.6 | 37.89 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 73 | Gemini 3.5 Flash Lite | 37.16 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 74 | MiMo V2.5 Pro | 34.11 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 75 | Gemini 3.1 Pro Preview (02/26) | 32.03 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 76 | GLM 5.1 | 31.46 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 77 | GLM 5.3 Flash | 30.76 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 78 | GPT 5.4 Nano | 26.1 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 79 | Qwen 3.6 Plus | 25.57 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 80 | GPT 5.1 | 24.61 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 81 | GLM 5 | 23.36 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 82 | Claude Sonnet 4.5 (Thinking) | 22.62 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 83 | GPT 5.1 Codex Max | 22.17 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 84 | Claude Opus 4.5 (Thinking) | 20.63 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 85 | Gemini 3 Flash (12/25) | 20.2 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 86 | GPT 5 | 20.09 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 87 | Muse Spark | 19.67 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 88 | Grok 4.3 | 19.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 89 | Inkling | 19.21 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 90 | Inkling Small | 19.05 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 91 | Kimi K2.5 | 17.54 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 92 | Qwen 3.5 Plus | 15.74 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 93 | MiniMax-M2.5 | 14.85 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 94 | Gemini 3 Pro (11/25) | 14.3 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 95 | GPT 5 Mini | 14.17 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Grok Build | 1 | Grok Build 0.1 | 13.35 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 96 | GPT 5.1 Codex | 13.12 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 97 | Qwen 3.6 27B | 11.94 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 98 | MiniMax-M2.7 | 11.93 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 99 | Claude Haiku 4.5 (Thinking) | 11.39 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 100 | Laguna M.1 | 11.04 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 101 | Nemotron 3 Ultra | 7.64 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / Devin CLI | 1 | SWE-1.6 Fast | 7.22 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 102 | Laguna XS.2 | 5.21 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 103 | DeepSeek V3.2 (Thinking) | 5.11 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 104 | Grok 4.20 (Reasoning) | 4.06 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 105 | Nemotron 3.5 Super VL | 3.71 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 106 | Mercury 2.5 | 3.68 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 107 | Qwen 3 Max | 3.51 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 108 | Ling 3.0 Flash Fin | 3.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 109 | GLM 4.6 | 3.09 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 110 | Ling 3.0 Flash | 2.91 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 111 | Mistral Medium 3.5 | 2.89 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 112 | Grok 4.1 Fast (Reasoning) | 1.2 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 113 | Gemini 2.5 Pro | 0.4 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 114 | Gemini 3.1 Flash Lite Preview | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 114 | Nemotron 3.5 Lightning | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 114 | Grok 4 Fast (Reasoning) | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+| Vals official site v1.1 / OpenHands | 114 | Mistral Small 4 | 0.0 | workflow accuracy (%) | v1.1 / canonical test set； | [2026-11-05 (webpage Updated)](https://www.vals.ai/benchmarks/vibe-code)；采集2026-11-08 |
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+### 榜单覆盖边界
+
+All 125 model × harness configurations on the official site are transcribed, and the full-leaderboard rank of the original table is kept; the rank on this page is recomputed on separate tracks by harness, and different scaffolds cannot be treated as the same base-model configuration. November 5 is the update time of the web page and is not presented as the exact date of the evaluation run; later task results, such as 33.98% on VCB 1–100, are not mixed in.
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
+
+## Contact
+
+### 官方公开邮箱
+
+- hung@vals.ai
+- langston@vals.ai
+- rayan@vals.ai
+
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-07)
+
+### 公开反馈渠道
+
+https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
+
+Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold) (accessed 2026-11-08)
+
+### 官方社交账号
+
+Unverified
+
+Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 联系方式/隐私原则
+
+Unverified
+
+Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Original files
+
+### 原始PDF
+
+https://arxiv.org/pdf/2603.04601
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### PDF SHA-256
+
+1933eb3da0f6f6b6905903c1c6952238d0347ec6c2f5526f02e5346cac0fbf5f
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### PDF bytes
+
+```json
+2556686
+```
+
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
+
+### Folder
+
+Unverified
+
+Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### Other documents
+
+- {"type": "Official methods or project page", "url": "https://www.vals.ai/benchmarks/vibe-code", "accessed": "2026-11-07"}
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+### 论文原件
+
+Unverified
+
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
+
+## Changelog
+
+Latest review
+Latest review
+
+Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)

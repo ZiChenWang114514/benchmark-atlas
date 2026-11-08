@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-06-06（；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2024-06-06（arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2406.04127",
@@ -453,7 +453,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（采集日，不是评测运行日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2406.04127",
@@ -1486,7 +1486,7 @@
         },
         {
           "model": "Jev（研究表2原标签）",
-          "score": 95.0,
+          "score": 95,
           "unit": "%",
           "metric": "accuracy（研究表2口径）",
           "scope": "2026-H2 Jev对比研究表2；不是基准官方实时榜或AA独立榜",
@@ -1629,11 +1629,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

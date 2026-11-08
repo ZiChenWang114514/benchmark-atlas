@@ -1,6 +1,6 @@
 # miniF2F
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2021-09-01（；arXiv首稿时间，不等于独立数据集首发）
+2021-09-01（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）
 
@@ -256,7 +256,6 @@ Lean3/Lean4、Mathlib版本、tactic集合、尝试数和PAB不同不可直接�
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2021-09-01；- **timezone**：；- - **version**：v2；- **submitted_at**：2022-02-28；- **timezone**：
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2608.28639v1；- **date**：2026-08-11；- **note**：Reward-Oracle MCTS 原始研究实际在 miniF2F 上比较三个证明模型及不同搜索预算；同时审计内核级证明有效性。
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）；[来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
@@ -283,7 +282,7 @@ Lean4移植与各证明器fork应标明源码commit；不能把所有fork的分�
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
 
@@ -377,7 +376,6 @@ https://github.com/openai/miniF2F
 
 [来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
-
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）；[来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -440,27 +438,6 @@ e4dcbd37330caffea6ebe2baa0f2f4cd3596d8a873c00f44ea2ce62ab0aaeea2
 > 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
-
-### 文件夹
-
-- **id**：1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- **chinese_intro_doc**：- **id**：1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug；- **webViewLink**： **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/minif2f.md
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## 变更记录
 

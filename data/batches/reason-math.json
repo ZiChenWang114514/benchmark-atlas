@@ -6,157 +6,87 @@
   "entries": [
     {
       "slug": "bbh",
-      "json_path": "data/benchmarks/bbh.json",
-      "md_path": "content/benchmarks/bbh.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "zebralogic",
-      "json_path": "data/benchmarks/zebralogic.json",
-      "md_path": "content/benchmarks/zebralogic.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 8
+      "drive_doc": {}
     },
     {
       "slug": "drop",
-      "json_path": "data/benchmarks/drop.json",
-      "md_path": "content/benchmarks/drop.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 11
+      "drive_doc": {}
     },
     {
       "slug": "hellaswag",
-      "json_path": "data/benchmarks/hellaswag.json",
-      "md_path": "content/benchmarks/hellaswag.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "winogrande",
-      "json_path": "data/benchmarks/winogrande.json",
-      "md_path": "content/benchmarks/winogrande.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 7
+      "drive_doc": {}
     },
     {
       "slug": "arc-challenge",
-      "json_path": "data/benchmarks/arc-challenge.json",
-      "md_path": "content/benchmarks/arc-challenge.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "hle",
-      "json_path": "data/benchmarks/hle.json",
-      "md_path": "content/benchmarks/hle.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 7
+      "drive_doc": {}
     },
     {
       "slug": "math",
-      "json_path": "data/benchmarks/math.json",
-      "md_path": "content/benchmarks/math.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 7
+      "drive_doc": {}
     },
     {
       "slug": "gsm8k",
-      "json_path": "data/benchmarks/gsm8k.json",
-      "md_path": "content/benchmarks/gsm8k.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 8
+      "drive_doc": {}
     },
     {
       "slug": "aime",
-      "json_path": "data/benchmarks/aime.json",
-      "md_path": "content/benchmarks/aime.md",
       "drive_folder": {},
       "drive_pdf": null,
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 17
+      "drive_doc": {}
     },
     {
       "slug": "mathqa",
-      "json_path": "data/benchmarks/mathqa.json",
-      "md_path": "content/benchmarks/mathqa.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "aqua-rat",
-      "json_path": "data/benchmarks/aqua-rat.json",
-      "md_path": "content/benchmarks/aqua-rat.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "frontiermath",
-      "json_path": "data/benchmarks/frontiermath.json",
-      "md_path": "content/benchmarks/frontiermath.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "minif2f",
-      "json_path": "data/benchmarks/minif2f.json",
-      "md_path": "content/benchmarks/minif2f.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {
-        "mimeType": "application/vnd.google-apps.document"
-      },
-      "todo_fields_count": 8
+      "drive_doc": {}
     }
   ],
   "unverified": [],
@@ -190,21 +120,11 @@
       "accessed": "2026-11-07"
     }
   ],
-  "todo_fields_count": 127,
   "known_exceptions": [
     "AIME无单一原始论文；官方PDF下载403，仅中文Doc，PDF待补。",
     "本批文件在独立交付目录；遵守代码技能未直接修改共享Git仓库；需父代理通过获准的集成路径合入。",
     "所有第三方/厂商行保留评测范围；没有核实实时官方数值的基准不伪造SOTA。"
   ],
-  "todo_count_method": "仅统计schema field包装对象中status=待核实的字段；不把同一字段内多次出现的待核实文字重复计数。",
-  "drive_verification": {
-    "native_docs": 14,
-    "original_paper_pdfs": 13,
-    "all_folders_listed_back": true,
-    "all_docs_read_back_complete": true,
-    "each_doc_sections": 11,
-    "proof_file": "drive-verification.json"
-  },
   "aime_pdf_exception": {
     "original_benchmark_paper": "不适用；AIME为竞赛系列",
     "official_aime_exam_or_policy_pdf": "尚未取得，待补",

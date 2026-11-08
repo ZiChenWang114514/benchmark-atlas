@@ -49,7 +49,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2020-02-03",
+        "paper_first_submission": "2020-02-03",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -465,15 +465,15 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2020-02-03"
+            "date": "2020-02-03"
           },
           {
             "version": "v2",
-            "date_kst": "2020-02-12"
+            "date": "2020-02-12"
           },
           {
             "version": "v3",
-            "date_kst": "2020-06-12"
+            "date": "2020-06-12"
           }
         ],
         "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
@@ -561,14 +561,14 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
         {
           "rank": null,
           "model": "Operational IFS",
-          "score": 154.0,
+          "score": 154,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -582,7 +582,7 @@
         {
           "rank": null,
           "model": "Operational IFS",
-          "score": 334.0,
+          "score": 334,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -624,7 +624,7 @@
         {
           "rank": null,
           "model": "Rasp and Thuerey 2020 (direct/continuous)",
-          "score": 268.0,
+          "score": 268,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -638,7 +638,7 @@
         {
           "rank": null,
           "model": "Rasp and Thuerey 2020 (direct/continuous)",
-          "score": 499.0,
+          "score": 499,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -680,7 +680,7 @@
         {
           "rank": null,
           "model": "IFS T63",
-          "score": 268.0,
+          "score": 268,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -694,7 +694,7 @@
         {
           "rank": null,
           "model": "IFS T63",
-          "score": 463.0,
+          "score": 463,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -736,7 +736,7 @@
         {
           "rank": null,
           "model": "Weyn et al. 2020 (iterative)",
-          "score": 373.0,
+          "score": 373,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -750,7 +750,7 @@
         {
           "rank": null,
           "model": "Weyn et al. 2020 (iterative)",
-          "score": 611.0,
+          "score": 611,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -792,7 +792,7 @@
         {
           "rank": null,
           "model": "Clare et al. 2021 (direct)",
-          "score": 375.0,
+          "score": 375,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -806,7 +806,7 @@
         {
           "rank": null,
           "model": "Clare et al. 2021 (direct)",
-          "score": 627.0,
+          "score": 627,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -848,7 +848,7 @@
         {
           "rank": null,
           "model": "IFS T42",
-          "score": 489.0,
+          "score": 489,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -862,7 +862,7 @@
         {
           "rank": null,
           "model": "IFS T42",
-          "score": 743.0,
+          "score": 743,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -904,7 +904,7 @@
         {
           "rank": null,
           "model": "Weekly climatology",
-          "score": 816.0,
+          "score": 816,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": null,
@@ -932,7 +932,7 @@
         {
           "rank": null,
           "model": "Persistence",
-          "score": 936.0,
+          "score": 936,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 3,
@@ -946,7 +946,7 @@
         {
           "rank": null,
           "model": "Persistence",
-          "score": 1033.0,
+          "score": 1033,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": 5,
@@ -988,7 +988,7 @@
         {
           "rank": null,
           "model": "Climatology",
-          "score": 1075.0,
+          "score": 1075,
           "unit": "m²/s²",
           "metric": "Z500 RMSE",
           "lead_time_days": null,
@@ -1066,7 +1066,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -1121,11 +1121,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

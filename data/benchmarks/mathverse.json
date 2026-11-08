@@ -491,11 +491,11 @@
           "revisions": [
             {
               "version": "v1",
-              "date_kst": "2024-03-22"
+              "date": "2024-03-22"
             },
             {
               "version": "v2",
-              "date_kst": "2024-08-18"
+              "date": "2024-08-18"
             }
           ],
           "continued_use_2026h2": [
@@ -504,8 +504,7 @@
               "date": "2026-10-22",
               "note": "MMVistaReason v2 §4.1及表2实际评测 MathVerse（mini设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
             }
-          ],
-          "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+          ]
         }
       },
       "sources": [
@@ -1484,11 +1483,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
@@ -1518,25 +1513,7 @@
       },
       {
         "date": "2026-11-08",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.paper_version",
-          "basic_info.version",
-          "construction.decontamination",
-          "data_format.languages",
-          "latest_status.checked_at",
-          "latest_status.derivatives",
-          "latest_status.latest_dataset_version",
-          "latest_status.paper_revision_history",
-          "latest_status.saturation",
-          "leaderboard.coverage_note",
-          "leaderboard.results",
-          "leaderboard.snapshot_date",
-          "organization.maintainer",
-          "organization.partners",
-          "original_files.pdf_bytes",
-          "original_files.sha256"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

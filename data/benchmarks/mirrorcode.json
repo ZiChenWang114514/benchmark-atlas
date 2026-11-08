@@ -45,7 +45,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-06-29（；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2026-06-29（arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2606.30182",
@@ -451,7 +451,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（采集日，不是评测运行日）",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
@@ -491,7 +491,7 @@
           "stderr": "0.0788",
           "run_id": "mirrorcode-ml-2l-claude-opus-5-5",
           "model_version": "claude-opus-5-5_high",
-          "run_started_at_kst": "2026-09-23",
+          "run_started_at": "2026-09-23",
           "task_version": "0.1.198",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -507,7 +507,7 @@
           "stderr": "0.0917",
           "run_id": "mirrorcode-ml-2l-claude-fable-5-1",
           "model_version": "claude-fable-5-1_high",
-          "run_started_at_kst": "2026-09-10",
+          "run_started_at": "2026-09-10",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -523,7 +523,7 @@
           "stderr": "0.10404092940368063",
           "run_id": "mirrorcode-ml-2l-claude-fable-5",
           "model_version": "claude-fable-5_high",
-          "run_started_at_kst": "2026-08-11",
+          "run_started_at": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -539,7 +539,7 @@
           "stderr": "0.1171381252539371",
           "run_id": "h7xMzFUTMGSGqUSKUpxkUW",
           "model_version": "gemini-4-argon_high",
-          "run_started_at_kst": "2026-10-14",
+          "run_started_at": "2026-10-14",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -555,7 +555,7 @@
           "stderr": "0.1186",
           "run_id": "mirrorcode-ml-2l-gpt-6-astra",
           "model_version": "gpt-6-astra_high",
-          "run_started_at_kst": "2026-08-31",
+          "run_started_at": "2026-08-31",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -571,7 +571,7 @@
           "stderr": "0.12157113738962926",
           "run_id": "eeq6feqZLzfjfVsx4aeAWL",
           "model_version": "gemini-3.7-flash_high",
-          "run_started_at_kst": "2026-10-22",
+          "run_started_at": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -587,7 +587,7 @@
           "stderr": "0.1101546131612538",
           "run_id": "Hoz4Uioui4GNZaLD6fiAvD",
           "model_version": "grok-4.6_xhigh",
-          "run_started_at_kst": "2026-10-22",
+          "run_started_at": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -603,7 +603,7 @@
           "stderr": "0.10723394129558436",
           "run_id": "fiqzdAtVJVP9wdMT2QFeUn",
           "model_version": "grok-4.5_high",
-          "run_started_at_kst": "2026-10-22",
+          "run_started_at": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -619,7 +619,7 @@
           "stderr": "0.09036473223803354",
           "run_id": "mirrorcode-ml-2l-claude-opus-4-7",
           "model_version": "claude-opus-4-7_high",
-          "run_started_at_kst": "2026-08-12",
+          "run_started_at": "2026-08-12",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -635,7 +635,7 @@
           "stderr": "0.09026709338484401",
           "run_id": "WQ4gVVhGBfWoRkRwUvNYgs",
           "model_version": "gpt-6-luna_max",
-          "run_started_at_kst": "2026-10-22",
+          "run_started_at": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -651,7 +651,7 @@
           "stderr": "0.09229582069908972",
           "run_id": "mirrorcode-ml-2l-gpt-5-6-sol",
           "model_version": "gpt-5.6-sol_high",
-          "run_started_at_kst": "2026-08-11",
+          "run_started_at": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -667,7 +667,7 @@
           "stderr": "0.0770945044100374",
           "run_id": "mirrorcode-ml-2l-gpt-5-4",
           "model_version": "gpt-5.4-2026-03-05_high",
-          "run_started_at_kst": "2026-08-11",
+          "run_started_at": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -683,7 +683,7 @@
           "stderr": "0.06042179781166438",
           "run_id": "mirrorcode-ml-2l-gpt-5-5",
           "model_version": "gpt-5.5_high",
-          "run_started_at_kst": "2026-08-11",
+          "run_started_at": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -699,7 +699,7 @@
           "stderr": "0.04561939004190448",
           "run_id": "mirrorcode-ml-2l-gemini-3-1-pro-preview",
           "model_version": "gemini-3.1-pro-preview_high",
-          "run_started_at_kst": "2026-08-11",
+          "run_started_at": "2026-08-11",
           "task_version": "待核实",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         },
@@ -715,7 +715,7 @@
           "stderr": "0.034375250520170986",
           "run_id": "Th39ihgvLFnsDGMed7Q55b",
           "model_version": "gpt-5-2025-08-07_high",
-          "run_started_at_kst": "2026-10-22",
+          "run_started_at": "2026-10-22",
           "task_version": "0.1.200",
           "protocol_note": "按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。"
         }

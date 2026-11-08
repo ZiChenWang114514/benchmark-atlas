@@ -1,6 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { currentLocale } from '../i18n';
+import { t } from '../i18n';
+import { localizeData, translateContent } from '../i18n/content';
+import { sectionBlurb, sectionLabel } from './sections';
 import { SECTIONS } from './chapters';
 import { countPending, sortDate, textValue, type Field, type Source } from './format';
 
@@ -14,8 +18,8 @@ export type IndexBenchmark = {
   summary: string;
   json: string;
   content: string;
-  drive_pdf?: { id?: string; webViewLink?: string } | string;
-  drive_intro?: { id?: string; webViewLink?: string; kind?: string };
+  drive_pdf?: { id?: string } | string;
+  drive_intro?: { id?: string; kind?: string };
   sources?: Source[];
   last_checked?: string;
   cited_2026h2?: boolean;
@@ -55,9 +59,9 @@ export type QualityReport = {
 };
 
 export type DriveManifest = {
-  root?: { webViewLink?: string };
-  constitution?: { webViewLink?: string };
-  master_sheet?: { webViewLink?: string };
+  root?: { id?: string };
+  constitution?: { id?: string };
+  master_sheet?: { id?: string };
 };
 
 export type BenchmarkFile = {
@@ -122,11 +126,21 @@ export function loadIndex(): IndexFile {
 }
 
 export function loadNews(): NewsItem[] {
+  const locale = currentLocale();
   const news = readJson<NewsItem[]>('data/news.json');
   return news
     .map((item, index) => ({ item, index }))
     .sort((a, b) => b.item.observed_date.localeCompare(a.item.observed_date) || a.index - b.index)
-    .map(({ item }) => item);
+    .map(({ item }) =>
+      locale === 'en'
+        ? {
+            ...item,
+            title: translateContent(item.title, locale),
+            body: translateContent(item.body, locale),
+            type: item.type ? translateContent(item.type, locale) : item.type,
+          }
+        : item,
+    );
 }
 
 export function loadDrive(): DriveManifest {
@@ -137,34 +151,54 @@ export function loadQuality(): QualityReport {
   return readJson<QualityReport>('data/quality-report.json');
 }
 
+const recordCache = new Map<string, RecordView[]>();
+
 export function loadRecords(): RecordView[] {
+  const locale = currentLocale();
+  const cached = recordCache.get(locale);
+  if (cached) return cached;
   const index = loadIndex();
-  return index.benchmarks.map((item, order) => {
-    const file = readJson<BenchmarkFile>(`data/benchmarks/${item.id}.json`);
+  const records = index.benchmarks.map((item, order) => {
+    const raw = readJson<BenchmarkFile>(`data/benchmarks/${item.id}.json`);
+    const file = localizeData(raw, locale);
     const subfields = file.basic_info.subfields?.value;
-    const tags = Array.isArray(subfields) ? subfields.filter((tag): tag is string => typeof tag === 'string') : item.tags;
+    const tags = Array.isArray(subfields)
+      ? subfields.filter((tag): tag is string => typeof tag === 'string')
+      : item.tags.map((tag) => translateContent(tag, locale));
+    const summary = translateContent(item.summary, locale);
+    const localized = {
+      ...item,
+      summary,
+      tags,
+      citation_note: item.citation_note ? translateContent(item.citation_note, locale) : item.citation_note,
+      cited_2026h2_evidence: item.cited_2026h2_evidence?.map((evidence) => ({
+        ...evidence,
+        note: evidence.note ? translateContent(evidence.note, locale) : evidence.note,
+      })),
+    };
     const search = [
       item.id,
       item.name,
-      item.section,
-      item.summary,
-      item.tags.join(' '),
+      sectionLabel(item.section, locale),
+      summary,
+      tags.join(' '),
       textValue(file.basic_info.full_name),
       textValue(file.basic_info.paper_title),
       textValue(file.design_goals.capabilities),
-      tags.join(' '),
     ]
       .join(' ')
       .toLowerCase();
     return {
-      index: item,
+      index: localized,
       file,
-      pending: countPending(file),
+      pending: countPending(raw),
       order,
       search,
       date: sortDate(textValue(file.basic_info.release_date)),
     };
   });
+  recordCache.set(locale, records);
+  return records;
 }
 
 export function benchmarksMentioned(text: string, items: IndexBenchmark[]): IndexBenchmark[] {
@@ -189,11 +223,11 @@ export function sectionGroups(records: RecordView[]): { groups: SectionGroup[]; 
   const groups: SectionGroup[] = [];
   for (const section of SECTIONS) {
     const items = bySection.get(section.id);
-    if (items?.length) groups.push({ id: section.id, blurb: section.blurb, items });
+    if (items?.length) groups.push({ id: section.id, blurb: sectionBlurb(section.id, currentLocale()) || section.blurb, items });
   }
   for (const [id, items] of bySection) {
     if (groups.some((group) => group.id === id)) continue;
-    groups.push({ id, blurb: '新增板块', items });
+    groups.push({ id, blurb: t(currentLocale(), 'section.new'), items });
   }
   const reserved = SECTIONS.filter((section) => !bySection.get(section.id)?.length).map((section) => section.id);
   return { groups, reserved };
@@ -204,7 +238,8 @@ export function allTags(records: RecordView[]): string[] {
   for (const record of records) {
     for (const tag of record.index.tags ?? []) tags.add(tag);
   }
-  return [...tags].sort((a, b) => a.localeCompare(b, 'zh'));
+  const locale = currentLocale() === 'zh' ? 'zh' : 'en';
+  return [...tags].sort((a, b) => a.localeCompare(b, locale));
 }
 
 export type TrendingEvidence = {
@@ -235,10 +270,26 @@ export type TrendingFile = {
 export type TrendingView = TrendingItem & { linked: boolean };
 
 export function loadTrending(): TrendingFile {
+  const locale = currentLocale();
   const file = readJson<TrendingFile>('data/trending.json');
+  const items = [...(file.items ?? [])]
+    .map((item) =>
+      locale === 'en'
+        ? {
+            ...item,
+            rationale: translateContent(item.rationale, locale),
+            evidence: item.evidence.map((entry) => ({
+              ...entry,
+              what: entry.what ? translateContent(entry.what, locale) : entry.what,
+            })),
+          }
+        : item,
+    )
+    .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, locale === 'zh' ? 'zh' : 'en'));
   return {
     ...file,
-    items: [...(file.items ?? [])].sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, 'zh')),
+    note: file.note ? translateContent(file.note, locale) : file.note,
+    items,
   };
 }
 
@@ -252,7 +303,10 @@ export function trendingFor(id: string): TrendingView | undefined {
 }
 
 export function newsWhen(item: NewsItem): string {
-  const observed = `观察 ${item.observed_date}`;
-  if (!item.event_date || item.event_date === '待核实') return `${observed} · 事件日期待核实`;
-  return `${observed} · 事件 ${item.event_date}`;
+  const locale = currentLocale();
+  const observed = t(locale, 'news.observed', { date: item.observed_date });
+  if (!item.event_date || item.event_date === '待核实' || item.event_date === 'Unverified') {
+    return `${observed}, ${t(locale, 'news.event_unverified')}`;
+  }
+  return `${observed}, ${t(locale, 'news.event', { date: item.event_date })}`;
 }

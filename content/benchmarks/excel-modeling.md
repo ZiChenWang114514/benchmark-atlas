@@ -1,6 +1,6 @@
 # Excel Modeling Benchmark v1.1
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution， 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 EMB评估的是能在真实Excel中重算、联动并切换情景的金融工作簿，而非单独回答某个财务数字。Template和Scratch对同一专家任务施加不同交付约束；榜单的部分信用得分反映完成程度，不等于可交付率。
 
@@ -14,20 +14,17 @@ Excel Modeling Benchmark v1.1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 全称
 
 Excel Modeling Benchmark
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 基准版本
 
 v1.1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 论文版本
 
@@ -39,7 +36,6 @@ v1.1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 发布日期
 
 待核实
@@ -50,7 +46,6 @@ v1.1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 主板块
 
 Agent
@@ -59,14 +54,12 @@ Agent
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 领域标签
 
 - 金融
 - 表格
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 许可与范围
 
@@ -75,7 +68,6 @@ Agent
 说明：许可证范围按页面声明记录；未将页面元数据外推为全部隐藏文件的再分发授权。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 论文
 
@@ -87,7 +79,6 @@ Agent
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 代码
 
 待核实
@@ -98,7 +89,6 @@ Agent
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 数据入口
 
 https://www.vals.ai/benchmarks/emb-v1-1#dataset
@@ -107,13 +97,11 @@ https://www.vals.ai/benchmarks/emb-v1-1#dataset
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 官方主页
 
 https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 论文标题
 
@@ -125,7 +113,6 @@ https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ## 发起与维护
 
 ### 发起/作者单位
@@ -133,7 +120,6 @@ https://www.vals.ai/benchmarks/emb-v1-1
 Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 合作与支持
 
@@ -145,7 +131,6 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 作者
 
 待核实
@@ -156,13 +141,11 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 维护方
 
 Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 资助
 
@@ -174,7 +157,6 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ## 设计目标
 
 ### 衡量能力
@@ -183,13 +165,11 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 设计背景
 
 简单问答或表格单元操作不能覆盖多标签、多场景切换与长链财务计算的一致性。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 构建方式
 
@@ -199,13 +179,11 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 出题者背景
 
 财务领域专家；致谢Andrew Schettino及任务作者/同行评审者。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 审核流程
 
@@ -213,20 +191,17 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 质量控制
 
 每题由金融专家先做Gold参考模型，再剥离数值和公式得到Template；题目、Gold与rubric同行评阅。提交后真实Excel引擎重算，部分任务跨Base/Bull/Bear等场景切换检查。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 污染控制
 
 51道私有held-out Test专用于本页排行榜，以减少过拟合；另有1题公开与51题可许可Validation。私有不等同已证明训练集完全无污染。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 数据形式
 
@@ -236,13 +211,11 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 任务形式
 
 给业务要求与源文件；填模板或从零构造Excel工作簿。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 模态
 
@@ -253,7 +226,6 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 语言
 
 已读取的官方Sample task与业务说明为英语；全套103题的完整语言分布待核实
@@ -262,20 +234,17 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 难度与分层
 
 官方预期专家从零完成每个模型至少5小时工作量；不是agent运行时限。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 公开与隐藏划分
 
 公开1题、可许可访问私有验证51题、隐藏Test 51题；榜单只用Test。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 评测方法
 
@@ -285,20 +254,17 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 评分
 
 先由真实Microsoft Excel引擎重算；Template按计分单元值匹配，Scratch按数值/公式/呈现rubric部分给分；先类别内平均，七类别等权。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 提示与运行协议
 
 共享harness，bash读写、execute用Excel重算验证，submit交付；每次最多3.5小时。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 评测脚本
 
@@ -310,13 +276,11 @@ Vals AI
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 可比性警示
 
 v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.0比。高部分得分不代表客户可直接使用。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 最新情况
 
@@ -326,19 +290,17 @@ v1.1更换Scratch裁判为GPT-6 Luna并修复sheet名匹配；不可直接与v1.
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 版本与采用证据
 
 - **version**：v1.1
 - **evidence_2026_h2**：- - **url**：https://www.vals.ai/benchmarks/emb-v1-1
-    - **date**：2026-11-05
-    - **date_type**：source_calendar_date
-    - **note**：Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。
+ - **date**：2026-11-05
+ - **date_type**：source_calendar_date
+ - **note**：Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。
 
 说明：热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 材料沿革
 
@@ -346,13 +308,11 @@ v1.1将Scratch裁判从GPT 5.4 Mini替换为GPT-6 Luna，并小修Template sheet
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 饱和情况
 
 当前榜首76.73%是七类别等权的部分得分，未满分；官方明确高分仍可能是未完成工作，不能当作客户可用率。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 污染与局限
 
@@ -360,13 +320,11 @@ v1.1将Scratch裁判从GPT 5.4 Mini替换为GPT-6 Luna，并小修Template sheet
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 版本/衍生关系
 
 EMB v1.0是归档旧版；v1.1调整裁判和匹配。Template与Scratch是同题两种模式，七个任务家族不是七套独立benchmark。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 榜单快照
 
@@ -376,13 +334,11 @@ EMB v1.0是归档旧版；v1.1调整裁判和匹配。Template与Scratch是同�
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 官方榜
 
 https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 其他评测入口
 
@@ -392,38 +348,37 @@ https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 分轨结果（结构化快照）
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "Claude Fable 5.1"
-    "score": 76.73
-    "metric": "Accuracy (%)"
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
-    "accessed": "2026-11-07"
-    "source_date": "2026-11-05"
-  }
-  {
-    "rank": 2
-    "model": "Gemini 4 Carbon"
-    "score": 76.47
-    "metric": "Accuracy (%)"
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
-    "accessed": "2026-11-07"
-    "source_date": "2026-11-05"
-  }
-  {
-    "rank": 3
-    "model": "Claude Sonnet 5.5"
-    "score": 75.9
-    "metric": "Accuracy (%)"
-    "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
-    "accessed": "2026-11-07"
-    "source_date": "2026-11-05"
-  }
+ {
+ "rank": 1
+ "model": "Claude Fable 5.1"
+ "score": 76.73
+ "metric": "Accuracy (%)"
+ "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+ "accessed": "2026-11-07"
+ "source_date": "2026-11-05"
+ }
+ {
+ "rank": 2
+ "model": "Gemini 4 Carbon"
+ "score": 76.47
+ "metric": "Accuracy (%)"
+ "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+ "accessed": "2026-11-07"
+ "source_date": "2026-11-05"
+ }
+ {
+ "rank": 3
+ "model": "Claude Sonnet 5.5"
+ "score": 75.9
+ "metric": "Accuracy (%)"
+ "source_url": "https://www.vals.ai/benchmarks/emb-v1-1"
+ "accessed": "2026-11-07"
+ "source_date": "2026-11-05"
+ }
 ]
 ```
 
@@ -435,7 +390,6 @@ https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ## 联系方式
 
 ### 公开研究邮箱
@@ -445,7 +399,6 @@ https://www.vals.ai/benchmarks/emb-v1-1
 说明：Vals AI机构公开联络地址；非专用EMB作者邮箱。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
-
 
 ### 问题反馈
 
@@ -457,13 +410,11 @@ https://www.vals.ai/benchmarks/emb-v1-1
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 机构公开渠道
 
 https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 隐私政策
 
@@ -474,7 +425,6 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ## 原始文件
 
@@ -488,7 +438,6 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 源站PDF SHA-256
 
 待核实
@@ -498,7 +447,6 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 说明：已查所列官方材料，尚未完成本字段精确核验；不等于官方未公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### 源站PDF字节数
 
@@ -510,7 +458,6 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 资料目录
 
 待核实
@@ -521,18 +468,16 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
 
-
 ### 其他官方资料
 
 - - **type**：官方方法或项目页
-  - **url**：https://www.vals.ai/benchmarks/emb-v1-1
-  - **accessed**：2026-11-07
+ - **url**：https://www.vals.ai/benchmarks/emb-v1-1
+ - **accessed**：2026-11-07
 - - **type**：核验的官方原始资料
-  - **url**：https://www.vals.ai/benchmarks/emb-v1-1
-  - **accessed**：2026-11-07
+ - **url**：https://www.vals.ai/benchmarks/emb-v1-1
+ - **accessed**：2026-11-07
 
 [一手资料1](https://www.vals.ai/benchmarks/emb-v1-1)（访问 2026-11-07）
-
 
 ### PDF归档
 
@@ -543,8 +488,7 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**： (UTC+8)
-  - **change**：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+ - **timezone**：
+ - **change**：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。
+ - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

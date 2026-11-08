@@ -1,0 +1,544 @@
+# OpenAI MRCR / MRCR v2
+
+> Verification date: 2026-11-08. Unknowns are not filled in; the date on which the source was accessed is not the experiment run date.
+
+OpenAI MRCR tests identification of order, and reproduction, of multiple writing replies of the same kind in a long conversation. The public HF version has 2/4/8-needle configurations. The score is a SequenceMatcher match rate with a random-prefix threshold, not a strict verbatim accuracy that requires every character to match. The "v2" in vendor release notes has not yet been mapped to a public HF commit. This page does not treat the two as a confirmed identical data version. The Michelangelo paper, which inspired it, is also not presented as OpenAI's independent benchmark paper.
+[Reading basis for this page](https://huggingface.co/datasets/openai/mrcr) (accessed 2026-11-08)
+
+[Supplementary reading basis](https://openai.com/index/gpt-6-astra/) (accessed 2026-11-08)
+
+## Basic information
+
+### Short name
+
+OpenAI MRCR / MRCR v2
+
+[来源1](https://huggingface.co/datasets/openai/mrcr/raw/main/README.md)（访问 2026-11-07）
+
+### Full name
+
+OpenAI MRCR (Multi-round co-reference resolution)
+
+[来源1](https://huggingface.co/datasets/openai/mrcr/raw/main/README.md)（访问 2026-11-07）
+
+### 数据/基准版本
+
+The model release post is labeled v2; the exact mapping to the public HF data revision is Unverified.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr/raw/main/README.md)（访问 2026-11-07）
+
+### Paper version
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Release date
+
+The public HF repository was created at 2025-04-12 08:55:25. The data card writes 4/12/2025 initial publication. The public first edition and the vendor's first release of MRCR v2 are not the same fact. The date of the v2 first release is Unverified.
+
+> 状态：待核实。
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Section
+
+Language
+
+> Filed under one main section. That filing does not limit coverage of other disciplines.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Subfields
+
+长上下文；多轮检索
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 许可边界
+
+MIT (HF public dataset card)
+
+[来源1](https://huggingface.co/datasets/openai/mrcr/raw/main/README.md)（访问 2026-11-07）
+
+### 论文入口
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 代码入口
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Dataset
+
+https://huggingface.co/datasets/openai/mrcr
+
+[来源1](https://huggingface.co/datasets/openai/mrcr/raw/main/README.md)（访问 2026-11-07）
+
+### Official homepage
+
+https://huggingface.co/datasets/openai/mrcr
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Paper title
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Origin and maintenance
+
+### Initiators
+
+OpenAI
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Partner organizations
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Authors
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Current maintainer
+
+OpenAI
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Funders
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Design goals
+
+### Abilities measured
+
+Distinguish similar requests in a long multi-turn dialogue, find the reply in the specified order, and reproduce it.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 设计动机
+
+The needle and the distractor come from the same distribution, and topic, format, and order must be identified together.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Construction
+
+### Question sources
+
+Synthetic multi-turn dialogues, with replies generated by gpt4o and with 2, 4, or 8 identical requests inserted.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 出题/构建者背景
+
+The official description says that the synthetic assistant content is generated by gpt4o, and that the topics involve 438 entities and 10 writing formats; this is a programmatic synthesis task, not a question-and-answer set written by hand by experts.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Review process
+
+The data card acknowledges generation errors: historical samples contained too many target needles, and reference answers were wrong; the corresponding samples were later replaced, and date_added was added to track the revisions; no broader protocol for human review is provided.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Quality control
+
+The data card records a fix for a generation bug: about 10% of targets had too many needles, and about 5% of the ground truth was wrong; a historical error rate cannot be treated as still present.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 去污染/泄漏控制
+
+The public data may have been encountered in training; additional anti-contamination measures in v2 have not been verified.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Data format
+
+### 精确规模与统计口径
+
+The public dataset card shows 2400 rows; 438 entities, 10 writing formats, and 100 samples per bin. The size of the v2 private set is not asserted from this.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Question types
+
+Retrieve in order and reproduce a specified written reply, preceded by a random string.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Modalities
+
+Text
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 语言/代码语种
+
+The task description and the examples on the dataset card are in English; coverage of other languages is Unverified.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 难度结构
+
+2/4/8 needles; 8 length bins by prompt+answer tokens from 4K to 1M.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Public and hidden splits
+
+Public data on HF; the exact revision and split used by the v2 model card are Unverified.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Evaluation
+
+### Metrics
+
+difflib.SequenceMatcher ratio, not strict exact-match accuracy.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 评分规则
+
+An incorrect random-string prefix scores 0; after the prefix is removed, the match rate between the generation and the standard answer is compared.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 运行与提示设置
+
+The official card provides o200k_base length counts and run examples; the release post reports 8-needle, 256K–512K, and 512K–1M.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Official evaluation scripts
+
+The HF dataset card contains run and grade examples.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 可比性警示
+
+Different needle counts, length windows, data revisions, or match rate and accuracy cannot be compared together; the v2 label is not mapped to a public revision.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Current status
+
+### Date checked
+
+2026-11-08
+
+> Access date of the source site for this visit; not the leaderboard run date.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 最新数据状态与使用证据
+
+```json
+{
+ "version": "A label from the v2 release note; the exact revision of the public data is Unverified"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "OpenAI's current release table uses MRCR v2; the heat comes mainly from the single organization OpenAI, so it cannot be called widespread industry adoption."
+ }
+ ]
+ "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "revision_mapping": "The correspondence between vendor v2 and this public commit is Unverified"
+}
+```
+
+> 状态：待核实。
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
+### 论文/数据修订历史
+
+```json
+{
+ "scope": "Public HF data from OpenAI; not equivalent to a mapping of the vendor's internal v2"
+ "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "last_modified": "2025-12-09"
+ "card_dates_verbatim": [
+ "4/12/2025: Initial dataset published"
+ "12/5/2025: Bugfix"
+ ]
+ "date_caveat": "Numeric dates on the dataset card may be ambiguous between US and other notations; the original text is retained, explicit ISO metadata from HF is listed separately, and it is not forced to replace the meaning of a revision."
+ "predecessor_paper": {
+ "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
+ "scope": "The original Google/DeepMind source of the idea for MRCR, not an independent paper for OpenAI MRCR v2"
+ }
+}
+```
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）
+
+### 饱和性证据
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 污染与已知争议
+
+In the history of the public version, about 10% of samples had too many needles and about 5% had an incorrect ground truth. The official account says these were replaced and that date_added was added; the proportions refer to past bugs, not to the residual error rate now. The v2 release note does not state an explicit mapping to a public HF commit; order recognition caused by repeated similar requests, and filtering by the longest token, both affect comparison.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
+### 衍生与条目关系
+
+The OpenAI data card states explicitly that the work was inspired by MRCR in the Michelangelo paper and that the difficulty was expanded. The 2-needle, 4-needle, and 8-needle settings are configurations of the same benchmark and are not counted as three benchmarks. A vendor v2 score cannot be written back as a result of that Google paper.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）
+
+## Leaderboard snapshot
+
+### 本次榜单采集日
+
+2026-11-08
+
+[来源1](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
+### 官方榜源
+
+https://openai.com/index/gpt-6-astra/
+
+[来源1](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
+### 第三方覆盖
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 分源、分版本、分协议成绩
+
+以下仅在各自赛道内展示；厂商自报、研究复测与创建者榜不视作相同的独立评测。没有明确运行日时只列采集日；“—”不是补造名次。
+
+#### OpenAI release post / MRCR v2 / 8-needle / 256K–512K
+
+| Order in source | Model and configuration | Score | Metric | Source record / run time | Source (collection date) |
+|---|---|---|---|---|---|
+| 1 | GPT-6 Astra | 100.0 % | MRCR v2 release-table score (8-needle) | 未逐项给出 | [原始来源](https://openai.com/index/gpt-6-astra/)（2026-11-08） |
+| 2 | GPT-5.6 Sol | 91.5 % | MRCR v2 release-table score (8-needle) | 未逐项给出 | [原始来源](https://openai.com/index/gpt-6-astra/)（2026-11-08） |
+
+- Vendor research environment/API; each entry takes the maximum-effort result; the two windows are not averaged.
+
+- Vendor self-reported comparison table; not an independent live overall leaderboard
+
+#### OpenAI release post / MRCR v2 / 8-needle / 512K–1M
+
+| Order in source | Model and configuration | Score | Metric | Source record / run time | Source (collection date) |
+|---|---|---|---|---|---|
+| 1 | GPT-6 Astra | 96.3 % | MRCR v2 release-table score (8-needle) | 未逐项给出 | [原始来源](https://openai.com/index/gpt-6-astra/)（2026-11-08） |
+| 2 | GPT-5.6 Sol | 73.8 % | MRCR v2 release-table score (8-needle) | 未逐项给出 | [原始来源](https://openai.com/index/gpt-6-astra/)（2026-11-08） |
+
+- Vendor research environment/API; each entry takes the maximum-effort result; the two windows are not averaged.
+
+- Vendor self-reported comparison table; not an independent live overall leaderboard
+
+[来源1](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+
+### 覆盖范围与限制
+
+The two length windows that previously stood in one string are split into 4 structured scores, and each window is ranked on its own. The scope stated by the vendor is kept. A match rate is not treated as a strict exact-match, and it is not inferred which commit of HF v2 uses. An exact day of the run is not given. The day of access and the day of the run are kept apart.
+
+[来源1](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Contact
+
+### 公开研究邮箱
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 项目反馈入口
+
+https://huggingface.co/datasets/openai/mrcr/discussions (the official HF community feedback entry point, not an independent GitHub repository that has already been verified)
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 官方公开社交入口
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### 公开渠道/隐私边界
+
+Only public official research entry points are recorded; placeholder names, addresses, emails, and other private contact information in examples are not collected.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+## Original files
+
+### 源站PDF
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### PDF SHA-256
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### PDF bytes
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+
+### Folder
+
+Unverified
+
+> 状态：待核实。
+
+> Still not precisely verified after the listed materials were opened; this does not mean the official source has not made it public.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-07）
+
+### 其他官方文档
+
+```json
+[
+ {
+ "type": "The official HF dataset card and inline run and grade examples"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Public HF commit metadata"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "The paper that preceded MRCR, not the OpenAI v2 paper"
+ "url": "https://arxiv.org/pdf/2409.12640v2"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Vendor v2 usage evidence"
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "accessed": "2026-11-08"
+ }
+]
+```
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）；[来源5](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）
+
+### 原始PDF
+
+Unverified
+
+> 状态：待核实。
+
+> This group is local research only and was not uploaded.
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-07）
+
+## Changelog
+
+### Changelog
+
+```json
+[
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
+]
+```
+
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）

@@ -234,7 +234,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "authors": {
       "value": [
@@ -575,14 +575,14 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_revisions_kst": [
+        "arxiv_revisions": [
           {
             "version": "v1",
-            "submitted_at_kst": "2024-04-02"
+            "submitted_at": "2024-04-02"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2024-11-01"
+            "submitted_at": "2024-11-01"
           }
         ]
       },
@@ -673,7 +673,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "results": {
       "value": [
@@ -689,7 +689,7 @@
           "model_id": "claude-opus-4-7-tinyeval",
           "verified": true,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": "2026-04-16",
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -706,7 +706,7 @@
           "model_id": "claude-opus-4-8-tinyeval",
           "verified": true,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": "2026-05-28",
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -723,7 +723,7 @@
           "model_id": "kimi-k2-5-tinyeval",
           "verified": true,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": "2026-01-27",
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -740,7 +740,7 @@
           "model_id": "NexusSciAgent-base-1767146262",
           "verified": false,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": null,
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -757,7 +757,7 @@
           "model_id": "NexusSciAgent_DeepSeek-base-1767172310",
           "verified": false,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": null,
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -774,7 +774,7 @@
           "model_id": "deepseek-chat1-base-1762475946",
           "verified": false,
           "uses_harness": false,
-          "temperature": 0.0,
+          "temperature": 0,
           "model_release_date": null,
           "evaluation_date": "待核实",
           "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
@@ -843,7 +843,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。"
+      "note": "该字段尚未完成精确核验，不表示官方未公开。"
     },
     "privacy_policy": {
       "value": "只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。",
@@ -898,11 +898,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍 Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
