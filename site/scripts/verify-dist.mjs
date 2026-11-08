@@ -17,9 +17,18 @@ function read(path) {
   return readFileSync(full, 'utf8');
 }
 
+function readData(path) {
+  const full = join(repoRoot, path);
+  if (!existsSync(full)) {
+    fail(`缺少 ${path}`);
+    return '';
+  }
+  return readFileSync(full, 'utf8');
+}
+
 const home = read('index.html');
 const constitution = read('constitution/index.html');
-const index = JSON.parse(read('api/index.json') || '{}');
+const index = JSON.parse(readData('data/index.json') || '{}');
 const boilerplate = '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。';
 const chapters = ['基本信息', '发起与维护', '设计目标', '构建方式', '数据形式', '评测方法', '最新情况', '榜单快照', '联系方式', '原始文件', '变更记录'];
 
@@ -65,12 +74,12 @@ for (const item of index.benchmarks ?? []) {
   if (detail.includes('[object Object]')) fail(`${item.id} 出现了未格式化的对象`);
   const copies = detail.split(boilerplate).length - 1;
   if (copies !== 1) fail(`${item.id} 的待核实说明出现 ${copies} 次`);
-  const json = read(join('api/benchmarks', `${item.id}.json`));
+  const json = readData(join('data/benchmarks', `${item.id}.json`));
   if (json && !detail.includes(item.name)) fail(`${item.id} 详情页缺少名称`);
 }
 
 const gpqa = read('benchmarks/gpqa/index.html');
-const gpqaJson = JSON.parse(read('api/benchmarks/gpqa.json') || '{}');
+const gpqaJson = JSON.parse(readData('data/benchmarks/gpqa.json') || '{}');
 const model = gpqaJson.leaderboard?.results?.value?.[0]?.model;
 if (model && !gpqa.includes(model)) fail('GPQA 榜单没有渲染首行模型');
 if (!gpqa.includes('<table')) fail('GPQA 榜单没有表格');
@@ -87,18 +96,11 @@ if (!read('benchmarks/matbench-discovery/index.html').includes('名次')) fail('
 
 if (!constitution.includes('真实性原则')) fail('宪法页缺少真实性原则');
 if (!constitution.includes('第八章')) fail('宪法页缺少第八章');
-if (read('api/constitution.md') !== readFileSync(join(repoRoot, 'CONSTITUTION.md'), 'utf8')) {
-  fail('发布的宪法原文与仓库不一致');
-}
-
-const catalog = JSON.parse(read('api/catalog.json') || '{"resources":[]}');
-for (const resource of catalog.resources ?? []) {
-  if (!existsSync(join(dist, 'api', resource.path))) fail(`catalog 指向缺失文件 ${resource.path}`);
-}
-const published = readdirSync(join(dist, 'api/benchmarks')).filter((name) => name.endsWith('.json'));
-if (published.length !== index.benchmarks.length) fail(`公开 JSON 数量 ${published.length} 与索引不一致`);
-if (!existsSync(join(dist, 'api/schema/benchmark.schema.json'))) fail('缺少 schema');
-if (!existsSync(join(dist, 'api/news.json'))) fail('缺少 news.json');
+const published = readdirSync(join(repoRoot, 'data/benchmarks')).filter((name) => name.endsWith('.json'));
+if (published.length !== index.benchmarks.length) fail(`档案 JSON 数量 ${published.length} 与索引不一致`);
+if (!existsSync(join(repoRoot, 'schema/benchmark.schema.json'))) fail('缺少 schema');
+if (!existsSync(join(repoRoot, 'data/news.json'))) fail('缺少 news.json');
+if (existsSync(join(dist, 'api'))) fail('构建结果仍包含 api 目录');
 if (!existsSync(join(dist, '404.html'))) fail('缺少 404 页');
 const trendingPage = read('trending/index.html');
 if (!trendingPage) fail('缺少近期热门页');
@@ -106,8 +108,8 @@ if (trendingPage && !trendingPage.includes('Terminal-Bench-Science')) fail('热�
 if (trendingPage && trendingPage.includes('[object Object]')) fail('热门页出现了未格式化的对象');
 if (home.includes('[object Object]')) fail('首页出现了未格式化的对象');
 if (!home.includes('🔥 近期热门')) fail('首页卡片没有近期热门徽章');
-const trendingJson = JSON.parse(read('api/trending.json') || '{}');
-if (!Array.isArray(trendingJson.items) || trendingJson.items.length < 1) fail('api/trending.json 没有条目');
+const trendingJson = JSON.parse(readData('data/trending.json') || '{}');
+if (!Array.isArray(trendingJson.items) || trendingJson.items.length < 1) fail('data/trending.json 没有条目');
 if (existsSync(join(dist, 'benchmarks/terminal-bench-science/index.html'))) {
   if (!trendingPage.includes('/benchmark-constitution/benchmarks/terminal-bench-science/')) {
     fail('Terminal-Bench-Science 已有档案，热门页却没有链过去');
@@ -117,7 +119,7 @@ if (existsSync(join(dist, 'benchmarks/terminal-bench-science/index.html'))) {
   if (!hotDetail.includes('🔥 近期热门')) fail('详情页缺少热门徽章');
 }
 
-const news = JSON.parse(read('api/news.json') || '[]');
+const news = JSON.parse(readData('data/news.json') || '[]');
 for (const item of news) {
   if (!home.includes(item.title)) fail(`首页缺少动态：${item.title}`);
 }
@@ -170,7 +172,7 @@ function walkHtml(dir) {
   }
 }
 walkHtml(dist);
-if (!existsSync(join(dist, 'api/trending.json'))) fail('缺少 api/trending.json');
+if (!existsSync(join(repoRoot, 'data/trending.json'))) fail('缺少 data/trending.json');
 if (!home.includes('/benchmark-constitution/frontier-heat/')) fail('首页没有链到业界热度榜');
 if (!home.includes('/benchmark-constitution/impact/')) fail('首页没有链到学术影响力榜');
 if (!home.includes('/benchmark-constitution/registry/')) fail('首页没有链到名录');
@@ -180,4 +182,4 @@ if (errors.length) {
   for (const error of errors) console.error(` - ${error}`);
   process.exit(1);
 }
-console.log(`站点校验通过：${index.benchmarks.length} 条档案，${news.length} 条动态，${catalog.resources.length} 个接口文件。`);
+console.log(`站点校验通过：${index.benchmarks.length} 条档案，${news.length} 条动态。`);

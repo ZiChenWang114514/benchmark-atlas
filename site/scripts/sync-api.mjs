@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync, rmSync, statSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -117,63 +117,17 @@ if (!existsSync(trendingPath)) {
 }
 if (errors.length) fail(errors);
 
-rmSync(outDir, { recursive: true, force: true });
-mkdirSync(join(outDir, 'benchmarks'), { recursive: true });
-mkdirSync(join(outDir, 'content'), { recursive: true });
-mkdirSync(join(outDir, 'schema'), { recursive: true });
-
-const resources = [];
-function publish(from, to, description, group, page) {
-  const target = join(outDir, to);
-  mkdirSync(dirname(target), { recursive: true });
-  writeFileSync(target, readFileSync(from));
-  resources.push({
-    path: to,
-    description,
-    bytes: statSync(join(outDir, to)).size,
-    group,
-    ...(page ? { page } : {}),
-  });
-}
-
-publish(join(repoRoot, 'data/index.json'), 'index.json', '导航索引：名称、主板块、标签、摘要和来源。', 'overview');
-publish(join(repoRoot, 'data/news.json'), 'news.json', '最新动态。观察日和事件日分开。', 'overview');
-publish(join(repoRoot, 'data/trending.json'), 'trending.json', '近期热门。heat_confidence 为 A 或 B；没有对应档案的 slug 不会因此构建失败。', 'overview');
-publish(join(repoRoot, 'data/master-index.csv'), 'master-index.csv', '总表，可供表格软件导入。', 'overview');
-publish(join(repoRoot, 'CONSTITUTION.md'), 'constitution.md', '《收集宪法》原文。', 'overview');
-publish(join(repoRoot, 'schema/benchmark.schema.json'), 'schema/benchmark.schema.json', '单条基准 JSON 的字段契约。', 'overview');
-
-for (const item of index.benchmarks) {
-  publish(
-    join(repoRoot, 'data/benchmarks', `${item.id}.json`),
-    `benchmarks/${item.id}.json`,
-    `${item.name} 的完整记录。事实字段为 value、sources，可选 status 与 note。`,
-    'records',
-    `benchmarks/${item.id}`,
-  );
-}
-for (const item of index.benchmarks) {
-  publish(
-    join(repoRoot, 'content/benchmarks', `${item.id}.md`),
-    `content/${item.id}.md`,
-    `${item.name} 的中文介绍原稿。`,
-    'content',
-  );
-}
-
-function publishIfPresent(relative, to, description, group, validate) {
+function checkPresent(relative, validate) {
   const from = join(repoRoot, relative);
   if (!existsSync(from)) {
     console.log(`跳过 ${relative}（尚未放入仓库）`);
     return;
   }
-  const data = readJson(from);
-  const problems = validate(data);
+  const problems = validate(readJson(from));
   if (problems.length) fail(problems);
-  publish(from, to, description, group);
 }
 
-publishIfPresent('data/frontier/heat.json', 'frontier/heat.json', '业界热度榜。最近 20 个前沿模型报告过的 benchmark。', 'overview', (data) => {
+checkPresent('data/frontier/heat.json', (data) => {
   const problems = [];
   if (!Array.isArray(data.ranking) || !Array.isArray(data.models)) problems.push('frontier/heat.json 需要 ranking 和 models 数组');
   for (const row of data.ranking ?? []) {
@@ -181,7 +135,7 @@ publishIfPresent('data/frontier/heat.json', 'frontier/heat.json', '业界热度�
   }
   return problems;
 });
-publishIfPresent('data/impact/index.json', 'impact/index.json', '学术影响力榜。综合分、维度和原始计数。', 'overview', (data) => {
+checkPresent('data/impact/index.json', (data) => {
   const problems = [];
   if (!Array.isArray(data.ranking) || !Array.isArray(data.dimensions)) problems.push('impact/index.json 需要 ranking 和 dimensions 数组');
   for (const dimension of data.dimensions ?? []) {
@@ -192,7 +146,7 @@ publishIfPresent('data/impact/index.json', 'impact/index.json', '学术影响力
   }
   return problems;
 });
-publishIfPresent('data/registry/registry.json', 'registry/registry.json', 'benchmark 名录。', 'overview', (data) => {
+checkPresent('data/registry/registry.json', (data) => {
   const problems = [];
   if (!Array.isArray(data.items)) problems.push('registry.json 需要 items 数组');
   for (const item of (data.items ?? []).slice(0, 20)) {
@@ -201,12 +155,5 @@ publishIfPresent('data/registry/registry.json', 'registry/registry.json', 'bench
   return problems;
 });
 
-const catalog = {
-  name: 'Benchmark Constitution',
-  read_only: true,
-  generated_at: index.generated_at ?? '',
-  timezone: index.timezone ?? '',
-  resources,
-};
-writeFileSync(join(outDir, 'catalog.json'), `${JSON.stringify(catalog, null, 2)}\n`);
-console.log(`已发布 ${resources.length} 个只读文件到 site/public/api`);
+rmSync(outDir, { recursive: true, force: true });
+console.log('数据校验通过；原始 JSON 不复制到公开站点。');
