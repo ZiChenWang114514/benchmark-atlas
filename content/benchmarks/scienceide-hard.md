@@ -34,7 +34,7 @@ v1；最近提交 2026-09-17
 
 ### 发布日期
 
-2026-09-17（；首个arXiv提交，不推定数据上线日）
+2026-09-17（首个arXiv提交，不推定数据上线日）
 
 来源：[1](https://arxiv.org/abs/2609.19134)（访问 2026-11-08，）
 
@@ -400,7 +400,7 @@ https://arxiv.org/pdf/2609.19134
 
 ### 其他文档
 
-- {"type": "中文介绍 Google Doc", "id": "1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo", "webViewLink": "https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit"}
+- {"type": "中文介绍", "id": "1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo", "webViewLink": "https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit"}
 
 来源：[1](https://docs.google.com/document/d/1aU1-Mpk_6kiKpPRV9nlUrXdHW1rYZ2134s98tTsnsvo/edit)（访问 2026-11-07，）
 

@@ -1,6 +1,6 @@
 # SWE-bench Multimodal
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核实存在；官方资料研究快照，未知保留待核实；trending: B
+> Benchmark Constitution，深度复核 2026-11-08。已核实存在；官方资料研究快照，未知保留待核实；trending: B
 
 SWE-bench Multimodal把视觉软件issue修复纳入仓库级agent评测，图像不只是装饰输入。官网2026年v2保留480可复现任务，但原论文、项目历史介绍和当前HF卡对旧题量仍存在多套数字。本档并列这些证据并提醒锁定revision，不能把HF main和480题协议自动视为完全一致。
 
@@ -504,7 +504,7 @@ https://arxiv.org/pdf/2410.03859
 [
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
   {

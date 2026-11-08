@@ -1,6 +1,6 @@
 # AstroBench
 
-> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
 逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2024-07-16 03:28:14（，UTC+8；原论文arXiv v1提交时刻）
+2024-07-16 03:28:14（，；原论文arXiv v1提交时刻）
 
 来源：[1]
 
@@ -251,7 +251,7 @@ HF名为train的split只公开题干与A/B/C/D选项，故意不含正确答案�
 
 ### 核查日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -289,7 +289,7 @@ HF组织还列Astrobench_MCQ_v1_Chinese_Public（中文公开版）；AstroSage�
 
 ### 采集日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -307,7 +307,7 @@ https://arxiv.org/pdf/2505.17592
 
 来源：[1][2][3]
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -323,11 +323,11 @@ https://arxiv.org/pdf/2505.17592
 | 3 | Claude 4.5 Opus | 89.0 | accuracy (%) |
 | 5 | Gemini 3.0 Pro | 88.9 | accuracy (%) |
 
-- Gemini 3.0 Flash：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- GPT-5.2：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- AstroSage-Llama-3.1-70B：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- Claude 4.5 Opus：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
-- Gemini 3.0 Pro：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（；论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Gemini 3.0 Flash：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- GPT-5.2：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- AstroSage-Llama-3.1-70B：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Claude 4.5 Opus：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
+- Gemini 3.0 Pro：source_url：https://arxiv.org/pdf/2505.17592；accessed：2026-11-07；result_date：2026-02-20（论文修订日，不是逐模型运行日）；source_type：官方作者论文历史实验
 
 #### AstroMLab-1 v2表1/2：4425题内部集（历史）
 
@@ -365,7 +365,7 @@ astromachinelearninglab@gmail.com
 
 来源：[1][2][3]
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -375,7 +375,7 @@ astromachinelearninglab@gmail.com
 
 来源：[1][2][3]
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 状态：待核实（本字段尚有未能确认的部分）。
 
@@ -415,7 +415,7 @@ id：1p8tI1PveNY31y8XjJOUOm50eOVJ9jC8L；webViewLink：
 
 ### 其他材料
 
-- kind：中文介绍 Google Doc；id：1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8；webViewLink：
+- kind：中文介绍；id：1ldfA5JQ_ErScdlGU8UBROie6NcZv5by2prYp8QPKvv8；webViewLink：
 
 来源：[10]
 
@@ -431,7 +431,7 @@ id：1OSiWWUsUV8xeWTAPzqbX2BhXycyVZzgT；webViewLink：
 
 - 2026-11-07：首批官方材料核验、中文改写、；未核实字段显式标记。
 - 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1][2]
 

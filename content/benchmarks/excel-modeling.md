@@ -1,6 +1,6 @@
 # Excel Modeling Benchmark v1.1
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution，研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 EMB评估的是能在真实Excel中重算、联动并切换情景的金融工作簿，而非单独回答某个财务数字。Template和Scratch对同一专家任务施加不同交付约束；榜单的部分信用得分反映完成程度，不等于可交付率。
 
@@ -543,7 +543,7 @@ https://x.com/ValsAI（官方机构账号；非单独EMB账号）
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**： (UTC+8)
+  - **timezone**： ()
   - **change**：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
 - - **date**：2026-11-07
   - **timezone**：

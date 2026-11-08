@@ -1,6 +1,6 @@
 # PhysicsEval
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 PhysicsEval同时提供教材来源的物理题解集和推理时策略实验，以Physics Proficiency Score评价整个解答的质量，而不是只核对答案。PPS最终裁判与推理时verifier是两类角色，权重也不同；原论文难度边界和归一化表述中的冲突在此保留。
 
@@ -104,7 +104,7 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -123,7 +123,7 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -131,7 +131,7 @@ PhysicsEval: Inference-Time Techniques to Improve the Reasoning Proficiency of L
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -287,7 +287,7 @@ Submission history From: Syed Rifat Raiyan [ view email ] [v1] 2025-08-01 03:12:
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -309,7 +309,7 @@ https://arxiv.org/pdf/2508.00079#page=7
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -414,7 +414,7 @@ https://github.com/areebuzair/PhysicsEval/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2508.00079)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2508.00079)（访问2026-11-08，）
 
@@ -472,7 +472,7 @@ https://arxiv.org/pdf/2508.00079
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M", "webViewLink": "
+- {"kind": "中文介绍", "id": "1CWGoPSNuvMuZLalgvf-ezAW-3sBwDbq7NDbUFgs1q3M", "webViewLink": "
 
 来源：[1](
 

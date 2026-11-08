@@ -317,7 +317,7 @@ https://github.com/pangeo-data/WeatherBench#leaderboard
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2002.00469)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2002.00469)（访问 2026-11-08 ）。
 
@@ -390,7 +390,7 @@ https://github.com/pangeo-data/WeatherBench/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2002.00469)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2002.00469)（访问 2026-11-08 ）。
 
@@ -431,7 +431,7 @@ https://arxiv.org/pdf/2002.00469
 
 ### 其他文档
 
-- - **kind**：中文介绍 Google Doc
+- - **kind**：中文介绍
   - **id**：1G4dF_ZzXwwKENT_Pq7fZ83060HU-Ha5MByRN08KmnYw
   - **webViewLink**：
 

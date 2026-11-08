@@ -415,7 +415,7 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 ```json
 [
   {
-    "type": "中文介绍 Google Doc"
+    "type": "中文介绍"
     "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA"
     "webViewLink": "https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit"
   }

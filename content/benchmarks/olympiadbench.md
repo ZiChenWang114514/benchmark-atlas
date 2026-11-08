@@ -1,6 +1,6 @@
 # OlympiadBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 OlympiadBench评估高难数学与物理的开放式科学推理，而不是一个单独的物理选择题库。全模态与纯文本、求解与证明采用不同评价路径；厘清全库和物理子集题量，并把代码MIT与HF数据Apache-2.0的声明拆开。
 
@@ -291,7 +291,7 @@ README历史全模态表GPT-4o物理13.10%、数学32.48%；这是该历史实�
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2402.14008)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2402.14008)（访问2026-11-08，）
 
@@ -313,7 +313,7 @@ https://github.com/OpenBMB/OlympiadBench#leaderboard
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2402.14008)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2402.14008)（访问2026-11-08，）
 
@@ -399,7 +399,7 @@ https://github.com/OpenBMB/OlympiadBench/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2402.14008)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2402.14008)（访问2026-11-08，）
 
@@ -457,7 +457,7 @@ https://arxiv.org/pdf/2402.14008
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q", "webViewLink": "
+- {"kind": "中文介绍", "id": "1vN25g0TWF7xeSTBeOKXKlXZePKAU-CtK6GPwhpoWL0Q", "webViewLink": "
 
 来源：[1](
 

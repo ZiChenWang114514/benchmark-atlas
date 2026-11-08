@@ -1,6 +1,6 @@
 # MMAU
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2024-10-25（；arXiv首稿时间，不等于独立数据集首发）
+2024-10-25（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）
 
@@ -294,7 +294,7 @@ MMAU-Pro（官方2025-08-19公告），不与MMAU原版/修订版成绩混合。
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json)（访问 2026-11-08）
 
@@ -530,7 +530,7 @@ https://arxiv.org/pdf/2410.19168
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks；- **webViewLink**：
+- - **kind**：中文介绍；- **id**：1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks；- **webViewLink**：
 
 [来源]( 2026-11-07）
 

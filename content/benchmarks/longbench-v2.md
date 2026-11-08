@@ -127,76 +127,76 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Human | 53.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 2 | MiniMax-Text-01 MiniMax | 52.9% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 3 | GPT-4o OpenAI | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 4 | Gemini-Exp-1206 Google | 49.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 5 | Gemini-2.0-Flash Google | 47.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 6 | Qwen3-235B-A22B-Instruct-2507 Alibaba | 46.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 7 | GPT-4o OpenAI | 46.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 8 | Kimi-K2-Instruct Moonshot AI | 44.9% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 9 | GLM-4-Plus Z.ai & Tsinghua | 44.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 10 | Qwen2.5-72B Alibaba | 42.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 11 | Claude 3.5 Sonnet Anthropic | 41.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 12 | Qwen3-235B-A22B | 40.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 13 | Qwen3-32B | 38.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 14 | o1-mini OpenAI | 37.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 15 | Mistral Large 24.11 Mistral AI | 34.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 16 | Qwen3-30B-A3B | 32.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 17 | Llama 3.1 70B Meta | 31.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 18 | Nemotron 70B Nvidia | 31.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 19 | NExtLong 8B CAS | 30.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 20 | GLM-4-9B Z.ai & Tsinghua | 30.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 21 | Qwen2.5-7B Alibaba | 30.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 22 | Llama 3.1 8B Meta | 30.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 23 | Llama 3.3 70B Meta | 29.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 24 | GPT-4o mini OpenAI | 29.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 25 | Command R+ Cohere | 27.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 26 | Mistral Large 2 Mistral AI | 26.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 27 | Random | 25.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
+| 1 | Human | 53.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 2 | MiniMax-Text-01 MiniMax | 52.9% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 3 | GPT-4o OpenAI | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 4 | Gemini-Exp-1206 Google | 49.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 5 | Gemini-2.0-Flash Google | 47.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 6 | Qwen3-235B-A22B-Instruct-2507 Alibaba | 46.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 7 | GPT-4o OpenAI | 46.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 8 | Kimi-K2-Instruct Moonshot AI | 44.9% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 9 | GLM-4-Plus Z.ai & Tsinghua | 44.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 10 | Qwen2.5-72B Alibaba | 42.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 11 | Claude 3.5 Sonnet Anthropic | 41.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 12 | Qwen3-235B-A22B | 40.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 13 | Qwen3-32B | 38.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 14 | o1-mini OpenAI | 37.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 15 | Mistral Large 24.11 Mistral AI | 34.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 16 | Qwen3-30B-A3B | 32.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 17 | Llama 3.1 70B Meta | 31.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 18 | Nemotron 70B Nvidia | 31.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 19 | NExtLong 8B CAS | 30.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 20 | GLM-4-9B Z.ai & Tsinghua | 30.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 21 | Qwen2.5-7B Alibaba | 30.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 22 | Llama 3.1 8B Meta | 30.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 23 | Llama 3.3 70B Meta | 29.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 24 | GPT-4o mini OpenAI | 29.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 25 | Command R+ Cohere | 27.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 26 | Mistral Large 2 Mistral AI | 26.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 27 | Random | 25.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
 
 ### 官方：w/ CoT
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Gemini-2.5-Pro | 63.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 2 | Gemini-2.5-Flash | 62.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 3 | Qwen3-235B-A22B-Thinking-2507 | 60.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 4 | DeepSeek-R1 | 58.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 5 | Qwen3-235B-A22B-Instruct-2507 Alibaba | 58.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 6 | o1-preview | 57.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 7 | DeepSeek-R1-0528 | 56.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 8 | MiniMax-Text-01 MiniMax | 56.5% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 9 | Gemini-2.0-Flash-Thinking | 56.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 10 | Human | 53.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 11 | Gemini-Exp-1206 Google | 52.5% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 12 | GPT-4o OpenAI | 51.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 13 | GPT-4o OpenAI | 51.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 14 | Gemini-2.0-Flash Google | 51.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 15 | GLM-4.5 | 50.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 16 | Qwen3-30B-A3B-Thinking-2507 | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 17 | Qwen3-235B-A22B | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 18 | Qwen3-32B | 49.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 19 | QwQ-32B | 48.9% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 20 | GLM-4.5-Air | 48.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 21 | Claude 3.5 Sonnet Anthropic | 46.7% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 22 | GLM-4-Plus Z.ai & Tsinghua | 46.1% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 23 | Kimi-K2-Instruct Moonshot AI | 44.3% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 24 | Qwen2.5-72B Alibaba | 43.5% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 25 | Qwen3-30B-A3B | 42.5% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 26 | Mistral Large 24.11 Mistral AI | 39.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 27 | o1-mini OpenAI | 38.9% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 28 | Llama 3.1 70B Meta | 36.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 29 | Llama 3.3 70B Meta | 36.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 30 | Qwen2.5-7B Alibaba | 35.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 31 | Nemotron 70B Nvidia | 35.2% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 32 | Mistral Large 2 Mistral AI | 33.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 33 | GPT-4o mini OpenAI | 32.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 34 | NExtLong 8B CAS | 32.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 35 | Command R+ Cohere | 31.6% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 36 | GLM-4-9B Z.ai & Tsinghua | 30.8% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 37 | Llama 3.1 8B Meta | 30.4% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
-| 38 | Random | 25.0% | Overall accuracy | [来源](https://longbench2.github.io/) · 2026-11-08 |
+| 1 | Gemini-2.5-Pro | 63.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 2 | Gemini-2.5-Flash | 62.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 3 | Qwen3-235B-A22B-Thinking-2507 | 60.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 4 | DeepSeek-R1 | 58.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 5 | Qwen3-235B-A22B-Instruct-2507 Alibaba | 58.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 6 | o1-preview | 57.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 7 | DeepSeek-R1-0528 | 56.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 8 | MiniMax-Text-01 MiniMax | 56.5% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 9 | Gemini-2.0-Flash-Thinking | 56.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 10 | Human | 53.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 11 | Gemini-Exp-1206 Google | 52.5% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 12 | GPT-4o OpenAI | 51.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 13 | GPT-4o OpenAI | 51.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 14 | Gemini-2.0-Flash Google | 51.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 15 | GLM-4.5 | 50.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 16 | Qwen3-30B-A3B-Thinking-2507 | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 17 | Qwen3-235B-A22B | 50.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 18 | Qwen3-32B | 49.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 19 | QwQ-32B | 48.9% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 20 | GLM-4.5-Air | 48.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 21 | Claude 3.5 Sonnet Anthropic | 46.7% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 22 | GLM-4-Plus Z.ai & Tsinghua | 46.1% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 23 | Kimi-K2-Instruct Moonshot AI | 44.3% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 24 | Qwen2.5-72B Alibaba | 43.5% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 25 | Qwen3-30B-A3B | 42.5% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 26 | Mistral Large 24.11 Mistral AI | 39.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 27 | o1-mini OpenAI | 38.9% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 28 | Llama 3.1 70B Meta | 36.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 29 | Llama 3.3 70B Meta | 36.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 30 | Qwen2.5-7B Alibaba | 35.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 31 | Nemotron 70B Nvidia | 35.2% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 32 | Mistral Large 2 Mistral AI | 33.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 33 | GPT-4o mini OpenAI | 32.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 34 | NExtLong 8B CAS | 32.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 35 | Command R+ Cohere | 31.6% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 36 | GLM-4-9B Z.ai & Tsinghua | 30.8% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 37 | Llama 3.1 8B Meta | 30.4% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
+| 38 | Random | 25.0% | Overall accuracy | [来源](https://longbench2.github.io/)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S8](https://longbench2.github.io/)
 
@@ -228,34 +228,34 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 **原有文件夹**：{"id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE", "webViewLink": " [S14](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": " [S15](
+**其他材料**：[{"kind": "中文介绍", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": " [S15](
 
 **原有 PDF**：{"id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx", "webViewLink": " [S16](
 
 ## 变更记录
 
-- 2026-11-07 · 首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- 2026-11-07 · 深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- 2026-11-07，深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2412.15204) [S13](https://arxiv.org/pdf/2412.15204) [S2](https://github.com/THUDM/LongBench) [S8](https://longbench2.github.io/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2412.15204](https://arxiv.org/abs/2412.15204) · 访问 2026-11-07
-- S2 · [https://github.com/THUDM/LongBench](https://github.com/THUDM/LongBench) · 访问 2026-11-07
-- S3 · [https://arxiv.org/abs/2412.15204](https://arxiv.org/abs/2412.15204) · 访问 2026-11-08
-- S4 · [https://huggingface.co/datasets/THUDM/LongBench-v2](https://huggingface.co/datasets/THUDM/LongBench-v2) · 访问 2026-11-08
-- S5 · [https://github.com/THUDM/LongBench/blob/main/LICENSE](https://github.com/THUDM/LongBench/blob/main/LICENSE) · 访问 2026-11-08
-- S6 · [https://arxiv.org/pdf/2412.15204](https://arxiv.org/pdf/2412.15204) · 访问 2026-11-08
-- S7 · [https://github.com/THUDM/LongBench](https://github.com/THUDM/LongBench) · 访问 2026-11-08
-- S8 · [https://longbench2.github.io/](https://longbench2.github.io/) · 访问 2026-11-08
-- S9 · [https://huggingface.co/datasets/THUDM/LongBench-v2](https://huggingface.co/datasets/THUDM/LongBench-v2) · 访问 2026-11-07
-- S10 · [https://longbench2.github.io/](https://longbench2.github.io/) · 访问 2026-11-07
-- S11 · [https://longbench2.github.io/#leaderboard](https://longbench2.github.io/#leaderboard) · 访问 2026-11-08
-- S12 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S13 · [https://arxiv.org/pdf/2412.15204](https://arxiv.org/pdf/2412.15204) · 访问 2026-11-07
-- S14 · [ · 访问 2026-11-07
-- S15 · [ · 访问 2026-11-07
-- S16 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/2412.15204](https://arxiv.org/abs/2412.15204)，访问 2026-11-07
+- S2，[https://github.com/THUDM/LongBench](https://github.com/THUDM/LongBench)，访问 2026-11-07
+- S3，[https://arxiv.org/abs/2412.15204](https://arxiv.org/abs/2412.15204)，访问 2026-11-08
+- S4，[https://huggingface.co/datasets/THUDM/LongBench-v2](https://huggingface.co/datasets/THUDM/LongBench-v2)，访问 2026-11-08
+- S5，[https://github.com/THUDM/LongBench/blob/main/LICENSE](https://github.com/THUDM/LongBench/blob/main/LICENSE)，访问 2026-11-08
+- S6，[https://arxiv.org/pdf/2412.15204](https://arxiv.org/pdf/2412.15204)，访问 2026-11-08
+- S7，[https://github.com/THUDM/LongBench](https://github.com/THUDM/LongBench)，访问 2026-11-08
+- S8，[https://longbench2.github.io/](https://longbench2.github.io/)，访问 2026-11-08
+- S9，[https://huggingface.co/datasets/THUDM/LongBench-v2](https://huggingface.co/datasets/THUDM/LongBench-v2)，访问 2026-11-07
+- S10，[https://longbench2.github.io/](https://longbench2.github.io/)，访问 2026-11-07
+- S11，[https://longbench2.github.io/#leaderboard](https://longbench2.github.io/#leaderboard)，访问 2026-11-08
+- S12，[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)，访问 2026-11-07
+- S13，[https://arxiv.org/pdf/2412.15204](https://arxiv.org/pdf/2412.15204)，访问 2026-11-07
+- S14，[，访问 2026-11-07
+- S15，[，访问 2026-11-07
+- S16，[，访问 2026-11-07

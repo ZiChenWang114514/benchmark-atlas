@@ -449,7 +449,7 @@ https://x.ai/news/grok-1.5v
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw"
     "webViewLink": "
   }

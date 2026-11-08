@@ -1,6 +1,6 @@
 # SkillsBench
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；研究快照；note: trending: B；未核实字段保留标记
+> Benchmark Constitution，深度复核 2026-11-08。已核验存在；研究快照；note: trending: B；未核实字段保留标记
 
 SkillsBench把“技能是否真的有用”变成配对实验：同一模型与同一agent，在有技能和无技能两条件下完成专家任务。默认v1.1含87题，额外14题不能并入默认库存。官方87题发布、HF审计导出和Vals独立实现有不同配置与时间快照，本档不将它们拼成统一裸模型榜。
 

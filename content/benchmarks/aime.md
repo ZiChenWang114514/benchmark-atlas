@@ -1,6 +1,6 @@
 # AIME
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 官方证据复核；授权与版本冲突显式保留；未核实项不补造
 
@@ -260,7 +260,7 @@ AIME2024/2025、I/II、30题均值、consensus@N与pass@1必须分开；非MAA�
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -298,7 +298,7 @@ AA保留的2025 Legacy快照最高99.0%，该30题/重复采样协议区分度�
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://maa.org/student-programs/amc/maa-american-mathematics-competitions-policies/)（访问2026-11-07）
 
@@ -324,9 +324,9 @@ https://artificialanalysis.ai/evaluations/aime-2025
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | GPT-5.2 (Xhigh) | 99.0 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025) · 2026-11-07 |
-| 2 | GPT-5 Codex (High) | 98.7 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025) · 2026-11-07 |
-| 3 | Gemini 3 Flash Preview (Reasoning) | 97.0 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025) · 2026-11-07 |
+| 1 | GPT-5.2 (Xhigh) | 99.0 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025)，2026-11-07 |
+| 2 | GPT-5 Codex (High) | 98.7 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025)，2026-11-07 |
+| 3 | Gemini 3 Flash Preview (Reasoning) | 97.0 | AIME2025 pass@1 (%)，30题×10重复 | [原表](https://artificialanalysis.ai/evaluations/aime-2025)，2026-11-07 |
 
 
 
@@ -441,17 +441,17 @@ https://artificialanalysis.ai/evaluations/aime-2025
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

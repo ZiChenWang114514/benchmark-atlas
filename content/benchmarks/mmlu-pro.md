@@ -1,6 +1,6 @@
 # MMLU-Pro
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v6
 
 ### 发布日期
 
-2024-06-04（；arXiv首稿时间，不等于独立数据集首发）
+2024-06-04（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2406.01574)（访问 2026-11-08）
 
@@ -300,7 +300,7 @@ https://github.com/TIGER-AI-Lab/MMLU-Pro
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://huggingface.co/datasets/TIGER-Lab/mmlu_pro_leaderboard_submission/raw/main/results.csv)（访问 2026-11-08）
 
@@ -948,7 +948,7 @@ e8f695db151fc8820f20c2864e6f6e27769fd94a307b7e60e211912cc9a3ef59
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM；- **webViewLink**：
+- - **kind**：中文介绍；- **id**：1kNKY72GZu__3yga22rvnqfenFh1W4shyrzS0cooj7VM；- **webViewLink**：
 
 [来源]( 2026-11-07）
 

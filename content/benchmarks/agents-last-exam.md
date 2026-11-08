@@ -1,6 +1,6 @@
 # Agents’ Last Exam v1.1
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 已核实存在；官方资料研究快照，未知保留待核实；trending: A
 
@@ -34,7 +34,7 @@ arXiv v4（2026-10-25修订作者/机构，摘要称科学内容不变）
 
 ### 发布日期
 
-论文首稿2026-06-04 04:20:46 （UTC+8）；当前数据v1.1具体首发日待核实。
+论文首稿2026-06-04 04:20:46 （）；当前数据v1.1具体首发日待核实。
 
 > 字段状态：待核实
 
@@ -254,7 +254,7 @@ v1.1不得与论文原v1历史结果或厂商未注明版本的得分并榜；20
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://agents-last-exam.org/)（访问2026-11-07）
 
@@ -336,7 +336,7 @@ ALE-CLI是原论文Linux子集（105实例）；当前v1.1的ale_cli清单为86�
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://agents-last-exam.org/)（访问2026-11-07）
 
@@ -362,9 +362,9 @@ https://agents-last-exam.org/leaderboard
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | Codex + GPT-5.5 | 24.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | ALE-Claw + GPT-5.5 | 23.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | Claude Code + Fable 5 | 22.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Codex + GPT-5.5 | 24.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | ALE-Claw + GPT-5.5 | 23.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Claude Code + Fable 5 | 22.0 | Overall full-pass rate (%) | [原表](https://arxiv.org/abs/2606.05405)，2026-11-07 |
 
 
 
@@ -372,7 +372,7 @@ https://agents-last-exam.org/leaderboard
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | moonshotai/Kimi-K3.1-Pro | 43.2 | HF卡声明v1.1 ALL，metric未命名（界面映射pass rate，待核实） | [原表](https://huggingface.co/datasets/agents-last-exam/agents-last-exam) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | moonshotai/Kimi-K3.1-Pro | 43.2 | HF卡声明v1.1 ALL，metric未命名（界面映射pass rate，待核实） | [原表](https://huggingface.co/datasets/agents-last-exam/agents-last-exam)，2026-11-07 |
 
 
 
@@ -475,12 +475,12 @@ https://arxiv.org/pdf/2606.05405
 [
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

@@ -1,6 +1,6 @@
 # ChartQA
 
-> Benchmark Constitution · 深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+> Benchmark Constitution，深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
 ChartQA把真实图表、人工问答与摘要驱动的机器问答组合起来，测视觉引用与多步数值推理。其常用测试集2,500条QA包含人工与机器各1,250题，问题条数不等于独立图像数。基线是否获得底层gold table会显著改变任务；5%数值容差协议也不能与另一论文的LLM裁判成绩直接混排。
 
@@ -521,7 +521,7 @@ https://arxiv.org/pdf/2203.10244
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM"
     "webViewLink": "
   }

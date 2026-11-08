@@ -1,6 +1,6 @@
 # BioCoder
 
-> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
 逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
@@ -251,7 +251,7 @@ Pass@1/5/10/20，分Python、Java、Rosalind。
 
 ### 核查日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -297,7 +297,7 @@ v1：2023-08-31；v2：2023-09-06；v3：2023-09-30；v4：2023-12-04；v5：202
 
 ### 采集日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -431,7 +431,7 @@ id：1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea；webViewLink：
 
 ### 其他材料
 
-- type：中文介绍 Google Doc；id：1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ；webViewLink：https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit
+- type：中文介绍；id：1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ；webViewLink：https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit
 
 来源：[9]
 
@@ -447,7 +447,7 @@ id：1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk；webViewLink：
 
 - 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
 - 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

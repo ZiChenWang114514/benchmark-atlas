@@ -867,7 +867,7 @@ https://arxiv.org/pdf/2405.21075
 
 ### 其他文档
 
-- - **kind**：中文介绍 Google Doc
+- - **kind**：中文介绍
   - **id**：1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0
   - **webViewLink**：
 

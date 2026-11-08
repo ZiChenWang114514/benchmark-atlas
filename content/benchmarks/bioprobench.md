@@ -1,6 +1,6 @@
 # BioProBench
 
-> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution，深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 BioProBench考查的是实验协议的程序性理解，而不是仅凭术语回忆做生物知识问答。五类任务分别诊断问答、顺序、纠错、生成与推理；其中生成更接近对已有协议事实的受约束重建，不能等同自主发明新实验。523,784个结构化实例是总资源规模，公开许可部分为350,565个；法律条款和公开范围必须与技术成绩一起解释。
 
@@ -110,7 +110,7 @@ BioProBench: A Corpus and Benchmark for Biological Protocol Reasoning in Autonom
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-07）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 作者
 
@@ -302,7 +302,7 @@ PQA：Accuracy/Brier；ORD：Exact Match/Kendall tau；ERR：Accuracy/Precision/
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-07）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 风险与冲突
 
@@ -336,7 +336,7 @@ https://arxiv.org/pdf/2505.07889
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-07）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 逐轨结果
 
@@ -487,7 +487,7 @@ https://github.com/YuyangSunshine/bioprobench/issues
 
 [来源1](https://arxiv.org/abs/2505.07889)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2505.07889)（访问2026-11-07）；[来源3](https://arxiv.org/html/2505.07889v4)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 联系信息边界
 
@@ -533,7 +533,7 @@ b722ec435db3bbab35cfd48c97451bca10ce312ff42ae37e3bf1c16657c31cb8
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1DDT1wLzJWpGdMs5m2XTHZH7R2DYPh-mXd8NuUIEfqQs"
     "webViewLink": "
   }

@@ -427,7 +427,7 @@ https://arxiv.org/pdf/2109.07958
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E", "webViewLink": "
+- {"kind": "中文介绍", "id": "1Gd-3UCMu3Qp3aNooWo3Sq2Ar2Bo1hlC06er3pz1o26E", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 

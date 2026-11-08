@@ -530,7 +530,7 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 [
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
   {

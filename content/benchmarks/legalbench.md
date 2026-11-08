@@ -123,16 +123,16 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Claude Fable 5 | 88.56% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 2 | Claude Fable 5.1 | 88.51% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 3 | Gemini 4 Argon | 88.30% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 4 | Wonder Full | 87.42% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 5 | Gemini 3.1 Pro Preview (02/26) | 87.40% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 6 | Gemini 3.7 Flash | 87.26% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 7 | Gemini 3 Pro (11/25) | 87.03% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 8 | Gemini 3.8 Flash | 86.99% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 9 | Claude Opus 5 | 86.97% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
-| 10 | GPT-5.6 Sol | 86.97% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench) · 2026-11-08 |
+| 1 | Claude Fable 5 | 88.56% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 2 | Claude Fable 5.1 | 88.51% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 3 | Gemini 4 Argon | 88.30% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 4 | Wonder Full | 87.42% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 5 | Gemini 3.1 Pro Preview (02/26) | 87.40% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 6 | Gemini 3.7 Flash | 87.26% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 7 | Gemini 3 Pro (11/25) | 87.03% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 8 | Gemini 3.8 Flash | 86.99% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 9 | Claude Opus 5 | 86.97% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
+| 10 | GPT-5.6 Sol | 86.97% | Accuracy | [来源](https://www.vals.ai/benchmarks/legal_bench)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S8](https://www.vals.ai/benchmarks/legal_bench)
 
@@ -174,20 +174,20 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 ## 变更记录
 
-- 2026-11-07 · 近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S6](https://github.com/HazyResearch/legalbench) [S9](https://hazyresearch.stanford.edu/legalbench/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2308.11462](https://arxiv.org/abs/2308.11462) · 访问 2026-11-07
-- S2 · [https://github.com/HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) · 访问 2026-11-08
-- S3 · [https://www.vals.ai/benchmarks/legal_bench](https://www.vals.ai/benchmarks/legal_bench) · 访问 2026-11-07
-- S4 · [https://arxiv.org/abs/2308.11462](https://arxiv.org/abs/2308.11462) · 访问 2026-11-08
-- S5 · [https://huggingface.co/datasets/nguha/legalbench](https://huggingface.co/datasets/nguha/legalbench) · 访问 2026-11-08
-- S6 · [https://github.com/HazyResearch/legalbench](https://github.com/HazyResearch/legalbench) · 访问 2026-11-07
-- S7 · [https://arxiv.org/pdf/2308.11462](https://arxiv.org/pdf/2308.11462) · 访问 2026-11-08
-- S8 · [https://www.vals.ai/benchmarks/legal_bench](https://www.vals.ai/benchmarks/legal_bench) · 访问 2026-11-08
-- S9 · [https://hazyresearch.stanford.edu/legalbench/](https://hazyresearch.stanford.edu/legalbench/) · 访问 2026-11-08
+- S1，[https://arxiv.org/abs/2308.11462](https://arxiv.org/abs/2308.11462)，访问 2026-11-07
+- S2，[https://github.com/HazyResearch/legalbench](https://github.com/HazyResearch/legalbench)，访问 2026-11-08
+- S3，[https://www.vals.ai/benchmarks/legal_bench](https://www.vals.ai/benchmarks/legal_bench)，访问 2026-11-07
+- S4，[https://arxiv.org/abs/2308.11462](https://arxiv.org/abs/2308.11462)，访问 2026-11-08
+- S5，[https://huggingface.co/datasets/nguha/legalbench](https://huggingface.co/datasets/nguha/legalbench)，访问 2026-11-08
+- S6，[https://github.com/HazyResearch/legalbench](https://github.com/HazyResearch/legalbench)，访问 2026-11-07
+- S7，[https://arxiv.org/pdf/2308.11462](https://arxiv.org/pdf/2308.11462)，访问 2026-11-08
+- S8，[https://www.vals.ai/benchmarks/legal_bench](https://www.vals.ai/benchmarks/legal_bench)，访问 2026-11-08
+- S9，[https://hazyresearch.stanford.edu/legalbench/](https://hazyresearch.stanford.edu/legalbench/)，访问 2026-11-08

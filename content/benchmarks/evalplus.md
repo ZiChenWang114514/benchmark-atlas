@@ -1,6 +1,6 @@
 # EvalPlus
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution，研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 EvalPlus不是新造一套编程题，而是通过增强测试重新审视HumanEval与MBPP上生成函数是否真正正确。最重要的阅读条件是测试版本：当前MBPP+为378题，而历史榜叙述曾用399题；不能只写“EvalPlus分数”而省略子集、提示模式和版本。
 

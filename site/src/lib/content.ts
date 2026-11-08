@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { Marked } from 'marked';
+import { currentLocale } from '../i18n';
 import { repoRoot } from './data';
 
 export type TocItem = { id: string; text: string };
@@ -23,7 +24,8 @@ function escapeHtml(value: string): string {
 }
 
 export function loadConstitution(): { title: string; html: string; toc: TocItem[] } {
-  const markdown = readFileSync(join(repoRoot(), 'CONSTITUTION.md'), 'utf8');
+  const name = currentLocale() === 'en' ? 'CONSTITUTION.en.md' : 'CONSTITUTION.md';
+  const markdown = readFileSync(join(repoRoot(), name), 'utf8');
   const title = markdown.match(/^#\s+(.+)\s*$/m)?.[1]?.trim() ?? '收集宪法';
   const body = markdown.replace(/^#\s+.+\s*$/m, '').trim();
   const toc: TocItem[] = [];

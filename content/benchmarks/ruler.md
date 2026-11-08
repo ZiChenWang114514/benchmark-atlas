@@ -34,7 +34,7 @@ v3；最近提交 2024-08-07
 
 ### 发布日期
 
-2024-04-10（；首个arXiv提交，不推定数据上线日）
+2024-04-10（首个arXiv提交，不推定数据上线日）
 
 来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
 
@@ -431,7 +431,7 @@ https://arxiv.org/pdf/2404.06654
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4", "webViewLink": "
+- {"kind": "中文介绍", "id": "1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 

@@ -1,12 +1,13 @@
 ---
 import Value from './Value.astro';
+import { isStatusWord } from '../lib/format';
 
 interface Props {
   value: unknown;
   name?: string;
 }
 const { value, name } = Astro.props;
-const hiddenStatus = value === '待核实' || value === '未公开';
+const hiddenStatus = isStatusWord(value);
 ---
 {hiddenStatus ? null : (
   <div class="field-value">

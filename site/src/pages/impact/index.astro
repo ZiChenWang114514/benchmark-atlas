@@ -1,14 +1,18 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { currentLocale, t } from '../../i18n';
+import { translateContent } from '../../i18n/content';
 import { visualCopy } from '../../i18n/visual';
+import { sectionLabel } from '../../lib/sections';
 import { loadImpact, type ImpactRow } from '../../lib/boards';
 import { loadIndex } from '../../lib/data';
 import { dateStamp, page } from '../../lib/format';
 
-const ui = visualCopy('zh');
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const impact = loadImpact();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
-const dimensions = new Map((impact?.dimensions ?? []).map((dimension) => [dimension.key, dimension.name_zh]));
+const dimensions = new Map((impact?.dimensions ?? []).map((dimension) => [dimension.key, translateContent(dimension.name_zh, locale)]));
 
 function num(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) ? value : null;
@@ -19,7 +23,7 @@ function slim(row: ImpactRow, tier: 'ranked' | 'insufficient') {
     rank: typeof row.rank === 'number' ? row.rank : null,
     id: row.id,
     name: row.name,
-    domain: row.domain ?? '',
+    domain: sectionLabel(row.domain, locale),
     score: num(row.score),
     quality: num(components.quality),
     community: num(components.community),
@@ -38,14 +42,14 @@ const thinCount = impact?.unscored?.length ?? 0;
 const stamp = dateStamp(impact?.generated_at);
 const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
 ---
-<Base title="学术影响力榜" description="按引用、代码、社区采用和饱和度等维度合成的 benchmark 影响力指数。" active="impact">
+<Base title={t(locale, 'impact.title')} description={t(locale, 'impact.description')} active="impact">
   <div class="wrap page-hero">
-    <h1>学术影响力榜</h1>
-    <p class="lede">综合分把各维度压到 0–100 后再按权重相加。不知道的维度留空，不补成 0。</p>
-    {impact?.publication_warning_zh && <p class="disclaimer">{impact.publication_warning_zh}</p>}
+    <h1>{t(locale, 'impact.title')}</h1>
+    <p class="lede">{t(locale, 'impact.lede')}</p>
+    {impact?.publication_warning_zh && <p class="disclaimer">{translateContent(impact.publication_warning_zh, locale)}</p>}
     <p class="meta-row">
       {stamp && <span>{ui.snapshot} {stamp}</span>}
-      <a href={page('impact/method')}>方法说明</a>
+      <a href={page('impact/method')}>{t(locale, 'impact.method_link')}</a>
     </p>
     {impact && (
       <div class="stat-row">
@@ -101,7 +105,7 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
             data-null-tip={ui.nullTip}
             data-unranked={ui.unranked}
           >
-            <caption class="sr-only">学术影响力榜</caption>
+            <caption class="sr-only">{t(locale, 'impact.title')}</caption>
             <thead>
               <tr>
                 <th class="rank-col" scope="col">{ui.colRank}</th>
@@ -130,7 +134,7 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
         </script>
       </>
     ) : (
-      <p class="pending-data">数据生成中。方法说明会放在 <a href={page('impact/method')}>/impact/method/</a>。</p>
+      <p class="pending-data">{t(locale, 'impact.pending')} <a href={page('impact/method')}>{t(locale, 'impact.method_link')}</a></p>
     )}
   </div>
 </Base>

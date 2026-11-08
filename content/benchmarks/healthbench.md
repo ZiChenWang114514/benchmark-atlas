@@ -1,6 +1,6 @@
 # HealthBench
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 原版HealthBench用医生撰写的rubric评价5,000段医疗对话的最后一条回复；Hard与Consensus是其切片。它不等于525例HealthBench Professional，后者的长度调整榜不能当作原版更新成绩，也不能将rubric得分当作临床正确率。
 
@@ -28,13 +28,13 @@ HealthBench
 
 ### 论文版本
 
-v1；2025-05-14（；论文修订号，不是数据版本）
+v1；2025-05-14（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2025-05-14（；arXiv初稿提交时间，非推定数据首发日）
+2025-05-14（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2505.08775)（访问 2026-11-07）
 
@@ -410,7 +410,7 @@ f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3
 
 ### 本页修订
 
-- date：2026-11-07；timezone： (UTC+8)；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- date：2026-11-07；timezone： ()；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
 - date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）

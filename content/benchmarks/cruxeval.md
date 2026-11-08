@@ -1,6 +1,6 @@
 # CRUXEval
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 CRUXEval用800个短Python函数及真实执行产生的输入输出配对，分别测输入反推和输出预测。I/O共享样本，不应凑成两个独立题库；direct、CoT、pass@1和pass@5各有不同含义。本次明确核实HF数据本身也为MIT，并把静态榜分成八条协议轨。
 

@@ -1,6 +1,6 @@
 # MMLU-ProX
 
-> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution，深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2025-03-14（；arXiv首稿时间，不等于独立数据集首发）
+2025-03-14（arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
@@ -311,7 +311,7 @@ MMLU-ProX-Lite是同项目节省评测成本的子集版，不另算一个独立
 
 ### 快照日期
 
-2026-11-08（；采集日，不冒充评测运行日）
+2026-11-08（采集日，不是评测运行日）
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
 
@@ -440,7 +440,7 @@ b171ff829bfbb567974812dfebb860a63df7f756daf5662c7a1b659df76833bd
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：
+- - **kind**：中文介绍；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：
 
 [来源]( 2026-11-07）
 

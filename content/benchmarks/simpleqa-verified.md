@@ -1,6 +1,6 @@
 # SimpleQA Verified
 
-> Benchmark Constitution · 深度复核 2026-11-08。研究快照；trending: A；未核实字段保留标记
+> Benchmark Constitution，深度复核 2026-11-08。研究快照；trending: A；未核实字段保留标记
 
 SimpleQA Verified是面向参数知识、禁止搜索工具的1,000题短事实问答集。它的贡献不只是缩小原SimpleQA，而是去重、纠正来源冲突、平衡答案类型并改进数值判分。本档将官方Kaggle当前Score、论文历史F1和Epoch反弃答mean_score严格分轨，避免相似名称掩盖不同协议。
 

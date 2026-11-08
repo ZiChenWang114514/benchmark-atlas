@@ -1,6 +1,6 @@
 # ClimateBench
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 ClimateBench v1.0检验排放路径到长期气候响应的模拟，而不是逐日天气预报或真实观测预测。官方数据已公开测试情景SSP245；代码MIT与数据CC BY 4.0必须分开记录。主榜同时惩罚区域空间误差与全球均值误差，不能用温度单列代替跨任务排序。
 
@@ -186,7 +186,7 @@ ClimateBench v1.0检验排放路径到长期气候响应的模拟，而不是逐
 
 来源：[1](https://doi.org/10.1029/2021MS002954)（访问2026-11-07）；[2](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
-核验说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+核验说明：该字段尚未完成精确核验，不表示官方未公开。
 
 **争议与局限**：官方曾修正CO2累积计算、历史气溶胶输入对齐及日较差缺失值；测试场现公开且只针对NorESM2响应，不证明对现实气候或其他ESM通用准确。
 
@@ -210,7 +210,7 @@ ClimateBench v1.0检验排放路径到长期气候响应的模拟，而不是逐
 
 来源：[1](https://doi.org/10.1029/2021MS002954)（访问2026-11-07）；[2](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
-核验说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+核验说明：该字段尚未完成精确核验，不表示官方未公开。
 
 ### 分轨结果（不合并来源/题集/协议）
 
@@ -282,7 +282,7 @@ direction：lower_is_better
 
 来源：[1](https://doi.org/10.1029/2021MS002954)（访问2026-11-07）；[2](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
-核验说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+核验说明：该字段尚未完成精确核验，不表示官方未公开。
 
 **隐私原则**：只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。
 
@@ -308,7 +308,7 @@ direction：lower_is_better
 
 来源：[1](
 
-**其他文档**：kind：中文介绍 Google Doc；id：1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM；webViewLink：
+**其他文档**：kind：中文介绍；id：1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM；webViewLink：
 
 来源：[1](
 

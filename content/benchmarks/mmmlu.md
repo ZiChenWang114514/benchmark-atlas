@@ -472,7 +472,7 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g"
     "webViewLink": "
   }

@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { currentLocale, t } from '../i18n';
 import { repoRoot } from './data';
 
 export type HeatModel = {
@@ -111,14 +112,19 @@ export function loadRegistry(): RegistryFile | null {
 }
 
 export function loadMethodology(): string | null {
-  const path = join(repoRoot(), 'docs/impact-methodology.md');
+  const name = currentLocale() === 'en' ? 'docs/impact-methodology.en.md' : 'docs/impact-methodology.md';
+  const path = join(repoRoot(), name);
   if (!existsSync(path)) return null;
   return readFileSync(path, 'utf8');
 }
 
 export function rankArrow(change: HeatRank['rank_change']): { mark: string; label: string } {
-  if (change === 'new') return { mark: '新', label: '新进入窗口' };
-  if (typeof change === 'number' && change < 0) return { mark: `+${Math.abs(change)}`, label: `名次上升 ${Math.abs(change)}` };
-  if (typeof change === 'number' && change > 0) return { mark: `−${change}`, label: `名次下降 ${change}` };
-  return { mark: '—', label: '名次未变' };
+  const locale = currentLocale();
+  if (change === 'new') return { mark: t(locale, 'rank.new_mark'), label: t(locale, 'rank.new') };
+  if (typeof change === 'number' && change < 0) {
+    const n = Math.abs(change);
+    return { mark: t(locale, 'rank.up_mark', { n }), label: t(locale, 'rank.up', { n }) };
+  }
+  if (typeof change === 'number' && change > 0) return { mark: t(locale, 'rank.down_mark', { n: change }), label: t(locale, 'rank.down', { n: change }) };
+  return { mark: t(locale, 'rank.same_mark'), label: t(locale, 'rank.same') };
 }

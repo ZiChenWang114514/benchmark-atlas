@@ -1,6 +1,6 @@
 # Code Migration v1.1
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 Vals Code Migration v1.1检验完整程序迁移后的行为保持：30个CLI仓库分别迁到四种其他语言，再加10个COBOL→Java仓库。主分按40个源仓库等权，绝不是130次迁移简单等权；可读性等代码质量只作独立诊断。
 

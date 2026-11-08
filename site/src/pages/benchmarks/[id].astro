@@ -1,7 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chapter from '../../components/Chapter.astro';
+import { currentLocale, t } from '../../i18n';
 import { CHAPTERS } from '../../lib/chapters';
+import { sectionLabel, sectionSlug } from '../../lib/sections';
 import { loadNews, loadRecords, newsForBenchmark, trendingFor, type BenchmarkFile } from '../../lib/data';
 import {
   PENDING_EXPLANATION,
@@ -21,6 +23,7 @@ export function getStaticPaths() {
   return loadRecords().map((record) => ({ params: { id: record.index.id } }));
 }
 
+const locale = currentLocale();
 const id = Astro.params.id;
 const records = loadRecords();
 const record = records.find((item) => item.index.id === id);
@@ -62,17 +65,17 @@ function external(field: Field | undefined): string | null {
 }
 const versionStatus = statusOf(file.basic_info.version);
 const links = [
-  ['论文', external(file.basic_info.paper_url)],
-  ['代码', external(file.basic_info.code_url)],
-  ['数据集', external(file.basic_info.dataset_url)],
-  ['官方主页', external(file.basic_info.official_homepage)],
+  [t(locale, 'detail.paper_link'), external(file.basic_info.paper_url)],
+  [t(locale, 'detail.code'), external(file.basic_info.code_url)],
+  [t(locale, 'detail.dataset'), external(file.basic_info.dataset_url)],
+  [t(locale, 'detail.homepage'), external(file.basic_info.official_homepage)],
 ].filter((item): item is [string, string] => typeof item[1] === 'string');
 
 function host(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
   } catch {
-    return '来源';
+    return t(locale, 'home.source');
   }
 }
 const summary = publicText(record.index.summary);
@@ -80,21 +83,21 @@ const hot = trendingFor(record.index.id);
 ---
 <Base title={record.index.name} description={summary} active="home">
   <div class="wrap detail-layout">
-    <nav class="toc" aria-label="章节">
-      <p>十一节</p>
-      {CHAPTERS.map((chapter) => <a href={`#${chapter.id}`}>{chapter.title}</a>)}
+    <nav class="toc" aria-label={t(locale, 'detail.toc_aria')}>
+      <p>{t(locale, 'detail.chapters')}</p>
+      {CHAPTERS.map((chapter) => <a href={`#${chapter.id}`}>{t(locale, `chapter.${chapter.id}.title`)}</a>)}
       {extras.map(([key]) => <a href={`#extra-${key}`}>{labelFor(key)}</a>)}
     </nav>
     <article class="record">
       <header class="dossier-hero">
         <p class="crumbs inline-meta">
-          <a href={page()}>目录</a>
-          <a href={`${page()}#sec-${record.index.section}`}>{record.index.section}</a>
+          <a href={page()}>{t(locale, 'detail.contents')}</a>
+          <a href={`${page()}#sec-${sectionSlug(record.index.section)}`}>{sectionLabel(record.index.section, locale)}</a>
         </p>
         <div class="dossier-kicker">
-          <span class="domain-tag">{record.index.section}</span>
-          {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
-          {hot && <span class="badge badge-hot">🔥 近期热门 {hot.heat_confidence}</span>}
+          <span class="domain-tag">{sectionLabel(record.index.section, locale)}</span>
+          {record.index.cited_2026h2 && <span class="badge badge-cite">{t(locale, 'home.cited')}</span>}
+          {hot && <span class="badge badge-hot">🔥 {t(locale, 'home.hot', { grade: hot.heat_confidence })}</span>}
         </div>
         <h1>{record.index.name}</h1>
         {textValue(file.basic_info.full_name) && textValue(file.basic_info.full_name) !== record.index.name && (
@@ -103,20 +106,20 @@ const hot = trendingFor(record.index.id);
         <p class="lede">{summary}</p>
         <dl class="fact-grid">
           <div>
-            <dt>发布</dt>
-            <dd>{textValue(file.basic_info.release_date) || '待核实'}</dd>
+            <dt>{t(locale, 'field.release_date')}</dt>
+            <dd>{textValue(file.basic_info.release_date) || t(locale, 'status.unverified')}</dd>
           </div>
           <div>
-            <dt>论文</dt>
-            <dd>{textValue(file.basic_info.paper_version) || '待核实'}</dd>
+            <dt>{t(locale, 'detail.paper_link')}</dt>
+            <dd>{textValue(file.basic_info.paper_version) || t(locale, 'status.unverified')}</dd>
           </div>
           <div>
-            <dt>数据版本</dt>
-            <dd>{versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : (textValue(file.basic_info.version) || '待核实')}</dd>
+            <dt>{t(locale, 'detail.version')}</dt>
+            <dd>{versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : (textValue(file.basic_info.version) || t(locale, 'status.unverified'))}</dd>
           </div>
           {record.index.last_checked && (
             <div>
-              <dt>最近复核</dt>
+              <dt>{t(locale, 'field.checked_at')}</dt>
               <dd>{record.index.last_checked}</dd>
             </div>
           )}
@@ -126,13 +129,13 @@ const hot = trendingFor(record.index.id);
         </div>
       </header>
       <div class="callout">
-        <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
+        <p><strong>{t(locale, 'detail.pending_title')}</strong>{t(locale, 'status.explanation')}</p>
       </div>
       {hot && (
         <div class="callout">
           <p>
-            <strong>为什么近期热门。</strong>
-            {hot.heat_confidence === 'A' ? '多家机构共同采用。' : '主要单一机构在用。'}
+            <strong>{t(locale, 'detail.why_hot')}</strong>
+            {hot.heat_confidence === 'A' ? t(locale, 'detail.why_a') : t(locale, 'detail.why_b')}
             {hot.rationale}
           </p>
           <ul class="trend-evidence">
@@ -162,7 +165,7 @@ const hot = trendingFor(record.index.id);
       )}
       {record.index.cited_2026h2 && (
         <div class="callout">
-          <p><strong>2026下半年仍被引用。</strong>{record.index.citation_note ? publicText(record.index.citation_note) : ''}</p>
+          <p><strong>{t(locale, 'detail.cited')}</strong>{record.index.citation_note ? publicText(record.index.citation_note) : ''}</p>
           {(record.index.cited_2026h2_evidence ?? []).length > 0 && (
             <ul class="doc-list">
               {(record.index.cited_2026h2_evidence ?? []).map((item) => {
@@ -170,8 +173,8 @@ const hot = trendingFor(record.index.id);
                 return (
                   <li>
                     {href ? <a href={href} target="_blank" rel="noopener noreferrer">{item.url}</a> : <span>{item.url}</span>}
-                    {item.date ? <span class="accessed">证据日期 {item.date}</span> : null}
-                    {item.accessed ? <span class="accessed">访问 {item.accessed}</span> : null}
+                    {item.date ? <span class="accessed">{t(locale, 'detail.evidence_date', { date: item.date })}</span> : null}
+                    {item.accessed ? <span class="accessed">{t(locale, 'detail.accessed', { date: item.accessed })}</span> : null}
                     {item.note ? <p class="note">{item.note}</p> : null}
                   </li>
                 );
@@ -182,16 +185,16 @@ const hot = trendingFor(record.index.id);
       )}
 
       {CHAPTERS.map((chapter) => (
-        <Chapter id={chapter.id} title={chapter.title} intro={chapter.intro} entries={entriesFor(chapter.id, chapter.keys)}>
+        <Chapter id={chapter.id} title={t(locale, `chapter.${chapter.id}.title`)} intro={t(locale, `chapter.${chapter.id}.intro`)} entries={entriesFor(chapter.id, chapter.keys)}>
           {chapter.id === 'latest_status' && news.length > 0 && (
             <div class="related">
-              <h3>相关动态</h3>
+              <h3>{t(locale, 'detail.related')}</h3>
               {news.map((item) => (
                 <article>
                   <p class="kicker">{item.type}</p>
                   <p class="when inline-meta">
-                    <span>观察 {item.observed_date}</span>
-                    <span>{item.event_date && item.event_date !== '待核实' ? `事件 ${item.event_date}` : '事件日期待核实'}</span>
+                    <span>{t(locale, 'news.observed', { date: item.observed_date })}</span>
+                    <span>{item.event_date && item.event_date !== '待核实' && item.event_date !== 'Unverified' ? t(locale, 'news.event', { date: item.event_date }) : t(locale, 'news.event_unverified')}</span>
                   </p>
                   <p>{item.title}</p>
                   <p class="news-body">{publicText(item.body)}</p>
@@ -212,16 +215,16 @@ const hot = trendingFor(record.index.id);
         <Chapter id={`extra-${key}`} title={labelFor(key)} entries={[{ label: labelFor(key), name: key, field }]} />
       ))}
 
-      <nav class="pager" aria-label="同板块">
+      <nav class="pager" aria-label={t(locale, 'detail.pager_aria')}>
         {previous ? (
           <a href={page(`benchmarks/${previous.index.id}`)}>
-            <small class="inline-meta"><span>上一条</span><span>{record.index.section}</span></small>
+            <small class="inline-meta"><span>{t(locale, 'detail.prev', { section: sectionLabel(record.index.section, locale) })}</span></small>
             {previous.index.name}
           </a>
         ) : <span></span>}
         {following && (
           <a class="next" href={page(`benchmarks/${following.index.id}`)}>
-            <small class="inline-meta"><span>下一条</span><span>{record.index.section}</span></small>
+            <small class="inline-meta"><span>{t(locale, 'detail.next', { section: sectionLabel(record.index.section, locale) })}</span></small>
             {following.index.name}
           </a>
         )}

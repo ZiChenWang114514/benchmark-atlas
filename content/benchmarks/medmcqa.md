@@ -722,7 +722,7 @@ f220a90ff42dfda381c317dc5ffe02702b9dc0970b6e1cc98b6f276e8daaf95b
 ```json
 [
   {
-    "type": "中文介绍 Google Doc"
+    "type": "中文介绍"
     "id": "1Y8ljt9P1DqY9GesgKN7_JYw2kCwuAk9oQT-k6VH6ZV8"
     "webViewLink": "https://docs.google.com/document/d/1Y8ljt9P1DqY9GesgKN7_JYw2kCwuAk9oQT-k6VH6ZV8/edit"
   }

@@ -135,18 +135,18 @@
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | GPT-Rosalind | 0.576 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 2026-11-08 |
-| 2 | GPT-5.5 | 0.519 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 2026-11-08 |
-| 3 | Gemini 3.1 Pro | 0.515 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 2026-11-08 |
-| 4 | GPT-5.4 | 0.479 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 2026-11-08 |
-| 5 | Grok 4.3 | 0.399 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 2026-11-08 |
+| 1 | GPT-Rosalind | 0.576 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，2026-11-08 |
+| 2 | GPT-5.5 | 0.519 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，2026-11-08 |
+| 3 | Gemini 3.1 Pro | 0.515 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，2026-11-08 |
+| 4 | GPT-5.4 | 0.479 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，2026-11-08 |
+| 5 | Grok 4.3 | 0.399 | 任务等权normalized rubric score | [来源](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，2026-11-08 |
 
 ### Astra发布表 / Gold v1脚注
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | GPT-6 Astra | 60.3% | 厂商表LifeSciBench得分 | [来源](https://openai.com/index/gpt-6-astra/) · 2026-11-08 |
-| 2 | GPT-5.6 Sol | 59.9% | 厂商表LifeSciBench得分 | [来源](https://openai.com/index/gpt-6-astra/) · 2026-11-08 |
+| 1 | GPT-6 Astra | 60.3% | 厂商表LifeSciBench得分 | [来源](https://openai.com/index/gpt-6-astra/)，2026-11-08 |
+| 2 | GPT-5.6 Sol | 59.9% | 厂商表LifeSciBench得分 | [来源](https://openai.com/index/gpt-6-astra/)，2026-11-08 |
 
 预印本对应任务通过率：GPT-Rosalind 36.1%；GPT-5.5 25.7%；Gemini 3.1 Pro 23.6%；GPT-5.4 20.7%；Grok 4.3 13.0%。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S5](https://openai.com/index/gpt-6-astra/)
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S1](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) [S5](https://openai.com/index/gpt-6-astra/)
@@ -193,18 +193,18 @@
 
 ## 变更记录
 
-- 2026-11-07 · 首次建立近期热门中文研究条目。本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。 热度与榜单口径分离，不确定值标记待核实。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首次建立近期热门中文研究条目。本条覆盖LifeSciBench及Gold v1口径；Rosalind产品9月11日开放更新不是benchmark首发。 热度与榜单口径分离，不确定值标记待核实。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S6](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) [S3](https://openai.com/index/introducing-life-sci-bench/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) · 访问 2026-11-08
-- S2 · [https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1) · 访问 2026-11-08
-- S3 · [https://openai.com/index/introducing-life-sci-bench/](https://openai.com/index/introducing-life-sci-bench/) · 访问 2026-11-08
-- S4 · [https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) · 访问 2026-11-08
-- S5 · [https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/) · 访问 2026-11-08
-- S6 · [https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) · 访问 2026-11-07
-- S7 · [https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/) · 访问 2026-11-07
+- S1，[https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf)，访问 2026-11-08
+- S2，[https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1](https://www.biorxiv.org/content/10.64898/2026.08.13.744657v1)，访问 2026-11-08
+- S3，[https://openai.com/index/introducing-life-sci-bench/](https://openai.com/index/introducing-life-sci-bench/)，访问 2026-11-08
+- S4，[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)，访问 2026-11-08
+- S5，[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)，访问 2026-11-08
+- S6，[https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)，访问 2026-11-07
+- S7，[https://openai.com/index/gpt-6-astra/](https://openai.com/index/gpt-6-astra/)，访问 2026-11-07

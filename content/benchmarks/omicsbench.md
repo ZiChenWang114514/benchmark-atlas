@@ -1,6 +1,6 @@
 # OmicsBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 OmicsBench把组学研究中的分析依赖拆成多轮DAG任务，观察agent是否能沿前序结果推进并利用反馈纠错。带门限反馈的gated协议不是无反馈single-pass能力的替代，本页将14个模型/脚手架组合的两套论文成绩分开。
 
@@ -444,7 +444,7 @@ https://arxiv.org/pdf/2610.21074
 
 ### 其他文档
 
-- {"type": "中文介绍 Google Doc", "id": "1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto", "webViewLink": "https://docs.google.com/document/d/1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto/edit"}
+- {"type": "中文介绍", "id": "1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto", "webViewLink": "https://docs.google.com/document/d/1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto/edit"}
 
 来源：[1](https://docs.google.com/document/d/1Rd0YR0hdWTNilcviY6cOx7JbUr4BTkLASeFwL65IKto/edit)（访问2026-11-07，）
 

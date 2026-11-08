@@ -119,67 +119,67 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 **第三方入口**：待核实 [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/)
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### matbench_v0.1 / matbench_steels
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MODNet (v0.1.12) | 87.7627 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | MODNet (v0.1.12) | 87.7627 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_jdft2d
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MODNet (v0.1.12) | 33.1918 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | MODNet (v0.1.12) | 33.1918 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_phonons
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MegNet (kgcnn v2.1.0) | 28.7606 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | MegNet (kgcnn v2.1.0) | 28.7606 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_expt_gap
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MODNet (v0.1.12) | 0.3327 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | MODNet (v0.1.12) | 0.3327 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_dielectric
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MODNet (v0.1.12) | 0.2711 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | MODNet (v0.1.12) | 0.2711 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_log_gvrh
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | coNGN | 0.0670 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | coNGN | 0.0670 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_log_kvrh
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | coNGN | 0.0491 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | coNGN | 0.0491 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_perovskites
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | coGN | 0.0269 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | coGN | 0.0269 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_mp_gap
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | coGN | 0.1559 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | coGN | 0.1559 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 ### matbench_v0.1 / matbench_mp_e_form
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | coGN | 0.0170 | MAE ↓ | [来源](https://matbench.materialsproject.org/) · 2026-11-08 |
+| 1 | coGN | 0.0170 | MAE ↓ | [来源](https://matbench.materialsproject.org/)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S8](https://matbench.materialsproject.org/)
 
@@ -195,7 +195,7 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 **官方发布渠道**：待核实 [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/)
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 **隐私口径**：只使用论文、官方站点或仓库公开联系方式；不收集私人渠道。 [S11](urn:benchmark-atlas:constitution:v0.1)
 
@@ -211,32 +211,32 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 **原有文件夹**：{"id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe", "webViewLink": " [S12](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": " [S13](
+**其他材料**：[{"kind": "中文介绍", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": " [S13](
 
 **原有 PDF**：{"id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV", "webViewLink": " [S14](
 
 ## 变更记录
 
-- 2026-11-07 · 首批官方材料核验、中文改写、；未核实字段显式标记。
-- 2026-11-07 · ：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首批官方材料核验、中文改写、；未核实字段显式标记。
+- 2026-11-07，：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S8](https://matbench.materialsproject.org/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/2005.00707](https://arxiv.org/abs/2005.00707) · 访问 2026-11-07
-- S2 · [https://arxiv.org/pdf/2005.00707](https://arxiv.org/pdf/2005.00707) · 访问 2026-11-07
-- S3 · [https://matbench.materialsproject.org/](https://matbench.materialsproject.org/) · 访问 2026-11-07
-- S4 · [https://raw.githubusercontent.com/materialsproject/matbench/main/README.md](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md) · 访问 2026-11-07
-- S5 · [https://arxiv.org/abs/2005.00707](https://arxiv.org/abs/2005.00707) · 访问 2026-11-08
-- S6 · [https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE](https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE) · 访问 2026-11-07
-- S7 · [https://arxiv.org/pdf/2005.00707](https://arxiv.org/pdf/2005.00707) · 访问 2026-11-08
-- S8 · [https://matbench.materialsproject.org/](https://matbench.materialsproject.org/) · 访问 2026-11-08
-- S9 · [https://matbench.materialsproject.org/How%20To%20Use/2run/](https://matbench.materialsproject.org/How%20To%20Use/2run/) · 访问 2026-11-08
-- S10 · [https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/) · 访问 2026-11-08
-- S11 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S12 · [ · 访问 2026-11-07
-- S13 · [ · 访问 2026-11-07
-- S14 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/2005.00707](https://arxiv.org/abs/2005.00707)，访问 2026-11-07
+- S2，[https://arxiv.org/pdf/2005.00707](https://arxiv.org/pdf/2005.00707)，访问 2026-11-07
+- S3，[https://matbench.materialsproject.org/](https://matbench.materialsproject.org/)，访问 2026-11-07
+- S4，[https://raw.githubusercontent.com/materialsproject/matbench/main/README.md](https://raw.githubusercontent.com/materialsproject/matbench/main/README.md)，访问 2026-11-07
+- S5，[https://arxiv.org/abs/2005.00707](https://arxiv.org/abs/2005.00707)，访问 2026-11-08
+- S6，[https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE](https://raw.githubusercontent.com/materialsproject/matbench/main/LICENSE)，访问 2026-11-07
+- S7，[https://arxiv.org/pdf/2005.00707](https://arxiv.org/pdf/2005.00707)，访问 2026-11-08
+- S8，[https://matbench.materialsproject.org/](https://matbench.materialsproject.org/)，访问 2026-11-08
+- S9，[https://matbench.materialsproject.org/How%20To%20Use/2run/](https://matbench.materialsproject.org/How%20To%20Use/2run/)，访问 2026-11-08
+- S10，[https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)，访问 2026-11-08
+- S11，[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)，访问 2026-11-07
+- S12，[，访问 2026-11-07
+- S13，[，访问 2026-11-07
+- S14，[，访问 2026-11-07

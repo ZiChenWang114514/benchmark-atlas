@@ -430,7 +430,7 @@ https://arxiv.org/pdf/2402.10260
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE"
     "webViewLink": "
   }

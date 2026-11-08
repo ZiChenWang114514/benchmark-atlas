@@ -1,6 +1,6 @@
 # BioMysteryBench
 
-> Benchmark Constitution · 深度复核：2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
+> Benchmark Constitution，深度复核：2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
 
 BioMysteryBench把真实组学文件交给可编程智能体，检验其能否恢复物种、组织来源或实验操作等有独立真值的信息，而不强迫采用某条指定分析路线。它的关键区分是“可验证答案”与“人类从零可解”并非一回事：最终99题中76题至少被一位专家解出，23题未被最多五位专家解出。后者不能直接称为科学未解难题；Vals独立评测与Anthropic原版实验也不是同一条计分轨道。
 

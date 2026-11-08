@@ -111,7 +111,7 @@ MoleculeNet: A Benchmark for Molecular Machine Learning
 
 > 状态：待核实。
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [来源1](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）
 
@@ -424,7 +424,7 @@ https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py
 
 > 状态：待核实。
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [来源1](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）
 
@@ -460,7 +460,7 @@ https://github.com/deepchem/moleculenet
 
 > 状态：待核实。
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [来源1](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）
 
@@ -594,7 +594,7 @@ https://github.com/deepchem/deepchem/issues
 
 > 状态：待核实。
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [来源1](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）
 
@@ -642,7 +642,7 @@ a017e94ab6a9b3165a99035b4839a10646e07f632f9406de98dd4c220cae3701
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1N1x3F64_weJ7TPqLFbcjNEGgvscSyd6pxySmDkXpSYw"
     "webViewLink": "
   }

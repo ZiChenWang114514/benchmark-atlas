@@ -1,6 +1,6 @@
 # ChemBench
 
-> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution，深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 ChemBench将化学知识、计算、推理、直觉与安全问题纳入统一可复现框架，题源同时含人工整理和半程序化生成，不能把全部题目宣传成专家从零手写。它按可核验最终答案计分，并不证明模型能安全开展开放化学研究。恢复了官网真实结果数据，已验证条目与未验证社区提交分开呈现，避免高分代理提交遮蔽可信比较。
 
@@ -112,7 +112,7 @@ Are large language models superhuman chemists?
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-07）；[来源3](https://chembench.lamalab.org/)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 作者
 
@@ -375,7 +375,7 @@ https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-07）；[来源3](https://chembench.lamalab.org/)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 逐轨结果
 
@@ -518,7 +518,7 @@ https://github.com/lamalab-org/chembench/issues
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-07）；[来源3](https://chembench.lamalab.org/)（访问2026-11-07）
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 ### 联系信息边界
 
@@ -564,7 +564,7 @@ https://arxiv.org/pdf/2404.01475
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY"
     "webViewLink": "
   }

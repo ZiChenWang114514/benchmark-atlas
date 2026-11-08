@@ -1,6 +1,6 @@
 # PHYBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 PHYBench要求模型根据文本物理情景推导符号表达式，用准确率和Expression Edit Distance分别刻画完全正确与部分相近。公开题干不等于公开全部解答；本页已取得官网完整模型数据，不再以旧项目页的历史最好成绩代替现榜。
 
@@ -331,7 +331,7 @@ Submission history From: Zhuo-Yang Song [ view email ] [v1] 2025-04-23 02:53:29 
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2504.16074)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2504.16074)（访问2026-11-08，）；[3](https://phybench-official.github.io/phybench-demo/)（访问2026-11-08，）
 
@@ -353,7 +353,7 @@ https://www.phybench.cn/leaderboard
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2504.16074)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2504.16074)（访问2026-11-08，）；[3](https://phybench-official.github.io/phybench-demo/)（访问2026-11-08，）
 
@@ -450,7 +450,7 @@ https://github.com/phybench-official/phybench/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2504.16074)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2504.16074)（访问2026-11-08，）；[3](https://phybench-official.github.io/phybench-demo/)（访问2026-11-08，）
 
@@ -508,7 +508,7 @@ https://arxiv.org/pdf/2504.16074
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto", "webViewLink": "
+- {"kind": "中文介绍", "id": "1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto", "webViewLink": "
 
 来源：[1](
 

@@ -1,12 +1,14 @@
 ---
 import Value from './Value.astro';
-import { badgeClass, dateStamp, formatBytes, isEmail, labelFor, publicText, safeUrl } from '../lib/format';
+import { currentLocale, t } from '../i18n';
+import { badgeClass, dateStamp, formatBytes, isEmail, isStatusWord, labelFor, publicText, safeUrl } from '../lib/format';
 
 interface Props {
   value: unknown;
   name?: string;
 }
 const { value, name } = Astro.props;
+const locale = currentLocale();
 
 const isRecord = (item: unknown): item is Record<string, unknown> =>
   !!item && typeof item === 'object' && !Array.isArray(item);
@@ -92,10 +94,10 @@ function tight(cell: unknown): boolean {
   return cell.length <= 24;
 }
 ---
-{value === '待核实' || value === '未公开' ? (
+{isStatusWord(value) ? (
   <span class:list={['badge', badgeClass(value)]}>{value}</span>
 ) : value == null || value === '' ? (
-  <span class="muted-inline">（空）</span>
+  <span class="muted-inline">{t(locale, 'value.empty')}</span>
 ) : href ? (
   <a href={href} target="_blank" rel="noopener noreferrer">{href}</a>
 ) : typeof value === 'string' && isEmail(value) ? (
@@ -107,11 +109,11 @@ function tight(cell: unknown): boolean {
 ) : typeof value === 'number' && (name === 'pdf_bytes' || name === 'bytes') ? (
   <span class="num">{formatBytes(value)}</span>
 ) : typeof value === 'number' ? (
-  <span class="num">{new Intl.NumberFormat('zh-Hans').format(value)}</span>
+  <span class="num">{new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(value)}</span>
 ) : typeof value === 'boolean' ? (
-  <span>{value ? '是' : '否'}</span>
+  <span>{value ? t(locale, 'value.yes') : t(locale, 'value.no')}</span>
 ) : strings && strings.length === 0 ? (
-  <span class="muted-inline">（空）</span>
+  <span class="muted-inline">{t(locale, 'value.empty')}</span>
 ) : emailList && strings ? (
   <ul class="doc-list">
     {strings.map((email) => <li><a href={`mailto:${email}`}>{email}</a></li>)}
@@ -125,7 +127,7 @@ function tight(cell: unknown): boolean {
     {strings.map((item) => <li>{item}</li>)}
   </ul>
 ) : strings ? (
-  <span>{strings.join('、')}</span>
+  <span>{strings.join(t(locale, 'value.join'))}</span>
 ) : isChangelog && scalarRows ? (
   <ol class="changelog">
     {scalarRows.map((item) => (
@@ -161,7 +163,7 @@ function tight(cell: unknown): boolean {
     {nestedRows.map((row) => (
       <div class="record-card">
         {typeof row.webViewLink === 'string' && safeUrl(row.webViewLink) && (
-          <p class="field-value"><a href={row.webViewLink} target="_blank" rel="noopener noreferrer">{typeof row.kind === 'string' ? row.kind : typeof row.type === 'string' ? row.type : '打开链接'}</a></p>
+          <p class="field-value"><a href={row.webViewLink} target="_blank" rel="noopener noreferrer">{typeof row.kind === 'string' ? row.kind : typeof row.type === 'string' ? row.type : t(locale, 'value.open')}</a></p>
         )}
         <dl class="kv">
           {Object.entries(row).filter(([key]) => key !== 'timezone' && (key !== 'webViewLink' || !safeUrl(String(row.webViewLink ?? '')))).map(([key, item]) => (
@@ -177,7 +179,7 @@ function tight(cell: unknown): boolean {
 ) : drive && safeUrl(String(drive.webViewLink)) ? (
   <div>
     <p class="field-value">
-      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : '打开文件'}</a>
+      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : t(locale, 'value.open')}</a>
       {drive.id ? <span class="file-id">{String(drive.id)}</span> : null}
     </p>
     {Object.keys(drive).some((key) => !['webViewLink', 'id', 'kind', 'type'].includes(key)) && (

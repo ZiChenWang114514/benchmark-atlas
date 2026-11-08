@@ -1,6 +1,6 @@
 # AA-Omniscience
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 最近复核
 
@@ -263,7 +263,7 @@ v1 与 v1.1 题库和分数不可直接混比；当前页仍保留 v1 论文摘�
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://artificialanalysis.ai/evaluations/omniscience)（访问2026-11-07）
 
@@ -423,7 +423,7 @@ AA-Omniscience-Public v1.0/v1.1为同家族公开子集；不得将公开300题�
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://artificialanalysis.ai/evaluations/omniscience)（访问2026-11-07）
 
@@ -449,9 +449,9 @@ https://artificialanalysis.ai/evaluations/omniscience
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 4 Carbon (High) | 54 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 2 | Claude Opus 5.5 (Max, Default Fallback) | 48 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 3 | Gemini 4 Carbon (Medium) | 47 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
+| 1 | Gemini 4 Carbon (High) | 54 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 2 | Claude Opus 5.5 (Max, Default Fallback) | 48 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 3 | Gemini 4 Carbon (Medium) | 47 | 100×(correct−incorrect)/total | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
 
 
 
@@ -459,9 +459,9 @@ https://artificialanalysis.ai/evaluations/omniscience
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Claude Fable 5.1 (Max, Default Fallback) | 68 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 2 | Claude Fable 5.1 (Xhigh, Default Fallback) | 67 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 3 | Claude Opus 5.5 (Xhigh, Default Fallback) | 66 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
+| 1 | Claude Fable 5.1 (Max, Default Fallback) | 68 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 2 | Claude Fable 5.1 (Xhigh, Default Fallback) | 67 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 3 | Claude Opus 5.5 (Xhigh, Default Fallback) | 66 | 正确率 (%) | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
 
 
 
@@ -469,9 +469,9 @@ https://artificialanalysis.ai/evaluations/omniscience
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 4 Carbon (Medium) | 4 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 1 | Gemini 4 Argon (High) | 4 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
-| 3 | Gemini 4 Carbon (High) | 11 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience) · 2026-11-07 |
+| 1 | Gemini 4 Carbon (Medium) | 4 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 1 | Gemini 4 Argon (High) | 4 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
+| 3 | Gemini 4 Carbon (High) | 11 | 官网幻觉率 (%)；越低越好 | [原表](https://artificialanalysis.ai/evaluations/omniscience)，2026-11-07 |
 
 
 
@@ -561,7 +561,7 @@ abedc69e8235329cbfe0fe49cc33928a5b1732bc054637328c00b07f588b5dfa
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1Suli8iNzIoHvLMfAxHiSjWdZaSYSX22WFU-Wznw_V1k"
     "webViewLink": "
   }
@@ -587,12 +587,12 @@ abedc69e8235329cbfe0fe49cc33928a5b1732bc054637328c00b07f588b5dfa
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
     "fields_updated": [
       "basic_info.license"
@@ -627,7 +627,7 @@ abedc69e8235329cbfe0fe49cc33928a5b1732bc054637328c00b07f588b5dfa
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

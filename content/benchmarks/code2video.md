@@ -1,6 +1,6 @@
 # Code2Video Bench
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 Code2Video Bench评估“写代码生成好视频”，不是只检查代码能否运行。HeyGen原版为168个人工参考片段/brief及自训偏好裁判；AA是114 brief和Gemini裁判的独立实现。两套Elo依赖不同题集、裁判与对手池，必须分轨展示。
 
