@@ -1,0 +1,27 @@
+---
+interface Event {
+  date: string;
+  label: string;
+  text?: string;
+}
+interface Props {
+  title: string;
+  aria: string;
+  events: Event[];
+}
+const { title, aria, events } = Astro.props;
+---
+<section class="timeline-card reveal" aria-label={aria}>
+  <h2>{title}</h2>
+  <ol class="timeline">
+    {events.map((event) => (
+      <li>
+        <time datetime={event.date}>{event.date}</time>
+        <div>
+          <p>{event.label}</p>
+          {event.text && event.text !== event.label ? <p class="timeline-text">{event.text}</p> : null}
+        </div>
+      </li>
+    ))}
+  </ol>
+</section>

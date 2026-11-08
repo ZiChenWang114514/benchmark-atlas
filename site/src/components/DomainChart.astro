@@ -1,0 +1,78 @@
+---
+import { AMBER_RAMP } from '../lib/profile';
+
+interface Item {
+  label: string;
+  count: number;
+  href: string;
+  slug: string;
+}
+interface Props {
+  items: Item[];
+  title: string;
+  aria: string;
+  segment: string;
+}
+const { items, title, aria, segment } = Astro.props;
+const total = items.reduce((sum, item) => sum + item.count, 0);
+const max = items.reduce((peak, item) => Math.max(peak, item.count), 0);
+const cx = 90;
+const cy = 90;
+const outer = 78;
+const inner = 46;
+
+function polar(radius: number, angle: number): [number, number] {
+  return [cx + Math.cos(angle) * radius, cy + Math.sin(angle) * radius];
+}
+function slice(start: number, end: number): string {
+  const span = end - start;
+  const pad = span > 0.05 ? 0.012 : 0;
+  const a0 = start + pad;
+  const a1 = end - pad;
+  const large = a1 - a0 > Math.PI ? 1 : 0;
+  const [x0, y0] = polar(outer, a0);
+  const [x1, y1] = polar(outer, a1);
+  const [x2, y2] = polar(inner, a1);
+  const [x3, y3] = polar(inner, a0);
+  return `M ${x0.toFixed(2)} ${y0.toFixed(2)} A ${outer} ${outer} 0 ${large} 1 ${x1.toFixed(2)} ${y1.toFixed(2)} L ${x2.toFixed(2)} ${y2.toFixed(2)} A ${inner} ${inner} 0 ${large} 0 ${x3.toFixed(2)} ${y3.toFixed(2)} Z`;
+}
+
+let cursor = -Math.PI / 2;
+const slices = items.map((item, index) => {
+  const start = cursor;
+  const sweep = total ? (item.count / total) * Math.PI * 2 : 0;
+  cursor += sweep;
+  return {
+    ...item,
+    d: sweep > 0 ? slice(start, start + sweep) : '',
+    color: AMBER_RAMP[index % AMBER_RAMP.length],
+    share: max ? Math.max(4, Math.round((item.count / max) * 100)) : 0,
+    text: segment.replace('{label}', item.label).replace('{n}', String(item.count)),
+  };
+});
+---
+<figure class="domain-chart reveal">
+  <figcaption>{title}</figcaption>
+  <div class="domain-layout">
+    <svg class="domain-pie" viewBox="0 0 180 180" role="group" aria-label={aria}>
+      {slices.map((item) => item.d && (
+        <a href={item.href} data-domain-link={item.slug} aria-label={item.text}>
+          <path d={item.d} fill={item.color} />
+        </a>
+      ))}
+      <text class="domain-total" x="90" y="96" text-anchor="middle">{total}</text>
+    </svg>
+    <ul class="domain-legend">
+      {slices.map((item) => (
+        <li>
+          <a href={item.href} data-domain-link={item.slug} aria-label={item.text}>
+            <i style={`background:${item.color}`} aria-hidden="true"></i>
+            <span>{item.label}</span>
+            <b class="num">{item.count}</b>
+            <span class="track" aria-hidden="true"><span class="grow" style={`width:${item.share}%`}></span></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</figure>

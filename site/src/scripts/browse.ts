@@ -108,6 +108,20 @@ function initBrowse() {
       run();
     });
   }
+  document.querySelectorAll<HTMLAnchorElement>('[data-domain-link]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const slug = link.dataset.domainLink || '';
+      const chip = chips.find((item) => item.dataset.sectionChip === slug);
+      if (!chip) return;
+      event.preventDefault();
+      for (const other of chips) other.setAttribute('aria-pressed', other === chip ? 'true' : 'false');
+      const nextHash = `#sec-${slug}`;
+      history.replaceState(null, '', `${location.pathname}${location.search}${nextHash}`);
+      apply(true);
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      document.getElementById(`sec-${slug}`)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    });
+  });
   form.querySelector('#reset')?.addEventListener('click', () => {
     if (queryInput) queryInput.value = '';
     if (tagSelect) tagSelect.value = '';

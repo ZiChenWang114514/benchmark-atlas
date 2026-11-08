@@ -1,7 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chapter from '../../components/Chapter.astro';
+import Timeline from '../../components/Timeline.astro';
 import { currentLocale, t } from '../../i18n';
+import { impactById, loadImpact } from '../../lib/boards';
+import { profileHtml, profileParts } from '../../lib/profile';
 import { CHAPTERS } from '../../lib/chapters';
 import { sectionLabel, sectionSlug } from '../../lib/sections';
 import { loadNews, loadRecords, newsForBenchmark, trendingFor, type BenchmarkFile } from '../../lib/data';
@@ -80,6 +83,37 @@ function host(url: string): string {
 }
 const summary = publicText(record.index.summary);
 const hot = trendingFor(record.index.id);
+const impactFile = loadImpact();
+const impactRow = impactById(record.index.id);
+const impactWeights = new Map((impactFile?.dimensions ?? []).map((dimension) => [dimension.key, dimension.weight]));
+const profileTitle = t(locale, 'detail.profile');
+const profilePartsView = impactRow
+  ? profileParts(impactRow.components, impactWeights, impactRow.assessment_review).map((part) => ({
+      label: t(locale, `impact.part.${part.id}`),
+      value: part.value,
+      note: part.id === 'penalties' ? t(locale, 'impact.part.penalties_note') : '',
+    }))
+  : [];
+const profileMarkup = profileHtml(profilePartsView, profileTitle, t(locale, 'detail.profile_aria', { name: record.index.name }));
+
+function dated(value: string | null | undefined): string {
+  if (!value) return '';
+  const text = value.trim();
+  if (!text || text === '待核实' || text === 'Unverified' || text === '未公开' || text === 'Not disclosed') return '';
+  const match = /^(\d{4})(?:[-/.](\d{2})(?:[-/.](\d{2}))?)?/.exec(text);
+  if (!match) return '';
+  if (match[3]) return `${match[1]}-${match[2]}-${match[3]}`;
+  if (match[2]) return `${match[1]}-${match[2]}`;
+  return match[1];
+}
+const timeline = [
+  ...[dated(textValue(file.basic_info.release_date))].filter(Boolean).map((date) => ({ date, label: t(locale, 'field.release_date') })),
+  ...news.flatMap((item) => {
+    const date = dated(item.event_date) || dated(item.observed_date);
+    return date ? [{ date, label: t(locale, 'detail.event_news'), text: item.title }] : [];
+  }),
+  ...[dated(record.index.last_checked)].filter(Boolean).map((date) => ({ date, label: t(locale, 'field.checked_at') })),
+].sort((a, b) => a.date.localeCompare(b.date) || a.label.localeCompare(b.label, locale === 'zh' ? 'zh' : 'en'));
 ---
 <Base title={record.index.name} description={summary} active="home">
   <div class="wrap detail-layout">
@@ -127,6 +161,12 @@ const hot = trendingFor(record.index.id);
         <div class="actions">
           {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
         </div>
+        {(profileMarkup || timeline.length > 0) && (
+          <div class="dossier-viz">
+            {profileMarkup && <div class="reveal" set:html={profileMarkup} />}
+            {timeline.length > 0 && <Timeline title={t(locale, 'detail.timeline')} aria={t(locale, 'detail.timeline_aria', { name: record.index.name })} events={timeline} />}
+          </div>
+        )}
       </header>
       <div class="callout">
         <p><strong>{t(locale, 'detail.pending_title')}</strong>{t(locale, 'status.explanation')}</p>

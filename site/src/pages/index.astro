@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import DomainChart from '../components/DomainChart.astro';
 import HeatLegend from '../components/HeatLegend.astro';
+import HeroSky from '../components/HeroSky.astro';
 import TrendItem from '../components/TrendItem.astro';
 import { currentLocale, t } from '../i18n';
 import { visualCopy } from '../i18n/visual';
@@ -39,6 +41,13 @@ const known = new Set(records.map((record) => record.index.id));
 const heatTop = (heat?.ranking ?? []).slice(0, 5);
 const impactTop = (impact?.ranking ?? []).filter((row) => row.score != null).slice(0, 5);
 const stamp = dateStamp(index.generated_at);
+const nf = new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en');
+const domainItems = groups.map((group) => ({
+  label: sectionLabel(group.id, locale),
+  count: group.items.length,
+  href: `#sec-${sectionSlug(group.id)}`,
+  slug: sectionSlug(group.id),
+}));
 const windowText = trending.window?.from && trending.window?.through ? t(locale, 'home.window', { from: trending.window.from, through: trending.window.through }) : '';
 const stats = [
   { href: '#browse', label: ui.statDossiers, value: records.length },
@@ -65,25 +74,33 @@ function pct(value: number): number {
 >
   <div class="wrap">
     <header class="masthead">
-      <h1>Benchmark Constitution</h1>
-      <p class="lede">{t(locale, 'home.lede')}</p>
-      <p class="meta-row">
-        {stamp && <span>{ui.snapshot} {stamp}</span>}
-        <span>{t(locale, 'home.records', { n: records.length })}</span>
-        <a href={page('constitution')}>{t(locale, 'home.constitution_link')}</a>
-      </p>
+      <div class="masthead-grid">
+        <div>
+          <h1>Benchmark Constitution</h1>
+          <p class="lede">{t(locale, 'home.lede')}</p>
+          <p class="meta-row">
+            {stamp && <span>{ui.snapshot} {stamp}</span>}
+            <span>{t(locale, 'home.records', { n: records.length })}</span>
+            <a href={page('constitution')}>{t(locale, 'home.constitution_link')}</a>
+          </p>
+        </div>
+        <HeroSky clusters={groups.map((group) => ({ count: group.items.length }))} label={t(locale, 'home.hero_aria')} />
+      </div>
     </header>
 
-    <div class="stat-row">
+    <div class="stat-row reveal">
       {stats.map((item) => (
         <a class="stat" href={item.href}>
           <span>{item.label}</span>
-          <strong>{new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(item.value)}</strong>
+          <strong data-count={item.value} data-count-label={nf.format(item.value)}>{nf.format(item.value)}</strong>
         </a>
       ))}
     </div>
+    {domainItems.length > 0 && (
+      <DomainChart items={domainItems} title={t(locale, 'home.domain_chart')} aria={t(locale, 'home.domain_chart_aria')} segment={t(locale, 'home.segment')} />
+    )}
 
-    <section class="section" id="news" aria-labelledby="news-title">
+    <section class="section reveal" id="news" aria-labelledby="news-title">
       <header class="flag">
         <h2 id="news-title">{t(locale, 'home.news')}</h2>
         <p>{t(locale, 'home.news_note')}</p>
@@ -143,7 +160,7 @@ function pct(value: number): number {
                       <span class="rail-name">{displayName(row.name)}</span>
                       <span class="rail-score">
                         <span class="num">{score.toFixed(1)}</span>
-                        <span class="track" aria-hidden="true"><span style={`width:${pct(score)}%`}></span></span>
+                        <span class="track" aria-hidden="true"><span class="grow" style={`width:${pct(score)}%`}></span></span>
                       </span>
                     </a>
                   );
@@ -162,7 +179,7 @@ function pct(value: number): number {
                       <span class="rail-name">{displayName(row.name)}</span>
                       <span class="rail-score">
                         <span class="num">{row.count}</span>
-                        <span class="track" aria-hidden="true"><span style={`width:${pct(share * 100)}%`}></span></span>
+                        <span class="track" aria-hidden="true"><span class="grow" style={`width:${pct(share * 100)}%`}></span></span>
                       </span>
                     </a>
                   );
@@ -174,7 +191,7 @@ function pct(value: number): number {
       )}
     </section>
 
-    <section class="section" id="trending" aria-labelledby="trending-title">
+    <section class="section reveal" id="trending" aria-labelledby="trending-title">
       <header class="flag">
         <h2 id="trending-title">{t(locale, 'home.trending')}</h2>
         <p class="inline-meta">
@@ -188,7 +205,7 @@ function pct(value: number): number {
       </div>
     </section>
 
-    <section class="section" id="sections" aria-labelledby="sections-title">
+    <section class="section reveal" id="sections" aria-labelledby="sections-title">
       <header class="flag">
         <h2 id="sections-title">{t(locale, 'home.sections')}</h2>
         <p>{t(locale, 'home.sections_note')}</p>
@@ -205,7 +222,7 @@ function pct(value: number): number {
       <p class="index-note">{t(locale, 'home.index_note')}</p>
     </section>
 
-    <section class="section" id="browse" aria-labelledby="browse-title">
+    <section class="section reveal" id="browse" aria-labelledby="browse-title">
       <header class="flag">
         <h2 id="browse-title">{t(locale, 'home.browse')}</h2>
         <p id="result-count">{t(locale, 'home.count', { total: records.length, shown: records.length })}</p>
@@ -240,7 +257,7 @@ function pct(value: number): number {
     </section>
 
     {groups.map((group) => (
-      <section class="group" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
+      <section class="group reveal" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
         <header class="group-head">
           <div>
             <h2 id={`heading-${sectionSlug(group.id)}`}>{sectionLabel(group.id, locale)}</h2>

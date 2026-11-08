@@ -7,45 +7,62 @@ import { sectionLabel } from '../../lib/sections';
 import { loadImpact, type ImpactRow } from '../../lib/boards';
 import { loadIndex } from '../../lib/data';
 import { dateStamp, displayName, page } from '../../lib/format';
+import { isQualityPrior, profileHtml, profileParts, scoreTier } from '../../lib/profile';
 import BarChart from '../../components/BarChart.astro';
 
 const locale = currentLocale();
 const ui = visualCopy(locale);
 const impact = loadImpact();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
-const dimensions = new Map((impact?.dimensions ?? []).map((dimension) => [dimension.key, translateContent(dimension.name_zh, locale)]));
+const weights = new Map((impact?.dimensions ?? []).map((dimension) => [dimension.key, dimension.weight]));
+const breakdown = t(locale, 'impact.breakdown');
+const penaltiesNote = t(locale, 'impact.part.penalties_note');
+const expand = t(locale, 'impact.expand');
+const nf = new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en');
 
 function num(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) ? value : null;
 }
-function qualityPrior(row: ImpactRow, value: number | null): boolean {
-  if (value !== 50) return false;
-  const review = row.assessment_review;
-  const audited = review?.formal_quality_audit_complete === true && (review.independent_reviewers ?? 0) > 0;
-  return !audited;
+function prior(row: ImpactRow, value: number | null): boolean {
+  return isQualityPrior(row.assessment_review, value);
 }
 function slim(row: ImpactRow, tier: 'ranked' | 'insufficient') {
   const components = row.components ?? {};
   const quality = num(components.quality);
+  const qualityIsPrior = prior(row, quality);
   return {
     rank: typeof row.rank === 'number' ? row.rank : null,
     id: row.id,
     name: displayName(row.name),
     domain: sectionLabel(row.domain, locale),
     score: num(row.score),
-    quality: qualityPrior(row, quality) ? null : quality,
-    qualityPrior: qualityPrior(row, quality),
+    quality: qualityIsPrior ? null : quality,
+    qualityPrior: qualityIsPrior,
     community: num(components.community),
     saturation: num(components.headroom),
     github: num(components.github),
     tier,
     href: known.has(row.id) ? page(`benchmarks/${row.id}`) : '',
+    parts: profileParts(components, weights, row.assessment_review),
   };
 }
-const rows = impact
-  ? [...impact.ranking.map((row) => slim(row, 'ranked')), ...(impact.unscored ?? []).map((row) => slim(row, 'insufficient'))]
-  : [];
-const domains = [...new Set(rows.map((row) => row.domain).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh'));
+type View = ReturnType<typeof slim> & { chart: string; search: string };
+function present(row: ImpactRow, tier: 'ranked' | 'insufficient'): View {
+  const base = slim(row, tier);
+  const parts = base.parts.map((part) => ({
+    label: t(locale, `impact.part.${part.id}`),
+    value: part.value,
+    note: part.id === 'penalties' ? penaltiesNote : '',
+  }));
+  return {
+    ...base,
+    search: `${base.name} ${base.id} ${base.domain}`.toLowerCase(),
+    chart: profileHtml(parts, breakdown, `${breakdown} ${base.name}`, true),
+  };
+}
+const ranked = impact ? impact.ranking.map((row) => present(row, 'ranked')) : [];
+const thin = impact ? (impact.unscored ?? []).map((row) => slim(row, 'insufficient')) : [];
+const domains = [...new Set([...ranked, ...thin].map((row) => row.domain).filter(Boolean))].sort((a, b) => a.localeCompare(b, locale === 'zh' ? 'zh' : 'en'));
 const rankedCount = impact?.ranking.length ?? 0;
 const thinCount = impact?.unscored?.length ?? 0;
 const stamp = dateStamp(impact?.generated_at);
@@ -58,7 +75,25 @@ const topChart = (impact?.ranking ?? [])
     value: row.score,
     href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
   }));
-const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
+const sortFields = [
+  ['rank', ui.colRank],
+  ['name', ui.colName],
+  ['domain', ui.colDomain],
+  ['score', ui.colScore],
+  ['quality', ui.evQuality],
+  ['community', ui.evCommunity],
+  ['headroom', ui.evHeadroom],
+  ['github', ui.evGithub],
+] as const;
+const sortOptions = sortFields.flatMap(([key, text]) => (['asc', 'desc'] as const).map((dir) => ({
+  value: `${key}:${dir}`,
+  label: t(locale, 'impact.sort_option', { label: text, dir: t(locale, dir === 'asc' ? 'impact.asc' : 'impact.desc') }),
+  selected: key === 'rank' && dir === 'asc',
+})));
+const payload = JSON.stringify(thin).replaceAll('<', '\\u003c');
+function widthOf(value: number): number {
+  return Math.max(0, Math.min(100, value));
+}
 ---
 <Base title={t(locale, 'impact.title')} description={t(locale, 'impact.description')} active="impact">
   <div class="wrap page-hero">
@@ -70,18 +105,18 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
       <a href={page('impact/method')}>{t(locale, 'impact.method_link')}</a>
     </p>
     {impact && (
-      <div class="stat-row">
+      <div class="stat-row reveal">
         <a class="stat" href="#impact-board">
           <span>{ui.statAll}</span>
-          <strong>{new Intl.NumberFormat('zh-Hans').format(rows.length)}</strong>
+          <strong data-count={ranked.length + thin.length} data-count-label={nf.format(ranked.length + thin.length)}>{nf.format(ranked.length + thin.length)}</strong>
         </a>
         <a class="stat" href="#impact-board">
           <span>{ui.statRanked}</span>
-          <strong>{new Intl.NumberFormat('zh-Hans').format(rankedCount)}</strong>
+          <strong data-count={rankedCount} data-count-label={nf.format(rankedCount)}>{nf.format(rankedCount)}</strong>
         </a>
         <a class="stat" href="#impact-board">
           <span>{ui.statThin}</span>
-          <strong>{new Intl.NumberFormat('zh-Hans').format(thinCount)}</strong>
+          <strong data-count={thinCount} data-count-label={nf.format(thinCount)}>{nf.format(thinCount)}</strong>
         </a>
       </div>
     )}
@@ -90,7 +125,7 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
     {impact ? (
       <>
         {topChart.length > 0 && (
-          <section class="chart-block" aria-labelledby="impact-top">
+          <section class="chart-block reveal" aria-labelledby="impact-top">
             <h2 id="impact-top">{ui.topChart}</h2>
             <BarChart items={topChart} />
           </section>
@@ -107,10 +142,15 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
             <option value="">{ui.allDomains}</option>
             {domains.map((domain) => <option value={domain}>{domain}</option>)}
           </select>
-          <p id="impact-count" class="result-count" data-showing={ui.showing} data-unit={ui.rows} aria-live="polite"></p>
+          <label class="sort-pick" for="impact-sort">{t(locale, 'impact.sort')}
+            <select id="impact-sort">
+              {sortOptions.map((option) => <option value={option.value} selected={option.selected || undefined}>{option.label}</option>)}
+            </select>
+          </label>
+          <p id="impact-count" class="result-count" data-showing={ui.showing} data-unit={ui.rows} aria-live="polite">{ui.showing} {rankedCount} {ui.rows}</p>
         </form>
         <p id="impact-empty" class="empty" hidden>{ui.emptyFilter}</p>
-        <div class="board-scroll">
+        <div class="board-scroll grow-root">
           <table
             class="board"
             id="impact-table"
@@ -122,10 +162,17 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
             data-label-community={ui.evCommunity}
             data-label-headroom={ui.evHeadroom}
             data-label-github={ui.evGithub}
-            data-tip-quality={dimensions.get('quality') || ui.evQuality}
-            data-tip-community={dimensions.get('community') || ui.evCommunity}
-            data-tip-headroom={dimensions.get('headroom') || ui.evHeadroom}
-            data-tip-github={dimensions.get('github') || ui.evGithub}
+            data-part-citations={t(locale, 'impact.part.citations')}
+            data-part-github={t(locale, 'impact.part.github')}
+            data-part-hf={t(locale, 'impact.part.hf')}
+            data-part-adoption={t(locale, 'impact.part.adoption')}
+            data-part-community={t(locale, 'impact.part.community')}
+            data-part-novelty={t(locale, 'impact.part.novelty')}
+            data-part-quality={t(locale, 'impact.part.quality')}
+            data-part-penalties={t(locale, 'impact.part.penalties')}
+            data-penalties-note={penaltiesNote}
+            data-expand={expand}
+            data-breakdown={breakdown}
             data-null-tip={ui.nullTip}
             data-prior-tip={ui.priorTip}
             data-unranked={ui.unranked}
@@ -133,19 +180,69 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
             <caption class="sr-only">{t(locale, 'impact.title')}</caption>
             <thead>
               <tr>
-                <th class="rank-col" scope="col">{ui.colRank}</th>
-                <th class="name-col" scope="col">{ui.colName}</th>
-                <th scope="col">{ui.colDomain}</th>
-                <th scope="col">{ui.colScore}</th>
-                <th scope="col">{ui.evQuality}</th>
-                <th scope="col">{ui.evCommunity}</th>
-                <th scope="col">{ui.evHeadroom}</th>
-                <th scope="col">{ui.evGithub}</th>
+                <th class="rank-col" scope="col" aria-sort="ascending"><button type="button" class="sort-btn" data-sort="rank" data-dir="asc">{ui.colRank}</button></th>
+                <th class="name-col" scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="name">{ui.colName}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="domain">{ui.colDomain}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="score">{ui.colScore}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="quality">{ui.evQuality}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="community">{ui.evCommunity}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="headroom">{ui.evHeadroom}</button></th>
+                <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="github">{ui.evGithub}</button></th>
               </tr>
             </thead>
-            <tbody id="impact-body"></tbody>
+            {ranked.map((row) => (
+              <tbody class:list={['entry', row.rank != null && row.rank <= 3 && `podium-${row.rank}`]} data-tier="ranked" data-rank={row.rank ?? ''} data-name={row.name} data-domain={row.domain} data-score={row.score ?? ''} data-quality={row.quality ?? ''} data-community={row.community ?? ''} data-headroom={row.saturation ?? ''} data-github={row.github ?? ''} data-search={row.search}>
+                <tr>
+                  <td class="rank-cell" data-label={ui.colRank}>{row.rank == null ? <span class="na" title={ui.unranked}>—</span> : <span class="rank-no">{row.rank}</span>}</td>
+                  <td class="name-cell" data-label={ui.colName}>{row.href ? <a href={row.href}>{row.name}</a> : row.name}</td>
+                  <td data-label={ui.colDomain}>{row.domain ? <span class="domain-tag">{row.domain}</span> : <span class="na" title={ui.nullTip}>—</span>}</td>
+                  <td class="score-cell" data-label={ui.colScore}>
+                    {row.score == null || row.parts.length === 0 ? (
+                      row.score == null ? <span class="na" title={ui.nullTip}>—</span> : (
+                        <span class="score-wrap">
+                          <span class="score-num">{row.score.toFixed(1)}</span>
+                          <span class="track" aria-hidden="true"><span class:list={[scoreTier(row.score), 'grow']} style={`width:${widthOf(row.score)}%`}></span></span>
+                        </span>
+                      )
+                    ) : (
+                      <div class="tip-host">
+                        <details>
+                          <summary class="score-summary" aria-controls={`bd-${row.id}`} aria-label={`${expand} ${row.name}`}>
+                            <span class="score-wrap">
+                              <span class="score-num">{row.score.toFixed(1)}</span>
+                              <span class="track" aria-hidden="true"><span class:list={[scoreTier(row.score), 'grow']} style={`width:${widthOf(row.score)}%`}></span></span>
+                            </span>
+                          </summary>
+                        </details>
+                        <div class="tip" role="tooltip">
+                          <p>{row.name}</p>
+                          <ul>
+                            {row.parts.map((part) => (
+                              <li><span>{t(locale, `impact.part.${part.id}`)}</span><b class="num">{part.value.toFixed(1)}</b></li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+                  </td>
+                  <td data-label={ui.evQuality}>{row.qualityPrior ? <span class="na prior" title={ui.priorTip}>—</span> : row.quality == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.quality.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.quality), 'grow']} style={`width:${widthOf(row.quality)}%`}></span></span></span>}</td>
+                  <td data-label={ui.evCommunity}>{row.community == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.community.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.community), 'grow']} style={`width:${widthOf(row.community)}%`}></span></span></span>}</td>
+                  <td data-label={ui.evHeadroom}>{row.saturation == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.saturation.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.saturation), 'grow']} style={`width:${widthOf(row.saturation)}%`}></span></span></span>}</td>
+                  <td data-label={ui.evGithub}>{row.github == null ? <span class="na" title={ui.nullTip}>—</span> : <span class="mini"><b class="num">{row.github.toFixed(1)}</b><span class="track" aria-hidden="true"><span class:list={[scoreTier(row.github), 'grow']} style={`width:${widthOf(row.github)}%`}></span></span></span>}</td>
+                </tr>
+                {row.parts.length > 0 && row.score != null && (
+                  <tr class="detail" id={`bd-${row.id}`}>
+                    <td colspan="8"><div set:html={row.chart} /></td>
+                  </tr>
+                )}
+              </tbody>
+            ))}
           </table>
         </div>
+        <script is:inline>
+          var impactBoard = document.getElementById('impact-table');
+          if (impactBoard) impactBoard.classList.add('is-paging');
+        </script>
         <div class="pager-bar">
           <button type="button" class="pager-btn" id="impact-prev">{ui.prev}</button>
           <span id="impact-page"></span>

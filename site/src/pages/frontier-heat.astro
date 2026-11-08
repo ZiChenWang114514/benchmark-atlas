@@ -58,6 +58,15 @@ function shareOf(count: number, share: number | null | undefined, models: number
   const value = typeof share === 'number' ? share : (models ? count / models : 0);
   return Math.max(0, Math.min(1, value));
 }
+const matrixMin = 4;
+const matrixModels = heat?.models ?? [];
+const reportedBy = new Map(matrixModels.map((model) => [model.id, new Set(model.benchmarks ?? [])]));
+const matrixRows = (heat?.ranking ?? []).filter((row) => row.count >= matrixMin).map((row) => ({
+  id: row.benchmark_id,
+  name: displayName(row.name),
+  href: known.has(row.benchmark_id) ? page('benchmarks/' + row.benchmark_id) : '',
+  cells: matrixModels.map((model) => reportedBy.get(model.id)?.has(row.benchmark_id) ?? false),
+}));
 ---
 <Base title={t(locale, 'heat.title')} description={t(locale, 'heat.description')} active="heat">
   <div class="wrap page-hero">
@@ -70,14 +79,14 @@ function shareOf(count: number, share: number | null | undefined, models: number
           {stamp && <span>{ui.snapshot} {stamp}</span>}
           <span>{t(locale, 'home.models', { n: heat.models.length })}</span>
         </p>
-        <div class="stat-row">
+        <div class="stat-row reveal">
           <div class="stat">
             <span>{ui.statModels}</span>
-            <strong>{heat.models.length}</strong>
+            <strong data-count={heat.models.length} data-count-label={String(heat.models.length)}>{heat.models.length}</strong>
           </div>
           <div class="stat">
             <span>{ui.statListed}</span>
-            <strong>{heat.ranking.length}</strong>
+            <strong data-count={heat.ranking.length} data-count-label={String(heat.ranking.length)}>{heat.ranking.length}</strong>
           </div>
         </div>
       </>
@@ -87,9 +96,55 @@ function shareOf(count: number, share: number | null | undefined, models: number
     {heat ? (
       <>
         {heatChart.length > 0 && (
-          <section class="chart-block" aria-labelledby="heat-top">
+          <section class="chart-block reveal" aria-labelledby="heat-top">
             <h2 id="heat-top">{ui.topChart}</h2>
             <BarChart items={heatChart} />
+          </section>
+        )}
+        {matrixRows.length > 0 && (
+          <section class="section reveal" aria-labelledby="heat-matrix-title">
+            <header class="flag">
+              <h2 id="heat-matrix-title">{t(locale, 'heat.matrix')}</h2>
+              <p>{t(locale, 'heat.matrix_note', { n: matrixMin })}</p>
+            </header>
+            <p class="heat-legend matrix-legend">
+              <span><i class="swatch on" aria-hidden="true"></i>{t(locale, 'heat.legend_on')}</span>
+              <span><i class="swatch off" aria-hidden="true"></i>{t(locale, 'heat.legend_off')}</span>
+            </p>
+            <p class="index-note">{t(locale, 'heat.matrix_scroll')}</p>
+            <p class="sr-only">{t(locale, 'heat.matrix_keys')}</p>
+            <div class="matrix-scroll" tabindex="0" aria-label={t(locale, 'heat.matrix_aria')}>
+              <table class="matrix" id="heat-matrix">
+                <caption class="sr-only">{t(locale, 'heat.matrix_aria')}</caption>
+                <thead>
+                  <tr>
+                    <th class="bench" scope="col"></th>
+                    {matrixModels.map((model, index) => (
+                      <th scope="col" data-col={index}><span class="vname">{model.name}</span></th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {matrixRows.map((row, rowIndex) => (
+                    <tr>
+                      <th class="bench" scope="row">
+                        {row.href ? <a href={row.href}>{row.name}</a> : row.name}
+                      </th>
+                      {row.cells.map((on, index) => {
+                        const modelName = matrixModels[index]?.name ?? '';
+                        const label = t(locale, on ? 'heat.cell_yes' : 'heat.cell_no', { model: modelName, benchmark: row.name });
+                        return (
+                          <td data-col={index} class={on ? 'is-on' : 'is-off'}>
+                            <button type="button" class:list={['heat-cell', on && 'on']} tabindex={rowIndex === 0 && index === 0 ? 0 : -1} aria-label={label} data-col={index}></button>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div id="heat-tip" class="heat-tip" role="tooltip" hidden></div>
           </section>
         )}
         <section class="section" aria-labelledby="heat-models">
@@ -139,7 +194,7 @@ function shareOf(count: number, share: number | null | undefined, models: number
             <p id="heat-count" class="result-count" data-showing={ui.showing} data-unit={ui.rows} aria-live="polite"></p>
           </form>
           <p id="heat-empty" class="empty" hidden>{ui.emptyFilter}</p>
-          <div class="board-scroll">
+          <div class="board-scroll grow-root">
             <table class="board">
               <caption class="sr-only">{t(locale, 'heat.title')}</caption>
               <thead>
@@ -178,7 +233,7 @@ function shareOf(count: number, share: number | null | undefined, models: number
                       <td data-label={ui.share}>
                         <span class="score-wrap" title={sharePct + '%'}>
                           <span class="score-num">{sharePct}%</span>
-                          <span class="track" aria-hidden="true"><span style={'width:' + sharePct + '%'}></span></span>
+                          <span class="track" aria-hidden="true"><span class="grow" style={'width:' + sharePct + '%'}></span></span>
                         </span>
                       </td>
                       {showSpark && (

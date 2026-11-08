@@ -97,10 +97,18 @@ export type RegistryFile = {
   items: RegistryItem[];
 };
 
+const cache = new Map<string, unknown>();
+
 function readOptional<T>(relative: string): T | null {
+  if (cache.has(relative)) return cache.get(relative) as T | null;
   const path = join(repoRoot(), relative);
-  if (!existsSync(path)) return null;
-  return JSON.parse(readFileSync(path, 'utf8')) as T;
+  if (!existsSync(path)) {
+    cache.set(relative, null);
+    return null;
+  }
+  const parsed = JSON.parse(readFileSync(path, 'utf8')) as T;
+  cache.set(relative, parsed);
+  return parsed;
 }
 
 export function loadHeat(): HeatFile | null {
@@ -109,6 +117,17 @@ export function loadHeat(): HeatFile | null {
 
 export function loadImpact(): ImpactFile | null {
   return readOptional<ImpactFile>('data/impact/index.json');
+}
+
+let impactIndex: Map<string, ImpactRow> | null = null;
+
+export function impactById(id: string): ImpactRow | undefined {
+  if (!impactIndex) {
+    const file = loadImpact();
+    impactIndex = new Map();
+    for (const row of [...(file?.ranking ?? []), ...(file?.unscored ?? [])]) impactIndex.set(row.id, row);
+  }
+  return impactIndex.get(id);
 }
 
 export function loadRegistry(): RegistryFile | null {

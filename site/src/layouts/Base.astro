@@ -45,5 +45,76 @@ const zhHref = new URL(hrefForLocale(Astro.url.pathname, '', 'zh'), Astro.site).
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+      (function () {
+        var reduce = false;
+        try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (error) { reduce = false; }
+        var nodes = Array.prototype.slice.call(document.querySelectorAll('.reveal, .grow-root'));
+        function show(node) { node.classList.add('inview'); }
+        function countUp(node) {
+          if (!node || node.getAttribute('data-counted') === '1') return;
+          var raw = node.getAttribute('data-count');
+          if (raw == null || raw === '') return;
+          var target = Number(raw);
+          if (!Number.isFinite(target)) return;
+          node.setAttribute('data-counted', '1');
+          var label = node.getAttribute('data-count-label') || node.textContent || '';
+          if (reduce) {
+            node.textContent = label;
+            return;
+          }
+          var started = performance.now();
+          var format = new Intl.NumberFormat(document.documentElement.lang || 'en');
+          function frame(now) {
+            var progress = Math.min(1, (now - started) / 720);
+            var eased = 1 - Math.pow(1 - progress, 3);
+            node.textContent = progress >= 1 ? label : format.format(Math.round(target * eased));
+            if (progress < 1) requestAnimationFrame(frame);
+          }
+          requestAnimationFrame(frame);
+        }
+        function arm(node) {
+          show(node);
+          if (node.hasAttribute('data-count')) countUp(node);
+          var stats = node.querySelectorAll('[data-count]');
+          for (var i = 0; i < stats.length; i += 1) countUp(stats[i]);
+        }
+        if (reduce || !nodes.length) {
+          for (var i = 0; i < nodes.length; i += 1) arm(nodes[i]);
+          return;
+        }
+        if (!('IntersectionObserver' in window)) {
+          document.documentElement.classList.add('motion');
+          for (var j = 0; j < nodes.length; j += 1) arm(nodes[j]);
+          return;
+        }
+        var pending = nodes.slice();
+        var observer = new IntersectionObserver(function (entries) {
+          for (var n = 0; n < entries.length; n += 1) {
+            if (!entries[n].isIntersecting) continue;
+            arm(entries[n].target);
+            observer.unobserve(entries[n].target);
+          }
+        }, { rootMargin: '0px 0px -4% 0px', threshold: 0 });
+        document.documentElement.classList.add('motion');
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            for (var k = 0; k < pending.length; k += 1) {
+              var rect = pending[k].getBoundingClientRect();
+              if (rect.bottom > 0 && rect.top < window.innerHeight * 0.96) arm(pending[k]);
+              else observer.observe(pending[k]);
+            }
+          });
+        });
+        window.addEventListener('load', function () {
+          for (var k = 0; k < pending.length; k += 1) {
+            if (pending[k].classList.contains('inview')) continue;
+            var rect = pending[k].getBoundingClientRect();
+            if (rect.bottom > 0 && rect.top < window.innerHeight) arm(pending[k]);
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
