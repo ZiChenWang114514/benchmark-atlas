@@ -48832,6 +48832,415 @@
     },
     {
       "rank": null,
+      "id": "adversarial-humanities-benchmark",
+      "name": "Adversarial Humanities Benchmark",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 34.258,
+      "components": {
+        "citations_total": 19.149,
+        "citation_velocity": 28.551,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 74.775,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 3,
+        "citations_by_year": {
+          "2026": 3
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Adversarial Humanities Benchmark: Results on Stylistic Robustness in Frontier Model Safety",
+        "paper_id": "https://openalex.org/W7155033388",
+        "paper_date": "2026-04-20",
+        "citation_provider": "openalex",
+        "paper_abstract": "The Adversarial Humanities Benchmark (AHB) evaluates whether model safety refusals survive a shift away from familiar harmful prompt forms. Starting from harmful tasks drawn from MLCommons AILuminate, the benchmark rewrites the same objectives through humanities-style transformations while preserving intent. This extends literature on Adversarial Poetry and Adversarial Tales from single jailbreak operators to a broader benchmark family of stylistic obfuscation and goal concealment. In the benchmark results reported here, the original attacks record 3.84% attack success rate (ASR), while transformed methods range from 36.8% to 65.0%, yielding 55.75% overall ASR across 31 frontier models. Under a European Union AI Act Code-of-Practice-inspired systemic-risk lens, Chemical, biological, radiological and nuclear (CBRN) is the highest bucket. Taken together, this lack of stylistic robustness suggests that current safety techniques suffer from weak generalization: deep understanding of 'non-maleficence' remains a central unresolved problem in frontier model safety.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "first_submitted_at": "2026-04-20",
+        "citations_by_provider": {
+          "openalex": 3
+        },
+        "citations_by_year_complete": false,
+        "age_months": 6.604035641466651,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.4542676876489037,
+        "citation_velocity_smoothed": 0.3123686866640849,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 3.0,
+        "attributed_citation_velocity": 0.3123686866640849,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.3063527047634125,
+        "nearest_benchmarks": [
+          "xl-safetybench",
+          "jailbreakbench",
+          "strongreject"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 74.77473378146914,
+        "novelty_text_distance": 0.7213497757911682,
+        "novelty_prior_corpus_size": 1015,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 87.0935960591133,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2604.12881%7C10.48550%2Farxiv.2604.13076%7C10.48550%2Farxiv.2604.13764%7C10.48550%2Farxiv.2604.14709%7C10.48550%2Farxiv.2604.15411%7C10.48550%2Farxiv.2604.18487%7C10.48550%2Farxiv.2604.18584%7C10.48550%2Farxiv.2604.18934%7C10.48550%2Farxiv.2604.19274%7C10.48550%2Farxiv.2604.21304%7C10.48550%2Farxiv.2604.23580%7C10.48550%2Farxiv.2604.25256%7C10.48550%2Farxiv.2604.25782%7C10.48550%2Farxiv.2604.25862%7C10.48550%2Farxiv.2604.27148%7C10.48550%2Farxiv.2604.27470%7C10.48550%2Farxiv.2605.00689%7C10.48550%2Farxiv.2605.01126%7C10.48550%2Farxiv.2605.01203%7C10.48550%2Farxiv.2605.02003%7C10.48550%2Farxiv.2605.02215%7C10.48550%2Farxiv.2605.03546%7C10.48550%2Farxiv.2605.04615%7C10.48550%2Farxiv.2605.05662%7C10.48550%2Farxiv.2605.07024%7C10.48550%2Farxiv.2605.07147%7C10.48550%2Farxiv.2605.07830%7C10.48550%2Farxiv.2605.10141%7C10.48550%2Farxiv.2605.10146%7C10.48550%2Farxiv.2605.10187%7C10.48550%2Farxiv.2605.10246%7C10.48550%2Farxiv.2605.10806%7C10.48550%2Farxiv.2605.11002%7C10.48550%2Farxiv.2605.11086%7C10.48550%2Farxiv.2605.11224%7C10.48550%2Farxiv.2605.13171%7C10.48550%2Farxiv.2605.13950%7C10.48550%2Farxiv.2605.14061%7C10.48550%2Farxiv.2605.14153%7C10.48550%2Farxiv.2605.15666%7C10.48550%2Farxiv.2605.15766%7C10.48550%2Farxiv.2605.16626%7C10.48550%2Farxiv.2605.18467%7C10.48550%2Farxiv.2605.18791%7C10.48550%2Farxiv.2605.19127%7C10.48550%2Farxiv.2605.21384%7C10.48550%2Farxiv.2605.22811%7C10.48550%2Farxiv.2605.24945%7C10.48550%2Farxiv.2605.26144%7C10.48550%2Farxiv.2605.26548&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?search=Adversarial+Humanities+Benchmark&per-page=5",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.18487",
+          "accessed": "2026-11-08",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 33
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 61.802,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 45.282,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "adversarial-prompt-evaluation",
+      "name": "Adversarial Prompt Evaluation",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 39.429,
+      "components": {
+        "citations_total": 49.443,
+        "citation_velocity": 42.042,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 15.863,
+        "quality": null,
+        "distinctiveness": 0.0,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 21,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "citation_provider": "semantic_scholar",
+        "paper_id": "eca625b2d3488c4f5524f12a277bef5896e3cbc6",
+        "paper_title": "Adversarial Prompt Evaluation: Systematic Benchmarking of Guardrails Against Prompt Input Attacks on LLMs",
+        "paper_date": "2025-02-21",
+        "citations_by_year_complete": false,
+        "first_submitted_at": "2025-02-21",
+        "citations_by_provider": {
+          "semantic_scholar": 21
+        },
+        "age_months": 20.50645483684463,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 1.024067795583496,
+        "citation_velocity_smoothed": 0.8933716353979526,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 21.0,
+        "attributed_citation_velocity": 0.8933716353979526,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 1,
+        "nearest_benchmarks": [
+          "guardbench",
+          "linguasafe",
+          "air-bench-2024"
+        ],
+        "distinctiveness_score": 2.220446049250313e-14,
+        "novelty_score": 15.863435726511124,
+        "novelty_text_distance": 0.0,
+        "novelty_prior_corpus_size": 653,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 89.89280245022971,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "homogeneous",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-08",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date"
+          ],
+          "identity": "external_identifier_batch",
+          "method": "POST",
+          "batch_ids_count": 25
+        },
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-08",
+          "provider": "semantic_scholar",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ],
+          "method": "POST",
+          "lookup_id": "ARXIV:2502.15427",
+          "batch_ids_count": 25
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.15427",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 48
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 67.698,
+        "peer_group_diagnostic": "domain_age",
+        "peer_n": 5,
+        "legacy_peer_shrunk_score": 59.226,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 46.832,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "adversariskqa",
       "name": "AdversaRiskQA",
       "domain": "安全",
@@ -81811,6 +82220,290 @@
     },
     {
       "rank": null,
+      "id": "broken-search-tool-openai",
+      "name": "Broken Search Tool",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 74.595,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": 85.038,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 0.0,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": 4,
+        "industry_heat": 8.092670544131307,
+        "nearest_similarity": 1,
+        "nearest_benchmarks": [
+          "wildspeech",
+          "wildclawbench-mm",
+          "agenticvbench"
+        ],
+        "distinctiveness_score": 2.220446049250313e-14,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.114,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 1,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/devday-2026-recap",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.114,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 73.705,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 52.804,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "brokenmath",
       "name": "BrokenMath",
       "domain": "数学",
@@ -82422,6 +83115,240 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 44.823,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "buggy-humaneval-buggy-fixeval",
+      "name": "Buggy-HumanEval&Buggy-FixEval",
+      "domain": "代码",
+      "release_date": null,
+      "score": null,
+      "observed_score": 33.793,
+      "components": {
+        "citations_total": 53.691,
+        "citation_velocity": 13.567,
+        "github": 12.769,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": 17.075,
+        "novelty": 74.591,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": 13.362
+      },
+      "raw": {
+        "citations": 26,
+        "citations_by_year": {
+          "2026": 11,
+          "2025": 7,
+          "2024": 5,
+          "2023": 3
+        },
+        "gh_stars": 4,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Large Language Models of Code Fail at Completing Code with Potential Bugs",
+        "paper_id": "https://openalex.org/W7133231870",
+        "paper_date": "2023-01-01",
+        "citation_provider": "openalex",
+        "paper_abstract": "Large language models of code (Code-LLMs) have recently brought tremendous advances to code completion, a fundamental feature of programming assistance and code intelligence. However, most existing works ignore the possible presence of bugs in the code context for generation, which are inevitable in software development. Therefore, we introduce and study the buggy-code completion problem, inspired by the realistic scenario of real-time code suggestion where the code context contains potential bugs -- anti-patterns that can become bugs in the completed program. To systematically study the task, we introduce two datasets: one with synthetic bugs derived from semantics-altering operator changes (buggy-HumanEval) and one with realistic bugs derived from user submissions to coding problems (buggy-FixEval). We find that the presence of potential bugs significantly degrades the generation performance of the high-performing Code-LLMs. For instance, the passing rates of CODEGEN-2B-MONO on test cases of buggy-HumanEval drop more than 50% given a single potential bug in the context. Finally, we investigate several post-hoc methods for mitigating the adverse effect of potential bugs and find that there remains a significant gap in post-mitigation performance.",
+        "gh_repository": "amazon-science/buggy-code-completion",
+        "gh_created_at": "2023-11-29",
+        "gh_pushed_at": "2023-12-13",
+        "gh_archived": false,
+        "gh_forks": 2,
+        "gh_open_issues": 0,
+        "gh_license": "Apache-2.0",
+        "collected_at": "2026-11-08",
+        "paper_eligible": true,
+        "first_submitted_at": "2023-06-06",
+        "citations_by_provider": {
+          "semantic_scholar": 62,
+          "openalex": 26
+        },
+        "citations_by_year_complete": false,
+        "age_months": 41.081836234934975,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.6328831031630043,
+        "citation_velocity_smoothed": 0.5898120908900553,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 26.0,
+        "attributed_citation_velocity": 0.5898120908900553,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.3456760346889496,
+        "nearest_benchmarks": [
+          "swt-bench",
+          "debugbench",
+          "hej-robust"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 74.59118141943557,
+        "novelty_text_distance": 0.704184502363205,
+        "novelty_prior_corpus_size": 219,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 94.06392694063928,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "citation_provider_disagreement",
+        "community_participation_not_sentiment",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.3642,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0.65,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0.05,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0.5
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-07",
+          "provider": "semantic_scholar",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ],
+          "method": "POST",
+          "lookup_id": "ARXIV:2306.03438",
+          "batch_ids_count": 500
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2305.06897%7C10.48550%2Farxiv.2305.07895%7C10.48550%2Farxiv.2305.08322%7C10.48550%2Farxiv.2305.09249%7C10.48550%2Farxiv.2305.10415%7C10.48550%2Farxiv.2305.13786%7C10.48550%2Farxiv.2305.14914%7C10.48550%2Farxiv.2305.18365%7C10.48550%2Farxiv.2306.03091%7C10.48550%2Farxiv.2306.03310%7C10.48550%2Farxiv.2306.03438%7C10.48550%2Farxiv.2306.03831%7C10.48550%2Farxiv.2306.04556%7C10.48550%2Farxiv.2306.05179%7C10.48550%2Farxiv.2306.06070%7C10.48550%2Farxiv.2306.06687%7C10.48550%2Farxiv.2306.09212%7C10.48550%2Farxiv.2306.09265%7C10.48550%2Farxiv.2306.11688%7C10.48550%2Farxiv.2306.13394%7C10.48550%2Farxiv.2306.14898%7C10.48550%2Farxiv.2306.16636%7C10.48550%2Farxiv.2307.06281%7C10.48550%2Farxiv.2307.08487%7C10.48550%2Farxiv.2307.10635%7C10.48550%2Farxiv.2307.13854%7C10.48550%2Farxiv.2307.14623%7C10.48550%2Farxiv.2307.15043%7C10.48550%2Farxiv.2307.16125%7C10.48550%2Farxiv.2307.16372%7C10.48550%2Farxiv.2308.01263%7C10.48550%2Farxiv.2308.02490%7C10.48550%2Farxiv.2308.03688%7C10.48550%2Farxiv.2308.05345%7C10.48550%2Farxiv.2308.06595%7C10.48550%2Farxiv.2308.07124%7C10.48550%2Farxiv.2308.07336%7C10.48550%2Farxiv.2308.08833%7C10.48550%2Farxiv.2308.09126%7C10.48550%2Farxiv.2308.09768%7C10.48550%2Farxiv.2308.11462%7C10.48550%2Farxiv.2308.13149%7C10.48550%2Farxiv.2308.14746%7C10.48550%2Farxiv.2308.14920%7C10.48550%2Farxiv.2308.15560%7C10.48550%2Farxiv.2308.16458%7C10.48550%2Farxiv.2308.16884%7C10.48550%2Farxiv.2308.16890%7C10.48550%2Farxiv.2309.05934%7C10.48550%2Farxiv.2309.06597&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.github.com/repos/amazon-science/buggy-code-completion",
+          "accessed": "2026-11-07",
+          "fields": [
+            "gh_stars",
+            "gh_created_at",
+            "gh_pushed_at",
+            "gh_archived",
+            "gh_forks",
+            "gh_open_issues",
+            "gh_license"
+          ],
+          "identity": "registry_repository_mapping"
+        },
+        {
+          "url": "https://arxiv.org/abs/2306.03438",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 163
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 52
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 26
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "domain",
+          "n": 31
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "domain",
+          "n": 56
+        },
+        "hf_likes": {
+          "group": "domain",
+          "n": 56
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "domain",
+          "n": 31
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.3642,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 61.9,
+        "peer_group_diagnostic": "domain_age",
+        "peer_n": 7,
+        "legacy_peer_shrunk_score": 51.663,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 44.097,
       "status": "insufficient_evidence"
     },
     {
@@ -107732,6 +108659,220 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 59.893,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "compass-arena-subjective-bench",
+      "name": "CompassArena-SubjectiveBench (Pairwise Eval with Bradley-Terry Model)",
+      "domain": "语言",
+      "release_date": null,
+      "score": null,
+      "observed_score": 80.541,
+      "components": {
+        "citations_total": 83.606,
+        "citation_velocity": 87.741,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 71.717,
+        "quality": null,
+        "distinctiveness": 4.016,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 975,
+        "citations_by_year": {
+          "2026": 307,
+          "2025": 410,
+          "2024": 255,
+          "2023": 2,
+          "2019": 1
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+        "paper_id": "https://openalex.org/W4392616695",
+        "paper_date": "2024-03-07",
+        "citation_provider": "openalex",
+        "paper_abstract": "Large Language Models (LLMs) have unlocked new capabilities and applications; however, evaluating the alignment with human preferences still poses significant challenges. To address this issue, we introduce Chatbot Arena, an open platform for evaluating LLMs based on human preferences. Our methodology employs a pairwise comparison approach and leverages input from a diverse user base through crowdsourcing. The platform has been operational for several months, amassing over 240K votes. This paper describes the platform, analyzes the data we have collected so far, and explains the tried-and-true statistical methods we are using for efficient and accurate evaluation and ranking of models. We confirm that the crowdsourced questions are sufficiently diverse and discriminating and that the crowdsourced human votes are in good agreement with those of expert raters. These analyses collectively establish a robust foundation for the credibility of Chatbot Arena. Because of its unique value and openness, Chatbot Arena has emerged as one of the most referenced LLM leaderboards, widely cited by leading LLM developers and companies. Our demo is publicly available at \\url{https://chat.lmsys.org}.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "first_submitted_at": "2024-03-07",
+        "citations_by_provider": {
+          "semantic_scholar": 1695,
+          "openalex": 975
+        },
+        "citations_by_year_complete": false,
+        "age_months": 32.054065682216134,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 30.41735827417794,
+        "citation_velocity_smoothed": 27.814177357881874,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 2,
+        "attributed_citations": 689.4291116568838,
+        "attributed_citation_velocity": 19.667593422883602,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.99196857213974,
+        "nearest_benchmarks": [
+          "chatbot-arena",
+          "livebench",
+          "rjua-meddqa"
+        ],
+        "distinctiveness_score": 4.015713930130027,
+        "novelty_score": 71.71683078242924,
+        "novelty_text_distance": 0.6927469670772552,
+        "novelty_prior_corpus_size": 379,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 83.11345646437995,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "homogeneous",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional",
+        "shared_paper_attribution"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-07",
+          "provider": "semantic_scholar",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ],
+          "method": "POST",
+          "lookup_id": "ARXIV:2403.04132",
+          "batch_ids_count": 500
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2401.03065%7C10.48550%2Farxiv.2401.04621%7C10.48550%2Farxiv.2401.06209%7C10.48550%2Farxiv.2401.06628%7C10.48550%2Farxiv.2401.07339%7C10.48550%2Farxiv.2401.10019%7C10.48550%2Farxiv.2401.10529%7C10.48550%2Farxiv.2401.11943%7C10.48550%2Farxiv.2401.11944%7C10.48550%2Farxiv.2401.14011%7C10.48550%2Farxiv.2401.15545%7C10.48550%2Farxiv.2402.02037%7C10.48550%2Farxiv.2402.02961%7C10.48550%2Farxiv.2402.04249%7C10.48550%2Farxiv.2402.05044%7C10.48550%2Farxiv.2402.05136%7C10.48550%2Farxiv.2402.07688%7C10.48550%2Farxiv.2402.07844%7C10.48550%2Farxiv.2402.08183%7C10.48550%2Farxiv.2402.09262%7C10.48550%2Farxiv.2402.09742%7C10.48550%2Farxiv.2402.10260%7C10.48550%2Farxiv.2402.12840%7C10.48550%2Farxiv.2402.13718%7C10.48550%2Farxiv.2402.13918%7C10.48550%2Farxiv.2402.14008%7C10.48550%2Farxiv.2402.14660%7C10.48550%2Farxiv.2402.14683%7C10.48550%2Farxiv.2402.14804%7C10.48550%2Farxiv.2402.14992%7C10.48550%2Farxiv.2402.16211%7C10.48550%2Farxiv.2402.18667%7C10.48550%2Farxiv.2402.19479%7C10.48550%2Farxiv.2403.00476%7C10.48550%2Farxiv.2403.01469%7C10.48550%2Farxiv.2403.01976%7C10.48550%2Farxiv.2403.03163%7C10.48550%2Farxiv.2403.03218%7C10.48550%2Farxiv.2403.04132%7C10.48550%2Farxiv.2403.04814%7C10.48550%2Farxiv.2403.07350%7C10.48550%2Farxiv.2403.07974%7C10.48550%2Farxiv.2403.10378%7C10.48550%2Farxiv.2403.11116%7C10.48550%2Farxiv.2403.12316%7C10.48550%2Farxiv.2403.13793%7C10.48550%2Farxiv.2403.14112%7C10.48550%2Farxiv.2403.14624%7C10.48550%2Farxiv.2403.20194%7C10.48550%2Farxiv.2403.20266&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.04132",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 125
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 57
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "domain",
+          "n": 22
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "domain",
+          "n": 116
+        },
+        "hf_likes": {
+          "group": "domain",
+          "n": 116
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "domain",
+          "n": 22
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 65.253,
+        "peer_group_diagnostic": "domain_age",
+        "peer_n": 8,
+        "legacy_peer_shrunk_score": 69.835,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 59.153,
       "status": "insufficient_evidence"
     },
     {
@@ -154322,6 +155463,217 @@
     },
     {
       "rank": null,
+      "id": "gdm-dangerous-capabilities",
+      "name": "Google DeepMind Dangerous Capability Evaluations",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 75.255,
+      "components": {
+        "citations_total": 84.799,
+        "citation_velocity": 65.963,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 77.861,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 221,
+        "citations_by_year": {
+          "2026": 81,
+          "2025": 86,
+          "2024": 51,
+          "2023": 3
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Evaluating Frontier Models for Dangerous Capabilities",
+        "paper_id": "https://openalex.org/W4393063881",
+        "paper_date": "2024-03-20",
+        "citation_provider": "openalex",
+        "paper_abstract": "To understand the risks posed by a new AI system, we must understand what it can and cannot do. Building on prior work, we introduce a programme of new \"dangerous capability\" evaluations and pilot them on Gemini 1.0 models. Our evaluations cover four areas: (1) persuasion and deception; (2) cyber-security; (3) self-proliferation; and (4) self-reasoning. We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs. Our goal is to help advance a rigorous science of dangerous capability evaluation, in preparation for future models.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "first_submitted_at": "2024-03-20",
+        "citations_by_provider": {
+          "semantic_scholar": 152,
+          "openalex": 221
+        },
+        "citations_by_year_complete": false,
+        "age_months": 31.604332623054223,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 6.992712127032496,
+        "citation_velocity_smoothed": 6.386483519487516,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 221.0,
+        "attributed_citation_velocity": 6.386483519487516,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.2548503577709198,
+        "nearest_benchmarks": [
+          "mastermind",
+          "threecb",
+          "debugbench"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 77.86137735088069,
+        "novelty_text_distance": 0.7472314536571503,
+        "novelty_prior_corpus_size": 387,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 92.50645994832041,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-07",
+          "provider": "semantic_scholar",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ],
+          "method": "POST",
+          "lookup_id": "ARXIV:2403.13793",
+          "batch_ids_count": 500
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2401.03065%7C10.48550%2Farxiv.2401.04621%7C10.48550%2Farxiv.2401.06209%7C10.48550%2Farxiv.2401.06628%7C10.48550%2Farxiv.2401.07339%7C10.48550%2Farxiv.2401.10019%7C10.48550%2Farxiv.2401.10529%7C10.48550%2Farxiv.2401.11943%7C10.48550%2Farxiv.2401.11944%7C10.48550%2Farxiv.2401.14011%7C10.48550%2Farxiv.2401.15545%7C10.48550%2Farxiv.2402.02037%7C10.48550%2Farxiv.2402.02961%7C10.48550%2Farxiv.2402.04249%7C10.48550%2Farxiv.2402.05044%7C10.48550%2Farxiv.2402.05136%7C10.48550%2Farxiv.2402.07688%7C10.48550%2Farxiv.2402.07844%7C10.48550%2Farxiv.2402.08183%7C10.48550%2Farxiv.2402.09262%7C10.48550%2Farxiv.2402.09742%7C10.48550%2Farxiv.2402.10260%7C10.48550%2Farxiv.2402.12840%7C10.48550%2Farxiv.2402.13718%7C10.48550%2Farxiv.2402.13918%7C10.48550%2Farxiv.2402.14008%7C10.48550%2Farxiv.2402.14660%7C10.48550%2Farxiv.2402.14683%7C10.48550%2Farxiv.2402.14804%7C10.48550%2Farxiv.2402.14992%7C10.48550%2Farxiv.2402.16211%7C10.48550%2Farxiv.2402.18667%7C10.48550%2Farxiv.2402.19479%7C10.48550%2Farxiv.2403.00476%7C10.48550%2Farxiv.2403.01469%7C10.48550%2Farxiv.2403.01976%7C10.48550%2Farxiv.2403.03163%7C10.48550%2Farxiv.2403.03218%7C10.48550%2Farxiv.2403.04132%7C10.48550%2Farxiv.2403.04814%7C10.48550%2Farxiv.2403.07350%7C10.48550%2Farxiv.2403.07974%7C10.48550%2Farxiv.2403.10378%7C10.48550%2Farxiv.2403.11116%7C10.48550%2Farxiv.2403.12316%7C10.48550%2Farxiv.2403.13793%7C10.48550%2Farxiv.2403.14112%7C10.48550%2Farxiv.2403.14624%7C10.48550%2Farxiv.2403.20194%7C10.48550%2Farxiv.2403.20266&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/abs/2403.13793",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 48
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 74.503,
+        "peer_group_diagnostic": "age",
+        "peer_n": 41,
+        "legacy_peer_shrunk_score": 74.728,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 57.569,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "gemex",
       "name": "GEMeX",
       "domain": "生物与医学",
@@ -158138,6 +159490,198 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 53.165,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "geocopilot-benchmark-data",
+      "name": "GeoCopilot Benchmark Data",
+      "domain": "地球与天文",
+      "release_date": "2026-07-20",
+      "score": null,
+      "observed_score": 19.824,
+      "components": {
+        "citations_total": 5.357,
+        "citation_velocity": 8.505,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 76.461,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 0,
+        "citations_by_year": {},
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "GeoCopilot Benchmark Data: A 90-Task Geospatial Analysis Benchmark",
+        "paper_id": "https://openalex.org/W7169815921",
+        "paper_date": "2026-07-20",
+        "citation_provider": "openalex",
+        "paper_abstract": "This dataset release contains the GeoCopilot benchmark, comprising 90 geospatial analysis tasks at Simple, Medium, and Hard difficulty levels. Each task is provided as an independently downloadable archive containing a task-specific README and the associated input data. The task_manifest.csv file maps benchmark case IDs (T001–T090) to the corresponding archives and dataset names. The supplementary task catalogue provides the task questions, categories, execution attempts, and token statistics.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "citations_by_provider": {
+          "openalex": 0
+        },
+        "citations_by_year_complete": false,
+        "age_months": 3.6480112298243212,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.0,
+        "citation_velocity_smoothed": 0.0,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 0.0,
+        "attributed_citation_velocity": 0.0,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.28542718291282654,
+        "nearest_benchmarks": [
+          "geofitbench-llm",
+          "bench4geocode",
+          "geobench-vlm"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 76.46087105261451,
+        "novelty_text_distance": 0.730401486158371,
+        "novelty_prior_corpus_size": 1122,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 92.42424242424242,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.63317%2F3yixio7ngbkh%7C10.63317%2F5e46vrbnwfwe%7C10.64898%2F2026.02.19.706811%7C10.64898%2F2026.02.23.707496%7C10.64898%2F2026.03.31.26349827%7C10.64898%2F2026.04.04.716470%7C10.64898%2F2026.06.18.733146%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2610.36517%7C10.5194%2Fegusphere-egu23-15540%7C10.5194%2Fessd-15-113-2023%7C10.5194%2Fessd-15-681-2023%7C10.5194%2Fisprs-annals-v-3-2022-635-2022%7C10.5194%2Fisprs-archives-xliii-b2-2021-785-2021%7C10.52202%2F075280-3254%7C10.52202%2F079017-0388%7C10.52202%2F079017-1686%7C10.52202%2F085713-0303%7C10.52202%2F085713-0342%7C10.52202%2F085713-0585%7C10.52202%2F085713-1107%7C10.52202%2F085713-1158%7C10.52202%2F085713-1556%7C10.52202%2F085713-1703%7C10.52202%2F085713-1926%7C10.52202%2F085713-2052%7C10.52202%2F085713-3130%7C10.52202%2F085713-4245%7C10.52202%2F085713-4331%7C10.52202%2F085713-4396%7C10.52202%2F085713-4478%7C10.52202%2F085713-4851%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19222922%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20129010%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 98
+        },
+        "attributed_citation_velocity": {
+          "group": "age_only",
+          "n": 97
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 57.476,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 40.956,
       "status": "insufficient_evidence"
     },
     {
@@ -177406,6 +178950,286 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 49.843,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "indirect-prompt-injection-gray-swan",
+      "name": "Indirect Prompt Injection",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 84.289,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": 94.037,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 14.662,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": 5,
+        "industry_heat": 11.778130306826448,
+        "nearest_similarity": 0.9706763029098511,
+        "nearest_benchmarks": [
+          "b3-agentic-security",
+          "focusbench",
+          "singlecellbench"
+        ],
+        "distinctiveness_score": 14.661848545074484,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.114,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 1,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://www.anthropic.com/claude-sonnet-5-5",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://blog.google/intl/en-in/products/gemini-4-argon-our-next-era-of-frontier-intelligence",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "claude-opus-5-5",
+            "claude-sonnet-5-5",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gpt-6-astra"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.114,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 74.81,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 53.909,
       "status": "insufficient_evidence"
     },
     {
@@ -239003,6 +240827,160 @@
     },
     {
       "rank": null,
+      "id": "moleculenet-lipophilicity",
+      "name": "Lipophilicity (MoleculeNet)",
+      "domain": "化学",
+      "release_date": null,
+      "score": null,
+      "observed_score": null,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 74.757,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.8504853844642639,
+        "nearest_benchmarks": [
+          "moleculenet-esol",
+          "moleculenet-freesolv",
+          "moleculenet-qm7"
+        ],
+        "distinctiveness_score": 74.75730776786807,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "no_observed_impact_signal",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.014,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 37
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.014,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": null,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": null,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "moleculenet-muv",
       "name": "MUV (MoleculeNet)",
       "domain": "化学",
@@ -247891,6 +249869,290 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 64.2,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "multimodal-troubleshooting-virology",
+      "name": "Multimodal Troubleshooting Virology",
+      "domain": "生物与医学",
+      "release_date": null,
+      "score": null,
+      "observed_score": 71.947,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": 75.88,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 43.855,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": 4,
+        "industry_heat": 8.092670544131307,
+        "nearest_similarity": 0.9122892618179321,
+        "nearest_benchmarks": [
+          "vct",
+          "protocolqa",
+          "singlecellbench"
+        ],
+        "distinctiveness_score": 43.85536909103396,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.114,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 1,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/devday-2026-recap",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 221
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 20
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.114,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 73.403,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 52.502,
       "status": "insufficient_evidence"
     },
     {
@@ -259820,6 +262082,201 @@
     },
     {
       "rank": null,
+      "id": "omc-bench-and-atombit-omc",
+      "name": "OMC-bench and AtomBit-OMC",
+      "domain": "材料",
+      "release_date": "2026-09-21",
+      "score": null,
+      "observed_score": 45.431,
+      "components": {
+        "citations_total": 8.728,
+        "citation_velocity": 58.453,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 72.126,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 1,
+        "citations_by_year": {
+          "2026": 1
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "OMC-bench and AtomBit-OMC: task-aligned benchmarks and robust, interpretable machine-learned interatomic potentials for organic molecular crystals",
+        "paper_id": "https://openalex.org/W7213939220",
+        "paper_date": "2026-09-21",
+        "citation_provider": "openalex",
+        "paper_abstract": "Organic molecular crystals (OMCs) underpin key applications in pharmaceuticals and functional materials, but accurate atomistic simulation remains difficult because OMC stability depends on subtle noncovalent interactions, conformational flexibility, and polymorphism. Although machine-learned interatomic potentials (MLIPs) have advanced rapidly for inorganic materials, progress for OMCs has been constrained by (1) the lack of large, physically realistic training data and (2) the lack of task-aligned benchmarks that probe deployment-relevant behaviour. Here we introduce OMC-bench, a benchmark spanning four practical tasks—large-cell OOD force/stress prediction, lattice dynamics, cocrystal relaxation, and polymorph energy ranking—and an extensive OMC training dataset sampled from near-equilibrium to strongly perturbed regimes. Benchmarking off-the-shelf MLIPs reveals a clear transfer gap, with improved but still task-dependent performance at foundation scale. We train OMC-specialized models and develop AtomBit-OMC, a new, efficient SE(3)-equivariant Cartesian-tensor model with physics-informed gating and coupled scalar–equivariant updates. AtomBit-OMC variants achieve strong cross-task performance on OMC-bench, including the lowest cocrystal structural-recovery failure rate and the best polymorph-ranking metrics, while providing qualitative gate-weight maps that highlight chemically relevant covalent and directional noncovalent contacts in representative OMCs. Together, OMC-bench, the OMC training dataset, and AtomBit-OMC provide a practical foundation for accelerating MLIP development in OMC modelling and discovery.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "citations_by_provider": {
+          "openalex": 1
+        },
+        "citations_by_year_complete": false,
+        "age_months": 1.578196035452506,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.6336348448076519,
+        "citation_velocity_smoothed": 0.21842664496151498,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 1.0,
+        "attributed_citation_velocity": 0.21842664496151498,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.3345848619937897,
+        "nearest_benchmarks": [
+          "matbench-discovery",
+          "ms25",
+          "phononbench"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 72.12647992505505,
+        "novelty_text_distance": 0.6654151380062103,
+        "novelty_prior_corpus_size": 1160,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 98.1896551724138,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "early_signal",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.1021%2Facs.jcim.5c02645%7C10.1021%2Facs.jcim.6c00286%7C10.1021%2Facs.jmedchem.3c02051%7C10.1029%2F2021ms002954%7C10.1029%2F2025jh000838%7C10.1038%2Fs41467-026-72570-x%7C10.1038%2Fs41524-026-02315-3%7C10.1038%2Fs41551-026-01719-2%7C10.1038%2Fs41597-023-02487-3%7C10.1038%2Fs41597-024-04159-2%7C10.1038%2Fs41597-026-06552-5%7C10.1038%2Fs41598-025-09052-5%7C10.1038%2Fs41598-026-67923-x%7C10.1038%2Fs41746-026-02674-7%7C10.1039%2Fd2dd00015f%7C10.1039%2Fd4dd00076e%7C10.1039%2Fd5dd00206k%7C10.1056%2Faidbp2500144%7C10.1088%2F2632-2153%2Fadd3bb%7C10.1088%2F3050-287x%2Fae9ee4%7C10.1093%2Fbib%2Fbbab561%7C10.1093%2Fbib%2Fbbae404%7C10.1093%2Fbib%2Fbbaf381%7C10.1093%2Fbib%2Fbbag354%7C10.1093%2Fbioinformatics%2Fbtaa274%7C10.1093%2Fbioinformatics%2Fbtad698%7C10.1093%2Fbioinformatics%2Fbtae745%7C10.1093%2Fbioinformatics%2Fbtaf165%7C10.1093%2Fbioinformatics%2Fbty635%7C10.1093%2Fdatabase%2Fbaag057%7C10.1093%2Fjamia%2Focae287%7C10.1093%2Fnar%2Fgkac396%7C10.1093%2Fnargab%2Flqag103%7C10.1101%2F2021.11.09.467890%7C10.1101%2F2023.10.12.562113%7C10.1101%2F2023.12.07.570727%7C10.1101%2F2024.10.02.616248%7C10.1101%2F2025.06.25.661622%7C10.1109%2Faccess.2026.3683719%7C10.1109%2Faccess.2026.3697546%7C10.1109%2Fase51524.2021.9678908%7C10.1109%2Fbibm62325.2024.10821873%7C10.1109%2Fcvpr52733.2024.01321%7C10.1109%2Fcvpr52733.2024.02093%7C10.1109%2Fcvpr52734.2025.00483%7C10.1109%2Fcvpr52734.2025.01821%7C10.1109%2Fcvpr52734.2025.02245%7C10.1109%2Fcvprf71909.2026.00222%7C10.1109%2Fcvprw63382.2024.00408%7C10.1109%2Fdicta60407.2023.00034&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.1002%2Fjcc.26114%7C10.1007%2F978-3-031-73337-6_9%7C10.1007%2F978-3-031-91721-9_20%7C10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-3-032-06004-4_23%7C10.1007%2F978-3-032-37026-6_5%7C10.1007%2F978-3-032-37135-5_17%7C10.1007%2F978-3-032-37447-9_21%7C10.1007%2F978-3-032-37556-8_32%7C10.1007%2F978-3-319-10590-1_24%7C10.1007%2F978-981-92-2600-9_29%7C10.1007%2F978-981-92-2852-2_42%7C10.1007%2F978-981-97-0316-6_4%7C10.1007%2Fs00138-024-01549-9%7C10.1007%2Fs00366-026-02397-z%7C10.1007%2Fs10278-026-02354-8%7C10.1007%2Fs11432-022-3663-1%7C10.1007%2Fs42044-026-00404-6%7C10.1007%2Fs44366-025-0053-z%7C10.1016%2Fj.cviu.2024.103997%7C10.1016%2Fj.envsoft.2024.106292%7C10.1016%2Fj.isprsjprs.2024.08.005%7C10.1016%2Fj.jcat.2024.115902%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.landig.2025.100943%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.1016%2Fj.media.2026.104196%7C10.1016%2Fj.oceaneng.2024.117748%7C10.1016%2Fj.patter.2024.100933%7C10.1016%2Fj.patter.2025.101326%7C10.1016%2Fj.patter.2026.101713%7C10.1021%2Facs.jcim.2c01569%7C10.1021%2Facs.jcim.4c00292%7C10.1021%2Facs.jcim.4c01830%7C10.1021%2Facs.jcim.5c01262%7C10.1021%2Facs.jcim.5c02645%7C10.1021%2Facs.jcim.6c00286%7C10.1021%2Facs.jmedchem.3c02051%7C10.1029%2F2021ms002954%7C10.1029%2F2025jh000838%7C10.1038%2Fs41467-026-72570-x%7C10.1038%2Fs41524-026-02315-3%7C10.1038%2Fs41551-026-01719-2%7C10.1038%2Fs41597-024-04159-2%7C10.1038%2Fs41597-026-06552-5%7C10.1038%2Fs41598-025-09052-5%7C10.1038%2Fs41598-026-67923-x%7C10.1039%2Fd2dd00015f%7C10.1039%2Fd4dd00076e&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 23
+        },
+        "attributed_citation_velocity": {
+          "group": "age_only",
+          "n": 66
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 65.151,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 48.631,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "omibench",
       "name": "OMIBench",
       "domain": "数学",
@@ -263293,6 +265750,180 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 44.736,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "open-score-string-quartets",
+      "name": "OpenScore String Quartets",
+      "domain": "代码",
+      "release_date": null,
+      "score": null,
+      "observed_score": 20.589,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": 23.472,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 0.0,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": 1,
+        "industry_heat": 1.6541594246129105,
+        "nearest_similarity": 1,
+        "nearest_benchmarks": [
+          "wildspeech",
+          "wildclawbench-mm",
+          "vending-bench"
+        ],
+        "distinctiveness_score": 2.220446049250313e-14,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.114,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 1,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-astra"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-astra"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 163
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 26
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "domain",
+          "n": 31
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "domain",
+          "n": 56
+        },
+        "hf_likes": {
+          "group": "domain",
+          "n": 56
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "domain",
+          "n": 31
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.114,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 67.548,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 46.647,
       "status": "insufficient_evidence"
     },
     {
@@ -274695,6 +277326,290 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 46.732,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "phage-plasmid-coevolution",
+      "name": "Phage–plasmid Co-evolution",
+      "domain": "生物与医学",
+      "release_date": null,
+      "score": null,
+      "observed_score": 72.77,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": 75.88,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 50.557,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": 4,
+        "industry_heat": 8.092670544131307,
+        "nearest_similarity": 0.8988860845565796,
+        "nearest_benchmarks": [
+          "coronavirus-ace2-screen",
+          "aav-capsid-packaging",
+          "shp2-function-prediction"
+        ],
+        "distinctiveness_score": 50.556957721710226,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.114,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 1,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/devday-2026-recap",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "accessed": "2026-11-07",
+          "fields": [
+            "model_card_mentions"
+          ],
+          "model_ids": [
+            "gpt-6-1-sol",
+            "gpt-6-1-terra",
+            "gpt-6-astra",
+            "gpt-6-sol"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 221
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 20
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.114,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 73.497,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 52.596,
       "status": "insufficient_evidence"
     },
     {
@@ -287913,6 +290828,216 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 54.626,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "purple-llama-cyberseceval",
+      "name": "Purple Llama CYBERSECEVAL",
+      "domain": "安全",
+      "release_date": null,
+      "score": null,
+      "observed_score": 74.235,
+      "components": {
+        "citations_total": 85.47,
+        "citation_velocity": 64.277,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 74.5,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 231,
+        "citations_by_year": {
+          "2026": 115,
+          "2025": 68,
+          "2024": 48
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Purple Llama CyberSecEval: A Secure Coding Benchmark for Language Models",
+        "paper_id": "https://openalex.org/W4389599215",
+        "paper_date": "2023-12-07",
+        "citation_provider": "openalex",
+        "paper_abstract": "This paper presents CyberSecEval, a comprehensive benchmark developed to help bolster the cybersecurity of Large Language Models (LLMs) employed as coding assistants. As what we believe to be the most extensive unified cybersecurity safety benchmark to date, CyberSecEval provides a thorough evaluation of LLMs in two crucial security domains: their propensity to generate insecure code and their level of compliance when asked to assist in cyberattacks. Through a case study involving seven models from the Llama 2, Code Llama, and OpenAI GPT large language model families, CyberSecEval effectively pinpointed key cybersecurity risks. More importantly, it offered practical insights for refining these models. A significant observation from the study was the tendency of more advanced models to suggest insecure code, highlighting the critical need for integrating security considerations in the development of sophisticated LLMs. CyberSecEval, with its automated test case generation and evaluation pipeline covers a broad scope and equips LLM designers and researchers with a tool to broadly measure and enhance the cybersecurity safety properties of LLMs, contributing to the development of more secure AI systems.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "first_submitted_at": "2023-12-07",
+        "citations_by_provider": {
+          "semantic_scholar": 215,
+          "openalex": 231
+        },
+        "citations_by_year_complete": false,
+        "age_months": 35.01538745705377,
+        "release_date_basis": "arxiv_first_submission_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 6.597099640360129,
+        "citation_velocity_smoothed": 6.076486797904196,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 231.0,
+        "attributed_citation_velocity": 6.076486797904196,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.4377940893173218,
+        "nearest_benchmarks": [
+          "cyberseceval-3",
+          "sevenllm",
+          "cs-eval"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 74.49980142992862,
+        "novelty_text_distance": 0.7026386260986328,
+        "novelty_prior_corpus_size": 314,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 94.26751592356688,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "arxiv_first_submission_proxy",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
+          "accessed": "2026-11-07",
+          "provider": "semantic_scholar",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ],
+          "method": "POST",
+          "lookup_id": "ARXIV:2312.04724",
+          "batch_ids_count": 500
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2309.07544%7C10.48550%2Farxiv.2309.14181%7C10.48550%2Farxiv.2309.17446%7C10.48550%2Farxiv.2310.02255%7C10.48550%2Farxiv.2310.03221%7C10.48550%2Farxiv.2310.04951%7C10.48550%2Farxiv.2310.06770%7C10.48550%2Farxiv.2310.09550%7C10.48550%2Farxiv.2310.11248%7C10.48550%2Farxiv.2310.13011%7C10.48550%2Farxiv.2310.13548%7C10.48550%2Farxiv.2310.15147%7C10.48550%2Farxiv.2310.16049%7C10.48550%2Farxiv.2310.19795%7C10.48550%2Farxiv.2311.01012%7C10.48550%2Farxiv.2311.03287%7C10.48550%2Farxiv.2311.04044%7C10.48550%2Farxiv.2311.06899%7C10.48550%2Farxiv.2311.07397%7C10.48550%2Farxiv.2311.07911%7C10.48550%2Farxiv.2311.08370%7C10.48550%2Farxiv.2311.08588%7C10.48550%2Farxiv.2311.09033%7C10.48550%2Farxiv.2311.09707%7C10.48550%2Farxiv.2311.11567%7C10.48550%2Farxiv.2311.11944%7C10.48550%2Farxiv.2311.12022%7C10.48550%2Farxiv.2311.12983%7C10.48550%2Farxiv.2311.15296%7C10.48550%2Farxiv.2311.15930%7C10.48550%2Farxiv.2311.16502%7C10.48550%2Farxiv.2311.17092%7C10.48550%2Farxiv.2311.17134%7C10.48550%2Farxiv.2312.00080%7C10.48550%2Farxiv.2312.02896%7C10.48550%2Farxiv.2312.03661%7C10.48550%2Farxiv.2312.03689%7C10.48550%2Farxiv.2312.04724%7C10.48550%2Farxiv.2312.06281%7C10.48550%2Farxiv.2312.10300%7C10.48550%2Farxiv.2312.10523%7C10.48550%2Farxiv.2312.13951%7C10.48550%2Farxiv.2312.14033%7C10.48550%2Farxiv.2312.14115%7C10.48550%2Farxiv.2312.14135%7C10.48550%2Farxiv.2312.14150%7C10.48550%2Farxiv.2312.14890%7C10.48550%2Farxiv.2312.15838%7C10.48550%2Farxiv.2312.16144%7C10.48550%2Farxiv.2312.16170&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/abs/2312.04724",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 153
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 48
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 56
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 74.503,
+        "peer_group_diagnostic": "age",
+        "peer_n": 41,
+        "legacy_peer_shrunk_score": 74.423,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 57.263,
       "status": "insufficient_evidence"
     },
     {
@@ -328086,6 +331211,199 @@
     },
     {
       "rank": null,
+      "id": "solubility-noise-benchmark",
+      "name": "Solubility Noise Benchmark",
+      "domain": "化学",
+      "release_date": "2026-10-12",
+      "score": null,
+      "observed_score": 24.156,
+      "components": {
+        "citations_total": 3.378,
+        "citation_velocity": 18.182,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 77.715,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 0,
+        "citations_by_year": {},
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Solubility Noise Benchmark: Molecular property models under label noise and scaffold shift",
+        "paper_id": "https://openalex.org/W7221533158",
+        "paper_date": "2026-10-12",
+        "citation_provider": "openalex",
+        "paper_abstract": "Code, configuration, job scripts, and full results for the manuscript \"What predictive intervals are calibrated against: label noise and distribution shift in aqueous solubility models\". Adds AqSolDB, the label-matched cluster split, outlier noise, five additional models, uncertainty and calibration metrics, recalibration, the Slurm scripts for the 300-condition grid, and the per-molecule predictions for every condition.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "citations_by_provider": {
+          "openalex": 0
+        },
+        "citations_by_year_complete": false,
+        "age_months": 0.8882576375610314,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.0,
+        "citation_velocity_smoothed": 0.0,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 0.0,
+        "attributed_citation_velocity": 0.0,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.2644425630569458,
+        "nearest_benchmarks": [
+          "mpcd",
+          "meta-molnet",
+          "drugood"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 77.71519203744649,
+        "novelty_text_distance": 0.7355574369430542,
+        "novelty_prior_corpus_size": 1183,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 97.12595097210482,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "early_signal",
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.63317%2F3yixio7ngbkh%7C10.63317%2F5e46vrbnwfwe%7C10.64898%2F2026.02.19.706811%7C10.64898%2F2026.02.23.707496%7C10.64898%2F2026.03.31.26349827%7C10.64898%2F2026.04.04.716470%7C10.64898%2F2026.06.18.733146%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2610.36517%7C10.5194%2Fegusphere-egu23-15540%7C10.5194%2Fessd-15-113-2023%7C10.5194%2Fessd-15-681-2023%7C10.5194%2Fisprs-annals-v-3-2022-635-2022%7C10.5194%2Fisprs-archives-xliii-b2-2021-785-2021%7C10.52202%2F075280-3254%7C10.52202%2F079017-0388%7C10.52202%2F079017-1686%7C10.52202%2F085713-0303%7C10.52202%2F085713-0342%7C10.52202%2F085713-0585%7C10.52202%2F085713-1107%7C10.52202%2F085713-1158%7C10.52202%2F085713-1556%7C10.52202%2F085713-1703%7C10.52202%2F085713-1926%7C10.52202%2F085713-2052%7C10.52202%2F085713-3130%7C10.52202%2F085713-4245%7C10.52202%2F085713-4331%7C10.52202%2F085713-4396%7C10.52202%2F085713-4478%7C10.52202%2F085713-4851%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19222922%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20129010%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 37
+        },
+        "attributed_citation_velocity": {
+          "group": "age_only",
+          "n": 66
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": 58.775,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 42.255,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "som-1k",
       "name": "SoM-1K",
       "domain": "材料",
@@ -350224,6 +353542,210 @@
     },
     {
       "rank": null,
+      "id": "tracking-one-in-a-million",
+      "name": "Tracking One-in-a-Million",
+      "domain": "生物与医学",
+      "release_date": "2024-11-01",
+      "score": null,
+      "observed_score": 29.967,
+      "components": {
+        "citations_total": 35.736,
+        "citation_velocity": 9.748,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 71.296,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 6,
+        "citations_by_year": {
+          "2026": 2,
+          "2025": 4
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "Tracking One-in-a-Million: Large-Scale Benchmark for Microbial Single-Cell Tracking with Experiment-Aware Robustness Metrics",
+        "paper_id": "https://openalex.org/W4410838783",
+        "paper_date": "2025-01-01",
+        "citation_provider": "openalex",
+        "paper_abstract": "Abstract Tracking the development of living cells in live-cell time-lapses reveals crucial insights into single-cell behavior and presents tremendous potential for biomedical and biotechnological applications. In microbial live-cell imaging (MLCI), a few to thousands of cells have to be detected and tracked within dozens of growing cell colonies. The challenge of tracking cells is heavily influenced by the experiment parameters, namely the imaging interval and maximal cell number. For now, tracking benchmarks are not widely available in MLCI and the effect of these parameters on the tracking performance are not yet known. Therefore, we present the largest publicly available and annotated dataset for MLCI, containing more than 1.4 million cell instances, 29k cell tracks, and 14k cell divisions. With this dataset at hand, we generalize existing tracking metrics to incorporate relevant imaging and experiment parameters into experiment-aware metrics. These metrics reveal that current cell tracking methods crucially depend on the choice of the experiment parameters, where their performance deteriorates at high imaging intervals and large cell colonies. Thus, our new benchmark quantifies the influence of experiment parameters on the tracking quality, and gives the opportunity to develop new data-driven methods that generalize across imaging and experiment parameters. The benchmark dataset is publicly available at https://zenodo.org/doi/10.5281/zenodo.7260136 .",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "first_submitted_at": "2024-11-01",
+        "citations_by_provider": {
+          "openalex": 6
+        },
+        "citations_by_year_complete": false,
+        "age_months": 24.2147463441391,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 0.24778289703010786,
+        "citation_velocity_smoothed": 0.22046870928459508,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 6.0,
+        "attributed_citation_velocity": 0.22046870928459508,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.31254842877388,
+        "nearest_benchmarks": [
+          "scmbench",
+          "plm-sol",
+          "causalbench"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 71.29610658838081,
+        "novelty_text_distance": 0.687982976436615,
+        "novelty_prior_corpus_size": 569,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 82.95254833040421,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.1002%2Fjcc.26114%7C10.1007%2F978-3-031-73337-6_9%7C10.1007%2F978-3-031-91721-9_20%7C10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-3-032-06004-4_23%7C10.1007%2F978-3-032-37026-6_5%7C10.1007%2F978-3-032-37135-5_17%7C10.1007%2F978-3-032-37447-9_21%7C10.1007%2F978-3-032-37556-8_32%7C10.1007%2F978-3-319-10590-1_24%7C10.1007%2F978-981-92-2600-9_29%7C10.1007%2F978-981-92-2852-2_42%7C10.1007%2F978-981-97-0316-6_4%7C10.1007%2Fs00138-024-01549-9%7C10.1007%2Fs00366-026-02397-z%7C10.1007%2Fs10278-026-02354-8%7C10.1007%2Fs11432-022-3663-1%7C10.1007%2Fs42044-026-00404-6%7C10.1007%2Fs44366-025-0053-z%7C10.1016%2Fj.cviu.2024.103997%7C10.1016%2Fj.envsoft.2024.106292%7C10.1016%2Fj.isprsjprs.2024.08.005%7C10.1016%2Fj.jcat.2024.115902%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.landig.2025.100943%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.1016%2Fj.media.2026.104196%7C10.1016%2Fj.oceaneng.2024.117748%7C10.1016%2Fj.patter.2024.100933%7C10.1016%2Fj.patter.2025.101326%7C10.1016%2Fj.patter.2026.101713%7C10.1021%2Facs.jcim.2c01569%7C10.1021%2Facs.jcim.4c00292%7C10.1021%2Facs.jcim.4c01830%7C10.1021%2Facs.jcim.5c01262%7C10.1021%2Facs.jcim.5c02645%7C10.1021%2Facs.jcim.6c00286%7C10.1021%2Facs.jmedchem.3c02051%7C10.1029%2F2021ms002954%7C10.1029%2F2025jh000838%7C10.1038%2Fs41467-026-72570-x%7C10.1038%2Fs41524-026-02315-3%7C10.1038%2Fs41551-026-01719-2%7C10.1038%2Fs41597-024-04159-2%7C10.1038%2Fs41597-026-06552-5%7C10.1038%2Fs41598-025-09052-5%7C10.1038%2Fs41598-026-67923-x%7C10.1039%2Fd2dd00015f%7C10.1039%2Fd4dd00076e&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.1002%2Fjcc.26114%7C10.1007%2F978-3-031-09342-5_38%7C10.1007%2F978-3-031-43904-9_40%7C10.1007%2F978-3-031-70378-2_27%7C10.1007%2F978-3-031-73033-7_4%7C10.1007%2F978-3-031-73337-6_9%7C10.1007%2F978-3-031-91721-9_20%7C10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-3-032-06004-4_23%7C10.1007%2F978-3-032-37026-6_5%7C10.1007%2F978-3-032-37135-5_17%7C10.1007%2F978-3-032-37447-9_21%7C10.1007%2F978-3-032-37556-8_32%7C10.1007%2F978-3-319-10590-1_24%7C10.1007%2F978-981-92-2600-9_29%7C10.1007%2F978-981-92-2852-2_42%7C10.1007%2F978-981-97-0316-6_4%7C10.1007%2Fs00138-024-01549-9%7C10.1007%2Fs00366-026-02397-z%7C10.1007%2Fs10278-026-02354-8%7C10.1007%2Fs11432-022-3663-1%7C10.1007%2Fs41666-025-00204-w%7C10.1007%2Fs42044-026-00404-6%7C10.1007%2Fs44366-025-0053-z%7C10.1016%2Fj.artint.2024.104198%7C10.1016%2Fj.artmed.2024.102938%7C10.1016%2Fj.compbiomed.2024.109089%7C10.1016%2Fj.cviu.2024.103997%7C10.1016%2Fj.envsoft.2024.106292%7C10.1016%2Fj.isprsjprs.2018.01.004%7C10.1016%2Fj.isprsjprs.2021.12.004%7C10.1016%2Fj.isprsjprs.2024.08.005%7C10.1016%2Fj.isprsjprs.2025.03.028%7C10.1016%2Fj.jbi.2023.104286%7C10.1016%2Fj.jcat.2024.115902%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.knosys.2025.114524%7C10.1016%2Fj.landig.2025.100943%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.1016%2Fj.media.2023.102808%7C10.1016%2Fj.media.2026.104196%7C10.1016%2Fj.oceaneng.2024.117748%7C10.1016%2Fj.patter.2024.100933%7C10.1016%2Fj.patter.2025.101326%7C10.1016%2Fj.patter.2026.101713%7C10.1021%2Facs.jcim.2c01569%7C10.1021%2Facs.jcim.4c00292%7C10.1021%2Facs.jcim.4c01830%7C10.1021%2Facs.jcim.5c01262&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/abs/2411.00552",
+          "accessed": "2026-11-07",
+          "fields": [
+            "first_submitted_at"
+          ],
+          "identity": "official_arxiv_id"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 221
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 80
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 20
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 74.503,
+        "peer_group_diagnostic": "age",
+        "peer_n": 41,
+        "legacy_peer_shrunk_score": 61.156,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 43.996,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "tracy",
       "name": "TRACY",
       "domain": "代码",
@@ -351011,6 +354533,204 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 46.609,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "treesatai-benchmark-archive",
+      "name": "TreeSatAI Benchmark Archive",
+      "domain": "地球与天文",
+      "release_date": "2023-02-08",
+      "score": null,
+      "observed_score": 77.907,
+      "components": {
+        "citations_total": 81.701,
+        "citation_velocity": 75.602,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": 68.302,
+        "quality": null,
+        "distinctiveness": 100,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 91,
+        "citations_by_year": {
+          "2026": 20,
+          "2025": 31,
+          "2024": 30,
+          "2023": 8,
+          "2022": 2
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_title": "TreeSatAI Benchmark Archive : a multi-sensor, multi-label dataset for tree species classification in remote sensing",
+        "paper_id": "https://openalex.org/W4319594870",
+        "paper_date": "2023-02-08",
+        "citation_provider": "openalex",
+        "paper_abstract": "Abstract. Airborne and spaceborne platforms are the primary data sources for large-scale forest mapping, but visual interpretation for individual species determination is labour-intensive. Hence, various studies focusing on forests have investigated the benefits of multiple sensors for automated tree species classification. However, transferable deep learning approaches for large-scale applications are still lacking. This gap motivated us to create a novel dataset for tree species classification in Central Europe based on multi-sensor data from aerial, Sentinel-1 and Sentinel-2 imagery. In this paper, we introduce the TreeSatAI Benchmark Archive, which contains labels of 20 European tree species (i.e., 15 tree genera) derived from forest administration data of the federal state of Lower Saxony, Germany. We propose models and guidelines for the application of the latest machine learning techniques for the task of tree species classification with multi-label data. Finally, we provide various benchmark experiments showcasing the information which can be derived from the different sensors including artificial neural networks and tree-based machine learning methods. We found that residual neural networks (ResNet) perform sufficiently well with weighted precision scores up to 79 % only by using the RGB bands of aerial imagery. This result indicates that the spatial content present within the 0.2 m resolution data is very informative for tree species classification. With the incorporation of Sentinel-1 and Sentinel-2 imagery, performance improved marginally. However, the sole use of Sentinel-2 still allows for weighted precision scores of up to 74 % using either multi-layer perceptron (MLP) or Light Gradient Boosting Machine (LightGBM) models. Since the dataset is derived from real-world reference data, it contains high class imbalances. We found that this dataset attribute negatively affects the models' performances for many of the underrepresented classes (i.e., scarce tree species). However, the class-wise precision of the best performing late fusion model still reached values ranging from 54 % (Acer) to 88 % (Pinus). Based on our results, we conclude that deep learning techniques using aerial imagery could considerably support forestry administration in the provision of large-scale tree species maps at a very high resolution to plan for challenges driven by global environmental change. The original dataset used in this paper is shared via Zenodo (https://doi.org/10.5281/zenodo.6598390) [Schulz et al., 2022]. For citation of the dataset, we refer to this article.",
+        "paper_eligible": true,
+        "collected_at": "2026-11-08",
+        "citations_by_provider": {
+          "openalex": 91
+        },
+        "citations_by_year_complete": false,
+        "age_months": 44.97860671375542,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 2.0231840567922763,
+        "citation_velocity_smoothed": 1.896678670619053,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 91.0,
+        "attributed_citation_velocity": 1.896678670619053,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 0.36293134093284607,
+        "nearest_benchmarks": [
+          "multisenge",
+          "meter-ml",
+          "benchcloudvision"
+        ],
+        "distinctiveness_score": 100.0,
+        "novelty_score": 68.30158187792851,
+        "novelty_text_distance": 0.6370686590671539,
+        "novelty_prior_corpus_size": 195,
+        "novelty_task_rarity": null,
+        "novelty_domain_rarity": 89.74358974358975,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "insufficient_evidence",
+        "lexical_novelty_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.2997,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0.2975,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.5194%2Fessd-15-113-2023%7C10.5194%2Fessd-15-681-2023%7C10.5194%2Fisprs-annals-v-3-2022-635-2022%7C10.5194%2Fisprs-archives-xliii-b2-2021-785-2021%7C10.52202%2F068431-2548%7C10.52202%2F068431-2661%7C10.52202%2F075280-2816%7C10.52202%2F075280-2830%7C10.52202%2F075280-2933%7C10.52202%2F075280-3254%7C10.52202%2F075280-3279%7C10.52202%2F079017-0016%7C10.52202%2F079017-0106%7C10.52202%2F079017-0388%7C10.52202%2F079017-0832%7C10.52202%2F079017-0908%7C10.52202%2F079017-1162%7C10.52202%2F079017-1386%7C10.52202%2F079017-1686%7C10.52202%2F079017-2442%7C10.52202%2F079017-2992%7C10.52202%2F079017-3535%7C10.52202%2F079017-3958%7C10.52202%2F079017-4455%7C10.52202%2F085713-0303%7C10.52202%2F085713-0342%7C10.52202%2F085713-0585%7C10.52202%2F085713-1107%7C10.52202%2F085713-1158%7C10.52202%2F085713-1556%7C10.52202%2F085713-1703%7C10.52202%2F085713-1926%7C10.52202%2F085713-2052%7C10.52202%2F085713-3130%7C10.52202%2F085713-4245%7C10.52202%2F085713-4331%7C10.52202%2F085713-4396%7C10.52202%2F085713-4478%7C10.52202%2F085713-4851%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19222922%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20129010%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2610.36517%7C10.5194%2Fegusphere-egu23-15540%7C10.5194%2Fessd-15-113-2023%7C10.5194%2Fessd-15-681-2023%7C10.5194%2Fisprs-annals-v-3-2022-635-2022%7C10.5194%2Fisprs-archives-xliii-b2-2021-785-2021%7C10.52202%2F075280-3254%7C10.52202%2F079017-0388%7C10.52202%2F079017-1686%7C10.52202%2F085713-0303%7C10.52202%2F085713-0342%7C10.52202%2F085713-0585%7C10.52202%2F085713-1107%7C10.52202%2F085713-1158%7C10.52202%2F085713-1556%7C10.52202%2F085713-1703%7C10.52202%2F085713-1926%7C10.52202%2F085713-2052%7C10.52202%2F085713-3130%7C10.52202%2F085713-4245%7C10.52202%2F085713-4331%7C10.52202%2F085713-4396%7C10.52202%2F085713-4478%7C10.52202%2F085713-4851%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19222922%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20129010%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "provider": "openalex",
+          "identity": "exact_external_identifier",
+          "fields": [
+            "citations",
+            "paper_title",
+            "paper_date",
+            "paper_abstract"
+          ]
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 98
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 34
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "global_small_domain",
+          "n": 154
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "global_small_domain",
+          "n": 154
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.2997,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 74.503,
+        "peer_group_diagnostic": "age",
+        "peer_n": 41,
+        "legacy_peer_shrunk_score": 75.523,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 58.364,
       "status": "insufficient_evidence"
     },
     {
@@ -363697,6 +367417,176 @@
     },
     {
       "rank": null,
+      "id": "visual-grounding-in-remote-sensing-images",
+      "name": "Visual Grounding in Remote Sensing Images",
+      "domain": "多模态",
+      "release_date": null,
+      "score": null,
+      "observed_score": 44.922,
+      "components": {
+        "citations_total": 58.563,
+        "citation_velocity": 35.829,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": null,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": 93,
+        "citations_by_year": {
+          "2026": 30,
+          "2025": 43,
+          "2024": 15,
+          "2023": 5
+        },
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "citation_provider": "openalex",
+        "paper_id": "https://openalex.org/W4304084012",
+        "paper_title": "Visual Grounding in Remote Sensing Images",
+        "paper_date": "2022-10-10",
+        "citations_by_year_complete": false,
+        "openalex_fwci": 5.1854,
+        "collected_at": "2026-11-08",
+        "paper_eligible": true,
+        "age_months": 48.95396605677618,
+        "release_date_basis": "paper_api_proxy",
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": 1.899743932741625,
+        "citation_velocity_smoothed": 1.790046209337859,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": 93.0,
+        "attributed_citation_velocity": 1.790046209337859,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "insufficient_evidence",
+        "paper_date_proxy",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.25,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 1,
+          "citation_velocity": 1,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [
+        {
+          "url": "https://api.openalex.org/works?search=Visual+Grounding+in+Remote+Sensing+Images&per_page=5&mailto=ZiChenWang114514%40users.noreply.github.com",
+          "accessed": "2026-11-07",
+          "fields": [
+            "citations",
+            "citations_by_year",
+            "paper_title",
+            "paper_date",
+            "openalex_fwci"
+          ],
+          "identity": "strict_title_or_canonical_location_match"
+        }
+      ],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 120
+        },
+        "attributed_citation_velocity": {
+          "group": "domain_age",
+          "n": 91
+        },
+        "model_card_mentions": {
+          "group": "domain",
+          "n": 33
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "domain",
+          "n": 28
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "hf_likes": {
+          "group": "global_small_domain",
+          "n": 313
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "domain",
+          "n": 28
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.25,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 77.068,
+        "peer_group_diagnostic": "domain_age",
+        "peer_n": 7,
+        "legacy_peer_shrunk_score": 69.032,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": 48.73,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
       "id": "visualagent-bench",
       "name": "VisualAgent Bench",
       "domain": "Agent",
@@ -372969,6 +376859,160 @@
         "formula": "coverage * observed_score + (1-coverage) * 50"
       },
       "shrunk_score": 56.864,
+      "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "winograd-schema-challenge",
+      "name": "Winograd Schema Challenge",
+      "domain": "语言",
+      "release_date": null,
+      "score": null,
+      "observed_score": null,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": 0.0,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": null,
+        "gh_stars_per_month": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": false,
+        "collected_at": "2026-11-08",
+        "age_months": null,
+        "release_date_basis": null,
+        "release_date_precision": "day_or_missing",
+        "citations_per_month": null,
+        "citation_velocity_smoothed": null,
+        "evaluator_adoptions": null,
+        "community_discussions": null,
+        "issue_activity_90d": null,
+        "third_party_reproductions": null,
+        "issue_threads_90d": null,
+        "paper_shared_registry_entries": 1,
+        "attributed_citations": null,
+        "attributed_citation_velocity": null,
+        "model_card_mentions": null,
+        "industry_heat": null,
+        "nearest_similarity": 1,
+        "nearest_benchmarks": [
+          "mutual",
+          "natural-questions-open",
+          "crows-pairs"
+        ],
+        "distinctiveness_score": 2.220446049250313e-14,
+        "gh_shared_registry_entries": 1,
+        "hf_shared_registry_entries": 1
+      },
+      "flags": [
+        "homogeneous",
+        "insufficient_evidence",
+        "no_observed_impact_signal",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.014,
+        "label": "low",
+        "quality_coverage": 0,
+        "dimension_reliability": {
+          "citations_total": 0,
+          "citation_velocity": 0,
+          "github": 0,
+          "huggingface": 0,
+          "model_adoption": 0,
+          "evaluator_adoption": 0,
+          "community": 0,
+          "novelty": 0,
+          "quality": 0,
+          "distinctiveness": 0.35,
+          "headroom": 0,
+          "maintenance": 0
+        },
+        "official_rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间",
+        "rank_eligible": false
+      },
+      "provenance": [],
+      "assessment": {},
+      "assessment_review": null,
+      "normalization": {
+        "attributed_citations": {
+          "group": "domain",
+          "n": 125
+        },
+        "attributed_citation_velocity": {
+          "group": "age_unknown",
+          "n": 0
+        },
+        "model_card_mentions": {
+          "group": "global_small_domain",
+          "n": 240
+        },
+        "evaluator_adoptions": {
+          "group": "global_small_domain",
+          "n": 14
+        },
+        "gh_stars": {
+          "group": "domain",
+          "n": 22
+        },
+        "gh_stars_per_month": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "hf_downloads": {
+          "group": "domain",
+          "n": 116
+        },
+        "hf_likes": {
+          "group": "domain",
+          "n": 116
+        },
+        "community_discussions": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_activity_90d": {
+          "group": "global_small_domain",
+          "n": 0
+        },
+        "issue_threads_90d": {
+          "group": "global_small_domain",
+          "n": 7
+        },
+        "third_party_reproductions": {
+          "group": "global_small_domain",
+          "n": 19
+        },
+        "gh_forks": {
+          "group": "domain",
+          "n": 22
+        }
+      },
+      "shrinkage": {
+        "alpha": 0.014,
+        "prior": 50.0,
+        "prior_basis": "neutral_50_policy_not_an_observation",
+        "peer_median_diagnostic": 73.59,
+        "peer_group_diagnostic": "global_supported_fallback",
+        "peer_n": 97,
+        "legacy_peer_shrunk_score": null,
+        "formula": "coverage * observed_score + (1-coverage) * 50"
+      },
+      "shrunk_score": null,
       "status": "insufficient_evidence"
     },
     {
