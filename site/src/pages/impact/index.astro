@@ -54,7 +54,6 @@ const topChart = (impact?.ranking ?? [])
     value: row.score,
     href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
   }));
-const chartMax = Math.max(...topChart.map((item) => item.value), 1);
 const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
 ---
 <Base title="学术影响力榜" description="按引用、代码、社区采用和饱和度等维度合成的 benchmark 影响力指数。" active="impact">
@@ -89,7 +88,7 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
         {topChart.length > 0 && (
           <section class="chart-block" aria-labelledby="impact-top">
             <h2 id="impact-top">{ui.topChart}</h2>
-            <BarChart items={topChart} max={chartMax} />
+            <BarChart items={topChart} />
           </section>
         )}
         <form id="impact-form" class="board-toolbar" role="search" action={page('impact')} method="get">

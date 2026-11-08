@@ -50,7 +50,6 @@ const heatChart = (heat?.ranking ?? []).slice(0, 10).map((row) => ({
   value: row.count,
   href: known.has(row.benchmark_id) ? page('benchmarks/' + row.benchmark_id) : page('frontier-heat'),
 }));
-const heatChartMax = Math.max(...heatChart.map((item) => item.value), 1);
 function shareOf(count: number, share: number | null | undefined, models: number): number {
   const value = typeof share === 'number' ? share : (models ? count / models : 0);
   return Math.max(0, Math.min(1, value));
@@ -86,7 +85,7 @@ function shareOf(count: number, share: number | null | undefined, models: number
         {heatChart.length > 0 && (
           <section class="chart-block" aria-labelledby="heat-top">
             <h2 id="heat-top">{ui.topChart}</h2>
-            <BarChart items={heatChart} max={heatChartMax} />
+            <BarChart items={heatChart} />
           </section>
         )}
         <section class="section" aria-labelledby="heat-models">
