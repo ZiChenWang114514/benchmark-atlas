@@ -1,6 +1,6 @@
 # ChemDIRT
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 ChemDIRT用任务、提示改写和分子表示三个轴诊断化学LLM的稳定性，而不是压成一个总分。论文包含33种任务设置、八类任务；图像到结构、逆合成和性质回归必须保留各自指标。当前README声称4,484题，而HF卡明确4,482行，这个两条记录的差异仍需维护方解释，不能用“4.48k”掩盖。
 
@@ -26,7 +26,7 @@ ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robu
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 论文版本
 
@@ -64,7 +64,7 @@ v1；最近论文日期 2026-08-21
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 论文
 
@@ -110,15 +110,15 @@ ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robu
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 作者
 
 ```json
 [
-  "Inae, Eric",
-  "Gunn, Tim",
-  "Bond, Chris",
+  "Inae, Eric"
+  "Gunn, Tim"
+  "Bond, Chris"
   "Jiang, Meng"
 ]
 ```
@@ -137,7 +137,7 @@ einae-nd/ChemDIRT及Einae数据发布账号。
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ## 设计目标
 
@@ -191,10 +191,10 @@ GPT-5Pro生成十种提示模板并人工核查，实际评测取前四种；清
 
 ```json
 {
-  "readme_questions": 4484,
-  "readme_molecular_images": 300,
-  "hf_card_train_records": 4482,
-  "paper_task_settings": 33,
+  "readme_questions": 4484
+  "readme_molecular_images": 300
+  "hf_card_train_records": 4482
+  "paper_task_settings": 33
   "warning": "README 4484与当前HF数据卡4482不一致；不四舍五入为一致，也不推断缺失两题的原因。33为任务设置而不是题目数量。"
 }
 ```
@@ -267,7 +267,7 @@ src/cli.py 运行推理与评分；scripts/validate_data.py 检查数据及图�
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）；[来源2](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
 
@@ -277,7 +277,7 @@ src/cli.py 运行推理与评分；scripts/validate_data.py 检查数据及图�
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 论文修订与后续使用
 
@@ -285,28 +285,28 @@ src/cli.py 运行推理与评分；scripts/validate_data.py 检查数据及图�
 {
   "2026_H2_evidence": [
     {
-      "url": "https://arxiv.org/html/2608.21504v1",
-      "date": "2026-08-21",
+      "url": "https://arxiv.org/html/2608.21504v1"
+      "date": "2026-08-21"
       "note": "ChemDIRT 原始论文在H2提出并实际评测多指令、多分子表示及八类化学任务的鲁棒性。"
     }
-  ],
-  "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+  ]
+  "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。"
   "paper_metadata": {
-    "title": "ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robust Chemistry-LLM Evaluation",
+    "title": "ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robust Chemistry-LLM Evaluation"
     "authors": [
-      "Inae, Eric",
-      "Gunn, Tim",
-      "Bond, Chris",
+      "Inae, Eric"
+      "Gunn, Tim"
+      "Bond, Chris"
       "Jiang, Meng"
-    ],
-    "release": "2026-08-21",
-    "latest": "2026-08-21",
+    ]
+    "release": "2026-08-21"
+    "latest": "2026-08-21"
     "version": "v1"
-  },
+  }
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2026-08-22T01:58:30+09:00"
+      "version": "v1"
+      "submitted_at_kst": "2026-08-22"
     }
   ]
 }
@@ -332,13 +332,13 @@ src/cli.py 运行推理与评分；scripts/validate_data.py 检查数据及图�
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ## 榜单快照
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
 
@@ -354,43 +354,43 @@ https://github.com/einae-nd/ChemDIRT
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 逐轨结果
 
 ```json
 [
   {
-    "rank": null,
-    "model": "Claude-Sonnet-5",
-    "score": 0.633,
-    "metric": "exact match",
-    "track": "论文Table V／image→SMILES",
-    "source_url": "https://arxiv.org/pdf/2608.21504",
-    "accessed": "2026-11-08",
-    "std_across_prompts": 0.028,
+    "rank": null
+    "model": "Claude-Sonnet-5"
+    "score": 0.633
+    "metric": "exact match"
+    "track": "论文Table V／image→SMILES"
+    "source_url": "https://arxiv.org/pdf/2608.21504"
+    "accessed": "2026-11-08"
+    "std_across_prompts": 0.028
     "unit": "比例"
-  },
+  }
   {
-    "rank": null,
-    "model": "Claude-Sonnet-5",
-    "score": 0.687,
-    "metric": "exact match",
-    "track": "论文Table V／image→IUPAC",
-    "source_url": "https://arxiv.org/pdf/2608.21504",
-    "accessed": "2026-11-08",
-    "std_across_prompts": 0.039,
+    "rank": null
+    "model": "Claude-Sonnet-5"
+    "score": 0.687
+    "metric": "exact match"
+    "track": "论文Table V／image→IUPAC"
+    "source_url": "https://arxiv.org/pdf/2608.21504"
+    "accessed": "2026-11-08"
+    "std_across_prompts": 0.039
     "unit": "比例"
-  },
+  }
   {
-    "rank": null,
-    "model": "RetroDFM-R",
-    "score": 0.685,
-    "metric": "exact match",
-    "track": "论文Table IV／SMILES retrosynthesis",
-    "source_url": "https://arxiv.org/pdf/2608.21504",
-    "accessed": "2026-11-08",
-    "std_across_prompts": 0.023,
+    "rank": null
+    "model": "RetroDFM-R"
+    "score": 0.685
+    "metric": "exact match"
+    "track": "论文Table IV／SMILES retrosynthesis"
+    "source_url": "https://arxiv.org/pdf/2608.21504"
+    "accessed": "2026-11-08"
+    "std_across_prompts": 0.023
     "unit": "比例"
   }
 ]
@@ -410,9 +410,9 @@ https://github.com/einae-nd/ChemDIRT
 
 ```json
 [
-  "einae@nd.edu",
-  "tgunn2@nd.edu",
-  "cbond@nd.edu",
+  "einae@nd.edu"
+  "tgunn2@nd.edu"
+  "cbond@nd.edu"
   "mjiang2@nd.edu"
 ]
 ```
@@ -431,7 +431,7 @@ https://github.com/einae-nd/ChemDIRT/issues
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ### 联系信息边界
 
@@ -439,7 +439,7 @@ https://github.com/einae-nd/ChemDIRT/issues
 
 [来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-07）
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 ## 原始文件
 
@@ -461,12 +461,12 @@ https://arxiv.org/pdf/2608.21504
 
 [来源1](https://arxiv.org/pdf/2608.21504)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5",
-  "webViewLink": "https://drive.google.com/drive/folders/1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5"
+  "id": "1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5"
+  "webViewLink": "
 }
 ```
 
@@ -477,8 +477,8 @@ https://arxiv.org/pdf/2608.21504
 ```json
 [
   {
-    "type": "中文介绍 Google Doc",
-    "id": "1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58",
+    "type": "中文介绍 Google Doc"
+    "id": "1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58"
     "webViewLink": "https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit"
   }
 ]
@@ -486,12 +486,12 @@ https://arxiv.org/pdf/2608.21504
 
 [来源1](https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit)（访问2026-11-07）
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB",
-  "webViewLink": "https://drive.google.com/file/d/186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB/view"
+  "id": "186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB"
+  "webViewLink": "
 }
 ```
 
@@ -502,19 +502,19 @@ https://arxiv.org/pdf/2608.21504
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

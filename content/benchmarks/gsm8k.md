@@ -1,6 +1,6 @@
 # GSM8K
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GSM8K以英语多步算术应用题检验解题和选解能力。题目概念简单，但单次生成、计算器、验证器选优及多样本投票不是同一协议；本页保留精确公开划分并将厂商报告与独立评测区分。
 
@@ -28,13 +28,13 @@ main数据；仓库标记Archive，代码按原样提供
 
 ### 论文版本
 
-v2；2021-11-18T09:23:45+09:00（KST；论文修订号，不是数据版本）
+v2；2021-11-18（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2021-10-27T13:49:45+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
+2021-10-27（；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -259,7 +259,7 @@ https://github.com/openai/grade-school-math
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -271,7 +271,7 @@ main数据；仓库标记Archive，代码按原样提供
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2021-10-27T13:49:45+09:00；timezone：Asia/Seoul (KST)；- version：v2；submitted_at：2021-11-18T09:23:45+09:00；timezone：Asia/Seoul (KST)；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。
+arxiv_submissions：- version：v1；submitted_at：2021-10-27；timezone：；- version：v2；submitted_at：2021-11-18；timezone：；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -300,7 +300,7 @@ Socratic格式自动加子问题，原论文未用其进行实验；本库不另
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -308,7 +308,7 @@ Socratic格式自动加子问题，原论文未用其进行实验；本库不另
 
 待核实
 
-说明：本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+说明：未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -324,16 +324,16 @@ Socratic格式自动加子问题，原论文未用其进行实验；本库不另
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Hunyuan-Large-1116 | 92.8 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07 KST；2026-09（arXiv编号月份；确切实验日待核实） |
-| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Qwen2.5-72B | 91.5 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07 KST；2026-09（arXiv编号月份；确切实验日待核实） |
-| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Qwen3-A22B | 94.39 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07 KST；2026-09（arXiv编号月份；确切实验日待核实） |
-| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Hunyuan-A13B | 91.83 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07 KST；2026-09（arXiv编号月份；确切实验日待核实） |
+| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Hunyuan-Large-1116 | 92.8 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07；2026-09（arXiv编号月份；确切实验日待核实） |
+| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Qwen2.5-72B | 91.5 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07；2026-09（arXiv编号月份；确切实验日待核实） |
+| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Qwen3-A22B | 94.39 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07；2026-09（arXiv编号月份；确切实验日待核实） |
+| Hunyuan-A13B报告表2：基础模型，4-shot CoT | — | Hunyuan-A13B | 91.83 | accuracy % | [原始来源](https://arxiv.org/html/2609.27284v1)；采集2026-11-07；2026-09（arXiv编号月份；确切实验日待核实） |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
 ### 覆盖边界
 
-非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。
+非穷尽、非跨协议排名。仅转录打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07）
 
@@ -382,7 +382,7 @@ https://arxiv.org/pdf/2110.14168
 
 a52417d8fcd006de882e3b404850e2cc4246815828897c18c6ce6c7a448985a4
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2110.14168)（访问 2026-11-07）
 
@@ -392,32 +392,32 @@ a52417d8fcd006de882e3b404850e2cc4246815828897c18c6ce6c7a448985a4
 
 来源：[1](https://arxiv.org/pdf/2110.14168)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
-id：1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb；webViewLink：https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb
+id：1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 ### 其他原始材料
 
-chinese_intro_doc：id：1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8；webViewLink：https://docs.google.com/document/d/1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/gsm8k.md
+chinese_intro_doc：id：1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
-### Drive PDF
+### PDF
 
-id：1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y；webViewLink：https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk
+id：1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：Asia/Seoul；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- date：2026-11-07；timezone：Asia/Seoul；change：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；timezone：；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

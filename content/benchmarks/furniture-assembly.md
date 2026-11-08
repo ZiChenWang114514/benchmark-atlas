@@ -1,10 +1,10 @@
 # Furniture Assembly Benchmark
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 模型需要把真实装配照片与PDF手册联系起来，定位错误产生的步骤并描述错误。它不是机器人实际装配任务；60张照片来自仅三种家具，推广到一般物理推理时应保持克制。
 
-编辑状态：研究快照；trending: A；未知信息保留待核实。
+最近复核
 
 ## 基本信息
 
@@ -16,7 +16,7 @@
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-**基准版本**：运行CSV中见1.0.0与1.0.1；本轮榜单限1.0.0分轨
+**基准版本**：运行CSV中见1.0.0与1.0.1；榜单限1.0.0分轨
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -54,7 +54,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -62,7 +62,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -96,7 +96,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -150,7 +150,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -180,7 +180,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -190,18 +190,18 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "CSV最新运行见1.0.1",
+  "version": "CSV最新运行见1.0.1"
   "evidence_2026_h2": [
     {
-      "url": "https://epoch.ai/data/benchmarks.csv",
-      "date": "2026-11-06",
-      "note": "Kimi K3.1 Pro，运行2026-11-06 20:34:34 KST，id UNKjzcpUBaxGsrr7zZZZWC；持续实跑证据。"
+      "url": "https://epoch.ai/data/benchmarks.csv"
+      "date": "2026-11-06"
+      "note": "Kimi K3.1 Pro，运行2026-11-06 20:34:34，id UNKjzcpUBaxGsrr7zZZZWC；持续实跑证据。"
     }
   ]
 }
@@ -213,7 +213,7 @@
 
 来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-**饱和程度**：本轮CSV中1.0.0最高0.833333（Claude Opus 5.5）；1.0.1最高0.791667（GPT-6.1 Terra）。不同版本分轨，60张照片/三产品不能支持泛化到全部空间推理已饱和。
+**饱和程度**：CSV中1.0.0最高0.833333（Claude Opus 5.5）；1.0.1最高0.791667（GPT-6.1 Terra）。不同版本分轨，60张照片/三产品不能支持泛化到全部空间推理已饱和。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）
 
@@ -225,13 +225,13 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -243,24 +243,24 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 | 分轨/范围 | 名次 | 模型/系统 | 得分 | 指标 | 运行/提交日期 | 来源 |
 |---|---:|---|---:|---|---|---|
-| 1.0.0 | 1 | Claude Opus 5.5 (max) | 0.8333333333333334 | mean_score (0–1) | 2026-09-23T01:51:00+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.0 | 2 | GPT-6.1 Sol (max) | 0.8 | mean_score (0–1) | 2026-09-30T03:29:32+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.0 | 3 | GPT-6 Astra (max) | 0.8 | mean_score (0–1) | 2026-09-11T05:22:39+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.0 | 4 | Claude Sonnet 5.5 (max) | 0.75 | mean_score (0–1) | 2026-09-30T00:17:08+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.0 | 5 | Claude Fable 5.1 (max) | 0.7 | mean_score (0–1) | 2026-09-11T05:23:45+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.1 | 1 | GPT-6.1 Terra (max) | 0.7916666666666666 | mean_score (0–1) | 2026-10-27T05:00:34+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.1 | 2 | Gemini 4 Argon (high) | 0.725 | mean_score (0–1) | 2026-10-14T02:15:28+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.1 | 3 | Kimi K3.1 Pro (Together, max) | 0.5583333333333333 | mean_score (0–1) | 2026-11-06T20:34:34+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.1 | 4 | Muse Wonder (max) | 0.5416666666666666 | mean_score (0–1) | 2026-10-16T07:49:11+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 1.0.1 | 5 | Mistral Large 4 (high) | 0.3083333333333333 | mean_score (0–1) | 2026-11-02T22:47:12+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 1 | Claude Opus 5.5 (max) | 0.8333333333333334 | mean_score (0–1) | 2026-09-23 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 2 | GPT-6.1 Sol (max) | 0.8 | mean_score (0–1) | 2026-09-30 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 3 | GPT-6 Astra (max) | 0.8 | mean_score (0–1) | 2026-09-11 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 4 | Claude Sonnet 5.5 (max) | 0.75 | mean_score (0–1) | 2026-09-30 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.0 | 5 | Claude Fable 5.1 (max) | 0.7 | mean_score (0–1) | 2026-09-11 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 1 | GPT-6.1 Terra (max) | 0.7916666666666666 | mean_score (0–1) | 2026-10-27 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 2 | Gemini 4 Argon (high) | 0.725 | mean_score (0–1) | 2026-10-14 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 3 | Kimi K3.1 Pro (Together, max) | 0.5583333333333333 | mean_score (0–1) | 2026-11-06 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 4 | Muse Wonder (max) | 0.5416666666666666 | mean_score (0–1) | 2026-10-16 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 1.0.1 | 5 | Mistral Large 4 (high) | 0.3083333333333333 | mean_score (0–1) | 2026-11-02 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：刷新成功运行记录，分别列1.0.0及1.0.1各前5；rank在各版本内重新开始，严禁将两版混合成总榜。运行开始日不是榜单更新时间。
 
@@ -272,7 +272,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -280,7 +280,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -298,7 +298,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -306,7 +306,7 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
@@ -314,26 +314,26 @@
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
-核验说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+核验说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 **其他官方文档**：```json
 [
   {
-    "type": "发布研究报告",
+    "type": "发布研究报告"
     "url": "https://epoch.ai/publications/furniture-assembly"
-  },
+  }
   {
-    "type": "持续更新方法与人类基线",
+    "type": "持续更新方法与人类基线"
     "url": "https://epoch.ai/benchmarks/furniture-assembly"
   }
 ]
@@ -341,26 +341,26 @@
 
 来源：[1](https://epoch.ai/publications/furniture-assembly)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅本地研究，未上传Drive。
+核验说明：本组仅本地研究，未上传。
 
 来源：[1](https://epoch.ai/benchmarks/furniture-assembly)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

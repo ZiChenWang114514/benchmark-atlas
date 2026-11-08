@@ -1,7 +1,7 @@
 {
   "id": "core-bench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "CORE-Bench",
@@ -45,14 +45,14 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2024-09-18 02:13:19 KST",
+      "value": "2024-09-18 02:13:19",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.11363",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "Agent",
@@ -377,7 +377,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://github.com/siegelz/core-bench",
@@ -408,7 +408,7 @@
       ]
     },
     "paper_revision_history": {
-      "value": "Submission history From: Zachary Siegel [ view email ] [v1] 2024-09-18 02:13:19 KST (2,912 KB) [v2] 2026-06-23 07:36:12 KST (2,906 KB)",
+      "value": "Submission history From: Zachary Siegel [ view email ] [v1] 2024-09-18 02:13:19 (2,912 KB) [v2] 2026-06-23 07:36:12 (2,906 KB)",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2409.11363",
@@ -448,7 +448,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://github.com/siegelz/core-bench",
@@ -464,7 +464,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "由官方README指定；本轮访问返回503，分数和榜单更新日期保留待核实。"
+      "note": "由官方README指定；访问返回503，分数和榜单更新日期保留待核实。"
     },
     "third_party_url": {
       "value": "待核实",
@@ -724,13 +724,10 @@
       "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl",
-        "webViewLink": "https://drive.google.com/drive/folders/1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1E-Hv1SyK00WNfo687WrhcDLj5vqJ2pDl",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -738,18 +735,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA",
-          "webViewLink": "https://docs.google.com/document/d/1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://github.com/siegelz/core-bench",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1fsTi4y2eCdou0kLx6j5H2XfISM18p2lQ8qrQ5miLPEA/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -757,13 +748,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8",
-      "webViewLink": "https://drive.google.com/file/d/1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1bQtKC7OaO6g7Loph76jiNaLKzFcJZsG8/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -772,18 +760,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
+        "change": "最近复核"
       }
     ],
     "sources": [

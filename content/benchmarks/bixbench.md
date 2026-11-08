@@ -1,6 +1,6 @@
 # BixBench
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 BixBench要求智能体在数据胶囊中运行Python、R或Bash，完成真实计算生物分析并回答可判定问题。与只测单个生物函数的题库相比，它关注长链探索和结果解释，但参考答案仍会继承原始研究的分析选择。最重要的版本边界来自官方HF卡：v1.5为修订数据集，针对原版题干不充分的问题大规模重审，不能仅把它当作运行配置名。
 
@@ -36,7 +36,7 @@ arXiv v3
 
 ### 发布日期
 
-2025-03-01 03:47:57 KST（arXiv v1；原站为2025-02-28 18:47:57 UTC）
+2025-03-01 03:47:57 （arXiv v1；原站为2025-02-28 18:47:57 UTC）
 
 [来源1](https://arxiv.org/abs/2503.00096)（访问2026-11-08）
 
@@ -108,7 +108,7 @@ FutureHouse、ScienceMachine
 
 ```json
 [
-  "FutureHouse",
+  "FutureHouse"
   "ScienceMachine"
 ]
 ```
@@ -119,14 +119,14 @@ FutureHouse、ScienceMachine
 
 ```json
 [
-  "Mitchener, Ludovico",
-  "Laurent, Jon M",
-  "Andonian, Alex",
-  "Tenmann, Benjamin",
-  "Narayanan, Siddharth",
-  "Wellawatte, Geemi P",
-  "White, Andrew",
-  "Sani, Lorenzo",
+  "Mitchener, Ludovico"
+  "Laurent, Jon M"
+  "Andonian, Alex"
+  "Tenmann, Benjamin"
+  "Narayanan, Siddharth"
+  "Wellawatte, Geemi P"
+  "White, Andrew"
+  "Sani, Lorenzo"
   "Rodriques, Samuel G"
 ]
 ```
@@ -269,7 +269,7 @@ bixbench/generate_trajectories.py 生成轨迹，bixbench/postprocessing.py 后�
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2503.00096)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2503.00096)（访问2026-11-08）；[来源3](https://arxiv.org/html/2503.00096v3)（访问2026-11-08）；[来源4](https://arxiv.org/html/2608.25286v1)（访问2026-11-08）
 
@@ -285,16 +285,16 @@ v1.5；HF于2025-09-23公告对原版不足以作答的题重新审核、修订�
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2025-03-01T03:47:57+09:00"
-    },
+      "version": "v1"
+      "submitted_at_kst": "2025-03-01"
+    }
     {
-      "version": "v2",
-      "submitted_at_kst": "2025-03-08T09:57:19+09:00"
-    },
+      "version": "v2"
+      "submitted_at_kst": "2025-03-08"
+    }
     {
-      "version": "v3",
-      "submitted_at_kst": "2025-10-09T03:06:34+09:00"
+      "version": "v3"
+      "submitted_at_kst": "2025-10-09"
     }
   ]
 }
@@ -328,7 +328,7 @@ v1.5；HF于2025-09-23公告对原版不足以作答的题重新审核、修订�
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://arxiv.org/abs/2503.00096)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2503.00096)（访问2026-11-08）；[来源3](https://arxiv.org/html/2503.00096v3)（访问2026-11-08）
 
@@ -351,27 +351,27 @@ https://arxiv.org/pdf/2503.00096
 ```json
 [
   {
-    "model": "Claude 3.5 Sonnet",
-    "score": 21,
-    "unit": "%",
-    "metric": "accuracy",
-    "scope": "v3论文开放回答历史结果，非实时排行榜；精确API快照待核实",
-    "rank": null,
-    "track": "arXiv v3／开放回答／历史实验",
-    "source_url": "https://arxiv.org/pdf/2503.00096",
-    "accessed": "2026-11-08",
+    "model": "Claude 3.5 Sonnet"
+    "score": 21
+    "unit": "%"
+    "metric": "accuracy"
+    "scope": "v3论文开放回答历史结果，非实时排行榜；精确API快照待核实"
+    "rank": null
+    "track": "arXiv v3／开放回答／历史实验"
+    "source_url": "https://arxiv.org/pdf/2503.00096"
+    "accessed": "2026-11-08"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "model": "GPT-4o",
-    "score": 15,
-    "unit": "%",
-    "metric": "accuracy",
-    "scope": "v3论文开放回答历史结果，非实时排行榜；精确API快照待核实",
-    "rank": null,
-    "track": "arXiv v3／开放回答／历史实验",
-    "source_url": "https://arxiv.org/pdf/2503.00096",
-    "accessed": "2026-11-08",
+    "model": "GPT-4o"
+    "score": 15
+    "unit": "%"
+    "metric": "accuracy"
+    "scope": "v3论文开放回答历史结果，非实时排行榜；精确API快照待核实"
+    "rank": null
+    "track": "arXiv v3／开放回答／历史实验"
+    "source_url": "https://arxiv.org/pdf/2503.00096"
+    "accessed": "2026-11-08"
     "model_snapshot": "待核实"
   }
 ]
@@ -391,7 +391,7 @@ https://arxiv.org/pdf/2503.00096
 
 ```json
 [
-  "lorenzo@sciencemachine.ai",
+  "lorenzo@sciencemachine.ai"
   "sam@futurehouse.org"
 ]
 ```
@@ -440,60 +440,60 @@ https://arxiv.org/pdf/2503.00096
 
 [来源1](https://arxiv.org/pdf/2503.00096)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "18RlVM_Lc3Nl3DiXYGL0zDkcm1eoiH70c",
-  "webViewLink": "https://drive.google.com/drive/folders/18RlVM_Lc3Nl3DiXYGL0zDkcm1eoiH70c"
+  "id": "18RlVM_Lc3Nl3DiXYGL0zDkcm1eoiH70c"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/18RlVM_Lc3Nl3DiXYGL0zDkcm1eoiH70c)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U",
-    "webViewLink": "https://docs.google.com/document/d/1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1bEFN3c1qb8u79lMV2Z56atKtgtahHbe0f76wMBCuh9U/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "1yRMqp9lvytGSzPvHHKm24T1fAcwege8p",
-  "webViewLink": "https://drive.google.com/file/d/1yRMqp9lvytGSzPvHHKm24T1fAcwege8p/view?usp=drivesdk"
+  "id": "1yRMqp9lvytGSzPvHHKm24T1fAcwege8p"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1yRMqp9lvytGSzPvHHKm24T1fAcwege8p/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

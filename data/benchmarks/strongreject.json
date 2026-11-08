@@ -1,7 +1,7 @@
 {
   "id": "strongreject",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "StrongREJECT",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-02-16 KST（arXiv v1 2024-02-16T03:58:09+09:00；arXiv网页历日为2024-02-15 UTC）",
+      "value": "2024-02-16 （arXiv v1 2024-02-16；arXiv网页历日为2024-02-15 UTC）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.10260",
@@ -363,7 +363,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.10260",
@@ -388,13 +388,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2024-02-16T03:58:09+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2024-02-16"
         },
         {
           "version": "v2",
-          "submitted_at": "2024-08-27T12:32:47+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2024-08-27"
         }
       ],
       "sources": [
@@ -438,7 +436,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.10260",
@@ -484,7 +482,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.484,
           "mae_95ci_plus_minus": 0.03,
           "mae_human_nonzero": 0.372,
@@ -499,7 +497,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.354,
           "mae_95ci_plus_minus": 0.03,
           "mae_human_nonzero": 0.254,
@@ -514,7 +512,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.232,
           "mae_95ci_plus_minus": 0.02,
           "mae_human_nonzero": 0.278,
@@ -529,7 +527,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.208,
           "mae_95ci_plus_minus": 0.02,
           "mae_human_nonzero": 0.212,
@@ -544,7 +542,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.152,
           "mae_95ci_plus_minus": 0.02,
           "mae_human_nonzero": 0.224,
@@ -559,7 +557,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": -0.161,
           "mae_95ci_plus_minus": 0.02,
           "mae_human_nonzero": 0.761,
@@ -574,7 +572,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.013,
           "mae_95ci_plus_minus": 0.01,
           "mae_human_nonzero": 0.239,
@@ -589,7 +587,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": -0.023,
           "mae_95ci_plus_minus": 0.01,
           "mae_human_nonzero": 0.244,
@@ -604,7 +602,7 @@
           "track": "paper v2 Table 1 evaluator validation",
           "source_url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "bias": 0.012,
           "mae_95ci_plus_minus": 0.01,
           "mae_human_nonzero": 0.196,
@@ -698,7 +696,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次实际下载的PDF字节计算；未上传Drive。"
+      "note": "本次实际下载的PDF字节计算；未上传。"
     },
     "pdf_bytes": {
       "value": 600542,
@@ -710,13 +708,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV",
-        "webViewLink": "https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -724,22 +719,20 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE",
-          "webViewLink": "https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         },
         {
-          "type": "本轮已打开一手材料",
+          "type": "已打开一手材料",
           "url": "https://arxiv.org/abs/2402.10260",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮已打开一手材料",
+          "type": "已打开一手材料",
           "url": "https://github.com/dsbowen/strong_reject",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮已打开一手材料",
+          "type": "已打开一手材料",
           "url": "https://strong-reject.readthedocs.io/en/latest/",
           "accessed": "2026-11-08"
         }
@@ -761,13 +754,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor",
-      "webViewLink": "https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -776,18 +766,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+        "change": "最近复核"
       }
     ],
     "sources": [

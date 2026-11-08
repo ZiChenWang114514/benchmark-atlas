@@ -1,6 +1,6 @@
 # OpenAI MRCR / MRCR v2
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 OpenAI MRCR测试长对话中多份同类写作回复的顺序辨识与重现。公开HF版有2/4/8-needle配置，评分是带随机前缀门槛的SequenceMatcher匹配率，不是严格逐字全对准确率。厂商发布文的“v2”尚未映射到公开HF commit，本页不把二者当作已确认同一数据版本；其灵感来源Michelangelo论文也不冒称OpenAI的独立基准论文。
 [本页导读依据](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
@@ -33,17 +33,17 @@ OpenAI MRCR (Multi-round co-reference resolution)
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
 ### 发布日期
 
-公开HF仓库创建2025-04-12 08:55:25 KST；数据卡写4/12/2025 initial publication。公开初版与厂商MRCR v2首发不是同一事实，v2首发日期待核实。
+公开HF仓库创建2025-04-12 08:55:25；数据卡写4/12/2025 initial publication。公开初版与厂商MRCR v2首发不是同一事实，v2首发日期待核实。
 
 > 状态：待核实。
 
-[来源1](https://huggingface.co/api/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
 ### 主板块
 
@@ -71,7 +71,7 @@ MIT（HF公开数据卡）
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -81,7 +81,7 @@ MIT（HF公开数据卡）
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -103,7 +103,7 @@ https://huggingface.co/datasets/openai/mrcr
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -121,7 +121,7 @@ OpenAI
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -131,7 +131,7 @@ OpenAI
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -147,7 +147,7 @@ OpenAI
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -193,7 +193,7 @@ needle和distractor来自相同分布，需同时识别主题、格式与先后�
 
 ### 去污染/泄漏控制
 
-公开数据存在训练接触可能；本轮未核实v2额外防污染措施。
+公开数据存在训练接触可能；未核实v2额外防污染措施。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -269,11 +269,11 @@ HF数据卡内含运行与grade示例。
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -281,47 +281,47 @@ HF数据卡内含运行与grade示例。
 
 ```json
 {
-  "version": "v2发布文标签，公开数据精确revision待核实",
-  "heat_confidence": "B",
+  "version": "v2发布文标签，公开数据精确revision待核实"
+  "heat_confidence": "B"
   "evidence_2026_h2": [
     {
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "note": "OpenAI当前发布表使用MRCR v2；本轮热度主要来自单一机构OpenAI，不能称行业广泛采用。"
+      "url": "https://openai.com/index/gpt-6-astra/"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "note": "OpenAI当前发布表使用MRCR v2；热度主要来自单一机构OpenAI，不能称行业广泛采用。"
     }
-  ],
-  "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  ]
+  "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
   "revision_mapping": "厂商v2与此公开commit的对应关系待核实"
 }
 ```
 
 > 状态：待核实。
 
-[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/api/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）
 
 ### 论文/数据修订历史
 
 ```json
 {
-  "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射",
-  "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
-  "last_modified_kst": "2025-12-09T04:10:11+09:00",
+  "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射"
+  "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+  "last_modified_kst": "2025-12-09"
   "card_dates_verbatim": [
-    "4/12/2025: Initial dataset published",
+    "4/12/2025: Initial dataset published"
     "12/5/2025: Bugfix"
-  ],
-  "date_caveat": "数据卡数字日期可能存在美式/其他记法歧义；保留原文，HF明确ISO元数据另列，不强行替代修订语义。",
+  ]
+  "date_caveat": "数据卡数字日期可能存在美式/其他记法歧义；保留原文，HF明确ISO元数据另列，不强行替代修订语义。"
   "predecessor_paper": {
-    "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries",
-    "url": "https://arxiv.org/abs/2409.12640",
-    "pdf_read": "https://arxiv.org/pdf/2409.12640v2",
+    "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
+    "url": "https://arxiv.org/abs/2409.12640"
+    "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
     "scope": "Google/DeepMind原始MRCR灵感来源，不是OpenAI MRCR v2独立论文"
   }
 }
 ```
 
-[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/api/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）
 
 ### 饱和性证据
 
@@ -329,7 +329,7 @@ HF数据卡内含运行与grade示例。
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -365,7 +365,7 @@ https://openai.com/index/gpt-6-astra/
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -411,7 +411,7 @@ https://openai.com/index/gpt-6-astra/
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -427,7 +427,7 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -445,7 +445,7 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -455,7 +455,7 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
@@ -465,17 +465,17 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
 > 状态：待核实。
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-07）
 
@@ -484,43 +484,43 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 ```json
 [
   {
-    "type": "官方HF数据卡及内联运行/grade示例",
-    "url": "https://huggingface.co/datasets/openai/mrcr",
+    "type": "官方HF数据卡及内联运行/grade示例"
+    "url": "https://huggingface.co/datasets/openai/mrcr"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "公开HF commit元数据",
-    "url": "https://huggingface.co/api/datasets/openai/mrcr",
-    "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+    "type": "公开HF commit元数据"
+    "url": "https://huggingface.co/datasets/openai/mrcr"
+    "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "MRCR前身论文，非OpenAI v2论文",
-    "url": "https://arxiv.org/pdf/2409.12640v2",
+    "type": "MRCR前身论文，非OpenAI v2论文"
+    "url": "https://arxiv.org/pdf/2409.12640v2"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "厂商v2使用证据",
-    "url": "https://openai.com/index/gpt-6-astra/",
+    "type": "厂商v2使用证据"
+    "url": "https://openai.com/index/gpt-6-astra/"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/abs/2409.12640",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/abs/2409.12640"
     "accessed": "2026-11-08"
   }
 ]
 ```
 
-[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/api/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）；[来源5](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）；[来源3](https://openai.com/index/gpt-6-astra/)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2409.12640v2)（访问 2026-11-08）；[来源5](https://arxiv.org/abs/2409.12640)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 待核实
 
 > 状态：待核实。
 
-> 本组仅本地研究，未上传Drive。
+> 本组仅本地研究，未上传。
 
 [来源1](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-07）
 
@@ -531,14 +531,14 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

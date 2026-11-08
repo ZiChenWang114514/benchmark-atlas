@@ -1,7 +1,7 @@
 {
   "id": "browsecomp",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "BrowseComp",
@@ -380,7 +380,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://openai.com/index/browsecomp/",
@@ -430,14 +430,14 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+      "note": "近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。"
     },
     "paper_revision_history": {
       "value": {
         "arxiv_revisions_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2025-04-17T07:27:45+09:00"
+            "submitted_at_kst": "2025-04-17"
           }
         ]
       },
@@ -486,7 +486,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
+      "value": "2026-11-08 （实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://openai.com/index/browsecomp/",
@@ -521,7 +521,7 @@
           "note": "4个并行agent",
           "result_type": "Steel汇总／厂商自报，非Steel独立复测",
           "source_date": "2026-10-11",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
           "reported_rank": 1,
           "rank": null,
@@ -535,7 +535,7 @@
           "note": "单agent",
           "result_type": "Steel汇总／厂商自报，非Steel独立复测",
           "source_date": "2026-10-11",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
           "reported_rank": 2,
           "rank": null,
@@ -549,7 +549,7 @@
           "note": "300K压缩",
           "result_type": "Steel汇总／厂商自报，非Steel独立复测",
           "source_date": "2026-10-11",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
           "reported_rank": 3,
           "rank": null,
@@ -562,7 +562,7 @@
           "metric": "BrowseComp accuracy",
           "result_type": "Steel汇总／厂商自报，非Steel独立复测",
           "source_date": "2026-10-11",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
           "reported_rank": 4,
           "rank": null,
@@ -575,7 +575,7 @@
           "metric": "BrowseComp accuracy",
           "result_type": "Steel汇总／厂商自报，非Steel独立复测",
           "source_date": "2026-10-11",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_url": "https://leaderboard.steel.dev/leaderboards/browsecomp.md",
           "reported_rank": 5,
           "rank": null,
@@ -720,7 +720,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节的SHA-256；不表示已上传Drive。"
+      "note": "下载PDF字节的SHA-256；不表示已上传。"
     },
     "pdf_bytes": {
       "value": 335891,
@@ -730,7 +730,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节数；Drive归档仍待核实。"
+      "note": "下载PDF字节数；归档仍待核实。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -756,15 +756,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1axvEekdina-8QyW-ChEPoNi1MNOFEpl7",
-      "webViewLink": "https://drive.google.com/file/d/1axvEekdina-8QyW-ChEPoNi1MNOFEpl7/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1axvEekdina-8QyW-ChEPoNi1MNOFEpl7/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf",
         "accessed": "2026-11-08"
@@ -775,13 +768,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+        "change": "最近复核"
       }
     ],
     "sources": [

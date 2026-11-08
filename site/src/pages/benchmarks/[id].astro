@@ -60,12 +60,6 @@ const extras = Object.entries(file).filter((entry): entry is [string, Field] => 
 function external(field: Field | undefined): string | null {
   return typeof field?.value === 'string' ? safeUrl(field.value) : null;
 }
-const driveValue = file.drive_pdf?.value;
-const driveHref =
-  driveValue && typeof driveValue === 'object' && 'webViewLink' in driveValue && typeof driveValue.webViewLink === 'string'
-    ? safeUrl(driveValue.webViewLink)
-    : null;
-const introHref = record.index.drive_intro?.webViewLink ? safeUrl(record.index.drive_intro.webViewLink) : null;
 const versionStatus = statusOf(file.basic_info.version);
 const links = [
   ['论文', external(file.basic_info.paper_url)],
@@ -110,16 +104,11 @@ const hot = trendingFor(record.index.id);
           数据版本{' '}
           {versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : textValue(file.basic_info.version)}
         </li>
-        <li>{record.pending} 项待核实</li>
-        {record.index.last_checked && <li>核验 {record.index.last_checked}</li>}
+        {record.index.last_checked && <li>最近复核 {record.index.last_checked}</li>}
         {hot && <li><span class="badge badge-hot">🔥 近期热门 {hot.heat_confidence}</span></li>}
       </ul>
       <div class="actions">
-        {driveHref && <a class="action action-primary" href={driveHref} target="_blank" rel="noopener noreferrer">论文 PDF · Drive</a>}
         {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
-        {introHref && <a class="action" href={introHref} target="_blank" rel="noopener noreferrer">中文介绍原稿</a>}
-        <a class="action" href={`${import.meta.env.BASE_URL}api/benchmarks/${record.index.id}.json`} target="_blank" rel="noopener noreferrer">原始 JSON</a>
-        <a class="action" href={`${import.meta.env.BASE_URL}api/content/${record.index.id}.md`} target="_blank" rel="noopener noreferrer">Markdown</a>
       </div>
       <div class="callout">
         <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
@@ -199,7 +188,6 @@ const hot = trendingFor(record.index.id);
 
       <p class="fine">
         schema {file.schema_version ?? '未注明'}
-        {file.editorial_status ? ` · ${publicText(file.editorial_status)}` : ''}
       </p>
       <nav class="pager" aria-label="同板块">
         {previous ? (

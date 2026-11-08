@@ -1,7 +1,7 @@
 {
   "id": "livecodebench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "LiveCodeBench",
@@ -41,14 +41,14 @@
       ]
     },
     "release_date": {
-      "value": "2024-03-13 02:58:04 KST",
+      "value": "2024-03-13 02:58:04",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2403.07974",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "代码",
@@ -391,7 +391,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://livecodebench.github.io/",
@@ -427,16 +427,14 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2024-03-13T02:58:04+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-03-13"
           },
           {
             "version": "v2",
-            "submitted_at": "2024-06-07T02:41:21+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-06-07"
           }
         ],
-        "previous_evidence": "Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 KST (6,890 KB) [v2] 2024-06-07 02:41:21 KST (7,772 KB)"
+        "previous_evidence": "Submission history From: Naman Jain [ view email ] [v1] 2024-03-13 02:58:04 (6,890 KB) [v2] 2024-06-07 02:41:21 (7,772 KB)"
       },
       "sources": [
         {
@@ -444,7 +442,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。"
     },
     "saturation": {
       "value": "动态窗口改变题目分母；当前AA摘要最高91.7%，官方默认窗口另行计算。没有一个可跨时窗引用的全套饱和结论。",
@@ -488,7 +486,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://livecodebench.github.io/leaderboard.html",
@@ -524,7 +522,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -544,7 +542,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -564,7 +562,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -584,7 +582,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -604,7 +602,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -624,7 +622,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -644,7 +642,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -664,7 +662,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -684,7 +682,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -704,7 +702,7 @@
           "track": "官方网页默认窗口：2024-08-01–2025-05-01",
           "source_url": "https://livecodebench.github.io/performances_generation.json",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "对官方公开资产按网页相同均值/一位小数格式复算，非新实验",
           "window_start": "2024-08-01",
           "window_end": "2025-05-01",
@@ -724,7 +722,7 @@
           "track": "AA当前摘要；评测窗待核实",
           "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方当前摘要；精确运行日待核实"
         },
         {
@@ -735,7 +733,7 @@
           "track": "AA当前摘要；评测窗待核实",
           "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方当前摘要；精确运行日待核实"
         },
         {
@@ -746,7 +744,7 @@
           "track": "AA当前摘要；评测窗待核实",
           "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方当前摘要；精确运行日待核实"
         }
       ],
@@ -846,7 +844,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 4960954,
@@ -858,13 +856,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV",
-        "webViewLink": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -872,18 +867,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s",
-          "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://livecodebench.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -891,13 +880,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ",
-      "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -906,18 +892,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.dataset_url",
           "basic_info.license",

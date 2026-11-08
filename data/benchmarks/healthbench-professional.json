@@ -1,7 +1,7 @@
 {
   "id": "healthbench-professional",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "HealthBench Professional",
@@ -35,7 +35,7 @@
       ]
     },
     "paper_version": {
-      "value": "v1；2026-04-30T15:13:01+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v1；2026-04-30（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.27470",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-04-30T15:13:01+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2026-04-30（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.27470",
@@ -154,7 +154,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "authors": {
       "value": "Rebecca Soskin Hicks、Mikhail Trofimov、Dominick Lim、Rahul K. Arora 等（完整作者见论文）",
@@ -183,7 +183,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -288,7 +288,7 @@
       ]
     },
     "languages": {
-      "value": "论文称逐例标注primary language，但本轮公开JSONL实际键中没有该字段；不得声称公开包带语言标签。医生群体熟练使用52种语言，不代表525题含52种语言；准确题目语言分布待核实。",
+      "value": "论文称逐例标注primary language，但公开JSONL实际键中没有该字段；不得声称公开包带语言标签。医生群体熟练使用52种语言，不代表525题含52种语言；准确题目语言分布待核实。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2604.27470",
@@ -372,7 +372,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.27470",
@@ -413,8 +413,7 @@
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2026-04-30T15:13:01+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2026-04-30"
           }
         ]
       },
@@ -434,7 +433,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "contamination_and_issues": {
       "value": "Epoch于2026-09-10评审判为Flawed；该目录未说明具体错误，不臆测。另需注意模型裁判、难度富集和长度校正的外推限制。",
@@ -457,7 +456,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2604.27470",
@@ -474,7 +473,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "third_party_url": {
       "value": "https://artificialanalysis.ai/evaluations/healthbench-professional",
@@ -494,7 +493,7 @@
           "metric": "长度调整rubric得分 %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         },
@@ -505,7 +504,7 @@
           "metric": "长度调整rubric得分 %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         },
@@ -516,7 +515,7 @@
           "metric": "长度调整rubric得分 %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/healthbench-professional",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         }
@@ -561,7 +560,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "official_social": {
       "value": "待核实",
@@ -572,7 +571,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -583,7 +582,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "original_files": {
@@ -595,7 +594,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。"
+      "note": "官方论文正文对应的PDF入口；未下载，故hash与字节数待核实。"
     },
     "sha256": {
       "value": "ac61ef9d93b93e827e6543e7449d51381539a4bd37dbfa90e7e48b5fd235a628",
@@ -605,7 +604,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 1171376,
@@ -625,7 +624,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -655,15 +654,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1TZpdU3bR8Xi3O4fdU7JipdHH4nUdN7xV",
-      "webViewLink": "https://drive.google.com/file/d/1TZpdU3bR8Xi3O4fdU7JipdHH4nUdN7xV/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1TZpdU3bR8Xi3O4fdU7JipdHH4nUdN7xV/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2604.27470",
         "accessed": "2026-11-08"
@@ -674,18 +666,16 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

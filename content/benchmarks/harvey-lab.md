@@ -1,6 +1,6 @@
 # Harvey LAB（Legal Agent Benchmark）
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 Harvey LAB要求agent处理案卷并交付可审核的法律文件，测的是长程工作完成而非孤立法律选择题。公开任务库现已大于首发规模，但AA与Vals榜仍各用120个私有任务；双裁判all-pass与AA幻觉门控是独立赛道。
 
@@ -160,7 +160,7 @@ LegalBench、CUAD、LEXam、BigLaw Bench 等只评短程推理，缺少长程法
 
 ### 编制背景
 
-执业律师参与任务来源，rubric由领域专家撰写；首发称75,000+标准，不能把该历史数当作本轮实测条数。
+执业律师参与任务来源，rubric由领域专家撰写；首发称75,000+标准，不能把该历史数当作实测条数。
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
@@ -264,7 +264,7 @@ AA v1.1 与 v1.0 不可比；Vals HLAB-Vals-1.1 与 AA LAB-AA 不可比（Vals �
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/README.md)（访问 2026-11-07）
 
@@ -272,7 +272,7 @@ AA v1.1 与 v1.0 不可比；Vals HLAB-Vals-1.1 与 AA LAB-AA 不可比（Vals �
 
 version：开源仓库 lab-core v1.3.0；AA 实现为 Harvey LAB-AA v1.1；Vals 实现为 HLAB-Vals-1.1；evidence_2026_h2：- url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；organization：Artificial Analysis；note：当前方法页将Harvey Legal Agent Benchmark (LAB v1.1)列为正在实施的评测，披露任务或评分协议。；- url：https://artificialanalysis.ai/evaluations；date：2026-11-07；organization：Artificial Analysis；note：当前公开评测目录单列Harvey Legal Agent Benchmark (LAB v1.1)，不是新闻提及。；- url：https://www.vals.ai/benchmarks/hlab；date：2026-11-05；organization：Vals AI；note：Vals 11月5日更新HLAB-Vals-1.1专业法律交付物榜；与AA设置分开记录。；trending：heat_confidence：A；summary：AA 目录标 Updated，已与 Harvey 联合升级为幻觉门控评测；Vals 也独立评 HLAB-Vals-1.1。
 
-说明：近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。
+说明：近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。
 
 来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）；[2](https://artificialanalysis.ai/evaluations)（访问 2026-11-07）；[3](https://www.vals.ai/benchmarks/hlab)（访问 2026-11-07）
 
@@ -311,7 +311,7 @@ version：开源仓库 lab-core v1.3.0；AA 实现为 Harvey LAB-AA v1.1；Vals 
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://artificialanalysis.ai/evaluations/harvey-lab-aa)（访问 2026-11-07）
 
@@ -333,16 +333,16 @@ https://www.vals.ai/benchmarks/hlab
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 1 | Muse Wonder Full (Max) | 13.1 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07 KST；待核实（页面未标明更新日） |
-| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 2 | Muse Wonder (Max) | 10.0 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07 KST；待核实（页面未标明更新日） |
-| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 3 | Grok 4.7 (Xhigh) | 9.4 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07 KST；待核实（页面未标明更新日） |
-| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 4 | Muse Spark 1.3 (Max) | 8.9 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07 KST；待核实（页面未标明更新日） |
-| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 5 | GPT-6 Astra (Max) | 8.6 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07 KST；待核实（页面未标明更新日） |
-| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 1 | Gemini 4 Argon | 27.08 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07 KST；2026-11-05（页面自报更新日期，未给时区） |
-| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 2 | Muse Spark Open | 25.0 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07 KST；2026-11-05（页面自报更新日期，未给时区） |
-| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 3 | Wonder | 23.75 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07 KST；2026-11-05（页面自报更新日期，未给时区） |
-| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 4 | Wonder Full | 23.33 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07 KST；2026-11-05（页面自报更新日期，未给时区） |
-| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 5 | Inkling 2 Small | 21.67 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07 KST；2026-11-05（页面自报更新日期，未给时区） |
+| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 1 | Muse Wonder Full (Max) | 13.1 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07；待核实（页面未标明更新日） |
+| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 2 | Muse Wonder (Max) | 10.0 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07；待核实（页面未标明更新日） |
+| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 3 | Grok 4.7 (Xhigh) | 9.4 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07；待核实（页面未标明更新日） |
+| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 4 | Muse Spark 1.3 (Max) | 8.9 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07；待核实（页面未标明更新日） |
+| AA LAB-AA v1.1；120私有任务；Stirrup；三裁判 | 5 | GPT-6 Astra (Max) | 8.6 | Hallucination-Gated All-Pass Rate % | [原始来源](https://artificialanalysis.ai/evaluations/harvey-lab-aa)；采集2026-11-07；待核实（页面未标明更新日） |
+| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 1 | Gemini 4 Argon | 27.08 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07；2026-11-05（页面自报更新日期，未给时区） |
+| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 2 | Muse Spark Open | 25.0 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07；2026-11-05（页面自报更新日期，未给时区） |
+| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 3 | Wonder | 23.75 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07；2026-11-05（页面自报更新日期，未给时区） |
+| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 4 | Wonder Full | 23.33 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07；2026-11-05（页面自报更新日期，未给时区） |
+| HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判 | 5 | Inkling 2 Small | 21.67 | Task Pass Rate % | [原始来源](https://www.vals.ai/benchmarks/hlab)；采集2026-11-07；2026-11-05（页面自报更新日期，未给时区） |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
@@ -412,7 +412,7 @@ https://github.com/harveyai/harvey-labs/issues
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -428,11 +428,11 @@ https://github.com/harveyai/harvey-labs/issues
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/docs/eval-strategies.md)（访问 2026-11-07）；[3](https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/CHANGELOG.md)（访问 2026-11-07）
 
-### Drive PDF
+### PDF
 
 待核实
 
-说明：本组按任务要求不上传Drive；原始PDF URL见original_files。
+说明：本组按任务要求不上传；原始PDF URL见original_files。
 
 来源：[1](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)（访问 2026-11-07）
 
@@ -441,8 +441,8 @@ https://github.com/harveyai/harvey-labs/issues
 
 ### 本页修订
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

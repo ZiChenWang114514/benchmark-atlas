@@ -1,7 +1,7 @@
 {
   "id": "mmlu-prox",
   "schema_version": "0.1.0",
-  "editorial_status": "第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MMLU-ProX",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-03-14T00:59:20+09:00（KST；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2025-03-14（；arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2503.10497",
@@ -390,7 +390,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08（KST / Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/weihao1115/MMLU-ProX/main/README.md",
@@ -412,13 +412,11 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2025-03-14T00:59:20+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2025-03-14"
           },
           {
             "version": "v2",
-            "submitted_at": "2025-05-27T02:20:21+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2025-05-27"
           }
         ]
       },
@@ -471,7 +469,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（；采集日，不冒充评测运行日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2503.10497",
@@ -946,7 +944,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。"
+      "note": "下载PDF字节的SHA-256；不冒称已重新上传。"
     },
     "pdf_bytes": {
       "value": 730780,
@@ -956,16 +954,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮直接下载的PDF文件字节数。"
+      "note": "直接下载的PDF文件字节数。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9",
-        "webViewLink": "https://drive.google.com/drive/folders/1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -973,27 +968,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE",
-          "webViewLink": "https://docs.google.com/document/d/1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR",
-      "webViewLink": "https://drive.google.com/file/d/1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1002,18 +992,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "chess-puzzles",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；官方资料研究快照，未知保留待核实；trending: A",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Chess Puzzles (Epoch)",
@@ -447,7 +447,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul，KST）",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/chess-puzzles",
@@ -463,7 +463,7 @@
             "url": "https://epoch.ai/data/benchmarks.csv",
             "date": "2026-11-06",
             "date_type": "source_calendar_date",
-            "note": "最新CSV中Kimi K3.1 Pro(Together,max)实跑2.1.0，45%；开始时间2026-11-06 09:59:23（Asia/Seoul，KST）；不是引用次数。"
+            "note": "最新CSV中Kimi K3.1 Pro(Together,max)实跑2.1.0，45%；开始时间2026-11-06 09:59:23；不是引用次数。"
           }
         ]
       },
@@ -547,7 +547,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Seoul，KST）",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://epoch.ai/benchmarks/chess-puzzles",
@@ -587,8 +587,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.0440844002276808,
           "task_version": "2.0.0",
-          "run_started_at": "2026-10-13T22:42:38+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-13",
           "run_id": "KaEir82ukWPm2Fq4FanY2M"
         },
         {
@@ -601,8 +600,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.04688261722621507,
           "task_version": "2.0.0",
-          "run_started_at": "2026-10-14T18:56:09+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-14",
           "run_id": "WAavFdihYDHwjGsDNh9toF"
         },
         {
@@ -615,8 +613,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.04688261722621507,
           "task_version": "2.0.0",
-          "run_started_at": "2026-10-13T21:40:12+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-13",
           "run_id": "KkGEgrjYDnofMoUJBCykcH"
         },
         {
@@ -629,8 +626,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.04292346959909278,
           "task_version": "2.0.1",
-          "run_started_at": "2026-10-16T01:14:15+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-16",
           "run_id": "76P4iR5BFFPS5jtR3VRWDE"
         },
         {
@@ -643,8 +639,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.05021167315686782,
           "task_version": "2.0.1",
-          "run_started_at": "2026-10-15T01:16:30+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-15",
           "run_id": "YGX23vJ7GJBaYUVLvHnXn5"
         },
         {
@@ -657,8 +652,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.05009082659620331,
           "task_version": "2.0.1",
-          "run_started_at": "2026-10-20T07:39:00+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-10-20",
           "run_id": "4sRo7TxavQAsjaEALPZdDy"
         },
         {
@@ -671,8 +665,7 @@
           "accessed": "2026-11-07",
           "stderr": 0.05,
           "task_version": "2.1.0",
-          "run_started_at": "2026-11-06T09:59:23+09:00",
-          "timezone": "Asia/Seoul (KST)",
+          "run_started_at": "2026-11-06",
           "run_id": "8eSYUWwajdBjKiiM9CwnKu"
         }
       ],
@@ -684,7 +677,7 @@
       ]
     },
     "coverage_note": {
-      "value": "Success运行按Chess Puzzles和任务版本独立排序，各列前三配置；不混入Decision、不合并2.0.0/2.0.1/2.1.0。2.1.0当前仅见一条成功运行；采集日期不是实验日期，运行时间转KST。",
+      "value": "Success运行按Chess Puzzles和任务版本独立排序，各列前三配置；不混入Decision、不合并2.0.0/2.0.1/2.1.0。2.1.0当前仅见一条成功运行；采集日期不是实验日期，运行时间转。",
       "sources": [
         {
           "url": "https://epoch.ai/data/benchmarks.csv",
@@ -819,19 +812,17 @@
       }
     ],
     "status": "待核实",
-    "note": "本组只建立暂存条目，未上传Drive。"
+    "note": "本组只建立暂存条目，未上传。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
+        "change": "最近复核"
       }
     ],
     "sources": [

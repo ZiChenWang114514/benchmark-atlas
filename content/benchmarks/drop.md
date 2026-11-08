@@ -1,12 +1,12 @@
 # DROP
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 已核实存在；深度条目；显式待核实项保留
 
 DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解数据集：模型在Wikipedia段落中找证据，完成计数、加减、比较及多跨度回答，而非仅抽取连续文本。原论文96567题，按段落分为77409训练、9536开发、9622隐藏测试，避免同一段落跨集。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
-本轮实际重读论文、官方评分脚本、历史仓库迁移说明、HF卡和AWS登记。数据镜像计数与许可口径存在差异；官方隐藏测试榜当前返回错误，不能据搜索缓存声称取得实时SOTA。为避免把厂商自报结果混入官方榜，下面明确回退到原论文历史基线，并标注非当前排名。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
+实际重读论文、官方评分脚本、历史仓库迁移说明、HF卡和AWS登记。数据镜像计数与许可口径存在差异；官方隐藏测试榜当前返回错误，不能据搜索缓存声称取得实时SOTA。为避免把厂商自报结果混入官方榜，下面明确回退到原论文历史基线，并标注非当前排名。 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
 ## 基本信息
 
@@ -14,11 +14,11 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 - **全称**：Discrete Reasoning Over Paragraphs [2](https://arxiv.org/abs/1903.00161)
 
-- **基准版本**：2019 公开数据集；本轮未固定下载包版本 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161)
+- **基准版本**：2019 公开数据集；未固定下载包版本 [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161)
 
 - **论文/报告版本**：arXiv v2 [2](https://arxiv.org/abs/1903.00161)
 
-- **发布日期**：2019-03-01（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明） [2](https://arxiv.org/abs/1903.00161)
+- **发布日期**：2019-03-01（arXiv初稿日期，非独立数据集首发声明） [2](https://arxiv.org/abs/1903.00161)
 
 - **主板块**：推理 [1](https://allennlp.org/drop)
 
@@ -94,11 +94,11 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07（Asia/Seoul） [1](https://allennlp.org/drop) [9](https://arxiv.org/html/2609.27284v1)
+- **核验日期**：2026-11-07 [1](https://allennlp.org/drop) [9](https://arxiv.org/html/2609.27284v1)
 
-- **现行版本与采用证据**：本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。 [6](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)
+- **现行版本与采用证据**：未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。 [6](https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md)
 
-- **更新与修订**：arxiv_version：arXiv v2；history_note：完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。；2026_h2_evidence：url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。 [2](https://arxiv.org/abs/1903.00161) [9](https://arxiv.org/html/2609.27284v1)
+- **更新与修订**：arxiv_version：arXiv v2；history_note：完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。；2026_h2_evidence：url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.2 Reasoning及表3–4实际报告 DROP；厂商自报评测。 [2](https://arxiv.org/abs/1903.00161) [9](https://arxiv.org/html/2609.27284v1)
 
 - **已知问题与证据边界**：Wikipedia与公开问答长期可获得，无法由当前得分排除记忆效应。 [2](https://arxiv.org/abs/1903.00161) [1](https://allennlp.org/drop)
 
@@ -110,9 +110,9 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST（材料采集日；结果为2019论文历史实验） [2](https://arxiv.org/abs/1903.00161)
+- **快照采集日**：2026-11-07 （材料采集日；结果为2019论文历史实验） [2](https://arxiv.org/abs/1903.00161)
 
-- **官方榜/正式委托榜**：https://leaderboard.allenai.org/drop/submissions/public [2](https://arxiv.org/abs/1903.00161) 注：本轮官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。
+- **官方榜/正式委托榜**：https://leaderboard.allenai.org/drop/submissions/public [2](https://arxiv.org/abs/1903.00161) 注：官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。
 
 | 标记/名次 | 模型或配置 | 结果 | 指标与来源 |
 |---|---|---|---|
@@ -127,13 +127,13 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 > Expert human：exact_match：94.09；result_type：2019历史人工参考 [2](https://arxiv.org/abs/1903.00161)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
-- **覆盖范围与版本限制**：官方隐藏测试榜本轮不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。 [2](https://arxiv.org/abs/1903.00161)
+- **覆盖范围与版本限制**：官方隐藏测试榜不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。 [2](https://arxiv.org/abs/1903.00161)
 
 **仍待核实**（不推断为未公开）：
 
-- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [2](https://arxiv.org/abs/1903.00161)
+- 独立第三方入口：未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [2](https://arxiv.org/abs/1903.00161)
 
 ## 联系方式
 
@@ -143,27 +143,27 @@ DROP（Discrete Reasoning Over Paragraphs）是数值与离散推理阅读理解
 
 **仍待核实**（不推断为未公开）：
 
-- 官方社交：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
-- 隐私政策：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
+- 官方社交：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
+- 隐私政策：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [2](https://arxiv.org/abs/1903.00161)
 
 ## 原始文件
 
 - **原始PDF**：https://arxiv.org/pdf/1903.00161 [10](https://arxiv.org/pdf/1903.00161)
 
-- **SHA-256**：e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5 [10](https://arxiv.org/pdf/1903.00161) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
+- **SHA-256**：e5f409536a3b9b8b0fdb7f687be42bd990e34ff2cb5862b9c1b241c2d498c4e5 [10](https://arxiv.org/pdf/1903.00161) 注：实际下载的PDF字节计算；不是外部网页抄录。
 
-- **PDF字节数**：1989064 [10](https://arxiv.org/pdf/1903.00161) 注：本轮下载字节数；未上传Drive。
+- **PDF字节数**：1989064 [10](https://arxiv.org/pdf/1903.00161) 注：下载字节数；未上传。
 
-- **Drive归档目录**：id：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc；webViewLink：https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc [11](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)
+- **归档目录**：id：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc；webViewLink： [11](
 
-- **其他正式文档**：chinese_intro_doc：id：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w；webViewLink：https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk；mimeType：application/vnd.google-apps.document；local_markdown：content/benchmarks/drop.md [11](https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc)
+- **其他正式文档**：chinese_intro_doc：id：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w；webViewLink： [11](
 
-- **Drive中的论文副本**：id：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_；webViewLink：https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk [12](https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk)
+- **中的论文副本**：id：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_；webViewLink： [12](
 
 ## 变更记录
 
-- date：2026-11-07；timezone：Asia/Seoul；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；timezone：Asia/Seoul；change：第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://allennlp.org/drop)
+- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；timezone：；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://allennlp.org/drop)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

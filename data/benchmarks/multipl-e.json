@@ -1,7 +1,7 @@
 {
   "id": "multipl-e",
   "schema_version": "0.1.0",
-  "editorial_status": "第二轮主源/论文/分轨成绩复核完成；第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MultiPL-E",
@@ -33,7 +33,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E",
           "accessed": "2026-11-08"
         }
       ]
@@ -49,14 +49,14 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2022-08-17 20:16:52 KST",
+      "value": "2022-08-17 20:16:52",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2208.08227",
           "accessed": "2026-11-08"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "代码",
@@ -615,13 +615,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。"
+      "note": "本次源站访问日期；时区；不等于榜单运行日期。"
     },
     "latest_dataset_version": {
       "value": {
         "version": "HF changelog 3.3",
         "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2",
-        "last_modified_kst": "2025-07-15T19:43:47+09:00",
+        "last_modified_kst": "2025-07-15",
         "evidence_2026_h2": [
           {
             "url": "https://arxiv.org/html/2609.27284v1",
@@ -636,7 +636,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E",
           "accessed": "2026-11-08"
         },
         {
@@ -650,19 +650,19 @@
         "arxiv_revisions": [
           {
             "version": "v1",
-            "date_kst": "2022-08-17T20:16:52+09:00"
+            "date_kst": "2022-08-17"
           },
           {
             "version": "v2",
-            "date_kst": "2022-08-19T10:12:49+09:00"
+            "date_kst": "2022-08-19"
           },
           {
             "version": "v3",
-            "date_kst": "2022-11-08T14:48:57+09:00"
+            "date_kst": "2022-11-08"
           },
           {
             "version": "v4",
-            "date_kst": "2022-12-19T19:30:12+09:00"
+            "date_kst": "2022-12-19"
           }
         ],
         "dataset_changelog_latest": "3.3（Lua stop token修复）",
@@ -684,7 +684,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E",
           "accessed": "2026-11-08"
         }
       ]
@@ -950,13 +950,10 @@
       "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF",
-        "webViewLink": "https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -964,52 +961,50 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM",
-          "webViewLink": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/abs/2208.08227",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/html/2609.27284v1",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/pdf/2208.08227",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://github.com/nuprl/MultiPL-E/blob/main/README.md",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
-          "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+          "type": "打开核验的官方/研究来源",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://huggingface.co/spaces/bigcode/multilingual-code-evals",
           "accessed": "2026-11-08"
         },
         {
-          "type": "本轮打开核验的官方/研究来源",
+          "type": "打开核验的官方/研究来源",
           "url": "https://nuprl.github.io/MultiPL-E/",
           "accessed": "2026-11-08"
         }
@@ -1020,10 +1015,6 @@
           "accessed": "2026-11-07"
         },
         {
-          "url": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/abs/2208.08227",
           "accessed": "2026-11-08"
         },
@@ -1044,7 +1035,7 @@
           "accessed": "2026-11-08"
         },
         {
-          "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+          "url": "https://huggingface.co/datasets/nuprl/MultiPL-E",
           "accessed": "2026-11-08"
         },
         {
@@ -1064,13 +1055,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ",
-      "webViewLink": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1079,18 +1067,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST, UTC+9)",
-        "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+        "change": "最近复核"
       }
     ],
     "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "webarena",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "WebArena",
@@ -42,7 +42,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2023-07-26T07:59:32+09:00",
+        "paper_first_submission_kst": "2023-07-26",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -372,7 +372,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.13854",
@@ -392,8 +392,8 @@
             "url": "https://arxiv.org/html/2609.19134v1",
             "date": "2026-09-17",
             "note": "ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
-            "date_kst": "2026-09-17T02:55:47+09:00",
-            "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
+            "date_kst": "2026-09-17",
+            "verified_in_round1": "重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
           },
           {
             "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
@@ -423,26 +423,26 @@
     },
     "paper_revision_history": {
       "value": {
-        "previous_evidence_note": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 KST (9,497 KB) [v2] 2023-10-24 12:19:22 KST (8,751 KB) [v3] 2023-10-25 10:56:14 KST (8,751 KB) [v4] 2024-04-17 00:13:18 KST (9,472 KB)",
+        "previous_evidence_note": "Submission history From: Shuyan Zhou [ view email ] [v1] 2023-07-26 07:59:32 (9,497 KB) [v2] 2023-10-24 12:19:22 (8,751 KB) [v3] 2023-10-25 10:56:14 (8,751 KB) [v4] 2024-04-17 00:13:18 (9,472 KB)",
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-07-26T07:59:32+09:00"
+            "date_kst": "2023-07-26"
           },
           {
             "version": "v2",
-            "date_kst": "2023-10-24T12:19:22+09:00"
+            "date_kst": "2023-10-24"
           },
           {
             "version": "v3",
-            "date_kst": "2023-10-25T10:56:14+09:00"
+            "date_kst": "2023-10-25"
           },
           {
             "version": "v4",
-            "date_kst": "2024-04-17T00:13:18+09:00"
+            "date_kst": "2024-04-17"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -485,7 +485,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
@@ -514,7 +514,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -960,7 +960,7 @@
           "track": "官方Sheet主榜（参评者汇总）",
           "source_date": "01/2025",
           "result_source": "NNetscape",
-          "settings": "LLama 3.1-8B-instruct fine-tuned on NNetNav6k (a newer version of the dataset where the work keeps the best of 3 trajectories for each instruction, where we use a llama 3.1 70b as the reward model). \nThe model is available here: https://huggingface.co/stanfordnlp/llama8b-nnetnav-wa",
+          "settings": "LLama 3.1-8B-instruct fine-tuned on NNetNav6k (a newer version of the dataset where the work keeps the best of 3 trajectories for each instruction, where we use a llama 3.1 70b as the reward model). The model is available here: https://huggingface.co/stanfordnlp/llama8b-nnetnav-wa",
           "open_source": "✔",
           "model_size_billion": "8",
           "source_url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
@@ -1623,7 +1623,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮读取官方Sheet全部51行：48主榜、2个Reddit子集、1个人类模板抽样；子集CSV字段错位已按原值复位，保留原source_date月份。追加原论文v4 Table 2全部8配置的all/achievable/unachievable三类成绩。旧档把14.41归为Table 3已纠正为Table 2；Sheet14.9与论文14.41不强行合并。",
+      "value": "读取官方Sheet全部51行：48主榜、2个Reddit子集、1个人类模板抽样；子集CSV字段错位已按原值复位，保留原source_date月份。追加原论文v4 Table 2全部8配置的all/achievable/unachievable三类成绩。旧档把14.41归为Table 3已纠正为Table 2；Sheet14.9与论文14.41不强行合并。",
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF7LdyGU1f_ufZb_NWNBZQ/gviz/tq?tqx=out:csv",
@@ -1668,7 +1668,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "privacy_policy": {
@@ -1679,7 +1679,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -1702,7 +1702,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 9128123,
@@ -1714,13 +1714,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1nFh380aqu7esGjwpLfEm0xF85brhlOzU",
-        "webViewLink": "https://drive.google.com/drive/folders/1nFh380aqu7esGjwpLfEm0xF85brhlOzU"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1nFh380aqu7esGjwpLfEm0xF85brhlOzU",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1728,32 +1725,23 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4",
-          "webViewLink": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://webarena.dev/og/",
           "accessed": "2026-11-08"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1OTl6lnoV0OsMnUUEnn544z3E_2EaRfU3HH5BAKTVbl4/edit?usp=drivesdk",
-          "accessed": "2026-11-07"
         }
       ],
       "note": "官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。"
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L",
-      "webViewLink": "https://drive.google.com/file/d/1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1vlsk1lC8L3o4gI4h9qaTUwELS4bwG60L/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1762,20 +1750,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "补v0.2.0/AgentLab运行口径，重读官方Sheet当前前三和H2收录；并列论文14.41与Sheet14.9历史差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [

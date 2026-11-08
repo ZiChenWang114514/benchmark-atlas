@@ -1,8 +1,8 @@
 # IFEval
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
-IFEval把长度、关键词、格式等指令转成确定性验证程序。它有prompt/instruction和strict/loose四套不同准确率；本轮恢复四套原作者基线，避免用未说明指标的厂商总分掩盖差异。
+IFEval把长度、关键词、格式等指令转成确定性验证程序。它有prompt/instruction和strict/loose四套不同准确率；恢复四套原作者基线，避免用未说明指标的厂商总分掩盖差异。
 
 导读依据：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）；[2](https://github.com/google-research/google-research/tree/master/instruction_following_eval)（访问 2026-11-08）；[3](https://huggingface.co/datasets/google/IFEval)（访问 2026-11-08）。
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2023-11-14T14:13:55+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2023-11-14（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）。
 
@@ -114,13 +114,13 @@ Google Research 研究团队；Jeffrey Zhou 的研究实习与 Yale 背景在论
 
 ```json
 [
-  "Zhou, Jeffrey",
-  "Lu, Tianjian",
-  "Mishra, Swaroop",
-  "Brahma, Siddhartha",
-  "Basu, Sujoy",
-  "Luan, Yi",
-  "Zhou, Denny",
+  "Zhou, Jeffrey"
+  "Lu, Tianjian"
+  "Mishra, Swaroop"
+  "Brahma, Siddhartha"
+  "Basu, Sujoy"
+  "Luan, Yi"
+  "Zhou, Denny"
   "Hou, Le"
 ]
 ```
@@ -261,15 +261,15 @@ prompt-level 与 instruction-level、strict 与 loose 是四种不同指标，�
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）；[2](https://github.com/google-research/google-research/tree/master/instruction_following_eval)（访问 2026-11-08）。
 
 ### 最新数据状态
 
-本轮Google官方HF卡显示541行，25种指令以原论文为准；未编造语义版本号。
+Google官方HF卡显示541行，25种指令以原论文为准；未编造语义版本号。
 
 来源：[1](https://huggingface.co/datasets/google/IFEval)（访问 2026-11-08）；[2](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）。
 
@@ -278,14 +278,14 @@ prompt-level 与 instruction-level、strict 与 loose 是四种不同指标，�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2023-11-14T14:13:55+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v1"
+    "submitted_at": "2023-11-14"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）。
 
@@ -311,7 +311,7 @@ IFBench是独立的58种OOD约束基准，扩展IFEval验证思路而非同一�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://arxiv.org/pdf/2311.07911)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）。
 
@@ -336,94 +336,94 @@ https://arxiv.org/abs/2311.07911
 ```json
 [
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "76.89",
-    "metric": "prompt-level strict accuracy (%)",
-    "track": "作者论文表3 / prompt-level strict",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "76.89"
+    "metric": "prompt-level strict accuracy (%)"
+    "track": "作者论文表3 / prompt-level strict"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "PaLM 2 S",
-    "score": "43.07",
-    "metric": "prompt-level strict accuracy (%)",
-    "track": "作者论文表3 / prompt-level strict",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "PaLM 2 S"
+    "score": "43.07"
+    "metric": "prompt-level strict accuracy (%)"
+    "track": "作者论文表3 / prompt-level strict"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "83.57",
-    "metric": "instruction-level strict accuracy (%)",
-    "track": "作者论文表3 / instruction-level strict",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "83.57"
+    "metric": "instruction-level strict accuracy (%)"
+    "track": "作者论文表3 / instruction-level strict"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "PaLM 2 S",
-    "score": "55.76",
-    "metric": "instruction-level strict accuracy (%)",
-    "track": "作者论文表3 / instruction-level strict",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "PaLM 2 S"
+    "score": "55.76"
+    "metric": "instruction-level strict accuracy (%)"
+    "track": "作者论文表3 / instruction-level strict"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "79.30",
-    "metric": "prompt-level loose accuracy (%)",
-    "track": "作者论文表3 / prompt-level loose",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "79.30"
+    "metric": "prompt-level loose accuracy (%)"
+    "track": "作者论文表3 / prompt-level loose"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "PaLM 2 S",
-    "score": "46.95",
-    "metric": "prompt-level loose accuracy (%)",
-    "track": "作者论文表3 / prompt-level loose",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "PaLM 2 S"
+    "score": "46.95"
+    "metric": "prompt-level loose accuracy (%)"
+    "track": "作者论文表3 / prompt-level loose"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "85.37",
-    "metric": "instruction-level loose accuracy (%)",
-    "track": "作者论文表3 / instruction-level loose",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "85.37"
+    "metric": "instruction-level loose accuracy (%)"
+    "track": "作者论文表3 / instruction-level loose"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "PaLM 2 S",
-    "score": "59.11",
-    "metric": "instruction-level loose accuracy (%)",
-    "track": "作者论文表3 / instruction-level loose",
-    "source_url": "https://arxiv.org/pdf/2311.07911",
-    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "PaLM 2 S"
+    "score": "59.11"
+    "metric": "instruction-level loose accuracy (%)"
+    "track": "作者论文表3 / instruction-level loose"
+    "source_url": "https://arxiv.org/pdf/2311.07911"
+    "result_type": "历史API基线；GPT-4 2023年11月、PaLM 2 S 2023年8月，具体checkpoint未列明"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "model": "Hunyuan-A13B（报告命名）",
-    "score": 84.7,
-    "unit": "%",
-    "metric": "IF-Eval，报告表3原标签",
-    "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比",
-    "evaluation_date": "报告日期2026-09-23；精确运行日期待核实",
-    "snapshot_date": "2026-11-07 KST（保留历史证据；本轮未复开厂商报告）",
-    "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）",
+    "model": "Hunyuan-A13B（报告命名）"
+    "score": 84.7
+    "unit": "%"
+    "metric": "IF-Eval，报告表3原标签"
+    "scope": "Hunyuan-A13B 技术报告，slow-thinking；厂商自报，未明确对应本条四指标中的哪一个，不能与论文 prompt-strict 直接混比"
+    "evaluation_date": "报告日期2026-09-23；精确运行日期待核实"
+    "snapshot_date": "2026-11-07 （保留历史证据；未复开厂商报告）"
+    "track": "Hunyuan-A13B厂商技术报告（四指标映射未知）"
     "rank": null
   }
 ]
@@ -477,59 +477,59 @@ https://arxiv.org/pdf/2311.07911
 
 来源：[1](https://arxiv.org/pdf/2311.07911)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 5d7cedfd762af6d9ad13d8768de64fa65895b8ebc3f5e454454c5ffbd48124f2
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2311.07911)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 464152
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2311.07911)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 ```json
 {
-  "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ",
-  "webViewLink": "https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
+  "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/drive/folders/1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU",
-    "webViewLink": "https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU"
+    "webViewLink": "
   }
 ]
 ```
 
-来源：[1](https://docs.google.com/document/d/1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU/edit?usp=drivesdk)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 ```json
 {
-  "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM",
-  "webViewLink": "https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk"
+  "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/file/d/1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM/view?usp=drivesdk)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ## 变更记录
 
@@ -538,19 +538,19 @@ https://arxiv.org/pdf/2311.07911
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

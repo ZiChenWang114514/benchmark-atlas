@@ -1,7 +1,7 @@
 {
   "id": "bfcl",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留；trending: B",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Berkeley Function Calling Leaderboard (BFCL)",
@@ -166,7 +166,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "authors": {
@@ -203,7 +203,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -435,7 +435,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://proceedings.mlr.press/v267/patil25a.html",
@@ -482,8 +482,8 @@
                   "url": "https://arxiv.org/html/2609.27284v1",
                   "date": "2026-09-23",
                   "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。",
-                  "date_kst": "2026-09-23T12:21:24+09:00",
-                  "verified_in_round1": "本轮重新打开Hunyuan-A13B §4.2 Agents表格，确认BFCLv3 78.3/65.9是slow/fast-thinking厂商自报，非V4。"
+                  "date_kst": "2026-09-23",
+                  "verified_in_round1": "重新打开Hunyuan-A13B §4.2 Agents表格，确认BFCLv3 78.3/65.9是slow/fast-thinking厂商自报，非V4。"
                 },
                 {
                   "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
@@ -521,9 +521,9 @@
                 "metric": "V4 weighted overall accuracy",
                 "scope": "BFCL V4 Overall；官方当前data_overall.csv",
                 "date": "待核实",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
-                "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+                "provenance": "打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
                 "rank": 1,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
@@ -538,9 +538,9 @@
                 "metric": "V4 weighted overall accuracy",
                 "scope": "BFCL V4 Overall；官方当前data_overall.csv",
                 "date": "待核实",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
-                "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+                "provenance": "打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
                 "rank": 2,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
@@ -555,9 +555,9 @@
                 "metric": "V4 weighted overall accuracy",
                 "scope": "BFCL V4 Overall；官方当前data_overall.csv",
                 "date": "待核实",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
-                "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+                "provenance": "打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
                 "rank": 3,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
@@ -572,9 +572,9 @@
                 "metric": "V4 weighted overall accuracy",
                 "scope": "BFCL V4 Overall；官方当前data_overall.csv",
                 "date": "待核实",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
-                "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+                "provenance": "打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
                 "rank": 4,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
@@ -589,9 +589,9 @@
                 "metric": "V4 weighted overall accuracy",
                 "scope": "BFCL V4 Overall；官方当前data_overall.csv",
                 "date": "待核实",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
-                "provenance": "本轮打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
+                "provenance": "打开官网JavaScript实际加载的CSV，保留FC/Prompt及模型精确快照。",
                 "rank": 5,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
@@ -606,7 +606,7 @@
                 "benchmark_version": "V3",
                 "result_type": "厂商技术报告自报",
                 "source_date": "2026-09-23",
-                "collected_at": "2026-11-07 KST"
+                "collected_at": "2026-11-07"
               },
               {
                 "model": "Hunyuan-A13B fast-thinking",
@@ -615,7 +615,7 @@
                 "benchmark_version": "V3",
                 "result_type": "厂商技术报告自报",
                 "source_date": "2026-09-23",
-                "collected_at": "2026-11-07 KST"
+                "collected_at": "2026-11-07"
               },
               {
                 "model": "Qwen3.5 9B (Non-reasoning)",
@@ -624,7 +624,7 @@
                 "metric": "accuracy",
                 "scope": "Artificial Analysis mobile BFCL 640-task subset；量化build，16K context",
                 "date": "2026-08-24",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
                 "provenance": "AA独立评测的启动文章；不是全量V4总分，不作为2026-11当前第三方排名。"
               },
@@ -635,7 +635,7 @@
                 "metric": "accuracy",
                 "scope": "Artificial Analysis mobile BFCL 640-task subset；量化build，16K context",
                 "date": "2026-08-24",
-                "accessed": "2026-11-07 KST",
+                "accessed": "2026-11-07",
                 "source_url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
                 "provenance": "AA启动文章明确的BFCL子项分数，非Mobile平均指数；不与全量V4混排。"
               }
@@ -739,7 +739,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://proceedings.mlr.press/v267/patil25a.html",
@@ -924,7 +924,7 @@
       ]
     },
     "coverage_note": {
-      "value": "重新打开官方CSV，精确转录前10且保留native FC/Prompt/thinking配置。官网Last Updated=2026-04-12，非本轮新运行。V4按博客固定权重而非官网概述unweighted文字；HF卡是2024旧发布描述，不用它更新V4规模。",
+      "value": "重新打开官方CSV，精确转录前10且保留native FC/Prompt/thinking配置。官网Last Updated=2026-04-12，非新运行。V4按博客固定权重而非官网概述unweighted文字；HF卡是2024旧发布描述，不用它更新V4规模。",
       "sources": [
         {
           "url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
@@ -991,7 +991,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -1014,7 +1014,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
+      "note": "实际下载的源站PDF字节校验；未声称重新核验文件内容。"
     },
     "pdf_bytes": {
       "value": 1200643,
@@ -1026,13 +1026,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT",
-        "webViewLink": "https://drive.google.com/drive/folders/1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1040,18 +1037,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748",
-          "webViewLink": "https://docs.google.com/document/d/1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -1059,13 +1050,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw",
-      "webViewLink": "https://drive.google.com/file/d/1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1074,19 +1062,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai",
-        "change": "近期热门版本复核：V1引入AST单轮，V2引入企业/社区贡献，V3引入多轮；V4新增Web Search、Memory与Format Sensitivity。总分权重为Agentic40%、Multi-Turn30%、Live10%、Non-Live10%、Hallucination10%；Format Sensitivity不计总分。以官方V4方法博客为准；官网概述“unweighted average of all sub-categories”不应覆盖明细的固定权重定义。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。",
+        "change": "最近复核",
         "sources": [
           {
             "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
@@ -1116,9 +1100,7 @@
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "round": "2 / queue[1]",
-        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.release_date",
           "data_format.languages",

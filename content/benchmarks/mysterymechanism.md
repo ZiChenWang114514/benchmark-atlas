@@ -1,6 +1,6 @@
 # MysteryMechanism
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 MysteryMechanism要求代理从匿名变量、物理边界及两条被动观测出发，在2d+1次实验预算内恢复隐藏数学规律。222个机制覆盖多类科学关系，验证/测试机制保持私有，只公开三个冻结示例。提交以私有探针上的函数等价性判定，不要求公式文字相同；公开示范路径不是模型逐字轨迹，成功时未说出来源领域也不证明没有利用先验科学知识。
 [本页导读依据](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）
@@ -285,11 +285,11 @@ functional recovery accuracy（%）
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）
 
@@ -297,19 +297,19 @@ functional recovery accuracy（%）
 
 ```json
 {
-  "version": "待核实",
+  "version": "待核实"
   "evidence_2026_h2": [
     {
-      "url": "https://www.vals.ai/benchmarks/mysterymechanism",
-      "date": "2026-10-29",
-      "date_type": "source_calendar_date",
+      "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+      "date": "2026-10-29"
+      "date_type": "source_calendar_date"
       "note": "Vals AI当前方法与榜单实际评测多模型；主要单一机构当前展示，不代表行业广泛采纳。"
     }
   ]
 }
 ```
 
-> 热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
+> 热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 [来源1](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）
 
@@ -483,7 +483,7 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 
 [来源1](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -498,13 +498,13 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 ```json
 [
   {
-    "type": "官方方法或项目页",
-    "url": "https://www.vals.ai/benchmarks/mysterymechanism",
+    "type": "官方方法或项目页"
+    "url": "https://www.vals.ai/benchmarks/mysterymechanism"
     "accessed": "2026-11-07"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
     "accessed": "2026-11-08"
   }
 ]
@@ -512,13 +512,13 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 
 [来源1](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-08）；[来源2](https://epoch.ai/benchmarks/mystery-game-puzzles)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 待核实
 
 > 状态：待核实。
 
-> 本组只建立暂存条目，未上传Drive。
+> 本组只建立暂存条目，未上传。
 
 [来源1](https://www.vals.ai/benchmarks/mysterymechanism)（访问 2026-11-07）
 
@@ -529,14 +529,14 @@ https://x.com/ValsAI；https://www.linkedin.com/company/vals-ai/posts/?feedView=
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
-  },
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

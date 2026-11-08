@@ -1,6 +1,6 @@
 # CharXiv
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+> Benchmark Constitution · 深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
 CharXiv从科研论文中挑选自然复杂图表，分别考查描述性元素识别和跨视觉元素推理。每图四道描述题、一道人类审核的推理题；推理题可从GPT-4V候选中选改，不是所有初稿都纯人工原创。官网CSV有两列Overall，分别对应reasoning与descriptive，必须拆为两条榜；公开val与隐藏test答案也不能混用。
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2024-06-27 02:50:11 KST（arXiv v1；原站日历日期2024-06-26）
+2024-06-27 02:50:11 （arXiv v1；原站日历日期2024-06-26）
 
 [来源1](https://arxiv.org/abs/2406.18521)（访问2026-11-08）
 
@@ -104,8 +104,8 @@ Princeton Language and Intelligence（普林斯顿大学）主导作者团队，
 
 ```json
 [
-  "Princeton Language and Intelligence (PLI), Princeton University",
-  "University of Wisconsin–Madison",
+  "Princeton Language and Intelligence (PLI), Princeton University"
+  "University of Wisconsin–Madison"
   "The University of Hong Kong"
 ]
 ```
@@ -116,18 +116,18 @@ Princeton Language and Intelligence（普林斯顿大学）主导作者团队，
 
 ```json
 [
-  "Wang, Zirui",
-  "Xia, Mengzhou",
-  "He, Luxi",
-  "Chen, Howard",
-  "Liu, Yitao",
-  "Zhu, Richard",
-  "Liang, Kaiqu",
-  "Wu, Xindi",
-  "Liu, Haotian",
-  "Malladi, Sadhika",
-  "Chevalier, Alexis",
-  "Arora, Sanjeev",
+  "Wang, Zirui"
+  "Xia, Mengzhou"
+  "He, Luxi"
+  "Chen, Howard"
+  "Liu, Yitao"
+  "Zhu, Richard"
+  "Liang, Kaiqu"
+  "Wu, Xindi"
+  "Liu, Haotian"
+  "Malladi, Sadhika"
+  "Chevalier, Alexis"
+  "Arora, Sanjeev"
   "Chen, Danqi"
 ]
 ```
@@ -200,11 +200,11 @@ test答案刻意设为null而不公开，避免测试答案泄漏；论文datash
 
 ```json
 {
-  "charts": 2323,
-  "descriptive_questions": 9292,
-  "reasoning_questions": 2323,
-  "validation_charts": 1000,
-  "test_charts": 1323,
+  "charts": 2323
+  "descriptive_questions": 9292
+  "reasoning_questions": 2323
+  "validation_charts": 1000
+  "test_charts": 1323
   "documentation_conflict": "README导览另写2333 images，与论文Table 2和README主体2323不一致，保留冲突。"
 }
 ```
@@ -277,7 +277,7 @@ https://github.com/princeton-nlp/CharXiv
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://charxiv.github.io/)（访问2026-11-08）
 
@@ -293,24 +293,24 @@ v1.0
 {
   "revisions": [
     {
-      "version": "v1",
-      "date_kst": "2024-06-27T02:50:11+09:00"
+      "version": "v1"
+      "date_kst": "2024-06-27"
     }
-  ],
+  ]
   "continued_use_2026h2": [
     {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-23",
-      "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-      "date_kst": "2026-10-23T01:54:37+09:00",
-      "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+      "url": "https://arxiv.org/html/2610.01352v2"
+      "date": "2026-10-23"
+      "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+      "date_kst": "2026-10-23"
+      "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
     }
-  ],
-  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
+  ]
+  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2024-06-27T02:50:11+09:00"
+      "version": "v1"
+      "submitted_at_kst": "2024-06-27"
     }
   ]
 }
@@ -326,7 +326,7 @@ v1.0
 
 ### 风险与冲突
 
-官网CSV与README静态榜单更新不同，当前快照优先使用官网CSV。2,323 charts与README导览2,333 images冲突并列保留；test答案隐藏不代表图像无污染。MMVistaReason的CompassVerifier协议不能与官方GPT裁判结果混排。 官方HF Erratum明确0.jpg的reasoning参考答案有误（社区#2发现）；数据卡表示未来版本会修正，本轮不自行改写答案。
+官网CSV与README静态榜单更新不同，当前快照优先使用官网CSV。2,323 charts与README导览2,333 images冲突并列保留；test答案隐藏不代表图像无污染。MMVistaReason的CompassVerifier协议不能与官方GPT裁判结果混排。 官方HF Erratum明确0.jpg的reasoning参考答案有误（社区#2发现）；数据卡表示未来版本会修正，不自行改写答案。
 
 [来源1](https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md)（访问2026-11-07）；[来源2](https://charxiv.github.io/data/val_result.csv)（访问2026-11-07）；[来源3](https://arxiv.org/pdf/2406.18521)（访问2026-11-07）；[来源4](https://arxiv.org/html/2610.01352v2)（访问2026-11-07）；[来源5](https://huggingface.co/datasets/princeton-nlp/CharXiv/raw/main/README.md)（访问2026-11-07）
 
@@ -336,13 +336,13 @@ v1.0
 
 [来源1](https://arxiv.org/abs/2406.18521)（访问2026-11-07）；[来源2](https://charxiv.github.io/)（访问2026-11-07）
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 ## 榜单快照
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://charxiv.github.io/)（访问2026-11-08）
 
@@ -358,110 +358,110 @@ https://charxiv.github.io/#leaderboard
 
 [来源1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问2026-11-07）
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 ### 逐轨结果
 
 ```json
 [
   {
-    "rank": 1,
-    "model": "o3 (high)",
-    "score": 78.6,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／reasoning overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 1
+    "model": "o3 (high)"
+    "score": 78.6
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／reasoning overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "rank": 2,
-    "model": "o4 mini (high)",
-    "score": 72.0,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／reasoning overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 2
+    "model": "o4 mini (high)"
+    "score": 72.0
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／reasoning overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Claude 3.7 Sonnet",
-    "score": 64.2,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／reasoning overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 3
+    "model": "Claude 3.7 Sonnet"
+    "score": 64.2
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／reasoning overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "rank": 1,
-    "model": "o3 (high)",
-    "score": 95.0,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／descriptive overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 1
+    "model": "o3 (high)"
+    "score": 95.0
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／descriptive overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "rank": 2,
-    "model": "o4 mini (high)",
-    "score": 94.3,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／descriptive overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 2
+    "model": "o4 mini (high)"
+    "score": 94.3
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／descriptive overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "rank": 3,
-    "model": "GPT 4.5",
-    "score": 90.0,
-    "metric": "accuracy (%)",
-    "track": "官网CSV／val／descriptive overall",
-    "source_url": "https://charxiv.github.io/data/val_result.csv",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "evaluation_date": "待核实",
+    "rank": 3
+    "model": "GPT 4.5"
+    "score": 90.0
+    "metric": "accuracy (%)"
+    "track": "官网CSV／val／descriptive overall"
+    "source_url": "https://charxiv.github.io/data/val_result.csv"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "evaluation_date": "待核实"
     "model_snapshot": "待核实"
-  },
+  }
   {
-    "model": "MMVistaReason-4B (MVR-4B)",
-    "score": 66.9,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "CharXiv reasoning",
-    "date": "2026-10-23",
-    "accessed": "2026-11-08",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-    "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
-    "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
+    "model": "MMVistaReason-4B (MVR-4B)"
+    "score": 66.9
+    "unit": "%"
+    "metric": "论文协议答案正确率（CompassVerifier）"
+    "scope": "CharXiv reasoning"
+    "date": "2026-10-23"
+    "accessed": "2026-11-08"
+    "source_url": "https://arxiv.org/html/2610.01352v2"
+    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+    "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。"
+    "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报"
     "rank": null
-  },
+  }
   {
-    "model": "MMVistaReason-9B (MVR-9B)",
-    "score": 68.8,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "CharXiv reasoning",
-    "date": "2026-10-23",
-    "accessed": "2026-11-08",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-    "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
-    "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报",
+    "model": "MMVistaReason-9B (MVR-9B)"
+    "score": 68.8
+    "unit": "%"
+    "metric": "论文协议答案正确率（CompassVerifier）"
+    "scope": "CharXiv reasoning"
+    "date": "2026-10-23"
+    "accessed": "2026-11-08"
+    "source_url": "https://arxiv.org/html/2610.01352v2"
+    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+    "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。"
+    "track": "MMVistaReason v2／reasoning／CompassVerifier／作者自报"
     "rank": null
   }
 ]
@@ -501,7 +501,7 @@ https://x.com/zwcolin/status/1816948825036071196
 
 [来源1](https://raw.githubusercontent.com/princeton-nlp/CharXiv/main/README.md)（访问2026-11-07）
 
-> 官方README引用的项目讨论链接；本轮未访问X内容或发送消息。
+> 官方README引用的项目讨论链接；未访问X内容或发送消息。
 
 ### 联系信息边界
 
@@ -531,61 +531,61 @@ https://arxiv.org/pdf/2406.18521
 
 [来源1](https://arxiv.org/pdf/2406.18521)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh",
-  "webViewLink": "https://drive.google.com/drive/folders/1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh"
+  "id": "1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1pSe5r0MWe3eNJElkRmQkwLD06Lmy7nLh)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4",
-    "webViewLink": "https://docs.google.com/document/d/1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J",
-  "webViewLink": "https://drive.google.com/file/d/18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J/view?usp=drivesdk"
+  "id": "18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/18fClV3CX6-yQ6K_VIjCX64Rbe-IFRP8J/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "round": "1 / 深度实证复核",
-    "change": "补机构、维护和公开联系；新增2,323/2,333官方文档冲突及test隐藏答案；重读CSV快照并重核H2。 补官方en语言标签、禁止训练声明和0.jpg答案Erratum。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    "round": "1 / 深度实证复核"
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

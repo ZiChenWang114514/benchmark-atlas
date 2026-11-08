@@ -1,6 +1,6 @@
 # DualChem
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 已核验存在；研究快照；note: trending: B；未核实字段保留标记
 
@@ -30,7 +30,7 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 **仍待核实**（不推断为未公开）：
 
-- 论文/报告版本：已读取本轮所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 论文/报告版本：已读取所列论文/数据卡/README；未确认可追踪的正式版本编号。运行镜像tag、网页更新日与数据版本不混同。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 - 许可证与限制：已检查正式发表材料，尚未确认覆盖任务数据/游戏资产的明确使用授权；软件、匿名预发布数据和商业游戏的许可证不能互套。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 - 官方代码：匿名HF卡链接anonymous.4open.science/r/dualchem-4318；未由Scale正式发表页交叉确认，不当作正式官方代码。 [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md)
 - 数据入口：发现匿名DualChem-author/dualchem v1.0.0，含600题与CC BY 4.0，但与署名PDF人类样本构成不同；尚未确认其为Scale当前正式版本。 [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md) [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
@@ -67,7 +67,7 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 **仍待核实**（不推断为未公开）：
 
-- 防污染/运行完整性：本轮所列已打开材料未完成精确核验；不代表官方未公开。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 防污染/运行完整性：所列已打开材料未完成精确核验；不代表官方未公开。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ## 数据形式
 
@@ -97,11 +97,11 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 **仍待核实**（不推断为未公开）：
 
-- 评分/运行脚本：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 评分/运行脚本：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST / Asia/Seoul [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- **核验日期**：2026-11-07 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 - **现行版本与采用证据**：version：2026-10-28发布快照；trending：B；heat_evidence：Scale于2026-10-28首发并报告30+模型；NIST CAISSI与美国政府领域专家参与范围及分类设计。热度B：当前主要为创建机构发布，不据媒体报道推断独立复现或行业广泛采用。；evidence_2026_h2：url：https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks；date：2026-11-07；date_type：observed_on；note：本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
@@ -117,7 +117,7 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- **快照采集日**：2026-11-07 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 - **官方榜/正式委托榜**：https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
@@ -134,13 +134,13 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 > GPT-6.1 Sol：result_type：发表PDF Table 4无工具历史实验；rank_type：所列无工具Acc顺序，非实时网页榜 [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：67.7%为GPT-5.6 Sol已回答题条件准确率；全600题拒答计错为67.3%，不能混用。发布博客约50%/67%为概述，精确口径以论文表格为准。 榜表自写更新时间：2026-10-28（发布日；具体评测运行日待核实）；采集日不等于运行日。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 **仍待核实**（不推断为未公开）：
 
-- 独立第三方入口：本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 独立第三方入口：未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ## 联系方式
 
@@ -152,28 +152,28 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 **仍待核实**（不推断为未公开）：
 
-- 公开问题追踪：已检查正式方法页和所指向的代码入口；本轮未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 公开问题追踪：已检查正式方法页和所指向的代码入口；未定位可确认属于此基准的独立实现/问题追踪。上游harness链接不替代基准自身代码。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ## 原始文件
 
 - **原始PDF**：https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf)
 
-- **SHA-256**：0078a8853e2956595660fb004aca4320430fc3c950962fff2071e533788059ef [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
+- **SHA-256**：0078a8853e2956595660fb004aca4320430fc3c950962fff2071e533788059ef [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) 注：实际下载的PDF字节计算；不是外部网页抄录。
 
-- **PDF字节数**：3817998 [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) 注：本轮下载字节数；未上传Drive。
+- **PDF字节数**：3817998 [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) 注：下载字节数；未上传。
 
 - **其他正式文档**：type：正式发表博客；url：https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks；type：匿名早期HF数据卡，版本对应尚待维护方确认；url：https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks) [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md)
 
-- **Drive中的论文副本**：待核实 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- **中的论文副本**：待核实 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 **仍待核实**（不推断为未公开）：
 
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：首次建立近期热门中文研究条目。DualChem专门测双用途化学风险，与ChemBench一般化学能力不合并；不收录或再传播具体敏感题目内容。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。DualChem专门测双用途化学风险，与ChemBench一般化学能力不合并；不收录或再传播具体敏感题目内容。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

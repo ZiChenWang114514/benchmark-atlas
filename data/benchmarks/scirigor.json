@@ -1,7 +1,7 @@
 {
   "id": "scirigor",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "SciRigor",
@@ -32,7 +32,7 @@
       "status": "待核实"
     },
     "paper_version": {
-      "value": "v1；最近提交 2026-09-06T02:29:15+09:00 KST",
+      "value": "v1；最近提交 2026-09-06",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.06192",
@@ -41,7 +41,7 @@
       ]
     },
     "release_date": {
-      "value": "2026-09-06T02:29:15+09:00（KST；首个arXiv提交，不推定数据上线日）",
+      "value": "2026-09-06（；首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.06192",
@@ -79,7 +79,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2609.06192",
@@ -99,7 +99,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "dataset_url": {
       "value": "待核实",
@@ -110,7 +110,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "official_homepage": {
       "value": "https://arxiv.org/abs/2609.06192",
@@ -187,7 +187,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "design_goals": {
@@ -221,7 +221,7 @@
       ]
     },
     "author_background": {
-      "value": "作者署名HKUST与Alibaba；案例按来源文章、作者代码和数据重建，由策划员核验；逐案例外部专家资质未在本轮取得，不能把100例统称物理专家原创。",
+      "value": "作者署名HKUST与Alibaba；案例按来源文章、作者代码和数据重建，由策划员核验；逐案例外部专家资质未在取得，不能把100例统称物理专家原创。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.06192",
@@ -377,7 +377,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.06192",
@@ -394,7 +394,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_revision_history": {
       "value": {
@@ -422,8 +422,7 @@
         "arxiv_submission_history_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2026-09-06T02:29:15+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2026-09-06"
           }
         ]
       },
@@ -462,12 +461,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
+      "value": "2026-11-08 （访问日，不是实验运行日）",
       "sources": [
         {
           "url": "https://arxiv.org/html/2609.06192v1",
@@ -493,7 +492,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -514,7 +513,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 1
         },
@@ -535,7 +534,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 2
         },
@@ -556,7 +555,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 3
         },
@@ -577,7 +576,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 4
         },
@@ -598,7 +597,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 5
         },
@@ -619,7 +618,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 6
         },
@@ -640,7 +639,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 7
         },
@@ -661,7 +660,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 8
         },
@@ -682,7 +681,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 9
         },
@@ -703,7 +702,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 10
         },
@@ -724,7 +723,7 @@
           "track": "论文v1 Table2；五工件接口；按各模型推理档位分别记录",
           "source_url": "https://arxiv.org/pdf/2609.06192",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 11
         }
@@ -737,7 +736,7 @@
       ]
     },
     "coverage_note": {
-      "value": "完整转录论文v1 Table2全部11配置×8指标，保留原行序，不以SoftECS和Strict合成新排名；最高SoftECS62.6、Strict18.0并非同一含义。arXiv摘要和PDF本轮均已打开，未找到经核实的独立代码、HF数据卡或实时榜入口，相关字段继续待核实。",
+      "value": "完整转录论文v1 Table2全部11配置×8指标，保留原行序，不以SoftECS和Strict合成新排名；最高SoftECS62.6、Strict18.0并非同一含义。arXiv摘要和PDF均已打开，未找到经核实的独立代码、HF数据卡或实时榜入口，相关字段继续待核实。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2609.06192",
@@ -761,7 +760,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "github_issues": {
       "value": "待核实",
@@ -772,7 +771,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "official_social": {
       "value": "待核实",
@@ -783,7 +782,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -794,7 +793,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -815,7 +814,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。"
+      "note": "实际下载原始PDF字节计算；不据此更改既有文件。"
     },
     "pdf_bytes": {
       "value": 4553200,
@@ -827,10 +826,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q",
-        "webViewLink": "https://drive.google.com/drive/folders/1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2609.06192",
@@ -855,10 +851,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R",
-      "webViewLink": "https://drive.google.com/file/d/1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2609.06192",
@@ -870,18 +863,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：完整恢复11配置×8指标，补27篇来源文章及六领域分布；仅7例物理，不再暗示全100例均为自然科学；代码/HF发布入口仍未核实。；arXiv提交时间统一换算KST，避免源站UTC日期与本地日期跨日混淆。"
+        "change": "最近复核"
       }
     ],
     "sources": [

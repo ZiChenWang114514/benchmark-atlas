@@ -1,10 +1,10 @@
 # FullStackBench
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 “FullStack”指跨开发领域与16种编程语言的可执行代码评测，不等于完整网站Agent。此次发现数据授权的官方材料互相冲突，且论文题量与当前HF双语配置行数必须分口径记录。
 
-编辑状态：已核验存在；研究快照，未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -30,9 +30,9 @@
 
 来源：[1](https://arxiv.org/abs/2412.00535)（访问2026-11-07）
 
-**发布日期**：2024-12-01 01:58:42 KST
+**发布日期**：2024-12-01 01:58:42
 
-核验说明：首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+核验说明：首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 来源：[1](https://arxiv.org/abs/2412.00535)（访问2026-11-07）
 
@@ -190,17 +190,17 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://github.com/bytedance/FullStackBench)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "公开 3,374 题快照；数据版本号待核实",
+  "version": "公开 3,374 题快照；数据版本号待核实"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
+      "url": "https://arxiv.org/html/2609.27284v1"
+      "date": "2026-09-23"
       "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 FullStackBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
     }
   ]
@@ -213,11 +213,11 @@
 
 来源：[1](https://arxiv.org/html/2609.27284v1)（访问2026-11-07）；[2](https://arxiv.org/abs/2412.00535)（访问2026-11-07）
 
-**论文与版本历史**：Submission history From: Siyao Liu [ view email ] [v1] 2024-12-01 01:58:42 KST (10,754 KB) [v2] 2024-12-04 01:55:24 KST (11,370 KB) [v3] 2024-12-10 02:31:54 KST (7,770 KB) [v4] 2024-12-13 01:59:55 KST (7,769 KB) [v5] 2024-12-20 23:58:59 KST (7,770 KB) [v6] 2025-05-12 19:24:14 KST (7,770 KB)
+**论文与版本历史**：Submission history From: Siyao Liu [ view email ] [v1] 2024-12-01 01:58:42 (10,754 KB) [v2] 2024-12-04 01:55:24 (11,370 KB) [v3] 2024-12-10 02:31:54 (7,770 KB) [v4] 2024-12-13 01:59:55 (7,769 KB) [v5] 2024-12-20 23:58:59 (7,770 KB) [v6] 2025-05-12 19:24:14 (7,770 KB)
 
 来源：[1](https://arxiv.org/abs/2412.00535)（访问2026-11-07）
 
-**饱和程度**：本轮重读v6论文Table 2，历史最高OpenAI o1-preview 65.62%；官网README仍链接静态结果图，不把论文历史结果当作2026实时上限。
+**饱和程度**：重读v6论文Table 2，历史最高OpenAI o1-preview 65.62%；官网README仍链接静态结果图，不把论文历史结果当作2026实时上限。
 
 来源：[1](https://arxiv.org/abs/2412.00535)（访问2026-11-07）；[2](https://github.com/bytedance/FullStackBench)（访问2026-11-07）
 
@@ -235,7 +235,7 @@
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://github.com/bytedance/FullStackBench)（访问2026-11-07）
 
@@ -260,11 +260,11 @@
 | 原论文v6 Table 2历史基线 | 3 | Claude-3.5-Sonnet | 62.57 | pass@1 (%) | 2025-05-12 | [原始来源](https://arxiv.org/abs/2412.00535v6) |
 | 原论文v6 Table 2历史基线 | 4 | GPT-4o-0806 | 61.77 | pass@1 (%) | 2025-05-12 | [原始来源](https://arxiv.org/abs/2412.00535v6) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
-核验说明：本轮刷新原论文轨；Hunyuan两条继承前轮已核验的H2报告，本轮未重新读该报告，不称新核验。
+核验说明：刷新原论文轨；Hunyuan两条继承前轮已核验的H2报告，未重新读该报告，不称新核验。
 
-**覆盖说明**：官方仓库仅展示静态论文结果图，未取得动态统一榜。新增本轮重新读取的v6 Table 2历史基线；继承的Hunyuan报告自报单列，不能与原论文轨排序。数据授权冲突及当前HF行数口径另见基本信息。
+**覆盖说明**：官方仓库仅展示静态论文结果图，未取得动态统一榜。新增重新读取的v6 Table 2历史基线；继承的Hunyuan报告自报单列，不能与原论文轨排序。数据授权冲突及当前HF行数口径另见基本信息。
 
 来源：[1](https://github.com/bytedance/FullStackBench)（访问2026-11-07）；[2](https://arxiv.org/abs/2412.00535)（访问2026-11-07）
 
@@ -310,7 +310,7 @@
 
 **PDF SHA-256**：d68951598d6b201b93b57ea71052944f28bacd77bd3b6f2c6acb2d46b090fb98
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2412.00535)（访问2026-11-07）
 
@@ -318,59 +318,59 @@
 4251352
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2412.00535)（访问2026-11-07）
 
-**Drive文件夹**：```json
+**文件夹**：```json
 {
-  "id": "1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0",
-  "webViewLink": "https://drive.google.com/drive/folders/1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0"
+  "id": "1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/drive/folders/1vAewLYiHS2Ta9LHgZgpCyiffgsHzztL0)（访问2026-11-07）
+来源：[1](
 
 **其他官方文档**：```json
 [
   {
-    "type": "中文介绍Google Doc",
-    "id": "1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc",
-    "webViewLink": "https://docs.google.com/document/d/1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc/edit?usp=drivesdk"
+    "type": "中文介绍Google Doc"
+    "id": "1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc"
+    "webViewLink": "
   }
 ]
 ```
 
 核验说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[1](https://github.com/bytedance/FullStackBench)（访问2026-11-07）；[2](https://docs.google.com/document/d/1ZQmcPus9I5v9JKGpJDp1aqzVsUk1yzCaXcFVMj-p5Kc/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](https://github.com/bytedance/FullStackBench)（访问2026-11-07）；[2](
 
-**Drive论文链接**：```json
+**论文链接**：```json
 {
-  "id": "1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an",
-  "webViewLink": "https://drive.google.com/file/d/1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an/view?usp=drivesdk"
+  "id": "1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/file/d/1tq-_KLfUzmLu_gHbuJ4aVoMgkXggG8an/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

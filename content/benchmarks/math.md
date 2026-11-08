@@ -1,5 +1,5 @@
 # MATH
-> 核验：2026-11-08（KST / Asia/Seoul）。已核实存在；深度条目；显式待核实项保留
+> 核验：2026-11-08。已核实存在；深度条目；显式待核实项保留
 
 MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常见MATH-500只是其中一个子集。现代模型的推理预算、代码工具、投票及答案归一化会显著改变协议，不能把一个子集的接近满分扩展成所有竞赛数学能力已饱和。
 
@@ -15,7 +15,7 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 
 **论文修订**：arXiv v2 [S4](https://arxiv.org/abs/2103.03874)
 
-**发布时间**：2021-03-06（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明） [S1](https://arxiv.org/abs/2103.03874)
+**发布时间**：2021-03-06（arXiv初稿日期，非独立数据集首发声明） [S1](https://arxiv.org/abs/2103.03874)
 
 **主板块**：数学 [S2](https://github.com/hendrycks/math)
 
@@ -93,27 +93,27 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S8](https://github.com/hendrycks/math)
+**核查日**：2026-11-08 [S8](https://github.com/hendrycks/math)
 
 **数据版本与持续使用**：完整MATH 12500题；MATH-500单列衍生口径 [S2](https://github.com/hendrycks/math) [S1](https://arxiv.org/abs/2103.03874)
 
-**论文版本与证据历史**：v1 2021-03-06T03:59:39+09:00（KST）；v2 2021-11-09T06:30:18+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/2103.03874)
+**论文版本与证据历史**：v1 2021-03-06；v2 2021-11-09。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/2103.03874)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：AA MATH-500当前最高99.4%，只支持这个500题子集在该协议下接近满分；不能据此断定完整5,000测试题及每难度层都饱和。 [S10](https://artificialanalysis.ai/evaluations/math-500)
 
-**已知问题与争议**：官方论文称数据/代码以MIT发布，但原竞赛内容的权利不能据此无条件外推；本轮未法律审查。 [S1](https://arxiv.org/abs/2103.03874) [S2](https://github.com/hendrycks/math)
+**已知问题与争议**：官方论文称数据/代码以MIT发布，但原竞赛内容的权利不能据此无条件外推；未法律审查。 [S1](https://arxiv.org/abs/2103.03874) [S2](https://github.com/hendrycks/math)
 
 **版本/衍生关系**：MATH-500/PRM800K围绕过程监督发展；AA只给MATH-500榜，不能冒充完整MATH榜。 [S1](https://arxiv.org/abs/2103.03874) [S2](https://github.com/hendrycks/math)
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S8](https://github.com/hendrycks/math)
+**快照日**：2026-11-08 [S8](https://github.com/hendrycks/math)
 
 **官方榜入口**：待核实 [S1](https://arxiv.org/abs/2103.03874)
 
-> 本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
+> 未确认独立持续更新的官方榜；论文实验不冒充官方实时榜
 
 **第三方入口**：https://artificialanalysis.ai/evaluations/math-500 [S11](https://artificialanalysis.ai/evaluations/math-500)
 
@@ -149,21 +149,21 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 
 **PDF SHA-256**：a6f448173e57d808a38679dd817bcc2e01324176cbf491d08c43cc0e7ca30bfe [S6](https://arxiv.org/pdf/2103.03874)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：2030715 [S6](https://arxiv.org/pdf/2103.03874)
 
-**原有Drive文件夹**：{"id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL", "webViewLink": "https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL"} [S12](https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL)
+**原有文件夹**：{"id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL", "webViewLink": " [S12](
 
-**其他材料**：{"chinese_intro_doc": {"id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o", "webViewLink": "https://docs.google.com/document/d/1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o/edit?usp=drivesdk", "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/math.md"} [S12](https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL)
+**其他材料**：{"chinese_intro_doc": {"id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/math.md"} [S12](
 
-**原有Drive PDF**：{"id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu", "webViewLink": "https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk"} [S13](https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk)
+**原有 PDF**：{"id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu", "webViewLink": " [S13](
 
 ## 变更记录
 
 - 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07 · 第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://github.com/hendrycks/math) [S8](https://github.com/hendrycks/math)
 
 ### 来源索引
@@ -181,5 +181,5 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 - S9 · [https://raw.githubusercontent.com/hendrycks/math/main/README.md](https://raw.githubusercontent.com/hendrycks/math/main/README.md) · 访问 2026-11-07
 - S10 · [https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500) · 访问 2026-11-08
 - S11 · [https://artificialanalysis.ai/evaluations/math-500](https://artificialanalysis.ai/evaluations/math-500) · 访问 2026-11-07
-- S12 · [https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL](https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL) · 访问 2026-11-07
-- S13 · [https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk](https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk) · 访问 2026-11-07
+- S12 · [ · 访问 2026-11-07
+- S13 · [ · 访问 2026-11-07

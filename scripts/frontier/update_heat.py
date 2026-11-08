@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Benchmark Constitution: rolling 20-model Frontier Heat (standard library only).
 
-Daily workflow (Asia/Seoul):
+Daily workflow (UTC):
 1. Review OFFICIAL release feeds across the declared provider universe. Verify first
    release dates (not GA/weights release/serving acceleration dates). Append distinct
    frontier-capable checkpoints to models.json, marking eligible=false for exclusions.
@@ -30,7 +30,7 @@ import argparse,datetime,json,os,pathlib,tempfile,collections
 from zoneinfo import ZoneInfo
 
 ROOT=pathlib.Path(__file__).resolve().parent
-TZ=ZoneInfo('Asia/Seoul')
+TZ=ZoneInfo('UTC')
 RULE=('最近20个已审核eligible前沿级通用/代码/原生多模态独立模型checkpoint，按首发日倒序，'
       '同日按id升序。排除轻量级Haiku/Luna、纯图像/语音、垂直专用Cyber/Legal及同智力加速SKU；'
       '同厂可多项；不设厂商配额。仅为已审核发布宇宙内的窗口，全球最新20完整性仍待复核。')
@@ -146,6 +146,6 @@ def main():
     if a.append_models:atomic_json(a.models,models)
     if a.append_mentions:atomic_json(a.mentions,mentions)
     atomic_json(a.output,result);atomic_json(a.state,newstate)
-    print(f"{a.date} Asia/Seoul: {len(result['models'])} models, {len(result['ranking'])} benchmark families -> {a.output}")
+    print(f"{a.date} UTC: {len(result['models'])} models, {len(result['ranking'])} benchmark families -> {a.output}")
 
 if __name__=='__main__':main()

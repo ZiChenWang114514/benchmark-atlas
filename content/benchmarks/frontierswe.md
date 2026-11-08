@@ -1,10 +1,10 @@
 # FrontierSWE v2
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 这是20小时级长程工程评测，34项任务同时覆盖实现、性能、科学计算、视觉与AI研究。重要变化不只是加题，还包括独立验证器、可重复性能代理指标和鼓励持续工作的Proximus harness。
 
-编辑状态：研究快照；trending: A；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -180,28 +180,28 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "V2",
-  "heat_confidence": "A",
-  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+  "version": "V2"
+  "heat_confidence": "A"
+  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。"
   "evidence_2026_h2": [
     {
-      "url": "https://epoch.ai/data/eci-documentation/data",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "Epoch AI",
-      "note": "当前ECI组成明确列出该benchmark；纳入不等于本轮运行。"
-    },
+      "url": "https://epoch.ai/data/eci-documentation/data"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "Epoch AI"
+      "note": "当前ECI组成明确列出该benchmark；纳入不等于运行。"
+    }
     {
-      "url": "https://www.frontierswe.com/",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "官方维护方",
+      "url": "https://www.frontierswe.com/"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "官方维护方"
       "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
     }
   ]
@@ -228,7 +228,7 @@
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
@@ -257,7 +257,7 @@
 | 当前官方网页榜 | 9 | DeepSeek V4 Flash Vision Exp / proximus | 14.8 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
 | 当前官方网页榜 | 10 | Inkling / proximus | 4.1 | V2 mean@5 (%) | 待核实 | [原始来源](https://www.frontierswe.com/) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：已重新打开首页前10。mean@5为34任务各5次试验的均值；worst@5–best@5 whiskers不是95%置信区间。官网未标榜表更新时间，保留待核实；2026-09-02发布文不是当前榜日期。
 
@@ -315,7 +315,7 @@
 
 来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
@@ -326,11 +326,11 @@
 **其他官方文档**：```json
 [
   {
-    "type": "V2技术报告",
+    "type": "V2技术报告"
     "url": "https://www.frontierswe.com/blog/v2"
-  },
+  }
   {
-    "type": "公开任务与复现说明",
+    "type": "公开任务与复现说明"
     "url": "https://github.com/Proximal-Labs/frontier-swe-v2"
   }
 ]
@@ -338,26 +338,26 @@
 
 来源：[1](https://www.frontierswe.com/blog/v2)（访问2026-11-07）；[2](https://github.com/Proximal-Labs/frontier-swe-v2)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅建立本地研究条目，未上传Drive。
+核验说明：本组仅建立本地研究条目，未上传。
 
 来源：[1](https://www.frontierswe.com/)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

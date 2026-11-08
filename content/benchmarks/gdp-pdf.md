@@ -1,10 +1,10 @@
 # GDP.pdf
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 这套基准要求从专业PDF本身找对证据，再用正确的领域解释回答问题；抽取文本正确并不足够。主榜要求每项rubric全部通过，不能把部分评分与严格任务成功率互换。
 
-编辑状态：已核验存在；研究快照；note: trending: A；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -74,7 +74,7 @@
 
 状态：待核实。
 
-核验说明：本轮所列已打开材料未完成精确核验；不代表官方未公开。
+核验说明：所列已打开材料未完成精确核验；不代表官方未公开。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
@@ -90,7 +90,7 @@
 
 状态：待核实。
 
-核验说明：本轮所列已打开材料未完成精确核验；不代表官方未公开。
+核验说明：所列已打开材料未完成精确核验；不代表官方未公开。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
@@ -146,7 +146,7 @@
 
 状态：待核实。
 
-核验说明：本轮所列已打开材料未完成精确核验；不代表官方未公开。
+核验说明：所列已打开材料未完成精确核验；不代表官方未公开。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
@@ -182,32 +182,32 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "100题公开版",
-  "trending": "A",
-  "heat_evidence": "AA 2026-10-27 v5发布文继续以5%权重收录GDP.pdf，当前方法页明确100题×5次；Surge官方榜同时展示新模型。两机构是不同实现，不视为相同分数复核。",
+  "version": "100题公开版"
+  "trending": "A"
+  "heat_evidence": "AA 2026-10-27 v5发布文继续以5%权重收录GDP.pdf，当前方法页明确100题×5次；Surge官方榜同时展示新模型。两机构是不同实现，不视为相同分数复核。"
   "evidence_2026_h2": [
     {
-      "url": "https://surgehq.ai/benchmarks/gdp-pdf",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://surgehq.ai/benchmarks/gdp-pdf"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    },
+    }
     {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    },
+    }
     {
-      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
     }
   ]
@@ -216,7 +216,7 @@
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）；[2](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）；[3](https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5)（访问2026-11-07）
 
-**论文与版本历史**：arXiv v1：2026-07-13 16:44:07 KST；v2：07-14 16:57:18 KST；v3：07-15 16:47:22 KST。基准4月首发与7月论文发布应分开。
+**论文与版本历史**：arXiv v1：2026-07-13 16:44:07；v2：07-14 16:57:18；v3：07-15 16:47:22。基准4月首发与7月论文发布应分开。
 
 来源：[1](https://arxiv.org/abs/2607.11192)（访问2026-11-07）
 
@@ -234,7 +234,7 @@
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
@@ -246,7 +246,7 @@
 
 状态：待核实。
 
-核验说明：本轮所列已打开材料未完成精确核验；不代表官方未公开。
+核验说明：所列已打开材料未完成精确核验；不代表官方未公开。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
@@ -261,7 +261,7 @@
 | 当前官方网页榜 | 7 | Claude Opus 5.5 (Adaptive/Max) | 30.6 | Surge严格任务通过率 (%) | 待核实（榜表更新时间） | [原始来源](https://surgehq.ai/benchmarks/gdp-pdf) |
 | 当前官方网页榜 | 8 | Claude Fable 5 (Adaptive/Max) | 29.8 | Surge严格任务通过率 (%) | 待核实（榜表更新时间） | [原始来源](https://surgehq.ai/benchmarks/gdp-pdf) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：AA与Surge共享题集但PDF输入和裁判不同；原生PDF与预解析OCR两套成绩不能直接互换。 榜表自写更新时间：待核实；采集日不等于运行日。
 
@@ -291,13 +291,13 @@
 
 **原始PDF**：https://arxiv.org/pdf/2607.11192
 
-核验说明：本轮直接读取原始PDF字节核验；未上传Drive。
+核验说明：直接读取原始PDF字节核验；未上传。
 
 来源：[1](https://arxiv.org/pdf/2607.11192)（访问2026-11-07）
 
 **PDF SHA-256**：e139828de98e24caee6ba7f749dd39e9c541ff16c7a6c91ddb18dcd5a8defda4
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2607.11192)（访问2026-11-07）
 
@@ -305,34 +305,34 @@
 223397
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2607.11192)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
-核验说明：本轮所列已打开材料未完成精确核验；不代表官方未公开。
+核验说明：所列已打开材料未完成精确核验；不代表官方未公开。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
 **其他官方文档**：```json
 [
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://surgehq.ai/benchmarks/gdp-pdf"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://arxiv.org/abs/2607.11192"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
   }
 ]
@@ -340,26 +340,26 @@
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅本地建页，未上传Drive，不伪造归档链接。
+核验说明：本组仅本地建页，未上传，不伪造归档链接。
 
 来源：[1](https://surgehq.ai/benchmarks/gdp-pdf)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目。GDP.pdf不是GDPval，也不是GDP.xlsx：本条只记录专业PDF问答，不合并职业交付物或电子表格任务。 热度与榜单口径分离，不确定值标记待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

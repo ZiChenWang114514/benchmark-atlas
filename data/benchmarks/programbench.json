@@ -1,7 +1,7 @@
 {
   "id": "programbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ProgramBench",
@@ -48,7 +48,7 @@
       ]
     },
     "release_date": {
-      "value": "论文首发：2026-05-05 18:17:02 KST；PDF封面另标May 6, 2026，日期口径分开。",
+      "value": "论文首发：2026-05-05 18:17:02；PDF封面另标May 6, 2026，日期口径分开。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2605.03546",
@@ -173,7 +173,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "authors": {
       "value": [
@@ -223,7 +223,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -415,7 +415,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://programbench.com",
@@ -455,8 +455,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-05-05T18:17:02+09:00",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2026-05-05"
         }
       ],
       "sources": [
@@ -508,7 +507,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）",
+      "value": "2026-11-08 （采集日，不是实验运行日）",
       "sources": [
         {
           "url": "https://programbench.com",
@@ -544,7 +543,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 70.5,
           "reported_cost_per_task": "$36.36",
           "agent": "mini-SWE-agent"
@@ -557,7 +556,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 55.5,
           "reported_cost_per_task": "$56.84",
           "agent": "mini-SWE-agent"
@@ -570,7 +569,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 60.0,
           "reported_cost_per_task": "TBA",
           "agent": "mini-SWE-agent"
@@ -583,7 +582,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 50.5,
           "reported_cost_per_task": "$36.53",
           "agent": "mini-SWE-agent"
@@ -596,7 +595,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 52.5,
           "reported_cost_per_task": "$11.47",
           "agent": "mini-SWE-agent"
@@ -609,7 +608,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 37.0,
           "reported_cost_per_task": "$50.53",
           "agent": "mini-SWE-agent"
@@ -622,7 +621,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 25.0,
           "reported_cost_per_task": "$6.46",
           "agent": "mini-SWE-agent"
@@ -635,7 +634,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 16.5,
           "reported_cost_per_task": "$2.02",
           "agent": "mini-SWE-agent"
@@ -648,7 +647,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 15.5,
           "reported_cost_per_task": "$6.08",
           "agent": "mini-SWE-agent"
@@ -661,7 +660,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 13.5,
           "reported_cost_per_task": "$8.85",
           "agent": "mini-SWE-agent"
@@ -674,7 +673,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 5.0,
           "reported_cost_per_task": "$3.65",
           "agent": "mini-SWE-agent"
@@ -687,7 +686,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 4.0,
           "reported_cost_per_task": "$4.83",
           "agent": "mini-SWE-agent"
@@ -700,7 +699,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 2.5,
           "reported_cost_per_task": "$1.00",
           "agent": "mini-SWE-agent"
@@ -713,7 +712,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 16.5,
           "reported_cost_per_task": "$21.02",
           "agent": "mini-SWE-agent"
@@ -726,7 +725,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 8.5,
           "reported_cost_per_task": "$25.36",
           "agent": "mini-SWE-agent"
@@ -739,7 +738,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 5.5,
           "reported_cost_per_task": "$2.04",
           "agent": "mini-SWE-agent"
@@ -752,7 +751,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 4.5,
           "reported_cost_per_task": "$1.48",
           "agent": "mini-SWE-agent"
@@ -765,7 +764,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 4.5,
           "reported_cost_per_task": "$10.96",
           "agent": "mini-SWE-agent"
@@ -778,7 +777,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 4.0,
           "reported_cost_per_task": "$0.73",
           "agent": "mini-SWE-agent"
@@ -791,7 +790,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 3.0,
           "reported_cost_per_task": "$5.60",
           "agent": "mini-SWE-agent"
@@ -804,7 +803,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 3.0,
           "reported_cost_per_task": "$3.81",
           "agent": "mini-SWE-agent"
@@ -817,7 +816,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 2.5,
           "reported_cost_per_task": "$11.38",
           "agent": "mini-SWE-agent"
@@ -830,7 +829,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 1.5,
           "reported_cost_per_task": "$1.21",
           "agent": "mini-SWE-agent"
@@ -843,7 +842,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 1.0,
           "reported_cost_per_task": "$26.73",
           "agent": "mini-SWE-agent"
@@ -856,7 +855,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$0.33",
           "agent": "mini-SWE-agent"
@@ -869,7 +868,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$1.51",
           "agent": "mini-SWE-agent"
@@ -882,7 +881,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$0.30",
           "agent": "mini-SWE-agent"
@@ -895,7 +894,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$0.80",
           "agent": "mini-SWE-agent"
@@ -908,7 +907,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$0.04",
           "agent": "mini-SWE-agent"
@@ -921,7 +920,7 @@
           "track": "官方 / 200任务 / mini-SWE-agent",
           "source_url": "https://programbench.com",
           "source_date": "2026-10-22",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_percent": 0.0,
           "reported_cost_per_task": "$0.03",
           "agent": "mini-SWE-agent"
@@ -934,7 +933,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$42.66",
           "reported_tokens_per_task": "128.90m",
           "reported_duration_per_task": "2h24m"
@@ -947,7 +946,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$58.52",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "2h27m"
@@ -960,7 +959,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$22.62",
           "reported_tokens_per_task": "134.43m",
           "reported_duration_per_task": "2h07m"
@@ -973,7 +972,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$11.57",
           "reported_tokens_per_task": "3.87m",
           "reported_duration_per_task": "27m02s"
@@ -986,7 +985,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.87",
           "reported_tokens_per_task": "5.17m",
           "reported_duration_per_task": "1h10m"
@@ -999,7 +998,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$60.29",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "2h55m"
@@ -1012,7 +1011,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$17.66",
           "reported_tokens_per_task": "27.02m",
           "reported_duration_per_task": "1h11m"
@@ -1025,7 +1024,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$6.83",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h13m"
@@ -1038,7 +1037,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$54.29",
           "reported_tokens_per_task": "54.79m",
           "reported_duration_per_task": "5h28m"
@@ -1051,7 +1050,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$75.68",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "2h37m"
@@ -1064,7 +1063,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$11.67",
           "reported_tokens_per_task": "30.85m",
           "reported_duration_per_task": "46m11s"
@@ -1077,7 +1076,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$70.48",
           "reported_tokens_per_task": "112.55m",
           "reported_duration_per_task": "5h42m"
@@ -1090,7 +1089,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$15.29",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "29m24s"
@@ -1103,7 +1102,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$21.96",
           "reported_tokens_per_task": "75.45m",
           "reported_duration_per_task": "4h16m"
@@ -1116,7 +1115,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$16.76",
           "reported_tokens_per_task": "11.14m",
           "reported_duration_per_task": "4h27m"
@@ -1129,7 +1128,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$31.27",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h32m"
@@ -1142,7 +1141,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$10.93",
           "reported_tokens_per_task": "45.30m",
           "reported_duration_per_task": "46m39s"
@@ -1155,7 +1154,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$46.49",
           "reported_tokens_per_task": "20.29m",
           "reported_duration_per_task": "3h38m"
@@ -1168,7 +1167,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.47",
           "reported_tokens_per_task": "77.48m",
           "reported_duration_per_task": "3h22m"
@@ -1181,7 +1180,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.90",
           "reported_tokens_per_task": "72.21m",
           "reported_duration_per_task": "1h02m"
@@ -1194,7 +1193,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$5.38",
           "reported_tokens_per_task": "15.20m",
           "reported_duration_per_task": "33m36s"
@@ -1207,7 +1206,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$11.56",
           "reported_tokens_per_task": "44.98m",
           "reported_duration_per_task": "1h09m"
@@ -1220,7 +1219,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.73",
           "reported_tokens_per_task": "41.01m",
           "reported_duration_per_task": "3h00m"
@@ -1233,7 +1232,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$8.46",
           "reported_tokens_per_task": "254.52m",
           "reported_duration_per_task": "1h46m"
@@ -1246,7 +1245,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$6.95",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "22m03s"
@@ -1259,7 +1258,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$12.58",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "2h06m"
@@ -1272,7 +1271,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.18",
           "reported_tokens_per_task": "7.00m",
           "reported_duration_per_task": "28m55s"
@@ -1285,7 +1284,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$28.65",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "6h04m"
@@ -1298,7 +1297,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.27",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "15m58s"
@@ -1311,7 +1310,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.47",
           "reported_tokens_per_task": "10.20m",
           "reported_duration_per_task": "26m38s"
@@ -1324,7 +1323,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h12m"
@@ -1337,7 +1336,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.48",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "28m31s"
@@ -1350,7 +1349,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$12.81",
           "reported_tokens_per_task": "42.61m",
           "reported_duration_per_task": "2h10m"
@@ -1363,7 +1362,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$3.41",
           "reported_tokens_per_task": "56.65m",
           "reported_duration_per_task": "1h23m"
@@ -1376,7 +1375,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$24.36",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h31m"
@@ -1389,7 +1388,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$12.36",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "5h54m"
@@ -1402,7 +1401,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$7.13",
           "reported_tokens_per_task": "27.07m",
           "reported_duration_per_task": "21m30s"
@@ -1415,7 +1414,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "54m07s"
@@ -1428,7 +1427,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.94",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "41m34s"
@@ -1441,7 +1440,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.29",
           "reported_tokens_per_task": "59.36m",
           "reported_duration_per_task": "5h39m"
@@ -1454,7 +1453,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "39m46s"
@@ -1467,7 +1466,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$1.60",
           "reported_tokens_per_task": "44.94m",
           "reported_duration_per_task": "5h30m"
@@ -1480,7 +1479,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$4.12",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "18m59s"
@@ -1493,7 +1492,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "53m45s"
@@ -1506,7 +1505,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$5.92",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "47m33s"
@@ -1519,7 +1518,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$13.06",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "5h43m"
@@ -1532,7 +1531,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "18m25s"
@@ -1545,7 +1544,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h06m"
@@ -1558,7 +1557,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$2.63",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "12m36s"
@@ -1571,7 +1570,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "33m01s"
@@ -1584,7 +1583,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$17.99",
           "reported_tokens_per_task": "34.95m",
           "reported_duration_per_task": "5h57m"
@@ -1597,7 +1596,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$3.19",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h04m"
@@ -1610,7 +1609,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h20m"
@@ -1623,7 +1622,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h02m"
@@ -1636,7 +1635,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h03m"
@@ -1649,7 +1648,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.44",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "6m59s"
@@ -1662,7 +1661,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.34",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "7m15s"
@@ -1675,7 +1674,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "7m37s"
@@ -1688,7 +1687,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.36",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "3m56s"
@@ -1701,7 +1700,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.22",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "24m26s"
@@ -1714,7 +1713,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "25m42s"
@@ -1727,7 +1726,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$4.14",
           "reported_tokens_per_task": "21.24m",
           "reported_duration_per_task": "45m34s"
@@ -1740,7 +1739,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "1h22m"
@@ -1753,7 +1752,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "$0.06",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "2m56s"
@@ -1766,7 +1765,7 @@
           "track": "Vals独立复测 / 200任务 / mini-SWE-agent",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "reported_cost_per_task": "-",
           "reported_tokens_per_task": "-",
           "reported_duration_per_task": "24m20s"
@@ -1779,7 +1778,7 @@
           "track": "Vals原始测试通过率诊断表",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_tasks": 130,
           "fully_resolved_tasks": 37,
           "total_tasks": 200
@@ -1792,7 +1791,7 @@
           "track": "Vals原始测试通过率诊断表",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_tasks": 100,
           "fully_resolved_tasks": 11,
           "total_tasks": 200
@@ -1805,7 +1804,7 @@
           "track": "Vals原始测试通过率诊断表",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_tasks": 92,
           "fully_resolved_tasks": 6,
           "total_tasks": 200
@@ -1818,7 +1817,7 @@
           "track": "Vals原始测试通过率诊断表",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_tasks": 82,
           "fully_resolved_tasks": 5,
           "total_tasks": 200
@@ -1831,7 +1830,7 @@
           "track": "Vals原始测试通过率诊断表",
           "source_url": "https://www.vals.ai/benchmarks/programbench",
           "source_date": "2026-11-05",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "almost_resolved_tasks": 107,
           "fully_resolved_tasks": 14,
           "total_tasks": 200
@@ -1893,7 +1892,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
       "value": "仅记录HF卡和论文公开的项目邮箱及Issues，不推测私人联系方式。",
@@ -1914,7 +1913,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。"
+      "note": "官方论文正文对应的PDF入口；未下载，故hash与字节数待核实。"
     },
     "sha256": {
       "value": "87c67873f06f48044ef3a1bcd5bed21be2c90d92090bfb3b73b6ca7b9b13781c",
@@ -1943,7 +1942,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -1961,15 +1960,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "16b4h4XVLE0v6-yd9Q0YZeDYgzEX9Lz-2",
-      "webViewLink": "https://drive.google.com/file/d/16b4h4XVLE0v6-yd9Q0YZeDYgzEX9Lz-2/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/16b4h4XVLE0v6-yd9Q0YZeDYgzEX9Lz-2/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2605.03546",
         "accessed": "2026-11-08"
@@ -1980,13 +1972,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+        "change": "最近复核"
       }
     ],
     "sources": [

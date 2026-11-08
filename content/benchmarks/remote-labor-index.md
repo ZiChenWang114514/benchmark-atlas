@@ -1,10 +1,10 @@
 # Remote Labor Index
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 Remote Labor Index用真实自由职业项目与人类交付物评估端到端远程工作。240个项目中230个用于私有定量评估，10个公开供定性检查；人工评审决定产物是否达到合理客户的验收标准。Automation Rate不是全经济就业替代率，公开评审平台也不是可自动复现私有总榜的评分器。
 
-编辑状态：官方存在性已核验；字段级研究快照；note: trending: A
+最近复核
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv:2510.26787v1；当前abs仅列v1。
 
 ### 发布时间
 
-论文首发：2025-10-31 02:58:04 KST（源站2025-10-30 17:58:04 UTC）。
+论文首发：2025-10-31 02:58:04 （源站2025-10-30 17:58:04 UTC）。
 
 [1](https://arxiv.org/abs/2510.26787)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2510.26787)（访问 2026-11-08）
 
@@ -50,9 +50,9 @@ Agent
 
 ```json
 [
-  "远程经济劳动",
-  "多模态交付物",
-  "端到端Agent",
+  "远程经济劳动"
+  "多模态交付物"
+  "端到端Agent"
   "人工验收"
 ]
 ```
@@ -101,7 +101,7 @@ Remote Labor Index: Measuring AI Automation of Remote Work
 
 ```json
 [
-  "Scale AI",
+  "Scale AI"
   "Center for AI Safety"
 ]
 ```
@@ -118,52 +118,52 @@ Center for AI Safety与Scale AI共同研究；作者脚注另区分work done whi
 
 ```json
 [
-  "Mantas Mazeika",
-  "Alice Gatti",
-  "Cristina Menghini",
-  "Udari Madhushani Sehwag",
-  "Shivam Singhal",
-  "Yury Orlovskiy",
-  "Steven Basart",
-  "Manasi Sharma",
-  "Denis Peskoff",
-  "Elaine Lau",
-  "Jaehyuk Lim",
-  "Lachlan Carroll",
-  "Alice Blair",
-  "Vinaya Sivakumar",
-  "Sumana Basu",
-  "Brad Kenstler",
-  "Yuntao Ma",
-  "Julian Michael",
-  "Xiaoke Li",
-  "Oliver Ingebretsen",
-  "Aditya Mehta",
-  "Jean Mottola",
-  "John Teichmann",
-  "Kevin Yu",
-  "Zaina Shaik",
-  "Adam Khoja",
-  "Richard Ren",
-  "Jason Hausenloy",
-  "Long Phan",
-  "Ye Htet",
-  "Ankit Aich",
-  "Tahseen Rabbani",
-  "Vivswan Shah",
-  "Andriy Novykov",
-  "Felix Binder",
-  "Kirill Chugunov",
-  "Luis Ramirez",
-  "Matias Geralnik",
-  "Hernán Mesura",
-  "Dean Lee",
-  "Ed-Yeremai Hernandez Cardona",
-  "Annette Diamond",
-  "Summer Yue",
-  "Alexandr Wang",
-  "Bing Liu",
-  "Ernesto Hernandez",
+  "Mantas Mazeika"
+  "Alice Gatti"
+  "Cristina Menghini"
+  "Udari Madhushani Sehwag"
+  "Shivam Singhal"
+  "Yury Orlovskiy"
+  "Steven Basart"
+  "Manasi Sharma"
+  "Denis Peskoff"
+  "Elaine Lau"
+  "Jaehyuk Lim"
+  "Lachlan Carroll"
+  "Alice Blair"
+  "Vinaya Sivakumar"
+  "Sumana Basu"
+  "Brad Kenstler"
+  "Yuntao Ma"
+  "Julian Michael"
+  "Xiaoke Li"
+  "Oliver Ingebretsen"
+  "Aditya Mehta"
+  "Jean Mottola"
+  "John Teichmann"
+  "Kevin Yu"
+  "Zaina Shaik"
+  "Adam Khoja"
+  "Richard Ren"
+  "Jason Hausenloy"
+  "Long Phan"
+  "Ye Htet"
+  "Ankit Aich"
+  "Tahseen Rabbani"
+  "Vivswan Shah"
+  "Andriy Novykov"
+  "Felix Binder"
+  "Kirill Chugunov"
+  "Luis Ramirez"
+  "Matias Geralnik"
+  "Hernán Mesura"
+  "Dean Lee"
+  "Ed-Yeremai Hernandez Cardona"
+  "Annette Diamond"
+  "Summer Yue"
+  "Alexandr Wang"
+  "Bing Liu"
+  "Ernesto Hernandez"
   "Dan Hendrycks"
 ]
 ```
@@ -180,7 +180,7 @@ Scale Labs
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
@@ -248,12 +248,12 @@ Scale Labs
 
 ```json
 [
-  "文本",
-  "代码",
-  "音频",
-  "视频",
-  "图像",
-  "3D/CAD",
+  "文本"
+  "代码"
+  "音频"
+  "视频"
+  "图像"
+  "3D/CAD"
   "多文件交付物"
 ]
 ```
@@ -314,7 +314,7 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-08）
 
@@ -322,19 +322,19 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 ```json
 {
-  "version": "RLI原始240项目 / 公开public_001至public_010（本次核验）",
-  "heat_confidence": "A",
+  "version": "RLI原始240项目 / 公开public_001至public_010（本次核验）"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://labs.scale.com/leaderboard/rli",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://labs.scale.com/leaderboard/rli"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Scale当前真实工作榜。"
-    },
+    }
     {
-      "url": "https://epoch.ai/data/eci-documentation/data",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://epoch.ai/data/eci-documentation/data"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Epoch ECI当前纳入RLI；这是聚合外部结果，不是Epoch独立重跑。"
     }
   ]
@@ -348,9 +348,9 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2025-10-31T02:58:04+09:00",
-    "timezone": "Asia/Seoul"
+    "version": "v1"
+    "submitted_at": "2025-10-31"
+    "timezone": ""
   }
 ]
 ```
@@ -373,7 +373,7 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
@@ -381,7 +381,7 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-08）
 
@@ -429,7 +429,7 @@ https://epoch.ai/data/eci-documentation/data
 | 论文v1 Table 1 / 历史首发 | — | [ChatGPT agent](https://arxiv.org/pdf/2510.26787) | 1.3 | Automation Rate (%) | 2025-10-31 |
 | 论文v1 Table 1 / 历史首发 | — | [Gemini 2.5 Pro](https://arxiv.org/pdf/2510.26787) | 0.8 | Automation Rate (%) | 2025-10-31 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2510.26787)（访问 2026-11-08）
 
@@ -445,7 +445,7 @@ https://epoch.ai/data/eci-documentation/data
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
@@ -459,7 +459,7 @@ https://github.com/centerforaisafety/rli_evaluation_platform/issues
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
@@ -489,11 +489,11 @@ https://arxiv.org/pdf/2510.26787
 
 [1](https://arxiv.org/pdf/2510.26787)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
-> 本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+> 已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
@@ -502,7 +502,7 @@ https://arxiv.org/pdf/2510.26787
 ```json
 [
   {
-    "type": "官方方法/介绍网页（不是论文PDF）",
+    "type": "官方方法/介绍网页（不是论文PDF）"
     "url": "https://labs.scale.com/leaderboard/rli"
   }
 ]
@@ -510,7 +510,7 @@ https://arxiv.org/pdf/2510.26787
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -520,14 +520,14 @@ https://arxiv.org/pdf/2510.26787
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

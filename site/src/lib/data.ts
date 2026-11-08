@@ -137,10 +137,6 @@ export function loadQuality(): QualityReport {
   return readJson<QualityReport>('data/quality-report.json');
 }
 
-export function loadCatalog(): Catalog {
-  return readJson<Catalog>('site/public/api/catalog.json');
-}
-
 export function loadRecords(): RecordView[] {
   const index = loadIndex();
   return index.benchmarks.map((item, order) => {

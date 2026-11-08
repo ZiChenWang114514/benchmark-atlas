@@ -1,10 +1,10 @@
 # Genome-Bench
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的文本问答集，与OpenAI的GeneBench/Pro完全不同。论文路由系统成绩来自多个RL专家，不能当作单一小模型的独立成绩。
 
-编辑状态：已核验存在；研究快照；缺失字段显式待核实
+最近复核
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -46,7 +46,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -94,7 +94,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -180,7 +180,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://github.com/mingyin0312/RL4GenomeBench)（访问2026-11-07）
 
@@ -192,23 +192,23 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 {
   "2026_H2_evidence": [
     {
-      "url": "https://arxiv.org/html/2610.21074v1",
-      "date": "2026-10-15",
+      "url": "https://arxiv.org/html/2610.21074v1"
+      "date": "2026-10-15"
       "note": "OmicsBench §2明确列举 Genome-Bench（Yin等2025），作为生物学局部能力评测的先行基准；为H2学术引用。"
     }
-  ],
-  "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。",
+  ]
+  "evidence_boundary": "引用不等于重新运行；本页将论文历史实验与现榜分开。"
   "paper_metadata": {
-    "title": "Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning",
+    "title": "Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning"
     "authors": [
-      "Yin, Ming",
-      "Qu, Yuanhao",
-      "Yang, Ling",
-      "Cong, Le",
+      "Yin, Ming"
+      "Qu, Yuanhao"
+      "Yang, Ling"
+      "Cong, Le"
       "Wang, Mengdi"
-    ],
-    "release": "2025-05-26",
-    "latest": "2025-06-02",
+    ]
+    "release": "2025-05-26"
+    "latest": "2025-06-02"
     "version": "v2"
   }
 }
@@ -228,13 +228,13 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）
+**快照日期**：2026-11-07 （网页采集日，不等于模型实验日期）
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -246,7 +246,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -258,7 +258,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 | arXiv v2 Table 2历史实验 | 4 | Qwen2.5-7B RL-tuned | 76.85 | Genome-Bench test accuracy (%) | 2025-06-02 | [原始来源](https://arxiv.org/abs/2505.19501v2) |
 | arXiv v2 Table 2历史实验 | 5 | Claude-3.7-Sonnet 02-19-25 | 76.4 | Genome-Bench test accuracy (%) | 2025-06-02 | [原始来源](https://arxiv.org/abs/2505.19501v2) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：重新读v2 PDF Table 1/2核验版本与分数，将原字符串改结构化结果。RL-Router为四专家路由系统，不能当单一7B模型；官方README未提供更新的统一实时榜，不宣称2026 SOTA。
 
@@ -278,7 +278,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -286,7 +286,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 状态：待核实。
 
-核验说明：本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+核验说明：已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 来源：[1](https://arxiv.org/abs/2505.19501)（访问2026-11-07）
 
@@ -298,7 +298,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 **PDF SHA-256**：ea37fbd1578b8906f5d975c28a63898f9139e3fcd4177bacc5d99f67dec2d9b3
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2505.19501)（访问2026-11-07）
 
@@ -306,14 +306,14 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 24536967
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2505.19501)（访问2026-11-07）
 
-**Drive文件夹**：```json
+**文件夹**：```json
 {
-  "id": "1Ujb8zb_jipEtvQBq_eUglTPU4MJXlI04",
-  "webViewLink": "https://drive.google.com/drive/folders/1Ujb8zb_jipEtvQBq_eUglTPU4MJXlI04"
+  "id": "1Ujb8zb_jipEtvQBq_eUglTPU4MJXlI04"
+  "webViewLink": "
 }
 ```
 
@@ -322,8 +322,8 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 **其他官方文档**：```json
 [
   {
-    "type": "中文介绍 Google Doc",
-    "id": "1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8",
+    "type": "中文介绍 Google Doc"
+    "id": "1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8"
     "webViewLink": "https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit"
   }
 ]
@@ -331,10 +331,10 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 来源：[1](https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit)（访问2026-11-07）
 
-**Drive论文链接**：```json
+**论文链接**：```json
 {
-  "id": "1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r",
-  "webViewLink": "https://drive.google.com/file/d/1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r/view"
+  "id": "1zvsJcz5mzrqjItFIVfStqXqZHd-Kt_0r"
+  "webViewLink": "
 }
 ```
 
@@ -342,21 +342,21 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

@@ -1,6 +1,6 @@
 # Global-MMLU-Lite
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 Global-MMLU-Lite用人工翻译或后编辑的MMLU子集评估多语言能力，并将文化敏感性与模型表现分开分析。当前3.0数据卡的23语言范围不同于原论文15语言实验和AA实现覆盖，不应只凭同名将三者合并。
 
@@ -28,7 +28,7 @@ Global-MMLU-Lite
 
 ### 论文版本
 
-v2；2025-02-19T22:30:23+09:00（KST；论文修订号，不是数据版本）
+v2；2025-02-19（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
@@ -70,7 +70,7 @@ https://arxiv.org/abs/2412.03304
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -123,7 +123,7 @@ Cohere Labs与Open Science社区
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -239,7 +239,7 @@ AA标准zero-shot指令；约400题/语言。原论文5-shot实验不能不加�
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -254,7 +254,7 @@ AA标准zero-shot指令；约400题/语言。原论文5-shot实验不能不加�
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
@@ -262,13 +262,13 @@ AA标准zero-shot指令；约400题/语言。原论文5-shot实验不能不加�
 
 version：3.0；heat_confidence：B；evidence_2026_h2：- url：https://artificialanalysis.ai/methodology/intelligence-benchmarking；date：2026-11-07；date_type：observed_on；note：AA当前Multilingual Index基于该测试，另有独立评测页。
 
-说明：热度B：本轮近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。
+说明：热度B：近期热度主要由单一评测机构持续运行/展示支持，不表示行业广泛采纳。
 
 来源：[1](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问 2026-11-07）
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-12-04T22:27:09+09:00；timezone：Asia/Seoul (KST)；- version：v2；submitted_at：2025-02-19T22:30:23+09:00；timezone：Asia/Seoul (KST)
+arxiv_submissions：- version：v1；submitted_at：2024-12-04；timezone：；- version：v2；submitted_at：2025-02-19；timezone：
 
 来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
@@ -276,7 +276,7 @@ arxiv_submissions：- version：v1；submitted_at：2024-12-04T22:27:09+09:00；
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -297,7 +297,7 @@ arxiv_submissions：- version：v1；submitted_at：2024-12-04T22:27:09+09:00；
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://artificialanalysis.ai/evaluations/global-mmlu-lite)（访问 2026-11-07）
 
@@ -317,9 +317,9 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| Artificial Analysis独立评测 | 1 | Gemini 3.1 Pro Preview | 93.2 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
-| Artificial Analysis独立评测 | 2 | Gemini 3 Flash Preview (Non-reasoning) | 92.7 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
-| Artificial Analysis独立评测 | 3 | Gemini 3 Pro Preview (High) | 92.2 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07 KST；待核实（页面未显示测量/更新日） |
+| Artificial Analysis独立评测 | 1 | Gemini 3.1 Pro Preview | 93.2 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07；待核实（页面未显示测量/更新日） |
+| Artificial Analysis独立评测 | 2 | Gemini 3 Flash Preview (Non-reasoning) | 92.7 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07；待核实（页面未显示测量/更新日） |
+| Artificial Analysis独立评测 | 3 | Gemini 3 Pro Preview (High) | 92.2 | accuracy % | [原始来源](https://artificialanalysis.ai/evaluations/global-mmlu-lite)；采集2026-11-07；待核实（页面未显示测量/更新日） |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
@@ -344,7 +344,7 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -352,7 +352,7 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -360,7 +360,7 @@ https://artificialanalysis.ai/evaluations/global-mmlu-lite
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -379,7 +379,7 @@ https://arxiv.org/pdf/2412.03304
 
 33355d08932663acd0631ad63c0d35977fd6944c22f28cc802abdba5c91baa8e
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2412.03304)（访问 2026-11-07）
 
@@ -389,11 +389,11 @@ https://arxiv.org/pdf/2412.03304
 
 来源：[1](https://arxiv.org/pdf/2412.03304)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
-说明：本轮已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
+说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -403,11 +403,11 @@ https://arxiv.org/pdf/2412.03304
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
-### Drive PDF
+### PDF
 
 待核实
 
-说明：本组只建立本地研究文件，不上传或声明已有Drive PDF。
+说明：本组只建立本地研究文件，不上传或声明已有 PDF。
 
 来源：[1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite)（访问 2026-11-07）
 
@@ -416,8 +416,8 @@ https://arxiv.org/pdf/2412.03304
 
 ### 本页修订
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

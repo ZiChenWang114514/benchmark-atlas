@@ -1,10 +1,10 @@
 # GeneBench / GeneBench Pro
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
-GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而不是生物知识选择题。旧档只依据模型发布文而漏掉论文与开放案例；本轮补齐后特别纠正：任务基于现实研究模式，但底层评测数据为构造性模拟。
+GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而不是生物知识选择题。旧档只依据模型发布文而漏掉论文与开放案例；补齐后特别纠正：任务基于现实研究模式，但底层评测数据为构造性模拟。
 
-编辑状态：研究快照；trending: B；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -44,7 +44,7 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 
 **论文或技术报告**：https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf
 
-核验说明：官方直接PDF，本轮未定位可核验arXiv编号，不杜撰abs链接。
+核验说明：官方直接PDF，未定位可核验arXiv编号，不杜撰abs链接。
 
 来源：[1](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf)（访问2026-11-07）
 
@@ -176,21 +176,21 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://openai.com/index/introducing-genebench-pro/)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "GeneBench；GeneBench Pro v13另轨",
-  "heat_confidence": "B",
-  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。",
+  "version": "GeneBench；GeneBench Pro v13另轨"
+  "heat_confidence": "B"
+  "why_trending": "主要是单一机构当前展示或厂商持续自评，不代表全行业广泛采纳。"
   "evidence_2026_h2": [
     {
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "OpenAI"
       "note": "当前发布页实际报告该benchmark分数；厂商自报。"
     }
   ]
@@ -217,7 +217,7 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-07）
 
@@ -243,9 +243,9 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 | GeneBench 103题原论文历史 | — | GPT-5.5 xhigh | 25.0 | pass rate (%) | 时间未标注 | [原始来源](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf) |
 | GeneBench 103题原论文历史 | — | Gemini 3.1 Pro | 11.2 | pass rate (%) | 时间未标注 | [原始来源](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
-**覆盖说明**：本轮找到并读取原GeneBench完整官方PDF与Pro发布页、HF卡/LICENSE。v13当前对比沿Astra原表核验37.1/32.3；补充原版及Pro历史分轨，不把公开10例或AA计划50题拼成统一榜。榜表总体更新时间待核实。
+**覆盖说明**：找到并读取原GeneBench完整官方PDF与Pro发布页、HF卡/LICENSE。v13当前对比沿Astra原表核验37.1/32.3；补充原版及Pro历史分轨，不把公开10例或AA计划50题拼成统一榜。榜表总体更新时间待核实。
 
 来源：[1](https://openai.com/index/gpt-6-astra/)（访问2026-11-07）；[2](https://openai.com/index/introducing-genebench-pro/)（访问2026-11-07）；[3](https://huggingface.co/datasets/openai/genebench-pro-public-package/blob/main/README.md)（访问2026-11-07）；[4](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf)（访问2026-11-07）
 
@@ -289,7 +289,7 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 
 **PDF SHA-256**：85b64c95d938cbe54ff9d6c2279fa88a0421f908b953d9a245c88d083e6b9bdb
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf)（访问2026-11-07）
 
@@ -297,11 +297,11 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 772256
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
@@ -312,11 +312,11 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 **其他官方文档**：```json
 [
   {
-    "type": "Pro发布与方法",
+    "type": "Pro发布与方法"
     "url": "https://openai.com/index/introducing-genebench-pro/"
-  },
+  }
   {
-    "type": "公开案例及参考grader",
+    "type": "公开案例及参考grader"
     "url": "https://huggingface.co/datasets/openai/genebench-pro-public-package"
   }
 ]
@@ -324,26 +324,26 @@ GeneBench与GeneBench-Pro测试基因组学定量分析中的连续判断，而�
 
 来源：[1](https://openai.com/index/introducing-genebench-pro/)（访问2026-11-07）；[2](https://huggingface.co/datasets/openai/genebench-pro-public-package/blob/main/README.md)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅建立本地研究条目，未上传Drive。
+核验说明：本组仅建立本地研究条目，未上传。
 
 来源：[1](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

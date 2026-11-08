@@ -1,6 +1,6 @@
 # ChartQA
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+> Benchmark Constitution · 深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
 ChartQA把真实图表、人工问答与摘要驱动的机器问答组合起来，测视觉引用与多步数值推理。其常用测试集2,500条QA包含人工与机器各1,250题，问题条数不等于独立图像数。基线是否获得底层gold table会显著改变任务；5%数值容差协议也不能与另一论文的LLM裁判成绩直接混排。
 
@@ -106,8 +106,8 @@ ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical
 
 ```json
 [
-  "York University, Canada",
-  "Nanyang Technological University, Singapore",
+  "York University, Canada"
+  "Nanyang Technological University, Singapore"
   "Salesforce Research"
 ]
 ```
@@ -120,10 +120,10 @@ ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical
 
 ```json
 [
-  "Masry, Ahmed",
-  "Long, Do Xuan",
-  "Tan, Jia Qing",
-  "Joty, Shafiq",
+  "Masry, Ahmed"
+  "Long, Do Xuan"
+  "Tan, Jia Qing"
+  "Joty, Shafiq"
   "Hoque, Enamul"
 ]
 ```
@@ -190,7 +190,7 @@ Natural Sciences and Engineering Research Council (NSERC) of Canada。
 
 [来源1](https://arxiv.org/abs/2203.10244)（访问2026-11-07）；[来源2](https://github.com/vis-nlp/ChartQA)（访问2026-11-07）
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 ## 数据形式
 
@@ -198,13 +198,13 @@ Natural Sciences and Engineering Research Council (NSERC) of Canada。
 
 ```json
 {
-  "total_qa": 32719,
-  "train_qa": 28299,
-  "validation_qa": 1920,
-  "test_qa": 2500,
-  "paper_human_qa": 9608,
-  "paper_machine_qa": 23111,
-  "paper_human_charts": 4804,
+  "total_qa": 32719
+  "train_qa": 28299
+  "validation_qa": 1920
+  "test_qa": 2500
+  "paper_human_qa": 9608
+  "paper_machine_qa": 23111
+  "paper_human_charts": 4804
   "paper_machine_charts": 17141
 }
 ```
@@ -235,7 +235,7 @@ Natural Sciences and Engineering Research Council (NSERC) of Canada。
 
 ```json
 {
-  "proxy": "无统一easy/medium/hard标注；论文以任务类型和推理操作分析。",
+  "proxy": "无统一easy/medium/hard标注；论文以任务类型和推理操作分析。"
   "sample_analysis": "论文Table4随机300个人工问题：data retrieval 13.0%、visual 10.7%、compositional 43.0%、visual+compositional 33.3%。"
 }
 ```
@@ -286,13 +286,13 @@ https://github.com/vis-nlp/ChartQA
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://github.com/vis-nlp/ChartQA)（访问2026-11-08）
 
 ### 当前版本
 
-本轮核实官方Full Version（含图像框标注），HF train/val/test为28,299/1,920/2,500；官方后续ChartQAPro是独立基准，不替代原版数据版本。
+核实官方Full Version（含图像框标注），HF train/val/test为28,299/1,920/2,500；官方后续ChartQAPro是独立基准，不替代原版数据版本。
 
 [来源1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问2026-11-07）；[来源2](https://huggingface.co/datasets/ahmed-masry/ChartQA/raw/main/README.md)（访问2026-11-07）
 
@@ -302,24 +302,24 @@ https://github.com/vis-nlp/ChartQA
 {
   "revisions": [
     {
-      "version": "v1",
-      "date_kst": "2022-03-19T14:00:30+09:00"
+      "version": "v1"
+      "date_kst": "2022-03-19"
     }
-  ],
+  ]
   "continued_use_2026h2": [
     {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-23",
-      "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-      "date_kst": "2026-10-23T01:54:37+09:00",
-      "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+      "url": "https://arxiv.org/html/2610.01352v2"
+      "date": "2026-10-23"
+      "note": "MMVistaReason v2 §4.1及表2实际评测 ChartQA（ChartQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+      "date_kst": "2026-10-23"
+      "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
     }
-  ],
-  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
+  ]
+  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2022-03-19T14:00:30+09:00"
+      "version": "v1"
+      "submitted_at_kst": "2022-03-19"
     }
   ]
 }
@@ -333,7 +333,7 @@ https://github.com/vis-nlp/ChartQA
 
 [来源1](https://arxiv.org/abs/2203.10244)（访问2026-11-07）；[来源2](https://github.com/vis-nlp/ChartQA)（访问2026-11-07）
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 ### 风险与冲突
 
@@ -351,7 +351,7 @@ ChartQAPro，官方仓库推荐的更具挑战的真实图表QA后续基准；�
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://github.com/vis-nlp/ChartQA)（访问2026-11-08）
 
@@ -367,77 +367,77 @@ https://github.com/vis-nlp/ChartQA
 
 [来源1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问2026-11-07）
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 ### 逐轨结果
 
 ```json
 [
   {
-    "model": "VisionTaPas",
-    "score": 45.52,
-    "unit": "%",
-    "metric": "原论文准确率（数值答案允许5%容差）",
-    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
-    "date": "2022-05",
-    "accessed": "2026-11-08",
-    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
-    "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。",
-    "track": "原论文Table 5／无gold table／历史基线",
+    "model": "VisionTaPas"
+    "score": 45.52
+    "unit": "%"
+    "metric": "原论文准确率（数值答案允许5%容差）"
+    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线"
+    "date": "2022-05"
+    "accessed": "2026-11-08"
+    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf"
+    "provenance": "原始基准作者公布；从官方ACL论文重新读取，不宣称当前排名。"
+    "track": "原论文Table 5／无gold table／历史基线"
     "rank": null
-  },
+  }
   {
-    "model": "VL-T5",
-    "score": 41.56,
-    "unit": "%",
-    "metric": "原论文准确率（数值答案允许5%容差）",
-    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
-    "date": "2022-05",
-    "accessed": "2026-11-08",
-    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
-    "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。",
-    "track": "原论文Table 5／无gold table／历史基线",
+    "model": "VL-T5"
+    "score": 41.56
+    "unit": "%"
+    "metric": "原论文准确率（数值答案允许5%容差）"
+    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线"
+    "date": "2022-05"
+    "accessed": "2026-11-08"
+    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf"
+    "provenance": "原始基准作者公布；从官方ACL论文重新读取，不宣称当前排名。"
+    "track": "原论文Table 5／无gold table／历史基线"
     "rank": null
-  },
+  }
   {
-    "model": "TaPas",
-    "score": 41.28,
-    "unit": "%",
-    "metric": "原论文准确率（数值答案允许5%容差）",
-    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线",
-    "date": "2022-05",
-    "accessed": "2026-11-08",
-    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
-    "provenance": "原始基准作者公布；本轮从官方ACL论文重新读取，不宣称当前排名。",
-    "track": "原论文Table 5／无gold table／历史基线",
+    "model": "TaPas"
+    "score": 41.28
+    "unit": "%"
+    "metric": "原论文准确率（数值答案允许5%容差）"
+    "scope": "ChartQA原论文Table5，gold data table not provided，test；历史基线"
+    "date": "2022-05"
+    "accessed": "2026-11-08"
+    "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf"
+    "provenance": "原始基准作者公布；从官方ACL论文重新读取，不宣称当前排名。"
+    "track": "原论文Table 5／无gold table／历史基线"
     "rank": null
-  },
+  }
   {
-    "model": "MMVistaReason-4B (MVR-4B)",
-    "score": 86.2,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "ChartQA",
-    "date": "2026-10-23",
-    "accessed": "2026-11-08",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-    "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
-    "track": "MMVistaReason v2／CompassVerifier／作者自报",
+    "model": "MMVistaReason-4B (MVR-4B)"
+    "score": 86.2
+    "unit": "%"
+    "metric": "论文协议答案正确率（CompassVerifier）"
+    "scope": "ChartQA"
+    "date": "2026-10-23"
+    "accessed": "2026-11-08"
+    "source_url": "https://arxiv.org/html/2610.01352v2"
+    "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测"
+    "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。"
+    "track": "MMVistaReason v2／CompassVerifier／作者自报"
     "rank": null
-  },
+  }
   {
-    "model": "MMVistaReason-9B (MVR-9B)",
-    "score": 87.6,
-    "unit": "%",
-    "metric": "论文协议答案正确率（CompassVerifier）",
-    "scope": "ChartQA",
-    "date": "2026-10-23",
-    "accessed": "2026-11-08",
-    "source_url": "https://arxiv.org/html/2610.01352v2",
-    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-    "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
-    "track": "MMVistaReason v2／CompassVerifier／作者自报",
+    "model": "MMVistaReason-9B (MVR-9B)"
+    "score": 87.6
+    "unit": "%"
+    "metric": "论文协议答案正确率（CompassVerifier）"
+    "scope": "ChartQA"
+    "date": "2026-10-23"
+    "accessed": "2026-11-08"
+    "source_url": "https://arxiv.org/html/2610.01352v2"
+    "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排"
+    "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。"
+    "track": "MMVistaReason v2／CompassVerifier／作者自报"
     "rank": null
   }
 ]
@@ -447,7 +447,7 @@ https://github.com/vis-nlp/ChartQA
 
 ### 覆盖边界
 
-本轮重新检查官方README、Full Version数据卡及AA评测目录，未核实持续更新的原版ChartQA独立榜单。以下新采集官方论文Table5历史基线（无gold table），与2026-H2作者复测分组；这些不是2026实时前三。当前官方排名仍待核实。
+重新检查官方README、Full Version数据卡及AA评测目录，未核实持续更新的原版ChartQA独立榜单。以下新采集官方论文Table5历史基线（无gold table），与2026-H2作者复测分组；这些不是2026实时前三。当前官方排名仍待核实。
 
 [来源1](https://raw.githubusercontent.com/vis-nlp/ChartQA/main/README.md)（访问2026-11-07）；[来源2](https://aclanthology.org/2022.findings-acl.177.pdf)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问2026-11-07）；[来源4](https://arxiv.org/html/2610.01352v2)（访问2026-11-07）
 
@@ -505,61 +505,61 @@ https://arxiv.org/pdf/2203.10244
 
 [来源1](https://arxiv.org/pdf/2203.10244)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq",
-  "webViewLink": "https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq"
+  "id": "1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1elALF3JQUPeGjv3Ee6JqeABOnA8QVlFq)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM",
-    "webViewLink": "https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1UkqHF3gkf4lU5t9Ef0agnMxVRhs5_KmcDXVOy1cIsgM/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy",
-  "webViewLink": "https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk"
+  "id": "1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1eGMZQoZFHWZZ4dshNpUWUiA0SOWaTyYy/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "round": "1 / 深度实证复核",
-    "change": "补Full/First版本区别、NSERC资助、机构、最新联系邮箱和题量/类型分布；采集官方论文历史基线，当前独立实时榜仍未核实；重核H2。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    "round": "1 / 深度实证复核"
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

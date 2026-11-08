@@ -1,7 +1,7 @@
 {
   "id": "deepswe",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "DeepSWE",
@@ -145,7 +145,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
+      "note": "正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。"
     },
     "authors": {
       "value": [
@@ -377,7 +377,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://deepswe.datacurve.ai/",
@@ -414,7 +414,7 @@
       ]
     },
     "paper_revision_history": {
-      "value": "本轮PDF为arXiv v1；当前仓库v1.1增加独立verifier容器，与论文初版实验需区分。",
+      "value": "PDF为arXiv v1；当前仓库v1.1增加独立verifier容器，与论文初版实验需区分。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2607.07946",
@@ -460,7 +460,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://deepswe.datacurve.ai/",
@@ -494,7 +494,7 @@
           "score": "74% ±3%",
           "metric": "v1.1 pass@1；网页四舍五入",
           "source_url": "https://deepswe.datacurve.ai/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-09-22",
           "rank_type": "官网显示行序，非显著性次序"
         },
@@ -504,7 +504,7 @@
           "score": "74% ±1%",
           "metric": "v1.1 pass@1；网页四舍五入",
           "source_url": "https://deepswe.datacurve.ai/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-09-22",
           "rank_type": "官网显示行序，非显著性次序"
         },
@@ -514,7 +514,7 @@
           "score": "74% ±4%",
           "metric": "v1.1 pass@1；网页四舍五入",
           "source_url": "https://deepswe.datacurve.ai/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-09-22",
           "rank_type": "官网显示行序，非显著性次序"
         },
@@ -524,7 +524,7 @@
           "score": "73% ±3%",
           "metric": "v1.1 pass@1；网页四舍五入",
           "source_url": "https://deepswe.datacurve.ai/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-09-22",
           "rank_type": "官网显示行序，非显著性次序"
         },
@@ -534,7 +534,7 @@
           "score": "70% ±3%",
           "metric": "v1.1 pass@1；网页四舍五入",
           "source_url": "https://deepswe.datacurve.ai/",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-09-22",
           "rank_type": "官网显示行序，非显著性次序"
         }
@@ -566,7 +566,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
+      "note": "所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "github_issues": {
       "value": "https://github.com/datacurve-ai/deep-swe/issues",
@@ -586,7 +586,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
+      "note": "所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -597,7 +597,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
+      "note": "所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "original_files": {
@@ -618,7 +618,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的PDF字节计算；不是外部网页抄录。"
+      "note": "实际下载的PDF字节计算；不是外部网页抄录。"
     },
     "pdf_bytes": {
       "value": 713926,
@@ -628,7 +628,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载字节数；未上传Drive。"
+      "note": "下载字节数；未上传。"
     },
     "drive_folder": {
       "value": "待核实",
@@ -639,7 +639,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。"
+      "note": "仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。"
     },
     "other_documents": {
       "value": [
@@ -665,15 +665,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1FzbNKzwPBgZtusITdxRVPOFH6Wf9j6lZ",
-      "webViewLink": "https://drive.google.com/file/d/1FzbNKzwPBgZtusITdxRVPOFH6Wf9j6lZ/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1FzbNKzwPBgZtusITdxRVPOFH6Wf9j6lZ/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2607.07946",
         "accessed": "2026-11-08"
@@ -684,10 +677,9 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
-      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
+      "2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

@@ -1,7 +1,7 @@
 {
   "id": "chips-ff",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "CHIPS-FF",
@@ -147,7 +147,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "authors": {
       "value": [
@@ -376,7 +376,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2412.10516",
@@ -394,7 +394,7 @@
       ]
     },
     "paper_revision_history": {
-      "value": "arXiv：v1 2024-12-14 04:22:31 KST；v2 2024-12-21 11:49:32 KST；v3 2025-01-15 13:10:22 KST；v4 2025-03-19 12:10:46 KST。",
+      "value": "arXiv：v1 2024-12-14 04:22:31；v2 2024-12-21 11:49:32；v3 2025-01-15 13:10:22；v4 2025-03-19 12:10:46。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2412.10516",
@@ -437,12 +437,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Seoul（网页采集日，不等于模型实验日期）",
+      "value": "2026-11-07 （网页采集日，不等于模型实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2412.10516",
@@ -468,7 +468,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -714,7 +714,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -725,7 +725,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -757,10 +757,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1VwsQVL22mQmsezJ5BqVl6vjHB-pYsNFl",
-        "webViewLink": "https://drive.google.com/drive/folders/1VwsQVL22mQmsezJ5BqVl6vjHB-pYsNFl"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2412.10516",
@@ -785,10 +782,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL",
-      "webViewLink": "https://drive.google.com/file/d/1R6k7Ykwhzm_clyHspieXbcEpedlyMJPL/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2412.10516",
@@ -800,18 +794,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
+        "change": "最近复核"
       }
     ],
     "sources": [

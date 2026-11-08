@@ -68,7 +68,7 @@
       "status": "待核实"
     },
     "paper_version": {
-      "value": "v1；2023-11-21T03:57:34+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v1；2023-11-21（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
@@ -77,7 +77,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-11-21T03:57:34+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2023-11-21（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
@@ -121,7 +121,7 @@
       ]
     },
     "license": {
-      "value": "数据集CC-BY-4.0（官方HF公开数据卡）；代码仓库MIT（本轮读取LICENSE）。两者范围不同，不可只将MIT当作题目数据许可。",
+      "value": "数据集CC-BY-4.0（官方HF公开数据卡）；代码仓库MIT（读取LICENSE）。两者范围不同，不可只将MIT当作题目数据许可。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/idavidrein/gpqa",
@@ -502,7 +502,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "18题是论文明确不发布的held-out；546题Extended与448题Main、198题Diamond对外发布。HF访问需同意防泄漏条款并分享账号信息，本轮未登录或下载受限题目。",
+      "value": "18题是论文明确不发布的held-out；546题Extended与448题Main、198题Diamond对外发布。HF访问需同意防泄漏条款并分享账号信息，未登录或下载受限题目。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2311.12022",
@@ -612,7 +612,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2311.12022",
@@ -647,8 +647,7 @@
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2023-11-21T03:57:34+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2023-11-21"
           }
         ]
       },
@@ -711,7 +710,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://github.com/idavidrein/gpqa",
@@ -770,7 +769,7 @@
           "metric": "GPQA Diamond accuracy %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         },
@@ -781,7 +780,7 @@
           "metric": "GPQA Diamond accuracy %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         },
@@ -792,7 +791,7 @@
           "metric": "GPQA Diamond accuracy %",
           "track": "Artificial Analysis独立评测",
           "source_url": "https://artificialanalysis.ai/evaluations/gpqa-diamond",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "待核实（页面未显示测量/更新日）",
           "result_type": "网页当前可读快照"
         },
@@ -803,7 +802,7 @@
           "metric": "accuracy %",
           "track": "原论文表5：Main 448题，few-shot CoT",
           "source_url": "https://arxiv.org/pdf/2311.12022",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方历史实验"
         },
         {
@@ -813,7 +812,7 @@
           "metric": "accuracy %",
           "track": "原论文表5：Diamond 198题，few-shot CoT",
           "source_url": "https://arxiv.org/pdf/2311.12022",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方历史实验"
         },
         {
@@ -823,7 +822,7 @@
           "metric": "accuracy %",
           "track": "原论文表5：Main 448题，检索",
           "source_url": "https://arxiv.org/pdf/2311.12022",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方历史实验"
         }
       ],
@@ -858,7 +857,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮重开 AA 页面确认原有前三名及分数；页面未提供可读的榜单更新时间，更新时间待核实，不以访问日替代。"
+      "note": "重开 AA 页面确认原有前三名及分数；页面未提供可读的榜单更新时间，更新时间待核实，不以访问日替代。"
     }
   },
   "contact": {
@@ -940,7 +939,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 617128,
@@ -952,13 +951,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1",
-        "webViewLink": "https://drive.google.com/drive/folders/1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -966,27 +962,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI",
-          "webViewLink": "https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I",
-      "webViewLink": "https://drive.google.com/file/d/1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1ALHKaEoAYok7e6OLzSNo568QYXGdwV4I/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -995,26 +986,23 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮深度核验：补官方许可、数据划分、评分及运行协议，复核榜单可读性，并记录2026H2引用证据与冲突；保留无法验证字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
   },
-  "editorial_status": "第1轮补实证据完成；未确认项仍保留待核实，不以未找到代替未公开。"
+  "editorial_status": ""
 }

@@ -1,6 +1,6 @@
 # MMBench
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v5
 
 ### 发布日期
 
-2023-07-13T01:23:09+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
+2023-07-13（；arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）
 
@@ -261,7 +261,7 @@ README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）
 
@@ -273,7 +273,7 @@ README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2023-07-13T01:23:09+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v2；- **submitted_at**：2023-07-27T01:02:57+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v3；- **submitted_at**：2023-08-13T22:12:47+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v4；- **submitted_at**：2024-04-30T00:21:19+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v5；- **submitted_at**：2024-08-20T12:56:03+09:00；- **timezone**：Asia/Seoul (KST)
+- **revisions**：- - **version**：v1；- **submitted_at**：2023-07-13；- **timezone**：；- - **version**：v2；- **submitted_at**：2023-07-27；- **timezone**：；- - **version**：v3；- **submitted_at**：2023-08-13；- **timezone**：；- - **version**：v4；- **submitted_at**：2024-04-30；- **timezone**：；- - **version**：v5；- **submitted_at**：2024-08-20；- **timezone**：
 - **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.01352v2；- **date**：2026-10-22；- **note**：MMVistaReason v2 §4.1及表2实际评测 MMBench（EN设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。
 - **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
 
@@ -303,7 +303,7 @@ README、论文及下载表题量冲突；EN/CN、dev/test、旧版/新文件和
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
@@ -356,7 +356,7 @@ https://mmbench.opencompass.org.cn/leaderboard
 
 ### 覆盖范围与时效
 
-本轮官方leaderboard URL只返回前端应用壳，未取得动态分数，不能声称已刷新到其最新排名。补列原论文v5表3历史test成绩，并把2026研究CompassVerifier结果另轨；不同数据版、CN/EN、dev/test与评分器不得混排。
+官方leaderboard URL只返回前端应用壳，未取得动态分数，不能声称已刷新到其最新排名。补列原论文v5表3历史test成绩，并把2026研究CompassVerifier结果另轨；不同数据版、CN/EN、dev/test与评分器不得混排。
 
 [来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
@@ -398,46 +398,46 @@ https://arxiv.org/pdf/2307.06281
 
 [来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 3cd9025569600c548d29a987e1cef6bdac8dc07cdeb6bd49ef04690ae80ebd6b
 
-> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
+> 下载PDF字节的SHA-256；不冒称已重新上传。
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 7311810
 
-> 本轮直接下载的PDF文件字节数。
+> 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 - **id**：1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
-- **webViewLink**：https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
+- **webViewLink**：
 
-[来源](https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ### 其他官方材料
 
-- - **kind**：中文介绍 Google Doc；- **id**：1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE；- **webViewLink**：https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk
+- - **kind**：中文介绍 Google Doc；- **id**：1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE；- **webViewLink**：
 
-[来源](https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai
-- **webViewLink**：https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk
+- **webViewLink**：
 
-[来源](https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
-- - **date**：2026-11-07；- **timezone**：KST / Asia/Seoul；- **change**：第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+- - **date**：2026-11-07；- **timezone**：；- **change**：深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/open-compass/MMBench/main/README.md)（访问 2026-11-08）

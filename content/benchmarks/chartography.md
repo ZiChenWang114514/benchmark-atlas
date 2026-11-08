@@ -1,6 +1,6 @@
 # Chartography
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。已核验存在；中文研究快照；note: trending: A；未核实保留标记
+> Benchmark Constitution · 深度复核：2026-11-08。已核验存在；中文研究快照；note: trending: A；未核实保留标记
 
 Chartography聚焦专业人士真正用于判断的图形：生存曲线、等高线、Sankey、Bode和金融图等，不局限于常规柱线饼图。100题由从业者编写并经另外三名专家验证。原论文固定July 2026快照与当前官网已明显不同；论文每题20次、README榜单示例10次的差异也需保留，不能将45%历史上限当成当前能力边界。
 
@@ -36,7 +36,7 @@ arXiv v1（2026-08-11）
 
 ### 发布日期
 
-2026-08-11 17:57:25 KST（arXiv首次提交；非推定项目首次上线日）
+2026-08-11 17:57:25 （arXiv首次提交；非推定项目首次上线日）
 
 [来源1](https://arxiv.org/abs/2608.10677)（访问2026-11-08）
 
@@ -116,9 +116,9 @@ Surge AI
 
 ```json
 [
-  "Suhaas Garre",
-  "Chris Mutty",
-  "Sushant Mehta",
+  "Suhaas Garre"
+  "Chris Mutty"
+  "Sushant Mehta"
   "Edwin Chen"
 ]
 ```
@@ -203,7 +203,7 @@ Surge AI
 
 ```json
 [
-  "图像",
+  "图像"
   "文本"
 ]
 ```
@@ -264,7 +264,7 @@ Inspect AI评测harness见官方代码仓库。
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://surgehq.ai/benchmarks/chartography)（访问2026-11-08）
 
@@ -272,19 +272,19 @@ Inspect AI评测harness见官方代码仓库。
 
 ```json
 {
-  "version": "独立基准；语义版本待核实",
-  "heat_confidence": "A",
+  "version": "独立基准；语义版本待核实"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://www.anthropic.com/claude-haiku-5-5"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Anthropic在2026-10-07 Haiku 5.5发布表实际报告Chartography；Epoch 2026-10-21进行评审，结论信息不足。"
-    },
+    }
     {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "Anthropic在2026-10-07 Haiku 5.5发布表实际报告Chartography；Epoch 2026-10-21进行评审，结论信息不足。"
     }
   ]
@@ -301,8 +301,8 @@ Inspect AI评测harness见官方代码仓库。
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2026-08-11T17:57:25+09:00"
+      "version": "v1"
+      "submitted_at_kst": "2026-08-11"
     }
   ]
 }
@@ -334,7 +334,7 @@ Inspect AI评测harness见官方代码仓库。
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://surgehq.ai/benchmarks/chartography)（访问2026-11-08）
 
@@ -357,73 +357,73 @@ https://surgehq.ai/benchmarks/chartography
 ```json
 [
   {
-    "rank": 1,
-    "model": "Gemini 4 Argon (High reasoning)",
-    "score": 71.6,
-    "metric": "Chartography pass@1 (%)",
-    "source_url": "https://surgehq.ai/benchmarks/chartography",
-    "source_date": "待核实（页面未明示榜表更新时间）",
-    "collected_at": "2026-11-07 KST",
-    "track": "官网当前Chartography榜／配置如模型名",
-    "unit": "%",
+    "rank": 1
+    "model": "Gemini 4 Argon (High reasoning)"
+    "score": 71.6
+    "metric": "Chartography pass@1 (%)"
+    "source_url": "https://surgehq.ai/benchmarks/chartography"
+    "source_date": "待核实（页面未明示榜表更新时间）"
+    "collected_at": "2026-11-07 "
+    "track": "官网当前Chartography榜／配置如模型名"
+    "unit": "%"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": 2,
-    "model": "GPT 6 Astra (Max reasoning)",
-    "score": 71.0,
-    "metric": "Chartography pass@1 (%)",
-    "source_url": "https://surgehq.ai/benchmarks/chartography",
-    "source_date": "待核实（页面未明示榜表更新时间）",
-    "collected_at": "2026-11-07 KST",
-    "track": "官网当前Chartography榜／配置如模型名",
-    "unit": "%",
+    "rank": 2
+    "model": "GPT 6 Astra (Max reasoning)"
+    "score": 71.0
+    "metric": "Chartography pass@1 (%)"
+    "source_url": "https://surgehq.ai/benchmarks/chartography"
+    "source_date": "待核实（页面未明示榜表更新时间）"
+    "collected_at": "2026-11-07 "
+    "track": "官网当前Chartography榜／配置如模型名"
+    "unit": "%"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Claude Opus 5.5 (Adaptive/Max)",
-    "score": 66.3,
-    "metric": "Chartography pass@1 (%)",
-    "source_url": "https://surgehq.ai/benchmarks/chartography",
-    "source_date": "待核实（页面未明示榜表更新时间）",
-    "collected_at": "2026-11-07 KST",
-    "track": "官网当前Chartography榜／配置如模型名",
-    "unit": "%",
+    "rank": 3
+    "model": "Claude Opus 5.5 (Adaptive/Max)"
+    "score": 66.3
+    "metric": "Chartography pass@1 (%)"
+    "source_url": "https://surgehq.ai/benchmarks/chartography"
+    "source_date": "待核实（页面未明示榜表更新时间）"
+    "collected_at": "2026-11-07 "
+    "track": "官网当前Chartography榜／配置如模型名"
+    "unit": "%"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "rank": 1,
-    "model": "GPT-5.6 Sol (Max reasoning)",
-    "score": 45.0,
-    "metric": "mean pass@1 (%)",
-    "track": "论文Table 3／July 2026／20 trials no tools",
-    "source_url": "https://arxiv.org/pdf/2608.10677",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "source_context": "冻结启动快照，不与当前网页榜混排",
+    "rank": 1
+    "model": "GPT-5.6 Sol (Max reasoning)"
+    "score": 45.0
+    "metric": "mean pass@1 (%)"
+    "track": "论文Table 3／July 2026／20 trials no tools"
+    "source_url": "https://arxiv.org/pdf/2608.10677"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "source_context": "冻结启动快照，不与当前网页榜混排"
     "ci95_half_width_pp": 1.1
-  },
+  }
   {
-    "rank": 2,
-    "model": "GPT-5.6 Sol (default)",
-    "score": 39.5,
-    "metric": "mean pass@1 (%)",
-    "track": "论文Table 3／July 2026／20 trials no tools",
-    "source_url": "https://arxiv.org/pdf/2608.10677",
-    "accessed": "2026-11-08",
-    "unit": "%",
+    "rank": 2
+    "model": "GPT-5.6 Sol (default)"
+    "score": 39.5
+    "metric": "mean pass@1 (%)"
+    "track": "论文Table 3／July 2026／20 trials no tools"
+    "source_url": "https://arxiv.org/pdf/2608.10677"
+    "accessed": "2026-11-08"
+    "unit": "%"
     "ci95_half_width_pp": 1.2
-  },
+  }
   {
-    "rank": 3,
-    "model": "Gemini 3.5 Flash",
-    "score": 35.9,
-    "metric": "mean pass@1 (%)",
-    "track": "论文Table 3／July 2026／20 trials no tools",
-    "source_url": "https://arxiv.org/pdf/2608.10677",
-    "accessed": "2026-11-08",
-    "unit": "%",
+    "rank": 3
+    "model": "Gemini 3.5 Flash"
+    "score": 35.9
+    "metric": "mean pass@1 (%)"
+    "track": "论文Table 3／July 2026／20 trials no tools"
+    "source_url": "https://arxiv.org/pdf/2608.10677"
+    "accessed": "2026-11-08"
+    "unit": "%"
     "ci95_half_width_pp": 1.3
   }
 ]
@@ -479,7 +479,7 @@ https://arxiv.org/pdf/2608.10677
 
 [来源1](https://arxiv.org/abs/2608.10677)（访问2026-11-07）
 
-> 原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。
+> 原始论文PDF入口；未下载或上传，哈希与字节数待核实。
 
 ### PDF SHA-256
 
@@ -487,7 +487,7 @@ https://arxiv.org/pdf/2608.10677
 
 [来源1](https://arxiv.org/pdf/2608.10677)（访问2026-11-08）
 
-> 本轮下载PDF字节的SHA-256；不表示已上传Drive。
+> 下载PDF字节的SHA-256；不表示已上传。
 
 ### PDF字节数
 
@@ -495,9 +495,9 @@ https://arxiv.org/pdf/2608.10677
 
 [来源1](https://arxiv.org/pdf/2608.10677)（访问2026-11-08）
 
-> 本轮下载PDF字节数；Drive归档仍待核实。
+> 下载PDF字节数；归档仍待核实。
 
-### Drive目录
+### 目录
 
 待核实
 
@@ -510,7 +510,7 @@ https://arxiv.org/pdf/2608.10677
 ```json
 [
   {
-    "type": "官方网页方法与榜单（非PDF）",
+    "type": "官方网页方法与榜单（非PDF）"
     "url": "https://surgehq.ai/benchmarks/chartography"
   }
 ]
@@ -518,7 +518,7 @@ https://arxiv.org/pdf/2608.10677
 
 [来源1](https://surgehq.ai/benchmarks/chartography)（访问2026-11-07）
 
-### Drive论文归档
+### 论文归档
 
 待核实
 
@@ -529,14 +529,14 @@ https://arxiv.org/pdf/2608.10677
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

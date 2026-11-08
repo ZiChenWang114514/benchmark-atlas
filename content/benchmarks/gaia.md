@@ -1,10 +1,10 @@
 # GAIA
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 原GAIA测的是工具辅助的信息查找与短答案任务，不能把高分等同广泛通用Agent能力。当前榜由官方scorer评分提交答案，不表示维护方完整重跑参评系统；后续Gaia2另测动态读写任务。
 
-编辑状态：第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+最近复核
 
 ## 基本信息
 
@@ -26,9 +26,9 @@
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
-**发布日期**：2023-11-22 05:34:47 KST
+**发布日期**：2023-11-22 05:34:47
 
-核验说明：首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+核验说明：首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
@@ -42,7 +42,7 @@
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
-**许可证与授权边界**：待核实；当前官方卡明确要求同意门控条件且禁止在可爬取/无门控位置转发题库，但未据此确认统一版权许可证。GAIA2的CC-BY-4.0不能回填到GAIA。
+**许可证与授权边界**：待核实；当前官方卡明确要求同意门控条件且禁止在可爬取/无门控位置转发题库，但未据此确认统一版权许可证。GAIA2的CC-BY-4.0不能到GAIA。
 
 状态：待核实。
 
@@ -92,7 +92,7 @@
 
 状态：待核实。
 
-核验说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+核验说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
@@ -178,27 +178,27 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://huggingface.co/gaia-benchmark)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "GAIA 原始466题；2023数据发布",
+  "version": "GAIA 原始466题；2023数据发布"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.19134v1",
-      "date": "2026-09-17",
-      "note": "ScienceIDE §4.2及参考文献明确引用 GAIA 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
-      "date_kst": "2026-09-17T02:55:47+09:00",
-      "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
-    },
+      "url": "https://arxiv.org/html/2609.19134v1"
+      "date": "2026-09-17"
+      "note": "ScienceIDE §4.2及参考文献明确引用 GAIA 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+      "date_kst": "2026-09-17"
+      "verified_in_round1": "重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
+    }
     {
-      "url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet",
-      "date": "2026-11-03",
+      "url": "https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet"
+      "date": "2026-11-03"
       "note": "官方HF榜单公开结果集2023/test中Keen AgenticOS V1.1提交记录，score 0.9435215946843853；为官方评分提交证据。"
     }
-  ],
+  ]
   "format_update": "2025-10：HF数据集改为Parquet分片（metadata.parquet及各level分片），列名不变；数据集已加访问门控。"
 }
 ```
@@ -207,7 +207,7 @@
 
 来源：[1](https://arxiv.org/html/2609.19134v1)（访问2026-11-07）；[2](https://arxiv.org/abs/2311.12983)（访问2026-11-07）；[3](https://huggingface.co/datasets/gaia-benchmark/GAIA)（访问2026-11-07）；[4](https://arxiv.org/abs/2609.19134)（访问2026-11-07）；[5](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet)（访问2026-11-07）；[6](https://huggingface.co/spaces/gaia-benchmark/leaderboard/blob/main/app.py)（访问2026-11-07）
 
-**论文与版本历史**：Submission history From: Grégoire Mialon [ view email ] [v1] 2023-11-22 05:34:47 KST (3,688 KB)
+**论文与版本历史**：Submission history From: Grégoire Mialon [ view email ] [v1] 2023-11-22 05:34:47 (3,688 KB)
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
@@ -225,7 +225,7 @@
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://huggingface.co/gaia-benchmark)（访问2026-11-07）
 
@@ -237,7 +237,7 @@
 
 状态：待核实。
 
-核验说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+核验说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 来源：[1](https://huggingface.co/gaia-benchmark)（访问2026-11-07）
 
@@ -245,14 +245,14 @@
 |---|---:|---|---:|---|---|---|
 | 当前官方网页榜 | 1 | Keen AgenticOS V1.1 | 94.35 | GAIA 2023 test 301 Average score (%) | 2026-11-03 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 2 | Shadow Harness V8.01 | 94.02 | GAIA 2023 test 301 Average score (%) | 2026-10-12 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
-| 当前官方网页榜 | 2 | Keen AgenticOS  V1.0 | 94.02 | GAIA 2023 test 301 Average score (%) | 2026-10-29 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
+| 当前官方网页榜 | 2 | Keen AgenticOS V1.0 | 94.02 | GAIA 2023 test 301 Average score (%) | 2026-10-29 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 4 | Ops-Agentic-Search-2.0 | 93.69 | GAIA 2023 test 301 Average score (%) | 2026-09-22 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 5 | CustomGPT.ai Research Lab v44 | 93.36 | GAIA 2023 test 301 Average score (%) | 2026-06-03 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 5 | OmniSeek_Preview_v1.1 | 93.36 | GAIA 2023 test 301 Average score (%) | 2026-10-30 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 7 | 1028-9 | 93.02 | GAIA 2023 test 301 Average score (%) | 2026-10-28 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 | 当前官方网页榜 | 7 | Shadow Harness V5.01 | 93.02 | GAIA 2023 test 301 Average score (%) | 2026-10-11 | [原始来源](https://huggingface.co/datasets/gaia-benchmark/results_public/resolve/main/2023/test-00000-of-00001.parquet) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：重取官方Space指定results_public并按score排序×100保留两位小数，列前8、同分并列名次。榜首94.35%，次席两项94.02%。date为各项提交日，不把它当榜表整体更新日；未声称复跑提交方agent。
 
@@ -274,7 +274,7 @@
 
 状态：待核实。
 
-核验说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+核验说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
@@ -282,7 +282,7 @@
 
 状态：待核实。
 
-核验说明：本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+核验说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 来源：[1](https://arxiv.org/abs/2311.12983)（访问2026-11-07）
 
@@ -296,7 +296,7 @@
 
 **PDF SHA-256**：5bf6f968d4f5cd20acdfca6e81e3c9f5277bb66061fad7a02e35442dff812ba0
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2311.12983)（访问2026-11-07）
 
@@ -304,60 +304,60 @@
 4254059
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2311.12983)（访问2026-11-07）
 
-**Drive文件夹**：```json
+**文件夹**：```json
 {
-  "id": "1XQ-wCiSOFqEob12_--TjaruKGF7D99rG",
-  "webViewLink": "https://drive.google.com/drive/folders/1XQ-wCiSOFqEob12_--TjaruKGF7D99rG"
+  "id": "1XQ-wCiSOFqEob12_--TjaruKGF7D99rG"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/drive/folders/1XQ-wCiSOFqEob12_--TjaruKGF7D99rG)（访问2026-11-07）
+来源：[1](
 
 **其他官方文档**：```json
 [
   {
-    "type": "中文介绍Google Doc",
-    "id": "1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE",
-    "webViewLink": "https://docs.google.com/document/d/1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE/edit?usp=drivesdk"
+    "type": "中文介绍Google Doc"
+    "id": "1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE"
+    "webViewLink": "
   }
 ]
 ```
 
 核验说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[1](https://huggingface.co/gaia-benchmark)（访问2026-11-07）；[2](https://docs.google.com/document/d/1UDgxrXAUff4QGR8MENwmAhxmXVNbEod1s-ePTkpfQSE/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](https://huggingface.co/gaia-benchmark)（访问2026-11-07）；[2](
 
-**Drive论文链接**：```json
+**论文链接**：```json
 {
-  "id": "1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf",
-  "webViewLink": "https://drive.google.com/file/d/1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf/view?usp=drivesdk"
+  "id": "1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/file/d/1cvZ5wCwGoHF0mlc_2fEjkje0l1OGegpf/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "round": "1 / 深度实证复核",
-    "change": "补官方Space代码与Apache代码许可，数据许可仍待核实；读取公开results_public得test前三与11月提交证据，补官方scorer。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    "round": "1 / 深度实证复核"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

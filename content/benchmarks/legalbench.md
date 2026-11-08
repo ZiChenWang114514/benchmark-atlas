@@ -1,5 +1,5 @@
 # LegalBench
-> 核验：2026-11-08（KST / Asia/Seoul）。已核验存在；近期热门新建条目，未核实字段保留标记；trending: B
+> 核验：2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: B
 
 LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理组织的162任务集合。原版分类采用balanced accuracy，规则适用还含法律背景人员的人工审阅；Vals的Accuracy排行是另一套评测实现。使用时先确定任务、提示和许可，再谈总分。
 
@@ -15,7 +15,7 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 **论文修订**：arXiv v1 [S4](https://arxiv.org/abs/2308.11462)
 
-**发布时间**：2023-08-21 07:08:03 KST（arXiv v1）；PDF封面写2023-08-23，二者不是同一日期口径。 [S4](https://arxiv.org/abs/2308.11462)
+**发布时间**：2023-08-21 07:08:03 （arXiv v1）；PDF封面写2023-08-23，二者不是同一日期口径。 [S4](https://arxiv.org/abs/2308.11462)
 
 **主板块**：推理 [S3](https://www.vals.ai/benchmarks/legal_bench)
 
@@ -95,13 +95,13 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S9](https://hazyresearch.stanford.edu/legalbench/)
+**核查日**：2026-11-08 [S9](https://hazyresearch.stanford.edu/legalbench/)
 
 **数据版本与持续使用**：162任务公开套件（README本次快照）；历史持续使用证据：2026-10-13 当前方法与榜单页展示多家前沿模型的实测结果；10月13日更新、151模型的大规模法律推理对比，覆盖当前前沿模型。 https://www.vals.ai/benchmarks/legal_bench；2026-10-13 目录卡片：Legal Academic LegalBench Updated: 10/13/2026 Models Tested: 151 Evaluating language models on a wide range of open source legal reasoning tasks. Top Models 1 Claude Fable 5 2 Claude Fable 5.1 3 Gemini 4 Argon View Details https://www.vals.ai/benchmarks [S2](https://github.com/HazyResearch/legalbench) [S8](https://www.vals.ai/benchmarks/legal_bench)
 
-**论文版本与证据历史**：v1 2023-08-21T07:08:03+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/2308.11462)
+**论文版本与证据历史**：v1 2023-08-21。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/2308.11462)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：Vals当前第一名88.56%，不等于100%上限；分数聚集不足以证明整个162任务套件接近饱和，撤回此前泛化判断。 [S8](https://www.vals.ai/benchmarks/legal_bench)
 
@@ -111,7 +111,7 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S9](https://hazyresearch.stanford.edu/legalbench/)
+**快照日**：2026-11-08 [S9](https://hazyresearch.stanford.edu/legalbench/)
 
 **官方榜入口**：待核实 [S9](https://hazyresearch.stanford.edu/legalbench/)
 
@@ -158,24 +158,24 @@ LegalBench不是一张统一的法律考试卷，而是围绕六类法律推理�
 
 **PDF SHA-256**：47a0759d5f5dfcc7516579c083ff5e44bfdd12164db86149f2fee8792d382122 [S7](https://arxiv.org/pdf/2308.11462)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：1204779 [S7](https://arxiv.org/pdf/2308.11462)
 
-**原有Drive文件夹**：待核实 [S6](https://github.com/HazyResearch/legalbench)
+**原有文件夹**：待核实 [S6](https://github.com/HazyResearch/legalbench)
 
 > 本次已检索所列官方材料，但未完成该字段的精确核验；不代表官方没有公开。
 
 **其他材料**：[{"type": "官方使用指南", "url": "https://hazyresearch.stanford.edu/legalbench/getting-started/"}, {"type": "官方HF数据卡", "url": "https://huggingface.co/datasets/nguha/legalbench"}] [S2](https://github.com/HazyResearch/legalbench)
 
-**原有Drive PDF**：待核实 [S6](https://github.com/HazyResearch/legalbench)
+**原有 PDF**：待核实 [S6](https://github.com/HazyResearch/legalbench)
 
-> 本组按任务要求不上传Drive；原始PDF URL见original_files。
+> 本组按任务要求不上传；原始PDF URL见original_files。
 
 ## 变更记录
 
 - 2026-11-07 · 近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S6](https://github.com/HazyResearch/legalbench) [S9](https://hazyresearch.stanford.edu/legalbench/)
 
 ### 来源索引

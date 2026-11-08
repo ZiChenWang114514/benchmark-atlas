@@ -38,7 +38,7 @@
       "note": "使用官方名称；未有已核实全称扩展时保留原名，不把论文标题误当基准全称。"
     },
     "version": {
-      "value": "持续更新的多任务榜单平台；本轮官网322 benchmark、2087贡献、8752827 datapoints。聚合统计不是单一测试题集版本。",
+      "value": "持续更新的多任务榜单平台；官网322 benchmark、2087贡献、8752827 datapoints。聚合统计不是单一测试题集版本。",
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
@@ -56,7 +56,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-06-21T02:07:07+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）",
+      "value": "2023-06-21（arXiv初稿日期，不冒充数据集单独首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
@@ -536,7 +536,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2306.11688",
@@ -549,7 +549,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "持续增长平台；本轮页面322个任务、2087项贡献、8752827数据点；每任务必须另锁定数据名称和split，不能当单一v1/v2。",
+      "value": "持续增长平台；页面322个任务、2087项贡献、8752827数据点；每任务必须另锁定数据名称和split，不能当单一v1/v2。",
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/",
@@ -561,13 +561,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-06-21T02:07:07+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2023-06-21"
         },
         {
           "version": "v2",
-          "submitted_at": "2024-03-26T19:40:28+09:00",
-          "timezone": "Asia/Seoul (KST)"
+          "submitted_at": "2024-03-26"
         }
       ],
       "sources": [
@@ -576,7 +574,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "arXiv原始UTC时间已转换为KST；不等于数据集版本变更。"
+      "note": "arXiv原始UTC时间已转换为；不等于数据集版本变更。"
     },
     "saturation": {
       "value": "不存在平台级饱和率：三个抽查的dft_3d性质子榜仍报告非零MAE，但误差不能跨单位合成；是否接近物理精度上限需各任务证据。",
@@ -626,7 +624,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）",
+      "value": "2026-11-08 （采集日，不是运行或榜单更新日）",
       "sources": [
         {
           "url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
@@ -687,7 +685,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -701,7 +699,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -715,7 +713,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "06-02-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -729,7 +727,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -743,7 +741,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "06-02-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -757,7 +755,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。"
         },
         {
@@ -771,7 +769,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
         },
         {
@@ -785,7 +783,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "05-06-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
         },
         {
@@ -799,7 +797,7 @@
           "dataset_total_size": "55713",
           "source_submitted_label": "06-02-2023",
           "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/",
-          "snapshot_date": "2026-11-08 KST",
+          "snapshot_date": "2026-11-08",
           "note": "Dataset size为数据集规模，不自动等于test样本数；提交日按源标签保留。 未用formation-energy的eV/atom单位推断total-energy单位。"
         }
       ],
@@ -919,7 +917,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "pdf_bytes": {
       "value": 1781869,
@@ -929,16 +927,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。"
+      "note": "2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。"
     },
     "drive_folder": {
-      "value": {
-        "id": "16m-5FRpc9unlxQloFVTETcCGOka_DdPF",
-        "webViewLink": "https://drive.google.com/drive/folders/16m-5FRpc9unlxQloFVTETcCGOka_DdPF"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/16m-5FRpc9unlxQloFVTETcCGOka_DdPF",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -946,27 +941,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc",
-          "webViewLink": "https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep",
-      "webViewLink": "https://drive.google.com/file/d/1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -975,18 +965,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+        "change": "最近复核"
       }
     ],
     "sources": [
@@ -1008,5 +995,5 @@
       }
     ]
   },
-  "editorial_status": "第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留"
+  "editorial_status": ""
 }

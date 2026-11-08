@@ -1,6 +1,6 @@
 # miniF2F
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2021-09-01T08:21:12+09:00（KST；arXiv首稿时间，不等于独立数据集首发）
+2021-09-01（；arXiv首稿时间，不等于独立数据集首发）
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）
 
@@ -212,7 +212,7 @@ openai/miniF2F 官方仓库贡献者；README欢迎补充形式化题目与证�
 
 ### 指标
 
-固定搜索预算下的证明成功率、pass@N等；本轮H2研究另使用PAB。
+固定搜索预算下的证明成功率、pass@N等；H2研究另使用PAB。
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）
 
@@ -244,7 +244,7 @@ Lean3/Lean4、Mathlib版本、tactic集合、尝试数和PAB不同不可直接�
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/openai/miniF2F/main/README.md)（访问 2026-11-08）
 
@@ -256,14 +256,14 @@ Lean3/Lean4、Mathlib版本、tactic集合、尝试数和PAB不同不可直接�
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2021-09-01T08:21:12+09:00；- **timezone**：Asia/Seoul (KST)；- - **version**：v2；- **submitted_at**：2022-02-28T15:03:23+09:00；- **timezone**：Asia/Seoul (KST)
+- **revisions**：- - **version**：v1；- **submitted_at**：2021-09-01；- **timezone**：；- - **version**：v2；- **submitted_at**：2022-02-28；- **timezone**：
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2608.28639v1；- **date**：2026-08-11；- **note**：Reward-Oracle MCTS 原始研究实际在 miniF2F 上比较三个证明模型及不同搜索预算；同时审计内核级证明有效性。
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）；[来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
 ### 饱和情况
 
-本轮复核的2026年MCTS研究在test 244、PAB256下报告Goedel 87.1 ± 0.2%；这是指定工具链与预算下的实验，不能推出所有移植版或更高预算的统一饱和度。
+复核的2026年MCTS研究在test 244、PAB256下报告Goedel 87.1 ± 0.2%；这是指定工具链与预算下的实验，不能推出所有移植版或更高预算的统一饱和度。
 
 [来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
@@ -283,7 +283,7 @@ Lean4移植与各证明器fork应标明源码commit；不能把所有fork的分�
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
 
@@ -425,47 +425,47 @@ https://arxiv.org/pdf/2109.00110
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 e4dcbd37330caffea6ebe2baa0f2f4cd3596d8a873c00f44ea2ce62ab0aaeea2
 
-> 本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。
+> 下载PDF字节的SHA-256；不冒称已重新上传。
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 267937
 
-> 本轮直接下载的PDF文件字节数。
+> 直接下载的PDF文件字节数。
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 - **id**：1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa
-- **webViewLink**：https://drive.google.com/drive/folders/1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa
+- **webViewLink**：
 
-[来源](https://drive.google.com/drive/folders/1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ### 其他官方材料
 
-- **chinese_intro_doc**：- **id**：1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug；- **webViewLink**：https://docs.google.com/document/d/1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug/edit?usp=drivesdk；- **mimeType**：application/vnd.google-apps.document
+- **chinese_intro_doc**：- **id**：1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug；- **webViewLink**： **mimeType**：application/vnd.google-apps.document
 - **local_markdown**：content/benchmarks/minif2f.md
 
-[来源](https://drive.google.com/drive/folders/1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8
-- **webViewLink**：https://drive.google.com/file/d/1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8/view?usp=drivesdk
+- **webViewLink**：
 
-[来源](https://drive.google.com/file/d/1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8/view?usp=drivesdk)（访问 2026-11-07）
+[来源]( 2026-11-07）
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- - **date**：2026-11-07；- **timezone**：Asia/Seoul；- **change**：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- - **date**：2026-11-07；- **timezone**：；- **change**：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/openai/miniF2F/main/README.md)（访问 2026-11-08）

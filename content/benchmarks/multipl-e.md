@@ -1,6 +1,6 @@
 # MultiPL-E
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 MultiPL-E把HumanEval和MBPP的接口、说明与测试翻译到多种编程语言，功能正确性仍由编译及单元测试确定。原论文19语言的实验不能代表当前HF发布：数据卡最新列3.3版，修正Lua停止词问题；其HumanEval与MBPP目标语言配置数量也已不同。GitHub额外禁止机器学习训练，而HF标MIT，两种授权声明冲突仍显式保留。
 [本页导读依据](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）
@@ -27,13 +27,13 @@ Multi-Programming Language Evaluation of Large Language Models of Code
 
 ```json
 {
-  "hf_changelog_latest": "3.3",
-  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2",
+  "hf_changelog_latest": "3.3"
+  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
   "scope": "当前HF数据发布；原论文19语言协议另列"
 }
 ```
 
-[来源1](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/api/datasets/nuprl/MultiPL-E)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/nuprl/MultiPL-E)（访问 2026-11-08）
 
 ### 论文版本
 
@@ -45,9 +45,9 @@ arXiv v4
 
 ### 发布日期
 
-2022-08-17 20:16:52 KST
+2022-08-17 20:16:52
 
-> 首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+> 首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 [来源1](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）
 
@@ -190,207 +190,207 @@ nuprl / MultiPL-E 官方仓库团队
 ```json
 {
   "paper_protocol": {
-    "languages_including_python": 19,
-    "multipl_humaneval_instances": 3059,
-    "multipl_mbpp_instances": 7619,
+    "languages_including_python": 19
+    "multipl_humaneval_instances": 3059
+    "multipl_mbpp_instances": 7619
     "note": "论文附录按161/401母题乘19语言计数；不代表当前所有HF配置。"
-  },
+  }
   "current_hf": {
-    "humaneval_target_language_configs": 24,
-    "mbpp_target_language_configs": 23,
-    "humaneval_rows": 3811,
-    "mbpp_rows": 8856,
+    "humaneval_target_language_configs": 24
+    "mbpp_target_language_configs": 23
+    "humaneval_rows": 3811
+    "mbpp_rows": 8856
     "per_config": [
       {
-        "config": "humaneval-adb",
+        "config": "humaneval-adb"
         "test_rows": 157
-      },
+      }
       {
-        "config": "humaneval-clj",
+        "config": "humaneval-clj"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-cpp",
+        "config": "humaneval-cpp"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-cs",
+        "config": "humaneval-cs"
         "test_rows": 158
-      },
+      }
       {
-        "config": "humaneval-d",
+        "config": "humaneval-d"
         "test_rows": 156
-      },
+      }
       {
-        "config": "humaneval-dart",
+        "config": "humaneval-dart"
         "test_rows": 157
-      },
+      }
       {
-        "config": "humaneval-elixir",
+        "config": "humaneval-elixir"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-go",
+        "config": "humaneval-go"
         "test_rows": 154
-      },
+      }
       {
-        "config": "humaneval-hs",
+        "config": "humaneval-hs"
         "test_rows": 156
-      },
+      }
       {
-        "config": "humaneval-java",
+        "config": "humaneval-java"
         "test_rows": 158
-      },
+      }
       {
-        "config": "humaneval-jl",
+        "config": "humaneval-jl"
         "test_rows": 159
-      },
+      }
       {
-        "config": "humaneval-js",
+        "config": "humaneval-js"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-lua",
+        "config": "humaneval-lua"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-ml",
+        "config": "humaneval-ml"
         "test_rows": 155
-      },
+      }
       {
-        "config": "humaneval-php",
+        "config": "humaneval-php"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-pl",
+        "config": "humaneval-pl"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-r",
+        "config": "humaneval-r"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-rb",
+        "config": "humaneval-rb"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-rkt",
+        "config": "humaneval-rkt"
         "test_rows": 161
-      },
+      }
       {
-        "config": "humaneval-rs",
+        "config": "humaneval-rs"
         "test_rows": 156
-      },
+      }
       {
-        "config": "humaneval-scala",
+        "config": "humaneval-scala"
         "test_rows": 160
-      },
+      }
       {
-        "config": "humaneval-sh",
+        "config": "humaneval-sh"
         "test_rows": 158
-      },
+      }
       {
-        "config": "humaneval-swift",
+        "config": "humaneval-swift"
         "test_rows": 158
-      },
+      }
       {
-        "config": "humaneval-ts",
+        "config": "humaneval-ts"
         "test_rows": 159
-      },
+      }
       {
-        "config": "mbpp-adb",
+        "config": "mbpp-adb"
         "test_rows": 365
-      },
+      }
       {
-        "config": "mbpp-clj",
+        "config": "mbpp-clj"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-cpp",
+        "config": "mbpp-cpp"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-cs",
+        "config": "mbpp-cs"
         "test_rows": 386
-      },
+      }
       {
-        "config": "mbpp-d",
+        "config": "mbpp-d"
         "test_rows": 358
-      },
+      }
       {
-        "config": "mbpp-elixir",
+        "config": "mbpp-elixir"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-go",
+        "config": "mbpp-go"
         "test_rows": 374
-      },
+      }
       {
-        "config": "mbpp-hs",
+        "config": "mbpp-hs"
         "test_rows": 355
-      },
+      }
       {
-        "config": "mbpp-java",
+        "config": "mbpp-java"
         "test_rows": 386
-      },
+      }
       {
-        "config": "mbpp-jl",
+        "config": "mbpp-jl"
         "test_rows": 390
-      },
+      }
       {
-        "config": "mbpp-js",
+        "config": "mbpp-js"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-lua",
+        "config": "mbpp-lua"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-ml",
+        "config": "mbpp-ml"
         "test_rows": 355
-      },
+      }
       {
-        "config": "mbpp-php",
+        "config": "mbpp-php"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-pl",
+        "config": "mbpp-pl"
         "test_rows": 396
-      },
+      }
       {
-        "config": "mbpp-r",
+        "config": "mbpp-r"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-rb",
+        "config": "mbpp-rb"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-rkt",
+        "config": "mbpp-rkt"
         "test_rows": 397
-      },
+      }
       {
-        "config": "mbpp-rs",
+        "config": "mbpp-rs"
         "test_rows": 354
-      },
+      }
       {
-        "config": "mbpp-scala",
+        "config": "mbpp-scala"
         "test_rows": 396
-      },
+      }
       {
-        "config": "mbpp-sh",
+        "config": "mbpp-sh"
         "test_rows": 382
-      },
+      }
       {
-        "config": "mbpp-swift",
+        "config": "mbpp-swift"
         "test_rows": 396
-      },
+      }
       {
-        "config": "mbpp-ts",
+        "config": "mbpp-ts"
         "test_rows": 390
       }
     ]
-  },
+  }
   "warning": "语言翻译行不是独立新问题数；当前各语言排除项不同，勿将3.3数据量套进原论文实验。"
 }
 ```
@@ -461,11 +461,11 @@ https://github.com/nuprl/MultiPL-E
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://nuprl.github.io/MultiPL-E/)（访问 2026-11-08）
 
@@ -473,20 +473,20 @@ https://github.com/nuprl/MultiPL-E
 
 ```json
 {
-  "version": "HF changelog 3.3",
-  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2",
-  "last_modified_kst": "2025-07-15T19:43:47+09:00",
+  "version": "HF changelog 3.3"
+  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
+  "last_modified_kst": "2025-07-15"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.27284v1",
-      "date": "2026-09-23",
+      "url": "https://arxiv.org/html/2609.27284v1"
+      "date": "2026-09-23"
       "note": "Hunyuan-A13B §4.1/§4.2及表2–4实际报告 MultiPL-E；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。"
     }
   ]
 }
 ```
 
-[来源1](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/api/datasets/nuprl/MultiPL-E)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）
+[来源1](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/nuprl/MultiPL-E)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）
 
 ### 论文/数据修订历史
 
@@ -494,34 +494,34 @@ https://github.com/nuprl/MultiPL-E
 {
   "arxiv_revisions": [
     {
-      "version": "v1",
-      "date_kst": "2022-08-17T20:16:52+09:00"
-    },
-    {
-      "version": "v2",
-      "date_kst": "2022-08-19T10:12:49+09:00"
-    },
-    {
-      "version": "v3",
-      "date_kst": "2022-11-08T14:48:57+09:00"
-    },
-    {
-      "version": "v4",
-      "date_kst": "2022-12-19T19:30:12+09:00"
+      "version": "v1"
+      "date_kst": "2022-08-17"
     }
-  ],
-  "dataset_changelog_latest": "3.3（Lua stop token修复）",
+    {
+      "version": "v2"
+      "date_kst": "2022-08-19"
+    }
+    {
+      "version": "v3"
+      "date_kst": "2022-11-08"
+    }
+    {
+      "version": "v4"
+      "date_kst": "2022-12-19"
+    }
+  ]
+  "dataset_changelog_latest": "3.3（Lua stop token修复）"
   "other_notable_fixes": [
-    "3.2新增Ada",
-    "3.1.1修复TypeScript MBPP类型括号",
-    "3.1新增Dart",
+    "3.2新增Ada"
+    "3.1.1修复TypeScript MBPP类型括号"
+    "3.1新增Dart"
     "3.0新增Clojure/Elixir/Haskell/OCaml及若干Scala修正"
-  ],
+  ]
   "date_warning": "HF卡这些语义版本标题没有逐项日期；不把API lastModified当作所有版本的发布日期。"
 }
 ```
 
-[来源1](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源3](https://huggingface.co/api/datasets/nuprl/MultiPL-E)（访问 2026-11-08）
+[来源1](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/nuprl/MultiPL-E)（访问 2026-11-08）
 
 ### 饱和性证据
 
@@ -663,69 +663,69 @@ b905b9874ffcb4cee63f74cdc30524eae97013691e79313049ad72c6d6197580
 
 [来源1](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF",
-  "webViewLink": "https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF"
+  "id": "1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "type": "中文介绍Google Doc",
-    "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM",
-    "webViewLink": "https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk"
-  },
+    "type": "中文介绍Google Doc"
+    "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM"
+    "webViewLink": "
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/abs/2208.08227",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/abs/2208.08227"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/html/2609.27284v1",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/html/2609.27284v1"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/pdf/2208.08227",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/pdf/2208.08227"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/nuprl/MultiPL-E/blob/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/nuprl/MultiPL-E/blob/main/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/api/datasets/nuprl/MultiPL-E",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/datasets/nuprl/MultiPL-E"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/spaces/bigcode/multilingual-code-evals",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/spaces/bigcode/multilingual-code-evals"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://nuprl.github.io/MultiPL-E/",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://nuprl.github.io/MultiPL-E/"
     "accessed": "2026-11-08"
   }
 ]
@@ -733,18 +733,18 @@ b905b9874ffcb4cee63f74cdc30524eae97013691e79313049ad72c6d6197580
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-[来源1](https://github.com/nuprl/MultiPL-E)（访问 2026-11-07）；[来源2](https://docs.google.com/document/d/1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM/edit?usp=drivesdk)（访问 2026-11-07）；[来源3](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）；[来源4](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）；[来源5](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）；[来源6](https://github.com/nuprl/MultiPL-E/blob/main/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/nuprl/MultiPL-E/blob/main/README.md)（访问 2026-11-08）；[来源8](https://huggingface.co/api/datasets/nuprl/MultiPL-E)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源10](https://huggingface.co/spaces/bigcode/multilingual-code-evals)（访问 2026-11-08）；[来源11](https://nuprl.github.io/MultiPL-E/)（访问 2026-11-08）
+[来源1](https://github.com/nuprl/MultiPL-E)（访问 2026-11-07）；[来源2]( 2026-11-07）；[来源3](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）；[来源4](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）；[来源5](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）；[来源6](https://github.com/nuprl/MultiPL-E/blob/main/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/nuprl/MultiPL-E/blob/main/README.md)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/nuprl/MultiPL-E)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源10](https://huggingface.co/spaces/bigcode/multilingual-code-evals)（访问 2026-11-08）；[来源11](https://nuprl.github.io/MultiPL-E/)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 ```json
 {
-  "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ",
-  "webViewLink": "https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk"
+  "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ/view?usp=drivesdk)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ## 变更记录
 
@@ -753,19 +753,19 @@ b905b9874ffcb4cee63f74cdc30524eae97013691e79313049ad72c6d6197580
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

@@ -1,7 +1,7 @@
 {
   "id": "audio-multichallenge",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留；trending: B",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AudioMultiChallenge",
@@ -35,7 +35,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv:2512.14865v1；2025-12-17 03:26:44（Asia/Shanghai，UTC+8）",
+      "value": "arXiv:2512.14865v1；2025-12-17 03:26:44（，UTC+8）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2512.14865",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-12-17（Asia/Shanghai；arXiv v1提交03:26:44；Scale研究页另标12/17/2025，无时区时刻）",
+      "value": "2025-12-17（；arXiv v1提交03:26:44；Scale研究页另标12/17/2025，无时区时刻）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2512.14865",
@@ -262,7 +262,7 @@
       ]
     },
     "decontamination": {
-      "value": "新采集的人声对抗对话与实例专用最终轮rubric可减少直接搬用既有问答，但公开HF卡含转录/历史；本轮未在论文中找到训练语料逐条去重审计证据，不能称无污染。",
+      "value": "新采集的人声对抗对话与实例专用最终轮rubric可减少直接搬用既有问答，但公开HF卡含转录/历史；未在论文中找到训练语料逐条去重审计证据，不能称无污染。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2512.14865",
@@ -329,7 +329,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "官方HF公开452对话及rubric数据；用户各轮音频、转录与历史助手文本用于固定历史输入。最后助手回复由受测模型新生成；不能把历史助手回答当该模型自由交互轨迹。本轮未核实独立训练集/隐藏测试划分。",
+      "value": "官方HF公开452对话及rubric数据；用户各轮音频、转录与历史助手文本用于固定历史输入。最后助手回复由受测模型新生成；不能把历史助手回答当该模型自由交互轨迹。未核实独立训练集/隐藏测试划分。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/ScaleAI/audiomc",
@@ -397,7 +397,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2512.14865",
@@ -423,11 +423,11 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
+      "note": "热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
     },
     "paper_revision_history": {
       "value": {
-        "v1": "2025-12-17T03:26:44+08:00",
+        "v1": "2025-12-17",
         "arxiv_id": "2512.14865",
         "paper_reported_best": {
           "model": "Gemini 3 Pro Preview (Thinking)",
@@ -456,7 +456,7 @@
       ]
     },
     "saturation": {
-      "value": "本轮官方Text榜头部60.40% APR，Audio榜头部48.45% APR；两者均明显未满分，但不把这两个不同输出协议直接合并为唯一排名。",
+      "value": "官方Text榜头部60.40% APR，Audio榜头部48.45% APR；两者均明显未满分，但不把这两个不同输出协议直接合并为唯一排名。",
       "sources": [
         {
           "url": "https://labs.scale.com/leaderboard/audiomc-text",
@@ -495,7 +495,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2512.14865",
@@ -796,7 +796,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方arXiv原论文PDF入口；本组不下载、不上传Drive。"
+      "note": "官方arXiv原论文PDF入口；本组不下载、不上传。"
     },
     "sha256": {
       "value": "d724dd047b476408bef588fac478984c0237e76a84c7e9096ff64f330d145e57",
@@ -806,7 +806,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
+      "note": "实际下载的源站PDF字节校验；未声称重新核验文件内容。"
     },
     "pdf_bytes": {
       "value": 2393184,
@@ -845,15 +845,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1gzqPYXyW3mBM2Io-ZVexJTlrDGCAsHle",
-      "webViewLink": "https://drive.google.com/file/d/1gzqPYXyW3mBM2Io-ZVexJTlrDGCAsHle/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1gzqPYXyW3mBM2Io-ZVexJTlrDGCAsHle/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2512.14865",
         "accessed": "2026-11-08"
@@ -864,14 +857,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "round": "2 / queue[1]",
-        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.full_name",
           "basic_info.paper_version",

@@ -1,8 +1,8 @@
 # AgentBench
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
-第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
 原始八环境与当前五环境FC版是两套聚合口径。本页同时保存FC官方CSV和原论文基线，但不将百分成功率与归一化Overall分混排。
 
@@ -38,7 +38,7 @@ arXiv v3
 
 ### 发布日期
 
-2023-08-08 00:08:11 Asia/Shanghai（UTC+8）（arXiv首稿）
+2023-08-08 00:08:11 （UTC+8）（arXiv首稿）
 
 [来源1](https://arxiv.org/abs/2308.03688)（访问2026-11-07）
 
@@ -108,7 +108,7 @@ Tsinghua University、Ohio State University、UC Berkeley 等作者单位。
 
 > 字段状态：待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源1](https://arxiv.org/abs/2308.03688)（访问2026-11-07）
 
@@ -273,7 +273,7 @@ FC版五环境pass@1均值，与原始八环境Overall归一化分是不同协�
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -281,14 +281,14 @@ FC版五环境pass@1均值，与原始八环境Overall归一化分是不同协�
 
 ```json
 {
-  "version": "AgentBench FC（2025-10-10），当前main；原始8环境v0.1/v0.2独立保留",
+  "version": "AgentBench FC（2025-10-10），当前main；原始8环境v0.1/v0.2独立保留"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.19134v1",
-      "date": "2026-09-17",
-      "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
-      "date_shanghai": "2026-09-17T01:55:47+08:00",
-      "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
+      "url": "https://arxiv.org/html/2609.19134v1"
+      "date": "2026-09-17"
+      "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。"
+      "date_shanghai": "2026-09-17"
+      "verified_in_round1": "重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
     }
   ]
 }
@@ -301,16 +301,16 @@ FC版五环境pass@1均值，与原始八环境Overall归一化分是不同协�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2023-08-08T00:08:11+08:00"
-  },
+    "version": "v1"
+    "submitted_at": "2023-08-08"
+  }
   {
-    "version": "v2",
-    "submitted_at": "2023-10-25T15:41:24+08:00"
-  },
+    "version": "v2"
+    "submitted_at": "2023-10-25"
+  }
   {
-    "version": "v3",
-    "submitted_at": "2025-10-04T11:54:18+08:00"
+    "version": "v3"
+    "submitted_at": "2025-10-04"
   }
 ]
 ```
@@ -339,7 +339,7 @@ AgentBench FC（5环境函数调用、AgentRL/Docker集成）；VisualAgentBench
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -355,7 +355,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3F
 
 > 字段状态：待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -451,13 +451,13 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3F
 
 
 
-> FC结果来自本轮实际下载官方CSV；Release Date列按来源原名保存，不冒充实验运行时间。
+> FC结果来自实际下载官方CSV；Release Date列按来源原名保存，不冒充实验运行时间。
 
 [来源1](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)（访问2026-11-07）；[来源2](https://arxiv.org/abs/2308.03688)（访问2026-11-07）
 
 ### 覆盖说明
 
-本轮官方CSV共25行FC模型，另列原始8环境历史三行。FC前三为70.4/67.7/65.0；前三Release Date为10/2025，其余有11/2025，不冒充实际运行日。原始Overall归一化分与FC百分均值不能混排。
+官方CSV共25行FC模型，另列原始8环境历史三行。FC前三为70.4/67.7/65.0；前三Release Date为10/2025，其余有11/2025，不冒充实际运行日。原始Overall归一化分与FC百分均值不能混排。
 
 [来源1](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)（访问2026-11-07）
 
@@ -484,7 +484,7 @@ https://github.com/THUDM/AgentBench/issues
 
 https://twitter.com/thukeg
 
-> 官方仓库展示的团队账号链接；本轮未访问X内容。
+> 官方仓库展示的团队账号链接；未访问X内容。
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -494,7 +494,7 @@ https://twitter.com/thukeg
 
 > 字段状态：待核实
 
-> 本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
+> 已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
 [来源1](https://arxiv.org/abs/2308.03688)（访问2026-11-07）
 
@@ -510,7 +510,7 @@ https://arxiv.org/pdf/2308.03688
 
 9c780e35fc0b2de6c2e21e0572f6aaaadcf7ecdd56d63cfaae2b415bc0dc83c3
 
-> 本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。
+> 实际下载字节的SHA-256；不表示已有副本已替换。
 
 [来源1](https://arxiv.org/pdf/2308.03688)（访问2026-11-07）
 
@@ -520,63 +520,63 @@ https://arxiv.org/pdf/2308.03688
 
 [来源1](https://arxiv.org/pdf/2308.03688)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6",
-  "webViewLink": "https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6"
+  "id": "1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "type": "中文介绍Google Doc",
-    "id": "1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA",
-    "webViewLink": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk"
+    "type": "中文介绍Google Doc"
+    "id": "1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA"
+    "webViewLink": "
   }
 ]
 ```
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-[来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）；[来源2](https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）；[来源2](
 
-### Drive论文副本
+### 论文副本
 
 ```json
 {
-  "id": "16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp",
-  "webViewLink": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk"
+  "id": "16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "round": "1 / 深度实证复核",
-    "change": "纠正当前main已为五环境AgentBench FC，原版八环境留在旧分支；补FC榜单前三和联系；重核H2引用。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    "round": "1 / 深度实证复核"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

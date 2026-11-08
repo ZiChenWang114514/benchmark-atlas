@@ -1,13 +1,7 @@
 ---
-import { loadDrive, loadIndex } from '../lib/data';
-import { page, safeUrl } from '../lib/format';
+import { loadIndex } from '../lib/data';
+import { page } from '../lib/format';
 const index = loadIndex();
-const drive = loadDrive();
-const links = [
-  ['Drive 总目录', drive.root?.webViewLink],
-  ['宪法文档', drive.constitution?.webViewLink],
-  ['总表', drive.master_sheet?.webViewLink],
-].filter((entry): entry is [string, string] => typeof entry[1] === 'string' && !!safeUrl(entry[1]));
 ---
 <footer class="site-footer">
   <div class="wrap footer-grid">
@@ -22,17 +16,11 @@ const links = [
       <h2>档案</h2>
       <ul>
         <li><a href={page('constitution')}>《收集宪法》</a></li>
-        {links.map(([label, href]) => (
-          <li><a href={href} target="_blank" rel="noopener noreferrer">{label}</a></li>
-        ))}
       </ul>
     </div>
     <div>
       <h2>读取数据</h2>
       <ul>
-        <li><a href={page('api')}>只读接口说明</a></li>
-        <li><a href={`${import.meta.env.BASE_URL}api/index.json`}>index.json</a></li>
-        <li><a href={`${import.meta.env.BASE_URL}api/news.json`}>news.json</a></li>
         <li><a href="https://github.com/ZiChenWang114514/benchmark-constitution">仓库</a></li>
       </ul>
     </div>

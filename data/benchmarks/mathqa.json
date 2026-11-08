@@ -1,7 +1,7 @@
 {
   "id": "mathqa",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MathQA",
@@ -22,7 +22,7 @@
       ]
     },
     "version": {
-      "value": "2019 Operation-Based Formalisms数据；未固定本轮数据commit",
+      "value": "2019 Operation-Based Formalisms数据；未固定数据commit",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2019-05-31（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "value": "2019-05-31（arXiv初稿日期，非独立数据集首发声明）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1905.13319",
@@ -390,7 +390,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
@@ -399,7 +399,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "2019 Operation-Based Formalisms数据；未固定本轮数据commit",
+      "value": "2019 Operation-Based Formalisms数据；未固定数据commit",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/",
@@ -416,13 +416,12 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2019-05-31T06:28:12+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2019-05-31"
           }
         ],
         "previous_evidence": {
           "arxiv_version": "arXiv v1",
-          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。",
           "2026_h2_evidence": [
             {
               "url": "https://arxiv.org/html/2610.11978v1",
@@ -438,7 +437,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。"
     },
     "saturation": {
       "value": "待核实",
@@ -484,7 +483,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://math-qa.github.io/math-QA/html/",
@@ -558,7 +557,7 @@
           "track": "官方静态 / MathQA Challenge",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -569,7 +568,7 @@
           "track": "官方静态 / Geometry",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -580,7 +579,7 @@
           "track": "官方静态 / Physics",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -591,7 +590,7 @@
           "track": "官方静态 / General",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -602,7 +601,7 @@
           "track": "官方静态 / Gain",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -613,7 +612,7 @@
           "track": "官方静态 / Probability",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         },
         {
@@ -624,7 +623,7 @@
           "track": "官方静态 / Other",
           "source_url": "https://math-qa.github.io/math-QA/html/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "官方历史页面；不是2026实时榜"
         }
       ],
@@ -694,13 +693,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE",
-      "webViewLink": "https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -723,7 +719,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 850027,
@@ -735,13 +731,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-",
-        "webViewLink": "https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -749,15 +742,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs",
-          "webViewLink": "https://docs.google.com/document/d/1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/mathqa.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -767,18 +758,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license",
           "basic_info.paper_version",

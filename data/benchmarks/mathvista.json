@@ -1,7 +1,7 @@
 {
   "id": "mathvista",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MathVista",
@@ -41,7 +41,7 @@
       "status": "待核实"
     },
     "paper_version": {
-      "value": "arXiv v3（2024-01-21 12:47:06 KST）",
+      "value": "arXiv v3（2024-01-21 12:47:06 ）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2310.02255",
@@ -50,7 +50,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-10-04 02:57:24 KST（arXiv v1首次提交；原站日历日期2023-10-03，不推定数据上传日）",
+      "value": "2023-10-04 02:57:24 （arXiv v1首次提交；原站日历日期2023-10-03，不推定数据上传日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2310.02255",
@@ -484,7 +484,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://mathvista.github.io/",
@@ -493,7 +493,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "本轮数据卡仍为6,141例的原始MathVista，default配置下testmini=1,000、test=5,141；正式数据语义版本号待核实，不把论文v3当作数据v3。",
+      "value": "数据卡仍为6,141例的原始MathVista，default配置下testmini=1,000、test=5,141；正式数据语义版本号待核实，不把论文v3当作数据v3。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/AI4Math/MathVista/raw/main/README.md",
@@ -507,15 +507,15 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-10-04T02:57:24+09:00"
+            "date_kst": "2023-10-04"
           },
           {
             "version": "v2",
-            "date_kst": "2023-10-26T05:22:24+09:00"
+            "date_kst": "2023-10-26"
           },
           {
             "version": "v3",
-            "date_kst": "2024-01-21T12:47:06+09:00"
+            "date_kst": "2024-01-21"
           }
         ],
         "continued_use_2026h2": [
@@ -576,7 +576,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（本轮访问；各来源运行/提交日期另列）",
+      "value": "2026-11-08 （访问；各来源运行/提交日期另列）",
       "sources": [
         {
           "url": "https://mathvista.github.io/",
@@ -908,7 +908,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载的arXiv原始字节；不表示已替换Drive中的旧文件。"
+      "note": "下载的arXiv原始字节；不表示已替换中的旧文件。"
     },
     "pdf_bytes": {
       "value": 16157865,
@@ -920,13 +920,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "14apgSX54MLzrxmEymlrDxzHb15QDvtic",
-        "webViewLink": "https://drive.google.com/drive/folders/14apgSX54MLzrxmEymlrDxzHb15QDvtic"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/14apgSX54MLzrxmEymlrDxzHb15QDvtic",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -934,27 +931,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek",
-          "webViewLink": "https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho",
-      "webViewLink": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/12RenjAbtPcTeUv1mjHiaI2IJxSaS_Aho/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -963,18 +955,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "纠正语言为英/中/波斯语；新增官方test轨；testmini前10及论文复测分轨。"
+        "change": "最近复核"
       }
     ],
     "sources": [

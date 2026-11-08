@@ -1,8 +1,8 @@
 # AdvBench
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
-已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
+最近复核
 
 有害请求与字符串攻击的实验数据，不是一个能把模型安全性压成通用名次的实时榜。历史ASR必须同时带上目标模型、攻击方法、样本和预算。
 
@@ -36,7 +36,7 @@ arXiv v2
 
 ### 发布日期
 
-2023-07-28 01:49:12 Asia/Shanghai（UTC+8）（arXiv首稿；来源UTC日期为7月27日）
+2023-07-28 01:49:12 （UTC+8）（arXiv首稿；来源UTC日期为7月27日）
 
 [来源1](https://arxiv.org/abs/2307.15043)（访问2026-11-07）
 
@@ -259,13 +259,13 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://llm-attacks.org/)（访问2026-11-07）
 
 ### 最新版本与采用证据
 
-官方仓库data/advbench发布harmful_behaviors.csv和harmful_strings.csv；本轮按公开main与原论文v2核验，独立数据集版本号待核实。
+官方仓库data/advbench发布harmful_behaviors.csv和harmful_strings.csv；按公开main与原论文v2核验，独立数据集版本号待核实。
 
 > 字段状态：待核实
 
@@ -276,14 +276,14 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2023-07-28T01:49:12+08:00",
-    "timezone": "Asia/Shanghai（UTC+8）"
-  },
+    "version": "v1"
+    "submitted_at": "2023-07-28"
+    "timezone": "（UTC+8）"
+  }
   {
-    "version": "v2",
-    "submitted_at": "2023-12-21T04:48:57+08:00",
-    "timezone": "Asia/Shanghai（UTC+8）"
+    "version": "v2"
+    "submitted_at": "2023-12-21"
+    "timezone": "（UTC+8）"
   }
 ]
 ```
@@ -312,7 +312,7 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://llm-attacks.org/)（访问2026-11-07）
 
@@ -360,7 +360,7 @@ https://arxiv.org/abs/2307.15043
 
 ### 覆盖说明
 
-官方论文Table1转录四项历史GCG实验，按攻击设置分轨；本轮README未链接统一实时榜，当前跨模型排名待核实；不同攻击、裁判、预算不能混排。
+官方论文Table1转录四项历史GCG实验，按攻击设置分轨；README未链接统一实时榜，当前跨模型排名待核实；不同攻击、裁判、预算不能混排。
 
 > 字段状态：待核实
 
@@ -414,7 +414,7 @@ https://arxiv.org/pdf/2307.15043
 
 ab8745c2e3c6dfd939d5a590760bbae4682d92db010947cbb306688ad086bfd1
 
-> 本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。
+> 实际下载字节的SHA-256；不表示已有副本已替换。
 
 [来源1](https://arxiv.org/pdf/2307.15043)（访问2026-11-07）
 
@@ -424,60 +424,60 @@ ab8745c2e3c6dfd939d5a590760bbae4682d92db010947cbb306688ad086bfd1
 
 [来源1](https://arxiv.org/pdf/2307.15043)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x",
-  "webViewLink": "https://drive.google.com/drive/folders/1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x"
+  "id": "1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8",
-    "webViewLink": "https://docs.google.com/document/d/1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文副本
+### 论文副本
 
 ```json
 {
-  "id": "1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq",
-  "webViewLink": "https://drive.google.com/file/d/1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq/view?usp=drivesdk"
+  "id": "1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

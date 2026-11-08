@@ -1,5 +1,5 @@
 # LiveCodeBench
-> 核验：2026-11-08（KST / Asia/Seoul）。已核验存在；研究快照，未核实字段保留标记
+> 核验：2026-11-08。已核验存在；研究快照，未核实字段保留标记
 
 LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，并把生成、自修复、执行与测试输出预测分开评估。滚动并不自动等于无污染：必须同时固定题目日期窗、模型训练截止信息、release、测试集lite设置及采样预算。
 
@@ -17,9 +17,9 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 **论文修订**：arXiv v2 [S7](https://arxiv.org/abs/2403.07974)
 
-**发布时间**：2024-03-13 02:58:04 KST [S1](https://arxiv.org/abs/2403.07974)
+**发布时间**：2024-03-13 02:58:04 [S1](https://arxiv.org/abs/2403.07974)
 
-> 首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+> 首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 **主板块**：代码 [S1](https://arxiv.org/abs/2403.07974)
 
@@ -97,15 +97,15 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S12](https://livecodebench.github.io/)
+**核查日**：2026-11-08 [S12](https://livecodebench.github.io/)
 
 **数据版本与持续使用**：持续滚动采题；必须按评测时间窗固定快照；历史持续使用证据：2026-09-23 Hunyuan-A13B §4.1/§4.2及表2–4实际报告 LiveCodeBench；CRUX-I/O作为同一个CRUXEval条目，不拆分计数。 https://arxiv.org/html/2609.27284v1 [S13](https://arxiv.org/html/2609.27284v1) [S2](https://livecodebench.github.io/)
 
 > H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。
 
-**论文版本与证据历史**：v1 2024-03-13T02:58:04+09:00（KST）；v2 2024-06-07T02:41:21+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S7](https://arxiv.org/abs/2403.07974)
+**论文版本与证据历史**：v1 2024-03-13；v2 2024-06-07。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S7](https://arxiv.org/abs/2403.07974)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：动态窗口改变题目分母；当前AA摘要最高91.7%，官方默认窗口另行计算。没有一个可跨时窗引用的全套饱和结论。 [S3](https://livecodebench.github.io/leaderboard.html) [S5](https://artificialanalysis.ai/evaluations/livecodebench)
 
@@ -115,7 +115,7 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S3](https://livecodebench.github.io/leaderboard.html)
+**快照日**：2026-11-08 [S3](https://livecodebench.github.io/leaderboard.html)
 
 **官方榜入口**：https://livecodebench.github.io/leaderboard.html [S10](https://github.com/LiveCodeBench/LiveCodeBench)
 
@@ -170,23 +170,23 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 **PDF SHA-256**：a9bd3f7b96ac846ac53506e7b58197d9213919f18f402a27910dcf9fc948b427 [S11](https://arxiv.org/pdf/2403.07974)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：4960954 [S11](https://arxiv.org/pdf/2403.07974)
 
-**原有Drive文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": "https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV"} [S16](https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV)
+**原有文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": " [S16](
 
-**其他材料**：[{"type": "中文介绍Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": "https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk"}] [S2](https://livecodebench.github.io/) [S17](https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk)
+**其他材料**：[{"type": "中文介绍Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": " [S2](https://livecodebench.github.io/) [S17](
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-**原有Drive PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": "https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk"} [S18](https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk)
+**原有 PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": " [S18](
 
 ## 变更记录
 
 - 2026-11-07 · 首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
-- 2026-11-07 · 第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://livecodebench.github.io/) [S12](https://livecodebench.github.io/)
 
 ### 来源索引
@@ -208,6 +208,6 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 - S13 · [https://arxiv.org/html/2609.27284v1](https://arxiv.org/html/2609.27284v1) · 访问 2026-11-07
 - S14 · [https://artificialanalysis.ai/evaluations/livecodebench](https://artificialanalysis.ai/evaluations/livecodebench) · 访问 2026-11-07
 - S15 · [https://arxiv.org/pdf/2403.07974](https://arxiv.org/pdf/2403.07974) · 访问 2026-11-07
-- S16 · [https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV](https://drive.google.com/drive/folders/1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV) · 访问 2026-11-07
-- S17 · [https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk](https://docs.google.com/document/d/1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s/edit?usp=drivesdk) · 访问 2026-11-07
-- S18 · [https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk](https://drive.google.com/file/d/1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ/view?usp=drivesdk) · 访问 2026-11-07
+- S16 · [ · 访问 2026-11-07
+- S17 · [ · 访问 2026-11-07
+- S18 · [ · 访问 2026-11-07

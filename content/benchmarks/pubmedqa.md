@@ -1,10 +1,10 @@
 # PubMedQA
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 PubMedQA以真实生物医学研究标题作问题，要求根据去掉结论的摘要预测yes/no/maybe。PQA-L为1,000道双专家标注题；PQA-A则由规则自动生成弱标签，不是二十多万道人工编写题。HF把PQA-L整体打包成train不改变官方500题测试集，直接整包训练会泄漏测试。
 
-编辑状态：第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+最近复核
 
 ## 1. 基本信息
 
@@ -36,7 +36,7 @@ EMNLP-IJCNLP 2019正式论文D19-1259；arXiv:1909.06146v1。
 
 ### 发布时间
 
-论文预印本首发：2019-09-13 20:18:20 KST；正式会议论文2019-11。
+论文预印本首发：2019-09-13 20:18:20；正式会议论文2019-11。
 
 [1](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-08）；[2](https://huggingface.co/datasets/qiaojin/PubMedQA/raw/main/README.md)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/README.md)（访问 2026-11-08）；[4](https://arxiv.org/abs/1909.06146)（访问 2026-11-08）
 
@@ -100,8 +100,8 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh",
-  "Carnegie Mellon University",
+  "University of Pittsburgh"
+  "Carnegie Mellon University"
   "Google AI（按论文作者单位）"
 ]
 ```
@@ -112,8 +112,8 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh",
-  "Carnegie Mellon University",
+  "University of Pittsburgh"
+  "Carnegie Mellon University"
   "Google AI（论文合作作者单位；非额外推定的机构协议）"
 ]
 ```
@@ -124,10 +124,10 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "Qiao Jin",
-  "Bhuwan Dhingra",
-  "Zhengping Liu",
-  "William Cohen",
+  "Qiao Jin"
+  "Bhuwan Dhingra"
+  "Zhengping Liu"
+  "William Cohen"
   "Xinghua Lu"
 ]
 ```
@@ -202,9 +202,9 @@ PQA-L由两位具资格的M.D. candidates标注；原文未把他们称作已执
 
 ```json
 {
-  "pqa_labeled": 1000,
-  "pqa_unlabeled": 61249,
-  "pqa_artificial": 211269,
+  "pqa_labeled": 1000
+  "pqa_unlabeled": 61249
+  "pqa_artificial": 211269
   "basis": "HF数据卡精确行数；原论文1k/61.2k/211.3k为四舍五入描述，非精确行数。"
 }
 ```
@@ -277,7 +277,7 @@ PQA-L官方test为500题；HF把全部1,000个PQA-L样本标作train只是打包
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://pubmedqa.github.io/)（访问 2026-11-08）
 
@@ -292,13 +292,13 @@ PQA-L官方test为500题；HF把全部1,000个PQA-L样本标作train只是打包
 ```json
 [
   {
-    "version": "arXiv v1",
-    "submitted_at": "2019-09-13T20:18:20+09:00",
-    "timezone": "Asia/Seoul"
-  },
+    "version": "arXiv v1"
+    "submitted_at": "2019-09-13"
+    "timezone": ""
+  }
   {
-    "version": "EMNLP-IJCNLP正式论文",
-    "date": "2019-11",
+    "version": "EMNLP-IJCNLP正式论文"
+    "date": "2019-11"
     "identifier": "D19-1259"
   }
 ]
@@ -330,7 +330,7 @@ PQA-L仅1,000题，需严守500题test隔离；HF打包train包含全部PQA-L，
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://pubmedqa.github.io/)（访问 2026-11-08）
 
@@ -378,7 +378,7 @@ https://pubmedqa.github.io/
 | 官方公开提交榜 / PQA-L test | 24 | [BioELECTRA SAAMA AI Research Lab (Kanakarajan et al. 2019)](https://pubmedqa.github.io/) | 64.0 | reasoning-required test Accuracy (%) | June, 2021 |
 | 官方公开提交榜 / PQA-L test | 25 | [PubMedBERT Microsoft Research (Gu et al. 2020)](https://pubmedqa.github.io/) | 55.8 | reasoning-required test Accuracy (%) | July 31, 2020 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://pubmedqa.github.io/)（访问 2026-11-08）
 
@@ -440,57 +440,57 @@ https://aclanthology.org/D19-1259.pdf
 
 [1](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk",
-  "webViewLink": "https://drive.google.com/drive/folders/1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk"
+  "id": "1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk"
+  "webViewLink": "
 }
 ```
 
-[1](https://drive.google.com/drive/folders/1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk)（访问 2026-11-07）
+[1]( 2026-11-07）
 
 ### 其他材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4",
-    "webViewLink": "https://docs.google.com/document/d/1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4"
+    "webViewLink": "
   }
 ]
 ```
 
-[1](https://docs.google.com/document/d/1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4/edit?usp=drivesdk)（访问 2026-11-07）
+[1]( 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 {
-  "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV",
-  "webViewLink": "https://drive.google.com/file/d/1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV/view?usp=drivesdk"
+  "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV"
+  "webViewLink": "
 }
 
-[1](https://drive.google.com/file/d/1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV/view?usp=drivesdk)（访问 2026-11-07）
+[1]( 2026-11-07）
 
 ## 11. 变更记录
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

@@ -1,6 +1,6 @@
 # C-Eval
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第一轮官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
+> Benchmark Constitution · 深度复核：2026-11-08。官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
 
 C-Eval以中文原生教育与资格考试背景衡量52个学科的知识和推理，跨初中、高中、大学与专业层级。它不是将英语MMLU简单翻译成中文。读分数必须先问：test还是val、零样本还是五样本、直接作答还是CoT？官方已于2025-07-27公开完整test，旧文档的隐藏标签说法不能继续无条件沿用。
 
@@ -116,18 +116,18 @@ C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation M
 
 ```json
 [
-  "Huang, Yuzhen",
-  "Bai, Yuzhuo",
-  "Zhu, Zhihao",
-  "Zhang, Junlei",
-  "Zhang, Jinghan",
-  "Su, Tangjun",
-  "Liu, Junteng",
-  "Lv, Chuancheng",
-  "Zhang, Yikai",
-  "Lei, Jiayi",
-  "Fu, Yao",
-  "Sun, Maosong",
+  "Huang, Yuzhen"
+  "Bai, Yuzhuo"
+  "Zhu, Zhihao"
+  "Zhang, Junlei"
+  "Zhang, Jinghan"
+  "Su, Tangjun"
+  "Liu, Junteng"
+  "Lv, Chuancheng"
+  "Zhang, Yikai"
+  "Lei, Jiayi"
+  "Fu, Yao"
+  "Sun, Maosong"
   "He, Junxian"
 ]
 ```
@@ -266,7 +266,7 @@ C-Eval 的中文原生试题与翻译版 MMLU 不同；隐藏测试、验证集�
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/html/2610.11978v1)（访问2026-11-08）
 
@@ -282,16 +282,16 @@ C-Eval 的中文原生试题与翻译版 MMLU 不同；隐藏测试、验证集�
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2023-05-15T12:20:19+09:00"
-    },
+      "version": "v1"
+      "submitted_at_kst": "2023-05-15"
+    }
     {
-      "version": "v2",
-      "submitted_at_kst": "2023-05-17T10:11:35+09:00"
-    },
+      "version": "v2"
+      "submitted_at_kst": "2023-05-17"
+    }
     {
-      "version": "v3",
-      "submitted_at_kst": "2023-11-06T22:24:16+09:00"
+      "version": "v3"
+      "submitted_at_kst": "2023-11-06"
     }
   ]
 }
@@ -323,7 +323,7 @@ C-Eval Hard：8个数学、物理、化学高推理学科组成的固定子集�
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://arxiv.org/abs/2305.08322)（访问2026-11-08）
 
@@ -348,111 +348,111 @@ https://cevalbenchmark.com/static/leaderboard.html
 ```json
 [
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": 66.4,
-    "metric": "average accuracy (%)",
-    "track": "原版test／0-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 1
+    "model": "GPT-4"
+    "score": 66.4
+    "metric": "average accuracy (%)"
+    "track": "原版test／0-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 2,
-    "model": "ChatGPT",
-    "score": 51.0,
-    "metric": "average accuracy (%)",
-    "track": "原版test／0-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 2
+    "model": "ChatGPT"
+    "score": 51.0
+    "metric": "average accuracy (%)"
+    "track": "原版test／0-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Claude-v1.3",
-    "score": 50.5,
-    "metric": "average accuracy (%)",
-    "track": "原版test／0-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 3
+    "model": "Claude-v1.3"
+    "score": 50.5
+    "metric": "average accuracy (%)"
+    "track": "原版test／0-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": 68.7,
-    "metric": "average accuracy (%)",
-    "track": "原版test／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 1
+    "model": "GPT-4"
+    "score": 68.7
+    "metric": "average accuracy (%)"
+    "track": "原版test／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 2,
-    "model": "ChatGPT",
-    "score": 54.4,
-    "metric": "average accuracy (%)",
-    "track": "原版test／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 2
+    "model": "ChatGPT"
+    "score": 54.4
+    "metric": "average accuracy (%)"
+    "track": "原版test／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Claude-v1.3",
-    "score": 54.2,
-    "metric": "average accuracy (%)",
-    "track": "原版test／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 3
+    "model": "Claude-v1.3"
+    "score": 54.2
+    "metric": "average accuracy (%)"
+    "track": "原版test／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": 69.9,
-    "metric": "average accuracy (%)",
-    "track": "validation／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 1
+    "model": "GPT-4"
+    "score": 69.9
+    "metric": "average accuracy (%)"
+    "track": "validation／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 2,
-    "model": "Claude-v1.3",
-    "score": 55.5,
-    "metric": "average accuracy (%)",
-    "track": "validation／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 2
+    "model": "Claude-v1.3"
+    "score": 55.5
+    "metric": "average accuracy (%)"
+    "track": "validation／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
-  },
+  }
   {
-    "rank": 3,
-    "model": "ChatGPT",
-    "score": 53.5,
-    "metric": "average accuracy (%)",
-    "track": "validation／5-shot answer-only／README历史",
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
-    "accessed": "2026-11-08",
-    "unit": "%",
-    "model_snapshot": "待核实",
+    "rank": 3
+    "model": "ChatGPT"
+    "score": 53.5
+    "metric": "average accuracy (%)"
+    "track": "validation／5-shot answer-only／README历史"
+    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+    "accessed": "2026-11-08"
+    "unit": "%"
+    "model_snapshot": "待核实"
     "evaluation_date": "待核实"
   }
 ]
@@ -520,60 +520,60 @@ https://arxiv.org/pdf/2305.08322
 
 [来源1](https://arxiv.org/pdf/2305.08322)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM",
-  "webViewLink": "https://drive.google.com/drive/folders/1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM"
+  "id": "1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY",
-    "webViewLink": "https://docs.google.com/document/d/1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0",
-  "webViewLink": "https://drive.google.com/file/d/1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0/view?usp=drivesdk"
+  "id": "1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第一轮深度优化：重读官方仓库、数据卡及H2使用论文；补许可、维护入口、版本与评测口径；区分历史榜与实时榜，并保留文档日期冲突。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

@@ -1,10 +1,10 @@
 # ProgramBench
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 ProgramBench要求Agent只凭可执行程序及文档，从零构建行为匹配的软件项目。受评Agent不能看原源码、不能联网或反编译；构建测试的Agent却可参考源码和现有测试，两个阶段的权限必须区分。主指标是全部隐藏测试通过的任务比例，平均测试通过率和95%阈值只是辅助诊断。
 
-编辑状态：已核验存在；11节研究快照；note: trending: A；未知字段保留待核实
+最近复核
 
 ## 1. 基本信息
 
@@ -34,7 +34,7 @@ arXiv:2605.03546v1；abs当前仅列v1。
 
 ### 发布时间
 
-论文首发：2026-05-05 18:17:02 KST；PDF封面另标May 6, 2026，日期口径分开。
+论文首发：2026-05-05 18:17:02；PDF封面另标May 6, 2026，日期口径分开。
 
 [1](https://arxiv.org/abs/2605.03546)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
@@ -48,9 +48,9 @@ arXiv:2605.03546v1；abs当前仅列v1。
 
 ```json
 [
-  "从零程序重建",
-  "软件架构",
-  "行为等价测试",
+  "从零程序重建"
+  "软件架构"
+  "行为等价测试"
   "代码Agent"
 ]
 ```
@@ -99,8 +99,8 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 ```json
 [
-  "Meta Superintelligence Labs",
-  "Stanford University",
+  "Meta Superintelligence Labs"
+  "Stanford University"
   "Harvard University"
 ]
 ```
@@ -111,7 +111,7 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
@@ -119,17 +119,17 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 ```json
 [
-  "John Yang",
-  "Kilian Lieret",
-  "Jeffrey Ma",
-  "Parth Thakkar",
-  "Dmitrii Pedchenko",
-  "Sten Sootla",
-  "Emily McMilin",
-  "Pengcheng Yin",
-  "Rui Hou",
-  "Gabriel Synnaeve",
-  "Diyi Yang",
+  "John Yang"
+  "Kilian Lieret"
+  "Jeffrey Ma"
+  "Parth Thakkar"
+  "Dmitrii Pedchenko"
+  "Sten Sootla"
+  "Emily McMilin"
+  "Pengcheng Yin"
+  "Rui Hou"
+  "Gabriel Synnaeve"
+  "Diyi Yang"
   "Ofir Press"
 ]
 ```
@@ -146,7 +146,7 @@ facebookresearch/ProgramBench团队；HF公开维护联系人John Yang、Kilian 
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
@@ -214,9 +214,9 @@ agent探索原程序，覆盖率引导fuzz生成行为断言，收集现有行�
 
 ```json
 [
-  "程序二进制",
-  "文档",
-  "源代码",
+  "程序二进制"
+  "文档"
+  "源代码"
   "终端交互"
 ]
 ```
@@ -277,7 +277,7 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://programbench.com)（访问 2026-11-08）
 
@@ -285,17 +285,17 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 
 ```json
 {
-  "version": "公开200任务及ProgramBench-Tests（访问日快照，未自拟语义版本）",
-  "heat_confidence": "A",
+  "version": "公开200任务及ProgramBench-Tests（访问日快照，未自拟语义版本）"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://programbench.com",
-      "date": "2026-10-22",
+      "url": "https://programbench.com"
+      "date": "2026-10-22"
       "note": "官方榜单自写更新日。"
-    },
+    }
     {
-      "url": "https://www.vals.ai/benchmarks/programbench",
-      "date": "2026-11-05",
+      "url": "https://www.vals.ai/benchmarks/programbench"
+      "date": "2026-11-05"
       "note": "Vals独立评测榜单自写更新日。"
     }
   ]
@@ -309,9 +309,9 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-05-05T18:17:02+09:00",
-    "timezone": "Asia/Seoul"
+    "version": "v1"
+    "submitted_at": "2026-05-05"
+    "timezone": ""
   }
 ]
 ```
@@ -340,7 +340,7 @@ mini-SWE-agent、1000步、6小时，离线cleanroom；Vals统一bash工具与�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://programbench.com)（访问 2026-11-08）
 
@@ -461,7 +461,7 @@ https://www.vals.ai/benchmarks/programbench
 | Vals原始测试通过率诊断表 | — | [Gemini 4 Argon](https://www.vals.ai/benchmarks/programbench) | 83.7 | Raw Pass Rate (%) | 2026-11-05 |
 | Vals原始测试通过率诊断表 | — | [Claude Fable 5.1](https://www.vals.ai/benchmarks/programbench) | 82.7 | Raw Pass Rate (%) | 2026-11-05 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://programbench.com)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-08）
 
@@ -477,7 +477,7 @@ https://www.vals.ai/benchmarks/programbench
 
 ```json
 [
-  "johnby@meta.com",
+  "johnby@meta.com"
   "klieret@meta.com"
 ]
 ```
@@ -494,7 +494,7 @@ https://github.com/facebookresearch/ProgramBench/issues
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
@@ -510,7 +510,7 @@ https://github.com/facebookresearch/ProgramBench/issues
 
 https://arxiv.org/pdf/2605.03546
 
-> 官方论文正文对应的PDF入口；本轮未下载，故hash与字节数待核实。
+> 官方论文正文对应的PDF入口；未下载，故hash与字节数待核实。
 
 [1](https://arxiv.org/abs/2605.03546)（访问 2026-11-07）
 
@@ -526,11 +526,11 @@ https://arxiv.org/pdf/2605.03546
 
 [1](https://arxiv.org/pdf/2605.03546)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
@@ -539,7 +539,7 @@ https://arxiv.org/pdf/2605.03546
 ```json
 [
   {
-    "type": "官方介绍/协议",
+    "type": "官方介绍/协议"
     "url": "https://www.vals.ai/benchmarks/programbench"
   }
 ]
@@ -547,7 +547,7 @@ https://arxiv.org/pdf/2605.03546
 
 [1](https://www.vals.ai/benchmarks/programbench)（访问 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -557,14 +557,14 @@ https://arxiv.org/pdf/2605.03546
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

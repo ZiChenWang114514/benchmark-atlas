@@ -1,10 +1,10 @@
 # GDPval (GDPval-AA v2.1)
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 GDPval以职业交付物为对象，原版比较模型与专家产物的盲评偏好；GDPval-AA则在独立Agent环境里比较模型产物并估计Elo。HF公开数据v2与AA v2.1不是同一个版本号。
 
-编辑状态：研究快照；trending: A；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 来源：[1](https://arxiv.org/abs/2510.04374)（访问2026-11-07）
 
-**发布日期**：2025-09-25（官方首次发布文；arXiv首版为2025-10-06 06:36:43 KST）
+**发布日期**：2025-09-25（官方首次发布文；arXiv首版为2025-10-06 06:36:43 ）
 
 来源：[1](https://openai.com/index/gdpval/)（访问2026-11-07）；[2](https://arxiv.org/abs/2510.04374)（访问2026-11-07）
 
@@ -180,28 +180,28 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://huggingface.co/datasets/openai/gdpval)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "GDPval公开数据v2（rubrics + deliverables）；GDPval-AA v2.1独立实现",
-  "heat_confidence": "A",
-  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+  "version": "GDPval公开数据v2（rubrics + deliverables）；GDPval-AA v2.1独立实现"
+  "heat_confidence": "A"
+  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。"
   "evidence_2026_h2": [
     {
-      "url": "https://epoch.ai/data/eci-documentation/data",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "Epoch AI",
-      "note": "当前ECI组成明确列出该benchmark；纳入不等于本轮运行。"
-    },
+      "url": "https://epoch.ai/data/eci-documentation/data"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "Epoch AI"
+      "note": "当前ECI组成明确列出该benchmark；纳入不等于运行。"
+    }
     {
-      "url": "https://artificialanalysis.ai/evaluations/gdpval-aa",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/evaluations/gdpval-aa"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "Artificial Analysis"
       "note": "当前v2.1独立评测榜明确展示前沿模型Elo。"
     }
   ]
@@ -210,7 +210,7 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 来源：[1](https://huggingface.co/datasets/openai/gdpval/tree/main)（访问2026-11-07）；[2](https://artificialanalysis.ai/evaluations/gdpval-aa)（访问2026-11-07）
 
-**论文与版本历史**：arXiv当前提交历史仅v1：2025-10-06 06:36:43 KST；数据与发布文早于该论文首版。
+**论文与版本历史**：arXiv当前提交历史仅v1：2025-10-06 06:36:43；数据与发布文早于该论文首版。
 
 来源：[1](https://arxiv.org/abs/2510.04374)（访问2026-11-07）；[2](https://openai.com/index/gdpval/)（访问2026-11-07）
 
@@ -230,7 +230,7 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://huggingface.co/datasets/openai/gdpval)（访问2026-11-07）
 
@@ -253,7 +253,7 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 | 当前官方网页榜 | 7 | Claude Fable 5.1 (Max, Default Fallback) | 1763 | GDPval-AA v2.1 Elo | 待核实（榜表更新时间） | [原始来源](https://artificialanalysis.ai/evaluations/gdpval-aa) |
 | 当前官方网页榜 | 8 | DeepSeek V4.1 Flash 1017 (Max) | 1746 | GDPval-AA v2.1 Elo | 待核实（榜表更新时间） | [原始来源](https://artificialanalysis.ai/evaluations/gdpval-aa) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：重读AA当前榜前8，保留reasoning及fallback配置、置信区间；锚定DeepSeek V4.1 Flash(max)=1600。模型发行月不是榜表更新时间。数据v2、AA v2.1及原始专家胜率三种口径必须区分。
 
@@ -297,7 +297,7 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 **PDF SHA-256**：a04cca8451c486d871f8d2c6c57b8bc03b45daf1b5b0269146929bc8bf688dec
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2510.04374)（访问2026-11-07）
 
@@ -305,11 +305,11 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 14203711
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2510.04374)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
@@ -320,15 +320,15 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 **其他官方文档**：```json
 [
   {
-    "type": "首次发布与限制",
+    "type": "首次发布与限制"
     "url": "https://openai.com/index/gdpval/"
-  },
+  }
   {
-    "type": "公开数据v2目录",
+    "type": "公开数据v2目录"
     "url": "https://huggingface.co/datasets/openai/gdpval/tree/main"
-  },
+  }
   {
-    "type": "独立AA v2.1方法与榜单",
+    "type": "独立AA v2.1方法与榜单"
     "url": "https://artificialanalysis.ai/evaluations/gdpval-aa"
   }
 ]
@@ -336,26 +336,26 @@ GDPval以职业交付物为对象，原版比较模型与专家产物的盲评�
 
 来源：[1](https://openai.com/index/gdpval/)（访问2026-11-07）；[2](https://huggingface.co/datasets/openai/gdpval/tree/main)（访问2026-11-07）；[3](https://artificialanalysis.ai/evaluations/gdpval-aa)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅建立本地研究条目，未上传Drive。
+核验说明：本组仅建立本地研究条目，未上传。
 
 来源：[1](https://huggingface.co/datasets/openai/gdpval)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

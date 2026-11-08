@@ -1,8 +1,8 @@
 # MultiChallenge
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
-MultiChallenge考查多轮指令保持、用户信息推断记忆、可靠版本编辑和自洽。原论文与原GitHub数据为273段对话，当前官方HF test为266段，这一差异尚无本轮可核验的官方解释，不能用一个分母笼统描述所有成绩。在线榜已修改裁判与54条rubric，原仓库多次attempts又按至少一次成功计分，因此人评、历史自动评、现在线榜及best-of-attempts必须分开。
+MultiChallenge考查多轮指令保持、用户信息推断记忆、可靠版本编辑和自洽。原论文与原GitHub数据为273段对话，当前官方HF test为266段，这一差异尚无可核验的官方解释，不能用一个分母笼统描述所有成绩。在线榜已修改裁判与54条rubric，原仓库多次attempts又按至少一次成功计分，因此人评、历史自动评、现在线榜及best-of-attempts必须分开。
 [本页导读依据](https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md)（访问 2026-11-08）
 
 [补充导读依据](https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl)（访问 2026-11-08）
@@ -33,13 +33,13 @@ MultiChallenge
 
 ### 论文版本
 
-arXiv v2（2025-03-06 13:41:56 KST）
+arXiv v2（2025-03-06 13:41:56 ）
 
 [来源1](https://arxiv.org/abs/2501.17399)（访问 2026-11-08）
 
 ### 发布日期
 
-2025-01-29 12:29:24 KST（arXiv v1）
+2025-01-29 12:29:24 （arXiv v1）
 
 [来源1](https://arxiv.org/abs/2501.17399)（访问 2026-11-08）
 
@@ -109,7 +109,7 @@ Scale AI
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -131,7 +131,7 @@ Scale AI
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -159,7 +159,7 @@ MT-Bench近饱和；纯格式多轮指令测试未覆盖自然对话中混合推
 
 ### 出题/构建者背景
 
-由Scale AI招募并训练的人工标注者编辑多agent候选；复核池与第一轮编辑者独立，经过两层审核才接纳。
+由Scale AI招募并训练的人工标注者编辑多agent候选；复核池与编辑者独立，经过两层审核才接纳。
 
 [来源1](https://arxiv.org/pdf/2501.17399)（访问 2026-11-08）
 
@@ -181,7 +181,7 @@ MT-Bench近饱和；纯格式多轮指令测试未覆盖自然对话中混合推
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -191,16 +191,16 @@ MT-Bench近饱和；纯格式多轮指令测试未覆盖自然对话中混合推
 
 ```json
 {
-  "paper_v2_conversations": 273,
-  "original_github_jsonl_rows": 273,
+  "paper_v2_conversations": 273
+  "original_github_jsonl_rows": 273
   "original_axes": {
-    "INFERENCE_MEMORY": 113,
-    "SELF_COHERENCE": 50,
-    "INSTRUCTION_RETENTION": 69,
+    "INFERENCE_MEMORY": 113
+    "SELF_COHERENCE": 50
+    "INSTRUCTION_RETENTION": 69
     "RELIABLE_VERSION_EDITING": 41
-  },
-  "current_hf_test_rows": 266,
-  "scope_caveat": "原论文/原JSONL273与当前HF266不一致；54个rubric修改公告并不等于删除7题的说明。未核实7题差异原因和当前官网每条成绩的精确样本数，禁止统一分母。",
+  }
+  "current_hf_test_rows": 266
+  "scope_caveat": "原论文/原JSONL273与当前HF266不一致；54个rubric修改公告并不等于删除7题的说明。未核实7题差异原因和当前官网每条成绩的精确样本数，禁止统一分母。"
   "turn_count": "论文最多10轮（用户-助手来回）；HF num_turns为消息数，显示3至19，不把19条消息误写成19轮来回。"
 }
 ```
@@ -261,7 +261,7 @@ MT-Bench近饱和；纯格式多轮指令测试未覆盖自然对话中混合推
 
 https://github.com/ekwinox117/multi-challenge
 
-> 链接由已打开原始论文/数据卡指向；本轮未逐文件核验代码。
+> 链接由已打开原始论文/数据卡指向；未逐文件核验代码。
 
 [来源1](https://arxiv.org/abs/2501.17399)（访问 2026-11-08）
 
@@ -273,11 +273,11 @@ https://github.com/ekwinox117/multi-challenge
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -285,14 +285,14 @@ https://github.com/ekwinox117/multi-challenge
 
 ```json
 {
-  "version": "官方榜2026-02-03裁判/题目修订口径",
-  "trending": "B",
-  "heat_evidence": "2026-11-07打开Scale官方榜可见新前沿模型及当前结果；仅证明单一创建机构仍维护展示（B），不是11月7日发生新运行的证据。",
+  "version": "官方榜2026-02-03裁判/题目修订口径"
+  "trending": "B"
+  "heat_evidence": "2026-11-07打开Scale官方榜可见新前沿模型及当前结果；仅证明单一创建机构仍维护展示（B），不是11月7日发生新运行的证据。"
   "evidence_2026_h2": [
     {
-      "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
     }
   ]
@@ -307,20 +307,20 @@ https://github.com/ekwinox117/multi-challenge
 {
   "revisions": [
     {
-      "version": "v1",
-      "date_kst": "2025-01-29T12:29:24+09:00"
-    },
-    {
-      "version": "v2",
-      "date_kst": "2025-03-06T13:41:56+09:00"
+      "version": "v1"
+      "date_kst": "2025-01-29"
     }
-  ],
+    {
+      "version": "v2"
+      "date_kst": "2025-03-06"
+    }
+  ]
   "online_update": {
-    "date": "2026-02-03",
-    "judge": "Gemini 2.5 Pro",
+    "date": "2026-02-03"
+    "judge": "Gemini 2.5 Pro"
     "rubric_questions_modified": 54
-  },
-  "dataset_count_conflict": "论文/原仓库273；当前官方HF266，差异原因未在本轮已读官方材料中明确解释"
+  }
+  "dataset_count_conflict": "论文/原仓库273；当前官方HF266，差异原因未在已读官方材料中明确解释"
 }
 ```
 
@@ -364,7 +364,7 @@ https://labs.scale.com/leaderboard/multichallenge?tab=large
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -459,7 +459,7 @@ https://labs.scale.com/leaderboard/multichallenge?tab=large
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -475,7 +475,7 @@ https://github.com/ekwinox117/multi-challenge/issues
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）
 
@@ -491,7 +491,7 @@ https://github.com/ekwinox117/multi-challenge/issues
 
 https://arxiv.org/pdf/2501.17399
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2501.17399)（访问 2026-11-08）
 
@@ -499,7 +499,7 @@ https://arxiv.org/pdf/2501.17399
 
 70b688b241c7f4e5ec0b6639f6eaf044ddc19dcf60ee7329d8078ec8a3aa285f
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2501.17399)（访问 2026-11-08）
 
@@ -507,17 +507,17 @@ https://arxiv.org/pdf/2501.17399
 
 2789352
 
-> 本轮直接读取原始PDF字节核验；未上传Drive。
+> 直接读取原始PDF字节核验；未上传。
 
 [来源1](https://arxiv.org/pdf/2501.17399)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
 > 状态：待核实。
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-07）
 
@@ -526,36 +526,36 @@ https://arxiv.org/pdf/2501.17399
 ```json
 [
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://arxiv.org/abs/2501.17399"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/pdf/2501.17399",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/pdf/2501.17399"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md"
     "accessed": "2026-11-08"
   }
 ]
@@ -563,13 +563,13 @@ https://arxiv.org/pdf/2501.17399
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-08）；[来源2](https://arxiv.org/abs/2501.17399)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/2501.17399)（访问 2026-11-08）；[来源4](https://github.com/ekwinox117/multi-challenge/blob/main/README.md)（访问 2026-11-08）；[来源5](https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/ScaleAI/MultiChallenge)（访问 2026-11-08）；[来源7](https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 待核实
 
 > 状态：待核实。
 
-> 本组仅本地建页，未上传Drive，不伪造归档链接。
+> 本组仅本地建页，未上传，不伪造归档链接。
 
 [来源1](https://labs.scale.com/leaderboard/multichallenge?tab=large)（访问 2026-11-07）
 
@@ -580,14 +580,14 @@ https://arxiv.org/pdf/2501.17399
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目。Large/Small是模型分组，不新建不同benchmark；与IFEval单轮形式约束互补而非同一测试。 热度与榜单口径分离，不确定值标记待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

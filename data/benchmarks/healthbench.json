@@ -1,7 +1,7 @@
 {
   "id": "healthbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；官方资料研究快照，未知保留待核实；trending: A",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "HealthBench",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "v1；2025-05-14T02:53:59+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v1；2025-05-14（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-05-14T02:53:59+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2025-05-14（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -70,7 +70,7 @@
       ]
     },
     "license": {
-      "value": "MIT；官方simple-evals README的HealthBench条目明确链接本仓库MIT LICENSE，本轮已读许可证全文。",
+      "value": "MIT；官方simple-evals README的HealthBench条目明确链接本仓库MIT LICENSE，已读许可证全文。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/openai/simple-evals/HEAD/README.md",
@@ -353,7 +353,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -369,7 +369,7 @@
             "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
             "date": "2026-11-07",
             "date_type": "observed_on",
-            "note": "AA当前附加评测表明确分别列原始5,000题HealthBench和525题Professional；不把Professional网页排行榜归本条。候选另列10月系统卡，本轮未核实，不能算第二份已核实热度证据。"
+            "note": "AA当前附加评测表明确分别列原始5,000题HealthBench和525题Professional；不把Professional网页排行榜归本条。候选另列10月系统卡，未核实，不能算第二份已核实热度证据。"
           }
         ]
       },
@@ -379,15 +379,14 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
+      "note": "热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。"
     },
     "paper_revision_history": {
       "value": {
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2025-05-14T02:53:59+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2025-05-14"
           }
         ]
       },
@@ -434,7 +433,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2505.08775",
@@ -469,10 +468,10 @@
           "metric": "HealthBench归一化rubric得分（0–1）",
           "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
           "source_url": "https://arxiv.org/pdf/2505.08775",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史快照",
           "std": 0.0016,
-          "source_date": "2025-05-14 KST（论文提交）"
+          "source_date": "2025-05-14 （论文提交）"
         },
         {
           "rank": null,
@@ -481,10 +480,10 @@
           "metric": "HealthBench归一化rubric得分（0–1）",
           "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
           "source_url": "https://arxiv.org/pdf/2505.08775",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史快照",
           "std": 0.0022,
-          "source_date": "2025-05-14 KST（论文提交）"
+          "source_date": "2025-05-14 （论文提交）"
         },
         {
           "rank": null,
@@ -493,10 +492,10 @@
           "metric": "HealthBench归一化rubric得分（0–1）",
           "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
           "source_url": "https://arxiv.org/pdf/2505.08775",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史快照",
           "std": 0.0022,
-          "source_date": "2025-05-14 KST（论文提交）"
+          "source_date": "2025-05-14 （论文提交）"
         },
         {
           "rank": null,
@@ -505,10 +504,10 @@
           "metric": "HealthBench归一化rubric得分（0–1）",
           "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
           "source_url": "https://arxiv.org/pdf/2505.08775",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史快照",
           "std": 0.002,
-          "source_date": "2025-05-14 KST（论文提交）"
+          "source_date": "2025-05-14 （论文提交）"
         },
         {
           "rank": null,
@@ -517,10 +516,10 @@
           "metric": "HealthBench归一化rubric得分（0–1）",
           "track": "原论文表7：原版5,000题，16次运行均值，无长度调整",
           "source_url": "https://arxiv.org/pdf/2505.08775",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史快照",
           "std": 0.0029,
-          "source_date": "2025-05-14 KST（论文提交）"
+          "source_date": "2025-05-14 （论文提交）"
         }
       ],
       "sources": [
@@ -531,7 +530,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮从原论文表7恢复16次运行的精确均值/标准差，不以摘要四舍五入60%代替0.5990，不将此历史切片称当前SOTA。Professional 525题AA现榜在独立条目，不能迁入本条。",
+      "value": "从原论文表7恢复16次运行的精确均值/标准差，不以摘要四舍五入60%代替0.5990，不将此历史切片称当前SOTA。Professional 525题AA现榜在独立条目，不能迁入本条。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2505.08775",
@@ -593,7 +592,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方arXiv原论文PDF入口；本组不下载、不上传Drive。"
+      "note": "官方arXiv原论文PDF入口；本组不下载、不上传。"
     },
     "sha256": {
       "value": "f61c53f6bde84a3964531efe04a75389f9bba9e70a35b4012c871c9ec0b512f3",
@@ -603,7 +602,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 8359760,
@@ -642,15 +641,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1W-i9cqjrk0_WtvM7mHQBa4HjQR5aa220",
-      "webViewLink": "https://drive.google.com/file/d/1W-i9cqjrk0_WtvM7mHQBa4HjQR5aa220/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1W-i9cqjrk0_WtvM7mHQBa4HjQR5aa220/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2505.08775",
         "accessed": "2026-11-08"
@@ -661,18 +653,16 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

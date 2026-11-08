@@ -1,7 +1,7 @@
 {
   "id": "advbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AdvBench",
@@ -41,7 +41,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-07-28 01:49:12 Asia/Shanghai（UTC+8）（arXiv首稿；来源UTC日期为7月27日）",
+      "value": "2023-07-28 01:49:12 （UTC+8）（arXiv首稿；来源UTC日期为7月27日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
@@ -361,7 +361,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://llm-attacks.org/",
@@ -370,7 +370,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "官方仓库data/advbench发布harmful_behaviors.csv和harmful_strings.csv；本轮按公开main与原论文v2核验，独立数据集版本号待核实。",
+      "value": "官方仓库data/advbench发布harmful_behaviors.csv和harmful_strings.csv；按公开main与原论文v2核验，独立数据集版本号待核实。",
       "sources": [
         {
           "url": "https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench",
@@ -383,13 +383,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-07-28T01:49:12+08:00",
-          "timezone": "Asia/Shanghai（UTC+8）"
+          "submitted_at": "2023-07-28"
         },
         {
           "version": "v2",
-          "submitted_at": "2023-12-21T04:48:57+08:00",
-          "timezone": "Asia/Shanghai（UTC+8）"
+          "submitted_at": "2023-12-21"
         }
       ],
       "sources": [
@@ -429,7 +427,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://llm-attacks.org/",
@@ -468,7 +466,7 @@
           "track": "论文v2 Table1/前100行为白盒",
           "source_url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -478,7 +476,7 @@
           "track": "论文v2 Table1/前100行为白盒",
           "source_url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -488,7 +486,7 @@
           "track": "论文v2 Table1/通用后缀测试",
           "source_url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -498,7 +496,7 @@
           "track": "论文v2 Table1/通用后缀测试",
           "source_url": "https://arxiv.org/abs/2307.15043",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         }
       ],
       "sources": [
@@ -510,7 +508,7 @@
       "note": "原始历史实验，不是2026实时安全榜；ASR越高说明攻击更成功，不是受测模型更安全。"
     },
     "coverage_note": {
-      "value": "官方论文Table1转录四项历史GCG实验，按攻击设置分轨；本轮README未链接统一实时榜，当前跨模型排名待核实；不同攻击、裁判、预算不能混排。",
+      "value": "官方论文Table1转录四项历史GCG实验，按攻击设置分轨；README未链接统一实时榜，当前跨模型排名待核实；不同攻击、裁判、预算不能混排。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.15043",
@@ -585,7 +583,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
+      "note": "实际下载字节的SHA-256；不表示已有副本已替换。"
     },
     "pdf_bytes": {
       "value": 4656473,
@@ -597,13 +595,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x",
-        "webViewLink": "https://drive.google.com/drive/folders/1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1k-z-nsz7sl4QiHxcjWQM2qSTeFtVv3_x",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -611,27 +606,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8",
-          "webViewLink": "https://docs.google.com/document/d/1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq",
-      "webViewLink": "https://drive.google.com/file/d/1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1YwG_SH_yRnyhuf_FPfhBigJl5Y4HfdYq/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -640,18 +630,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

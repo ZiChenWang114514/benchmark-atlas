@@ -1,7 +1,7 @@
 {
   "id": "mmau",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MMAU",
@@ -48,7 +48,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-10-25T06:20:10+09:00（KST；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2024-10-25（；arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2410.19168",
@@ -227,7 +227,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "design_goals": {
@@ -463,7 +463,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08（KST / Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Sakshi113/MMAU/main/README.md",
@@ -485,8 +485,7 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2024-10-25T06:20:10+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-10-25"
           }
         ],
         "continued_use_2026h2": [
@@ -494,8 +493,8 @@
             "url": "https://arxiv.org/html/2609.28879v1",
             "date": "2026-09-24",
             "note": "Broadening Uncertainty Estimation for Audio Question Answering 在 MMAU 音频问答数据上实际研究不确定性估计与不同问题格式。",
-            "date_kst": "2026-09-24T09:58:42+09:00",
-            "verified_in_round1": "本轮重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
+            "date_kst": "2026-09-24",
+            "verified_in_round1": "重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
@@ -557,7 +556,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（；采集日，不冒充评测运行日）",
       "sources": [
         {
           "url": "https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json",
@@ -582,7 +581,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -1601,7 +1600,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -1635,7 +1634,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。"
+      "note": "下载PDF字节的SHA-256；不冒称已重新上传。"
     },
     "pdf_bytes": {
       "value": 8505593,
@@ -1645,16 +1644,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮直接下载的PDF文件字节数。"
+      "note": "直接下载的PDF文件字节数。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP",
-        "webViewLink": "https://drive.google.com/drive/folders/1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1662,27 +1658,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks",
-          "webViewLink": "https://docs.google.com/document/d/1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG",
-      "webViewLink": "https://drive.google.com/file/d/13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1691,19 +1682,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "补机构、维护、英语问句与音频语言的区分、隐藏test协议；重读官方parsed榜单并重核H2。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
+        "change": "最近复核"
       }
     ],
     "sources": [

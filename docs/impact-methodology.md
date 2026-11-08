@@ -1,7 +1,7 @@
 # Benchmark Constitution 学术影响力指数（BCI）
 
-**方法版本：0.3（文档证据、独立外审、单赛道余量、中性先验；仍为探索性排序）**  
-**更新日期：2026-11-08，Asia/Shanghai / UTC+8。所有权重均为本站公开的方法选择，并非外部机构认可或已经实证拟合的参数。**
+**方法版本：0.3（文档证据、独立外审、单赛道余量、中性先验；仍为探索性排序）**
+**更新日期：2026-11-08， / UTC+8。所有权重均为本站公开的方法选择，并非外部机构认可或已经实证拟合的参数。**
 
 ## 一、我们衡量什么
 
@@ -20,7 +20,7 @@ BCI（Academic Impact Index）综合衡量一个 benchmark 的**学术传播、�
 | citations_total | 引用积累 | 10% | 保留主论文原始总引用；计分采用按同论文归属数平方根折减的引用量，防止子任务继承整篇合集论文影响力。OpenAlex精确外部身份记录优先，Semantic Scholar备用，两库不相加。领域内 `log1p` 与百分位混合，记录来源与论文匹配方式。代表持久传播，但权重低于年龄校正速度，减少资历优势。 |
 | citation_velocity | 同龄引用速度 | 15% | 归属折减后的引用 C* /（发布月龄 a + 3），同领域×同年龄桶比较；发布初期也能进入本年龄桶高分位。3个月平滑避免刚发布一天的偶然引用爆炸。不把线性外推写成真实未来引用。按年引用同时存档，留作后续近期加速度分析。 |
 | github | 代码生态 | 8% | 官方仓库 `stargazers_count`（内部65%）和两次实测快照的月净增（35%）。来源 GitHub REST `/repos/{owner}/{repo}`。各自对数+分位；共享仓库按名录中共享条目数平方根降权，避免公共 harness 的 star 被每个子任务重复继承。无快照时增长为 null，不以 star/仓库年龄伪装近期增速。 |
-| huggingface | 数据使用 | 5% | 官方 HF dataset 的最近30日下载（70%）和累计点赞（30%），Hub API `/api/datasets/{org/name}`。分别对数+分位。同一HF dataset被多个条目共享时按共享条目数平方根降权，防止合集下载量重复归属。下载不是唯一用户数，更不是评测次数；不同下载计数机制不可过度比较，因此权重较低。 |
+| huggingface | 数据使用 | 5% | 官方 HF dataset 的最近30日下载（70%）和累计点赞（30%），Hub API 数据集页面。分别对数+分位。同一HF dataset被多个条目共享时按共享条目数平方根降权，防止合集下载量重复归属。下载不是唯一用户数，更不是评测次数；不同下载计数机制不可过度比较，因此权重较低。 |
 | model_adoption | 前沿模型采用 | 10% | 从 `frontier/heat.json` 读取被最近20个模型采用的次数；按模型去重。对数+分位，原始 count/share 仍是业界频次榜主指标。缺少 heat 文件、映射不明或未声明穷尽覆盖时，不把未匹配项记为0。 |
 | evaluator_adoption | 独立评测机构采用 | 8% | AA、Epoch、LMArena、HELM、Scale SEAL、Vals 等机构实际纳入持续评测的独立机构数；一个机构多个网页仍算一个。必须人工/专门采集器核验 `assessment.evaluator_adoptions={value:[机构名],sources:[...]}`。只在报告提及、新闻报道或 Epoch 负面审查不算采用。对数+分位。 |
 | community | 独立社区反馈 | 5% | 去重公开讨论数（15%）、90日 issue 活跃事件（7.5%）、90日更新过的独立 issue 线程数（7.5%）、第三方复测报告数（60%）、fork参与代理（10%）；GitHub Issues/Discussions 与第三方论文、复现仓库为来源。每项对数+分位；负面反馈记录风险，不能等同认可。fork仅是弱参与信号，不是好评、独立贡献者数或复现；可靠系数0.5。更新线程计数不是事件数；不把open issues当90日活跃度。独立机构按公开结果行去重计一次复测，只能证明操作性再评测，不能证明严格协议复现，该代理可靠系数0.5。 |
@@ -101,30 +101,6 @@ IndustryHeat_b = 100 × (A_b / 当前实际模型数) × D_b
 
 模型入窗规则、模型家族合并与供应商归属由Frontier Heat采集器公开决定；仅被页面列入对比表是否算采用必须保持一致。BCI的model_adoption使用count，不暗中把这一辅助分替代原始采用次数。
 
-## 六、数据管线与事实溯源
-
-1. `registry_merge.py`对原始分片建立不可变occurrence快照，先绑定审计修正再改ID；应用两份corrections中的drop/merge_into/fix/add。相同ID的独立benchmark先分离，RAR-b检索改写不能覆盖原推理基准。自合并只移除确切的重复发生项，家族/版本/子任务完整历史存入variants，错误/非benchmark的drop另存归档。science2.jsonl是增量而非整表替代：按science2.changes仅应用真实变动字段，合并sources；与审计重叠时审计结论优先，尤其不能恢复旧日期、错误论文或已清空字段。实现先绑定/执行审计再应用不冲突增量，与science2先改善、审计最终覆盖等价。21条science新增中的4个既有ID全局去重；MoleculeNet子任务显式标注family_id和entry_type，共享论文不重复计满额引用。未指定新ID的24项命名建议不凭空补名，列入待审。
-2. 全名录而非字母序样本：S2 POST /paper/batch最多500个外部ID；OpenAlex DOI OR过滤每批最多50项，arXiv标识符使用10.48550/arXiv.<id>查询。OpenAlex携带公开项目mailto，限速低于5req/s、429指数退避并自适应降低请求频率。外部ID失败才使用严格标题/规范URL身份匹配；未确认则null。GitHub和HF按唯一资源去重调用，不用抽样补全。
-3. OpenAlex counts_by_year保留供应商可用年份窗口，明确不是全历史。当前S2批量只取得总引用与论文元信息，没有取得逐条引文时不会伪造按年数据。精确外部身份对应多个索引版本时，不相加，而选择单一版本中实际返回的最大计数及其work ID，作为避免重复累计的可复算口径；优先OpenAlex，缺失才S2。跨供应商差异与版本覆盖限制公开，不宣称计数已去自引或为完整引文并集。
-4. GitHub只查公开仓库元数据；HF只查明确的dataset ID，不猜测同名镜像。所有原始指标均在 `metrics.provenance` 保留API URL、accessed时间和对应字段。GitHub原始时间有自带时区，输出保留机器可读ISO；面向用户的运行报告统一上海时间（UTC+8）。
-5. `cache/responses` 存无密钥的请求URL与原始响应、状态、采集日期；成功缓存24h；404及资源级拒绝负缓存30min；429按退避/冷却处理，不把未知锁成24h零值。逐条落盘 `cache/records`；快照单独保存。超时、429指数退避和主机熔断，不使用高并发绕限流。GitHub全局配额/鉴权拒绝后停止该主机；HF某个private/gated数据集的401只保留该资源为null、不重试它，不影响其他公开数据集。绝不通过cookie、凭据文件或替代身份绕过限制。
-6. 每次compute重新读取所有当前分片，按未变更记录读取缓存；新分片可追加，重跑即可加入。输出 `impact/index.json`（集成时复制为仓库 `data/impact/index.json`）和 `registry/registry.json`（集成为 `data/registry/registry.json`）。脚本只操作 `/workspace/bc` staging，不改主仓库、不push、不设定新外部定时任务。
-7. 环境变量可提供 `S2_API_KEY`、`OPENALEX_API_KEY`、**明确获准用于公共仓库指标的** `GH_TOKEN`。脚本不读取任何凭据文件，不打印请求头，不将token写入缓存或URL。历史临时token仅授权项目仓库/Pages，不扩大到其他仓库的指标采集；本轮公开GitHub查询不读该token。未授权或受限则保留null。
-
-### 人工证据扩展格式
-
-```json
-{
-  "assessment": {
-    "human_validation": {"value": 50, "sources": [{"url":"https://官方论文或报告", "accessed":"2026-11-07"}]},
-    "evaluator_adoptions": {"value": ["HELM"], "sources": [{"url":"https://实际评测证据", "accessed":"2026-11-07"}]},
-    "epoch_verdict": {"value":"Flawed", "sources":[{"url":"https://准确版本审查页", "accessed":"2026-11-07"}]}
-  }
-}
-```
-
-示例只是schema说明，**不代表任何条目的事实或已有评级**。分项键包括 `human_validation`、`contamination_protection`、`reproducibility`、`license_clarity`、`maintenance_review`、`external_review`；社区键为 `community_discussions`、`issue_activity_90d`、`third_party_reproductions`；饱和度为 `sota_score`、`metric_floor`、`metric_ceiling`、`discrimination_score`；实质更新时间为 `last_substantive_update`。来源必须有真实URL与accessed，审查者/版本应另附，以便复核。
-
 ## 七、防刷榜与治理
 
 - **身份去重**：论文预印本与正式版不累加；同一模型的多页引用不重复；子集、复刻、翻译及版本关系需要公开。
@@ -141,19 +117,17 @@ BCI是开放的方法提案，未经外部效度标定。现阶段获取率、�
 
 名录条数不是审计完成数；API命中率不是收录准确率；试算Top20不是正式推荐。建议同时呈现：采用频次榜、年龄组上升榜、质量审计榜、各领域榜、历史影响榜，而不是一张总榜取代全部判断。
 
-## 九、参考资料（原方法检索日：2026-11-07；本轮新增独立审查检索日：2026-11-08）
+## 九、参考资料（原方法检索日：2026-11-07；新增独立审查检索日：2026-11-08）
 
 1. Altmetric，*How is the Altmetric Attention Score calculated?*：多源加权、去重与注意力不等于学术质量。https://help.altmetric.com/en/articles/9800513
 2. Hirsch (2005)，*An index to quantify an individual's scientific research output*：h-index是研究者/产出集合指标，不适宜直接套给单一benchmark，因此仅作为“积累偏置”的参照，不加入公式。https://doi.org/10.1073/pnas.0507655102 （原文抓取超时，定义另据 https://guides.lib.usf.edu/promotiontenure/metricsglossary 核对）
 3. Hutchins et al. (2016)，*Relative Citation Ratio*：按共被引领域与年份校正的文章影响力。https://doi.org/10.1371/journal.pbio.1002541
 4. NIH iCite，RCR方法与新论文暂定状态说明。https://support.icite.nih.gov/hc/en-us/articles/9105587565851-Relative-Citation-Ratio-RCR
-5. Elsevier，*What is Field-Weighted Citation Impact (FWCI)?*：以同领域、同年与同类型论文的预期引用校正；本站不声称拥有Scopus全量基线。https://service.elsevier.com/app/answers/detail/a_id/14894/supporthub/scopus/ （官方页本轮返回401；定义另据佛罗里达大学图书馆 https://guides.uflib.ufl.edu/metrics/article 核对）
-6. BetterBench 方法：46条生命周期最佳实践、专家双人评分与设计/实现/文档/维护维度。https://betterbench.stanford.edu/methodology.html ；https://arxiv.org/abs/2411.12990
+5. Elsevier，*What is Field-Weighted Citation Impact (FWCI)?*：以同领域、同年与同类型论文的预期引用校正；本站不声称拥有Scopus全量基线。https://service.elsevier.com/app/answers/detail/a_id/14894/supporthub/scopus/ （官方页返回401；定义另据佛罗里达大学图书馆 https://guides.uflib.ufl.edu/metrics/article 核对）
+6. BetterBench 方法：46条生命周期最佳实践、专家双人评分与设计/实现/文档/维护维度。https://betterbench.stanford.edu/methodology.html；https://arxiv.org/abs/2411.12990
 7. Epoch Benchmark Reviews rubric v1：Verified/Flawed/Not enough info、评分缺陷与不可比版本等审查。https://epoch.ai/data/benchmark-reviews-documentation/methodology
-8. Semantic Scholar Graph API。https://api.semanticscholar.org/api-docs/graph
-9. OpenAlex works与鉴权文档。https://help.openalex.org/data/works/ ；https://help.openalex.org/api/authentication/
-10. GitHub REST repository与star语义。https://docs.github.com/en/rest/repos/repos#get-a-repository ；https://docs.github.com/en/rest/activity/starring
-11. Hugging Face Hub dataset API。https://huggingface.co/docs/hub/api ；https://huggingface.co/docs/huggingface_hub/guides/search
+10. GitHub REST repository与star语义。https://docs.github.com/en/rest/repos/repos#get-a-repository；https://docs.github.com/en/rest/activity/starring
+11. Hugging Face Hub dataset API。https://huggingface.co/docs/hub/api；https://huggingface.co/docs/huggingface_hub/guides/search
 
 > 参考资料为方法依据，不代表上述机构背书本站权重、阈值或结论。
 
@@ -167,7 +141,7 @@ BCI是开放的方法提案，未经外部效度标定。现阶段获取率、�
 
 ## v0.2 修复记录与可解释性
 
-本轮明确修复了v0.1在线样本按字母序截取180条导致的严重排序偏差；旧Top20已废弃。所有当前名录行都进入采集/缓存续跑，预算不足时使用确定性哈希顺序而非字母序，并公开未覆盖项。模型卡采用先匹配规范ID，再采用不歧义别名；MMLU/MMMLU、SWE各版本不得由父级aliases劫持对方的采用次数。
+明确修复了v0.1在线样本按字母序截取180条导致的严重排序偏差；旧Top20已废弃。所有当前名录行都进入采集/缓存续跑，预算不足时使用确定性哈希顺序而非字母序，并公开未覆盖项。模型卡采用先匹配规范ID，再采用不歧义别名；MMLU/MMMLU、SWE各版本不得由父级aliases劫持对方的采用次数。
 
 论文、仓库、HF合集共享归属均保留真实原始计数，计分折减只是明确标注的派生量。不能把一个MTEB子任务的整篇综述论文引用、公共harness的star当作该子任务的独立影响力；家族归并后也不重复累加子任务指标。摘要长度、元数据完整度与创新性本身并非同一概念，新颖度仍仅为可信系数0.35的代理。
 
@@ -178,9 +152,9 @@ common-sense核查只作为错误诊断：检查SWE-bench、GPQA、HLE、MMLU、
 science2 补充的 organization 主要为论文第一作者隶属，不能未经核验解释为 benchmark 唯一发布者。科学评测中 non-LLM 子域明确保留，跨任务/领域总榜必须提供筛选。部分模型附带评测、存档自述及版本家族仍待人工范围审查；名录保留不等于质量背书。
 
 
-## v0.3 证据补全与偏差修正（2026-11-08，上海时间 UTC+8）
+## v0.3 证据补全与偏差修正（2026-11-08， UTC+8）
 
-### A. 本轮是补证，不是自动宣布正式
+### A. 是补证，不是自动宣布正式
 
 范围固定为现有1668条，不新增历史条目。178份已发布完整档案均重新读取公开JSON快照，173份精确匹配现有ID（RealWorldQA仅采用显式拼写映射）。另外5份不强行映射：家族/子版本、不同名称或范围不明继续留空，不能把PRBench Legal/Finance的分项偷偷当父项总分。
 
@@ -215,7 +189,7 @@ PostTrainBench审查的是v1.1，而现有档案为v1.2；Terminal-Bench审查4.
 
 ### C. 社区反馈的边界
 
-权重仍为5%，内部构成改为：公开讨论15%、90日事件7.5%、90日更新线程7.5%、独立复测60%、fork参与10%。fork、更新线程及操作性复测的代理可靠系数0.5；共享仓库的社区分按共享条目数平方根折减。没有抓取社交平台，没有把HF点赞重复算进社区项，没有把开放issue总数冒充90日事件数，也不把fork和负面反馈当成认可。issue线程本轮是2026-08-10至2026-11-08日历窗口的搜索计数，含首尾日期，时间精度为日；过滤is:issue排除PR，且只接受incomplete_results=false的总计。
+权重仍为5%，内部构成改为：公开讨论15%、90日事件7.5%、90日更新线程7.5%、独立复测60%、fork参与10%。fork、更新线程及操作性复测的代理可靠系数0.5；共享仓库的社区分按共享条目数平方根折减。没有抓取社交平台，没有把HF点赞重复算进社区项，没有把开放issue总数冒充90日事件数，也不把fork和负面反馈当成认可。issue线程是2026-08-10至2026-11-08日历窗口的搜索计数，含首尾日期，时间精度为日；过滤is:issue排除PR，且只接受incomplete_results=false的总计。
 
 第三方复测只由可读模型成绩行及明确独立评测/第三方轨道支持，按机构去重。基准创建者自行评测不算独立复现。HF下载/点赞继续只在原数据使用维度；当前没有两次可比观测的下载趋势，不伪造增速。
 
@@ -223,11 +197,11 @@ PostTrainBench审查的是v1.1，而现有档案为v1.2；Terminal-Bench审查4.
 
 每组按来源URL、track、metric及版本/子集/协议/预算字段分开。仅收录明确百分尺度的准确率、pass@k/pass^k、成功或解决率，且数值在0–100；历史论文基线、人类基线、胜率、Elo、无界误差、单位不明的裸Score/Accuracy、混版本混预算一律不自动换算。0和100是这类有界正确/成功率定义的数学上下界，不是估算人类表现。
 
-保留所有合格赛道的最佳**已报告快照**，并公布最佳模型、样本结果行数和原始采集日；“最佳”只限该来源/赛道，不是全世界SOTA。用于本轮分数的赛道选择按预先公开规则：已识别独立评测机构优先，其次该赛道可读行数最多，其次来源/赛道/指标字符串确定性打破并列；不按希望某benchmark排名高低选择。此选择也有偏差，必须同时展示完整赛道数组。该项可靠系数0.5；未知上下界不算，头部区分度未测仍为null。≥95%只指所选赛道，不扩张为整个家族饱和。
+保留所有合格赛道的最佳**已报告快照**，并公布最佳模型、样本结果行数和原始采集日；“最佳”只限该来源/赛道，不是全世界SOTA。用于分数的赛道选择按预先公开规则：已识别独立评测机构优先，其次该赛道可读行数最多，其次来源/赛道/指标字符串确定性打破并列；不按希望某benchmark排名高低选择。此选择也有偏差，必须同时展示完整赛道数组。该项可靠系数0.5；未知上下界不算，头部区分度未测仍为null。≥95%只指所选赛道，不扩张为整个家族饱和。
 
 ### E. 修复“补证反而降分、缺证反而占优”的真实偏差
 
-第一轮试算发现：旧公式从高引用/低质量覆盖的参照样本得到约80的经验先验，未审查项因此得到过高的缺失部分收缩，而新补的部分文档rubric为50，导致较多补证的条目反而受损。此问题是**缺失机制伪影**，不能通过按名称手调Top30解决。
+试算发现：旧公式从高引用/低质量覆盖的参照样本得到约80的经验先验，未审查项因此得到过高的缺失部分收缩，而新补的部分文档rubric为50，导致较多补证的条目反而受损。此问题是**缺失机制伪影**，不能通过按名称手调Top30解决。
 
 v0.3保留同龄中位数作为诊断，但排序统一采用显式中性50先验：
 
@@ -236,11 +210,3 @@ v0.3保留同龄中位数作为诊断，但排序统一采用显式中性50先�
 这不是填造缺失事实：原始分项仍为null，coverage仍真实显示缺多少；50仅是公开计分政策的中性锚。新增一个50分文档项的贡献严格为0，不会降低或提高该条目分数（新增回归测试保证）；有确切负面外审可降分，有确切正面证据可加分，未知不能得到相当于80分质量的隐含奖励。缺证项进入排序的40%最低覆盖门槛、正式的60%总覆盖和50%质量内部覆盖门槛均不降低。
 
 这是一般性公式修正，非为任何名称定名次。旧经验先验分数单列`legacy_peer_shrunk_score`，便于检查敏感性。仍无跨领域效度认证，缺失非随机、采集资源偏向高star常见项目等残余偏差应公开，不能声称彻底消除所有覆盖偏差。
-
-### F. 溯源、API与可复跑
-
-- 档案源是在2026-11-08实际读取的公开raw JSON；其上游论文/榜单多数原采集于2026-11-07。**不把二手读取8日伪装成重新访问所有原始论文/榜单的8日**。来源URL指向本轮读取的档案快照；primary_url/primary_accessed、upstream_sources及原始采集日完整保留。
-- GitHub使用已连接的GitHub connector读取公开仓库元信息；搜索批量结果只按规范owner/repo精确匹配现有映射，保存实际搜索URL、页码、原始响应与日期，不以名称相似度猜配。批量搜索按stars排序的覆盖倾向公开，不冒称610个仓库都已逐一核查。
-- 今日star只建日期精度为日的基线；没有相隔足够时间的两次实测就保持增长null，不用star/项目年龄估算。不把fork数当贡献者数。不读取任何凭据文件。
-- 源JSON、HF card、独立审查、connector响应分别写入cache/dossiers、cache/hf-cards、cache/epoch-reviews、cache/github-connector。全部断点续跑，顺序请求限速；HTTP 429停止该轮，gated资源保留未知，不登录、不绕过权限。
-- 新的evidence_overlay.py在compute读入原缓存之后应用，不改变原记录fingerprint，不删除既有引用；较新的后续元数据优先于本轮旧快照。所有改动仅在/workspace/bc staging；主仓库只读、没有push。

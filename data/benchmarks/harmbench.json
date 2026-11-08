@@ -1,7 +1,7 @@
 {
   "id": "harmbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "HarmBench",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "v2；2024-02-27T13:43:08+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v2；2024-02-27（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.04249",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2024-02-07T03:59:08+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2024-02-07（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.04249",
@@ -360,7 +360,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.04249",
@@ -395,13 +395,11 @@
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2024-02-07T03:59:08+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-02-07"
           },
           {
             "version": "v2",
-            "submitted_at": "2024-02-27T13:43:08+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-02-27"
           }
         ]
       },
@@ -446,7 +444,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2402.04249",
@@ -484,7 +482,7 @@
           "metric": "ASR %（越低表示该攻击下越稳健）",
           "track": "原论文v2表7：test，standard/contextual/copyright，PAIR攻击",
           "source_url": "https://arxiv.org/pdf/2402.04249",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史实验"
         },
         {
@@ -494,7 +492,7 @@
           "metric": "ASR %（越低表示该攻击下越稳健）",
           "track": "原论文v2表7：test，standard/contextual/copyright，PAIR攻击",
           "source_url": "https://arxiv.org/pdf/2402.04249",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史实验"
         },
         {
@@ -504,7 +502,7 @@
           "metric": "ASR %（越低表示该攻击下越稳健）",
           "track": "原论文v2表7：test，standard/contextual/copyright，PAIR攻击",
           "source_url": "https://arxiv.org/pdf/2402.04249",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史实验"
         },
         {
@@ -514,7 +512,7 @@
           "metric": "ASR %（越低表示该攻击下越稳健）",
           "track": "原论文v2表7：test，standard/contextual/copyright，PAIR攻击",
           "source_url": "https://arxiv.org/pdf/2402.04249",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史实验"
         },
         {
@@ -524,7 +522,7 @@
           "metric": "ASR %（越低表示该攻击下越稳健）",
           "track": "原论文v2表7：test，standard/contextual/copyright，PAIR攻击",
           "source_url": "https://arxiv.org/pdf/2402.04249",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "官方论文历史实验"
         }
       ],
@@ -536,7 +534,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮精确转录同一PAIR攻击、同一test功能类别范围的历史切片；没有给不同攻击预算/模态混合的当前安全总排名。rank=null，不把所列五个模型宣称完整榜单前五。",
+      "value": "精确转录同一PAIR攻击、同一test功能类别范围的历史切片；没有给不同攻击预算/模态混合的当前安全总排名。rank=null，不把所列五个模型宣称完整榜单前五。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2402.04249",
@@ -610,7 +608,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 3233876,
@@ -622,13 +620,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ",
-        "webViewLink": "https://drive.google.com/drive/folders/1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -636,27 +631,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ",
-          "webViewLink": "https://docs.google.com/document/d/10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT",
-      "webViewLink": "https://drive.google.com/file/d/1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1E8DwWh1UzZ0UNjxcBFNGktI7alwtUFCT/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -665,23 +655,20 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

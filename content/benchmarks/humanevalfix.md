@@ -1,8 +1,8 @@
 # HumanEvalFix
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
-HumanEvalFix在HumanEvalPack六种语言参考程序上人工加入功能错误，要求通过测试修复。相同164个原题跨语言改写不能视为984个独立知识问题；本轮补回原论文按语言的FixTests精确基线，与FixDocs及后续相对提升实验分开。
+HumanEvalFix在HumanEvalPack六种语言参考程序上人工加入功能错误，要求通过测试修复。相同164个原题跨语言改写不能视为984个独立知识问题；补回原论文按语言的FixTests精确基线，与FixDocs及后续相对提升实验分开。
 
 导读依据：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack)（访问 2026-11-08）；[3](https://huggingface.co/datasets/bigcode/humanevalpack)（访问 2026-11-08）。
 
@@ -36,7 +36,7 @@ arXiv v2
 
 ### 发布日期
 
-2023-08-14T22:53:54+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2023-08-14（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）。
 
@@ -114,15 +114,15 @@ BigCode / OctoPack 作者团队
 
 ```json
 [
-  "Muennighoff, Niklas",
-  "Liu, Qian",
-  "Zebaze, Armel",
-  "Zheng, Qinkai",
-  "Hui, Binyuan",
-  "Zhuo, Terry Yue",
-  "Singh, Swayam",
-  "Tang, Xiangru",
-  "von Werra, Leandro",
+  "Muennighoff, Niklas"
+  "Liu, Qian"
+  "Zebaze, Armel"
+  "Zheng, Qinkai"
+  "Hui, Binyuan"
+  "Zhuo, Terry Yue"
+  "Singh, Swayam"
+  "Tang, Xiangru"
+  "von Werra, Leandro"
   "Longpre, Shayne"
 ]
 ```
@@ -205,7 +205,7 @@ BigCode octopack 项目
 
 ```json
 [
-  "文本",
+  "文本"
   "源代码"
 ]
 ```
@@ -216,11 +216,11 @@ BigCode octopack 项目
 
 ```json
 [
-  "Python",
-  "JavaScript",
-  "Java",
-  "Go",
-  "C++",
+  "Python"
+  "JavaScript"
+  "Java"
+  "Go"
+  "C++"
   "Rust"
 ]
 ```
@@ -273,9 +273,9 @@ https://github.com/bigcode-project/octopack
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack)（访问 2026-11-08）。
 
@@ -283,11 +283,11 @@ https://github.com/bigcode-project/octopack
 
 ```json
 {
-  "version": "HumanEvalPack 中的 HumanEvalFix；6语言×164题",
+  "version": "HumanEvalPack 中的 HumanEvalFix；6语言×164题"
   "evidence_2026_h2": [
     {
-      "url": "https://arxiv.org/html/2609.19134v1",
-      "date": "2026-09-16",
+      "url": "https://arxiv.org/html/2609.19134v1"
+      "date": "2026-09-16"
       "note": "ScienceIDE §3.3、附录11.1实际用 HumanEvalFix JavaScript 等代码修复任务评测科学轨迹训练迁移。"
     }
   ]
@@ -303,19 +303,19 @@ https://github.com/bigcode-project/octopack
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2023-08-14T22:53:54+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2023-08-14"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2024-02-18T18:46:06+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v2"
+    "submitted_at": "2024-02-18"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2308.07124)（访问 2026-11-08）。
 
@@ -341,7 +341,7 @@ HumanEvalExplain 与 HumanEvalSynthesize 是 HumanEvalPack 兄弟任务；本条
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）；[2](https://arxiv.org/html/2609.19134v1)（访问 2026-11-08）。
 
@@ -364,213 +364,213 @@ https://github.com/bigcode-project/octopack
 ```json
 [
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "47.0",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Python",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "47.0"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Python"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "WizardCoder",
-    "score": "31.8",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Python",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "WizardCoder"
+    "score": "31.8"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Python"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "OctoCoder",
-    "score": "30.4",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Python",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "OctoCoder"
+    "score": "30.4"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Python"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "48.2",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / JavaScript",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "48.2"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / JavaScript"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "WizardCoder",
-    "score": "29.5",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / JavaScript",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "WizardCoder"
+    "score": "29.5"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / JavaScript"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "OctoCoder",
-    "score": "28.4",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / JavaScript",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "OctoCoder"
+    "score": "28.4"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / JavaScript"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "50.0",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Java",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "50.0"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Java"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "WizardCoder",
-    "score": "30.7",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Java",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "WizardCoder"
+    "score": "30.7"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Java"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "OctoCoder",
-    "score": "30.6",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Java",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "OctoCoder"
+    "score": "30.6"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Java"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "50.6",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Go",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "50.6"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Go"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "WizardCoder",
-    "score": "30.4",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Go",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "WizardCoder"
+    "score": "30.4"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Go"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "OctoCoder",
-    "score": "30.2",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Go",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "OctoCoder"
+    "score": "30.2"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Go"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "47.6",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / C++",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "47.6"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / C++"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "OctoCoder",
-    "score": "26.1",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / C++",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "OctoCoder"
+    "score": "26.1"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / C++"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "WizardCoder",
-    "score": "18.7",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / C++",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "WizardCoder"
+    "score": "18.7"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / C++"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "GPT-4",
-    "score": "43.3",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Rust",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "GPT-4"
+    "score": "43.3"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Rust"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "OctoCoder",
-    "score": "16.5",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Rust",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "OctoCoder"
+    "score": "16.5"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Rust"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "WizardCoder",
-    "score": "13.0",
-    "metric": "zero-shot pass@1 (%)",
-    "track": "原论文表2 HumanEvalFixTests / Rust",
-    "source_url": "https://arxiv.org/pdf/2308.07124",
-    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜",
-    "source_date": "论文v2；实际API运行日待核实",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "WizardCoder"
+    "score": "13.0"
+    "metric": "zero-shot pass@1 (%)"
+    "track": "原论文表2 HumanEvalFixTests / Rust"
+    "source_url": "https://arxiv.org/pdf/2308.07124"
+    "result_type": "作者论文历史基线；列出的三模型子集内排序，非当前全榜"
+    "source_date": "论文v2；实际API运行日待核实"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "model": "ScienceIDE 4B SFT 训练设置（精确检查点待核实）",
-    "result": "HumanEvalFix JavaScript 相对提升 10.98 个百分点",
-    "metric": "论文报告相对改善，不是绝对得分",
-    "benchmark_version": "HumanEvalFix JS",
-    "result_type": "H2 学术实验",
-    "source_date": "2026-09-16",
-    "collected_at": "2026-11-07 KST",
-    "track": "ScienceIDE H2学术实验（相对改善，非绝对榜分）",
-    "snapshot_date": "2026-11-07 KST（历史证据保留，本轮未复开此文）",
+    "model": "ScienceIDE 4B SFT 训练设置（精确检查点待核实）"
+    "result": "HumanEvalFix JavaScript 相对提升 10.98 个百分点"
+    "metric": "论文报告相对改善，不是绝对得分"
+    "benchmark_version": "HumanEvalFix JS"
+    "result_type": "H2 学术实验"
+    "source_date": "2026-09-16"
+    "collected_at": "2026-11-07 "
+    "track": "ScienceIDE H2学术实验（相对改善，非绝对榜分）"
+    "snapshot_date": "2026-11-07 （历史证据保留，未复开此文）"
     "rank": null
   }
 ]
@@ -580,7 +580,7 @@ https://github.com/bigcode-project/octopack
 
 ### 覆盖与局限
 
-本轮补入原作者论文表2的精确分语言FixTests基线；未找到独立实时官方总榜。ScienceIDE相对改善保留旧采集日并单列，不转换为绝对pass@1；FixDocs不得混入本轨。
+补入原作者论文表2的精确分语言FixTests基线；未找到独立实时官方总榜。ScienceIDE相对改善保留旧采集日并单列，不转换为绝对pass@1；FixDocs不得混入本轨。
 
 来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）；[2](https://github.com/bigcode-project/octopack/blob/main/README.md)（访问 2026-11-08）。
 
@@ -628,61 +628,61 @@ https://arxiv.org/pdf/2308.07124
 
 来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 2618401
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2308.07124)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 ```json
 {
-  "id": "1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK",
-  "webViewLink": "https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK"
+  "id": "1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/drive/folders/1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "type": "中文介绍Google Doc",
-    "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY",
-    "webViewLink": "https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk"
+    "type": "中文介绍Google Doc"
+    "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY"
+    "webViewLink": "
   }
 ]
 ```
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）；[2](https://docs.google.com/document/d/1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY/edit?usp=drivesdk)（访问 2026-11-07）。
+来源：[1](https://github.com/bigcode-project/octopack)（访问 2026-11-07）；[2]( 2026-11-07）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 ```json
 {
-  "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn",
-  "webViewLink": "https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk"
+  "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn"
+  "webViewLink": "
 }
 ```
 
-来源：[1](https://drive.google.com/file/d/10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn/view?usp=drivesdk)（访问 2026-11-07）。
+来源：[1]( 2026-11-07）。
 
 ## 变更记录
 
@@ -691,19 +691,19 @@ c03f04d06e000e4a251bea07c8b654721a97dbf23009ba45909439c7d814502a
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

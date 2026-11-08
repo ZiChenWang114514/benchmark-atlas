@@ -1,6 +1,6 @@
 # APEX-Agents
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
 已核验存在；11节研究快照；note: trending: A；未知字段保留待核实
 
@@ -26,19 +26,19 @@ AI Productivity Index for Agents (APEX–Agents)
 
 > 字段状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
 ### 论文版本
 
-arXiv v3（2026-02-24 01:49:38 Asia/Shanghai（UTC+8））
+arXiv v3（2026-02-24 01:49:38 （UTC+8））
 
 [来源1](https://arxiv.org/abs/2601.14242)（访问2026-11-07）
 
 ### 发布日期
 
-2026-01-21 02:53:44 Asia/Shanghai（UTC+8）（arXiv首稿；来源UTC日期为1月20日）
+2026-01-21 02:53:44 （UTC+8）（arXiv首稿；来源UTC日期为1月20日）
 
 [来源1](https://arxiv.org/abs/2601.14242)（访问2026-11-07）
 
@@ -126,7 +126,7 @@ Mercor
 
 > 字段状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -257,7 +257,7 @@ Archipelago提供执行环境、agent运行器与grading系统。
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -265,12 +265,12 @@ Archipelago提供执行环境、agent运行器与grading系统。
 
 ```json
 {
-  "version": "待核实",
-  "heat_confidence": "A",
+  "version": "待核实"
+  "heat_confidence": "A"
   "evidence_2026_h2": [
     {
-      "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa",
-      "date": "2026-11-07",
+      "url": "https://artificialanalysis.ai/evaluations/apex-agents-aa"
+      "date": "2026-11-07"
       "note": "AA当前独立452题实现与排行榜，观察日。"
     }
   ]
@@ -286,16 +286,16 @@ Archipelago提供执行环境、agent运行器与grading系统。
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-01-21T02:53:44+08:00"
-  },
+    "version": "v1"
+    "submitted_at": "2026-01-21"
+  }
   {
-    "version": "v2",
-    "submitted_at": "2026-01-28T01:31:16+08:00"
-  },
+    "version": "v2"
+    "submitted_at": "2026-01-28"
+  }
   {
-    "version": "v3",
-    "submitted_at": "2026-02-24T01:49:38+08:00"
+    "version": "v3"
+    "submitted_at": "2026-02-24"
   }
 ]
 ```
@@ -324,7 +324,7 @@ APEX是同机构基准家族；当前官网并列APEX-Agents/APEX-SWE/APEX-Accou
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -422,7 +422,7 @@ https://github.com/Mercor-Intelligence/archipelago/issues
 
 > 字段状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -432,7 +432,7 @@ https://github.com/Mercor-Intelligence/archipelago/issues
 
 > 字段状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -448,7 +448,7 @@ https://arxiv.org/pdf/2601.14242
 
 4f253c14f71cb9a1d17c9204e5b0812f42280f867d1f189f817286029e63594a
 
-> 本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。
+> 实际下载字节的SHA-256；不表示已有副本已替换。
 
 [来源1](https://arxiv.org/pdf/2601.14242)（访问2026-11-07）
 
@@ -458,13 +458,13 @@ https://arxiv.org/pdf/2601.14242
 
 [来源1](https://arxiv.org/pdf/2601.14242)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
 > 字段状态：待核实
 
-> 已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。
+> 已检查所引官方材料，未完成精确核验；不代表官方未公开。
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -473,7 +473,7 @@ https://arxiv.org/pdf/2601.14242
 ```json
 [
   {
-    "type": "官方介绍/协议",
+    "type": "官方介绍/协议"
     "url": "https://huggingface.co/datasets/mercor/apex-agents"
   }
 ]
@@ -481,7 +481,7 @@ https://arxiv.org/pdf/2601.14242
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -492,14 +492,14 @@ https://arxiv.org/pdf/2601.14242
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

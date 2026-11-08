@@ -1,7 +1,7 @@
 {
   "id": "gsm8k",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "GSM8K",
@@ -35,7 +35,7 @@
       ]
     },
     "paper_version": {
-      "value": "v2；2021-11-18T09:23:45+09:00（KST；论文修订号，不是数据版本）",
+      "value": "v2；2021-11-18（；论文修订号，不是数据版本）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2110.14168",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2021-10-27T13:49:45+09:00（KST；arXiv初稿提交时间，非推定数据首发日）",
+      "value": "2021-10-27（；arXiv初稿提交时间，非推定数据首发日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2110.14168",
@@ -383,7 +383,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2110.14168",
@@ -405,13 +405,11 @@
         "arxiv_submissions": [
           {
             "version": "v1",
-            "submitted_at": "2021-10-27T13:49:45+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2021-10-27"
           },
           {
             "version": "v2",
-            "submitted_at": "2021-11-18T09:23:45+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2021-11-18"
           }
         ],
         "2026_h2_evidence": [
@@ -469,7 +467,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2110.14168",
@@ -486,7 +484,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      "note": "未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
       "value": "待核实",
@@ -508,7 +506,7 @@
           "metric": "accuracy %",
           "track": "Hunyuan-A13B报告表2：基础模型，4-shot CoT",
           "source_url": "https://arxiv.org/html/2609.27284v1",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "三级：模型厂商报告；非独立榜",
           "source_date": "2026-09（arXiv编号月份；确切实验日待核实）"
         },
@@ -519,7 +517,7 @@
           "metric": "accuracy %",
           "track": "Hunyuan-A13B报告表2：基础模型，4-shot CoT",
           "source_url": "https://arxiv.org/html/2609.27284v1",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "三级：模型厂商报告；非独立榜",
           "source_date": "2026-09（arXiv编号月份；确切实验日待核实）"
         },
@@ -530,7 +528,7 @@
           "metric": "accuracy %",
           "track": "Hunyuan-A13B报告表2：基础模型，4-shot CoT",
           "source_url": "https://arxiv.org/html/2609.27284v1",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "三级：模型厂商报告；非独立榜",
           "source_date": "2026-09（arXiv编号月份；确切实验日待核实）"
         },
@@ -541,7 +539,7 @@
           "metric": "accuracy %",
           "track": "Hunyuan-A13B报告表2：基础模型，4-shot CoT",
           "source_url": "https://arxiv.org/html/2609.27284v1",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "result_type": "三级：模型厂商报告；非独立榜",
           "source_date": "2026-09（arXiv编号月份；确切实验日待核实）"
         }
@@ -554,7 +552,7 @@
       ]
     },
     "coverage_note": {
-      "value": "非穷尽、非跨协议排名。仅转录本轮打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
+      "value": "非穷尽、非跨协议排名。仅转录打开来源的所列行；未列模型不表示低于所列模型。结果日期不明保留待核实，展示名不是API检查点。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2110.14168",
@@ -617,13 +615,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y",
-      "webViewLink": "https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -646,7 +641,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。"
+      "note": "下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。"
     },
     "pdf_bytes": {
       "value": 2935719,
@@ -658,13 +653,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
-        "webViewLink": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -672,15 +664,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8",
-          "webViewLink": "https://docs.google.com/document/d/1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/gsm8k.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -690,23 +680,20 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

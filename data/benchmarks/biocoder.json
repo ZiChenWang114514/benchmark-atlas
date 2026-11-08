@@ -1,7 +1,7 @@
 {
   "id": "biocoder",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "BioCoder",
@@ -30,10 +30,10 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_version": {
-      "value": "arXiv v5：2024-05-21 02:19:13（Asia/Shanghai）；另有Bioinformatics 40(Supplement_1):i266–i276，2024，doi:10.1093/bioinformatics/btae230。",
+      "value": "arXiv v5：2024-05-21 02:19:13；另有Bioinformatics 40(Supplement_1):i266–i276，2024，doi:10.1093/bioinformatics/btae230。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -386,7 +386,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -403,15 +403,15 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "paper_revision_history": {
       "value": {
-        "v1": "2023-08-31T12:52:58+08:00",
-        "v2": "2023-09-06T01:51:16+08:00",
-        "v3": "2023-09-30T04:27:06+08:00",
-        "v4": "2023-12-04T19:05:29+08:00",
-        "v5": "2024-05-21T02:19:13+08:00",
+        "v1": "2023-08-31",
+        "v2": "2023-09-06",
+        "v3": "2023-09-30",
+        "v4": "2023-12-04",
+        "v5": "2024-05-21",
         "journal": "Bioinformatics2024 doi:10.1093/bioinformatics/btae230；不把论文修订日当数据更新日。"
       },
       "sources": [
@@ -426,7 +426,7 @@
       ]
     },
     "saturation": {
-      "value": "官网历史低通过率不说明2026模型当前上限；本轮未获得更新统一实验。",
+      "value": "官网历史低通过率不说明2026模型当前上限；未获得更新统一实验。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -456,12 +456,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -487,7 +487,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -685,7 +685,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "github_issues": {
       "value": "https://github.com/gersteinlab/BioCoder/issues",
@@ -705,7 +705,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -716,7 +716,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -737,7 +737,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
+      "note": "实际下载的源站PDF字节校验；未声称重新核验文件内容。"
     },
     "pdf_bytes": {
       "value": 1569722,
@@ -749,10 +749,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea",
-        "webViewLink": "https://drive.google.com/drive/folders/1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.16458",
@@ -777,10 +774,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk",
-      "webViewLink": "https://drive.google.com/file/d/1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://arxiv.org/abs/2308.16458",
@@ -792,19 +786,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "round": "2 / queue[1]",
-        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.dataset_url",
           "basic_info.license",

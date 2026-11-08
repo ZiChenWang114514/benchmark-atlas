@@ -1,7 +1,7 @@
 {
   "id": "posttrainbench",
   "schema_version": "0.1.0",
-  "editorial_status": "研究快照；trending: A；未知信息保留待核实。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "PostTrainBench",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v2（2026-03-11 00:55:40 KST）；与benchmark v1.2不同。",
+      "value": "arXiv v2（2026-03-11 00:55:40 ）；与benchmark v1.2不同。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2603.08640",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "论文首投2026-03-10 02:18:00 KST；benchmark v1.2另于2026-09-30发布，不将v1.2日期当基准首次发表。",
+      "value": "论文首投2026-03-10 02:18:00；benchmark v1.2另于2026-09-30发布，不将v1.2日期当基准首次发表。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2603.08640",
@@ -386,7 +386,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST（Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2603.08640",
@@ -426,11 +426,11 @@
         "arxiv": [
           {
             "version": "v1",
-            "submitted_at": "2026-03-10T02:18:00+09:00 KST"
+            "submitted_at": "2026-03-10"
           },
           {
             "version": "v2",
-            "submitted_at": "2026-03-11T00:55:40+09:00 KST"
+            "submitted_at": "2026-03-11"
           }
         ],
         "benchmark_release_note": "v1.2删除BFCL，修复评分与隔离，增加多种子与多数票；首页仍有七基准描述，以明确v1.2变更和scores-v1.2.js为当前口径。"
@@ -485,12 +485,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST（网页访问日期；历史结果日期分别保留）",
+      "value": "2026-11-08 （网页访问日期；历史结果日期分别保留）",
       "sources": [
         {
           "url": "https://posttrainbench.com/",
@@ -524,7 +524,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "fable-5.1",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -540,7 +540,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "opus-5.5-max",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -556,7 +556,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gpt-6-astra",
           "scaffold": "Codex CLI",
           "reasoning_effort": "Max",
@@ -572,7 +572,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gpt-6.1-sol",
           "scaffold": "Codex CLI",
           "reasoning_effort": "Max",
@@ -588,7 +588,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "fable-5",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -604,7 +604,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "glm-5.3-flash",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -620,7 +620,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "opus-5",
           "scaffold": "Claude Code",
           "reasoning_effort": "官方配置未逐项列明",
@@ -636,7 +636,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "glm-5.3",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -652,7 +652,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "kimi-k3",
           "scaffold": "Claude Code",
           "reasoning_effort": "官方配置未逐项列明",
@@ -668,7 +668,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gpt-5.6-sol",
           "scaffold": "Codex CLI",
           "reasoning_effort": "Max",
@@ -684,7 +684,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "opus-4.8-max",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -700,7 +700,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "opus-4.8",
           "scaffold": "Claude Code",
           "reasoning_effort": "High",
@@ -716,7 +716,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "glm-5.2",
           "scaffold": "Claude Code",
           "reasoning_effort": "Max",
@@ -732,7 +732,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "opus-4.7",
           "scaffold": "Claude Code",
           "reasoning_effort": "xHigh",
@@ -748,7 +748,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gpt-5.5-xhigh",
           "scaffold": "Codex CLI",
           "reasoning_effort": "xHigh",
@@ -764,7 +764,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "grok-4.5-high",
           "scaffold": "Cursor CLI",
           "reasoning_effort": "High",
@@ -780,7 +780,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gemini-3.1-pro",
           "scaffold": "OpenCode",
           "reasoning_effort": "官方配置未逐项列明",
@@ -796,7 +796,7 @@
           "track": "官方运行/v1.2/10h-H100",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "gpt-5.4-high",
           "scaffold": "Codex CLI",
           "reasoning_effort": "High",
@@ -812,7 +812,7 @@
           "track": "官方收录/外部运行审阅/v1.2",
           "metric": "v1.2 weighted average (0–100)",
           "source_url": "https://posttrainbench.com/scores-v1.2.js",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "agent_id": "locus",
           "scaffold": "Intology",
           "reasoning_effort": "配置见官方说明",
@@ -878,7 +878,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "privacy_policy": {
       "value": "Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。",
@@ -908,7 +908,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "2026-11-08 KST本轮下载字节的校验；没有覆盖或上传Drive，不能据此认定既存Drive原件同版本。"
+      "note": "2026-11-08 下载字节的校验；没有覆盖或上传，不能据此认定既存原件同版本。"
     },
     "pdf_bytes": {
       "value": 366334,
@@ -928,7 +928,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     },
     "other_documents": {
       "value": "待核实",
@@ -939,19 +939,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮打开所列材料后仍未精确核实；不代表官方没有公开。"
+      "note": "打开所列材料后仍未精确核实；不代表官方没有公开。"
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1nYSJNS2_4shR410BT8MXFJrbYH1ndVZK",
-      "webViewLink": "https://drive.google.com/file/d/1nYSJNS2_4shR410BT8MXFJrbYH1ndVZK/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1nYSJNS2_4shR410BT8MXFJrbYH1ndVZK/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2603.08640",
         "accessed": "2026-11-08"
@@ -962,13 +955,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "按官方材料新建中文条目；区分热度、质量和不同版本评分。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐档深核：重开原论文/官方README、许可和数据卡，细化构建与评测边界，补可读官方结果分轨；保留未知、冲突及历史来源日期。"
+        "change": "最近复核"
       }
     ],
     "sources": [

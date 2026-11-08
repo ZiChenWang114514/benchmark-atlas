@@ -1,7 +1,7 @@
 {
   "id": "math",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MATH",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2021-03-06（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "value": "2021-03-06（arXiv初稿日期，非独立数据集首发声明）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
@@ -377,7 +377,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://github.com/hendrycks/math",
@@ -403,18 +403,16 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2021-03-06T03:59:39+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2021-03-06"
           },
           {
             "version": "v2",
-            "submitted_at": "2021-11-09T06:30:18+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2021-11-09"
           }
         ],
         "previous_evidence": {
           "arxiv_version": "arXiv v2",
-          "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+          "history_note": "完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。",
           "2026_h2_evidence": [
             {
               "url": "https://arxiv.org/html/2609.27284v1",
@@ -430,7 +428,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。"
     },
     "saturation": {
       "value": "AA MATH-500当前最高99.4%，只支持这个500题子集在该协议下接近满分；不能据此断定完整5,000测试题及每难度层都饱和。",
@@ -442,7 +440,7 @@
       ]
     },
     "contamination_and_issues": {
-      "value": "官方论文称数据/代码以MIT发布，但原竞赛内容的权利不能据此无条件外推；本轮未法律审查。",
+      "value": "官方论文称数据/代码以MIT发布，但原竞赛内容的权利不能据此无条件外推；未法律审查。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2103.03874",
@@ -470,7 +468,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://github.com/hendrycks/math",
@@ -487,7 +485,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
+      "note": "未确认独立持续更新的官方榜；论文实验不冒充官方实时榜"
     },
     "third_party_url": {
       "value": "https://artificialanalysis.ai/evaluations/math-500",
@@ -508,7 +506,7 @@
           "track": "AA 500题子集；非完整MATH",
           "source_url": "https://artificialanalysis.ai/evaluations/math-500",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方摘要当前前三",
           "result_date": "待核实"
         },
@@ -520,7 +518,7 @@
           "track": "AA 500题子集；非完整MATH",
           "source_url": "https://artificialanalysis.ai/evaluations/math-500",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方摘要当前前三",
           "result_date": "待核实"
         },
@@ -532,7 +530,7 @@
           "track": "AA 500题子集；非完整MATH",
           "source_url": "https://artificialanalysis.ai/evaluations/math-500",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "result_type": "独立第三方摘要当前前三",
           "result_date": "待核实"
         }
@@ -603,13 +601,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu",
-      "webViewLink": "https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -632,7 +627,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 2030715,
@@ -644,13 +639,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL",
-        "webViewLink": "https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -658,15 +650,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o",
-          "webViewLink": "https://docs.google.com/document/d/1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/math.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -676,13 +666,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "evaluation.official_scripts",
           "data_format.size",
@@ -691,8 +679,7 @@
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.license",
           "basic_info.paper_version",

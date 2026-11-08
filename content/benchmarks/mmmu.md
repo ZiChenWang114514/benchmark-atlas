@@ -1,6 +1,6 @@
 # MMMU
 
-> 核验日期：2026-11-08（KST / Asia/Seoul，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
 
 MMMU以11550道大学及专业学科图文题考查专业知识与视觉推理；dev、validation、test分别为150、900和10500题。2026-02-12官方已开放test答案，因此本页不再把它称为隐藏答案测试集。论文v4写30种图像类型，当前README写32种，两者缺少官方映射说明，现并列保留而非强行统一。
 [本页导读依据](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）
@@ -35,7 +35,7 @@ arXiv v4
 
 ### 发布日期
 
-2023-11-28 02:33:21 KST（arXiv v1；源站UTC日期为2023-11-27）
+2023-11-28 02:33:21 （arXiv v1；源站UTC日期为2023-11-27）
 
 [来源1](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）
 
@@ -181,15 +181,15 @@ MMMU Team；主页列Xiang Yue、Yu Su、Wenhu Chen为对应联系作者。
 
 ```json
 {
-  "questions": 11550,
-  "dev": 150,
-  "validation": 900,
-  "test": 10500,
-  "disciplines": 6,
-  "subjects": 30,
-  "subfields": 183,
-  "image_types_paper_v4": 30,
-  "image_types_current_readme": 32,
+  "questions": 11550
+  "dev": 150
+  "validation": 900
+  "test": 10500
+  "disciplines": 6
+  "subjects": 30
+  "subfields": 183
+  "image_types_paper_v4": 30
+  "image_types_current_readme": 32
   "conflict": "论文v4表1和正文为30类图像，当前README写32类；未提供逐类映射/修订解释，不静默统一。"
 }
 ```
@@ -260,11 +260,11 @@ MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validatio
 
 ## 最新情况
 
-### 本轮核验日期
+### 核验日期
 
 2026-11-08
 
-> 本次源站访问日期；时区KST / Asia/Seoul；不等于榜单运行日期。
+> 本次源站访问日期；时区；不等于榜单运行日期。
 
 [来源1](https://mmmu-benchmark.github.io/)（访问 2026-11-08）
 
@@ -280,36 +280,36 @@ MMMU validation、test及MMMU-Pro必须分开。官方榜单的GPT-5.1 validatio
 {
   "revisions": [
     {
-      "version": "v1",
-      "date_kst": "2023-11-28T02:33:21+09:00"
-    },
-    {
-      "version": "v2",
-      "date_kst": "2023-12-18T12:47:39+09:00"
-    },
-    {
-      "version": "v3",
-      "date_kst": "2023-12-21T13:06:49+09:00"
-    },
-    {
-      "version": "v4",
-      "date_kst": "2024-06-14T00:02:39+09:00"
+      "version": "v1"
+      "date_kst": "2023-11-28"
     }
-  ],
+    {
+      "version": "v2"
+      "date_kst": "2023-12-18"
+    }
+    {
+      "version": "v3"
+      "date_kst": "2023-12-21"
+    }
+    {
+      "version": "v4"
+      "date_kst": "2024-06-14"
+    }
+  ]
   "repository_news": [
     {
-      "date": "2026-02-12",
-      "change": "开放test答案"
-    },
-    {
-      "date": "2026-07-28",
-      "change": "新增社区维护的EvalScope第三方集成"
+      "date": "2026-02-12"
+      最近复核
     }
-  ],
+    {
+      "date": "2026-07-28"
+      最近复核
+    }
+  ]
   "continued_use_2026h2": [
     {
-      "url": "https://arxiv.org/html/2610.01352v2",
-      "date": "2026-10-22",
+      "url": "https://arxiv.org/html/2610.01352v2"
+      "date": "2026-10-22"
       "note": "MMVistaReason v2 §4.1及表2实际评测 MMMU（val设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
     }
   ]
@@ -475,76 +475,76 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 [来源1](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7",
-  "webViewLink": "https://drive.google.com/drive/folders/1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7"
+  "id": "1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ### 其他官方文档
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg",
-    "webViewLink": "https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk"
-  },
+    "kind": "中文介绍 Google Doc"
+    "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg"
+    "webViewLink": "
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/abs/2311.16502",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/abs/2311.16502"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/html/2610.01352v2",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/html/2610.01352v2"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://arxiv.org/pdf/2311.16502",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://arxiv.org/pdf/2311.16502"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://huggingface.co/datasets/MMMU/MMMU",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://huggingface.co/datasets/MMMU/MMMU"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://mmmu-benchmark.github.io/",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://mmmu-benchmark.github.io/"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮打开核验的官方/研究来源",
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json",
+    "type": "打开核验的官方/研究来源"
+    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
     "accessed": "2026-11-08"
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg/edit?usp=drivesdk)（访问 2026-11-07）；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
+[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
 
-### Drive原始PDF
+### 原始PDF
 
 ```json
 {
-  "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm",
-  "webViewLink": "https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk"
+  "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm/view?usp=drivesdk)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ## 变更记录
 
@@ -553,19 +553,19 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST, UTC+9)",
-    "change": "第二轮深度复核：重读官方数据卡、README/许可、可用论文abs与PDF及官方榜；补精确题量、修订边界与完整可读成绩；区分私有集、历史基线、厂商自报与独立测评。"
+    "date": "2026-11-08"
+    "timezone": " (, UTC+9)"
+    最近复核
   }
 ]
 ```

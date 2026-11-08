@@ -1,7 +1,7 @@
 {
   "id": "cruxeval",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "CRUXEval",
@@ -41,14 +41,14 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2024-01-06 05:53:51 KST",
+      "value": "2024-01-06 05:53:51",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2401.03065",
           "accessed": "2026-11-07"
         }
       ],
-      "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+      "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
     },
     "section": {
       "value": "代码",
@@ -359,7 +359,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://crux-eval.github.io/",
@@ -391,7 +391,7 @@
       "note": "H2 活跃证据区分实际评测、第三方追踪和仅学术引用；不据引用推断实跑。"
     },
     "paper_revision_history": {
-      "value": "Submission history From: Alex Gu [ view email ] [v1] 2024-01-06 05:53:51 KST (1,309 KB)",
+      "value": "Submission history From: Alex Gu [ view email ] [v1] 2024-01-06 05:53:51 (1,309 KB)",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2401.03065",
@@ -439,7 +439,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST / Asia/Seoul",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://crux-eval.github.io/",
@@ -809,13 +809,10 @@
       "note": "源站下载的原始字节，未压缩或重写；SHA-256 / 字节数由本次下载计算。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou",
-        "webViewLink": "https://drive.google.com/drive/folders/1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1qn4p1I6dvvu5vgEmKvTMsHfElROPZ5ou",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -823,18 +820,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c",
-          "webViewLink": "https://docs.google.com/document/d/14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://crux-eval.github.io/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/14mrYcERScHID5m5l9rGgjWvRpEag9WhAjK0AplL5Z3c/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -842,13 +833,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9",
-      "webViewLink": "https://drive.google.com/file/d/1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1i5PlfnmPWcdgwpLBx7QzGG4sM5GQjPr9/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -857,18 +845,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。"
+        "change": "最近复核"
       }
     ],
     "sources": [

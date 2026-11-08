@@ -1,6 +1,6 @@
 # SkillsBench
 
-> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核验存在；研究快照；note: trending: B；未核实字段保留标记
+> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；研究快照；note: trending: B；未核实字段保留标记
 
 SkillsBench把“技能是否真的有用”变成配对实验：同一模型与同一agent，在有技能和无技能两条件下完成专家任务。默认v1.1含87题，额外14题不能并入默认库存。官方87题发布、HF审计导出和Vals独立实现有不同配置与时间快照，本档不将它们拼成统一裸模型榜。
 
@@ -34,7 +34,7 @@ v4（论文版本；不等于数据集版本）
 
 ### 发布日期
 
-2026-02-13 KST（arXiv v1 2026-02-13T16:06:06+09:00；不是v1.1 tag的发布日期）
+2026-02-13 （arXiv v1 2026-02-13；不是v1.1 tag的发布日期）
 
 [来源1](https://arxiv.org/abs/2602.12670)（访问 2026-11-08）
 
@@ -50,7 +50,7 @@ Agent
 
 ```json
 [
-  "代码",
+  "代码"
   "技能"
 ]
 ```
@@ -191,8 +191,8 @@ v1.1：87默认任务、8领域；另14个需要凭据或与集成不兼容的�
 
 ```json
 [
-  "文本",
-  "代码",
+  "文本"
+  "代码"
   "数据文件"
 ]
 ```
@@ -203,7 +203,7 @@ v1.1：87默认任务、8领域；另14个需要凭据或与集成不兼容的�
 
 待核实
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://www.vals.ai/benchmarks/skillsbench)（访问 2026-11-07）
 
@@ -243,7 +243,7 @@ v1.1：87默认任务、8领域；另14个需要凭据或与集成不兼容的�
 
 https://github.com/benchflow-ai/skillsbench
 
-> 链接由已打开原始论文/数据卡指向；本轮未逐文件核验代码。
+> 链接由已打开原始论文/数据卡指向；未逐文件核验代码。
 
 [来源1](https://arxiv.org/abs/2602.12670)（访问 2026-11-07）
 
@@ -257,7 +257,7 @@ https://github.com/benchflow-ai/skillsbench
 
 ### 复核日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2602.12670)（访问 2026-11-08）
 
@@ -265,10 +265,10 @@ https://github.com/benchflow-ai/skillsbench
 
 ```json
 {
-  "version": "v1.1",
-  "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9",
-  "active_tasks": 87,
-  "excluded_tasks": 14,
+  "version": "v1.1"
+  "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9"
+  "active_tasks": 87
+  "excluded_tasks": 14
   "source_snapshots": "官网25配置/2026-07-16；HF归档24配置/卡称2026-06-16；Vals独立35行/2026-10-29，不能强行合并。"
 }
 ```
@@ -280,24 +280,24 @@ https://github.com/benchflow-ai/skillsbench
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-02-13T16:06:06+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2026-02-13"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2026-03-07T09:51:15+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v2"
+    "submitted_at": "2026-03-07"
+    "timezone": ""
+  }
   {
-    "version": "v3",
-    "submitted_at": "2026-03-13T16:33:01+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v3"
+    "submitted_at": "2026-03-13"
+    "timezone": ""
+  }
   {
-    "version": "v4",
-    "submitted_at": "2026-06-15T06:21:07+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v4"
+    "submitted_at": "2026-06-15"
+    "timezone": ""
   }
 ]
 ```
@@ -306,7 +306,7 @@ https://github.com/benchflow-ai/skillsbench
 
 ### 饱和与能力边界
 
-官方官网当前With Skills最高67.3%；Vals独立榜最高69.80%。不同harness/库存/运行时间不能合成单一饱和度，尚无本轮证据支持完全饱和。
+官方官网当前With Skills最高67.3%；Vals独立榜最高69.80%。不同harness/库存/运行时间不能合成单一饱和度，尚无证据支持完全饱和。
 
 [来源1](https://www.skillsbench.ai)（访问 2026-11-08）；[来源2](https://www.vals.ai/benchmarks/skillsbench)（访问 2026-11-08）
 
@@ -326,7 +326,7 @@ SkillsBench不是AgentBench；With Skills和No Skills是同一条目的实验条
 
 ### 快照日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2602.12670)（访问 2026-11-08）；[来源2](https://github.com/benchflow-ai/skillsbench)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/benchflow/skillsbench)（访问 2026-11-08）；[来源4](https://www.skillsbench.ai)（访问 2026-11-08）
 
@@ -538,7 +538,7 @@ https://discord.gg/G9dg3EfSva
 
 待核实
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://www.vals.ai/benchmarks/skillsbench)（访问 2026-11-07）
 
@@ -550,15 +550,15 @@ https://arxiv.org/pdf/2602.12670
 
 [来源1](https://arxiv.org/pdf/2602.12670)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 
-> 本次实际下载的PDF字节计算；未上传Drive。
+> 本次实际下载的PDF字节计算；未上传。
 
 [来源1](https://arxiv.org/pdf/2602.12670)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 1769852
@@ -566,11 +566,11 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 
 [来源1](https://arxiv.org/pdf/2602.12670)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
-> 本轮所列已打开材料未完成精确核验；不代表官方未公开。
+> 所列已打开材料未完成精确核验；不代表官方未公开。
 
 [来源1](https://www.vals.ai/benchmarks/skillsbench)（访问 2026-11-07）
 
@@ -579,26 +579,26 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 ```json
 [
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://www.vals.ai/benchmarks/skillsbench"
-  },
+  }
   {
-    "type": "已打开官方网页/论文",
+    "type": "已打开官方网页/论文"
     "url": "https://arxiv.org/abs/2602.12670"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://github.com/benchflow-ai/skillsbench",
+    "type": "已打开一手材料"
+    "url": "https://github.com/benchflow-ai/skillsbench"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://huggingface.co/datasets/benchflow/skillsbench",
+    "type": "已打开一手材料"
+    "url": "https://huggingface.co/datasets/benchflow/skillsbench"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://www.skillsbench.ai",
+    "type": "已打开一手材料"
+    "url": "https://www.skillsbench.ai"
     "accessed": "2026-11-08"
   }
 ]
@@ -606,7 +606,7 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 
 [来源1](https://arxiv.org/abs/2602.12670)（访问 2026-11-08）；[来源2](https://github.com/benchflow-ai/skillsbench)（访问 2026-11-08）；[来源3](https://huggingface.co/datasets/benchflow/skillsbench)（访问 2026-11-08）；[来源4](https://www.skillsbench.ai)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
@@ -617,14 +617,14 @@ e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目。SkillsBench不是AgentBench；With Skills和No Skills是同一条目的实验条件，不重复新增。 热度与榜单口径分离，不确定值标记待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

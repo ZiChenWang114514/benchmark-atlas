@@ -1,7 +1,7 @@
 {
   "id": "video-mme",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Video-MME",
@@ -49,7 +49,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2024-06-01T02:59:47+09:00",
+        "paper_first_submission_kst": "2024-06-01",
         "project_launch_announcement": "2024-06-03",
         "note": "README公告日未附时区，不擅自换日。"
       },
@@ -475,7 +475,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2405.21075",
@@ -488,7 +488,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "本轮官方README最后明确列出的数据修复为2024-06-15：替换破损和可能失效的视频并重标注；2025-12-05列Gemini 3 Pro采用基准的新闻，不是新数据版本。",
+      "value": "官方README最后明确列出的数据修复为2024-06-15：替换破损和可能失效的视频并重标注；2025-12-05列Gemini 3 Pro采用基准的新闻，不是新数据版本。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md",
@@ -501,15 +501,15 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2024-06-01T02:59:47+09:00"
+            "date_kst": "2024-06-01"
           },
           {
             "version": "v2",
-            "date_kst": "2024-06-17T00:49:12+09:00"
+            "date_kst": "2024-06-17"
           },
           {
             "version": "v3",
-            "date_kst": "2025-05-30T22:08:27+09:00"
+            "date_kst": "2025-05-30"
           }
         ],
         "continued_use_2026h2": [
@@ -517,12 +517,12 @@
             "url": "https://arxiv.org/html/2610.16118v1",
             "date": "2026-10-12",
             "note": "Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。",
-            "date_kst": "2026-10-12T12:33:06+09:00",
-            "verified_in_round1": "本轮重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
+            "date_kst": "2026-10-12",
+            "verified_in_round1": "重新打开正文及实验表格和abs提交历史；是实际评测而非仅参考文献。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -540,7 +540,7 @@
       ]
     },
     "saturation": {
-      "value": "本轮官方带字幕表前列为81.6/81.3/79.6%，不带字幕另表；不同模型帧预算、字幕和音频输入不齐。没有在统一设置下核实整体饱和结论，不因高分自动称饱和。",
+      "value": "官方带字幕表前列为81.6/81.3/79.6%，不带字幕另表；不同模型帧预算、字幕和音频输入不齐。没有在统一设置下核实整体饱和结论，不因高分自动称饱和。",
       "sources": [
         {
           "url": "https://video-mme.github.io/home_page.html",
@@ -581,7 +581,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST；H2研究复测沿用旧采集日",
+      "value": "2026-11-08；H2研究复测沿用旧采集日",
       "sources": [
         {
           "url": "https://video-mme.github.io/home_page.html",
@@ -606,7 +606,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -7163,7 +7163,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮逐格读取官网唯一结果表，新增408个数值（overall/short/medium/long × 带/不带字幕；缺失格不补零）。原表行序不等于统一预算名次；逐行日期是表中Date，不推测整体更新日。保留FramePack-U研究复测的原2026-11-07证据，未重验其字幕/音频配置；不是官方实时榜。",
+      "value": "逐格读取官网唯一结果表，新增408个数值（overall/short/medium/long × 带/不带字幕；缺失格不补零）。原表行序不等于统一预算名次；逐行日期是表中Date，不推测整体更新日。保留FramePack-U研究复测的原2026-11-07证据，未重验其字幕/音频配置；不是官方实时榜。",
       "sources": [
         {
           "url": "https://video-mme.github.io/home_page.html",
@@ -7212,7 +7212,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -7246,7 +7246,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 4306222,
@@ -7258,13 +7258,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1UHQvAjcQ6OuugtmPo2QFyxa7DvwpAN9v",
-        "webViewLink": "https://drive.google.com/drive/folders/1UHQvAjcQ6OuugtmPo2QFyxa7DvwpAN9v"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1UHQvAjcQ6OuugtmPo2QFyxa7DvwpAN9v",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -7272,27 +7269,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0",
-          "webViewLink": "https://docs.google.com/document/d/1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo",
-      "webViewLink": "https://drive.google.com/file/d/1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -7301,20 +7293,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [

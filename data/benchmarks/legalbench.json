@@ -1,7 +1,7 @@
 {
   "id": "legalbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: B",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "LegalBench",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-08-21 07:08:03 KST（arXiv v1）；PDF封面写2023-08-23，二者不是同一日期口径。",
+      "value": "2023-08-21 07:08:03 （arXiv v1）；PDF封面写2023-08-23，二者不是同一日期口径。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.11462",
@@ -360,7 +360,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://hazyresearch.stanford.edu/legalbench/",
@@ -406,8 +406,7 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2023-08-21T07:08:03+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2023-08-21"
           }
         ],
         "previous_evidence": "待核实"
@@ -418,7 +417,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。"
+      "note": "保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。"
     },
     "saturation": {
       "value": "Vals当前第一名88.56%，不等于100%上限；分数聚集不足以证明整个162任务套件接近饱和，撤回此前泛化判断。",
@@ -450,7 +449,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://hazyresearch.stanford.edu/legalbench/",
@@ -488,7 +487,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -500,7 +499,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -512,7 +511,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -524,7 +523,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -536,7 +535,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -548,7 +547,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -560,7 +559,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -572,7 +571,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -584,7 +583,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         },
@@ -596,7 +595,7 @@
           "track": "Vals AI独立第三方",
           "source_url": "https://www.vals.ai/benchmarks/legal_bench",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "source_date": "2026-10-13",
           "result_type": "第三方页面当前前十；非原论文官方总榜"
         }
@@ -680,7 +679,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。"
+      "note": "本次下载的源站PDF字节校验；不声称重传或替换既有副本。"
     },
     "pdf_bytes": {
       "value": 1204779,
@@ -722,15 +721,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1fekXBEL2j9tOkX6YMkPslUyW1V8cqUl3",
-      "webViewLink": "https://drive.google.com/file/d/1fekXBEL2j9tOkX6YMkPslUyW1V8cqUl3/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1fekXBEL2j9tOkX6YMkPslUyW1V8cqUl3/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2308.11462",
         "accessed": "2026-11-08"
@@ -741,13 +733,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.dataset_url",
           "basic_info.license",

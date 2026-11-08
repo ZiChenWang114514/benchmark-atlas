@@ -1,10 +1,10 @@
 # FrontierMath Erdős
 
-> Benchmark Constitution｜深度核验：2026-11-07（KST / Asia/Seoul）。访问日沿本轮固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
+> Benchmark Constitution｜深度核验：2026-11-07。访问日沿固定采集日，运行时间另列。待核实不等于未公开；来源冲突并列保留。
 
 它测的是在统一预算内解决未解猜想并给出Lean证明，不是已知答案的数学竞赛。公开已解问题登记包含标准评测、额外尝试及外部工作，不能拿登记总数替代模型得分。
 
-编辑状态：研究快照；trending: A；未核实字段保留标记
+最近复核
 
 ## 基本信息
 
@@ -24,7 +24,7 @@
 
 来源：[1](https://arxiv.org/abs/2609.25050)（访问2026-11-07）
 
-**发布日期**：2026-09-06 19:32:55 KST（arXiv首版；题集于2026年8月构建）
+**发布日期**：2026-09-06 19:32:55 （arXiv首版；题集于2026年8月构建）
 
 来源：[1](https://arxiv.org/abs/2609.25050)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
@@ -172,28 +172,28 @@
 
 ## 最新情况
 
-**本次核验**：2026-11-07 KST / Asia/Seoul
+**本次核验**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
 **数据及热度证据**：```json
 {
-  "version": "68猜想固定题集（2026年8月构建）",
-  "heat_confidence": "A",
-  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。",
+  "version": "68猜想固定题集（2026年8月构建）"
+  "heat_confidence": "A"
+  "why_trending": "候选热度等级A；下列已重新打开的证据分别标明评测方与证据性质，不把网页数量当作独立采纳机构数量。"
   "evidence_2026_h2": [
     {
-      "url": "https://epoch.ai/data/benchmarks.csv",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "Epoch AI",
+      "url": "https://epoch.ai/data/benchmarks.csv"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "Epoch AI"
       "note": "本次读取CSV并提取成功运行记录，含2026H2运行。"
-    },
+    }
     {
-      "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
-      "organization": "官方维护方",
+      "url": "https://epoch.ai/benchmarks/frontiermath-erdos"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
+      "organization": "官方维护方"
       "note": "已打开当前官方方法与榜单；观察日不冒充发布时间。"
     }
   ]
@@ -202,7 +202,7 @@
 
 来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
-**论文与版本历史**：v1：2026-09-06 19:32:55 KST；本轮arXiv提交历史只列这一版。
+**论文与版本历史**：v1：2026-09-06 19:32:55；arXiv提交历史只列这一版。
 
 来源：[1](https://arxiv.org/abs/2609.25050)（访问2026-11-07）
 
@@ -222,7 +222,7 @@
 
 ## 榜单快照
 
-**快照日期**：2026-11-07 KST / Asia/Seoul
+**快照日期**：2026-11-07
 
 来源：[1](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
@@ -236,16 +236,16 @@
 
 | 分轨/范围 | 名次 | 模型/系统 | 得分 | 指标 | 运行/提交日期 | 来源 |
 |---|---:|---|---:|---|---|---|
-| 待核实（CSV为空） | 1 | GPT-6.1 Sol (max) | 0.0441176470588235 | mean_score (0–1) | 2026-10-02T05:26:05+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 2 | GPT-6 Astra (max) | 0.0294117647058823 | mean_score (0–1) | 2026-08-29T01:33:49+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 3 | Claude Opus 5.5 (max) | 0.0294 | mean_score (0–1) | 2026-09-24T22:30:00+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 4 | Claude Sonnet 5.5 (max) | 0.029 | mean_score (0–1) | 2026-10-08T22:40:19.965000+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 5 | GPT-6 Sol (max) | 0.0147058823529411 | mean_score (0–1) | 2026-09-30T18:15:20+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 6 | Gemini 4 Argon (high) | 0.0147058823529411 | mean_score (0–1) | 2026-10-21T02:29:42+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 7 | Grok 4.7 (xhigh) | 0.0 | mean_score (0–1) | 2026-09-22T08:18:50+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
-| 待核实（CSV为空） | 8 | Gemini 3.8 Flash (high) | 0.0 | mean_score (0–1) | 2026-09-03T02:31:10+09:00 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 1 | GPT-6.1 Sol (max) | 0.0441176470588235 | mean_score (0–1) | 2026-10-02 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 2 | GPT-6 Astra (max) | 0.0294117647058823 | mean_score (0–1) | 2026-08-29 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 3 | Claude Opus 5.5 (max) | 0.0294 | mean_score (0–1) | 2026-09-24 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 4 | Claude Sonnet 5.5 (max) | 0.029 | mean_score (0–1) | 2026-10-08 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 5 | GPT-6 Sol (max) | 0.0147058823529411 | mean_score (0–1) | 2026-09-30 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 6 | Gemini 4 Argon (high) | 0.0147058823529411 | mean_score (0–1) | 2026-10-21 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 7 | Grok 4.7 (xhigh) | 0.0 | mean_score (0–1) | 2026-09-22 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
+| 待核实（CSV为空） | 8 | Gemini 3.8 Flash (high) | 0.0 | mean_score (0–1) | 2026-09-03 | [原始来源](https://epoch.ai/data/benchmarks.csv) |
 
-采集：2026-11-07（KST / Asia/Seoul）；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
+采集：2026-11-07；运行日/提交日与榜表更新时间不混同。分轨名次只在各自协议中成立。
 
 **覆盖说明**：刷新FrontierMath-Erdos成功记录前8，保持mean_score原始0–1小数，不将0.0294强制改成2/68。CSV task version空值仍待核实；页面17个已解包含外部/非标准尝试，不是任一模型标准分数。
 
@@ -281,7 +281,7 @@
 
 **PDF SHA-256**：49a0289087c9378b02e0a85cded14cc0ce9d8b43a814065af2e54895eef6babc
 
-核验说明：本轮下载原始PDF字节计算，非arXiv网页显示大小。
+核验说明：下载原始PDF字节计算，非arXiv网页显示大小。
 
 来源：[1](https://arxiv.org/pdf/2609.25050)（访问2026-11-07）
 
@@ -289,11 +289,11 @@
 316954
 ```
 
-核验说明：本轮实际下载字节数；不代表Drive已上传。
+核验说明：实际下载字节数；不代表已上传。
 
 来源：[1](https://arxiv.org/pdf/2609.25050)（访问2026-11-07）
 
-**Drive文件夹**：待核实
+**文件夹**：待核实
 
 状态：待核实。
 
@@ -304,11 +304,11 @@
 **其他官方文档**：```json
 [
   {
-    "type": "官方评测scaffold与Lean题目",
+    "type": "官方评测scaffold与Lean题目"
     "url": "https://github.com/epoch-research/LeanOpenProblems"
-  },
+  }
   {
-    "type": "当前已解问题登记及方法",
+    "type": "当前已解问题登记及方法"
     "url": "https://epoch.ai/benchmarks/frontiermath-erdos"
   }
 ]
@@ -316,26 +316,26 @@
 
 来源：[1](https://github.com/epoch-research/LeanOpenProblems)（访问2026-11-07）；[2](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
-**Drive论文链接**：待核实
+**论文链接**：待核实
 
 状态：待核实。
 
-核验说明：本组仅建立本地研究条目，未上传Drive。
+核验说明：本组仅建立本地研究条目，未上传。
 
 来源：[1](https://epoch.ai/benchmarks/frontiermath-erdos)（访问2026-11-07）
 
 ## 变更记录
 
-**本轮及历史变更**：```json
+**及历史变更**：```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "change": "Round 2逐项深核：重读官方论文PDF/网页、仓库与可访问数据卡，修正版本、授权与方法边界，刷新分轨结构化成绩；无证据字段保留待核实。"
+    "date": "2026-11-07"
+    最近复核
   }
 ]
 ```

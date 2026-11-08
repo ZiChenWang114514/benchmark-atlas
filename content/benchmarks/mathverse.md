@@ -1,5 +1,5 @@
 # MathVerse
-> 核验：2026-11-08（KST / Asia/Seoul）。已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。
+> 核验：2026-11-08。已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。
 
 MathVerse通过改变同一题中图文信息的分配，检查模型是否真的利用数学图解。应分清2,612原题、六版本构建总量及公开testmini的788原题；All只汇总五种多模态版本，Text Only另作消融，CoT-E与w/o成绩也不得混排。
 
@@ -97,13 +97,13 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S13](https://mathverse-cuhk.github.io/)
+**核查日**：2026-11-08 [S13](https://mathverse-cuhk.github.io/)
 
 **数据版本与持续使用**：公开评测仍按testmini及testmini_text_only两配置；论文2,612原题总量与HF 3,940+788版本化行数各有不同分母。 [S4](https://github.com/ZrrSkywalker/MathVerse) [S5](https://huggingface.co/datasets/AI4Math/MathVerse)
 
-**论文版本与证据历史**：v1 2024-03-22T02:59:50+09:00（KST）；v2 2024-08-18T17:10:16+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S6](https://arxiv.org/abs/2403.14624)
+**论文版本与证据历史**：v1 2024-03-22；v2 2024-08-18。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S6](https://arxiv.org/abs/2403.14624)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：官方testmini w/o CoT-E表最高61.7%，不能把另列CoT-E分数混入判断，也不能代替完整2,612原题表现的结论。 [S13](https://mathverse-cuhk.github.io/)
 
@@ -113,7 +113,7 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S15](https://mathverse-cuhk.github.io/#leaderboard)
+**快照日**：2026-11-08 [S15](https://mathverse-cuhk.github.io/#leaderboard)
 
 **官方榜入口**：https://mathverse-cuhk.github.io/#leaderboard [S1](https://mathverse-cuhk.github.io/)
 
@@ -200,21 +200,21 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 
 **PDF SHA-256**：9eb1f3c95cb78e80ab280191a3c459599af725152121f1d987c5c6282c09b18b [S10](https://arxiv.org/pdf/2403.14624)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：5598195 [S10](https://arxiv.org/pdf/2403.14624)
 
-**原有Drive文件夹**：{"id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi", "webViewLink": "https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi"} [S19](https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi)
+**原有文件夹**：{"id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi", "webViewLink": " [S19](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": "https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk"}] [S20](https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk)
+**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": " [S20](
 
-**原有Drive PDF**：{"id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy", "webViewLink": "https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk"} [S21](https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk)
+**原有 PDF**：{"id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy", "webViewLink": " [S21](
 
 ## 变更记录
 
 - 2026-11-07 · 核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
-- 2026-11-07 · 第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://arxiv.org/abs/2403.14624) [S1](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/)
 
 ### 来源索引
@@ -239,6 +239,6 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 - S16 · [https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal) · 访问 2026-11-07
 - S17 · [https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2) · 访问 2026-11-08
 - S18 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S19 · [https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi](https://drive.google.com/drive/folders/1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi) · 访问 2026-11-07
-- S20 · [https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk](https://docs.google.com/document/d/1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4/edit?usp=drivesdk) · 访问 2026-11-07
-- S21 · [https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk](https://drive.google.com/file/d/1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy/view?usp=drivesdk) · 访问 2026-11-07
+- S19 · [ · 访问 2026-11-07
+- S20 · [ · 访问 2026-11-07
+- S21 · [ · 访问 2026-11-07

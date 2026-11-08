@@ -177,7 +177,7 @@ function tight(cell: unknown): boolean {
 ) : drive && safeUrl(String(drive.webViewLink)) ? (
   <div>
     <p class="field-value">
-      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : '在 Google Drive 打开'}</a>
+      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : '打开文件'}</a>
       {drive.id ? <span class="file-id">{String(drive.id)}</span> : null}
     </p>
     {Object.keys(drive).some((key) => !['webViewLink', 'id', 'kind', 'type'].includes(key)) && (

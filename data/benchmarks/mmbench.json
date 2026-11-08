@@ -1,7 +1,7 @@
 {
   "id": "mmbench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "MMBench",
@@ -52,7 +52,7 @@
       ]
     },
     "release_date": {
-      "value": "2023-07-13T01:23:09+09:00（KST；arXiv首稿时间，不等于独立数据集首发）",
+      "value": "2023-07-13（；arXiv首稿时间，不等于独立数据集首发）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2307.06281",
@@ -467,7 +467,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08（KST / Asia/Seoul）",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
@@ -489,28 +489,23 @@
         "revisions": [
           {
             "version": "v1",
-            "submitted_at": "2023-07-13T01:23:09+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2023-07-13"
           },
           {
             "version": "v2",
-            "submitted_at": "2023-07-27T01:02:57+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2023-07-27"
           },
           {
             "version": "v3",
-            "submitted_at": "2023-08-13T22:12:47+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2023-08-13"
           },
           {
             "version": "v4",
-            "submitted_at": "2024-04-30T00:21:19+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-04-30"
           },
           {
             "version": "v5",
-            "submitted_at": "2024-08-20T12:56:03+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at": "2024-08-20"
           }
         ],
         "continued_use_2026h2": [
@@ -577,7 +572,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08（KST；采集日，不冒充评测运行日）",
+      "value": "2026-11-08（；采集日，不冒充评测运行日）",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/2307.06281",
@@ -675,7 +670,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮官方leaderboard URL只返回前端应用壳，未取得动态分数，不能声称已刷新到其最新排名。补列原论文v5表3历史test成绩，并把2026研究CompassVerifier结果另轨；不同数据版、CN/EN、dev/test与评分器不得混排。",
+      "value": "官方leaderboard URL只返回前端应用壳，未取得动态分数，不能声称已刷新到其最新排名。补列原论文v5表3历史test成绩，并把2026研究CompassVerifier结果另轨；不同数据版、CN/EN、dev/test与评分器不得混排。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/open-compass/MMBench/main/README.md",
@@ -764,7 +759,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮下载PDF字节的SHA-256；不冒称已重新上传Drive。"
+      "note": "下载PDF字节的SHA-256；不冒称已重新上传。"
     },
     "pdf_bytes": {
       "value": 7311810,
@@ -774,16 +769,13 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮直接下载的PDF文件字节数。"
+      "note": "直接下载的PDF文件字节数。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE",
-        "webViewLink": "https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -791,27 +783,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE",
-          "webViewLink": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai",
-      "webViewLink": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -820,18 +807,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。"
+        "change": "最近复核"
       }
     ],
     "sources": [

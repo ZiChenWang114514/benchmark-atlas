@@ -1,7 +1,7 @@
 {
   "id": "harvey-lab",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；近期热门新建条目，未核实字段保留标记；trending: A",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Harvey LAB（Legal Agent Benchmark）",
@@ -229,7 +229,7 @@
       ]
     },
     "author_background": {
-      "value": "执业律师参与任务来源，rubric由领域专家撰写；首发称75,000+标准，不能把该历史数当作本轮实测条数。",
+      "value": "执业律师参与任务来源，rubric由领域专家撰写；首发称75,000+标准，不能把该历史数当作实测条数。",
       "sources": [
         {
           "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
@@ -433,7 +433,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（KST / Asia/Seoul；本轮指定采集日期）",
+      "value": "2026-11-07（指定采集日期）",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/harveyai/harvey-labs/HEAD/README.md",
@@ -483,7 +483,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "近期热门证据取自候选研究与本轮重开页面；A级：多家前沿实验室或评测机构独立采用。"
+      "note": "近期热门证据取自候选研究与重开页面；A级：多家前沿实验室或评测机构独立采用。"
     },
     "paper_revision_history": {
       "value": "待核实",
@@ -542,7 +542,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）",
+      "value": "2026-11-07（采集日，不代替榜单更新或实验日期）",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
@@ -578,7 +578,7 @@
           "metric": "Hallucination-Gated All-Pass Rate %",
           "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
           "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "criterion_pass_rate_percent": 95.5,
           "material_hallucinations_per_task": 0.62,
           "source_date": "待核实（页面未标明更新日）"
@@ -590,7 +590,7 @@
           "metric": "Hallucination-Gated All-Pass Rate %",
           "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
           "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "criterion_pass_rate_percent": 95.1,
           "material_hallucinations_per_task": 0.89,
           "source_date": "待核实（页面未标明更新日）"
@@ -602,7 +602,7 @@
           "metric": "Hallucination-Gated All-Pass Rate %",
           "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
           "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "criterion_pass_rate_percent": 92.8,
           "material_hallucinations_per_task": 0.74,
           "source_date": "待核实（页面未标明更新日）"
@@ -614,7 +614,7 @@
           "metric": "Hallucination-Gated All-Pass Rate %",
           "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
           "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "criterion_pass_rate_percent": 96.0,
           "material_hallucinations_per_task": 1.68,
           "source_date": "待核实（页面未标明更新日）"
@@ -626,7 +626,7 @@
           "metric": "Hallucination-Gated All-Pass Rate %",
           "track": "AA LAB-AA v1.1；120私有任务；Stirrup；三裁判",
           "source_url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "criterion_pass_rate_percent": 90.6,
           "material_hallucinations_per_task": 0.03,
           "source_date": "待核实（页面未标明更新日）"
@@ -638,7 +638,7 @@
           "metric": "Task Pass Rate %",
           "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
           "source_url": "https://www.vals.ai/benchmarks/hlab",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         },
         {
@@ -648,7 +648,7 @@
           "metric": "Task Pass Rate %",
           "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
           "source_url": "https://www.vals.ai/benchmarks/hlab",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         },
         {
@@ -658,7 +658,7 @@
           "metric": "Task Pass Rate %",
           "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
           "source_url": "https://www.vals.ai/benchmarks/hlab",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         },
         {
@@ -668,7 +668,7 @@
           "metric": "Task Pass Rate %",
           "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
           "source_url": "https://www.vals.ai/benchmarks/hlab",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         },
         {
@@ -678,7 +678,7 @@
           "metric": "Task Pass Rate %",
           "track": "HLAB-Vals-1.1；120私有任务；Harvey/Valkyrie；双裁判",
           "source_url": "https://www.vals.ai/benchmarks/hlab",
-          "collected_at": "2026-11-07 KST",
+          "collected_at": "2026-11-07",
           "source_date": "2026-11-05（页面自报更新日期，未给时区）"
         }
       ],
@@ -836,24 +836,22 @@
       }
     ],
     "status": "待核实",
-    "note": "本组按任务要求不上传Drive；原始PDF URL见original_files。"
+    "note": "本组按任务要求不上传；原始PDF URL见original_files。"
   },
   "changelog": {
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。"
+        "change": "最近复核"
       }
     ],
     "sources": [
       {
-        "url": "urn:benchmark-constitution:editorial:r2-q4",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]

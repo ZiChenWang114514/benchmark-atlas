@@ -1,7 +1,7 @@
 {
   "id": "drop",
   "schema_version": "0.1.0",
-  "editorial_status": "已核实存在；深度条目；显式待核实项保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "DROP",
@@ -22,7 +22,7 @@
       ]
     },
     "version": {
-      "value": "2019 公开数据集；本轮未固定下载包版本",
+      "value": "2019 公开数据集；未固定下载包版本",
       "sources": [
         {
           "url": "https://allennlp.org/drop",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2019-03-01（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明）",
+      "value": "2019-03-01（arXiv初稿日期，非独立数据集首发声明）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
@@ -394,7 +394,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Seoul）",
+      "value": "2026-11-07",
       "sources": [
         {
           "url": "https://allennlp.org/drop",
@@ -407,7 +407,7 @@
       ]
     },
     "latest_dataset_version": {
-      "value": "本轮未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。",
+      "value": "未核实新的数据版本；原allennlp-reading-comprehension仓库明确弃用，模型迁至allennlp-models；不能将代码迁移当成数据更新。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/allenai/allennlp-reading-comprehension/master/README.md",
@@ -418,7 +418,7 @@
     "paper_revision_history": {
       "value": {
         "arxiv_version": "arXiv v2",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+        "history_note": "完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。",
         "2026_h2_evidence": [
           {
             "url": "https://arxiv.org/html/2609.27284v1",
@@ -482,7 +482,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 KST（材料采集日；结果为2019论文历史实验）",
+      "value": "2026-11-07 （材料采集日；结果为2019论文历史实验）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
@@ -498,7 +498,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。"
+      "note": "官方榜WebFetch返回500，公开网页curl又遇TLS错误；搜索索引可见历史表，不冒充实时成功读取。"
     },
     "third_party_url": {
       "value": "待核实",
@@ -509,7 +509,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
+      "note": "未定位同一版本与可比协议下独立第三方成绩榜；论文被引用或模型卡自报不等于独立复现。"
     },
     "results": {
       "value": [
@@ -521,7 +521,7 @@
           "exact_match": 44.07,
           "source_url": "https://arxiv.org/abs/1903.00161",
           "result_type": "2019论文历史基线，非当前排行榜",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07"
         },
         {
           "rank": 2,
@@ -531,7 +531,7 @@
           "metric": "原论文test F1 (%)",
           "source_url": "https://arxiv.org/abs/1903.00161",
           "result_type": "2019论文历史基线，非当前排行榜",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07"
         },
         {
           "rank": "参考非模型名次",
@@ -541,7 +541,7 @@
           "metric": "作者作答560道test题的人工F1 (%)",
           "source_url": "https://arxiv.org/abs/1903.00161",
           "result_type": "2019历史人工参考",
-          "collected_at": "2026-11-07 KST"
+          "collected_at": "2026-11-07"
         }
       ],
       "sources": [
@@ -552,7 +552,7 @@
       ]
     },
     "coverage_note": {
-      "value": "官方隐藏测试榜本轮不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。",
+      "value": "官方隐藏测试榜不可读（500/TLS）；未据搜索缓存宣称刷新实时名次。以下回退为已实际阅读原论文Table 4历史基线，明确非2026年最新SOTA；不同dev/test、prompt与训练协议不能混榜。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1903.00161",
@@ -591,7 +591,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
+      "note": "所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -602,17 +602,14 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
+      "note": "所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。"
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_",
-      "webViewLink": "https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -635,7 +632,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的PDF字节计算；不是外部网页抄录。"
+      "note": "实际下载的PDF字节计算；不是外部网页抄录。"
     },
     "pdf_bytes": {
       "value": 1989064,
@@ -645,16 +642,13 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮下载字节数；未上传Drive。"
+      "note": "下载字节数；未上传。"
     },
     "drive_folder": {
-      "value": {
-        "id": "1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc",
-        "webViewLink": "https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -662,15 +656,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w",
-          "webViewLink": "https://docs.google.com/document/d/1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/drop.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -680,13 +672,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.code_url",
           "evaluation.official_scripts",
@@ -694,7 +684,7 @@
           "latest_status.latest_dataset_version"
         ]
       },
-      "2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
+      "2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。"
     ],
     "sources": [
       {

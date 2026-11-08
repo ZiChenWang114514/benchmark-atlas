@@ -1,6 +1,6 @@
 # IFBench
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
 IFBench用58种未见可验证约束测试精确指令泛化，而非重命名IFEval。300条原测试、AA 294题实现、29类训练约束以及软件包83种验证器是四种不同统计口径；本页给出代码和数据各自许可。
 
@@ -36,7 +36,7 @@ arXiv v3
 
 ### 发布日期
 
-2025-07-04T02:44:33+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2025-07-04（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）。
 
@@ -62,7 +62,7 @@ arXiv v3
 
 ```json
 {
-  "code": "Apache-2.0",
+  "code": "Apache-2.0"
   "data": "ODC-BY-1.0；依Ai2 Responsible Use Guidelines供研究教育；第三方生成输出另受对应条款约束。"
 }
 ```
@@ -119,13 +119,13 @@ Allen Institute for Artificial Intelligence、University of Washington
 
 ```json
 [
-  "Valentina Pyatkin",
-  "Saumya Malik",
-  "Victoria Graf",
-  "Hamish Ivison",
-  "Shengyi Huang",
-  "Pradeep Dasigi",
-  "Nathan Lambert",
+  "Valentina Pyatkin"
+  "Saumya Malik"
+  "Victoria Graf"
+  "Hamish Ivison"
+  "Shengyi Huang"
+  "Pradeep Dasigi"
+  "Nathan Lambert"
   "Hannaneh Hajishirzi"
 ]
 ```
@@ -254,7 +254,7 @@ strict直接验证，loose允许删首末行和部分字体标记后再检验；
 
 ### 官方脚本
 
-当前ifbench包可通过pip安装，命名空间ifbench.instructions、instructions_registry等；wheel含test JSONL，用ifbench.data_path()访问。原论文主指标prompt-level loose accuracy。
+当前ifbench包可通过pip安装，命名空间ifbench.instructions、instructions_registry等；wheel含test JSONL，用ifbench.data_path访问。原论文主指标prompt-level loose accuracy。
 
 来源：[1](https://github.com/allenai/IFBench/blob/main/README.md)（访问 2026-11-08）。
 
@@ -266,9 +266,9 @@ AA 294题×5次不同于原始300提示；单/多轮与strict/loose差异须保�
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）；[2](https://github.com/allenai/IFBench)（访问 2026-11-08）。
 
@@ -283,30 +283,30 @@ AA 294题×5次不同于原始300提示；单/多轮与strict/loose差异须保�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2025-07-04T02:44:33+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2025-07-04"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2025-08-04T20:54:59+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v2"
+    "submitted_at": "2025-08-04"
+    "timezone": ""
+  }
   {
-    "version": "v3",
-    "submitted_at": "2025-11-11T18:40:12+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v3"
+    "submitted_at": "2025-11-11"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）。
 
 ### 饱和度与证据边界
 
-AA本轮294题最高83.3%；原论文300题prompt-loose轨IF-RLVR qwen2.5 7b为53.7%。不同题集/实现不能直接用于统一饱和结论。
+AA294题最高83.3%；原论文300题prompt-loose轨IF-RLVR qwen2.5 7b为53.7%。不同题集/实现不能直接用于统一饱和结论。
 
 来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
@@ -328,7 +328,7 @@ HF当前页面出现模型在IFBench_test上训练/微调的关联条目，证�
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://artificialanalysis.ai/evaluations/ifbench)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
@@ -349,64 +349,64 @@ https://artificialanalysis.ai/evaluations/ifbench
 ```json
 [
   {
-    "rank": 1,
-    "model": "Grok 4.3 (Medium)",
-    "score": "83.3",
-    "metric": "pass@1 (%)",
-    "track": "AA独立294题，规则验证pass@1",
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "Grok 4.3 (Medium)"
+    "score": "83.3"
+    "metric": "pass@1 (%)"
+    "track": "AA独立294题，规则验证pass@1"
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "Grok 4.20 0309 (Reasoning)",
-    "score": "82.9",
-    "metric": "pass@1 (%)",
-    "track": "AA独立294题，规则验证pass@1",
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "Grok 4.20 0309 (Reasoning)"
+    "score": "82.9"
+    "metric": "pass@1 (%)"
+    "track": "AA独立294题，规则验证pass@1"
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "MiniMax-M3",
-    "score": "82.9",
-    "metric": "pass@1 (%)",
-    "track": "AA独立294题，规则验证pass@1",
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench",
-    "source_date": "待核实（页面快照）",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "MiniMax-M3"
+    "score": "82.9"
+    "metric": "pass@1 (%)"
+    "track": "AA独立294题，规则验证pass@1"
+    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+    "source_date": "待核实（页面快照）"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "IF-RLVR qwen2.5 7b",
-    "score": "53.7",
-    "metric": "prompt-level loose accuracy (%)",
-    "track": "作者论文表3，原始300题，prompt-level loose",
-    "source_url": "https://arxiv.org/pdf/2507.02833",
-    "result_type": "历史论文；表3列出模型子集内排序",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "IF-RLVR qwen2.5 7b"
+    "score": "53.7"
+    "metric": "prompt-level loose accuracy (%)"
+    "track": "作者论文表3，原始300题，prompt-level loose"
+    "source_url": "https://arxiv.org/pdf/2507.02833"
+    "result_type": "历史论文；表3列出模型子集内排序"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "IF-RLVR TULU-DPO 8b",
-    "score": "44.6",
-    "metric": "prompt-level loose accuracy (%)",
-    "track": "作者论文表3，原始300题，prompt-level loose",
-    "source_url": "https://arxiv.org/pdf/2507.02833",
-    "result_type": "历史论文；表3列出模型子集内排序",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "IF-RLVR TULU-DPO 8b"
+    "score": "44.6"
+    "metric": "prompt-level loose accuracy (%)"
+    "track": "作者论文表3，原始300题，prompt-level loose"
+    "source_url": "https://arxiv.org/pdf/2507.02833"
+    "result_type": "历史论文；表3列出模型子集内排序"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "TULU",
-    "score": "28.9",
-    "metric": "prompt-level loose accuracy (%)",
-    "track": "作者论文表3，原始300题，prompt-level loose",
-    "source_url": "https://arxiv.org/pdf/2507.02833",
-    "result_type": "历史论文；表3列出模型子集内排序",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+    "rank": 3
+    "model": "TULU"
+    "score": "28.9"
+    "metric": "prompt-level loose accuracy (%)"
+    "track": "作者论文表3，原始300题，prompt-level loose"
+    "source_url": "https://arxiv.org/pdf/2507.02833"
+    "result_type": "历史论文；表3列出模型子集内排序"
+    "snapshot_date": "2026-11-08 "
   }
 ]
 ```
@@ -459,29 +459,29 @@ https://github.com/allenai/IFBench/issues
 
 https://arxiv.org/pdf/2507.02833
 
-> 原始论文PDF入口；未下载或上传Drive，哈希与字节数待核实。
+> 原始论文PDF入口；未下载或上传，哈希与字节数待核实。
 
 来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 2757383
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2507.02833)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 待核实
 
@@ -494,7 +494,7 @@ a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 ```json
 [
   {
-    "type": "官方网页方法与榜单（非PDF）",
+    "type": "官方网页方法与榜单（非PDF）"
     "url": "https://github.com/allenai/IFBench"
   }
 ]
@@ -502,11 +502,11 @@ a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 
 来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 待核实
 
-> 按本批范围不上传Drive；不是官方未公开。
+> 按本批范围不上传；不是官方未公开。
 
 来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）。
 
@@ -517,14 +517,14 @@ a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

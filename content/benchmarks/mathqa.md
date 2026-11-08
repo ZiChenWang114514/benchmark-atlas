@@ -1,7 +1,7 @@
 # MathQA
-> 核验：2026-11-08（KST / Asia/Seoul）。第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造
+> 核验：2026-11-08。官方证据复核；授权与版本冲突显式保留；未核实项不补造
 
-MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分析步骤提供形式监督。它不是MATH竞赛集，也不等于原AQuA全部题目。本轮修正dev/test比例顺序，并查明网站模板MIT与HF数据卡Apache-2.0的许可范围差别。
+MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分析步骤提供形式监督。它不是MATH竞赛集，也不等于原AQuA全部题目。修正dev/test比例顺序，并查明网站模板MIT与HF数据卡Apache-2.0的许可范围差别。
 
 概述依据：[S1](https://arxiv.org/abs/1905.13319) [S2](https://math-qa.github.io/math-QA/) [S3](https://arxiv.org/html/2610.11978v1)
 
@@ -11,11 +11,11 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 **全称**：MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms [S1](https://arxiv.org/abs/1905.13319)
 
-**版本口径**：2019 Operation-Based Formalisms数据；未固定本轮数据commit [S2](https://math-qa.github.io/math-QA/) [S1](https://arxiv.org/abs/1905.13319)
+**版本口径**：2019 Operation-Based Formalisms数据；未固定数据commit [S2](https://math-qa.github.io/math-QA/) [S1](https://arxiv.org/abs/1905.13319)
 
 **论文修订**：arXiv v1 [S4](https://arxiv.org/abs/1905.13319)
 
-**发布时间**：2019-05-31（Asia/Seoul；arXiv初稿日期，非独立数据集首发声明） [S1](https://arxiv.org/abs/1905.13319)
+**发布时间**：2019-05-31（arXiv初稿日期，非独立数据集首发声明） [S1](https://arxiv.org/abs/1905.13319)
 
 **主板块**：数学 [S2](https://math-qa.github.io/math-QA/)
 
@@ -93,13 +93,13 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S11](https://math-qa.github.io/math-QA/)
+**核查日**：2026-11-08 [S11](https://math-qa.github.io/math-QA/)
 
-**数据版本与持续使用**：2019 Operation-Based Formalisms数据；未固定本轮数据commit [S2](https://math-qa.github.io/math-QA/) [S1](https://arxiv.org/abs/1905.13319)
+**数据版本与持续使用**：2019 Operation-Based Formalisms数据；未固定数据commit [S2](https://math-qa.github.io/math-QA/) [S1](https://arxiv.org/abs/1905.13319)
 
-**论文版本与证据历史**：v1 2019-05-31T06:28:12+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/1905.13319)
+**论文版本与证据历史**：v1 2019-05-31。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S4](https://arxiv.org/abs/1905.13319)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：待核实 [S1](https://arxiv.org/abs/1905.13319) [S3](https://arxiv.org/html/2610.11978v1)
 
@@ -111,7 +111,7 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S12](https://math-qa.github.io/math-QA/html/)
+**快照日**：2026-11-08 [S12](https://math-qa.github.io/math-QA/html/)
 
 **官方榜入口**：https://math-qa.github.io/math-QA/html/ [S13](https://math-qa.github.io/math-QA/html/)
 
@@ -193,21 +193,21 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 **PDF SHA-256**：220cd30ed121d4472bace7ce7a1a80c28cd4ed65669d248d5773ed3b866fdaf2 [S8](https://arxiv.org/pdf/1905.13319)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：850027 [S8](https://arxiv.org/pdf/1905.13319)
 
-**原有Drive文件夹**：{"id": "1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-", "webViewLink": "https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-"} [S15](https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-)
+**原有文件夹**：{"id": "1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-", "webViewLink": " [S15](
 
-**其他材料**：{"chinese_intro_doc": {"id": "1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs", "webViewLink": "https://docs.google.com/document/d/1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs/edit?usp=drivesdk", "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/mathqa.md"} [S15](https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-)
+**其他材料**：{"chinese_intro_doc": {"id": "1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/mathqa.md"} [S15](
 
-**原有Drive PDF**：{"id": "1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE", "webViewLink": "https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk"} [S16](https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk)
+**原有 PDF**：{"id": "1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE", "webViewLink": " [S16](
 
 ## 变更记录
 
 - 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07 · 深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://math-qa.github.io/math-QA/) [S11](https://math-qa.github.io/math-QA/)
 
 ### 来源索引
@@ -228,5 +228,5 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 - S12 · [https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/) · 访问 2026-11-08
 - S13 · [https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/) · 访问 2026-11-07
 - S14 · [https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1) · 访问 2026-11-08
-- S15 · [https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-](https://drive.google.com/drive/folders/1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-) · 访问 2026-11-07
-- S16 · [https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk](https://drive.google.com/file/d/1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE/view?usp=drivesdk) · 访问 2026-11-07
+- S15 · [ · 访问 2026-11-07
+- S16 · [ · 访问 2026-11-07

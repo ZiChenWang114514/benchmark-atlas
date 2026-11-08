@@ -1,7 +1,7 @@
 {
   "id": "vials",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；11节研究快照；note: trending: A；未知字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "VIALS",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v2；提交于 2026-09-20 00:59:27 KST",
+      "value": "arXiv v2；提交于 2026-09-20 00:59:27",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2608.21357",
@@ -40,7 +40,7 @@
       ]
     },
     "release_date": {
-      "value": "数据v1.0.0 tag发布2026-09-15；v2.0.0发布2026-10-30（数据卡CHANGELOG标示日，未给时区）；arXiv v1另为2026-08-22 02:59:26 KST，不混为数据上线日。",
+      "value": "数据v1.0.0 tag发布2026-09-15；v2.0.0发布2026-10-30（数据卡CHANGELOG标示日，未给时区）；arXiv v1另为2026-08-22 02:59:26，不混为数据上线日。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/Handshake-AI-Research/VIALS/raw/main/CHANGELOG.md",
@@ -150,7 +150,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "authors": {
       "value": [
@@ -186,7 +186,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "design_goals": {
@@ -367,7 +367,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://joinhandshake.com/research/benchmarks/vials/",
@@ -392,13 +392,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-08-22 02:59:26 KST",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2026-08-22 02:59:26"
         },
         {
           "version": "v2",
-          "submitted_at": "2026-09-20 00:59:27 KST",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2026-09-20 00:59:27"
         }
       ],
       "sources": [
@@ -455,7 +453,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://joinhandshake.com/research/benchmarks/vials/",
@@ -498,7 +496,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 1
@@ -510,7 +508,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 2
@@ -522,7 +520,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 3
@@ -534,7 +532,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 4
@@ -546,7 +544,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 5
@@ -558,7 +556,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 6
@@ -570,7 +568,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 7
@@ -582,7 +580,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 8
@@ -594,7 +592,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 9
@@ -606,7 +604,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 10
@@ -618,7 +616,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 11
@@ -630,7 +628,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 12
@@ -642,7 +640,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 13
@@ -654,7 +652,7 @@
           "track": "Handshake官网 / 直接视觉",
           "source_url": "https://joinhandshake.com/research/benchmarks/vials/",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "官网当前榜；README称最新版本榜，网页未逐行标revision",
           "settings": "官方直接视觉评测；非AA pass^3",
           "rank": 14
@@ -666,7 +664,7 @@
           "track": "Artificial Analysis / 工具辅助",
           "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "Stirrup；Python+看图；无网络；3独立重复；GPT-6 Luna medium裁判",
           "benchmark_version": "161 tasks；AA当前实现",
           "source_date": "待核实（网页未标结果运行或全榜更新时间）",
@@ -679,7 +677,7 @@
           "track": "Artificial Analysis / 工具辅助",
           "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "Stirrup；Python+看图；无网络；3独立重复；GPT-6 Luna medium裁判",
           "benchmark_version": "161 tasks；AA当前实现",
           "source_date": "待核实（网页未标结果运行或全榜更新时间）",
@@ -692,7 +690,7 @@
           "track": "Artificial Analysis / 工具辅助",
           "source_url": "https://artificialanalysis.ai/evaluations/vials-aa",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "settings": "Stirrup；Python+看图；无网络；3独立重复；GPT-6 Luna medium裁判",
           "benchmark_version": "161 tasks；AA当前实现",
           "source_date": "待核实（网页未标结果运行或全榜更新时间）",
@@ -765,7 +763,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -776,7 +774,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     }
   },
   "original_files": {
@@ -816,7 +814,7 @@
         }
       ],
       "status": "待核实",
-      "note": "已检查所引官方材料，本轮未完成精确核验；不代表官方未公开。"
+      "note": "已检查所引官方材料，未完成精确核验；不代表官方未公开。"
     },
     "other_documents": {
       "value": [
@@ -834,15 +832,8 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1j2EXjcGL_PoavabJCnKTphxBsmv_aYI1",
-      "webViewLink": "https://drive.google.com/file/d/1j2EXjcGL_PoavabJCnKTphxBsmv_aYI1/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
-      {
-        "url": "https://drive.google.com/file/d/1j2EXjcGL_PoavabJCnKTphxBsmv_aYI1/view?usp=drivesdk",
-        "accessed": "2026-11-08"
-      },
       {
         "url": "https://arxiv.org/pdf/2608.21357",
         "accessed": "2026-11-08"
@@ -853,13 +844,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传Drive。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐源深核：补数据首发9月15日和v2十月30日，三题修正需重跑，论文结果实际v1。；恢复官网14个直接视觉分数，与AA3个工具pass^3分轨；补英语与Issue渠道及PDF哈希。"
+        "change": "最近复核"
       }
     ],
     "sources": [

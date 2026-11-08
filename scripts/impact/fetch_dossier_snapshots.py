@@ -5,7 +5,7 @@ import requests
 from common import write,read,stamp,BASE
 root=BASE/'impact/cache/dossiers';root.mkdir(exist_ok=True)
 s=requests.Session();s.headers['User-Agent']='BenchmarkConstitution evidence review (public dataset; no auth)'
-for i,p in enumerate(sorted(Path('/workspace/benchmark-atlas/data/benchmarks').glob('*.json')),1):
+for i,p in enumerate(sorted(Path('data/benchmarks').glob('*.json')),1):
  dest=root/p.name
  if read(dest,{}).get('accessed','').startswith('2026-11-08'):continue
  url='https://raw.githubusercontent.com/ZiChenWang114514/benchmark-constitution/main/data/benchmarks/'+p.name

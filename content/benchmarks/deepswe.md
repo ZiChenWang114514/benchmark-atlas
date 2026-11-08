@@ -1,6 +1,6 @@
 # DeepSWE
 
-> 深度核验：2026-11-07（KST / Asia/Seoul）。未知不等于未公开；网页更新日、运行日与访问日分开记录。
+> 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
 研究快照；trending: A；未知信息保留待核实。
 
@@ -46,7 +46,7 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 **仍待核实**（不推断为未公开）：
 
-- 合作方：本轮正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://deepswe.datacurve.ai/)
+- 合作方：正式材料不足以确认独立研究合作方；工具提供者、模型厂商和上游仓库不能据此当作合作机构。 [1](https://deepswe.datacurve.ai/)
 - 资助方：已核对论文/官方报告的作者、合作与致谢信息；未确认可列入该项目的直接资助方，不从机构隶属或合作协议推定。 [1](https://deepswe.datacurve.ai/)
 
 ## 设计目标
@@ -95,11 +95,11 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 ## 最新情况
 
-- **本轮核验日期**：2026-11-07 KST / Asia/Seoul [1](https://deepswe.datacurve.ai/)
+- **核验日期**：2026-11-07 [1](https://deepswe.datacurve.ai/)
 
 - **现行版本与采用证据**：version：v1.1；evidence_2026_h2：url：https://epoch.ai/benchmarks/deepswe/review；date：2026-09-07；note：Epoch独立审查为Flawed。；url：https://openai.com/index/gpt-6-astra/；date：2026-11-07；date_type：observed_on；note：GPT-6 Astra发布表采用。 [4](https://epoch.ai/benchmarks/deepswe/review) [9](https://openai.com/index/gpt-6-astra/)
 
-- **更新与修订**：本轮PDF为arXiv v1；当前仓库v1.1增加独立verifier容器，与论文初版实验需区分。 [2](https://arxiv.org/abs/2607.07946) [8](https://github.com/datacurve-ai/deep-swe/blob/main/README.md)
+- **更新与修订**：PDF为arXiv v1；当前仓库v1.1增加独立verifier容器，与论文初版实验需区分。 [2](https://arxiv.org/abs/2607.07946) [8](https://github.com/datacurve-ai/deep-swe/blob/main/README.md)
 
 - **饱和度判断**：编辑判断：官方v1.1可读榜首显示74%±3%，另外两配置四舍五入也为74%；重叠区间不支持把三者细微差异视作显著领先。 [1](https://deepswe.datacurve.ai/)
 
@@ -109,7 +109,7 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 ## 榜单快照
 
-- **快照采集日**：2026-11-07 KST / Asia/Seoul [1](https://deepswe.datacurve.ai/)
+- **快照采集日**：2026-11-07 [1](https://deepswe.datacurve.ai/)
 
 - **官方榜/正式委托榜**：https://deepswe.datacurve.ai/ [1](https://deepswe.datacurve.ai/)
 
@@ -134,7 +134,7 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 > claude-fable-5 [xhigh]：rank_type：官网显示行序，非显著性次序 [1](https://deepswe.datacurve.ai/)
 
 
-表内所有条目采集于2026-11-07（KST）；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
+表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。 [1](https://deepswe.datacurve.ai/)
 
@@ -144,30 +144,30 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 **仍待核实**（不推断为未公开）：
 
-- 公开联系邮箱：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
-- 官方社交：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
-- 隐私政策：本轮所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
+- 公开联系邮箱：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
+- 官方社交：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
+- 隐私政策：所查正式论文、README、官网链接中，未定位可确认对应维护方的这一公开联系渠道；不猜测邮箱或政策路径。 [1](https://deepswe.datacurve.ai/)
 
 ## 原始文件
 
 - **原始PDF**：https://arxiv.org/pdf/2607.07946 [10](https://arxiv.org/pdf/2607.07946)
 
-- **SHA-256**：1d988c90737299c6d844694ba967ff63f4e2aa13c66be20b97b8fa4bd89754ce [10](https://arxiv.org/pdf/2607.07946) 注：本轮实际下载的PDF字节计算；不是外部网页抄录。
+- **SHA-256**：1d988c90737299c6d844694ba967ff63f4e2aa13c66be20b97b8fa4bd89754ce [10](https://arxiv.org/pdf/2607.07946) 注：实际下载的PDF字节计算；不是外部网页抄录。
 
-- **PDF字节数**：713926 [10](https://arxiv.org/pdf/2607.07946) 注：本轮下载字节数；未上传Drive。
+- **PDF字节数**：713926 [10](https://arxiv.org/pdf/2607.07946) 注：下载字节数；未上传。
 
 - **其他正式文档**：type：仓库README（v1.1评分隔离）；url：https://github.com/datacurve-ai/deep-swe/blob/main/README.md；type：任务与数据卡；url：https://huggingface.co/datasets/datacurve/deep-swe [6](https://github.com/datacurve-ai/deep-swe) [7](https://huggingface.co/datasets/datacurve/deep-swe)
 
-- **Drive中的论文副本**：待核实 [1](https://deepswe.datacurve.ai/)
+- **中的论文副本**：待核实 [1](https://deepswe.datacurve.ai/)
 
 **仍待核实**（不推断为未公开）：
 
-- Drive归档目录：本轮仅在本地生成研究输出与PDF校验，未执行Drive上传；正式归档文件夹链接仍需确认。 [1](https://deepswe.datacurve.ai/)
+- 归档目录：仅在本地生成研究输出与PDF校验，未执行上传；正式归档文件夹链接仍需确认。 [1](https://deepswe.datacurve.ai/)
 
 ## 变更记录
 
-- date：2026-11-07；timezone：KST / Asia/Seoul；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：第二轮逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://deepswe.datacurve.ai/)
+- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://deepswe.datacurve.ai/)
 
 ---
 
-来源访问日期统一为2026-11-07（KST）；原始URL见各段链接，结构化逐字段证据见同名JSON。
+来源访问日期统一为2026-11-07；原始URL见各段链接，结构化逐字段证据见同名JSON。

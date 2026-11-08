@@ -1,6 +1,6 @@
 # GEO-Bench
 
-> Benchmark Constitution · 核查日期：2026-11-07（KST / Asia/Seoul）。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GEO-Bench是面向地球监测预训练视觉模型的12任务迁移基准，不是给LLM回答的遥感问答集。六项分类与六项分割强调小样本、传感器多样性及跨任务统计可比性；原版1.0与官方推荐的GEO-Bench-2应保留清晰版本边界。
 
@@ -28,13 +28,13 @@ General Earth Observation benchmark（GEO-Bench）
 
 ### 论文版本
 
-v2；2023-12-24T02:17:05+09:00（KST；论文修订号，不是数据版本）
+v2；2023-12-24（；论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2023-06-07T01:16:05+09:00（KST；arXiv初稿提交时间，非推定数据首发日）
+2023-06-07（；arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -55,7 +55,7 @@ v2；2023-12-24T02:17:05+09:00（KST；论文修订号，不是数据版本）
 
 ### 许可证
 
-代码Apache-2.0（本轮逐字读取LICENSE）；论文表1：BigEarthNet/Chesapeake为CDLA-P-1.0，So2Sat/ForestNet/Cashew/SA-crop/NZ-cattle为CC-BY-4.0，Brick-kiln为CC-BY-SA-4.0，EuroSAT/PV4GER/PV4GER-seg为MIT，NeonTree为CC0-1.0。使用须按各数据资产条款。
+代码Apache-2.0（逐字读取LICENSE）；论文表1：BigEarthNet/Chesapeake为CDLA-P-1.0，So2Sat/ForestNet/Cashew/SA-crop/NZ-cattle为CC-BY-4.0，Brick-kiln为CC-BY-SA-4.0，EuroSAT/PV4GER/PV4GER-seg为MIT，NeonTree为CC0-1.0。使用须按各数据资产条款。
 
 来源：[1](https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/LICENSE)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
 
@@ -286,7 +286,7 @@ https://github.com/ServiceNow/geo-bench-experiments
 
 ### 核查日
 
-2026-11-07（KST / Asia/Seoul；本轮指定采集日期）
+2026-11-07（指定采集日期）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -298,7 +298,7 @@ https://github.com/ServiceNow/geo-bench-experiments
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2023-06-07T01:16:05+09:00；timezone：Asia/Seoul (KST)；- version：v2；submitted_at：2023-12-24T02:17:05+09:00；timezone：Asia/Seoul (KST)；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09（arXiv编号月份；精确提交日待核实）；note：MEOX §IV-B与Table III实际评测六项GEO-Bench v1任务，明确使用官方划分和归一化统计。
+arxiv_submissions：- version：v1；submitted_at：2023-06-07；timezone：；- version：v2；submitted_at：2023-12-24；timezone：；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09（arXiv编号月份；精确提交日待核实）；note：MEOX §IV-B与Table III实际评测六项GEO-Bench v1任务，明确使用官方划分和归一化统计。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -327,7 +327,7 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 
 ### 采集日期
 
-2026-11-07（KST / Asia/Seoul；采集日，不代替榜单更新或实验日期）
+2026-11-07（采集日，不代替榜单更新或实验日期）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -349,9 +349,9 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 
 | 赛道 | 名次 | 模型 | 分数 | 指标 | 来源及时间 |
 |---|---|---|---|---|---|
-| MEOX论文表III：冻结encoder，输入224×224，EuroSAT | — | MEOX | 90.56 ± 0.27 | AA % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07 KST；原始实验日期未单列 |
-| MEOX论文表III：冻结encoder，输入224×224，Cashew | — | MEOX | 64.08 ± 1.07 | mIoU % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07 KST；原始实验日期未单列 |
-| MEOX论文表III：冻结encoder，输入64×64，Cashew | — | MEOX | 64.42 ± 0.22 | mIoU % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07 KST；原始实验日期未单列 |
+| MEOX论文表III：冻结encoder，输入224×224，EuroSAT | — | MEOX | 90.56 ± 0.27 | AA % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07；原始实验日期未单列 |
+| MEOX论文表III：冻结encoder，输入224×224，Cashew | — | MEOX | 64.08 ± 1.07 | mIoU % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07；原始实验日期未单列 |
+| MEOX论文表III：冻结encoder，输入64×64，Cashew | — | MEOX | 64.42 ± 0.22 | mIoU % | [原始来源](https://arxiv.org/html/2609.05351v1)；采集2026-11-07；原始实验日期未单列 |
 
 说明：—表示只转录该赛道的历史/局部结果，未给予跨赛道总排名。
 
@@ -405,7 +405,7 @@ https://arxiv.org/pdf/2306.03831
 
 cfe0f82eafb59c680e8d91fef4dc832491f898f7ee56c14da19e953226d2b2ad
 
-说明：本轮下载原始PDF字节的SHA-256；与Drive既有副本是否相同须以其校验值核对。
+说明：下载原始PDF字节的SHA-256；与既有副本是否相同须以其校验值核对。
 
 来源：[1](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
 
@@ -415,32 +415,32 @@ cfe0f82eafb59c680e8d91fef4dc832491f898f7ee56c14da19e953226d2b2ad
 
 来源：[1](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
-id：1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC；webViewLink：https://drive.google.com/drive/folders/1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC
+id：1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4；webViewLink：https://docs.google.com/document/d/1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4/edit?usp=drivesdk
+- kind：中文介绍 Google Doc；id：1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4；webViewLink：
 
-来源：[1](https://docs.google.com/document/d/1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4/edit?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
-### Drive PDF
+### PDF
 
-id：1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI；webViewLink：https://drive.google.com/file/d/1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI/view?usp=drivesdk
+id：1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI/view?usp=drivesdk)（访问 2026-11-07）
+来源：[1]( 2026-11-07）
 
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- date：2026-11-07；timezone：Asia/Seoul；change：第二轮q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；timezone：；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
 

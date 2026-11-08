@@ -544,7 +544,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
@@ -578,11 +578,11 @@
         "arxiv_revisions_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2024-04-02T05:56:25+09:00"
+            "submitted_at_kst": "2024-04-02"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2024-11-01T16:05:33+09:00"
+            "submitted_at_kst": "2024-11-01"
           }
         ]
       },
@@ -631,7 +631,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）",
+      "value": "2026-11-08 （实际复核日；批次标签2026-11-07）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2404.01475",
@@ -889,13 +889,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv",
-        "webViewLink": "https://drive.google.com/drive/folders/1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -903,27 +900,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY",
-          "webViewLink": "https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1MVlzT2xYLag8giD4uumklERs82tPaLsp",
-      "webViewLink": "https://drive.google.com/file/d/1MVlzT2xYLag8giD4uumklERs82tPaLsp/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1MVlzT2xYLag8giD4uumklERs82tPaLsp/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -932,18 +924,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul (KST)",
-        "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+        "change": "最近复核"
       }
     ],
     "sources": [
@@ -957,5 +946,5 @@
       }
     ]
   },
-  "editorial_status": "第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。"
+  "editorial_status": ""
 }

@@ -1,6 +1,6 @@
 # StrongREJECT
 
-> Benchmark Constitution · 深度复核 2026-11-08（KST / Asia/Seoul）。已核实存在与2026-H2实际使用；已建内容，待核实字段显式保留
+最近复核
 
 StrongREJECT首先是越狱输出评估器与313请求提示集，而不是一张通用模型安全榜。它关注回答是否具体、可信且真正有助于有害请求，纠正“没有拒绝就是越狱成功”的误判。下方MAE榜只验证自动评分与人工标签的一致性，越低越好，不代表目标模型更安全。
 
@@ -34,7 +34,7 @@ v2（论文版本；不等于数据集版本）
 
 ### 发布日期
 
-2024-02-16 KST（arXiv v1 2024-02-16T03:58:09+09:00；arXiv网页历日为2024-02-15 UTC）
+2024-02-16 （arXiv v1 2024-02-16；arXiv网页历日为2024-02-15 UTC）
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
@@ -112,16 +112,16 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 ```json
 [
-  "Souly, Alexandra",
-  "Lu, Qingyuan",
-  "Bowen, Dillon",
-  "Trinh, Tu",
-  "Hsieh, Elvis",
-  "Pandey, Sana",
-  "Abbeel, Pieter",
-  "Svegliato, Justin",
-  "Emmons, Scott",
-  "Watkins, Olivia",
+  "Souly, Alexandra"
+  "Lu, Qingyuan"
+  "Bowen, Dillon"
+  "Trinh, Tu"
+  "Hsieh, Elvis"
+  "Pandey, Sana"
+  "Abbeel, Pieter"
+  "Svegliato, Justin"
+  "Emmons, Scott"
+  "Watkins, Olivia"
   "Toyer, Sam"
 ]
 ```
@@ -262,7 +262,7 @@ rubric评分、微调评估器分数和二值ASR不同；评估器MAE也不是�
 
 ### 复核日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）
 
@@ -277,14 +277,14 @@ rubric评分、微调评估器分数和二值ASR不同；评估器MAE也不是�
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2024-02-16T03:58:09+09:00",
-    "timezone": "Asia/Seoul (KST)"
-  },
+    "version": "v1"
+    "submitted_at": "2024-02-16"
+    "timezone": ""
+  }
   {
-    "version": "v2",
-    "submitted_at": "2024-08-27T12:32:47+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v2"
+    "submitted_at": "2024-08-27"
+    "timezone": ""
   }
 ]
 ```
@@ -313,7 +313,7 @@ README列明若干源数据无license；项目MIT不自动补足来源授权。H
 
 ### 快照日期
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
@@ -363,7 +363,7 @@ https://arxiv.org/abs/2402.10260
 
 ```json
 [
-  "alexandrasouly@gmail.com",
+  "alexandrasouly@gmail.com"
   "sdt@berkeley.edu"
 ]
 ```
@@ -398,15 +398,15 @@ https://arxiv.org/pdf/2402.10260
 
 [来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 10caab98ed5a75b019ef3c8a6697527f83edda067516996d2cb612f02ff746bc
 
-> 本次实际下载的PDF字节计算；未上传Drive。
+> 本次实际下载的PDF字节计算；未上传。
 
 [来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 600542
@@ -414,39 +414,39 @@ https://arxiv.org/pdf/2402.10260
 
 [来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV",
-  "webViewLink": "https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
+  "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ### 其他材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE",
-    "webViewLink": "https://docs.google.com/document/d/15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE/edit?usp=drivesdk"
-  },
+    "kind": "中文介绍 Google Doc"
+    "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE"
+    "webViewLink": "
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://arxiv.org/abs/2402.10260",
+    "type": "已打开一手材料"
+    "url": "https://arxiv.org/abs/2402.10260"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://github.com/dsbowen/strong_reject",
+    "type": "已打开一手材料"
+    "url": "https://github.com/dsbowen/strong_reject"
     "accessed": "2026-11-08"
-  },
+  }
   {
-    "type": "本轮已打开一手材料",
-    "url": "https://strong-reject.readthedocs.io/en/latest/",
+    "type": "已打开一手材料"
+    "url": "https://strong-reject.readthedocs.io/en/latest/"
     "accessed": "2026-11-08"
   }
 ]
@@ -454,35 +454,35 @@ https://arxiv.org/pdf/2402.10260
 
 [来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 ```json
 {
-  "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor",
-  "webViewLink": "https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk"
+  "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor/view?usp=drivesdk)（访问 2026-11-07）
+[来源1]( 2026-11-07）
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "深度复核论文/官方实现与数据卡；补全可审计字段；按版本、来源与协议重建榜单轨；明确无法核实及相互冲突的统计。未上传Drive。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

@@ -1,6 +1,6 @@
 # Agents’ Last Exam v1.1
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
 已核实存在；官方资料研究快照，未知保留待核实；trending: A
 
@@ -34,7 +34,7 @@ arXiv v4（2026-10-25修订作者/机构，摘要称科学内容不变）
 
 ### 发布日期
 
-论文首稿2026-06-04 04:20:46 Asia/Shanghai（UTC+8）；当前数据v1.1具体首发日待核实。
+论文首稿2026-06-04 04:20:46 （UTC+8）；当前数据v1.1具体首发日待核实。
 
 > 字段状态：待核实
 
@@ -226,7 +226,7 @@ mean score为任务细粒度[0,1]分的平均；full-pass rate为得满分任务
 
 ### 评分
 
-任务evaluate()返回[0,1]，按任务使用精确值、容差、几何或行为检查，少数视觉/语义任务使用窄rubric模型判断；mean score与full-pass分开。
+任务evaluate返回[0,1]，按任务使用精确值、容差、几何或行为检查，少数视觉/语义任务使用窄rubric模型判断；mean score与full-pass分开。
 
 [来源1](https://arxiv.org/abs/2606.05405)（访问2026-11-07）
 
@@ -240,7 +240,7 @@ mean score为任务细粒度[0,1]分的平均；full-pass rate为得满分任务
 
 https://github.com/rdi-berkeley/agents-last-exam
 
-> 公开ale_run、任务evaluate()、固定活动任务清单及匹配资产manifest；不执行任何下载/运行命令。
+> 公开ale_run、任务evaluate、固定活动任务清单及匹配资产manifest；不执行任何下载/运行命令。
 
 [来源1](https://github.com/rdi-berkeley/agents-last-exam)（访问2026-11-07）
 
@@ -254,7 +254,7 @@ v1.1不得与论文原v1历史结果或厂商未注明版本的得分并榜；20
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://agents-last-exam.org/)（访问2026-11-07）
 
@@ -262,25 +262,25 @@ v1.1不得与论文原v1历史结果或厂商未注明版本的得分并榜；20
 
 ```json
 {
-  "version": "v1.1",
+  "version": "v1.1"
   "evidence_2026_h2": [
     {
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "date": "2026-11-07",
-      "date_type": "observed_on",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+      "date": "2026-11-07"
+      "date_type": "observed_on"
       "note": "厂商实际采用ALE测量职业电脑工作；页面未给出明确v1.1结果表，不据此编造当前排名。"
-    },
+    }
     {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks",
-      "date": "2026-10-18",
-      "date_type": "source_calendar_date",
+      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+      "date": "2026-10-18"
+      "date_type": "source_calendar_date"
       "note": "Epoch独立审查v1.1并判Flawed；热门不等于质量通过。"
     }
   ]
 }
 ```
 
-> 热度等级沿候选采用；只保留本轮已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
+> 热度等级沿候选采用；只保留已打开、可核实证据。A不保证每一版都获多个机构独立复跑。
 
 [来源1](https://openai.com/index/introducing-gpt-6-1-terra/)（访问2026-11-07）；[来源2](https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks)（访问2026-11-07）
 
@@ -289,20 +289,20 @@ v1.1不得与论文原v1历史结果或厂商未注明版本的得分并榜；20
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-06-04T04:20:46+08:00"
-  },
+    "version": "v1"
+    "submitted_at": "2026-06-04"
+  }
   {
-    "version": "v2",
-    "submitted_at": "2026-06-11T18:09:39+08:00"
-  },
+    "version": "v2"
+    "submitted_at": "2026-06-11"
+  }
   {
-    "version": "v3",
-    "submitted_at": "2026-10-09T16:13:57+08:00"
-  },
+    "version": "v3"
+    "submitted_at": "2026-10-09"
+  }
   {
-    "version": "v4",
-    "submitted_at": "2026-10-25T09:06:09+08:00"
+    "version": "v4"
+    "submitted_at": "2026-10-25"
   }
 ]
 ```
@@ -319,7 +319,7 @@ v1.1不得与论文原v1历史结果或厂商未注明版本的得分并榜；20
 
 ```json
 {
-  "independent_review": "Epoch于2026-10-18审查公开122题中的分层50题，22题(44%)可经非预期捷径得满分，判Flawed；不外推为整个私有池错误率。",
+  "independent_review": "Epoch于2026-10-18审查公开122题中的分层50题，22题(44%)可经非预期捷径得满分，判Flawed；不外推为整个私有池错误率。"
   "developer_response": "作者认为白盒攻击不等于实际自然运行，报告排除两个未向agent展示网络规则的任务后3/1,617轨迹通过被指出路径得满分，拟在后续版本强制网络隔离；这是作者自报而非独立复核。"
 }
 ```
@@ -336,7 +336,7 @@ ALE-CLI是原论文Linux子集（105实例）；当前v1.1的ale_cli清单为86�
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://agents-last-exam.org/)（访问2026-11-07）
 
@@ -378,7 +378,7 @@ https://agents-last-exam.org/leaderboard
 
 > 字段状态：待核实
 
-> 当前官方v1.1榜页面本轮只返回标题，未取得可核验全排名。选列历史原论文与HF提交，严格分轨；43.2不是完整官方排名结论。
+> 当前官方v1.1榜页面只返回标题，未取得可核验全排名。选列历史原论文与HF提交，严格分轨；43.2不是完整官方排名结论。
 
 [来源1](https://arxiv.org/abs/2606.05405)（访问2026-11-07）；[来源2](https://huggingface.co/datasets/agents-last-exam/agents-last-exam)（访问2026-11-07）；[来源3](https://agents-last-exam.org/leaderboard)（访问2026-11-07）
 
@@ -429,7 +429,7 @@ https://arxiv.org/pdf/2606.05405
 
 300b7cf737cd52288e9bf34c8400adfa8a2331a99f05878681c7117ba67e68b3
 
-> 本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。
+> 实际下载字节的SHA-256；不表示已有副本已替换。
 
 [来源1](https://arxiv.org/pdf/2606.05405)（访问2026-11-07）
 
@@ -439,7 +439,7 @@ https://arxiv.org/pdf/2606.05405
 
 [来源1](https://arxiv.org/pdf/2606.05405)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
@@ -454,8 +454,8 @@ https://arxiv.org/pdf/2606.05405
 ```json
 [
   {
-    "type": "官方方法或项目页",
-    "url": "https://agents-last-exam.org/",
+    "type": "官方方法或项目页"
+    "url": "https://agents-last-exam.org/"
     "accessed": "2026-11-07"
   }
 ]
@@ -463,7 +463,7 @@ https://arxiv.org/pdf/2606.05405
 
 [来源1](https://agents-last-exam.org/)（访问2026-11-07）
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -474,14 +474,14 @@ https://arxiv.org/pdf/2606.05405
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传Drive。"
-  },
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

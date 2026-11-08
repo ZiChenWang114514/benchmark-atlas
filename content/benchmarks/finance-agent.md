@@ -1,10 +1,10 @@
 # Finance Agent
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 Finance Agent v2.1要求智能体检索公司申报、整合跨文档事实并遵守金融分析惯例。其关键不是写出听起来合理的金融解释，而是先通过dealbreaker门控，再按rubric取得部分信用；旧v1论文与HF卡不得代替当前v2.1协议。
 
-编辑状态：研究快照；trending: B；未知信息保留待核实。
+最近复核
 
 ## 基本信息
 
@@ -38,7 +38,7 @@ arXiv v1（论文修订，不等于数据集版本）
 
 ### 发布日期
 
-原始论文初稿 2025-05-21T03:22:10+09:00（KST）；v2.1独立发布日期待核实
+原始论文初稿 2025-05-21；v2.1独立发布日期待核实
 
 状态：待核实。
 
@@ -88,7 +88,7 @@ https://github.com/vals-ai/finance-agent-v2
 - **v1_HF**：https://huggingface.co/datasets/vals-ai/finance_agent_benchmark
 - **v2_1_test_access**：官方页面：Test私有；Validation需许可
 
-说明：本轮已读取的公开HF卡revision: 1f80cefae847f2e8b6bdf773f789c90f70293f78；只固定公开卡/仓库状态，不外推为私有测试版本。
+说明：已读取的公开HF卡revision: 1f80cefae847f2e8b6bdf773f789c90f70293f78；只固定公开卡/仓库状态，不外推为私有测试版本。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）；[一手资料2](https://github.com/vals-ai/finance-agent-v2/blob/main/README.md)（访问 2026-11-07）；[一手资料3](https://huggingface.co/datasets/vals-ai/finance_agent_benchmark)（访问 2026-11-07）
 
@@ -122,7 +122,7 @@ Vals AI
 
 状态：待核实。
 
-说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -147,7 +147,7 @@ Vals AI
 
 状态：待核实。
 
-说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -294,7 +294,7 @@ v2.1与v2不可直接比较；旧论文537题及原始平衡准确率不代表v2
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -313,8 +313,8 @@ v2.1与v2不可直接比较；旧论文537题及原始平衡准确率不代表v2
 ### 材料沿革
 
 - **arxiv_history**：- - **version**：v1
-    - **submitted_at_kst**：2025-05-21T03:22:10+09:00
-    - **timezone**：Asia/Seoul (KST)
+    - **submitted_at_kst**：2025-05-21
+    - **timezone**：
 - **v2_1_method_changes**：v2.1更新题目/rubric、替换jury为GPT-6.1 Sol/Gemini3.8 Flash/Claude Sonnet5.5，hedged多候选答案按失败处理。
 
 [一手资料1](https://arxiv.org/abs/2508.00828)（访问 2026-11-07）；[一手资料2](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
@@ -345,7 +345,7 @@ v1、v1.1、v2和v2.1为同一Finance Agent系列的历史版本；Excel Modelin
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -363,7 +363,7 @@ https://www.vals.ai/benchmarks/fabv2-1
 
 状态：待核实。
 
-说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -373,33 +373,33 @@ https://www.vals.ai/benchmarks/fabv2-1
 ```json
 [
   {
-    "rank": 1,
-    "model": "Claude Opus 5.5",
-    "score": "67.85%",
-    "metric": "v2.1 Partial Credit（表标Accuracy）",
-    "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
+    "rank": 1
+    "model": "Claude Opus 5.5"
+    "score": "67.85%"
+    "metric": "v2.1 Partial Credit（表标Accuracy）"
+    "source_url": "https://www.vals.ai/benchmarks/fabv2-1"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
     "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
-  },
+  }
   {
-    "rank": 2,
-    "model": "Gemini 4 Argon",
-    "score": "67.66%",
-    "metric": "v2.1 Partial Credit（表标Accuracy）",
-    "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
+    "rank": 2
+    "model": "Gemini 4 Argon"
+    "score": "67.66%"
+    "metric": "v2.1 Partial Credit（表标Accuracy）"
+    "source_url": "https://www.vals.ai/benchmarks/fabv2-1"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
     "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Wonder Full",
-    "score": "67.58%",
-    "metric": "v2.1 Partial Credit（表标Accuracy）",
-    "source_url": "https://www.vals.ai/benchmarks/fabv2-1",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-07 KST",
+    "rank": 3
+    "model": "Wonder Full"
+    "score": "67.58%"
+    "metric": "v2.1 Partial Credit（表标Accuracy）"
+    "source_url": "https://www.vals.ai/benchmarks/fabv2-1"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-07 "
     "result_type": "官方页面结果；采集日期不等于榜单更新时间。"
   }
 ]
@@ -443,7 +443,7 @@ https://x.com/ValsAI（维护机构账号）
 
 状态：待核实。
 
-说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
@@ -463,7 +463,7 @@ https://arxiv.org/pdf/2508.00828
 
 bbb021c3a2070c905a6c0fd9a7404aa9a27d2973cf16f621e620d098b4a06740
 
-说明：实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。
+说明：实际下载的源站PDF字节摘要；不据此声称副本已更新。
 
 [一手资料1](https://arxiv.org/pdf/2508.00828)（访问 2026-11-07）
 
@@ -475,40 +475,40 @@ bbb021c3a2070c905a6c0fd9a7404aa9a27d2973cf16f621e620d098b4a06740
 [一手资料1](https://arxiv.org/pdf/2508.00828)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 待核实
 
 状态：待核实。
 
-说明：本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+说明：打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [一手资料1](https://www.vals.ai/benchmarks/fabv2-1)（访问 2026-11-07）
 
 
 ### 其他官方资料
 
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://github.com/vals-ai/finance-agent-v2/blob/main/README.md
   - **accessed**：2026-11-07
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://huggingface.co/datasets/vals-ai/finance_agent_benchmark
   - **accessed**：2026-11-07
 
 [一手资料1](https://github.com/vals-ai/finance-agent-v2/blob/main/README.md)（访问 2026-11-07）；[一手资料2](https://huggingface.co/datasets/vals-ai/finance_agent_benchmark)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：KST / Asia/Seoul
+  - **timezone**：
   - **change**：按官方材料新建中文条目；区分热度、质量和不同版本评分。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

@@ -1,7 +1,7 @@
 {
   "id": "scienceqa",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "ScienceQA",
@@ -30,7 +30,7 @@
       ]
     },
     "version": {
-      "value": "NeurIPS 2022 原始21,208题发布协议；本轮固定官方problems.json，未发现官方另命名的数字版本。",
+      "value": "NeurIPS 2022 原始21,208题发布协议；固定官方problems.json，未发现官方另命名的数字版本。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md",
@@ -43,7 +43,7 @@
       ]
     },
     "paper_version": {
-      "value": "v2；最近提交 2022-10-17T16:46:47+09:00 KST",
+      "value": "v2；最近提交 2022-10-17",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2209.09513",
@@ -52,7 +52,7 @@
       ]
     },
     "release_date": {
-      "value": "2022-09-20T16:04:24+09:00（KST；首个arXiv提交，不推定数据上线日）",
+      "value": "2022-09-20（；首个arXiv提交，不推定数据上线日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2209.09513",
@@ -241,7 +241,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "design_goals": {
@@ -326,7 +326,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。"
     }
   },
   "data_format": {
@@ -414,7 +414,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮逐条统计官方problems.json，共21,208条；不估计额外难度等级。"
+      "note": "逐条统计官方problems.json，共21,208条；不估计额外难度等级。"
     },
     "public_hidden_split": {
       "value": "官方公开train 12,726、val 4,241、test 4,241及答案；60:20:20随机划分。榜单另有mini 1,000，必须标明全量/mini与IMG等子集。",
@@ -503,7 +503,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2209.09513",
@@ -533,11 +533,11 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2022-09-20T16:04:24+09:00"
+            "date_kst": "2022-09-20"
           },
           {
             "version": "v2",
-            "date_kst": "2022-10-17T16:46:47+09:00"
+            "date_kst": "2022-10-17"
           }
         ],
         "continued_use_2026h2": [
@@ -545,21 +545,19 @@
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-23",
             "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-            "date_kst": "2026-10-23T01:54:37+09:00",
-            "verified_in_round1": "本轮重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+            "date_kst": "2026-10-23",
+            "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
           }
         ],
         "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
         "arxiv_submission_history_kst": [
           {
             "version": "v1",
-            "submitted_at_kst": "2022-09-20T16:04:24+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2022-09-20"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2022-10-17T16:46:47+09:00",
-            "timezone": "Asia/Seoul (KST)"
+            "submitted_at_kst": "2022-10-17"
           }
         ]
       },
@@ -571,7 +569,7 @@
       ]
     },
     "saturation": {
-      "value": "本轮官方榜单数据最高Avg为96.18%（Fine-tune），但榜单混列训练设置且非持续独立复测。可说明该设置高分，不能据此断言所有设置或整个基准已饱和。",
+      "value": "官方榜单数据最高Avg为96.18%（Fine-tune），但榜单混列训练设置且非持续独立复测。可说明该设置高分，不能据此断言所有设置或整个基准已饱和。",
       "sources": [
         {
           "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
@@ -612,7 +610,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul（访问日，不是实验运行日）",
+      "value": "2026-11-08 （访问日，不是实验运行日）",
       "sources": [
         {
           "url": "https://scienceqa.github.io/leaderboard.html",
@@ -637,7 +635,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -650,7 +648,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 1,
           "learning": "-",
@@ -679,7 +677,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 2,
           "learning": "-",
@@ -708,7 +706,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 3,
           "learning": "Fine-tune",
@@ -737,7 +735,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 4,
           "learning": "Fine-tune",
@@ -766,7 +764,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 5,
           "learning": "Fine-tune",
@@ -795,7 +793,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 6,
           "learning": "Fine-tune",
@@ -824,7 +822,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 7,
           "learning": "Fine-tune",
@@ -853,7 +851,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 8,
           "learning": "Fine-tune",
@@ -882,7 +880,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 9,
           "learning": "Fine-tune",
@@ -911,7 +909,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 10,
           "learning": "Fine-tune",
@@ -940,7 +938,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 11,
           "learning": "Fine-tune",
@@ -969,7 +967,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 12,
           "learning": "Fine-tune",
@@ -998,7 +996,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 13,
           "learning": "Fine-tune",
@@ -1027,7 +1025,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 14,
           "learning": "Fine-tune",
@@ -1056,7 +1054,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 15,
           "learning": "Fine-tune",
@@ -1085,7 +1083,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 16,
           "learning": "Fine-tune",
@@ -1114,7 +1112,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 17,
           "learning": "Fine-tune",
@@ -1143,7 +1141,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 18,
           "learning": "Fine-tune",
@@ -1172,7 +1170,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 19,
           "learning": "Fine-tune",
@@ -1201,7 +1199,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 20,
           "learning": "Fine-tune",
@@ -1230,7 +1228,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 21,
           "learning": "Zero-shot",
@@ -1259,7 +1257,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 22,
           "learning": "Fine-tune",
@@ -1288,7 +1286,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 23,
           "learning": "Fine-tune",
@@ -1317,7 +1315,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 24,
           "learning": "Fine-tune",
@@ -1346,7 +1344,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 25,
           "learning": "Fine-tune",
@@ -1375,7 +1373,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 26,
           "learning": "Zero-shot",
@@ -1404,7 +1402,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 27,
           "learning": "Few-shot",
@@ -1433,7 +1431,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 28,
           "learning": "Zero-shot",
@@ -1462,7 +1460,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 29,
           "learning": "Zero-shot",
@@ -1491,7 +1489,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 30,
           "learning": "Fine-tune",
@@ -1520,7 +1518,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 31,
           "learning": "Fine-tune",
@@ -1549,7 +1547,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 32,
           "learning": "Fine-tune",
@@ -1578,7 +1576,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 33,
           "learning": "Fine-tune",
@@ -1607,7 +1605,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 34,
           "learning": "Few-shot",
@@ -1636,7 +1634,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 35,
           "learning": "Fine-tune",
@@ -1665,7 +1663,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 36,
           "learning": "Fine-tune",
@@ -1694,7 +1692,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 37,
           "learning": "Zero-shot",
@@ -1723,7 +1721,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 38,
           "learning": "Few-shot",
@@ -1752,7 +1750,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 39,
           "learning": "Zero-shot",
@@ -1781,7 +1779,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 40,
           "learning": "Fine-tune",
@@ -1810,7 +1808,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 41,
           "learning": "Few-shot",
@@ -1839,7 +1837,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 42,
           "learning": "Zero-shot",
@@ -1868,7 +1866,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 43,
           "learning": "Zero-shot",
@@ -1897,7 +1895,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 44,
           "learning": "Few-shot",
@@ -1926,7 +1924,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 45,
           "learning": "Zero-shot",
@@ -1955,7 +1953,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 46,
           "learning": "Few-shot",
@@ -1984,7 +1982,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 47,
           "learning": "Zero-shot",
@@ -2013,7 +2011,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 48,
           "learning": "Fine-tune",
@@ -2042,7 +2040,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 49,
           "learning": "Zero-shot",
@@ -2071,7 +2069,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 50,
           "learning": "Few-shot",
@@ -2100,7 +2098,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 51,
           "learning": "Zero-shot",
@@ -2129,7 +2127,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 52,
           "learning": "Fine-tune",
@@ -2158,7 +2156,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 53,
           "learning": "Zero-shot",
@@ -2187,7 +2185,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 54,
           "learning": "Zero-shot",
@@ -2216,7 +2214,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 55,
           "learning": "Zero-shot",
@@ -2245,7 +2243,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 56,
           "learning": "Zero-shot",
@@ -2274,7 +2272,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 57,
           "learning": "Zero-shot",
@@ -2303,7 +2301,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 58,
           "learning": "Zero-shot",
@@ -2332,7 +2330,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 59,
           "learning": "Fine-tune",
@@ -2361,7 +2359,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 60,
           "learning": "Fine-tune",
@@ -2390,7 +2388,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 61,
           "learning": "Fine-tune",
@@ -2419,7 +2417,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 62,
           "learning": "Fine-tune",
@@ -2448,7 +2446,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 63,
           "learning": "Zero-shot",
@@ -2477,7 +2475,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 64,
           "learning": "Fine-tune",
@@ -2506,7 +2504,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 65,
           "learning": "Fine-tune",
@@ -2535,7 +2533,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 66,
           "learning": "Zero-shot",
@@ -2564,7 +2562,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 67,
           "learning": "Zero-shot",
@@ -2593,7 +2591,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 68,
           "learning": "Zero-shot",
@@ -2622,7 +2620,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 69,
           "learning": "Zero-shot",
@@ -2651,7 +2649,7 @@
           "track": "官方人工汇总历史表；Fine-tune",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 70,
           "learning": "Fine-tune",
@@ -2680,7 +2678,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 71,
           "learning": "Zero-shot",
@@ -2709,7 +2707,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 72,
           "learning": "Zero-shot",
@@ -2738,7 +2736,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 73,
           "learning": "Zero-shot",
@@ -2767,7 +2765,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 74,
           "learning": "Zero-shot",
@@ -2796,7 +2794,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 75,
           "learning": "Zero-shot",
@@ -2825,7 +2823,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 76,
           "learning": "Zero-shot",
@@ -2854,7 +2852,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 77,
           "learning": "Zero-shot",
@@ -2883,7 +2881,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 78,
           "learning": "Zero-shot",
@@ -2912,7 +2910,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 79,
           "learning": "Zero-shot",
@@ -2941,7 +2939,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 80,
           "learning": "Zero-shot",
@@ -2970,7 +2968,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 81,
           "learning": "Zero-shot",
@@ -2999,7 +2997,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 82,
           "learning": "Zero-shot",
@@ -3028,7 +3026,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 83,
           "learning": "Zero-shot",
@@ -3057,7 +3055,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 84,
           "learning": "Zero-shot",
@@ -3088,7 +3086,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 85,
           "learning": "Zero-shot",
@@ -3119,7 +3117,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 86,
           "learning": "-",
@@ -3150,7 +3148,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 87,
           "learning": "-",
@@ -3181,7 +3179,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 88,
           "learning": "Zero-shot",
@@ -3212,7 +3210,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 89,
           "learning": "Zero-shot",
@@ -3243,7 +3241,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 90,
           "learning": "-",
@@ -3274,7 +3272,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 91,
           "learning": "Zero-shot",
@@ -3305,7 +3303,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 92,
           "learning": "Zero-shot",
@@ -3336,7 +3334,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 93,
           "learning": "Zero-shot",
@@ -3367,7 +3365,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 94,
           "learning": "Zero-shot",
@@ -3398,7 +3396,7 @@
           "track": "官方人工汇总历史表；-",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 95,
           "learning": "-",
@@ -3429,7 +3427,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 96,
           "learning": "Zero-shot",
@@ -3460,7 +3458,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 97,
           "learning": "Zero-shot",
@@ -3491,7 +3489,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 98,
           "learning": "Zero-shot",
@@ -3522,7 +3520,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 99,
           "learning": "Zero-shot",
@@ -3553,7 +3551,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 100,
           "learning": "Zero-shot",
@@ -3584,7 +3582,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 101,
           "learning": "Zero-shot",
@@ -3615,7 +3613,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 102,
           "learning": "Zero-shot",
@@ -3646,7 +3644,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 103,
           "learning": "Few-shot",
@@ -3677,7 +3675,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 104,
           "learning": "Zero-shot",
@@ -3708,7 +3706,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 105,
           "learning": "Few-shot",
@@ -3739,7 +3737,7 @@
           "track": "官方人工汇总历史表；Few-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 106,
           "learning": "Few-shot",
@@ -3770,7 +3768,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 107,
           "learning": "Zero-shot",
@@ -3801,7 +3799,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 108,
           "learning": "Zero-shot",
@@ -3832,7 +3830,7 @@
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST",
+          "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 109,
           "learning": "Zero-shot",
@@ -3863,7 +3861,7 @@
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。",
           "track": "2026H2论文作者自报；CompassVerifier；非官方表/AA独立",
           "rank": "不设跨协议名次"
         },
@@ -3877,7 +3875,7 @@
           "accessed": "2026-11-07",
           "source_url": "https://arxiv.org/html/2610.01352v2",
           "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排",
-          "date_basis": "arXiv v2提交时间换算KST；不是未公开的评测运行日期。",
+          "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。",
           "track": "2026H2论文作者自报；CompassVerifier；非官方表/AA独立",
           "rank": "不设跨协议名次"
         }
@@ -3894,7 +3892,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮完整读取官方JS表109行（含Human/Random基线），保留各学科、上下文、年级分项及缺失符号；Fine-tune/Few-shot/Zero-shot分轨。网页同时提whole与mini却未逐行标识，故撤销此前前三行被无依据一律指定4241的描述，不重新排跨协议总榜。另保留此前核验的2行H2作者自报，访问日仍为2026-11-07。",
+      "value": "完整读取官方JS表109行（含Human/Random基线），保留各学科、上下文、年级分项及缺失符号；Fine-tune/Few-shot/Zero-shot分轨。网页同时提whole与mini却未逐行标识，故撤销此前前三行被无依据一律指定4241的描述，不重新排跨协议总榜。另保留此前核验的2行H2作者自报，访问日仍为2026-11-07。",
       "sources": [
         {
           "url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
@@ -3937,7 +3935,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方README提供的公开讨论入口；本轮未访问X内容、未发送消息。"
+      "note": "官方README提供的公开讨论入口；未访问X内容、未发送消息。"
     },
     "privacy_policy": {
       "value": "仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。",
@@ -3971,7 +3969,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮实际下载原始PDF字节计算；不据此更改既有Drive文件。"
+      "note": "实际下载原始PDF字节计算；不据此更改既有文件。"
     },
     "pdf_bytes": {
       "value": 8065121,
@@ -3983,13 +3981,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9",
-        "webViewLink": "https://drive.google.com/drive/folders/1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -3997,27 +3992,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ",
-          "webViewLink": "https://docs.google.com/document/d/1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1DbMOVlQF4L3yu_htLns-S1ladvipIuxm",
-      "webViewLink": "https://drive.google.com/file/d/1DbMOVlQF4L3yu_htLns-S1ladvipIuxm/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1DbMOVlQF4L3yu_htLns-S1ladvipIuxm/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -4026,19 +4016,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "round": "1 / 深度实证复核",
-        "change": "重读官方论文/JSON，补合作机构、维护和社交入口、精确年级分布；刷新官网JS榜单前三；重新核实H2实跑并修正v2日期为KST。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮深度核验：发现HF第三方镜像CC-BY-SA与官方CC-BY-NC-SA许可冲突；恢复109行官方原始表，撤销缺少逐行证据的whole=4241断言；补附录人工质量控制。"
+        "change": "最近复核"
       }
     ],
     "sources": [

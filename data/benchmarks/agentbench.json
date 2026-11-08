@@ -1,7 +1,7 @@
 {
   "id": "agentbench",
   "schema_version": "0.1.0",
-  "editorial_status": "第1轮已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AgentBench",
@@ -42,7 +42,7 @@
       "note": "论文修订版本不等同数据集版本。"
     },
     "release_date": {
-      "value": "2023-08-08 00:08:11 Asia/Shanghai（UTC+8）（arXiv首稿）",
+      "value": "2023-08-08 00:08:11 （UTC+8）（arXiv首稿）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.03688",
@@ -145,7 +145,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "authors": {
@@ -379,7 +379,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://github.com/THUDM/AgentBench",
@@ -395,8 +395,8 @@
             "url": "https://arxiv.org/html/2609.19134v1",
             "date": "2026-09-17",
             "note": "ScienceIDE §4.2及参考文献明确引用 AgentBench 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。",
-            "date_shanghai": "2026-09-17T01:55:47+08:00",
-            "verified_in_round1": "本轮重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
+            "date_shanghai": "2026-09-17",
+            "verified_in_round1": "重新打开ScienceIDE正文及参考文献，按原始论文ID确认；属于§4.2相关工作引用，非本文实跑。"
           }
         ]
       },
@@ -419,15 +419,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2023-08-08T00:08:11+08:00"
+          "submitted_at": "2023-08-08"
         },
         {
           "version": "v2",
-          "submitted_at": "2023-10-25T15:41:24+08:00"
+          "submitted_at": "2023-10-25"
         },
         {
           "version": "v3",
-          "submitted_at": "2025-10-04T11:54:18+08:00"
+          "submitted_at": "2025-10-04"
         }
       ],
       "sources": [
@@ -467,7 +467,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07 Asia/Shanghai（UTC+8）",
+      "value": "2026-11-07 （UTC+8）",
       "sources": [
         {
           "url": "https://github.com/THUDM/AgentBench",
@@ -496,7 +496,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     },
     "results": {
@@ -509,7 +509,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -529,7 +529,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -549,7 +549,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -569,7 +569,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -589,7 +589,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -609,7 +609,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "-",
           "source_release_month": "11/2025",
@@ -629,7 +629,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "-",
           "source_release_month": "11/2025",
@@ -649,7 +649,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -669,7 +669,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -689,7 +689,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -709,7 +709,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "OpenAI",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -729,7 +729,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -749,7 +749,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Anthropic",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -769,7 +769,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "DeepSeek",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -789,7 +789,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -809,7 +809,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Z.ai",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -829,7 +829,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "OpenAI",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -849,7 +849,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Alibaba",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -869,7 +869,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "OpenAI",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -889,7 +889,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "OpenAI",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -909,7 +909,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Alibaba",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -929,7 +929,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Amazon",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -949,7 +949,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "DeepSeek",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -969,7 +969,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Amazon",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -989,7 +989,7 @@
           "track": "AgentBench FC官方Sheet",
           "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）",
+          "collected_at": "2026-11-07 （UTC+8）",
           "model_organization": "Alibaba",
           "result_source": "AgentRL",
           "source_release_month": "10/2025",
@@ -1009,7 +1009,7 @@
           "track": "原始8环境/论文历史Table3",
           "source_url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -1019,7 +1019,7 @@
           "track": "原始8环境/论文历史Table3",
           "source_url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         },
         {
           "rank": "不适用（来源内选列，非全局排名）",
@@ -1029,7 +1029,7 @@
           "track": "原始8环境/论文历史Table3",
           "source_url": "https://arxiv.org/abs/2308.03688",
           "accessed": "2026-11-07",
-          "collected_at": "2026-11-07 Asia/Shanghai（UTC+8）"
+          "collected_at": "2026-11-07 （UTC+8）"
         }
       ],
       "sources": [
@@ -1042,10 +1042,10 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "FC结果来自本轮实际下载官方CSV；Release Date列按来源原名保存，不冒充实验运行时间。"
+      "note": "FC结果来自实际下载官方CSV；Release Date列按来源原名保存，不冒充实验运行时间。"
     },
     "coverage_note": {
-      "value": "本轮官方CSV共25行FC模型，另列原始8环境历史三行。FC前三为70.4/67.7/65.0；前三Release Date为10/2025，其余有11/2025，不冒充实际运行日。原始Overall归一化分与FC百分均值不能混排。",
+      "value": "官方CSV共25行FC模型，另列原始8环境历史三行。FC前三为70.4/67.7/65.0；前三Release Date为10/2025，其余有11/2025，不冒充实际运行日。原始Overall归一化分与FC百分均值不能混排。",
       "sources": [
         {
           "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv",
@@ -1086,7 +1086,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "官方仓库展示的团队账号链接；本轮未访问X内容。"
+      "note": "官方仓库展示的团队账号链接；未访问X内容。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -1096,7 +1096,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
+      "note": "已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。",
       "status": "待核实"
     }
   },
@@ -1118,7 +1118,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载字节的SHA-256；不表示已有Drive副本已替换。"
+      "note": "实际下载字节的SHA-256；不表示已有副本已替换。"
     },
     "pdf_bytes": {
       "value": 23017024,
@@ -1130,13 +1130,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6",
-        "webViewLink": "https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1IO7G7wtK89QKtc_1ryb1OVJmtYENUOj6",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1144,18 +1141,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA",
-          "webViewLink": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://github.com/THUDM/AgentBench",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/1MVdoSN9bIBHzJqTIy7n3VwMQgPk-XK-KwQIa8cR13OA/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -1163,13 +1154,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp",
-      "webViewLink": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/16ym4zaqvjgltLRCp6GUVsQu10I7cM5wp/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -1178,19 +1166,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai（UTC+8）",
-        "round": "1 / 深度实证复核",
-        "change": "纠正当前main已为五环境AgentBench FC，原版八环境留在旧分支；补FC榜单前三和联系；重核H2引用。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+        "change": "最近复核"
       }
     ],
     "sources": [

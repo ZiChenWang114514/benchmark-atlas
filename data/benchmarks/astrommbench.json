@@ -1,7 +1,7 @@
 {
   "id": "astrommbench",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "AstroMMBench",
@@ -31,7 +31,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v2（2025-10-22 01:29:47，Asia/Shanghai）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。",
+      "value": "arXiv v2（2025-10-22 01:29:47，）为621题预印本；Universe 12(10),296（2026-09-30）为592题正式版。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.00063",
@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2025-09-29 17:02:30（Asia/Shanghai，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。",
+      "value": "2025-09-29 17:02:30（，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2510.00063",
@@ -97,7 +97,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库本轮没有找到README/LICENSE根文件，代码许可仍待核实。",
+      "note": "三个官方声明范围与时间不一致。不能用HF总标签抹掉原始图像权利；代码仓库没有找到README/LICENSE根文件，代码许可仍待核实。",
       "status": "待核实"
     },
     "paper_url": {
@@ -316,7 +316,7 @@
       ]
     },
     "public_hidden_split": {
-      "value": "本轮HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。",
+      "value": "HF卡明确最终592题；论文为所有模型固定同一592题。与早期arXiv621题版本不同；独立训练/验证/测试命名及答案隐藏策略仍待核实。",
       "sources": [
         {
           "url": "https://huggingface.co/datasets/sjh11/AstroMMBench",
@@ -379,7 +379,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -398,8 +398,8 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_v1": "2025-09-29T17:02:30+08:00",
-        "arxiv_v2": "2025-10-22T01:29:47+08:00",
+        "arxiv_v1": "2025-09-29",
+        "arxiv_v2": "2025-10-22",
         "preprint_questions": 621,
         "journal_publication": "2026-09-30",
         "journal_questions": 592,
@@ -443,12 +443,12 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（Asia/Shanghai，UTC+8；本轮采集日，不是实验日）",
+      "value": "2026-11-07（，UTC+8；采集日，不是实验日）",
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -474,7 +474,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "results": {
       "value": [
@@ -627,7 +627,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     },
     "privacy_policy": {
       "value": "待核实",
@@ -638,7 +638,7 @@
         }
       ],
       "status": "待核实",
-      "note": "本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
     }
   },
   "original_files": {
@@ -659,7 +659,7 @@
           "accessed": "2026-11-07"
         }
       ],
-      "note": "本轮实际下载的源站PDF字节校验；未声称重新核验Drive文件内容。"
+      "note": "实际下载的源站PDF字节校验；未声称重新核验文件内容。"
     },
     "pdf_bytes": {
       "value": 7134595,
@@ -671,10 +671,7 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh",
-        "webViewLink": "https://drive.google.com/drive/folders/1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh"
-      },
+      "value": {},
       "sources": [
         {
           "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -699,10 +696,7 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO",
-      "webViewLink": "https://drive.google.com/file/d/1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO/view"
-    },
+    "value": {},
     "sources": [
       {
         "url": "https://www.mdpi.com/2218-1997/12/10/296",
@@ -714,19 +708,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai (UTC+8)",
-        "round": "2 / queue[1]",
-        "change": "实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传Drive，未重跑评测。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.release_date",
           "basic_info.paper_version",

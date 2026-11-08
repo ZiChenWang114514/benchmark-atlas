@@ -1,5 +1,5 @@
 # Matbench
-> 核验：2026-11-08（KST / Asia/Seoul）。第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留
+> 核验：2026-11-08。实证优化；已补官方事实与分任务快照，未核实项明确保留
 
 Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答集。可比性的核心是相同输入类型、物理单位和固定外层五折，而不是某个统一百分制。尤其要避免把官网旧分类“ROC-AUC”错误标签当成真正概率排序AUC。
 
@@ -97,13 +97,13 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 ## 最新情况
 
-**核查日**：2026-11-08 KST / Asia/Seoul [S8](https://matbench.materialsproject.org/)
+**核查日**：2026-11-08 [S8](https://matbench.materialsproject.org/)
 
 **数据版本与持续使用**：v0.1 [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S3](https://matbench.materialsproject.org/)
 
-**论文版本与证据历史**：v1 2020-05-02T14:17:56+09:00（KST）；v2 2020-05-08T09:34:20+09:00（KST）。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S5](https://arxiv.org/abs/2005.00707)
+**论文版本与证据历史**：v1 2020-05-02；v2 2020-05-08。此前H2使用证据继续保留于结构化档案，不把其日期当论文修订日。 [S5](https://arxiv.org/abs/2005.00707)
 
-> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为KST。
+> 保留此前H2使用证据；只将本次打开arXiv的精确修订时间更新为。
 
 **饱和度边界**：任务指标是带单位MAE或分类性能，不能以一个统一百分数判饱和；本次官方10回归任务最优MAE均非零，未证明已达实验/DFT噪声下限。 [S8](https://matbench.materialsproject.org/)
 
@@ -113,7 +113,7 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 ## 榜单快照
 
-**快照日**：2026-11-08 KST / Asia/Seoul [S8](https://matbench.materialsproject.org/)
+**快照日**：2026-11-08 [S8](https://matbench.materialsproject.org/)
 
 **官方榜入口**：https://matbench.materialsproject.org/ [S3](https://matbench.materialsproject.org/)
 
@@ -205,21 +205,21 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 **PDF SHA-256**：fbdd140ca579e28117736df44e99c3bbe0c30464316a3ed46d13a0c5306d344d [S7](https://arxiv.org/pdf/2005.00707)
 
-> 本次下载的源站PDF字节校验；不声称重传或替换既有Drive副本。
+> 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：2513518 [S7](https://arxiv.org/pdf/2005.00707)
 
-**原有Drive文件夹**：{"id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe", "webViewLink": "https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe"} [S12](https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe)
+**原有文件夹**：{"id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe", "webViewLink": " [S12](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": "https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk"}] [S13](https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk)
+**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": " [S13](
 
-**原有Drive PDF**：{"id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV", "webViewLink": "https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk"} [S14](https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk)
+**原有 PDF**：{"id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV", "webViewLink": " [S14](
 
 ## 变更记录
 
-- 2026-11-07 · 首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- 2026-11-07 · 第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-08 · 第二轮逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07 · 首批官方材料核验、中文改写、；未核实字段显式标记。
+- 2026-11-07 · ：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv.org/pdf/2005.00707) [S8](https://matbench.materialsproject.org/)
 
 ### 来源索引
@@ -237,6 +237,6 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 - S9 · [https://matbench.materialsproject.org/How%20To%20Use/2run/](https://matbench.materialsproject.org/How%20To%20Use/2run/) · 访问 2026-11-08
 - S10 · [https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/) · 访问 2026-11-08
 - S11 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S12 · [https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe](https://drive.google.com/drive/folders/1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe) · 访问 2026-11-07
-- S13 · [https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk](https://docs.google.com/document/d/1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk/edit?usp=drivesdk) · 访问 2026-11-07
-- S14 · [https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk](https://drive.google.com/file/d/1wRPaSl63GECWDwAqW5_HthOwRislygXV/view?usp=drivesdk) · 访问 2026-11-07
+- S12 · [ · 访问 2026-11-07
+- S13 · [ · 访问 2026-11-07
+- S14 · [ · 访问 2026-11-07

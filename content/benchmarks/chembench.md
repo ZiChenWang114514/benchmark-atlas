@@ -1,8 +1,8 @@
 # ChemBench
 
-> Benchmark Constitution · 深度复核：2026-11-08 KST / Asia/Seoul。第1轮实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
-ChemBench将化学知识、计算、推理、直觉与安全问题纳入统一可复现框架，题源同时含人工整理和半程序化生成，不能把全部题目宣传成专家从零手写。它按可核验最终答案计分，并不证明模型能安全开展开放化学研究。本轮恢复了官网真实结果数据，已验证条目与未验证社区提交分开呈现，避免高分代理提交遮蔽可信比较。
+ChemBench将化学知识、计算、推理、直觉与安全问题纳入统一可复现框架，题源同时含人工整理和半程序化生成，不能把全部题目宣传成专家从零手写。它按可核验最终答案计分，并不证明模型能安全开展开放化学研究。恢复了官网真实结果数据，已验证条目与未验证社区提交分开呈现，避免高分代理提交遮蔽可信比较。
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-07）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-07）；[来源3](https://chembench.lamalab.org/)（访问2026-11-07）
 
@@ -52,8 +52,8 @@ arXiv v2
 
 ```json
 [
-  "化学",
-  "材料",
+  "化学"
+  "材料"
   "安全"
 ]
 ```
@@ -118,40 +118,40 @@ Are large language models superhuman chemists?
 
 ```json
 [
-  "Mirza, Adrian",
-  "Alampara, Nawaf",
-  "Kunchapu, Sreekanth",
-  "Ríos-García, Martiño",
-  "Emoekabu, Benedict",
-  "Krishnan, Aswanth",
-  "Gupta, Tanya",
-  "Schilling-Wilhelmi, Mara",
-  "Okereke, Macjonathan",
-  "Aneesh, Anagha",
-  "Elahi, Amir Mohammad",
-  "Asgari, Mehrdad",
-  "Eberhardt, Juliane",
-  "Elbeheiry, Hani M.",
-  "Gil, María Victoria",
-  "Greiner, Maximilian",
-  "Holick, Caroline T.",
-  "Glaubitz, Christina",
-  "Hoffmann, Tim",
-  "Ibrahim, Abdelrahman",
-  "Klepsch, Lea C.",
-  "Köster, Yannik",
-  "Kreth, Fabian Alexander",
-  "Meyer, Jakob",
-  "Miret, Santiago",
-  "Peschel, Jan Matthias",
-  "Ringleb, Michael",
-  "Roesner, Nicole",
-  "Schreiber, Johanna",
-  "Schubert, Ulrich S.",
-  "Stafast, Leanne M.",
-  "Wonanke, Dinga",
-  "Pieler, Michael",
-  "Schwaller, Philippe",
+  "Mirza, Adrian"
+  "Alampara, Nawaf"
+  "Kunchapu, Sreekanth"
+  "Ríos-García, Martiño"
+  "Emoekabu, Benedict"
+  "Krishnan, Aswanth"
+  "Gupta, Tanya"
+  "Schilling-Wilhelmi, Mara"
+  "Okereke, Macjonathan"
+  "Aneesh, Anagha"
+  "Elahi, Amir Mohammad"
+  "Asgari, Mehrdad"
+  "Eberhardt, Juliane"
+  "Elbeheiry, Hani M."
+  "Gil, María Victoria"
+  "Greiner, Maximilian"
+  "Holick, Caroline T."
+  "Glaubitz, Christina"
+  "Hoffmann, Tim"
+  "Ibrahim, Abdelrahman"
+  "Klepsch, Lea C."
+  "Köster, Yannik"
+  "Kreth, Fabian Alexander"
+  "Meyer, Jakob"
+  "Miret, Santiago"
+  "Peschel, Jan Matthias"
+  "Ringleb, Michael"
+  "Roesner, Nicole"
+  "Schreiber, Johanna"
+  "Schubert, Ulrich S."
+  "Stafast, Leanne M."
+  "Wonanke, Dinga"
+  "Pieler, Michael"
+  "Schwaller, Philippe"
   "Jablonka, Kevin Maik"
 ]
 ```
@@ -222,20 +222,20 @@ Carl Zeiss Foundation；耶拿大学Life profile Talent Fund；作者个人/部�
 
 ```json
 {
-  "arxiv_v2_questions": 2788,
-  "hf_card_version": "1.0.0",
+  "arxiv_v2_questions": 2788
+  "hf_card_version": "1.0.0"
   "hf_card_config_records": {
-    "analytical_chemistry": 152,
-    "chemical_preference": 1000,
-    "general_chemistry": 149,
-    "inorganic_chemistry": 92,
-    "materials_science": 83,
-    "organic_chemistry": 429,
-    "physical_chemistry": 165,
-    "technical_chemistry": 40,
+    "analytical_chemistry": 152
+    "chemical_preference": 1000
+    "general_chemistry": 149
+    "inorganic_chemistry": 92
+    "materials_science": 83
+    "organic_chemistry": 429
+    "physical_chemistry": 165
+    "technical_chemistry": 40
     "toxicity_and_safety": 675
-  },
-  "hf_card_record_sum": 2785,
+  }
+  "hf_card_record_sum": 2785
   "count_warning": "2785为HF元数据九config行数相加；2788为锁定v2正文。两者单位/版本不同，不能默认为同一精确题量。"
 }
 ```
@@ -308,7 +308,7 @@ completion与instruction-tuned使用不同模板，并处理LaTeX、化学符号
 
 ### 复核时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-08）；[来源3](https://chembench.lamalab.org/)（访问2026-11-08）
 
@@ -324,12 +324,12 @@ HF卡仍自标数据1.0.0；官方结果数据集本次公开splits为2.0.0、2.
 {
   "arxiv_revisions_kst": [
     {
-      "version": "v1",
-      "submitted_at_kst": "2024-04-02T05:56:25+09:00"
-    },
+      "version": "v1"
+      "submitted_at_kst": "2024-04-02"
+    }
     {
-      "version": "v2",
-      "submitted_at_kst": "2024-11-01T16:05:33+09:00"
+      "version": "v2"
+      "submitted_at_kst": "2024-11-01"
     }
   ]
 }
@@ -359,7 +359,7 @@ ChemBench引擎已扩展至多模态化学/材料评测，相关独立论文Prob
 
 ### 快照时间
 
-2026-11-08 KST / Asia/Seoul（实际复核日；批次标签2026-11-07）
+2026-11-08 （实际复核日；批次标签2026-11-07）
 
 [来源1](https://arxiv.org/abs/2404.01475)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2404.01475)（访问2026-11-08）；[来源3](https://chembench.lamalab.org/)（访问2026-11-08）
 
@@ -382,105 +382,105 @@ https://huggingface.co/spaces/jablonkagroup/ChemBench-Leaderboard
 ```json
 [
   {
-    "rank": 1,
-    "model": "Claude Opus 4.7",
-    "score": 0.7087971274685817,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=true／uses_harness=false",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "claude-opus-4-7-tinyeval",
-    "verified": true,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": "2026-04-16",
-    "evaluation_date": "待核实",
+    "rank": 1
+    "model": "Claude Opus 4.7"
+    "score": 0.7087971274685817
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=true／uses_harness=false"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "claude-opus-4-7-tinyeval"
+    "verified": true
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": "2026-04-16"
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
-  },
+  }
   {
-    "rank": 2,
-    "model": "Claude Opus 4.8",
-    "score": 0.6728904847396768,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=true／uses_harness=false",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "claude-opus-4-8-tinyeval",
-    "verified": true,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": "2026-05-28",
-    "evaluation_date": "待核实",
+    "rank": 2
+    "model": "Claude Opus 4.8"
+    "score": 0.6728904847396768
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=true／uses_harness=false"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "claude-opus-4-8-tinyeval"
+    "verified": true
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": "2026-05-28"
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Kimi K2.5",
-    "score": 0.6721723518850987,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=true／uses_harness=false",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "kimi-k2-5-tinyeval",
-    "verified": true,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": "2026-01-27",
-    "evaluation_date": "待核实",
+    "rank": 3
+    "model": "Kimi K2.5"
+    "score": 0.6721723518850987
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=true／uses_harness=false"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "kimi-k2-5-tinyeval"
+    "verified": true
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": "2026-01-27"
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
-  },
+  }
   {
-    "rank": 1,
-    "model": "NexusSciAgent",
-    "score": 0.8604548586856919,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "NexusSciAgent-base-1767146262",
-    "verified": false,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": null,
-    "evaluation_date": "待核实",
+    "rank": 1
+    "model": "NexusSciAgent"
+    "score": 0.8604548586856919
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=false社区提交／非复测认证"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "NexusSciAgent-base-1767146262"
+    "verified": false
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": null
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
-  },
+  }
   {
-    "rank": 2,
-    "model": "NexusSciAgent_DeepSeek",
-    "score": 0.7116025843898856,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "NexusSciAgent_DeepSeek-base-1767172310",
-    "verified": false,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": null,
-    "evaluation_date": "待核实",
+    "rank": 2
+    "model": "NexusSciAgent_DeepSeek"
+    "score": 0.7116025843898856
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=false社区提交／非复测认证"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "NexusSciAgent_DeepSeek-base-1767172310"
+    "verified": false
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": null
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
-  },
+  }
   {
-    "rank": 3,
-    "model": "deepseek-chat1",
-    "score": 0.6567431850789096,
-    "metric": "fraction correct",
-    "track": "官方结果2.0.2／verified=false社区提交／非复测认证",
-    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100",
-    "accessed": "2026-11-08",
-    "unit": "比例",
-    "model_id": "deepseek-chat1-base-1762475946",
-    "verified": false,
-    "uses_harness": false,
-    "temperature": 0.0,
-    "model_release_date": null,
-    "evaluation_date": "待核实",
+    "rank": 3
+    "model": "deepseek-chat1"
+    "score": 0.6567431850789096
+    "metric": "fraction correct"
+    "track": "官方结果2.0.2／verified=false社区提交／非复测认证"
+    "source_url": "https://datasets-server.huggingface.co/rows?dataset=jablonkagroup%2FChemBench-Results&config=default&split=2.0.2&offset=0&length=100"
+    "accessed": "2026-11-08"
+    "unit": "比例"
+    "model_id": "deepseek-chat1-base-1762475946"
+    "verified": false
+    "uses_harness": false
+    "temperature": 0.0
+    "model_release_date": null
+    "evaluation_date": "待核实"
     "provenance": "官方公开结果数据，不把模型发布日期当评测日期"
   }
 ]
@@ -548,60 +548,60 @@ https://arxiv.org/pdf/2404.01475
 
 [来源1](https://arxiv.org/pdf/2404.01475)（访问2026-11-07）
 
-### Drive目录
+### 目录
 
 ```json
 {
-  "id": "1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv",
-  "webViewLink": "https://drive.google.com/drive/folders/1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv"
+  "id": "1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1trwz_OoqFHrGjncCKLSdUGivS7W5zjhv)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc",
-    "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY",
-    "webViewLink": "https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk"
+    "kind": "中文介绍 Google Doc"
+    "id": "1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY"
+    "webViewLink": "
   }
 ]
 ```
 
-[来源1](https://docs.google.com/document/d/1ElK53-1f4xYcQit5LGUZAFvxjgx3TXS_PLYfmOZW0kY/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
-### Drive论文归档
+### 论文归档
 
 ```json
 {
-  "id": "1MVlzT2xYLag8giD4uumklERs82tPaLsp",
-  "webViewLink": "https://drive.google.com/file/d/1MVlzT2xYLag8giD4uumklERs82tPaLsp/view?usp=drivesdk"
+  "id": "1MVlzT2xYLag8giD4uumklERs82tPaLsp"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/file/d/1MVlzT2xYLag8giD4uumklERs82tPaLsp/view?usp=drivesdk)（访问2026-11-07）
+[来源1](
 
 ## 变更记录
 
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：打开官方文档核验许可、数据形式和评测协议；复核2026H2证据，区分历史结果与实时榜单；同步中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮q2：重读一级材料、保留版本/许可冲突；榜单按来源与协议分轨，中文介绍重写。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

@@ -60,7 +60,7 @@ ClimateBench v1.0检验排放路径到长期气候响应的模拟，而不是逐
 
 来源：[1](https://doi.org/10.1029/2021MS002954)（访问2026-11-07）；[2](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
-**论文标题**：ClimateBench v1.0: A Benchmark for Data-Driven Climate Projections
+**论文标题**：ClimateBench v1.0: A Benchmark for Data-n Climate Projections
 
 来源：[1](https://doi.org/10.1029/2021MS002954)（访问2026-11-07）；[2](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
@@ -304,20 +304,20 @@ direction：lower_is_better
 
 来源：[1](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_2022_ClimateBench_AAM.pdf)（访问2026-11-07）
 
-**Drive目录**：id：1CdUJZuKU0JlNMYRETbKPDJIjYHYBQDlN；webViewLink：https://drive.google.com/drive/folders/1CdUJZuKU0JlNMYRETbKPDJIjYHYBQDlN
+**目录**：id：1CdUJZuKU0JlNMYRETbKPDJIjYHYBQDlN；webViewLink：
 
-来源：[1](https://drive.google.com/drive/folders/1CdUJZuKU0JlNMYRETbKPDJIjYHYBQDlN)（访问2026-11-07）
+来源：[1](
 
-**其他文档**：kind：中文介绍 Google Doc；id：1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM；webViewLink：https://docs.google.com/document/d/1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM/edit?usp=drivesdk
+**其他文档**：kind：中文介绍 Google Doc；id：1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM；webViewLink：
 
-来源：[1](https://docs.google.com/document/d/1rO2MnBJDShb7VLu1qjClF5kVTFPUdTRNYoQTRp1OtxM/edit?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
-**Drive PDF**：id：1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS；webViewLink：https://drive.google.com/file/d/1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS/view?usp=drivesdk
+** PDF**：id：1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS；webViewLink：
 
-来源：[1](https://drive.google.com/file/d/1vxTPSh53xGBnDespfGhCV4gBJfbLa5AS/view?usp=drivesdk)（访问2026-11-07）
+来源：[1](
 
 ## 变更记录
 
-- date：2026-11-07；timezone：Asia/Seoul；change：首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。
-- date：2026-11-07；timezone：Asia/Seoul；change：第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- date：2026-11-07；timezone：Asia/Seoul；change：第2轮深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；timezone：；change：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
+- date：2026-11-07；timezone：；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

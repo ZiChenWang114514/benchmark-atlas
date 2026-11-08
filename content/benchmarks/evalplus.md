@@ -1,10 +1,10 @@
 # EvalPlus
 
-> Benchmark Constitution · 研究快照 2026-11-07（KST / Asia/Seoul）。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 EvalPlus不是新造一套编程题，而是通过增强测试重新审视HumanEval与MBPP上生成函数是否真正正确。最重要的阅读条件是测试版本：当前MBPP+为378题，而历史榜叙述曾用399题；不能只写“EvalPlus分数”而省略子集、提示模式和版本。
 
-编辑状态：第1轮官方证据复核；授权与版本冲突显式保留；未核实项不补造
+最近复核
 
 ## 基本信息
 
@@ -40,9 +40,9 @@ arXiv v3（论文修订，不等于数据集版本）
 
 ### 发布日期
 
-2023-05-02 14:46:48 KST
+2023-05-02 14:46:48
 
-说明：首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。
+说明：首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。
 
 [一手资料1](https://arxiv.org/abs/2305.01210)（访问 2026-11-07）
 
@@ -88,7 +88,7 @@ https://github.com/evalplus/evalplus
 
 HumanEval+: https://huggingface.co/datasets/evalplus/humanevalplus；MBPP+ v0.2.0的378题更正以官方README为准；不臆造单独数据下载地址。
 
-说明：本轮已读取的公开HF卡revision: d32357cf319e50e9c8d8dab5ea876c72b0fd321b；只固定公开卡/仓库状态，不外推为私有测试版本。
+说明：已读取的公开HF卡revision: d32357cf319e50e9c8d8dab5ea876c72b0fd321b；只固定公开卡/仓库状态，不外推为私有测试版本。
 
 [一手资料1](https://huggingface.co/datasets/evalplus/humanevalplus)（访问 2026-11-07）；[一手资料2](https://github.com/evalplus/evalplus/blob/master/README.md)（访问 2026-11-07）
 
@@ -290,7 +290,7 @@ https://github.com/evalplus/evalplus
 
 ### 核查日期
 
-2026-11-07 KST / Asia/Seoul（资料快照日期）
+2026-11-07 （资料快照日期）
 
 [一手资料1](https://evalplus.github.io/)（访问 2026-11-07）
 
@@ -310,14 +310,14 @@ https://github.com/evalplus/evalplus
 ### 材料沿革
 
 - - **version**：v1
-  - **submitted_at_kst**：2023-05-02T14:46:48+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2023-05-02
+  - **timezone**：
 - - **version**：v2
-  - **submitted_at_kst**：2023-06-12T15:49:51+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2023-06-12
+  - **timezone**：
 - - **version**：v3
-  - **submitted_at_kst**：2023-10-31T04:37:09+09:00
-  - **timezone**：Asia/Seoul (KST)
+  - **submitted_at_kst**：2023-10-31
+  - **timezone**：
 
 [一手资料1](https://arxiv.org/abs/2305.01210)（访问 2026-11-07）
 
@@ -326,7 +326,7 @@ https://github.com/evalplus/evalplus
 
 官方静态快照HumanEval+最高89.0%、MBPP+最高80.2%，尚未满分；这只描述该静态榜覆盖的配置，不能据历史模型榜判断2026全行业饱和程度。
 
-说明：编辑依据本轮读取的快照作有限范围判断；不外推未收录模型。
+说明：编辑依据读取的快照作有限范围判断；不外推未收录模型。
 
 [一手资料1](https://evalplus.github.io/results.json)（访问 2026-11-07）
 
@@ -349,7 +349,7 @@ HumanEval+与MBPP+是增强功能测试子集；仓库另提供EvalPerf效率评
 
 ### 快照日期
 
-2026-11-07 KST / Asia/Seoul（快照日，非实跑日）
+2026-11-07 （快照日，非实跑日）
 
 [一手资料1](https://evalplus.github.io/leaderboard.html)（访问 2026-11-07）
 
@@ -377,123 +377,123 @@ https://evalplus.github.io/leaderboard.html
 ```json
 [
   {
-    "rank": 1,
-    "model": "O1 Preview (Sept 2024)",
-    "score": 89.0,
-    "metric": "humaneval+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 1
+    "model": "O1 Preview (Sept 2024)"
+    "score": 89.0
+    "metric": "humaneval+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 1,
-    "model": "O1 Mini (Sept 2024)",
-    "score": 89.0,
-    "metric": "humaneval+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 1
+    "model": "O1 Mini (Sept 2024)"
+    "score": 89.0
+    "metric": "humaneval+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Qwen2.5-Coder-32B-Instruct",
-    "score": 87.2,
-    "metric": "humaneval+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 3
+    "model": "Qwen2.5-Coder-32B-Instruct"
+    "score": 87.2
+    "metric": "humaneval+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 3,
-    "model": "GPT 4o (Aug 2024)",
-    "score": 87.2,
-    "metric": "humaneval+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 3
+    "model": "GPT 4o (Aug 2024)"
+    "score": 87.2
+    "metric": "humaneval+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 5,
-    "model": "DeepSeek-V3 (Nov 2024)",
-    "score": 86.6,
-    "metric": "humaneval+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 5
+    "model": "DeepSeek-V3 (Nov 2024)"
+    "score": 86.6
+    "metric": "humaneval+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 1,
-    "model": "O1 Preview (Sept 2024)",
-    "score": 80.2,
-    "metric": "mbpp+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 1
+    "model": "O1 Preview (Sept 2024)"
+    "score": 80.2
+    "metric": "mbpp+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 2,
-    "model": "O1 Mini (Sept 2024)",
-    "score": 78.8,
-    "metric": "mbpp+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 2
+    "model": "O1 Mini (Sept 2024)"
+    "score": 78.8
+    "metric": "mbpp+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 3,
-    "model": "Qwen2.5-Coder-32B-Instruct",
-    "score": 77.0,
-    "metric": "mbpp+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 3
+    "model": "Qwen2.5-Coder-32B-Instruct"
+    "score": 77.0
+    "metric": "mbpp+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 4,
-    "model": "DeepSeek-Coder-V2-Instruct",
-    "score": 75.1,
-    "metric": "mbpp+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 4
+    "model": "DeepSeek-Coder-V2-Instruct"
+    "score": 75.1
+    "metric": "mbpp+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "rank": 5,
-    "model": "Gemini 1.5 Pro 002",
-    "score": 74.6,
-    "metric": "mbpp+ greedy pass@1 (%)",
-    "scope": "该子集独立排序的官方静态榜",
-    "source_url": "https://evalplus.github.io/results.json",
-    "accessed": "2026-11-07",
-    "source_updated_at": "待核实：数据文件未给整体更新时间",
+    "rank": 5
+    "model": "Gemini 1.5 Pro 002"
+    "score": 74.6
+    "metric": "mbpp+ greedy pass@1 (%)"
+    "scope": "该子集独立排序的官方静态榜"
+    "source_url": "https://evalplus.github.io/results.json"
+    "accessed": "2026-11-07"
+    "source_updated_at": "待核实：数据文件未给整体更新时间"
     "dataset_version": "待核实：结果文件未逐行标记增强测试版本"
-  },
+  }
   {
-    "model": "Hunyuan-A13B base",
-    "score": 78.64,
-    "metric": "报告中的 EvalPlus (%)",
-    "benchmark_version": "套件/版本待核实",
-    "result_type": "厂商技术报告自报",
-    "source_date": "2026-09-23",
-    "collected_at": "2026-11-07 KST",
+    "model": "Hunyuan-A13B base"
+    "score": 78.64
+    "metric": "报告中的 EvalPlus (%)"
+    "benchmark_version": "套件/版本待核实"
+    "result_type": "厂商技术报告自报"
+    "source_date": "2026-09-23"
+    "collected_at": "2026-11-07 "
     "settings": "0-shot"
   }
 ]
@@ -568,7 +568,7 @@ https://arxiv.org/pdf/2305.01210
 
 52d35d25a10c38da3db132beceb8d29bee77abd46f18aafe76c5b0c63f0a6541
 
-说明：实际下载的源站PDF字节摘要；不据此声称Drive副本已更新。
+说明：实际下载的源站PDF字节摘要；不据此声称副本已更新。
 
 [一手资料1](https://arxiv.org/pdf/2305.01210)（访问 2026-11-07）
 
@@ -580,44 +580,44 @@ https://arxiv.org/pdf/2305.01210
 [一手资料1](https://arxiv.org/pdf/2305.01210)（访问 2026-11-07）
 
 
-### Drive资料目录
+### 资料目录
 
 - **id**：1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj
-- **webViewLink**：https://drive.google.com/drive/folders/1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj
+- **webViewLink**：
 
-[一手资料1](https://drive.google.com/drive/folders/1AkaeCG0Wxijjr8soJUlfSBXFhp2ofjJj)（访问 2026-11-07）
+[一手资料1]( 2026-11-07）
 
 
 ### 其他官方资料
 
 - - **type**：中文介绍Google Doc
   - **id**：1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo
-  - **webViewLink**：https://docs.google.com/document/d/1Q7kojN9CK_68p6ZpcdNM3280ALruE6yS1XiS-nXinvo/edit?usp=drivesdk
-- - **type**：本轮核验的官方原始资料
+  - **webViewLink**：
+- - **type**：核验的官方原始资料
   - **url**：https://github.com/evalplus/evalplus/blob/master/README.md
   - **accessed**：2026-11-07
-- - **type**：本轮核验的官方原始资料
+- - **type**：核验的官方原始资料
   - **url**：https://huggingface.co/datasets/evalplus/humanevalplus
   - **accessed**：2026-11-07
 
 [一手资料1](https://github.com/evalplus/evalplus/blob/master/README.md)（访问 2026-11-07）；[一手资料2](https://huggingface.co/datasets/evalplus/humanevalplus)（访问 2026-11-07）
 
 
-### Drive PDF归档
+### PDF归档
 
 - **id**：1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1
-- **webViewLink**：https://drive.google.com/file/d/1JUnPo4NHcykfrrfxbjDpRd5QFbf1bms1/view?usp=drivesdk
+- **webViewLink**：
 
-本轮仅核对源站PDF和已有归档引用，未上传或覆盖Drive文件。
+仅核对源站PDF和已有归档引用，未上传或覆盖文件。
 
 ## 变更记录
 
 - - **date**：2026-11-07
-  - **timezone**：KST / Asia/Seoul
+  - **timezone**：
   - **change**：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul
-  - **change**：深度优化第1轮：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+  - **timezone**：
+  - **change**：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
 - - **date**：2026-11-07
-  - **timezone**：Asia/Seoul (KST)
+  - **timezone**：
   - **change**：R2逐篇打开arXiv摘要与PDF文本（有论文者）、已定位官方README/LICENSE、HF数据卡及榜页；补字段并分轨刷新成绩，重写中文11节，保留无法核实项。

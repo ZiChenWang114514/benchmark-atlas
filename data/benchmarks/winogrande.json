@@ -1,7 +1,7 @@
 {
   "id": "winogrande",
   "schema_version": "0.1.0",
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "WinoGrande",
@@ -41,7 +41,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2019-07-25T03:11:59+09:00",
+        "paper_first_submission_kst": "2019-07-25",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -385,7 +385,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1907.10641",
@@ -409,7 +409,7 @@
     "paper_revision_history": {
       "value": {
         "arxiv_version": "arXiv v2",
-        "history_note": "完整历史请见arXiv元数据；初稿日期已转Asia/Seoul，不将论文修订日混为数据版本。",
+        "history_note": "完整历史请见arXiv元数据；初稿日期已转，不将论文修订日混为数据版本。",
         "2026_h2_evidence": [
           {
             "url": "https://arxiv.org/html/2610.11978v1",
@@ -420,14 +420,14 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2019-07-25T03:11:59+09:00"
+            "date_kst": "2019-07-25"
           },
           {
             "version": "v2",
-            "date_kst": "2019-11-22T04:01:32+09:00"
+            "date_kst": "2019-11-22"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -484,7 +484,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST；只刷新论文历史表，官方实时榜失败",
+      "value": "2026-11-08；只刷新论文历史表，官方实时榜失败",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/1907.10641",
@@ -532,7 +532,7 @@
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
           "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
-          "track": "既有2026-H2研究实验（本轮未刷新）"
+          "track": "既有2026-H2研究实验（未刷新）"
         },
         {
           "model_version": "Qwen3.8 Flash",
@@ -544,7 +544,7 @@
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
           "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
-          "track": "既有2026-H2研究实验（本轮未刷新）"
+          "track": "既有2026-H2研究实验（未刷新）"
         },
         {
           "model_version": "Claude Opus 5.5",
@@ -556,7 +556,7 @@
           "source_url": "https://arxiv.org/html/2610.11978v1",
           "source_class": "研究论文实验，非官方实时榜",
           "checkpoint_note": "模型名按来源原样；若来源未列API checkpoint则不补造。",
-          "track": "既有2026-H2研究实验（本轮未刷新）"
+          "track": "既有2026-H2研究实验（未刷新）"
         },
         {
           "rank": null,
@@ -897,7 +897,7 @@
       ]
     },
     "coverage_note": {
-      "value": "官方AI2榜本轮requests遇TLS EOF，WebFetch返回500；没有取得实时榜，不声称最新SOTA。原论文v2 Table3的9模型×dev/test及Table4五训练规模×dev/test均逐值恢复。既有2026-H2研究三行保留旧采集日，与官方test/学习曲线分开。",
+      "value": "官方AI2榜requests遇TLS EOF，WebFetch返回500；没有取得实时榜，不声称最新SOTA。原论文v2 Table3的9模型×dev/test及Table4五训练规模×dev/test均逐值恢复。既有2026-H2研究三行保留旧采集日，与官方test/学习曲线分开。",
       "sources": [
         {
           "url": "https://arxiv.org/pdf/1907.10641",
@@ -958,13 +958,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp",
-      "webViewLink": "https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -987,7 +984,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 1098857,
@@ -999,13 +996,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4",
-        "webViewLink": "https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1013,15 +1007,13 @@
     "other_documents": {
       "value": {
         "chinese_intro_doc": {
-          "id": "1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg",
-          "webViewLink": "https://docs.google.com/document/d/1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg/edit?usp=drivesdk",
           "mimeType": "application/vnd.google-apps.document"
         },
         "local_markdown": "content/benchmarks/winogrande.md"
       },
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -1031,13 +1023,11 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。",
+        "change": "最近复核",
         "fields_updated": [
           "basic_info.version",
           "latest_status.latest_dataset_version",
@@ -1047,9 +1037,7 @@
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [

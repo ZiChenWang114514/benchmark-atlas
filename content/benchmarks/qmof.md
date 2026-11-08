@@ -1,10 +1,10 @@
 # QMOF
 
-> 第2轮深度核验：2026-11-08（KST / Asia/Seoul）。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
+> 深度核验：2026-11-08。访问日不等于发布日期或实验运行日；未知保留，不推定“未公开”。
 
 QMOF是金属有机框架与配位聚合物的DFT量子化学数据库，不是由一个名称就能确定统一测试集的排行榜。带隙预测只是其下游任务之一，必须连同数据库版本、DFT层级、结构划分与训练配置读取MAE。维护方v13表、NIST固定任务和2026模型论文三个来源分轨，不能合并排成所谓全局SOTA。
 
-编辑状态：第1轮实证优化；已补官方事实与分任务快照，未核实项明确保留
+最近复核
 
 ## 1. 基本信息
 
@@ -104,7 +104,7 @@ Rosen等QMOF研究团队；原始论文作者与作者单位见ChemRxiv/正式�
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
@@ -112,13 +112,13 @@ Rosen等QMOF研究团队；原始论文作者与作者单位见ChemRxiv/正式�
 
 ```json
 [
-  "Andrew S. Rosen",
-  "Shaelyn M. Iyer",
-  "Debmalya Ray",
-  "Zhenpeng Yao",
-  "Alán Aspuru-Guzik",
-  "Laura Gagliardi",
-  "Justin M. Notestein",
+  "Andrew S. Rosen"
+  "Shaelyn M. Iyer"
+  "Debmalya Ray"
+  "Zhenpeng Yao"
+  "Alán Aspuru-Guzik"
+  "Laura Gagliardi"
+  "Justin M. Notestein"
   "Randall Q. Snurr"
 ]
 ```
@@ -257,7 +257,7 @@ QMOF是数据库+下游协议，不存在由数据库名唯一决定的全局榜
 
 ### 核验日
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 [1](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md)（访问 2026-11-08）
 
@@ -281,7 +281,7 @@ H2同协议MAE未改善不代表所有MOF电子性质饱和，也不证明结构
 
 ### 污染/限制/争议
 
-需区分QMOF版本、训练/测试结构及DFT泛函；维护方v13对比和NIST协议不能默认相同。原始2021论文PDF本轮Cell/化学预印本下载仍受403限制；仅重开ChemRxiv摘要、仓库、NIST及2026下游论文，未以其他论文冒充原始PDF。
+需区分QMOF版本、训练/测试结构及DFT泛函；维护方v13对比和NIST协议不能默认相同。原始2021论文PDFCell/化学预印本下载仍受403限制；仅重开ChemRxiv摘要、仓库、NIST及2026下游论文，未以其他论文冒充原始PDF。
 
 [1](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md)（访问 2026-11-08）；[2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md)（访问 2026-11-08）；[4](https://chemrxiv.org/engage/chemrxiv/article-details/60c75162469df46822f449f8)（访问 2026-11-08）
 
@@ -295,7 +295,7 @@ v18加入初步QMOF Thermo Database；属于原数据库扩展，本库不据此
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是实验运行日）
+2026-11-08 （采集日，不是实验运行日）
 
 [1](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md)（访问 2026-11-08）
 
@@ -329,7 +329,7 @@ https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandg
 | NIST JARVIS / qmof_bandgap / 20424样本 | — | [matminer_rf](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/) | 0.3618 | bandgap MAE (eV), lower is better | 05-22-2023 |
 | NIST JARVIS / qmof_bandgap / 20424样本 | — | [matminer_xgboost](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/) | 0.3421 | bandgap MAE (eV), lower is better | 05-22-2023 |
 
-> 所有行采集于2026-11-08 KST；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
+> 所有行采集于2026-11-08；CI、成本、任务数及配置等辅助字段见对应JSON；“—”表示来源不是排名表，不自行排序。
 
 [1](https://arxiv.org/pdf/2609.19487)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/benchmarks.md)（访问 2026-11-08）；[3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandgap/)（访问 2026-11-08）
 
@@ -363,7 +363,7 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
@@ -379,7 +379,7 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
@@ -387,7 +387,7 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
@@ -395,16 +395,16 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 待核实
 
-> 本轮已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
+> 已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "16710civVuRQy4imv33HqI4LGvAE8rIGF",
-  "webViewLink": "https://drive.google.com/drive/folders/16710civVuRQy4imv33HqI4LGvAE8rIGF"
+  "id": "16710civVuRQy4imv33HqI4LGvAE8rIGF"
+  "webViewLink": "
 }
 ```
 
@@ -415,8 +415,8 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 ```json
 [
   {
-    "type": "中文介绍 Google Doc",
-    "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA",
+    "type": "中文介绍 Google Doc"
+    "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA"
     "webViewLink": "https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit"
   }
 ]
@@ -424,7 +424,7 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 [1](https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit)（访问 2026-11-07）
 
-### Drive论文PDF
+### 论文PDF
 
 待核实
 
@@ -434,19 +434,19 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Seoul",
-    "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul",
-    "change": "第2轮q11：重开论文abs/PDF、官方README/许可、数据卡及榜单；补齐可核实字段、重写中文介绍，完整采集分轨精确成绩，保留版本冲突与不可访问材料。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 

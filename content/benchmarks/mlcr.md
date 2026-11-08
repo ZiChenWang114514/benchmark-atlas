@@ -1,6 +1,6 @@
 # MLCR / MLCR-AA
 
-> Benchmark Constitution · 深度核查 2026-11-08（KST / Asia/Seoul）。事实按所列来源及访问日期；未决项不等于官方未公开。
+> Benchmark Constitution · 深度核查 2026-11-08。事实按所列来源及访问日期；未决项不等于官方未公开。
 
 ## 基本信息
 
@@ -30,7 +30,7 @@ MLCR v1.1（2026-08-31）；MLCR-AA是独立实现口径
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -65,7 +65,7 @@ HF数据卡明确license: other；具体可再分发条款待核实。官方仓�
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -91,7 +91,7 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -128,7 +128,7 @@ Wisedocs维护原始MLCR；Artificial Analysis维护MLCR-AA评测。
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -203,7 +203,7 @@ Wisedocs维护原始MLCR；Artificial Analysis维护MLCR-AA评测。
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -255,7 +255,7 @@ Wisedocs官方evaluation harness仓库；AA私有集不能由公开数据直接�
 
 ### 核查日期
 
-2026-11-08（KST / Asia/Seoul）
+2026-11-08
 
 [来源](https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md)（访问 2026-11-08）
 
@@ -294,7 +294,7 @@ MLCR-AA是Artificial Analysis独立执行的私有难题实现；公开MLCR harn
 
 ### 快照日期
 
-2026-11-08（KST；采集日，不冒充评测运行日）
+2026-11-08（；采集日，不冒充评测运行日）
 
 [来源](https://artificialanalysis.ai/evaluations/mlcr-aa)（访问 2026-11-08）
 
@@ -383,7 +383,7 @@ https://artificialanalysis.ai/evaluations/mlcr-aa
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -397,7 +397,7 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -405,7 +405,7 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -415,31 +415,31 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
-### 本轮PDF字节数
+### PDF字节数
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
-### Drive文件夹
+### 文件夹
 
 待核实
 
-> 本轮打开所列材料后仍未精确核实；不代表官方没有公开。
+> 打开所列材料后仍未精确核实；不代表官方没有公开。
 
 [来源](https://github.com/Wisedocs-AI/medical-long-context-reasoning)（访问 2026-11-08）
 
@@ -450,7 +450,7 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues
 
 [来源](https://www.wisedocs.ai/blogs/medical-long-context-reasoning)（访问 2026-11-08）；[来源](https://www.wisedocs.ai/blogs/mlcr-v1-1-calibrating-llm-judges-for-long-context-medical-reasoning)（访问 2026-11-08）
 
-### Drive PDF归档
+### PDF归档
 
 待核实
 
@@ -458,7 +458,7 @@ https://github.com/Wisedocs-AI/medical-long-context-reasoning/issues
 
 ## 变更记录
 
-- - **date**：2026-11-07；- **timezone**：KST / Asia/Seoul；- **change**：按官方材料新建中文条目；区分热度、质量和不同版本评分。
-- - **date**：2026-11-08；- **timezone**：Asia/Seoul (KST)；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
+- - **date**：2026-11-07；- **timezone**：；- **change**：按官方材料新建中文条目；区分热度、质量和不同版本评分。
+- - **date**：2026-11-08；- **timezone**：；- **change**：深度核查论文abs/PDF、官方README/LICENSE、数据卡及榜单；精确区分版本、来源与协议，重写中文档案。
 
 [来源](https://raw.githubusercontent.com/Wisedocs-AI/medical-long-context-reasoning/main/README.md)（访问 2026-11-08）

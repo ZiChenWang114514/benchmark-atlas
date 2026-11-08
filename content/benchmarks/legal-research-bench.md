@@ -1,6 +1,6 @@
 # Legal Research Bench
 
-> Benchmark Constitution｜逐源深度核查：2026-11-08（KST / Asia/Seoul）。采集日期不代表实验日期；待核实不等于未公开。
+> Benchmark Constitution｜逐源深度核查：2026-11-08。采集日期不代表实验日期；待核实不等于未公开。
 
 Legal Research Bench要求agent完成美国法开放式检索，并同时满足全部必需rubric及来源核验。官网208题test榜与论文413题历史实验分轨；代码MIT不意味着Proprietary完整题集开放，也不代表达到可无人监督执业的可靠性。
 
@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2026-10-01T04:13:16+09:00（KST / Asia/Seoul；arXiv初稿日期，不冒充数据集单独首发日）
+2026-10-01（arXiv初稿日期，不冒充数据集单独首发日）
 
 来源：[1](https://arxiv.org/abs/2610.00609)（访问 2026-11-08）。
 
@@ -50,7 +50,7 @@ Agent
 
 ```json
 [
-  "法律",
+  "法律"
   "搜索"
 ]
 ```
@@ -63,7 +63,7 @@ Agent
 
 ```json
 {
-  "harness": "MIT，Copyright 2026 Vals AI, Inc.",
+  "harness": "MIT，Copyright 2026 Vals AI, Inc."
   "dataset": "官网标Proprietary；5题公开样例、其余访问另需批准/许可，不能以代码MIT推断完整题集开放。"
 }
 ```
@@ -120,9 +120,9 @@ Vals AI
 
 ```json
 [
-  "Katrina Drozdov",
-  "Oliver Chen",
-  "Langston Nashold",
+  "Katrina Drozdov"
+  "Oliver Chen"
+  "Langston Nashold"
   "Rayan Krishnan"
 ]
 ```
@@ -207,7 +207,7 @@ GPT-5.4裁判对律师多数票rubric标签一致率87.4%。
 
 ```json
 [
-  "文本",
+  "文本"
   "检索网页与法律材料"
 ]
 ```
@@ -266,9 +266,9 @@ https://github.com/vals-ai/legal-research-bench
 
 ## 最新情况
 
-### 本轮核查时间
+### 核查时间
 
-2026-11-08 KST / Asia/Seoul
+2026-11-08
 
 来源：[1](https://arxiv.org/abs/2610.00609)（访问 2026-11-08）；[2](https://www.vals.ai/benchmarks/legal_research)（访问 2026-11-08）。
 
@@ -276,10 +276,10 @@ https://github.com/vals-ai/legal-research-bench
 
 ```json
 {
-  "version": "413题LRB原论文语料；当前官网208题test轨",
-  "official_page_updated": "2026-11-05",
-  "public": 5,
-  "validation": 200,
+  "version": "413题LRB原论文语料；当前官网208题test轨"
+  "official_page_updated": "2026-11-05"
+  "public": 5
+  "validation": 200
   "test": 208
 }
 ```
@@ -291,14 +291,14 @@ https://github.com/vals-ai/legal-research-bench
 ```json
 [
   {
-    "version": "v1",
-    "submitted_at": "2026-10-01T04:13:16+09:00",
-    "timezone": "Asia/Seoul (KST)"
+    "version": "v1"
+    "submitted_at": "2026-10-01"
+    "timezone": ""
   }
 ]
 ```
 
-> arXiv原始UTC时间已转换为KST；不等于数据集版本变更。
+> arXiv原始UTC时间已转换为；不等于数据集版本变更。
 
 来源：[1](https://arxiv.org/abs/2610.00609)（访问 2026-11-08）。
 
@@ -324,7 +324,7 @@ https://github.com/vals-ai/legal-research-bench
 
 ### 采集日期
 
-2026-11-08 KST / Asia/Seoul（采集日，不是运行或榜单更新日）
+2026-11-08 （采集日，不是运行或榜单更新日）
 
 来源：[1](https://www.vals.ai/benchmarks/legal_research)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2610.00609)（访问 2026-11-08）。
 
@@ -347,50 +347,50 @@ https://www.vals.ai/benchmarks/legal_research
 ```json
 [
   {
-    "rank": 1,
-    "model": "Gemini 4 Carbon",
-    "score": 55.77,
-    "metric": "All-Pass (%)，208题Test",
-    "source_url": "https://www.vals.ai/benchmarks/legal_research",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-08 KST",
-    "result_type": "官方榜单快照",
-    "track": "官方当前208题test / All-Pass",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 1
+    "model": "Gemini 4 Carbon"
+    "score": 55.77
+    "metric": "All-Pass (%)，208题Test"
+    "source_url": "https://www.vals.ai/benchmarks/legal_research"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-08 "
+    "result_type": "官方榜单快照"
+    "track": "官方当前208题test / All-Pass"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 2,
-    "model": "Muse Spark 1.3 Max",
-    "score": 55.29,
-    "metric": "All-Pass (%)，208题Test",
-    "source_url": "https://www.vals.ai/benchmarks/legal_research",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-08 KST",
-    "result_type": "官方榜单快照",
-    "track": "官方当前208题test / All-Pass",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 2
+    "model": "Muse Spark 1.3 Max"
+    "score": 55.29
+    "metric": "All-Pass (%)，208题Test"
+    "source_url": "https://www.vals.ai/benchmarks/legal_research"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-08 "
+    "result_type": "官方榜单快照"
+    "track": "官方当前208题test / All-Pass"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 3,
-    "model": "Claude Opus 5",
-    "score": 55.29,
-    "metric": "All-Pass (%)，208题Test",
-    "source_url": "https://www.vals.ai/benchmarks/legal_research",
-    "source_date": "2026-11-05",
-    "collected_at": "2026-11-08 KST",
-    "result_type": "官方榜单快照",
-    "track": "官方当前208题test / All-Pass",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
-  },
+    "rank": 3
+    "model": "Claude Opus 5"
+    "score": 55.29
+    "metric": "All-Pass (%)，208题Test"
+    "source_url": "https://www.vals.ai/benchmarks/legal_research"
+    "source_date": "2026-11-05"
+    "collected_at": "2026-11-08 "
+    "result_type": "官方榜单快照"
+    "track": "官方当前208题test / All-Pass"
+    "snapshot_date": "2026-11-08 "
+  }
   {
-    "rank": 1,
-    "model": "Claude Opus 4.8",
-    "score": "42.9",
-    "metric": "All-Pass (%)",
-    "track": "原论文413题全量 / 历史作者实验",
-    "source_url": "https://arxiv.org/pdf/2610.00609",
-    "result_type": "论文摘要历史结果，非208题当前官网榜",
-    "snapshot_date": "2026-11-08 KST / Asia/Seoul"
+    "rank": 1
+    "model": "Claude Opus 4.8"
+    "score": "42.9"
+    "metric": "All-Pass (%)"
+    "track": "原论文413题全量 / 历史作者实验"
+    "source_url": "https://arxiv.org/pdf/2610.00609"
+    "result_type": "论文摘要历史结果，非208题当前官网榜"
+    "snapshot_date": "2026-11-08 "
   }
 ]
 ```
@@ -441,25 +441,25 @@ https://arxiv.org/pdf/2610.00609
 
 来源：[1](https://www.vals.ai/benchmarks/legal_research)（访问 2026-11-07）。
 
-### 本轮PDF SHA-256
+### PDF SHA-256
 
 a7f99b089bb1ff218471ecab84557f79af3dbb607b1eb6fbb30e926133658876
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2610.00609)（访问 2026-11-08）。
 
-### 本轮PDF字节数
+### PDF字节数
 
 ```json
 467211
 ```
 
-> 2026-11-08 KST本轮下载PDF的实测值；未重新下载Drive内副本，不证明其与本次文件相同。
+> 2026-11-08 下载PDF的实测值；未重新下载内副本，不证明其与本次文件相同。
 
 来源：[1](https://arxiv.org/pdf/2610.00609)（访问 2026-11-08）。
 
-### 已有Drive文件夹
+### 已有文件夹
 
 待核实
 
@@ -472,11 +472,11 @@ a7f99b089bb1ff218471ecab84557f79af3dbb607b1eb6fbb30e926133658876
 ```json
 [
   {
-    "type": "官方数据卡/方法入口",
+    "type": "官方数据卡/方法入口"
     "url": "https://github.com/vals-ai/legal-research-bench"
-  },
+  }
   {
-    "type": "公开代码文档",
+    "type": "公开代码文档"
     "url": "https://github.com/vals-ai/legal-research-bench"
   }
 ]
@@ -484,11 +484,11 @@ a7f99b089bb1ff218471ecab84557f79af3dbb607b1eb6fbb30e926133658876
 
 来源：[1](https://github.com/vals-ai/legal-research-bench)（访问 2026-11-08）；[2](https://arxiv.org/abs/2610.00609)（访问 2026-11-08）。
 
-### 已有Drive PDF归档
+### 已有 PDF归档
 
 待核实
 
-> 本组仅建立本地研究条目，未上传Drive。
+> 本组仅建立本地研究条目，未上传。
 
 来源：[1](https://www.vals.ai/benchmarks/legal_research)（访问 2026-11-07）。
 
@@ -499,14 +499,14 @@ a7f99b089bb1ff218471ecab84557f79af3dbb607b1eb6fbb30e926133658876
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "KST / Asia/Seoul",
-    "change": "首次建立近期热门中文研究条目；逐项核实官方材料、分轨结果并保留缺口。"
-  },
+    "date": "2026-11-07"
+    "timezone": ""
+    最近复核
+  }
   {
-    "date": "2026-11-08",
-    "timezone": "Asia/Seoul (KST)",
-    "change": "第2轮逐源深度核实：论文abs/PDF、官方README/LICENSE及可取得的数据卡/榜单；分轨精确成绩，修正版本、数据规模、权利范围及中文说明。"
+    "date": "2026-11-08"
+    "timezone": ""
+    最近复核
   }
 ]
 ```

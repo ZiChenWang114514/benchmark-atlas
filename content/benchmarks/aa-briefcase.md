@@ -1,6 +1,6 @@
 # AA-Briefcase
 
-> 核验日期：2026-11-07 Asia/Shanghai（UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
 
 已核验存在；研究快照，未核实字段保留标记
 
@@ -271,7 +271,7 @@ v1.1仅改变Elo拟合，不改变题目；Elo取决于对手池、裁判与拟�
 
 ### 核查日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）
 
@@ -279,11 +279,11 @@ v1.1仅改变Elo拟合，不改变题目；Elo取决于对手池、裁判与拟�
 
 ```json
 {
-  "version": "v1.1",
+  "version": "v1.1"
   "evidence_2026_h2": [
     {
-      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-      "date": "2026-10-28",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+      "date": "2026-10-28"
       "note": "Artificial Analysis 2026-10-28文章实际报告 AA-Briefcase Elo以及Presentation、Analytical Quality等子维度结果；子维度不另计。"
     }
   ]
@@ -324,7 +324,7 @@ AA-Briefcase-Lite是公开示例，不另计正式benchmark；分析/呈现分�
 
 ### 快照日期
 
-2026-11-07 Asia/Shanghai（UTC+8）
+2026-11-07 （UTC+8）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）
 
@@ -409,7 +409,7 @@ https://artificialanalysis.ai/privacy-policy
 
 待核实
 
-> 本轮检查官方评测页、首发文章和方法页及PDF检索，未定位原始论文PDF。网页方法材料不冒充原始PDF；drive_pdf维持缺失。
+> 检查官方评测页、首发文章和方法页及PDF检索，未定位原始论文PDF。网页方法材料不冒充原始PDF；drive_pdf维持缺失。
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）；[来源2](https://artificialanalysis.ai/articles/aa-briefcase)（访问2026-11-07）；[来源3](https://artificialanalysis.ai/methodology/intelligence-benchmarking)（访问2026-11-07）
 
@@ -433,43 +433,43 @@ https://artificialanalysis.ai/privacy-policy
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）
 
-### Drive文件夹
+### 文件夹
 
 ```json
 {
-  "id": "1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv",
-  "webViewLink": "https://drive.google.com/drive/folders/1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv"
+  "id": "1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv"
+  "webViewLink": "
 }
 ```
 
-[来源1](https://drive.google.com/drive/folders/1-zM1JOXcqsC2u9BxZ5XDL1Z9yhgil7uv)（访问2026-11-07）
+[来源1](
 
 ### 其他官方材料
 
 ```json
 [
   {
-    "type": "官方方法页HTML归档（非论文PDF）",
-    "id": "1VG1TTaPBvlUifj4SjEE83SCeWJeFjjiM",
-    "webViewLink": "https://drive.google.com/file/d/1VG1TTaPBvlUifj4SjEE83SCeWJeFjjiM/view?usp=drivesdk",
-    "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
-    "accessed": "2026-11-07",
-    "sha256": "ba0e7c1f5b6e70c09d9a33f7ba0cf670630625c0edfde2d374b56fdeef8c0033",
+    "type": "官方方法页HTML归档（非论文PDF）"
+    "id": "1VG1TTaPBvlUifj4SjEE83SCeWJeFjjiM"
+    "webViewLink": "
+    "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase"
+    "accessed": "2026-11-07"
+    "sha256": "ba0e7c1f5b6e70c09d9a33f7ba0cf670630625c0edfde2d374b56fdeef8c0033"
     "bytes": 1813260
-  },
+  }
   {
-    "type": "中文介绍Google Doc",
-    "id": "1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I",
-    "webViewLink": "https://docs.google.com/document/d/1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I/edit?usp=drivesdk"
+    "type": "中文介绍Google Doc"
+    "id": "1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I"
+    "webViewLink": "
   }
 ]
 ```
 
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
-[来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）；[来源2](https://docs.google.com/document/d/1rmCVNyX0ks68vDaV7L4tHtaWLwzk-M3bzi_4yLeiE2I/edit?usp=drivesdk)（访问2026-11-07）
+[来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）；[来源2](
 
-### Drive论文副本
+### 论文副本
 
 待核实
 
@@ -480,19 +480,19 @@ https://artificialanalysis.ai/privacy-policy
 ```json
 [
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai（UTC+8）",
-    "change": "第1轮深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。"
-  },
+    "date": "2026-11-07"
+    "timezone": "（UTC+8）"
+    最近复核
+  }
   {
-    "date": "2026-11-07",
-    "timezone": "Asia/Shanghai (UTC+8)",
-    "change": "Round2 q0：实际重读原始论文PDF、官方README/LICENSE、可用HF卡与排行榜；补方法、版本/样本/指标冲突及分轨结果，保留未核实信息。"
+    "date": "2026-11-07"
+    "timezone": " (UTC+8)"
+    最近复核
   }
 ]
 ```

@@ -1,7 +1,7 @@
 {
   "id": "terminal-bench",
   "schema_version": "0.1.0",
-  "editorial_status": "已核验存在；研究快照，未核实字段保留标记；trending: A",
+  "editorial_status": "",
   "basic_info": {
     "name": {
       "value": "Terminal-Bench",
@@ -52,7 +52,7 @@
       ]
     },
     "paper_version": {
-      "value": "arXiv v1；提交于 2026-01-17 10:29:30 KST",
+      "value": "arXiv v1；提交于 2026-01-17 10:29:30",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2601.11868",
@@ -61,7 +61,7 @@
       ]
     },
     "release_date": {
-      "value": "4.0.0：2026-08-26 13:48:12 KST；4.1.0：2026-11-04 05:39:05 KST（GitHub published_at，Asia/Seoul）",
+      "value": "4.0.0：2026-08-26 13:48:12；4.1.0：2026-11-04 05:39:05 （GitHub published_at，）",
       "sources": [
         {
           "url": "https://github.com/harbor-framework/terminal-bench/releases/tag/v4.1.0",
@@ -508,7 +508,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://www.tbench.ai/",
@@ -519,7 +519,7 @@
     "latest_dataset_version": {
       "value": {
         "current_version": "4.1.0（最新发布）；官网/AA可见榜仍4.0",
-        "release_date": "4.0.0：2026-08-26 13:48:12 KST；4.1.0：2026-11-04 05:39:05 KST（GitHub published_at，Asia/Seoul）",
+        "release_date": "4.0.0：2026-08-26 13:48:12；4.1.0：2026-11-04 05:39:05 （GitHub published_at，）",
         "version_changes": "4.0从3.0的74题中移除8题，保留66题，重新校准计算/时间预算并改进指令、环境及验证器。2.0与2.1的89题仅作为旧协议，不与66题相混。另：官方4.1.0已发布，66题均有修改但未增删任务，新增63题CPU-only数据集；4.0成绩不能重标为4.1。",
         "trending": "A",
         "why_trending": "2026-08-26官方发布4.0；Cognition 2026-10-27官方FrontierCode 2.0文章将Terminal-Bench 4.0作对照；AA 2026-10-28独立发布Gemini 4 Carbon在4.0上的结果，当前另有66题统一harness榜。多机构材料支持A级，但不将不同agent的64%与65.2%混排。",
@@ -534,14 +534,14 @@
             ]
           },
           "previous_release_date_field": {
-            "value": "2026-01-17 10:29:30 KST",
+            "value": "2026-01-17 10:29:30",
             "sources": [
               {
                 "url": "https://arxiv.org/abs/2601.11868",
                 "accessed": "2026-11-07"
               }
             ],
-            "note": "首次 arXiv 论文提交时间，已转 KST；不自动视为数据集首发时间。"
+            "note": "首次 arXiv 论文提交时间，已转；不自动视为数据集首发时间。"
           },
           "previous_status_field": {
             "value": {
@@ -584,7 +584,7 @@
                 "benchmark_version": "4.0/66题",
                 "result_type": "AA独立当前页面",
                 "source_date": "待核实（页面未给出该结果运行/发布日期）",
-                "collected_at": "2026-11-07 KST",
+                "collected_at": "2026-11-07",
                 "harness": "mini-swe-agent；3 repeats",
                 "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
               },
@@ -595,7 +595,7 @@
                 "benchmark_version": "4.0/66题",
                 "result_type": "AA独立当前页面",
                 "source_date": "待核实（页面未给出该结果运行/发布日期）",
-                "collected_at": "2026-11-07 KST",
+                "collected_at": "2026-11-07",
                 "harness": "mini-swe-agent；3 repeats",
                 "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
               },
@@ -606,7 +606,7 @@
                 "benchmark_version": "4.0/66题",
                 "result_type": "AA独立当前页面",
                 "source_date": "待核实（页面未给出该结果运行/发布日期）",
-                "collected_at": "2026-11-07 KST",
+                "collected_at": "2026-11-07",
                 "harness": "mini-swe-agent；3 repeats",
                 "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
               },
@@ -617,7 +617,7 @@
                 "benchmark_version": "4.0",
                 "result_type": "AA历史产品agent评测",
                 "source_date": "待核实（页面未给出该结果运行/发布日期）",
-                "collected_at": "2026-11-07 KST",
+                "collected_at": "2026-11-07",
                 "leaderboard_updated_at": "待核实（静态正文未标注整体更新时间）"
               }
             ],
@@ -651,8 +651,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at": "2026-01-17 10:29:30 KST",
-          "timezone": "Asia/Seoul"
+          "submitted_at": "2026-01-17 10:29:30"
         }
       ],
       "sources": [
@@ -704,7 +703,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
@@ -739,7 +738,7 @@
           "track": "AA统一harness / 4.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "4.0 / 66 tasks",
           "settings": "mini-swe-agent；3 repeats/task",
           "source_date": "待核实（页面未标各次运行或榜单整体更新时间）",
@@ -752,7 +751,7 @@
           "track": "AA统一harness / 4.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "4.0 / 66 tasks",
           "settings": "mini-swe-agent；3 repeats/task",
           "source_date": "待核实（页面未标各次运行或榜单整体更新时间）",
@@ -765,7 +764,7 @@
           "track": "AA统一harness / 4.0",
           "source_url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
           "accessed": "2026-11-08",
-          "collected_at": "2026-11-08 KST / Asia/Seoul",
+          "collected_at": "2026-11-08",
           "benchmark_version": "4.0 / 66 tasks",
           "settings": "mini-swe-agent；3 repeats/task",
           "source_date": "待核实（页面未标各次运行或榜单整体更新时间）",
@@ -862,13 +861,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1pqVETDnTmA4D-A9xYqF7Vu-lSLuHOdCC",
-        "webViewLink": "https://drive.google.com/drive/folders/1pqVETDnTmA4D-A9xYqF7Vu-lSLuHOdCC"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1pqVETDnTmA4D-A9xYqF7Vu-lSLuHOdCC",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -876,18 +872,12 @@
     "other_documents": {
       "value": [
         {
-          "type": "中文介绍Google Doc",
-          "id": "13b09PixYeASFWScp_DNwmfXMMNhz0SzdZTGR__1Dowg",
-          "webViewLink": "https://docs.google.com/document/d/13b09PixYeASFWScp_DNwmfXMMNhz0SzdZTGR__1Dowg/edit?usp=drivesdk"
+          "type": "中文介绍Google Doc"
         }
       ],
       "sources": [
         {
           "url": "https://www.tbench.ai/",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://docs.google.com/document/d/13b09PixYeASFWScp_DNwmfXMMNhz0SzdZTGR__1Dowg/edit?usp=drivesdk",
           "accessed": "2026-11-07"
         }
       ],
@@ -895,13 +885,10 @@
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1xESLe_ARjnszPudgBFEW2yfE62M0tK-p",
-      "webViewLink": "https://drive.google.com/file/d/1xESLe_ARjnszPudgBFEW2yfE62M0tK-p/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1xESLe_ARjnszPudgBFEW2yfE62M0tK-p/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -910,18 +897,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "KST / Asia/Seoul",
-        "change": "第1轮深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Shanghai",
-        "change": "近期热门版本复核：4.0从3.0的74题中移除8题，保留66题，重新校准计算/时间预算并改进指令、环境及验证器。2.0与2.1的89题仅作为旧协议，不与66题相混。另：官方4.1.0已发布，66题均有修改但未增删任务，新增63题CPU-only数据集；4.0成绩不能重标为4.1。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。",
+        "change": "最近复核",
         "sources": [
           {
             "url": "https://www.tbench.ai/",
@@ -951,8 +935,7 @@
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "change": "第2轮逐源深核：直接核实当前仓库Apache-2.0，不再仅依旧terminal-bench-1仓库。；官方4.1发布日期转KST，66题修改与63题CPU-only分开；AA4.0重新核验且不重标4.1。"
+        "change": "最近复核"
       }
     ],
     "sources": [

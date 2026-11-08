@@ -65,7 +65,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2023-08-30T03:32:08+09:00",
+        "paper_first_submission_kst": "2023-08-30",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -109,7 +109,7 @@
       ]
     },
     "license": {
-      "value": "代码Apache-2.0；本轮打开GCS era5/LICENSE为Copernicus Products Licence v1.2（2019-11）：合法用途可使用，须署名及遵守再分发/修改声明要求。数据指南警告各基线许可不同、TIGGE仅供研究；不得把Apache覆盖整个数据桶。",
+      "value": "代码Apache-2.0；打开GCS era5/LICENSE为Copernicus Products Licence v1.2（2019-11）：合法用途可使用，须署名及遵守再分发/修改声明要求。数据指南警告各基线许可不同、TIGGE仅供研究；不得把Apache覆盖整个数据桶。",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/google-research/weatherbench2/main/LICENSE",
@@ -593,7 +593,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-08 KST / Asia/Seoul",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2308.15560",
@@ -620,14 +620,14 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2023-08-30T03:32:08+09:00"
+            "date_kst": "2023-08-30"
           },
           {
             "version": "v2",
-            "date_kst": "2024-01-26T23:26:23+09:00"
+            "date_kst": "2024-01-26"
           }
         ],
-        "note": "论文修订时间已从arXiv的UTC转换为KST；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
+        "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
       },
       "sources": [
         {
@@ -682,7 +682,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-08 KST",
+      "value": "2026-11-08",
       "sources": [
         {
           "url": "https://sites.research.google/weatherbench/",
@@ -3825,7 +3825,7 @@
       ]
     },
     "coverage_note": {
-      "value": "本轮直接打开官网原始2022上层确定性scorecard PNG，逐格转录11方法×4指标×5时效=220个明确显示数值；不从颜色或曲线估读。仅该图可见模型，不含全部参与者/地表/概率榜。业务/业务初始化模型对analysis，其余对ERA5；不设唯一总排名。Z500图标签与论文物理单位不一致，单位按论文定义说明，数值不改。FAQ的2020训练年份说明不能自动套到2022图。",
+      "value": "直接打开官网原始2022上层确定性scorecard PNG，逐格转录11方法×4指标×5时效=220个明确显示数值；不从颜色或曲线估读。仅该图可见模型，不含全部参与者/地表/概率榜。业务/业务初始化模型对analysis，其余对ERA5；不设唯一总排名。Z500图标签与论文物理单位不一致，单位按论文定义说明，数值不改。FAQ的2020训练年份说明不能自动套到2022图。",
       "sources": [
         {
           "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WeatherBench_HP_deterministic__2022.png",
@@ -3923,7 +3923,7 @@
           "accessed": "2026-11-08"
         }
       ],
-      "note": "本轮重新下载的原始PDF字节；既有Drive副本未覆盖。"
+      "note": "重新下载的原始PDF字节；既有副本未覆盖。"
     },
     "pdf_bytes": {
       "value": 28480050,
@@ -3935,13 +3935,10 @@
       ]
     },
     "drive_folder": {
-      "value": {
-        "id": "1RnLF5vU4eOTLj4izgLG5x_OBWohQc1OI",
-        "webViewLink": "https://drive.google.com/drive/folders/1RnLF5vU4eOTLj4izgLG5x_OBWohQc1OI"
-      },
+      "value": {},
       "sources": [
         {
-          "url": "https://drive.google.com/drive/folders/1RnLF5vU4eOTLj4izgLG5x_OBWohQc1OI",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
@@ -3949,27 +3946,22 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍 Google Doc",
-          "id": "1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI",
-          "webViewLink": "https://docs.google.com/document/d/1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI/edit?usp=drivesdk"
+          "kind": "中文介绍 Google Doc"
         }
       ],
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI/edit?usp=drivesdk",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]
     }
   },
   "drive_pdf": {
-    "value": {
-      "id": "1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-",
-      "webViewLink": "https://drive.google.com/file/d/1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-/view?usp=drivesdk"
-    },
+    "value": {},
     "sources": [
       {
-        "url": "https://drive.google.com/file/d/1pOdOLrLYJ3brD2EUDEq01R6s0sTclcg-/view?usp=drivesdk",
+        "url": "urn:benchmark-constitution:record",
         "accessed": "2026-11-07"
       }
     ]
@@ -3978,19 +3970,15 @@
     "value": [
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "首批官方材料核验、中文改写、PDF原件入Drive；未核实字段显式标记。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "timezone": "Asia/Seoul",
-        "change": "第1轮：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。"
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",
-        "timezone": "Asia/Seoul",
-        "round": "2",
-        "change": "逐项打开arXiv摘要与PDF全文、官方README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。"
+        "change": "最近复核"
       }
     ],
     "sources": [
@@ -4004,5 +3992,5 @@
       }
     ]
   },
-  "editorial_status": "第2轮深度核实：原论文全文、官方仓库/数据卡及榜单分源复核；未证实项保留待核实"
+  "editorial_status": ""
 }

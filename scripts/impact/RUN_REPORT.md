@@ -1,8 +1,8 @@
 # Benchmark Constitution：现有学术影响力指数补证报告
 
-生成：2026-11-08T00:54:22+08:00（上海时间 UTC+8）
+生成：2026-11-08（ UTC+8）
 
-## 结论：补证已落盘，但不能把本轮称为“正式榜单”
+## 结论：补证已落盘，但不能把称为“正式榜单”
 
 固定1668条，原探索榜60条 → 当前探索榜97条；**正式资格0条**；证据不足1571条。未降低40%探索覆盖、60%正式覆盖、50%质量内部覆盖门槛。机器文档代理不冒充专家质量审查。主仓库只读、没有发布；未读取凭据文件。
 
@@ -31,13 +31,13 @@
 - 301个现有条目的HF card成功精确对应；只对registry-only且没有完整档案冲突审查的条目提取明确单一数据许可。
 - 质量子项有证据数：{"human_validation": 57, "contamination_protection": 42, "reproducibility": 93, "license_clarity": 212, "external_review": 9}。维护质量和完整双人独立评分没有补造。
 - 明确独立评测结果支持19条操作性复测；4个仓库的issue查询映射7条现有版本条目；其余社区有值主要为弱fork参与代理，不能称为好评或已复现。
-- 84条精确命中本轮connector元数据，其中53条此前无star观测。star增速仍全部null；今日仅建基线，不能估算。
+- 84条精确命中connector元数据，其中53条此前无star观测。star增速仍全部null；今日仅建基线，不能估算。
 - 34条有可安全处理的百分正确/成功率赛道；保留所有分轨、仅选单轨快照最佳分。裸Accuracy/Score、Elo、RMSE、历史论文、人类结果、混预算和不同版本均不自动混算。尚非全局SOTA或完整饱和度审计。
-- 178份档案及308个唯一现有HF dataset ID均做了本轮顺序读取；原始响应含失败状态也缓存。原始论文/榜单的上游采集日期保留；8日访问的是公开档案快照时不会伪称8日重新访问原始榜单。
+- 178份档案及308个唯一现有HF dataset ID均做了顺序读取；原始响应含失败状态也缓存。原始论文/榜单的上游采集日期保留；8日访问的是公开档案快照时不会伪称8日重新访问原始榜单。
 
 ## 独立质量审查的实质发现
 
-本轮直接核实Epoch审查表及具体审查页。以下7项审查结论为Flawed，精确匹配到对应版本并触发总分≤40；不能因高引用/高star抵消可靠性缺陷：
+直接核实Epoch审查表及具体审查页。以下7项审查结论为Flawed，精确匹配到对应版本并触发总分≤40；不能因高引用/高star抵消可靠性缺陷：
 
 |条目|结论|范围|
 |---|---|---|
@@ -105,10 +105,10 @@
 
 ## 交付文件
 
-- 新指数：`/workspace/bc/impact/index.json`
-- 新登记库（1668条不变，含assessment与来源）：`/workspace/bc/registry/registry.json`
-- 方法：`/workspace/bc/impact/METHODOLOGY.md`
-- 本报告：`/workspace/bc/impact/RUN_REPORT.md`
+- 新指数：`
+- 新登记库（1668条不变，含assessment与来源）：`
+- 方法：`
+- 本报告：`
 - 原始证据、覆盖和核验：`evidence-report.json`、`evidence-coverage.json`、`evidence-validation.json`、`independent-quality.json`、`cache/{dossiers,hf-cards,epoch-reviews,github-connector,snapshots}/`。
 - 流水线：`evidence_overlay.py`由`compute.py`自动应用；重跑计算不访问网络。采集器为`fetch_dossier_snapshots.py`、`fetch_hf_cards.py`、`fetch_epoch_reviews.py`；只读公共源、缓存续跑。
 - 发布前可复跑：`.venv/bin/python -m unittest -v test_impact test_evidence && .venv/bin/python compute.py && .venv/bin/python write_evidence_report.py`。
