@@ -1,4 +1,5 @@
 ---
+import { currentLocale, hrefForLocale, otherLocale, t } from '../i18n';
 import { visualCopy } from '../i18n/visual';
 import { page } from '../lib/format';
 
@@ -6,19 +7,23 @@ interface Props {
   active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
 }
 const { active } = Astro.props;
-const ui = visualCopy('zh');
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const items = [
-  { id: 'home', href: page(), label: '首页' },
-  { id: 'trending', href: page('trending'), label: '近期热门' },
-  { id: 'heat', href: page('frontier-heat'), label: '业界热度榜' },
-  { id: 'impact', href: page('impact'), label: '学术影响力榜' },
-  { id: 'registry', href: page('registry'), label: '名录' },
-  { id: 'constitution', href: page('constitution'), label: '收集宪法' },
+  { id: 'home', href: page(), label: t(locale, 'nav.home') },
+  { id: 'trending', href: page('trending'), label: t(locale, 'nav.trending') },
+  { id: 'heat', href: page('frontier-heat'), label: t(locale, 'nav.heat') },
+  { id: 'impact', href: page('impact'), label: t(locale, 'nav.impact') },
+  { id: 'registry', href: page('registry'), label: t(locale, 'nav.registry') },
+  { id: 'constitution', href: page('constitution'), label: t(locale, 'nav.constitution') },
 ];
+const other = otherLocale(locale);
+const switchHref = hrefForLocale(Astro.url.pathname, Astro.url.search, other);
 ---
 <header class="site-header">
   <div class="header-inner">
     <a class="wordmark" href={page()}>Benchmark Constitution</a>
+    <a class="lang-switch" href={switchHref} hreflang={other === 'zh' ? 'zh-Hans' : 'en'}>{t(locale, 'lang.switch')}</a>
     <button
       type="button"
       class="nav-toggle"
@@ -27,7 +32,7 @@ const items = [
       data-open={ui.menu}
       data-close={ui.close}
     >{ui.menu}</button>
-    <nav class="nav" id="site-nav" aria-label="站点">
+    <nav class="nav" id="site-nav" aria-label={t(locale, 'nav.aria')}>
       {items.map((item) => (
         <a href={item.href} aria-current={active === item.id ? 'page' : undefined}>{item.label}</a>
       ))}

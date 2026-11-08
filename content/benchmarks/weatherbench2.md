@@ -146,7 +146,7 @@ Google Research的weatherbench2项目；官方README接收社区GitHub issues/co
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
 
@@ -327,7 +327,7 @@ https://sites.research.google/weatherbench/
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
 
@@ -593,7 +593,7 @@ https://github.com/google-research/weatherbench2/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2308.15560)（访问 2026-11-08 ）；[2](https://arxiv.org/pdf/2308.15560)（访问 2026-11-08 ）；[3](https://sites.research.google/weatherbench/)（访问 2026-11-08 ）；[4](https://weatherbench2.readthedocs.io/en/latest/)（访问 2026-11-07 ）。
 
@@ -634,7 +634,7 @@ fd50ff122d158efef833be8f414539f6be59f0b994be80f3d2c0dca2c65d61da
 
 ### 其他文档
 
-- - **kind**：中文介绍 Google Doc
+- - **kind**：中文介绍
   - **id**：1XmWBsnaK6_jxmu481qhM1tHy-Dihjsk0omhIipE2GsI
   - **webViewLink**：
 

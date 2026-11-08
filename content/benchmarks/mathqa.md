@@ -123,51 +123,51 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Qwen3.8 Max | 94.4 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
-| 2 | Qwen3.8 Flash | 93.3 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
-| 3 | Gemini 3.8 Flash | 92.7 | % | [来源](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
+| 1 | Qwen3.8 Max | 94.4 | % | [来源](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
+| 2 | Qwen3.8 Flash | 93.3 | % | [来源](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
+| 3 | Gemini 3.8 Flash | 92.7 | % | [来源](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
 
 ### 官方静态 / MathQA Challenge
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 37.4% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 37.4% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / Geometry
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 40.2% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 40.2% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / Physics
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 37.8% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 37.8% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / General
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 36.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 36.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / Gain
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 38.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 38.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / Probability
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 35.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 35.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 ### 官方静态 / Other
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Seq2Prog+Cat | 33.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/) · 2026-11-08 |
+| 1 | Seq2Prog+Cat | 33.3% | 官网历史榜得分 | [来源](https://math-qa.github.io/math-QA/html/)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S12](https://math-qa.github.io/math-QA/html/) [S14](https://arxiv.org/html/2610.11978v1)
 
@@ -205,28 +205,28 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 ## 变更记录
 
-- 2026-11-07 · 核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- 2026-11-07 · 深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- 2026-11-07，深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://math-qa.github.io/math-QA/) [S11](https://math-qa.github.io/math-QA/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://arxiv.org/abs/1905.13319](https://arxiv.org/abs/1905.13319) · 访问 2026-11-07
-- S2 · [https://math-qa.github.io/math-QA/](https://math-qa.github.io/math-QA/) · 访问 2026-11-07
-- S3 · [https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1) · 访问 2026-11-07
-- S4 · [https://arxiv.org/abs/1905.13319](https://arxiv.org/abs/1905.13319) · 访问 2026-11-08
-- S5 · [https://huggingface.co/datasets/allenai/math_qa](https://huggingface.co/datasets/allenai/math_qa) · 访问 2026-11-08
-- S6 · [https://github.com/math-qa/math-QA/blob/master/LICENSE](https://github.com/math-qa/math-QA/blob/master/LICENSE) · 访问 2026-11-08
-- S7 · [https://math-qa.github.io/math-QA/data/MathQA.zip](https://math-qa.github.io/math-QA/data/MathQA.zip) · 访问 2026-11-07
-- S8 · [https://arxiv.org/pdf/1905.13319](https://arxiv.org/pdf/1905.13319) · 访问 2026-11-08
-- S9 · [https://math-qa.github.io/math-QA/data/MathQA.zip](https://math-qa.github.io/math-QA/data/MathQA.zip) · 访问 2026-11-08
-- S10 · [https://github.com/math-qa/math-QA](https://github.com/math-qa/math-QA) · 访问 2026-11-07
-- S11 · [https://math-qa.github.io/math-QA/](https://math-qa.github.io/math-QA/) · 访问 2026-11-08
-- S12 · [https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/) · 访问 2026-11-08
-- S13 · [https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/) · 访问 2026-11-07
-- S14 · [https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1) · 访问 2026-11-08
-- S15 · [ · 访问 2026-11-07
-- S16 · [ · 访问 2026-11-07
+- S1，[https://arxiv.org/abs/1905.13319](https://arxiv.org/abs/1905.13319)，访问 2026-11-07
+- S2，[https://math-qa.github.io/math-QA/](https://math-qa.github.io/math-QA/)，访问 2026-11-07
+- S3，[https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1)，访问 2026-11-07
+- S4，[https://arxiv.org/abs/1905.13319](https://arxiv.org/abs/1905.13319)，访问 2026-11-08
+- S5，[https://huggingface.co/datasets/allenai/math_qa](https://huggingface.co/datasets/allenai/math_qa)，访问 2026-11-08
+- S6，[https://github.com/math-qa/math-QA/blob/master/LICENSE](https://github.com/math-qa/math-QA/blob/master/LICENSE)，访问 2026-11-08
+- S7，[https://math-qa.github.io/math-QA/data/MathQA.zip](https://math-qa.github.io/math-QA/data/MathQA.zip)，访问 2026-11-07
+- S8，[https://arxiv.org/pdf/1905.13319](https://arxiv.org/pdf/1905.13319)，访问 2026-11-08
+- S9，[https://math-qa.github.io/math-QA/data/MathQA.zip](https://math-qa.github.io/math-QA/data/MathQA.zip)，访问 2026-11-08
+- S10，[https://github.com/math-qa/math-QA](https://github.com/math-qa/math-QA)，访问 2026-11-07
+- S11，[https://math-qa.github.io/math-QA/](https://math-qa.github.io/math-QA/)，访问 2026-11-08
+- S12，[https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/)，访问 2026-11-08
+- S13，[https://math-qa.github.io/math-QA/html/](https://math-qa.github.io/math-QA/html/)，访问 2026-11-07
+- S14，[https://arxiv.org/html/2610.11978v1](https://arxiv.org/html/2610.11978v1)，访问 2026-11-08
+- S15，[，访问 2026-11-07
+- S16，[，访问 2026-11-07

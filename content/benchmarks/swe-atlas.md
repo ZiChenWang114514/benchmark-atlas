@@ -1,6 +1,6 @@
 # SWE Atlas
 
-> Benchmark Constitution · 深度复核 2026-11-08。研究快照；trending: B；未核实字段保留标记
+> Benchmark Constitution，深度复核 2026-11-08。研究快照；trending: B；未核实字段保留标记
 
 SWE Atlas针对补bug以外的软件工程工作：代码库运行时理解、测试编写和行为保持重构。284题分成124/90/70三类，评分同时看程序行为与专家rubric；新judge下的v1.1不能和原论文旧judge结果直接做增长对比。完整任务与运行工具已经公开，本档补上其仓库而非继续把它当仅有私有榜单的项目。
 

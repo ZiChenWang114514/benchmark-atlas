@@ -3,7 +3,10 @@ import { visualCopy } from '../i18n/visual';
 import { loadIndex } from '../lib/data';
 import { dateStamp, page } from '../lib/format';
 
-const ui = visualCopy('zh');
+import { currentLocale, t } from '../i18n';
+
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const index = loadIndex();
 const stamp = dateStamp(index.generated_at);
 ---
@@ -19,11 +22,11 @@ const stamp = dateStamp(index.generated_at);
     <div>
       <h2>{ui.footerSections}</h2>
       <ul>
-        <li><a href={page('trending')}>近期热门</a></li>
-        <li><a href={page('frontier-heat')}>业界热度榜</a></li>
-        <li><a href={page('impact')}>学术影响力榜</a></li>
-        <li><a href={page('registry')}>名录</a></li>
-        <li><a href={page('constitution')}>收集宪法</a></li>
+        <li><a href={page('trending')}>{t(locale, 'nav.trending')}</a></li>
+        <li><a href={page('frontier-heat')}>{t(locale, 'nav.heat')}</a></li>
+        <li><a href={page('impact')}>{t(locale, 'nav.impact')}</a></li>
+        <li><a href={page('registry')}>{t(locale, 'nav.registry')}</a></li>
+        <li><a href={page('constitution')}>{t(locale, 'nav.constitution')}</a></li>
       </ul>
     </div>
     <div>

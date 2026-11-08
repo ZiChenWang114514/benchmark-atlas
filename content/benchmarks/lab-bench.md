@@ -36,7 +36,7 @@ arXiv v3
 
 ### 发布日期
 
-2024-07-15（arXiv初稿日期，不冒充数据集单独首发日）
+2024-07-15（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-08）。
 
@@ -112,7 +112,7 @@ FutureHouse
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -343,7 +343,7 @@ labbench.Evaluator.score_agent；scripts/score_baselines.py、run_baselines.sh �
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -367,7 +367,7 @@ https://arxiv.org/abs/2407.10362
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -499,7 +499,7 @@ https://github.com/Future-House/LAB-Bench/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2407.10362)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2407.10362)（访问 2026-11-07）；[3](https://github.com/Future-House/LAB-Bench)（访问 2026-11-07）。
 
@@ -551,7 +551,7 @@ https://arxiv.org/pdf/2407.10362
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M"
     "webViewLink": "
   }

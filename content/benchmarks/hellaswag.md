@@ -1,6 +1,6 @@
 # HellaSwag
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HellaSwag由ActivityNet字幕和WikiHow说明构造四选一续写题，以生成负例及对抗过滤减少表面语言线索。官方test提交已在2024年11月关闭；当代常用validation成绩不能接在该历史榜上宣称同一赛道进步。
 
@@ -28,13 +28,13 @@ HellaSwag: Can a Machine Really Finish Your Sentence?
 
 ### 论文版本
 
-v1；2019-05-20（；论文修订号，不是数据版本）
+v1；2019-05-20（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2019-05-20（；arXiv初稿提交时间，非推定数据首发日）
+2019-05-20（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 

@@ -1,6 +1,6 @@
 # CritPt v2
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 CritPt把物理原创研究问题转化为可机器验证的复合挑战。原论文71个挑战包含一个示例，部署测试集70题；AA的40题Hard Subset不另构成一个benchmark。论文v4、软件部署v2与HF存储split名train是三个不同概念，尤其不能把HF的train标签解读为训练授权。
 

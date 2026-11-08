@@ -16,7 +16,7 @@ HSS
 
 ### 全称
 
-Humanity's Sixth Sense
+Humanity’s Sixth Sense
 
 来源：[1](https://labs.scale.com/leaderboard/hss)（访问 2026-11-07）。
 
@@ -34,7 +34,7 @@ arXiv v2
 
 ### 发布日期
 
-2026-10-07（arXiv初稿日期，不冒充数据集单独首发日）
+2026-10-07（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
@@ -97,7 +97,7 @@ https://labs.scale.com/leaderboard/hss
 
 ### 论文标题
 
-Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models
+Humanity’s Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models
 
 来源：[1](https://arxiv.org/abs/2610.08966)（访问 2026-11-08）。
 
@@ -117,7 +117,7 @@ Elorian；另有University of California, Santa Cruz作者单位。
 
 ### 作者
 
- Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz · *Equal contribution
+ Xingang Guo¹*, Jing Gu²*, Brian Jang¹*, Renxiong Wang¹, Utkarsh Tyagi¹, Daniel Quigley¹, Steven Li¹, David Yan², Daniel Yue Zhang¹, Darvin Yi¹, Forrest Huang², HiJae Kim¹, Tianyi Zhang², Jared Lichtarge², Jihua Huang², Le Xue², Manan Tomar², Qiuyi Richard Zhang², Ruofei Yu², Seth Neel², Yaning Hu², Marcella Valentine², Xinzhe Jiang², Daniel Evans¹, Chenguang Wang¹·³, Dustin Tran², Tong Zhao¹, Yinfei Yang², Yunzhong He¹ ¹Scale AI, ²Elorian, ³University of California, Santa Cruz，*Equal contribution
 
 来源：[1](https://huggingface.co/datasets/ScaleAI/HSS)（访问 2026-11-08）。
 

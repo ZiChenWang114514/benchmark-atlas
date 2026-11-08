@@ -1,6 +1,6 @@
 # PDEBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 PDEBench是科学机器学习的数值场预测与逆问题套件，不是LLM物理问答准确率榜。其核心是可生成、可归档的多方程模拟数据和物理诊断误差；补齐DaRUS数据V8和CC-BY-4.0许可，并按方程参数保存原论文基线。
 
@@ -303,7 +303,7 @@ https://arxiv.org/pdf/2210.07182#page=28
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，）
 
@@ -370,7 +370,7 @@ https://github.com/pdebench/PDEBench/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2210.07182)（访问2026-11-08，）；[2](https://arxiv.org/pdf/2210.07182)（访问2026-11-08，）
 
@@ -428,7 +428,7 @@ https://arxiv.org/pdf/2210.07182
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I", "webViewLink": "
+- {"kind": "中文介绍", "id": "1uR1BUCBr1foks_kI9haokBkOaHrAJLH9PHIsRSlQF2I", "webViewLink": "
 
 来源：[1](
 

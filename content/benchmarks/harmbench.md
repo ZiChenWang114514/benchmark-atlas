@@ -1,6 +1,6 @@
 # HarmBench
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 HarmBench统一有害行为分类、目标模型回答和成功判定，服务于红队/稳健拒答研究。ASR属于攻击方法、目标模型、行为范围、裁判和预算组成的完整设置，不存在脱离设置的单一安全分数；本页不转载具体有害请求或攻击串。
 
@@ -28,13 +28,13 @@ HarmBench 1.0（README 2024-02-26公告）；不能据论文修订号推定新�
 
 ### 论文版本
 
-v2；2024-02-27（；论文修订号，不是数据版本）
+v2；2024-02-27（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2024-02-07（；arXiv初稿提交时间，非推定数据首发日）
+2024-02-07（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2402.04249)（访问 2026-11-07）
 
@@ -404,7 +404,7 @@ id：1HuxqqbHmEHrlRRRmxfjrOFWFJJfIkNSJ；webViewLink：
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ；webViewLink：
+- kind：中文介绍；id：10_FfnK2E6j6xSjyxb-1gei2jWsO0PE0gxXPVUoGcbsQ；webViewLink：
 
 来源：[1]( 2026-11-07）
 

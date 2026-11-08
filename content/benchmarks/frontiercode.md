@@ -1,6 +1,6 @@
 # FrontierCode
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution，研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 FrontierCode以维护者是否愿意合并修改为标准，将功能、范围纪律、测试和代码库约定纳入加权评分。2.0重建为132题；本页区分Cognition官方榜与Artificial Analysis的Stirrup复现，不能把两种harness的分数拼成一个排名。
 
@@ -565,7 +565,7 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0
     "benchmark_version": "2.0"
     "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0"
     "accessed": "2026-11-07"
-    "collected_at": "2026-11-07 （UTC+8）"
+    "collected_at": "2026-11-07 （）"
     "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
     "scope": "AA Stirrup独立实现，与官方榜分轨"
   }
@@ -577,7 +577,7 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0
     "benchmark_version": "2.0"
     "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0"
     "accessed": "2026-11-07"
-    "collected_at": "2026-11-07 （UTC+8）"
+    "collected_at": "2026-11-07 （）"
     "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
     "scope": "AA Stirrup独立实现，与官方榜分轨"
   }
@@ -589,7 +589,7 @@ https://artificialanalysis.ai/evaluations/frontiercode-2-0
     "benchmark_version": "2.0"
     "source_url": "https://artificialanalysis.ai/evaluations/frontiercode-2-0"
     "accessed": "2026-11-07"
-    "collected_at": "2026-11-07 （UTC+8）"
+    "collected_at": "2026-11-07 （）"
     "leaderboard_updated_at": "待核实（当前页面未明确榜单整体更新时间）"
     "scope": "AA Stirrup独立实现，与官方榜分轨"
   }

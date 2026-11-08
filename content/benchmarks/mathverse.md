@@ -125,56 +125,56 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | MMVistaReason-4B (MVR-4B) | 79.7 | 论文协议答案正确率（CompassVerifier） | [来源](https://arxiv.org/html/2610.01352v2) · 2026-11-07 |
-| 2 | MMVistaReason-9B (MVR-9B) | 82.4 | 论文协议答案正确率（CompassVerifier） | [来源](https://arxiv.org/html/2610.01352v2) · 2026-11-07 |
+| 1 | MMVistaReason-4B (MVR-4B) | 79.7 | 论文协议答案正确率（CompassVerifier） | [来源](https://arxiv.org/html/2610.01352v2)，2026-11-07 |
+| 2 | MMVistaReason-9B (MVR-9B) | 82.4 | 论文协议答案正确率（CompassVerifier） | [来源](https://arxiv.org/html/2610.01352v2)，2026-11-07 |
 
 ### 官方testmini / All CoT-E
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | GPT-4V | 54.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 2 | Qwen-VL-Max | 37.2% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 3 | Gemini-Pro | 35.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 4 | LLaVA-NeXT-34B | 34.6% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 5 | InternLM-XComposer2-VL-7B | 25.9% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 6 | SPHINX-MoE | 22.8% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 7 | Qwen-VL-Plus | 21.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 8 | ShareGPT4V-13B | 17.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 9 | LLaVA-NeXT-13B | 17.2% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 10 | G-LLaVA-13B | 16.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 11 | G-LLaVA-7B | 15.7% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 12 | SPHINX-Plus | 14.0% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 13 | LLaVA-1.5-13B | 12.7% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 14 | MiniGPT-v2-7B | 10.9% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 15 | mPLUG-Owl2-7B | 10.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 16 | ImageBind-LLM | 10.0% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 17 | LLaMA-Adapter V2 | 5.8% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
+| 1 | GPT-4V | 54.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 2 | Qwen-VL-Max | 37.2% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 3 | Gemini-Pro | 35.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 4 | LLaVA-NeXT-34B | 34.6% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 5 | InternLM-XComposer2-VL-7B | 25.9% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 6 | SPHINX-MoE | 22.8% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 7 | Qwen-VL-Plus | 21.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 8 | ShareGPT4V-13B | 17.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 9 | LLaVA-NeXT-13B | 17.2% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 10 | G-LLaVA-13B | 16.4% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 11 | G-LLaVA-7B | 15.7% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 12 | SPHINX-Plus | 14.0% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 13 | LLaVA-1.5-13B | 12.7% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 14 | MiniGPT-v2-7B | 10.9% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 15 | mPLUG-Owl2-7B | 10.3% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 16 | ImageBind-LLM | 10.0% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 17 | LLaMA-Adapter V2 | 5.8% | 官方All CoT-E | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
 
 ### 官方testmini / All w/o CoT-E
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Human Performance* | 64.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 2 | VL-Rethinker-72B | 61.7% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 3 | VL-Rethinker-7B | 54.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 4 | GPT-4V | 39.4% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 5 | Qwen-VL-Max | 25.3% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 6 | LLaVA-NeXT-34B | 23.8% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 7 | Gemini-Pro | 23.5% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 8 | G-LLaVA-13B | 16.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 9 | G-LLaVA-7B | 16.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 10 | InternLM-XComposer2-VL-7B | 16.5% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 11 | LLaVA-NeXT-13B | 15.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 12 | SPHINX-MoE | 15.0% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 13 | ShareGPT4V-13B | 13.1% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 14 | Random Chance | 12.4% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 15 | SPHINX-Plus | 12.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 16 | Qwen-VL-Plus | 11.8% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 17 | MiniGPT-v2-7B | 11.0% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 18 | ImageBind-LLM | 9.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 19 | LLaVA-1.5-13B | 7.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 20 | mPLUG-Owl2-7B | 5.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
-| 21 | LLaMA-Adapter V2 | 5.7% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/) · 2026-11-08 |
+| 1 | Human Performance* | 64.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 2 | VL-Rethinker-72B | 61.7% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 3 | VL-Rethinker-7B | 54.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 4 | GPT-4V | 39.4% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 5 | Qwen-VL-Max | 25.3% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 6 | LLaVA-NeXT-34B | 23.8% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 7 | Gemini-Pro | 23.5% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 8 | G-LLaVA-13B | 16.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 9 | G-LLaVA-7B | 16.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 10 | InternLM-XComposer2-VL-7B | 16.5% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 11 | LLaVA-NeXT-13B | 15.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 12 | SPHINX-MoE | 15.0% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 13 | ShareGPT4V-13B | 13.1% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 14 | Random Chance | 12.4% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 15 | SPHINX-Plus | 12.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 16 | Qwen-VL-Plus | 11.8% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 17 | MiniGPT-v2-7B | 11.0% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 18 | ImageBind-LLM | 9.2% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 19 | LLaVA-1.5-13B | 7.6% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 20 | mPLUG-Owl2-7B | 5.9% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
+| 21 | LLaMA-Adapter V2 | 5.7% | 官方All w/o | [来源](https://mathverse-cuhk.github.io/)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S13](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/) [S17](https://arxiv.org/html/2610.01352v2)
 
@@ -206,39 +206,39 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 
 **原有文件夹**：{"id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi", "webViewLink": " [S19](
 
-**其他材料**：[{"kind": "中文介绍 Google Doc", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": " [S20](
+**其他材料**：[{"kind": "中文介绍", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": " [S20](
 
 **原有 PDF**：{"id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy", "webViewLink": " [S21](
 
 ## 变更记录
 
-- 2026-11-07 · 核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
-- 2026-11-07 · 深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+- 2026-11-07，深度优化续核：打开官方README/数据卡/榜单核对许可、协议及划分；保留既有H2证据和历史成绩，区分采集日与运行日；介绍页同步。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S2](https://arxiv.org/abs/2403.14624) [S1](https://mathverse-cuhk.github.io/) [S13](https://mathverse-cuhk.github.io/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/) · 访问 2026-11-07
-- S2 · [https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624) · 访问 2026-11-07
-- S3 · [https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md) · 访问 2026-11-07
-- S4 · [https://github.com/ZrrSkywalker/MathVerse](https://github.com/ZrrSkywalker/MathVerse) · 访问 2026-11-08
-- S5 · [https://huggingface.co/datasets/AI4Math/MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse) · 访问 2026-11-08
-- S6 · [https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624) · 访问 2026-11-08
-- S7 · [https://huggingface.co/datasets/AI4Math/MathVerse/blob/main/README.md](https://huggingface.co/datasets/AI4Math/MathVerse/blob/main/README.md) · 访问 2026-11-07
-- S8 · [https://huggingface.co/datasets/AI4Math/MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse) · 访问 2026-11-07
-- S9 · [https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624) · 访问 2026-11-07
-- S10 · [https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624) · 访问 2026-11-08
-- S11 · [https://github.com/ZrrSkywalker/MathVerse/blob/main/LICENSE](https://github.com/ZrrSkywalker/MathVerse/blob/main/LICENSE) · 访问 2026-11-08
-- S12 · [https://github.com/ZrrSkywalker/MathVerse](https://github.com/ZrrSkywalker/MathVerse) · 访问 2026-11-07
-- S13 · [https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/) · 访问 2026-11-08
-- S14 · [https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2) · 访问 2026-11-07
-- S15 · [https://mathverse-cuhk.github.io/#leaderboard](https://mathverse-cuhk.github.io/#leaderboard) · 访问 2026-11-08
-- S16 · [https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal) · 访问 2026-11-07
-- S17 · [https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2) · 访问 2026-11-08
-- S18 · [urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1) · 访问 2026-11-07
-- S19 · [ · 访问 2026-11-07
-- S20 · [ · 访问 2026-11-07
-- S21 · [ · 访问 2026-11-07
+- S1，[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)，访问 2026-11-07
+- S2，[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)，访问 2026-11-07
+- S3，[https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md](https://raw.githubusercontent.com/ZrrSkywalker/MathVerse/main/README.md)，访问 2026-11-07
+- S4，[https://github.com/ZrrSkywalker/MathVerse](https://github.com/ZrrSkywalker/MathVerse)，访问 2026-11-08
+- S5，[https://huggingface.co/datasets/AI4Math/MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse)，访问 2026-11-08
+- S6，[https://arxiv.org/abs/2403.14624](https://arxiv.org/abs/2403.14624)，访问 2026-11-08
+- S7，[https://huggingface.co/datasets/AI4Math/MathVerse/blob/main/README.md](https://huggingface.co/datasets/AI4Math/MathVerse/blob/main/README.md)，访问 2026-11-07
+- S8，[https://huggingface.co/datasets/AI4Math/MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse)，访问 2026-11-07
+- S9，[https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624)，访问 2026-11-07
+- S10，[https://arxiv.org/pdf/2403.14624](https://arxiv.org/pdf/2403.14624)，访问 2026-11-08
+- S11，[https://github.com/ZrrSkywalker/MathVerse/blob/main/LICENSE](https://github.com/ZrrSkywalker/MathVerse/blob/main/LICENSE)，访问 2026-11-08
+- S12，[https://github.com/ZrrSkywalker/MathVerse](https://github.com/ZrrSkywalker/MathVerse)，访问 2026-11-07
+- S13，[https://mathverse-cuhk.github.io/](https://mathverse-cuhk.github.io/)，访问 2026-11-08
+- S14，[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)，访问 2026-11-07
+- S15，[https://mathverse-cuhk.github.io/#leaderboard](https://mathverse-cuhk.github.io/#leaderboard)，访问 2026-11-08
+- S16，[https://artificialanalysis.ai/evaluations?skill=multimodal](https://artificialanalysis.ai/evaluations?skill=multimodal)，访问 2026-11-07
+- S17，[https://arxiv.org/html/2610.01352v2](https://arxiv.org/html/2610.01352v2)，访问 2026-11-08
+- S18，[urn:benchmark-atlas:constitution:v0.1](urn:benchmark-atlas:constitution:v0.1)，访问 2026-11-07
+- S19，[，访问 2026-11-07
+- S20，[，访问 2026-11-07
+- S21，[，访问 2026-11-07

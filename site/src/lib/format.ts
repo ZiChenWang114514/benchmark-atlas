@@ -1,3 +1,6 @@
+import { currentLocale, t, type Locale } from '../i18n';
+import { translateContent } from '../i18n/content';
+
 export type Source = { url: string; accessed: string };
 
 export type Field = {
@@ -8,7 +11,7 @@ export type Field = {
 };
 
 export const PENDING_EXPLANATION =
-  '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。';
+  '该字段尚未完成精确核验，不表示官方未公开。';
 
 const LABELS: Record<string, string> = {
   name: '简称',
@@ -120,7 +123,13 @@ const LABELS: Record<string, string> = {
   date_precision: '日期精度',
 };
 
-export function labelFor(key: string): string {
+export function labelFor(key: string, locale: Locale = currentLocale()): string {
+  const label = t(locale, `field.${key}`);
+  if (!label.startsWith('field.')) return label;
+  if (locale === 'en') {
+    const translated = translateContent(key, locale);
+    if (translated !== key) return translated;
+  }
   return LABELS[key] ?? key;
 }
 
@@ -131,17 +140,27 @@ export function statusOf(field: Field | undefined): string | null {
   return null;
 }
 
+export function isStatusWord(value: unknown): value is string {
+  return value === '待核实' || value === '未公开' || value === 'Unverified' || value === 'Not disclosed';
+}
+
 export function badgeClass(status: string): string {
-  return status === '待核实' ? 'badge-pending' : 'badge-muted';
+  return status === '待核实' || status === 'Unverified' ? 'badge-pending' : 'badge-muted';
 }
 
 export function publicText(value: string): string {
   return value.replaceAll('Benchmark Atlas', 'Benchmark Constitution');
 }
 
+const EXPLANATIONS = new Set([
+  PENDING_EXPLANATION,
+  '本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。',
+  'This field has not been confirmed exactly. It does not mean the information is unpublished.',
+]);
+
 export function notableNote(field: Field | undefined): string | null {
   const note = field?.note?.trim();
-  if (!note || note === PENDING_EXPLANATION) return null;
+  if (!note || EXPLANATIONS.has(note)) return null;
   return publicText(note);
 }
 
@@ -156,7 +175,7 @@ export function safeUrl(url: string): string | null {
 }
 
 export function sourceText(url: string): string {
-  if (url.startsWith('urn:')) return '收录记录';
+  if (url.startsWith('urn:')) return t(currentLocale(), 'detail.archive_record');
   return url;
 }
 
@@ -173,8 +192,9 @@ export function sortDate(value: string): string {
   return /^\d{4}/.test(normalized) ? normalized : '';
 }
 
-export function formatBytes(bytes: number): string {
-  return `${new Intl.NumberFormat('zh-Hans').format(bytes)} 字节`;
+export function formatBytes(bytes: number, locale: Locale = currentLocale()): string {
+  const formatted = new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(bytes);
+  return t(locale, 'value.bytes', { n: formatted });
 }
 
 export function formatSize(bytes: number): string {
@@ -213,10 +233,11 @@ export function orderedEntries(section: Record<string, Field> | undefined, keys:
   return entries;
 }
 
-export function page(path = ''): string {
+export function page(path = '', locale: Locale = currentLocale()): string {
   const base = import.meta.env.BASE_URL || '/';
-  if (!path) return base;
-  return `${base}${path.replace(/^\/+|\/+$/g, '')}/`;
+  const prefix = locale === 'zh' ? 'zh/' : '';
+  if (!path) return `${base}${prefix}`;
+  return `${base}${prefix}${path.replace(/^\/+|\/+$/g, '')}/`;
 }
 
 export function asset(path: string): string {
@@ -240,6 +261,7 @@ export const TONES: Record<string, string> = {
   '生物与医学': '#7a3a48',
   '地球与天文': '#34556e',
   材料: '#8a5a2a',
+  综合科学: '#1f6f5b',
   语言: '#3f4d3a',
   推理: '#4a3f66',
   数学: '#2f4554',

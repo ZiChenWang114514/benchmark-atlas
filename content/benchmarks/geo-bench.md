@@ -1,6 +1,6 @@
 # GEO-Bench
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GEO-Bench是面向地球监测预训练视觉模型的12任务迁移基准，不是给LLM回答的遥感问答集。六项分类与六项分割强调小样本、传感器多样性及跨任务统计可比性；原版1.0与官方推荐的GEO-Bench-2应保留清晰版本边界。
 
@@ -28,13 +28,13 @@ General Earth Observation benchmark（GEO-Bench）
 
 ### 论文版本
 
-v2；2023-12-24（；论文修订号，不是数据版本）
+v2；2023-12-24（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2023-06-07（；arXiv初稿提交时间，非推定数据首发日）
+2023-06-07（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -104,7 +104,7 @@ ServiceNow Research、慕尼黑工业大学、斯坦福大学等作者团队
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -140,7 +140,7 @@ ServiceNow Research官方项目。
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -306,7 +306,7 @@ arxiv_submissions：- version：v1；submitted_at：2023-06-07；timezone：；-
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -341,7 +341,7 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -368,7 +368,7 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -382,7 +382,7 @@ https://github.com/ServiceNow/geo-bench/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
@@ -423,7 +423,7 @@ id：1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC；webViewLink：
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4；webViewLink：
+- kind：中文介绍；id：1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4；webViewLink：
 
 来源：[1]( 2026-11-07）
 

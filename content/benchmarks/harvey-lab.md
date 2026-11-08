@@ -1,6 +1,6 @@
 # Harvey LAB（Legal Agent Benchmark）
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 Harvey LAB要求agent处理案卷并交付可审核的法律文件，测的是长程工作完成而非孤立法律选择题。公开任务库现已大于首发规模，但AA与Vals榜仍各用120个私有任务；双裁判all-pass与AA幻觉门控是独立赛道。
 

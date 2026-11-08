@@ -34,7 +34,7 @@ v2；最近提交 2022-10-17
 
 ### 发布日期
 
-2022-09-20（；首个arXiv提交，不推定数据上线日）
+2022-09-20（首个arXiv提交，不推定数据上线日）
 
 来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
 
@@ -509,7 +509,7 @@ https://arxiv.org/pdf/2209.09513
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ", "webViewLink": "
+- {"kind": "中文介绍", "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 

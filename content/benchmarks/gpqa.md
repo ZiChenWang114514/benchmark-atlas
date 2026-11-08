@@ -1,6 +1,6 @@
 # GPQA
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GPQA的关键是领域专家验证与非专家可上网验证的差异，而不是“搜索不到答案”的绝对保证。Main、Extended和Diamond是有包含关系的不同题集；现代常见Diamond榜与原始448题主集必须分开报告。
 
@@ -30,13 +30,13 @@ GPQA: A Graduate-Level Google-Proof Q&A Benchmark
 
 ### 论文版本
 
-v1；2023-11-21（；论文修订号，不是数据版本）
+v1；2023-11-21（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2023-11-21（；arXiv初稿提交时间，非推定数据首发日）
+2023-11-21（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）
 
@@ -279,7 +279,7 @@ arxiv_submissions：- version：v1；submitted_at：2023-11-21；timezone：
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
@@ -360,7 +360,7 @@ https://github.com/idavidrein/gpqa/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2311.12022)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2311.12022)（访问 2026-11-07）；[3](https://github.com/idavidrein/gpqa)（访问 2026-11-07）；[4](https://artificialanalysis.ai/evaluations/gpqa-diamond)（访问 2026-11-07）
 
@@ -401,7 +401,7 @@ id：1fDbb9jokoTyugzX7kZC6-UcxTCE_MVC1；webViewLink：
 
 ### 其他原始材料
 
-- kind：中文介绍 Google Doc；id：1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI；webViewLink：
+- kind：中文介绍；id：1finOMI55EghGZcwzTrmkA5NNSgPkbGM9Ix9x4tt-axI；webViewLink：
 
 来源：[1]( 2026-11-07）
 

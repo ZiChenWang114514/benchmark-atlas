@@ -1,6 +1,6 @@
 # CharXiv
 
-> Benchmark Constitution · 深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
+> Benchmark Constitution，深度复核：2026-11-08。已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
 CharXiv从科研论文中挑选自然复杂图表，分别考查描述性元素识别和跨视觉元素推理。每图四道描述题、一道人类审核的推理题；推理题可从GPT-4V候选中选改，不是所有初稿都纯人工原创。官网CSV有两列Overall，分别对应reasoning与descriptive，必须拆为两条榜；公开val与隐藏test答案也不能混用。
 
@@ -547,7 +547,7 @@ https://arxiv.org/pdf/2406.18521
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1TenxIC3WJjBkQ8biE0hfhDWmbMFdwrml9zIJH1UlYf4"
     "webViewLink": "
   }

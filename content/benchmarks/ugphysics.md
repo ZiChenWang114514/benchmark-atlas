@@ -286,7 +286,7 @@ https://github.com/YangLabHKUST/UGPhysics
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2502.00334)（访问 2026-11-07，）；[2](https://arxiv.org/pdf/2502.00334)（访问 2026-11-07，）
 
@@ -652,7 +652,7 @@ https://github.com/YangLabHKUST/UGPhysics/issues
 
 待核实
 
-说明：本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+说明：该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2502.00334)（访问 2026-11-07，）；[2](https://arxiv.org/pdf/2502.00334)（访问 2026-11-07，）
 
@@ -697,7 +697,7 @@ https://arxiv.org/pdf/2502.00334
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY", "webViewLink": "
+- {"kind": "中文介绍", "id": "1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 

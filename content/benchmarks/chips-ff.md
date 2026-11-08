@@ -1,6 +1,6 @@
 # CHIPS-FF
 
-> Benchmark Constitution · 深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
+> Benchmark Constitution，深度核验快照 2026-11-07。待核实不等于未公开；采集日期不等于榜单更新时间。
 
 CHIPS-FF是材料仿真工作流与性质分榜，不是问答题库，也没有可信的统一总准确率。它用JARVIS-DFT参照检验通用机器学习力场的结构、弹性、缺陷、表面、声子及计算成本；需要把参考数据、优化器、失败处理和每个性质的分母一起锁定。
 
@@ -283,7 +283,7 @@ direction：lower_is_better
 
 来源：[1](https://arxiv.org/abs/2412.10516)（访问2026-11-07）
 
-**其他文档**：type：中文介绍 Google Doc；id：19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo；webViewLink：https://docs.google.com/document/d/19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo/edit
+**其他文档**：type：中文介绍；id：19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo；webViewLink：https://docs.google.com/document/d/19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo/edit
 
 来源：[1](https://docs.google.com/document/d/19XnwB4Sk71Z7ROiTLJFdMb6DVMQUmZhfenSKYlNWxqo/edit)（访问2026-11-07）
 

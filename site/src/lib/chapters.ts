@@ -101,6 +101,7 @@ export const SECTIONS: { id: string; blurb: string }[] = [
   { id: '生物与医学', blurb: '生物医学问题、实验流程与文献' },
   { id: '地球与天文', blurb: '天文、地球观测、气候与天气' },
   { id: '材料', blurb: '材料属性、稳定性与发现' },
+  { id: '综合科学', blurb: '跨学科的一般科学工作流，不归入单一学科' },
   { id: '语言', blurb: '语言理解与生成' },
   { id: '推理', blurb: '多步推理与逻辑' },
   { id: '数学', blurb: '数学问题与证明' },

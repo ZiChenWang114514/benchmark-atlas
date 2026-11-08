@@ -1,6 +1,6 @@
 # FrontierMath
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution，研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 FrontierMath Tiers1–4强调原创高难数学和可验证最终答案，但必须跟踪修订。当前v2处理了大量题目错误，官方CSV已出现Tier4满分配置；这既不同于最初论文低分时代，也不意味着开放数学问题被一并解决。
 

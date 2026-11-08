@@ -450,7 +450,7 @@ https://arxiv.org/pdf/2408.10943
 
 ### 其他文档
 
-- {"kind": "中文介绍 Google Doc", "id": "1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I", "webViewLink": "
+- {"kind": "中文介绍", "id": "1kRYVWgWz8ZqkciI-cdjGgFEJHxGu5ElCjqgdk_BrH8I", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 

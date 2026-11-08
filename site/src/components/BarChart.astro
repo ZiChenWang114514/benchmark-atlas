@@ -1,4 +1,5 @@
 ---
+import { currentLocale } from '../i18n';
 interface Item {
   rank: number;
   name: string;
@@ -9,6 +10,7 @@ interface Props {
   items: Item[];
 }
 const { items } = Astro.props;
+const locale = currentLocale();
 
 function chooseStep(span: number): number {
   for (const step of [0.5, 1, 2, 5, 10, 20, 50]) {
@@ -86,5 +88,5 @@ function label(value: number): string {
     </div>
     <span class="bar-axis-pad"></span>
   </div>
-  <p class="sr-only">刻度从 {formatTick(floor)} 到 {formatTick(hi)}</p>
+  <p class="sr-only">{locale === 'zh' ? `刻度从 ${formatTick(floor)} 到 ${formatTick(hi)}` : `Axis from ${formatTick(floor)} to ${formatTick(hi)}`}</p>
 </div>

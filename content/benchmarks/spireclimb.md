@@ -1,6 +1,6 @@
 # SpireClimb
 
-> Benchmark Constitution · 深度复核 2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
+> Benchmark Constitution，深度复核 2026-11-08。官方存在性已核验；字段级研究快照；note: trending: A
 
 SpireClimb让模型通过截图和鼠标键盘完成两款Slay the Spire最高难度整局游戏，测量长程决策和计算机操作可靠性。两游戏胜率等权，不能直接按135局混算；2026-11-05修复开局Neow奖励改变了一代游戏的测试设置。StS2冻结版本是v0.107.1，网页后面的脚注1并非版本后缀。
 

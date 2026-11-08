@@ -144,7 +144,7 @@ pubmedqa官方GitHub组织；Qiao Jin在README列为项目联系人。
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -192,7 +192,7 @@ PQA-L由两位具资格的M.D. candidates标注；原文未把他们称作已执
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -322,7 +322,7 @@ PQA-L仅1,000题，需严守500题test隔离；HF打包train包含全部PQA-L，
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -344,7 +344,7 @@ https://pubmedqa.github.io/
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -410,7 +410,7 @@ https://github.com/pubmedqa/pubmedqa/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 [1](https://aclanthology.org/D19-1259/)（访问 2026-11-07）；[2](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-07）
 
@@ -456,7 +456,7 @@ https://aclanthology.org/D19-1259.pdf
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4"
     "webViewLink": "
   }

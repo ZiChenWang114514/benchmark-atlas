@@ -1,6 +1,6 @@
 # AgentBench
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 已重新检索官方材料；历史榜单/当前快照/厂商自报分离；未实证字段保留待核实
 
@@ -38,7 +38,7 @@ arXiv v3
 
 ### 发布日期
 
-2023-08-08 00:08:11 （UTC+8）（arXiv首稿）
+2023-08-08 00:08:11 （）（arXiv首稿）
 
 [来源1](https://arxiv.org/abs/2308.03688)（访问2026-11-07）
 
@@ -273,7 +273,7 @@ FC版五环境pass@1均值，与原始八环境Overall归一化分是不同协�
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -339,7 +339,7 @@ AgentBench FC（5环境函数调用、AgentRL/Docker集成）；VisualAgentBench
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://github.com/THUDM/AgentBench)（访问2026-11-07）
 
@@ -365,31 +365,31 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3F
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | AgentRL w/ Qwen2.5-32B-Instruct | 70.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 2 | AgentRL w/ Qwen2.5-14B-Instruct | 67.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 3 | AgentRL w/ GLM-4-9B-0414 | 65.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 4 | AgentRL w/ Qwen2.5-7B-Instruct | 62.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 5 | AgentRL w/ Qwen2.5-3B-Instruct | 60.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 6 | Claude Sonnet 4.5 (2025-09-29) | 58.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 7 | Claude Sonnet 4.5 Thinking (2025-09-29) | 58.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 8 | Claude Sonnet 4 Thinking (2025-05-14) | 58.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 9 | Claude Sonnet 4 (2025-05-14) | 57.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 10 | Claude Sonnet 3.7 (2025-02-19) | 53.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 11 | GPT-5 (2025-08-07) | 52.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 12 | AgentLM-70B | 51.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 13 | Claude Sonnet 3.7 Thinking (2025-02-19) | 50.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 14 | DeepSeek-R1 (2025-05-28) | 49.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 15 | AgentLM-13B | 45.1 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 16 | AgentLM-7B | 42.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 17 | o3-mini (2025-01-31) | 40.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 18 | Qwen2.5-72B-Instruct | 40.8 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 19 | o4-mini (2025-04-16) | 39.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 20 | GPT-4o (2024-11-20) | 39.6 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 21 | Qwen2.5-32B-Instruct | 37.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 22 | Hephaestus-8B-IFT | 36.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 23 | DeepSeek-V3 (2025-03-24) | 36.1 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 24 | Hephaestus-8B-Base | 31.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
-| 25 | Qwen2.5-14B-Instruct | 27.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv) · 2026-11-07 |
+| 1 | AgentRL w/ Qwen2.5-32B-Instruct | 70.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 2 | AgentRL w/ Qwen2.5-14B-Instruct | 67.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 3 | AgentRL w/ GLM-4-9B-0414 | 65.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 4 | AgentRL w/ Qwen2.5-7B-Instruct | 62.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 5 | AgentRL w/ Qwen2.5-3B-Instruct | 60.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 6 | Claude Sonnet 4.5 (2025-09-29) | 58.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 7 | Claude Sonnet 4.5 Thinking (2025-09-29) | 58.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 8 | Claude Sonnet 4 Thinking (2025-05-14) | 58.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 9 | Claude Sonnet 4 (2025-05-14) | 57.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 10 | Claude Sonnet 3.7 (2025-02-19) | 53.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 11 | GPT-5 (2025-08-07) | 52.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 12 | AgentLM-70B | 51.4 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 13 | Claude Sonnet 3.7 Thinking (2025-02-19) | 50.0 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 14 | DeepSeek-R1 (2025-05-28) | 49.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 15 | AgentLM-13B | 45.1 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 16 | AgentLM-7B | 42.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 17 | o3-mini (2025-01-31) | 40.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 18 | Qwen2.5-72B-Instruct | 40.8 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 19 | o4-mini (2025-04-16) | 39.7 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 20 | GPT-4o (2024-11-20) | 39.6 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 21 | Qwen2.5-32B-Instruct | 37.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 22 | Hephaestus-8B-IFT | 36.3 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 23 | DeepSeek-V3 (2025-03-24) | 36.1 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 24 | Hephaestus-8B-Base | 31.9 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
+| 25 | Qwen2.5-14B-Instruct | 27.2 | 五环境AVG pass@1 (%) | [原表](https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3FkhnW_rua0O1Ji_GIVrpTjY5LaKAhwO-WeARjnY_KNw0SYNJ/pub?output=csv)，2026-11-07 |
 
 > AgentRL w/ Qwen2.5-32B-Instruct：{"model_organization": "Z.ai", "result_source": "AgentRL", "source_release_month": "10/2025", "subscores": {"ALFWorld": 94.5, "DB": 70.4, "KG": 77.0, "OS": 51.7, "WebShop": 58.6}}
 
@@ -445,9 +445,9 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vRR3Wl7wsCgHpwUw1_eUXW_fptAPLL3F
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | GPT-4-0613 | 4.01 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | Claude 3 Opus | 3.11 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | GLM-4 | 2.89 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | GPT-4-0613 | 4.01 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Claude 3 Opus | 3.11 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | GLM-4 | 2.89 | Overall归一化分 | [原表](https://arxiv.org/abs/2308.03688)，2026-11-07 |
 
 
 
@@ -564,18 +564,18 @@ https://arxiv.org/pdf/2308.03688
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     "round": "1 / 深度实证复核"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

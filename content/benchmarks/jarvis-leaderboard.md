@@ -36,7 +36,7 @@ arXiv v2
 
 ### 发布日期
 
-2023-06-21（arXiv初稿日期，不冒充数据集单独首发日）
+2023-06-21（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-08）。
 
@@ -108,7 +108,7 @@ JARVIS-Leaderboard: A Large Scale Benchmark of Materials Design Methods
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）；[3](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-07）。
 
@@ -347,7 +347,7 @@ jarvis_populate_data.py生成参考划分；jarvis_upload.py协助提交；各�
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）；[3](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-07）。
 
@@ -369,7 +369,7 @@ https://pages.nist.gov/jarvis_leaderboard/
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）；[3](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-07）。
 
@@ -520,7 +520,7 @@ https://pages.nist.gov/jarvis_leaderboard/
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）；[3](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-07）。
 
@@ -536,7 +536,7 @@ https://github.com/usnistgov/jarvis_leaderboard/issues
 
 待核实
 
-> 本批已查看所列官方材料，但尚未完成该字段的精确核验；不表示官方未公开。
+> 该字段尚未完成精确核验，不表示官方未公开。
 
 来源：[1](https://arxiv.org/abs/2306.11688)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.11688)（访问 2026-11-07）；[3](https://pages.nist.gov/jarvis_leaderboard/)（访问 2026-11-07）。
 
@@ -588,7 +588,7 @@ https://arxiv.org/pdf/2306.11688
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc"
     "webViewLink": "
   }

@@ -1,6 +1,6 @@
 # PostTrainBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 PostTrainBench评估agent能否在限定GPU与时间内真正改进基础模型，输出后训练权重而非直接回答测试题。当前v1.2的六目标协议、旧七目标题解/轨迹、不同CLI及带模型回退的结果各有边界，不能统一写作一个无条件模型能力分数。
 

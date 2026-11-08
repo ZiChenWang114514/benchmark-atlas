@@ -491,7 +491,7 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg"
     "webViewLink": "
   }

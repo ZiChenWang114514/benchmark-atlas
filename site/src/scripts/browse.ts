@@ -1,6 +1,6 @@
 function pressedSection(form: HTMLFormElement): string {
   const current = form.querySelector<HTMLButtonElement>('[data-section-chip][aria-pressed="true"]');
-  return current?.dataset.sectionChip || '全部';
+  return current?.dataset.sectionChip || form.dataset.all || 'all';
 }
 
 function apply(writeUrl: boolean) {
@@ -14,6 +14,7 @@ function apply(writeUrl: boolean) {
   const tail = document.querySelector<HTMLElement>('#tail');
   if (!queryInput || !tagSelect || !sortSelect || !count || !empty || !tail) return;
 
+  const all = form.dataset.all || 'all';
   const query = queryInput.value.trim().toLowerCase();
   const section = pressedSection(form);
   const tag = tagSelect.value;
@@ -27,7 +28,7 @@ function apply(writeUrl: boolean) {
     const tags = (card.dataset.tags ?? '').split('|').filter(Boolean);
     const match =
       (!query || (card.dataset.search ?? '').includes(query)) &&
-      (section === '全部' || card.dataset.section === section) &&
+      (section === all || card.dataset.section === section) &&
       (!tag || tags.includes(tag));
     card.hidden = !match;
     if (match) {
@@ -43,7 +44,7 @@ function apply(writeUrl: boolean) {
     if (!grid) continue;
     const list = [...grid.querySelectorAll<HTMLElement>('[data-card]')];
     list.sort((a, b) => {
-      if (mode === 'name') return (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '', 'zh');
+      if (mode === 'name') return (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '', form.dataset.locale === 'zh' ? 'zh' : 'en');
       if (mode === 'date') {
         const left = a.dataset.date ?? '';
         const right = b.dataset.date ?? '';
@@ -58,14 +59,15 @@ function apply(writeUrl: boolean) {
     for (const card of list) grid.append(card);
   }
 
-  count.textContent = `本批 ${cards.length} 个基准，当前显示 ${shown} 个`;
+  const template = form.dataset.countTemplate || '{total} / {shown}';
+  count.textContent = template.replaceAll('{total}', String(cards.length)).replaceAll('{shown}', String(shown));
   empty.hidden = shown !== 0;
-  tail.hidden = query !== '' || section !== '全部' || tag !== '';
+  tail.hidden = query !== '' || section !== all || tag !== '';
 
   if (!writeUrl) return;
   const params = new URLSearchParams();
   if (query) params.set('q', queryInput.value.trim());
-  if (section !== '全部') params.set('section', section);
+  if (section !== (form.dataset.all || 'all')) params.set('section', section);
   if (tag) params.set('tag', tag);
   if (mode !== 'section') params.set('sort', mode);
   const search = params.toString();
@@ -110,7 +112,8 @@ function initBrowse() {
     if (queryInput) queryInput.value = '';
     if (tagSelect) tagSelect.value = '';
     if (sortSelect) sortSelect.value = 'section';
-    for (const chip of chips) chip.setAttribute('aria-pressed', chip.dataset.sectionChip === '全部' ? 'true' : 'false');
+    const all = form.dataset.all || 'all';
+    for (const chip of chips) chip.setAttribute('aria-pressed', chip.dataset.sectionChip === all ? 'true' : 'false');
     run();
   });
   apply(false);

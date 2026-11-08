@@ -1,6 +1,6 @@
 # GenoTEX
 
-> Benchmark Constitution · 核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
+> Benchmark Constitution，核查日期：2026-11-07。未知仍保留待核实；访问日不冒充实验日。
 
 GenoTEX把基因表达分析拆成数据选择、预处理和基因—性状关联，核心考察从原始数据执行完整分析，而非只回答生物知识题。阅读结果时首先区分端到端输入和专家预处理输入：两者的AUROC不能合并为同一榜单。
 
@@ -30,13 +30,13 @@ GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis
 
 ### 论文版本
 
-v3；2025-04-09（；论文修订号，不是数据版本）
+v3；2025-04-09（论文修订号，不是数据版本）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
 ### 发布日期及口径
 
-2024-06-22（；arXiv初稿提交时间，非推定数据首发日）
+2024-06-22（arXiv初稿提交时间，非推定数据首发日）
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -400,7 +400,7 @@ id：1fUMNCa76uvA8Rrlhv0dnpnOz5L1LD5Di；webViewLink：
 
 ### 其他原始材料
 
-- type：中文介绍 Google Doc；id：1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts；webViewLink：https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit
+- type：中文介绍；id：1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts；webViewLink：https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit
 
 来源：[1](https://docs.google.com/document/d/1ytmVpfPLMKgIITCThNPm9Th1b0Pmak9cbUuReO3Kyts/edit)（访问 2026-11-07）
 

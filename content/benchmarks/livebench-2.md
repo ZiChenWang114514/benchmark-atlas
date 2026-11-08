@@ -157,16 +157,16 @@ LiveBench 2.0将重点转向长程工作及可交付产物，不能沿用v1短�
 
 | 名次/顺序 | 模型 | 分数 | 指标 | 来源与采集日 |
 |---|---|---|---|---|
-| 1 | Claude Fable 5.1 | 85.7 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 2 | GPT-6 Astra | 85.6 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 3 | Claude Opus 5.5 | 85.1 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 4 | GPT-6.1 Sol | 84.1 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 5 | Claude Sonnet 5.5 | 80.0 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 6 | Gemini 4 Argon | 79.3 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 7 | GPT-6.1 Terra | 77.8 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 8 | Muse Wonder 1.0 | 74.2 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 9 | DeepSeek V4.1 Flash 1017 | 72.9 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
-| 10 | Kimi K3.1 Pro | 71.3 | Overall /100 | [来源](https://livebench.ai/) · 2026-11-08 |
+| 1 | Claude Fable 5.1 | 85.7 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 2 | GPT-6 Astra | 85.6 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 3 | Claude Opus 5.5 | 85.1 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 4 | GPT-6.1 Sol | 84.1 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 5 | Claude Sonnet 5.5 | 80.0 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 6 | Gemini 4 Argon | 79.3 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 7 | GPT-6.1 Terra | 77.8 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 8 | Muse Wonder 1.0 | 74.2 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 9 | DeepSeek V4.1 Flash 1017 | 72.9 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
+| 10 | Kimi K3.1 Pro | 71.3 | Overall /100 | [来源](https://livebench.ai/)，2026-11-08 |
 
 分项成绩、模型日期、上下文或样本覆盖等元数据保存在本条结构化档案；表中顺序仅在注明的赛道内有意义。 [S2](https://livebench.ai/)
 
@@ -216,15 +216,15 @@ LiveBench 2.0将重点转向长程工作及可交付产物，不能沿用v1短�
 
 ## 变更记录
 
-- 2026-11-07 · 首次建立近期热门中文研究条目。本条仅LiveBench 2.0；existing_slugs.txt未列livebench，但官网保留LiveBench v1历史，旧版release不纳入本条榜。七套件不拆为七条。 热度与榜单口径分离，不确定值标记待核实。
-- 2026-11-08 · 逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
+- 2026-11-07，首次建立近期热门中文研究条目。本条仅LiveBench 2.0；existing_slugs.txt未列livebench，但官网保留LiveBench v1历史，旧版release不纳入本条榜。七套件不拆为七条。 热度与榜单口径分离，不确定值标记待核实。
+- 2026-11-08，逐篇核验：重开原论文摘要/PDF文本、官方README/LICENSE、可定位HF数据卡与官方/第三方榜；更正版本、授权与评分口径，分赛道更新结构化成绩，重写中文11节；未知值保留。
 [S1](https://livebench.ai/) [S2](https://livebench.ai/)
 
 ### 来源索引
 
 访问日期只表示本库读取来源的日期，不代替模型运行日、数据发布日期或榜单更新时间。
 
-- S1 · [https://livebench.ai/](https://livebench.ai/) · 访问 2026-11-07
-- S2 · [https://livebench.ai/](https://livebench.ai/) · 访问 2026-11-08
-- S3 · [https://www.benchleader.com/benchmarks/livebench2_global](https://www.benchleader.com/benchmarks/livebench2_global) · 访问 2026-11-07
-- S4 · [https://github.com/livebench/LiveBench](https://github.com/livebench/LiveBench) · 访问 2026-11-08
+- S1，[https://livebench.ai/](https://livebench.ai/)，访问 2026-11-07
+- S2，[https://livebench.ai/](https://livebench.ai/)，访问 2026-11-08
+- S3，[https://www.benchleader.com/benchmarks/livebench2_global](https://www.benchleader.com/benchmarks/livebench2_global)，访问 2026-11-07
+- S4，[https://github.com/livebench/LiveBench](https://github.com/livebench/LiveBench)，访问 2026-11-08

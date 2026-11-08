@@ -1,6 +1,6 @@
 # C-Eval
 
-> Benchmark Constitution · 深度复核：2026-11-08。官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
+> Benchmark Constitution，深度复核：2026-11-08。官方证据复核完成；2026-H2使用证据已回读；未知字段和文档冲突显式保留
 
 C-Eval以中文原生教育与资格考试背景衡量52个学科的知识和推理，跨初中、高中、大学与专业层级。它不是将英语MMLU简单翻译成中文。读分数必须先问：test还是val、零样本还是五样本、直接作答还是CoT？官方已于2025-07-27公开完整test，旧文档的隐藏标签说法不能继续无条件沿用。
 
@@ -536,7 +536,7 @@ https://arxiv.org/pdf/2305.08322
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY"
     "webViewLink": "
   }

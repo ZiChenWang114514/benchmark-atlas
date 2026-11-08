@@ -1,6 +1,6 @@
 # Chartography
 
-> Benchmark Constitution · 深度复核：2026-11-08。已核验存在；中文研究快照；note: trending: A；未核实保留标记
+> Benchmark Constitution，深度复核：2026-11-08。已核验存在；中文研究快照；note: trending: A；未核实保留标记
 
 Chartography聚焦专业人士真正用于判断的图形：生存曲线、等高线、Sankey、Bode和金融图等，不局限于常规柱线饼图。100题由从业者编写并经另外三名专家验证。原论文固定July 2026快照与当前官网已明显不同；论文每题20次、README榜单示例10次的差异也需保留，不能将45%历史上限当成当前能力边界。
 

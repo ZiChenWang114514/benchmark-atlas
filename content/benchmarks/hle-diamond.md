@@ -101,7 +101,7 @@ https://lastexam.ai/blog/hle-diamond
 
 ```json
 {
-  "related_arxiv": "Humanity's Last Exam"
+  "related_arxiv": "Humanity’s Last Exam"
   "related_journal": "A benchmark of expert-level academic questions to assess AI capabilities"
   "relationship": "Diamond发布文章引用原HLE论文，不将其视为Diamond独立论文。"
 }

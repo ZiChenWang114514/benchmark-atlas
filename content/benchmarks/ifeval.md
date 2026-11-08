@@ -34,7 +34,7 @@ arXiv v1
 
 ### 发布日期
 
-2023-11-14（arXiv初稿日期，不冒充数据集单独首发日）
+2023-11-14（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2311.07911)（访问 2026-11-08）。
 
@@ -511,7 +511,7 @@ https://arxiv.org/pdf/2311.07911
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU"
     "webViewLink": "
   }

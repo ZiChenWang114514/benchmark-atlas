@@ -1,6 +1,6 @@
 # AA-Briefcase
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 已核验存在；研究快照，未核实字段保留标记
 
@@ -271,7 +271,7 @@ v1.1仅改变Elo拟合，不改变题目；Elo取决于对手池、裁判与拟�
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）
 
@@ -324,7 +324,7 @@ AA-Briefcase-Lite是公开示例，不另计正式benchmark；分析/呈现分�
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://artificialanalysis.ai/evaluations/aa-briefcase)（访问2026-11-07）
 
@@ -350,9 +350,9 @@ https://artificialanalysis.ai/evaluations/aa-briefcase
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Claude Sonnet 5.5 (Max, Default Fallback) | 1813 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase) · 2026-11-07 |
-| 2 | Claude Opus 5.5 (Max, Default Fallback) | 1800 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase) · 2026-11-07 |
-| 3 | Claude Opus 5.5 (Xhigh, Default Fallback) | 1760 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase) · 2026-11-07 |
+| 1 | Claude Sonnet 5.5 (Max, Default Fallback) | 1813 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase)，2026-11-07 |
+| 2 | Claude Opus 5.5 (Max, Default Fallback) | 1800 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase)，2026-11-07 |
+| 3 | Claude Opus 5.5 (Xhigh, Default Fallback) | 1760 | AA-Briefcase v1.1 Elo | [原表](https://artificialanalysis.ai/evaluations/aa-briefcase)，2026-11-07 |
 
 > Claude Sonnet 5.5 (Max, Default Fallback)：{"confidence_interval_95": "-11 / +12"}
 
@@ -481,17 +481,17 @@ https://artificialanalysis.ai/privacy-policy
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

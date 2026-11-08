@@ -1,6 +1,6 @@
 # SRE Bench（SRE-Bench）
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution，深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
 SRE-Bench评测从未知二进制恢复程序语义的能力，不是站点可靠性工程。19个私有程序被构建为262个二进制实例，每实例6个可确定验证任务。最关键的阅读门槛是分母：论文只对gradable runs计算条件成绩，Vals把全部262实例纳入；内部关闭护栏的多尝试成绩又是第三套条件。
 

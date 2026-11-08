@@ -1,6 +1,6 @@
 # ChemDIRT
 
-> Benchmark Constitution · 深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
+> Benchmark Constitution，深度复核：2026-11-08。实证补全；未确认项保留待核实，论文历史分数与实时榜单分开记录。
 
 ChemDIRT用任务、提示改写和分子表示三个轴诊断化学LLM的稳定性，而不是压成一个总分。论文包含33种任务设置、八类任务；图像到结构、逆合成和性质回归必须保留各自指标。当前README声称4,484题，而HF卡明确4,482行，这个两条记录的差异仍需维护方解释，不能用“4.48k”掩盖。
 
@@ -477,7 +477,7 @@ https://arxiv.org/pdf/2608.21504
 ```json
 [
   {
-    "type": "中文介绍 Google Doc"
+    "type": "中文介绍"
     "id": "1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58"
     "webViewLink": "https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit"
   }

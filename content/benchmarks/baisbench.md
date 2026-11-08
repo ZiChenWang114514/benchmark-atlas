@@ -1,6 +1,6 @@
 # BAISBench
 
-> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
 逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
@@ -36,7 +36,7 @@ v2；最近论文日期 2026-01-18
 
 ### 发布日期
 
-2025-05-13 16:33:54（，UTC+8；arXiv v1首次提交）
+2025-05-13 16:33:54（，；arXiv v1首次提交）
 
 来源：[1]
 
@@ -251,7 +251,7 @@ Task1保存输出中Pantheon只运行organ_list[:6]，其均分0.420766729440657
 
 ### 核查日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -297,7 +297,7 @@ v1：2025-05-13；v2：2026-01-18；scope：两任务官方发布与复现Notebo
 
 ### 采集日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -423,7 +423,7 @@ id：1UnT52NfQw39t6FVzCs21Y3-XVIzVzNJC；webViewLink：
 
 ### 其他材料
 
-- type：中文介绍 Google Doc；id：1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg；webViewLink：https://docs.google.com/document/d/1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg/edit
+- type：中文介绍；id：1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg；webViewLink：https://docs.google.com/document/d/1gHMfyiYw-QqyYpR4fnFgYsUYLdK9QG0TH8QengjG2xg/edit
 
 来源：[11]
 
@@ -439,7 +439,7 @@ id：1LLtrgHSJRkbgGS7FUtvJBdDl3mdbYPlo；webViewLink：
 
 - 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
 - 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

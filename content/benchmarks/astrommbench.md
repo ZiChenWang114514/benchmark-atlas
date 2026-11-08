@@ -1,6 +1,6 @@
 # AstroMMBench
 
-> 核查：2026-11-07（，UTC+8）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
 逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
@@ -32,7 +32,7 @@ arXiv v2（2025-10-22 01:29:47，）为621题预印本；Universe 12(10),296（2
 
 ### 发布日期
 
-2025-09-29 17:02:30（，UTC+8；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。
+2025-09-29 17:02:30（，；arXiv v1）；2026-09-30是Universe正式发表日，不是首次提出日。
 
 来源：[2][3]
 
@@ -247,7 +247,7 @@ https://github.com/Shijinghang/benchmark_pipeline
 
 ### 核查日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -289,7 +289,7 @@ arxiv_v1：2025-09-29；arxiv_v2：2025-10-22；preprint_questions：621；journ
 
 ### 采集日期
 
-2026-11-07（，UTC+8；采集日，不是实验日）
+2026-11-07（，；采集日，不是实验日）
 
 来源：[1]
 
@@ -411,7 +411,7 @@ id：1TSOgqfwkB-dttJyEkuJMzgZJidF3HFdh；webViewLink：
 
 ### 其他材料
 
-- type：中文介绍 Google Doc；id：1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4；webViewLink：https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit
+- type：中文介绍；id：1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4；webViewLink：https://docs.google.com/document/d/1nJ6uf32vtz8ukEZRmxJ5NK6uDrAyBIKeaFW3PYkQ-Q4/edit
 
 来源：[7]
 
@@ -427,7 +427,7 @@ id：1U3D15tfPy2AbJbYlOx0vxQP2neBx4yZO；webViewLink：
 
 - 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
 - 2026-11-07：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-07（ (UTC+8)）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 

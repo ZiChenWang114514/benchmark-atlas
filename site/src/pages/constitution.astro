@@ -1,21 +1,23 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentLocale, t } from '../i18n';
 import { loadConstitution } from '../lib/content';
 
+const locale = currentLocale();
 const constitution = loadConstitution();
 ---
 <Base
-  title="收集宪法"
-  description="Benchmark 数据库收集宪法：真实性、来源等级、介绍页的十一节，以及更新和呈现方式。"
+  title={t(locale, 'constitution.title')}
+  description={t(locale, 'constitution.description')}
   active="constitution"
 >
   <div class="wrap page-hero">
-    <h1>{constitution.title}</h1>
-    <p class="lede">这是入库时遵守的规则。页面按仓库里的 CONSTITUTION.md 生成，不另写一套口径。</p>
+    <h1>Benchmark Constitution</h1>
+    <p class="lede">{t(locale, 'constitution.lede')}</p>
   </div>
   <div class="wrap doc-layout">
-    <nav class="toc" aria-label="宪法章节">
-      <p>章节</p>
+    <nav class="toc" aria-label={t(locale, 'constitution.toc')}>
+      <p>{t(locale, 'constitution.toc')}</p>
       {constitution.toc.map((item) => <a href={`#${item.id}`}>{item.text}</a>)}
     </nav>
     <article class="prose" set:html={constitution.html} />

@@ -1,6 +1,6 @@
 # AQuA-RAT
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 官方证据复核；授权与版本冲突显式保留；未核实项不补造
 
@@ -34,7 +34,7 @@ arXiv v3
 
 ### 发布日期
 
-2017-05-11 21:04:47 （UTC+8）（arXiv首稿，不等同数据发布声明）
+2017-05-11 21:04:47 （）（arXiv首稿，不等同数据发布声明）
 
 [来源1](https://arxiv.org/abs/1705.04146)（访问2026-11-07）
 
@@ -249,7 +249,7 @@ https://github.com/google-deepmind/AQuA
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://github.com/google-deepmind/AQuA)（访问2026-11-07）
 
@@ -302,7 +302,7 @@ MathQA从AQuA题源重标运算程序；两者不能按相同数据及评分方�
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://github.com/google-deepmind/AQuA)（访问2026-11-07）
 
@@ -330,9 +330,9 @@ https://arxiv.org/html/2610.11978v1
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Qwen3.8-Max | 94.1 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
-| 2 | Qwen3.8-Flash | 91.7 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
-| 3 | Gemini 3.8 Flash | 91.3 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1) · 2026-11-07 |
+| 1 | Qwen3.8-Max | 94.1 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
+| 2 | Qwen3.8-Flash | 91.7 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
+| 3 | Gemini 3.8 Flash | 91.3 | Accuracy (%)，test254/单次运行 | [原表](https://arxiv.org/html/2610.11978v1)，2026-11-07 |
 
 
 
@@ -340,10 +340,10 @@ https://arxiv.org/html/2610.11978v1
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | Our Model（program induction） | 36.4 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | Seq2Seq | 20.8 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | Seq2Seq + Copy Input | 20.4 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | Seq2Seq + Copy Output | 20.2 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Our Model（program induction） | 36.4 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Seq2Seq | 20.8 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Seq2Seq + Copy Input | 20.4 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Seq2Seq + Copy Output | 20.2 | Accuracy (%) | [原表](https://arxiv.org/abs/1705.04146)，2026-11-07 |
 
 
 
@@ -463,17 +463,17 @@ https://arxiv.org/pdf/1705.04146
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

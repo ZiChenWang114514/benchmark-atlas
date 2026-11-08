@@ -1,6 +1,6 @@
 # PaperBench
 
-> Benchmark Constitution · 核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
+> Benchmark Constitution，核验 2026-11-08。未知保持“待核实”；访问日不等于实验日。
 
 PaperBench要求agent从研究论文出发编写代码、执行实验并复现目标结论。层级rubric由原论文作者协作制定；完整复现、只做代码开发的Code-Dev以及不同运行预算不构成同一个排行榜。
 

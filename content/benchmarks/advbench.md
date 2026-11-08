@@ -1,6 +1,6 @@
 # AdvBench
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 最近复核
 
@@ -36,7 +36,7 @@ arXiv v2
 
 ### 发布日期
 
-2023-07-28 01:49:12 （UTC+8）（arXiv首稿；来源UTC日期为7月27日）
+2023-07-28 01:49:12 （）（arXiv首稿；来源UTC日期为7月27日）
 
 [来源1](https://arxiv.org/abs/2307.15043)（访问2026-11-07）
 
@@ -259,7 +259,7 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://llm-attacks.org/)（访问2026-11-07）
 
@@ -278,12 +278,12 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
   {
     "version": "v1"
     "submitted_at": "2023-07-28"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
   }
   {
     "version": "v2"
     "submitted_at": "2023-12-21"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
   }
 ]
 ```
@@ -312,7 +312,7 @@ ASR评价攻击效果，越高越危险；论文Table1前100样本白盒与Table
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://llm-attacks.org/)（访问2026-11-07）
 
@@ -340,8 +340,8 @@ https://arxiv.org/abs/2307.15043
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | Vicuna-7B + GCG | 99.0 | individual Harmful Behavior ASR (%) | [原表](https://arxiv.org/abs/2307.15043) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | LLaMA-2-7B-Chat + GCG | 56.0 | individual Harmful Behavior ASR (%) | [原表](https://arxiv.org/abs/2307.15043) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Vicuna-7B + GCG | 99.0 | individual Harmful Behavior ASR (%) | [原表](https://arxiv.org/abs/2307.15043)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | LLaMA-2-7B-Chat + GCG | 56.0 | individual Harmful Behavior ASR (%) | [原表](https://arxiv.org/abs/2307.15043)，2026-11-07 |
 
 
 
@@ -349,8 +349,8 @@ https://arxiv.org/abs/2307.15043
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 不适用（来源内选列，非全局排名） | Vicuna-7B + GCG | 98.0 | multiple Harmful Behaviors test ASR (%) | [原表](https://arxiv.org/abs/2307.15043) · 2026-11-07 |
-| 不适用（来源内选列，非全局排名） | LLaMA-2-7B-Chat + GCG | 84.0 | multiple Harmful Behaviors test ASR (%) | [原表](https://arxiv.org/abs/2307.15043) · 2026-11-07 |
+| 不适用（来源内选列，非全局排名） | Vicuna-7B + GCG | 98.0 | multiple Harmful Behaviors test ASR (%) | [原表](https://arxiv.org/abs/2307.15043)，2026-11-07 |
+| 不适用（来源内选列，非全局排名） | LLaMA-2-7B-Chat + GCG | 84.0 | multiple Harmful Behaviors test ASR (%) | [原表](https://arxiv.org/abs/2307.15043)，2026-11-07 |
 
 
 
@@ -440,7 +440,7 @@ ab8745c2e3c6dfd939d5a590760bbae4682d92db010947cbb306688ad086bfd1
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1PyuJWY7qpUtChUoPScosfR0eqX-dPCaFCbHwLi2atC8"
     "webViewLink": "
   }
@@ -466,17 +466,17 @@ ab8745c2e3c6dfd939d5a590760bbae4682d92db010947cbb306688ad086bfd1
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

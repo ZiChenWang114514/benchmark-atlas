@@ -656,7 +656,7 @@ ee5a616e9481f0f0d6b8ccc9e6d261f1c35fcb0b9c64d1c5c9d2d9462d6fc5e9
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1qw68HgXMM_E6tnQ3d_soA7-3ws_HZ_dFwA99nOFkeek"
     "webViewLink": "
   }

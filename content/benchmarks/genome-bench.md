@@ -322,7 +322,7 @@ Genome-Bench是Princeton/Stanford研究者把长期CRISPR专家讨论转成的�
 **其他官方文档**：```json
 [
   {
-    "type": "中文介绍 Google Doc"
+    "type": "中文介绍"
     "id": "1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8"
     "webViewLink": "https://docs.google.com/document/d/1enUvw7XP8aREmtFrobp5qfWIRIY0cHRYwBlV_fJPmE8/edit"
   }

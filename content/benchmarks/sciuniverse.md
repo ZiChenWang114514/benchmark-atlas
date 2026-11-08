@@ -1,6 +1,6 @@
 # SciUniverse Level 1
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
+> Benchmark Constitution，深度复核 2026-11-08。已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
 
 SciUniverse把科研评测的起点前移到样品、仪器和实验操作：模型既要做计划，也要面对材料不足、设备故障和测量噪声。Level 1混合真实实验、模拟实验和实测数据解释，不能用“92次湿实验”概括。总体指标为17个家族等权，不是92题简单平均。
 

@@ -629,7 +629,7 @@ https://arxiv.org/pdf/2009.13081
 ```json
 [
   {
-    "type": "中文介绍 Google Doc"
+    "type": "中文介绍"
     "id": "1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE"
     "webViewLink": "https://docs.google.com/document/d/1wgYP6J_7FZI1T2zTSeH_8rtDz7Rfyhei-uAksX9iNaE/edit"
   }

@@ -1,6 +1,6 @@
 # ARC-AGI-3
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 研究快照；trending: A；未核实字段保留标记
 
@@ -258,7 +258,7 @@ Standard与Provider Adapter分轨，不能用99.9% Adapter替代62.7% Standard�
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://arcprize.org/arc-agi/3)（访问2026-11-07）
 
@@ -320,7 +320,7 @@ ARC-AGI-3在ARC-AGI-1/2静态视觉推理之外增加交互探索；三版本的
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://arcprize.org/arc-agi/3)（访问2026-11-07）
 
@@ -346,9 +346,9 @@ https://arcprize.org/leaderboard
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | GPT-6 Astra | 62.7 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
-| 2 | GPT-6.1 Sol | 52.7 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
-| 3 | Gemini 4 Argon | 49.8 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
+| 1 | GPT-6 Astra | 62.7 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
+| 2 | GPT-6.1 Sol | 52.7 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
+| 3 | Gemini 4 Argon | 49.8 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
 
 > GPT-6 Astra：{"source_date_column": "2026-09-02", "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"}
 
@@ -360,9 +360,9 @@ https://arcprize.org/leaderboard
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | GPT-6 Astra | 99.9 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
-| 2 | Gemini 4 Argon | 97.5 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
-| 3 | GPT-6.1 Sol | 96.4 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard) · 2026-11-07 |
+| 1 | GPT-6 Astra | 99.9 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
+| 2 | Gemini 4 Argon | 97.5 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
+| 3 | GPT-6.1 Sol | 96.4 | ARC-AGI-3 RHAE (%) | [原表](https://arcprize.org/leaderboard)，2026-11-07 |
 
 > GPT-6 Astra：{"source_date_column": "2026-09-02", "date_column_note": "网页Date/Release date列，不自动解释为实际运行日"}
 
@@ -476,12 +476,12 @@ https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

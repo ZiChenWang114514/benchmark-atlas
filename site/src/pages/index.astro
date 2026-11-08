@@ -2,7 +2,9 @@
 import Base from '../layouts/Base.astro';
 import HeatLegend from '../components/HeatLegend.astro';
 import TrendItem from '../components/TrendItem.astro';
+import { currentLocale, t } from '../i18n';
 import { visualCopy } from '../i18n/visual';
+import { sectionLabel, sectionSlug } from '../lib/sections';
 import {
   allTags,
   benchmarksMentioned,
@@ -17,13 +19,14 @@ import {
 import { loadHeat, loadImpact } from '../lib/boards';
 import { dateStamp, displayName, page, publicText, safeUrl, textValue, tone } from '../lib/format';
 
-const ui = visualCopy('zh');
+const locale = currentLocale();
+const ui = visualCopy(locale);
 const index = loadIndex();
 const records = loadRecords();
 const news = loadNews();
 const { groups } = sectionGroups(records);
 const tags = allTags(records);
-const chips = ['全部', ...groups.map((group) => group.id)];
+const chips = [{ id: 'all', label: t(locale, 'home.all_sections') }, ...groups.map((group) => ({ id: sectionSlug(group.id), label: sectionLabel(group.id, locale) }))];
 const [lead, ...rest] = news;
 const catalog = records.map((record) => record.index);
 const trending = loadTrending();
@@ -36,7 +39,7 @@ const known = new Set(records.map((record) => record.index.id));
 const heatTop = (heat?.ranking ?? []).slice(0, 5);
 const impactTop = (impact?.ranking ?? []).filter((row) => row.score != null).slice(0, 5);
 const stamp = dateStamp(index.generated_at);
-const windowText = trending.window?.from && trending.window?.through ? `${trending.window.from} 至 ${trending.window.through}` : '';
+const windowText = trending.window?.from && trending.window?.through ? t(locale, 'home.window', { from: trending.window.from, through: trending.window.through }) : '';
 const stats = [
   { href: '#browse', label: ui.statDossiers, value: records.length },
   { href: '#news', label: ui.statNews, value: news.length },
@@ -48,7 +51,7 @@ function hostOf(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
   } catch {
-    return '来源';
+    return t(locale, 'home.source');
   }
 }
 function pct(value: number): number {
@@ -57,17 +60,17 @@ function pct(value: number): number {
 ---
 <Base
   title="Benchmark Constitution"
-  description="自然科学 AI benchmark 图鉴。首页是最新动态和分板块档案，每条事实保留来源；没核验完的标明待核实。"
+  description={t(locale, 'home.description')}
   active="home"
 >
   <div class="wrap">
     <header class="masthead">
       <h1>Benchmark Constitution</h1>
-      <p class="lede">追踪值得读的科学评测，而不只追逐分数。每条事实带来源和访问日期；没有核验完的，标明待核实。</p>
+      <p class="lede">{t(locale, 'home.lede')}</p>
       <p class="meta-row">
         {stamp && <span>{ui.snapshot} {stamp}</span>}
-        <span>{records.length} 则档案</span>
-        <a href={page('constitution')}>收录范围与真实性原则见《收集宪法》</a>
+        <span>{t(locale, 'home.records', { n: records.length })}</span>
+        <a href={page('constitution')}>{t(locale, 'home.constitution_link')}</a>
       </p>
     </header>
 
@@ -75,18 +78,18 @@ function pct(value: number): number {
       {stats.map((item) => (
         <a class="stat" href={item.href}>
           <span>{item.label}</span>
-          <strong>{new Intl.NumberFormat('zh-Hans').format(item.value)}</strong>
+          <strong>{new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(item.value)}</strong>
         </a>
       ))}
     </div>
 
     <section class="section" id="news" aria-labelledby="news-title">
       <header class="flag">
-        <h2 id="news-title">最新动态</h2>
-        <p>观察日不等于事件发生日</p>
+        <h2 id="news-title">{t(locale, 'home.news')}</h2>
+        <p>{t(locale, 'home.news_note')}</p>
       </header>
       {news.length === 0 ? (
-        <p>这一期还没有动态。</p>
+        <p>{t(locale, 'home.news_empty')}</p>
       ) : (
         <div class="home-split">
           <div>
@@ -130,7 +133,7 @@ function pct(value: number): number {
           <aside>
             {impactTop.length > 0 && (
               <section class="rail" aria-labelledby="rail-impact">
-                <h2 id="rail-impact"><a href={page('impact')}>学术影响力榜</a></h2>
+                <h2 id="rail-impact"><a href={page('impact')}>{t(locale, 'nav.impact')}</a></h2>
                 {impactTop.map((row) => {
                   const href = known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact');
                   const score = row.score ?? 0;
@@ -149,7 +152,7 @@ function pct(value: number): number {
             )}
             {heatTop.length > 0 && heat && (
               <section class="rail" aria-labelledby="rail-heat">
-                <h2 id="rail-heat"><a href={page('frontier-heat')}>业界热度榜</a></h2>
+                <h2 id="rail-heat"><a href={page('frontier-heat')}>{t(locale, 'nav.heat')}</a></h2>
                 {heatTop.map((row) => {
                   const href = known.has(row.benchmark_id) ? page(`benchmarks/${row.benchmark_id}`) : page('frontier-heat');
                   const share = typeof row.share === 'number' ? row.share : (heat.models.length ? row.count / heat.models.length : 0);
@@ -173,10 +176,10 @@ function pct(value: number): number {
 
     <section class="section" id="trending" aria-labelledby="trending-title">
       <header class="flag">
-        <h2 id="trending-title">近期热门</h2>
+        <h2 id="trending-title">{t(locale, 'home.trending')}</h2>
         <p class="inline-meta">
           {windowText && <span>{windowText}</span>}
-          <a href={page('trending')}>全部 {hotList.length} 条</a>
+          <a href={page('trending')}>{t(locale, 'home.all_trending', { n: hotList.length })}</a>
         </p>
       </header>
       <HeatLegend />
@@ -187,63 +190,63 @@ function pct(value: number): number {
 
     <section class="section" id="sections" aria-labelledby="sections-title">
       <header class="flag">
-        <h2 id="sections-title">按板块看</h2>
-        <p>主板块有条目才出现在这里</p>
+        <h2 id="sections-title">{t(locale, 'home.sections')}</h2>
+        <p>{t(locale, 'home.sections_note')}</p>
       </header>
-      <nav class="section-index" aria-label="板块">
+      <nav class="section-index" aria-label={t(locale, 'home.sections_aria')}>
         {groups.map((group) => (
-          <a href={`#sec-${group.id}`}>
-            <span>{group.id}</span>
+          <a href={`#sec-${sectionSlug(group.id)}`}>
+            <span>{sectionLabel(group.id, locale)}</span>
             <strong>{group.items.length}</strong>
             <small>{group.blurb}</small>
           </a>
         ))}
       </nav>
-      <p class="index-note">十二个板块按收录顺序列出，数字是该板块的条目数。跨学科基准只计入一个主板块，其他学科用标签找回来。标了「2026下半年仍被引用」的，索引里有对应引用证据。</p>
+      <p class="index-note">{t(locale, 'home.index_note')}</p>
     </section>
 
     <section class="section" id="browse" aria-labelledby="browse-title">
       <header class="flag">
-        <h2 id="browse-title">搜索与筛选</h2>
-        <p id="result-count">本批 {records.length} 个基准，当前显示 {records.length} 个</p>
+        <h2 id="browse-title">{t(locale, 'home.browse')}</h2>
+        <p id="result-count">{t(locale, 'home.count', { total: records.length, shown: records.length })}</p>
       </header>
-      <form id="browse-form" class="browse-form" role="search" action={page()} method="get">
-        <label class="sr-only" for="q">搜索基准</label>
-        <input id="q" class="search" name="q" type="search" placeholder="搜索名称、任务或标签，例如 GPQA、分子、天气" autocomplete="off" enterkeyhint="search" />
-        <div class="chips" role="group" aria-label="板块筛选">
+      <form id="browse-form" class="browse-form" role="search" action={page()} method="get" data-all="all" data-locale={locale} data-count-template={t(locale, 'home.count', { total: '{total}', shown: '{shown}' })}>
+        <label class="sr-only" for="q">{t(locale, 'home.search_label')}</label>
+        <input id="q" class="search" name="q" type="search" placeholder={t(locale, 'home.search_placeholder')} autocomplete="off" enterkeyhint="search" />
+        <div class="chips" role="group" aria-label={t(locale, 'home.chips_aria')}>
           {chips.map((chip) => (
-            <button type="button" class="chip" data-section-chip={chip} aria-pressed={chip === '全部' ? 'true' : 'false'}>{chip}</button>
+            <button type="button" class="chip" data-section-chip={chip.id} aria-pressed={chip.id === 'all' ? 'true' : 'false'}>{chip.label}</button>
           ))}
         </div>
         <div class="controls">
-          <label class="sel" for="tag">标签
+          <label class="sel" for="tag">{t(locale, 'home.tag')}
             <select id="tag" name="tag">
-              <option value="">全部标签</option>
+              <option value="">{t(locale, 'home.all_tags')}</option>
               {tags.map((tag) => <option value={tag}>{tag}</option>)}
             </select>
           </label>
-          <label class="sel" for="sort">排列
+          <label class="sel" for="sort">{t(locale, 'home.sort')}
             <select id="sort" name="sort">
-              <option value="section">板块顺序</option>
-              <option value="name">名称</option>
-              <option value="date">同板块内较新</option>
+              <option value="section">{t(locale, 'home.sort_section')}</option>
+              <option value="name">{t(locale, 'home.sort_name')}</option>
+              <option value="date">{t(locale, 'home.sort_date')}</option>
             </select>
           </label>
-          <button type="button" class="ghost" id="reset">重置</button>
+          <button type="button" class="ghost" id="reset">{t(locale, 'home.reset')}</button>
         </div>
       </form>
-      <noscript><p class="note">筛选和排序需要脚本。不启用时，下面仍按板块列出全部基准。</p></noscript>
-      <p id="empty" class="empty" hidden>没有符合的基准。换一个词，或重置筛选。</p>
+      <noscript><p class="note">{t(locale, 'home.noscript')}</p></noscript>
+      <p id="empty" class="empty" hidden>{t(locale, 'home.empty')}</p>
     </section>
 
     {groups.map((group) => (
-      <section class="group" id={`sec-${group.id}`} data-group={group.id} aria-labelledby={`heading-${group.id}`}>
+      <section class="group" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
         <header class="group-head">
           <div>
-            <h2 id={`heading-${group.id}`}>{group.id}</h2>
+            <h2 id={`heading-${sectionSlug(group.id)}`}>{sectionLabel(group.id, locale)}</h2>
             <p>{group.blurb}</p>
           </div>
-          <p>{group.items.length} 个基准</p>
+          <p>{t(locale, 'home.benchmarks_count', { n: group.items.length })}</p>
         </header>
         <div class="card-grid" data-grid>
           {group.items.map((record) => {
@@ -254,7 +257,7 @@ function pct(value: number): number {
               <a
                 class="card"
                 data-card
-                data-section={record.index.section}
+                data-section={sectionSlug(record.index.section)}
                 data-name={record.index.name}
                 data-date={record.date}
                 data-order={record.order}
@@ -264,18 +267,18 @@ function pct(value: number): number {
                 style={`--tone:${tone(record.index.section)}`}
               >
                 <span class="card-section">
-                  <span class="domain-tag">{record.index.section}</span>
-                  {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
+                  <span class="domain-tag">{sectionLabel(record.index.section, locale)}</span>
+                  {record.index.cited_2026h2 && <span class="badge badge-cite">{t(locale, 'home.cited')}</span>}
                   {hotBySlug.get(record.index.id) && (
-                    <span class="badge badge-hot">🔥 近期热门 {hotBySlug.get(record.index.id)?.heat_confidence}</span>
+                    <span class="badge badge-hot">🔥 {t(locale, 'home.hot', { grade: hotBySlug.get(record.index.id)?.heat_confidence ?? '' })}</span>
                   )}
                 </span>
                 <h3>{record.index.name}</h3>
                 <p class="card-summary">{publicText(record.index.summary)}</p>
-                {size && <p class="card-size">{size === '待核实' || size === '未公开' ? `规模${size}` : size}</p>}
-                {extra.length > 0 && <p class="card-tags">同时涉及 {extra.join('、')}</p>}
+                {size && <p class="card-size">{size === '待核实' || size === '未公开' || size === 'Unverified' || size === 'Not disclosed' ? t(locale, 'home.size_status', { status: size }) : size}</p>}
+                {extra.length > 0 && <p class="card-tags">{t(locale, 'home.also', { tags: extra.join(t(locale, 'value.join')) })}</p>}
                 <p class="card-foot">
-                  <span>{release ? `发布 ${release}` : '发布日期待核实'}</span>
+                  <span>{release ? t(locale, 'home.released', { date: release }) : t(locale, 'home.release_unverified')}</span>
                 </p>
               </a>
             );

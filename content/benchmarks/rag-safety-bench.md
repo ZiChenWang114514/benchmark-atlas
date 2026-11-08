@@ -438,7 +438,7 @@ https://arxiv.org/pdf/2609.11758
 ```json
 [
   {
-    "kind": "中文介绍 Google Doc"
+    "kind": "中文介绍"
     "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o"
     "webViewLink": "
   }

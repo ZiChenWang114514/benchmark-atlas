@@ -1,11 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentLocale, t } from '../i18n';
 import { visualCopy } from '../i18n/visual';
+import { sectionLabel } from '../lib/sections';
 import { loadRegistry } from '../lib/boards';
 import { loadIndex } from '../lib/data';
 import { dateStamp, page } from '../lib/format';
 
-const ui = visualCopy('zh');
+const locale = currentLocale();
+const ui = visualCopy(locale);
 
 const registry = loadRegistry();
 const known = new Set(loadIndex().benchmarks.map((item) => item.id));
@@ -13,8 +16,8 @@ const payload = (registry?.items ?? []).map((item) => ({
   id: item.id,
   name: item.name,
   aliases: item.aliases ?? [],
-  domain: item.domain ?? '',
-  description_zh: item.description_zh ?? '',
+  domain: sectionLabel(item.domain, locale),
+  description_zh: locale === 'en' ? '' : (item.description_zh ?? ''),
   release_date: item.release_date ?? '',
   paper_url: item.paper_url ?? '',
   github_url: item.github_url ?? '',
@@ -26,48 +29,48 @@ const payload = (registry?.items ?? []).map((item) => ({
 }));
 const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh'));
 ---
-<Base title="名录" description="已发现的 benchmark 名录。可按名称搜索，并按引用、star 或发布日期排序。" active="registry">
+<Base title={t(locale, 'registry.title')} description={t(locale, 'registry.description')} active="registry">
   <div class="wrap page-hero">
-    <h1>名录</h1>
-    <p class="lede">这里收已经确认存在的评测集。有完整十一节档案的，名称会链到档案页；其余只给出论文、代码或数据集入口。</p>
+    <h1>{t(locale, 'registry.title')}</h1>
+    <p class="lede">{t(locale, 'registry.lede')}</p>
     <p class="meta-row">
       {dateStamp(registry?.generated_at) && <span>{ui.snapshot} {dateStamp(registry?.generated_at)}</span>}
-      {registry && <span>{registry.count ?? payload.length} 条</span>}
+      {registry && <span>{t(locale, 'registry.count_meta', { n: registry.count ?? payload.length })}</span>}
     </p>
   </div>
   <div class="wrap">
     {registry ? (
       <>
         <div class="controls">
-          <label class="sel" for="reg-q">搜索
-            <input id="reg-q" type="search" placeholder="名称、别名或简介" />
+          <label class="sel" for="reg-q">{t(locale, 'registry.search')}
+            <input id="reg-q" type="search" placeholder={t(locale, 'registry.search_placeholder')} />
           </label>
-          <label class="sel" for="reg-domain">领域
+          <label class="sel" for="reg-domain">{t(locale, 'registry.domain')}
             <select id="reg-domain">
-              <option value="">全部领域</option>
+              <option value="">{t(locale, 'registry.all_domains')}</option>
               {domains.map((domain) => <option value={domain}>{domain}</option>)}
             </select>
           </label>
-          <label class="sel" for="reg-sort">排序
+          <label class="sel" for="reg-sort">{t(locale, 'registry.sort')}
             <select id="reg-sort">
-              <option value="name">名称</option>
-              <option value="citations">引用</option>
-              <option value="stars">GitHub star</option>
-              <option value="release">发布日期</option>
+              <option value="name">{t(locale, 'registry.sort_name')}</option>
+              <option value="citations">{t(locale, 'registry.sort_citations')}</option>
+              <option value="stars">{t(locale, 'registry.sort_stars')}</option>
+              <option value="release">{t(locale, 'registry.sort_release')}</option>
             </select>
           </label>
         </div>
         <p id="reg-count" class="result-count"></p>
         <div class="board-scroll">
-          <table class="board" id="reg-table" data-null-tip={ui.nullTip}>
+          <table class="board" id="reg-table" data-null-tip={ui.nullTip} data-paper={t(locale, 'registry.paper')} data-code={t(locale, 'registry.code')} data-dataset={t(locale, 'registry.dataset')} data-home={t(locale, 'registry.home')} data-name={t(locale, 'registry.col.name')} data-domain={t(locale, 'registry.col.domain')} data-released={t(locale, 'registry.col.released')} data-citations={t(locale, 'registry.col.citations')} data-stars={t(locale, 'registry.col.stars')} data-links={t(locale, 'registry.col.links')} data-count-unit={t(locale, 'visual.rows')}>
             <thead>
               <tr>
-                <th class="name-col" scope="col">名称</th>
-                <th scope="col">领域</th>
-                <th scope="col">发布</th>
-                <th scope="col">引用</th>
-                <th scope="col">Star</th>
-                <th scope="col">入口</th>
+                <th class="name-col" scope="col">{t(locale, 'registry.col.name')}</th>
+                <th scope="col">{t(locale, 'registry.col.domain')}</th>
+                <th scope="col">{t(locale, 'registry.col.released')}</th>
+                <th scope="col">{t(locale, 'registry.col.citations')}</th>
+                <th scope="col">{t(locale, 'registry.col.stars')}</th>
+                <th scope="col">{t(locale, 'registry.col.links')}</th>
               </tr>
             </thead>
             <tbody id="reg-body"></tbody>
@@ -143,14 +146,25 @@ const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))]
               body.innerHTML = slice.map((item) => {
                 const name = item.archive ? `<a href="${safeHref(item.archive)}">${esc(item.name)}</a>` : esc(item.name);
                 const hf = item.hf_dataset ? `https://huggingface.co/datasets/${item.hf_dataset}` : '';
-                const links = [link(item.paper_url, '论文'), link(item.github_url, '代码'), link(hf, '数据集'), link(item.homepage, '主页')].filter(Boolean);
-                const nullTip = document.querySelector('#reg-table')?.getAttribute('data-null-tip') || '';
+                const table = document.querySelector('#reg-table');
+                const paper = table?.getAttribute('data-paper') || '';
+                const code = table?.getAttribute('data-code') || '';
+                const dataset = table?.getAttribute('data-dataset') || '';
+                const home = table?.getAttribute('data-home') || '';
+                const links = [link(item.paper_url, paper), link(item.github_url, code), link(hf, dataset), link(item.homepage, home)].filter(Boolean);
+                const nullTip = table?.getAttribute('data-null-tip') || '';
                 const dash = `<span class="na" title="${esc(nullTip)}">—</span>`;
                 const entry = links.length ? `<span class="row-links">${links.join('')}</span>` : dash;
-                return `<tr><td class="name-cell" data-label="名称">${name}</td><td data-label="领域">${item.domain ? `<span class="domain-tag">${esc(item.domain)}</span>` : dash}</td><td data-label="发布">${esc(item.release_date || '') || dash}</td><td class="num" data-label="引用">${item.citations ?? dash}</td><td class="num" data-label="Star">${item.stars ?? dash}</td><td data-label="入口">${entry}</td></tr>`;
+                const labelName = table?.getAttribute('data-name') || '';
+                const labelDomain = table?.getAttribute('data-domain') || '';
+                const labelReleased = table?.getAttribute('data-released') || '';
+                const labelCitations = table?.getAttribute('data-citations') || '';
+                const labelStars = table?.getAttribute('data-stars') || '';
+                const labelLinks = table?.getAttribute('data-links') || '';
+                return `<tr><td class="name-cell" data-label="${esc(labelName)}">${name}</td><td data-label="${esc(labelDomain)}">${item.domain ? `<span class="domain-tag">${esc(item.domain)}</span>` : dash}</td><td data-label="${esc(labelReleased)}">${esc(item.release_date || '') || dash}</td><td class="num" data-label="${esc(labelCitations)}">${item.citations ?? dash}</td><td class="num" data-label="${esc(labelStars)}">${item.stars ?? dash}</td><td data-label="${esc(labelLinks)}">${entry}</td></tr>`;
               }).join('');
             }
-            if (count) count.textContent = `${rows.length} 条`;
+            if (count) count.textContent = `${rows.length} ${document.querySelector('#reg-table')?.getAttribute('data-count-unit') || ''}`.trim();
             if (pageLabel) pageLabel.textContent = `${page + 1} / ${pages}`;
           }
           q?.addEventListener('input', () => { page = 0; draw(); });
@@ -162,7 +176,7 @@ const domains = [...new Set(payload.map((item) => item.domain).filter(Boolean))]
         </script>
       </>
     ) : (
-      <p class="pending-data">数据生成中</p>
+      <p class="pending-data">{t(locale, 'home.pending_data')}</p>
     )}
   </div>
 </Base>

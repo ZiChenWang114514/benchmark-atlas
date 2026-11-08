@@ -1,6 +1,6 @@
 # APEX-Agents
 
-> 核验日期：2026-11-07 （UTC+8）。未知保留待核实；访问日不是测量日。
+> 核验日期：2026-11-07 （）。未知保留待核实；访问日不是测量日。
 
 已核验存在；11节研究快照；note: trending: A；未知字段保留待核实
 
@@ -32,13 +32,13 @@ AI Productivity Index for Agents (APEX–Agents)
 
 ### 论文版本
 
-arXiv v3（2026-02-24 01:49:38 （UTC+8））
+arXiv v3（2026-02-24 01:49:38 （））
 
 [来源1](https://arxiv.org/abs/2601.14242)（访问2026-11-07）
 
 ### 发布日期
 
-2026-01-21 02:53:44 （UTC+8）（arXiv首稿；来源UTC日期为1月20日）
+2026-01-21 02:53:44 （）（arXiv首稿；来源UTC日期为1月20日）
 
 [来源1](https://arxiv.org/abs/2601.14242)（访问2026-11-07）
 
@@ -257,7 +257,7 @@ Archipelago提供执行环境、agent运行器与grading系统。
 
 ### 核查日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -324,7 +324,7 @@ APEX是同机构基准家族；当前官网并列APEX-Agents/APEX-SWE/APEX-Accou
 
 ### 快照日期
 
-2026-11-07 （UTC+8）
+2026-11-07 （）
 
 [来源1](https://huggingface.co/datasets/mercor/apex-agents)（访问2026-11-07）
 
@@ -342,13 +342,13 @@ https://artificialanalysis.ai/evaluations/apex-agents-aa
 
 ### 分轨结果
 
-#### Mercor当前240题/31worlds · pass-1
+#### Mercor当前240题/31worlds，pass-1
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 4 Carbon (high) | 84.2 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1) · 2026-11-07 |
-| 2 | Gemini 4 Argon (high) | 82.4 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1) · 2026-11-07 |
-| 3 | Hy4 (high) | 77.6 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1) · 2026-11-07 |
+| 1 | Gemini 4 Carbon (high) | 84.2 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1)，2026-11-07 |
+| 2 | Gemini 4 Argon (high) | 82.4 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1)，2026-11-07 |
+| 3 | Hy4 (high) | 77.6 | Pass@1 (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=pass-1)，2026-11-07 |
 
 > Gemini 4 Carbon (high)：{"harness": "loop_truncated_tools_agent", "source_error_plus_minus": 4.3, "n_samples_source": 960, "sample_count_note": "页面原字段n_samples，不等于独立任务数，不推断重复次数"}
 
@@ -356,13 +356,13 @@ https://artificialanalysis.ai/evaluations/apex-agents-aa
 
 > Hy4 (high)：{"harness": "loop_truncated_tools_agent", "source_error_plus_minus": 4.5, "n_samples_source": 960, "sample_count_note": "页面原字段n_samples，不等于独立任务数，不推断重复次数"}
 
-#### Mercor当前240题/31worlds · mean-score
+#### Mercor当前240题/31worlds，mean-score
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 4 Carbon (high) | 90.4 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score) · 2026-11-07 |
-| 2 | Gemini 4 Argon (high) | 87.4 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score) · 2026-11-07 |
-| 3 | Hy4 (high) | 85.1 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score) · 2026-11-07 |
+| 1 | Gemini 4 Carbon (high) | 90.4 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score)，2026-11-07 |
+| 2 | Gemini 4 Argon (high) | 87.4 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score)，2026-11-07 |
+| 3 | Hy4 (high) | 85.1 | Mean Score (%) | [原表](https://www.mercor.com/apex/apex-agents-leaderboard/?pass=mean-score)，2026-11-07 |
 
 > Gemini 4 Carbon (high)：{"harness": "loop_truncated_tools_agent", "source_error_plus_minus": 3.1, "n_samples_source": 960, "sample_count_note": "页面原字段n_samples，不等于独立任务数，不推断重复次数"}
 
@@ -374,9 +374,9 @@ https://artificialanalysis.ai/evaluations/apex-agents-aa
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 3.5 Flash (High) | 47.1 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa) · 2026-11-07 |
-| 2 | Qwen3.8 Max (0902) | 42.4 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa) · 2026-11-07 |
-| 3 | Kimi K3 (Max) | 41.3 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa) · 2026-11-07 |
+| 1 | Gemini 3.5 Flash (High) | 47.1 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa)，2026-11-07 |
+| 2 | Qwen3.8 Max (0902) | 42.4 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa)，2026-11-07 |
+| 3 | Kimi K3 (Max) | 41.3 | pass@1 (%) | [原表](https://artificialanalysis.ai/evaluations/apex-agents-aa)，2026-11-07 |
 
 
 
@@ -384,9 +384,9 @@ https://artificialanalysis.ai/evaluations/apex-agents-aa
 
 | 来源内名次 | 模型 / 配置 | 分数 | 指标 | 来源与访问日 |
 | --- | --- | ---: | --- | --- |
-| 1 | Gemini 3 Flash (Thinking=High) | 24.0 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242) · 2026-11-07 |
-| 2 | GPT-5.2 (Thinking=High) | 23.0 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242) · 2026-11-07 |
-| 3 | Claude Opus 4.5 (Thinking=High) | 18.4 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242) · 2026-11-07 |
+| 1 | Gemini 3 Flash (Thinking=High) | 24.0 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242)，2026-11-07 |
+| 2 | GPT-5.2 (Thinking=High) | 23.0 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242)，2026-11-07 |
+| 3 | Claude Opus 4.5 (Thinking=High) | 18.4 | Pass@1 (%) | [原表](https://arxiv.org/abs/2601.14242)，2026-11-07 |
 
 
 
@@ -493,12 +493,12 @@ https://arxiv.org/pdf/2601.14242
 [
   {
     "date": "2026-11-07"
-    "timezone": "（UTC+8）"
+    "timezone": "（）"
     最近复核
   }
   {
     "date": "2026-11-07"
-    "timezone": " (UTC+8)"
+    "timezone": " ()"
     最近复核
   }
 ]

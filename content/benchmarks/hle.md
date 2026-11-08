@@ -34,7 +34,7 @@ arXiv v12
 
 ### 发布日期
 
-2025-01-24（arXiv初稿日期，不冒充数据集单独首发日）
+2025-01-24（arXiv初稿日期，不是数据集的单独发布日）
 
 来源：[1](https://arxiv.org/abs/2501.14249)（访问 2026-11-08）。
 
@@ -92,7 +92,7 @@ https://lastexam.ai
 
 ### 论文标题
 
-Humanity's Last Exam
+Humanity’s Last Exam
 
 来源：[1](https://arxiv.org/abs/2501.14249)（访问 2026-11-07）。
 

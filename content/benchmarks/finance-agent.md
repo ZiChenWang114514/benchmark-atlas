@@ -1,6 +1,6 @@
 # Finance Agent
 
-> Benchmark Constitution · 研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
+> Benchmark Constitution，研究快照 2026-11-07。采集时间不等于成绩实跑或榜单更新时间。
 
 Finance Agent v2.1要求智能体检索公司申报、整合跨文档事实并遵守金融分析惯例。其关键不是写出听起来合理的金融解释，而是先通过dealbreaker门控，再按rubric取得部分信用；旧v1论文与HF卡不得代替当前v2.1协议。
 

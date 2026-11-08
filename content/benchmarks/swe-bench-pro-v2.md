@@ -1,6 +1,6 @@
 # SWE-Bench Pro V2
 
-> Benchmark Constitution · 深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
+> Benchmark Constitution，深度复核 2026-11-08。已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
 
 SWE-Bench Pro V2是同系列公开集的修订与隔离协议，不是SWE-bench Verified的新名字。默认642任务、HARD-51与保留的旧731题需要明确区分；agent离线、清洁镜像重评和双向发布门控是本版关键变化。官方Full与HARD榜分别记录，Rank(UB)按置信区间而非普通同分规则给名次。
 
