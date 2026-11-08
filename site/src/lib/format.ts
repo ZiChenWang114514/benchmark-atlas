@@ -263,23 +263,23 @@ export function displayName(name: string): string {
 }
 
 export const TONES: Record<string, string> = {
-  物理: '#243e66',
-  化学: '#1d5c4f',
-  '生物与医学': '#7a3a48',
-  '地球与天文': '#34556e',
-  材料: '#8a5a2a',
-  综合科学: '#1f6f5b',
-  语言: '#3f4d3a',
-  推理: '#4a3f66',
-  数学: '#2f4554',
-  代码: '#3d4a3a',
-  多模态: '#5a4560',
-  Agent: '#5c4030',
-  安全: '#6e3b32',
-  语音: '#3d4f62',
-  '机器人与具身': '#5a4632',
+  物理: '#7a4e08',
+  化学: '#6a430c',
+  '生物与医学': '#7a5608',
+  '地球与天文': '#6f4706',
+  材料: '#8a5a10',
+  综合科学: '#6a430c',
+  语言: '#7a4e08',
+  推理: '#7a5608',
+  数学: '#6f4706',
+  代码: '#8a5a10',
+  多模态: '#6a430c',
+  Agent: '#7a4e08',
+  安全: '#7a5608',
+  语音: '#6f4706',
+  '机器人与具身': '#8a5a10',
 };
 
 export function tone(section: string): string {
-  return TONES[section] ?? '#1c1916';
+  return TONES[section] ?? '#7a4e08';
 }
