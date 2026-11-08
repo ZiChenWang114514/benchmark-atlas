@@ -27,9 +27,9 @@ Multi-Programming Language Evaluation of Large Language Models of Code
 
 ```json
 {
-  "hf_changelog_latest": "3.3"
-  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
-  "scope": "The current HF data release; the 19-language protocol of the original paper is listed separately"
+ "hf_changelog_latest": "3.3"
+ "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
+ "scope": "The current HF data release; the 19-language protocol of the original paper is listed separately"
 }
 ```
 
@@ -189,209 +189,209 @@ Translation cannot guarantee that contamination from the original Python questio
 
 ```json
 {
-  "paper_protocol": {
-    "languages_including_python": 19
-    "multipl_humaneval_instances": 3059
-    "multipl_mbpp_instances": 7619
-    "note": "The appendix of the paper counts 161/401 parent questions multiplied by 19 languages; this does not represent every current HF configuration."
-  }
-  "current_hf": {
-    "humaneval_target_language_configs": 24
-    "mbpp_target_language_configs": 23
-    "humaneval_rows": 3811
-    "mbpp_rows": 8856
-    "per_config": [
-      {
-        "config": "humaneval-adb"
-        "test_rows": 157
-      }
-      {
-        "config": "humaneval-clj"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-cpp"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-cs"
-        "test_rows": 158
-      }
-      {
-        "config": "humaneval-d"
-        "test_rows": 156
-      }
-      {
-        "config": "humaneval-dart"
-        "test_rows": 157
-      }
-      {
-        "config": "humaneval-elixir"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-go"
-        "test_rows": 154
-      }
-      {
-        "config": "humaneval-hs"
-        "test_rows": 156
-      }
-      {
-        "config": "humaneval-java"
-        "test_rows": 158
-      }
-      {
-        "config": "humaneval-jl"
-        "test_rows": 159
-      }
-      {
-        "config": "humaneval-js"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-lua"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-ml"
-        "test_rows": 155
-      }
-      {
-        "config": "humaneval-php"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-pl"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-r"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-rb"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-rkt"
-        "test_rows": 161
-      }
-      {
-        "config": "humaneval-rs"
-        "test_rows": 156
-      }
-      {
-        "config": "humaneval-scala"
-        "test_rows": 160
-      }
-      {
-        "config": "humaneval-sh"
-        "test_rows": 158
-      }
-      {
-        "config": "humaneval-swift"
-        "test_rows": 158
-      }
-      {
-        "config": "humaneval-ts"
-        "test_rows": 159
-      }
-      {
-        "config": "mbpp-adb"
-        "test_rows": 365
-      }
-      {
-        "config": "mbpp-clj"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-cpp"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-cs"
-        "test_rows": 386
-      }
-      {
-        "config": "mbpp-d"
-        "test_rows": 358
-      }
-      {
-        "config": "mbpp-elixir"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-go"
-        "test_rows": 374
-      }
-      {
-        "config": "mbpp-hs"
-        "test_rows": 355
-      }
-      {
-        "config": "mbpp-java"
-        "test_rows": 386
-      }
-      {
-        "config": "mbpp-jl"
-        "test_rows": 390
-      }
-      {
-        "config": "mbpp-js"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-lua"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-ml"
-        "test_rows": 355
-      }
-      {
-        "config": "mbpp-php"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-pl"
-        "test_rows": 396
-      }
-      {
-        "config": "mbpp-r"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-rb"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-rkt"
-        "test_rows": 397
-      }
-      {
-        "config": "mbpp-rs"
-        "test_rows": 354
-      }
-      {
-        "config": "mbpp-scala"
-        "test_rows": 396
-      }
-      {
-        "config": "mbpp-sh"
-        "test_rows": 382
-      }
-      {
-        "config": "mbpp-swift"
-        "test_rows": 396
-      }
-      {
-        "config": "mbpp-ts"
-        "test_rows": 390
-      }
-    ]
-  }
-  "warning": "Language-translation rows are not an independent count of new questions; current exclusions differ by language, so the 3.3 data volume must not be applied to the original paper's experiments."
+ "paper_protocol": {
+ "languages_including_python": 19
+ "multipl_humaneval_instances": 3059
+ "multipl_mbpp_instances": 7619
+ "note": "The appendix of the paper counts 161/401 parent questions multiplied by 19 languages; this does not represent every current HF configuration."
+ }
+ "current_hf": {
+ "humaneval_target_language_configs": 24
+ "mbpp_target_language_configs": 23
+ "humaneval_rows": 3811
+ "mbpp_rows": 8856
+ "per_config": [
+ {
+ "config": "humaneval-adb"
+ "test_rows": 157
+ }
+ {
+ "config": "humaneval-clj"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-cpp"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-cs"
+ "test_rows": 158
+ }
+ {
+ "config": "humaneval-d"
+ "test_rows": 156
+ }
+ {
+ "config": "humaneval-dart"
+ "test_rows": 157
+ }
+ {
+ "config": "humaneval-elixir"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-go"
+ "test_rows": 154
+ }
+ {
+ "config": "humaneval-hs"
+ "test_rows": 156
+ }
+ {
+ "config": "humaneval-java"
+ "test_rows": 158
+ }
+ {
+ "config": "humaneval-jl"
+ "test_rows": 159
+ }
+ {
+ "config": "humaneval-js"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-lua"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-ml"
+ "test_rows": 155
+ }
+ {
+ "config": "humaneval-php"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-pl"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-r"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-rb"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-rkt"
+ "test_rows": 161
+ }
+ {
+ "config": "humaneval-rs"
+ "test_rows": 156
+ }
+ {
+ "config": "humaneval-scala"
+ "test_rows": 160
+ }
+ {
+ "config": "humaneval-sh"
+ "test_rows": 158
+ }
+ {
+ "config": "humaneval-swift"
+ "test_rows": 158
+ }
+ {
+ "config": "humaneval-ts"
+ "test_rows": 159
+ }
+ {
+ "config": "mbpp-adb"
+ "test_rows": 365
+ }
+ {
+ "config": "mbpp-clj"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-cpp"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-cs"
+ "test_rows": 386
+ }
+ {
+ "config": "mbpp-d"
+ "test_rows": 358
+ }
+ {
+ "config": "mbpp-elixir"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-go"
+ "test_rows": 374
+ }
+ {
+ "config": "mbpp-hs"
+ "test_rows": 355
+ }
+ {
+ "config": "mbpp-java"
+ "test_rows": 386
+ }
+ {
+ "config": "mbpp-jl"
+ "test_rows": 390
+ }
+ {
+ "config": "mbpp-js"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-lua"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-ml"
+ "test_rows": 355
+ }
+ {
+ "config": "mbpp-php"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-pl"
+ "test_rows": 396
+ }
+ {
+ "config": "mbpp-r"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-rb"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-rkt"
+ "test_rows": 397
+ }
+ {
+ "config": "mbpp-rs"
+ "test_rows": 354
+ }
+ {
+ "config": "mbpp-scala"
+ "test_rows": 396
+ }
+ {
+ "config": "mbpp-sh"
+ "test_rows": 382
+ }
+ {
+ "config": "mbpp-swift"
+ "test_rows": 396
+ }
+ {
+ "config": "mbpp-ts"
+ "test_rows": 390
+ }
+ ]
+ }
+ "warning": "Language-translation rows are not an independent count of new questions; current exclusions differ by language, so the 3.3 data volume must not be applied to the original paper's experiments."
 }
 ```
 
@@ -473,16 +473,16 @@ The HF revision, the sub-benchmark, the language list, the number of valid quest
 
 ```json
 {
-  "version": "HF changelog 3.3"
-  "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
-  "last_modified_kst": "2025-07-15"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.27284v1"
-      "date": "2026-09-23"
-      "note": "Hunyuan-A13B §4.1 and §4.2, and Tables 2–4, actually report MultiPL-E; CRUX-I/O is kept as the same CRUXEval entry and is not counted separately."
-    }
-  ]
+ "version": "HF changelog 3.3"
+ "hf_revision": "28441b6024e71d4a1c1c0f6bf171c935cd5a43f2"
+ "last_modified": "2025-07-15"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.27284v1"
+ "date": "2026-09-23"
+ "note": "Hunyuan-A13B §4.1 and §4.2, and Tables 2–4, actually report MultiPL-E; CRUX-I/O is kept as the same CRUXEval entry and is not counted separately."
+ }
+ ]
 }
 ```
 
@@ -492,32 +492,32 @@ The HF revision, the sub-benchmark, the language list, the number of valid quest
 
 ```json
 {
-  "arxiv_revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2022-08-17"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2022-08-19"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2022-11-08"
-    }
-    {
-      "version": "v4"
-      "date_kst": "2022-12-19"
-    }
-  ]
-  "dataset_changelog_latest": "3.3 (fix for the Lua stop token)"
-  "other_notable_fixes": [
-    "3.2 added Ada"
-    "3.1.1 fixes the TypeScript MBPP type parentheses"
-    "3.1 adds Dart"
-    "3.0 adds Clojure/Elixir/Haskell/OCaml and several Scala fixes"
-  ]
-  "date_warning": "These semantic-version titles on the HF card have no per-item dates; API lastModified is not treated as the release date of every version."
+ "arxiv_revisions": [
+ {
+ "version": "v1"
+ "date": "2022-08-17"
+ }
+ {
+ "version": "v2"
+ "date": "2022-08-19"
+ }
+ {
+ "version": "v3"
+ "date": "2022-11-08"
+ }
+ {
+ "version": "v4"
+ "date": "2022-12-19"
+ }
+ ]
+ "dataset_changelog_latest": "3.3 (fix for the Lua stop token)"
+ "other_notable_fixes": [
+ "3.2 added Ada"
+ "3.1.1 fixes the TypeScript MBPP type parentheses"
+ "3.1 adds Dart"
+ "3.0 adds Clojure/Elixir/Haskell/OCaml and several Scala fixes"
+ ]
+ "date_warning": "These semantic-version titles on the HF card have no per-item dates; API lastModified is not treated as the release date of every version."
 }
 ```
 
@@ -663,110 +663,24 @@ b905b9874ffcb4cee63f74cdc30524eae97013691e79313049ad72c6d6197580
 
 [来源1](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1khgOwh78nDrW-SHYR5WFiy8QxpgBJVMF"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
-### 其他官方文档
-
-```json
-[
-  {
-    "type": "Chinese-language introductory Google Doc"
-    "id": "1cJ2CHUDqpMhq8jz6w_gMky6AfkFohAGgYYayDoSpGlM"
-    "webViewLink": "
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/abs/2208.08227"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/html/2609.27284v1"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/pdf/2208.08227"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/nuprl/MultiPL-E/blob/main/LICENSE"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/nuprl/MultiPL-E/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/nuprl/MultiPL-E"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/spaces/bigcode/multilingual-code-evals"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://nuprl.github.io/MultiPL-E/"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-> The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
-
-[来源1](https://github.com/nuprl/MultiPL-E)（访问 2026-11-07）；[来源2]( 2026-11-07）；[来源3](https://arxiv.org/abs/2208.08227)（访问 2026-11-08）；[来源4](https://arxiv.org/html/2609.27284v1)（访问 2026-11-08）；[来源5](https://arxiv.org/pdf/2208.08227)（访问 2026-11-08）；[来源6](https://github.com/nuprl/MultiPL-E/blob/main/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/nuprl/MultiPL-E/blob/main/README.md)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/nuprl/MultiPL-E)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/nuprl/MultiPL-E/raw/main/README.md)（访问 2026-11-08）；[来源10](https://huggingface.co/spaces/bigcode/multilingual-code-evals)（访问 2026-11-08）；[来源11](https://nuprl.github.io/MultiPL-E/)（访问 2026-11-08）
-
-### 原始PDF
-
-```json
-{
-  "id": "1VJo6JR3mrGnJtUCicWx2ULogJB0i9DgZ"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ## Changelog
 
 ### Changelog
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

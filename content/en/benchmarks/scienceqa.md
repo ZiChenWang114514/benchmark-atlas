@@ -4,7 +4,7 @@
 
 ScienceQA pairs multiple-choice questions from a curriculum with image or text context, a background lecture, and an explanation of the answer, in order to study generation of the answer and of the explanation. It includes the natural sciences, the social sciences, and the language sciences, and it also has questions without an image; the official leaderboard is a manual gathering of results from papers, not an independent contest on one harness. The conflict between the license of the official data and the license of the third-party HF mirror is kept in particular.
 
-Reading source: [Official materials](https://scienceqa.github.io/) (accessed 2026-11-08,); the specific facts and the historical access dates are in the individual fields.
+Reading source: [Official materials](https://scienceqa.github.io/) (accessed 2026-11-08); the specific facts and the historical access dates are in the individual fields.
 
 ## Basic information
 
@@ -12,31 +12,31 @@ Reading source: [Official materials](https://scienceqa.github.io/) (accessed 202
 
 ScienceQA
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Full name
 
 Science Question Answering
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Benchmark version
 
 The NeurIPS 2022 release protocol for the original 21,208 questions; the official problems.json is fixed, and no separately named numeric version from the official source was found.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07)
 
 ### Paper version
 
 v2; latest submission 2022-10-17
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Release date
 
 2022-09-20 (first arXiv submission; the date the data went online is not inferred).
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Section
 
@@ -44,49 +44,49 @@ Multimodal
 
 Note: Benchmark Constitution editorial filing. A cross-disciplinary entry is counted only in its main section. The classification is not claimed to be set by the benchmark's maintainers.
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Field tags
 
 - Multimodal scientific question answering
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
 Official data: CC BY-NC-SA 4.0, non-commercial research only, with the rights in the original content belonging to the original authors, including IXL; the code is MIT. The YAML of the third-party derek-thomas/ScienceQA mirror on HF instead marks CC BY-SA 4.0 and omits NC, which is a clear conflict. Use follows the restrictions of the original authors, and the mirror is not treated as having authority to loosen them.
 
-Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-08， ) ; [2](https://github.com/lupantech/ScienceQA/blob/main/LICENSE) (accessed 2026-11-08， ) ; [3](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [4](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-08); [2](https://github.com/lupantech/ScienceQA/blob/main/LICENSE) (accessed 2026-11-08); [3](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [4](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2209.09513
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/lupantech/ScienceQA
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### 数据地址
 
 https://huggingface.co/datasets/derek-thomas/ScienceQA
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/derek-thomas/ScienceQA) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://huggingface.co/datasets/derek-thomas/ScienceQA) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://scienceqa.github.io/
 
-Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/) (accessed 2026-11-08); [2](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### Paper title
 
 Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -94,7 +94,7 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
 
 Author affiliations in the paper: UCLA, Arizona State University, and the Allen Institute for AI.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ### 合作机构/署名单位
 
@@ -104,7 +104,7 @@ Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 Note: The background of collaborative research is recorded from the affiliations credited to the authors of the paper, and the course source IXL is not miswritten as a collaborating institution.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### Authors
 
@@ -118,13 +118,13 @@ Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
 - Clark, Peter
 - Kalyan, Ashwin
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### 当前维护入口
 
 Pan Lu / ScienceQA official repository; the README states explicitly that Pan Lu receives questions and leaderboard feedback.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### Funders
 
@@ -132,7 +132,7 @@ Unverified
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -140,13 +140,13 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 Multimodal scientific multiple-choice questions and interpretable multi-step reasoning, with the answer, the lecture, and the explanation learned jointly.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ### Design background
 
 Existing science QA is often text-only, small in scale, limited in disciplines, or lacking answer explanations.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ## Construction
 
@@ -154,25 +154,25 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 Questions, image and text context, answers, background lectures, and specific explanations are collected from IXL elementary- and middle-school curriculum resources.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ### 出题背景
 
 The original questions come from IXL Learning courses curated by K–12 education experts and conform to the California Common Core Content Standards. The research team is responsible for extraction, cleaning, and organization.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### Review process
 
 Questions, context, images, options, answers, lecture, and solution are extracted by heuristics; humans remove questions that have only one option, questions that are wrong, and duplicate questions, keep one answer when several are correct, and shuffle the options; a tool for exploring the data assists experts in correcting annotations that are wrong.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### Quality control
 
 Invalid, duplicate, and incorrect questions were removed by hand, and the order of answers was shuffled; experts reviewed and revised the annotations with a data explorer. This shows only that the authors applied quality measures. It does not mean that every error has been found.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### 去污染措施
 
@@ -180,7 +180,7 @@ Unverified
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ## Data format
 
@@ -188,25 +188,25 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 21,208 questions; 10,332 have a figure, 10,220 have text context, and 6,532 have both; 26 topics, 127 categories, and 379 skills.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/derek-thomas/ScienceQA) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://huggingface.co/datasets/derek-thomas/ScienceQA) (accessed 2026-11-08)
 
 ### Question types
 
 Multiple choice; some items have no image or no context, so the full set cannot be treated as pure image question answering.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### Modalities
 
 Image + text (some samples or versions are text only)
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08)
 
 ### Languages
 
 English, and monolingual; a third-party HF mirror has language=en and multilinguality=monolingual, consistent with the English examples in the paper.
 
-Sources: [1](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### Difficulty
 
@@ -216,13 +216,13 @@ Sources: [1](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/REA
 
 Note: Counted item by item from the official problems.json, 21,208 items in total; additional difficulty levels are not estimated.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### 数据划分
 
 The official release makes public train 12,726, val 4,241, test 4,241, and the answers; the split is a random 60:20:20. The leaderboard also has mini 1,000, and it is necessary to mark whether a result is on the full set or on mini, and to mark a subset such as IMG.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07， ) ; [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ## Evaluation
 
@@ -230,31 +230,31 @@ Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/sci
 
 Option accuracy; also reported in groups by natural, social, and language subjects, by image or text context, and by grade.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### Scoring
 
 Option accuracy; also reported in groups by natural, social, and language subjects, by image or text context, and by grade.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### 提示与运行设置
 
 The paper compares few-shot GPT-3 with fine-tuned UnifiedQA; the combinations of inputs and outputs among Q/C/M/A/lecture/explanation must be recorded, and an input that includes a reference explanation belongs to a different protocol.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， ) ; [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### 评测脚本
 
 https://github.com/lupantech/ScienceQA
 
-Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-07， )
+Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-07)
 
 ### 可比性提醒
 
 The official leaderboard was compiled by hand from papers, and the official source warns that there may be errors, ambiguities, and omissions; zero-shot, few-shot, and fine-tune, the full set and the IMG subset, and 4,241 and mini 1,000 cannot be mixed in one comparison.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， ) ; [3](https://arxiv.org/html/2610.01352v2) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07); [3](https://arxiv.org/html/2610.01352v2) (accessed 2026-11-07)
 
 ## Current status
 
@@ -262,40 +262,39 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 The current official repository still provides the original protocol and JSON for 21,208 questions; the most recent major leaderboard update listed in the README is 2023-12-29, and the interactive leaderboard data also include a KAM-CoT record dated 2024-01-23. There is no new 2026 data version derived from the access date.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， ) ; [2](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08， ) ; [3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07); [2](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08); [3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json) (accessed 2026-11-07)
 
 ### 论文修订记录
 
-- **revisions**：[{"version": "v1", "date_kst": "2022-09-20"}, {"version": "v2", "date_kst": "2022-10-17"}]
-- **continued_use_2026h2**：[{"url": "https://arxiv.org/html/2610.01352v2", "date": "2026-10-23", "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate ScienceQA (the ScienceQA setting), comparing 4B/9B and other vision-language models; splits such as mini/val are not counted separately.", "date_kst": "2026-10-23", "verified_in_round1": "The body of arXiv v2, §4.1 and Table2, and the abs submission history were opened again, and the actual evaluation was confirmed; source-site v2 is 2026-10-22 16:54:37 UTC."}]
-- **verification**：The actual evaluation sections and tables whose evidence text was opened and checked, not judged only by whether a reference or web page is still available.
-- **arxiv_submission_history_kst**：[{"version": "v1", "submitted_at_kst": "2022-09-20", "timezone": ""}, {"version": "v2", "submitted_at_kst": "2022-10-17", "timezone": ""}]
+- **revisions**：[{"version": "v1", "date": "2022-09-20"}, {"version": "v2", "date": "2022-10-17"}]
+- **continued_use_2026h2**：[{"url": "https://arxiv.org/html/2610.01352v2", "date": "2026-10-23", "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate ScienceQA (the ScienceQA setting), comparing 4B/9B and other vision-language models; splits such as mini/val are not counted separately.", "date": "2026-10-23"}]
+- **arxiv_submission_history**：[{"version": "v1", "submitted_at": "2022-09-20"}, {"version": "v2", "submitted_at": "2022-10-17"}]
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08)
 
 ### 饱和程度
 
 The highest Avg in the official leaderboard data is 96.18% (Fine-tune), but the leaderboard mixes training settings and is not a continuing independent re-evaluation. The figure can show a high score for that setting, and it cannot be used to assert that every setting, or the whole benchmark, is saturated.
 
-Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### 争议与已知问题
 
 The official leaderboard was compiled by hand from papers, and the official source warns that there may be errors, ambiguities, and omissions; zero-shot, few-shot, and fine-tune, the full set and the IMG subset, and 4,241 and mini 1,000 cannot be mixed in one comparison.
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， ) ; [3](https://arxiv.org/html/2610.01352v2) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07); [3](https://arxiv.org/html/2610.01352v2) (accessed 2026-11-07)
 
 ### Derivative benchmarks
 
 The official leaderboard provides report slices such as mini 1,000, IMG/NAT/SOC/LAN, and G1-6/G7-12; they are subsets of the same benchmark and are not counted as new benchmarks.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -303,13 +302,13 @@ Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.m
 
 2026-11-08 (access date, not the experiment run date)
 
-Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08)
 
 ### 官方榜单入口
 
 https://scienceqa.github.io/leaderboard.html
 
-Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08)
 
 ### 第三方入口
 
@@ -317,7 +316,7 @@ Unverified
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
-Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (accessed 2026-11-07， )
+Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -433,13 +432,13 @@ Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (access
 - {"model": "MMVistaReason-4B (MVR-4B)", "score": 96.8, "unit": "%", "metric": "Answer accuracy under the protocol of the paper (CompassVerifier)", "scope": "ScienceQA; this table in the paper does not distinguish the full-set scope from the IMG scope", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "Table 2 as reported by the MMVistaReason authors themselves; VLMEvalKit, T=0, max16384; §7.3 replaces traditional string matching with CompassVerifier, and this is not the official leaderboard or an independent evaluation by AA", "date_basis": "Converted from the arXiv v2 submission time; it is not a Not disclosed evaluation-run date.", "track": "2026H2 paper-author self-report; CompassVerifier; not an official table and not AA-independent", "rank": "No cross-protocol rank"}
 - {"model": "MMVistaReason-9B (MVR-9B)", "score": 97.4, "unit": "%", "metric": "Answer accuracy under the protocol of the paper (CompassVerifier)", "scope": "ScienceQA; this table in the paper does not distinguish the full-set scope from the IMG scope", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "MMVistaReason author self-report Table 2; the same protocol, and not ranked together with other leaderboards without conditions", "date_basis": "Converted from the arXiv v2 submission time; it is not a Not disclosed evaluation-run date.", "track": "2026H2 paper-author self-report; CompassVerifier; not an official table and not AA-independent", "rank": "No cross-protocol rank"}
 
-Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08); [2](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08)
 
 ### 榜单覆盖边界
 
 All 109 rows of the official JS table were read in full, including the Human and Random baselines. Subject, context, and grade breakdowns, and the symbols for missing values, are retained. Fine-tune, Few-shot, and Zero-shot are on separate tracks. The web page mentions both whole and mini but does not label them row by row, so 4241 is not assigned uniformly to the top three rows without a per-row basis, and a cross-protocol overall leaderboard is not ranked again. Two rows of H2 author self-reports verified earlier are also retained, and the access date remains 2026-11-07.
 
-Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (accessed 2026-11-08); [2](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08)
 
 ## Contact
 
@@ -449,13 +448,13 @@ Sources: [1](https://scienceqa.github.io/javascript/leaderboard-data.js) (access
 
 Note: Officially published project email for contact, leaderboard submission, or copyright feedback; no email was sent.
 
-Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08， )
+Sources: [1](https://scienceqa.github.io/leaderboard.html) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
 https://github.com/lupantech/ScienceQA/issues
 
-Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-07， )
+Sources: [1](https://github.com/lupantech/ScienceQA) (accessed 2026-11-07)
 
 ### 官方社交账号
 
@@ -463,28 +462,23 @@ https://twitter.com/lupantech/status/1570828580346802178
 
 Note: The public discussion entry provided in the official README; X content was not visited, and no message was sent.
 
-Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md) (accessed 2026-11-07)
 
 ### 联系方式原则
 
 Only officially published project feedback channels are recorded; private contact details are neither collected nor inferred.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07， )
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07)
 
 ## Original files
 
 ### 论文原件
 
-- **id**：1DbMOVlQF4L3yu_htLns-S1ladvipIuxm
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07， )
-
 ### 原始PDF地址
 
 https://arxiv.org/pdf/2209.09513
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### 原始文件SHA-256
 
@@ -492,26 +486,15 @@ Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](h
 
 Note: Byte count of the original PDF actually downloaded. The existing file is not changed on that basis.
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### 原始文件字节数
 
 8065121
 
-Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08， )
-
-### Folder
-
-- **id**：1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2209.09513) (accessed 2026-11-08)
 
 ### Other documents
-
-- {"kind": "Chinese introduction", "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ", "webViewLink": "
-
-Sources: [1]( 2026-11-07， )
 
 ## Changelog
 
@@ -519,4 +502,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08， ) ; [2](https://scienceqa.github.io/) (accessed 2026-11-08， ) ; [3](https://scienceqa.github.io/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2209.09513) (accessed 2026-11-08); [2](https://scienceqa.github.io/) (accessed 2026-11-08); [3](https://scienceqa.github.io/) (accessed 2026-11-08)

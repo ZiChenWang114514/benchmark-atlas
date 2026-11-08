@@ -273,9 +273,7 @@ V11 (EN/CN dev/test) is currently visible in VLMEvalKit, while the README of the
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2023-07-13；- **timezone**：；- - **version**：v2；- **submitted_at**：2023-07-27；- **timezone**：；- - **version**：v3；- **submitted_at**：2023-08-13；- **timezone**：；- - **version**：v4；- **submitted_at**：2024-04-30；- **timezone**：；- - **version**：v5；- **submitted_at**：2024-08-20；- **timezone**：
 - **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.01352v2；- **date**：2026-10-22；- **note**：MMVistaReason v2 §4.1 and Table 2 actually evaluate MMBench (the EN setting), comparing 4B/9B models and other vision-language models; splits such as mini and val are not counted separately.
-- **verification**：The actual evaluation sections and tables whose evidence text was opened and checked, not judged only by whether a reference or web page is still available.
 
 [来源](https://arxiv.org/abs/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
@@ -351,7 +349,6 @@ Unverified
 
 [来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
-
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -413,26 +410,6 @@ https://arxiv.org/pdf/2307.06281
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2307.06281)（访问 2026-11-08）
-
-### Folder
-
-- **id**：1hUK_CiomC6c_SEKT-IHjmirQgcqKi7zE
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍；- **id**：1S2YN9vaLoj9773TV08Q-a8KkpqeX-2HbMeZD-IfNBwE；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：14aYn-VWxa5JFb6QErhPEv6GdN6NTyMai
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

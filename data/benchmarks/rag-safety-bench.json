@@ -517,7 +517,7 @@
         {
           "rank": null,
           "model": "Gemma-3-12B",
-          "score": 2.0,
+          "score": 2,
           "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
           "track": "论文v1 Table 3 / balanced 346 / Random",
           "source_url": "https://arxiv.org/pdf/2609.11758",
@@ -572,7 +572,7 @@
         {
           "rank": null,
           "model": "Ministral-3-8B",
-          "score": 26.0,
+          "score": 26,
           "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
           "track": "论文v1 Table 3 / balanced 346 / Non-RAG",
           "source_url": "https://arxiv.org/pdf/2609.11758",
@@ -627,7 +627,7 @@
         {
           "rank": null,
           "model": "Phi-4-14B",
-          "score": 41.0,
+          "score": 41,
           "metric": "unsafe-capability answer accuracy (%)，不是harmfulness",
           "track": "论文v1 Table 3 / balanced 346 / Oracle",
           "source_url": "https://arxiv.org/pdf/2609.11758",
@@ -806,9 +806,6 @@
     },
     "other_documents": {
       "value": [
-        {
-          "kind": "中文介绍"
-        },
         {
           "type": "官方数据卡（非HF发布）",
           "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"

@@ -171,12 +171,6 @@ Basis of the overview: [S1](https://arxiv.org/abs/2308.14920) [S2](https://arxiv
 
 **PDF字节数**：4570226 [S4](https://arxiv.org/pdf/2308.14920)
 
-**原有文件夹**：{"id": "1wBpI0F2UIXMsYTY0Fal14yFkONcE5FwM", "webViewLink": " [S15](
-
-**其他材料**：[{"kind": "Chinese introduction", "id": "1ja6AV0EvEUik-shnO57oNO_n5urry23n_VpJS0sV_Ns", "webViewLink": " [S16](
-
-**原有 PDF**：{"id": "1Zp7e0SyLqACycWpXq8DbQsiczNMjJCfO", "webViewLink": " [S17](
-
 ## Changelog
 
 - 2026-11-07，首批官方材料核验、中文改写、；未核实字段显式标记。

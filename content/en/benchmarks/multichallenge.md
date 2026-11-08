@@ -191,17 +191,17 @@ Unverified
 
 ```json
 {
-  "paper_v2_conversations": 273
-  "original_github_jsonl_rows": 273
-  "original_axes": {
-    "INFERENCE_MEMORY": 113
-    "SELF_COHERENCE": 50
-    "INSTRUCTION_RETENTION": 69
-    "RELIABLE_VERSION_EDITING": 41
-  }
-  "current_hf_test_rows": 266
-  "scope_caveat": "The count of 273 in the original paper and the original JSONL disagrees with the current HF count of 266; an announcement of 54 rubric revisions is not an explanation of the deletion of 7 questions. The reason for the difference of 7 questions, and the exact number of samples behind each current score on the official website, have not been verified, and a single denominator is not permitted."
-  "turn_count": "The paper allows at most 10 turns (a user-assistant exchange); HF num_turns is a message count and shows 3 to 19, so 19 messages must not be written as 19 round trips."
+ "paper_v2_conversations": 273
+ "original_github_jsonl_rows": 273
+ "original_axes": {
+ "INFERENCE_MEMORY": 113
+ "SELF_COHERENCE": 50
+ "INSTRUCTION_RETENTION": 69
+ "RELIABLE_VERSION_EDITING": 41
+ }
+ "current_hf_test_rows": 266
+ "scope_caveat": "The count of 273 in the original paper and the original JSONL disagrees with the current HF count of 266; an announcement of 54 rubric revisions is not an explanation of the deletion of 7 questions. The reason for the difference of 7 questions, and the exact number of samples behind each current score on the official website, have not been verified, and a single denominator is not permitted."
+ "turn_count": "The paper allows at most 10 turns (a user-assistant exchange); HF num_turns is a message count and shows 3 to 19, so 19 messages must not be written as 19 round trips."
 }
 ```
 
@@ -285,17 +285,17 @@ Bias in model selection, the judge model, the rubric version, the different deno
 
 ```json
 {
-  "version": "Official-leaderboard convention for the judging and question revision of 2026-02-03"
-  "trending": "B"
-  "heat_evidence": "Opening the official Scale leaderboard on 2026-11-07 shows new frontier models and current results; this shows only that the single creating organization still maintains the display (B). It is not evidence that a new run took place on 7 November."
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
-    }
-  ]
+ "version": "Official-leaderboard convention for the judging and question revision of 2026-02-03"
+ "trending": "B"
+ "heat_evidence": "Opening the official Scale leaderboard on 2026-11-07 shows new frontier models and current results; this shows only that the single creating organization still maintains the display (B). It is not evidence that a new run took place on 7 November."
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
+ }
+ ]
 }
 ```
 
@@ -305,22 +305,22 @@ Bias in model selection, the judge model, the rubric version, the different deno
 
 ```json
 {
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2025-01-29"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2025-03-06"
-    }
-  ]
-  "online_update": {
-    "date": "2026-02-03"
-    "judge": "Gemini 2.5 Pro"
-    "rubric_questions_modified": 54
-  }
-  "dataset_count_conflict": "The paper/original repository lists 273; the current official HF lists 266, and the reason for the difference is not clearly explained in the official materials that were read"
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2025-01-29"
+ }
+ {
+ "version": "v2"
+ "date": "2025-03-06"
+ }
+ ]
+ "online_update": {
+ "date": "2026-02-03"
+ "judge": "Gemini 2.5 Pro"
+ "rubric_questions_modified": 54
+ }
+ "dataset_count_conflict": "The paper/original repository lists 273; the current official HF lists 266, and the reason for the difference is not clearly explained in the official materials that were read"
 }
 ```
 
@@ -525,39 +525,39 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
-  }
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://arxiv.org/abs/2501.17399"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/pdf/2501.17399"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://labs.scale.com/leaderboard/multichallenge?tab=large"
+ }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://arxiv.org/abs/2501.17399"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://arxiv.org/pdf/2501.17399"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://github.com/ekwinox117/multi-challenge/blob/main/README.md"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://github.com/ekwinox117/multi-challenge/blob/main/data/benchmark_questions.jsonl"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://huggingface.co/datasets/ScaleAI/MultiChallenge/raw/main/README.md"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -579,16 +579,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

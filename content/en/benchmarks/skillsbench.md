@@ -1,6 +1,6 @@
 # SkillsBench
 
-> Benchmark Constitution, in-depth review 2026-11-08. Verified to exist; a research snapshot; note: trending: B; marks on fields that have not been verified are retained
+> Benchmark Constitution, in-depth review 2026-11-08. ;
 
 SkillsBench turns the question “whether a skill is actually useful” into a paired experiment: the same model and the same agent complete expert tasks with a skill and without a skill. The default v1.1 contains 87 questions, and an additional 14 questions cannot be merged into the default inventory. The official release of 87 questions, the HF audit export, and the independent Vals implementation have different configurations and different snapshots in time, and this record does not join them into one leaderboard of the bare model.
 
@@ -50,8 +50,8 @@ Agent
 
 ```json
 [
-  "代码"
-  "技能"
+ "代码"
+ "技能"
 ]
 ```
 
@@ -191,9 +191,9 @@ Terminal tasks and file-artifact tasks; they include the natural sciences, mathe
 
 ```json
 [
-  "文本"
-  "代码"
-  "Data file"
+ "文本"
+ "代码"
+ "Data file"
 ]
 ```
 
@@ -265,11 +265,11 @@ The paper and Vals differ in inventory, harness, and runtime; the paper’s resu
 
 ```json
 {
-  "version": "v1.1"
-  "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9"
-  "active_tasks": 87
-  "excluded_tasks": 14
-  "source_snapshots": "Official site: 25 configurations / 2026-07-16; HF archive: 24 configurations, and the card states 2026-06-16; Vals independently lists 35 rows / 2026-10-29. These cannot be forcibly merged."
+ "version": "v1.1"
+ "source_commit": "27738384b1df694ea2ae466e416f476e94d8fab9"
+ "active_tasks": 87
+ "excluded_tasks": 14
+ "source_snapshots": "Official site: 25 configurations / 2026-07-16; HF archive: 24 configurations, and the card states 2026-06-16; Vals independently lists 35 rows / 2026-10-29. These cannot be forcibly merged."
 }
 ```
 
@@ -279,26 +279,22 @@ The paper and Vals differ in inventory, harness, and runtime; the paper’s resu
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-02-13"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2026-03-07"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2026-03-13"
-    "timezone": ""
-  }
-  {
-    "version": "v4"
-    "submitted_at": "2026-06-15"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-02-13"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2026-03-07"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2026-03-13"
+ }
+ {
+ "version": "v4"
+ "submitted_at": "2026-06-15"
+ }
 ]
 ```
 
@@ -578,29 +574,29 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://www.vals.ai/benchmarks/skillsbench"
-  }
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://arxiv.org/abs/2602.12670"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/benchflow-ai/skillsbench"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://huggingface.co/datasets/benchflow/skillsbench"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://www.skillsbench.ai"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://www.vals.ai/benchmarks/skillsbench"
+ }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://arxiv.org/abs/2602.12670"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://github.com/benchflow-ai/skillsbench"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://huggingface.co/datasets/benchflow/skillsbench"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://www.skillsbench.ai"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -616,16 +612,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

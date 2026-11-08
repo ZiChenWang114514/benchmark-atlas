@@ -1,8 +1,8 @@
 # Surface Evolver Bench
 
-> Benchmark Constitution, in-depth review 2026-11-08. Verified to exist; an 11-section research snapshot; note: trending: B; unknown fields remain Unverified
+> Benchmark Constitution, in-depth review 2026-11-08.
 
-Surface Evolver Bench requires the model to submit a .fe file that a physics simulator can execute. Geometry, orientation, contact angle, volume, and energy must be consistent with one another. Scoring is not a model judge. It is deterministic static checks, hidden simulation, and numerical tolerance. The official aggregate JSON was obtained directly, distinguishing a partial score of 95% from a strict pass rate of 87.5%. The entry is no longer left blank because an interactive figure is hard to read.
+Surface Evolver Bench requires the model to submit a.fe file that a physics simulator can execute. Geometry, orientation, contact angle, volume, and energy must be consistent with one another. Scoring is not a model judge. It is deterministic static checks, hidden simulation, and numerical tolerance. The official aggregate JSON was obtained directly, distinguishing a partial score of 95% from a strict pass rate of 87.5%. The entry is no longer left blank because an interactive figure is hard to read.
 
 [Source 1](https://github.com/yhenon/surface-evolver-llm-eval) (accessed 2026-11-08); [Source 2](https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json) (accessed 2026-11-08)
 
@@ -54,9 +54,9 @@ Physics
 
 ```json
 [
-  "材料"
-  "流体"
-  "Scientific code"
+ "材料"
+ "流体"
+ "Scientific code"
 ]
 ```
 
@@ -198,7 +198,7 @@ Unverified
 
 ### 任务形式
 
-In multiple steps, read the documentation, run the simulation, repair it, and submit the original .fe data file through a structured tool.
+In multiple steps, read the documentation, run the simulation, repair it, and submit the original.fe data file through a structured tool.
 
 [来源1](https://epoch.ai/benchmarks/surface-evolver-bench)（访问 2026-11-07）
 
@@ -206,9 +206,9 @@ In multiple steps, read the documentation, run the simulation, repair it, and su
 
 ```json
 [
-  "文本"
-  "Surface Evolver .fe files"
-  "Simulator feedback"
+ "文本"
+ "Surface Evolver.fe files"
+ "Simulator feedback"
 ]
 ```
 
@@ -250,7 +250,7 @@ Weighted partial score: static checks 0.3, hidden Surface Evolver runs 0.3, and 
 
 ### 运行设置
 
-The tools are get_evolver_doc, run_surface_evolver, and submit_fe_file; repair may iterate up to the max-rounds limit; the original .fe file must be submitted through the structured tool. The reasoning level and the API provider are kept as part of the run configuration.
+The tools are get_evolver_doc, run_surface_evolver, and submit_fe_file; repair may iterate up to the max-rounds limit; the original.fe file must be submitted through the structured tool. The reasoning level and the API provider are kept as part of the run configuration.
 
 [来源1](https://github.com/yhenon/surface-evolver-llm-eval/blob/main/README.md)（访问 2026-11-08）
 
@@ -278,20 +278,20 @@ The mean score displayed by Epoch is not a pass rate; the harness documentation 
 
 ```json
 {
-  "version": "待核实"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/benchmarks/surface-evolver-bench"
-      "date": "2026-11-07"
-      "note": "Epoch currently displays results and the protocol; on the observation date, tracking is mainly by a single institution."
-    }
-    {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
-      "date": "2026-10-09"
-      "note": "The Epoch review is Not enough info; this does not mean that the quality is acceptable."
-    }
-  ]
+ "version": "待核实"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/benchmarks/surface-evolver-bench"
+ "date": "2026-11-07"
+ "note": "Epoch currently displays results and the protocol; on the observation date, tracking is mainly by a single institution."
+ }
+ {
+ "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+ "date": "2026-10-09"
+ "note": "The Epoch review is Not enough info; this does not mean that the quality is acceptable."
+ }
+ ]
 }
 ```
 
@@ -458,20 +458,20 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official introduction/protocol"
-    "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/yhenon/surface-evolver-llm-eval"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official introduction/protocol"
+ "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://github.com/yhenon/surface-evolver-llm-eval"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -487,16 +487,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

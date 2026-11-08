@@ -297,15 +297,15 @@ Equivalence of the reward function, not a match on the wording of a formula or o
 
 ```json
 {
-  "version": "待核实"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-      "date": "2026-10-29"
-      "date_type": "source_calendar_date"
-      "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
-    }
-  ]
+ "version": "待核实"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "date": "2026-10-29"
+ "date_type": "source_calendar_date"
+ "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
+ }
+ ]
 }
 ```
 
@@ -497,16 +497,16 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official methods or project page"
-    "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-    "accessed": "2026-11-07"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official methods or project page"
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "accessed": "2026-11-07"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -528,16 +528,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": " ()"
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

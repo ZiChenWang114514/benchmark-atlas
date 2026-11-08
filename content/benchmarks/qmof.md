@@ -50,7 +50,7 @@ Matter 4,1578–1597 (2021)；20k+版同时引用2022 npj Computational Material
 
 ```json
 [
-  "金属有机框架带隙预测"
+ "金属有机框架带隙预测"
 ]
 ```
 
@@ -112,14 +112,14 @@ Rosen等QMOF研究团队；原始论文作者与作者单位见ChemRxiv/正式�
 
 ```json
 [
-  "Andrew S. Rosen"
-  "Shaelyn M. Iyer"
-  "Debmalya Ray"
-  "Zhenpeng Yao"
-  "Alán Aspuru-Guzik"
-  "Laura Gagliardi"
-  "Justin M. Notestein"
-  "Randall Q. Snurr"
+ "Andrew S. Rosen"
+ "Shaelyn M. Iyer"
+ "Debmalya Ray"
+ "Zhenpeng Yao"
+ "Alán Aspuru-Guzik"
+ "Laura Gagliardi"
+ "Justin M. Notestein"
+ "Randall Q. Snurr"
 ]
 ```
 
@@ -345,7 +345,7 @@ https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/qmof_bandg
 
 ```json
 [
-  "rosen@u.northwestern.edu"
+ "rosen@u.northwestern.edu"
 ]
 ```
 
@@ -399,31 +399,6 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
-### 文件夹
-
-```json
-{
-  "id": "16710civVuRQy4imv33HqI4LGvAE8rIGF"
-  "webViewLink": "
-}
-```
-
-[1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "type": "中文介绍"
-    "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA"
-    "webViewLink": "https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit"
-  }
-]
-```
-
-[1](https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit)（访问 2026-11-07）
-
 ### 论文PDF
 
 待核实
@@ -433,21 +408,18 @@ https://github.com/Andrew-S-Rosen/QMOF/issues
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md)（访问 2026-11-08）

@@ -503,31 +503,31 @@
         "arxiv_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2024-11-08"
+            "submitted_at": "2024-11-08"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2024-11-13"
+            "submitted_at": "2024-11-13"
           },
           {
             "version": "v3",
-            "submitted_at_kst": "2024-11-15"
+            "submitted_at": "2024-11-15"
           },
           {
             "version": "v4",
-            "submitted_at_kst": "2024-11-23"
+            "submitted_at": "2024-11-23"
           },
           {
             "version": "v5",
-            "submitted_at_kst": "2024-12-20"
+            "submitted_at": "2024-12-20"
           },
           {
             "version": "v6",
-            "submitted_at_kst": "2025-08-29"
+            "submitted_at": "2025-08-29"
           },
           {
             "version": "v7",
-            "submitted_at_kst": "2025-12-23"
+            "submitted_at": "2025-12-23"
           }
         ],
         "previous_context": {
@@ -623,7 +623,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-09-30",
+          "evaluation_started_at": "2026-09-30",
           "model_release_date": "2026-09-29",
           "stderr": 0.014434038295343787,
           "result_id": "aBoQLaqnXsLPrsbN8wYgUp",
@@ -640,7 +640,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-08-30",
+          "evaluation_started_at": "2026-08-30",
           "model_release_date": "2026-09-03",
           "stderr": 0.014434038295343787,
           "result_id": "csK2fe5T8p2R7WgoJUu6bZ",
@@ -657,7 +657,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-09-23",
+          "evaluation_started_at": "2026-09-23",
           "model_release_date": "2026-09-22",
           "stderr": 0.016786209858442095,
           "result_id": "LPxhvBNEn7S3xkRZUgcvc9",
@@ -674,7 +674,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-10-27",
+          "evaluation_started_at": "2026-10-27",
           "model_release_date": "2026-10-26",
           "stderr": 0.017085690144166794,
           "result_id": "KkEoE6hBF8RB4ff43Xv63e",
@@ -691,7 +691,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tiers_1_3_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-09-02",
+          "evaluation_started_at": "2026-09-02",
           "model_release_date": "2026-09-01",
           "stderr": 0.017662067789031757,
           "result_id": "g7dXwZH2tWvqLg3X5idGs2",
@@ -700,7 +700,7 @@
         {
           "rank": 1,
           "model": "gpt-6.1-sol_max",
-          "score": 1.0,
+          "score": 1,
           "unit": "fraction (0–1)",
           "metric": "mean_score",
           "scope": "Tier 4",
@@ -708,9 +708,9 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-09-30",
+          "evaluation_started_at": "2026-09-30",
           "model_release_date": "2026-09-29",
-          "stderr": 0.0,
+          "stderr": 0,
           "result_id": "HgAUm5zxrWbkfYUdeJMGzL",
           "note": "按该CSV独立排序；Started at是运行启动而非榜单更新时间，不能由四舍五入分数推算题数。"
         },
@@ -725,7 +725,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-08-30",
+          "evaluation_started_at": "2026-08-30",
           "model_release_date": "2026-09-03",
           "stderr": 0.024,
           "result_id": "f46NQY9jSxyKqo9qzrmk6F",
@@ -742,7 +742,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-08-30",
+          "evaluation_started_at": "2026-08-30",
           "model_release_date": "2026-09-03",
           "stderr": 0.024,
           "result_id": "AfKJ2DGMhkjZmeFZxGoY3w",
@@ -759,7 +759,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-08-30",
+          "evaluation_started_at": "2026-08-30",
           "model_release_date": "2026-09-03",
           "stderr": 0.024,
           "result_id": "f7BCT27LzcAtaLDP2tcrWF",
@@ -776,7 +776,7 @@
           "source_url": "https://epoch.ai/data/benchmark_data.zip",
           "source_file": "frontiermath_tier_4_v2.csv",
           "accessed": "2026-11-07",
-          "evaluation_started_at_kst": "2026-08-30",
+          "evaluation_started_at": "2026-08-30",
           "model_release_date": "2026-09-03",
           "stderr": 0.024390243902439022,
           "result_id": "5sNRWemuVwb4adBaSwrLFf",
@@ -896,12 +896,7 @@
     "other_documents": {
       "value": [
         {
-          "existing_archive": {
-            "chinese_intro_doc": {
-              "mimeType": "application/vnd.google-apps.document"
-            },
-            "local_markdown": "content/benchmarks/frontiermath.md"
-          }
+          "existing_archive": {}
         },
         {
           "type": "核验的官方原始资料",

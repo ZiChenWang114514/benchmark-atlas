@@ -389,15 +389,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2024-09-20"
+          "submitted_at": "2024-09-20"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2024-10-19"
+          "submitted_at": "2024-10-19"
         },
         {
           "version": "v3",
-          "submitted_at_kst": "2025-01-25"
+          "submitted_at": "2025-01-25"
         }
       ],
       "sources": [
@@ -515,7 +515,7 @@
         {
           "rank": null,
           "model": "Gemini-Pro-1.5-0514",
-          "score": 66.0,
+          "score": 66,
           "unit": "%",
           "metric": "answer accuracy",
           "settings": "multi-step retrieval & reasoning",
@@ -635,9 +635,6 @@
     "other_documents": {
       "value": [
         {
-          "kind": "中文介绍"
-        },
-        {
           "type": "核验的官方原始资料",
           "url": "https://huggingface.co/datasets/google/frames-benchmark",
           "accessed": "2026-11-07"
@@ -668,12 +665,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "data_format.size",
-          "data_format.languages",
-          "data_format.question_types"
-        ]
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",

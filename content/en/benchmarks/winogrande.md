@@ -24,7 +24,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 1.1 (official repository README)
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -34,7 +34,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 ### Release date
 
-- **paper_first_submission_kst**：2019-07-25
+- **paper_first_submission**：2019-07-25
 - **date_type**：First submission of the paper; not the same as the first release of the dataset
 
 Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
@@ -43,7 +43,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 Reasoning
 
-Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07 ).
+Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07).
 
 ### Field tags
 
@@ -56,7 +56,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 - **code**：Apache-2.0
 - **dataset**：CC-BY (the README does not state a specific minor version)
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### Paper
 
@@ -68,19 +68,19 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 https://github.com/allenai/winogrande
 
-Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07 ).
+Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07).
 
 ### 数据地址
 
 https://github.com/allenai/winogrande
 
-Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07); [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 ### Official entry
 
 http://winogrande.allenai.org
 
-Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07); [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 ### Paper title
 
@@ -103,7 +103,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 > Author affiliations: all authors are credited to AI2, and Yejin Choi is also credited to UW; no additional commercial partners are inferred.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ### Authors
 
@@ -118,13 +118,13 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 The official code is allenai/winogrande, and data distribution and question answering are provided by the AI2 team; the README specifies GitHub Issues and the WinoGrande Google Group, and the public contact is Keisuke Sakaguchi.
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08  ) ; [2](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ### Funders
 
 NSF IIS-1524371 and IIS-1714566. DARPA CwC through ARO W911NF-15-1-0543. DARPA MCS through NIWC Pacific N66001-19-2-4031.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ## Design goals
 
@@ -178,7 +178,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 The full set has 43,972 questions: train_xl 40,938, validation 1,267, and test 1,767. The debiased train has 9,248 (12,282 together with the same dev/test). The training scales XS/S/M/L/XL are 160/640/2,558/10,234/40,938 respectively. HF lists each as a config, and they are not added together.
 
-Sources: [1](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08  ) ; [2](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ### 任务形式
 
@@ -190,13 +190,13 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 Plain text: an English sentence containing a blank, two candidate noun phrases, and a 1/2 answer; it is not a mathematics problem and contains no image/video.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08); [2](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08).
 
 ### Languages
 
 English; official HF dataset card language: en.
 
-Sources: [1](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/allenai/winogrande/raw/main/README.md) (accessed 2026-11-08).
 
 ### 难度与类型
 
@@ -208,7 +208,7 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 train has five scales, xs/s/m/l/xl, with separate labels; dev includes labels, and test does not disclose the labels. Each line of the prediction file has five columns, corresponding in order to the five training scales.
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ## Evaluation
 
@@ -216,7 +216,7 @@ Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.
 
 Accuracy; the official challenge also requires predictions in the five columns XS/S/M/L/XL, in order to examine data efficiency and the learning curve. Modern zero-shot and few-shot validation accuracy is not the same track as the official test protocol with five training scales.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### 评分
 
@@ -234,13 +234,13 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 The official README directs the use of eval.py to evaluate dev, with the output metrics.json; test should be submitted to the official leaderboard as predictions.lst.
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### 可比性提示
 
 The debiased and XL training sets, dev and test, and single-point accuracy and learning curves must be kept distinct.
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07).
 
 ## Current status
 
@@ -248,28 +248,28 @@ Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### 数据版本与当前状态
 
 1.1 (the version listed in the README; recent open-source activity or the latest commit is not inferred from it).
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### 论文修订与H2证据
 
 - **arxiv_version**：arXiv v2
 - **history_note**：See the arXiv metadata for the full history; the draft date has been converted, and the paper revision date is not treated as the data version.
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2610.11978v1
-    - **date**：2026-10-08
-    - **note**：Jev research Tables 1–2 and §3.1 actually compare multiple classes of models on WinoGrande and do not count ARC-Easy or other subsets separately.
+ - **date**：2026-10-08
+ - **note**：Jev research Tables 1–2 and §3.1 actually compare multiple classes of models on WinoGrande and do not count ARC-Easy or other subsets separately.
 - **revisions**：- - **version**：v1
-    - **date_kst**：2019-07-25
-  - - **version**：v2
-    - **date_kst**：2019-11-22
+ - **date**：2019-07-25
+ - - **version**：v2
+ - **date**：2019-11-22
 - **note**：The paper revision time cannot be treated as the data release date. Existing 2026-H2 evidence retains the original collection date.
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07).
 
 ### 饱和程度
 
@@ -277,19 +277,19 @@ Unverified
 
 > Whether it is saturated depends on the specific split, the tools, and the protocol; the scores below are only a snapshot from a limited source and are not a judgment of overall saturation or of SOTA
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07).
 
 ### 污染、冲突与限制
 
 The public development set, templates, and vocabulary may all be absorbed into training; debiasing does not mean an absence of contamination.
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](http://winogrande.allenai.org) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](http://winogrande.allenai.org) (accessed 2026-11-07).
 
 ### 后续工作与衍生
 
 Extended from the Winograd Schema; it is not a synonym of WSC273 or of all Winograd data.
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](http://winogrande.allenai.org) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](http://winogrande.allenai.org) (accessed 2026-11-07).
 
 ## Leaderboard snapshot
 
@@ -297,13 +297,13 @@ Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08; only the paper historical table was refreshed; the official live leaderboard failed
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### Official leaderboard
 
 https://leaderboard.allenai.org/winogrande/submissions/public
 
-Sources: [1](https://github.com/allenai/winogrande) (accessed 2026-11-07  ) ; [2](https://leaderboard.allenai.org/winogrande/submissions/public) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/allenai/winogrande) (accessed 2026-11-07); [2](https://leaderboard.allenai.org/winogrande/submissions/public) (accessed 2026-11-07).
 
 ### 第三方覆盖
 
@@ -413,13 +413,13 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 |---|---|---|---|---|
 | — | RoBERTa | 79.1 % | accuracy | https://arxiv.org/pdf/1907.10641 |
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.11978v1) (accessed 2026-11-07).
 
 ### Coverage note
 
 Requests to the official AI2 leaderboard met a TLS EOF, and WebFetch returned 500. A live leaderboard was not obtained, and the latest SOTA is not claimed. The 9 models × dev/test in Table3 of original paper v2, and the five training scales × dev/test in Table4, were restored value by value. The existing three rows of 2026-H2 research keep the old collection date and are kept separate from the official test and the learning curve.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ## Contact
 
@@ -427,13 +427,13 @@ Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08  ) ; [2](htt
 
 - keisukes@allenai.org
 
-Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](http://winogrande.allenai.org) (accessed 2026-11-07); [2](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 ### 问题反馈
 
 https://github.com/allenai/winogrande/issues
 
-Sources: [1](https://github.com/allenai/winogrande) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/allenai/winogrande) (accessed 2026-11-07).
 
 ### 官方讨论渠道
 
@@ -441,7 +441,7 @@ https://groups.google.com/a/allenai.org/forum/#!forum/winogrande
 
 > The question-answering Google Group specified in the official README; it is not a personal social account.
 
-Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).
 
 ### 隐私与数据使用
 
@@ -465,54 +465,30 @@ Source: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08).
 
 > Original bytes of the PDF downloaded again. The existing copy was not overwritten.
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ### 字节数
 
 1098857
 
-Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08 ).
-
-### Folder
-
-- **id**：1eg6WGLrTKFZ-aC8QNmtTIufy3rOCS5F4
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
+Sources: [1](https://arxiv.org/pdf/1907.10641) (accessed 2026-11-08).
 
 ### Other documents
-
-- **chinese_intro_doc**：- **id**：1fxdzZYj0eXBh8jA5teDOzJcqpTc9o9X5-rF2NfnHFjg
-  - **webViewLink**：
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/winogrande.md
-
-Sources: [1]( 2026-11-07 ).
-
-### 原文归档
-
-- **id**：1HV-a7K9n4KtUYj0_j7_ry31g8fKGvFKp
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
 
 ## Changelog
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+ - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **fields_updated**：- basic_info.version
-    - latest_status.latest_dataset_version
-    - evaluation.official_scripts
-    - data_format.public_hidden_split
+ - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+ - **fields_updated**：- basic_info.version
+ - latest_status.latest_dataset_version
+ - evaluation.official_scripts
+ - data_format.public_hidden_split
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/1907.10641) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/allenai/winogrande/master/README.md) (accessed 2026-11-08).

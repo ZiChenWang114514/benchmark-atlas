@@ -209,12 +209,6 @@ Matbench v0.1是13项材料性质监督学习任务，不是语言模型问答�
 
 **PDF字节数**：2513518 [S7](https://arxiv.org/pdf/2005.00707)
 
-**原有文件夹**：{"id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe", "webViewLink": " [S12](
-
-**其他材料**：[{"kind": "中文介绍", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": " [S13](
-
-**原有 PDF**：{"id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV", "webViewLink": " [S14](
-
 ## 变更记录
 
 - 2026-11-07，首批官方材料核验、中文改写、；未核实字段显式标记。

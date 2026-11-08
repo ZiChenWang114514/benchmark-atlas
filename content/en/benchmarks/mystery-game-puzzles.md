@@ -297,29 +297,29 @@ The CSV contains 1.0.4, 1.1.0, and 1.2.1, so historical highs from different ver
 
 ```json
 {
-  "version": "1.2.1 (the latest run version in the current CSV)"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/data/benchmarks.csv"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The most recent row in the Epoch CSV is Kimi K3.1 Pro, started at 2026-11-06 09:59:23; it is currently included in ECI. The main evidence still comes from Epoch itself."
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The most recent row in the Epoch CSV is Kimi K3.1 Pro, started at 2026-11-06 09:59:23; it is currently included in ECI. The main evidence still comes from Epoch itself."
-    }
-  ]
-  "csv_versions": {
-    "1.2.1": 6
-    "1.2.0": 1
-    "1.1.0": 5
-    "1.0.4": 132
-  }
-  "observed_on_kst": "2026-11-08"
+ "version": "1.2.1 (the latest run version in the current CSV)"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The most recent row in the Epoch CSV is Kimi K3.1 Pro, started at 2026-11-06 09:59:23; it is currently included in ECI. The main evidence still comes from Epoch itself."
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The most recent row in the Epoch CSV is Kimi K3.1 Pro, started at 2026-11-06 09:59:23; it is currently included in ECI. The main evidence still comes from Epoch itself."
+ }
+ ]
+ "csv_versions": {
+ "1.2.1": 6
+ "1.2.0": 1
+ "1.1.0": 5
+ "1.0.4": 132
+ }
+ "observed_on": "2026-11-08"
 }
 ```
 
@@ -651,21 +651,21 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official methods web page (not a standalone paper PDF)"
-    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official original run-score CSV (not the question bank)"
-    "url": "https://epoch.ai/data/benchmarks.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official methods web page (not a standalone paper PDF)"
+ "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official original run-score CSV (not the question bank)"
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -687,16 +687,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

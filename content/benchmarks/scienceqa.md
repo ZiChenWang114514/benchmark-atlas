@@ -4,7 +4,7 @@
 
 ScienceQA把课程选择题与图像/文本上下文、背景lecture和答案explanation配对，用来研究答案与解释生成。它同时含自然、社会与语言科学，也有无图问题；官方榜是人工汇集论文结果，不是统一harness的独立竞赛。特别保留官方数据与第三方HF镜像的许可冲突。
 
-导读来源：[官方材料](https://scienceqa.github.io/)（访问 2026-11-08，）；具体事实及历史访问日期见各字段。
+导读来源：[官方材料](https://scienceqa.github.io/)（访问 2026-11-08）；具体事实及历史访问日期见各字段。
 
 ## 基本信息
 
@@ -12,31 +12,31 @@ ScienceQA把课程选择题与图像/文本上下文、背景lecture和答案exp
 
 ScienceQA
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 全称
 
 Science Question Answering
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 基准版本
 
 NeurIPS 2022 原始21,208题发布协议；固定官方problems.json，未发现官方另命名的数字版本。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07）
 
 ### 论文版本
 
 v2；最近提交 2022-10-17
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 发布日期
 
 2022-09-20（首个arXiv提交，不推定数据上线日）
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 主板块
 
@@ -44,49 +44,49 @@ v2；最近提交 2022-10-17
 
 说明：Benchmark Constitution编辑归档；跨学科条目只在主板块计数，不声称分类由基准官方规定。
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 领域标签
 
 - 多模态科学问答
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 许可与适用范围
 
 官方数据：CC BY-NC-SA 4.0、仅非商业研究，原内容权利归IXL等原作者；代码MIT。第三方derek-thomas/ScienceQA HF镜像YAML却标CC BY-SA 4.0，缺少NC，存在明确冲突，使用以原作者限制为准，不认定镜像有权放宽。
 
-来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-08，）；[2](https://github.com/lupantech/ScienceQA/blob/main/LICENSE)（访问 2026-11-08，）；[3](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[4](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md)（访问 2026-11-08，）
+来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-08）；[2](https://github.com/lupantech/ScienceQA/blob/main/LICENSE)（访问 2026-11-08）；[3](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[4](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md)（访问 2026-11-08）
 
 ### 论文
 
 https://arxiv.org/abs/2209.09513
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 代码仓库
 
 https://github.com/lupantech/ScienceQA
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 数据地址
 
 https://huggingface.co/datasets/derek-thomas/ScienceQA
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://huggingface.co/datasets/derek-thomas/ScienceQA)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://huggingface.co/datasets/derek-thomas/ScienceQA)（访问 2026-11-08）
 
 ### 官方主页
 
 https://scienceqa.github.io/
 
-来源：[1](https://scienceqa.github.io/)（访问 2026-11-08，）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/)（访问 2026-11-08）；[2](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 论文标题
 
 Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ## 发起与维护
 
@@ -94,7 +94,7 @@ Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question A
 
 论文作者单位：UCLA、亚利桑那州立大学、Allen Institute for AI。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ### 合作机构/署名单位
 
@@ -104,7 +104,7 @@ Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question A
 
 说明：按论文作者署名机构记录合作研究背景，不把课程来源IXL误写为合作机构。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 作者
 
@@ -118,13 +118,13 @@ Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question A
 - Clark, Peter
 - Kalyan, Ashwin
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 当前维护入口
 
 Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反馈。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 资助方
 
@@ -132,7 +132,7 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ## 设计目标
 
@@ -140,13 +140,13 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 多模态科学选择题与可解释的多步推理，联合学习答案、lecture和explanation。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ### 设计背景
 
 既有科学QA往往仅文本、规模小、学科少或缺少答案解释。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ## 构建方式
 
@@ -154,25 +154,25 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 从IXL小学与中学课程资源收集问题、图像/文本上下文、答案、背景lecture与具体explanation。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ### 出题背景
 
 原题来自由K–12教育专家策划的IXL Learning课程，符合California Common Core Content Standards；研究团队负责抽取、清洗与整理。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 审核流程
 
 启发式抽取问题、上下文、图片、选项、答案、lecture和solution；人工移除单选项、错误及重复问题，多正确答案保留一个，打乱选项；数据探索工具辅助专家修订错误标注。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 质量控制
 
 人工剔除无效/重复/错误题，打乱答案顺序；专家利用数据探索器复核和修改标注。仅表明作者实施质量措施，不等于穷尽所有错误。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 去污染措施
 
@@ -180,7 +180,7 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ## 数据形式
 
@@ -188,25 +188,25 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 21,208题；10,332题有图，10,220题有文本上下文，6,532题两者都有；26主题、127类别、379技能。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://huggingface.co/datasets/derek-thomas/ScienceQA)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://huggingface.co/datasets/derek-thomas/ScienceQA)（访问 2026-11-08）
 
 ### 题型
 
 多项选择；部分无图或无上下文，不能把全量集视为纯图像问答。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 模态
 
 图像+文本（部分样本或版本仅文本）
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）
 
 ### 语言
 
 英语单语；第三方HF镜像language=en、multilinguality=monolingual，与论文英语示例一致。
 
-来源：[1](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://huggingface.co/datasets/derek-thomas/ScienceQA/raw/main/README.md)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 难度
 
@@ -216,13 +216,13 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 说明：逐条统计官方problems.json，共21,208条；不估计额外难度等级。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 数据划分
 
 官方公开train 12,726、val 4,241、test 4,241及答案；60:20:20随机划分。榜单另有mini 1,000，必须标明全量/mini与IMG等子集。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07，）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ## 评测方法
 
@@ -230,31 +230,31 @@ Pan Lu / ScienceQA 官方仓库；README明确由Pan Lu接收问题与榜单反�
 
 选项准确率；另按自然/社会/语言学科、图像/文本上下文、年级分组报告。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 评分方式
 
 选项准确率；另按自然/社会/语言学科、图像/文本上下文、年级分组报告。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 提示与运行设置
 
 论文比较few-shot GPT-3与微调UnifiedQA；Q/C/M/A/lecture/explanation的输入输出组合要记录，带参考解释输入属于不同协议。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 评测脚本
 
 https://github.com/lupantech/ScienceQA
 
-来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-07，）
+来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-07）
 
 ### 可比性提醒
 
 官方榜单由论文人工整理，官方提醒可能有错误、歧义和缺失；zero-shot/few-shot/fine-tune、全量与IMG子集、4,241与mini 1,000不能混比。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07）
 
 ## 最新情况
 
@@ -262,40 +262,39 @@ https://github.com/lupantech/ScienceQA
 
 2026-11-08
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 数据版本与更新
 
 当前官方仓库仍提供21,208题原始协议与JSON；README最近列出的主要榜单更新为2023-12-29，交互榜单数据另含2024-01-23 KAM-CoT记录。不存在由访问日期推导出的2026新数据版本。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）；[2](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08，）；[3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）；[2](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08）；[3](https://raw.githubusercontent.com/lupantech/ScienceQA/main/data/scienceqa/problems.json)（访问 2026-11-07）
 
 ### 论文修订记录
 
-- **revisions**：[{"version": "v1", "date_kst": "2022-09-20"}, {"version": "v2", "date_kst": "2022-10-17"}]
-- **continued_use_2026h2**：[{"url": "https://arxiv.org/html/2610.01352v2", "date": "2026-10-23", "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。", "date_kst": "2026-10-23", "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"}]
-- **verification**：已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。
-- **arxiv_submission_history_kst**：[{"version": "v1", "submitted_at_kst": "2022-09-20", "timezone": ""}, {"version": "v2", "submitted_at_kst": "2022-10-17", "timezone": ""}]
+- **revisions**：[{"version": "v1", "date": "2022-09-20"}, {"version": "v2", "date": "2022-10-17"}]
+- **continued_use_2026h2**：[{"url": "https://arxiv.org/html/2610.01352v2", "date": "2026-10-23", "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。", "date": "2026-10-23"}]
+- **arxiv_submission_history**：[{"version": "v1", "submitted_at": "2022-09-20"}, {"version": "v2", "submitted_at": "2022-10-17"}]
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）
 
 ### 饱和程度
 
 官方榜单数据最高Avg为96.18%（Fine-tune），但榜单混列训练设置且非持续独立复测。可说明该设置高分，不能据此断言所有设置或整个基准已饱和。
 
-来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 争议与已知问题
 
 官方榜单由论文人工整理，官方提醒可能有错误、歧义和缺失；zero-shot/few-shot/fine-tune、全量与IMG子集、4,241与mini 1,000不能混比。
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）；[3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-07）
 
 ### 衍生基准
 
 官方榜单提供mini 1,000与IMG/NAT/SOC/LAN、G1-6/G7-12等报告切片；它们是同一基准的子集，不作为新benchmark计数。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ## 榜单快照
 
@@ -303,13 +302,13 @@ https://github.com/lupantech/ScienceQA
 
 2026-11-08 （访问日，不是实验运行日）
 
-来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08）
 
 ### 官方榜单入口
 
 https://scienceqa.github.io/leaderboard.html
 
-来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08）
 
 ### 第三方入口
 
@@ -317,7 +316,7 @@ https://scienceqa.github.io/leaderboard.html
 
 说明：已重新检查官方README/项目页及可读论文；该字段仍未取得足够的明确官方声明，保留待核实，不推断未公开或不存在。
 
-来源：[1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07，）
+来源：[1](https://artificialanalysis.ai/evaluations?skill=multimodal)（访问 2026-11-07）
 
 ### 可核验结果
 
@@ -433,13 +432,13 @@ https://scienceqa.github.io/leaderboard.html
 - {"model": "MMVistaReason-4B (MVR-4B)", "score": 96.8, "unit": "%", "metric": "论文协议答案正确率（CompassVerifier）", "scope": "ScienceQA，论文此表未区分全量/IMG口径", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "MMVistaReason作者自报表2；VLMEvalKit，T=0，max16384；§7.3用CompassVerifier替代传统字符串匹配，不是官方榜单/AA独立评测", "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。", "track": "2026H2论文作者自报；CompassVerifier；非官方表/AA独立", "rank": "不设跨协议名次"}
 - {"model": "MMVistaReason-9B (MVR-9B)", "score": 97.4, "unit": "%", "metric": "论文协议答案正确率（CompassVerifier）", "scope": "ScienceQA，论文此表未区分全量/IMG口径", "date": "2026-10-23", "accessed": "2026-11-07", "source_url": "https://arxiv.org/html/2610.01352v2", "provenance": "MMVistaReason作者自报表2；同上协议，不与其他榜单无条件混排", "date_basis": "arXiv v2提交时间换算；不是未公开的评测运行日期。", "track": "2026H2论文作者自报；CompassVerifier；非官方表/AA独立", "rank": "不设跨协议名次"}
 
-来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08，）；[2](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08）；[2](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08）
 
 ### 榜单覆盖边界
 
 完整读取官方JS表109行（含Human/Random基线），保留各学科、上下文、年级分项及缺失符号；Fine-tune/Few-shot/Zero-shot分轨。网页同时提whole与mini却未逐行标识，故撤销此前前三行被无依据一律指定4241的描述，不重新排跨协议总榜。另保留此前核验的2行H2作者自报，访问日仍为2026-11-07。
 
-来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08，）；[2](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/javascript/leaderboard-data.js)（访问 2026-11-08）；[2](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -449,13 +448,13 @@ https://scienceqa.github.io/leaderboard.html
 
 说明：项目官方公开联系/榜单提交或版权反馈邮箱；未发送任何邮件。
 
-来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08，）
+来源：[1](https://scienceqa.github.io/leaderboard.html)（访问 2026-11-08）
 
 ### 公开反馈渠道
 
 https://github.com/lupantech/ScienceQA/issues
 
-来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-07，）
+来源：[1](https://github.com/lupantech/ScienceQA)（访问 2026-11-07）
 
 ### 官方社交账号
 
@@ -463,20 +462,17 @@ https://twitter.com/lupantech/status/1570828580346802178
 
 说明：官方README提供的公开讨论入口；未访问X内容、未发送消息。
 
-来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/lupantech/ScienceQA/main/README.md)（访问 2026-11-07）
 
 ### 联系方式原则
 
 仅记录官方公开项目反馈渠道，不收集或推测私人联系方式。
 
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07，）
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
 ## 原始文件
 
 ### 论文原件
-
-- **id**：1DbMOVlQF4L3yu_htLns-S1ladvipIuxm
-- **webViewLink**：
 
 来源：[1]( 2026-11-07，）
 
@@ -484,7 +480,7 @@ https://twitter.com/lupantech/status/1570828580346802178
 
 https://arxiv.org/pdf/2209.09513
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 原始文件SHA-256
 
@@ -492,24 +488,19 @@ https://arxiv.org/pdf/2209.09513
 
 说明：实际下载原始PDF字节计算；不据此更改既有文件。
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 原始文件字节数
 
 8065121
 
-来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2209.09513)（访问 2026-11-08）
 
 ### 文件夹
-
-- **id**：1_wNk_5SUO3RJJZ_YQeDGPVT_QepWLNu9
-- **webViewLink**：
 
 来源：[1]( 2026-11-07，）
 
 ### 其他文档
-
-- {"kind": "中文介绍", "id": "1x5f5zGPYo6PjLVTHT6IDBzCJo0SQkXF0UzNmWmcNxkQ", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 
@@ -519,4 +510,4 @@ https://arxiv.org/pdf/2209.09513
 最近复核
 最近复核
 
-来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08，）；[2](https://scienceqa.github.io/)（访问 2026-11-08，）；[3](https://scienceqa.github.io/)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2209.09513)（访问 2026-11-08）；[2](https://scienceqa.github.io/)（访问 2026-11-08）；[3](https://scienceqa.github.io/)（访问 2026-11-08）

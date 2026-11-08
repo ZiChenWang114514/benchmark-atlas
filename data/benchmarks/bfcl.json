@@ -435,7 +435,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://proceedings.mlr.press/v267/patil25a.html",
@@ -481,9 +481,7 @@
                 {
                   "url": "https://arxiv.org/html/2609.27284v1",
                   "date": "2026-09-23",
-                  "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。",
-                  "date_kst": "2026-09-23",
-                  "verified_in_round1": "重新打开Hunyuan-A13B §4.2 Agents表格，确认BFCLv3 78.3/65.9是slow/fast-thinking厂商自报，非V4。"
+                  "note": "Hunyuan-A13B §4.2 Agents及表3–4实际报告 Berkeley Function Calling Leaderboard (BFCL)（BFCL为v3），属于厂商自报评测。"
                 },
                 {
                   "url": "https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference",
@@ -545,7 +543,7 @@
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
                 "multi_turn": 61.37,
-                "web_search": 81.0,
+                "web_search": 81,
                 "memory": 64.95
               },
               {
@@ -562,7 +560,7 @@
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
                 "multi_turn": 60.75,
-                "web_search": 80.0,
+                "web_search": 80,
                 "memory": 61.72
               },
               {
@@ -578,7 +576,7 @@
                 "rank": 4,
                 "benchmark_version": "V4",
                 "leaderboard_updated_at": "2026-04-12",
-                "multi_turn": 68.0,
+                "multi_turn": 68,
                 "web_search": 77.5,
                 "memory": 55.7
               },
@@ -739,7 +737,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://proceedings.mlr.press/v267/patil25a.html",
@@ -800,7 +798,7 @@
           "accessed": "2026-11-07",
           "leaderboard_updated_at": "2026-04-12",
           "multi_turn": 61.37,
-          "web_search": 81.0,
+          "web_search": 81,
           "memory": 64.95
         },
         {
@@ -814,7 +812,7 @@
           "accessed": "2026-11-07",
           "leaderboard_updated_at": "2026-04-12",
           "multi_turn": 60.75,
-          "web_search": 80.0,
+          "web_search": 80,
           "memory": 61.72
         },
         {
@@ -827,7 +825,7 @@
           "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
           "accessed": "2026-11-07",
           "leaderboard_updated_at": "2026-04-12",
-          "multi_turn": 68.0,
+          "multi_turn": 68,
           "web_search": 77.5,
           "memory": 55.7
         },
@@ -897,8 +895,8 @@
           "source_url": "https://gorilla.cs.berkeley.edu/data_overall.csv",
           "accessed": "2026-11-07",
           "leaderboard_updated_at": "2026-04-12",
-          "multi_turn": 47.0,
-          "web_search": 74.0,
+          "multi_turn": 47,
+          "web_search": 74,
           "memory": 50.54
         },
         {
@@ -912,7 +910,7 @@
           "accessed": "2026-11-07",
           "leaderboard_updated_at": "2026-04-12",
           "multi_turn": 33.88,
-          "web_search": 82.0,
+          "web_search": 82,
           "memory": 55.91
         }
       ],
@@ -1035,11 +1033,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "type": "中文介绍Google Doc"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
@@ -1100,20 +1094,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.release_date",
-          "data_format.languages",
-          "data_format.public_hidden_split",
-          "latest_status.paper_revision_history",
-          "latest_status.latest_dataset_version",
-          "leaderboard.results",
-          "leaderboard.coverage_note",
-          "latest_status.checked_at",
-          "leaderboard.snapshot_date",
-          "original_files.sha256",
-          "original_files.pdf_bytes"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

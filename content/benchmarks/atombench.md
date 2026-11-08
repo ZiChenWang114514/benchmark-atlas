@@ -32,7 +32,7 @@ v2；最近论文日期 2026-07-07
 
 ### 发布日期
 
-2025-10-18 03:07:37（，；arXiv v1首次提交；非推定软件上架日）
+2025-10-18 03:07:37（arXiv v1首次提交；非推定软件上架日）
 
 来源：[1]
 
@@ -245,7 +245,7 @@ https://github.com/atomgptlab/atombench
 
 ### 核查日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[1]
 
@@ -289,7 +289,7 @@ v1：2025-10-18；v2：2026-07-07；change_boundary：v2标题/协议强调gener
 
 ### 采集日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[1]
 
@@ -451,19 +451,13 @@ cf0464f374b215992e91190f1bc398d1dbb01af8199cb2fcb7b4fdb0ae39dcf6
 
 ### 既有文件夹
 
-id：1AGppe7PfAY02bOHYn6m1h1RjoUZ2h3ON；webViewLink：
-
 来源：[1]
 
 ### 其他材料
 
-- type：中文介绍；id：1iim04Q6mKRDhhX9bcGgw3QA14VmKrh9YKaX_-mSjcsY；webViewLink：https://docs.google.com/document/d/1iim04Q6mKRDhhX9bcGgw3QA14VmKrh9YKaX_-mSjcsY/edit
-
 来源：[8]
 
 ### 既有 PDF链接
-
-id：11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0；webViewLink：
 
 来源：[1]
 
@@ -473,7 +467,7 @@ id：11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0；webViewLink：
 
 - 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
 - 2026-11-07：：核对官方README、许可、评测与分任务分数；补2026H2使用证据，区分论文固定实验和实时榜，保留官方标签冲突。
-- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 
@@ -486,4 +480,4 @@ id：11zXVL6xA5D2JNgNvaptGg3rlfXdkUOo0；webViewLink：
 [5]: https://arxiv.org/pdf/2510.16165 "访问 2026-11-07"
 [6]: https://atomgptlab.github.io/atombench/ "访问 2026-11-07"
 [7]: https://atomgptlab.github.io/jarvis_leaderboard/AI/AtomGen/alex_supercon_Tc_a/ "访问 2026-11-07"
-[8]: https://docs.google.com/document/d/1iim04Q6mKRDhhX9bcGgw3QA14VmKrh9YKaX_-mSjcsY/edit "访问 2026-11-07"
+[8]: "访问 2026-11-07"

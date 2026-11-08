@@ -52,7 +52,7 @@ Multimodal
 
 ```json
 [
-  "Real-world visual understanding"
+ "Real-world visual understanding"
 ]
 ```
 
@@ -272,11 +272,10 @@ The over700 of the initial announcement and the 765 on HF do not conflict; vendo
 
 ```json
 {
-  "release": "Official initial release; test set of 765 rows"
-  "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd"
-  "hf_last_modified_kst": "2024-04-19"
-  "timezone": ""
-  "note": "The repository last-modified time is not the initial release date, and it does not represent a version with newly added questions."
+ "release": "Official initial release; test set of 765 rows"
+ "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd"
+ "hf_last_modified": "2024-04-19"
+ "note": "The repository last-modified time is not the initial release date, and it does not represent a version with newly added questions."
 }
 ```
 
@@ -286,17 +285,16 @@ The over700 of the initial announcement and the 765 on HF do not conflict; vendo
 
 ```json
 {
-  "revisions": []
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2"
-      "date": "2026-10-23"
-      "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate RealWorldQA (the RealWorldQA setting), comparing 4B/9B and other vision-language models. Splits such as mini and val are not counted separately."
-      "date_kst": "2026-10-23"
-      "verified_in_round1": "The body of arXiv v2, §4.1 and Table2, and the abs submission history were opened again, and the actual evaluation was confirmed; source-site v2 is 2026-10-22 16:54:37 UTC."
-    }
-  ]
-  "verification": "The actual evaluation sections and tables whose evidence text was opened and checked, not judged only by whether a reference or web page is still available."
+ "revisions": []
+ "continued_use_2026h2": [
+ {
+ "url": "https://arxiv.org/html/2610.01352v2"
+ "date": "2026-10-23"
+ "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate RealWorldQA (the RealWorldQA setting), comparing 4B/9B and other vision-language models. Splits such as mini and val are not counted separately."
+ "date": "2026-10-23"
+
+ }
+ ]
 }
 ```
 
@@ -433,31 +431,6 @@ Unverified
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
-### Folder
-
-```json
-{
-  "id": "11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw"
-    "webViewLink": "
-  }
-]
-```
-
-[1]( 2026-11-07）
-
 ### Paper PDF
 
 Unverified
@@ -467,22 +440,19 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    "round": "1 / 深度实证复核"
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ "round": "1 / 深度实证复核"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）

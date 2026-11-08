@@ -12,7 +12,7 @@ Basis of the reading guide: [1](https://arxiv.org/abs/2407.10362) (accessed 2026
 
 LAB-Bench
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Full name
 
@@ -20,13 +20,13 @@ Language Agent Biology Benchmark
 
 > The official name is used; when no verified expansion of the full name exists, the original name is retained, and the title of the paper is not mistaken for the full name of the benchmark.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Benchmark version
 
 The original LAB-Bench paper version has 2457 questions; the latest named correction in the changelog of the current repository is 2025-02-14 (restriction enzymes in SeqQA and CloningScenarios).
 
-Sources: [1](https://github.com/Future-House/LAB-Bench/blob/main/CHANGELOG.md) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
+Sources: [1](https://github.com/Future-House/LAB-Bench/blob/main/CHANGELOG.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -52,11 +52,11 @@ Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07).
 
 ```json
 [
-  "Biological research workflow"
-  "Literature and database retrieval"
-  "Scientific chart understanding"
-  "Experimental protocol troubleshooting"
-  "Sequence computation and molecular cloning"
+ "Biological research workflow"
+ "Literature and database retrieval"
+ "Scientific chart understanding"
+ "Experimental protocol troubleshooting"
+ "Sequence computation and molecular cloning"
 ]
 ```
 
@@ -66,13 +66,13 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 CC BY-SA 4.0 (the official LICENSE and the HF data card agree).
 
-Sources: [1](https://github.com/Future-House/LAB-Bench/blob/main/LICENSE) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
+Sources: [1](https://github.com/Future-House/LAB-Bench/blob/main/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
 
 ### 论文入口
 
 https://arxiv.org/abs/2407.10362
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Code
 
@@ -90,13 +90,13 @@ Sources: [1](https://raw.githubusercontent.com/Future-House/LAB-Bench/main/READM
 
 https://github.com/Future-House/LAB-Bench
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Paper title
 
 LAB-Bench: Measuring Capabilities of Language Models for Biology Research
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ## Origin and maintenance
 
@@ -106,7 +106,7 @@ FutureHouse
 
 > Based primarily on paper author affiliations and the official team description; this is not used to infer legal ownership or a sole initiator. The text has explicitly marked the formal initiating relationship as unverified.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### 合作与作者单位
 
@@ -114,25 +114,25 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Authors
 
 ```json
 [
-  "Laurent, Jon M."
-  "Janizek, Joseph D."
-  "Ruzo, Michael"
-  "Hinks, Michaela M."
-  "Hammerling, Michael J."
-  "Narayanan, Siddharth"
-  "Ponnapati, Manvitha"
-  "White, Andrew D."
-  "Rodriques, Samuel G."
+ "Laurent, Jon M."
+ "Janizek, Joseph D."
+ "Ruzo, Michael"
+ "Hinks, Michaela M."
+ "Hammerling, Michael J."
+ "Narayanan, Siddharth"
+ "Ponnapati, Manvitha"
+ "White, Andrew D."
+ "Rodriques, Samuel G."
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### Maintainer
 
@@ -152,13 +152,13 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 Measures practical ability to do work in biological research, not only recall of textbook knowledge.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### 与既有基准的差异
 
 Measures practical ability to do work in biological research, not only recall of textbook knowledge.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ## Construction
 
@@ -184,7 +184,7 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 For the different subtasks, the source text, the reference answer, and the distractors are checked separately; the paper points out explicitly that poor distractors can inflate a score, and open-answer verification is also carried out. The repository correction of 2025-02-14 fixes restriction-enzyme problems in Cloning/SeqQA.
 
-Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08 ) ; [2](https://github.com/Future-House/LAB-Bench/blob/main/CHANGELOG.md) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08); [2](https://github.com/Future-House/LAB-Bench/blob/main/CHANGELOG.md) (accessed 2026-11-08).
 
 ### 去污染与泄漏控制
 
@@ -198,32 +198,32 @@ Sources: [1](https://raw.githubusercontent.com/Future-House/LAB-Bench/main/READM
 
 ```json
 {
-  "paper_total": 2457
-  "paper_categories": {
-    "LitQA2": 248
-    "SuppQA": 102
-    "FigQA": 226
-    "TableQA": 305
-    "DbQA": 650
-    "ProtocolQA": 135
-    "SeqQA": 750
-    "CloningScenarios": 41
-  }
-  "HF_public_rows": {
-    "LitQA2": 199
-    "SuppQA": 82
-    "FigQA": 181
-    "TableQA": 244
-    "DbQA": 520
-    "ProtocolQA": 108
-    "SeqQA": 600
-    "CloningScenarios": 33
-  }
-  "scope_note": "The full set in the paper differs from the public HF subset; do not add the public row count and 2457 together."
+ "paper_total": 2457
+ "paper_categories": {
+ "LitQA2": 248
+ "SuppQA": 102
+ "FigQA": 226
+ "TableQA": 305
+ "DbQA": 650
+ "ProtocolQA": 135
+ "SeqQA": 750
+ "CloningScenarios": 41
+ }
+ "HF_public_rows": {
+ "LitQA2": 199
+ "SuppQA": 82
+ "FigQA": 181
+ "TableQA": 244
+ "DbQA": 520
+ "ProtocolQA": 108
+ "SeqQA": 600
+ "CloningScenarios": 33
+ }
+ "scope_note": "The full set in the paper differs from the public HF subset; do not add the public row count and 2457 together."
 }
 ```
 
-Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08); [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
 
 ### Question types
 
@@ -241,7 +241,7 @@ Sources: [1](https://raw.githubusercontent.com/Future-House/LAB-Bench/main/READM
 
 The question text is in English and also contains DNA/RNA/protein sequences, database identifiers, and research charts; this is not a balanced evaluation across natural languages.
 
-Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08); [2](https://huggingface.co/datasets/futurehouse/lab-bench) (accessed 2026-11-08).
 
 ### Difficulty
 
@@ -285,7 +285,7 @@ Sources: [1](https://raw.githubusercontent.com/Future-House/LAB-Bench/main/READM
 
 Different data versions, subsets, prompts, tool permissions, and model snapshots must not be mixed in a direct comparison; scores in historical papers do not represent the current SOTA.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ## Current status
 
@@ -293,7 +293,7 @@ Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](http
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08 ) ; [2](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08); [2](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-08).
 
 ### 最新数据状态
 
@@ -305,21 +305,18 @@ Sources: [1](https://github.com/Future-House/LAB-Bench/blob/main/CHANGELOG.md) (
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2024-07-15"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-07-17"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2024-07-18"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2024-07-15"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-07-17"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2024-07-18"
+ }
 ]
 ```
 
@@ -337,7 +334,7 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 About 20% is held out in private in order to monitor contamination from training, and a canary is added to the public portion; successful filtering is still not guaranteed for every model. Distractors in multiple choice may allow guessing without a real ability to do the work; some tasks depend on a live external database or on permission to use a tool.
 
-Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08 ) ; [2](https://github.com/Future-House/LAB-Bench/blob/main/README.md) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08); [2](https://github.com/Future-House/LAB-Bench/blob/main/README.md) (accessed 2026-11-08).
 
 ### 相关与衍生基准
 
@@ -345,7 +342,7 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ## Leaderboard snapshot
 
@@ -361,7 +358,7 @@ https://arxiv.org/abs/2407.10362
 
 > This refers to results in the official paper and does not claim a separate live overall leaderboard.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08 ) ; [2](https://github.com/Future-House/LAB-Bench/blob/main/README.md) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08); [2](https://github.com/Future-House/LAB-Bench/blob/main/README.md) (accessed 2026-11-08).
 
 ### 独立评测入口
 
@@ -369,102 +366,102 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### 结构化结果
 
 ```json
 [
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.46"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.29"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gemini-1.5-pro-001"
-    "score": "0.25"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.83"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.71"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-opus-20240229"
-    "score": "0.67"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-5-sonnet-20240620"
-    "score": "0.28"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "gpt-4o"
-    "score": "0.28"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": null
-    "model": "claude-3-opus-20240229"
-    "score": "0.27"
-    "metric": "Accuracy (0–1)"
-    "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
-    "source_url": "https://arxiv.org/pdf/2407.10362"
-    "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.46"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.29"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gemini-1.5-pro-001"
+ "score": "0.25"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / FigQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.83"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.71"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-opus-20240229"
+ "score": "0.67"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / TableQA / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-5-sonnet-20240620"
+ "score": "0.28"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "gpt-4o"
+ "score": "0.28"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": null
+ "model": "claude-3-opus-20240229"
+ "score": "0.27"
+ "metric": "Accuracy (0–1)"
+ "track": "Original paper supplementary Table 2 / CloningScenarios / public+private, mean of 3 runs"
+ "source_url": "https://arxiv.org/pdf/2407.10362"
+ "result_type": "Historical experiments by the authors; only some models are shown, and the display is not the current full leaderboard"
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
@@ -482,12 +479,12 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 ```json
 [
-  "andrew@futurehouse.org"
-  "sam@futurehouse.org"
+ "andrew@futurehouse.org"
+ "sam@futurehouse.org"
 ]
 ```
 
-Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [2](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [2](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### 仓库反馈
 
@@ -501,7 +498,7 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-07).
 
 ### 隐私与联系边界
 
@@ -515,7 +512,7 @@ Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07).
 
 https://arxiv.org/pdf/2407.10362
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07).
 
 ### PDF SHA-256
 
@@ -535,65 +532,25 @@ Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
 Sources: [1](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-08).
 
-### 已有文件夹
-
-```json
-{
-  "id": "1BRtTEYKj1y2jzDcP9dniY8gIfoL8OOeI"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
-### 其他官方文档
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1zUHkrOnzpst8TWDcVPGx-nPt2Q8IzM2beI0hl9g784M"
-    "webViewLink": "
-  }
-]
-```
-
-Sources: [1]( 2026-11-07).
-
-### 已有 PDF归档
-
-```json
-{
-  "id": "1HH9ZDHCphE4BAdmg5XueFKIgzTexV5ov"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
 ## Changelog
 
 ### 历次核查
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07 ) ; [3](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08 ) ; [4](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-08).
-
+Sources: [1](https://arxiv.org/abs/2407.10362) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2407.10362) (accessed 2026-11-07); [3](https://arxiv.org/abs/2407.10362) (accessed 2026-11-08); [4](https://github.com/Future-House/LAB-Bench) (accessed 2026-11-08).

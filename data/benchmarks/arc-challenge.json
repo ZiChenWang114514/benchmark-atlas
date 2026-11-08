@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2018-03-15 02:04:21（，；arXiv v1提交时刻；不是数据单独上线时刻）",
+      "value": "2018-03-15 02:04:21（arXiv v1提交时刻；不是数据单独上线时刻）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1803.05457",
@@ -375,7 +375,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1803.05457",
@@ -454,7 +454,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/1803.05457",
@@ -719,18 +719,14 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "mimeType": "application/vnd.google-apps.document"
-        },
-        "local_markdown": "content/benchmarks/arc-challenge.md"
-      },
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "changelog": {
@@ -741,33 +737,11 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.license",
-          "data_format.size",
-          "evaluation.official_scripts"
-        ]
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.release_date",
-          "basic_info.license",
-          "basic_info.dataset_url",
-          "organization.maintainer",
-          "contact.public_emails",
-          "latest_status.saturation",
-          "latest_status.paper_revision_history",
-          "leaderboard.third_party_url",
-          "leaderboard.results",
-          "leaderboard.coverage_note",
-          "organization.partners",
-          "latest_status.checked_at",
-          "leaderboard.snapshot_date",
-          "original_files.sha256",
-          "original_files.pdf_bytes"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

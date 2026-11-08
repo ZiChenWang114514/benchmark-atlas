@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; a research snapshot; note: trending: B; Unverified fields retain their marks
+;
 
 CUA-bench places computer-use ability inside real-time commercial games. The agent can only read pixels and use a keyboard and a mouse. It cannot obtain state through a game API, memory, or a save-file side path. The six games are paired as sandbox, reaction, and sports. Minecraft, SUPERHOT, and eFootball are public, and the other three are hidden. It examines visual judgment, the timing of actions, learning by trial and error, and progress toward long-term goals. [1](https://www.vals.ai/benchmarks/cua_bench)
 
@@ -128,7 +128,6 @@ Each game lasts three hours. Milestones at each level sum to 100 points, and the
 | 8 | Gemini 4 Argon | 4.83 | Mean milestone score across six games /100；2026-10-13；[1](https://www.vals.ai/benchmarks/cua_bench) |
 | 9 | Gemini 3.8 Flash | 4.17 | Mean milestone score across six games /100；2026-10-13；[1](https://www.vals.ai/benchmarks/cua_bench) |
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：The score is a mean of milestones, and it is not the same as the rate of clearing the game; there is a single trial per cell, and the gap between public and private cannot automatically be attributed to training contamination. The update time written on the leaderboard table itself is 2026-10-13; the collection date is not the run date. [1](https://www.vals.ai/benchmarks/cua_bench)
@@ -162,7 +161,7 @@ Each game lasts three hours. Milestones at each level sum to 100 points, and the
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。CUA-bench admits only keyboard-and-mouse evaluation of commercial games; it must not be conflated with OSWorld, with general CUA ability, or with a game subscore. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cua_bench)
+- date：2026-11-07；；change：首次建立近期热门中文研究条目。CUA-bench admits only keyboard-and-mouse evaluation of commercial games; it must not be conflated with OSWorld, with general CUA ability, or with a game subscore. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cua_bench)
 
 ---
 

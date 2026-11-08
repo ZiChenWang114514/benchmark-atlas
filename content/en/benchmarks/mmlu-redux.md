@@ -273,8 +273,6 @@ The official release entry is mmlu-redux-2.0; the description on the dataset car
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2024-06-06；- **timezone**：；- - **version**：v2；- **submitted_at**：2024-06-08；- **timezone**：；- - **version**：v3；- **submitted_at**：2025-01-10；- **timezone**：
-
 [来源](https://arxiv.org/abs/2406.04127)（访问 2026-11-08）
 
 ### Saturation
@@ -615,7 +613,6 @@ Unverified
 
 [来源](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）
 
-
 [来源](https://arxiv.org/pdf/2406.04127)（访问 2026-11-08）；[来源](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -676,26 +673,6 @@ a45720c5df8c7e7fe243846a849e4799a07fa453d77b4cd55094c6e058b8b8ab
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2406.04127)（访问 2026-11-08）
-
-### Folder
-
-- **id**：1xg8wVXxTJ3hwpqxa6FxWizpKQXYGDW2c
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍；- **id**：1PvrGue4_EH6leNh5jz4DzwZGfpdqSK2qTbkzo-WgwSM；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1ta0g5jbJkYUKiPSsZySck8P4n0Y-9zAn
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

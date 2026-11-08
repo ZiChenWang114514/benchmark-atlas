@@ -12,33 +12,33 @@ Source: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https:/
 
 Video-MME
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Full name
 
 Video-MME
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Benchmark version
 
 The original Video-MME; on 2024-06-15 the official maintainers refreshed broken or potentially invalid video links and reannotated them, without naming a separate numeric version.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Paper version
 
 arXiv v3
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Release date
 
-- **paper_first_submission_kst**：2024-06-01
+- **paper_first_submission**：2024-06-01
 - **project_launch_announcement**：2024-06-03
 - **note**：The announcement date in the README has no time zone attached, and the date is not shifted.
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Section
 
@@ -46,49 +46,49 @@ Multimodal
 
 > Benchmark Constitution editorial filing. A cross-disciplinary entry is counted only in its main section. The classification is not claimed to be set by the benchmark's maintainers.
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Field tags
 
 - Video understanding and long video
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### License
 
 For academic research only, and commercial use is prohibited; without permission, distributing, publishing, copying, disseminating, or modifying the data is prohibited, and video copyright belongs to the original video owners. Only the paper PDF is archived here, and the restricted videos are not redistributed.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Paper
 
 https://arxiv.org/abs/2405.21075
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Code
 
 https://github.com/MME-Benchmarks/Video-MME
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### 数据地址
 
 https://huggingface.co/datasets/lmms-lab/Video-MME
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/lmms-lab/Video-MME) (accessed 2026-11-07 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://huggingface.co/datasets/lmms-lab/Video-MME) (accessed 2026-11-07).
 
 ### Official entry
 
 https://video-mme.github.io/home_page.html
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Paper title
 
 Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ## Origin and maintenance
 
@@ -96,7 +96,7 @@ Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
 
 Video-MME Team; author affiliations in the paper include Nanjing University, the National Key Laboratory of Cognitive Intelligence, Xiamen University, the University of Hong Kong, Peking University, the Chinese University of Hong Kong, East China Normal University, and the Institute of Automation, Chinese Academy of Sciences.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://video-mme.github.io/home_page.html) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://video-mme.github.io/home_page.html) (accessed 2026-11-08).
 
 ### 署名合作机构
 
@@ -111,7 +111,7 @@ Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](htt
 
 > Based on the affiliations credited on arXiv v3; organizations of models entered on the leaderboard are not mistaken for initiating partners.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### Authors
 
@@ -137,19 +137,19 @@ Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
 - He, Ran
 - Sun, Xing
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08).
 
 ### Maintainer
 
 The MME-Benchmarks / Video-MME team. Data-infringement and removal requests are received at videomme2024@gmail.com, and leaderboard submissions are received at bradyfu24@gmail.com.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Funders
 
 National Natural Science Foundation of China，Grant 62441234。
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ## Design goals
 
@@ -171,31 +171,31 @@ Source: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https:/
 
 Not reused from an existing video dataset; the team collected real videos anew, watched each one in full and repeatedly, and then wrote the question-answer pairs by hand, covering short, medium, and long durations.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://video-mme.github.io/home_page.html) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://video-mme.github.io/home_page.html) (accessed 2026-11-08).
 
 ### 构建者背景
 
 Annotators are recruited who have strong English ability and research experience in vision-language learning; they are not generically called experts with unspecified qualifications.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### Review process
 
 After watching a video in full, each annotator writes 3 four-choice questions; another annotator checks clarity of expression, answerability, option logic, and the correct answer. Questions that fail are returned for revision.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### Quality control
 
 After manual cross-checking, questions that can be answered without the video were filtered by giving Gemini 1.5 Pro only the question text; the paper reports that accuracy under this text-only setting is below 15%. This checks dependence on the video, and it is not a test for training contamination. On 2024-06-15, unavailable videos were also replaced and the items were labeled again.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 去污染与泄漏防范
 
 YouTube videos were newly collected, and the questions were written by hand. Existing video datasets are not reused. Text-only filtering with Gemini 1.5 Pro reduces language shortcuts. Public videos on the internet, and public question-answer pairs, may still enter later training, so this cannot be used to prove that there is no contamination.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ## Data format
 
@@ -203,13 +203,13 @@ Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](htt
 
 900 videos, 254 hours, and 2,700 four-choice questions; 900 audio tracks and 744 subtitle files, 3 questions per video, covering 6 major domains, 30 subclasses, and 12 task types.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 任务形式
 
 Four-choice video QA; video frames, subtitles, and audio may be used.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Modalities
 
@@ -221,19 +221,19 @@ Source: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https:/
 
 The question text and the options are in English. Video sources include a Multilingual domain, and the language of the question text cannot be equated with the language of the video or the audio track. The full distribution of audio-track languages remains Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/lmms-lab/Video-MME/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://huggingface.co/datasets/lmms-lab/Video-MME/raw/main/README.md) (accessed 2026-11-08).
 
 ### 难度与类型
 
 Short videos are under 2 minutes, medium videos are 4–15 minutes, and long videos are 30–60 minutes; the overall range is 11 seconds to 1 hour. Duration is not an independent difficulty label; the paper analyzes long-range dependence by the length of evidence clips.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### Public and hidden splits
 
 The public evaluation covers 900 videos / 2,700 QA; there are 744 subtitle segments, and every long video has subtitles. The with-subtitles setting uses only the subtitles corresponding to the times of the sampled frames, and does not feed in the complete subtitles unconditionally.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ## Evaluation
 
@@ -241,31 +241,31 @@ Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/REA
 
 Multiple-choice accuracy, also aggregated by video duration, domain, subcategory, and task type; the official evaluation does not call third-party scoring models such as ChatGPT.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 评分
 
 The letter chosen by the model is extracted deterministically and accuracy is computed, without introducing a third-party model judge such as ChatGPT; short/medium/long, domain, subcategory, and task type are reported separately.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 提示和复现设置
 
 Output only A/B/C/D; when subtitles are included, use only the subtitles that correspond to the sampled frames, and the no-subtitle protocol removes the subtitle segment. Frame count, fps, resolution, and audio permission must be recorded.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08  ) ; [2](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### 官方脚本
 
 https://github.com/MME-Benchmarks/Video-MME
 
-Sources: [1](https://github.com/MME-Benchmarks/Video-MME) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/MME-Benchmarks/Video-MME) (accessed 2026-11-07).
 
 ### 可比性提示
 
 Conditions with subtitles and without them, the budget of video frames, and audio input are kept strictly apart. The abstract of FramePack-U in 2026 writes +9.7 as the gain on long video, but Appendix Table10 shows overall +9.7 and long +12.8. The detailed table is used to record the conflict.
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08  ) ; [3](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08); [3](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07).
 
 ## Current status
 
@@ -273,49 +273,48 @@ Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 数据版本与当前状态
 
 The last repair of the data that the official README lists explicitly is dated 2024-06-15: videos that were damaged, and videos that might no longer be available, were replaced and annotated again; the item of 2025-12-05 is news that Gemini 3 Pro adopted the benchmark, and it is not a new version of the data.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 论文修订与H2证据
 
 - **revisions**：- - **version**：v1
-    - **date_kst**：2024-06-01
-  - - **version**：v2
-    - **date_kst**：2024-06-17
-  - - **version**：v3
-    - **date_kst**：2025-05-30
+ - **date**：2024-06-01
+ - - **version**：v2
+ - **date**：2024-06-17
+ - - **version**：v3
+ - **date**：2025-05-30
 - **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2610.16118v1
-    - **date**：2026-10-12
-    - **note**：The Elephant in the Fridge / FramePack-U study actually uses Video-MME to evaluate long-video understanding and methods of frame packing.
-    - **date_kst**：2026-10-12
-    - **verified_in_round1**：The body, the experiment tables, and the abs submission history were reopened; this is an actual evaluation rather than only a cited reference.
-- **verification**：The actual evaluation sections and tables whose evidence text was opened and checked, not judged only by whether a reference or web page is still available.
+ - **date**：2026-10-12
+ - **note**：The Elephant in the Fridge / FramePack-U study actually uses Video-MME to evaluate long-video understanding and methods of frame packing.
+ - **date**：2026-10-12
+
 - **note**：The paper revision time cannot be treated as the data release date. Existing 2026-H2 evidence retains the original collection date.
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07  ) ; [3](https://arxiv.org/abs/2610.16118) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07); [3](https://arxiv.org/abs/2610.16118) (accessed 2026-11-07).
 
 ### 饱和程度
 
 The leading entries of the official with-subtitles table are 81.6/81.3/79.6%, and the without-subtitles results are in a separate table; frame budgets, subtitles, and audio inputs are not aligned across models. An overall conclusion of saturation has not been verified under one setting, and a high score is not automatically called saturation.
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 污染、冲突与限制
 
 Conditions with subtitles and without them, the budget of video frames, and audio input are kept strictly apart. The abstract of FramePack-U in 2026 writes +9.7 as the gain on long video, but Appendix Table10 shows overall +9.7 and long +12.8. The detailed table is used to record the conflict.
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08  ) ; [3](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08); [3](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07).
 
 ### 后续工作与衍生
 
 The official repository also links MME, MME-RealWorld, and MME-Survey as related work; they are not revised editions of the Video-MME data, and the leaderboard scores of this entry cannot be carried over to them.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ## Leaderboard snapshot
 
@@ -323,13 +322,13 @@ Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/REA
 
 2026-11-08; the H2 research retest keeps the earlier collection date
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08).
 
 ### Official leaderboard
 
 https://video-mme.github.io/home_page.html#leaderboard
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08).
 
 ### 第三方覆盖
 
@@ -337,7 +336,7 @@ Unverified
 
 > The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
-Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (accessed 2026-11-07 ).
+Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (accessed 2026-11-07).
 
 ### 结果快照
 
@@ -797,13 +796,13 @@ Sources: [1](https://artificialanalysis.ai/evaluations?skill=multimodal) (access
 |---|---|---|---|---|
 | — | Qwen3.6-27B + FramePack-U | 76.3 % | accuracy Video-MME overall, 128-frame equivalent budget, d1f16d2f448 | https://arxiv.org/html/2610.16118v1 |
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://arxiv.org/html/2610.16118v1) (accessed 2026-11-07).
 
 ### Coverage note
 
 The only results table on the official site was read cell by cell, adding 408 values (overall/short/medium/long × with and without subtitles; missing cells are not filled with zero). The original row order is not a unified budget ranking. The per-row date is the Date in the table, and an overall update date is not inferred. The original 2026-11-07 evidence for the FramePack-U research retest is retained. Its subtitle and audio configuration was not re-verified. This is not an official live leaderboard.
 
-Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ## Contact
 
@@ -814,13 +813,13 @@ Sources: [1](https://video-mme.github.io/home_page.html) (accessed 2026-11-08  )
 
 > The former handles data and copyright removal; the latter receives leaderboard results in standard JSON.
 
-Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).
 
 ### 问题反馈
 
 https://github.com/MME-Benchmarks/Video-MME/issues
 
-Sources: [1](https://github.com/MME-Benchmarks/Video-MME) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/MME-Benchmarks/Video-MME) (accessed 2026-11-07).
 
 ### 官方讨论渠道
 
@@ -834,7 +833,7 @@ Source: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https:/
 
 Only officially published project feedback channels are recorded; private contact details are neither collected nor inferred.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07 ).
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07).
 
 ## Original files
 
@@ -842,7 +841,7 @@ Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07 ).
 
 https://arxiv.org/pdf/2405.21075
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### SHA-256
 
@@ -850,50 +849,27 @@ Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](htt
 
 > Original bytes of the PDF downloaded again. The existing copy was not overwritten.
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### 字节数
 
 4306222
 
-Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08 ).
-
-### Folder
-
-- **id**：1UHQvAjcQ6OuugtmPo2QFyxa7DvwpAN9v
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
+Sources: [1](https://arxiv.org/pdf/2405.21075) (accessed 2026-11-08).
 
 ### Other documents
-
-- - **kind**：中文介绍
-  - **id**：1MtJDtK5n3m77sYft8DfpKq0CcFJBuMGKLt43qRt-wr0
-  - **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
-
-### 原文归档
-
-- **id**：1B2ksLncz0tR9VZPgqkItIAQQwu1vVZNo
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
 
 ## Changelog
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
+ - **change**：核实官方存在、收集原始资料、编写中文档案，逐项复核2026-H2使用证据并保留协议与版本差异。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **round**：1 / 深度实证复核
-  - **change**：补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。
+ - **round**：1 / 深度实证复核
+ - **change**：补版本修订、署名机构、NSFC项目、公开联系、数据更新和评测脚本规则；刷新官方前三，重核H2。
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2405.21075) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/MME-Benchmarks/Video-MME/main/README.md) (accessed 2026-11-08).

@@ -52,7 +52,7 @@ Biology and medicine
 
 ```json
 [
-  "Biology and medicine"
+ "Biology and medicine"
 ]
 ```
 
@@ -100,9 +100,9 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh"
-  "Carnegie Mellon University"
-  "Google AI (by the author affiliation in the paper)"
+ "University of Pittsburgh"
+ "Carnegie Mellon University"
+ "Google AI (by the author affiliation in the paper)"
 ]
 ```
 
@@ -112,9 +112,9 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "University of Pittsburgh"
-  "Carnegie Mellon University"
-  "Google AI (a co-author affiliation in the paper; not an additionally inferred institutional agreement)."
+ "University of Pittsburgh"
+ "Carnegie Mellon University"
+ "Google AI (a co-author affiliation in the paper; not an additionally inferred institutional agreement)."
 ]
 ```
 
@@ -124,11 +124,11 @@ PubMedQA: A Dataset for Biomedical Research Question Answering
 
 ```json
 [
-  "Qiao Jin"
-  "Bhuwan Dhingra"
-  "Zhengping Liu"
-  "William Cohen"
-  "Xinghua Lu"
+ "Qiao Jin"
+ "Bhuwan Dhingra"
+ "Zhengping Liu"
+ "William Cohen"
+ "Xinghua Lu"
 ]
 ```
 
@@ -202,10 +202,10 @@ Unverified
 
 ```json
 {
-  "pqa_labeled": 1000
-  "pqa_unlabeled": 61249
-  "pqa_artificial": 211269
-  "basis": "Exact row counts on the HF data card; the original paper's 1k/61.2k/211.3k are rounded descriptions, not exact row counts."
+ "pqa_labeled": 1000
+ "pqa_unlabeled": 61249
+ "pqa_artificial": 211269
+ "basis": "Exact row counts on the HF data card; the original paper's 1k/61.2k/211.3k are rounded descriptions, not exact row counts."
 }
 ```
 
@@ -291,16 +291,15 @@ The HF card, as read here, still lists PQA-L 1000, PQA-U 61249, and PQA-A 211269
 
 ```json
 [
-  {
-    "version": "arXiv v1"
-    "submitted_at": "2019-09-13"
-    "timezone": ""
-  }
-  {
-    "version": "EMNLP-IJCNLP formal paper"
-    "date": "2019-11"
-    "identifier": "D19-1259"
-  }
+ {
+ "version": "arXiv v1"
+ "submitted_at": "2019-09-13"
+ }
+ {
+ "version": "EMNLP-IJCNLP formal paper"
+ "date": "2019-11"
+ "identifier": "D19-1259"
+ }
 ]
 ```
 
@@ -394,7 +393,7 @@ All 25 rows of the reasoning-required leaderboard on the official site are inclu
 
 ```json
 [
-  "qiaojin.andy@gmail.com"
+ "qiaojin.andy@gmail.com"
 ]
 ```
 
@@ -440,58 +439,27 @@ https://aclanthology.org/D19-1259.pdf
 
 [1](https://aclanthology.org/D19-1259.pdf)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1p4BxGveCspWrwqeJtetU_eLA9Rnl3iEk"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1S_9mued4KL0JikJSKoGtB2cca379JaKco99qTqDyeu4"
-    "webViewLink": "
-  }
-]
-```
-
-[1]( 2026-11-07）
-
 ### Paper PDF
 
 {
-  "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV"
-  "webViewLink": "
+ "id": "1CB2QjxkaK3viyZtpkSoVba9sypsRqTiV"
 }
-
-[1]( 2026-11-07）
 
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://pubmedqa.github.io/)（访问 2026-11-08）

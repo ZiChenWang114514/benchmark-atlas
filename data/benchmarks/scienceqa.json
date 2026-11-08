@@ -533,31 +533,28 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2022-09-20"
+            "date": "2022-09-20"
           },
           {
             "version": "v2",
-            "date_kst": "2022-10-17"
+            "date": "2022-10-17"
           }
         ],
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-23",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-            "date_kst": "2026-10-23",
-            "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+            "note": "MMVistaReason v2 §4.1及表2实际评测 ScienceQA（ScienceQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
           }
         ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
-        "arxiv_submission_history_kst": [
+        "arxiv_submission_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2022-09-20"
+            "submitted_at": "2022-09-20"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2022-10-17"
+            "submitted_at": "2022-10-17"
           }
         ]
       },
@@ -2615,7 +2612,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "QVix",
-          "score": 55.0,
+          "score": 55,
           "metric": "选项准确率%；Avg缺失时仅保留可见分项，不补算",
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
@@ -2760,7 +2757,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "VPGTrans",
-          "score": 47.0,
+          "score": 47,
           "metric": "选项准确率%；Avg缺失时仅保留可见分项，不补算",
           "track": "官方人工汇总历史表；Zero-shot",
           "source_url": "https://scienceqa.github.io/javascript/leaderboard-data.js",
@@ -3142,7 +3139,7 @@
           "rank": "不设跨协议名次",
           "model": "LLaVA+SIRI",
           "score": {
-            "IMG": 72.0
+            "IMG": 72
           },
           "metric": "选项准确率%；Avg缺失时仅保留可见分项，不补算",
           "track": "官方人工汇总历史表；-",
@@ -3297,7 +3294,7 @@
           "rank": "不设跨协议名次",
           "model": "Multimodal Bard",
           "score": {
-            "IMG": 68.0
+            "IMG": 68
           },
           "metric": "选项准确率%；Avg缺失时仅保留可见分项，不补算",
           "track": "官方人工汇总历史表；Zero-shot",
@@ -3514,7 +3511,7 @@
           "rank": "不设跨协议名次",
           "model": "BLIP-2 (Vicuna-13B)",
           "score": {
-            "IMG": 61.0
+            "IMG": 61
           },
           "metric": "选项准确率%；Avg缺失时仅保留可见分项，不补算",
           "track": "官方人工汇总历史表；Zero-shot",
@@ -3990,11 +3987,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

@@ -1,6 +1,6 @@
 # Mystery Game Puzzles
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 Epoch AI提供100个来自保密游戏变体的中局状态，每题选择唯一最优下一步，不是整局胜率或猜测游戏名称。官方主动不发布提示、例题和轨迹以降低专项准备风险。本次读到144条成功运行，分属1.0.4、1.1.0、1.2.0、1.2.1四个任务版本；不同版本的历史最高不能合成同版排行榜。
 [本页导读依据](https://epoch.ai/benchmarks/mystery-game-puzzles)（访问 2026-11-08）
@@ -297,29 +297,29 @@ CSV存在1.0.4、1.1.0、1.2.1，不能把不同版本的历史最高直接视�
 
 ```json
 {
-  "version": "1.2.1（当前CSV中最新运行版本）"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/data/benchmarks.csv"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 开始；ECI当前纳入。主要证据仍来自Epoch自身。"
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 开始；ECI当前纳入。主要证据仍来自Epoch自身。"
-    }
-  ]
-  "csv_versions": {
-    "1.2.1": 6
-    "1.2.0": 1
-    "1.1.0": 5
-    "1.0.4": 132
-  }
-  "observed_on_kst": "2026-11-08"
+ "version": "1.2.1（当前CSV中最新运行版本）"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 开始；ECI当前纳入。主要证据仍来自Epoch自身。"
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Epoch CSV最近一条为Kimi K3.1 Pro，2026-11-06 09:59:23 开始；ECI当前纳入。主要证据仍来自Epoch自身。"
+ }
+ ]
+ "csv_versions": {
+ "1.2.1": 6
+ "1.2.0": 1
+ "1.1.0": 5
+ "1.0.4": 132
+ }
+ "observed_on": "2026-11-08"
 }
 ```
 
@@ -651,21 +651,21 @@ https://epoch.ai/privacy（官网页脚隐私政策入口）
 
 ```json
 [
-  {
-    "type": "官方方法网页（非独立论文PDF）"
-    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "官方原始运行成绩CSV（非题库）"
-    "url": "https://epoch.ai/data/benchmarks.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://www.vals.ai/benchmarks/mysterymechanism"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "官方方法网页（非独立论文PDF）"
+ "url": "https://epoch.ai/benchmarks/mystery-game-puzzles"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "官方原始运行成绩CSV（非题库）"
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://www.vals.ai/benchmarks/mysterymechanism"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -687,16 +687,14 @@ https://epoch.ai/privacy（官网页脚隐私政策入口）
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

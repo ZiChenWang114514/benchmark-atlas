@@ -2,7 +2,7 @@
 
 > Check: 2026-11-07. This page is a sourced research snapshot; the collection date is not treated as the experiment date. Unverified is not the same as Not disclosed.
 
-Checked item by item against the evidence: the paper PDF, the official release materials, and the leaderboards for each protocol; items not confirmed are kept; trending: B
+Checked item by item against the evidence: the paper PDF, the official release materials, and the leaderboards for each protocol; items not confirmed are kept
 
 ## Basic information
 
@@ -10,37 +10,25 @@ Checked item by item against the evidence: the paper PDF, the official release m
 
 Berkeley Function Calling Leaderboard (BFCL)
 
-Sources: [1]
-
 ### Full name
 
 Berkeley Function Calling Leaderboard
-
-Sources: [2]
 
 ### 数据/软件版本
 
 BFCL V4; V1–V3 are historical protocols
 
-Sources: [1][3][4][5][6][7]
-
 ### Paper version
 
 ICML 2025, PMLR 267, pages 48371–48392.
-
-Sources: [2]
 
 ### Release date
 
 V1: 2024-02-26. V4 Agentic: 2025-07-17 (the official data README states Original and Latest Release Date explicitly, and gives no time of day). ICML2025 for the paper, and the date on which the data were first released, are kept apart.
 
-Sources: [8][2]
-
 ### Section
 
 Agent
-
-Sources: [2]
 
 Note: Benchmark Constitution editorial filing. Only the main section is counted.
 
@@ -48,43 +36,29 @@ Note: Benchmark Constitution editorial filing. Only the main section is counted.
 
 Function calling
 
-Sources: [2]
-
 ### 许可证与范围
 
 The official BFCL README states that the leaderboard statistics and the data used for training are released under Apache-2.0; third-party tool and API terms must be followed separately.
-
-Sources: [9]
 
 ### 论文入口
 
 https://proceedings.mlr.press/v267/patil25a.html
 
-Sources: [2]
-
 ### Paper title
 
 The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models
-
-Sources: [2]
 
 ### Code
 
 https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard
 
-Sources: [1]
-
 ### Dataset
 
 https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard
 
-Sources: [1]
-
 ### Official homepage
 
 https://gorilla.cs.berkeley.edu/leaderboard.html
-
-Sources: [1]
 
 ## Origin and maintenance
 
@@ -92,13 +66,9 @@ Sources: [1]
 
 UC Berkeley Gorilla research team (institutional scope)
 
-Sources: [2]
-
 ### 署名/合作机构
 
 Unverified
-
-Sources: [2]
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
@@ -108,19 +78,13 @@ Status: Unverified (part of this field is still unconfirmed).
 
 Shishir G Patil；Huanzhi Mao；Fanjia Yan；Charlie Cheng-Jie Ji；Vishnu Suresh；Ion Stoica；Joseph E. Gonzalez
 
-Sources: [2]
-
 ### 维护入口
 
 Gorilla / BFCL team
 
-Sources: [2]
-
 ### 资助与计算资源
 
 Unverified
-
-Sources: [2]
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
@@ -129,19 +93,14 @@ Status: Unverified (part of this field is still unconfirmed).
 ## Design goals
 
 函数调用正确性不等于整个业务任务成功。BFCL不断把重点从单轮AST转向多轮状态与Agentic记忆；必须固定V4权重、代码/数据版本和FC或Prompt配置，V3高分不能置换V4总分。
-Sources: [2][2]
 
 ### 测量能力
 
 Tool selection, construction of valid parameters, serial and parallel function calls, rejection of irrelevant calls, and stateful multi-step agent decisions.
 
-Sources: [2]
-
 ### 为何需要这个基准
 
 Tool calling requires both diverse sources of real functions and a scalable way to judge whether different syntactic expressions are equally valid.
-
-Sources: [2]
 
 ## Construction
 
@@ -149,31 +108,21 @@ Sources: [2]
 
 Functions curated by experts, together with real functions and prompts contributed by users, companies, and the open-source community; multiple programming languages are covered.
 
-Sources: [2]
-
 ### 命题/编制背景
 
 Berkeley researchers and contributors from industry and open-source tools.
-
-Sources: [2]
 
 ### Review process
 
 Expert curation is combined with user contributions, and calls are verified by category using AST, execution, and similar checks.
 
-Sources: [2]
-
 ### Quality control
 
 Distinguishes single-turn, parallel, multi-turn, relevance, and state; AST checks semantic parameters rather than the surface of a bare string.
 
-Sources: [2]
-
 ### 去污染与证据边界
 
 V2 adds real contribution data from enterprises and from the community; the V4 Web Search blog finds that a newer model may answer some questions correctly from knowledge it already has, and it plans to update the questions on a cycle. Performance when tools are used, and memory from pretraining, cannot be separated in a simple way, and this is not a guarantee that there is no contamination.
-
-Sources: [4][5]
 
 ## Data format
 
@@ -181,39 +130,27 @@ Sources: [4][5]
 
 scored_entries_v4：5088；scored_categories：agentic：665；multi_turn：800；live：1351；non_live：1150；irrelevance：1122；non_scoring_entries：5218；non_scoring_breakdown：format_sensitivity：5200；relevance：18；agentic_breakdown：web_search：200；memory：465
 
-Sources: [4]
-
 Note: Recorded on the score-composition basis of the official V4 blog. Format sensitivity consists of 26×200 groups of configurations and is not treated as 5,200 entirely new independent questions; different versions are not added together.
 
 ### Question types
 
 Single and parallel function calls, multi-turn stateful interaction, relevance and refusal calls, and agentic tasks.
 
-Sources: [1]
-
 ### 模态与字段
 
 文本；Structured function schema；工具调用
-
-Sources: [1]
 
 ### Languages
 
 The official data README marks the natural language as en; the functions cover Python, Java, JavaScript, and others. A function in more than one language is not the same thing as a question surface in more than one natural language.
 
-Sources: [8][9]
-
 ### 难度定位
 
 Stratified by structural complexity rather than by a uniform easy or hard label: single tool and multiple tools, parallel calls, multi-turn basic, missing function, missing parameter, and long context, together with web-search and memory. Web Search includes multi-hop chains. A general proportion of difficulty is not estimated.
 
-Sources: [4][9]
-
 ### 公开、隐藏与划分
 
 The official GitHub releases JSONL questions, function schemas, and the corresponding evaluation files by category; the HF card still describes the old version dated 2024-09-22, and its V3 description should not replace the GitHub V4 inventory. Each category is selected by the official script, not by a new random train/test split.
-
-Sources: [8][10][9]
 
 ## Evaluation
 
@@ -221,33 +158,23 @@ Sources: [8][10][9]
 
 V4 Overall is a fixed percentage weighting: Agentic 40% + Multi-Turn 30% + Live 10% + Non-Live 10% + Irrelevance/Hallucination 10%. Inside a category, a weighted or an unweighted mean is used according to the official rules.
 
-Sources: [4][5][1]
-
 Note: Corrects the old entry that said “Overall is the unweighted mean of all subclasses.” The homepage of the official website still uses loose wording about an unweighted mean, which disagrees with the V4 blog and the CHANGELOG; the conflict is kept side by side under the more specific definition in V4.
 
 ### 评分流程
 
 Single-turn AST matching and multi-turn state-plus-response checks. The CHANGELOG of 2025-04-09 retired the old executable categories rest and exec_*, and they can no longer be called constituents of the current V4 total score. Web Search and Memory are evaluated under agentic rules. format-sensitivity and relevance do not affect the primary total score.
 
-Sources: [5][4]
-
 ### 运行与提示
 
 The page currently marks code commit f7cf7359b7ac615a0b294831c5ba2bc95ee4a000 and bfcl-eval==2025.12.17. The model prompt and native-FC must be fixed together.
-
-Sources: [1]
 
 ### 评测实现
 
 https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard
 
-Sources: [1]
-
 ### 不能混比的设置
 
 Coverage changes across V1 (AST), V2 (real contributed functions), V3 (multi-turn), and V4 (agentic). Hunyuan’s BFCLv3 cannot be treated as a current V4 result.
-
-Sources: [1]
 
 ## Current status
 
@@ -255,37 +182,25 @@ Sources: [1]
 
 2026-11-07 (collection date, not the experiment date)
 
-Sources: [2]
-
 ### 当前发布
 
 current_version：BFCL V4; V1–V3 are historical protocols；release_date：V1 2024-02-26; V4 2025-07-17 (official data README)；version_changes：V1 introduced single-turn AST, V2 introduced enterprise and community contributions, and V3 introduced multi-turn. V4 adds Web Search, Memory, and Format Sensitivity. The total-score weights are Agentic40%, Multi-Turn30%, Live10%, Non-Live10%, and Hallucination10%. Format Sensitivity is not counted in the total score. The official V4 methods blog is authoritative. The official-site overview's "unweighted average of all sub-categories" should not override the fixed-weight definition in the detailed specification.；trending：B；why_trending：On 2026-08-24, AA actually used a 640-task subset of BFCL in a mobile evaluation. The official Qwen model card currently lists BFCL-V4, but the evaluation release date of that card has not been confirmed. The last update time of the official V4 leaderboard is still 2026-04-12, so it cannot be called a new H2 score. Recent evidence that clearly carries a date is mainly the AA subset, provisionally listed as B. The date of new adoption of the full V4 set after 2026-08 remains Unverified.；history_note：history keeps the existing fields of older versions and the older snapshots as they are; an older Unverified among them is a historical record and is not used to overwrite the current conclusion of verification.
-
-Sources: [8][4][5][1]
 
 ### 版本脉络
 
 paper：The official paper, ICML2025/PMLR267:48371–48392.；dataset_original_release：2024-02-26；V4_release：2025-07-17；leaderboard_updated：2026-04-12；changes_source：https://raw.githubusercontent.com/ShishirPatil/gorilla/main/berkeley-function-call-leaderboard/CHANGELOG.md；paper_source：The official ICML/PMLR paper is taken as the authority; an arXiv identifier that has not been verified is not conjectured.
 
-Sources: [2][8][5]
-
 ### 分数上限与饱和度
 
 The official V4 CHANGELOG states explicitly that the single-turn setting is nearing saturation, and for that reason the weights of the multi-turn and Agentic settings were raised; the current Overall peaks at 77.47%, and the conclusion that the single-turn setting is near saturation cannot be carried over to every task in V4.
-
-Sources: [5][3]
 
 ### 争议与局限
 
 A correct AST is not completion of the business task; multiple turns and memory add new evaluation dimensions, and a single total score cannot track across versions.
 
-Sources: [1]
-
 ### 衍生版本
 
 BFCL V1–V4 are successive versions; this repository counts only one function-calling benchmark.
-
-Sources: [1]
 
 ## Leaderboard snapshot
 
@@ -293,19 +208,13 @@ Sources: [1]
 
 2026-11-07 (collection date, not the experiment date)
 
-Sources: [2]
-
 ### Official entry
 
 https://gorilla.cs.berkeley.edu/leaderboard.html
 
-Sources: [1]
-
 ### 第三方/补充实验
 
 endpoint_accuracy_methodology：https://artificialanalysis.ai/methodology/endpoint-accuracy-index；mobile_subset_launch：https://artificialanalysis.ai/articles/mobile-phone-intelligence-inference
-
-Sources: [11][6]
 
 Note: AA has a 500-task offline-only BFCL v4-500 with 3 repeats, and a mobile subset of 640 tasks. Neither is the official full V4. The earlier claim of “no verified AA coverage” is now corrected.
 
@@ -337,13 +246,9 @@ Note: AA has a 500-task offline-only BFCL v4-500 with 3 repeats, and a mobile su
 - Grok-4-0709 (Prompt)：benchmark_version：V4；source_url：https://gorilla.cs.berkeley.edu/data_overall.csv；accessed：2026-11-07；leaderboard_updated_at：2026-04-12；multi_turn：47.0；web_search：74.0；memory：50.54
 - Grok-4-0709 (FC)：benchmark_version：V4；source_url：https://gorilla.cs.berkeley.edu/data_overall.csv；accessed：2026-11-07；leaderboard_updated_at：2026-04-12；multi_turn：33.88；web_search：82.0；memory：55.91
 
-Sources: [3]
-
 ### 覆盖边界
 
 The official CSV was opened again, and the top 10 were transcribed exactly, with the native FC, Prompt, and thinking configuration kept. Last Updated on the official site is 2026-04-12, and this is not a new run. V4 follows the fixed weights in the blog rather than the word unweighted in the overview on the official site; the HF card is a description of the old 2024 release, and it is not used to update the scale of V4.
-
-Sources: [3][4][10][1]
 
 ## Contact
 
@@ -351,15 +256,11 @@ Sources: [3][4][10][1]
 
 huanzhimao@berkeley.edu；shishirpatil@berkeley.edu
 
-Sources: [9][12]
-
 Note: The former is the contact email in the README; the latter is the public correspondence email in the ICML paper.
 
 ### 公开反馈
 
 https://github.com/ShishirPatil/gorilla/issues
-
-Sources: [1]
 
 Note: Public repository feedback entry point; no question was sent.
 
@@ -367,15 +268,11 @@ Note: Public repository feedback entry point; no question was sent.
 
 https://discord.gg/grXXvj9Whz
 
-Sources: [9]
-
 Note: The official Discord invite is public, and the README designates the #leaderboard channel; the channel was not joined and no message was sent.
 
 ### 隐私信息
 
 Unverified
-
-Sources: [2]
 
 Note: The official README, the project page, and the readable papers were checked again; this field still lacks a sufficiently explicit official statement. It remains Unverified and is not inferred to be Not disclosed or to be nonexistent.
 
@@ -387,15 +284,11 @@ Status: Unverified (part of this field is still unconfirmed).
 
 https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.pdf
 
-Sources: [12]
-
 Note: Archived as the PDF provided by the source site at the time of download; the paper version and the benchmark version are recorded separately.
 
 ### 下载源文件SHA-256
 
 5248f4770823b2a73fd52e3b12339d94121ff1b359c45163c5a47168edab7a2f
-
-Sources: [12]
 
 Note: Checksum of the PDF bytes downloaded from the source site. This does not claim that the file contents were checked again.
 
@@ -403,27 +296,11 @@ Note: Checksum of the PDF bytes downloaded from the source site. This does not c
 
 1200643
 
-Sources: [12]
-
-### 既有文件夹
-
-id：1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT；webViewLink：
-
-Sources: [13]
-
 ### 其他材料
-
-- type：Chinese-language introductory Google Doc；id：1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748；webViewLink：
-
-Sources: [1][14]
 
 Note: The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
 
 ### 既有 PDF链接
-
-id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：
-
-Sources: [15]
 
 > 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
@@ -432,9 +309,7 @@ Sources: [15]
 - 2026-11-07：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
 - 2026-11-07：读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。
 - 2026-11-07：近期热门版本复核：V1 introduced single-turn AST, V2 introduced enterprise and community contributions, and V3 introduced multi-turn. V4 adds Web Search, Memory, and Format Sensitivity. The total-score weights are Agentic40%, Multi-Turn30%, Live10%, Non-Live10%, and Hallucination10%. Format Sensitivity is not counted in the total score. The official V4 methods blog is authoritative. The official-site overview's "unweighted average of all sub-categories" should not override the fixed-weight definition in the detailed specification. 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
-- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
-
-Sources: [1][3][4][5][6][7]
+- 2026-11-07（）：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 ### 来源索引
 

@@ -263,29 +263,29 @@ Vals uses Standard with 4 options; AA uses 10 options; the original paper's comp
 
 ```json
 {
-  "version": "Pro (data revised through 2026-10-04)"
-  "trending": "A"
-  "heat_evidence": "The current AA method page still runs 1,730 ten-option questions; on 2026-10-04 HF corrected options and missing conditions. Vals retained the leaderboard on September 1, but it has now stopped evaluating new models, and it cannot be written as still being updated continuously."
-  "evidence_2026_h2": [
-    {
-      "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
-    }
-    {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
-    }
-    {
-      "url": "https://www.vals.ai/benchmarks/mmmu"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
-    }
-  ]
+ "version": "Pro (data revised through 2026-10-04)"
+ "trending": "A"
+ "heat_evidence": "The current AA method page still runs 1,730 ten-option questions; on 2026-10-04 HF corrected options and missing conditions. Vals retained the leaderboard on September 1, but it has now stopped evaluating new models, and it cannot be written as still being updated continuously."
+ "evidence_2026_h2": [
+ {
+ "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
+ }
+ {
+ "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
+ }
+ {
+ "url": "https://www.vals.ai/benchmarks/mmmu"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Opened and verified this time; the release or revision date of the source follows the description in the body, and the observation date is not treated as the run date."
+ }
+ ]
 }
 ```
 
@@ -295,45 +295,45 @@ Vals uses Standard with 4 options; AA uses 10 options; the original paper's comp
 
 ```json
 {
-  "arxiv_revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2024-09-05"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2024-09-10"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2025-05-22"
-    }
-  ]
-  "dataset_corrections": [
-    {
-      "date": "2026-05-30"
-      "ids": [
-        "validation_Diagnostics_and_Laboratory_Medicine_17"
-      ]
-      Latest review
-    }
-    {
-      "date": "2026-07-10"
-      "ids": [
-        "validation_Design_15"
-        "validation_Art_Theory_4"
-      ]
-      Latest review
-    }
-    {
-      "date": "2026-10-04"
-      "ids": [
-        "test_Chemistry_240"
-        "validation_Finance_5"
-      ]
-      Latest review
-    }
-  ]
+ "arxiv_revisions": [
+ {
+ "version": "v1"
+ "date": "2024-09-05"
+ }
+ {
+ "version": "v2"
+ "date": "2024-09-10"
+ }
+ {
+ "version": "v3"
+ "date": "2025-05-22"
+ }
+ ]
+ "dataset_corrections": [
+ {
+ "date": "2026-05-30"
+ "ids": [
+ "validation_Diagnostics_and_Laboratory_Medicine_17"
+ ]
+ Latest review
+ }
+ {
+ "date": "2026-07-10"
+ "ids": [
+ "validation_Design_15"
+ "validation_Art_Theory_4"
+ ]
+ Latest review
+ }
+ {
+ "date": "2026-10-04"
+ "ids": [
+ "test_Chemistry_240"
+ "validation_Finance_5"
+ ]
+ Latest review
+ }
+ ]
 }
 ```
 
@@ -648,47 +648,47 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
-  }
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://arxiv.org/abs/2409.02813"
-  }
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-  }
-  {
-    "type": "Official web page/paper opened"
-    "url": "https://www.vals.ai/benchmarks/mmmu"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://artificialanalysis.ai/evaluations/mmmu-pro"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/pdf/2409.02813"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://mmmu-benchmark.github.io/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
+ }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://arxiv.org/abs/2409.02813"
+ }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+ }
+ {
+ "type": "Official web page/paper opened"
+ "url": "https://www.vals.ai/benchmarks/mmmu"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://artificialanalysis.ai/evaluations/mmmu-pro"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://arxiv.org/pdf/2409.02813"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://mmmu-benchmark.github.io/"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -710,16 +710,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

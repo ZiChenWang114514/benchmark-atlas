@@ -50,10 +50,10 @@ Agent
 
 ```json
 [
-  "Remote economic labor"
-  "Multimodal deliverable"
-  "End-to-end agent"
-  "Human acceptance"
+ "Remote economic labor"
+ "Multimodal deliverable"
+ "End-to-end agent"
+ "Human acceptance"
 ]
 ```
 
@@ -101,8 +101,8 @@ Remote Labor Index: Measuring AI Automation of Remote Work
 
 ```json
 [
-  "Scale AI"
-  "Center for AI Safety"
+ "Scale AI"
+ "Center for AI Safety"
 ]
 ```
 
@@ -118,53 +118,53 @@ Joint research by the Center for AI Safety and Scale AI; footnotes of the author
 
 ```json
 [
-  "Mantas Mazeika"
-  "Alice Gatti"
-  "Cristina Menghini"
-  "Udari Madhushani Sehwag"
-  "Shivam Singhal"
-  "Yury Orlovskiy"
-  "Steven Basart"
-  "Manasi Sharma"
-  "Denis Peskoff"
-  "Elaine Lau"
-  "Jaehyuk Lim"
-  "Lachlan Carroll"
-  "Alice Blair"
-  "Vinaya Sivakumar"
-  "Sumana Basu"
-  "Brad Kenstler"
-  "Yuntao Ma"
-  "Julian Michael"
-  "Xiaoke Li"
-  "Oliver Ingebretsen"
-  "Aditya Mehta"
-  "Jean Mottola"
-  "John Teichmann"
-  "Kevin Yu"
-  "Zaina Shaik"
-  "Adam Khoja"
-  "Richard Ren"
-  "Jason Hausenloy"
-  "Long Phan"
-  "Ye Htet"
-  "Ankit Aich"
-  "Tahseen Rabbani"
-  "Vivswan Shah"
-  "Andriy Novykov"
-  "Felix Binder"
-  "Kirill Chugunov"
-  "Luis Ramirez"
-  "Matias Geralnik"
-  "Hernán Mesura"
-  "Dean Lee"
-  "Ed-Yeremai Hernandez Cardona"
-  "Annette Diamond"
-  "Summer Yue"
-  "Alexandr Wang"
-  "Bing Liu"
-  "Ernesto Hernandez"
-  "Dan Hendrycks"
+ "Mantas Mazeika"
+ "Alice Gatti"
+ "Cristina Menghini"
+ "Udari Madhushani Sehwag"
+ "Shivam Singhal"
+ "Yury Orlovskiy"
+ "Steven Basart"
+ "Manasi Sharma"
+ "Denis Peskoff"
+ "Elaine Lau"
+ "Jaehyuk Lim"
+ "Lachlan Carroll"
+ "Alice Blair"
+ "Vinaya Sivakumar"
+ "Sumana Basu"
+ "Brad Kenstler"
+ "Yuntao Ma"
+ "Julian Michael"
+ "Xiaoke Li"
+ "Oliver Ingebretsen"
+ "Aditya Mehta"
+ "Jean Mottola"
+ "John Teichmann"
+ "Kevin Yu"
+ "Zaina Shaik"
+ "Adam Khoja"
+ "Richard Ren"
+ "Jason Hausenloy"
+ "Long Phan"
+ "Ye Htet"
+ "Ankit Aich"
+ "Tahseen Rabbani"
+ "Vivswan Shah"
+ "Andriy Novykov"
+ "Felix Binder"
+ "Kirill Chugunov"
+ "Luis Ramirez"
+ "Matias Geralnik"
+ "Hernán Mesura"
+ "Dean Lee"
+ "Ed-Yeremai Hernandez Cardona"
+ "Annette Diamond"
+ "Summer Yue"
+ "Alexandr Wang"
+ "Bing Liu"
+ "Ernesto Hernandez"
+ "Dan Hendrycks"
 ]
 ```
 
@@ -248,13 +248,13 @@ Each project contains a brief, input files, a professional human deliverable, an
 
 ```json
 [
-  "文本"
-  "代码"
-  "音频"
-  "视频"
-  "图像"
-  "3D/CAD"
-  "Multi-file deliverable"
+ "文本"
+ "代码"
+ "音频"
+ "视频"
+ "图像"
+ "3D/CAD"
+ "Multi-file deliverable"
 ]
 ```
 
@@ -322,22 +322,22 @@ It measures only the remote projects that were sampled, and it does not represen
 
 ```json
 {
-  "version": "RLI original 240 projects / public public_001 through public_010 (this verification)"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/rli"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Scale current real-work leaderboard."
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The current Epoch ECI includes RLI; this aggregates external results and is not an independent rerun by Epoch."
-    }
-  ]
+ "version": "RLI original 240 projects / public public_001 through public_010 (this verification)"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/rli"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Scale current real-work leaderboard."
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The current Epoch ECI includes RLI; this aggregates external results and is not an independent rerun by Epoch."
+ }
+ ]
 }
 ```
 
@@ -347,11 +347,10 @@ It measures only the remote projects that were sampled, and it does not represen
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-10-31"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-10-31"
+ }
 ]
 ```
 
@@ -501,10 +500,10 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official methods and introduction page (not the paper PDF)"
-    "url": "https://labs.scale.com/leaderboard/rli"
-  }
+ {
+ "type": "Official methods and introduction page (not the paper PDF)"
+ "url": "https://labs.scale.com/leaderboard/rli"
+ }
 ]
 ```
 
@@ -519,16 +518,14 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-08）

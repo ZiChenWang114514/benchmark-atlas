@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Research snapshot; trending: B; unknown information retained as Unverified.
+ unknown information retained as Unverified.
 
 CyberBench v1.1 measures two complementary abilities: constructing an input that distinguishes a vulnerable version from a fixed version, and patching a program while preserving normal function. The tasks come from ARVO's native OSS-Fuzz regression images of software vulnerabilities and use mini-swe-agent. The 60 PoC questions and the 56 Patch questions should not be conflated with a full intrusion of an enterprise network. [1](https://www.vals.ai/benchmarks/cyber)
 
@@ -128,7 +128,6 @@ v1.1 changes the offline sandbox and the clean-room scorer. It replaces the v1 s
 | 9 | Claude Opus 5.5 (CVP) | 74.58 | Overall Accuracy (%)；2026-11-05；[1](https://www.vals.ai/benchmarks/cyber) |
 | 10 | DeepSeek V4.1 Flash | 73.69 | Overall Accuracy (%)；2026-11-05；[1](https://www.vals.ai/benchmarks/cyber) |
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：Results on the official page; the collection date is not the time at which the leaderboard was updated. [1](https://www.vals.ai/benchmarks/cyber)
@@ -162,7 +161,7 @@ v1.1 changes the offline sandbox and the clean-room scorer. It replaces the v1 s
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cyber)
+- date：2026-11-07；；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cyber)
 
 ---
 

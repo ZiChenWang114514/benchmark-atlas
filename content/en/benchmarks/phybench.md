@@ -12,7 +12,7 @@ Source: [Original description](https://arxiv.org/pdf/2504.16074) (accessed 2026-
 
 PHYBench
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Full name
 
@@ -20,25 +20,25 @@ PHYBench
 
 Note: The official name is used; when no verified expansion of the full name exists, the original name is retained, and the title of the paper is not mistaken for the full name of the benchmark.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Benchmark version
 
 Public HF data files are labeled _v1 (PHYBench-questions_v1.json and others); this is distinguished from paper arXiv v2.
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### Paper version
 
 arXiv v2
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Release date
 
 2025/04/22
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,49 +46,49 @@ Physics
 
 Note: Benchmark Constitution editorial filing. A cross-disciplinary entry is counted only in its main section. Other subjects are found through tags.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08)
 
 ### Field tags
 
 - 物理
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
 Both the official GitHub LICENSE and the HF dataset card declare MIT; this is recorded only from the publisher's statement, and rights in third-party materials are not automatically extended.
 
-Sources: [1](https://raw.githubusercontent.com/phybench-official/phybench/main/LICENSE) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://raw.githubusercontent.com/phybench-official/phybench/main/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2504.16074
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/phybench-official/phybench
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 数据地址
 
 https://huggingface.co/datasets/Eureka-Lab/PHYBench
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08); [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://www.phybench.cn/
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### Paper title
 
 PHYBench: Holistic Evaluation of Physical Perception and Reasoning in Large Language Models
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -98,13 +98,13 @@ Peking University School of Physics, the Institute for Artificial Intelligence, 
 
 Note: Based primarily on paper author affiliations and the official team description; this is not used to infer legal ownership or a sole initiator. The text has explicitly marked the formal initiating relationship as unverified.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 合作关系
 
 Author affiliations on the paper include the School of Physics, Peking University, and the Beijing Computational Science Research Center, among others; the Ministry of Education Physics 101 Plan provides support for the project. Roles of collaboration and of funding are recorded separately.
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### Authors
 
@@ -163,19 +163,19 @@ Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
 - Zhang, Muhan
 - Zhu, Hua Xing
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Current maintainer
 
 The official PHYBench team (phybench-official, the HF publishing organization Eureka-Lab); the publicly given contact@phybench.cn is the contact entry point.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08); [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### 资助与支持
 
 School of Physics, Peking University, and the Ministry of Education Physics 101 Plan; National Natural Science Foundation of China 12425505, 12235001, and U2230402 (paper §7).
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -183,13 +183,13 @@ Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
 
 Evaluates perception, modeling, and robust multi-step reasoning in realistic physical scenes, rather than only the application of formulas.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 设计背景与适用边界
 
 Existing reasoning questions may have been memorized, may lack a real physical setting, or may make only a binary judgment of right or wrong; PHYBench uses original physics-derivation questions and partial credit on symbolic expressions in order to distinguish understanding of the setting from robust derivation, but EED does not amount to proof that the whole chain of reasoning is correct.
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ## Construction
 
@@ -197,31 +197,31 @@ Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
 
 Primarily original or custom questions; they pass format screening, ambiguity checks, iterative revision, and review by human experts solving them.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 构建者背景
 
 178 physics students at Peking University contributed questions; another 81 physics students took part in the final review and the human baseline.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### Review process
 
 Primarily original or custom questions; they pass format screening, ambiguity checks, iterative revision, and review by human experts solving them.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Quality control
 
 A three-stage process: experts write questions and screen format, multi-round academic review and disambiguation, and independent solving checks by students. The official source explicitly does not delete a question because a model finds it easy or hard.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### 去污染与泄漏边界
 
 The official source says the questions are mainly original work by students and are not easy to retrieve directly from the web; this is a design measure, not an independent proof about contamination of model training sets.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ## Data format
 
@@ -229,37 +229,37 @@ Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08
 
 500 physics questions, covering mechanics, electromagnetism, heat, optics, and modern and advanced physics; solvable from the text, answered with a symbolic expression.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 题型与交付物
 
 500 open-ended physics-derivation questions that can be solved from text; the final answer must be a single readable symbolic expression in LaTeX. Equivalent forms are allowed, and a numerical approximation or a chain of equations is not accepted in place of the answer.
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### Modalities
 
 Text, symbolic-expression output
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Languages
 
 English (official HF card language: en); a Chinese web interface is not an additional Chinese test set.
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ### Difficulty
 
 High-school, undergraduate, and physics-olympiad levels.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### Public and hidden splits
 
 The stems of all 500 questions are public; 100 questions include a full solution or a reference answer, and the other 400 questions publish only the stem and the label. HF also has a combined stem file of 500 questions, which should not be misrecorded as a total bank of only 100 questions or as 500 public solutions.
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -267,31 +267,31 @@ Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README
 
 Accuracy and the Expression Edit Distance (EED) score; scoring by symbolic equivalence and expression-tree distance.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### Scoring
 
 The expression is simplified with SymPy first, and then the expression-tree distance r is computed; r=0 scores 100, 0<r<0.6 scores 60−100r, and r≥0.6 scores 0. EED is partial credit, and it is not the same as binary accuracy.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### 提示与运行设置
 
 There is a uniform requirement that a “physics expert” solve the problem step by step and place the final LaTeX in a boxed environment; the API uses the service default hyperparameters, and local models use temperature0.6, top_p0.95, and max_tokens32768; inference uses four 80GB A100s.
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### 评测脚本
 
 https://github.com/phybench-official/phybench
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 Different data versions, subsets, prompts, tool permissions, and model snapshots must not be mixed in a direct comparison; scores in historical papers do not represent the current SOTA.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ## Current status
 
@@ -299,25 +299,25 @@ Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 HF releases the _v1 files. The card records improvements to the paper and the experiments on 2025-05-15, and the live leaderboard going online on 2025-05-16. The public score asset on the official site is models.BcYON1m8.js. The hash of the static asset is not treated as a data version number.
 
-Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， ) ; [2](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08); [2](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08)
 
 ### 论文修订记录
 
 Submission history From: Zhuo-Yang Song [ view email ] [v1] 2025-04-23 02:53:29 (12,542 KB) [v2] 2025-05-18 23:13:34 (25,987 KB)
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 饱和程度
 
 The highest overall accuracy in the model data on the official site is Gemini-3 Pro Preview Thinking at 50.35%, with EED 61.39. The human accuracy that is published is 61.9%. These are only results already included on that page. An upper bound for every model on the web in 2026 is not claimed.
 
-Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08， )
+Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
@@ -325,7 +325,7 @@ An independent expert audit in September 2026 pointed out problems in the origin
 
 Note: A further check of the boundary on HF: 100 complete solutions are public, and 400 items are stems only; sources and original access dates from the previous independent audit are kept, without endorsing them again. The official site’s human EED of 71.4 conflicts with 70.4 on the data card.
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2609.13009) (accessed 2026-11-07， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08); [2](https://arxiv.org/abs/2609.13009) (accessed 2026-11-07)
 
 ### 衍生与后续使用
 
@@ -333,7 +333,7 @@ Unverified
 
 Note: This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ## Leaderboard snapshot
 
@@ -341,13 +341,13 @@ Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08 (date the web page was accessed; dates of historical results are kept separately).
 
-Sources: [1](https://www.phybench.cn/leaderboard) (accessed 2026-11-08， )
+Sources: [1](https://www.phybench.cn/leaderboard) (accessed 2026-11-08)
 
 ### 官方结果入口
 
 https://www.phybench.cn/leaderboard
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### 第三方入口
 
@@ -355,7 +355,7 @@ Unverified
 
 Note: This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 分赛道结果
 
@@ -424,13 +424,13 @@ Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](h
 - {"model": "GPT-4o", "score": 15.39, "track": "Official current leaderboard/ALL/EED Score (0–100)", "metric": "EED Score (0–100)", "source_url": "https://www.phybench.cn/assets/models.BcYON1m8.js", "collected_at": "2026-11-08 ", "model_id": "gpt-4o", "organization": "OpenAI", "result_type": "The official site publishes model data and does not give a unified update date", "source_note": "", "rank": 31}
 - {"model": "Qwen-max", "score": 15.33, "track": "Official current leaderboard/ALL/EED Score (0–100)", "metric": "EED Score (0–100)", "source_url": "https://www.phybench.cn/assets/models.BcYON1m8.js", "collected_at": "2026-11-08 ", "model_id": "qwen-max-2025-01-25", "organization": "Ali", "result_type": "The official site publishes model data and does not give a unified update date", "source_note": "", "rank": 32}
 
-Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08， )
+Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08)
 
 ### 覆盖边界
 
 The public dynamic module on the official site was traced to models.BcYON1m8.js. The overall Accuracy and EED of all 32 models can now be read, and the two metrics each form a track. Humans are not ranked together with models. Human EED on the official site is 71.4, while the HF card writes 70.4±1.8. The conflict is retained and is not altered. The historical Gemini2.5 Pro preview at 36.87 and the release version at 45.82 are different exact snapshots. The old 36.9% is no longer presented as the current best.
 
-Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-11-08); [2](https://huggingface.co/datasets/Eureka-Lab/PHYBench/raw/main/README.md) (accessed 2026-11-08)
 
 ## Contact
 
@@ -438,13 +438,13 @@ Sources: [1](https://www.phybench.cn/assets/models.BcYON1m8.js) (accessed 2026-1
 
 - contact@phybench.cn
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
 https://github.com/phybench-official/phybench/issues
 
-Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/phybench-official/phybench) (accessed 2026-11-08)
 
 ### 官方社交渠道
 
@@ -452,32 +452,23 @@ Unverified
 
 Note: This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， ) ; [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08); [3](https://phybench-official.github.io/phybench-demo/) (accessed 2026-11-08)
 
 ### 联系方式收录原则
 
 Benchmark Constitution includes only project contact channels that the paper or the official site has made public, and it does not collect private information; this is not a certification of an external site’s privacy policy.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-08， )
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-08)
 
 ## Original files
 
 ### 既存论文原件
 
-```json
-{
-  "id": "1th7Nj6oMc57Vo4_5sI4dj0H49qUV6vXv"
-  "webViewLink": "
-}
-```
-
-Sources: [1](
-
 ### 原始PDF地址
 
 https://arxiv.org/pdf/2504.16074
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### 下载SHA-256
 
@@ -485,7 +476,7 @@ Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， ) ; [2](h
 
 Note: Checksum of the bytes downloaded on 2026-11-08. Nothing was overwritten or uploaded, so this does not establish that an existing original is the same version.
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### 下载字节数
 
@@ -493,24 +484,9 @@ Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
 3176798
 ```
 
-Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08， )
-
-### 既存文件夹
-
-```json
-{
-  "id": "17nuSHtwRYMuAmwkNgmNPXbyEQBgVSad4"
-  "webViewLink": "
-}
-```
-
-Sources: [1](
+Sources: [1](https://arxiv.org/pdf/2504.16074) (accessed 2026-11-08)
 
 ### Other documents
-
-- {"kind": "Chinese introduction", "id": "1xW0FIsNHTyQRsVJSlfHurHtXz1x49kgi9F1noscVxto", "webViewLink": "
-
-Sources: [1](
 
 ## Changelog
 
@@ -518,4 +494,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2504.16074) (accessed 2026-11-08)

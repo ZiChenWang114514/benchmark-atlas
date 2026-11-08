@@ -40,7 +40,7 @@ export function localizeData<T>(value: T, locale: Locale, parentKey = ''): T {
   if (value && typeof value === 'object') {
     const out: Record<string, unknown> = {};
     for (const [key, item] of Object.entries(value as Record<string, unknown>)) {
-      if (key === 'sources' || key === 'url' || key === 'webViewLink') {
+      if (key === 'sources' || key === 'url') {
         out[key] = item;
         continue;
       }

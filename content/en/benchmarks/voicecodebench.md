@@ -12,7 +12,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 VoiceCodeBench
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Full name
 
@@ -20,13 +20,13 @@ VoiceCodeBench
 
 > The official name is kept; the paper title is not fabricated as a full name.
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Benchmark version
 
 A public test-only set; the release is identified by the HF repository commit and dataset revision, metadata schema version 1. Paper v2 changes WER and the set of baseline systems, and does not change the recordings, the annotations, or the definitions of CTEM and TSR.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08  ) ; [2](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -36,7 +36,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 ### Release date
 
-- **paper_first_submission_kst**：2026-08-29
+- **paper_first_submission**：2026-08-29
 - **date_type**：First submission of the paper; not the same as the first release of the dataset
 
 Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
@@ -47,19 +47,19 @@ Speech
 
 > Benchmark Constitution editorial classification.
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Field tags
 
 - 语音
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### License
 
 Non-audio materials are MIT; the audio adds a prohibition on voice cloning, and the full LICENSE must be read.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07).
 
 ### Paper
 
@@ -83,7 +83,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 https://www.vals.ai/benchmarks/voice-code-bench
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Paper title
 
@@ -167,7 +167,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 1,482 entities were audited; each recording is checked for errors of reading aloud and for serious problems of audio quality, and a recording that is rejected is made again. Human audit agreed completely with 200 verifier decisions on a stratified sample, but the audit covers only the original 12 systems and cannot prove that the judge has zero error on 23 systems.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08).
 
 ### 去污染与泄漏防范
 
@@ -181,7 +181,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 300 WAV recordings, 5.587 hours, 85 speakers, 1482 entities, 26 types, and 8 workflow domains.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07).
 
 ### 任务形式
 
@@ -206,7 +206,7 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 light has 30 segments, standard 114 segments, dense 93 segments, and stress 63 segments; they increase with text length, entity count, and interference. The artificial quotas are diagnostic coverage, not production incidence; the target word-count interval in the datasheet and the actual word-count range in the paper are read separately.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08).
 
 ### Public and hidden splits
 
@@ -238,13 +238,13 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 scripts and scoring/reproduce_release.sh on HF; Vals ported them to Valkyrie.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench) (accessed 2026-11-07).
 
 ### 可比性提示
 
 The author's current CSV with 23 configurations, the v2 paper with 19 configurations, the frozen paper_results.csv with 12 configurations, and Vals with 20 configurations are on separate tracks. Both v2 and the current implementation use format-invariant WER. The difference between Vals and v2 cannot be attributed to the WER definition in v1. Model, endpoint, and streaming settings differ. Real-time total latency includes playback at speaking rate, and TTFP is reported separately.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08  ) ; [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08  ) ; [5](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08); [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08); [5](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ## Current status
 
@@ -252,7 +252,7 @@ Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08).
 
 ### 数据版本与当前状态
 
@@ -262,35 +262,35 @@ Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08  ) ; [2](htt
 - **frozen_paper_results_csv_rows**：12
 - **note**：The README and the current CSV, the v2 paper, the frozen paper_results.csv, and datasheet(13) are not the same set of models; a change in the set of models is not treated as newly added recordings.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08  ) ; [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [5](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08); [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [5](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08).
 
 ### 论文修订与H2证据
 
 - **revisions**：- - **version**：v1
-    - **date_kst**：2026-08-29
-  - - **version**：v2
-    - **date_kst**：2026-09-12
+ - **date**：2026-08-29
+ - - **version**：v2
+ - **date**：2026-09-12
 - **note**：The paper revision time cannot be treated as the data release date. Existing 2026-H2 evidence retains the original collection date.
 
-Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08  ) ; [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### 饱和程度
 
 The highest TSR in the authors' current CSV is 0.6866666666666666, which the README displays as 68.7%. There are still recordings on which at least one key entity fails to be recovered. TSR over a whole passage is not saturated. A high score on some numeric kind of entity is not used to infer that ASR ability as a whole has been solved.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08  ) ; [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08); [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08).
 
 ### 污染、冲突与限制
 
 Public labels do not support a hidden leaderboard. Training or custom adaptation would break the validity of the test. v1 has 12 configurations and ordinary acoustic-reference WER. v2 has 19 configurations and format-invariant WER, and the correlation coefficients were corrected from −0.73/−0.73 to −0.28/−0.22. The current README and CSV have 23 systems, while the frozen paper_results.csv still has 12 rows and the datasheet writes 13. They are recorded separately, and the lag in the documentation is not concealed. The Vals methods page still describes the historical paper as "12 paper baselines / strict WER," and that description cannot be used to interpret the 19-configuration results of v2.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08  ) ; [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08  ) ; [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [5](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08  ) ; [6](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08); [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08); [4](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [5](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08); [6](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### 后续工作与衍生
 
 This project treats recovery of exact values as a supplement to general WER. The official data card and the paper discuss related work such as ContextASR-Bench, and they do not treat that work as a version of this collection. Vals/Valkyrie is an external evaluation port, not a newly added dataset.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08  ) ; [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08); [3](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08).
 
 ## Leaderboard snapshot
 
@@ -298,19 +298,19 @@ Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Official leaderboard
 
 https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08).
 
 ### 第三方覆盖
 
 https://www.vals.ai/benchmarks/voice-code-bench
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### 结果快照
 
@@ -563,13 +563,13 @@ Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-
 | — | Inworld STT 1 | 33.9 % | CTEM | streaming；2026-09-12；https://arxiv.org/pdf/2608.28916 |
 | — | Inworld STT 1 | 6.3 % | TSR | streaming；2026-09-12；https://arxiv.org/pdf/2608.28916 |
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08  ) ; [3](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08  ) ; [4](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08); [3](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08); [4](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08).
 
 ### Coverage note
 
 Four source tracks contain 222 structured metric values in total: 23 configurations in the current author CSV, 12 in the frozen CSV, 19 in the v2 paper, and 20 models on Vals together with their CTEM and WAcc charts. The original precision, the streaming marks, and the source dates are kept. The update time of the Vals page, 2026-09-24, is not the update time of the author CSV. A rank inside one track cannot be interpreted across tracks.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08  ) ; [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08  ) ; [4](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/results.csv) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/baselines/paper_results.csv) (accessed 2026-11-08); [3](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08); [4](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ## Contact
 
@@ -586,7 +586,7 @@ https://huggingface.co/datasets/besimple-ai/voice-code-bench/discussions
 
 > The project code is hosted on HF and is not claimed to be GitHub Issues; the official dataset card requires reproduction information to be provided through issues and PRs.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08).
 
 ### 官方讨论渠道
 
@@ -594,13 +594,13 @@ Unverified
 
 > The listed materials have been checked, but this field has not yet been precisely verified; this does not mean the official source has not published it.
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### 隐私与数据使用
 
 People who made the recordings took part for pay and consented to publication. Only anonymous IDs and coarse-grained attributes are made public. A voiceprint may still identify a person. Cloning a voice is prohibited, and the material is not to be used for identity recognition, biometric modeling, demographic profiling, or an attempt at re-identification. Script values are synthetic or retained ranges, not records of a private account.
 
-Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/LICENSE) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/DATASET_CARD.md) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/LICENSE) (accessed 2026-11-08).
 
 ## Original files
 
@@ -618,13 +618,13 @@ Source: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08).
 
 > Original bytes of the PDF downloaded again. The existing copy was not overwritten.
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08).
 
 ### 字节数
 
 454778
 
-Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2608.28916) (accessed 2026-11-08).
 
 ### Folder
 
@@ -632,14 +632,14 @@ Unverified
 
 > The listed materials have been checked, but this field has not yet been precisely verified; this does not mean the official source has not published it.
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### Other documents
 
 - - **type**：Official web-page methods and leaderboard (not a PDF)
-  - **url**：https://www.vals.ai/benchmarks/voice-code-bench
+ - **url**：https://www.vals.ai/benchmarks/voice-code-bench
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ### 原文归档
 
@@ -647,18 +647,16 @@ Unverified
 
 > Not uploaded within the scope of this batch; this is not an official Not disclosed.
 
-Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08 ).
+Sources: [1](https://www.vals.ai/benchmarks/voice-code-bench) (accessed 2026-11-08).
 
 ## Changelog
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
+ - **change**：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2608.28916) (accessed 2026-11-08); [2](https://huggingface.co/datasets/besimple-ai/voice-code-bench/raw/main/README.md) (accessed 2026-11-08).

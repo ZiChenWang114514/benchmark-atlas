@@ -52,7 +52,7 @@ Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 ```json
 [
-  "Code repair"
+ "Code repair"
 ]
 ```
 
@@ -114,16 +114,16 @@ Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 ```json
 [
-  "Muennighoff, Niklas"
-  "Liu, Qian"
-  "Zebaze, Armel"
-  "Zheng, Qinkai"
-  "Hui, Binyuan"
-  "Zhuo, Terry Yue"
-  "Singh, Swayam"
-  "Tang, Xiangru"
-  "von Werra, Leandro"
-  "Longpre, Shayne"
+ "Muennighoff, Niklas"
+ "Liu, Qian"
+ "Zebaze, Armel"
+ "Zheng, Qinkai"
+ "Hui, Binyuan"
+ "Zhuo, Terry Yue"
+ "Singh, Swayam"
+ "Tang, Xiangru"
+ "von Werra, Leandro"
+ "Longpre, Shayne"
 ]
 ```
 
@@ -205,8 +205,8 @@ Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 ```json
 [
-  "文本"
-  "源代码"
+ "文本"
+ "源代码"
 ]
 ```
 
@@ -216,12 +216,12 @@ Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 ```json
 [
-  "Python"
-  "JavaScript"
-  "Java"
-  "Go"
-  "C++"
-  "Rust"
+ "Python"
+ "JavaScript"
+ "Java"
+ "Go"
+ "C++"
+ "Rust"
 ]
 ```
 
@@ -277,41 +277,39 @@ Sources: [1](https://raw.githubusercontent.com/bigcode-project/octopack/main/REA
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-08 ) ; [2](https://github.com/bigcode-project/octopack) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-08); [2](https://github.com/bigcode-project/octopack) (accessed 2026-11-08).
 
 ### 最新数据状态
 
 ```json
 {
-  "version": "HumanEvalFix within HumanEvalPack; 6 languages × 164 questions"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.19134v1"
-      "date": "2026-09-16"
-      "note": "ScienceIDE §3.3 and Appendix 11.1 actually use code-repair tasks, including HumanEvalFix JavaScript, to evaluate transfer from training on scientific trajectories."
-    }
-  ]
+ "version": "HumanEvalFix within HumanEvalPack; 6 languages × 164 questions"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.19134v1"
+ "date": "2026-09-16"
+ "note": "ScienceIDE §3.3 and Appendix 11.1 actually use code-repair tasks, including HumanEvalFix JavaScript, to evaluate transfer from training on scientific trajectories."
+ }
+ ]
 }
 ```
 
 > Active H2 evidence distinguishes actual evaluation, third-party tracking, and academic citation alone; a citation is not used to infer an actual run.
 
-Sources: [1](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-07 ) ; [2](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-07); [2](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 ### 论文修订历史
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2023-08-14"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-02-18"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2023-08-14"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-02-18"
+ }
 ]
 ```
 
@@ -343,7 +341,7 @@ Sources: [1](https://arxiv.org/abs/2308.07124) (accessed 2026-11-07).
 
 2026-11-08 (collection date, not a run date or a leaderboard-update date)
 
-Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08 ) ; [2](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-08).
 
 ### 官方结果入口
 
@@ -363,226 +361,226 @@ Sources: [1](https://github.com/bigcode-project/octopack) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "47.0"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Python."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "WizardCoder"
-    "score": "31.8"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Python."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "OctoCoder"
-    "score": "30.4"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Python."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "48.2"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "WizardCoder"
-    "score": "29.5"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "OctoCoder"
-    "score": "28.4"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "50.0"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Java."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "WizardCoder"
-    "score": "30.7"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Java."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "OctoCoder"
-    "score": "30.6"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Java."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "50.6"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / Go"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "WizardCoder"
-    "score": "30.4"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / Go"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "OctoCoder"
-    "score": "30.2"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / Go"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "47.6"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / C++"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "OctoCoder"
-    "score": "26.1"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / C++"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "WizardCoder"
-    "score": "18.7"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper Table 2 HumanEvalFixTests / C++"
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "43.3"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "OctoCoder"
-    "score": "16.5"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "WizardCoder"
-    "score": "13.0"
-    "metric": "zero-shot pass@1 (%)"
-    "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
-    "source_url": "https://arxiv.org/pdf/2308.07124"
-    "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
-    "source_date": "Paper v2; actual API run date Unverified"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "model": "The ScienceIDE 4B SFT training setting (the exact checkpoint is Unverified)."
-    "result": "A relative improvement of 10.98 percentage points on HumanEvalFix JavaScript"
-    "metric": "The paper reports relative improvement, not absolute scores"
-    "benchmark_version": "HumanEvalFix JS"
-    "result_type": "H2 academic experiment"
-    "source_date": "2026-09-16"
-    "collected_at": "2026-11-07 "
-    "track": "ScienceIDE H2 academic experiment (relative improvement, not an absolute leaderboard score)"
-    "snapshot_date": "2026-11-07 (historical evidence retained; this article was not reopened)"
-    "rank": null
-  }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "47.0"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Python."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "WizardCoder"
+ "score": "31.8"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Python."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "OctoCoder"
+ "score": "30.4"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Python."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "48.2"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "WizardCoder"
+ "score": "29.5"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "OctoCoder"
+ "score": "28.4"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / JavaScript"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "50.0"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Java."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "WizardCoder"
+ "score": "30.7"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Java."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "OctoCoder"
+ "score": "30.6"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Java."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "50.6"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / Go"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "WizardCoder"
+ "score": "30.4"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / Go"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "OctoCoder"
+ "score": "30.2"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / Go"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "47.6"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / C++"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "OctoCoder"
+ "score": "26.1"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / C++"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "WizardCoder"
+ "score": "18.7"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper Table 2 HumanEvalFixTests / C++"
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "43.3"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "OctoCoder"
+ "score": "16.5"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "WizardCoder"
+ "score": "13.0"
+ "metric": "zero-shot pass@1 (%)"
+ "track": "Original paper, Table 2, HumanEvalFixTests / Rust."
+ "source_url": "https://arxiv.org/pdf/2308.07124"
+ "result_type": "Historical baselines from the authors' paper; ranking within the listed three-model subset, not the current full leaderboard"
+ "source_date": "Paper v2; actual API run date Unverified"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "model": "The ScienceIDE 4B SFT training setting (the exact checkpoint is Unverified)."
+ "result": "A relative improvement of 10.98 percentage points on HumanEvalFix JavaScript"
+ "metric": "The paper reports relative improvement, not absolute scores"
+ "benchmark_version": "HumanEvalFix JS"
+ "result_type": "H2 academic experiment"
+ "source_date": "2026-09-16"
+ "collected_at": "2026-11-07 "
+ "track": "ScienceIDE H2 academic experiment (relative improvement, not an absolute leaderboard score)"
+ "snapshot_date": "2026-11-07 (historical evidence retained; this article was not reopened)"
+ "rank": null
+ }
 ]
 ```
 
-Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08 ) ; [2](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.19134v1) (accessed 2026-11-08).
 
 ### 覆盖与局限
 
 Exact per-language FixTests baselines from Table 2 of the original authors' paper are added. No independent live official overall leaderboard was found. ScienceIDE relative improvement keeps the earlier collection date and is listed on its own, and it is not converted to absolute pass@1. FixDocs must not be mixed into this track.
 
-Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08 ) ; [2](https://github.com/bigcode-project/octopack/blob/main/README.md) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08); [2](https://github.com/bigcode-project/octopack/blob/main/README.md) (accessed 2026-11-08).
 
 ## Contact
 
@@ -646,67 +644,25 @@ Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08).
 
 Sources: [1](https://arxiv.org/pdf/2308.07124) (accessed 2026-11-08).
 
-### 已有文件夹
-
-```json
-{
-  "id": "1xXVcvs2QJOirQEtIZUomvCncd0wm0nkK"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
-### 其他官方文档
-
-```json
-[
-  {
-    "type": "Chinese-language introductory Google Doc"
-    "id": "1VdSi5h_gTRKSEqG_HYOcUmV6YHox8eeex48YUrwHtUY"
-    "webViewLink": "
-  }
-]
-```
-
-> The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
-
-Sources: [1](https://github.com/bigcode-project/octopack) (accessed 2026-11-07 ) ; [2]( 2026-11-07).
-
-### 已有 PDF归档
-
-```json
-{
-  "id": "10-4Bu_ewHurkjd6393FPJH4XwOO8jXtn"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
 ## Changelog
 
 ### 历次核查
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://github.com/bigcode-project/octopack) (accessed 2026-11-07 ) ; [2](https://arxiv.org/abs/2308.07124) (accessed 2026-11-08 ) ; [3](https://github.com/bigcode-project/octopack) (accessed 2026-11-08).
-
+Sources: [1](https://github.com/bigcode-project/octopack) (accessed 2026-11-07); [2](https://arxiv.org/abs/2308.07124) (accessed 2026-11-08); [3](https://github.com/bigcode-project/octopack) (accessed 2026-11-08).

@@ -24,7 +24,7 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 LRB: a corpus of 413 questions; the current official web page evaluates only on the 208-question test. The 5 public questions, the 200 license-verifiable questions, and the 208 hidden test questions are kept separate.
 
-Sources: [1](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08 ) ; [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -50,8 +50,8 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  "法律"
-  "搜索"
+ "法律"
+ "搜索"
 ]
 ```
 
@@ -63,12 +63,12 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 {
-  "harness": "MIT，Copyright 2026 Vals AI, Inc."
-  "dataset": "The official site marks it Proprietary; 5 questions are public examples, and access to the rest requires separate approval or a license. The MIT license on the code cannot be used to infer that the complete question set is open."
+ "harness": "MIT，Copyright 2026 Vals AI, Inc."
+ "dataset": "The official site marks it Proprietary; 5 questions are public examples, and access to the rest requires separate approval or a license. The MIT license on the code cannot be used to infer that the complete question set is open."
 }
 ```
 
-Sources: [1](https://github.com/vals-ai/legal-research-bench/blob/main/LICENSE) (accessed 2026-11-08 ) ; [2](https://github.com/vals-ai/legal-research-bench/blob/main/README.md) (accessed 2026-11-08 ) ; [3](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
+Sources: [1](https://github.com/vals-ai/legal-research-bench/blob/main/LICENSE) (accessed 2026-11-08); [2](https://github.com/vals-ai/legal-research-bench/blob/main/README.md) (accessed 2026-11-08); [3](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
 
 ### 论文入口
 
@@ -120,10 +120,10 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  "Katrina Drozdov"
-  "Oliver Chen"
-  "Langston Nashold"
-  "Rayan Krishnan"
+ "Katrina Drozdov"
+ "Oliver Chen"
+ "Langston Nashold"
+ "Rayan Krishnan"
 ]
 ```
 
@@ -207,8 +207,8 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  "文本"
-  "Retrieved web pages and legal materials"
+ "文本"
+ "Retrieved web pages and legal materials"
 ]
 ```
 
@@ -270,31 +270,30 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08 ) ; [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
 
 ### 最新数据状态
 
 ```json
 {
-  "version": "The original LRB paper corpus of 413 questions; the current official site has a test track of 208 questions"
-  "official_page_updated": "2026-11-05"
-  "public": 5
-  "validation": 200
-  "test": 208
+ "version": "The original LRB paper corpus of 413 questions; the current official site has a test track of 208 questions"
+ "official_page_updated": "2026-11-05"
+ "public": 5
+ "validation": 200
+ "test": 208
 }
 ```
 
-Sources: [1](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08 ) ; [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
 
 ### 论文修订历史
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-10-01"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-10-01"
+ }
 ]
 ```
 
@@ -326,7 +325,7 @@ Sources: [1](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
 
 2026-11-08 (collection date, not a run date or a leaderboard-update date)
 
-Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
+Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
 
 ### 官方结果入口
 
@@ -346,62 +345,62 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "Gemini 4 Carbon"
-    "score": 55.77
-    "metric": "All-Pass (%), Test on 208 questions"
-    "source_url": "https://www.vals.ai/benchmarks/legal_research"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-08 "
-    "result_type": "Official leaderboard snapshot"
-    "track": "Current official test of 208 questions / All-Pass"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "Muse Spark 1.3 Max"
-    "score": 55.29
-    "metric": "All-Pass (%), Test on 208 questions"
-    "source_url": "https://www.vals.ai/benchmarks/legal_research"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-08 "
-    "result_type": "Official leaderboard snapshot"
-    "track": "Current official test of 208 questions / All-Pass"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "Claude Opus 5"
-    "score": 55.29
-    "metric": "All-Pass (%), Test on 208 questions"
-    "source_url": "https://www.vals.ai/benchmarks/legal_research"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-08 "
-    "result_type": "Official leaderboard snapshot"
-    "track": "Current official test of 208 questions / All-Pass"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "Claude Opus 4.8"
-    "score": "42.9"
-    "metric": "All-Pass (%)"
-    "track": "The full set of 413 questions from the original paper / historical author experiments"
-    "source_url": "https://arxiv.org/pdf/2610.00609"
-    "result_type": "Historical results in the paper abstract, not the current official-site leaderboard of 208 questions"
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": 1
+ "model": "Gemini 4 Carbon"
+ "score": 55.77
+ "metric": "All-Pass (%), Test on 208 questions"
+ "source_url": "https://www.vals.ai/benchmarks/legal_research"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-08 "
+ "result_type": "Official leaderboard snapshot"
+ "track": "Current official test of 208 questions / All-Pass"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "Muse Spark 1.3 Max"
+ "score": 55.29
+ "metric": "All-Pass (%), Test on 208 questions"
+ "source_url": "https://www.vals.ai/benchmarks/legal_research"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-08 "
+ "result_type": "Official leaderboard snapshot"
+ "track": "Current official test of 208 questions / All-Pass"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "Claude Opus 5"
+ "score": 55.29
+ "metric": "All-Pass (%), Test on 208 questions"
+ "source_url": "https://www.vals.ai/benchmarks/legal_research"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-08 "
+ "result_type": "Official leaderboard snapshot"
+ "track": "Current official test of 208 questions / All-Pass"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "Claude Opus 4.8"
+ "score": "42.9"
+ "metric": "All-Pass (%)"
+ "track": "The full set of 413 questions from the original paper / historical author experiments"
+ "source_url": "https://arxiv.org/pdf/2610.00609"
+ "result_type": "Historical results in the paper abstract, not the current official-site leaderboard of 208 questions"
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
-Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
+Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
 
 ### 覆盖与局限
 
 The official website states explicitly Updated 11/5/2026; that is the date on which the page was updated, and it is not necessarily the run date of each model. The current leaderboard for the test of 208 questions is retained, and the historical 42.9% on the 413 questions in the paper is listed separately; the two cannot be compared as one ranking.
 
-Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
+Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2610.00609) (accessed 2026-11-08).
 
 ## Contact
 
@@ -471,18 +470,18 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  {
-    "type": "Official dataset card/methods entry"
-    "url": "https://github.com/vals-ai/legal-research-bench"
-  }
-  {
-    "type": "Public code documentation"
-    "url": "https://github.com/vals-ai/legal-research-bench"
-  }
+ {
+ "type": "Official dataset card/methods entry"
+ "url": "https://github.com/vals-ai/legal-research-bench"
+ }
+ {
+ "type": "Public code documentation"
+ "url": "https://github.com/vals-ai/legal-research-bench"
+ }
 ]
 ```
 
-Sources: [1](https://github.com/vals-ai/legal-research-bench) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08).
+Sources: [1](https://github.com/vals-ai/legal-research-bench) (accessed 2026-11-08); [2](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08).
 
 ### 已有 PDF归档
 
@@ -498,18 +497,15 @@ Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07 ) ; [2](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08 ) ; [3](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).
-
+Sources: [1](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-07); [2](https://arxiv.org/abs/2610.00609) (accessed 2026-11-08); [3](https://www.vals.ai/benchmarks/legal_research) (accessed 2026-11-08).

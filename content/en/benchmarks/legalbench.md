@@ -1,5 +1,5 @@
 # LegalBench
-> Verification: 2026-11-08. Existence has been verified; a recently popular newly created entry, with markers retained on fields that are not verified; trending: B
+> Verification: 2026-11-08.
 
 LegalBench is not one unified legal examination paper. It is a collection of 162 tasks organized around six kinds of legal reasoning. The original classification uses balanced accuracy, and rule application also includes human review by people with a legal background; the Accuracy ranking on Vals is another evaluation implementation. In use, the task, the prompt, and the license are settled first, and only then is a total score discussed.
 

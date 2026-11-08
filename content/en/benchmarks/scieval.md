@@ -12,7 +12,7 @@ Guide source: [Official materials](https://bai-scieval.duiopen.com/#/) (accessed
 
 SciEval
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Full name
 
@@ -20,25 +20,25 @@ SciEval
 
 Note: The official name is used; when no verified expansion of the full name exists, the original name is retained, and the title of the paper is not mistaken for the full name of the benchmark.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Benchmark version
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Paper version
 
 v2; latest submission 2024-11-07
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### Release date
 
 2023-08-25 (first arXiv submission; the date the data went online is not inferred).
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,7 +46,7 @@ Physics
 
 Note: Benchmark Constitution editorial filing. A cross-disciplinary entry is counted only in its main section. Other subjects are found through tags.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### Field tags
 
@@ -54,43 +54,43 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
 - 化学
 - 生物与医学
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 许可与适用范围
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Paper
 
 https://arxiv.org/abs/2308.13149
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Code repository
 
 https://github.com/OpenDFM/SciEval
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 数据地址
 
 https://huggingface.co/datasets/OpenDFM/BAI-SciEval
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Official homepage
 
 https://bai-scieval.duiopen.com/#/
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08)
 
 ### Paper title
 
 SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ## Origin and maintenance
 
@@ -100,13 +100,13 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 Note: Based primarily on paper author affiliations and the official team description; this is not used to infer legal ownership or a sole initiator. The text has explicitly marked the formal initiating relationship as unverified.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 合作机构/署名单位
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Authors
 
@@ -119,19 +119,19 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 - Chen, Lu
 - Yu, Kai
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 当前维护入口
 
 The official OpenDFM/SciEval repository and the BAI-SciEval site; the paper team is from the X-LANCE laboratory at Shanghai Jiao Tong University.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### Funders
 
 China NSFC projects 92370206, U23B2057, 62106142, and 62120106006; Shanghai Municipal Science and Technology Major Project 2021SHZDZX0102.
 
-Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ## Design goals
 
@@ -139,13 +139,13 @@ Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
 
 Scientific research ability is evaluated at the levels of basic knowledge, application, scientific computing, and research ability, addressing the limits of static objective questions.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Design background
 
 Scientific research ability is evaluated at the levels of basic knowledge, application, scientific computing, and research ability, addressing the limits of static objective questions.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ## Construction
 
@@ -153,31 +153,31 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 A multidimensional scientific evaluation built according to cognitive levels, including objective questions, subjective questions, and a dynamic subset generated from scientific principles.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 出题背景
 
 The author team of the X-LANCE laboratory at Shanghai Jiao Tong University; the source data include replies from the Socratic community, expert annotation from MedQA and from PubMedQA, and reagent selection from ChemLLMBench, and it is not claimed that every question was originally written by an expert.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### Review process
 
 A multidimensional scientific evaluation built according to cognitive levels, including objective questions, subjective questions, and a dynamic subset generated from scientific principles.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Quality control
 
 Socratic community question answering is preprocessed by rules; GPT-4 tidies the question stem, simplifies the standard answer, and generates three distractors. The authors manually check the generated content.
 
-Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ### 去污染措施
 
 Dynamic chemistry and physics data reduce potential leakage by regenerating questions; the README states explicitly that the dynamic files differ from the data used for the original leaderboard.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ## Data format
 
@@ -185,37 +185,37 @@ Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
 
 The official README outlines about 18,000 objective questions and a small number of subjective questions; Table 1 of the paper writes 15,901, the subject subtotals in Table 2 list 4,830/10,035/1,657, and the paper separately describes 2,000 dynamic chemistry questions and 890 physics questions. The scope and the totals disagree. The original accounting is kept, and the exact deduplicated total number of questions is Unverified.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， ) ; [2](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07); [2](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ### Question types
 
 The official repository states about 18,000 objective questions and a small number of subjective questions; the approximate figure is not treated as an exact count.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### Modalities
 
 English text questions, options, numerical values, and open-ended experimental solutions; this is not an image-based science question-answering set.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### Languages
 
 English (the paper explicitly calls it an English benchmark).
 
-Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ### Difficulty
 
 The capability framework is mapped to the six cognitive levels of Bloom, Remember, Understand, Apply, Analyze, Evaluate, and Create; this is the cognitive range of the tasks, not a distribution of difficulty calibrated question by question.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 数据划分
 
 5 examples are drawn from each source, each ability, and each subject in order to build dev for few-shot use, and the remaining static questions are split 1:9 into valid and test; the repository also publishes test-local, which includes reference answers, and test cannot be treated as still completely hidden.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [2](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [2](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -223,31 +223,31 @@ Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 Static questions and dynamic physics questions use accuracy; dynamic chemistry uses exact match, numerical MSE, and string BLEU separately; experimental data are scored by humans.
 
-Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ### Scoring
 
 Static questions are judged against the standard answer; dynamic numerical questions in chemistry use MSE, and the absence of a numerical prediction is set to 1×10^10 as the paper specifies; open experimental questions are evaluated by people. Different metrics are not combined into a single total score.
 
-Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2308.13149) (accessed 2026-11-07)
 
 ### 提示与运行设置
 
 The dev set is reserved for few-shot; make_few_shot.py is used to generate the examples. Dynamic questions must use eval_dynamic.py on their own.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 评测脚本
 
 Static questions use eval.py; dynamic questions use eval_dynamic.py; the format for submitted static predictions includes id and pred.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 可比性提醒
 
 Different data versions, subsets, prompts, tool permissions, and model snapshots must not be mixed in a direct comparison; scores in historical papers do not represent the current SOTA.
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ## Current status
 
@@ -255,38 +255,38 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 The dynamic files dynamic_chem.json and dynamic_phy.json are regenerated versions; the official side promises regular updates, and the latest update date or tag has not been confirmed.
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at_kst": "2023-08-25", "timezone": ""}
-- {"version": "v2", "submitted_at_kst": "2024-11-07", "timezone": ""}
+- {"version": "v1", "submitted_at": "2023-08-25"}
+- {"version": "v2", "submitted_at": "2024-11-07"}
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### 饱和程度
 
 In Table 4 of paper v2, the highest static Avg under the AO setting is 73.93%, but dynamic chemistry, physics, and experiment scores have different units and different performance; this historical snapshot is not enough to claim that every current task is saturated.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 The static sources include public Socratic, MedQA, PubMedQA, and ChemLLMBench, with training exposure and overlap across benchmarks. The current regenerated version of the dynamic questions differs from the original leaderboard. The preset table on the official front end conflicts numerically with paper v2: GPT-4 dynamic physics is 30.22 against 25.84, the Claude-v1.3 experiment is 87.50 against 85.73, and the Claude-instant-v1.1 experiment is 85.73 against 87.50. Both sets are primary sources, but the protocol and the revision are not aligned, and one cannot silently overwrite the other.
 
-Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08， )
+Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08)
 
 ### Derivative benchmarks
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -294,19 +294,19 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08 (access date, not the experiment run date)
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08)
 
 ### 官方榜单入口
 
 https://bai-scieval.duiopen.com/#/
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-08)
 
 ### 第三方入口
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -352,13 +352,13 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 - {"rank": "No cross-protocol rank", "model": "文心一言", "score": 61.12, "metric": "Static Avg accuracy, dynamic component scores, and experiment scores are defined by track; they are not combined into a total score", "track": "The historical table labData preset in the official front end; unread user submissions on the server are not included.", "source_url": "https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "Exact transcription of the source table; not a rerun by this repository", "source_row": 5, "reported_metrics": {"bio_1": 90, "bio_2": 76, "bio_3": 85, "bio_4": 98.33, "che_1": 15, "che_2": 66, "che_3": 50, "che_4": 65, "phy_1": 78, "phy_2": 61.43, "phy_3": 0, "phy_4": 48.75, "avgScore": 61.12}, "source_modify_time": "2023-07-04", "provenance": "A dagger marks the project team's own test; the official site allows zero/few-shot, the preset rows do not list a specific prompt separately, and they are not merged directly with the paper's AO track"}
 - {"rank": "No cross-protocol rank", "model": "星火", "score": 33.69, "metric": "Static Avg accuracy, dynamic component scores, and experiment scores are defined by track; they are not combined into a total score", "track": "The historical table labData preset in the official front end; unread user submissions on the server are not included.", "source_url": "https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "Exact transcription of the source table; not a rerun by this repository", "source_row": 6, "reported_metrics": {"bio_1": 0, "bio_2": 60, "bio_3": 20, "bio_4": 72, "che_1": 15, "che_2": 60, "che_3": 30, "che_4": 36, "phy_1": 32, "phy_2": 25.71, "phy_3": 28.57, "phy_4": 25, "avgScore": 33.69}, "source_modify_time": "2023-07-04", "provenance": "A dagger marks the project team's own test; the official site allows zero/few-shot, the preset rows do not list a specific prompt separately, and they are not merged directly with the paper's AO track"}
 
-Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 榜单覆盖边界
 
 The official-site HTML, the public app script, and the Leaderboard component were opened. The 10 preset static rows, the 10 dynamic rows, and the 6 experiment rows were restored. The 15 rows of Table 4 in paper v2 (9 metrics) are listed separately, for 41 source records in total rather than 41 distinct models. User-submitted results on the server were not collected and are not presented as a complete live leaderboard. Every preset modifyTime is 2023-07-04. That is a source field, and a run date is not inferred from it. Dynamic physics on the official site has GPT-4 = 30.22, while the paper has AO = 25.84. In the experiment table, the order of avg for the two Claude model types is the reverse of the paper. Each source is retained, and they are not silently unified.
 
-Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://bai-scieval.duiopen.com/js/app.1208b1fd.js) (accessed 2026-11-08， )
+Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://bai-scieval.duiopen.com/js/app.1208b1fd.js) (accessed 2026-11-08)
 
 ## Contact
 
@@ -368,40 +368,35 @@ Sources: [1](https://bai-scieval.duiopen.com/js/chunk-317d3319.a151eb91.js) (acc
 - chenlusz@sjtu.edu.cn
 - kai.yu@sjtu.edu.cn
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
 https://github.com/OpenDFM/SciEval/issues
 
-Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 官方社交账号
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://github.com/OpenDFM/SciEval) (accessed 2026-11-07)
 
 ### 联系方式原则
 
 Only contact details published in the paper, on the official site, or in the repository are used; private channels are not collected.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07， )
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07)
 
 ## Original files
 
 ### 论文原件
 
-- **id**：1aNsxCopJcf36Wq0iVcm-L0C_N1Nj9Azb
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07， )
-
 ### 原始PDF地址
 
 https://arxiv.org/pdf/2308.13149
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 原始文件SHA-256
 
@@ -409,26 +404,15 @@ Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](h
 
 Note: Byte count of the original PDF actually downloaded. The existing file is not changed on that basis.
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### 原始文件字节数
 
 635900
 
-Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， )
-
-### Folder
-
-- **id**：17N1RHzBIZleD00vSryKLclKJsELw0Tta
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08)
 
 ### Other documents
-
-- {"kind": "Chinese introduction", "id": "1mS6slPb-VBcw2D8Ecrgt0YkF7RZWB11G2snXCZcgOeY", "webViewLink": "
-
-Sources: [1]( 2026-11-07， )
 
 ## Changelog
 
@@ -436,4 +420,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08， ) ; [3](https://bai-scieval.duiopen.com/#/) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2308.13149) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2308.13149) (accessed 2026-11-08); [3](https://bai-scieval.duiopen.com/#/) (accessed 2026-11-08)

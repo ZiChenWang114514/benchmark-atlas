@@ -1,6 +1,6 @@
 # Surface Evolver Bench
 
-> Benchmark Constitution，深度复核 2026-11-08。已核验存在；11节研究快照；note: trending: B；未知字段保留待核实
+> Benchmark Constitution，深度复核 2026-11-08。
 
 Surface Evolver Bench要求模型提交能被物理模拟器执行的.fe文件：几何、方向、接触角、体积和能量必须相互一致。评分不是模型裁判，而是确定性静态检查、隐藏模拟和数值容差。本次直接取得官方聚合JSON，区分95%的部分得分与87.5%的严格通过率，不再因交互图难读而留空。
 
@@ -54,9 +54,9 @@ Surface Evolver Bench
 
 ```json
 [
-  "材料"
-  "流体"
-  "科学代码"
+ "材料"
+ "流体"
+ "科学代码"
 ]
 ```
 
@@ -206,9 +206,9 @@ Yann Henon
 
 ```json
 [
-  "文本"
-  "Surface Evolver .fe文件"
-  "模拟器反馈"
+ "文本"
+ "Surface Evolver.fe文件"
+ "模拟器反馈"
 ]
 ```
 
@@ -278,20 +278,20 @@ Epoch展示mean score不是pass rate；harness文档和反馈环会显著影响�
 
 ```json
 {
-  "version": "待核实"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/benchmarks/surface-evolver-bench"
-      "date": "2026-11-07"
-      "note": "Epoch当前展示结果和协议；观察日，主要单一机构跟踪。"
-    }
-    {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
-      "date": "2026-10-09"
-      "note": "Epoch评审Not enough info；不代表质量合格。"
-    }
-  ]
+ "version": "待核实"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/benchmarks/surface-evolver-bench"
+ "date": "2026-11-07"
+ "note": "Epoch当前展示结果和协议；观察日，主要单一机构跟踪。"
+ }
+ {
+ "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+ "date": "2026-10-09"
+ "note": "Epoch评审Not enough info；不代表质量合格。"
+ }
+ ]
 }
 ```
 
@@ -458,20 +458,20 @@ https://github.com/yhenon/surface-evolver-llm-eval/issues
 
 ```json
 [
-  {
-    "type": "官方介绍/协议"
-    "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://github.com/yhenon/surface-evolver-llm-eval"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "官方介绍/协议"
+ "url": "https://yhenon.github.io/surface-evolver-llm-eval/"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://github.com/yhenon/surface-evolver-llm-eval"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "已打开一手材料"
+ "url": "https://yhenon.github.io/surface-evolver-llm-eval/data/aggregates.json"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -487,16 +487,14 @@ https://github.com/yhenon/surface-evolver-llm-eval/issues
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

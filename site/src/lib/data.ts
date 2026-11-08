@@ -18,8 +18,8 @@ export type IndexBenchmark = {
   summary: string;
   json: string;
   content: string;
-  drive_pdf?: { id?: string; webViewLink?: string } | string;
-  drive_intro?: { id?: string; webViewLink?: string; kind?: string };
+  drive_pdf?: { id?: string } | string;
+  drive_intro?: { id?: string; kind?: string };
   sources?: Source[];
   last_checked?: string;
   cited_2026h2?: boolean;
@@ -59,9 +59,9 @@ export type QualityReport = {
 };
 
 export type DriveManifest = {
-  root?: { webViewLink?: string };
-  constitution?: { webViewLink?: string };
-  master_sheet?: { webViewLink?: string };
+  root?: { id?: string };
+  constitution?: { id?: string };
+  master_sheet?: { id?: string };
 };
 
 export type BenchmarkFile = {

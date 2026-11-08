@@ -503,23 +503,20 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2024-06-27"
+            "date": "2024-06-27"
           }
         ],
         "continued_use_2026h2": [
           {
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-23",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-            "date_kst": "2026-10-23",
-            "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+            "note": "MMVistaReason v2 §4.1及表2实际评测 CharXiv（reasoning设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
           }
         ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。",
-        "arxiv_revisions_kst": [
+        "arxiv_revisions": [
           {
             "version": "v1",
-            "submitted_at_kst": "2024-06-27"
+            "submitted_at": "2024-06-27"
           }
         ]
       },
@@ -627,7 +624,7 @@
         {
           "rank": 2,
           "model": "o4 mini (high)",
-          "score": 72.0,
+          "score": 72,
           "metric": "accuracy (%)",
           "track": "官网CSV／val／reasoning overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
@@ -651,7 +648,7 @@
         {
           "rank": 1,
           "model": "o3 (high)",
-          "score": 95.0,
+          "score": 95,
           "metric": "accuracy (%)",
           "track": "官网CSV／val／descriptive overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
@@ -675,7 +672,7 @@
         {
           "rank": 3,
           "model": "GPT 4.5",
-          "score": 90.0,
+          "score": 90,
           "metric": "accuracy (%)",
           "track": "官网CSV／val／descriptive overall",
           "source_url": "https://charxiv.github.io/data/val_result.csv",
@@ -823,11 +820,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

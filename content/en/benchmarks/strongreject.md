@@ -50,7 +50,7 @@ Safety
 
 ```json
 [
-  "Harmful-request completion and refusal evaluation"
+ "Harmful-request completion and refusal evaluation"
 ]
 ```
 
@@ -112,17 +112,17 @@ Unverified
 
 ```json
 [
-  "Souly, Alexandra"
-  "Lu, Qingyuan"
-  "Bowen, Dillon"
-  "Trinh, Tu"
-  "Hsieh, Elvis"
-  "Pandey, Sana"
-  "Abbeel, Pieter"
-  "Svegliato, Justin"
-  "Emmons, Scott"
-  "Watkins, Olivia"
-  "Toyer, Sam"
+ "Souly, Alexandra"
+ "Lu, Qingyuan"
+ "Bowen, Dillon"
+ "Trinh, Tu"
+ "Hsieh, Elvis"
+ "Pandey, Sana"
+ "Abbeel, Pieter"
+ "Svegliato, Justin"
+ "Emmons, Scott"
+ "Watkins, Olivia"
+ "Toyer, Sam"
 ]
 ```
 
@@ -276,16 +276,14 @@ The current official documentation still describes six request categories and tw
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2024-02-16"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-08-27"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2024-02-16"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-08-27"
+ }
 ]
 ```
 
@@ -363,8 +361,8 @@ The validation statistics in Table 1 of the paper, including MAE for the nine au
 
 ```json
 [
-  "alexandrasouly@gmail.com"
-  "sdt@berkeley.edu"
+ "alexandrasouly@gmail.com"
+ "sdt@berkeley.edu"
 ]
 ```
 
@@ -414,76 +412,22 @@ https://arxiv.org/pdf/2402.10260
 
 [来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE"
-    "webViewLink": "
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://arxiv.org/abs/2402.10260"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/dsbowen/strong_reject"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://strong-reject.readthedocs.io/en/latest/"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[Source 1](https://arxiv.org/abs/2402.10260) (accessed 2026-11-08); [Source 2](https://github.com/dsbowen/strong_reject) (accessed 2026-11-08); [Source 3](https://strong-reject.readthedocs.io/en/latest/) (accessed 2026-11-08)
-
-### PDF归档
-
-```json
-{
-  "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ## Changelog
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

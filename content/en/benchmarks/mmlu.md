@@ -264,8 +264,6 @@ The basis of the original MMLU paper and the basis of the current HF release bot
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2020-09-08；- **timezone**：；- - **version**：v2；- **submitted_at**：2020-09-21；- **timezone**：；- - **version**：v3；- **submitted_at**：2021-01-13；- **timezone**：
-
 [来源](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）
 
 ### Saturation
@@ -344,7 +342,6 @@ Unverified
 
 [来源](https://raw.githubusercontent.com/hendrycks/test/master/README.md)（访问 2026-11-08）
 
-
 [来源](https://raw.githubusercontent.com/hendrycks/test/master/README.md)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -406,26 +403,6 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）
-
-### Folder
-
-- **id**：16jdkBY7vMWPeny-ZoCn5i4limN90OF26
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍；- **id**：10X_jNgeT4GCIeP3q17ZGinf7YmmYmD1g4wxlM6aLIOc；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1_7QVvJvbgngMAfsCYTyOLG7QjAa1NbO9
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

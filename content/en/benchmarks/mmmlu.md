@@ -25,8 +25,8 @@ Multilingual Massive Multitask Language Understanding
 
 ```json
 {
-  "release_name": "MMMLU (semantic version number not listed separately)"
-  "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
+ "release_name": "MMMLU (semantic version number not listed separately)"
+ "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
 }
 ```
 
@@ -202,12 +202,12 @@ Unverified
 
 ```json
 {
-  "base_test_items_per_locale": 14042
-  "translated_locales": 14
-  "total_translation_rows": 196588
-  "subjects_per_locale": 57
-  "hf_viewer_aggregate_rows": 393176
-  "count_method": "The 14 CSVs of one HF revision were downloaded one by one, and csv.DictReader and pandas.read_csv were each used as a check. The default configuration sums every language, and the viewer then counts each language configuration again. The figure 393176 is not a count of independent questions."
+ "base_test_items_per_locale": 14042
+ "translated_locales": 14
+ "total_translation_rows": 196588
+ "subjects_per_locale": 57
+ "hf_viewer_aggregate_rows": 393176
+ "count_method": "The 14 CSVs of one HF revision were downloaded one by one, and csv.DictReader and pandas.read_csv were each used as a check. The default configuration sums every language, and the viewer then counts each language configuration again. The figure 393176 is not a count of independent questions."
 }
 ```
 
@@ -259,7 +259,7 @@ After answers are normalized, a regular expression over multilingual answers ext
 
 ### 运行与提示设置
 
-The official MMLUEval(language=...) loads the CSV of the corresponding language; each question is zero-shot CoT, and the last line is required to be Answer: A/B/C/D; language defaults to EN-US, and a run on a translated set must name the language explicitly. Sampling for num_examples uses Random(0).
+The official MMLUEval(language=..) loads the CSV of the corresponding language; each question is zero-shot CoT, and the last line is required to be Answer: A/B/C/D; language defaults to EN-US, and a run on a translated set must name the language explicitly. Sampling for num_examples uses Random(0).
 
 [来源1](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源2](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源3](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）
 
@@ -289,9 +289,9 @@ MMMLU is OpenAI’s dataset of MMLU in professional human translation, not MMLU-
 
 ```json
 {
-  "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
-  "last_modified_kst": "2024-10-17"
-  "scope": "A public HF translation of MMMLU, not a new version of MMLU"
+ "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
+ "last_modified": "2024-10-17"
+ "scope": "A public HF translation of MMMLU, not a new version of MMLU"
 }
 ```
 
@@ -301,22 +301,22 @@ MMMLU is OpenAI’s dataset of MMLU in professional human translation, not MMLU-
 
 ```json
 {
-  "scope": "A revision of the paper for the MMLU parent questions; it is not presented as an independent MMMLU paper"
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2020-09-08"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2020-09-21"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2021-01-13"
-    }
-  ]
-  "mmmlu_repository_last_modified_kst": "2024-10-17"
+ "scope": "A revision of the paper for the MMLU parent questions; it is not presented as an independent MMMLU paper"
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2020-09-08"
+ }
+ {
+ "version": "v2"
+ "date": "2020-09-21"
+ }
+ {
+ "version": "v3"
+ "date": "2021-01-13"
+ }
+ ]
+ "mmmlu_repository_last_modified": "2024-10-17"
 }
 ```
 
@@ -456,158 +456,9 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 
 [来源1](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1OPPheSgFyaAe2V-nV5RJwvz34TO4r8qC"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g"
-    "webViewLink": "
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/abs/2009.03300"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/html/2610.11978v1"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/pdf/2009.03300"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/openai/simple-evals/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/openai/simple-evals/blob/main/common.py"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/openai/simple-evals/blob/main/mmlu_eval.py"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）；[来源5](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）；[来源6](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源7](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源10](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）；[来源11](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv)（访问 2026-11-08）；[来源12](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv)（访问 2026-11-08）；[来源13](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv)（访问 2026-11-08）；[来源14](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv)（访问 2026-11-08）；[来源15](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv)（访问 2026-11-08）；[来源16](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv)（访问 2026-11-08）；[来源17](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv)（访问 2026-11-08）；[来源18](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv)（访问 2026-11-08）；[来源19](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv)（访问 2026-11-08）；[来源20](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv)（访问 2026-11-08）；[来源21](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv)（访问 2026-11-08）；[来源22](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv)（访问 2026-11-08）；[来源23](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv)（访问 2026-11-08）；[来源24](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv)（访问 2026-11-08）
-
-### 原始PDF
-
-```json
-{
-  "id": "10nTX-hZcL0fXPaatAK5f_f47-_-daG2g"
-  "webViewLink": "
-}
-```
-
-> What is attached is the original MMLU paper cited by the data card, not a standalone MMMLU paper.
-
-[来源1]( 2026-11-07）
+；[来源2](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）；[来源5](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）；[来源6](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源7](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源10](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）；[来源11](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv)（访问 2026-11-08）；[来源12](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv)（访问 2026-11-08）；[来源13](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv)（访问 2026-11-08）；[来源14](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv)（访问 2026-11-08）；[来源15](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv)（访问 2026-11-08）；[来源16](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv)（访问 2026-11-08）；[来源17](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv)（访问 2026-11-08）；[来源18](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv)（访问 2026-11-08）；[来源19](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv)（访问 2026-11-08）；[来源20](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv)（访问 2026-11-08）；[来源21](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv)（访问 2026-11-08）；[来源22](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv)（访问 2026-11-08）；[来源23](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv)（访问 2026-11-08）；[来源24](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv)（访问 2026-11-08）
 
 ## Changelog
 
@@ -615,21 +466,18 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

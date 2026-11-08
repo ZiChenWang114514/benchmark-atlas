@@ -683,7 +683,7 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2024-07-18"
+          "submitted_at": "2024-07-18"
         }
       ],
       "sources": [
@@ -812,7 +812,7 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 3,
-          "subproblem_score_percent": 33.0
+          "subproblem_score_percent": 33
         },
         {
           "rank": "不设跨协议名次",
@@ -851,7 +851,7 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 6,
-          "subproblem_score_percent": 26.0
+          "subproblem_score_percent": 26
         },
         {
           "rank": "不设跨协议名次",
@@ -903,7 +903,7 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 10,
-          "subproblem_score_percent": 25.0
+          "subproblem_score_percent": 25
         },
         {
           "rank": "不设跨协议名次",
@@ -981,7 +981,7 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 16,
-          "subproblem_score_percent": 17.0
+          "subproblem_score_percent": 17
         },
         {
           "rank": "不设跨协议名次",
@@ -994,12 +994,12 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 17,
-          "subproblem_score_percent": 17.0
+          "subproblem_score_percent": 17
         },
         {
           "rank": "不设跨协议名次",
           "model": "Llama-3.1-70B-Chat",
-          "score": 0.0,
+          "score": 0,
           "metric": "主问题解决率（%）",
           "track": "原始SciCode官方历史榜；非AA子题均值",
           "source_url": "https://scicode-bench.github.io/leaderboard/",
@@ -1007,12 +1007,12 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "source_row": 18,
-          "subproblem_score_percent": 17.0
+          "subproblem_score_percent": 17
         },
         {
           "rank": "不设跨协议名次",
           "model": "Mixtral-8x22B-Instruct",
-          "score": 0.0,
+          "score": 0,
           "metric": "主问题解决率（%）",
           "track": "原始SciCode官方历史榜；非AA子题均值",
           "source_url": "https://scicode-bench.github.io/leaderboard/",
@@ -1025,7 +1025,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "Llama-3-70B-Chat",
-          "score": 0.0,
+          "score": 0,
           "metric": "主问题解决率（%）",
           "track": "原始SciCode官方历史榜；非AA子题均值",
           "source_url": "https://scicode-bench.github.io/leaderboard/",
@@ -1168,11 +1168,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

@@ -226,12 +226,6 @@ LongBench v2使用真实长材料上的四选一问题，重点是深层理解�
 
 **PDF字节数**：9951437 [S6](https://arxiv.org/pdf/2412.15204)
 
-**原有文件夹**：{"id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE", "webViewLink": " [S14](
-
-**其他材料**：[{"kind": "中文介绍", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": " [S15](
-
-**原有 PDF**：{"id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx", "webViewLink": " [S16](
-
 ## 变更记录
 
 - 2026-11-07，首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。

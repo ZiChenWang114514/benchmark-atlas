@@ -385,18 +385,18 @@
     },
     "paper_revision_history": {
       "value": {
-        "arxiv_revisions_kst": [
+        "arxiv_revisions": [
           {
             "version": "v1",
-            "submitted_at_kst": "2023-05-15"
+            "submitted_at": "2023-05-15"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2023-05-17"
+            "submitted_at": "2023-05-17"
           },
           {
             "version": "v3",
-            "submitted_at_kst": "2023-11-06"
+            "submitted_at": "2023-11-06"
           }
         ]
       },
@@ -489,7 +489,7 @@
         {
           "rank": 2,
           "model": "ChatGPT",
-          "score": 51.0,
+          "score": 51,
           "metric": "average accuracy (%)",
           "track": "原版test／0-shot answer-only／README历史",
           "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md",
@@ -685,11 +685,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

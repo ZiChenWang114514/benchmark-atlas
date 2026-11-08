@@ -50,9 +50,9 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 [
-  "Intuitive visual reasoning"
-  "Video understanding"
-  "Spatial/social reasoning"
+ "Intuitive visual reasoning"
+ "Video understanding"
+ "Spatial/social reasoning"
 ]
 ```
 
@@ -62,8 +62,8 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 {
-  "annotations": "MIT: prompts, reference answers, rubric, and taxonomy labels"
-  "media": "Images and video are not covered by the MIT license above; the rights remain with the original authors. HF states that they are provided only along with the benchmark for non-commercial research and evaluation, and users must follow the original media terms."
+ "annotations": "MIT: prompts, reference answers, rubric, and taxonomy labels"
+ "media": "Images and video are not covered by the MIT license above; the rights remain with the original authors. HF states that they are provided only along with the benchmark for non-commercial research and evaluation, and users must follow the original media terms."
 }
 ```
 
@@ -73,7 +73,7 @@ Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
 
 https://arxiv.org/abs/2610.08966
 
-Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08); [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08).
 
 ### Code
 
@@ -113,7 +113,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 Elorian; there is also a University of California, Santa Cruz author affiliation.
 
-Sources: [1](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08); [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
 
 ### Authors
 
@@ -161,7 +161,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 Original work by trained human annotators; questions and answers must be understandable by adult intuition and must not require professional academic training, and each question has at least three independent reviewers besides the author.
 
-Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08); [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
 
 ### Review process
 
@@ -199,8 +199,8 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 [
-  "图像"
-  "Video (no audio track, no subtitles)"
+ "图像"
+ "Video (no audio track, no subtitles)"
 ]
 ```
 
@@ -210,7 +210,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 The public prompts and reference answers, and the official prompts, are presented in English; complete language-distribution statistics are Unverified.
 
-Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08).
 
 ### Difficulty
 
@@ -242,7 +242,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 3 runs per model per question; native video is preferred, otherwise frames are sampled uniformly up to a limit of 500 frames and any stricter provider limit is followed; images keep their original resolution and are downsampled when necessary. The official-site overview states high or maximum output, but current leaderboard rows contain actual settings such as max and xhigh, which are kept per row rather than forcibly rewritten as all high.
 
-Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08 ) ; [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08); [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
 
 ### 官方脚本
 
@@ -264,7 +264,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08 ) ; [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08); [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
 
 ### 最新数据状态
 
@@ -276,16 +276,14 @@ Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-10-07"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2026-10-09"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-10-07"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2026-10-09"
+ }
 ]
 ```
 
@@ -297,7 +295,7 @@ Sources: [1](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08).
 
 The paper explicitly says that the benchmark is not yet saturated: the best score at first release was 53.6%, and the baseline of 20 human annotators was 93.1%; the current high on the official site is 55.40 ± 4.20, and the count of 25 models at first release cannot be treated as the number of rows on the current leaderboard of 29.
 
-Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08 ) ; [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08); [2](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
 
 ### 污染与已知问题
 
@@ -339,66 +337,66 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "Gemini-4-Argon (high)"
-    "score": "55.40 ± 4.20"
-    "metric": "Pass@1"
-    "result_type": "Official leaderboard snapshot"
-    "source_date": "Unverified (page does not mark a leaderboard update date)"
-    "collected_at": "2026-11-08 "
-    "source_url": "https://labs.scale.com/leaderboard/hss"
-    "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "GPT-6-Astra (max)"
-    "score": "53.60 ± 4.10"
-    "metric": "Pass@1"
-    "result_type": "Official leaderboard snapshot"
-    "source_date": "Unverified (page does not mark a leaderboard update date)"
-    "collected_at": "2026-11-08 "
-    "source_url": "https://labs.scale.com/leaderboard/hss"
-    "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "GPT-6.1-Sol (max)"
-    "score": "46.60 ± 3.80"
-    "metric": "Pass@1"
-    "result_type": "Official leaderboard snapshot"
-    "source_date": "Unverified (page does not mark a leaderboard update date)"
-    "collected_at": "2026-11-08 "
-    "source_url": "https://labs.scale.com/leaderboard/hss"
-    "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 4
-    "model": "Claude-Opus-5.5 (xhigh)"
-    "score": "44.60 ± 3.80"
-    "metric": "Pass@1"
-    "result_type": "Official leaderboard snapshot"
-    "source_date": "Unverified (page does not mark a leaderboard update date)"
-    "collected_at": "2026-11-08 "
-    "source_url": "https://labs.scale.com/leaderboard/hss"
-    "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 5
-    "model": "Muse Wonder 1.0 (max)"
-    "score": "43.70 ± 4.20"
-    "metric": "Pass@1"
-    "result_type": "Official leaderboard snapshot"
-    "source_date": "Unverified (page does not mark a leaderboard update date)"
-    "collected_at": "2026-11-08 "
-    "source_url": "https://labs.scale.com/leaderboard/hss"
-    "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": 1
+ "model": "Gemini-4-Argon (high)"
+ "score": "55.40 ± 4.20"
+ "metric": "Pass@1"
+ "result_type": "Official leaderboard snapshot"
+ "source_date": "Unverified (page does not mark a leaderboard update date)"
+ "collected_at": "2026-11-08 "
+ "source_url": "https://labs.scale.com/leaderboard/hss"
+ "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "GPT-6-Astra (max)"
+ "score": "53.60 ± 4.10"
+ "metric": "Pass@1"
+ "result_type": "Official leaderboard snapshot"
+ "source_date": "Unverified (page does not mark a leaderboard update date)"
+ "collected_at": "2026-11-08 "
+ "source_url": "https://labs.scale.com/leaderboard/hss"
+ "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "GPT-6.1-Sol (max)"
+ "score": "46.60 ± 3.80"
+ "metric": "Pass@1"
+ "result_type": "Official leaderboard snapshot"
+ "source_date": "Unverified (page does not mark a leaderboard update date)"
+ "collected_at": "2026-11-08 "
+ "source_url": "https://labs.scale.com/leaderboard/hss"
+ "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 4
+ "model": "Claude-Opus-5.5 (xhigh)"
+ "score": "44.60 ± 3.80"
+ "metric": "Pass@1"
+ "result_type": "Official leaderboard snapshot"
+ "source_date": "Unverified (page does not mark a leaderboard update date)"
+ "collected_at": "2026-11-08 "
+ "source_url": "https://labs.scale.com/leaderboard/hss"
+ "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 5
+ "model": "Muse Wonder 1.0 (max)"
+ "score": "43.70 ± 4.20"
+ "metric": "Pass@1"
+ "result_type": "Official leaderboard snapshot"
+ "source_date": "Unverified (page does not mark a leaderboard update date)"
+ "collected_at": "2026-11-08 "
+ "source_url": "https://labs.scale.com/leaderboard/hss"
+ "track": "The current official set of 522 questions, pass@1; reasoning settings are kept as given on each model row"
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
@@ -408,7 +406,7 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
 
 29 rows of models can currently be read on the official website, and the 25 models in the summary of the method refer to the paper at first release. The ± is the half-width of a 95% interval from a bootstrap clustered by question, not a standard deviation and not the standard error of three repeats. The current leaderboard on the official website and the results from the first release of the paper cannot be presented as an experiment from the same day.
 
-Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08).
+Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2610.08966) (accessed 2026-11-08).
 
 ## Contact
 
@@ -426,7 +424,7 @@ Unverified
 
 > The official site mentions an evaluation harness, but the public pages and the paper do not give a verifiable GitHub repository address; no repository is invented.
 
-Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
+Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08); [2](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08).
 
 ### 官方社区
 
@@ -480,18 +478,18 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "type": "Official dataset card/methods entry"
-    "url": "https://huggingface.co/datasets/ScaleAI/HSS"
-  }
-  {
-    "type": "Official description"
-    "url": "https://labs.scale.com/leaderboard/hss"
-  }
+ {
+ "type": "Official dataset card/methods entry"
+ "url": "https://huggingface.co/datasets/ScaleAI/HSS"
+ }
+ {
+ "type": "Official description"
+ "url": "https://labs.scale.com/leaderboard/hss"
+ }
 ]
 ```
 
-Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/ScaleAI/HSS) (accessed 2026-11-08); [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08).
 
 ### 已有 PDF归档
 
@@ -507,18 +505,15 @@ Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07 ) ; [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08 ) ; [3](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).
-
+Sources: [1](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-07); [2](https://arxiv.org/abs/2610.08966) (accessed 2026-11-08); [3](https://labs.scale.com/leaderboard/hss) (accessed 2026-11-08).

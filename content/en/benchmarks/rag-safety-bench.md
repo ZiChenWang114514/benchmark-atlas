@@ -52,7 +52,7 @@ Safety
 
 ```json
 [
-  "Retrieval-augmented system safety"
+ "Retrieval-augmented system safety"
 ]
 ```
 
@@ -114,8 +114,8 @@ Unverified
 
 ```json
 [
-  "Saravanan, Adithiyan Rajan Indira"
-  "Fraser, Kathleen C."
+ "Saravanan, Adithiyan Rajan Indira"
+ "Fraser, Kathleen C."
 ]
 ```
 
@@ -261,14 +261,14 @@ A low unsafe accuracy does not necessarily mean strong safety; harmfulness and r
 
 ```json
 {
-  "version": "v14: full 987 questions/3,948 condition rows; balanced 346 questions/1,384 condition rows"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.11758v1"
-      "date": "2026-09"
-      "note": "The original paper was released in H2 and actually reports experiments with five models and four retrieval conditions; these are the authors' first experiments, not an independent later citation."
-    }
-  ]
+ "version": "v14: full 987 questions/3,948 condition rows; balanced 346 questions/1,384 condition rows"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.11758v1"
+ "date": "2026-09"
+ "note": "The original paper was released in H2 and actually reports experiments with five models and four retrieval conditions; these are the authors' first experiments, not an independent later citation."
+ }
+ ]
 }
 ```
 
@@ -278,11 +278,10 @@ A low unsafe accuracy does not necessarily mean strong safety; harmfulness and r
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-09-11"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-09-11"
+ }
 ]
 ```
 
@@ -373,8 +372,8 @@ All 20 unsafe-capability values in Table 3, five models × four RAG conditions, 
 
 ```json
 [
-  "aindi023@uottawa.ca"
-  "kathleen.fraser@uottawa.ca"
+ "aindi023@uottawa.ca"
+ "kathleen.fraser@uottawa.ca"
 ]
 ```
 
@@ -422,66 +421,27 @@ https://arxiv.org/pdf/2609.11758
 
 [1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o"
-    "webViewLink": "
-  }
-  {
-    "type": "Official dataset card (not an HF release)"
-    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"
-  }
-  {
-    "type": "License proposal and restrictions"
-    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md"
-  }
-]
-```
-
-[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-08）
-
 ### Paper PDF
 
 {
-  "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z"
-  "webViewLink": "
+ "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z"
 }
-
-[1]( 2026-11-07）
 
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）

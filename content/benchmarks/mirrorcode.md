@@ -266,8 +266,6 @@ Small、Medium、Large分桶；当前榜不含Small。
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2026-06-29；- **timezone**：；- - **version**：v2；- **submitted_at**：2026-07-17；- **timezone**：
-
 [来源](https://arxiv.org/abs/2606.30182)（访问 2026-11-08）；[来源](https://epoch.ai/benchmarks/mirrorcode)（访问 2026-11-08）
 
 ### 饱和情况
@@ -330,24 +328,23 @@ https://epoch.ai/data/benchmarks.csv
 | Gemini 3.1 Pro Preview (high) | 0.08888888888888888 | solve_at_100 / proportion (0–1) |
 | GPT-5 (high) | 0.044444444444444446 | solve_at_100 / proportion (0–1) |
 
-- **Claude Opus 5.5 (high)**：- **rank**：1；- **stderr**：0.0788；- **run_id**：mirrorcode-ml-2l-claude-opus-5-5；- **run_started_at_kst**：2026-09-23；- **task_version**：0.1.198；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Claude Fable 5.1 (high)**：- **rank**：2；- **stderr**：0.0917；- **run_id**：mirrorcode-ml-2l-claude-fable-5-1；- **run_started_at_kst**：2026-09-10；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Claude Fable 5 (high)**：- **rank**：3；- **stderr**：0.10404092940368063；- **run_id**：mirrorcode-ml-2l-claude-fable-5；- **run_started_at_kst**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Gemini 4 Argon (high)**：- **rank**：4；- **stderr**：0.1171381252539371；- **run_id**：h7xMzFUTMGSGqUSKUpxkUW；- **run_started_at_kst**：2026-10-14；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-6 Astra (high)**：- **rank**：5；- **stderr**：0.1186；- **run_id**：mirrorcode-ml-2l-gpt-6-astra；- **run_started_at_kst**：2026-08-31；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Gemini 3.7 Flash (high)**：- **rank**：6；- **stderr**：0.12157113738962926；- **run_id**：eeq6feqZLzfjfVsx4aeAWL；- **run_started_at_kst**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Grok 4.6 (xhigh)**：- **rank**：7；- **stderr**：0.1101546131612538；- **run_id**：Hoz4Uioui4GNZaLD6fiAvD；- **run_started_at_kst**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Grok 4.5 (high)**：- **rank**：8；- **stderr**：0.10723394129558436；- **run_id**：fiqzdAtVJVP9wdMT2QFeUn；- **run_started_at_kst**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Claude Opus 4.7 (high)**：- **rank**：9；- **stderr**：0.09036473223803354；- **run_id**：mirrorcode-ml-2l-claude-opus-4-7；- **run_started_at_kst**：2026-08-12；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-6 Luna (max)**：- **rank**：10；- **stderr**：0.09026709338484401；- **run_id**：WQ4gVVhGBfWoRkRwUvNYgs；- **run_started_at_kst**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-5.6 Sol (high)**：- **rank**：11；- **stderr**：0.09229582069908972；- **run_id**：mirrorcode-ml-2l-gpt-5-6-sol；- **run_started_at_kst**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-5.4 (high)**：- **rank**：12；- **stderr**：0.0770945044100374；- **run_id**：mirrorcode-ml-2l-gpt-5-4；- **run_started_at_kst**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-5.5 (high)**：- **rank**：13；- **stderr**：0.06042179781166438；- **run_id**：mirrorcode-ml-2l-gpt-5-5；- **run_started_at_kst**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **Gemini 3.1 Pro Preview (high)**：- **rank**：14；- **stderr**：0.04561939004190448；- **run_id**：mirrorcode-ml-2l-gemini-3-1-pro-preview；- **run_started_at_kst**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
-- **GPT-5 (high)**：- **rank**：15；- **stderr**：0.034375250520170986；- **run_id**：Th39ihgvLFnsDGMed7Q55b；- **run_started_at_kst**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Claude Opus 5.5 (high)**：- **rank**：1；- **stderr**：0.0788；- **run_id**：mirrorcode-ml-2l-claude-opus-5-5；- **run_started_at**：2026-09-23；- **task_version**：0.1.198；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Claude Fable 5.1 (high)**：- **rank**：2；- **stderr**：0.0917；- **run_id**：mirrorcode-ml-2l-claude-fable-5-1；- **run_started_at**：2026-09-10；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Claude Fable 5 (high)**：- **rank**：3；- **stderr**：0.10404092940368063；- **run_id**：mirrorcode-ml-2l-claude-fable-5；- **run_started_at**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Gemini 4 Argon (high)**：- **rank**：4；- **stderr**：0.1171381252539371；- **run_id**：h7xMzFUTMGSGqUSKUpxkUW；- **run_started_at**：2026-10-14；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-6 Astra (high)**：- **rank**：5；- **stderr**：0.1186；- **run_id**：mirrorcode-ml-2l-gpt-6-astra；- **run_started_at**：2026-08-31；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Gemini 3.7 Flash (high)**：- **rank**：6；- **stderr**：0.12157113738962926；- **run_id**：eeq6feqZLzfjfVsx4aeAWL；- **run_started_at**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Grok 4.6 (xhigh)**：- **rank**：7；- **stderr**：0.1101546131612538；- **run_id**：Hoz4Uioui4GNZaLD6fiAvD；- **run_started_at**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Grok 4.5 (high)**：- **rank**：8；- **stderr**：0.10723394129558436；- **run_id**：fiqzdAtVJVP9wdMT2QFeUn；- **run_started_at**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Claude Opus 4.7 (high)**：- **rank**：9；- **stderr**：0.09036473223803354；- **run_id**：mirrorcode-ml-2l-claude-opus-4-7；- **run_started_at**：2026-08-12；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-6 Luna (max)**：- **rank**：10；- **stderr**：0.09026709338484401；- **run_id**：WQ4gVVhGBfWoRkRwUvNYgs；- **run_started_at**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-5.6 Sol (high)**：- **rank**：11；- **stderr**：0.09229582069908972；- **run_id**：mirrorcode-ml-2l-gpt-5-6-sol；- **run_started_at**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-5.4 (high)**：- **rank**：12；- **stderr**：0.0770945044100374；- **run_id**：mirrorcode-ml-2l-gpt-5-4；- **run_started_at**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-5.5 (high)**：- **rank**：13；- **stderr**：0.06042179781166438；- **run_id**：mirrorcode-ml-2l-gpt-5-5；- **run_started_at**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **Gemini 3.1 Pro Preview (high)**：- **rank**：14；- **stderr**：0.04561939004190448；- **run_id**：mirrorcode-ml-2l-gemini-3-1-pro-preview；- **run_started_at**：2026-08-11；- **task_version**：待核实；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
+- **GPT-5 (high)**：- **rank**：15；- **stderr**：0.034375250520170986；- **run_id**：Th39ihgvLFnsDGMed7Q55b；- **run_started_at**：2026-10-22；- **task_version**：0.1.200；- **protocol_note**：按官网当前榜配置解释；CSV缺失的任务版本不补造，不能视为同版本重复测量。
 
 [来源](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
-
 
 > 保留CSV十进制原字符串，未四舍五入；rank仅为该CSV已收录运行的显示顺序。
 

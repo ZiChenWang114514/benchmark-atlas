@@ -1,5 +1,5 @@
 # MathVerse
-> 核验：2026-11-08。已核实存在且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。
+> 核验：2026-11-08。且有2026年下半年实际使用证据；官方实时榜单覆盖及未核验字段逐项标示。
 
 MathVerse通过改变同一题中图文信息的分配，检查模型是否真的利用数学图解。应分清2,612原题、六版本构建总量及公开testmini的788原题；All只汇总五种多模态版本，Text Only另作消融，CoT-E与w/o成绩也不得混排。
 
@@ -203,12 +203,6 @@ MathVerse通过改变同一题中图文信息的分配，检查模型是否真�
 > 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：5598195 [S10](https://arxiv.org/pdf/2403.14624)
-
-**原有文件夹**：{"id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi", "webViewLink": " [S19](
-
-**其他材料**：[{"kind": "中文介绍", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": " [S20](
-
-**原有 PDF**：{"id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy", "webViewLink": " [S21](
 
 ## 变更记录
 

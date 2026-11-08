@@ -89,7 +89,6 @@ GEO-Bench: Toward Foundation Models for Earth Monitoring
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -144,7 +143,6 @@ ServiceNow Research官方项目。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -158,7 +156,6 @@ ServiceNow Research官方项目。
 一般自然图像基准忽略遥感的多光谱、SAR、空间分辨率和少标签迁移条件；统一12项下游任务与报告协议，以检验预训练表征能否适应真实地球监测任务。
 
 来源：[1](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -191,7 +188,6 @@ ServiceNow Research官方项目。
 空间隔离用于降低下游train/validation/test地理泄漏；不等同于证明所有预训练影像都未与测试区域重叠。预训练语料重叠审计仍待核实。
 
 来源：[1](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -246,7 +242,6 @@ ServiceNow Research官方项目。
 
 来源：[1](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -281,7 +276,6 @@ https://github.com/ServiceNow/geo-bench-experiments
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）；[2](https://arxiv.org/pdf/2306.03831)（访问 2026-11-07）；[3](https://arxiv.org/html/2306.03831v2/)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -298,7 +292,7 @@ https://github.com/ServiceNow/geo-bench-experiments
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2023-06-07；timezone：；- version：v2；submitted_at：2023-12-24；timezone：；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09（arXiv编号月份；精确提交日待核实）；note：MEOX §IV-B与Table III实际评测六项GEO-Bench v1任务，明确使用官方划分和归一化统计。
+arxiv_submissions：- version：v1；submitted_at：2023-06-07；；- version：v2；submitted_at：2023-12-24；；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09（arXiv编号月份；精确提交日待核实）；note：MEOX §IV-B与Table III实际评测六项GEO-Bench v1任务，明确使用官方划分和归一化统计。
 
 来源：[1](https://arxiv.org/abs/2306.03831)（访问 2026-11-07）
 
@@ -321,7 +315,6 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 官方现推荐迁移至GEO-Bench-2（AI Alliance与IBM、ServiceNow、TUM）；原版保留。活跃评测harness另见torchgeo-bench。
 
 来源：[1](https://raw.githubusercontent.com/ServiceNow/geo-bench/main/README.md)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -361,7 +354,6 @@ classification_v1.0的m-eurosat与m-brick-kiln多数通道名/波长元数据有
 
 来源：[1](https://arxiv.org/html/2609.05351v1)（访问 2026-11-07）；[2](https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.md)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -392,7 +384,6 @@ https://github.com/ServiceNow/geo-bench/issues
 
 来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
-
 ## 10. 原始文件
 
 ### 原文PDF
@@ -417,30 +408,22 @@ cfe0f82eafb59c680e8d91fef4dc832491f898f7ee56c14da19e953226d2b2ad
 
 ### 文件夹
 
-id：1m2keTnJ4B_p28m863rPiJ5CkQeExOOZC；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### 其他原始材料
 
-- kind：中文介绍；id：1YQy28z9HI0wWB3kG8KeiBpV-Mu9U31pbjZHh_ibRNO4；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### PDF
 
-id：1NYa3gjkjGf1F3f1HRoY6fNmdPDUuHXzI；webViewLink：
-
-来源：[1]( 2026-11-07）
-
+来源：
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：首批官方材料核验、中文改写、；未核实字段显式标记。
-- date：2026-11-07；timezone：；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

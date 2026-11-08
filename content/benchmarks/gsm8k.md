@@ -86,7 +86,6 @@ Training Verifiers to Solve Math Word Problems
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
-
 ## 2. 发起与维护
 
 ### 发起团队
@@ -134,7 +133,6 @@ OpenAI官方仓库；当前Archive状态
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
-
 ## 3. 设计目标
 
 ### 评测能力
@@ -148,7 +146,6 @@ OpenAI官方仓库；当前Archive状态
 概念简单不等于可被语言模型稳定求解，需要避免只记住固定题型模板。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
-
 
 ## 4. 构建方式
 
@@ -181,7 +178,6 @@ OpenAI官方仓库；当前Archive状态
 收集时检查模板/相似题有助于质量控制；不保证未来预训练数据没有公开题。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
-
 
 ## 5. 数据形式
 
@@ -221,7 +217,6 @@ train.jsonl与test.jsonl均公开；另有Socratic格式，不可当独立新ben
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
-
 ## 6. 评测方法
 
 ### 指标
@@ -232,7 +227,7 @@ train.jsonl与test.jsonl均公开；另有Socratic格式，不可当独立新ben
 
 ### 计分
 
-官方dataset.py提取####后的数字；计算器通过<<...>>标注运行，不是天然禁止工具。
+官方dataset.py提取####后的数字；计算器通过<<..>>标注运行，不是天然禁止工具。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -254,7 +249,6 @@ https://github.com/openai/grade-school-math
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07）
 
-
 ## 7. 最新情况
 
 ### 核查日
@@ -271,7 +265,7 @@ main数据；仓库标记Archive，代码按原样提供
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2021-10-27；timezone：；- version：v2；submitted_at：2021-11-18；timezone：；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。
+arxiv_submissions：- version：v1；submitted_at：2021-10-27；；- version：v2；submitted_at：2021-11-18；；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2及表2–4实际报告 GSM8K。AIME 的不同年份归同一条目，不用年份拆分凑数。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
@@ -294,7 +288,6 @@ arxiv_submissions：- version：v1；submitted_at：2021-10-27；timezone：；-
 Socratic格式自动加子问题，原论文未用其进行实验；本库不另计数。
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）；[2](https://github.com/openai/grade-school-math)（访问 2026-11-07）
-
 
 ## 8. 榜单快照
 
@@ -337,7 +330,6 @@ Socratic格式自动加子问题，原论文未用其进行实验；本库不另
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）；[2](https://arxiv.org/html/2609.27284v1)（访问 2026-11-07）
 
-
 ## 9. 联系方式
 
 ### 公开研究联系邮箱
@@ -369,7 +361,6 @@ https://github.com/openai/grade-school-math/issues
 
 来源：[1](https://arxiv.org/abs/2110.14168)（访问 2026-11-07）
 
-
 ## 10. 原始文件
 
 ### 原文PDF
@@ -394,30 +385,22 @@ a52417d8fcd006de882e3b404850e2cc4246815828897c18c6ce6c7a448985a4
 
 ### 文件夹
 
-id：1C6D6YXK-yBTIxFc1sWyfYFIxKjH54dmb；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### 其他原始材料
 
-chinese_intro_doc：id：1mgSxjZ0tSOCdaQ6bYp18z1g7T9ZZldF9DGBNzoeOnb8；webViewLink：
-
-来源：[1]( 2026-11-07）
+来源：
 
 ### PDF
 
-id：1TjNp6myEAC_TGomPvMQItLdxd9AUTS1y；webViewLink：
-
-来源：[1]( 2026-11-07）
-
+来源：
 
 ## 11. 变更记录
 
 ### 本页修订
 
-- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- date：2026-11-07；timezone：；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- date：2026-11-07；timezone：；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
-

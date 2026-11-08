@@ -2,7 +2,7 @@
 
 > 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
-逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留；trending: B
+逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
 ## 1. 基本信息
 
@@ -253,7 +253,7 @@ V1(AST)、V2(真实贡献函数)、V3(多轮)、V4(agentic)覆盖变化，Hunyua
 
 ### 核查日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[2]
 
@@ -291,7 +291,7 @@ BFCL V1–V4为演进版本；本库只计一个函数调用benchmark。
 
 ### 采集日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[2]
 
@@ -407,21 +407,15 @@ https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.
 
 ### 既有文件夹
 
-id：1zwtuIHkLTUGoh5pBXvvm-b-3MEG3Y1eT；webViewLink：
-
 来源：[13]
 
 ### 其他材料
-
-- type：中文介绍Google Doc；id：1BWPxXO2EdhGmVqtsOB6Jza18t-l6H88biHblVLrc748；webViewLink：
 
 来源：[1][14]
 
 说明：官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
 
 ### 既有 PDF链接
-
-id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：
 
 来源：[15]
 
@@ -432,7 +426,7 @@ id：1XG8s-CDiGwupc7p1y5tOE2nKnK877fBw；webViewLink：
 - 2026-11-07：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
 - 2026-11-07：读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。
 - 2026-11-07：近期热门版本复核：V1引入AST单轮，V2引入企业/社区贡献，V3引入多轮；V4新增Web Search、Memory与Format Sensitivity。总分权重为Agentic40%、Multi-Turn30%、Live10%、Non-Live10%、Hallucination10%；Format Sensitivity不计总分。以官方V4方法博客为准；官网概述“unweighted average of all sub-categories”不应覆盖明细的固定权重定义。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
-- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1][3][4][5][6][7]
 

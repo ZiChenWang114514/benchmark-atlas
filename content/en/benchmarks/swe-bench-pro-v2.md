@@ -1,6 +1,6 @@
 # SWE-Bench Pro V2
 
-> Benchmark Constitution, in-depth review 2026-11-08. Verified to exist; a recently popular newly created entry, with marks retained on fields that have not been verified; trending: A
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SWE-Bench Pro V2 is a revision and isolation protocol for the public set in the same series. It is not a new name for SWE-bench Verified. The default 642 tasks, HARD-51, and the retained older 731 questions need to be clearly distinguished. An offline agent, re-evaluation on clean images, and two-way release gating are the key changes in this version. The official Full and HARD leaderboards are recorded separately. Rank(UB) assigns rank by confidence interval rather than by the ordinary rule for tied scores.
 
@@ -50,8 +50,8 @@ Code
 
 ```json
 [
-  "Long-horizon software engineering"
-  "Code agent"
+ "Long-horizon software engineering"
+ "Code agent"
 ]
 ```
 
@@ -191,8 +191,8 @@ Repository-level code-patch generation
 
 ```json
 [
-  "代码"
-  "文本"
+ "代码"
+ "文本"
 ]
 ```
 
@@ -260,37 +260,37 @@ V2 cannot be compared directly with the original public set of 731 questions or 
 
 ```json
 {
-  "version": "V2"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
-      "date": "2026-11-07"
-      "organization": "Scale AI"
-      "note": "The current official leaderboard and the methods are public; this is Scale’s current main leaderboard for long-horizon code. V2 is a new protocol, refreshed for the purpose and isolated from the network. It is not an alias of SWE-bench Verified."
-    }
-    {
-      "url": "https://labs.scale.com/leaderboard"
-      "date": "2026-11-07"
-      "organization": "Scale AI"
-      "note": "Scale's current overall leaderboard lists SWE-bench Pro V2 separately and shows current frontier-model results."
-    }
-    {
-      "url": "https://labs.scale.com/blog/swe-bench-pro-v2"
-      "date": "2026-11-07"
-      "organization": "Scale AI"
-      "note": "The official V2 upgrade notes and the Full and Hard results; Hard is only a slice and is not counted again."
-    }
-    {
-      "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
-      "date": "2026-09-01"
-      "organization": "Epoch AI"
-      "note": "On September 1, Epoch reviewed SWE-Bench Pro and concluded Flawed; that historical review cannot automatically be equated with a quality conclusion for V2."
-    }
-  ]
-  "trending": {
-    "heat_confidence": "A"
-    "summary": "The current main leaderboard at Scale for long-horizon code; V2 is a refreshed protocol that is isolated from the network. Epoch AI also lists it."
-  }
+ "version": "V2"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
+ "date": "2026-11-07"
+ "organization": "Scale AI"
+ "note": "The current official leaderboard and the methods are public; this is Scale’s current main leaderboard for long-horizon code. V2 is a new protocol, refreshed for the purpose and isolated from the network. It is not an alias of SWE-bench Verified."
+ }
+ {
+ "url": "https://labs.scale.com/leaderboard"
+ "date": "2026-11-07"
+ "organization": "Scale AI"
+ "note": "Scale's current overall leaderboard lists SWE-bench Pro V2 separately and shows current frontier-model results."
+ }
+ {
+ "url": "https://labs.scale.com/blog/swe-bench-pro-v2"
+ "date": "2026-11-07"
+ "organization": "Scale AI"
+ "note": "The official V2 upgrade notes and the Full and Hard results; Hard is only a slice and is not counted again."
+ }
+ {
+ "url": "https://epoch.ai/data/benchmark-reviews-documentation/included-benchmarks"
+ "date": "2026-09-01"
+ "organization": "Epoch AI"
+ "note": "On September 1, Epoch reviewed SWE-Bench Pro and concluded Flawed; that historical review cannot automatically be equated with a quality conclusion for V2."
+ }
+ ]
+ "trending": {
+ "heat_confidence": "A"
+ "summary": "The current main leaderboard at Scale for long-horizon code; V2 is a refreshed protocol that is isolated from the network. Epoch AI also lists it."
+ }
 }
 ```
 
@@ -406,7 +406,7 @@ All 18 Full rows and all 18 HARD rows were extracted in full from the official e
 
 ```json
 [
-  "jeffrey.da@scale.com"
+ "jeffrey.da@scale.com"
 ]
 ```
 
@@ -470,26 +470,26 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Opened primary material"
-    "url": "https://arxiv.org/abs/2509.16941"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/scaleapi/SWE-bench_Pro-os"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Opened primary material"
+ "url": "https://arxiv.org/abs/2509.16941"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://github.com/scaleapi/SWE-bench_Pro-os"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -505,16 +505,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

@@ -1,6 +1,6 @@
 # SWE-bench Multimodal
 
-> Benchmark Constitution, in-depth review 2026-11-08. Existence has been verified; a research snapshot of the official materials, with what is unknown kept as Unverified; trending: B
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SWE-bench Multimodal brings repair of visual software issues into repository-level agent evaluation. Images are not merely decorative input. The 2026 v2 on the official site retains 480 reproducible tasks, but the original paper, the historical project description, and the current HF card still carry more than one set of figures for the older question counts. This entry sets that evidence side by side and notes that the revision must be locked. HF main and the 480-question protocol cannot automatically be treated as fully identical.
 
@@ -50,7 +50,7 @@ Code
 
 ```json
 [
-  "多模态"
+ "多模态"
 ]
 ```
 
@@ -110,19 +110,19 @@ Paper author affiliations include Stanford, Princeton, Cornell, the Tübingen AI
 
 ```json
 [
-  "John Yang"
-  "Carlos E. Jimenez"
-  "Alex L. Zhang"
-  "Kilian Lieret"
-  "Joyce Yang"
-  "Xindi Wu"
-  "Ori Press"
-  "Niklas Muennighoff"
-  "Gabriel Synnaeve"
-  "Karthik R. Narasimhan"
-  "Diyi Yang"
-  "Sida I. Wang"
-  "Ofir Press"
+ "John Yang"
+ "Carlos E. Jimenez"
+ "Alex L. Zhang"
+ "Kilian Lieret"
+ "Joyce Yang"
+ "Xindi Wu"
+ "Ori Press"
+ "Niklas Muennighoff"
+ "Gabriel Synnaeve"
+ "Karthik R. Narasimhan"
+ "Diyi Yang"
+ "Sida I. Wang"
+ "Ofir Press"
 ]
 ```
 
@@ -204,9 +204,9 @@ issue text and image input, with a code diff as output.
 
 ```json
 [
-  "文本"
-  "图像"
-  "代码"
+ "文本"
+ "图像"
+ "代码"
 ]
 ```
 
@@ -274,15 +274,15 @@ It is in the same series as the existing swe-bench-verified, with a different ta
 
 ```json
 {
-  "version": "Multimodal v2"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
-      "date": "2026-11-05"
-      "date_type": "source_calendar_date"
-      "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
-    }
-  ]
+ "version": "Multimodal v2"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
+ "date": "2026-11-05"
+ "date_type": "source_calendar_date"
+ "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
+ }
+ ]
 }
 ```
 
@@ -294,11 +294,10 @@ It is in the same series as the existing swe-bench-verified, with a different ta
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2024-10-05"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2024-10-05"
+ }
 ]
 ```
 
@@ -402,8 +401,8 @@ The full official Vals no-internet leaderboard has 21 rows, plus 6 diagnostic ro
 
 ```json
 [
-  "johnby@stanford.edu"
-  "carlosej@cs.princeton.edu"
+ "johnby@stanford.edu"
+ "carlosej@cs.princeton.edu"
 ]
 ```
 
@@ -467,26 +466,26 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official methods or project page"
-    "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
-    "accessed": "2026-11-07"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://arxiv.org/abs/2410.03859"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/SWE-bench/SWE-bench"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Official methods or project page"
+ "url": "https://www.vals.ai/benchmarks/swebench-multimodal"
+ "accessed": "2026-11-07"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://arxiv.org/abs/2410.03859"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://github.com/SWE-bench/SWE-bench"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Multimodal"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -502,16 +501,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": " ()"
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

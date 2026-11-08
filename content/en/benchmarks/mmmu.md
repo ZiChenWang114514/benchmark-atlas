@@ -181,16 +181,16 @@ Questions were selected so that the answer is not easily obtained directly besid
 
 ```json
 {
-  "questions": 11550
-  "dev": 150
-  "validation": 900
-  "test": 10500
-  "disciplines": 6
-  "subjects": 30
-  "subfields": 183
-  "image_types_paper_v4": 30
-  "image_types_current_readme": 32
-  "conflict": "Paper v4 Table 1 and the main text give 30 image classes, while the current README says 32; no per-class mapping or revision explanation is provided, so the figures are not silently unified."
+ "questions": 11550
+ "dev": 150
+ "validation": 900
+ "test": 10500
+ "disciplines": 6
+ "subjects": 30
+ "subfields": 183
+ "image_types_paper_v4": 30
+ "image_types_current_readme": 32
+ "conflict": "Paper v4 Table 1 and the main text give 30 image classes, while the current README says 32; no per-class mapping or revision explanation is provided, so the figures are not silently unified."
 }
 ```
 
@@ -278,41 +278,41 @@ The original MMMU. Answers were opened on 2026-02-12, and a community workflow f
 
 ```json
 {
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2023-11-28"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2023-12-18"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2023-12-21"
-    }
-    {
-      "version": "v4"
-      "date_kst": "2024-06-14"
-    }
-  ]
-  "repository_news": [
-    {
-      "date": "2026-02-12"
-      Latest review
-    }
-    {
-      "date": "2026-07-28"
-      Latest review
-    }
-  ]
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2"
-      "date": "2026-10-22"
-      "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate MMMU (the val setting), comparing 4B/9B models and other vision-language models; splits such as mini and val are not counted separately."
-    }
-  ]
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2023-11-28"
+ }
+ {
+ "version": "v2"
+ "date": "2023-12-18"
+ }
+ {
+ "version": "v3"
+ "date": "2023-12-21"
+ }
+ {
+ "version": "v4"
+ "date": "2024-06-14"
+ }
+ ]
+ "repository_news": [
+ {
+ "date": "2026-02-12"
+ Latest review
+ }
+ {
+ "date": "2026-07-28"
+ Latest review
+ }
+ ]
+ "continued_use_2026h2": [
+ {
+ "url": "https://arxiv.org/html/2610.01352v2"
+ "date": "2026-10-22"
+ "note": "MMVistaReason v2 §4.1 and Table 2 actually evaluate MMMU (the val setting), comparing 4B/9B models and other vision-language models; splits such as mini and val are not counted separately."
+ }
+ ]
 }
 ```
 
@@ -475,76 +475,9 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 [来源1](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）
 
-### Folder
-
-```json
-{
-  "id": "1OYlzT_okQyd0b-E8gWDj3pMLqh9Azzm7"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1PxIMBXY-dYTJ1iKKgy85HVgmuMrEufYOnN9S9dMEyNg"
-    "webViewLink": "
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/abs/2311.16502"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/html/2610.01352v2"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/pdf/2311.16502"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://huggingface.co/datasets/MMMU/MMMU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://mmmu-benchmark.github.io/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
-
-### 原始PDF
-
-```json
-{
-  "id": "1mvbJs4G0IKnBqiun6zokNDEdYzr8oaqm"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
+；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
 
 ## Changelog
 
@@ -552,21 +485,18 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

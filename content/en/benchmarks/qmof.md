@@ -50,7 +50,7 @@ Materials
 
 ```json
 [
-  "Metal-organic framework band-gap prediction"
+ "Metal-organic framework band-gap prediction"
 ]
 ```
 
@@ -112,14 +112,14 @@ Unverified
 
 ```json
 [
-  "Andrew S. Rosen"
-  "Shaelyn M. Iyer"
-  "Debmalya Ray"
-  "Zhenpeng Yao"
-  "Alán Aspuru-Guzik"
-  "Laura Gagliardi"
-  "Justin M. Notestein"
-  "Randall Q. Snurr"
+ "Andrew S. Rosen"
+ "Shaelyn M. Iyer"
+ "Debmalya Ray"
+ "Zhenpeng Yao"
+ "Alán Aspuru-Guzik"
+ "Laura Gagliardi"
+ "Justin M. Notestein"
+ "Randall Q. Snurr"
 ]
 ```
 
@@ -345,7 +345,7 @@ Three independent protocols: 7 rows for the maintainer's v13/80% training; all 3
 
 ```json
 [
-  "rosen@u.northwestern.edu"
+ "rosen@u.northwestern.edu"
 ]
 ```
 
@@ -399,31 +399,6 @@ Unverified
 
 [1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
 
-### Folder
-
-```json
-{
-  "id": "16710civVuRQy4imv33HqI4LGvAE8rIGF"
-  "webViewLink": "
-}
-```
-
-[1](https://doi.org/10.1016/j.matt.2021.02.015)（访问 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "type": "Chinese introduction"
-    "id": "16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA"
-    "webViewLink": "https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit"
-  }
-]
-```
-
-[1](https://docs.google.com/document/d/16w8iieykbWu2_oUxwzSuqlAGEVLfYBHs-ssbWCx-igA/edit)（访问 2026-11-07）
-
 ### Paper PDF
 
 Unverified
@@ -433,21 +408,18 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://raw.githubusercontent.com/Andrew-S-Rosen/QMOF/main/README.md)（访问 2026-11-08）

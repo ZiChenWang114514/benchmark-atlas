@@ -50,8 +50,8 @@ Reasoning
 
 ```json
 [
-  "法律"
-  "Professional reasoning"
+ "法律"
+ "Professional reasoning"
 ]
 ```
 
@@ -115,30 +115,30 @@ Unverified
 
 ```json
 [
-  "Afra Feyza Akyürek"
-  "Advait Gosai"
-  "Chen Bo Calvin Zhang"
-  "Vipul Gupta"
-  "Jaehwan Jeong"
-  "Anisha Gunjal"
-  "Tahseen Rabbani"
-  "Maria Mazzone"
-  "David Randolph"
-  "Mohammad Mahmoudi Meymand"
-  "Gurshaan Chattha"
-  "Paula Rodriguez"
-  "Diego Mares"
-  "Pavit Singh"
-  "Michael Liu"
-  "Subodh Chawla"
-  "Pete Cline"
-  "Lucy Ogaz"
-  "Ernesto Hernandez"
-  "Zihao Wang"
-  "Pavi Bhatter"
-  "Marcos Ayestaran"
-  "Bing Liu"
-  "Yunzhong He"
+ "Afra Feyza Akyürek"
+ "Advait Gosai"
+ "Chen Bo Calvin Zhang"
+ "Vipul Gupta"
+ "Jaehwan Jeong"
+ "Anisha Gunjal"
+ "Tahseen Rabbani"
+ "Maria Mazzone"
+ "David Randolph"
+ "Mohammad Mahmoudi Meymand"
+ "Gurshaan Chattha"
+ "Paula Rodriguez"
+ "Diego Mares"
+ "Pavit Singh"
+ "Michael Liu"
+ "Subodh Chawla"
+ "Pete Cline"
+ "Lucy Ogaz"
+ "Ernesto Hernandez"
+ "Zihao Wang"
+ "Pavi Bhatter"
+ "Marcos Ayestaran"
+ "Bing Liu"
+ "Yunzhong He"
 ]
 ```
 
@@ -222,7 +222,7 @@ Open-ended professional dialogue of one turn or at most 10 turns, scored on the 
 
 ```json
 [
-  "文本"
+ "文本"
 ]
 ```
 
@@ -290,18 +290,18 @@ The current web page's Performance Comparison does not explicitly label Full or 
 
 ```json
 {
-  "version": "PRBench public Legal 500 questions / Hard 250 questions (release set verifiable in this check)"
-  "heat_confidence": "B"
-  "why_trending": "This is mainly a current presentation by a single organization, or continued self-evaluation by a vendor, and it does not represent broad adoption across the industry."
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/prbench-legal"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "organization": "Official maintainer"
-      "note": "The current official methods and leaderboard have been opened; the observation date is not presented as the publication date."
-    }
-  ]
+ "version": "PRBench public Legal 500 questions / Hard 250 questions (release set verifiable in this check)"
+ "heat_confidence": "B"
+ "why_trending": "This is mainly a current presentation by a single organization, or continued self-evaluation by a vendor, and it does not represent broad adoption across the industry."
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/prbench-legal"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "organization": "Official maintainer"
+ "note": "The current official methods and leaderboard have been opened; the observation date is not presented as the publication date."
+ }
+ ]
 }
 ```
 
@@ -311,11 +311,10 @@ The current web page's Performance Comparison does not explicitly label Full or 
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-11-15"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-11-15"
+ }
 ]
 ```
 
@@ -430,7 +429,7 @@ All 45 rows of the current web page were collected, together with 3 historical H
 
 ```json
 [
-  "yunzhong.he@scale.com"
+ "yunzhong.he@scale.com"
 ]
 ```
 
@@ -488,18 +487,18 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official README"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
-  }
-  {
-    "type": "HF dataset card"
-    "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
-  }
-  {
-    "type": "Code MIT license"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
-  }
+ {
+ "type": "Official README"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
+ }
+ {
+ "type": "HF dataset card"
+ "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
+ }
+ {
+ "type": "Code MIT license"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
+ }
 ]
 ```
 
@@ -514,16 +513,14 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://labs.scale.com/leaderboard/prbench-legal)（访问 2026-11-08）

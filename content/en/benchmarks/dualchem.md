@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; a research snapshot; note: trending: B; Unverified fields retain their marks
+;
 
 DualChem focuses on the dual-use ambiguity of chemistry: the same expertise may support legitimate research and may also be misused. 600 questions were built by chemistry experts, split into 485 multiple-choice and 115 open-response questions, covering seven experimental domains, and benign use, harmful use, and severity are recorded together. The rate of capable answers, the refusal rate, and risk awareness are different axes, and a single "higher is better" rank cannot conceal the safety tradeoff. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks) [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md)
 
@@ -83,7 +83,7 @@ In the no-tool Table 4 of the formal PDF, GPT-5.6 Sol has a full-set accuracy of
 
 - **公开与隐藏划分**：The anonymous HF card for v1.0.0 lists a test of 600 questions and 600 human baselines, and it provides CC BY 4.0. The makeup of its human study differs from the signed PDF of 2026-10-28. The Scale publication page does not link to that card directly. Exactly which version corresponds to which needs to be confirmed by the maintainers. [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md) [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks) 注：Only the test configuration of the anonymous pre-release card is verified at present; the public/hidden split of the named formal version remains Unverified.
 
-  核实状态仍为待核实；部分字段或版本细节未解决。
+ 核实状态仍为待核实；部分字段或版本细节未解决。
 
 ## Evaluation
 
@@ -133,7 +133,6 @@ In the no-tool Table 4 of the formal PDF, GPT-5.6 Sol has a full-set accuracy of
 
 > GPT-6.1 Sol：result_type：Published PDF Table 4, historical experiments without tools；rank_type：Listed no-tool Acc order, not a live web leaderboard [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：67.7% is the conditional accuracy of GPT-5.6 Sol on the questions it answered; counting a refusal as wrong over all 600 questions gives 67.3%, and the two must not be mixed. The roughly 50% and 67% in the launch blog are an overview, and the exact accounting follows the tables in the paper. The update time written on the leaderboard itself is 2026-10-28 (the release date; the specific evaluation run date is Unverified); the collection date is not the run date. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
@@ -172,7 +171,7 @@ In the no-tool Table 4 of the formal PDF, GPT-5.6 Sol has a full-set accuracy of
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。DualChem specifically tests dual-use chemical risk and is not merged with ChemBench general chemistry ability; specific sensitive question content is not collected or further distributed. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- date：2026-11-07；；change：首次建立近期热门中文研究条目。DualChem specifically tests dual-use chemical risk and is not merged with ChemBench general chemistry ability; specific sensitive question content is not collected or further distributed. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ---
 

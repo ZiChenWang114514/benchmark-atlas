@@ -410,16 +410,16 @@
           "release": "2025-07-02",
           "latest": "2025-07-14",
           "version": "v2",
-          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history_kst为准。"
+          "source_date_basis": "旧release/latest为arXiv源站日期标签；精确时间以arxiv_submission_history为准。"
         },
-        "arxiv_submission_history_kst": [
+        "arxiv_submission_history": [
           {
             "version": "v1",
-            "submitted_at_kst": "2025-07-03"
+            "submitted_at": "2025-07-03"
           },
           {
             "version": "v2",
-            "submitted_at_kst": "2025-07-15"
+            "submitted_at": "2025-07-15"
           }
         ]
       },
@@ -723,16 +723,10 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "type": "中文介绍",
-          "id": "1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk",
-          "webViewLink": "https://docs.google.com/document/d/1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk/edit"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
-          "url": "https://docs.google.com/document/d/1e-0ecKgh4yUcUPBaUZz0z0IxxMN23URYbsAWLtC7TUk/edit",
+          "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
       ]

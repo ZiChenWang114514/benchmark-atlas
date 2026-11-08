@@ -12,31 +12,31 @@ Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 Vibe Code Bench v1.1
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Full name
 
 Vibe Code Bench v1.1
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Benchmark version
 
 v1.1
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Paper version
 
 arXiv v3; submitted at 2026-05-14 08:00:10.
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### Release date
 
 2026-02-24（v1.1）
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Section
 
@@ -44,31 +44,31 @@ Code
 
 Note: Editorial filing. Only the main section is counted.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Field tags
 
 - 代码
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 许可与适用范围
 
 The public OpenHands scaffold is MIT outside the enterprise/ directory, and enterprise/ follows its own license; the official site marks the benchmark as Proprietary. The license of the test set is Unverified, and the MIT license of the scaffold is not extrapolated to the question bank.
 
-Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/blob/main/LICENSE) (accessed 2026-11-08， ) ; [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08， )
+Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/blob/main/LICENSE) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2603.04601
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Code repository
 
 https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### 数据地址
 
@@ -76,19 +76,19 @@ Unverified
 
 Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Official homepage
 
 https://www.vals.ai/benchmarks/vibe-code
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Paper title
 
 Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Origin and maintenance
 
@@ -96,25 +96,25 @@ Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
 
 Vals AI
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Partner organizations
 
 The authors are affiliated with Vals AI and MIT; a formal collaboration agreement is not inferred from author affiliation.
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### Authors
 
 Hung Tran、Langston Nashold、Rayan Krishnan、Antoine Bigeard、Alex Gu
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， ) ; [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07); [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### Current maintainer
 
 Vals AI
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 资助与支持
 
@@ -122,7 +122,7 @@ Unverified
 
 Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Design goals
 
@@ -130,13 +130,13 @@ Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
 
 A deployable web application is built from scratch from a natural-language specification, completing user flows such as authentication, data, payment, and email.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Design background
 
 Function generation, or fixing bugs in an existing repository, is not enough to test complete application delivery, deployment, and service integration.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Construction
 
@@ -144,31 +144,31 @@ Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
 
 An LLM generates the first draft, product managers and software engineers review it over multiple rounds, the specification is aligned with the tests, and the tests are checked by hand.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 出题背景
 
 Professional product managers and software engineers review the specifications; first drafts of the questions are generated by an LLM, drawing on consulting cases, freelance development tasks, and patterns of startup applications.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### Review process
 
 Product managers and software engineers review the application specification and the tests over multiple rounds; people check whether the requirements are sufficient to support the verification steps.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Quality control
 
 Each specification goes through several rounds of review by PMs and engineers. The official site says that each test is verified three times by professional engineers. The paper also runs a human-alignment study. Agreement among model judges on substeps is 31.8–93.6%, and the choice of scorer affects the result. Usability does not equal design quality, code quality, or a security audit.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### 去污染与泄漏
 
 Validation and test application tasks do not overlap. A run isolates a new browser session and uses a unique account and unique data, so that workflow state does not leak; this is isolation of evaluation state. An audit of contamination in pretraining data remains Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ## Data format
 
@@ -176,13 +176,13 @@ Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
 
 The paper: 100 application specifications, 50 for validation and 50 for test; 964 browser workflows and 10,131 substeps. The current web page also says 20–60 tests per specification, which does not match the paper’s basis of 6–23 workflows.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， ) ; [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07); [2](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### Question types
 
 The input is a complete application specification; the output is a deployable application, checked step by step in a browser.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Modalities
 
@@ -190,25 +190,25 @@ Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
 - 代码
 - Web visual interaction
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Languages
 
 English natural-language application specifications and UI workflows; the outputs involve Web code, a terminal, and visual interaction in a browser, and cannot be read as unit tests in a fixed programming language.
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### Difficulty
 
 Using the average pass rate of 16 models, the paper retrospectively divides the 50 test questions into Easy23, Medium19, and Hard8; these are not difficulty labels fixed in advance by experts, and models added later should not rewrite the historical grouping.
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### 数据划分
 
 The paper abstract says 50 private validation and 50 hidden test, while Table 3 writes Validation(public); the statements of public availability contradict each other and are Unverified. The set must not be called fully open.
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -216,19 +216,19 @@ Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
 
 Workflow pass rate, averaged by application, with error bars of ±1 standard error.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Scoring
 
 A browser agent executes prewritten user workflows; a workflow passes if at least 90% of its substeps succeed. Workflow pass rates are computed by application and then averaged across applications.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 提示与运行设置
 
 OpenHands adapts the container environment, with a maximum of 5 hours or 1,000 turns; a terminal, a browser, self-hosted Supabase, Stripe test mode, and MailHog.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 评测脚本
 
@@ -236,13 +236,13 @@ https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold
 
 Note: This address is a publicly modified OpenHands scaffold; it does not guarantee that the private specification, the tests, and the scoring service are all public.
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， ) ; [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 The web page and the paper conflict in their descriptions of technology-stack constraints, the number of tests, and whether the validation set is public, and the two are recorded by source; the current v1.1 leaderboard is not the paper's early result on 16 models.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Current status
 
@@ -256,29 +256,29 @@ Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 ```json
 {
-  "version": "v1.1"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/vibe-code"
-      "date": "2026-11-05"
-      "date_type": "source_calendar_date"
-      "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
-    }
-  ]
+ "version": "v1.1"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/vibe-code"
+ "date": "2026-11-05"
+ "date_type": "source_calendar_date"
+ "note": "The current Vals AI methods and leaderboard actually evaluate multiple models; the current presentation is mainly from a single institution and does not represent broad industry adoption."
+ }
+ ]
 }
 ```
 
 Note: The heat grade is adopted from the candidate; only evidence that has been opened and can be verified is retained. A does not guarantee that every version received independent reruns by multiple institutions.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2026-03-05 06:00:33 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2026-05-05 12:37:49 ", "timezone": ""}
-- {"version": "v3", "submitted_at": "2026-05-14 08:00:10 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2026-03-05 06:00:33 "}
+- {"version": "v2", "submitted_at": "2026-05-05 12:37:49 "}
+- {"version": "v3", "submitted_at": "2026-05-14 08:00:10 "}
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-08)
 
 ### 饱和证据与局限
 
@@ -290,13 +290,13 @@ Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 The abstract and the body of arXiv v3 say that there are 50 items of private validation, while Table 3 marks Validation(public). The contradiction about what is public is kept. v1.1 on the official site already has 125 system configurations. The 16 models in the paper are historical, and they are not mixed in as if they were the same experiment.
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， ) ; [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08); [2](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 ### 衍生或后继基准
 
 VCB 1–100 starts from applications that already passed in v1.1, with at most 10 consecutive rounds of requirement changes; there are 50 test and 50 validation scenarios, measuring evolution and regression, and this is not a substitute score on this page for building an application from scratch.
 
-Sources: [1](https://www.vals.ai/benchmarks/vcb-1-100) (accessed 2026-11-08， )
+Sources: [1](https://www.vals.ai/benchmarks/vcb-1-100) (accessed 2026-11-08)
 
 ## Leaderboard snapshot
 
@@ -310,7 +310,7 @@ Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 
 https://www.vals.ai/benchmarks/vibe-code
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 第三方入口
 
@@ -318,7 +318,7 @@ https://www.vals.ai/benchmarks/vibe-code
 
 Note: A benchmark built by Vals and an external benchmark that Vals runs independently differ in kind; multiple URLs from the same organization do not equal independent review.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -466,13 +466,13 @@ Source: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-08)
 - langston@vals.ai
 - rayan@vals.ai
 
-Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2603.04601) (accessed 2026-11-07)
 
 ### 公开反馈渠道
 
 https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold/issues
 
-Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold) (accessed 2026-11-08， )
+Sources: [1](https://github.com/vals-ai/VibeCodeBench-Openhands-Scaffold) (accessed 2026-11-08)
 
 ### 官方社交账号
 
@@ -480,7 +480,7 @@ Unverified
 
 Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 联系方式/隐私原则
 
@@ -488,7 +488,7 @@ Unverified
 
 Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Original files
 
@@ -496,13 +496,13 @@ Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
 
 https://arxiv.org/pdf/2603.04601
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### PDF SHA-256
 
 1933eb3da0f6f6b6905903c1c6952238d0347ec6c2f5526f02e5346cac0fbf5f
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### PDF bytes
 
@@ -510,7 +510,7 @@ Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
 2556686
 ```
 
-Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2603.04601) (accessed 2026-11-08)
 
 ### Folder
 
@@ -518,19 +518,19 @@ Unverified
 
 Note: The listed official materials have been consulted, and exact verification of this field is not yet complete; this is not equivalent to Not disclosed by the official source.
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### Other documents
 
 - {"type": "Official methods or project page", "url": "https://www.vals.ai/benchmarks/vibe-code", "accessed": "2026-11-07"}
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ### 论文原件
 
 Unverified
 
-Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07， )
+Sources: [1](https://www.vals.ai/benchmarks/vibe-code) (accessed 2026-11-07)
 
 ## Changelog
 

@@ -209,12 +209,6 @@ Basis of the overview: [S1](https://arxiv.org/abs/2005.00707) [S2](https://arxiv
 
 **PDF字节数**：2513518 [S7](https://arxiv.org/pdf/2005.00707)
 
-**原有文件夹**：{"id": "1k3jZRqYR__FVaY_MxD5J4xmR-L2BiADe", "webViewLink": " [S12](
-
-**其他材料**：[{"kind": "Chinese introduction", "id": "1NtknnmF6L_ZeGTOBdxqsJpfjOFzow2dvDfhYCTsIBkk", "webViewLink": " [S13](
-
-**原有 PDF**：{"id": "1wRPaSl63GECWDwAqW5_HthOwRislygXV", "webViewLink": " [S14](
-
 ## Changelog
 
 - 2026-11-07，首批官方材料核验、中文改写、；未核实字段显式标记。

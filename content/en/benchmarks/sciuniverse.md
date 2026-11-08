@@ -1,6 +1,6 @@
 # SciUniverse Level 1
 
-> Benchmark Constitution, in-depth review 2026-11-08. Verified to exist; an 11-section research snapshot; note: trending: B; unknown fields remain Unverified
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SciUniverse moves the start of research evaluation forward to the sample, the instrument, and the experimental operation: the model must make a plan and must also face insufficient materials, equipment failure, and measurement noise. Level 1 mixes real experiments, simulated experiments, and interpretation of measured data, and it cannot be summarized as “92 wet experiments.” The overall metric weights 17 families equally, and it is not a simple average of 92 questions.
 
@@ -52,9 +52,9 @@ Chemistry
 
 ```json
 [
-  "Biology and medicine"
-  "材料"
-  "湿实验"
+ "Biology and medicine"
+ "材料"
+ "湿实验"
 ]
 ```
 
@@ -212,10 +212,10 @@ Given a scientific objective, carry out interaction with experimental, analysis,
 
 ```json
 [
-  "Experimental data"
-  "Instrument interface"
-  "Text instruction"
-  "Real experiment and simulation"
+ "Experimental data"
+ "Instrument interface"
+ "Text instruction"
+ "Real experiment and simulation"
 ]
 ```
 
@@ -287,15 +287,15 @@ Cost includes only model and API inference, not laboratory and labor costs; equa
 
 ```json
 {
-  "version": "Level 1"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://c5r.net/sciuniverse/"
-      "date": "2026-11-07"
-      "note": "C5R currently displays Level 1 results for multiple models; this is an observation date, and the evaluation is mainly by a single organization."
-    }
-  ]
+ "version": "Level 1"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://c5r.net/sciuniverse/"
+ "date": "2026-11-07"
+ "note": "C5R currently displays Level 1 results for multiple models; this is an observation date, and the evaluation is mainly by a single organization."
+ }
+ ]
 }
 ```
 
@@ -440,10 +440,10 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official introduction/protocol"
-    "url": "https://c5r.net/sciuniverse/"
-  }
+ {
+ "type": "Official introduction/protocol"
+ "url": "https://c5r.net/sciuniverse/"
+ }
 ]
 ```
 
@@ -459,16 +459,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

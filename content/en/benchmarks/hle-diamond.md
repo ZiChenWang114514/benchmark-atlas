@@ -50,8 +50,8 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 ```json
 [
-  "多模态"
-  "Cross-disciplinary science"
+ "多模态"
+ "Cross-disciplinary science"
 ]
 ```
 
@@ -63,13 +63,13 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 ```json
 {
-  "code": "Associated HLE repository MIT"
-  "dataset_metadata": "HF labeled MIT"
-  "additional_notice": "The HF dataset card requires that the dataset not be shared in public, re-uploaded, or distributed; entry into a training corpus is prohibited. Access to the data files is subject to a separate HF condition of consent."
+ "code": "Associated HLE repository MIT"
+ "dataset_metadata": "HF labeled MIT"
+ "additional_notice": "The HF dataset card requires that the dataset not be shared in public, re-uploaded, or distributed; entry into a training corpus is prohibited. Access to the data files is subject to a separate HF condition of consent."
 }
 ```
 
-Sources: [1](https://github.com/centerforaisafety/hle/blob/main/LICENSE) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://github.com/centerforaisafety/hle/blob/main/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08).
 
 ### 论文入口
 
@@ -101,13 +101,13 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 ```json
 {
-  "related_arxiv": "Humanity’s Last Exam"
-  "related_journal": "A benchmark of expert-level academic questions to assess AI capabilities"
-  "relationship": "The Diamond release article cites the original HLE paper and is not treated as an independent Diamond paper."
+ "related_arxiv": "Humanity’s Last Exam"
+ "related_journal": "A benchmark of expert-level academic questions to assess AI capabilities"
+ "relationship": "The Diamond release article cites the original HLE paper and is not treated as an independent Diamond paper."
 }
 ```
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08).
 
 ## Origin and maintenance
 
@@ -115,8 +115,8 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](
 
 ```json
 [
-  "Center for AI Safety"
-  "Scale AI"
+ "Center for AI Safety"
+ "Scale AI"
 ]
 ```
 
@@ -176,7 +176,7 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 It carries forward questions written by HLE’s domain experts worldwide, after a year of cleaning; the release article thanks the people who contributed questions and the HLE-Rolling research community, and it does not automatically count every author of the original HLE as an independent author of Diamond.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08).
 
 ### Review process
 
@@ -202,20 +202,20 @@ Sources: [1](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11
 
 1,000 questions: 500 on reasoning and 500 on knowledge.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07 ) ; [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07 ) ; [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07); [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07); [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
 
 ### Question types
 
 Follows the HLE field format; AA scores with open answers and an equivalence-check judge.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07 ) ; [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07 ) ; [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07); [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07); [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
 
 ### Modalities
 
 ```json
 [
-  "文本"
-  "Image (272 questions)"
+ "文本"
+ "Image (272 questions)"
 ]
 ```
 
@@ -225,7 +225,7 @@ Sources: [1](https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 The public dataset card states that every column follows the HLE format; AA uses the official English HLE system prompt. A complete per-question language count is Unverified, and this is not a basis for claiming that all items are monolingual.
 
-Sources: [1](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08 ) ; [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08); [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
 
 ### Difficulty
 
@@ -237,7 +237,7 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08).
 
 The test split is public; the partition column distinguishes reasoning from knowledge.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07 ) ; [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07 ) ; [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07); [2](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-07); [3](https://artificialanalysis.ai/methodology/intelligence-benchmarking) (accessed 2026-11-07).
 
 ## Evaluation
 
@@ -257,12 +257,12 @@ Sources: [1](https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 ```json
 {
-  "AA": "1000 questions, 1 time each, with no tools; the official HLE system prompt; judged by GPT-5.6 Luna (medium); vision models receive the images, and non-vision models receive text only but are still scored on every question."
-  "official_tools": "The web+code tool track uses Python 3.11.16 and pinned dependencies; the code sandbox does not connect to the network directly and obtains external information only through web_search and web_fetch; the official blocklist filters leakage of questions and answers; runs follow the provider's agent harness."
+ "AA": "1000 questions, 1 time each, with no tools; the official HLE system prompt; judged by GPT-5.6 Luna (medium); vision models receive the images, and non-vision models receive text only but are still scored on every question."
+ "official_tools": "The web+code tool track uses Python 3.11.16 and pinned dependencies; the code sandbox does not connect to the network directly and obtains external information only through web_search and web_fetch; the official blocklist filters leakage of questions and answers; runs follow the provider's agent harness."
 }
 ```
 
-Sources: [1](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08 ) ; [2](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
+Sources: [1](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08); [2](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
 
 ### 官方脚本
 
@@ -282,22 +282,22 @@ Sources: [1](https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08 ) ; [2](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08); [2](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08).
 
 ### 最新数据状态
 
 ```json
 {
-  "version": "HLE-Diamond (named version)"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
-      "date": "2026-10-27"
-      "date_type": "source_calendar_date"
-      "note": "AA v5 replaces the original HLE with HLE-Diamond, at an index weight of 10%."
-    }
-  ]
+ "version": "HLE-Diamond (named version)"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+ "date": "2026-10-27"
+ "date_type": "source_calendar_date"
+ "note": "AA v5 replaces the original HLE with HLE-Diamond, at an index weight of 10%."
+ }
+ ]
 }
 ```
 
@@ -309,66 +309,54 @@ Sources: [1](https://artificialanalysis.ai/articles/artificial-analysis-intellig
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-01-24"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2025-02-06"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2025-02-12"
-    "timezone": ""
-  }
-  {
-    "version": "v4"
-    "submitted_at": "2025-02-19"
-    "timezone": ""
-  }
-  {
-    "version": "v5"
-    "submitted_at": "2025-02-21"
-    "timezone": ""
-  }
-  {
-    "version": "v6"
-    "submitted_at": "2025-04-11"
-    "timezone": ""
-  }
-  {
-    "version": "v7"
-    "submitted_at": "2025-04-20"
-    "timezone": ""
-  }
-  {
-    "version": "v8"
-    "submitted_at": "2025-09-12"
-    "timezone": ""
-  }
-  {
-    "version": "v9"
-    "submitted_at": "2025-09-26"
-    "timezone": ""
-  }
-  {
-    "version": "v10"
-    "submitted_at": "2026-02-20"
-    "timezone": ""
-  }
-  {
-    "version": "v11"
-    "submitted_at": "2026-07-29"
-    "timezone": ""
-  }
-  {
-    "version": "v12"
-    "submitted_at": "2026-10-19"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-01-24"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2025-02-06"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2025-02-12"
+ }
+ {
+ "version": "v4"
+ "submitted_at": "2025-02-19"
+ }
+ {
+ "version": "v5"
+ "submitted_at": "2025-02-21"
+ }
+ {
+ "version": "v6"
+ "submitted_at": "2025-04-11"
+ }
+ {
+ "version": "v7"
+ "submitted_at": "2025-04-20"
+ }
+ {
+ "version": "v8"
+ "submitted_at": "2025-09-12"
+ }
+ {
+ "version": "v9"
+ "submitted_at": "2025-09-26"
+ }
+ {
+ "version": "v10"
+ "submitted_at": "2026-02-20"
+ }
+ {
+ "version": "v11"
+ "submitted_at": "2026-07-29"
+ }
+ {
+ "version": "v12"
+ "submitted_at": "2026-10-19"
+ }
 ]
 ```
 
@@ -380,13 +368,13 @@ Sources: [1](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08).
 
 On the current official site, the high with no tools is 59.9% and the high with web+code is 82.9%; the current AA high with no tools is 69.1%. These are snapshots of three different implementations, and they are not a single claim that the benchmark is saturated.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
 
 ### 污染与已知问题
 
 The question set is cleaned from HLE that has already been published, so it cannot be claimed never to have been public; the canary only assists filtering. The tool track must restrict accessible sources so that the question bank or the answers are not hit directly; HF explicitly requires that questions not be shared.
 
-Sources: [1](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08 ) ; [2](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/cais/hle-diamond) (accessed 2026-11-08); [2](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
 
 ### 相关与衍生基准
 
@@ -400,7 +388,7 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 2026-11-08 (collection date, not a run date or a leaderboard-update date)
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08 ) ; [3](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08); [3](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
 
 ### 官方结果入口
 
@@ -418,106 +406,106 @@ Sources: [1](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 20
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "GPT-6 Astra"
-    "score": "59.9"
-    "metric": "Accuracy (%)"
-    "track": "Official high, no tools"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "Gemini 4 Argon"
-    "score": "56.9"
-    "metric": "Accuracy (%)"
-    "track": "Official high, no tools"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "Claude Opus 5.5"
-    "score": "54.6"
-    "metric": "Accuracy (%)"
-    "track": "Official high, no tools"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-6 Astra"
-    "score": "82.9"
-    "metric": "Accuracy (%)"
-    "track": "Official high, web+code"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "Claude Opus 5.5"
-    "score": "73.9"
-    "metric": "Accuracy (%)"
-    "track": "Official high, web+code"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "Claude Fable 5.1"
-    "score": "72.3"
-    "metric": "Accuracy (%)"
-    "track": "Official high, web+code"
-    "source_url": "https://lastexam.ai/blog/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "Gemini 4 Carbon (High)"
-    "score": "69.1"
-    "metric": "pass@1 (%)"
-    "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
-    "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "Claude Opus 5.5 (Max, Default Fallback)"
-    "score": "67.9"
-    "metric": "pass@1 (%)"
-    "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
-    "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "Gemini 4 Carbon (Medium)"
-    "score": "67.4"
-    "metric": "pass@1 (%)"
-    "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
-    "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
-    "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": 1
+ "model": "GPT-6 Astra"
+ "score": "59.9"
+ "metric": "Accuracy (%)"
+ "track": "Official high, no tools"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "Gemini 4 Argon"
+ "score": "56.9"
+ "metric": "Accuracy (%)"
+ "track": "Official high, no tools"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "Claude Opus 5.5"
+ "score": "54.6"
+ "metric": "Accuracy (%)"
+ "track": "Official high, no tools"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-6 Astra"
+ "score": "82.9"
+ "metric": "Accuracy (%)"
+ "track": "Official high, web+code"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "Claude Opus 5.5"
+ "score": "73.9"
+ "metric": "Accuracy (%)"
+ "track": "Official high, web+code"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "Claude Fable 5.1"
+ "score": "72.3"
+ "metric": "Accuracy (%)"
+ "track": "Official high, web+code"
+ "source_url": "https://lastexam.ai/blog/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "Gemini 4 Carbon (High)"
+ "score": "69.1"
+ "metric": "pass@1 (%)"
+ "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
+ "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "Claude Opus 5.5 (Max, Default Fallback)"
+ "score": "67.9"
+ "metric": "pass@1 (%)"
+ "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
+ "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "Gemini 4 Carbon (Medium)"
+ "score": "67.4"
+ "metric": "pass@1 (%)"
+ "track": "AA independent, no tools, 1000 questions, GPT-5.6 Luna medium judge"
+ "source_url": "https://artificialanalysis.ai/evaluations/hle-diamond"
+ "source_date": "Unverified (the run date of each model is not listed; the date of the official release article is 2026-09-22)."
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08 ) ; [3](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08); [3](https://github.com/centerforaisafety/hle/blob/main/docs/evaluation-with-tools.md) (accessed 2026-11-08).
 
 ### 覆盖与局限
 
 Read from AA’s direct evaluation page, and do not present rounded figures such as 68% from the index article as exact leaderboard scores; three tracks are kept: official high with no tools, official high with web+code, and AA independent with no tools.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://artificialanalysis.ai/evaluations/hle-diamond) (accessed 2026-11-08).
 
 ## Contact
 
@@ -525,7 +513,7 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](
 
 ```json
 [
-  "agibenchmark@safe.ai"
+ "agibenchmark@safe.ai"
 ]
 ```
 
@@ -563,7 +551,7 @@ https://arxiv.org/pdf/2501.14249
 
 > Linked to the PDF of the original HLE paper, not an independent Diamond paper.
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08).
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08); [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08).
 
 ### PDF SHA-256
 
@@ -595,10 +583,10 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "type": "Official methods and introduction page (not the paper PDF)"
-    "url": "https://lastexam.ai/blog/hle-diamond"
-  }
+ {
+ "type": "Official methods and introduction page (not the paper PDF)"
+ "url": "https://lastexam.ai/blog/hle-diamond"
+ }
 ]
 ```
 
@@ -618,18 +606,15 @@ Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07 ) ; [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08 ) ; [3](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08).
-
+Sources: [1](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-07); [2](https://arxiv.org/abs/2501.14249) (accessed 2026-11-08); [3](https://lastexam.ai/blog/hle-diamond) (accessed 2026-11-08).

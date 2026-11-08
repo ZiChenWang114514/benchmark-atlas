@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; a Chinese research snapshot; note: trending: B; Unverified marks are retained
+a Chinese research snapshot; Unverified marks are retained
 
 DistressBench evaluates support in a psychological crisis and does not treat "no harmful content was produced" as a sufficient condition. 718 simulated English conversations cover 23 categories of crisis. 299 are single-turn and 419 are multi-turn. Clinicians and crisis counselors took part in the design. 6901 weighted atomic criteria measure seven dimensions, including empathy, recognition, de-escalation, and referral. The materials are not patient records or real clinical conversations. [1](https://labs.scale.com/leaderboard/distressbench) [2](https://arxiv.org/abs/2610.12758) [3](https://huggingface.co/datasets/ScaleAI/DistressBench)
 
@@ -131,7 +131,6 @@ There are 359 public items and 359 private items. The main leaderboard uses a ma
 
 > qwen3.8-max：ci95_halfwidth：1.03；rank_type：Web-page display position does not equal a statistical band [1](https://labs.scale.com/leaderboard/distressbench)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：In the dynamic table on the official website, some model names and scores cannot be paired in full, and only displayed entries that can be matched reliably are recorded; the serial numbers on the leaderboard page and the statistical bands in the paper are not the same basis. The extended list on the web page goes beyond the 25 models in the paper, and the exact date on which the page was updated has not been verified precisely. [1](https://labs.scale.com/leaderboard/distressbench)
@@ -170,7 +169,7 @@ There are 359 public items and 359 private items. The main leaderboard uses a ma
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/distressbench)
+- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/distressbench)
 
 ---
 

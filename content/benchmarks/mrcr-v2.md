@@ -1,6 +1,6 @@
 # OpenAI MRCR / MRCR v2
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 OpenAI MRCR测试长对话中多份同类写作回复的顺序辨识与重现。公开HF版有2/4/8-needle配置，评分是带随机前缀门槛的SequenceMatcher匹配率，不是严格逐字全对准确率。厂商发布文的“v2”尚未映射到公开HF commit，本页不把二者当作已确认同一数据版本；其灵感来源Michelangelo论文也不冒称OpenAI的独立基准论文。
 [本页导读依据](https://huggingface.co/datasets/openai/mrcr)（访问 2026-11-08）
@@ -281,18 +281,18 @@ HF数据卡内含运行与grade示例。
 
 ```json
 {
-  "version": "v2发布文标签，公开数据精确revision待核实"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://openai.com/index/gpt-6-astra/"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "OpenAI当前发布表使用MRCR v2；热度主要来自单一机构OpenAI，不能称行业广泛采用。"
-    }
-  ]
-  "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-  "revision_mapping": "厂商v2与此公开commit的对应关系待核实"
+ "version": "v2发布文标签，公开数据精确revision待核实"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "OpenAI当前发布表使用MRCR v2；热度主要来自单一机构OpenAI，不能称行业广泛采用。"
+ }
+ ]
+ "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "revision_mapping": "厂商v2与此公开commit的对应关系待核实"
 }
 ```
 
@@ -304,20 +304,20 @@ HF数据卡内含运行与grade示例。
 
 ```json
 {
-  "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射"
-  "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-  "last_modified_kst": "2025-12-09"
-  "card_dates_verbatim": [
-    "4/12/2025: Initial dataset published"
-    "12/5/2025: Bugfix"
-  ]
-  "date_caveat": "数据卡数字日期可能存在美式/其他记法歧义；保留原文，HF明确ISO元数据另列，不强行替代修订语义。"
-  "predecessor_paper": {
-    "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
-    "url": "https://arxiv.org/abs/2409.12640"
-    "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
-    "scope": "Google/DeepMind原始MRCR灵感来源，不是OpenAI MRCR v2独立论文"
-  }
+ "scope": "OpenAI公开HF数据，不等同厂商v2内部版本映射"
+ "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "last_modified": "2025-12-09"
+ "card_dates_verbatim": [
+ "4/12/2025: Initial dataset published"
+ "12/5/2025: Bugfix"
+ ]
+ "date_caveat": "数据卡数字日期可能存在美式/其他记法歧义；保留原文，HF明确ISO元数据另列，不强行替代修订语义。"
+ "predecessor_paper": {
+ "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
+ "scope": "Google/DeepMind原始MRCR灵感来源，不是OpenAI MRCR v2独立论文"
+ }
 }
 ```
 
@@ -483,32 +483,32 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 ```json
 [
-  {
-    "type": "官方HF数据卡及内联运行/grade示例"
-    "url": "https://huggingface.co/datasets/openai/mrcr"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "公开HF commit元数据"
-    "url": "https://huggingface.co/datasets/openai/mrcr"
-    "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "MRCR前身论文，非OpenAI v2论文"
-    "url": "https://arxiv.org/pdf/2409.12640v2"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "厂商v2使用证据"
-    "url": "https://openai.com/index/gpt-6-astra/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/abs/2409.12640"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "官方HF数据卡及内联运行/grade示例"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "公开HF commit元数据"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "MRCR前身论文，非OpenAI v2论文"
+ "url": "https://arxiv.org/pdf/2409.12640v2"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "厂商v2使用证据"
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -530,16 +530,14 @@ https://huggingface.co/datasets/openai/mrcr/discussions（官方HF社区反馈�
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

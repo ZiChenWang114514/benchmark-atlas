@@ -251,7 +251,7 @@ Pass@1/5/10/20，分Python、Java、Rosalind。
 
 ### 核查日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[1]
 
@@ -297,7 +297,7 @@ v1：2023-08-31；v2：2023-09-06；v3：2023-09-30；v4：2023-12-04；v5：202
 
 ### 采集日期
 
-2026-11-07（，；采集日，不是实验日）
+2026-11-07（采集日，不是实验日）
 
 来源：[1]
 
@@ -425,19 +425,13 @@ c10e1ca00454f617439153c6646eb406ea01ffc3bf14fef420a6968223858b1e
 
 ### 既有文件夹
 
-id：1QOAh5NYgNGWbpMDqIh5mq-XaSYEKEbea；webViewLink：
-
 来源：[1]
 
 ### 其他材料
 
-- type：中文介绍；id：1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ；webViewLink：https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit
-
 来源：[9]
 
 ### 既有 PDF链接
-
-id：1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk；webViewLink：
 
 来源：[1]
 
@@ -447,7 +441,7 @@ id：1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk；webViewLink：
 
 - 2026-11-07：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
 - 2026-11-07：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07（）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1]
 
@@ -461,4 +455,4 @@ id：1UGyQMMdGXcWUV18accbXO_a7H1Keg1Xk；webViewLink：
 [6]: https://huggingface.co/datasets/lilbillbiscuit/biocoder_public "访问 2026-11-07"
 [7]: https://arxiv.org/pdf/2308.16458 "访问 2026-11-07"
 [8]: https://github.com/gersteinlab/BioCoder "访问 2026-11-07"
-[9]: https://docs.google.com/document/d/1Q2TZE2KmhY9m_nGvmSuRcgva8GaaoYHVfHi2djMz1lQ/edit "访问 2026-11-07"
+[9]: "访问 2026-11-07"

@@ -1,5 +1,5 @@
 # MATH
-> Verification: 2026-11-08. Verified to exist; an in-depth entry; explicit Unverified items are retained.
+> Verification: 2026-11-08. an in-depth entry; explicit Unverified items are retained.
 
 MATH provides contest mathematics problems with complete solutions. The full test set is 5,000 questions; the commonly seen MATH-500 is only one subset of it. Reasoning budget, code tools, voting, and answer normalization for modern models change the protocol substantially, and a near-perfect score on one subset cannot be extended into a claim that all contest-mathematics ability is saturated.
 
@@ -152,12 +152,6 @@ Basis of the overview: [S1](https://arxiv.org/abs/2103.03874) [S2](https://githu
 > Checksum of the PDF bytes downloaded from the source site this time. This does not claim that an existing copy was re-sent or replaced.
 
 **PDF字节数**：2030715 [S6](https://arxiv.org/pdf/2103.03874)
-
-**原有文件夹**：{"id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL", "webViewLink": " [S12](
-
-**其他材料**：{"chinese_intro_doc": {"id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/math.md"} [S12](
-
-**原有 PDF**：{"id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu", "webViewLink": " [S13](
 
 ## Changelog
 

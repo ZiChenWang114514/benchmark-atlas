@@ -12,7 +12,7 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https:
 
 UGPhysics
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Full name
 
@@ -20,25 +20,25 @@ UGPhysics
 
 Note: The official name is used; when no verified expansion of the full name exists, the original name is retained, and the title of the paper is not mistaken for the full name of the benchmark.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Benchmark version
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Paper version
 
 arXiv v4; submitted at 2025-06-03 16:13:03.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08)
 
 ### Release date
 
 2025/02/01
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,49 +46,49 @@ Physics
 
 Note: Benchmark Constitution editorial filing. A cross-disciplinary entry is counted only in its main section. Other subjects are found through tags.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08)
 
 ### Field tags
 
 - 物理
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
 Data: CC-BY-NC-SA-4.0 (official HF data card); the current code repository has no LICENSE in its root, so the code license is Unverified, and the data license cannot be applied automatically to the code.
 
-Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08， ) ; [2](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08); [2](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2502.00334
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/YangLabHKUST/UGPhysics
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 数据地址
 
 https://huggingface.co/datasets/UGPhysics/ugphysics
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08); [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://github.com/YangLabHKUST/UGPhysics
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Paper title
 
 UGPhysics: A Comprehensive Benchmark for Undergraduate Physics Reasoning with Large Language Models
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -96,13 +96,13 @@ Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](h
 
 The author team consists mainly of authors from the Hong Kong University of Science and Technology; a legal relationship for a formal initiating organization is not inferred.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Partner organizations
 
 Paper author affiliations include the Hong Kong University of Science and Technology, Tsinghua University, the University of Science and Technology of China, Zhejiang University, and NVIDIA Research; academic affiliations of the authors are recorded here, without inferring a separate commercial collaboration agreement.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Authors
 
@@ -116,19 +116,19 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
 - Yang, Can
 - Wang, Yang
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Current maintainer
 
 YangLabHKUST/UGPhysics is the official code entry, and UGPhysics/ugphysics is the data-release account indicated by the authors.
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08); [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08)
 
 ### 资助与支持
 
 Partly funded by the Research Grants Council of Hong Kong, project AoE/E-601/24-N.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -136,13 +136,13 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
 
 Covers the breadth and the depth of reasoning of undergraduate physics, distinguishing abilities such as the application of physical laws and mathematical derivation.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Design background
 
 Covers the breadth and the depth of reasoning of undergraduate physics, distinguishing abilities such as the application of physical laws and mathematical derivation.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ## Construction
 
@@ -150,31 +150,31 @@ Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](h
 
 Taken from the seven volumes of 《物理学大题典》 of the University of Science and Technology of China; Mathpix converts the PDFs to LaTeX, the team checks each original PDF against the converted text, and the material is organized as Problem—Solution—Answer.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 出题背景
 
 The questions come from an undergraduate physics exercise book, and the author team manually reviewed the converted drafts; they are not 5,520 original questions newly written entirely by experts.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Review process
 
 OCR is corrected by hand, and duplicate or similar questions are removed by model embeddings; a progressive question is split into independent questions whose information is complete; image questions, estimation questions, proofs, and explanation questions that cannot be judged objectively are excluded.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Quality control
 
 Official MARJ agrees with human annotation on 98% of a random 100 cases (reported by the authors); an independent expert audit in 2026 found problems in the reference materials and in the scoring. The two findings are listed side by side, and the validation reported by the authors cannot be taken as proof that the whole collection is free of error.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08)
 
 ### 去污染与泄漏
 
 Deduplication uses embeddings, together with n-gram leakage detection (matches on predicted 5-grams); the paper reports that models still show a small amount of leakage. This is not “complete decontamination.”
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ## Data format
 
@@ -182,38 +182,38 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
 
 5,520 distinct physics questions, each bilingual in Chinese and English; 3 major domains, 13 subjects, and 59 topics. The language versions are not 11,040 unrelated new questions.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-08)
 
 ### Question types
 
 6 atomic answer types: numeric value, expression, equation, interval, judgment, and choice. The 7th type is a composite answer made of atomic answers. The four categories of reasoning skill are labels and are not four difficulty levels.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Modalities
 
 - 纯文本
 - LaTeX mathematical expressions
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Languages
 
 Chinese and English; HF uses en and zh as the split names of the configuration for each subject.
 
-Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-07)
 
 ### Difficulty
 
 Undergraduate physics, with 3 broad domains, 13 core subjects, and 59 key topics.
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07)
 
 ### 数据划分
 
 The official HF release is by subject configuration and by en/zh language splits; these splits are languages, not train/test. An independent hidden test set has not been confirmed.
 
-Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-07， )
+Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README.md) (accessed 2026-11-07)
 
 ## Evaluation
 
@@ -221,31 +221,31 @@ Sources: [1](https://huggingface.co/datasets/UGPhysics/ugphysics/raw/main/README
 
 Model-Assistant Rule-based Judgment (MARJ) scoring procedure; accuracy.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Scoring
 
 MARJ first judges with type-specific rules and symbolic tools; complex expressions that cannot be judged correct are then assisted by a model; numeric values allow a relative error of 1e-2. What is judged is the final answer, not the credibility of the full derivation.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 提示与运行设置
 
 The example for an open model is to reason step by step and to place the final answer in boxed; closed models use infer_close.py, open models use generate_open.py, and scoring is done uniformly with codes/eval.py.
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07)
 
 ### 评测脚本
 
 https://github.com/YangLabHKUST/UGPhysics
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 The original full set of 5,520 questions, the Chinese and English editions, the bilingual average, the specific subjects, and the 2026 audit sample are marked separately. The audit first drew 100 questions, excluded 18, and retained 82. mean@4 and pass@4 cannot be relabeled as accuracy on the original full bank.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08)
 
 ## Current status
 
@@ -253,34 +253,34 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， ) ; [2](h
 
 2026-11-08
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2025-02-01 15:42:02 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2025-02-05 20:36:53 ", "timezone": ""}
-- {"version": "v3", "submitted_at": "2025-05-24 13:39:08 ", "timezone": ""}
-- {"version": "v4", "submitted_at": "2025-06-03 16:13:03 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2025-02-01 15:42:02 "}
+- {"version": "v2", "submitted_at": "2025-02-05 20:36:53 "}
+- {"version": "v3", "submitted_at": "2025-05-24 13:39:08 "}
+- {"version": "v4", "submitted_at": "2025-06-03 16:13:03 "}
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-08)
 
 ### 饱和证据与局限
 
 The highest bilingual average in Table 5 of the original paper is DeepSeek-R1 at 56.34%; in the 2026 audit, GPT-5.6-Sol on the retained set of 82 questions has mean@4 of 92.07% and pass@4 of 93.90%. The question set, the number of repeats, and the scoring differ, and the later figures cannot be used to claim that the original full bank of 5,520 questions is saturated.
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， ) ; [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.13009) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 Independent expert audit v2 (the date marked on the paper is 2026-10-17) draws 100 questions from the original bank and retains 82; among 22 audit cases there are 18 benchmark errors, 3 grader errors, and 1 model error. This statistic is not the error rate over all 5,520 questions.
 
-Sources: [1](https://arxiv.org/html/2609.13009) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.13009) (accessed 2026-11-08)
 
 ### 衍生或后继基准
 
@@ -288,7 +288,7 @@ Unverified
 
 Note: This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -304,13 +304,13 @@ https://github.com/YangLabHKUST/UGPhysics#-leaderboard
 
 Note: The README still says coming soon; the official historical figures below are taken from paper Table 5 and are not a live leaderboard.
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08)
 
 ### 第三方入口
 
 https://arxiv.org/html/2609.13009
 
-Sources: [1](https://arxiv.org/html/2609.13009) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.13009) (accessed 2026-11-08)
 
 ### 可核验结果
 
@@ -640,13 +640,13 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08); [2](https:
 
 - macyang@ust.hk
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
 https://github.com/YangLabHKUST/UGPhysics/issues
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-07)
 
 ### 官方社交账号
 
@@ -654,13 +654,13 @@ Unverified
 
 Note: This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07， ) ; [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2502.00334) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-07)
 
 ### 联系方式/隐私原则
 
 Only contact details published in the paper, on the official site, or in the repository are used; private channels are not collected.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07， )
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07)
 
 ## Original files
 
@@ -668,13 +668,13 @@ Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07， )
 
 https://arxiv.org/pdf/2502.00334
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### PDF SHA-256
 
 790c2022e5d201029f9b498f71e5c8ec958f21c29e7a18af8fb1814378e1517c
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### PDF bytes
 
@@ -682,35 +682,11 @@ Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
 972563
 ```
 
-Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08， )
-
-### Folder
-
-```json
-{
-  "id": "1CGTFvXydofMzF8v77TIrhlSbr3E93qRF"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2502.00334) (accessed 2026-11-08)
 
 ### Other documents
 
-- {"kind": "Chinese introduction", "id": "1WrdA_I3lar1mS_QtdSQlaMpZx3gFxBkX_WNQhSFUjfY", "webViewLink": "
-
-Sources: [1]( 2026-11-07， )
-
 ### 论文原件
-
-```json
-{
-  "id": "1KdmS8qpEVcsXfJNpCNJsEtQk2ycNK5QA"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
 
 ## Changelog
 
@@ -718,4 +694,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08， )
+Sources: [1](https://github.com/YangLabHKUST/UGPhysics) (accessed 2026-11-08)

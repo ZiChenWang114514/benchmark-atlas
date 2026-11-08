@@ -385,15 +385,15 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2024-04-10"
+          "submitted_at": "2024-04-10"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2024-04-12"
+          "submitted_at": "2024-04-12"
         },
         {
           "version": "v3",
-          "submitted_at_kst": "2024-08-07"
+          "submitted_at": "2024-08-07"
         }
       ],
       "sources": [
@@ -470,7 +470,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "Jamba-1.5-large* (94B/398B)",
-          "score": 96.0,
+          "score": 96,
           "metric": "README Avg（%），按原表保留不重新计算",
           "track": "RULERv1历史表；外部作者自报",
           "source_url": "https://github.com/hsiehjackson/RULER",
@@ -481,7 +481,7 @@
             "4K": 96.7,
             "8K": 96.6,
             "16K": 96.4,
-            "32K": 96.0,
+            "32K": 96,
             "64K": 95.4,
             "128K": 95.1
           },
@@ -503,7 +503,7 @@
           "by_length": {
             "4K": 96.7,
             "8K": 95.8,
-            "16K": 96.0,
+            "16K": 96,
             "32K": 95.9,
             "64K": 95.9,
             "128K": 94.4
@@ -539,7 +539,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "Qwen3-235B-A22B* (235B)",
-          "score": 95.0,
+          "score": 95,
           "metric": "README Avg（%），按原表保留不重新计算",
           "track": "RULERv1历史表；外部作者自报",
           "source_url": "https://github.com/hsiehjackson/RULER",
@@ -570,11 +570,11 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
-            "4K": 98.0,
+            "4K": 98,
             "8K": 97.8,
             "16K": 96.4,
             "32K": 96.1,
-            "64K": 94.0,
+            "64K": 94,
             "128K": 85.1
           },
           "claimed_length": "128K",
@@ -598,7 +598,7 @@
             "16K": 94.8,
             "32K": 94.6,
             "64K": 92.8,
-            "128K": 90.0
+            "128K": 90
           },
           "claimed_length": "256K",
           "effective_length": ">128K",
@@ -617,7 +617,7 @@
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
             "4K": 98.4,
-            "8K": 96.0,
+            "8K": 96,
             "16K": 96.2,
             "32K": 94.4,
             "64K": 91.8,
@@ -664,7 +664,7 @@
           "by_length": {
             "4K": 96.8,
             "8K": 95.3,
-            "16K": 93.0,
+            "16K": 93,
             "32K": 91.1,
             "64K": 90.4,
             "128K": 84.4
@@ -686,7 +686,7 @@
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
             "4K": 96.5,
-            "8K": 97.0,
+            "8K": 97,
             "16K": 95.3,
             "32K": 92.4,
             "64K": 89.1,
@@ -712,12 +712,12 @@
             "8K": 96.3,
             "16K": 95.2,
             "32K": 93.2,
-            "64K": 87.0,
+            "64K": 87,
             "128K": 81.2
           },
           "claimed_length": "128K",
           "effective_length": "64K",
-          "wAvg_increasing": 89.0,
+          "wAvg_increasing": 89,
           "wAvg_decreasing": 94.1
         },
         {
@@ -755,7 +755,7 @@
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
             "4K": 96.3,
-            "8K": 96.0,
+            "8K": 96,
             "16K": 91.8,
             "32K": 91.2,
             "64K": 82.1,
@@ -769,7 +769,7 @@
         {
           "rank": "不设跨协议名次",
           "model": "Mistral-Large-2411 (123B)",
-          "score": 86.0,
+          "score": 86,
           "metric": "README Avg（%），按原表保留不重新计算",
           "track": "RULERv1历史表；项目所列实验",
           "source_url": "https://github.com/hsiehjackson/RULER",
@@ -780,7 +780,7 @@
             "4K": 96.4,
             "8K": 96.3,
             "16K": 95.3,
-            "32K": 94.0,
+            "32K": 94,
             "64K": 85.9,
             "128K": 48.1
           },
@@ -800,9 +800,9 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
-            "4K": 96.0,
+            "4K": 96,
             "8K": 95.1,
-            "16K": 94.0,
+            "16K": 94,
             "32K": 92.4,
             "64K": 85.4,
             "128K": 64.6
@@ -849,7 +849,7 @@
             "4K": 95.6,
             "8K": 95.2,
             "16K": 94.2,
-            "32K": 92.0,
+            "32K": 92,
             "64K": 84.3,
             "128K": 63.1
           },
@@ -878,7 +878,7 @@
           },
           "claimed_length": "128K",
           "effective_length": "64K",
-          "wAvg_increasing": 86.0,
+          "wAvg_increasing": 86,
           "wAvg_decreasing": 91.9
         },
         {
@@ -901,7 +901,7 @@
           },
           "claimed_length": "1M",
           "effective_length": "64K",
-          "wAvg_increasing": 88.0,
+          "wAvg_increasing": 88,
           "wAvg_decreasing": 91.7
         },
         {
@@ -920,7 +920,7 @@
             "16K": 91.6,
             "32K": 87.4,
             "64K": 84.7,
-            "128K": 77.0
+            "128K": 77
           },
           "claimed_length": "128K",
           "effective_length": "32K",
@@ -966,7 +966,7 @@
             "16K": 92.4,
             "32K": 89.5,
             "64K": 84.9,
-            "128K": 76.0
+            "128K": 76
           },
           "claimed_length": "128K",
           "effective_length": "32K",
@@ -986,7 +986,7 @@
           "by_length": {
             "4K": 93.8,
             "8K": 92.5,
-            "16K": 92.0,
+            "16K": 92,
             "32K": 89.2,
             "64K": 83.7,
             "128K": 83.7
@@ -994,7 +994,7 @@
           "claimed_length": "512K",
           "effective_length": "32K",
           "wAvg_increasing": 87.3,
-          "wAvg_decreasing": 91.0
+          "wAvg_decreasing": 91
         },
         {
           "rank": "不设跨协议名次",
@@ -1010,7 +1010,7 @@
             "4K": 96.2,
             "8K": 96.1,
             "16K": 95.1,
-            "32K": 93.0,
+            "32K": 93,
             "64K": 78.8,
             "128K": 23.7
           },
@@ -1101,10 +1101,10 @@
           "by_length": {
             "4K": 95.1,
             "8K": 93.6,
-            "16K": 91.0,
+            "16K": 91,
             "32K": 87.8,
             "64K": 77.8,
-            "128K": 66.0
+            "128K": 66
           },
           "claimed_length": "128K",
           "effective_length": "64K",
@@ -1122,7 +1122,7 @@
           "collected_at": "2026-11-08",
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
-            "4K": 87.0,
+            "4K": 87,
             "8K": 86.7,
             "16K": 88.8,
             "32K": 81.1,
@@ -1287,7 +1287,7 @@
             "8K": 91.2,
             "16K": 87.2,
             "32K": 75.4,
-            "64K": 49.0,
+            "64K": 49,
             "128K": 13.8
           },
           "claimed_length": "32K",
@@ -1309,9 +1309,9 @@
             "4K": 87.8,
             "8K": 87.2,
             "16K": 87.7,
-            "32K": 69.0,
+            "32K": 69,
             "64K": 46.8,
-            "128K": 19.0
+            "128K": 19
           },
           "claimed_length": "128K",
           "effective_length": "16K",
@@ -1333,12 +1333,12 @@
             "8K": 83.4,
             "16K": 78.6,
             "32K": 69.9,
-            "64K": 56.0,
-            "128K": 42.0
+            "64K": 56,
+            "128K": 42
           },
           "claimed_length": "128K",
           "effective_length": "4K",
-          "wAvg_increasing": 62.0,
+          "wAvg_increasing": 62,
           "wAvg_decreasing": 77.2
         },
         {
@@ -1357,7 +1357,7 @@
             "16K": 73.7,
             "32K": 69.1,
             "64K": 68.1,
-            "128K": 65.0
+            "128K": 65
           },
           "claimed_length": "1M",
           "effective_length": "<4K",
@@ -1380,11 +1380,11 @@
             "16K": 83.6,
             "32K": 63.1,
             "64K": 2.4,
-            "128K": 0.0
+            "128K": 0
           },
           "claimed_length": "32K",
           "effective_length": "8K",
-          "wAvg_increasing": 38.0,
+          "wAvg_increasing": 38,
           "wAvg_decreasing": 74.7
         },
         {
@@ -1400,15 +1400,15 @@
           "by_length": {
             "4K": 94.9,
             "8K": 93.8,
-            "16K": 78.0,
+            "16K": 78,
             "32K": 67.8,
-            "64K": 0.0,
-            "128K": 0.0
+            "64K": 0,
+            "128K": 0
           },
           "claimed_length": "32K",
           "effective_length": "8K",
           "wAvg_increasing": 37.5,
-          "wAvg_decreasing": 74.0
+          "wAvg_decreasing": 74
         },
         {
           "rank": "不设跨协议名次",
@@ -1424,9 +1424,9 @@
             "4K": 88.2,
             "8K": 81.1,
             "16K": 69.4,
-            "32K": 63.0,
-            "64K": 0.0,
-            "128K": 0.0
+            "32K": 63,
+            "64K": 0,
+            "128K": 0
           },
           "claimed_length": "32K",
           "effective_length": "4K",
@@ -1448,8 +1448,8 @@
             "8K": 79.9,
             "16K": 70.8,
             "32K": 59.3,
-            "64K": 0.0,
-            "128K": 0.0
+            "64K": 0,
+            "128K": 0
           },
           "claimed_length": "32K",
           "effective_length": "<4K",
@@ -1468,11 +1468,11 @@
           "result_type": "来源表格精确转录；非本库重跑",
           "by_length": {
             "4K": 60.6,
-            "8K": 57.0,
+            "8K": 57,
             "16K": 56.6,
             "32K": 43.6,
-            "64K": 0.0,
-            "128K": 0.0
+            "64K": 0,
+            "128K": 0
           },
           "claimed_length": "32K",
           "effective_length": "<4K",
@@ -1579,11 +1579,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

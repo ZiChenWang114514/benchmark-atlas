@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Research snapshot; trending: A; unknown information retained as Unverified.
+ unknown information retained as Unverified.
 
 DeepSWE covers 91 open-source repositories and five code languages with 113 original long-horizon engineering tasks. The tasks are not extracted from pull requests that have already been merged. The authors separately wrote the behavioral requirements, an executable verifier, and a reference implementation for review, and they used a shallow clone to block taking the answer directly from git history. Compared with short-horizon patch questions, it emphasizes exploring the codebase, implementing changes across files, and preserving existing function. [1](https://deepswe.datacurve.ai/) [2](https://arxiv.org/abs/2607.07946) [3](https://deepswe.datacurve.ai/blog/deepswe) [4](https://epoch.ai/benchmarks/deepswe/review)
 
@@ -133,7 +133,6 @@ The official blog was published on 2026-05-26, and the first arXiv version is da
 
 > claude-fable-5 [xhigh]：rank_type：Row order shown on the official site, not significance order [1](https://deepswe.datacurve.ai/)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：Display order on the official website; the three displayed values are the same, the error intervals overlap, and significant superiority or inferiority is not claimed on this basis. [1](https://deepswe.datacurve.ai/)
@@ -166,7 +165,7 @@ The official blog was published on 2026-05-26, and the first arXiv version is da
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://deepswe.datacurve.ai/)
+- date：2026-11-07；；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://deepswe.datacurve.ai/)
 
 ---
 

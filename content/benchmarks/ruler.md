@@ -4,7 +4,7 @@
 
 RULER不是固定题库，而是一套可控制文本长度与任务复杂度的长上下文诊断生成器。它将检索扩展到多键/多值、多跳变量追踪、聚合和问答，核心问题是模型能否真正使用窗口内的信息，而非是否接受那么多token。
 
-导读来源：[官方材料](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）；具体事实及历史访问日期见各字段。
+导读来源：[官方材料](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）；具体事实及历史访问日期见各字段。
 
 ## 基本信息
 
@@ -12,31 +12,31 @@ RULER不是固定题库，而是一套可控制文本长度与任务复杂度的
 
 RULER
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 全称
 
 RULER
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 基准版本
 
 原始RULER（13任务配置）；当前仓库另指向v1/v2新pipeline。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 论文版本
 
 v3；最近提交 2024-08-07
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 发布日期
 
 2024-04-10（首个arXiv提交，不推定数据上线日）
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 主板块
 
@@ -44,49 +44,49 @@ v3；最近提交 2024-08-07
 
 说明：Benchmark Constitution编辑归档，不是论文指定的唯一领域。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 领域标签
 
 - 长上下文利用
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 许可与适用范围
 
 代码 Apache-2.0；外部语料应另行遵循各自许可。
 
-来源：[1](https://raw.githubusercontent.com/hsiehjackson/RULER/main/LICENSE)（访问 2026-11-07，）
+来源：[1](https://raw.githubusercontent.com/hsiehjackson/RULER/main/LICENSE)（访问 2026-11-07）
 
 ### 论文
 
 https://arxiv.org/abs/2404.06654
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 代码仓库
 
 https://github.com/hsiehjackson/RULER
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 数据地址
 
 https://github.com/hsiehjackson/RULER
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 官方主页
 
 https://github.com/hsiehjackson/RULER
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 论文标题
 
 RULER: What's the Real Context Size of Your Long-Context Language Models?
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ## 发起与维护
 
@@ -94,7 +94,7 @@ RULER: What's the Real Context Size of Your Long-Context Language Models?
 
 NVIDIA 研究团队。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 合作机构/署名单位
 
@@ -102,7 +102,7 @@ NVIDIA 研究团队。
 
 说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 作者
 
@@ -115,13 +115,13 @@ NVIDIA 研究团队。
 - Zhang, Yang
 - Ginsburg, Boris
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 当前维护入口
 
 官方公开代码托管于 hsiehjackson；此处记录仓库维护入口，不据此推断机构法律责任或持续维护承诺。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 资助方
 
@@ -129,7 +129,7 @@ NVIDIA 研究团队。
 
 说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ## 设计目标
 
@@ -137,13 +137,13 @@ NVIDIA 研究团队。
 
 检验模型实际可用上下文长度，而不只看标称窗口。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 设计背景
 
 单一 needle-in-a-haystack 容易被模型攻克，不能代表长上下文中的多跳追踪、聚合与问答。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ## 构建方式
 
@@ -151,31 +151,31 @@ NVIDIA 研究团队。
 
 程序合成检索、多跳变量追踪、聚合与问答任务，可配置长度及复杂度。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 出题背景
 
 研究团队设计可控生成器，不是人工逐题知识考试。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 审核流程
 
 生成器根据任务规则产生可验证标准答案；精确人工逐条审查量待核实。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 质量控制
 
 分任务及长度评测，以多种任务避免只测一种检索模式。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 去污染措施
 
 检索、变量追踪与聚合样本由可控生成器及随机种子合成；问答使用SQuAD/HotpotQA、部分检索背景使用Paul Graham公开文章。新随机实例降低逐题记忆捷径，但公开问答来源不能保证训练无暴露。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）
 
 ## 数据形式
 
@@ -183,37 +183,37 @@ NVIDIA 研究团队。
 
 4类任务、13种已评测配置；样本可依随机种子、序列长度和任务复杂度生成，不是固定总题量。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 题型
 
 合成检索、变量追踪、聚合与问答
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 模态
 
 文本
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 语言
 
 英语任务模板；具体语料配置应固定
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 难度
 
 通过长度、目标数量、变量链等控制难度，而非单一固定难度集。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 数据划分
 
 生成代码及任务配置公开，可重新合成；需保存随机种子和配置以复现。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ## 评测方法
 
@@ -221,31 +221,31 @@ NVIDIA 研究团队。
 
 任务准确率/目标召回，任务平均与按长度汇总的指标；以所用脚本定义为准。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 评分方式
 
 按任务要求比较模型回答中的目标答案，再汇总任务与长度。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 提示与运行设置
 
 原论文使用 greedy decoding、模型聊天模板与答案前缀；需记录 tokenizer、模板及长度设定。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 评测脚本
 
 原始pipeline已deprecated；v1使用NVIDIA/RULER rulerv1-ns，v2使用rulerv2-ns及NeMo-Skills chsieh/ruler2；v2示例temperature=0、tokens_to_generate=16384。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）；[2](https://github.com/NVIDIA/RULER/tree/rulerv2-ns)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）；[2](https://github.com/NVIDIA/RULER/tree/rulerv2-ns)（访问 2026-11-08）
 
 ### 可比性提醒
 
 不同 token 长度、任务子集、分词器和长度加权分数不能混比；Hunyuan报告的 QA 子任务不是13任务全量。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ## 最新情况
 
@@ -253,39 +253,39 @@ NVIDIA 研究团队。
 
 2026-11-08
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 数据版本与更新
 
 官方README已将旧pipeline标为deprecated，指向NVIDIA/RULER的rulerv1-ns和rulerv2-ns分支；v1与v2结果不可无标记混合。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at_kst": "2024-04-10", "timezone": ""}
-- {"version": "v2", "submitted_at_kst": "2024-04-12", "timezone": ""}
-- {"version": "v3", "submitted_at_kst": "2024-08-07", "timezone": ""}
+- {"version": "v1", "submitted_at": "2024-04-10"}
+- {"version": "v2", "submitted_at": "2024-04-12"}
+- {"version": "v3", "submitted_at": "2024-08-07"}
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 饱和程度
 
 原始13配置是已控制短上下文难度的诊断集合；README历史Avg最高96.0%，但长上下文和更复杂配置仍可能下降。不能将短长度或加权高分外推为全面饱和。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）
 
 ### 争议与已知问题
 
 标称上下文长度不等于有效窗口；长文本长度、任务复杂度和模板选择可能改变结论。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 衍生基准
 
 官方另提供RULERv2 NeMo-Skills评测分支（rulerv2-ns），旧v1表不代表v2成绩。
 
-来源：[1](https://github.com/NVIDIA/RULER/tree/rulerv2-ns)（访问 2026-11-08，）
+来源：[1](https://github.com/NVIDIA/RULER/tree/rulerv2-ns)（访问 2026-11-08）
 
 ## 榜单快照
 
@@ -293,13 +293,13 @@ NVIDIA 研究团队。
 
 2026-11-08 （访问日，不是实验运行日）
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）
 
 ### 官方榜单入口
 
 https://github.com/hsiehjackson/RULER
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 第三方入口
 
@@ -307,7 +307,7 @@ https://github.com/hsiehjackson/RULER
 
 说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 可核验结果
 
@@ -356,13 +356,13 @@ https://github.com/hsiehjackson/RULER
 - {"rank": "不设跨协议名次", "model": "LongChat (7B)", "score": 49.1, "metric": "README Avg（%），按原表保留不重新计算", "track": "RULERv1历史表；项目所列实验", "source_url": "https://github.com/hsiehjackson/RULER", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "来源表格精确转录；非本库重跑", "by_length": {"4K": 84.7, "8K": 79.9, "16K": 70.8, "32K": 59.3, "64K": 0.0, "128K": 0.0}, "claimed_length": "32K", "effective_length": "<4K", "wAvg_increasing": 33.1, "wAvg_decreasing": 65.2}
 - {"rank": "不设跨协议名次", "model": "LongAlpaca (13B)", "score": 36.3, "metric": "README Avg（%），按原表保留不重新计算", "track": "RULERv1历史表；项目所列实验", "source_url": "https://github.com/hsiehjackson/RULER", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "来源表格精确转录；非本库重跑", "by_length": {"4K": 60.6, "8K": 57.0, "16K": 56.6, "32K": 43.6, "64K": 0.0, "128K": 0.0}, "claimed_length": " 32K", "effective_length": "<4K", "wAvg_increasing": 24.7, "wAvg_decreasing": 47.9}
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）
 
 ### 榜单覆盖边界
 
 完整转录README中44条有Avg的模型记录，保留六长度、两类加权指标与外部自报星号；4K基线Llama2-7B=85.6不具备六长度Avg，未塞入同一平均榜。表格行序不是统一排名，未补未给出的更新时间。
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -371,13 +371,13 @@ https://github.com/hsiehjackson/RULER
 - chsieh@nvidia.com
 - simengs@nvidia.com
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 公开反馈渠道
 
 https://github.com/hsiehjackson/RULER/issues
 
-来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）
+来源：[1](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）
 
 ### 官方社交账号
 
@@ -385,20 +385,17 @@ https://github.com/hsiehjackson/RULER/issues
 
 说明：已检查所列材料，但本批尚未完成该字段的精确核验；不表示官方未公开。
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）
 
 ### 联系方式原则
 
 只收录论文、官网、官方仓库公开的研究联系渠道，不收集私人联系方式。
 
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07，）
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
 ## 原始文件
 
 ### 论文原件
-
-- **id**：1jrXqZ9i4OPxWrgbz9D-xEwGusBAFeiiQ
-- **webViewLink**：
 
 来源：[1]( 2026-11-07，）
 
@@ -406,7 +403,7 @@ https://github.com/hsiehjackson/RULER/issues
 
 https://arxiv.org/pdf/2404.06654
 
-来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）
 
 ### 原始文件SHA-256
 
@@ -414,24 +411,19 @@ https://arxiv.org/pdf/2404.06654
 
 说明：实际下载原始PDF字节计算；不据此更改既有文件。
 
-来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）
 
 ### 原始文件字节数
 
 682955
 
-来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）
 
 ### 文件夹
-
-- **id**：1tj6vWFyQX2ASPe0dVeBL5yRrcunkap7I
-- **webViewLink**：
 
 来源：[1]( 2026-11-07，）
 
 ### 其他文档
-
-- {"kind": "中文介绍", "id": "1BXarcTj97jqzXNsQCTNfsSGu4mnKXyY3yYCp-eiUak4", "webViewLink": "
 
 来源：[1]( 2026-11-07，）
 
@@ -441,4 +433,4 @@ https://arxiv.org/pdf/2404.06654
 最近复核
 最近复核
 
-来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08，）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08，）；[3](https://github.com/hsiehjackson/RULER)（访问 2026-11-07，）；[4](https://github.com/hsiehjackson/RULER)（访问 2026-11-08，）
+来源：[1](https://arxiv.org/abs/2404.06654)（访问 2026-11-08）；[2](https://arxiv.org/pdf/2404.06654)（访问 2026-11-08）；[3](https://github.com/hsiehjackson/RULER)（访问 2026-11-07）；[4](https://github.com/hsiehjackson/RULER)（访问 2026-11-08）

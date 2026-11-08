@@ -1,6 +1,6 @@
 # SRE Bench（SRE-Bench）
 
-> Benchmark Constitution, in-depth review 2026-11-08. Verified to exist; a recently popular newly created entry, with marks retained on fields that have not been verified; trending: A
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SRE-Bench evaluates the ability to recover program semantics from an unknown binary. It is not site reliability engineering. 19 private programs are built into 262 binary instances, with 6 deterministically verifiable tasks per instance. The most important constraint on reading the scores is the denominator: the paper computes conditional scores only on gradable runs, while Vals includes all 262 instances. Multi-attempt scores with the internal guardrails turned off are a third set of conditions.
 
@@ -52,8 +52,8 @@ Code
 
 ```json
 [
-  "Binary reverse engineering"
-  "Cybersecurity"
+ "Binary reverse engineering"
+ "Cybersecurity"
 ]
 ```
 
@@ -199,8 +199,8 @@ Agent reverse-engineering tasks in a shell environment, with deterministic verif
 
 ```json
 [
-  "Binary file"
-  "Text/command line"
+ "Binary file"
+ "Text/command line"
 ]
 ```
 
@@ -270,31 +270,31 @@ The conditional scores on gradable runs in the paper and the Vals scores on all 
 
 ```json
 {
-  "version": "待核实"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/srebench"
-      "date": "2026-11-05"
-      "organization": "Vals AI"
-      "note": "The current method and leaderboard pages show measured results for multiple frontier models; updated November 5, a binary reverse-engineering comprehension test of 37 models. It must not be mistranslated as a site-reliability engineering benchmark."
-    }
-    {
-      "url": "https://www.vals.ai/benchmarks"
-      "date": "2026-11-05"
-      "organization": "Vals AI"
-      "note": "Catalog card: Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details"
-    }
-    {
-      "url": "https://openai.com/index/gpt-6-astra/"
-      "date": "2026-11-07"
-      "organization": "OpenAI"
-      "note": "The official-release evaluation table for GPT-6 Astra explicitly reports SRE Bench, as evidence of recent vendor adoption."
-    }
-  ]
-  "trending": {
-    "heat_confidence": "A"
-    "summary": "The binary reverse-engineering evaluation released in August is now on the official GPT-6 Astra release table, and in November Vals still updates a 37-model leaderboard."
-  }
+ "version": "待核实"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/srebench"
+ "date": "2026-11-05"
+ "organization": "Vals AI"
+ "note": "The current method and leaderboard pages show measured results for multiple frontier models; updated November 5, a binary reverse-engineering comprehension test of 37 models. It must not be mistranslated as a site-reliability engineering benchmark."
+ }
+ {
+ "url": "https://www.vals.ai/benchmarks"
+ "date": "2026-11-05"
+ "organization": "Vals AI"
+ "note": "Catalog card: Cyber Proprietary SRE Bench Updated: 11/5/2026 Models Tested: 37 Can AI agents work out what a real-world binary does without its source code? Top Models 1 GPT-6 Astra 2 GPT-6.1 Sol 3 Gemini 4 Argon View Details"
+ }
+ {
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "date": "2026-11-07"
+ "organization": "OpenAI"
+ "note": "The official-release evaluation table for GPT-6 Astra explicitly reports SRE Bench, as evidence of recent vendor adoption."
+ }
+ ]
+ "trending": {
+ "heat_confidence": "A"
+ "summary": "The binary reverse-engineering evaluation released in August is now on the official GPT-6 Astra release table, and in November Vals still updates a 37-model leaderboard."
+ }
 }
 ```
 
@@ -306,16 +306,14 @@ The conditional scores on gradable runs in the paper and the Vals scores on all 
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-08-12"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2026-10-01"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-08-12"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2026-10-01"
+ }
 ]
 ```
 
@@ -450,8 +448,8 @@ Accuracy for all 37 Vals models, with a denominator of 262 instances, forms its 
 
 ```json
 [
-  "js6721@columbia.edu"
-  "41zz@cs.columbia.edu"
+ "js6721@columbia.edu"
+ "41zz@cs.columbia.edu"
 ]
 ```
 
@@ -517,16 +515,16 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Opened primary material"
-    "url": "https://arxiv.org/abs/2608.11469"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://www.vals.ai/benchmarks/srebench"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Opened primary material"
+ "url": "https://arxiv.org/abs/2608.11469"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://www.vals.ai/benchmarks/srebench"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -542,16 +540,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

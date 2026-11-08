@@ -4,156 +4,105 @@
   "benchmarks": [
     {
       "slug": "mmlu",
-      "json_path": "data/benchmarks/mmlu.json",
-      "md_path": "content/benchmarks/mmlu.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 10
+      "drive_doc": {}
     },
     {
       "slug": "mmlu-pro",
-      "json_path": "data/benchmarks/mmlu-pro.json",
-      "md_path": "content/benchmarks/mmlu-pro.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "mmlu-redux",
-      "json_path": "data/benchmarks/mmlu-redux.json",
-      "md_path": "content/benchmarks/mmlu-redux.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 8
+      "drive_doc": {}
     },
     {
       "slug": "c-eval",
-      "json_path": "data/benchmarks/c-eval.json",
-      "md_path": "content/benchmarks/c-eval.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 10
+      "drive_doc": {}
     },
     {
       "slug": "mmlu-prox",
-      "json_path": "data/benchmarks/mmlu-prox.json",
-      "md_path": "content/benchmarks/mmlu-prox.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 10
+      "drive_doc": {}
     },
     {
       "slug": "mmmlu",
-      "json_path": "data/benchmarks/mmmlu.json",
-      "md_path": "content/benchmarks/mmmlu.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 15
+      "drive_doc": {}
     },
     {
       "slug": "ifeval",
-      "json_path": "data/benchmarks/ifeval.json",
-      "md_path": "content/benchmarks/ifeval.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 12
+      "drive_doc": {}
     },
     {
       "slug": "sysbench",
-      "json_path": "data/benchmarks/sysbench.json",
-      "md_path": "content/benchmarks/sysbench.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 13
+      "drive_doc": {}
     },
     {
       "slug": "longbench-v2",
-      "json_path": "data/benchmarks/longbench-v2.json",
-      "md_path": "content/benchmarks/longbench-v2.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 9
+      "drive_doc": {}
     },
     {
       "slug": "ruler",
-      "json_path": "data/benchmarks/ruler.json",
-      "md_path": "content/benchmarks/ruler.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 11
+      "drive_doc": {}
     },
     {
       "slug": "frames",
-      "json_path": "data/benchmarks/frames.json",
-      "md_path": "content/benchmarks/frames.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 13
+      "drive_doc": {}
     },
     {
       "slug": "aa-omniscience",
-      "json_path": "data/benchmarks/aa-omniscience.json",
-      "md_path": "content/benchmarks/aa-omniscience.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 11
+      "drive_doc": {}
     },
     {
       "slug": "truthfulqa",
-      "json_path": "data/benchmarks/truthfulqa.json",
-      "md_path": "content/benchmarks/truthfulqa.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 11
+      "drive_doc": {}
     },
     {
       "slug": "harmbench",
-      "json_path": "data/benchmarks/harmbench.json",
-      "md_path": "content/benchmarks/harmbench.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 12
+      "drive_doc": {}
     },
     {
       "slug": "strongreject",
-      "json_path": "data/benchmarks/strongreject.json",
-      "md_path": "content/benchmarks/strongreject.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 11
+      "drive_doc": {}
     },
     {
       "slug": "advbench",
-      "json_path": "data/benchmarks/advbench.json",
-      "md_path": "content/benchmarks/advbench.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 12
+      "drive_doc": {}
     },
     {
       "slug": "rag-safety-bench",
-      "json_path": "data/benchmarks/rag-safety-bench.json",
-      "md_path": "content/benchmarks/rag-safety-bench.md",
       "drive_folder": {},
       "drive_pdf": {},
-      "drive_doc": {},
-      "todo_fields_count": 9
+      "drive_doc": {}
     }
   ],
   "built_slugs": [
@@ -177,7 +126,6 @@
   ],
   "unverified": [],
   "dropped": [],
-  "todo_fields_count": 186,
   "notable_news": [
     {
       "date": "2026-10-28",
@@ -221,10 +169,7 @@
   ],
   "validation": {
     "json_schema": "17/17通过Draft2020-12及URI/date格式验证",
-    "drive_placement": "17/17目录list_folder回查均含对应原始PDF与中文Google Doc",
-    "drive_content": "17/17Google Doc回读开头确认标题、中文正文和PDF链接",
-    "pdf_integrity": "17/17本地原件SHA-256及字节数已记录；返回字节数一致",
-    "todo_fields_count": 186
+    "pdf_integrity": "17/17本地原件SHA-256及字节数已记录；返回字节数一致"
   },
   "notable_conflicts": [
     {

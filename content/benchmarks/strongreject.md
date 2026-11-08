@@ -50,7 +50,7 @@ v2（论文版本；不等于数据集版本）
 
 ```json
 [
-  "有害请求完成度与拒答评价"
+ "有害请求完成度与拒答评价"
 ]
 ```
 
@@ -112,17 +112,17 @@ UC Berkeley / Center for Human-Compatible AI 相关作者团队。
 
 ```json
 [
-  "Souly, Alexandra"
-  "Lu, Qingyuan"
-  "Bowen, Dillon"
-  "Trinh, Tu"
-  "Hsieh, Elvis"
-  "Pandey, Sana"
-  "Abbeel, Pieter"
-  "Svegliato, Justin"
-  "Emmons, Scott"
-  "Watkins, Olivia"
-  "Toyer, Sam"
+ "Souly, Alexandra"
+ "Lu, Qingyuan"
+ "Bowen, Dillon"
+ "Trinh, Tu"
+ "Hsieh, Elvis"
+ "Pandey, Sana"
+ "Abbeel, Pieter"
+ "Svegliato, Justin"
+ "Emmons, Scott"
+ "Watkins, Olivia"
+ "Toyer, Sam"
 ]
 ```
 
@@ -276,16 +276,14 @@ rubric评分、微调评估器分数和二值ASR不同；评估器MAE也不是�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2024-02-16"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-08-27"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2024-02-16"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-08-27"
+ }
 ]
 ```
 
@@ -363,8 +361,8 @@ https://arxiv.org/abs/2402.10260
 
 ```json
 [
-  "alexandrasouly@gmail.com"
-  "sdt@berkeley.edu"
+ "alexandrasouly@gmail.com"
+ "sdt@berkeley.edu"
 ]
 ```
 
@@ -414,76 +412,22 @@ https://arxiv.org/pdf/2402.10260
 
 [来源1](https://arxiv.org/pdf/2402.10260)（访问 2026-11-08）
 
-### 文件夹
-
-```json
-{
-  "id": "1Rjik34iUFEZBTeLqjtMXs8us5Ea3NsvV"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "中文介绍"
-    "id": "15uyExEs5PXDPaRliDItqwcrgvzhdto9GUXOBBbZueIE"
-    "webViewLink": "
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://arxiv.org/abs/2402.10260"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://github.com/dsbowen/strong_reject"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "已打开一手材料"
-    "url": "https://strong-reject.readthedocs.io/en/latest/"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[来源1](https://arxiv.org/abs/2402.10260)（访问 2026-11-08）；[来源2](https://github.com/dsbowen/strong_reject)（访问 2026-11-08）；[来源3](https://strong-reject.readthedocs.io/en/latest/)（访问 2026-11-08）
-
-### PDF归档
-
-```json
-{
-  "id": "1qVDkFDcnFVOGYrw9wE7T7e6myH6wJoor"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ## 变更记录
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

@@ -1,6 +1,6 @@
 # MMMLU
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 OpenAI将MMLU测试题以专业人工翻译扩展到14个非英语语种，核心用途是比较同类学科知识的跨语言可用性，而非重新出一道更难的MMLU题库。本次固定HF commit下载全部14个CSV：每个语种14042行、57学科，总计196588条译文。HF查看器393176的聚合计数重复包含default与各语种配置，不能当作独立题数。
 [本页导读依据](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）
@@ -25,8 +25,8 @@ Multilingual Massive Multitask Language Understanding
 
 ```json
 {
-  "release_name": "MMMLU（未单列语义版本号）"
-  "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
+ "release_name": "MMMLU（未单列语义版本号）"
+ "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
 }
 ```
 
@@ -202,12 +202,12 @@ OpenAI（官方数据发布命名空间 openai/MMMLU）
 
 ```json
 {
-  "base_test_items_per_locale": 14042
-  "translated_locales": 14
-  "total_translation_rows": 196588
-  "subjects_per_locale": 57
-  "hf_viewer_aggregate_rows": 393176
-  "count_method": "逐个下载同一HF revision的14个CSV，csv.DictReader与pandas.read_csv分别核对；default配置汇总所有语言，viewer再计各语言配置，393176不代表独立题量。"
+ "base_test_items_per_locale": 14042
+ "translated_locales": 14
+ "total_translation_rows": 196588
+ "subjects_per_locale": 57
+ "hf_viewer_aggregate_rows": 393176
+ "count_method": "逐个下载同一HF revision的14个CSV，csv.DictReader与pandas.read_csv分别核对；default配置汇总所有语言，viewer再计各语言配置，393176不代表独立题量。"
 }
 ```
 
@@ -259,7 +259,7 @@ OpenAI（官方数据发布命名空间 openai/MMMLU）
 
 ### 运行与提示设置
 
-官方MMLUEval(language=...)载入对应语种CSV；单题zero-shot CoT，要求最后一行Answer: A/B/C/D；language默认EN-US，跑翻译集必须显式指定语言。num_examples抽样使用Random(0)。
+官方MMLUEval(language=..)载入对应语种CSV；单题zero-shot CoT，要求最后一行Answer: A/B/C/D；language默认EN-US，跑翻译集必须显式指定语言。num_examples抽样使用Random(0)。
 
 [来源1](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源2](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源3](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）
 
@@ -289,9 +289,9 @@ MMMLU 是 OpenAI 对 MMLU 的专业人工翻译数据集，不是 MMLU-ProX；14
 
 ```json
 {
-  "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
-  "last_modified_kst": "2024-10-17"
-  "scope": "HF公开MMMLU译文，不是新MMLU版本"
+ "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504"
+ "last_modified": "2024-10-17"
+ "scope": "HF公开MMMLU译文，不是新MMLU版本"
 }
 ```
 
@@ -301,22 +301,22 @@ MMMLU 是 OpenAI 对 MMLU 的专业人工翻译数据集，不是 MMLU-ProX；14
 
 ```json
 {
-  "scope": "MMLU母题论文修订，不冒称MMMLU独立论文"
-  "revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2020-09-08"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2020-09-21"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2021-01-13"
-    }
-  ]
-  "mmmlu_repository_last_modified_kst": "2024-10-17"
+ "scope": "MMLU母题论文修订，不冒称MMMLU独立论文"
+ "revisions": [
+ {
+ "version": "v1"
+ "date": "2020-09-08"
+ }
+ {
+ "version": "v2"
+ "date": "2020-09-21"
+ }
+ {
+ "version": "v3"
+ "date": "2021-01-13"
+ }
+ ]
+ "mmmlu_repository_last_modified": "2024-10-17"
 }
 ```
 
@@ -456,158 +456,9 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 
 [来源1](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）
 
-### 文件夹
-
-```json
-{
-  "id": "1OPPheSgFyaAe2V-nV5RJwvz34TO4r8qC"
-  "webViewLink": "
-}
-```
-
-[来源1]( 2026-11-07）
-
 ### 其他官方文档
 
-```json
-[
-  {
-    "kind": "中文介绍"
-    "id": "1UZFDALJVykwbz968O2R0VZ8cHhmZ_j10e9qps5hcB_g"
-    "webViewLink": "
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/abs/2009.03300"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/html/2610.11978v1"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/pdf/2009.03300"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/openai/simple-evals/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/openai/simple-evals/blob/main/common.py"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/openai/simple-evals/blob/main/mmlu_eval.py"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv"
-    "accessed": "2026-11-08"
-  }
-]
-```
-
-[来源1]( 2026-11-07）；[来源2](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）；[来源5](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）；[来源6](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源7](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源10](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）；[来源11](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv)（访问 2026-11-08）；[来源12](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv)（访问 2026-11-08）；[来源13](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv)（访问 2026-11-08）；[来源14](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv)（访问 2026-11-08）；[来源15](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv)（访问 2026-11-08）；[来源16](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv)（访问 2026-11-08）；[来源17](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv)（访问 2026-11-08）；[来源18](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv)（访问 2026-11-08）；[来源19](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv)（访问 2026-11-08）；[来源20](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv)（访问 2026-11-08）；[来源21](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv)（访问 2026-11-08）；[来源22](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv)（访问 2026-11-08）；[来源23](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv)（访问 2026-11-08）；[来源24](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv)（访问 2026-11-08）
-
-### 原始PDF
-
-```json
-{
-  "id": "10nTX-hZcL0fXPaatAK5f_f47-_-daG2g"
-  "webViewLink": "
-}
-```
-
-> 所附为数据卡引用的 MMLU 原始论文，非 MMMLU 独立论文。
-
-[来源1]( 2026-11-07）
+；[来源2](https://arxiv.org/abs/2009.03300)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2009.03300)（访问 2026-11-08）；[来源5](https://github.com/openai/simple-evals/blob/main/README.md)（访问 2026-11-08）；[来源6](https://github.com/openai/simple-evals/blob/main/common.py)（访问 2026-11-08）；[来源7](https://github.com/openai/simple-evals/blob/main/mmlu_eval.py)（访问 2026-11-08）；[来源8](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源9](https://huggingface.co/datasets/openai/MMMLU)（访问 2026-11-08）；[来源10](https://huggingface.co/datasets/openai/MMMLU/raw/main/README.md)（访问 2026-11-08）；[来源11](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_AR-XY.csv)（访问 2026-11-08）；[来源12](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_BN-BD.csv)（访问 2026-11-08）；[来源13](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_DE-DE.csv)（访问 2026-11-08）；[来源14](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ES-LA.csv)（访问 2026-11-08）；[来源15](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_FR-FR.csv)（访问 2026-11-08）；[来源16](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_HI-IN.csv)（访问 2026-11-08）；[来源17](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ID-ID.csv)（访问 2026-11-08）；[来源18](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_IT-IT.csv)（访问 2026-11-08）；[来源19](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_JA-JP.csv)（访问 2026-11-08）；[来源20](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_KO-KR.csv)（访问 2026-11-08）；[来源21](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_PT-BR.csv)（访问 2026-11-08）；[来源22](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_SW-KE.csv)（访问 2026-11-08）；[来源23](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_YO-NG.csv)（访问 2026-11-08）；[来源24](https://huggingface.co/datasets/openai/MMMLU/resolve/325a01dc3e173cac1578df94120499aaca2e2504/test/mmlu_ZH-CN.csv)（访问 2026-11-08）
 
 ## 变更记录
 
@@ -615,21 +466,18 @@ d3a7b0f8589f5365ebfd34a3876a9a8b3fde83e0adb9ed19ccf8f0034bb48fc1
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

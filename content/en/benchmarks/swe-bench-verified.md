@@ -12,7 +12,7 @@ Sources: [1](https://www.swebench.com/) (accessed 2026-11-08); [2](https://opena
 
 SWE-bench Verified
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### Full name
 
@@ -20,25 +20,25 @@ SWE-bench Verified
 
 Note: The official name is retained, and the paper title is not automatically expanded into a full name.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### Benchmark version
 
 SWE-bench Verified, 500 questions
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### Paper version
 
 arXiv v3; submitted at 2024-11-12 08:05:04.
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ### Release date
 
 2024-08-13 (official announcement date; time and time zone not indicated)
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Section
 
@@ -46,19 +46,19 @@ Code
 
 Note: Benchmark Constitution editorial filing. Only the main section is counted.
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ### Field tags
 
 - Repository-level repair of real software issues
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
 The code is MIT (the LICENSE of the current repository). The original HF Verified data card read this time has no license metadata. The scope of the data license is Unverified. The MIT license of the code cannot be extended automatically to the original issues, the patches, and third-party software.
 
-Sources: [1](https://github.com/SWE-bench/SWE-bench/blob/main/LICENSE) (accessed 2026-11-08， ) ; [2](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified) (accessed 2026-11-08， )
+Sources: [1](https://github.com/SWE-bench/SWE-bench/blob/main/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified) (accessed 2026-11-08)
 
 ### Paper
 
@@ -66,31 +66,31 @@ https://arxiv.org/abs/2310.06770
 
 Note: 2310.06770 is the parent-benchmark paper of SWE-bench; the selection protocol for Verified is mainly in the official announcement, and it is not claimed to be an independent Verified paper.
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/SWE-bench/SWE-bench
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### 数据地址
 
 https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Official homepage
 
 https://www.swebench.com/verified
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### Paper title
 
 SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -98,31 +98,31 @@ Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
 
 Released in collaboration between OpenAI and the original SWE-bench authors.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Partner organizations
 
 OpenAI (the official site states explicitly that Verified was built with OpenAI in the human filtering).
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### Authors
 
 Verified announcement: Neil Chowdhury, James Aung, Chan Jun Shern, Oliver Jaffe, Dane Sherburn, Giulio Starace, and others; authors of the parent paper are given separately in the paper metadata.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Current maintainer
 
 The official SWE-bench team maintains the data and the evaluation framework; OpenAI provides the human annotation and the Verified announcement.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### 资助与支持
 
 The SWE-bench official site acknowledges support from Open Philanthropy, AWS, Modal, Andreessen Horowitz, OpenAI, and Anthropic; this list is not an allocation table for Verified-specific funding.
 
-Sources: [1](https://www.swebench.com/) (accessed 2026-11-08， )
+Sources: [1](https://www.swebench.com/) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -130,13 +130,13 @@ Sources: [1](https://www.swebench.com/) (accessed 2026-11-08， )
 
 Understands a real GitHub issue, locates the code, and submits a repository-level patch that solves the problem without causing a regression.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Design background
 
 In the original SWE-bench, an underspecified description, an overly narrow test, or a failed environment install can mark a reasonable solution wrong; Verified removes these unfair instances.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ## Construction
 
@@ -144,31 +144,31 @@ Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed
 
 Resolved issues and PRs from 12 open-source Python repositories; 500 were screened from 1,699 randomly annotated samples in the original test set.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### 出题背景
 
 93 professional developers with Python experience; they first pass 50 high-confidence onboarding questions and receive feedback.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Review process
 
 Each sample's description and tests are rated by 3 independent annotators; the highest-severity label is used, and any serious problem leads to exclusion.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Quality control
 
 Description and test severity 0–3; an item is removed if any dimension is ≥2 or if there is another major problem; a Docker harness improves run stability.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### 去污染与泄漏
 
 The original issues, the repository, and the PRs are public; the official account explicitly acknowledges that data scraped from the static internet may already have entered pretraining. Human Verified does not mean decontamination.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ## Data format
 
@@ -176,13 +176,13 @@ Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed
 
 500 questions; 196 easy questions estimated at under 15 minutes and 45 hard questions estimated at more than 1 hour (human estimates, not model time limits).
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Question types
 
 Repository and problem statement → edited files or a code patch.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Modalities
 
@@ -190,25 +190,25 @@ Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed
 - 代码
 - 仓库环境
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Languages
 
 The repository is mainly Python; the dataset card states that the question text is mainly English, but it was not filtered or cleaned by language, and it is not guaranteed that all of it is purely English.
 
-Sources: [1](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified) (accessed 2026-11-08， )
+Sources: [1](https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified) (accessed 2026-11-08)
 
 ### Difficulty
 
 Manually annotated as <15min, 15min–1h, 1–4h, and >4h; kept separate from the filter for whether a problem is solvable.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### 数据划分
 
 The Verified data are public; at runtime the agent is not given the gold patch or the grading tests, and public availability still carries a risk of contamination.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ## Evaluation
 
@@ -216,31 +216,31 @@ Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed
 
 Resolved rate: the proportion of tasks fully resolved.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### Scoring
 
 A case counts as resolved only when the patch applies and every test in both FAIL_TO_PASS and PASS_TO_PASS passes.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07)
 
 ### 提示与运行设置
 
 The official Bash Only setting uses the minimal ReAct loop of mini-SWE-agent. Where release 1.x supports it, temperature=0. From 2.x onward, temperature is not set. The version record must be kept together with the score.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### 评测脚本
 
 Current v5 CLI: swebench eval verified -p <predictions> --run-id <run_id> -j <workers>. The old python -m swebench.harness.run_evaluation is still supported. Re-evaluation of a new patch must use a new run_id, so that old results are not cached by run_id/instance_id.
 
-Sources: [1](https://github.com/SWE-bench/SWE-bench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/SWE-bench/SWE-bench) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 The full leaderboard compares arbitrary agent systems, and only Bash Only pins mini-SWE-agent; 1.x parses an output string, and 2.x uses tool calling. The official site states explicitly that results from the two generations are not necessarily comparable. The 500-question Verified set is not the full SWE-bench and is not SWE-bench Pro.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ## Current status
 
@@ -248,52 +248,52 @@ Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
 
 2026-11-08
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-08， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 ```json
 {
-  "version": "SWE-bench Verified, 500 questions"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.20804v1"
-      "date": "2026-09-17"
-      "note": "§3.1 of the Harness Design study actually uses 500 GitHub issues that were verified by humans and compares different harness settings; it is not the SWE-Bench Pro Verified of the same name."
-    }
-  ]
+ "version": "SWE-bench Verified, 500 questions"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.20804v1"
+ "date": "2026-09-17"
+ "note": "§3.1 of the Harness Design study actually uses 500 GitHub issues that were verified by humans and compares different harness settings; it is not the SWE-Bench Pro Verified of the same name."
+ }
+ ]
 }
 ```
 
 Note: Active H2 evidence distinguishes actual evaluation, third-party tracking, and academic citation alone; a citation is not used to infer an actual run.
 
-Sources: [1](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07， ) ; [2](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07); [2](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2023-10-11 01:47:29 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2024-04-06 03:16:29 ", "timezone": ""}
-- {"version": "v3", "submitted_at": "2024-11-12 08:05:04 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2023-10-11 01:47:29 "}
+- {"version": "v2", "submitted_at": "2024-04-06 03:16:29 "}
+- {"version": "v3", "submitted_at": "2024-11-12 08:05:04 "}
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-08)
 
 ### 饱和证据与局限
 
 The highest system result in the collection snapshot from the official site is 79.2% (two tied); this is a result visible on the submission leaderboard, not evidence that "all models are saturated."
 
-Sources: [1](https://www.swebench.com/) (accessed 2026-11-08， )
+Sources: [1](https://www.swebench.com/) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 Verified is a quality filter rather than a set of hidden new questions, and it mainly covers Python software issues; it cannot be treated as general software development or as a guarantee of no contamination.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， ) ; [2](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07); [2](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07)
 
 ### 衍生或后继基准
 
 Related to SWE-bench Lite, Multimodal, Multilingual, and SWE-bench Pro, but on different bases, and rankings are not mixed.
 
-Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07， ) ; [2](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07， )
+Sources: [1](https://openai.com/index/introducing-swe-bench-verified/) (accessed 2026-11-07); [2](https://arxiv.org/html/2609.20804v1) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -307,7 +307,7 @@ Sources: [1](https://www.swebench.com/) (accessed 2026-11-08); [2](https://opena
 
 https://www.swebench.com/?tab=verified
 
-Sources: [1](https://www.swebench.com/) (accessed 2026-11-08， )
+Sources: [1](https://www.swebench.com/) (accessed 2026-11-08)
 
 ### 第三方入口
 
@@ -315,7 +315,7 @@ Unverified
 
 Note: Independent leaderboard coverage of this benchmark by AA / Epoch / LMArena, on the same definition, was not verified in these sources; other tasks are not used as substitutes.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -519,7 +519,7 @@ Sources: [1](https://www.swebench.com/) (accessed 2026-11-08); [2](https://opena
 - carlosej@princeton.edu
 - johnby@stanford.edu
 
-Sources: [1](https://github.com/SWE-bench/SWE-bench) (accessed 2026-11-08， )
+Sources: [1](https://github.com/SWE-bench/SWE-bench) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
@@ -527,7 +527,7 @@ https://github.com/SWE-bench/SWE-bench/issues
 
 Note: Public repository feedback entry point; no question was sent.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07)
 
 ### 官方社交账号
 
@@ -535,7 +535,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-07)
 
 ### 联系方式/隐私原则
 
@@ -543,7 +543,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-07)
 
 ## Original files
 
@@ -551,13 +551,13 @@ Sources: [1](https://arxiv.org/abs/2310.06770) (accessed 2026-11-07， )
 
 https://arxiv.org/pdf/2310.06770
 
-Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08)
 
 ### PDF SHA-256
 
 f7e8e1df64129742b8199a21a042734519a823a1dafd6f48f8f3ddcfb48ee296
 
-Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08)
 
 ### PDF bytes
 
@@ -565,37 +565,15 @@ Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08， )
 4533722
 ```
 
-Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08， )
-
-### Folder
-
-```json
-{
-  "id": "1-YvqNLfMxUXoiTYWqbyPSsbJWrK7H9iL"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2310.06770) (accessed 2026-11-08)
 
 ### Other documents
 
-- {"type": "Chinese-language introductory Google Doc", "id": "193rLgS0oSSznAPMtMovoito3n3jfiZIvz4T3WcUxaBQ", "webViewLink": "
-
 Note: The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07， ) ; [2]( 2026-11-07， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-07); [2]( 2026-11-07， )
 
 ### 论文原件
-
-```json
-{
-  "id": "1n47Le3puVRH6y64GwRSgTy41zEGlU32T"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
 
 ## Changelog
 
@@ -603,4 +581,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-08， )
+Sources: [1](https://www.swebench.com/verified) (accessed 2026-11-08)

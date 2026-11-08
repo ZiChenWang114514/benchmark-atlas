@@ -52,7 +52,7 @@ arXiv v1
 
 ```json
 [
-  "检索增强系统安全"
+ "检索增强系统安全"
 ]
 ```
 
@@ -114,8 +114,8 @@ University of Ottawa；作者 Adithiyan Rajan Indira Saravanan、Kathleen C. Fra
 
 ```json
 [
-  "Saravanan, Adithiyan Rajan Indira"
-  "Fraser, Kathleen C."
+ "Saravanan, Adithiyan Rajan Indira"
+ "Fraser, Kathleen C."
 ]
 ```
 
@@ -261,14 +261,14 @@ https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
 ```json
 {
-  "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行"
-  "evidence_2026_h2": [
-    {
-      "url": "https://arxiv.org/html/2609.11758v1"
-      "date": "2026-09"
-      "note": "原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。"
-    }
-  ]
+ "version": "v14：完整987题/3,948条件行；balanced 346题/1,384条件行"
+ "evidence_2026_h2": [
+ {
+ "url": "https://arxiv.org/html/2609.11758v1"
+ "date": "2026-09"
+ "note": "原始论文在H2发布并实际报告五模型四检索条件实验；属于作者首次实验，非独立后续引用。"
+ }
+ ]
 }
 ```
 
@@ -278,11 +278,10 @@ https://github.com/The-Safe-AI-Lab/RAG-Safety-Bench
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-09-11"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-09-11"
+ }
 ]
 ```
 
@@ -373,8 +372,8 @@ https://arxiv.org/abs/2609.11758
 
 ```json
 [
-  "aindi023@uottawa.ca"
-  "kathleen.fraser@uottawa.ca"
+ "aindi023@uottawa.ca"
+ "kathleen.fraser@uottawa.ca"
 ]
 ```
 
@@ -422,66 +421,27 @@ https://arxiv.org/pdf/2609.11758
 
 [1](https://arxiv.org/pdf/2609.11758)（访问 2026-11-08）
 
-### 文件夹
-
-```json
-{
-  "id": "1qW8zMCcfafxtK0w_x4SyifexNN8DZ0uh"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "中文介绍"
-    "id": "1F6zykWwlZb0vzbaaDz6pW4mUcfqD5g4xRsQbwKbVm5o"
-    "webViewLink": "
-  }
-  {
-    "type": "官方数据卡（非HF发布）"
-    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md"
-  }
-  {
-    "type": "许可提案及限制"
-    "url": "https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md"
-  }
-]
-```
-
-[1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/DATA_CARD.md)（访问 2026-11-08）；[2](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/docs/LICENSING.md)（访问 2026-11-08）
-
 ### 论文PDF
 
 {
-  "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z"
-  "webViewLink": "
+ "id": "1XGmcQ4mrUXYV6AjzHXA0P6xrauG_mn3z"
 }
-
-[1]( 2026-11-07）
 
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://raw.githubusercontent.com/The-Safe-AI-Lab/RAG-Safety-Bench/main/README.md)（访问 2026-11-08）

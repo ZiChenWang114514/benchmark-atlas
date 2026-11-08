@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; a research snapshot; note: trending: A; Unverified fields retain their marks
+;
 
 Over the first five in-game days of the Earthborne Rangers board game, EBR-bench tests how an agent plans, manages resources, and improves from repeated play and from notes. It counts the completion proportion of 21 objectives. It is not a measurement of clearing a full campaign of 20–25 days. After a game reset, the agent can retain experience only through notes, and the weights are not updated. [1](https://epoch.ai/benchmarks/ebr-bench) [2](https://epoch.ai/publications/earthborne-rangers-benchmark)
 
@@ -128,16 +128,15 @@ The conclusion that the system "did not learn," in the article published on 2026
 | 4 | Gemini 4 Argon (high) | 0.6476190476190476 | CSV mean_score (0–1; proportion of 21 targets)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 | 5 | Claude Fable 5.1 (max) | 0.5714285714285714 | CSV mean_score (0–1; proportion of 21 targets)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 
-> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at_kst：2026-10-27；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at：2026-10-27；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
 
-> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at_kst：2026-08-31；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at：2026-08-31；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at_kst：2026-09-23；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
+> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at：2026-09-23；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
 
-> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at_kst：2026-10-14；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
+> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at：2026-10-14；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at_kst：2026-09-08；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
-
+> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at：2026-09-08；note：Sorted by the mean in the current CSV; task version is empty, so it cannot be certified that all entries follow the unified v4 card-ban protocol. [3](https://epoch.ai/data/benchmarks.csv)
 
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
@@ -173,7 +172,7 @@ The conclusion that the system "did not learn," in the article published on 2026
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。Earthborne Rangers is the name of the game, and EBR-bench is an Epoch research benchmark; this is kept distinct from the copyright in the game itself and from the relationship to its authors. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://epoch.ai/benchmarks/ebr-bench)
+- date：2026-11-07；；change：首次建立近期热门中文研究条目。Earthborne Rangers is the name of the game, and EBR-bench is an Epoch research benchmark; this is kept distinct from the copyright in the game itself and from the relationship to its authors. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ---
 

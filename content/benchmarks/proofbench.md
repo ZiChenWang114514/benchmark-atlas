@@ -50,7 +50,7 @@ arXiv:2603.26996v1；ICLR 2026 Workshop VerifAI-2论文。
 
 ```json
 [
-  "数学"
+ "数学"
 ]
 ```
 
@@ -108,10 +108,10 @@ Vals AI与论文形式化贡献者
 
 ```json
 [
-  "EPFL"
-  "Moscow Institute of Physics and Technology"
-  "Indiana University Bloomington"
-  "独立研究者（依论文作者单位）"
+ "EPFL"
+ "Moscow Institute of Physics and Technology"
+ "Indiana University Bloomington"
+ "独立研究者（依论文作者单位）"
 ]
 ```
 
@@ -121,14 +121,14 @@ Vals AI与论文形式化贡献者
 
 ```json
 [
-  "Nikil Ravi"
-  "Kexing Ying"
-  "Vasilii Nesterov"
-  "Rayan Krishnan"
-  "Elif Uskuplu"
-  "Bingyu Xia"
-  "Janitha Aswedige"
-  "Langston Nashold"
+ "Nikil Ravi"
+ "Kexing Ying"
+ "Vasilii Nesterov"
+ "Rayan Krishnan"
+ "Elif Uskuplu"
+ "Bingyu Xia"
+ "Janitha Aswedige"
+ "Langston Nashold"
 ]
 ```
 
@@ -212,8 +212,8 @@ Lean 4专家，包括博士生与领域专家。
 
 ```json
 [
-  "文本"
-  "Lean代码"
+ "文本"
+ "Lean代码"
 ]
 ```
 
@@ -281,22 +281,22 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 
 ```json
 {
-  "version": "v1.1"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/proof_bench"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
-    }
-  ]
+ "version": "v1.1"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/proof_bench"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Vals榜明确更新2026-10-29；Epoch ECI纳入ProofBench，但标明由创建者实施，不把指数收录误写为独立实跑。"
+ }
+ ]
 }
 ```
 
@@ -308,11 +308,10 @@ v1.1与旧版不可比。Aristotle有自有系统、网页搜索与不同Mathlib
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-03-28"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-03-28"
+ }
 ]
 ```
 
@@ -504,10 +503,10 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 
 ```json
 [
-  {
-    "type": "官方网页方法与榜单（非PDF）"
-    "url": "https://www.vals.ai/benchmarks/proof_bench"
-  }
+ {
+ "type": "官方网页方法与榜单（非PDF）"
+ "url": "https://www.vals.ai/benchmarks/proof_bench"
+ }
 ]
 ```
 
@@ -522,16 +521,14 @@ e5f3a7973c389484b6114050274665dc2fb2525edc0e48f8908adfb44119b9ac
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）

@@ -50,8 +50,8 @@ Reasoning
 
 ```json
 [
-  "金融"
-  "Professional reasoning"
+ "金融"
+ "Professional reasoning"
 ]
 ```
 
@@ -115,30 +115,30 @@ Unverified
 
 ```json
 [
-  "Afra Feyza Akyürek"
-  "Advait Gosai"
-  "Chen Bo Calvin Zhang"
-  "Vipul Gupta"
-  "Jaehwan Jeong"
-  "Anisha Gunjal"
-  "Tahseen Rabbani"
-  "Maria Mazzone"
-  "David Randolph"
-  "Mohammad Mahmoudi Meymand"
-  "Gurshaan Chattha"
-  "Paula Rodriguez"
-  "Diego Mares"
-  "Pavit Singh"
-  "Michael Liu"
-  "Subodh Chawla"
-  "Pete Cline"
-  "Lucy Ogaz"
-  "Ernesto Hernandez"
-  "Zihao Wang"
-  "Pavi Bhatter"
-  "Marcos Ayestaran"
-  "Bing Liu"
-  "Yunzhong He"
+ "Afra Feyza Akyürek"
+ "Advait Gosai"
+ "Chen Bo Calvin Zhang"
+ "Vipul Gupta"
+ "Jaehwan Jeong"
+ "Anisha Gunjal"
+ "Tahseen Rabbani"
+ "Maria Mazzone"
+ "David Randolph"
+ "Mohammad Mahmoudi Meymand"
+ "Gurshaan Chattha"
+ "Paula Rodriguez"
+ "Diego Mares"
+ "Pavit Singh"
+ "Michael Liu"
+ "Subodh Chawla"
+ "Pete Cline"
+ "Lucy Ogaz"
+ "Ernesto Hernandez"
+ "Zihao Wang"
+ "Pavi Bhatter"
+ "Marcos Ayestaran"
+ "Bing Liu"
+ "Yunzhong He"
 ]
 ```
 
@@ -222,9 +222,9 @@ Single- and multi-turn English open questions, with the answer on the final turn
 
 ```json
 [
-  "文本"
-  "Reference text"
-  "Structured rubric"
+ "文本"
+ "Reference text"
+ "Structured rubric"
 ]
 ```
 
@@ -292,16 +292,16 @@ The current web page's Performance Comparison does not explicitly label Full or 
 
 ```json
 {
-  "version": "PRBench public Finance 600 questions / Hard 300 questions (release set verifiable in this check)"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/prbench-finance"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The current Scale leaderboard for professional reasoning in finance includes recent model results."
-    }
-  ]
+ "version": "PRBench public Finance 600 questions / Hard 300 questions (release set verifiable in this check)"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/prbench-finance"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The current Scale leaderboard for professional reasoning in finance includes recent model results."
+ }
+ ]
 }
 ```
 
@@ -311,11 +311,10 @@ The current web page's Performance Comparison does not explicitly label Full or 
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-11-15"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-11-15"
+ }
 ]
 ```
 
@@ -425,7 +424,7 @@ All 40 rows of the current web page were collected, together with 3 historical H
 
 ```json
 [
-  "yunzhong.he@scale.com"
+ "yunzhong.he@scale.com"
 ]
 ```
 
@@ -483,18 +482,18 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official README"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
-  }
-  {
-    "type": "HF dataset card"
-    "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
-  }
-  {
-    "type": "Code MIT license"
-    "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
-  }
+ {
+ "type": "Official README"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/README.md"
+ }
+ {
+ "type": "HF dataset card"
+ "url": "https://huggingface.co/datasets/ScaleAI/PRBench/raw/main/README.md"
+ }
+ {
+ "type": "Code MIT license"
+ "url": "https://raw.githubusercontent.com/scaleapi/PRBench/main/LICENSE"
+ }
 ]
 ```
 
@@ -509,16 +508,14 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://labs.scale.com/leaderboard/prbench-finance)（访问 2026-11-08）

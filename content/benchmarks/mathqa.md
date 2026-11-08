@@ -197,12 +197,6 @@ MathQA将AQuA题目转成可执行运算程序，既测最终答案，也为分�
 
 **PDF字节数**：850027 [S8](https://arxiv.org/pdf/1905.13319)
 
-**原有文件夹**：{"id": "1AIl9KnTS86A0rTXfwSmttZaowkUY1LX-", "webViewLink": " [S15](
-
-**其他材料**：{"chinese_intro_doc": {"id": "1YKyOOE-Xx6_XxZAJbkBTqSlXhvtnUM4QRxJCRThRgBs", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/mathqa.md"} [S15](
-
-**原有 PDF**：{"id": "1el6sfpgfosIr-ufSW98mtNqP9JJKjeVE", "webViewLink": " [S16](
-
 ## 变更记录
 
 - 2026-11-07，核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。

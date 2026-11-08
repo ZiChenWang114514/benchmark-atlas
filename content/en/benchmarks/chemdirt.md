@@ -44,7 +44,7 @@ v1; latest paper date 2026-08-21
 
 Chemistry
 
-[来源1](https://arxiv.org/html/2608.21504v1)（访问2026-11-07）
+[来源1](https://arxiv.org/html/2608.21504v1)（访问 2026-11-07）
 
 > The editorial section follows the selection list. It does not mean the benchmark measures only that section.
 
@@ -52,11 +52,11 @@ Chemistry
 
 ```json
 [
-  "Instruction, representation, and task robustness"
+ "Instruction, representation, and task robustness"
 ]
 ```
 
-[来源1](https://arxiv.org/html/2608.21504v1)（访问2026-11-07）
+[来源1](https://arxiv.org/html/2608.21504v1)（访问 2026-11-07）
 
 ### 许可与限制
 
@@ -76,7 +76,7 @@ https://arxiv.org/abs/2608.21504
 
 https://github.com/einae-nd/ChemDIRT
 
-[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问2026-11-07）
+[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问 2026-11-07）
 
 ### Dataset
 
@@ -102,7 +102,7 @@ ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robu
 
 Author affiliation in the paper: University of Notre Dame; a sole legal owner is not inferred from this.
 
-[来源1](https://arxiv.org/html/2608.21504v1)（访问2026-11-07）
+[来源1](https://arxiv.org/html/2608.21504v1)（访问 2026-11-07）
 
 ### Partner organizations
 
@@ -116,10 +116,10 @@ Unverified
 
 ```json
 [
-  "Inae, Eric"
-  "Gunn, Tim"
-  "Bond, Chris"
-  "Jiang, Meng"
+ "Inae, Eric"
+ "Gunn, Tim"
+ "Bond, Chris"
+ "Jiang, Meng"
 ]
 ```
 
@@ -177,7 +177,7 @@ GPT-5Pro generates ten prompt templates, which are checked by hand, and the actu
 
 The official source provides a bundled data/image verification script; run results save the raw predictions, task metrics, configuration, input hash, and checkpoint.
 
-[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问2026-11-07）
+[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问 2026-11-07）
 
 ### 去污染及边界
 
@@ -191,15 +191,15 @@ It inherits public tasks and molecular libraries, so prompt rewriting cannot be 
 
 ```json
 {
-  "readme_questions": 4484
-  "readme_molecular_images": 300
-  "hf_card_train_records": 4482
-  "paper_task_settings": 33
-  "warning": "README 4484 and the current HF data card, 4482, do not agree; they are not rounded into agreement, and the reason the two questions are missing is not inferred. 33 is a task setting, not a question count."
+ "readme_questions": 4484
+ "readme_molecular_images": 300
+ "hf_card_train_records": 4482
+ "paper_task_settings": 33
+ "warning": "README 4484 and the current HF data card, 4482, do not agree; they are not rounded into agreement, and the reason the two questions are missing is not inferred. 33 is a task setting, not a question count."
 }
 ```
 
-[来源1](https://github.com/einae-nd/ChemDIRT)（访问2026-11-08）；[来源2](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问2026-11-08）；[来源3](https://arxiv.org/pdf/2608.21504)（访问2026-11-08）
+[来源1](https://github.com/einae-nd/ChemDIRT)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/2608.21504)（访问 2026-11-08）
 
 ### Question types
 
@@ -211,7 +211,7 @@ Description, classification, design, analysis, regression, computation, mechanis
 
 Molecular text representations and molecular images.
 
-[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问2026-11-07）
+[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问 2026-11-07）
 
 ### Languages
 
@@ -229,7 +229,7 @@ Instruction and representation perturbations are the main axes of difficulty; th
 
 The HF metadata publish a single split named train, with 4,482 rows; it is a release container and does not prove a separate supervised-training process or a hidden test set; the local package described in the README claims 4,484 questions, and the conflict of basis is retained.
 
-[来源1](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问2026-11-08）；[来源2](https://github.com/einae-nd/ChemDIRT)（访问2026-11-08）
+[来源1](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问 2026-11-08）；[来源2](https://github.com/einae-nd/ChemDIRT)（访问 2026-11-08）
 
 ## Evaluation
 
@@ -237,7 +237,7 @@ The HF metadata publish a single split named train, with 4,482 rows; it is a rel
 
 Classification uses accuracy. Molecular design reports exact match and similarity of MACCS, Morgan, and RDK fingerprints. Numeric tasks report log RMSE, MAE, relative RMSE, and RMSE.
 
-[来源1](https://arxiv.org/html/2608.21504v1)（访问2026-11-07）
+[来源1](https://arxiv.org/html/2608.21504v1)（访问 2026-11-07）
 
 ### 评分
 
@@ -249,13 +249,13 @@ Structures are parsed and then compared; numeric tasks compute error; the mean a
 
 For each task the paper uses GPT-5 Pro to generate 10 templates and checks their semantics by hand; the reported evaluation uses the first 4 templates that pass validation.
 
-[来源1](https://arxiv.org/html/2608.21504v1)（访问2026-11-07）
+[来源1](https://arxiv.org/html/2608.21504v1)（访问 2026-11-07）
 
 ### 官方评测入口
 
 src/cli.py runs inference and scoring; scripts/validate_data.py checks the data and the images.
 
-[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问2026-11-07）
+[来源1](https://raw.githubusercontent.com/einae-nd/ChemDIRT/main/README.md)（访问 2026-11-07）
 
 ### 可比性边界
 
@@ -269,7 +269,7 @@ Metrics of different tasks have no common total score; results for image-to-stru
 
 2026-11-08
 
-[来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）；[来源2](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2608.21504)（访问 2026-11-08）；[来源2](https://arxiv.org/abs/2608.21504)（访问 2026-11-08）
 
 ### 当前版本
 
@@ -283,36 +283,36 @@ Unverified
 
 ```json
 {
-  "2026_H2_evidence": [
-    {
-      "url": "https://arxiv.org/html/2608.21504v1"
-      "date": "2026-08-21"
-      "note": "The original ChemDIRT paper proposes in H2, and actually evaluates, robustness under multiple instructions, multiple molecular representations, and eight classes of chemistry tasks."
-    }
-  ]
-  "evidence_boundary": "A citation is not a rerun; this page keeps the historical experiments in the paper separate from the current leaderboard."
-  "paper_metadata": {
-    "title": "ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robust Chemistry-LLM Evaluation"
-    "authors": [
-      "Inae, Eric"
-      "Gunn, Tim"
-      "Bond, Chris"
-      "Jiang, Meng"
-    ]
-    "release": "2026-08-21"
-    "latest": "2026-08-21"
-    "version": "v1"
-  }
-  "arxiv_revisions_kst": [
-    {
-      "version": "v1"
-      "submitted_at_kst": "2026-08-22"
-    }
-  ]
+ "2026_H2_evidence": [
+ {
+ "url": "https://arxiv.org/html/2608.21504v1"
+ "date": "2026-08-21"
+ "note": "The original ChemDIRT paper proposes in H2, and actually evaluates, robustness under multiple instructions, multiple molecular representations, and eight classes of chemistry tasks."
+ }
+ ]
+ "evidence_boundary": "A citation is not a rerun; this page keeps the historical experiments in the paper separate from the current leaderboard."
+ "paper_metadata": {
+ "title": "ChemDIRT: A Diversified Instruction, Representation, and Task Benchmark for Robust Chemistry-LLM Evaluation"
+ "authors": [
+ "Inae, Eric"
+ "Gunn, Tim"
+ "Bond, Chris"
+ "Jiang, Meng"
+ ]
+ "release": "2026-08-21"
+ "latest": "2026-08-21"
+ "version": "v1"
+ }
+ "arxiv_revisions": [
+ {
+ "version": "v1"
+ "submitted_at": "2026-08-22"
+ }
+ ]
 }
 ```
 
-[来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2608.21504)（访问 2026-11-08）
 
 ### Saturation
 
@@ -324,7 +324,7 @@ There is no valid unified saturation figure; Llama3 on ClinTox can range from 0.
 
 Taking over a public molecule library and its tasks, and rewriting the prompts, is not the same as removing pretraining contamination. The overall standard deviation among the four prompts is not a confidence interval for sampling. The question count of 4,484 in the README and of 4,482 on the HF card needs an explanation from the maintainers. No LICENSE file was found, and the HF card does not mark a license. This remains Unverified.
 
-[来源1](https://github.com/einae-nd/ChemDIRT)（访问2026-11-08）；[来源2](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问2026-11-08）；[来源3](https://arxiv.org/pdf/2608.21504)（访问2026-11-08）
+[来源1](https://github.com/einae-nd/ChemDIRT)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/Einae/ChemDIRT/blob/main/README.md)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/2608.21504)（访问 2026-11-08）
 
 ### 衍生与后续工作
 
@@ -340,7 +340,7 @@ Unverified
 
 2026-11-08 (actual review date; batch label 2026-11-07).
 
-[来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2608.21504)（访问 2026-11-08）
 
 ### 官方榜入口
 
@@ -360,49 +360,49 @@ Unverified
 
 ```json
 [
-  {
-    "rank": null
-    "model": "Claude-Sonnet-5"
-    "score": 0.633
-    "metric": "exact match"
-    "track": "Paper Table V / image→SMILES"
-    "source_url": "https://arxiv.org/pdf/2608.21504"
-    "accessed": "2026-11-08"
-    "std_across_prompts": 0.028
-    "unit": "比例"
-  }
-  {
-    "rank": null
-    "model": "Claude-Sonnet-5"
-    "score": 0.687
-    "metric": "exact match"
-    "track": "Paper Table V / image→IUPAC"
-    "source_url": "https://arxiv.org/pdf/2608.21504"
-    "accessed": "2026-11-08"
-    "std_across_prompts": 0.039
-    "unit": "比例"
-  }
-  {
-    "rank": null
-    "model": "RetroDFM-R"
-    "score": 0.685
-    "metric": "exact match"
-    "track": "Paper Table IV / SMILES retrosynthesis."
-    "source_url": "https://arxiv.org/pdf/2608.21504"
-    "accessed": "2026-11-08"
-    "std_across_prompts": 0.023
-    "unit": "比例"
-  }
+ {
+ "rank": null
+ "model": "Claude-Sonnet-5"
+ "score": 0.633
+ "metric": "exact match"
+ "track": "Paper Table V / image→SMILES"
+ "source_url": "https://arxiv.org/pdf/2608.21504"
+ "accessed": "2026-11-08"
+ "std_across_prompts": 0.028
+ "unit": "比例"
+ }
+ {
+ "rank": null
+ "model": "Claude-Sonnet-5"
+ "score": 0.687
+ "metric": "exact match"
+ "track": "Paper Table V / image→IUPAC"
+ "source_url": "https://arxiv.org/pdf/2608.21504"
+ "accessed": "2026-11-08"
+ "std_across_prompts": 0.039
+ "unit": "比例"
+ }
+ {
+ "rank": null
+ "model": "RetroDFM-R"
+ "score": 0.685
+ "metric": "exact match"
+ "track": "Paper Table IV / SMILES retrosynthesis."
+ "source_url": "https://arxiv.org/pdf/2608.21504"
+ "accessed": "2026-11-08"
+ "std_across_prompts": 0.023
+ "unit": "比例"
+ }
 ]
 ```
 
-[来源1](https://arxiv.org/pdf/2608.21504)（访问2026-11-08）
+[来源1](https://arxiv.org/pdf/2608.21504)（访问 2026-11-08）
 
 ### 覆盖边界
 
 All three are locked to the v1 paper and structured on three tracks, image→SMILES, image→IUPAC, and SMILES retrosynthesis; rank=null because this is not a complete ranking of one and the same task. ± is the overall standard deviation across four prompts, not a confidence interval; the current real-time SOTA is not claimed.
 
-[来源1](https://arxiv.org/pdf/2608.21504)（访问2026-11-08）；[来源2](https://github.com/einae-nd/ChemDIRT)（访问2026-11-08）
+[来源1](https://arxiv.org/pdf/2608.21504)（访问 2026-11-08）；[来源2](https://github.com/einae-nd/ChemDIRT)（访问 2026-11-08）
 
 ## Contact
 
@@ -410,10 +410,10 @@ All three are locked to the v1 paper and structured on three tracks, image→SMI
 
 ```json
 [
-  "einae@nd.edu"
-  "tgunn2@nd.edu"
-  "cbond@nd.edu"
-  "mjiang2@nd.edu"
+ "einae@nd.edu"
+ "tgunn2@nd.edu"
+ "cbond@nd.edu"
+ "mjiang2@nd.edu"
 ]
 ```
 
@@ -423,7 +423,7 @@ All three are locked to the v1 paper and structured on three tracks, image→SMI
 
 https://github.com/einae-nd/ChemDIRT/issues
 
-[来源1](https://github.com/einae-nd/ChemDIRT)（访问2026-11-07）
+[来源1](https://github.com/einae-nd/ChemDIRT)（访问 2026-11-07）
 
 ### 官方社交入口
 
@@ -453,47 +453,15 @@ https://arxiv.org/pdf/2608.21504
 
 70a4ee8128ed69e69bb9a7394b1a823571e1738592986f7fc345603826a12524
 
-[来源1](https://arxiv.org/pdf/2608.21504)（访问2026-11-07）
+[来源1](https://arxiv.org/pdf/2608.21504)（访问 2026-11-07）
 
 ### PDF bytes
 
 466313
 
-[来源1](https://arxiv.org/pdf/2608.21504)（访问2026-11-07）
+[来源1](https://arxiv.org/pdf/2608.21504)（访问 2026-11-07）
 
 ### 目录
-
-```json
-{
-  "id": "1Z1arqpVyZtzUnhGEUznM1Oh02lQKFmh5"
-  "webViewLink": "
-}
-```
-
-[Source 1](https://arxiv.org/abs/2608.21504) (accessed 2026-11-07)
-
-### 其他官方材料
-
-```json
-[
-  {
-    "type": "Chinese introduction"
-    "id": "1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58"
-    "webViewLink": "https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit"
-  }
-]
-```
-
-[来源1](https://docs.google.com/document/d/1AhidDsbF1hMc58H_Jp9_0ud7B4hqmGJVdsEhhwuCS58/edit)（访问2026-11-07）
-
-### 论文归档
-
-```json
-{
-  "id": "186sLc62vIHc-Ng9ZKqoGmn37H6CvHjjB"
-  "webViewLink": "
-}
-```
 
 [Source 1](https://arxiv.org/abs/2608.21504) (accessed 2026-11-07)
 
@@ -501,22 +469,19 @@ https://arxiv.org/pdf/2608.21504
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-[来源1](https://arxiv.org/abs/2608.21504)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2608.21504)（访问 2026-11-08）

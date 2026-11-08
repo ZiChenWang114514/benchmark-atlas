@@ -54,7 +54,7 @@ Language
 
 ```json
 [
-  "Chinese multidisciplinary knowledge"
+ "Chinese multidisciplinary knowledge"
 ]
 ```
 
@@ -64,7 +64,7 @@ Language
 
 The code is MIT; the dataset is CC BY-NC-SA 4.0, and the two must not be used interchangeably.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### Paper
 
@@ -82,7 +82,7 @@ https://github.com/hkust-nlp/ceval
 
 https://huggingface.co/datasets/ceval/ceval-exam
 
-[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问2026-11-08）；[来源2](https://huggingface.co/datasets/ceval/ceval-exam/blob/main/README.md)（访问2026-11-08）
+[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ceval/ceval-exam/blob/main/README.md)（访问 2026-11-08）
 
 ### Official homepage
 
@@ -116,19 +116,19 @@ Unverified
 
 ```json
 [
-  "Huang, Yuzhen"
-  "Bai, Yuzhuo"
-  "Zhu, Zhihao"
-  "Zhang, Junlei"
-  "Zhang, Jinghan"
-  "Su, Tangjun"
-  "Liu, Junteng"
-  "Lv, Chuancheng"
-  "Zhang, Yikai"
-  "Lei, Jiayi"
-  "Fu, Yao"
-  "Sun, Maosong"
-  "He, Junxian"
+ "Huang, Yuzhen"
+ "Bai, Yuzhuo"
+ "Zhu, Zhihao"
+ "Zhang, Junlei"
+ "Zhang, Jinghan"
+ "Su, Tangjun"
+ "Liu, Junteng"
+ "Lv, Chuancheng"
+ "Zhang, Yikai"
+ "Lei, Jiayi"
+ "Fu, Yao"
+ "Sun, Maosong"
+ "He, Junxian"
 ]
 ```
 
@@ -138,7 +138,7 @@ Unverified
 
 The official public code is hosted under hkust-nlp; this records the repository maintenance entry point and is not a basis for inferring institutional legal liability or a commitment to continued maintenance.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### 资助披露
 
@@ -198,7 +198,7 @@ Selection of question sources avoids some popular public exam items, and duplica
 
 13,948 questions in total, 52 subjects, and four difficulty levels; the validation set has 1,346 questions, with 5 development examples per subject.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### Question types
 
@@ -228,7 +228,7 @@ Four levels: junior high, senior high, university, and professional qualificatio
 
 Each subject has 5 dev questions. val is used for tuning, and test is used for evaluation. News in the README says that the complete test set was made public on 2025-07-27, but the older Data section still says that the test labels are not public. There is a conflict in how current the documents are, and the test cannot continue to be called hidden without distinction.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ## Evaluation
 
@@ -242,7 +242,7 @@ Accuracy; the official paper aggregates by subject or category, and the method o
 
 A/B/C/D is usually extracted from the generated content; when the format is not followed, the probabilities of the four options may be compared. The probability method does not apply to CoT; zero-shot, five-shot, and CoT are recorded separately.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### 提示与运行条件
 
@@ -254,7 +254,7 @@ The original paper includes 0-shot/5-shot answer-only and 5-shot CoT; do not mix
 
 https://github.com/hkust-nlp/ceval
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### 可比性边界
 
@@ -268,36 +268,36 @@ C-Eval's questions, written originally in Chinese, differ from translated MMLU; 
 
 2026-11-08
 
-[来源1](https://arxiv.org/html/2610.11978v1)（访问2026-11-08）
+[来源1](https://arxiv.org/html/2610.11978v1)（访问 2026-11-08）
 
 ### 当前版本
 
 Official README news record: on 2025-07-27 the complete test set was released to the community.
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### 论文修订与后续使用
 
 ```json
 {
-  "arxiv_revisions_kst": [
-    {
-      "version": "v1"
-      "submitted_at_kst": "2023-05-15"
-    }
-    {
-      "version": "v2"
-      "submitted_at_kst": "2023-05-17"
-    }
-    {
-      "version": "v3"
-      "submitted_at_kst": "2023-11-06"
-    }
-  ]
+ "arxiv_revisions": [
+ {
+ "version": "v1"
+ "submitted_at": "2023-05-15"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2023-05-17"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2023-11-06"
+ }
+ ]
 }
 ```
 
-[来源1](https://arxiv.org/abs/2305.08322)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2305.08322)（访问 2026-11-08）
 
 ### Saturation
 
@@ -311,13 +311,13 @@ Unverified
 
 The official README and the HF card announced on 2025-07-27 that the complete test set is public. The statement in the old Data section that “labels are not public” is a conflict of documentation currency. After the labels are public, contamination continues to be watched. Avoiding question sources and deduplication cannot prove that the training of every model under test is free of leakage.
 
-[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问2026-11-08）；[来源2](https://huggingface.co/datasets/ceval/ceval-exam/blob/main/README.md)（访问2026-11-08）
+[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问 2026-11-08）；[来源2](https://huggingface.co/datasets/ceval/ceval-exam/blob/main/README.md)（访问 2026-11-08）
 
 ### 衍生与后续工作
 
 C-Eval Hard: a fixed subset made up of 8 high-reasoning subjects in mathematics, physics, and chemistry; it is not combined with mean accuracy over all 52 subjects as one metric.
 
-[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问2026-11-08）
+[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问 2026-11-08）
 
 ## Leaderboard snapshot
 
@@ -325,7 +325,7 @@ C-Eval Hard: a fixed subset made up of 8 high-reasoning subjects in mathematics,
 
 2026-11-08 (actual review date; batch label 2026-11-07).
 
-[来源1](https://arxiv.org/abs/2305.08322)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2305.08322)（访问 2026-11-08）
 
 > A collection date; it does not represent the run date of every listed model, and result rows separately mark historical or live status.
 
@@ -333,7 +333,7 @@ C-Eval Hard: a fixed subset made up of 8 high-reasoning subjects in mathematics,
 
 https://cevalbenchmark.com/static/leaderboard.html
 
-[来源1](https://cevalbenchmark.com/static/leaderboard.html)（访问2026-11-07）
+[来源1](https://cevalbenchmark.com/static/leaderboard.html)（访问 2026-11-07）
 
 ### 第三方榜入口
 
@@ -347,124 +347,124 @@ Unverified
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": 66.4
-    "metric": "average accuracy (%)"
-    "track": "Original test / 0-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 2
-    "model": "ChatGPT"
-    "score": 51.0
-    "metric": "average accuracy (%)"
-    "track": "Original test / 0-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 3
-    "model": "Claude-v1.3"
-    "score": 50.5
-    "metric": "average accuracy (%)"
-    "track": "Original test / 0-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": 68.7
-    "metric": "average accuracy (%)"
-    "track": "Original test / 5-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 2
-    "model": "ChatGPT"
-    "score": 54.4
-    "metric": "average accuracy (%)"
-    "track": "Original test / 5-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 3
-    "model": "Claude-v1.3"
-    "score": 54.2
-    "metric": "average accuracy (%)"
-    "track": "Original test / 5-shot answer-only / README history."
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": 69.9
-    "metric": "average accuracy (%)"
-    "track": "validation/5-shot answer-only/README history"
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 2
-    "model": "Claude-v1.3"
-    "score": 55.5
-    "metric": "average accuracy (%)"
-    "track": "validation/5-shot answer-only/README history"
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
-  {
-    "rank": 3
-    "model": "ChatGPT"
-    "score": 53.5
-    "metric": "average accuracy (%)"
-    "track": "validation/5-shot answer-only/README history"
-    "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "model_snapshot": "待核实"
-    "evaluation_date": "待核实"
-  }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": 66.4
+ "metric": "average accuracy (%)"
+ "track": "Original test / 0-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 2
+ "model": "ChatGPT"
+ "score": 51.0
+ "metric": "average accuracy (%)"
+ "track": "Original test / 0-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 3
+ "model": "Claude-v1.3"
+ "score": 50.5
+ "metric": "average accuracy (%)"
+ "track": "Original test / 0-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": 68.7
+ "metric": "average accuracy (%)"
+ "track": "Original test / 5-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 2
+ "model": "ChatGPT"
+ "score": 54.4
+ "metric": "average accuracy (%)"
+ "track": "Original test / 5-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 3
+ "model": "Claude-v1.3"
+ "score": 54.2
+ "metric": "average accuracy (%)"
+ "track": "Original test / 5-shot answer-only / README history."
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": 69.9
+ "metric": "average accuracy (%)"
+ "track": "validation/5-shot answer-only/README history"
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 2
+ "model": "Claude-v1.3"
+ "score": 55.5
+ "metric": "average accuracy (%)"
+ "track": "validation/5-shot answer-only/README history"
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
+ {
+ "rank": 3
+ "model": "ChatGPT"
+ "score": 53.5
+ "metric": "average accuracy (%)"
+ "track": "validation/5-shot answer-only/README history"
+ "source_url": "https://github.com/hkust-nlp/ceval/blob/main/README.md"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "model_snapshot": "待核实"
+ "evaluation_date": "待核实"
+ }
 ]
 ```
 
-[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问2026-11-08）
+[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问 2026-11-08）
 
 ### 覆盖边界
 
 On this pass the official live leaderboard returned 500 to WebFetch, and a direct HTTPS read failed certificate verification. The certificate check was not bypassed. Only three tracks that can be verified directly are updated: the historical test zero-shot and five-shot results in the README, and the val five-shot results. A live top three for 2026 cannot be claimed.
 
-[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问2026-11-08）；[来源2](https://cevalbenchmark.com/static/leaderboard.html)（访问2026-11-08）
+[来源1](https://github.com/hkust-nlp/ceval/blob/main/README.md)（访问 2026-11-08）；[来源2](https://cevalbenchmark.com/static/leaderboard.html)（访问 2026-11-08）
 
 ## Contact
 
@@ -472,7 +472,7 @@ On this pass the official live leaderboard returned 500 to WebFetch, and a direc
 
 ```json
 [
-  "ceval.benchmark@gmail.com"
+ "ceval.benchmark@gmail.com"
 ]
 ```
 
@@ -482,7 +482,7 @@ On this pass the official live leaderboard returned 500 to WebFetch, and a direc
 
 https://github.com/hkust-nlp/ceval/issues
 
-[来源1](https://github.com/hkust-nlp/ceval)（访问2026-11-07）
+[来源1](https://github.com/hkust-nlp/ceval)（访问 2026-11-07）
 
 ### 官方社交入口
 
@@ -496,7 +496,7 @@ Unverified
 
 Only research contact channels made public in the paper, on the official website, or in the official repository are included; private contact details are not collected.
 
-[来源1](urn:benchmark-atlas:constitution:v0.1)（访问2026-11-07）
+[来源1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-07）
 
 ## Original files
 
@@ -504,13 +504,13 @@ Only research contact channels made public in the paper, on the official website
 
 https://arxiv.org/pdf/2305.08322
 
-[来源1](https://arxiv.org/pdf/2305.08322)（访问2026-11-07）
+[来源1](https://arxiv.org/pdf/2305.08322)（访问 2026-11-07）
 
 ### PDF SHA-256
 
 88bfbd09fe554fc40538cb84fcff09681b86ff5c71398fd4b9beaf177d73acde
 
-[来源1](https://arxiv.org/pdf/2305.08322)（访问2026-11-07）
+[来源1](https://arxiv.org/pdf/2305.08322)（访问 2026-11-07）
 
 > SHA-256 of the originally downloaded bytes. They were not compressed or rewritten.
 
@@ -518,64 +518,27 @@ https://arxiv.org/pdf/2305.08322
 
 5123072
 
-[来源1](https://arxiv.org/pdf/2305.08322)（访问2026-11-07）
+[来源1](https://arxiv.org/pdf/2305.08322)（访问 2026-11-07）
 
 ### 目录
-
-```json
-{
-  "id": "1XiWWm6Qf9bvl231PZpVGtu_Hv4dqxsKM"
-  "webViewLink": "
-}
-```
-
-[来源1](
-
-### 其他官方材料
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1y4w791Z01asAIi1Wr1sXOI5O2ikd4pzprPPrDB2gLHY"
-    "webViewLink": "
-  }
-]
-```
-
-[来源1](
-
-### 论文归档
-
-```json
-{
-  "id": "1srG6OgvEUfLf4iJVtskBpRJCvr3rkoQ0"
-  "webViewLink": "
-}
-```
-
-[来源1](
 
 ## Changelog
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-[来源1](https://arxiv.org/abs/2305.08322)（访问2026-11-08）；[来源2](https://arxiv.org/pdf/2305.08322)（访问2026-11-08）；[来源3](https://github.com/hkust-nlp/ceval)（访问2026-11-08）
+[来源1](https://arxiv.org/abs/2305.08322)（访问 2026-11-08）；[来源2](https://arxiv.org/pdf/2305.08322)（访问 2026-11-08）；[来源3](https://github.com/hkust-nlp/ceval)（访问 2026-11-08）

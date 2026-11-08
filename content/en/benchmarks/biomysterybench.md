@@ -1,6 +1,6 @@
 # BioMysteryBench
 
-> Benchmark Constitution, in-depth review: 2026-11-08. Official existence has been verified; a field-level research snapshot; note: trending: A
+> Benchmark Constitution, in-depth review: 2026-11-08.
 
 BioMysteryBench gives real omics files to a programmable agent and tests whether it can recover information that has an independent ground truth, such as species, tissue of origin, or experimental treatment, without forcing one specified analysis route. Its key distinction is that a "verifiable answer" and "solvable by a human from scratch" are not the same thing. Of the final 99 questions, 76 were solved by at least one expert, and 23 were not solved by as many as five experts. The latter cannot be called unsolved scientific problems directly. The independent Vals evaluation and the original Anthropic experiment are also not the same scoring track.
 
@@ -40,7 +40,7 @@ Unverified
 
 2026-04-29 (date of the Anthropic introductory article)
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 板块
 
@@ -54,7 +54,7 @@ Biology and medicine
 
 ```json
 [
-  "Science agent"
+ "Science agent"
 ]
 ```
 
@@ -66,7 +66,7 @@ Biology and medicine
 
 The Vals method page says the task materials are CC BY 4.0, with an additional restriction against model training; the underlying biological data follow the original repository's policy. The full license text still needs to be checked.
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### Paper
 
@@ -112,7 +112,7 @@ Unverified
 
 Anthropic
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### Partner organizations
 
@@ -126,13 +126,13 @@ Unverified
 
 The Anthropic Science / discovery team (the article introduces the researcher Brianna and does not supply a surname that was not given)
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 维护入口
 
 Original Anthropic benchmark; Vals AI maintains an independent evaluation leaderboard
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 资助披露
 
@@ -174,7 +174,7 @@ Bioinformatics domain experts.
 
 The author of each question must submit a verification notebook showing that a signal is present in the data. At most 5 domain experts solve each question from scratch. After an additional quality check, 4 questions whose construction was faulty were removed. The final 99 questions are divided into 76 human-solvable and 23 human-difficult.
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）
 
 ### 质控
 
@@ -196,15 +196,15 @@ Unverified
 
 ```json
 {
-  "final_questions": 99
-  "human_solvable": 76
-  "human_difficult": 23
-  "excluded_broken_questions": 4
-  "warning": "99 is the final set after 4 questions were removed; it is not 99 with another 4 removed. Whether the Vals evaluation denominator matches the original version is Unverified."
+ "final_questions": 99
+ "human_solvable": 76
+ "human_difficult": 23
+ "excluded_broken_questions": 4
+ "warning": "99 is the final set after 4 questions were removed; it is not 99 with another 4 removed. Whether the Vals evaluation denominator matches the original version is Unverified."
 }
 ```
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-08）
 
 ### Question types
 
@@ -216,9 +216,9 @@ Investigates data files, writes analysis code, calls the command line, and queri
 
 ```json
 [
-  "文本"
-  "Sequencing and omics data files"
-  "Code and database output"
+ "文本"
+ "Sequencing and omics data files"
+ "Code and database output"
 ]
 ```
 
@@ -252,19 +252,19 @@ Unverified
 
 The original text reports accuracy for the two question types, with 5 runs per question; the Vals headline is the mean accuracy of 3 complete evaluations.
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 评分
 
 Vals uses openai/gpt-5.6-terra to judge the final answer. Full acceptance = 1; refusal, failure, or non-acceptance = 0. A fixed path of analysis is not required.
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 提示与运行条件
 
 Vals: a Terminus 2 bioinformatics sandbox, limited to 200 turns and 4 hours; network access is allowed only to the repositories of necessary scientific packages and to biological databases, at the default reasoning level in the registry.
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 官方评测入口
 
@@ -278,7 +278,7 @@ Unverified
 
 The original version runs each question 5 times and reports the two subsets, 76 and 23, separately. Vals is the mean of 3 complete runs, with Terminus 2 and another judge. The two protocols must not be merged into one ranking. A model answering correctly does not mean that its chain of analysis has passed scientific or clinical validation.
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-08）
 
 ## Current status
 
@@ -286,26 +286,26 @@ The original version runs each question 5 times and reports the two subsets, 76 
 
 2026-11-08
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）
 
 ### 当前版本
 
 ```json
 {
-  "version": "待核实"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/biomysterybench"
-      "date": "2026-11-05"
-      "date_type": "source_calendar_date"
-      "note": "Vals currently re-evaluates it independently, covering 30 models; this is not merely a restatement of Anthropic's self-report."
-    }
-  ]
+ "version": "待核实"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/biomysterybench"
+ "date": "2026-11-05"
+ "date_type": "source_calendar_date"
+ "note": "Vals currently re-evaluates it independently, covering 30 models; this is not merely a restatement of Anthropic's self-report."
+ }
+ ]
 }
 ```
 
-[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 > Heat A follows the candidate grading; the nature of the evidence is labeled item by item. Multiple URLs do not automatically equal multiple independent adopters, and what is currently visible is not treated as a recent first release.
 
@@ -329,7 +329,7 @@ Unverified
 
 The validation notebook shows that a signal is present, but it does not guarantee that the problem is solvable from scratch; the Vals final-answer judge does not verify complete scientific correctness or the validity of a new discovery.
 
-[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[Source 1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) (accessed 2026-11-07)；[来源2](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 衍生与后续工作
 
@@ -345,89 +345,89 @@ Unverified
 
 2026-11-08 (actual review date; batch label 2026-11-07).
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）
 
 ### 官方榜入口
 
 https://www.vals.ai/benchmarks/biomysterybench
 
-[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 第三方榜入口
 
 https://www.vals.ai/benchmarks/biomysterybench
 
-[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-07）
+[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-07）
 
 ### 逐轨结果
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "Claude Sonnet 5.5"
-    "score": 81.11
-    "metric": "Vals Accuracy %; 3 runs"
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-07 "
-    "track": "Vals independent retest/3 runs"
-    "accessed": "2026-11-08"
-  }
-  {
-    "rank": 2
-    "model": "GPT-6.1 Sol"
-    "score": 79.63
-    "metric": "Vals Accuracy %; 3 runs"
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-07 "
-    "track": "Vals independent retest/3 runs"
-    "accessed": "2026-11-08"
-  }
-  {
-    "rank": 3
-    "model": "GPT-6 Astra"
-    "score": 79.26
-    "metric": "Vals Accuracy %; 3 runs"
-    "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
-    "source_date": "2026-11-05"
-    "collected_at": "2026-11-07 "
-    "track": "Vals independent retest/3 runs"
-    "accessed": "2026-11-08"
-  }
-  {
-    "rank": null
-    "model": "Claude Opus 4.6"
-    "score": 77.4
-    "metric": "accuracy (%)"
-    "track": "Anthropic original report/human-solvable/5 episodes"
-    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "source_context": "A reliability-analysis passage included in, and endorsed by, the official article"
-  }
-  {
-    "rank": null
-    "model": "Claude Opus 4.6"
-    "score": 23.5
-    "metric": "accuracy (%)"
-    "track": "Anthropic original report/human-difficult/5 episodes"
-    "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
-    "accessed": "2026-11-08"
-    "unit": "%"
-    "source_context": "Another subset of the same model; it cannot be ranked directly together with Vals percentages"
-  }
+ {
+ "rank": 1
+ "model": "Claude Sonnet 5.5"
+ "score": 81.11
+ "metric": "Vals Accuracy %; 3 runs"
+ "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-07 "
+ "track": "Vals independent retest/3 runs"
+ "accessed": "2026-11-08"
+ }
+ {
+ "rank": 2
+ "model": "GPT-6.1 Sol"
+ "score": 79.63
+ "metric": "Vals Accuracy %; 3 runs"
+ "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-07 "
+ "track": "Vals independent retest/3 runs"
+ "accessed": "2026-11-08"
+ }
+ {
+ "rank": 3
+ "model": "GPT-6 Astra"
+ "score": 79.26
+ "metric": "Vals Accuracy %; 3 runs"
+ "source_url": "https://www.vals.ai/benchmarks/biomysterybench"
+ "source_date": "2026-11-05"
+ "collected_at": "2026-11-07 "
+ "track": "Vals independent retest/3 runs"
+ "accessed": "2026-11-08"
+ }
+ {
+ "rank": null
+ "model": "Claude Opus 4.6"
+ "score": 77.4
+ "metric": "accuracy (%)"
+ "track": "Anthropic original report/human-solvable/5 episodes"
+ "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "source_context": "A reliability-analysis passage included in, and endorsed by, the official article"
+ }
+ {
+ "rank": null
+ "model": "Claude Opus 4.6"
+ "score": 23.5
+ "metric": "accuracy (%)"
+ "track": "Anthropic original report/human-difficult/5 episodes"
+ "source_url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+ "accessed": "2026-11-08"
+ "unit": "%"
+ "source_context": "Another subset of the same model; it cannot be ranked directly together with Vals percentages"
+ }
 ]
 ```
 
-[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-08）；[来源2](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-08）；[来源2](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）
 
 ### 覆盖边界
 
 The current Vals top three have been reread. For the original version, only the two exact Opus 4.6 figures explicitly given in the official body text are added, and other models are not estimated from the figures. The Vals and Anthropic tracks are both kept. Consistency between the 99 questions and the actual Vals denominator is Unverified.
 
-[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问2026-11-08）；[来源2](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.vals.ai/benchmarks/biomysterybench)（访问 2026-11-08）；[来源2](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）
 
 ## Contact
 
@@ -435,7 +435,7 @@ The current Vals top three have been reread. For the original version, only the 
 
 ```json
 [
-  "scienceblog@anthropic.com"
+ "scienceblog@anthropic.com"
 ]
 ```
 
@@ -505,10 +505,10 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official methods and introduction page (not the paper PDF)"
-    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
-  }
+ {
+ "type": "Official methods and introduction page (not the paper PDF)"
+ "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+ }
 ]
 ```
 
@@ -524,17 +524,15 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问2026-11-08）
+[来源1](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)（访问 2026-11-08）

@@ -50,10 +50,10 @@ Agent
 
 ```json
 [
-  "远程经济劳动"
-  "多模态交付物"
-  "端到端Agent"
-  "人工验收"
+ "远程经济劳动"
+ "多模态交付物"
+ "端到端Agent"
+ "人工验收"
 ]
 ```
 
@@ -101,8 +101,8 @@ Remote Labor Index: Measuring AI Automation of Remote Work
 
 ```json
 [
-  "Scale AI"
-  "Center for AI Safety"
+ "Scale AI"
+ "Center for AI Safety"
 ]
 ```
 
@@ -118,53 +118,53 @@ Center for AI Safety与Scale AI共同研究；作者脚注另区分work done whi
 
 ```json
 [
-  "Mantas Mazeika"
-  "Alice Gatti"
-  "Cristina Menghini"
-  "Udari Madhushani Sehwag"
-  "Shivam Singhal"
-  "Yury Orlovskiy"
-  "Steven Basart"
-  "Manasi Sharma"
-  "Denis Peskoff"
-  "Elaine Lau"
-  "Jaehyuk Lim"
-  "Lachlan Carroll"
-  "Alice Blair"
-  "Vinaya Sivakumar"
-  "Sumana Basu"
-  "Brad Kenstler"
-  "Yuntao Ma"
-  "Julian Michael"
-  "Xiaoke Li"
-  "Oliver Ingebretsen"
-  "Aditya Mehta"
-  "Jean Mottola"
-  "John Teichmann"
-  "Kevin Yu"
-  "Zaina Shaik"
-  "Adam Khoja"
-  "Richard Ren"
-  "Jason Hausenloy"
-  "Long Phan"
-  "Ye Htet"
-  "Ankit Aich"
-  "Tahseen Rabbani"
-  "Vivswan Shah"
-  "Andriy Novykov"
-  "Felix Binder"
-  "Kirill Chugunov"
-  "Luis Ramirez"
-  "Matias Geralnik"
-  "Hernán Mesura"
-  "Dean Lee"
-  "Ed-Yeremai Hernandez Cardona"
-  "Annette Diamond"
-  "Summer Yue"
-  "Alexandr Wang"
-  "Bing Liu"
-  "Ernesto Hernandez"
-  "Dan Hendrycks"
+ "Mantas Mazeika"
+ "Alice Gatti"
+ "Cristina Menghini"
+ "Udari Madhushani Sehwag"
+ "Shivam Singhal"
+ "Yury Orlovskiy"
+ "Steven Basart"
+ "Manasi Sharma"
+ "Denis Peskoff"
+ "Elaine Lau"
+ "Jaehyuk Lim"
+ "Lachlan Carroll"
+ "Alice Blair"
+ "Vinaya Sivakumar"
+ "Sumana Basu"
+ "Brad Kenstler"
+ "Yuntao Ma"
+ "Julian Michael"
+ "Xiaoke Li"
+ "Oliver Ingebretsen"
+ "Aditya Mehta"
+ "Jean Mottola"
+ "John Teichmann"
+ "Kevin Yu"
+ "Zaina Shaik"
+ "Adam Khoja"
+ "Richard Ren"
+ "Jason Hausenloy"
+ "Long Phan"
+ "Ye Htet"
+ "Ankit Aich"
+ "Tahseen Rabbani"
+ "Vivswan Shah"
+ "Andriy Novykov"
+ "Felix Binder"
+ "Kirill Chugunov"
+ "Luis Ramirez"
+ "Matias Geralnik"
+ "Hernán Mesura"
+ "Dean Lee"
+ "Ed-Yeremai Hernandez Cardona"
+ "Annette Diamond"
+ "Summer Yue"
+ "Alexandr Wang"
+ "Bing Liu"
+ "Ernesto Hernandez"
+ "Dan Hendrycks"
 ]
 ```
 
@@ -248,13 +248,13 @@ Scale Labs
 
 ```json
 [
-  "文本"
-  "代码"
-  "音频"
-  "视频"
-  "图像"
-  "3D/CAD"
-  "多文件交付物"
+ "文本"
+ "代码"
+ "音频"
+ "视频"
+ "图像"
+ "3D/CAD"
+ "多文件交付物"
 ]
 ```
 
@@ -322,22 +322,22 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 ```json
 {
-  "version": "RLI原始240项目 / 公开public_001至public_010（本次核验）"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/rli"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Scale当前真实工作榜。"
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "Epoch ECI当前纳入RLI；这是聚合外部结果，不是Epoch独立重跑。"
-    }
-  ]
+ "version": "RLI原始240项目 / 公开public_001至public_010（本次核验）"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/rli"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Scale当前真实工作榜。"
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "Epoch ECI当前纳入RLI；这是聚合外部结果，不是Epoch独立重跑。"
+ }
+ ]
 }
 ```
 
@@ -347,11 +347,10 @@ https://github.com/centerforaisafety/rli_evaluation_platform；这是多模态�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-10-31"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-10-31"
+ }
 ]
 ```
 
@@ -501,10 +500,10 @@ https://arxiv.org/pdf/2510.26787
 
 ```json
 [
-  {
-    "type": "官方方法/介绍网页（不是论文PDF）"
-    "url": "https://labs.scale.com/leaderboard/rli"
-  }
+ {
+ "type": "官方方法/介绍网页（不是论文PDF）"
+ "url": "https://labs.scale.com/leaderboard/rli"
+ }
 ]
 ```
 
@@ -519,16 +518,14 @@ https://arxiv.org/pdf/2510.26787
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://labs.scale.com/leaderboard/rli)（访问 2026-11-08）

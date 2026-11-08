@@ -443,7 +443,7 @@
       ]
     },
     "prompt_settings": {
-      "value": "官方MMLUEval(language=...)载入对应语种CSV；单题zero-shot CoT，要求最后一行Answer: A/B/C/D；language默认EN-US，跑翻译集必须显式指定语言。num_examples抽样使用Random(0)。",
+      "value": "官方MMLUEval(language=..)载入对应语种CSV；单题zero-shot CoT，要求最后一行Answer: A/B/C/D；language默认EN-US，跑翻译集必须显式指定语言。num_examples抽样使用Random(0)。",
       "sources": [
         {
           "url": "https://github.com/openai/simple-evals/blob/main/mmlu_eval.py",
@@ -492,7 +492,7 @@
     "latest_dataset_version": {
       "value": {
         "hf_revision": "325a01dc3e173cac1578df94120499aaca2e2504",
-        "last_modified_kst": "2024-10-17",
+        "last_modified": "2024-10-17",
         "scope": "HF公开MMMLU译文，不是新MMLU版本"
       },
       "sources": [
@@ -512,18 +512,18 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2020-09-08"
+            "date": "2020-09-08"
           },
           {
             "version": "v2",
-            "date_kst": "2020-09-21"
+            "date": "2020-09-21"
           },
           {
             "version": "v3",
-            "date_kst": "2021-01-13"
+            "date": "2021-01-13"
           }
         ],
-        "mmmlu_repository_last_modified_kst": "2024-10-17"
+        "mmmlu_repository_last_modified": "2024-10-17"
       },
       "sources": [
         {
@@ -671,7 +671,7 @@
         {
           "rank": 6,
           "model": "GPT-5.6 Sol",
-          "score": 85.0,
+          "score": 85,
           "track": "Jev研究表2：本研究复测组／14语种MMMLU",
           "metric": "accuracy",
           "unit": "%",
@@ -684,7 +684,7 @@
         {
           "rank": 6,
           "model": "Jev",
-          "score": 85.0,
+          "score": 85,
           "track": "Jev研究表2：本研究复测组／14语种MMMLU",
           "metric": "accuracy",
           "unit": "%",
@@ -807,9 +807,6 @@
     },
     "other_documents": {
       "value": [
-        {
-          "kind": "中文介绍"
-        },
         {
           "type": "打开核验的官方/研究来源",
           "url": "https://arxiv.org/abs/2009.03300",

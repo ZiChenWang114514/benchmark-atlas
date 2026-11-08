@@ -256,7 +256,6 @@ Original v1 cross-system collection; a modern Lean4 port must record its commit 
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2021-09-01；- **timezone**：；- - **version**：v2；- **submitted_at**：2022-02-28；- **timezone**：
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2608.28639v1；- **date**：2026-08-11；- **note**：The original Reward-Oracle MCTS study actually compares three proof models and different search budgets on miniF2F; it also audits the validity of proofs at the kernel level.
 
 [来源](https://arxiv.org/abs/2109.00110)（访问 2026-11-08）；[来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
@@ -377,7 +376,6 @@ Unverified
 
 [来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
-
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）；[来源](https://arxiv.org/html/2608.28639v1)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -440,27 +438,6 @@ e4dcbd37330caffea6ebe2baa0f2f4cd3596d8a873c00f44ea2ce62ab0aaeea2
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2109.00110)（访问 2026-11-08）
-
-### Folder
-
-- **id**：1Z3ygLn9nvmJ7OL77CifV-VTo5oGqwfIa
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- **chinese_intro_doc**：- **id**：1SmDycpie2iIEWiJN5gjyYjX8Uqpogk5wCu4yuuFHLug；- **webViewLink**： **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/minif2f.md
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1B_2BIieglqoGSpFwqs_vdOHBFMK1e4U8
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

@@ -226,12 +226,6 @@ Overview basis: [S1](https://arxiv.org/abs/2412.15204)
 
 **PDF字节数**：9951437 [S6](https://arxiv.org/pdf/2412.15204)
 
-**原有文件夹**：{"id": "1mmQ7rlb_FLxxhHcU5XzUsBvk1iAYKCwE", "webViewLink": " [S14](
-
-**其他材料**：[{"kind": "Chinese introduction", "id": "17TDazsrZ5DvO4AHSc0I8ObvxYn7OnskRniIB842v5-8", "webViewLink": " [S15](
-
-**原有 PDF**：{"id": "1zR9mNbXLbLSQimS1M2M3X98NBO9XvScx", "webViewLink": " [S16](
-
 ## Changelog
 
 - 2026-11-07，首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。

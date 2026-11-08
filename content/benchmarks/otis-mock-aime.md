@@ -4,7 +4,7 @@
 
 这是OTIS学生撰写的三套非官方AIME模拟试卷组成的45题评测，不是正式AIME考试。Epoch运行使用题文和必要的制图源码，并采用无真值答案提取后精确匹配；本页按当前任务版本保留每个精确模型配置的最新成功运行。
 
-来源：[原始说明](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[结果证据](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[原始说明](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[结果证据](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ## 基本信息
 
@@ -12,19 +12,19 @@
 
 OTIS Mock AIME 2024–2025
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 全称
 
 OTIS Mock AIME 2024–2025
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 基准版本
 
 2024–2025题集；Epoch当前运行task version 1.1.6
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 论文版本
 
@@ -32,13 +32,13 @@ OTIS Mock AIME 2024–2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 发布日期
 
 2024试卷封面日期为2023-12-22；2025 I/II试卷封面为2024-12-20。Epoch将三份合成45题评测的首发日期仍待核实。
 
-来源：[1](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问2026-11-08，）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf)（访问2026-11-08，）；[3](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问 2026-11-08）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf)（访问 2026-11-08）；[3](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 主板块
 
@@ -46,7 +46,7 @@ OTIS Mock AIME 2024–2025
 
 说明：Benchmark Constitution 编辑分类。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 领域标签
 
@@ -54,7 +54,7 @@ OTIS Mock AIME 2024–2025
 
 说明：编辑标签；空列表表示尚未补充细分标签。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 许可与适用范围
 
@@ -62,7 +62,7 @@ OTIS Mock AIME 2024–2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 论文
 
@@ -70,13 +70,13 @@ OTIS Mock AIME 2024–2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 代码仓库
 
 https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 数据地址
 
@@ -84,13 +84,13 @@ https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 - https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf
 - https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问2026-11-08，）；[3](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问 2026-11-08）；[3](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf)（访问 2026-11-08）
 
 ### 官方主页
 
 https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 论文标题
 
@@ -98,7 +98,7 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ## 发起与维护
 
@@ -106,7 +106,7 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 OTIS（Olympiad Training for Individual Study）出题；Epoch AI建立和运行模型评测
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 合作关系
 
@@ -114,25 +114,25 @@ OTIS（Olympiad Training for Individual Study）出题；Epoch AI建立和运行
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 作者
 
 OTIS项目学生（逐题作者见原始试卷，未补写）
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 当前维护方
 
 Epoch AI（评测实现与结果）
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 资助与支持
 
 Epoch明确披露xAI为2025年7月Grok 4这次特定评测付费并提供compute credits，未签NDA且保留编辑独立性；不把它扩展为整个OTIS出题项目的资助方。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ## 设计目标
 
@@ -140,13 +140,13 @@ Epoch明确披露xAI为2025年7月Grok 4这次特定评测付费并提供compute
 
 AIME式竞赛数学多步推理，答案为000–999整数。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 设计背景与适用边界
 
 提供正式AIME以外、由OTIS学生撰写的竞赛模拟题；Epoch定位在MATH Level5与FrontierMath之间，不能与正式AIME同名考试题混计。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ## 构建方式
 
@@ -154,13 +154,13 @@ AIME式竞赛数学多步推理，答案为000–999整数。
 
 OTIS 2024、2025 I、2025 II三套非官方模拟AIME试卷，各15题。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 构建者背景
 
 OTIS奥林匹克个人学习项目学生。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 审核流程
 
@@ -168,19 +168,19 @@ OTIS奥林匹克个人学习项目学生。
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 质量控制
 
 2025年9月由看真值的LLM判断改成不看真值的答案提取后精确匹配，减少空白答案误判。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 去污染与泄漏边界
 
 原始试卷、答案/解答公开；2024卷仅在考试截止前要求不公开讨论，并非长期隐藏测试。Epoch答案提取器不接收真值，可减少判分泄漏，但不构成预训练去污染证明。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf)（访问 2026-11-08）
 
 ## 数据形式
 
@@ -188,38 +188,38 @@ OTIS奥林匹克个人学习项目学生。
 
 45题：三套试卷各15题。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 题型与交付物
 
 整数填答，000–999。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 模态
 
 - 文本
 - TikZ或Asymptote图形源码（3题）
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 语言
 
 英语提示与题文。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 难度
 
 OTIS模拟考试原始限时3小时；不是Epoch模型运行限时。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 公开与隐藏划分
 
 原始模拟试卷公开；不是正式AIME考试题合集。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ## 评测方法
 
@@ -227,31 +227,31 @@ OTIS模拟考试原始限时3小时；不是Epoch模型运行限时。
 
 准确率；Epoch多数模型重复16次，具体以run为准。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 评分方式
 
 模型只提取最终答案，不接收标准答案；随后与答案键精确匹配。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 提示与运行设置
 
 zero-shot CoT，空系统提示，API默认temperature；要求逐步解题并以ANSWER: X结束；不发送图像，仅提供对应图形代码。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 评测脚本
 
 https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 可比性提醒
 
 不得与正式AIME 2024/2025混算；运行版本、重复次数、API错误处理及答案提取规则必须同时注明。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ## 最新情况
 
@@ -259,52 +259,52 @@ https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
 2026-11-08
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 数据版本与更新
 
 ```json
 {
-  "version": "2024–2025题集；Epoch当前运行task version 1.1.6"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/data/benchmarks.csv"
-      "date": "2026-11-06"
-      "date_type": "source_calendar_date"
-      "note": "Epoch公开CSV仍含2026-11-06开始的最新Kimi K3.1 Pro运行；属于实测而非引用。"
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "当前ECI纳入该任务。"
-    }
-  ]
+ "version": "2024–2025题集；Epoch当前运行task version 1.1.6"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "date": "2026-11-06"
+ "date_type": "source_calendar_date"
+ "note": "Epoch公开CSV仍含2026-11-06开始的最新Kimi K3.1 Pro运行；属于实测而非引用。"
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "当前ECI纳入该任务。"
+ }
+ ]
 }
 ```
 
 说明：热度A沿用候选分级；证据性质逐项标明，多URL不自动等于多个独立采纳方，也不把当前可见当作近期首发。
 
-来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）；[2](https://epoch.ai/data/eci-documentation/data)（访问2026-11-07，）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）；[2](https://epoch.ai/data/eci-documentation/data)（访问 2026-11-07）
 
 ### 论文修订记录
 
 2025-09调整评分为提取答案后精确匹配；当前CSV任务版本1.1.6。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）；[2](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）；[2](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 饱和程度
 
 最新成功run集合中已有模型mean_score=1.0；只是这45题及该运行协议上的观测，不推断所有数学能力饱和。
 
-来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 争议与已知问题
 
 2025-09前看真值的模型裁判曾把空白答案判对，后改为无真值答案提取+精确匹配。Grok4的2025-07运行对网络失败直接送评分，且限制128k输出；不可与新协议无差别混排。试题和答案公开，训练污染风险未被排除。
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 衍生与后续使用
 
@@ -312,7 +312,7 @@ https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ## 榜单快照
 
@@ -320,13 +320,13 @@ https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
 2026-11-08 （网页访问日期；历史结果日期分别保留）
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ### 官方结果入口
 
 https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
-来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 第三方入口
 
@@ -334,7 +334,7 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 分赛道结果
 
@@ -520,13 +520,13 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 - {"model": "Mistral-7B-Instruct-v0.3", "score": 0.002777777777777778, "track": "Epoch官方CSV/task1.1.6/每配置最新成功run", "metric": "Accuracy (0–1)", "source_url": "https://epoch.ai/data/benchmarks.csv", "collected_at": "2026-11-08 ", "stderr": 0.002777777777777778, "model_configuration": "Mistral-7B-Instruct-v0.3", "task_version": "1.1.6", "run_id": "j6Mo25oV9Y9jdGxCMHZfpU", "run_started_at": "2026-08-31 ", "result_type": "CSV实测；非网页平滑聚合榜", "rank": 180}
 - {"model": "granite-4.0-350m", "score": 0.002777777777777778, "track": "Epoch官方CSV/task1.1.6/每配置最新成功run", "metric": "Accuracy (0–1)", "source_url": "https://epoch.ai/data/benchmarks.csv", "collected_at": "2026-11-08 ", "stderr": 0.002777777777777778, "model_configuration": "granite-4.0-350m", "task_version": "1.1.6", "run_id": "aQYiADNH3qVzZkWUmQn6nZ", "run_started_at": "2026-08-28 ", "result_type": "CSV实测；非网页平滑聚合榜", "rank": 180}
 
-来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）
 
 ### 覆盖边界
 
 完整收录当前任务版本1.1.6的181个精确model配置，每配置先取最新成功run、再按mean_score降序，点值同分并列；不挑历史最佳run，不混旧裁判版本。CSV未提供统一榜单更新日，本页只报告访问日期与各run的时间。
 
-来源：[1](https://epoch.ai/data/benchmarks.csv)（访问2026-11-08，）；[2](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/data/benchmarks.csv)（访问 2026-11-08）；[2](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ## 联系方式
 
@@ -534,7 +534,7 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 - benchmarks@epoch.ai
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 公开反馈渠道
 
@@ -542,7 +542,7 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 官方社交渠道
 
@@ -550,13 +550,13 @@ https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 联系方式收录原则
 
 Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不收集私人信息；这不是对外站隐私政策的认证。
 
-来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问2026-11-08，）
+来源：[1](urn:benchmark-atlas:constitution:v0.1)（访问 2026-11-08）
 
 ## 原始文件
 
@@ -566,7 +566,7 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 
 说明：本组只建立本地研究文件，不上传或声明已有 PDF。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 原始PDF地址
 
@@ -574,7 +574,7 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 下载SHA-256
 
@@ -582,7 +582,7 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 下载字节数
 
@@ -590,7 +590,7 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 既存文件夹
 
@@ -598,7 +598,7 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 
 说明：已打开所列材料，但该字段尚未精确核实；不表示官方没有公开。
 
-来源：[1](https://epoch.ai/benchmarks)（访问2026-11-07，）
+来源：[1](https://epoch.ai/benchmarks)（访问 2026-11-07）
 
 ### 其他文档
 
@@ -606,11 +606,11 @@ Benchmark Constitution仅收录论文/官方站公开的项目联系渠道，不
 - {"type": "原始模拟试卷PDF（不是论文）", "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf"}
 - {"type": "原始模拟试卷PDF（不是论文）", "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf"}
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）
 
 ## 变更记录
 
 最近复核
 最近复核
 
-来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问2026-11-08，）
+来源：[1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025)（访问 2026-11-08）

@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; an in-depth entry; items explicitly marked Unverified are kept
+an in-depth entry; items explicitly marked Unverified are kept
 
 DROP (Discrete Reasoning Over Paragraphs) is a reading-comprehension dataset for numerical and discrete reasoning. The model finds evidence in a Wikipedia paragraph and completes counting, addition and subtraction, comparison, and multi-span answers, rather than only extracting a contiguous span of text. The original paper has 96567 questions, split by paragraph into 77409 for training, 9536 for development, and 9622 for hidden test, so that the same paragraph does not cross splits. [1](https://allennlp.org/drop) [2](https://arxiv.org/abs/1903.00161) [3](https://huggingface.co/datasets/ucinlp/drop/blob/main/README.md) [4](https://registry.opendata.aws/allenai-drop/)
 
@@ -126,7 +126,6 @@ The paper, the official scoring script, the notes on the historical repository m
 
 > Expert human：exact_match：94.09；result_type：2019 historical human reference [2](https://arxiv.org/abs/1903.00161)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：The official leaderboard for the hidden test cannot be read (500/TLS). A refreshed live ranking is not claimed from anything held in a search cache. The fallback below is the historical baseline in Table 4 of the original paper, which was actually read, and it is explicitly not the latest SOTA of 2026. Different dev and test sets, different prompts, and different training protocols cannot share one leaderboard. [2](https://arxiv.org/abs/1903.00161)
@@ -154,15 +153,9 @@ The paper, the official scoring script, the notes on the historical repository m
 
 - **PDF字节数**：1989064 [10](https://arxiv.org/pdf/1903.00161) 注：Downloaded byte count; not uploaded.
 
-- **归档目录**：id：1PlCYG_zi6XpiJ2JXUf-rR2DDg0ATAKTc；webViewLink： [11](
-
-- **其他正式文档**：chinese_intro_doc：id：1M2N1ClM56C6ClfXOroYNlxaFR-oo1DCdkaqWCYiFp4w；webViewLink： [11](
-
-- **中的论文副本**：id：1sBEpQfkBHqnUWTYiQ2jnD5uGxIV0g08_；webViewLink： [12](
-
 ## Changelog
 
-- date：2026-11-07；timezone：；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；timezone：；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://allennlp.org/drop)
+- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。；date：2026-11-07；；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：basic_info.code_url；evaluation.official_scripts；evaluation.scoring；latest_status.latest_dataset_version；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://allennlp.org/drop)
 
 ---
 

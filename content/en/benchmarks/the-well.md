@@ -12,13 +12,13 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08); [2](https:
 
 The Well
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Full name
 
 The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Benchmark version
 
@@ -26,19 +26,19 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Paper version
 
 arXiv v2; submitted at 2025-02-22 04:24:16.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Release date
 
 2024-12-01 04:42:14 (arXiv v1 submission; not an inferred data go-live date)
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,49 +46,49 @@ Physics
 
 Note: The editorial section follows the selection list. It does not mean the benchmark measures only that section.
 
-Sources: [1](https://arxiv.org/html/2610.06095v3) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2610.06095v3) (accessed 2026-11-07)
 
 ### Field tags
 
 - Multiphysics simulation and operator learning
 
-Sources: [1](https://arxiv.org/html/2610.06095v3) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/html/2610.06095v3) (accessed 2026-11-07)
 
 ### 许可与适用范围
 
 The code is BSD-3-Clause (LICENSE of the current repository); Datasheet Q43 of the paper states that the full set of data is CC-BY-4.0, and the active_matter dataset card is likewise marked CC-BY-4.0. Some generation programs are proprietary code, and redistributability is not inferred.
 
-Sources: [1](https://github.com/PolymathicAI/the_well/blob/master/LICENSE) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， ) ; [3](https://huggingface.co/datasets/polymathic-ai/active_matter/raw/main/README.md) (accessed 2026-11-08， )
+Sources: [1](https://github.com/PolymathicAI/the_well/blob/master/LICENSE) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08); [3](https://huggingface.co/datasets/polymathic-ai/active_matter/raw/main/README.md) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2412.00568
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/PolymathicAI/the_well
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 数据地址
 
 https://huggingface.co/polymathic-ai
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://polymathic-ai.org/the_well/
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Paper title
 
 The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -96,13 +96,13 @@ Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
 
 Polymathic AI; the project page states explicitly that it is the lead.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， ) ; [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08); [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### Partner organizations
 
 Project partners include the Flatiron Institute, Colorado Boulder, Cambridge, NYU, Rutgers, Cornell, Tokyo, Los Alamos, UC Berkeley, Princeton, CEA DAM, and Liège; an independent funding relationship is not inferred.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， ) ; [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08); [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### Authors
 
@@ -134,19 +134,19 @@ Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， ) ; [2](h
 - Cranmer, Miles
 - Ho, Shirley
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Current maintainer
 
 The Polymathic AI project team; the official documentation lists Ruben Ohana and Michael McCabe as public contacts.
 
-Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### 资助与支持
 
 Polymathic AI received funding from the Simons Foundation and from Schmidt Sciences, and NVIDIA donated DGX Cloud node-hours; the paper also states, for each contributed dataset, support from EPSRC, NASA, LANL, DOE, CEA, and others. These cannot be merged into a single total budget.
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -154,13 +154,13 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
 
 Subsequent physical evolution is predicted from historical spatiotemporal fields; this covers surrogate-model/neural-operator learning across multiple physical systems, and long-time rollout stability.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Design background
 
 Datasets of common operators cover only a narrow range of physical behavior; this library emphasizes diversity of dimension, boundary conditions, scale, and nonlinear mechanisms.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ## Construction
 
@@ -168,31 +168,31 @@ Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
 
 Domain scientists and developers of numerical software supply real numerical simulations; these are not question-answer pairs synthesized by an LLM.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 出题背景
 
 A collaboration among researchers in computational physics, fluids, astrophysics, numerical analysis, and machine learning.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Review process
 
 The paper states, for each dataset, the governing equations, the generation procedure, the numerical methods, and the physical mechanisms; the number of independent external reviews is Unverified.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Quality control
 
 Experts in each field provide the equations, numerical methods, boundary conditions, and parameters; HDF5 and tensor metadata are unified. The current repository states that viscoelastic_instability is deprecated because of a processing error, and viscoelastic_instability_v2 is a corrected version of the same data.
 
-Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### 去污染与泄漏
 
 By default, each group of simulation parameters is split 80/10/10 by initial condition; a subset with too few simulations instead uses non-overlapping blocks of time, so it cannot be claimed that every subset is split completely by trajectory. An independent audit of contamination from the pretraining corpus is Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ## Data format
 
@@ -200,37 +200,37 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
 
 16 datasets, 15TB in total (the official figure); each set is about 6.9GB to 5.1TB.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， ) ; [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08); [2](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### Question types
 
 Numerical time-series regression; single-step prediction and autoregressive multi-step rollout.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Modalities
 
 Numeric fields on a regular grid, time series, and physical metadata; an HDF5/float32 interface.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Languages
 
 The principal content is numerical tensors and a Python interface; it is not natural-language multiple choice.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Difficulty
 
 Errors differ markedly across systems; there is no single difficulty level for the questions.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 数据划分
 
 Public train/valid/test; usually split 80/10/10 by initial condition, and when there are not enough trajectories the split is made in the same proportions into time blocks that do not overlap, and a time block is not guaranteed to be ordered strictly by time (paper Datasheet Q12).
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -238,31 +238,31 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
 
 VRMSE (lower is better; the mean of the predicted target field is about 1); NMSE/NRMSE, maximum error, per-spectrum error, and others are also provided.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### Scoring
 
 Averaged after computation for each physical field; single-step results and rollouts over different time windows are reported separately.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 提示与运行设置
 
 Not a question-and-answer prompt evaluation; a Hydra configuration fixes the model, the data, the optimizer, and the training resources. The official example is FNO on active_matter.
 
-Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### 评测脚本
 
 https://github.com/PolymathicAI/the_well
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 Errors from different equations, resolutions, rollout horizons, or training compute cannot be combined directly into an overall winner. The original paper describes its results as example baselines, not an exhaustive search for optimal hyperparameters.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ## Current status
 
@@ -270,32 +270,32 @@ Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
 
 2026-11-08
 
-Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-08， )
+Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 The current official repository provides viscoelastic_instability_v2 and retires the old viscoelastic_instability, which is kept only so that older results can still be compared. One semantic version number for the dataset as a whole is Unverified. The version of a software package cannot stand in for the version of the data.
 
-Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08， )
+Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2024-12-01 04:42:14 ", "timezone": ""}
-- {"version": "v2", "submitted_at": "2025-02-22 04:24:16 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2024-12-01 04:42:14 "}
+- {"version": "v2", "submitted_at": "2025-02-22 04:24:16 "}
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-08)
 
 ### 饱和证据与局限
 
 The official statement explicitly says that the original paper is an example baseline on a single H100 with a 12-hour budget, not a SOTA result; the gap between single-step and rollout performance is large, so a low single-step error cannot be taken to mean that all of the physical dynamics are saturated.
 
-Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 The old viscoelastic_instability version was deprecated because of a processing error and must be replaced by v2. Old-version results among the paper baselines are historical only. Some time-block splits of the data still share the physical parameters of the same simulation, so strict cross-trajectory extrapolation should not be claimed.
 
-Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### 衍生或后继基准
 
@@ -303,7 +303,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -317,7 +317,7 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08); [2](https:
 
 https://polymathic-ai.org/the_well/
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ### 第三方入口
 
@@ -325,7 +325,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -541,13 +541,13 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08); [2](https:
 - rohana@flatironinstitute.org
 - mmccabe@flatironinstitute.org
 
-Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07， )
+Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-07)
 
 ### 公开反馈渠道
 
 https://github.com/PolymathicAI/the_well/issues
 
-Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-07， )
+Sources: [1](https://github.com/PolymathicAI/the_well) (accessed 2026-11-07)
 
 ### 官方社交账号
 
@@ -555,7 +555,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ### 联系方式/隐私原则
 
@@ -563,7 +563,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ## Original files
 
@@ -571,13 +571,13 @@ Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
 
 https://arxiv.org/pdf/2412.00568
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### PDF SHA-256
 
 050ca3384f117252586c27ff9940781852cc457e2967d7879a7c8a0b30dc8e1f
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### PDF bytes
 
@@ -585,35 +585,13 @@ Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
 5375610
 ```
 
-Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08， )
-
-### Folder
-
-```json
-{
-  "id": "1_3NZPzkcaCBep04AYI5UroGFMuDa3jpa"
-  "webViewLink": "
-}
-```
-
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2412.00568) (accessed 2026-11-08)
 
 ### Other documents
 
-- {"type": "Chinese introduction", "id": "1dEIuyVWpFSkApyB1YcrbQgAJlK0IAAvyoMRF7mYGDN8", "webViewLink": "https://docs.google.com/document/d/1dEIuyVWpFSkApyB1YcrbQgAJlK0IAAvyoMRF7mYGDN8/edit"}
-
-Sources: [1](https://docs.google.com/document/d/1dEIuyVWpFSkApyB1YcrbQgAJlK0IAAvyoMRF7mYGDN8/edit) (accessed 2026-11-07， )
-
 ### 论文原件
 
-```json
-{
-  "id": "1nF862k2HR4HHw4_5Jo8_3xJE2UgSYJ5l"
-  "webViewLink": "
-}
-```
-
-Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2412.00568) (accessed 2026-11-07)
 
 ## Changelog
 
@@ -621,4 +599,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-08， )
+Sources: [1](https://polymathic-ai.org/the_well/) (accessed 2026-11-08)

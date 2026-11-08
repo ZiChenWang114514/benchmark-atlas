@@ -1,5 +1,5 @@
 # LifeSciBench
-> Verification: 2026-11-08. Existence verified; research snapshot; note: trending: B; unverified fields retain their marks
+> Verification: 2026-11-08. Existence verified; research snapshot;
 
 An independent methods description and the complete preprint were found, supplying evidence where previously there was only a product promotional page. The LifeSciBench methods text for the 750 tasks covers seven categories of research workflow and uses fine-grained rubric scoring. The six workflows in the early product text and the later Gold v1 cannot, without explanation, be treated as exactly the same data snapshot. It evaluates single-turn research-task ability and does not directly prove a real acceleration of research and development.
 

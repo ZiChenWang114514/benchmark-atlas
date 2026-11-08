@@ -1,6 +1,6 @@
 # SWE Atlas
 
-> Benchmark Constitution, in-depth review 2026-11-08. Research snapshot; trending: B; Unverified fields keep their marks
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SWE Atlas addresses software-engineering work other than bug fixing: runtime understanding of a codebase, writing tests, and behavior-preserving refactoring. The 284 questions are split into three classes, 124/90/70. Scoring looks at both program behavior and an expert rubric. v1.1 under the new judge cannot be compared directly, as a growth comparison, with the old-judge results in the original paper. The full tasks and the tools for running them are already public. This entry adds the repository, rather than continuing to treat the project as one that has only a private leaderboard.
 
@@ -50,7 +50,7 @@ Code
 
 ```json
 [
-  "代码"
+ "代码"
 ]
 ```
 
@@ -112,21 +112,21 @@ v1.1 acknowledges Artificial Analysis and Inductive ML for contributions on scor
 
 ```json
 [
-  "Mohit Raghavendra"
-  "Soham Dan"
-  "Miguel Romero Calvo"
-  "Yannis Yiming He"
-  "Johannes Baptist Mols"
-  "Gautam Anand"
-  "Cole McCollum"
-  "Edgar Arakelyan"
-  "Vijay Bharadwaj"
-  "Andrew Park"
-  "Jeff Da"
-  "MohammadHossein Rezaei"
-  "Bing Liu"
-  "Brad Kenstler"
-  "Yunzhong He"
+ "Mohit Raghavendra"
+ "Soham Dan"
+ "Miguel Romero Calvo"
+ "Yannis Yiming He"
+ "Johannes Baptist Mols"
+ "Gautam Anand"
+ "Cole McCollum"
+ "Edgar Arakelyan"
+ "Vijay Bharadwaj"
+ "Andrew Park"
+ "Jeff Da"
+ "MohammadHossein Rezaei"
+ "Bing Liu"
+ "Brad Kenstler"
+ "Yunzhong He"
 ]
 ```
 
@@ -210,8 +210,8 @@ One target prompt per task; the agent may build, run, and test inside the reposi
 
 ```json
 [
-  "代码"
-  "文本"
+ "代码"
+ "文本"
 ]
 ```
 
@@ -279,18 +279,18 @@ The judge and the environment differ between v1.1 and v1.0, so the scores cannot
 
 ```json
 {
-  "version": "v1.1 (updated November 2026)"
-  "heat_confidence": "B"
-  "why_trending": "This is mainly a current presentation by a single organization, or continued self-evaluation by a vendor, and it does not represent broad adoption across the industry."
-  "evidence_2026_h2": [
-    {
-      "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "organization": "Official maintainer"
-      "note": "The current official methods and leaderboard have been opened; the observation date is not presented as the publication date."
-    }
-  ]
+ "version": "v1.1 (updated November 2026)"
+ "heat_confidence": "B"
+ "why_trending": "This is mainly a current presentation by a single organization, or continued self-evaluation by a vendor, and it does not represent broad adoption across the industry."
+ "evidence_2026_h2": [
+ {
+ "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "organization": "Official maintainer"
+ "note": "The current official methods and leaderboard have been opened; the observation date is not presented as the publication date."
+ }
+ ]
 }
 ```
 
@@ -300,11 +300,10 @@ The judge and the environment differ between v1.1 and v1.0, so the scores cannot
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-05-09"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-05-09"
+ }
 ]
 ```
 
@@ -452,7 +451,7 @@ From the variants embedded in the official page, 16 rows are extracted, item by 
 
 ```json
 [
-  "mohit.raghavendra@scale.com"
+ "mohit.raghavendra@scale.com"
 ]
 ```
 
@@ -516,21 +515,21 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Opened primary material"
-    "url": "https://arxiv.org/abs/2605.08366"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://github.com/scaleapi/SWE-Atlas"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Opened primary material"
-    "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "Opened primary material"
+ "url": "https://arxiv.org/abs/2605.08366"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://github.com/scaleapi/SWE-Atlas"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Opened primary material"
+ "url": "https://labs.scale.com/leaderboard/swe-atlas?tab=overall"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -546,16 +545,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

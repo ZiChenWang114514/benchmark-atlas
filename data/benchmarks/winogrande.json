@@ -41,7 +41,7 @@
     },
     "release_date": {
       "value": {
-        "paper_first_submission_kst": "2019-07-25",
+        "paper_first_submission": "2019-07-25",
         "date_type": "论文首次提交，不等同数据集首次上线"
       },
       "sources": [
@@ -420,11 +420,11 @@
         "revisions": [
           {
             "version": "v1",
-            "date_kst": "2019-07-25"
+            "date": "2019-07-25"
           },
           {
             "version": "v2",
-            "date_kst": "2019-11-22"
+            "date": "2019-11-22"
           }
         ],
         "note": "论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。"
@@ -585,7 +585,7 @@
         {
           "rank": null,
           "model": "Ensemble LMs",
-          "score": 53.0,
+          "score": 53,
           "unit": "%",
           "metric": "accuracy",
           "track": "原论文v2 Table 3/dev",
@@ -693,7 +693,7 @@
         {
           "rank": null,
           "model": "RoBERTa (local context)",
-          "score": 50.0,
+          "score": 50,
           "unit": "%",
           "metric": "accuracy",
           "track": "原论文v2 Table 3/test",
@@ -717,7 +717,7 @@
         {
           "rank": null,
           "model": "BERT-DPR (zero-shot)",
-          "score": 51.0,
+          "score": 51,
           "unit": "%",
           "metric": "accuracy",
           "track": "原论文v2 Table 3/test",
@@ -765,7 +765,7 @@
         {
           "rank": null,
           "model": "Human",
-          "score": 94.0,
+          "score": 94,
           "unit": "%",
           "metric": "accuracy",
           "track": "原论文v2 Table 3/test",
@@ -1005,18 +1005,14 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "mimeType": "application/vnd.google-apps.document"
-        },
-        "local_markdown": "content/benchmarks/winogrande.md"
-      },
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "changelog": {
@@ -1027,13 +1023,7 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.version",
-          "latest_status.latest_dataset_version",
-          "evaluation.official_scripts",
-          "data_format.public_hidden_split"
-        ]
+        "change": "最近复核"
       },
       {
         "date": "2026-11-08",

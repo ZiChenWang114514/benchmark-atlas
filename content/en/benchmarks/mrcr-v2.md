@@ -281,18 +281,18 @@ Different needle counts, length windows, data revisions, or match rate and accur
 
 ```json
 {
-  "version": "A label from the v2 release note; the exact revision of the public data is Unverified"
-  "heat_confidence": "B"
-  "evidence_2026_h2": [
-    {
-      "url": "https://openai.com/index/gpt-6-astra/"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "OpenAI's current release table uses MRCR v2; the heat comes mainly from the single organization OpenAI, so it cannot be called widespread industry adoption."
-    }
-  ]
-  "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-  "revision_mapping": "The correspondence between vendor v2 and this public commit is Unverified"
+ "version": "A label from the v2 release note; the exact revision of the public data is Unverified"
+ "heat_confidence": "B"
+ "evidence_2026_h2": [
+ {
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "OpenAI's current release table uses MRCR v2; the heat comes mainly from the single organization OpenAI, so it cannot be called widespread industry adoption."
+ }
+ ]
+ "public_hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "revision_mapping": "The correspondence between vendor v2 and this public commit is Unverified"
 }
 ```
 
@@ -304,20 +304,20 @@ Different needle counts, length windows, data revisions, or match rate and accur
 
 ```json
 {
-  "scope": "Public HF data from OpenAI; not equivalent to a mapping of the vendor's internal v2"
-  "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-  "last_modified_kst": "2025-12-09"
-  "card_dates_verbatim": [
-    "4/12/2025: Initial dataset published"
-    "12/5/2025: Bugfix"
-  ]
-  "date_caveat": "Numeric dates on the dataset card may be ambiguous between US and other notations; the original text is retained, explicit ISO metadata from HF is listed separately, and it is not forced to replace the meaning of a revision."
-  "predecessor_paper": {
-    "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
-    "url": "https://arxiv.org/abs/2409.12640"
-    "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
-    "scope": "The original Google/DeepMind source of the idea for MRCR, not an independent paper for OpenAI MRCR v2"
-  }
+ "scope": "Public HF data from OpenAI; not equivalent to a mapping of the vendor's internal v2"
+ "hf_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "last_modified": "2025-12-09"
+ "card_dates_verbatim": [
+ "4/12/2025: Initial dataset published"
+ "12/5/2025: Bugfix"
+ ]
+ "date_caveat": "Numeric dates on the dataset card may be ambiguous between US and other notations; the original text is retained, explicit ISO metadata from HF is listed separately, and it is not forced to replace the meaning of a revision."
+ "predecessor_paper": {
+ "title": "Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "pdf_read": "https://arxiv.org/pdf/2409.12640v2"
+ "scope": "The original Google/DeepMind source of the idea for MRCR, not an independent paper for OpenAI MRCR v2"
+ }
 }
 ```
 
@@ -483,32 +483,32 @@ Unverified
 
 ```json
 [
-  {
-    "type": "The official HF dataset card and inline run and grade examples"
-    "url": "https://huggingface.co/datasets/openai/mrcr"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Public HF commit metadata"
-    "url": "https://huggingface.co/datasets/openai/mrcr"
-    "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "The paper that preceded MRCR, not the OpenAI v2 paper"
-    "url": "https://arxiv.org/pdf/2409.12640v2"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Vendor v2 usage evidence"
-    "url": "https://openai.com/index/gpt-6-astra/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "Official/research sources opened for verification"
-    "url": "https://arxiv.org/abs/2409.12640"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "The official HF dataset card and inline run and grade examples"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Public HF commit metadata"
+ "url": "https://huggingface.co/datasets/openai/mrcr"
+ "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "The paper that preceded MRCR, not the OpenAI v2 paper"
+ "url": "https://arxiv.org/pdf/2409.12640v2"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Vendor v2 usage evidence"
+ "url": "https://openai.com/index/gpt-6-astra/"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "Official/research sources opened for verification"
+ "url": "https://arxiv.org/abs/2409.12640"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -530,16 +530,14 @@ Unverified
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 

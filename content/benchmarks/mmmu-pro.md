@@ -1,6 +1,6 @@
 # MMMU-Pro
 
-> 核验日期：2026-11-08（，UTC+9）。未知不补造；来源访问日不等于实验运行日。
+> 核验日期：2026-11-08。未知不补造；来源访问日不等于实验运行日。
 
 MMMU-Pro从原版筛去文本捷径可答题，扩展候选选项，并将题目嵌入图片以测试“看与读”的联合能力。底层1730道题对应Standard四选项、Standard十选项和Vision三种配置，不是5190道独立题。原论文整体分、官方JSON各列、Vals四选项与AA十选项均分轨；论文人类表现是作者利用原MMMU数据估计，不视作Pro重新实测。
 [本页导读依据](https://arxiv.org/pdf/2409.02813)（访问 2026-11-08）
@@ -263,29 +263,29 @@ Vals使用Standard 4选项；AA使用10选项；原论文综合还包含Vision�
 
 ```json
 {
-  "version": "Pro（数据修订截至2026-10-04）"
-  "trending": "A"
-  "heat_evidence": "AA当前方法页仍运行1,730题十选项；HF于2026-10-04修正选项及缺失条件。Vals于9月1日保留榜，但现已停止新模型评测，不能写成仍持续更新。"
-  "evidence_2026_h2": [
-    {
-      "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    }
-    {
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    }
-    {
-      "url": "https://www.vals.ai/benchmarks/mmmu"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
-    }
-  ]
+ "version": "Pro（数据修订截至2026-10-04）"
+ "trending": "A"
+ "heat_evidence": "AA当前方法页仍运行1,730题十选项；HF于2026-10-04修正选项及缺失条件。Vals于9月1日保留榜，但现已停止新模型评测，不能写成仍持续更新。"
+ "evidence_2026_h2": [
+ {
+ "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+ }
+ {
+ "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+ }
+ {
+ "url": "https://www.vals.ai/benchmarks/mmmu"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "本次打开核验；来源发布/修订日以正文描述为准，观察日期不当作运行日期。"
+ }
+ ]
 }
 ```
 
@@ -295,45 +295,45 @@ Vals使用Standard 4选项；AA使用10选项；原论文综合还包含Vision�
 
 ```json
 {
-  "arxiv_revisions": [
-    {
-      "version": "v1"
-      "date_kst": "2024-09-05"
-    }
-    {
-      "version": "v2"
-      "date_kst": "2024-09-10"
-    }
-    {
-      "version": "v3"
-      "date_kst": "2025-05-22"
-    }
-  ]
-  "dataset_corrections": [
-    {
-      "date": "2026-05-30"
-      "ids": [
-        "validation_Diagnostics_and_Laboratory_Medicine_17"
-      ]
-      最近复核
-    }
-    {
-      "date": "2026-07-10"
-      "ids": [
-        "validation_Design_15"
-        "validation_Art_Theory_4"
-      ]
-      最近复核
-    }
-    {
-      "date": "2026-10-04"
-      "ids": [
-        "test_Chemistry_240"
-        "validation_Finance_5"
-      ]
-      最近复核
-    }
-  ]
+ "arxiv_revisions": [
+ {
+ "version": "v1"
+ "date": "2024-09-05"
+ }
+ {
+ "version": "v2"
+ "date": "2024-09-10"
+ }
+ {
+ "version": "v3"
+ "date": "2025-05-22"
+ }
+ ]
+ "dataset_corrections": [
+ {
+ "date": "2026-05-30"
+ "ids": [
+ "validation_Diagnostics_and_Laboratory_Medicine_17"
+ ]
+ 最近复核
+ }
+ {
+ "date": "2026-07-10"
+ "ids": [
+ "validation_Design_15"
+ "validation_Art_Theory_4"
+ ]
+ 最近复核
+ }
+ {
+ "date": "2026-10-04"
+ "ids": [
+ "test_Chemistry_240"
+ "validation_Finance_5"
+ ]
+ 最近复核
+ }
+ ]
 }
 ```
 
@@ -648,47 +648,47 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 
 ```json
 [
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
-  }
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://arxiv.org/abs/2409.02813"
-  }
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
-  }
-  {
-    "type": "已打开官方网页/论文"
-    "url": "https://www.vals.ai/benchmarks/mmmu"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://artificialanalysis.ai/evaluations/mmmu-pro"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://arxiv.org/pdf/2409.02813"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://mmmu-benchmark.github.io/"
-    "accessed": "2026-11-08"
-  }
-  {
-    "type": "打开核验的官方/研究来源"
-    "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
-    "accessed": "2026-11-08"
-  }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://huggingface.co/datasets/MMMU/MMMU_Pro"
+ }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://arxiv.org/abs/2409.02813"
+ }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking"
+ }
+ {
+ "type": "已打开官方网页/论文"
+ "url": "https://www.vals.ai/benchmarks/mmmu"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://artificialanalysis.ai/evaluations/mmmu-pro"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://arxiv.org/pdf/2409.02813"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://mmmu-benchmark.github.io/"
+ "accessed": "2026-11-08"
+ }
+ {
+ "type": "打开核验的官方/研究来源"
+ "url": "https://mmmu-benchmark.github.io/leaderboard_data.json"
+ "accessed": "2026-11-08"
+ }
 ]
 ```
 
@@ -710,16 +710,14 @@ f833d6273318d53487ace892ed54289216f5d6034fcf37af2499146d12860f5b
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": " (, UTC+9)"
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 

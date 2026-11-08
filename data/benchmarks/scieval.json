@@ -529,11 +529,11 @@
       "value": [
         {
           "version": "v1",
-          "submitted_at_kst": "2023-08-25"
+          "submitted_at": "2023-08-25"
         },
         {
           "version": "v2",
-          "submitted_at_kst": "2024-11-07"
+          "submitted_at": "2024-11-07"
         }
       ],
       "sources": [
@@ -803,7 +803,7 @@
           "source_row": 8,
           "reported_metrics": {
             "static_biology_accuracy": 58.62,
-            "static_chemistry_accuracy": 44.0,
+            "static_chemistry_accuracy": 44,
             "static_physics_accuracy": 40.26,
             "static_average_accuracy": 48.44,
             "dynamic_chemistry_accuracy": 0.2,
@@ -1733,11 +1733,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

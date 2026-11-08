@@ -48,10 +48,10 @@ Code
 
 ```json
 [
-  "Program reconstruction from scratch"
-  "Software architecture"
-  "Behavioral equivalence test"
-  "Code agent"
+ "Program reconstruction from scratch"
+ "Software architecture"
+ "Behavioral equivalence test"
+ "Code agent"
 ]
 ```
 
@@ -99,9 +99,9 @@ ProgramBench: Can Language Models Rebuild Programs From Scratch?
 
 ```json
 [
-  "Meta Superintelligence Labs"
-  "Stanford University"
-  "Harvard University"
+ "Meta Superintelligence Labs"
+ "Stanford University"
+ "Harvard University"
 ]
 ```
 
@@ -119,18 +119,18 @@ Unverified
 
 ```json
 [
-  "John Yang"
-  "Kilian Lieret"
-  "Jeffrey Ma"
-  "Parth Thakkar"
-  "Dmitrii Pedchenko"
-  "Sten Sootla"
-  "Emily McMilin"
-  "Pengcheng Yin"
-  "Rui Hou"
-  "Gabriel Synnaeve"
-  "Diyi Yang"
-  "Ofir Press"
+ "John Yang"
+ "Kilian Lieret"
+ "Jeffrey Ma"
+ "Parth Thakkar"
+ "Dmitrii Pedchenko"
+ "Sten Sootla"
+ "Emily McMilin"
+ "Pengcheng Yin"
+ "Rui Hou"
+ "Gabriel Synnaeve"
+ "Diyi Yang"
+ "Ofir Press"
 ]
 ```
 
@@ -214,10 +214,10 @@ Generated from complete source-code projects and build scripts; behavioral tests
 
 ```json
 [
-  "Program binary"
-  "文档"
-  "源代码"
-  "Terminal interaction"
+ "Program binary"
+ "文档"
+ "源代码"
+ "Terminal interaction"
 ]
 ```
 
@@ -285,20 +285,20 @@ The samples and the run results from the official website on 2026-10-22 and from
 
 ```json
 {
-  "version": "200 public tasks and ProgramBench-Tests (access-date snapshot; no semantic version was invented)"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://programbench.com"
-      "date": "2026-10-22"
-      "note": "Update date stated on the official leaderboard."
-    }
-    {
-      "url": "https://www.vals.ai/benchmarks/programbench"
-      "date": "2026-11-05"
-      "note": "Update date stated on the Vals independent-evaluation leaderboard."
-    }
-  ]
+ "version": "200 public tasks and ProgramBench-Tests (access-date snapshot; no semantic version was invented)"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://programbench.com"
+ "date": "2026-10-22"
+ "note": "Update date stated on the official leaderboard."
+ }
+ {
+ "url": "https://www.vals.ai/benchmarks/programbench"
+ "date": "2026-11-05"
+ "note": "Update date stated on the Vals independent-evaluation leaderboard."
+ }
+ ]
 }
 ```
 
@@ -308,11 +308,10 @@ The samples and the run results from the official website on 2026-10-22 and from
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-05-05"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-05-05"
+ }
 ]
 ```
 
@@ -477,8 +476,8 @@ Of the 31 rows on the official site, 30 have a numeric rank. The full Vals leade
 
 ```json
 [
-  "johnby@meta.com"
-  "klieret@meta.com"
+ "johnby@meta.com"
+ "klieret@meta.com"
 ]
 ```
 
@@ -538,10 +537,10 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official introduction/protocol"
-    "url": "https://www.vals.ai/benchmarks/programbench"
-  }
+ {
+ "type": "Official introduction/protocol"
+ "url": "https://www.vals.ai/benchmarks/programbench"
+ }
 ]
 ```
 
@@ -556,16 +555,14 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://programbench.com)（访问 2026-11-08）

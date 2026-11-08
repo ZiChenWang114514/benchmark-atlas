@@ -44,7 +44,7 @@
       ]
     },
     "release_date": {
-      "value": "2022-10-18 01:08:26（，；arXiv v1首次提交）",
+      "value": "2022-10-18 01:08:26（arXiv v1首次提交）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -380,7 +380,7 @@
   },
   "latest_status": {
     "checked_at": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -458,7 +458,7 @@
   },
   "leaderboard": {
     "snapshot_date": {
-      "value": "2026-11-07（，；采集日，不是实验日）",
+      "value": "2026-11-07（采集日，不是实验日）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2210.09261",
@@ -573,7 +573,7 @@
         {
           "rank": 1,
           "model": "Hunyuan-A13B",
-          "score": 87.0,
+          "score": 87,
           "metric": "accuracy (%)",
           "track": "Hunyuan报告表4：fast-thinking",
           "source_url": "https://arxiv.org/html/2609.27284v1",
@@ -796,18 +796,14 @@
       ]
     },
     "other_documents": {
-      "value": {
-        "chinese_intro_doc": {
-          "mimeType": "application/vnd.google-apps.document"
-        },
-        "local_markdown": "content/benchmarks/bbh.md"
-      },
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",
           "accessed": "2026-11-07"
         }
-      ]
+      ],
+      "status": "待核实"
     }
   },
   "changelog": {
@@ -818,28 +814,11 @@
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.license"
-        ]
+        "change": "最近复核"
       },
       {
         "date": "2026-11-07",
-        "change": "最近复核",
-        "fields_updated": [
-          "basic_info.release_date",
-          "organization.partners",
-          "organization.maintainer",
-          "evaluation.official_scripts",
-          "latest_status.saturation",
-          "latest_status.paper_revision_history",
-          "leaderboard.results",
-          "leaderboard.coverage_note",
-          "latest_status.checked_at",
-          "leaderboard.snapshot_date",
-          "original_files.sha256",
-          "original_files.pdf_bytes"
-        ]
+        "change": "最近复核"
       }
     ],
     "sources": [

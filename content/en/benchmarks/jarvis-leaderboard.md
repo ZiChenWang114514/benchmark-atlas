@@ -12,7 +12,7 @@ Basis of the guide: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08);
 
 JARVIS-Leaderboard
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Full name
 
@@ -20,7 +20,7 @@ JARVIS-Leaderboard
 
 > The official name is used; when no verified expansion of the full name exists, the original name is retained, and the title of the paper is not mistaken for the full name of the benchmark.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Benchmark version
 
@@ -52,11 +52,11 @@ Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07).
 
 ```json
 [
-  "材料"
+ "材料"
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 许可与使用范围
 
@@ -68,7 +68,7 @@ Sources: [1](https://github.com/usnistgov/jarvis_leaderboard/blob/main/LICENSE.r
 
 https://arxiv.org/abs/2306.11688
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Code
 
@@ -80,19 +80,19 @@ Sources: [1](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 https://pages.nist.gov/jarvis_leaderboard/
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Official homepage
 
 https://pages.nist.gov/jarvis_leaderboard/
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Paper title
 
 JARVIS-Leaderboard: A Large Scale Benchmark of Materials Design Methods
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ## Origin and maintenance
 
@@ -102,7 +102,7 @@ U.S. National Institute of Standards and Technology (NIST); coauthors from the U
 
 > Based primarily on paper author affiliations and the official team description; this is not used to infer legal ownership or a sole initiator. The text has explicitly marked the formal initiating relationship as unverified.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 合作与作者单位
 
@@ -110,54 +110,54 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Authors
 
 ```json
 [
-  "Choudhary, Kamal"
-  "Wines, Daniel"
-  "Li, Kangming"
-  "Garrity, Kevin F."
-  "Gupta, Vishu"
-  "Romero, Aldo H."
-  "Krogel, Jaron T."
-  "Saritas, Kayahan"
-  "Fuhr, Addis"
-  "Ganesh, Panchapakesan"
-  "Kent, Paul R. C."
-  "Yan, Keqiang"
-  "Lin, Yuchao"
-  "Ji, Shuiwang"
-  "Blaiszik, Ben"
-  "Reiser, Patrick"
-  "Friederich, Pascal"
-  "Agrawal, Ankit"
-  "Tiwary, Pratyush"
-  "Beyerle, Eric"
-  "Minch, Peter"
-  "Rhone, Trevor David"
-  "Takeuchi, Ichiro"
-  "Wexler, Robert B."
-  "Mannodi-Kanakkithodi, Arun"
-  "Ertekin, Elif"
-  "Mishra, Avanish"
-  "Mathew, Nithin"
-  "Baird, Sterling G."
-  "Wood, Mitchell"
-  "Rohskopf, Andrew Dale"
-  "Hattrick-Simpers, Jason"
-  "Wang, Shih-Han"
-  "Achenie, Luke E. K."
-  "Xin, Hongliang"
-  "Williams, Maureen"
-  "Biacchi, Adam J."
-  "Tavazza, Francesca"
+ "Choudhary, Kamal"
+ "Wines, Daniel"
+ "Li, Kangming"
+ "Garrity, Kevin F."
+ "Gupta, Vishu"
+ "Romero, Aldo H."
+ "Krogel, Jaron T."
+ "Saritas, Kayahan"
+ "Fuhr, Addis"
+ "Ganesh, Panchapakesan"
+ "Kent, Paul R. C."
+ "Yan, Keqiang"
+ "Lin, Yuchao"
+ "Ji, Shuiwang"
+ "Blaiszik, Ben"
+ "Reiser, Patrick"
+ "Friederich, Pascal"
+ "Agrawal, Ankit"
+ "Tiwary, Pratyush"
+ "Beyerle, Eric"
+ "Minch, Peter"
+ "Rhone, Trevor David"
+ "Takeuchi, Ichiro"
+ "Wexler, Robert B."
+ "Mannodi-Kanakkithodi, Arun"
+ "Ertekin, Elif"
+ "Mishra, Avanish"
+ "Mathew, Nithin"
+ "Baird, Sterling G."
+ "Wood, Mitchell"
+ "Rohskopf, Andrew Dale"
+ "Hattrick-Simpers, Jason"
+ "Wang, Shih-Han"
+ "Achenie, Luke E. K."
+ "Xin, Hongliang"
+ "Williams, Maureen"
+ "Biacchi, Adam J."
+ "Tavazza, Francesca"
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### Maintainer
 
@@ -177,13 +177,13 @@ Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 Records the performance and reproducible metadata of multimodal materials-design methods on a unified platform.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 与既有基准的差异
 
 A method for designing materials often leaves its code, its data, and its results spread across GitHub, Zenodo, Figshare, and places of that kind, and it often has no split in common with other work and no shared computing environment. The platform joins reference data, predictions, scripts that run the work, and metadata of the hardware and the software. Coverage goes beyond AI, to ES, FF, QC, and experiment.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ## Construction
 
@@ -191,13 +191,13 @@ Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](http
 
 The community submits data, code, and method metadata; coverage includes AI, electronic structure, force fields, quantum computing, and experiment.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 出题者背景
 
 Researchers at NIST in materials computation and data, and contributors from communities including electronic structure, machine-learning force fields, quantum computing, and experiment; a submitter’s qualifications do not automatically mean that each prediction has been reproduced independently.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### Review process
 
@@ -229,28 +229,28 @@ Sources: [1](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 Depending on the task, the output is a scalar property, a classification label, a multi-valued spectrum or force, a generated structure, or text; this is not one unified test of natural-language question answering.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### Modalities
 
 ```json
 [
-  "Chemical formula and atomic structure"
-  "Material-property values/forces/spectra"
-  "STEM image"
-  "Paper text"
-  "Experimental data"
-  "Hamiltonian and quantum results"
+ "Chemical formula and atomic structure"
+ "Material-property values/forces/spectra"
+ "STEM image"
+ "Paper text"
+ "Experimental data"
+ "Hamiltonian and quantum results"
 ]
 ```
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### Languages
 
 The platform description and the paper are in English; the inputs also include structures, chemical formulas, numerical values, images, and code, so a single natural-language label cannot cover every subtask.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### Difficulty
 
@@ -270,31 +270,31 @@ Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 MAE, ACC, or MULTIMAE, among other metrics, are reported by specific task; different tasks are not combined into one ranking.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 评分规则
 
 Prediction IDs in csv.zip are aligned with test IDs in the corresponding benchmark JSON, and MAE, ACC, or MULTIMAE is computed for that task. MAE must be reported together with the physical units, the DFT or experimental reference, and the sample split.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 提示、采样与工具设置
 
 A single LLM prompt does not apply: each contribution's run.sh, software version, hardware, and task configuration govern. Language tasks such as TextGen are looked up on the corresponding sub-leaderboard.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 官方脚本
 
 jarvis_populate_data.py generates the reference split. jarvis_upload.py assists submission. Each contribution's run.sh is used for reproduction. GitHub Actions checks leaderboard rebuilds and installation.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 可比性警告
 
 Different data versions, subsets, prompts, tool permissions, and model snapshots must not be mixed in a direct comparison; scores in historical papers do not represent the current SOTA.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ## Current status
 
@@ -302,7 +302,7 @@ Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](http
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 最新数据状态
 
@@ -314,16 +314,14 @@ Sources: [1](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2023-06-21"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2024-03-26"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2023-06-21"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2024-03-26"
+ }
 ]
 ```
 
@@ -335,13 +333,13 @@ Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08).
 
 There is no platform-level saturation rate: the three sampled dft_3d property sub-leaderboards still report a nonzero MAE, but errors cannot be combined across units; whether a result is near the ceiling of physical precision requires evidence for each task.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 污染与已知问题
 
 Different ES functionals and experimental conditions are not the same ground truth; pretrained force fields and models with a fixed training set have different training exposure; reproducible metadata and a minimal Actions check are not the same as independently verifying every scientific conclusion.
 
-Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
 
 ### 相关与衍生基准
 
@@ -349,7 +347,7 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ## Leaderboard snapshot
 
@@ -357,7 +355,7 @@ Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](http
 
 2026-11-08 (collection date, not a run date or a leaderboard-update date)
 
-Sources: [1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/) (accessed 2026-11-08 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/) (accessed 2026-11-08 ) ; [4](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
+Sources: [1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/) (accessed 2026-11-08); [3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/) (accessed 2026-11-08); [4](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 ### 官方结果入口
 
@@ -371,148 +369,148 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 结构化结果
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "kgcnn_coGN"
-    "score": "0.0271"
-    "unit": "eV/atom"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_formation_energy_peratom / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 2
-    "model": "kgcnn_coNGN"
-    "score": "0.0291"
-    "unit": "eV/atom"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_formation_energy_peratom / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 3
-    "model": "potnet"
-    "score": "0.0293"
-    "unit": "eV/atom"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_formation_energy_peratom / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "06-02-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 1
-    "model": "kgcnn_coGN"
-    "score": "0.1219"
-    "unit": "eV"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_bandgap / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 2
-    "model": "potnet"
-    "score": "0.1246"
-    "unit": "eV"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_bandgap / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "06-02-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 3
-    "model": "kgcnn_coNGN"
-    "score": "0.1267"
-    "unit": "eV"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_bandgap / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
-  }
-  {
-    "rank": 1
-    "model": "kgcnn_coGN"
-    "score": "0.0262"
-    "unit": "Unverified (this task page does not state per-atom normalization)"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_total_energy / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
-  }
-  {
-    "rank": 2
-    "model": "kgcnn_coNGN"
-    "score": "0.0273"
-    "unit": "Unverified (this task page does not state per-atom normalization)"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_total_energy / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "05-06-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
-  }
-  {
-    "rank": 3
-    "model": "potnet"
-    "score": "0.0321"
-    "unit": "Unverified (this task page does not state per-atom normalization)"
-    "metric": "MAE (lower is better)"
-    "track": "dft_3d_optb88vdw_total_energy / test"
-    "dataset": "dft_3d"
-    "dataset_total_size": "55713"
-    "source_submitted_label": "06-02-2023"
-    "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
-    "snapshot_date": "2026-11-08 "
-    "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
-  }
+ {
+ "rank": 1
+ "model": "kgcnn_coGN"
+ "score": "0.0271"
+ "unit": "eV/atom"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_formation_energy_peratom / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 2
+ "model": "kgcnn_coNGN"
+ "score": "0.0291"
+ "unit": "eV/atom"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_formation_energy_peratom / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 3
+ "model": "potnet"
+ "score": "0.0293"
+ "unit": "eV/atom"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_formation_energy_peratom / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "06-02-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 1
+ "model": "kgcnn_coGN"
+ "score": "0.1219"
+ "unit": "eV"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_bandgap / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 2
+ "model": "potnet"
+ "score": "0.1246"
+ "unit": "eV"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_bandgap / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "06-02-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 3
+ "model": "kgcnn_coNGN"
+ "score": "0.1267"
+ "unit": "eV"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_bandgap / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset and does not automatically equal the number of test samples; the submission date is retained as labeled in the source."
+ }
+ {
+ "rank": 1
+ "model": "kgcnn_coGN"
+ "score": "0.0262"
+ "unit": "Unverified (this task page does not state per-atom normalization)"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_total_energy / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
+ }
+ {
+ "rank": 2
+ "model": "kgcnn_coNGN"
+ "score": "0.0273"
+ "unit": "Unverified (this task page does not state per-atom normalization)"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_total_energy / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "05-06-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
+ }
+ {
+ "rank": 3
+ "model": "potnet"
+ "score": "0.0321"
+ "unit": "Unverified (this task page does not state per-atom normalization)"
+ "metric": "MAE (lower is better)"
+ "track": "dft_3d_optb88vdw_total_energy / test"
+ "dataset": "dft_3d"
+ "dataset_total_size": "55713"
+ "source_submitted_label": "06-02-2023"
+ "source_url": "https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/"
+ "snapshot_date": "2026-11-08 "
+ "note": "Dataset size is the scale of the dataset, and it does not automatically equal the number of test samples; the submission date is retained according to the label in the source. The eV/atom unit of formation-energy is not used to infer the unit of total-energy."
+ }
 ]
 ```
 
-Sources: [1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/) (accessed 2026-11-08 ) ; [2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/) (accessed 2026-11-08 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/) (accessed 2026-11-08 ) ; [4](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
+Sources: [1](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_formation_energy_peratom/) (accessed 2026-11-08); [2](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_bandgap/) (accessed 2026-11-08); [3](https://pages.nist.gov/jarvis_leaderboard/AI/SinglePropertyPrediction/dft_3d_optb88vdw_total_energy/) (accessed 2026-11-08); [4](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 ### 覆盖与局限
 
 The three property-task pages were opened directly, and the top three of each were extracted by MAE from smallest to largest; the formation-energy unit eV/atom and the bandgap unit eV can be confirmed from the paper. The normalized unit of total_energy remains Unverified and is not guessed. The three tracks cannot be combined into a platform-wide leaderboard.
 
-Sources: [1](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
+Sources: [1](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 ## Contact
 
@@ -522,7 +520,7 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 仓库反馈
 
@@ -538,7 +536,7 @@ Unverified
 
 > This field has not been verified exactly; that does not mean it is officially Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-07).
 
 ### 隐私与联系边界
 
@@ -552,7 +550,7 @@ Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-07).
 
 https://arxiv.org/pdf/2306.11688
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07).
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07).
 
 ### PDF SHA-256
 
@@ -572,65 +570,25 @@ Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
 Sources: [1](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-08).
 
-### 已有文件夹
-
-```json
-{
-  "id": "16m-5FRpc9unlxQloFVTETcCGOka_DdPF"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
-### 其他官方文档
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1731dIyjRKgHe-dmlOyl_F7Dxul8EMrVzP9pqIOpM0fc"
-    "webViewLink": "
-  }
-]
-```
-
-Sources: [1]( 2026-11-07).
-
-### 已有 PDF归档
-
-```json
-{
-  "id": "1qOs7VNypcfIYgpiuxx-Yz3G_zwWChMep"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
 ## Changelog
 
 ### 历次核查
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07 ) ; [3](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08 ) ; [4](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).
-
+Sources: [1](https://arxiv.org/abs/2306.11688) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2306.11688) (accessed 2026-11-07); [3](https://arxiv.org/abs/2306.11688) (accessed 2026-11-08); [4](https://pages.nist.gov/jarvis_leaderboard/) (accessed 2026-11-08).

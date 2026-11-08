@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-Verified to exist; a Chinese research snapshot; note: trending: B; Unverified marks are retained
+a Chinese research snapshot; Unverified marks are retained
 
 DrugDiscoveryBench was built by Scale AI and Phylo. With 82 execution-style tasks, it covers seven capabilities and four stages of early drug discovery. The agent needs to call real biomedical tools and data sources, complete a multi-step investigation, and give a short answer that can be verified. 920 criteria distinguish the final result from the research process. The main leaderboard counts a task as successful only when the result fully meets the standard. [1](https://labs.scale.com/leaderboard/drugdiscoverybench) [2](https://labs.scale.com/papers/drugdiscoverybench) [3](https://github.com/scaleapi/DrugDiscoveryBench/blob/main/README.md) [4](https://huggingface.co/datasets/ScaleAI/DrugDiscoveryBench)
 
@@ -132,7 +132,6 @@ GitHub has made the running framework and the MIT license public. The HF Preview
 
 > Deepseek V4p1 Flash 1017 (mini-swe-agent) xhigh：rank_type：网页行序 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：The full corresponding rows for the top five of the dynamic leaderboard were read; the earlier body still says 12/16 configurations, while the current table has 25 rows, so the configuration count in the body cannot summarize the current leaderboard. The exact update date of the web page has not been verified; the collection date is not the run date. [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
@@ -169,7 +168,7 @@ GitHub has made the running framework and the MIT license public. The HF Preview
 
 ## Changelog
 
-- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
+- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
 ---
 

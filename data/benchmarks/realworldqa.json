@@ -399,7 +399,7 @@
       "value": {
         "release": "官方initial release；test 765行",
         "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd",
-        "hf_last_modified_kst": "2024-04-19",
+        "hf_last_modified": "2024-04-19",
         "note": "仓库最后修改时间不是初次发布日，也不代表新增题目版本。"
       },
       "sources": [
@@ -420,12 +420,9 @@
           {
             "url": "https://arxiv.org/html/2610.01352v2",
             "date": "2026-10-23",
-            "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。",
-            "date_kst": "2026-10-23",
-            "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
+            "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
           }
-        ],
-        "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+        ]
       },
       "sources": [
         {
@@ -806,11 +803,7 @@
       ]
     },
     "other_documents": {
-      "value": [
-        {
-          "kind": "中文介绍"
-        }
-      ],
+      "value": "待核实",
       "sources": [
         {
           "url": "urn:benchmark-constitution:record",

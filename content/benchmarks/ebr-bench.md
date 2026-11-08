@@ -2,8 +2,6 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核验存在；研究快照；note: trending: A；未核实字段保留标记
-
 EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何规划、管理资源并从重复游玩与笔记中改进。它统计21个目标的完成比例，不是对完整20–25日战役的通关测量；agent只能靠笔记在游戏重置后保留经验，权重不更新。 [1](https://epoch.ai/benchmarks/ebr-bench) [2](https://epoch.ai/publications/earthborne-rangers-benchmark)
 
 2026-07-01发布文章的“没有学会”结论对应早期配置。当前方法已到2026-09-22 v4：通常8次学习后2次评分取最好、5个独立样本，另有无学习消融。禁卡、压缩阈值和采样量几经变化，不能把不同版本得分或高绝对分等同学习增益；公开CSV首位均值约0.781。 [1](https://epoch.ai/benchmarks/ebr-bench) [2](https://epoch.ai/publications/earthborne-rangers-benchmark)
@@ -128,16 +126,15 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 | 4 | Gemini 4 Argon (high) | 0.6476190476190476 | CSV mean_score (0–1；21目标比例)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 | 5 | Claude Fable 5.1 (max) | 0.5714285714285714 | CSV mean_score (0–1；21目标比例)；运行/发布日见覆盖说明；[3](https://epoch.ai/data/benchmarks.csv) |
 
-> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at_kst：2026-10-27；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6.1 Terra (max)：stderr：0.05128728387747146；run_id：65SHyNJX5oxVADzzjkssFK；started_at：2026-10-27；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at_kst：2026-08-31；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> GPT-6 Astra (max)：stderr：0.08384198505551908；run_id：GhVYxWxttDxZ7akiJQPYsE；started_at：2026-08-31；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at_kst：2026-09-23；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> Claude Opus 5.5 (max)：stderr：0.07063046178186345；run_id：iKWWUmcuzRjqisoshKVEpL；started_at：2026-09-23；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at_kst：2026-10-14；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
+> Gemini 4 Argon (high)：stderr：0.04902681019517619；run_id：mSJNKA7nCp2eZVqMo5nTUP；started_at：2026-10-14；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
-> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at_kst：2026-09-08；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
-
+> Claude Fable 5.1 (max)：stderr：0.06023386019368341；run_id：8JukffGviNAYHXSdTJvswB；started_at：2026-09-08；note：按当前CSV均值排序，task version为空，不能认证全部为统一v4禁卡协议。 [3](https://epoch.ai/data/benchmarks.csv)
 
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
@@ -173,7 +170,7 @@ EBR-bench在Earthborne Rangers桌游的初始五个游戏日中，测agent如何
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：首次建立近期热门中文研究条目。Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://epoch.ai/benchmarks/ebr-bench)
+- date：2026-11-07；；change：首次建立近期热门中文研究条目。Earthborne Rangers为游戏名，EBR-bench为Epoch研究基准；与游戏本体版权及作者关系区分。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ---
 

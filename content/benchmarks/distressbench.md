@@ -2,8 +2,6 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核验存在；中文研究快照；note: trending: B；未核实保留标记
-
 DistressBench评估心理危机支持，不把“没有输出有害内容”当成充分条件。718条英文模拟对话覆盖23类危机；299条单轮、419条多轮，临床人员和危机咨询师参与设计，使用6901项加权原子标准衡量共情、识别、降级和转介等七个维度。材料不是患者病历或真实临床对话。 [1](https://labs.scale.com/leaderboard/distressbench) [2](https://arxiv.org/abs/2610.12758) [3](https://huggingface.co/datasets/ScaleAI/DistressBench)
 
 公开/私有各359条；主榜由三个裁判模型多数票判断标准是否满足，三次运行汇总。HF评分代码可公开读取，但HF“无system prompt”与论文/榜页的helpful-assistant设置不一致；CC BY 4.0与evaluation-only文字也需维护方澄清。榜单和长期伴随研究均不是临床有效性试验或部署安全证明。 [1](https://labs.scale.com/leaderboard/distressbench) [2](https://arxiv.org/abs/2610.12758) [3](https://huggingface.co/datasets/ScaleAI/DistressBench)
@@ -131,7 +129,6 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 > qwen3.8-max：ci95_halfwidth：1.03；rank_type：网页显示位置，不等于统计band [1](https://labs.scale.com/leaderboard/distressbench)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官网动态表有部分模型名/分数无法完整配对，仅记录可可靠对应的已显示条目；榜页序号与论文统计band不是同一口径。网页扩展名单超过论文25模型，页面具体更新日没有精确核实。 [1](https://labs.scale.com/leaderboard/distressbench)
@@ -170,7 +167,7 @@ DistressBench评估心理危机支持，不把“没有输出有害内容”当�
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/distressbench)
+- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/distressbench)
 
 ---
 

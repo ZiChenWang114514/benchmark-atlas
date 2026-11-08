@@ -50,7 +50,7 @@ Mathematics
 
 ```json
 [
-  "数学"
+ "数学"
 ]
 ```
 
@@ -108,10 +108,10 @@ Vals AI and the paper's formalization contributors
 
 ```json
 [
-  "EPFL"
-  "Moscow Institute of Physics and Technology"
-  "Indiana University Bloomington"
-  "Independent researchers (according to paper author affiliations)"
+ "EPFL"
+ "Moscow Institute of Physics and Technology"
+ "Indiana University Bloomington"
+ "Independent researchers (according to paper author affiliations)"
 ]
 ```
 
@@ -121,14 +121,14 @@ Vals AI and the paper's formalization contributors
 
 ```json
 [
-  "Nikil Ravi"
-  "Kexing Ying"
-  "Vasilii Nesterov"
-  "Rayan Krishnan"
-  "Elif Uskuplu"
-  "Bingyu Xia"
-  "Janitha Aswedige"
-  "Langston Nashold"
+ "Nikil Ravi"
+ "Kexing Ying"
+ "Vasilii Nesterov"
+ "Rayan Krishnan"
+ "Elif Uskuplu"
+ "Bingyu Xia"
+ "Janitha Aswedige"
+ "Langston Nashold"
 ]
 ```
 
@@ -212,8 +212,8 @@ A stem in natural language plus a formal statement in Lean 4, from which a forma
 
 ```json
 [
-  "文本"
-  "Lean code"
+ "文本"
+ "Lean code"
 ]
 ```
 
@@ -281,22 +281,22 @@ v1.1 is not comparable with the older version. Aristotle has its own system, web
 
 ```json
 {
-  "version": "v1.1"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://www.vals.ai/benchmarks/proof_bench"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The Vals leaderboard states an update of 2026-10-29; the Epoch ECI includes ProofBench, but it marks the evaluation as carried out by the creator. Inclusion in the index is not written down as an independent actual run."
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The Vals leaderboard states an update of 2026-10-29; the Epoch ECI includes ProofBench, but it marks the evaluation as carried out by the creator. Inclusion in the index is not written down as an independent actual run."
-    }
-  ]
+ "version": "v1.1"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://www.vals.ai/benchmarks/proof_bench"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The Vals leaderboard states an update of 2026-10-29; the Epoch ECI includes ProofBench, but it marks the evaluation as carried out by the creator. Inclusion in the index is not written down as an independent actual run."
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The Vals leaderboard states an update of 2026-10-29; the Epoch ECI includes ProofBench, but it marks the evaluation as carried out by the creator. Inclusion in the index is not written down as an independent actual run."
+ }
+ ]
 }
 ```
 
@@ -308,11 +308,10 @@ v1.1 is not comparable with the older version. Aristotle has its own system, web
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2026-03-28"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2026-03-28"
+ }
 ]
 ```
 
@@ -504,10 +503,10 @@ Unverified
 
 ```json
 [
-  {
-    "type": "Official web-page methods and leaderboard (not a PDF)"
-    "url": "https://www.vals.ai/benchmarks/proof_bench"
-  }
+ {
+ "type": "Official web-page methods and leaderboard (not a PDF)"
+ "url": "https://www.vals.ai/benchmarks/proof_bench"
+ }
 ]
 ```
 
@@ -522,16 +521,14 @@ Unverified
 ## Changelog
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 
 [1](https://www.vals.ai/benchmarks/proof_bench)（访问 2026-11-08）

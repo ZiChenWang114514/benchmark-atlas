@@ -52,7 +52,7 @@ arXiv v3
 
 ```json
 [
-  "语言"
+ "语言"
 ]
 ```
 
@@ -62,8 +62,8 @@ arXiv v3
 
 ```json
 {
-  "code": "Apache-2.0"
-  "data": "ODC-BY-1.0；依Ai2 Responsible Use Guidelines供研究教育；第三方生成输出另受对应条款约束。"
+ "code": "Apache-2.0"
+ "data": "ODC-BY-1.0；依Ai2 Responsible Use Guidelines供研究教育；第三方生成输出另受对应条款约束。"
 }
 ```
 
@@ -119,14 +119,14 @@ Allen Institute for Artificial Intelligence、University of Washington
 
 ```json
 [
-  "Valentina Pyatkin"
-  "Saumya Malik"
-  "Victoria Graf"
-  "Hamish Ivison"
-  "Shengyi Huang"
-  "Pradeep Dasigi"
-  "Nathan Lambert"
-  "Hannaneh Hajishirzi"
+ "Valentina Pyatkin"
+ "Saumya Malik"
+ "Victoria Graf"
+ "Hamish Ivison"
+ "Shengyi Huang"
+ "Pradeep Dasigi"
+ "Nathan Lambert"
+ "Hannaneh Hajishirzi"
 ]
 ```
 
@@ -208,7 +208,7 @@ IFEval的25种约束可能被过拟合；IFBench不是IFEval别名或新版本�
 
 ```json
 [
-  "文本"
+ "文本"
 ]
 ```
 
@@ -248,7 +248,7 @@ strict直接验证，loose允许删首末行和部分字体标记后再检验；
 
 ### 提示、采样与工具设置
 
-原论文通常temperature 0，思考模型调整token并移除思维链；DeepSeek R1用0.6/top_p .95，o3温度1。
+原论文通常temperature 0，思考模型调整token并移除思维链；DeepSeek R1用0.6/top_p.95，o3温度1。
 
 来源：[1](https://arxiv.org/abs/2507.02833)（访问 2026-11-07）。
 
@@ -282,21 +282,18 @@ AA 294题×5次不同于原始300提示；单/多轮与strict/loose差异须保�
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2025-07-04"
-    "timezone": ""
-  }
-  {
-    "version": "v2"
-    "submitted_at": "2025-08-04"
-    "timezone": ""
-  }
-  {
-    "version": "v3"
-    "submitted_at": "2025-11-11"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2025-07-04"
+ }
+ {
+ "version": "v2"
+ "submitted_at": "2025-08-04"
+ }
+ {
+ "version": "v3"
+ "submitted_at": "2025-11-11"
+ }
 ]
 ```
 
@@ -348,66 +345,66 @@ https://artificialanalysis.ai/evaluations/ifbench
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "Grok 4.3 (Medium)"
-    "score": "83.3"
-    "metric": "pass@1 (%)"
-    "track": "AA独立294题，规则验证pass@1"
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
-    "source_date": "待核实（页面快照）"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "Grok 4.20 0309 (Reasoning)"
-    "score": "82.9"
-    "metric": "pass@1 (%)"
-    "track": "AA独立294题，规则验证pass@1"
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
-    "source_date": "待核实（页面快照）"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "MiniMax-M3"
-    "score": "82.9"
-    "metric": "pass@1 (%)"
-    "track": "AA独立294题，规则验证pass@1"
-    "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
-    "source_date": "待核实（页面快照）"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "IF-RLVR qwen2.5 7b"
-    "score": "53.7"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "作者论文表3，原始300题，prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2507.02833"
-    "result_type": "历史论文；表3列出模型子集内排序"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "IF-RLVR TULU-DPO 8b"
-    "score": "44.6"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "作者论文表3，原始300题，prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2507.02833"
-    "result_type": "历史论文；表3列出模型子集内排序"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 3
-    "model": "TULU"
-    "score": "28.9"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "作者论文表3，原始300题，prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2507.02833"
-    "result_type": "历史论文；表3列出模型子集内排序"
-    "snapshot_date": "2026-11-08 "
-  }
+ {
+ "rank": 1
+ "model": "Grok 4.3 (Medium)"
+ "score": "83.3"
+ "metric": "pass@1 (%)"
+ "track": "AA独立294题，规则验证pass@1"
+ "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+ "source_date": "待核实（页面快照）"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "Grok 4.20 0309 (Reasoning)"
+ "score": "82.9"
+ "metric": "pass@1 (%)"
+ "track": "AA独立294题，规则验证pass@1"
+ "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+ "source_date": "待核实（页面快照）"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "MiniMax-M3"
+ "score": "82.9"
+ "metric": "pass@1 (%)"
+ "track": "AA独立294题，规则验证pass@1"
+ "source_url": "https://artificialanalysis.ai/evaluations/ifbench"
+ "source_date": "待核实（页面快照）"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "IF-RLVR qwen2.5 7b"
+ "score": "53.7"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "作者论文表3，原始300题，prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2507.02833"
+ "result_type": "历史论文；表3列出模型子集内排序"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "IF-RLVR TULU-DPO 8b"
+ "score": "44.6"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "作者论文表3，原始300题，prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2507.02833"
+ "result_type": "历史论文；表3列出模型子集内排序"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 3
+ "model": "TULU"
+ "score": "28.9"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "作者论文表3，原始300题，prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2507.02833"
+ "result_type": "历史论文；表3列出模型子集内排序"
+ "snapshot_date": "2026-11-08 "
+ }
 ]
 ```
 
@@ -425,7 +422,7 @@ AA294题与原论文300题分轨；HF自动模型成绩来自第三方模型卡�
 
 ```json
 [
-  "valentinap@allenai.org"
+ "valentinap@allenai.org"
 ]
 ```
 
@@ -493,10 +490,10 @@ a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 
 ```json
 [
-  {
-    "type": "官方网页方法与榜单（非PDF）"
-    "url": "https://github.com/allenai/IFBench"
-  }
+ {
+ "type": "官方网页方法与榜单（非PDF）"
+ "url": "https://github.com/allenai/IFBench"
+ }
 ]
 ```
 
@@ -516,18 +513,15 @@ a998a59fa3697631b508e9555ea5eb7d529f5a52512e65b2ad93882cc591dde9
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 ```
 
 来源：[1](https://github.com/allenai/IFBench)（访问 2026-11-07）；[2](https://arxiv.org/abs/2507.02833)（访问 2026-11-08）；[3](https://github.com/allenai/IFBench)（访问 2026-11-08）。
-

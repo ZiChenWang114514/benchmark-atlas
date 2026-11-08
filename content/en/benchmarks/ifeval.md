@@ -24,7 +24,7 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 The original paper has 541 prompts and 25 types of verifiable instruction; the official Google HF data card corresponds to the train split (for use in evaluation, and it does not represent advice to use the test prompts for training).
 
-Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08); [2](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -50,7 +50,7 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 ```json
 [
-  "Verifiable instruction following"
+ "Verifiable instruction following"
 ]
 ```
 
@@ -60,7 +60,7 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 The google-research repository is Apache-2.0; the official Google HF dataset card separately labels apache-2.0.
 
-Sources: [1](https://github.com/google-research/google-research/blob/master/LICENSE) (accessed 2026-11-08 ) ; [2](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08).
+Sources: [1](https://github.com/google-research/google-research/blob/master/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08).
 
 ### 论文入口
 
@@ -114,14 +114,14 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 ```json
 [
-  "Zhou, Jeffrey"
-  "Lu, Tianjian"
-  "Mishra, Swaroop"
-  "Brahma, Siddhartha"
-  "Basu, Sujoy"
-  "Luan, Yi"
-  "Zhou, Denny"
-  "Hou, Le"
+ "Zhou, Jeffrey"
+ "Lu, Tianjian"
+ "Mishra, Swaroop"
+ "Brahma, Siddhartha"
+ "Basu, Sujoy"
+ "Luan, Yi"
+ "Zhou, Denny"
+ "Hou, Le"
 ]
 ```
 
@@ -265,23 +265,22 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08 ) ; [2](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08); [2](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-08).
 
 ### 最新数据状态
 
 The official Google HF card shows 541 rows, and the 25 instruction types follow the original paper; no semantic version number was invented.
 
-Sources: [1](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08 ) ; [2](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08).
+Sources: [1](https://huggingface.co/datasets/google/IFEval) (accessed 2026-11-08); [2](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08).
 
 ### 论文修订历史
 
 ```json
 [
-  {
-    "version": "v1"
-    "submitted_at": "2023-11-14"
-    "timezone": ""
-  }
+ {
+ "version": "v1"
+ "submitted_at": "2023-11-14"
+ }
 ]
 ```
 
@@ -293,7 +292,7 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08).
 
 In the original paper, GPT-4 prompt-strict is 76.89%; targeted IF-RLVR training in Table 3 of the later IFBench paper can reach IFEval 92.2 (the prompt-loose accounting of that paper). A high score and the limits on generalization from training on verifiable tasks need to be kept separate, and it cannot be claimed that every instruction-following ability is saturated.
 
-Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08 ) ; [2](https://arxiv.org/pdf/2507.02833) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2507.02833) (accessed 2026-11-08).
 
 ### 污染与已知问题
 
@@ -313,7 +312,7 @@ Sources: [1](https://github.com/allenai/IFBench/blob/main/README.md) (accessed 2
 
 2026-11-08 (collection date, not a run date or a leaderboard-update date)
 
-Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08 ) ; [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-08).
 
 ### 官方结果入口
 
@@ -335,107 +334,107 @@ Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07).
 
 ```json
 [
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "76.89"
-    "metric": "prompt-level strict accuracy (%)"
-    "track": "Author paper Table 3 / prompt-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "43.07"
-    "metric": "prompt-level strict accuracy (%)"
-    "track": "Author paper Table 3 / prompt-level strict"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "83.57"
-    "metric": "instruction-level strict accuracy (%)"
-    "track": "Authors paper, Table 3 / instruction-level strict."
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "55.76"
-    "metric": "instruction-level strict accuracy (%)"
-    "track": "Authors paper, Table 3 / instruction-level strict."
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "79.30"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "Author paper Table 3 / prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "46.95"
-    "metric": "prompt-level loose accuracy (%)"
-    "track": "Author paper Table 3 / prompt-level loose"
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 1
-    "model": "GPT-4"
-    "score": "85.37"
-    "metric": "instruction-level loose accuracy (%)"
-    "track": "Paper by the authors, Table 3 / instruction-level loose."
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "rank": 2
-    "model": "PaLM 2 S"
-    "score": "59.11"
-    "metric": "instruction-level loose accuracy (%)"
-    "track": "Paper by the authors, Table 3 / instruction-level loose."
-    "source_url": "https://arxiv.org/pdf/2311.07911"
-    "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
-    "snapshot_date": "2026-11-08 "
-  }
-  {
-    "model": "Hunyuan-A13B (the name used in the report)"
-    "score": 84.7
-    "unit": "%"
-    "metric": "IF-Eval, original label in report Table 3"
-    "scope": "Hunyuan-A13B technical report, slow-thinking; vendor-self-reported, and it does not state which of the four metrics in this entry it corresponds to, so it cannot be compared directly with prompt-strict in the paper."
-    "evaluation_date": "Report date 2026-09-23; the exact run date is Unverified"
-    "snapshot_date": "2026-11-07 (historical evidence retained; vendor reports were not reopened)"
-    "track": "Hunyuan-A13B vendor technical report (mapping of the four metrics is unknown)"
-    "rank": null
-  }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "76.89"
+ "metric": "prompt-level strict accuracy (%)"
+ "track": "Author paper Table 3 / prompt-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "43.07"
+ "metric": "prompt-level strict accuracy (%)"
+ "track": "Author paper Table 3 / prompt-level strict"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "83.57"
+ "metric": "instruction-level strict accuracy (%)"
+ "track": "Authors paper, Table 3 / instruction-level strict."
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "55.76"
+ "metric": "instruction-level strict accuracy (%)"
+ "track": "Authors paper, Table 3 / instruction-level strict."
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "79.30"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "Author paper Table 3 / prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "46.95"
+ "metric": "prompt-level loose accuracy (%)"
+ "track": "Author paper Table 3 / prompt-level loose"
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 1
+ "model": "GPT-4"
+ "score": "85.37"
+ "metric": "instruction-level loose accuracy (%)"
+ "track": "Paper by the authors, Table 3 / instruction-level loose."
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "rank": 2
+ "model": "PaLM 2 S"
+ "score": "59.11"
+ "metric": "instruction-level loose accuracy (%)"
+ "track": "Paper by the authors, Table 3 / instruction-level loose."
+ "source_url": "https://arxiv.org/pdf/2311.07911"
+ "result_type": "Historical API baseline; GPT-4 in November 2023 and PaLM 2 S in August 2023, with the specific checkpoint not stated"
+ "snapshot_date": "2026-11-08 "
+ }
+ {
+ "model": "Hunyuan-A13B (the name used in the report)"
+ "score": 84.7
+ "unit": "%"
+ "metric": "IF-Eval, original label in report Table 3"
+ "scope": "Hunyuan-A13B technical report, slow-thinking; vendor-self-reported, and it does not state which of the four metrics in this entry it corresponds to, so it cannot be compared directly with prompt-strict in the paper."
+ "evaluation_date": "Report date 2026-09-23; the exact run date is Unverified"
+ "snapshot_date": "2026-11-07 (historical evidence retained; vendor reports were not reopened)"
+ "track": "Hunyuan-A13B vendor technical report (mapping of the four metrics is unknown)"
+ "rank": null
+ }
 ]
 ```
 
-Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08 ) ; [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-08).
 
 ### 覆盖与局限
 
 The exact metric baselines for the four sets in the original authors' paper are restored. They are not replaced by one vendor IF-Eval number whose strict or loose setting is not stated. The README of the original project is the entry point of the evaluation program, not a live SOTA leaderboard. Older vendor reports are kept, but they are not ranked across tracks.
 
-Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08 ) ; [2](https://github.com/google-research/google-research/tree/master/instruction_following_eval/README.md) (accessed 2026-11-08).
+Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08); [2](https://github.com/google-research/google-research/tree/master/instruction_following_eval/README.md) (accessed 2026-11-08).
 
 ## Contact
 
@@ -443,7 +442,7 @@ Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08 ) ; [2](http
 
 ```json
 [
-  "lehou@google.com"
+ "lehou@google.com"
 ]
 ```
 
@@ -495,65 +494,25 @@ Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08).
 
 Sources: [1](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-08).
 
-### 已有文件夹
-
-```json
-{
-  "id": "1USyTVejz1q3o4ZVbGwBQVt4QDHXw0PJZ"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
-### 其他官方文档
-
-```json
-[
-  {
-    "kind": "Chinese introduction"
-    "id": "1EXunkoRqRKfRFViKuCIvLaQwApjkiWauYh-NTkz-9iU"
-    "webViewLink": "
-  }
-]
-```
-
-Sources: [1]( 2026-11-07).
-
-### 已有 PDF归档
-
-```json
-{
-  "id": "1Nsrlsk4-LLFXvYCvPbWzRa7hHw_ZdJlM"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07).
-
 ## Changelog
 
 ### 历次核查
 
 ```json
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    Latest review
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    Latest review
-  }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-07"
+ Latest review
+ }
+ {
+ "date": "2026-11-08"
+ Latest review
+ }
 ]
 ```
 
-Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07 ) ; [2](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-07 ) ; [3](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-07 ) ; [4](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08 ) ; [5](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-08).
-
+Sources: [1](https://arxiv.org/abs/2311.07911) (accessed 2026-11-07); [2](https://arxiv.org/pdf/2311.07911) (accessed 2026-11-07); [3](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-07); [4](https://arxiv.org/abs/2311.07911) (accessed 2026-11-08); [5](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (accessed 2026-11-08).

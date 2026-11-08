@@ -2,7 +2,7 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-研究快照；trending: A；未知信息保留待核实。
+未知信息保留待核实。
 
 DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码语言。任务不是从已合并PR抽取：作者分别编写行为需求、可执行verifier与审稿用参考实现，并用浅克隆阻断从git历史直接取答案。相较短程补丁题，它强调探索代码库、跨文件实现和保持原有功能。 [1](https://deepswe.datacurve.ai/) [2](https://arxiv.org/abs/2607.07946) [3](https://deepswe.datacurve.ai/blog/deepswe) [4](https://epoch.ai/benchmarks/deepswe/review)
 
@@ -133,7 +133,6 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 > claude-fable-5 [xhigh]：rank_type：官网显示行序，非显著性次序 [1](https://deepswe.datacurve.ai/)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：官网显示顺序；三者显示值相同，误差区间重叠，不据此宣称显著优劣。 [1](https://deepswe.datacurve.ai/)
@@ -166,7 +165,7 @@ DeepSWE以113道原创长程工程任务覆盖91个开源仓库、五种代码�
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://deepswe.datacurve.ai/)
+- date：2026-11-07；；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://deepswe.datacurve.ai/)
 
 ---
 

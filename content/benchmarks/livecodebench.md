@@ -1,5 +1,5 @@
 # LiveCodeBench
-> 核验：2026-11-08。已核验存在；研究快照，未核实字段保留标记
+> 核验：2026-11-08。，
 
 LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，并把生成、自修复、执行与测试输出预测分开评估。滚动并不自动等于无污染：必须同时固定题目日期窗、模型训练截止信息、release、测试集lite设置及采样预算。
 
@@ -174,13 +174,7 @@ LiveCodeBench通过滚动收集竞赛新题来降低静态题库污染风险，�
 
 **PDF字节数**：4960954 [S11](https://arxiv.org/pdf/2403.07974)
 
-**原有文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": " [S16](
-
-**其他材料**：[{"type": "中文介绍Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": " [S2](https://livecodebench.github.io/) [S17](
-
 > 官方原始材料与中文改写介绍分别标示；HTML方法页不是原始论文PDF。
-
-**原有 PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": " [S18](
 
 ## 变更记录
 

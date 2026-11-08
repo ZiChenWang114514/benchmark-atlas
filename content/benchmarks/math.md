@@ -1,5 +1,5 @@
 # MATH
-> 核验：2026-11-08。已核实存在；深度条目；显式待核实项保留
+> 核验：2026-11-08。深度条目；显式待核实项保留
 
 MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常见MATH-500只是其中一个子集。现代模型的推理预算、代码工具、投票及答案归一化会显著改变协议，不能把一个子集的接近满分扩展成所有竞赛数学能力已饱和。
 
@@ -152,12 +152,6 @@ MATH提供有完整解答的竞赛数学题，完整测试集是5,000题；常�
 > 本次下载的源站PDF字节校验；不声称重传或替换既有副本。
 
 **PDF字节数**：2030715 [S6](https://arxiv.org/pdf/2103.03874)
-
-**原有文件夹**：{"id": "1ltIfNz6lcnYoP3nio5vVLG_Xr8cBeOFL", "webViewLink": " [S12](
-
-**其他材料**：{"chinese_intro_doc": {"id": "1s8SrmzMxF5AnMs2uZOKwSfgRQ18Qwu6IH1jsKu7qZ9o", "webViewLink": " "mimeType": "application/vnd.google-apps.document"}, "local_markdown": "content/benchmarks/math.md"} [S12](
-
-**原有 PDF**：{"id": "1hvvzCdJR5-kbKHXCnRvEIdKsb-4k6lzu", "webViewLink": " [S13](
 
 ## 变更记录
 

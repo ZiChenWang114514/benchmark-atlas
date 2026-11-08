@@ -12,19 +12,19 @@ Source: [Original description](https://epoch.ai/benchmarks/otis-mock-aime-2024-2
 
 OTIS Mock AIME 2024–2025
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### Full name
 
 OTIS Mock AIME 2024–2025
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### Benchmark version
 
 2024–2025 question set; Epoch currently runs task version 1.1.6
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### Paper version
 
@@ -32,13 +32,13 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Release date
 
 The cover date of the 2024 examination paper is 2023-12-22; the cover date of the 2025 I/II examination papers is 2024-12-20. The first-release date of the 45-question evaluation that Epoch assembled from the three papers remains Unverified.
 
-Sources: [1](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08， ) ; [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf) (accessed 2026-11-08， ) ; [3](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08); [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf) (accessed 2026-11-08); [3](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,7 +46,7 @@ Mathematics
 
 Note: Benchmark Constitution editorial classification.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Field tags
 
@@ -54,7 +54,7 @@ Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
 
 Note: Editorial tags; an empty list means finer-grained tags have not yet been added.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 许可与适用范围
 
@@ -62,7 +62,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Paper
 
@@ -70,13 +70,13 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Code repository
 
 https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### 数据地址
 
@@ -84,13 +84,13 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 - https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf
 - https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08， ) ; [3](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08); [3](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Paper title
 
@@ -98,7 +98,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ## Origin and maintenance
 
@@ -106,7 +106,7 @@ Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
 
 OTIS (Olympiad Training for Individual Study) writes the questions; Epoch AI builds and runs the model evaluation
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 合作关系
 
@@ -114,25 +114,25 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Authors
 
 OTIS project students (per-question authors appear on the original examination papers and were not filled in)
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Current maintainer
 
 Epoch AI (evaluation implementation and results)
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 资助与支持
 
 Epoch discloses explicitly that xAI paid for this particular evaluation of Grok 4 in July 2025 and provided compute credits, that no NDA was signed, and that editorial independence was retained; this is not extended so as to treat xAI as the funder of the whole project of writing the OTIS questions.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -140,13 +140,13 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 
 AIME-style contest mathematics with multi-step reasoning; the answer is an integer 000–999.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 设计背景与适用边界
 
 It provides contest practice questions, written by OTIS students, outside the official AIME; Epoch places it between MATH Level5 and FrontierMath, and those questions cannot be counted together with questions from the official AIME examination of the same name.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ## Construction
 
@@ -154,13 +154,13 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 
 Three unofficial mock AIME papers, OTIS 2024, 2025 I, and 2025 II, with 15 questions each.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 构建者背景
 
 OTIS Olympiad individual-study program students.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Review process
 
@@ -168,19 +168,19 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Quality control
 
 In September 2025, judgment by an LLM that sees the ground truth was changed to exact match after answer extraction that does not see the ground truth, reducing misjudgment of blank answers.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 去污染与泄漏边界
 
 The original examination papers and the answers or solutions are public; the 2024 papers required that discussion not be made public only before the examination deadline, and this is not a test hidden over the long term. The Epoch answer extractor does not receive the ground truth, which can reduce leakage into scoring, but it does not constitute proof that pretraining has been decontaminated.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://web.evanchen.cc/exams/OTIS-Mock-AIME-2024.pdf) (accessed 2026-11-08)
 
 ## Data format
 
@@ -188,38 +188,38 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 
 45 questions: 15 questions in each of three exam papers.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 题型与交付物
 
 Integer fill-in answers, 000–999.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Modalities
 
 - 文本
 - TikZ or Asymptote figure source (3 questions)
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Languages
 
 English prompt and question text.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Difficulty
 
 The original time limit of the OTIS practice examination is 3 hours; this is not the time limit of Epoch model runs.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### Public and hidden splits
 
 The original mock examination papers are public; they are not a collection of official AIME examination questions.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -227,31 +227,31 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 
 Accuracy; Epoch repeats most models 16 times, and the specific count follows the run.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Scoring
 
 The model extracts only the final answer and does not receive the reference answer; the result is then matched exactly to the answer key.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 提示与运行设置
 
 zero-shot CoT, an empty system prompt, and the API default temperature; the solution is required step by step and must end with ANSWER: X; images are not sent, and only the corresponding figure code is provided.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 评测脚本
 
 https://gist.github.com/tadamcz/faf4681e154be2e4c8a6579d67aca7d3
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 可比性提醒
 
 It must not be calculated together with the official AIME 2024/2025; the run version, the number of repeats, API error handling, and the answer-extraction rules must all be stated together.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ## Current status
 
@@ -259,52 +259,52 @@ Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 202
 
 2026-11-08
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
 ```json
 {
-  "version": "2024–2025 question set; Epoch currently runs task version 1.1.6"
-  "heat_confidence": "A"
-  "evidence_2026_h2": [
-    {
-      "url": "https://epoch.ai/data/benchmarks.csv"
-      "date": "2026-11-06"
-      "date_type": "source_calendar_date"
-      "note": "Epoch's public CSV still contains the latest Kimi K3.1 Pro run, started on 2026-11-06; it is a measured run rather than a citation."
-    }
-    {
-      "url": "https://epoch.ai/data/eci-documentation/data"
-      "date": "2026-11-07"
-      "date_type": "observed_on"
-      "note": "The current ECI includes this task."
-    }
-  ]
+ "version": "2024–2025 question set; Epoch currently runs task version 1.1.6"
+ "heat_confidence": "A"
+ "evidence_2026_h2": [
+ {
+ "url": "https://epoch.ai/data/benchmarks.csv"
+ "date": "2026-11-06"
+ "date_type": "source_calendar_date"
+ "note": "Epoch's public CSV still contains the latest Kimi K3.1 Pro run, started on 2026-11-06; it is a measured run rather than a citation."
+ }
+ {
+ "url": "https://epoch.ai/data/eci-documentation/data"
+ "date": "2026-11-07"
+ "date_type": "observed_on"
+ "note": "The current ECI includes this task."
+ }
+ ]
 }
 ```
 
 Note: Heat A follows the candidate grading; the nature of the evidence is labeled item by item. Multiple URLs do not automatically equal multiple independent adopters, and what is currently visible is not treated as a recent first release.
 
-Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/eci-documentation/data) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08); [2](https://epoch.ai/data/eci-documentation/data) (accessed 2026-11-07)
 
 ### 论文修订记录
 
 In 2025-09 scoring was changed to exact match after answer extraction; the current CSV task version is 1.1.6.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， ) ; [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08); [2](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### 饱和程度
 
 The latest set of successful runs already includes a model with mean_score=1.0; this is only an observation on these 45 questions under that run protocol, and it is not inferred that all mathematical ability is saturated.
 
-Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 Before 2025-09, a model judge that could see the ground truth had marked blank answers correct. This was later changed to answer extraction without the ground truth, followed by exact match. The 2025-07 run of Grok4 sent network failures directly to scoring and limited output to 128k; it cannot be ranked without distinction alongside the new protocol. The questions and answers are public, and the risk of training contamination has not been ruled out.
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 衍生与后续使用
 
@@ -312,7 +312,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ## Leaderboard snapshot
 
@@ -320,13 +320,13 @@ Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
 
 2026-11-08 (date the web page was accessed; dates of historical results are kept separately).
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ### 官方结果入口
 
 https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
 
-Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### 第三方入口
 
@@ -334,7 +334,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 分赛道结果
 
@@ -520,13 +520,13 @@ Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
 - {"model": "Mistral-7B-Instruct-v0.3", "score": 0.002777777777777778, "track": "Epoch official CSV / task1.1.6 / the latest successful run for each configuration.", "metric": "Accuracy (0–1)", "source_url": "https://epoch.ai/data/benchmarks.csv", "collected_at": "2026-11-08 ", "stderr": 0.002777777777777778, "model_configuration": "Mistral-7B-Instruct-v0.3", "task_version": "1.1.6", "run_id": "j6Mo25oV9Y9jdGxCMHZfpU", "run_started_at": "2026-08-31 ", "result_type": "CSV measured results; not a smoothed aggregate leaderboard on the web page", "rank": 180}
 - {"model": "granite-4.0-350m", "score": 0.002777777777777778, "track": "Epoch official CSV / task1.1.6 / the latest successful run for each configuration.", "metric": "Accuracy (0–1)", "source_url": "https://epoch.ai/data/benchmarks.csv", "collected_at": "2026-11-08 ", "stderr": 0.002777777777777778, "model_configuration": "granite-4.0-350m", "task_version": "1.1.6", "run_id": "aQYiADNH3qVzZkWUmQn6nZ", "run_started_at": "2026-08-28 ", "result_type": "CSV measured results; not a smoothed aggregate leaderboard on the web page", "rank": 180}
 
-Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08)
 
 ### 覆盖边界
 
 All 181 exact model configurations of the current task version 1.1.6 are included. For each configuration the latest successful run is taken first, and the configurations are then ordered by mean_score descending, with identical point values tied. The historical best run is not selected, and older judge versions are not mixed in. The CSV does not provide a unified leaderboard update date. This page reports only the access date and the time of each run.
 
-Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， ) ; [2](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08); [2](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ## Contact
 
@@ -534,7 +534,7 @@ Sources: [1](https://epoch.ai/data/benchmarks.csv) (accessed 2026-11-08， ) ; [
 
 - benchmarks@epoch.ai
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 公开反馈渠道
 
@@ -542,7 +542,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 官方社交渠道
 
@@ -550,13 +550,13 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 联系方式收录原则
 
 Benchmark Constitution includes only project contact channels that the paper or the official site has made public, and it does not collect private information; this is not a certification of an external site’s privacy policy.
 
-Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-08， )
+Sources: [1](urn:benchmark-atlas:constitution:v0.1) (accessed 2026-11-08)
 
 ## Original files
 
@@ -566,7 +566,7 @@ Unverified
 
 Note: This group only creates local research files and does not upload a PDF or claim that one already exists.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 原始PDF地址
 
@@ -574,7 +574,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 下载SHA-256
 
@@ -582,7 +582,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 下载字节数
 
@@ -590,7 +590,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### 既存文件夹
 
@@ -598,7 +598,7 @@ Unverified
 
 Note: The listed materials have been opened, but this field has not yet been precisely verified; this does not indicate that the official source has not published it.
 
-Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
+Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07)
 
 ### Other documents
 
@@ -606,11 +606,11 @@ Sources: [1](https://epoch.ai/benchmarks) (accessed 2026-11-07， )
 - {"type": "Original mock-exam PDF (not a paper)", "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-I.pdf"}
 - {"type": "Original mock-exam PDF (not a paper)", "url": "https://web.evanchen.cc/exams/OTIS-Mock-AIME-2025-II.pdf"}
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)
 
 ## Changelog
 
 Latest review
 Latest review
 
-Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08， )
+Sources: [1](https://epoch.ai/benchmarks/otis-mock-aime-2024-2025) (accessed 2026-11-08)

@@ -52,7 +52,7 @@ RealWorldQA
 
 ```json
 [
-  "真实世界视觉理解"
+ "真实世界视觉理解"
 ]
 ```
 
@@ -272,11 +272,10 @@ xai-org官方数据集发布账号
 
 ```json
 {
-  "release": "官方initial release；test 765行"
-  "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd"
-  "hf_last_modified_kst": "2024-04-19"
-  "timezone": ""
-  "note": "仓库最后修改时间不是初次发布日，也不代表新增题目版本。"
+ "release": "官方initial release；test 765行"
+ "hf_revision": "17e7f75e092e47169732462ea3cdfebe911105dd"
+ "hf_last_modified": "2024-04-19"
+ "note": "仓库最后修改时间不是初次发布日，也不代表新增题目版本。"
 }
 ```
 
@@ -286,17 +285,16 @@ xai-org官方数据集发布账号
 
 ```json
 {
-  "revisions": []
-  "continued_use_2026h2": [
-    {
-      "url": "https://arxiv.org/html/2610.01352v2"
-      "date": "2026-10-23"
-      "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
-      "date_kst": "2026-10-23"
-      "verified_in_round1": "重新打开arXiv v2正文§4.1/Table2与abs提交历史，确认实际评测；源站v2为2026-10-22 16:54:37 UTC。"
-    }
-  ]
-  "verification": "已打开并复核证据原文的实际评测章节及表格，不只按参考文献或网页存活判断。"
+ "revisions": []
+ "continued_use_2026h2": [
+ {
+ "url": "https://arxiv.org/html/2610.01352v2"
+ "date": "2026-10-23"
+ "note": "MMVistaReason v2 §4.1及表2实际评测 RealWorldQA（RealWorldQA设置），比较4B/9B及其他视觉语言模型；不把mini/val等划分另计。"
+ "date": "2026-10-23"
+
+ }
+ ]
 }
 ```
 
@@ -433,31 +431,6 @@ https://x.ai/news/grok-1.5v
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-07）
 
-### 文件夹
-
-```json
-{
-  "id": "11Z0ZHQbf-P7oqnLM5gLdpziE8Ba4Vrpd"
-  "webViewLink": "
-}
-```
-
-[1]( 2026-11-07）
-
-### 其他材料
-
-```json
-[
-  {
-    "kind": "中文介绍"
-    "id": "1NXm4yjwrkdestHK7xXI6DIxAgr7l_hpHX0JZsQgIRJw"
-    "webViewLink": "
-  }
-]
-```
-
-[1]( 2026-11-07）
-
 ### 论文PDF
 
 待核实
@@ -467,22 +440,19 @@ https://x.ai/news/grok-1.5v
 ## 11. 变更记录
 
 [
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    最近复核
-  }
-  {
-    "date": "2026-11-07"
-    "timezone": ""
-    "round": "1 / 深度实证复核"
-    最近复核
-  }
-  {
-    "date": "2026-11-08"
-    "timezone": ""
-    最近复核
-  }
+ {
+ "date": "2026-11-07"
+ 最近复核
+ }
+ {
+ "date": "2026-11-07"
+ "round": "1 / 深度实证复核"
+ 最近复核
+ }
+ {
+ "date": "2026-11-08"
+ 最近复核
+ }
 ]
 
 [1](https://x.ai/news/grok-1.5v)（访问 2026-11-08）

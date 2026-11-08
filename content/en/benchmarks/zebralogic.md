@@ -24,7 +24,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 A public set of 1000 questions; first released in 2024, with a 2025 paper version, and no data revision is fixed
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07); [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### Paper version
 
@@ -34,7 +34,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### Release date
 
-- **paper_first_submission_kst**：2025-02-03
+- **paper_first_submission**：2025-02-03
 - **date_type**：First submission of the paper; not the same as the first release of the dataset
 
 Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
@@ -43,7 +43,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 Reasoning
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07).
 
 ### Field tags
 
@@ -58,7 +58,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 > The code license has been verified; the dataset license remains Unverified. This field is only partly complete and is not counted as the licensing being fully cleared.
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/LICENSE) (accessed 2026-11-08); [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08).
 
 ### Paper
 
@@ -70,19 +70,19 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 https://github.com/WildEval/ZeroEval
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07).
 
 ### 数据地址
 
 https://huggingface.co/datasets/WildEval/ZebraLogic
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07); [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### Official entry
 
 https://huggingface.co/spaces/allenai/ZebraLogic
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07); [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### Paper title
 
@@ -106,7 +106,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 > The institutions named on the first page of the PDF; no further funding partnership is inferred.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ### Authors
 
@@ -124,13 +124,13 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 WildEval/ZeroEval maintains the public evaluation and the summary table; the dataset card is at WildEval/ZebraLogic, and the official interactive leaderboard is the allenai/ZebraLogic Space (the configuration also links allenai/ZebraLogicBench).
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08  ) ; [3](https://huggingface.co/spaces/allenai/ZebraLogic/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08); [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08); [3](https://huggingface.co/spaces/allenai/ZebraLogic/raw/main/README.md) (accessed 2026-11-08).
 
 ### Funders
 
 Research by Yejin Choi received partial support from NSF DMS-2134012 (paper acknowledgments); it is not inferred that the grant covers every author or the full cost of the project.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ## Design goals
 
@@ -170,7 +170,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 There are 25 sizes, from 2–6 houses × 2–6 attributes, with 40 questions of each size. A solver guarantees a unique solution and tries, clue by clue, to remove redundant clues, producing a clue set that is minimal with respect to deletion one clue at a time. This is not the same as a globally minimal puzzle statement. Z3 is run 32 times on each question, and the average number of conflicts helps describe the difficulty of the search.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ### 去污染与泄漏防范
 
@@ -184,7 +184,7 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 The dataset card's grid_mode test set has 1000 puzzles; the mc_mode test set has 3259 multiple-choice questions. The two are different configurations and are not added into a count of independent puzzles.
 
-Sources: [1](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08).
 
 ### 任务形式
 
@@ -196,13 +196,13 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 Plain-text clues and a structured entity-attribute grid; the answer is a JSON table. This is not image-grid recognition or question answering on mathematical formulas.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08  ) ; [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08); [2](https://huggingface.co/datasets/WildEval/ZebraLogic/raw/main/README.md) (accessed 2026-11-08).
 
 ### Languages
 
 Natural-language clues in English, entity attributes, and JSON fields.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ### 难度与类型
 
@@ -234,19 +234,19 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 Paper §3 uses a one-shot format example and outputs reasoning and JSON. Most models use the same greedy prompt and parsing. o1 is the exception: it is run three times and the best is taken. Mode, N_Mode, and N_Size in the current ZeroEval summary table are recorded as shown in the table. Even where the same model scores 81.0%, the table's single mark and the paper's best-of-3 interpretation are not forcibly unified.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08  ) ; [3](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08); [3](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ### 官方脚本
 
 ZeroEval: run with -d zebra-grid; scored by src/evaluation/zebra_grid_eval.py, with support for local and API inference.
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08).
 
 ### 可比性提示
 
 Whole-puzzle Puzzle Acc, Cell Acc, and Small/Medium/Large/XL are kept separate. The paper's one-shot setting and o1 taking the best of three runs, the repository's greedy/single labels, the model provider, and the API checkpoint all need to be retained. The official table includes a Llama-3.1-405B@hyperbolic row of only 16 questions, and it cannot be treated as a full-set rank on 1000 questions.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ## Current status
 
@@ -254,46 +254,46 @@ Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08).
 
 ### 数据版本与当前状态
 
 A public set of 1000 questions; first released in 2024, with a 2025 paper version, and no data revision is fixed
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07); [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### 论文修订与H2证据
 
 - **arxiv_version**：arXiv v2
 - **history_note**：See the arXiv metadata for the full history; the draft date has been converted, and the paper revision date is not treated as the data version.
 - **2026_h2_evidence**：- - **url**：https://arxiv.org/html/2609.27284v1
-    - **date**：2026-09-23
-    - **note**：Hunyuan-A13B §4.2 Reasoning and Tables 3–4 actually report ZebraLogic; a vendor-self-reported evaluation.
+ - **date**：2026-09-23
+ - **note**：Hunyuan-A13B §4.2 Reasoning and Tables 3–4 actually report ZebraLogic; a vendor-self-reported evaluation.
 - **revisions**：- - **version**：v1
-    - **date_kst**：2025-02-03
-  - - **version**：v2
-    - **date_kst**：2025-07-15
+ - **date**：2025-02-03
+ - - **version**：v2
+ - **date**：2025-07-15
 - **note**：The paper revision time cannot be treated as the data release date. Existing 2026-H2 evidence retains the original collection date.
 
-Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-07).
 
 ### 饱和程度
 
 The highest full-set Puzzle Acc in the current author table is 92.6% (grok-3-mini-fast-beta-high), and XL on the same row is 76.5%; a high score overall does not mean that a large search space has been solved. o3-mini-high is 91.7% on the full set and XL75.5%, and the figures are read in light of the hard subset and the decoding budget.
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ### 污染、冲突与限制
 
 Guaranteeing a unique solution at the time of generation does not mean that later models have not seen the public questions. The body of the size classification in the paper uses 10^10 as the boundary between Large and XL, but the header of Table1 writes 10^9, so the thresholds in the source disagree. The explicit list of sizes in the body is recorded first, and the categories are not merged on one's own. The difference between taking the best of three runs in the o1 paper and the single-row label in the repository is also kept; incomplete results on 16 questions are listed on their own.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ### 后续工作与衍生
 
 It is the zebra-grid task in the ZeroEval evaluation framework; it is not Sudoku, and it is not equivalent to every Einstein puzzle.
 
-Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08  ) ; [2](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07 ).
+Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08); [2](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07).
 
 ## Leaderboard snapshot
 
@@ -301,13 +301,13 @@ Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08  ) ; [2](htt
 
 2026-11-08; self-reports by the vendor keep the existing collection date
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ### Official leaderboard
 
 https://huggingface.co/spaces/allenai/ZebraLogic
 
-Sources: [1](https://github.com/WildEval/ZeroEval) (accessed 2026-11-07  ) ; [2](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/WildEval/ZeroEval) (accessed 2026-11-07); [2](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07).
 
 ### 第三方覆盖
 
@@ -821,13 +821,13 @@ Source: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 | — | Hunyuan-A13B | 84.7 % | accuracy slow thinking, accuracy on the full set of questions, report Table 3 | 2026-09-23；https://arxiv.org/html/2609.27284v1 |
 | — | OpenAI-o1-1217 | 81.0 % | accuracy Column names from the same table; checkpoints recorded as in the report | 2026-09-23；https://arxiv.org/html/2609.27284v1 |
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08  ) ; [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-07 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08); [2](https://arxiv.org/html/2609.27284v1) (accessed 2026-11-07).
 
 ### Coverage note
 
 All 7 percentage metrics for all 69 rows of the summary table in the current author repository were restored cell by cell, 483 values in total. total_puzzles, mode, n_mode, n_size, and reason length are recorded. The complete set of 1000 questions and the incomplete subset of 16 questions are on separate tracks. A run date that is Not disclosed is not invented. The existing two self-reported Hunyuan rows keep their original dates and sources and are not placed in the official ranking.
 
-Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08 ).
+Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dirs/zebra-grid.summary.md) (accessed 2026-11-08).
 
 ## Contact
 
@@ -836,13 +836,13 @@ Sources: [1](https://raw.githubusercontent.com/WildEval/ZeroEval/main/result_dir
 - byuchen@uw.edu
 - ronanlb@allenai.org
 
-Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07  ) ; [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://huggingface.co/spaces/allenai/ZebraLogic) (accessed 2026-11-07); [2](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08).
 
 ### 问题反馈
 
 https://github.com/WildEval/ZeroEval/issues
 
-Sources: [1](https://github.com/WildEval/ZeroEval) (accessed 2026-11-07 ).
+Sources: [1](https://github.com/WildEval/ZeroEval) (accessed 2026-11-07).
 
 ### 官方讨论渠道
 
@@ -874,55 +874,31 @@ c252c5c4c6aa7394cb97f81d7e77fd69b3ec8d374ede75c7f0189a1530a3820d
 
 > Original bytes of the PDF downloaded again. The existing copy was not overwritten.
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ### 字节数
 
 3577291
 
-Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08 ).
-
-### Folder
-
-- **id**：1zdfv98gUtwSgZInQe0SU-tLvBK_3TWdy
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
+Sources: [1](https://arxiv.org/pdf/2502.01100) (accessed 2026-11-08).
 
 ### Other documents
-
-- **chinese_intro_doc**：- **id**：125u-jDuDNBy2zes2eY4ZNY425O-LzOhjWowRw-F24vs
-  - **webViewLink**：
-  - **mimeType**：application/vnd.google-apps.document
-- **local_markdown**：content/benchmarks/zebralogic.md
-
-Sources: [1]( 2026-11-07 ).
-
-### 原文归档
-
-- **id**：1udO6bEUq9MMLZuhldfpfTxSwt_8H1-uv
-- **webViewLink**：
-
-Sources: [1]( 2026-11-07 ).
 
 ## Changelog
 
 ### 本页修订
 
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+ - **change**：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - - **date**：2026-11-07
-  - **timezone**：
-  - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-  - **fields_updated**：- basic_info.license
-    - evaluation.official_scripts
-    - data_format.size
-    - leaderboard.results
-    - leaderboard.coverage_note
+ - **change**：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
+ - **fields_updated**：- basic_info.license
+ - evaluation.official_scripts
+ - data_format.size
+ - leaderboard.results
+ - leaderboard.coverage_note
 - - **date**：2026-11-08
-  - **timezone**：
-  - **round**：2
-  - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
+ - **round**：2
+ - **change**：逐项打开arXiv摘要与PDF全文、Official README/LICENSE/数据卡及榜单；细化构建和评测协议，恢复分源结构化结果，未核实内容不填造。具体变更见research-q15/REPORT.md。
 
-Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08  ) ; [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08 ).
+Sources: [1](https://arxiv.org/abs/2502.01100) (accessed 2026-11-08); [2](https://raw.githubusercontent.com/WildEval/ZeroEval/main/README.md) (accessed 2026-11-08).

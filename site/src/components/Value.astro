@@ -51,13 +51,18 @@ const PREFERRED = [
   'checkpoint_note',
   'version',
   'submitted_at',
+  'run_started_at',
+  'evaluation_started_at',
+  'started_at',
+  'paper_first_submission',
+  'observed_on',
+  'last_modified',
   'timezone',
   'date',
   'change',
   'kind',
   'type',
   'id',
-  'webViewLink',
   'url',
   'accessed',
   'note',
@@ -84,7 +89,6 @@ const isChangelog =
   scalarRows.every((row) => typeof row.date === 'string' && typeof row.change === 'string') &&
   scalarRows.every((row) => Object.keys(row).every((key) => changelogKeys.has(key)));
 const cols = scalarRows && !isChangelog ? columnsOf(scalarRows).filter((key) => key !== 'timezone') : [];
-const drive = record && typeof record.webViewLink === 'string' ? record : null;
 const emailList = !!strings && strings.length > 0 && strings.every((item) => isEmail(item));
 const pillList = !!strings && !emailList && strings.length < 6 && strings.every((item) => item.length <= 16);
 
@@ -162,11 +166,8 @@ function tight(cell: unknown): boolean {
   <div class="record-list">
     {nestedRows.map((row) => (
       <div class="record-card">
-        {typeof row.webViewLink === 'string' && safeUrl(row.webViewLink) && (
-          <p class="field-value"><a href={row.webViewLink} target="_blank" rel="noopener noreferrer">{typeof row.kind === 'string' ? row.kind : typeof row.type === 'string' ? row.type : t(locale, 'value.open')}</a></p>
-        )}
         <dl class="kv">
-          {Object.entries(row).filter(([key]) => key !== 'timezone' && (key !== 'webViewLink' || !safeUrl(String(row.webViewLink ?? '')))).map(([key, item]) => (
+          {Object.entries(row).filter(([key]) => key !== 'timezone').map(([key, item]) => (
             <div>
               <dt>{labelFor(key)}</dt>
               <dd><Value value={item} name={key} /></dd>
@@ -175,23 +176,6 @@ function tight(cell: unknown): boolean {
         </dl>
       </div>
     ))}
-  </div>
-) : drive && safeUrl(String(drive.webViewLink)) ? (
-  <div>
-    <p class="field-value">
-      <a href={String(drive.webViewLink)} target="_blank" rel="noopener noreferrer">{typeof drive.kind === 'string' ? drive.kind : typeof drive.type === 'string' ? drive.type : t(locale, 'value.open')}</a>
-      {drive.id ? <span class="file-id">{String(drive.id)}</span> : null}
-    </p>
-    {Object.keys(drive).some((key) => !['webViewLink', 'id', 'kind', 'type'].includes(key)) && (
-      <dl class="kv">
-        {Object.entries(drive).filter(([key]) => key !== 'timezone' && !['webViewLink', 'id', 'kind', 'type'].includes(key)).map(([key, item]) => (
-          <div>
-            <dt>{labelFor(key)}</dt>
-            <dd><Value value={item} name={key} /></dd>
-          </div>
-        ))}
-      </dl>
-    )}
   </div>
 ) : record ? (
   <dl class="kv">

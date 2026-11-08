@@ -10,79 +10,53 @@ Item-by-item empirical review: the paper PDF, official release materials, and pe
 
 ARC-Challenge
 
-Sources: [1]
-
 ### Full name
 
 AI2 Reasoning Challenge — Challenge Set
-
-Sources: [1]
 
 ### 数据/软件版本
 
 ARC-Challenge (2018); ARC-Easy is not included.
 
-Sources: [2][1]
-
 ### Paper version
 
 arXiv v1
-
-Sources: [1]
 
 ### Release date
 
 2018-03-15 02:04:21 (time of the arXiv v1 submission; not the time at which the data went online on its own)
 
-Sources: [1]
-
 ### Section
 
 Reasoning
-
-Sources: [2]
 
 ### 学科标签
 
 Scientific common sense and compositional reasoning
 
-Sources: [1]
-
 ### 许可证与范围
 
 dataset：CC-BY-SA-4.0 (marked in the header of the allenai/ai2_arc card; the license section of the card body is still More Information Needed, and the conflict is retained)；baseline_code：Apache-2.0（arc-solvers/LICENSE）
-
-Sources: [3][4]
 
 ### 论文入口
 
 https://arxiv.org/abs/1803.05457
 
-Sources: [1]
-
 ### Paper title
 
 Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge
-
-Sources: [1]
 
 ### Code
 
 https://github.com/allenai/arc-solvers
 
-Sources: [2]
-
 ### Dataset
 
 https://huggingface.co/datasets/allenai/ai2_arc
 
-Sources: [3]
-
 ### Official homepage
 
 http://data.allenai.org/arc
-
-Sources: [2][1]
 
 ## Origin and maintenance
 
@@ -90,31 +64,21 @@ Sources: [2][1]
 
 Allen Institute for AI
 
-Sources: [1]
-
 ### 署名/合作机构
 
 The only affiliation named for every author of the original paper is the Allen Institute for Artificial Intelligence; this field records the institution that is named in public, and a legal collaboration that is not listed is not inferred from it.
-
-Sources: [5]
 
 ### Authors
 
 Clark, Peter；Cowhey, Isaac；Etzioni, Oren；Khot, Tushar；Sabharwal, Ashish；Schoenick, Carissa；Tafjord, Oyvind
 
-Sources: [1]
-
 ### 维护入口
 
 The official AllenAI data-release account allenai and the arc-solvers repository; these are public-release entry points for maintenance and are not used to infer current staffing.
 
-Sources: [3][6]
-
 ### 资助与计算资源
 
 Unverified
-
-Sources: [1]
 
 Note: Paper acknowledgments and current operational funding were not verified item by item; institutional affiliation is not a funding source
 
@@ -123,19 +87,14 @@ Status: Unverified (part of this field is still unconfirmed).
 ## Design goals
 
 它衡量的是自然科学考试选择题上的知识与组合推理，不是视觉ARC-AGI，也不是科研自动化。Challenge源于2018检索/PMI基线筛选，难度定义不随2026模型自动更新。
-Sources: [1][1]
 
 ### 测量能力
 
 Measures, on basic-science examination questions, knowledge integration and reasoning beyond retrieval and word co-occurrence.
 
-Sources: [1]
-
 ### 为何需要这个基准
 
 Existing choice question answering may be solved by information retrieval or lexical statistics, and can hardly measure deeper reasoning on its own.
-
-Sources: [1]
 
 ## Construction
 
@@ -143,31 +102,21 @@ Sources: [1]
 
 Multiple-choice questions from science examinations in grades 3 through 9 are collected; questions answered incorrectly by both the retrieval baseline and the PMI baseline enter Challenge.
 
-Sources: [1]
-
 ### 命题/编制背景
 
 The original examination item writers and the AI2 curation team; not entirely synthesized by an LLM.
-
-Sources: [1]
 
 ### Review process
 
 Questions were cleaned and filtered with two baselines; questions that must depend on an image in order to be answered are not included.
 
-Sources: [1]
-
 ### Quality control
 
 Multiple scientific disciplines and reasoning demands are retained, and the original paper additionally provides about 14,000,000 sentences of scientific corpus for retrieval.
 
-Sources: [1]
-
 ### 去污染与证据边界
 
 Easy/Challenge is divided according to baseline performance and does not constitute isolation from pretraining corpora; examination questions may already be public on the web.
-
-Sources: [1]
 
 ## Data format
 
@@ -175,37 +124,25 @@ Sources: [1]
 
 ARC-Challenge: train 1119, validation 299, and test 1172, 2590 questions in all; the 7787 questions of the full ARC, or ARC-Easy, must not be substituted for it.
 
-Sources: [7]
-
 ### Question types
 
 Multiple-choice questions in science, given as text, mostly with 4 options and some with 3 to 5 options.
-
-Sources: [1]
 
 ### 模态与字段
 
 Text (mathematical symbols expressed as text); not an original image or video recognition task
 
-Sources: [1]
-
 ### Languages
 
 English question text; for formal or mathematical notation, see the modality and the repository format
-
-Sources: [1]
 
 ### 难度定位
 
 Challenge only denotes the set screened out by the original retrieval model and the PMI model; it is not a fixed 2026 frontier difficulty.
 
-Sources: [1]
-
 ### 公开、隐藏与划分
 
 Public training, development, and test question files; the test set in common modern use has 1172 questions.
-
-Sources: [1]
 
 ## Evaluation
 
@@ -213,31 +150,21 @@ Sources: [1]
 
 Answer accuracy; the original paper allows a score of 1/k for tied predictions.
 
-Sources: [1]
-
 ### 评分流程
 
 The original tie-credit implementation differs from modern generated-answer accuracy and from log-likelihood acc_norm, so the evaluator settings must be retained.
-
-Sources: [1]
 
 ### 运行与提示
 
 The original paper includes retrieval and supervised QA systems; an LLM needs to report the number of shots, whether CoT is used, whether retrieval is used, and length normalization of the likelihood.
 
-Sources: [1]
-
 ### 评测实现
 
 The official arc-solvers repository provides scripts/evaluate_solver.sh and scripts/evaluate_bidaf.sh. These are historical baselines for retrieval, entailment, and reading comprehension, not a unified prompting protocol for modern LLMs.
 
-Sources: [6]
-
 ### 不能混比的设置
 
 ARC-Challenge is a separate benchmark from ARC-Easy and from the visual abstract-reasoning benchmark ARC-AGI; results on 1172 questions and on the combined 3548 questions cannot be placed on one ranking.
-
-Sources: [1][8]
 
 ## Current status
 
@@ -245,37 +172,25 @@ Sources: [1][8]
 
 2026-11-07 (collection date, not the experiment date)
 
-Sources: [1]
-
 ### 当前发布
 
 ARC-Challenge (2018); ARC-Easy is not included.
-
-Sources: [2][1]
 
 ### 版本脉络
 
 paper：v1；submitted_at：2018-03-15；later_use：report：https://arxiv.org/html/2610.11978v1；scope：ARC-Challenge; distinct from the combined ARC-Easy+Challenge set of 3548 questions
 
-Sources: [1][8]
-
 ### 分数上限与饱和度
 
 Table 2 of the Jev report lists, on ARC-Challenge, Jev at 97.6% and Gemini 3.8 Flash at 97.5%. The head of the listed protocol is already close to a full score. This is not a comprehensive audit of contamination, and it is not a single conclusion of saturation under every prompt setting.
-
-Sources: [8]
 
 ### 争议与局限
 
 Old examination questions and public answers carry a contamination risk; a high score cannot by itself prove that a system has broad scientific-research ability.
 
-Sources: [1][2]
-
 ### 衍生版本
 
 ARC-Easy, in the same family, is split out on its own; this entry includes only Challenge and is not counted again.
-
-Sources: [1][2]
 
 ## Leaderboard snapshot
 
@@ -283,19 +198,13 @@ Sources: [1][2]
 
 2026-11-07 (collection date, not the experiment date)
 
-Sources: [1]
-
 ### Official entry
 
 http://data.allenai.org/arc
 
-Sources: [9][2]
-
 ### 第三方/补充实验
 
 https://arxiv.org/html/2610.11978v1
-
-Sources: [8]
 
 Note: An experimental comparison in the paper, not a continuously updated official leaderboard from an independent third party.
 
@@ -333,13 +242,9 @@ Note: An experimental comparison in the paper, not a continuously updated offici
 - TableILP：source_url：https://arxiv.org/pdf/1803.05457；accessed：2026-11-07；source_type：Original-paper historical baseline
 - BiDAF：source_url：https://arxiv.org/pdf/1803.05457；accessed：2026-11-07；source_type：Original-paper historical baseline
 
-Sources: [8][5]
-
 ### 覆盖边界
 
 The tracks are shown separately: Jev and six frontier models in the Jev report, kept apart from the original baselines of 2018. No leaderboard that could be read was obtained from the old official site. A front rank on an official AllenAI leaderboard of 2026 is not claimed. Table 2 of the Jev report also lists representative models, and some of those scores are carried over from an outside source. They are not ranked together with the models that were measured.
-
-Sources: [8][1]
 
 ## Contact
 
@@ -347,21 +252,15 @@ Sources: [8][1]
 
 peterc@allenai.org；isaacc@allenai.org；orene@allenai.org；tushark@allenai.org；ashishs@allenai.org；carissas@allenai.org；oyvindt@allenai.org
 
-Sources: [5]
-
 Note: The original paper's first page publishes the authors' work email; it is a 2018 historical contact, and no email is sent to verify that it remains valid.
 
 ### 公开反馈
 
 https://github.com/allenai/arc-solvers/issues
 
-Sources: [9]
-
 ### 官方账号
 
 Unverified
-
-Sources: [1]
 
 Note: No dedicated official social account has been verified, and personal accounts of the same name are not included
 
@@ -370,8 +269,6 @@ Status: Unverified (part of this field is still unconfirmed).
 ### 隐私信息
 
 Unverified
-
-Sources: [1]
 
 Note: A dedicated privacy clause for the benchmark has not been verified; a license cannot replace a privacy policy.
 
@@ -383,13 +280,9 @@ Status: Unverified (part of this field is still unconfirmed).
 
 https://arxiv.org/pdf/1803.05457
 
-Sources: [1]
-
 ### 下载源文件SHA-256
 
 b24b722c93f304df6c3b4a48ebbe429e836f3b3e80837bb613112398e59bde43
-
-Sources: [5]
 
 Note: Checksum of the PDF bytes downloaded from the source site. This does not claim that the file contents were checked again.
 
@@ -397,25 +290,7 @@ Note: Checksum of the PDF bytes downloaded from the source site. This does not c
 
 290564
 
-Sources: [5]
-
-### 既有文件夹
-
-id：1hOZWrRuLGFb18AWzwJHfyFuJuPV_yLnk；webViewLink：
-
-Sources: [10]
-
-### 其他材料
-
-chinese_intro_doc：id：1zeiTeYn28Vz7H0h4mPOEjzt7SDBGXmYdmKRcXs2_g24；webViewLink：
-
-Sources: [10]
-
 ### 既有 PDF链接
-
-id：1cz7sR0Bva9EQIZUhXIjebI5QWfMWtr6Q；webViewLink：
-
-Sources: [11]
 
 > 没有上传或改写文件。以上SHA-256和字节数针对实际下载的源站PDF，不等于重新核验既有文件。
 
@@ -423,9 +298,7 @@ Sources: [11]
 
 - 2026-11-07：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
 - 2026-11-07：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。
-- 2026-11-07（ ()）：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
-
-Sources: [2]
+- 2026-11-07（）：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 ### 来源索引
 

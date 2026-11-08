@@ -2,8 +2,6 @@
 
 > 深度核验：2026-11-07。未知不等于未公开；网页更新日、运行日与访问日分开记录。
 
-已核验存在；近期热门新建条目，未核实字段保留标记；trending: A
-
 EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，评估有状态的长程规划、政策遵循及副作用控制。原论文1150道专家任务覆盖八域、164张表、512个工具；每题按最终数据库状态验证，而不是要求复制某条操作轨迹。30道任务故意不可行，应拒绝而非越权完成。 [1](https://enterpriseops-gym.github.io/) [2](https://arxiv.org/abs/2603.13594) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa)
 
 已定位真正官方项目页，其明确把最新榜交由Artificial Analysis维护。AA使用Stirrup、oracle工具及三次重复；README全量Oracle榜、原论文与AA并非同一协议，最高45.9%、37.4%、51.1%不应串成单一进步曲线。HF卡计数与论文也存在打包差异，公开多配置行数不能当独立任务总数。 [1](https://enterpriseops-gym.github.io/) [2](https://arxiv.org/abs/2603.13594) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa)
@@ -130,7 +128,6 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 > Gemini 3.5 Flash (High)：result_type：AA 独立实现榜快照；protocol：Stirrup；oracle tools；每任务3次；严格全verifier通过 [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa)
 
-
 表内所有条目采集于2026-11-07；行序不自动代表统计显著性，历史实验与实时榜均按说明区分。
 
 - **覆盖范围与版本限制**：重读AA前三51.1/50.4/50.1。另读取官方README全量Oracle快照前三：Opus4.6 45.9、Sonnet4.6 42.2、Opus4.5 39.4；不与AA榜混排。原论文Opus4.5 37.4与README39.4亦有差异，优先按各来源原样标记。 [4](https://artificialanalysis.ai/evaluations/enterprise-ops-gym-aa) [3](https://github.com/ServiceNow/EnterpriseOps-Gym/blob/main/README.md) [2](https://arxiv.org/abs/2603.13594)
@@ -164,7 +161,7 @@ EnterpriseOps-Gym以可重置数据库和MCP工具构成企业工作流沙箱，
 
 ## 变更记录
 
-- date：2026-11-07；timezone：；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://enterpriseops-gym.github.io/)
+- date：2026-11-07；；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://enterpriseops-gym.github.io/)
 
 ---
 

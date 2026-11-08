@@ -1,5 +1,5 @@
 # MathVerse
-> Verification: 2026-11-08. Verified to exist, with evidence of actual use in the second half of 2026; official live-leaderboard coverage and unverified fields are marked item by item.
+> Verification: 2026-11-08. , with evidence of actual use in the second half of 2026; official live-leaderboard coverage and unverified fields are marked item by item.
 
 MathVerse checks whether a model truly uses a mathematical diagram, by changing how information is divided between the figure and the text in the same question. The 2,612 original questions, the total constructed across the six versions, and the 788 original questions in the public testmini should be kept distinct; All summarizes only the five multimodal versions, Text Only is a separate ablation, and CoT-E scores and w/o scores must not be ranked together.
 
@@ -203,12 +203,6 @@ Basis of the overview: [S1](https://mathverse-cuhk.github.io/) [S2](https://arxi
 > Checksum of the PDF bytes downloaded from the source site this time. This does not claim that an existing copy was re-sent or replaced.
 
 **PDF字节数**：5598195 [S10](https://arxiv.org/pdf/2403.14624)
-
-**原有文件夹**：{"id": "1EgsP1-Zm7CkY5a_mLHgspdKsiyOsnFOi", "webViewLink": " [S19](
-
-**其他材料**：[{"kind": "Chinese introduction", "id": "1Y-1EkoyNsWvUfR9pJbYn4DN1YqP3N_DRHMN9RZht_n4", "webViewLink": " [S20](
-
-**原有 PDF**：{"id": "1XMpETqBdB0LhwZVfNfFhnyaVHnt_R5Yy", "webViewLink": " [S21](
 
 ## Changelog
 

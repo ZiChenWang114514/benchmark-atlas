@@ -12,25 +12,25 @@ Source: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08)
 
 τ-bench
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### Full name
 
 τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Benchmark version
 
 Original retail / airline protocol; not mixed with τ²
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Paper version
 
 arXiv v1; submitted at 2024-06-18 04:33:08.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Release date
 
@@ -38,7 +38,7 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 Note: The time of the first arXiv paper submission; it is not automatically treated as the first-release time of the dataset.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Section
 
@@ -46,49 +46,49 @@ Agent
 
 Note: Benchmark Constitution editorial filing. Only the main section is counted.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Field tags
 
 - Tool-agent-user interaction
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
 MIT (as marked on the GitHub repository code; it does not automatically cover the original questions, third-party materials, or private test data)
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### Paper
 
 https://arxiv.org/abs/2406.12045
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Code repository
 
 https://github.com/sierra-research/tau-bench
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### 数据地址
 
 https://github.com/sierra-research/tau-bench
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://github.com/sierra-research/tau-bench
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### Paper title
 
 $\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -96,7 +96,7 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 Sierra
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Partner organizations
 
@@ -104,7 +104,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Authors
 
@@ -113,13 +113,13 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 - Pedram Razavi
 - Karthik Narasimhan
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Current maintainer
 
 Sierra Research / tau-bench team
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 资助与支持
 
@@ -127,7 +127,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -135,13 +135,13 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 Holds multi-turn exchanges with the user, calls database tools, and follows business policy, so as to complete realistic service tasks reliably.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Design background
 
 A single-turn tool call or a fixed plan cannot clearly measure sustained user interaction, policy following, and reliability across repeated runs.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Construction
 
@@ -149,31 +149,31 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 Retail and airline business policies, Python tool APIs, and a JSON database are designed by hand; a model assists in generating database contents, and humans write the task scenarios.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 出题背景
 
 The Sierra research team; users are simulated by a language model and cannot be called real customer conversations.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Review process
 
 Human-written scenarios and repeated agent runs iteratively verify that the tasks are feasible.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Quality control
 
 Success is judged by the final state of the target database and by required substrings of user replies, and unrelated or prohibited changes are checked.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 去污染与泄漏
 
 Public environments and tasks may be encountered by later training; randomness of simulated users cannot replace decontamination.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Data format
 
@@ -181,13 +181,13 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 Original retail test of 115 questions and airline test of 50 questions.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Question types
 
 Tool—Agent—user multi-turn business interaction.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Modalities
 
@@ -195,25 +195,25 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 - Structured database
 - 函数调用
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Languages
 
 English dialogue and Markdown policies; Python tools/JSON state.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Difficulty
 
 Spans policies, collection of user information, and multiple actions; the original paper reports by domain and does not assume a unified mix of difficulty.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 数据划分
 
 The original data, tools, policies, and evaluation code are public; user goals and gold-standard final states are not shown to the agent.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -221,31 +221,31 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
 
 pass^k (all k repeated trials succeed); the average success rate is also reported; the definition is the opposite of pass@k, which counts at least one success.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### Scoring
 
 The final-state database is compared with the gold standard, together with a check of required reply content; this is not a complete audit of all intermediate behavior.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 提示与运行设置
 
 The original paper allows at most 30 agent actions per task; the main results use at least 3 trials, with agent temperature 0.0 and user temperature 1.0. The current README defaults to a gpt-4o user simulator, and the model and the llm, react, verify, or reflection strategy can be changed; the two must not be mixed as one setting.
 
-Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， ) ; [2](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08); [2](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08)
 
 ### 评测脚本
 
 https://github.com/sierra-research/tau-bench
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### 可比性提醒
 
 The domain average differs from the mean weighted by task; the user model, the number of runs, pass^k/pass@k, and the τ²/τ³ versions must be distinguished.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ## Current status
 
@@ -263,9 +263,9 @@ Source: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08)
 
 ### 论文修订记录
 
-- {"version": "v1", "submitted_at": "2024-06-18 04:33:08 ", "timezone": ""}
+- {"version": "v1", "submitted_at": "2024-06-18 04:33:08 "}
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-08)
 
 ### 饱和证据与局限
 
@@ -277,7 +277,7 @@ Source: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08)
 
 The official statement explicitly says that tasks in the original repository are no longer updated and are outdated; comparisons meant for external use must pin an old commit or use the τ³ revised tasks, and record them separately. Agreement of the final state does not guarantee that every intermediate action complies with policy.
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08， ) ; [2](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08); [2](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08)
 
 ### 衍生或后继基准
 
@@ -297,7 +297,7 @@ Source: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-08)
 
 https://github.com/sierra-research/tau-bench
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### 第三方入口
 
@@ -305,7 +305,7 @@ Unverified
 
 Note: Independent leaderboard coverage of this benchmark by AA / Epoch / LMArena, on the same definition, was not verified in these sources; other tasks are not used as substitutes.
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### 可核验结果
 
@@ -364,7 +364,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07)
 
 ### 公开反馈渠道
 
@@ -372,7 +372,7 @@ https://github.com/sierra-research/tau-bench/issues
 
 Note: Public repository feedback entry point; no question was sent.
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07)
 
 ### 官方社交账号
 
@@ -380,7 +380,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07)
 
 ### 联系方式/隐私原则
 
@@ -388,7 +388,7 @@ Unverified
 
 Note: The listed official materials were searched this time, but exact verification of this field was not completed; this does not mean that the official source has not made it public.
 
-Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07， )
+Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07)
 
 ## Original files
 
@@ -396,13 +396,13 @@ Sources: [1](https://arxiv.org/abs/2406.12045) (accessed 2026-11-07， )
 
 https://arxiv.org/pdf/2406.12045
 
-Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08)
 
 ### PDF SHA-256
 
 0ce66a1763d698c61bb311c3c874bf593d1e9a5bfff11bb35f6f72b981f6da56
 
-Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08)
 
 ### PDF bytes
 
@@ -410,37 +410,15 @@ Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， )
 663224
 ```
 
-Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08， )
-
-### Folder
-
-```json
-{
-  "id": "1OSJJGGjM50lJjBWupTy-CH-8zprFfzC2"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
+Sources: [1](https://arxiv.org/pdf/2406.12045) (accessed 2026-11-08)
 
 ### Other documents
 
-- {"type": "Chinese-language introductory Google Doc", "id": "1Wt6ZxjHPH_kc-ECvPjbH1vXfrvufjw409sMahTTSDCQ", "webViewLink": "
-
 Note: The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
 
-Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07， ) ; [2]( 2026-11-07， )
+Sources: [1](https://github.com/sierra-research/tau-bench) (accessed 2026-11-07); [2]( 2026-11-07， )
 
 ### 论文原件
-
-```json
-{
-  "id": "1cMD6GLUb-mTNgyvnKsthuUraunZbJWHQ"
-  "webViewLink": "
-}
-```
-
-Sources: [1]( 2026-11-07， )
 
 ## Changelog
 

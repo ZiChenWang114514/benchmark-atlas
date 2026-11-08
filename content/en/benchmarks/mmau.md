@@ -266,9 +266,7 @@ MMAU-v05.15.25: about 25% of the questions and answers revised, and about 5% of 
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2024-10-25；- **timezone**：
-- **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2609.28879v1；- **date**：2026-09-24；- **note**：Broadening Uncertainty Estimation for Audio Question Answering actually studies uncertainty estimation, and different question formats, on the MMAU audio question-answering data.；- **date_kst**：2026-09-24；- **verified_in_round1**：The body, the experiment tables, and the abs submission history were reopened; this is an actual evaluation rather than only a cited reference.
-- **verification**：The actual evaluation sections and tables whose evidence text was opened and checked, not judged only by whether a reference or web page is still available.
+- **continued_use_2026h2**：- - **url**：https://arxiv.org/html/2609.28879v1；- **date**：2026-09-24；- **note**：Broadening Uncertainty Estimation for Audio Question Answering actually studies uncertainty estimation, and different question formats, on the MMAU audio question-answering data.；- **date**：2026-09-24
 
 [来源](https://arxiv.org/abs/2410.19168)（访问 2026-11-08）；[来源](https://arxiv.org/html/2609.28879v1)（访问 2026-11-08）；[来源](https://arxiv.org/abs/2609.28879)（访问 2026-11-08）
 
@@ -458,7 +456,6 @@ Unverified
 
 [来源](https://arxiv.org/html/2609.28879v1)（访问 2026-11-08）
 
-
 [来源](https://sakshi113.github.io/mmau_homepage/leaderboard_data_v15_parsed.json)（访问 2026-11-08）；[来源](https://arxiv.org/html/2609.28879v1)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -520,26 +517,6 @@ https://arxiv.org/pdf/2410.19168
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2410.19168)（访问 2026-11-08）
-
-### Folder
-
-- **id**：1jL7cEn2wJW2BUPvBczHAQ48-trhfAWPP
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍；- **id**：1HYU_qKEN39kM7XToCN4Gpo2r6HC8pMKxKK5rb51s0Ks；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：13ewKCqXHV0WhBIedBk0uzWbrNjp5CNdG
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

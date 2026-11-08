@@ -285,8 +285,6 @@ The README of 2025-05 records 29 languages, Full and Lite; the note of 2025-08 s
 
 ### 论文修订及历史证据
 
-- **revisions**：- - **version**：v1；- **submitted_at**：2025-03-14；- **timezone**：；- - **version**：v2；- **submitted_at**：2025-05-27；- **timezone**：
-
 [来源](https://arxiv.org/abs/2503.10497)（访问 2026-11-08）
 
 ### Saturation
@@ -369,7 +367,6 @@ Unverified
 
 [来源](https://mmluprox.github.io/)（访问 2026-11-08）
 
-
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）；[来源](https://mmluprox.github.io/)（访问 2026-11-08）
 
 ### 覆盖范围与时效
@@ -430,26 +427,6 @@ b171ff829bfbb567974812dfebb860a63df7f756daf5662c7a1b659df76833bd
 > Byte count of the PDF file downloaded directly.
 
 [来源](https://arxiv.org/pdf/2503.10497)（访问 2026-11-08）
-
-### Folder
-
-- **id**：1lkm8WYv2rby8F0gpXf1ZMevpAmGW0vk9
-- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### 其他官方材料
-
-- - **kind**：中文介绍；- **id**：1iI9qctXi6aYW-mS7lXH46jm9PSI0fUQlkF3-W6KeXBE；- **webViewLink**：
-
-[来源]( 2026-11-07）
-
-### PDF归档
-
-- **id**：1gohaRGvTuT_OgM7cpG7rgGG4oAjWNDuR
-- **webViewLink**：
-
-[来源]( 2026-11-07）
 
 ## Changelog
 

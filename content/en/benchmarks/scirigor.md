@@ -12,31 +12,31 @@ Guide source: [Official materials](https://arxiv.org/abs/2609.06192) (accessed 2
 
 SciRigor
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Full name
 
 SciRigor
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Benchmark version
 
 The 100-case release protocol described in paper v1; an independent data-version label is Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Paper version
 
 v1; latest submission 2026-09-06
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Release date
 
 2026-09-06 (first arXiv submission; the date the data went online is not inferred).
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Section
 
@@ -44,13 +44,13 @@ Physics
 
 Note: The editorial section follows the selection list. It does not mean the benchmark measures only that section.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### Field tags
 
 - Cross-disciplinary open-ended scientific data analysis
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### 许可与适用范围
 
@@ -58,13 +58,13 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Paper
 
 https://arxiv.org/abs/2609.06192
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Code repository
 
@@ -72,7 +72,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 数据地址
 
@@ -80,19 +80,19 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Official homepage
 
 https://arxiv.org/abs/2609.06192
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Paper title
 
 SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Origin and maintenance
 
@@ -100,7 +100,7 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 The paper’s author team is Bowen Liu, Shuo Nie, Bodong Du, and Xiaomeng Li; the signed affiliations are HKUST and Alibaba Group.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### 合作机构/署名单位
 
@@ -109,7 +109,7 @@ Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
 
 Note: Affiliations named on the paper; not a basis for inferring a legal collaboration or an endorsement by the institution as a whole.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Authors
 
@@ -118,13 +118,13 @@ Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
 - Du, Bodong
 - Li, Xiaomeng
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 当前维护入口
 
 The corresponding author of the paper is Xiaomeng Li; an independent entry point for code and data maintenance remains Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Funders
 
@@ -132,7 +132,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Design goals
 
@@ -140,13 +140,13 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 In open-ended data analysis, a traceable and complete evidence chain of data → transform → numeric result → figure → conclusion.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Design background
 
 Looking only at the final score, whether the code runs, or whether an image looks right cannot confirm that the conclusion is actually supported by a correct chain of analysis.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Construction
 
@@ -154,31 +154,31 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 Cases are drawn from scientific papers and aligned with the question, the complete input, executable analysis of the source, the numerical results, the original figure, atomized conclusions, and provenance.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### 出题背景
 
 The authors are signed as HKUST and Alibaba; cases are reconstructed from the source articles, the authors’ code, and the data, and checked by a curator; external-expert qualifications were not obtained case by case, so the 100 cases cannot be called, as a group, original work by physics experts.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Review process
 
 GPT-5.6 assists with neutral task descriptions and the move to Python, with human curation, two rebuilds in a clean environment, and a final human audit.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Quality control
 
 The data, transform, result, figure, and claim nodes and edges are frozen, and the values and sources are checked; the reference evidence graph is kept fixed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 去污染措施
 
 Hidden gold evidence figures; public source papers may still enter pretraining, and an absence of contamination cannot be claimed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Data format
 
@@ -190,37 +190,37 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 - **subfields**：17
 - **domain_cases**：{"economics_and_policy": 24, "computing_and_information_sciences": 23, "social_and_behavioral_sciences": 22, "cognitive_science": 15, "life_and_health_sciences": 9, "physical_sciences": 7}
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Question types
 
 Open-ended scientific analysis: an executable analysis is submitted together with the results, visualizations, and conclusions produced in the same run.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### Modalities
 
 A multimodal chain of evidence made up of code, numerical results, charts, and claims in text.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### Languages
 
 Standardized reference analyses all use Python; source workflows may be ported from R, MATLAB, and others, with assistance from GPT-5.6 and then a check by the curator; tasks, structured conclusions, and examples are presented in English.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Difficulty
 
 Judgment rests on the full evidence chain rather than a single final value; this is not a traditional multiple-choice difficulty label.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 数据划分
 
 The reference evidence figures are hidden from the agent under test; the public-data download and the released proportion of the hidden test are Unverified.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Evaluation
 
@@ -228,31 +228,31 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 SoftECS (soft evidence-chain score) and Strict (success rate of a complete evidence chain); artifact fidelity and relation validity are also broken out.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### Scoring
 
 Rebuild a typed evidence graph, score the full path supporting the conclusion, and locate the earliest unsupported relation; equivalent analysis paths that have source support are allowed.
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### 提示与运行设置
 
 An open-ended analysis environment; model reasoning tiers are recorded as in the paper, and the high and very-high tiers are not mixed as the same setting.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 评测脚本
 
 Unverified
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 可比性提醒
 
 An alternative reasonable analysis of a frozen reference chain may require expert adjudication; internal consistency of the chain does not automatically prove that the scientific conclusion is true. The editorial classification is physics, but there are in fact only 7 physics cases.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Current status
 
@@ -260,7 +260,7 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 2026-11-08
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 数据版本与更新
 
@@ -268,28 +268,28 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 论文修订记录
 
 - **2026_H2_evidence**：[{"url": "https://arxiv.org/html/2609.06192v1", "date": "2026-09-05", "note": "The original SciRigor paper proposed a 100-case benchmark in H2 and conducted model experiments, evaluating the evidence chain from data to code to charts to conclusions."}]
 - **evidence_boundary**：A citation is not a rerun; this page keeps the historical experiments in the paper separate from the current leaderboard.
 - **paper_metadata**：{"title": "SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores", "authors": ["Liu, Bowen", "Nie, Shuo", "Du, Bodong", "Li, Xiaomeng"], "release": "2026-09-05", "latest": "2026-09-05", "version": "v1", "source_date_basis": "The old release and latest labels are date labels from the arXiv source site."}
-- **arxiv_submission_history_kst**：[{"version": "v1", "submitted_at_kst": "2026-09-06", "timezone": ""}]
+- **arxiv_submission_history**：[{"version": "v1", "submitted_at": "2026-09-06"}]
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 饱和程度
 
 The highest historical strict score is 18.0%, so a higher SoftECS clearly cannot be taken to mean that it is solved.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 争议与已知问题
 
 The frozen version of the semantic matcher, whether the sources are public, and coverage of alternative scientific methods affect the interpretation; the entry points for the live code and the data release remain Unverified.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### Derivative benchmarks
 
@@ -297,7 +297,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Leaderboard snapshot
 
@@ -305,13 +305,13 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 2026-11-08 (access date, not the experiment run date)
 
-Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/html/2609.06192v1) (accessed 2026-11-08)
 
 ### 官方榜单入口
 
 https://arxiv.org/html/2609.06192v1
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 第三方入口
 
@@ -319,7 +319,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 可核验结果
 
@@ -335,13 +335,13 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 - {"rank": "No cross-protocol rank", "model": "Qwen3-Coder-30B-A3B", "score": {"execution_percent": 29.0, "transform_fidelity_percent": 9.3, "result_fidelity_percent": 7.8, "visual_fidelity_percent": 17.6, "claim_fidelity_percent": 5.0, "result_to_claim_consistency_percent": 21.1, "SoftECS_percent": 1.7, "Strict_percent": 0.0}, "metric": "Every column is in %; SoftECS and Strict are not interchangeable", "track": "Paper v1 Table2; a 5-artifact interface; recorded separately by the reasoning tier of each model.", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "Exact transcription of the source table; not a rerun by this repository", "source_row": 10}
 - {"rank": "No cross-protocol rank", "model": "Qwen-AgentWorld-35B-A3B", "score": {"execution_percent": 12.0, "transform_fidelity_percent": 5.1, "result_fidelity_percent": 3.4, "visual_fidelity_percent": 7.1, "claim_fidelity_percent": 6.1, "result_to_claim_consistency_percent": 11.4, "SoftECS_percent": 0.0, "Strict_percent": 0.0}, "metric": "Every column is in %; SoftECS and Strict are not interchangeable", "track": "Paper v1 Table2; a 5-artifact interface; recorded separately by the reasoning tier of each model.", "source_url": "https://arxiv.org/pdf/2609.06192", "accessed": "2026-11-08", "collected_at": "2026-11-08 ", "result_type": "Exact transcription of the source table; not a rerun by this repository", "source_row": 11}
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### 榜单覆盖边界
 
 All 11 configurations × 8 metrics in Table2 of paper v1 are transcribed in full, the original row order is kept, and SoftECS and Strict are not combined into a new ranking; the highest SoftECS62.6 and Strict18.0 do not mean the same thing. Both the arXiv abstract and the PDF have been opened, and no verified independent code, HF dataset card, or entry to a real-time leaderboard was found. The related fields remain Unverified.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08); [2](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Contact
 
@@ -351,7 +351,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 公开反馈渠道
 
@@ -359,7 +359,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 官方社交账号
 
@@ -367,7 +367,7 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 联系方式原则
 
@@ -375,22 +375,19 @@ Unverified
 
 Note: The original paper and the official entry points have been checked, but this field did not receive sufficient evidence; this does not establish that it is Not disclosed.
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ## Original files
 
 ### 论文原件
 
-- **id**：1UT3mNtcceG-nu96eGYOS0m_I9oXcmm0R
-- **webViewLink**：
-
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 原始PDF地址
 
 https://arxiv.org/pdf/2609.06192
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)
 
 ### 原始文件SHA-256
 
@@ -398,26 +395,15 @@ Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
 
 Note: Byte count of the original PDF actually downloaded. The existing file is not changed on that basis.
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### 原始文件字节数
 
 4553200
 
-Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08， )
-
-### Folder
-
-- **id**：1Fp6ci2LhS1IP7M89RVAkEYJVq1jT_T7Q
-- **webViewLink**：
-
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/pdf/2609.06192) (accessed 2026-11-08)
 
 ### Other documents
-
-- {"type": "Chinese introduction", "id": "1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4", "webViewLink": "https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit"}
-
-Sources: [1](https://docs.google.com/document/d/1n95-3tY04DNxQMWo-UuowGtwxP1E7vqkMgymKT5I3I4/edit) (accessed 2026-11-07， )
 
 ## Changelog
 
@@ -425,4 +411,4 @@ Latest review
 Latest review
 Latest review
 
-Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， ) ; [2](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08， )
+Sources: [1](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08); [2](https://arxiv.org/abs/2609.06192) (accessed 2026-11-08)

@@ -1,5 +1,5 @@
 # LiveCodeBench
-> Verification: 2026-11-08. Verified to exist; a research snapshot, with Unverified fields retaining their marks
+> Verification: 2026-11-08.
 
 LiveCodeBench lowers the contamination risk of a static question bank by collecting new contest questions on a rolling basis, and it evaluates generation, self-repair, execution, and test-output prediction separately. Rolling collection does not automatically equal an absence of contamination: the question date window, the model's training-cutoff information, the release, the lite setting of the test set, and the sampling budget must all be fixed together.
 
@@ -174,13 +174,7 @@ Basis of the overview: [S1](https://arxiv.org/abs/2403.07974) [S2](https://livec
 
 **PDF字节数**：4960954 [S11](https://arxiv.org/pdf/2403.07974)
 
-**原有文件夹**：{"id": "1z_HNk1FMPnVaJNDIVXUWGGrisPnD3hoV", "webViewLink": " [S16](
-
-**其他材料**：[{"type": "Chinese-language introductory Google Doc", "id": "1iQzZ3B9j7C9CRYuWX6lgKirBvC2894MkhBghQou8p7s", "webViewLink": " [S2](https://livecodebench.github.io/) [S17](
-
 > The official original materials and the rewritten Chinese introduction are labeled separately; the HTML methods page is not the PDF of the original paper.
-
-**原有 PDF**：{"id": "1Z6rekgybFUTEyxblITw5c09XnFgkQ7UZ", "webViewLink": " [S18](
 
 ## Changelog
 
