@@ -2,8 +2,12 @@
 import Base from '../layouts/Base.astro';
 import HeatLegend from '../components/HeatLegend.astro';
 import TrendItem from '../components/TrendItem.astro';
+import { visualCopy } from '../i18n/visual';
 import { loadTrending, trendingViews } from '../lib/data';
 import { SECTIONS } from '../lib/chapters';
+import { dateStamp } from '../lib/format';
+
+const ui = visualCopy('zh');
 
 const trending = loadTrending();
 const items = trendingViews();
@@ -19,14 +23,14 @@ const windowText = trending.window?.from && trending.window?.through ? `${trendi
   description="2026 年下半年被评测机构和前沿模型发布采用的 benchmark。A 为多家机构共同采用，B 为主要单一机构在用。"
   active="trending"
 >
-  <div class="wrap doc-title">
-    <p class="eyebrow">热度</p>
+  <div class="wrap page-hero">
     <h1>近期热门</h1>
     <p class="lede">{trending.note}</p>
-    <p class="meta-line">
-      {trending.generated_at ? `生成 ${trending.generated_at}` : ''}
-      {windowText ? ` · 窗口 ${windowText}` : ''}
-      {` · ${items.length} 条 · 按名次排列`}
+    <p class="meta-row">
+      {dateStamp(trending.generated_at) && <span>{ui.snapshot} {dateStamp(trending.generated_at)}</span>}
+      {windowText && <span>窗口 {windowText}</span>}
+      <span>{items.length} 条</span>
+      <span>按名次排列</span>
     </p>
   </div>
   <div class="wrap">

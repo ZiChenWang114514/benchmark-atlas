@@ -224,6 +224,16 @@ export function asset(path: string): string {
   return `${base}${path.replace(/^\/+/, '')}`;
 }
 
+export function dateStamp(value?: string | null): string {
+  if (!value) return '';
+  const match = /^(\d{4}-\d{2}-\d{2})/.exec(value.trim());
+  return match ? match[1] : value;
+}
+
+export function displayName(name: string): string {
+  return name.replace(/[\u2018\u2019\u201A\u201B\u2032\uFF07]/g, "'");
+}
+
 export const TONES: Record<string, string> = {
   物理: '#243e66',
   化学: '#1d5c4f',

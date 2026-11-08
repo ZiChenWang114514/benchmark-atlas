@@ -1,6 +1,6 @@
 ---
 import Value from './Value.astro';
-import { badgeClass, formatBytes, isEmail, labelFor, publicText, safeUrl } from '../lib/format';
+import { badgeClass, dateStamp, formatBytes, isEmail, labelFor, publicText, safeUrl } from '../lib/format';
 
 interface Props {
   value: unknown;
@@ -81,7 +81,7 @@ const isChangelog =
   !!scalarRows &&
   scalarRows.every((row) => typeof row.date === 'string' && typeof row.change === 'string') &&
   scalarRows.every((row) => Object.keys(row).every((key) => changelogKeys.has(key)));
-const cols = scalarRows && !isChangelog ? columnsOf(scalarRows) : [];
+const cols = scalarRows && !isChangelog ? columnsOf(scalarRows).filter((key) => key !== 'timezone') : [];
 const drive = record && typeof record.webViewLink === 'string' ? record : null;
 const emailList = !!strings && strings.length > 0 && strings.every((item) => isEmail(item));
 const pillList = !!strings && !emailList && strings.length < 6 && strings.every((item) => item.length <= 16);
@@ -130,7 +130,7 @@ function tight(cell: unknown): boolean {
   <ol class="changelog">
     {scalarRows.map((item) => (
       <li>
-        <p class="when">{String(item.date)}{item.timezone ? ` · ${item.timezone}` : ''}</p>
+        <p class="when">{dateStamp(String(item.date)) || String(item.date)}</p>
         <p>{String(item.change)}</p>
       </li>
     ))}
@@ -164,7 +164,7 @@ function tight(cell: unknown): boolean {
           <p class="field-value"><a href={row.webViewLink} target="_blank" rel="noopener noreferrer">{typeof row.kind === 'string' ? row.kind : typeof row.type === 'string' ? row.type : '打开链接'}</a></p>
         )}
         <dl class="kv">
-          {Object.entries(row).filter(([key]) => key !== 'webViewLink' || !safeUrl(String(row.webViewLink ?? ''))).map(([key, item]) => (
+          {Object.entries(row).filter(([key]) => key !== 'timezone' && (key !== 'webViewLink' || !safeUrl(String(row.webViewLink ?? '')))).map(([key, item]) => (
             <div>
               <dt>{labelFor(key)}</dt>
               <dd><Value value={item} name={key} /></dd>
@@ -182,7 +182,7 @@ function tight(cell: unknown): boolean {
     </p>
     {Object.keys(drive).some((key) => !['webViewLink', 'id', 'kind', 'type'].includes(key)) && (
       <dl class="kv">
-        {Object.entries(drive).filter(([key]) => !['webViewLink', 'id', 'kind', 'type'].includes(key)).map(([key, item]) => (
+        {Object.entries(drive).filter(([key]) => key !== 'timezone' && !['webViewLink', 'id', 'kind', 'type'].includes(key)).map(([key, item]) => (
           <div>
             <dt>{labelFor(key)}</dt>
             <dd><Value value={item} name={key} /></dd>
@@ -193,7 +193,7 @@ function tight(cell: unknown): boolean {
   </div>
 ) : record ? (
   <dl class="kv">
-    {Object.entries(record).map(([key, item]) => (
+    {Object.entries(record).filter(([key]) => key !== 'timezone').map(([key, item]) => (
       <div>
         <dt>{labelFor(key)}</dt>
         <dd><Value value={item} name={key} /></dd>

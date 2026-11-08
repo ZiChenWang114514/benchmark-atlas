@@ -86,30 +86,45 @@ const hot = trendingFor(record.index.id);
       {extras.map(([key]) => <a href={`#extra-${key}`}>{labelFor(key)}</a>)}
     </nav>
     <article class="record">
-      <p class="crumbs">
-        <a href={page()}>目录</a>
-        <span aria-hidden="true"> / </span>
-        <a href={`${page()}#sec-${record.index.section}`}>{record.index.section}</a>
-      </p>
-      <h1>{record.index.name}</h1>
-      {textValue(file.basic_info.full_name) && textValue(file.basic_info.full_name) !== record.index.name && (
-        <p class="subhead">{textValue(file.basic_info.full_name)}</p>
-      )}
-      <p class="lede">{summary}</p>
-      <ul class="facts">
-        <li>主板块 {record.index.section}</li>
-        <li>发布 {textValue(file.basic_info.release_date) || '待核实'}</li>
-        <li>论文 {textValue(file.basic_info.paper_version) || '待核实'}</li>
-        <li>
-          数据版本{' '}
-          {versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : textValue(file.basic_info.version)}
-        </li>
-        {record.index.last_checked && <li>最近复核 {record.index.last_checked}</li>}
-        {hot && <li><span class="badge badge-hot">🔥 近期热门 {hot.heat_confidence}</span></li>}
-      </ul>
-      <div class="actions">
-        {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
-      </div>
+      <header class="dossier-hero">
+        <p class="crumbs inline-meta">
+          <a href={page()}>目录</a>
+          <a href={`${page()}#sec-${record.index.section}`}>{record.index.section}</a>
+        </p>
+        <div class="dossier-kicker">
+          <span class="domain-tag">{record.index.section}</span>
+          {record.index.cited_2026h2 && <span class="badge badge-cite">2026下半年仍被引用</span>}
+          {hot && <span class="badge badge-hot">🔥 近期热门 {hot.heat_confidence}</span>}
+        </div>
+        <h1>{record.index.name}</h1>
+        {textValue(file.basic_info.full_name) && textValue(file.basic_info.full_name) !== record.index.name && (
+          <p class="subhead">{textValue(file.basic_info.full_name)}</p>
+        )}
+        <p class="lede">{summary}</p>
+        <dl class="fact-grid">
+          <div>
+            <dt>发布</dt>
+            <dd>{textValue(file.basic_info.release_date) || '待核实'}</dd>
+          </div>
+          <div>
+            <dt>论文</dt>
+            <dd>{textValue(file.basic_info.paper_version) || '待核实'}</dd>
+          </div>
+          <div>
+            <dt>数据版本</dt>
+            <dd>{versionStatus ? <span class:list={['badge', badgeClass(versionStatus)]}>{versionStatus}</span> : (textValue(file.basic_info.version) || '待核实')}</dd>
+          </div>
+          {record.index.last_checked && (
+            <div>
+              <dt>最近复核</dt>
+              <dd>{record.index.last_checked}</dd>
+            </div>
+          )}
+        </dl>
+        <div class="actions">
+          {links.map(([label, href]) => <a class="action" href={href} target="_blank" rel="noopener noreferrer">{label}</a>)}
+        </div>
+      </header>
       <div class="callout">
         <p><strong>待核实不是“官方没公开”。</strong>{PENDING_EXPLANATION}</p>
       </div>
@@ -123,10 +138,21 @@ const hot = trendingFor(record.index.id);
           <ul class="trend-evidence">
             {hot.evidence.map((entry) => {
               const href = safeUrl(entry.url);
-              const label = [entry.organization, entry.date].filter(Boolean).join(' · ') || entry.url;
               return (
                 <li>
-                  {href ? <a href={href} target="_blank" rel="noopener noreferrer">{label}</a> : <span>{label}</span>}
+                  {href ? (
+                    <a class="inline-meta" href={href} target="_blank" rel="noopener noreferrer">
+                      {entry.organization && <span>{entry.organization}</span>}
+                      {entry.date && <span>{entry.date}</span>}
+                      {!entry.organization && !entry.date && <span>{entry.url}</span>}
+                    </a>
+                  ) : (
+                    <span class="inline-meta">
+                      {entry.organization && <span>{entry.organization}</span>}
+                      {entry.date && <span>{entry.date}</span>}
+                      {!entry.organization && !entry.date && <span>{entry.url}</span>}
+                    </span>
+                  )}
                   {entry.what ? <p>{entry.what}</p> : null}
                 </li>
               );
@@ -163,9 +189,9 @@ const hot = trendingFor(record.index.id);
               {news.map((item) => (
                 <article>
                   <p class="kicker">{item.type}</p>
-                  <p class="when">
-                    观察 {item.observed_date}
-                    {item.event_date && item.event_date !== '待核实' ? ` · 事件 ${item.event_date}` : ' · 事件日期待核实'}
+                  <p class="when inline-meta">
+                    <span>观察 {item.observed_date}</span>
+                    <span>{item.event_date && item.event_date !== '待核实' ? `事件 ${item.event_date}` : '事件日期待核实'}</span>
                   </p>
                   <p>{item.title}</p>
                   <p class="news-body">{publicText(item.body)}</p>
@@ -186,19 +212,16 @@ const hot = trendingFor(record.index.id);
         <Chapter id={`extra-${key}`} title={labelFor(key)} entries={[{ label: labelFor(key), name: key, field }]} />
       ))}
 
-      <p class="fine">
-        schema {file.schema_version ?? '未注明'}
-      </p>
       <nav class="pager" aria-label="同板块">
         {previous ? (
           <a href={page(`benchmarks/${previous.index.id}`)}>
-            <small>上一条 · {record.index.section}</small>
+            <small class="inline-meta"><span>上一条</span><span>{record.index.section}</span></small>
             {previous.index.name}
           </a>
         ) : <span></span>}
         {following && (
           <a class="next" href={page(`benchmarks/${following.index.id}`)}>
-            <small>下一条 · {record.index.section}</small>
+            <small class="inline-meta"><span>下一条</span><span>{record.index.section}</span></small>
             {following.index.name}
           </a>
         )}

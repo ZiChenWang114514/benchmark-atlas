@@ -1,0 +1,90 @@
+---
+interface Item {
+  rank: number;
+  name: string;
+  value: number;
+  href: string;
+}
+interface Props {
+  items: Item[];
+}
+const { items } = Astro.props;
+
+function chooseStep(span: number): number {
+  for (const step of [0.5, 1, 2, 5, 10, 20, 50]) {
+    if (span / step <= 5) return step;
+  }
+  return 100;
+}
+function formatTick(value: number): string {
+  if (Number.isInteger(value)) return String(value);
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
+}
+
+const values = items.map((item) => item.value);
+const hi = values.length ? Math.max(...values) : 0;
+const lo = values.length ? Math.min(...values) : 0;
+const step = chooseStep(Math.max(hi - lo, stepGuard(hi)));
+let floor = Math.floor(lo / step) * step;
+if (floor >= lo - 1e-9) floor -= step;
+const span = Math.max(hi - floor, step);
+const ticks = axisTicks(floor, hi, step);
+
+function stepGuard(high: number): number {
+  return high > 0 ? high * 0.05 : 1;
+}
+function axisTicks(start: number, end: number, gap: number): { value: number; edge: 'start' | 'mid' | 'end' }[] {
+  const marks: number[] = [];
+  for (let value = start; value < end - gap * 0.2; value += gap) marks.push(round(value));
+  marks.push(round(end));
+  const unique = [...new Set(marks.map((value) => formatTick(value)))].map((label) => Number(label));
+  return unique.map((value, index) => ({
+    value,
+    edge: index === 0 ? 'start' : index === unique.length - 1 ? 'end' : 'mid',
+  }));
+}
+function round(value: number): number {
+  return Math.round(value * 1000) / 1000;
+}
+function widthOf(value: number): number {
+  return Math.max(0, Math.min(100, ((value - floor) / span) * 100));
+}
+function tier(value: number): string {
+  const ratio = hi > 0 ? value / hi : 0;
+  if (ratio >= 0.92) return 'tier-high';
+  if (ratio >= 0.8) return 'tier-mid';
+  return 'tier-low';
+}
+function label(value: number): string {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1);
+}
+---
+<div class="chart-figure">
+  <ol class="bar-chart">
+    {items.map((item) => (
+      <li>
+        <span class:list={['rank-no', item.rank <= 3 && `podium-${item.rank}`]}>{item.rank}</span>
+        <a class="bar-name" href={item.href}>{item.name}</a>
+        <span class="bar-track" aria-hidden="true">
+          <span class={tier(item.value)} style={`width:${widthOf(item.value)}%`}></span>
+        </span>
+        <span class="bar-val num">{label(item.value)}</span>
+      </li>
+    ))}
+  </ol>
+  <div class="bar-axis" aria-hidden="true">
+    <span class="bar-axis-pad"></span>
+    <span class="bar-axis-pad"></span>
+    <div class="bar-axis-scale">
+      {ticks.map((tick) => (
+        <span class="bar-tick" data-edge={tick.edge} style={`left:${widthOf(tick.value)}%`}>
+          <i></i>
+          {formatTick(tick.value)}
+        </span>
+      ))}
+    </div>
+    <span class="bar-axis-pad"></span>
+  </div>
+  <p class="sr-only">刻度从 {formatTick(floor)} 到 {formatTick(hi)}</p>
+</div>

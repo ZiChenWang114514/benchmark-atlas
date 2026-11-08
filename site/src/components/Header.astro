@@ -1,9 +1,12 @@
 ---
+import { visualCopy } from '../i18n/visual';
 import { page } from '../lib/format';
+
 interface Props {
   active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
 }
 const { active } = Astro.props;
+const ui = visualCopy('zh');
 const items = [
   { id: 'home', href: page(), label: '首页' },
   { id: 'trending', href: page('trending'), label: '近期热门' },
@@ -15,14 +18,44 @@ const items = [
 ---
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href={page()}>
-      Benchmark Constitution
-      <small>基准收集宪法</small>
-    </a>
-    <nav class="nav" aria-label="站点">
+    <a class="wordmark" href={page()}>Benchmark Constitution</a>
+    <button
+      type="button"
+      class="nav-toggle"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      data-open={ui.menu}
+      data-close={ui.close}
+    >{ui.menu}</button>
+    <nav class="nav" id="site-nav" aria-label="站点">
       {items.map((item) => (
         <a href={item.href} aria-current={active === item.id ? 'page' : undefined}>{item.label}</a>
       ))}
     </nav>
   </div>
 </header>
+<script>
+  const header = document.querySelector<HTMLElement>('.site-header');
+  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const nav = document.querySelector<HTMLElement>('#site-nav');
+  if (header && toggle && nav) {
+    const openLabel = toggle.dataset.open || '';
+    const closeLabel = toggle.dataset.close || '';
+    const setOpen = (open: boolean) => {
+      header.classList.toggle('nav-open', open);
+      document.body.classList.toggle('nav-lock', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.textContent = open ? closeLabel : openLabel;
+    };
+    toggle.addEventListener('click', () => setOpen(!header.classList.contains('nav-open')));
+    nav.addEventListener('click', (event) => {
+      if ((event.target as HTMLElement | null)?.closest('a')) setOpen(false);
+    });
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') setOpen(false);
+    });
+    window.matchMedia('(min-width: 861px)').addEventListener('change', (event) => {
+      if (event.matches) setOpen(false);
+    });
+  }
+</script>

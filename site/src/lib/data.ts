@@ -253,6 +253,6 @@ export function trendingFor(id: string): TrendingView | undefined {
 
 export function newsWhen(item: NewsItem): string {
   const observed = `观察 ${item.observed_date}`;
-  if (!item.event_date || item.event_date === '待核实') return `${observed} · 事件日期待核实`;
-  return `${observed} · 事件 ${item.event_date}`;
+  if (!item.event_date || item.event_date === '待核实') return `${observed}，事件日期待核实`;
+  return `${observed}，事件 ${item.event_date}`;
 }
