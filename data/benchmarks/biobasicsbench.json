@@ -1,0 +1,581 @@
+{
+  "id": "biobasicsbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "BioBasicsBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "BioBasicsBench",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "version": {
+      "value": "2026-11-06官方页面所述版本",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "release_date": {
+      "value": "2026-11-06",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "湿实验",
+        "实验数据判读"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "OpenAI与Ligo。页面称Ligo是一家做酶设计的生物技术公司。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "maintainer": {
+      "value": "OpenAI",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "判读原始实验数据，识别错误，并判断证据能否支持结论。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "页面认为，用论文里挑选过的图表和图像做成的基准，会漏掉湿实验里失败实验、含糊图像和互相冲突的观察。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "科学家用自己实验中的数据出题，并为每题写评分标准。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "出题的是做湿实验的科学家；外部复核者是在湿实验室工作的博士层级科学家。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每题经过未参与出题的Ligo科学家内部复核、湿实验室博士层级科学家外部复核，以及最后一次内部复核。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "复核者检查提示、实验证据、量规、作者笔记，以及一次已评分的模型作答。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "100道任务，分属蛋白质方法、成像与流式、定量与测定、核酸方法、分子克隆。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "智能体返回结构化答案，包含所要求的结论、测量或建议，并在需要时给出推理。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "凝胶和印迹图像、平板照片、显微镜堆栈、测序读段、酶标仪导出和实验台视频等原始证据。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "difficulty": {
+      "value": "从读取凝胶中DNA样品分子量，到较详细的测定分析。页面称这些都是湿实验科学家应能稳定完成的日常工作。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "平均奖励，即任务得分占可用分数的百分比。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "按量规中的单项标准给分，用以区分正确结论和部分正确的分析。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "页面报告7个模型、37组模型与推理力度设置，每个设置对100题各做5次。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "页面上的分数是OpenAI自报，不是独立机构复测。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "2026-11-06官方页面所述版本",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-06",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "页面的xhigh表中，GPT-6 Astra平均奖励66.7%，GPT-5.6 Sol为43.8%。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "这是厂商在自己的页面上报告的结果。",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+        "accessed": "2026-11-08"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-08",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+        "accessed": "2026-11-08"
+      }
+    ]
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "id": "phyrd",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "PHYRD",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "PHYRD：复现并延展理论物理研究的持续更新基准",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2610.32575，2026-10-23提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv首发版，2026-10-23提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "section": {
+      "value": "物理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "理论物理",
+        "推导复现",
+        "改条件发现"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2610.32575",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://arxiv.org/abs/2610.32575",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文列出EPIC Lab、上海交通大学、复旦大学、电子科技大学和中国科学技术大学。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "Qituan Zhang; Guo Chen; Linfeng Zhang; Wenlong Zhang",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "复现已发表理论结果的推导，并在修改后的理论条件下继续推导。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为竞赛题和科学编程评测不足以检查理论物理推导的假设、完整性，以及计算证据是否支持一般结论。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "Reproduce检验已发表结果的推导；Discover给出相对原研究改变了什么、哪些前提保持不变。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "quality_control": {
+      "value": "FormulaForest为任务配备参考解答和子题级量规。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "63道Reproduce题，43道Discover题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "公开子题按对错计分，并报告整题是否全部正确。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本中的理论推导。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "public_hidden_split": {
+      "value": "论文报告公开子题的分数，并写明将按新发表的研究追加带时间戳的题目。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "子题准确率与整题准确率。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "整题准确率要求每一部分都正确，分母是全部题目。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "五个模型在无工具条件下做63道Reproduce题，并对同一批43道Discover题分别做闭卷和工具辅助。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "论文自报的准确率区间不是独立机构的实时榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "arXiv:2610.32575，2026-10-23提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "本次只核到2026-10-23提交的版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文报告五个模型在Reproduce上的整题准确率介于49.21%与68.25%，闭卷Discover介于18.60%与74.42%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "数字来自论文自身实验，不是独立实时榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "zhanglinfeng@sjtu.edu.cn",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2610.32575",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.32575",
+        "accessed": "2026-11-08"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-08",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.32575",
+        "accessed": "2026-11-08"
+      }
+    ]
+  }
+}

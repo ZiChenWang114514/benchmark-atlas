@@ -224,7 +224,7 @@ const timeline = [
                 </svg>
               </section>
             )}
-            {peerShown.length > 1 && (
+            {impactRow && typeof impactRow.score === 'number' && peerShown.length > 1 && (
               <section class="viz-card" aria-label={t(locale, 'detail.peers', { domain: sectionLabel(record.index.section, locale) })}>
                 <h2>{t(locale, 'detail.peers', { domain: sectionLabel(record.index.section, locale) })}</h2>
                 <ol class="peer-bars">

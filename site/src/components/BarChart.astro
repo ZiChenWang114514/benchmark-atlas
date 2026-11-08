@@ -10,7 +10,7 @@ interface Props {
   items: Item[];
   strong?: boolean;
 }
-const { items, strong = false } = Astro.props;
+const { items, strong = false, zero = false } = Astro.props;
 const locale = currentLocale();
 
 function chooseStep(span: number): number {
@@ -28,9 +28,10 @@ function formatTick(value: number): string {
 const values = items.map((item) => item.value);
 const hi = values.length ? Math.max(...values) : 0;
 const lo = values.length ? Math.min(...values) : 0;
-const step = chooseStep(Math.max(hi - lo, stepGuard(hi)));
+const step = zero ? chooseStep(Math.max(hi, stepGuard(hi))) : chooseStep(Math.max(hi - lo, stepGuard(hi)));
 let floor = Math.floor(lo / step) * step;
-if (floor >= lo - 1e-9) floor -= step;
+if (zero) floor = 0;
+else if (floor >= lo - 1e-9) floor -= step;
 const span = Math.max(hi - floor, step);
 const ticks = axisTicks(floor, hi, step);
 
