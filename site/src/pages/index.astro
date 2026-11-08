@@ -15,7 +15,7 @@ import {
   trendingViews,
 } from '../lib/data';
 import { loadHeat, loadImpact } from '../lib/boards';
-import { dateStamp, page, publicText, safeUrl, textValue, tone } from '../lib/format';
+import { dateStamp, displayName, page, publicText, safeUrl, textValue, tone } from '../lib/format';
 
 const ui = visualCopy('zh');
 const index = loadIndex();
@@ -137,7 +137,7 @@ function pct(value: number): number {
                   return (
                     <a class="rail-row" href={href}>
                       <span class:list={['rank-no', row.rank != null && row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
-                      <span class="rail-name">{row.name}</span>
+                      <span class="rail-name">{displayName(row.name)}</span>
                       <span class="rail-score">
                         <span class="num">{score.toFixed(1)}</span>
                         <span class="track" aria-hidden="true"><span style={`width:${pct(score)}%`}></span></span>
@@ -156,7 +156,7 @@ function pct(value: number): number {
                   return (
                     <a class="rail-row" href={href}>
                       <span class:list={['rank-no', row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
-                      <span class="rail-name">{row.name}</span>
+                      <span class="rail-name">{displayName(row.name)}</span>
                       <span class="rail-score">
                         <span class="num">{row.count}</span>
                         <span class="track" aria-hidden="true"><span style={`width:${pct(share * 100)}%`}></span></span>

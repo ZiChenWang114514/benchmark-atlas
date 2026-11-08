@@ -230,6 +230,10 @@ export function dateStamp(value?: string | null): string {
   return match ? match[1] : value;
 }
 
+export function displayName(name: string): string {
+  return name.replace(/[\u2018\u2019\u201A\u201B\u2032\uFF07]/g, "'");
+}
+
 export const TONES: Record<string, string> = {
   物理: '#243e66',
   化学: '#1d5c4f',

@@ -52,6 +52,10 @@ export type ImpactRow = {
   components?: Record<string, number | null>;
   raw?: Record<string, number | string | null>;
   flags?: string[];
+  assessment_review?: {
+    formal_quality_audit_complete?: boolean;
+    independent_reviewers?: number;
+  };
 };
 
 export type ImpactFile = {

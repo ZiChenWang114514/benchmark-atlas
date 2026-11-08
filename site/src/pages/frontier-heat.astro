@@ -3,7 +3,8 @@ import Base from '../layouts/Base.astro';
 import { visualCopy } from '../i18n/visual';
 import { loadHeat, rankArrow, type HeatFile } from '../lib/boards';
 import { loadIndex } from '../lib/data';
-import { dateStamp, page, safeUrl } from '../lib/format';
+import { dateStamp, displayName, page, safeUrl } from '../lib/format';
+import BarChart from '../components/BarChart.astro';
 
 const ui = visualCopy('zh');
 const heat = loadHeat();
@@ -43,6 +44,13 @@ const movers = (() => {
     .slice(0, 5);
 })();
 
+const heatChart = (heat?.ranking ?? []).slice(0, 10).map((row) => ({
+  rank: row.rank,
+  name: displayName(row.name),
+  value: row.count,
+  href: known.has(row.benchmark_id) ? page('benchmarks/' + row.benchmark_id) : page('frontier-heat'),
+}));
+const heatChartMax = Math.max(...heatChart.map((item) => item.value), 1);
 function shareOf(count: number, share: number | null | undefined, models: number): number {
   const value = typeof share === 'number' ? share : (models ? count / models : 0);
   return Math.max(0, Math.min(1, value));
@@ -75,6 +83,12 @@ function shareOf(count: number, share: number | null | undefined, models: number
   <div class="wrap">
     {heat ? (
       <>
+        {heatChart.length > 0 && (
+          <section class="chart-block" aria-labelledby="heat-top">
+            <h2 id="heat-top">{ui.topChart}</h2>
+            <BarChart items={heatChart} max={heatChartMax} />
+          </section>
+        )}
         <section class="section" aria-labelledby="heat-models">
           <header class="flag">
             <h2 id="heat-models">窗口内模型</h2>
@@ -154,7 +168,7 @@ function shareOf(count: number, share: number | null | undefined, models: number
                         </td>
                       )}
                       <td class="name-cell" data-label={ui.colName}>
-                        {known.has(row.benchmark_id) ? <a href={page('benchmarks/' + row.benchmark_id)}>{row.name}</a> : row.name}
+                        {known.has(row.benchmark_id) ? <a href={page('benchmarks/' + row.benchmark_id)}>{displayName(row.name)}</a> : displayName(row.name)}
                       </td>
                       <td data-label={ui.colDomain}>{row.domain ? <span class="domain-tag">{row.domain}</span> : <span class="na" title={ui.nullTip}>—</span>}</td>
                       <td class="num" data-label={ui.reported}>{row.count}</td>

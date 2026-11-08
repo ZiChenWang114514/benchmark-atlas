@@ -5,6 +5,7 @@ type Row = {
   domain: string;
   score: number | null;
   quality: number | null;
+  qualityPrior?: boolean;
   community: number | null;
   saturation: number | null;
   github: number | null;
@@ -20,12 +21,20 @@ function esc(value: unknown): string {
   ));
 }
 
-function metric(value: number | null, tip: string, label: string): string {
+function scoreTier(value: number): string {
+  if (value >= 68) return 'tier-high';
+  if (value >= 60) return 'tier-mid';
+  return 'tier-low';
+}
+function metric(value: number | null, tip: string, label: string, prior = false, priorTip = ''): string {
+  if (prior) {
+    return `<td data-label="${esc(label)}"><span class="na prior" title="${esc(priorTip)}">—</span></td>`;
+  }
   if (value == null || Number.isNaN(value)) {
     return `<td data-label="${esc(label)}"><span class="na" title="${esc(tip)}">—</span></td>`;
   }
   const width = Math.max(0, Math.min(100, value));
-  return `<td data-label="${esc(label)}"><span class="mini" title="${esc(tip)}"><b class="num">${value.toFixed(1)}</b><span class="track" aria-hidden="true"><span style="width:${width}%"></span></span></span></td>`;
+  return `<td data-label="${esc(label)}"><span class="mini" title="${esc(tip)}"><b class="num">${value.toFixed(1)}</b><span class="track" aria-hidden="true"><span class="${scoreTier(value)}" style="width:${width}%"></span></span></span></td>`;
 }
 
 export function mountImpactBoard(): void {
@@ -51,6 +60,7 @@ export function mountImpactBoard(): void {
     github: table.dataset.tipGithub || label.github,
   };
   const nullTip = table.dataset.nullTip || '';
+  const priorTip = table.dataset.priorTip || '';
   const unranked = table.dataset.unranked || nullTip;
   const count = document.querySelector<HTMLElement>('#impact-count');
   const empty = document.querySelector<HTMLElement>('#impact-empty');
@@ -93,13 +103,13 @@ export function mountImpactBoard(): void {
         : `<span class="na" title="${esc(nullTip)}">—</span>`;
       const score = row.score == null
         ? `<span class="na" title="${esc(nullTip)}">—</span>`
-        : `<span class="score-wrap" title="${esc(row.score)}"><span class="score-num">${row.score.toFixed(1)}</span><span class="track" aria-hidden="true"><span style="width:${Math.max(0, Math.min(100, row.score))}%"></span></span></span>`;
+        : `<span class="score-wrap" title="${esc(row.score)}"><span class="score-num">${row.score.toFixed(1)}</span><span class="track" aria-hidden="true"><span class="${scoreTier(row.score)}" style="width:${Math.max(0, Math.min(100, row.score))}%"></span></span></span>`;
       return `<tr class="${podium}">
         <td class="rank-cell" data-label="${esc(label.rank)}">${rank}</td>
         <td class="name-cell" data-label="${esc(label.name)}">${name}</td>
         <td data-label="${esc(label.domain)}">${domainText}</td>
         <td class="score-cell" data-label="${esc(label.score)}">${score}</td>
-        ${metric(row.quality, named(tipName.quality, row.quality), label.quality)}
+        ${metric(row.quality, named(tipName.quality, row.quality), label.quality, row.qualityPrior === true, priorTip)}
         ${metric(row.community, named(tipName.community, row.community), label.community)}
         ${metric(row.saturation, named(tipName.headroom, row.saturation), label.headroom)}
         ${metric(row.github, named(tipName.github, row.github), label.github)}

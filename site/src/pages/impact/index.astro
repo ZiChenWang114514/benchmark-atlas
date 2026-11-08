@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import { visualCopy } from '../../i18n/visual';
 import { loadImpact, type ImpactRow } from '../../lib/boards';
 import { loadIndex } from '../../lib/data';
-import { dateStamp, page } from '../../lib/format';
+import { dateStamp, displayName, page } from '../../lib/format';
+import BarChart from '../../components/BarChart.astro';
 
 const ui = visualCopy('zh');
 const impact = loadImpact();
@@ -13,15 +14,23 @@ const dimensions = new Map((impact?.dimensions ?? []).map((dimension) => [dimens
 function num(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) ? value : null;
 }
+function qualityPrior(row: ImpactRow, value: number | null): boolean {
+  if (value !== 50) return false;
+  const review = row.assessment_review;
+  const audited = review?.formal_quality_audit_complete === true && (review.independent_reviewers ?? 0) > 0;
+  return !audited;
+}
 function slim(row: ImpactRow, tier: 'ranked' | 'insufficient') {
   const components = row.components ?? {};
+  const quality = num(components.quality);
   return {
     rank: typeof row.rank === 'number' ? row.rank : null,
     id: row.id,
-    name: row.name,
+    name: displayName(row.name),
     domain: row.domain ?? '',
     score: num(row.score),
-    quality: num(components.quality),
+    quality: qualityPrior(row, quality) ? null : quality,
+    qualityPrior: qualityPrior(row, quality),
     community: num(components.community),
     saturation: num(components.headroom),
     github: num(components.github),
@@ -36,6 +45,16 @@ const domains = [...new Set(rows.map((row) => row.domain).filter(Boolean))].sort
 const rankedCount = impact?.ranking.length ?? 0;
 const thinCount = impact?.unscored?.length ?? 0;
 const stamp = dateStamp(impact?.generated_at);
+const topChart = (impact?.ranking ?? [])
+  .filter((row): row is ImpactRow & { score: number; rank: number } => typeof row.score === 'number' && typeof row.rank === 'number')
+  .slice(0, 10)
+  .map((row) => ({
+    rank: row.rank,
+    name: displayName(row.name),
+    value: row.score,
+    href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
+  }));
+const chartMax = Math.max(...topChart.map((item) => item.value), 1);
 const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
 ---
 <Base title="学术影响力榜" description="按引用、代码、社区采用和饱和度等维度合成的 benchmark 影响力指数。" active="impact">
@@ -67,6 +86,12 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
   <div class="wrap" id="impact-board">
     {impact ? (
       <>
+        {topChart.length > 0 && (
+          <section class="chart-block" aria-labelledby="impact-top">
+            <h2 id="impact-top">{ui.topChart}</h2>
+            <BarChart items={topChart} max={chartMax} />
+          </section>
+        )}
         <form id="impact-form" class="board-toolbar" role="search" action={page('impact')} method="get">
           <div class="tabs" role="tablist">
             <button type="button" role="tab" data-tier="ranked" aria-selected="true">{ui.impactTabRanked} <span class="num">{rankedCount}</span></button>
@@ -99,6 +124,7 @@ const payload = JSON.stringify(rows).replaceAll('<', '\\u003c');
             data-tip-headroom={dimensions.get('headroom') || ui.evHeadroom}
             data-tip-github={dimensions.get('github') || ui.evGithub}
             data-null-tip={ui.nullTip}
+            data-prior-tip={ui.priorTip}
             data-unranked={ui.unranked}
           >
             <caption class="sr-only">学术影响力榜</caption>
