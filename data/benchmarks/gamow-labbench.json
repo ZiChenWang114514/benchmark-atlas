@@ -1,0 +1,804 @@
+{
+  "id": "gamow-labbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "Gamow LabBench",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "LabBench (Gamow Labs)",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1（20道持有任务）",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "2026年9月预印本",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-09-28",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "湿实验",
+        "实验设计",
+        "药物发现",
+        "基因组学"
+      ],
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "LabBench: Benchmarking AI wet lab experimental design and decision-making for AI Agents",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Gamow Labs。作者 Ben Reilly、Leah Damon、Daniel McKinnon。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "Ben Reilly；Leah Damon；Daniel McKinnon",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Gamow Labs",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "评测智能体能否根据真实湿实验室记录，在决策点提交下一步实验或证据支持的结论，并按实验室实际决策的二元量规计分。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "页面与预印本强调，模型常能解读既往实验，却难以独立选择、承诺或排序下一步实验。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "来自真实药物发现与基因组学湿实验室档案；在决策点给出当时记录，隐藏实验室解读与后续决策。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "Gamow Labs 团队发布。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "生物学家核验每道任务；任务经硬化，避免求解器轻易通过。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "每题约20至22条二元量规，绑定可见证据与隐藏记录。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "任务来自内部实验室记录，作者认为不易从公开互联网直接回忆。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "20道持有任务；基准页另列完整20题配置结果。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "自由形式报告，需承诺决策：部分任务要求排序下一步实验，其余要求判断证据支持的条件、模型、比较或主张。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "幻灯片导出、图表、表格、脚本与测序输出等实验室记录。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英文。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "最强智能体约通过五分之二量规；要求选择、承诺或排序的量规通过率约21%。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "持有任务；完整数据授权方式见官方联系说明。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "平均任务得分，即通过量规标准的比例。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "二元量规；官方另报告95%区间。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "五个前沿智能体各在厂商工具中每题运行一次；基准页亦列 Gemini 4 Argon（Antigravity）等完整配置。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "分数为 Gamow Labs 自报，不是第三方独立复测。注意与 FutureHouse 的 LAB-Bench 不同。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "v1；基准页最新记分卡约2026-10-08",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "预印本标 September 2026",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "未饱和。博文：GPT-6 Astra 40.8%，Claude Opus 5.5 40.5%，Grok 4.7 29.6%，Muse Spark 1.3 28.2%，Gemini 3.8 Flash 18.4%。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "与 FutureHouse LAB-Bench（本库 id lab-bench）名称易混，但来源与题型不同。可对照 AISLE、LabRobotBench、BioBasicsBench。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-09-28",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "博文：GPT-6 Astra 40.8%（中位约5分钟/题），Claude Opus 5.5 40.5%（约35分钟），Grok 4.7 29.6%，Muse Spark 1.3 28.2%，Gemini 3.8 Flash 18.4%。406条量规中182条无一模型通过。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "摘自官方博文、基准页与预印本摘要。",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions；https://gamowlabs.com/assets/labbench-preprint.pdf；https://gamowlabs.com/benchmarks",
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+        "accessed": "2026-11-10"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-10",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+        "accessed": "2026-11-10"
+      }
+    ]
+  }
+}

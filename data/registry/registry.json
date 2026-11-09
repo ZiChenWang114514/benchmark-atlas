@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1687,
+  "count": 1688,
   "items": [
     {
       "id": "3-bench",
@@ -444285,6 +444285,51 @@
       "metrics": {
         "citations": null,
         "gh_stars": 4,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "gamow-labbench",
+      "name": "Gamow LabBench",
+      "aliases": [
+        "LabBench Gamow",
+        "Gamow Labs LabBench"
+      ],
+      "domain": "生物与医学",
+      "subdomain": "湿实验室下一步实验决策",
+      "description_zh": "用20道来自真实湿实验室档案的持有任务，评测智能体能否决定下一步实验，并按实验室实际决策的二元量规计分。",
+      "organization": "Gamow Labs",
+      "release_date": "2026-09-28",
+      "paper_url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+      "arxiv_id": null,
+      "doi": null,
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+      "leaderboard_url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+      "task_format": "量规评分的开放式决策报告",
+      "size": "20 held-out tasks",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "官方页面 / 论文检索",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
         "hf_downloads": null,
         "hf_likes": null,
         "provenance": [],

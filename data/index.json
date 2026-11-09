@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-11-10",
-  "count": 188,
+  "count": 189,
   "per_section": {
     "物理": 16,
     "化学": 11,
-    "生物与医学": 22,
+    "生物与医学": 23,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -6693,6 +6693,33 @@
         },
         {
           "url": "https://huggingface.co/datasets/HydroSophyTech/BEAKER",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "gamow-labbench",
+      "name": "Gamow LabBench",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "湿实验",
+        "实验设计",
+        "药物发现"
+      ],
+      "summary": "用20道来自真实湿实验室档案的持有任务，评测智能体能否决定下一步实验，并按实验室实际决策的二元量规计分。",
+      "json": "data/benchmarks/gamow-labbench.json",
+      "content": "content/benchmarks/gamow-labbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/labbench-benchmarking-ai-wet-lab-decisions",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
           "accessed": "2026-11-10"
         }
       ],
