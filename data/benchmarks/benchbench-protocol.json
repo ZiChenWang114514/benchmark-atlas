@@ -1,0 +1,1034 @@
+{
+  "id": "benchbench-protocol",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "BenchBench-Protocol",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "BenchBench-Protocol: Evaluating Real-World Wet-Lab Protocol Reasoning and Modification",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "version": {
+      "value": "149道任务；96份源协议",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2608.23898v1（2026-08-24）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-08-24",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "section": {
+      "value": "生物与医学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "湿实验",
+        "协议修改",
+        "开放作答",
+        "评分细则"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2608.23898",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "dataset_url": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "official_homepage": {
+      "value": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "BenchBench-Protocol: Evaluating Real-World Wet-Lab Protocol Reasoning and Modification",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Benchling 团队发布。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "partners": {
+      "value": "作者单位均为 Benchling。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Aditya Sivakumar、Ashu Singhal、Nicholas Larus-Stone、Nithin Parsan（通讯作者与团队负责人）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Benchling",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "评测模型能否按真实实验约束改写或扩展已发表湿实验协议，并兼顾上下游步骤依赖。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "近期生命科学基准多为专家新写任务；真实协议修改受试剂、仪器与既有结果约束，分布可能不同。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "对比已发表协议与科学家在 Benchling 上的改编版本，回收查询与加权评分细则；来自96份源协议、九个湿实验生物学领域。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "作者来自 Benchling；任务经相关领域博士学位且至少三年台面经验的科学家审阅。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每道任务与细则经多名领域科学家独立审阅，仅保留高评分任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "任务与加权细则基于真实修改差异构建，并经专家质量控制。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "149道专家审阅的协议修改任务，覆盖九个湿实验生物学领域，源自96份协议。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放作答；按科学家向 LLM 提问的方式措辞，而非形式化题干。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本协议与修改说明。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "languages": {
+      "value": "论文与任务以英文为主。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "九个模型中 Claude Opus 5 最高约59.2%，其余约34.1%至47.1%；取十次最优仍未饱和。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "论文公开任务构造与评测结果；完整公开数据集链接待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "归一化加权细则分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "按专家核实、基于真实修改的加权细则对开放作答评分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "评测九个闭源与开源模型；论文报告取十次尝试最优仍未饱和。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "分数来自作者论文，不是第三方独立复测；任务基于 Benchling 平台真实修改。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文报告149道任务（arXiv:2608.23898v1）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "arXiv:2608.23898v1，2026-08-24。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "未饱和。Claude Opus 5 约59.2%；取十次最优仍未饱和。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "可对照 AISLE、LAB-Bench、BioProBench、BioBasicsBench、Gamow LabBench 等湿实验协议相关基准。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "third_party_url": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "results": {
+      "value": "作者评测九个模型：Claude Opus 5 归一化细则分约59.2%，其余约34.1%至47.1%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "仅汇总论文公开数字，未复跑评测。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "nithin.parsan@benchling.com",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "official_social": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "privacy_policy": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2608.23898",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "34c7a9382e4d8690f639194a05c8b8427121f59131665f0347a2f316195efc68",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "1725774",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "未公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "未公开"
+    },
+    "other_documents": {
+      "value": "https://arxiv.org/abs/2608.23898；https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2608.23898",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2608.23898",
+        "accessed": "2026-11-10"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-10",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2608.23898",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2608.23898",
+        "accessed": "2026-11-10"
+      }
+    ]
+  }
+}

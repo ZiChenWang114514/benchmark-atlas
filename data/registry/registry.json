@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1688,
+  "count": 1689,
   "items": [
     {
       "id": "3-bench",
@@ -444172,6 +444172,55 @@
         }
       ],
       "discovered_via": "官方页面 / 论文检索",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "benchbench-protocol",
+      "name": "BenchBench-Protocol",
+      "aliases": [
+        "BenchBench-Protocol",
+        "BenchBench Protocol"
+      ],
+      "domain": "生物与医学",
+      "subdomain": "湿实验协议修改推理",
+      "description_zh": "从科学家对已发表协议的真实修改中回收149道协议改写任务，覆盖九个湿实验生物学领域；Claude Opus 5 归一化细则分最高约59.2%。",
+      "organization": "Benchling",
+      "release_date": "2026-08-24",
+      "paper_url": "https://arxiv.org/abs/2608.23898",
+      "arxiv_id": "2608.23898",
+      "doi": null,
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+      "leaderboard_url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+      "task_format": "开放作答 / 加权评分细则",
+      "size": "149 tasks",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "arXiv / Benchling blog",
       "homepage_note_zh": null,
       "metrics": {
         "citations": null,

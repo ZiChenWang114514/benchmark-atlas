@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-11-10",
-  "count": 190,
+  "count": 191,
   "per_section": {
     "物理": 16,
     "化学": 11,
-    "生物与医学": 23,
+    "生物与医学": 24,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -6752,6 +6752,38 @@
         },
         {
           "url": "https://arxiv.org/pdf/2609.30971",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "benchbench-protocol",
+      "name": "BenchBench-Protocol",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "湿实验",
+        "协议修改",
+        "开放作答",
+        "评分细则"
+      ],
+      "summary": "从科学家对已发表协议的真实修改中回收149道协议改写任务，覆盖九个湿实验生物学领域；Claude Opus 5 归一化细则分最高约59.2%。",
+      "json": "data/benchmarks/benchbench-protocol.json",
+      "content": "content/benchmarks/benchbench-protocol.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23898",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.benchling.com/blog/can-llms-work-in-the-wet-lab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.23898",
           "accessed": "2026-11-10"
         }
       ],

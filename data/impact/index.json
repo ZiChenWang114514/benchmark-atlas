@@ -416883,6 +416883,59 @@
       "provenance": [],
       "assessment": {},
       "assessment_review": null
+    },
+    {
+      "rank": null,
+      "id": "benchbench-protocol",
+      "name": "BenchBench-Protocol",
+      "domain": "生物与医学",
+      "release_date": "2026-08-24",
+      "score": null,
+      "observed_score": null,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": null,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "paper_eligible": true,
+        "collected_at": "2026-11-10",
+        "nearest_benchmarks": [
+          "aisle",
+          "lab-bench",
+          "bioprobench",
+          "biobasicsbench",
+          "gamow-labbench"
+        ]
+      },
+      "flags": [
+        "insufficient_evidence",
+        "early_signal",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.0,
+        "label": "low",
+        "official_rank_eligible": false,
+        "rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间"
+      },
+      "provenance": [],
+      "assessment": {},
+      "assessment_review": null
     }
   ],
   "minimum_ranking_coverage": 0.4,
