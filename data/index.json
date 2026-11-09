@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 186,
+  "count": 187,
   "per_section": {
     "物理": 16,
-    "化学": 9,
+    "化学": 10,
     "生物与医学": 22,
     "地球与天文": 6,
     "材料": 6,
@@ -6631,6 +6631,37 @@
         },
         {
           "url": "https://gamowlabs.com/benchmarks",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "labopbench",
+      "name": "LabOPBench",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "有机合成",
+        "多模态决策"
+      ],
+      "summary": "用756道专家出题的开放式题目，评测多模态模型能否依据真实实验室证据作出与情境一致的实验判断。",
+      "json": "data/benchmarks/labopbench.json",
+      "content": "content/benchmarks/labopbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.19780",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/johnnylee00/LabOPBench",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.19780",
           "accessed": "2026-11-10"
         }
       ],

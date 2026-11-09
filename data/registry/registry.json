@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1686,
+  "count": 1687,
   "items": [
     {
       "id": "3-bench",
@@ -444320,6 +444320,54 @@
         "hf_likes": null,
         "provenance": [],
         "paper_eligible": false,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "labopbench",
+      "name": "LabOPBench",
+      "aliases": [
+        "Lab OP Bench"
+      ],
+      "domain": "化学",
+      "subdomain": "证据支撑的实验室决策",
+      "description_zh": "用756道专家出题的开放式题目，评测多模态模型能否依据真实实验室证据作出与情境一致的实验判断。",
+      "organization": "Shanghai AI Lab; SJTU; collaborators",
+      "release_date": "2026-10-14",
+      "paper_url": "https://arxiv.org/abs/2610.19780",
+      "arxiv_id": "2610.19780",
+      "doi": null,
+      "github_url": "https://github.com/johnnylee00/LabOPBench",
+      "hf_dataset": null,
+      "homepage": "https://arxiv.org/abs/2610.19780",
+      "leaderboard_url": "https://arxiv.org/abs/2610.19780",
+      "task_format": "多模态开放式判断",
+      "size": "756 questions",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.19780",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/johnnylee00/LabOPBench",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.19780",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "官方页面 / 论文检索",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": 4,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
         "collected_at": "2026-11-10"
       },
       "audit_history": []
