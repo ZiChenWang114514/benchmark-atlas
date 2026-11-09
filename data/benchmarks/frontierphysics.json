@@ -1,0 +1,753 @@
+{
+  "id": "frontierphysics",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "FrontierPhysics",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "version": {
+      "value": "v0.1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "arXiv v1 提交日期为2026-11-04。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "section": {
+      "value": "物理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "凝聚态物理",
+        "原子分子与光物理",
+        "量子信息",
+        "天体物理",
+        "流体力学",
+        "统计物理",
+        "光子学与成像",
+        "高能物理",
+        "化学物理"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文以 CC BY 4.0 发布；任务数据与评测代码的许可证待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.06910",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/collections/benchflow/frontierphysics-task-datasets",
+      "sources": [
+        {
+          "url": "https://huggingface.co/collections/benchflow/frontierphysics-task-datasets",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_title": {
+      "value": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "BenchFlow 与 University of California, Berkeley 等机构的物理研究者",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "partners": {
+      "value": "论文作者来自37个机构，包括 Caltech、Harvard、Stanford、Lawrence Berkeley National Laboratory、Oak Ridge National Laboratory 等。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "authors": {
+      "value": [
+        "Bingran You",
+        "Wenjun Ke",
+        "Ria Rosenauer",
+        "Bo Liu",
+        "Wenbo Chen",
+        "Min Chen",
+        "Shuqi Xu",
+        "Yue Ma",
+        "Jiechao Feng",
+        "Bo Chen",
+        "Xiangkai Sun",
+        "Jiarui Liu",
+        "Jinen Guo",
+        "Zeyu Zhou",
+        "Xu Huang",
+        "Zhuohan Li",
+        "Haoyu Li",
+        "Heguang Lin",
+        "Lijie Ding",
+        "Yadong Zeng",
+        "Kangqi Zhang",
+        "Xinge Liu",
+        "Hanwen Liu",
+        "Zhenghong Li",
+        "Alexander von Recum",
+        "Yuchen Zhu",
+        "Felix Schwarzfischer",
+        "Yizhou Zhao",
+        "Jicheng Wang",
+        "Binxu Li",
+        "Qian Yu",
+        "Chan Li",
+        "Cheng Dai",
+        "Di Wang",
+        "Haoyu Zhang",
+        "Jiankai Sun",
+        "Kaituo Feng",
+        "Mian Qin",
+        "Ruihong Yin",
+        "Yiqun Luo",
+        "Weiwei Wu",
+        "Shihong Pan",
+        "Tsung Yeh Hsieh",
+        "Xiao Huang",
+        "Yan Zhang",
+        "Sihan Li",
+        "Zirui Ren",
+        "Zengji Tu",
+        "Kyoung Whan Choe",
+        "Ke Sun",
+        "Vincenzo Galia",
+        "Vaisakhi Mishra",
+        "Jiashu He",
+        "Hongyang Wang",
+        "Zhiheng Yang",
+        "Shubham Gaur",
+        "Yifan Gu",
+        "Shuyi Wang",
+        "Zihao Zuo",
+        "Steven Dillmann",
+        "Yiyou Sun",
+        "Xinyang Han",
+        "Hanchung Lee",
+        "Molei Tao",
+        "Yue Zhao",
+        "Shilong Liu",
+        "Yuchen Wu",
+        "Xuandong Zhao",
+        "Xiangyi Li",
+        "Florian Brand",
+        "Gerbrand Ceder",
+        "Hartmut Haeffner"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "BenchFlow 团队（论文作者署名）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "评测智能体能否端到端完成理论、计算与实验物理研究：检索文献、制定研究计划、开展研究与实验，并产出结构化结果和科研论文。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "作者指出，现有物理基准多为固定问题、孤立子任务或给定答案的论文复现，很少同时检查研究质量与结果正确性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "42位物理研究者依据本人亲自完成的研究项目出题；182份投稿中录用56题。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "出题人包括博士生、博士后与研究科学家，来自26个机构；论文称每位出题人平均被引420次。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "三道审核：真实性与来源审查、相近领域专家同行评审、由六位物理学博士组成的管理团队终审。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "出题人须用当前最强智能体本地运行至少三次并做失败模式分析；团队人工复核 GPT-6 Astra 的168次运行，发现9次误判失败并据此修订任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "任务不向智能体提供原论文；是否设置文献截止时间及其他去污染措施待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "56个任务，覆盖9个物理领域。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放式多步研究任务，需提交可确定性校验的数值产物与论文 paper.pdf。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本、代码、数据文件，部分任务含图像或仿真设备；具体分布见论文附录C。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "languages": {
+      "value": [
+        "英语"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "研究级；论文称原项目平均耗时约270天，累计超过8,000小时研究。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "部分任务输入数据在 Hugging Face 公开；参考答案、隐藏测试与评分细则是否公开待核实。",
+      "sources": [
+        {
+          "url": "https://huggingface.co/collections/benchflow/frontierphysics-task-datasets",
+          "accessed": "2026-11-09"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "总体 Pass@1（三次运行平均）、Pass@3、确定性通过率与公式(1)的加权得分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "确定性校验器检查数值结果；评审智能体（GPT-5.6 Sol xhigh，运行于 Codex CLI）按出题人编写的评分细则打分；未通过校验器或任一阻断项则记0分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "各模型用最高可用推理强度，每题运行3次，单次上限10小时；GPT 用 Codex CLI，Claude 用 Claude Code，Grok 用 Grok Build，Gemini 用 Antigravity，其余模型用 Claude Code。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "实验使用 BenchFlow CLI；FrontierPhysics 专用评测仓库地址待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "url": "https://github.com/benchflow-ai/benchflow",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "不同模型使用不同智能体框架，分数同时反映模型与框架；论文另指出 Claude Opus 5.5 作评审时对同系列模型更宽松。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-09",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "v0.1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "arXiv v1：2026-11-04。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "远未饱和：最高总体 Pass@1 为 Claude Opus 5.5 的27.4%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "人工复核发现评审与任务设计会造成误判失败；修正后 GPT-6 Astra（xhigh）通过率由14.9%升至20.2%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-09",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://arxiv.org/pdf/2611.06910",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": [
+        {
+          "rank": 1,
+          "model": "claude-opus-5-5",
+          "score": 27.4,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 2,
+          "model": "gpt-6-astra",
+          "score": 23.2,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / max / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 3,
+          "model": "gpt-6-astra",
+          "score": 19.6,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / xhigh / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 4,
+          "model": "gpt-6-1-sol",
+          "score": 19.6,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 5,
+          "model": "gpt-6-1-terra",
+          "score": 14.3,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 6,
+          "model": "gpt-6-sol",
+          "score": 14.3,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 7,
+          "model": "claude-fable-5-1",
+          "score": 11.3,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 8,
+          "model": "claude-opus-5",
+          "score": 9.5,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 9,
+          "model": "gemini-4-argon",
+          "score": 8.3,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        },
+        {
+          "rank": 10,
+          "model": "kimi-k3-1-pro",
+          "score": 6.5,
+          "metric": "overall Pass@1 (%)",
+          "track": "FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8",
+          "source_url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "以下为论文表8所列总体 Pass@1 前十个配置，均由基准作者测得。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.06910",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "afec72218ffc2b82ebdf9a73374b6ed95c75e2ea8b292b21788555db8efb42cc",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": 3235112,
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": [
+        {
+          "type": "Hugging Face 任务数据集合集",
+          "url": "https://huggingface.co/collections/benchflow/frontierphysics-task-datasets"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/collections/benchflow/frontierphysics-task-datasets",
+          "accessed": "2026-11-09"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/pdf/2611.06910",
+        "accessed": "2026-11-09"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-09",
+        "change": "最近复核"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.06910",
+        "accessed": "2026-11-09"
+      }
+    ]
+  }
+}

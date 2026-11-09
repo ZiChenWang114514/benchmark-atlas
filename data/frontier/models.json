@@ -1,5 +1,19 @@
 [
   {
+    "id": "longcat-2-5",
+    "name": "LongCat-2.5",
+    "organization": "Meituan",
+    "release_date": "2026-11-01",
+    "sources": [
+      {
+        "url": "https://longcat.ai/blog/longcat-2.5/",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "benchmarks": [],
+    "note": "官方博客署日期为2026-11-01；首发为API服务，权重尚未公开。"
+  },
+  {
     "id": "gemini-4-carbon",
     "name": "Gemini 4 Carbon",
     "organization": "Google DeepMind",
@@ -344,23 +358,5 @@
     ],
     "benchmarks": [],
     "note": null
-  },
-  {
-    "id": "muse-spark-1-3",
-    "name": "Muse Spark 1.3",
-    "organization": "Meta",
-    "release_date": "2026-09-02",
-    "sources": [
-      {
-        "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
-        "accessed": "2026-11-07"
-      },
-      {
-        "url": "https://research.meta.ai/static/muse-spark-1-3-evaluation-report",
-        "accessed": "2026-11-07"
-      }
-    ],
-    "benchmarks": [],
-    "note": "9月2日边界并列按id升序选入；Qwen3.8-Max-0902同日位于其后。"
   }
 ]

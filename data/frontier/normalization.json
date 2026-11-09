@@ -92,7 +92,8 @@
       "Agents’ Last Exam v1.1",
       "Agents’ Last Exam",
       "Agents' Last Exam",
-      "Agents’ Last Exam V1"
+      "Agents’ Last Exam V1",
+      "ALE v1.1"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -234,7 +235,8 @@
       "AutomationBench-AA（Artificial Analysis 对 Zapier AutomationBench 的实现）",
       "AutomationBench",
       "Automation-Bench",
-      "Automation-Bench v1.0.6"
+      "Automation-Bench v1.0.6",
+      "AutomationBench v1.0.6"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -441,7 +443,8 @@
     "aliases": [
       "CharXiv",
       "CharXiv RQ",
-      "CharXiv (RQ)"
+      "CharXiv (RQ)",
+      "CharXiv-RQ w/ tools"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -831,7 +834,8 @@
       "GDPval-AA",
       "GDPVal-AA",
       "GDPVal-AA v2",
-      "GDPval-AA v2.1"
+      "GDPval-AA v2.1",
+      "GDPVal-AA rubrics"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -968,7 +972,8 @@
       "HLE-Diamond",
       "HLE-Verified",
       "HLE (w/o tools)",
-      "Humanity’s Last Exam Full w/ tools"
+      "Humanity’s Last Exam Full w/ tools",
+      "HLE w/ tools"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -1521,7 +1526,8 @@
     "name": "NL2Repo-Bench",
     "domain": "代码",
     "aliases": [
-      "NL2Repo-Bench"
+      "NL2Repo-Bench",
+      "NL2Repo"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -1707,7 +1713,8 @@
     "name": "ProgramBench",
     "domain": "其他",
     "aliases": [
-      "ProgramBench"
+      "ProgramBench",
+      "Program Bench Almost Resolved"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -1956,7 +1963,10 @@
       "SWE-Atlas-QnA",
       "SWE Atlas QnA",
       "SWE-Atlas",
-      "SWEAtlas CodeBase QnA"
+      "SWEAtlas CodeBase QnA",
+      "SWE Atlas - Codebase QnA",
+      "SWE Atlas - Refactoring",
+      "SWE Atlas - Test Writing"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -2018,7 +2028,9 @@
       "Terminal-bench 4.0",
       "Terminal-Bench 2.1",
       "Terminal Bench 4.0",
-      "TerminalBench4.0-AA"
+      "TerminalBench4.0-AA",
+      "Terminal Bench v2.1",
+      "Terminal Bench v4.0"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -2089,7 +2101,8 @@
     "domain": "多模态",
     "aliases": [
       "Video-MME",
-      "Video-MME-v2"
+      "Video-MME-v2",
+      "VideoMME"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -2339,7 +2352,8 @@
     "name": "MathVision",
     "domain": "数学",
     "aliases": [
-      "MathVision"
+      "MathVision",
+      "MathVision w/ tools"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   },
@@ -2359,6 +2373,110 @@
     "domain": "Agent",
     "aliases": [
       "Frontier Finance"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "paperbench": {
+    "id": "paperbench",
+    "name": "PaperBench",
+    "domain": "Agent",
+    "aliases": [
+      "PaperBench"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "longcat-appdev": {
+    "id": "longcat-appdev",
+    "name": "LongCat AppDev",
+    "domain": "代码",
+    "aliases": [
+      "LongCat AppDev Internal"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "researchrubrics": {
+    "id": "researchrubrics",
+    "name": "ResearchRubrics",
+    "domain": "Agent",
+    "aliases": [
+      "ResearchRubrics"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "skillsbench": {
+    "id": "skillsbench",
+    "name": "SkillsBench",
+    "domain": "Agent",
+    "aliases": [
+      "SkillsBench"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "frontierscience": {
+    "id": "frontierscience",
+    "name": "FrontierScience",
+    "domain": "推理",
+    "aliases": [
+      "FrontierScience"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "spreadsheetbench": {
+    "id": "spreadsheetbench",
+    "name": "SpreadsheetBench",
+    "domain": "Agent",
+    "aliases": [
+      "SpreadsheetBench 2",
+      "SpreadsheetBench"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "finsearchcomp": {
+    "id": "finsearchcomp",
+    "name": "FinSearchComp",
+    "domain": "Agent",
+    "aliases": [
+      "FinSearchComp T3",
+      "FinSearchComp"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "claw-eval": {
+    "id": "claw-eval",
+    "name": "Claw-Eval",
+    "domain": "Agent",
+    "aliases": [
+      "Claw-Eval Pass^3",
+      "Claw-Eval"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "longcatclawbench": {
+    "id": "longcatclawbench",
+    "name": "LongCatClawBench",
+    "domain": "Agent",
+    "aliases": [
+      "LongCatClawBench FORTE",
+      "LongCatClawBench-MM FORTE-MM"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "3dcodebench": {
+    "id": "3dcodebench",
+    "name": "3DCodeBench",
+    "domain": "多模态",
+    "aliases": [
+      "3DCodeBench Text→3D",
+      "3DCodeBench"
+    ],
+    "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "posterbench": {
+    "id": "posterbench",
+    "name": "PosterBench",
+    "domain": "多模态",
+    "aliases": [
+      "PosterBench"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
   }

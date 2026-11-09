@@ -105,23 +105,19 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "未公开",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2308.13149",
-          "accessed": "2026-11-08"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2308.13149",
-          "accessed": "2026-11-08"
-        },
-        {
           "url": "https://github.com/OpenDFM/SciEval",
-          "accessed": "2026-11-07"
+          "accessed": "2026-11-09"
+        },
+        {
+          "url": "https://huggingface.co/datasets/OpenDFM/SciEval",
+          "accessed": "2026-11-09"
         }
       ],
-      "status": "待核实",
-      "note": "该字段尚未完成精确核验，不表示官方未公开。"
+      "status": "未公开",
+      "note": "官方代码仓库根目录没有 LICENSE 文件，README 与 Hugging Face 数据集卡均未声明许可证。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2308.13149",
@@ -1763,6 +1759,10 @@
       },
       {
         "date": "2026-11-08",
+        "change": "最近复核"
+      },
+      {
+        "date": "2026-11-09",
         "change": "最近复核"
       }
     ],

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07",
-  "count": 178,
+  "generated_at": "2026-11-09",
+  "count": 179,
   "per_section": {
-    "物理": 14,
+    "物理": 15,
     "化学": 8,
     "生物与医学": 20,
     "地球与天文": 6,
@@ -6427,6 +6427,26 @@
         "rank": 78,
         "confidence": "B"
       }
+    },
+    {
+      "id": "frontierphysics",
+      "name": "FrontierPhysics",
+      "section": "物理",
+      "tags": [
+        "科研智能体",
+        "端到端研究"
+      ],
+      "summary": "物理研究者用本人真实课题出题的端到端研究基准：56个任务要求智能体自主检索文献、开展计算或实验并写出论文，最高通过率不足三成。",
+      "json": "data/benchmarks/frontierphysics.json",
+      "content": "content/benchmarks/frontierphysics.md",
+      "drive_pdf": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06910",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "last_checked": "2026-11-09"
     }
   ]
 }

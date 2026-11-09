@@ -1,10 +1,90 @@
 [
   {
+    "id": "frontierphysics-release",
+    "observed_date": "2026-11-09",
+    "event_date": "2026-11-04",
+    "title": "FrontierPhysics 发布：物理学家用本人课题检验端到端科研智能体",
+    "body": "56个任务来自42位物理研究者的真实课题，覆盖9个物理领域；论文报告26个配置中最高总体通过率为 Claude Opus 5.5 的27.4%，GPT-6 Astra（max）为23.2%。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.06910",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-04",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "biobasicsbench-release",
+    "observed_date": "2026-11-09",
+    "event_date": "2026-11-06",
+    "title": "OpenAI 与 Ligo 推出湿实验室分析基准 BioBasicsBench",
+    "body": "100个日常湿实验任务使用凝胶、菌落平板、显微图像与仪器原始数据，按专家评分细则给分；xhigh 设置下 GPT-6 Astra 平均得分66.7%，GPT-6.1 Sol 为62.0%。目前只评测了 OpenAI 自家模型。",
+    "sources": [
+      {
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-06",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "beaker-release",
+    "observed_date": "2026-11-09",
+    "event_date": "2026-11-04",
+    "title": "BEAKER：面向自动驾驶化学实验室的具身多模态基准",
+    "body": "1,000个专家整理的图像与视频问答样本覆盖11类任务，考察可操作区域定位、轨迹规划等实验执行判断；论文注明已被 NeurIPS 2026 评测与数据集赛道接收为 Spotlight。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.06911",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-04",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "longcat-2-5-frontier-heat",
+    "observed_date": "2026-11-09",
+    "event_date": "2026-11-01",
+    "title": "美团 LongCat-2.5 进入前沿热度窗口",
+    "body": "官方博客评测表列出31项评测，包括 Terminal Bench v4.0 38.5、FrontierScience 77.0、BrowseComp 91.9，均为厂商自报；NL2Repo-Bench 与 ProgramBench 在热度榜上分别升至第29和第13位。",
+    "sources": [
+      {
+        "url": "https://longcat.ai/blog/longcat-2.5/",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-01",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "aa-leaderboard-2026-11-09",
+    "observed_date": "2026-11-09",
+    "event_date": "待核实",
+    "title": "Artificial Analysis 智能指数：Gemini 4 Carbon 以60分居首",
+    "body": "Gemini 4 Carbon（high）60分，Claude Opus 5.5（max）59分，GPT-6 Astra（max）57分；开放权重模型中 Kimi K3.1 Pro 以46分最高，Tencent Hy4 首次上榜为35分。",
+    "sources": [
+      {
+        "url": "https://artificialanalysis.ai/leaderboards/models",
+        "accessed": "2026-11-09"
+      }
+    ],
+    "type": "榜单变化",
+    "sort_date": "2026-11-09",
+    "sort_date_basis": "observed_date"
+  },
+  {
     "id": "aa-intelligence-index-v5",
     "observed_date": "2026-11-07",
     "event_date": "2026-10-27",
     "title": "Artificial Analysis 智能指数 v5 新增 Terminal-Bench-Science、CritPt v2 等科学评测",
-    "body": "AA 于10月27日升级指数，Terminal-Bench-Science 作为新增科学评测进入核心分项；Benchmark Atlas 已为这批近期热门 benchmark 建档。",
+    "body": "AA 于10月27日升级指数，Terminal-Bench-Science 作为新增科学评测进入核心分项。",
     "sources": [
       {
         "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",

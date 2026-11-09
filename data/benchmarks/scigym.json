@@ -74,15 +74,19 @@
       ]
     },
     "license": {
-      "value": "待核实",
+      "value": "未公开",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2507.02083",
-          "accessed": "2026-11-08"
+          "url": "https://github.com/h4duan/SciGym",
+          "accessed": "2026-11-09"
+        },
+        {
+          "url": "https://huggingface.co/datasets/h4duan/scigym-sbml",
+          "accessed": "2026-11-09"
         }
       ],
-      "status": "待核实",
-      "note": "已核查原始论文/官方入口，但此字段未得到充分证据；不代表确定未公开。"
+      "status": "未公开",
+      "note": "官方代码仓库根目录没有 LICENSE 文件，README 与 Hugging Face 数据集卡均未声明许可证。"
     },
     "paper_url": {
       "value": "https://arxiv.org/abs/2507.02083",
@@ -753,6 +757,10 @@
       },
       {
         "date": "2026-11-08",
+        "change": "最近复核"
+      },
+      {
+        "date": "2026-11-09",
         "change": "最近复核"
       }
     ],
