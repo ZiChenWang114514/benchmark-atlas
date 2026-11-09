@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "method_version": "bci-0.3-documentary-evidence",
   "dimensions": [
     {
@@ -416623,6 +416623,57 @@
         "rank_eligible": false
       },
       "status": "insufficient_evidence"
+    },
+    {
+      "rank": null,
+      "id": "aisle",
+      "name": "AISLE",
+      "domain": "化学",
+      "release_date": "2026-11-09",
+      "score": null,
+      "observed_score": null,
+      "components": {
+        "citations_total": null,
+        "citation_velocity": null,
+        "github": null,
+        "huggingface": null,
+        "model_adoption": null,
+        "evaluator_adoption": null,
+        "community": null,
+        "novelty": null,
+        "quality": null,
+        "distinctiveness": null,
+        "headroom": null,
+        "maintenance": null
+      },
+      "raw": {
+        "citations": null,
+        "gh_stars": 11,
+        "hf_downloads": 88,
+        "hf_likes": 0,
+        "paper_eligible": true,
+        "collected_at": "2026-11-10",
+        "nearest_benchmarks": [
+          "biobasicsbench",
+          "beaker",
+          "chembench"
+        ]
+      },
+      "flags": [
+        "insufficient_evidence",
+        "early_signal",
+        "provisional"
+      ],
+      "confidence": {
+        "coverage": 0.0,
+        "label": "low",
+        "official_rank_eligible": false,
+        "rank_eligible": false,
+        "note": "覆盖度是证据完备程度，不是统计置信区间"
+      },
+      "provenance": [],
+      "assessment": {},
+      "assessment_review": null
     }
   ],
   "minimum_ranking_coverage": 0.4,

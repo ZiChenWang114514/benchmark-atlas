@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09",
-  "count": 183,
+  "generated_at": "2026-11-10",
+  "count": 184,
   "per_section": {
     "物理": 16,
-    "化学": 8,
+    "化学": 9,
     "生物与医学": 21,
     "地球与天文": 6,
     "材料": 6,
@@ -6536,6 +6536,42 @@
         }
       ],
       "last_checked": "2026-11-08"
+    },
+    {
+      "id": "aisle",
+      "name": "AISLE",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "实验优化",
+        "安全约束",
+        "多模态光谱"
+      ],
+      "summary": "在真实自动化实验室与模拟环境中，评测科学智能体依据实验反馈做闭环决策的能力。",
+      "json": "data/benchmarks/aisle.json",
+      "content": "content/benchmarks/aisle.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://aisle.science/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://ai123.com/newshub/17728",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
     }
   ]
 }

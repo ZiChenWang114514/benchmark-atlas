@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09",
-  "count": 1683,
+  "generated_at": "2026-11-10",
+  "count": 1684,
   "items": [
     {
       "id": "3-bench",
@@ -444160,6 +444160,71 @@
         "hf_downloads": null,
         "hf_likes": null
       }
+    },
+    {
+      "id": "aisle",
+      "name": "AISLE",
+      "aliases": [
+        "AI Scientists' Last Exam",
+        "AI科学家的终极大考"
+      ],
+      "domain": "化学",
+      "subdomain": "干湿闭环实验决策",
+      "description_zh": "在自动化实验室与模拟环境中评测科学智能体的实验优化、安全、鲁棒性与多模态光谱推理；首轮报告4079次真实湿实验。",
+      "organization": "Green Dynamics; UNSW; NUS; EPFL; UC Berkeley",
+      "release_date": "2026-11-09",
+      "paper_url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf",
+      "arxiv_id": null,
+      "doi": null,
+      "github_url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam",
+      "hf_dataset": "AISLE-science/ai-scientists-last-exam",
+      "homepage": "https://aisle.science/",
+      "leaderboard_url": "https://aisle.science/",
+      "task_format": "干湿闭环实验交互",
+      "size": "4079 wet-lab runs (first round)",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "url": "https://aisle.science/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "官方主页 / GitHub / 新闻报道",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "citations_by_year": null,
+        "gh_stars": 11,
+        "gh_stars_per_month": null,
+        "hf_downloads": 88,
+        "hf_likes": 0,
+        "provenance": [
+          {
+            "field": "gh_stars",
+            "url": "https://api.github.com/repos/MasterAI-EAM/ai-scientists-last-exam",
+            "accessed": "2026-11-10"
+          },
+          {
+            "field": "hf_downloads",
+            "url": "https://huggingface.co/api/datasets/AISLE-science/ai-scientists-last-exam",
+            "accessed": "2026-11-10"
+          }
+        ],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10",
+        "age_months": 0.03,
+        "release_date_basis": "registry",
+        "release_date_precision": "day_or_missing"
+      },
+      "audit_history": []
     }
   ]
 }
