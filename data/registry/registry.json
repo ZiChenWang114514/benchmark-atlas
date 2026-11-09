@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1691,
+  "count": 1692,
   "items": [
     {
       "id": "3-bench",
@@ -444325,6 +444325,56 @@
       "metrics": {
         "citations": null,
         "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "labrobfail",
+      "name": "LabRobFail",
+      "aliases": [
+        "LabRobFail",
+        "LabRobFail-Bench",
+        "LabRobFail-Sim"
+      ],
+      "domain": "化学",
+      "subdomain": "化学自驱动实验室机器人失效分析",
+      "description_zh": "面向化学自驱动实验室的机器人失效分析基准，含两万余条轨迹与六维评测；LabRobFail-VLM 在可见环境失效检测准确率约90.83%。",
+      "organization": "大连理工大学 / 上海人工智能实验室等",
+      "release_date": "2026-07-29",
+      "paper_url": "https://arxiv.org/abs/2607.23704",
+      "arxiv_id": "2607.23704",
+      "doi": null,
+      "github_url": "https://github.com/Su-ISE-2001/LabRobFail",
+      "hf_dataset": null,
+      "homepage": "https://github.com/Su-ISE-2001/LabRobFail",
+      "leaderboard_url": "https://github.com/Su-ISE-2001/LabRobFail",
+      "task_format": "六维失效检测与修正评测",
+      "size": "20,000+ trajectories; 70+ task scenarios",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.23704",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/Su-ISE-2001/LabRobFail",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2607.23704",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "arXiv / GitHub",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": 0,
         "hf_downloads": null,
         "hf_likes": null,
         "provenance": [],

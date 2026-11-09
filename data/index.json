@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 193,
+  "count": 194,
   "per_section": {
     "物理": 16,
-    "化学": 12,
+    "化学": 13,
     "生物与医学": 25,
     "地球与天文": 6,
     "材料": 6,
@@ -6848,6 +6848,38 @@
         },
         {
           "url": "https://arxiv.org/pdf/2606.31763",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "labrobfail",
+      "name": "LabRobFail",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "机器人失效",
+        "具身智能",
+        "实验室仿真"
+      ],
+      "summary": "面向化学自驱动实验室的机器人失效分析基准，含两万余条轨迹与六维评测；LabRobFail-VLM 在可见环境失效检测准确率约90.83%。",
+      "json": "data/benchmarks/labrobfail.json",
+      "content": "content/benchmarks/labrobfail.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.23704",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/Su-ISE-2001/LabRobFail",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2607.23704",
           "accessed": "2026-11-10"
         }
       ],
