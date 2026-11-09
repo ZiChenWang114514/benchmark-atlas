@@ -111,3 +111,4 @@ BEAKER,化学,湿实验 / 自动驾驶化学实验室 / 具身推理 / 多模态
 Gamow LabBench,生物与医学,湿实验 / 实验设计 / 药物发现 / 基因组学,用20道来自真实湿实验室档案的持有任务，评测智能体能否决定下一步实验，并按实验室实际决策的二元量规计分。,https://gamowlabs.com/assets/labbench-preprint.pdf,
 SciHorizon-eLab,综合科学,湿实验 / 具身智能 / 协议编译 / 实验室仿真,把自然语言实验协议编译成可执行具身任务，并发布含300道认证任务的SciVLABench；代表策略平均成功率约49.7%。,https://arxiv.org/abs/2609.30971,
 BenchBench-Protocol,生物与医学,湿实验 / 协议修改 / 开放作答 / 评分细则,从科学家对已发表协议的真实修改中回收149道协议改写任务，覆盖九个湿实验生物学领域；Claude Opus 5 归一化细则分最高约59.2%。,https://arxiv.org/abs/2608.23898,
+onepot-Bench 0,化学,湿实验 / 合成化学 / 拒答安全 / 反应预测,面向湿实验执行相关的合成化学能力，含 ChemAbacus、SynthRefusal 与基于私有实验数据的 SynthBench；模型在 SynthBench 上明显弱于化学计算题。,https://arxiv.org/abs/2608.02595,

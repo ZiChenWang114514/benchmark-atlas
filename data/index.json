@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 191,
+  "count": 192,
   "per_section": {
     "物理": 16,
-    "化学": 11,
+    "化学": 12,
     "生物与医学": 24,
     "地球与天文": 6,
     "材料": 6,
@@ -6784,6 +6784,38 @@
         },
         {
           "url": "https://arxiv.org/pdf/2608.23898",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "onepot-bench",
+      "name": "onepot-Bench 0",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "合成化学",
+        "拒答安全",
+        "反应预测"
+      ],
+      "summary": "面向湿实验执行相关的合成化学能力，含 ChemAbacus、SynthRefusal 与基于私有实验数据的 SynthBench；模型在 SynthBench 上明显弱于化学计算题。",
+      "json": "data/benchmarks/onepot-bench.json",
+      "content": "content/benchmarks/onepot-bench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://www.onepot.ai/blog/onepot-bench-0",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.02595",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.02595",
           "accessed": "2026-11-10"
         }
       ],

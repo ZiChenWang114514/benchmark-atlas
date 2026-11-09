@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1689,
+  "count": 1690,
   "items": [
     {
       "id": "3-bench",
@@ -444221,6 +444221,56 @@
         }
       ],
       "discovered_via": "arXiv / Benchling blog",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "onepot-bench",
+      "name": "onepot-Bench 0",
+      "aliases": [
+        "onepot-Bench 0",
+        "onepot-Bench",
+        "Onepot Bench 0"
+      ],
+      "domain": "化学",
+      "subdomain": "合成化学湿实验决策",
+      "description_zh": "面向湿实验执行相关的合成化学能力，含 ChemAbacus、SynthRefusal 与基于私有实验数据的 SynthBench；模型在 SynthBench 上明显弱于化学计算题。",
+      "organization": "Onepot AI, Inc.",
+      "release_date": "2026-08-04",
+      "paper_url": "https://arxiv.org/abs/2608.02595",
+      "arxiv_id": "2608.02595",
+      "doi": null,
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://www.onepot.ai/blog/onepot-bench-0",
+      "leaderboard_url": "https://www.onepot.ai/blog/onepot-bench-0",
+      "task_format": "化学问答 / 拒答 / 反应结果预测",
+      "size": "ChemAbacus 800; SynthRefusal 483; SynthBench 735",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://www.onepot.ai/blog/onepot-bench-0",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.02595",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2608.02595",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "官方博客 / arXiv",
       "homepage_note_zh": null,
       "metrics": {
         "citations": null,
