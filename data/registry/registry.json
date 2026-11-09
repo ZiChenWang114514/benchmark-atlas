@@ -366585,207 +366585,53 @@
     {
       "id": "scihorizon-elab",
       "name": "SciHorizon-eLab",
-      "aliases": [],
-      "domain": "推理",
-      "subdomain": "scientific agents",
-      "description_zh": "将自然语言实验协议编译为可执行模拟任务，并以认证后的步骤规范评测具身操作。",
-      "organization": "Chinese Academy of Sciences；Computer Network Information Center；Beihang University",
+      "aliases": [
+        "SciHorizon-eLab",
+        "SciVLABench",
+        "SciHorizon eLab"
+      ],
+      "domain": "综合科学",
+      "subdomain": "科学具身智能与实验协议编译",
+      "description_zh": "把自然语言实验协议编译成可执行具身任务，并发布含300道认证任务的SciVLABench；代表策略平均成功率约49.7%。",
+      "organization": "中国科学院计算机网络信息中心 Data Intelligence for Scientific Innovation Lab / 北京航空航天大学",
       "release_date": "2026-09-25",
       "paper_url": "https://arxiv.org/abs/2609.30971",
       "arxiv_id": "2609.30971",
       "doi": null,
       "github_url": "https://github.com/SciHorizon-elab/SciHorizon-elab",
       "hf_dataset": null,
-      "homepage": null,
-      "leaderboard_url": null,
-      "task_format": null,
-      "size": null,
-      "license": null,
+      "homepage": "https://github.com/SciHorizon-elab/SciHorizon-elab",
+      "leaderboard_url": "https://github.com/SciHorizon-elab/SciHorizon-elab",
+      "task_format": "具身操作任务 / 逐步成功率",
+      "size": "300 certified tasks",
+      "license": "MIT（GitHub 仓库 SPDX）",
       "sources": [
         {
-          "url": "https://api.openalex.org/works?filter=title.search%3Abenchmark+scientific+agents%2Cfrom_publication_date%3A2018-01-01&per-page=100&sort=cited_by_count%3Adesc&mailto=bot%40example.com&select=id%2Ctitle%2Cdoi%2Cpublication_date%2Cids%2Cprimary_location%2Clocations%2Ccited_by_count%2Cauthorships",
-          "accessed": "2026-11-07"
-        },
-        {
-          "url": "https://api.openalex.org/works/W7214809222",
-          "accessed": "2026-11-07"
-        },
-        {
           "url": "https://arxiv.org/abs/2609.30971",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "discovered_via": "OpenAlex 标题检索 (benchmark + 领域关键词)",
-      "in_repo": false,
-      "audit_history": [
-        {
-          "action": "science2_field_deltas",
-          "source_shard": "science2.jsonl",
-          "line": 511,
-          "protected_fields": [
-            "release_date",
-            "id",
-            "paper_url",
-            "arxiv_id",
-            "doi"
-          ]
-        }
-      ],
-      "metrics": {
-        "citations": 1,
-        "citations_by_year": {
-          "2026": 1
+          "accessed": "2026-11-10"
         },
-        "gh_stars": null,
-        "gh_stars_per_month": null,
+        {
+          "url": "https://github.com/SciHorizon-elab/SciHorizon-elab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.30971",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "arXiv / GitHub",
+      "in_repo": false,
+      "audit_history": [],
+      "metrics": {
+        "citations": null,
+        "gh_stars": 1,
         "hf_downloads": null,
         "hf_likes": null,
-        "provenance": [
-          {
-            "url": "https://api.openalex.org/works?search=SciHorizon-eLab&per_page=5&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-07",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
-          },
-          {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-09",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date"
-            ],
-            "identity": "external_identifier_batch",
-            "method": "POST",
-            "batch_ids_count": 204
-          },
-          {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-09",
-            "provider": "semantic_scholar",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ],
-            "method": "POST",
-            "lookup_id": "ARXIV:2609.30971",
-            "batch_ids_count": 204
-          },
-          {
-            "url": "https://arxiv.org/abs/2609.30971",
-            "accessed": "2026-11-08",
-            "fields": [
-              "first_submitted_at"
-            ],
-            "identity": "official_arxiv_id"
-          }
-        ],
-        "paper_title": "SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents",
-        "paper_id": "https://openalex.org/W7214809222",
-        "paper_date": "2026-09-25",
-        "citation_provider": "openalex",
-        "paper_abstract": "Embodied agents offer a promising route to automating scientific experimentation, yet their progress is constrained by the lack of reliable and systematic evaluation environments. Existing simulation-based laboratory benchmarks rely heavily on manual task engineering, making it challenging to systematically compile diverse scientific protocols into executable and verifiable embodied tasks at scale. To address this challenge, we introduce SciHorizon-eLab, an agentic protocol-to-task compiler that formulates scientific embodied task construction as a compilation problem. Given a natural-language protocol of scientific experiments, SciHorizon-eLab progressively compiles laboratory protocols into semantic-preserving embodied tasks through semantic grounding, executable task synthesis, and multi-stage simulation-based certification. The system generates semantically grounded environments, executable manipulation programs, and step-level success specifications, while enabling reproducible generation of expert demonstrations and execution traces. Using this pipeline, we further construct \\BenchName, a ready-to-use benchmark comprising 300 certified tasks across diverse laboratory operations. It supports HIL task execution, reproducible expert-demonstration generation, and ordered step-level evaluation. Across representative tasks, the strongest policy attains an average success rate of only 49.7%, with further evaluations revealing pronounced weaknesses in human and embodied agent coordination. We publicly release the code, benchmark data, and evaluation toolkit at https://github.com/SciHorizon-elab/SciHorizon-elab.",
+        "provenance": [],
         "paper_eligible": true,
-        "collected_at": "2026-11-09",
-        "citations_by_year_complete": false,
-        "first_submitted_at": "2026-09-25",
-        "citations_by_provider": {
-          "openalex": 1,
-          "semantic_scholar": 1
-        },
-        "age_months": 1.4896600004441403,
-        "release_date_basis": "registry",
-        "release_date_precision": "day_or_missing",
-        "citations_per_month": 0.6712941206059445,
-        "citation_velocity_smoothed": 0.2227340154713441,
-        "evaluator_adoptions": null,
-        "community_discussions": null,
-        "issue_activity_90d": null,
-        "third_party_reproductions": null,
-        "issue_threads_90d": null,
-        "paper_shared_registry_entries": 1,
-        "attributed_citations": 1.0,
-        "attributed_citation_velocity": 0.2227340154713441,
-        "model_card_mentions": null,
-        "industry_heat": null,
-        "nearest_similarity": 0.3770991265773773,
-        "nearest_benchmarks": [
-          "labutopia",
-          "labosbench",
-          "osworld-science"
-        ],
-        "distinctiveness_score": 100.0,
-        "novelty_score": 67.47292509770443,
-        "novelty_text_distance": 0.6229008734226227,
-        "novelty_prior_corpus_size": 1163,
-        "novelty_task_rarity": null,
-        "novelty_domain_rarity": 91.65950128976785,
-        "gh_shared_registry_entries": 1,
-        "hf_shared_registry_entries": 1,
-        "normalization": {
-          "attributed_citations": {
-            "group": "domain",
-            "n": 110
-          },
-          "attributed_citation_velocity": {
-            "group": "domain_age",
-            "n": 20
-          },
-          "model_card_mentions": {
-            "group": "global_small_domain",
-            "n": 238
-          },
-          "evaluator_adoptions": {
-            "group": "global_small_domain",
-            "n": 14
-          },
-          "gh_stars": {
-            "group": "global_small_domain",
-            "n": 154
-          },
-          "gh_stars_per_month": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "hf_downloads": {
-            "group": "domain",
-            "n": 27
-          },
-          "hf_likes": {
-            "group": "domain",
-            "n": 27
-          },
-          "community_discussions": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_activity_90d": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_threads_90d": {
-            "group": "global_small_domain",
-            "n": 7
-          },
-          "third_party_reproductions": {
-            "group": "global_small_domain",
-            "n": 19
-          },
-          "gh_forks": {
-            "group": "global_small_domain",
-            "n": 154
-          }
-        }
-      }
+        "collected_at": "2026-11-10"
+      },
+      "homepage_note_zh": null
     },
     {
       "id": "sciintegrity-bench",

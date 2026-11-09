@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 189,
+  "count": 190,
   "per_section": {
     "物理": 16,
     "化学": 11,
@@ -14,7 +14,7 @@
     "多模态": 17,
     "Agent": 27,
     "安全": 12,
-    "综合科学": 3,
+    "综合科学": 4,
     "语音": 2,
     "机器人与具身": 1
   },
@@ -6720,6 +6720,38 @@
         },
         {
           "url": "https://gamowlabs.com/assets/labbench-preprint.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "scihorizon-elab",
+      "name": "SciHorizon-eLab",
+      "section": "综合科学",
+      "tags": [
+        "综合科学",
+        "湿实验",
+        "具身智能",
+        "协议编译",
+        "实验室仿真"
+      ],
+      "summary": "把自然语言实验协议编译成可执行具身任务，并发布含300道认证任务的SciVLABench；代表策略平均成功率约49.7%。",
+      "json": "data/benchmarks/scihorizon-elab.json",
+      "content": "content/benchmarks/scihorizon-elab.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.30971",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/SciHorizon-elab/SciHorizon-elab",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.30971",
           "accessed": "2026-11-10"
         }
       ],
