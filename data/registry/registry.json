@@ -36189,127 +36189,48 @@
     {
       "id": "beaker",
       "name": "BEAKER",
-      "aliases": [],
+      "aliases": [
+        "BEAKER SDCL"
+      ],
       "domain": "化学",
       "subdomain": "自动驾驶化学实验室具身推理",
-      "description_zh": "1,000个专家整理的图像与视频问答样本，评测多模态模型在自动化化学实验室中的执行判断。",
-      "organization": "HydroSophy",
+      "description_zh": "用1000道专家手写问答，评测多模态模型在自动驾驶化学实验室中的可操作性、知识、实验理解与时序推理。",
+      "organization": "HydroSophy; MUST; SJTU",
       "release_date": "2026-11-04",
       "paper_url": "https://arxiv.org/abs/2611.06911",
       "arxiv_id": "2611.06911",
       "doi": null,
       "github_url": "https://github.com/HydroSophy/BEAKER",
       "hf_dataset": "HydroSophyTech/BEAKER",
-      "homepage": null,
-      "leaderboard_url": null,
+      "homepage": "https://arxiv.org/abs/2611.06911",
+      "leaderboard_url": "https://arxiv.org/abs/2611.06911",
       "task_format": "图像/视频问答",
       "size": "1000 samples",
-      "license": null,
+      "license": "MIT（代码仓库）",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2611.06911",
-          "accessed": "2026-11-09"
+          "accessed": "2026-11-10"
         },
         {
-          "url": "https://arxiv.org/pdf/2611.06911",
-          "accessed": "2026-11-09"
+          "url": "https://github.com/HydroSophy/BEAKER",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://huggingface.co/datasets/HydroSophyTech/BEAKER",
+          "accessed": "2026-11-10"
         }
       ],
-      "discovered_via": "arXiv / 官方页面检索",
+      "discovered_via": "官方页面 / 论文检索",
       "homepage_note_zh": null,
       "metrics": {
         "citations": null,
-        "citations_by_year": null,
-        "gh_stars": null,
-        "gh_stars_per_month": null,
-        "hf_downloads": null,
-        "hf_likes": null,
+        "gh_stars": 2,
+        "hf_downloads": 309,
+        "hf_likes": 1,
         "provenance": [],
         "paper_eligible": true,
-        "collected_at": "2026-11-09",
-        "age_months": 0.17549161881207695,
-        "release_date_basis": "registry",
-        "release_date_precision": "day_or_missing",
-        "citations_per_month": null,
-        "citation_velocity_smoothed": null,
-        "evaluator_adoptions": null,
-        "community_discussions": null,
-        "issue_activity_90d": null,
-        "third_party_reproductions": null,
-        "issue_threads_90d": null,
-        "paper_shared_registry_entries": 1,
-        "attributed_citations": null,
-        "attributed_citation_velocity": null,
-        "model_card_mentions": null,
-        "industry_heat": null,
-        "nearest_similarity": 0.2124941498041153,
-        "nearest_benchmarks": [
-          "biobasicsbench",
-          "vct",
-          "humanitys-sixth-sense"
-        ],
-        "distinctiveness_score": 100.0,
-        "novelty_score": 89.78989132532293,
-        "novelty_text_distance": 0.8605806082487106,
-        "novelty_prior_corpus_size": 1198,
-        "novelty_task_rarity": 100.0,
-        "novelty_domain_rarity": 96.99499165275459,
-        "gh_shared_registry_entries": 1,
-        "hf_shared_registry_entries": 1,
-        "normalization": {
-          "attributed_citations": {
-            "group": "domain",
-            "n": 37
-          },
-          "attributed_citation_velocity": {
-            "group": "age_only",
-            "n": 66
-          },
-          "model_card_mentions": {
-            "group": "global_small_domain",
-            "n": 238
-          },
-          "evaluator_adoptions": {
-            "group": "global_small_domain",
-            "n": 14
-          },
-          "gh_stars": {
-            "group": "global_small_domain",
-            "n": 154
-          },
-          "gh_stars_per_month": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "hf_downloads": {
-            "group": "global_small_domain",
-            "n": 313
-          },
-          "hf_likes": {
-            "group": "global_small_domain",
-            "n": 313
-          },
-          "community_discussions": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_activity_90d": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_threads_90d": {
-            "group": "global_small_domain",
-            "n": 7
-          },
-          "third_party_reproductions": {
-            "group": "global_small_domain",
-            "n": 19
-          },
-          "gh_forks": {
-            "group": "global_small_domain",
-            "n": 154
-          }
-        }
+        "collected_at": "2026-11-10"
       },
       "audit_history": []
     },

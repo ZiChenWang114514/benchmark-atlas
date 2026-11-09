@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 187,
+  "count": 188,
   "per_section": {
     "物理": 16,
-    "化学": 10,
+    "化学": 11,
     "生物与医学": 22,
     "地球与天文": 6,
     "材料": 6,
@@ -6662,6 +6662,37 @@
         },
         {
           "url": "https://arxiv.org/pdf/2610.19780",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "beaker",
+      "name": "BEAKER",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "自动驾驶化学实验室",
+        "具身推理"
+      ],
+      "summary": "用1000道专家手写问答，评测多模态模型在自动驾驶化学实验室中的可操作性、知识、实验理解与时序推理。",
+      "json": "data/benchmarks/beaker.json",
+      "content": "content/benchmarks/beaker.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.06911",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/HydroSophy/BEAKER",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://huggingface.co/datasets/HydroSophyTech/BEAKER",
           "accessed": "2026-11-10"
         }
       ],
