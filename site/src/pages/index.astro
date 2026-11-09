@@ -1,7 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
+import BarChart from '../components/BarChart.astro';
+import DomainChart from '../components/DomainChart.astro';
 import HeatLegend from '../components/HeatLegend.astro';
 import TrendItem from '../components/TrendItem.astro';
+import { newsCover } from '../lib/covers';
 import { currentLocale, t } from '../i18n';
 import { visualCopy } from '../i18n/visual';
 import { sectionLabel, sectionSlug } from '../lib/sections';
@@ -36,9 +39,27 @@ const hotPreview = hotList.slice(0, 6);
 const heat = loadHeat();
 const impact = loadImpact();
 const known = new Set(records.map((record) => record.index.id));
-const heatTop = (heat?.ranking ?? []).slice(0, 5);
-const impactTop = (impact?.ranking ?? []).filter((row) => row.score != null).slice(0, 5);
+const heatTop = (heat?.ranking ?? []).slice(0, 10);
+const impactTop = (impact?.ranking ?? []).filter((row) => row.score != null).slice(0, 10);
+const scoreById = new Map((impact?.ranking ?? []).filter((row) => row.score != null).map((row) => [row.id, row.score as number]));
+const heatById = new Map((heat?.ranking ?? []).map((row) => [row.benchmark_id, row.count]));
+const heatMax = Math.max(1, ...(heat?.ranking ?? []).map((row) => row.count));
+const newsDates = [...news.reduce((map, item) => {
+  const key = item.observed_date || '';
+  if (key) map.set(key, (map.get(key) ?? 0) + 1);
+  return map;
+}, new Map<string, number>())].sort(([a], [b]) => a.localeCompare(b)).map(([, count]) => count);
+const rankedShare = impact && (impact.ranking.length + (impact.unscored?.length ?? 0))
+  ? impact.ranking.length / (impact.ranking.length + (impact.unscored?.length ?? 0))
+  : 0;
 const stamp = dateStamp(index.generated_at);
+const nf = new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en');
+const domainItems = groups.map((group) => ({
+  label: sectionLabel(group.id, locale),
+  count: group.items.length,
+  href: `#sec-${sectionSlug(group.id)}`,
+  slug: sectionSlug(group.id),
+}));
 const windowText = trending.window?.from && trending.window?.through ? t(locale, 'home.window', { from: trending.window.from, through: trending.window.through }) : '';
 const stats = [
   { href: '#browse', label: ui.statDossiers, value: records.length },
@@ -54,9 +75,29 @@ function hostOf(url: string): string {
     return t(locale, 'home.source');
   }
 }
-function pct(value: number): number {
-  return Math.max(0, Math.min(100, value));
+function coverFor(item: (typeof news)[number], wide = false): string {
+  const hit = benchmarksMentioned(`${item.title}\n${item.body}`, catalog)[0];
+  return newsCover({
+    name: hit?.name || t(locale, 'home.news'),
+    tone: hit ? tone(hit.section) : '#a87408',
+    score: hit ? scoreById.get(hit.id) ?? null : null,
+    heat: hit ? heatById.get(hit.id) ?? null : null,
+    heatMax,
+    wide,
+  });
 }
+const heroBars = heatTop.map((row) => ({
+  rank: row.rank,
+  name: displayName(row.name),
+  value: row.count,
+  href: known.has(row.benchmark_id) ? page(`benchmarks/${row.benchmark_id}`) : page('frontier-heat'),
+}));
+const impactBars = impactTop.map((row) => ({
+  rank: row.rank ?? 0,
+  name: displayName(row.name),
+  value: row.score ?? 0,
+  href: known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact'),
+}));
 ---
 <Base
   title="Benchmark Constitution"
@@ -72,18 +113,57 @@ function pct(value: number): number {
         <span>{t(locale, 'home.records', { n: records.length })}</span>
         <a href={page('constitution')}>{t(locale, 'home.constitution_link')}</a>
       </p>
+      <div class="stat-row">
+        {stats.map((item) => (
+          <a class="stat" href={item.href}>
+            <span>{item.label}</span>
+            <strong>{nf.format(item.value)}</strong>
+            <svg class="stat-viz" viewBox="0 0 120 22" aria-hidden="true">
+              {item.href === '#browse' && groups.map((group, groupIndex) => {
+                const previous = groups.slice(0, groupIndex).reduce((sum, entry) => sum + entry.items.length, 0);
+                const width = records.length ? (group.items.length / records.length) * 120 : 0;
+                return <rect x={(previous / Math.max(records.length, 1)) * 120} y="6" width={Math.max(width - 1, 1)} height="10" rx="2" fill={tone(group.id)} />;
+              })}
+              {item.href === '#news' && newsDates.length > 0 && newsDates.map((count, point) => {
+                const peak = Math.max(...newsDates);
+                const slot = 120 / newsDates.length;
+                const bar = Math.max(4, (count / peak) * 16);
+                return <rect x={point * slot + 2} y={20 - bar} width={Math.max(3, slot - 4)} height={bar} rx="1.5" fill="#c4962a" />;
+              })}
+              {item.href === page('impact') && (
+                <>
+                  <rect x="0" y="7" width="120" height="8" rx="4" fill="#efe4cc" />
+                  <rect x="0" y="7" width={Math.max(8, rankedShare * 120)} height="8" rx="4" fill="#e8b423" />
+                </>
+              )}
+              {item.href === page('frontier-heat') && heatTop.slice(0, 5).map((row, bar) => (
+                <rect x={bar * 24} y={20 - (row.count / heatMax) * 16} width="16" height={(row.count / heatMax) * 16} rx="2" fill="#c4962a" />
+              ))}
+            </svg>
+          </a>
+        ))}
+      </div>
+      {heroBars.length > 0 && (
+        <figure class="hero-chart">
+          <figcaption>{t(locale, 'home.hero_chart')}</figcaption>
+          <BarChart items={heroBars} strong zero />
+        </figure>
+      )}
     </header>
+    {domainItems.length > 0 && (
+      <DomainChart items={domainItems} title={t(locale, 'home.domain_chart')} aria={t(locale, 'home.domain_chart_aria')} segment={t(locale, 'home.segment')} />
+    )}
+    {(impactBars.length > 0) && (
+      <section class="section chart-band" aria-labelledby="home-charts">
+        <header class="flag">
+          <h2 id="home-charts">{t(locale, 'home.charts')}</h2>
+          <p><a href={page('impact')}>{t(locale, 'nav.impact')}</a></p>
+        </header>
+        <BarChart items={impactBars} strong />
+      </section>
+    )}
 
-    <div class="stat-row">
-      {stats.map((item) => (
-        <a class="stat" href={item.href}>
-          <span>{item.label}</span>
-          <strong>{new Intl.NumberFormat(locale === 'zh' ? 'zh-Hans' : 'en').format(item.value)}</strong>
-        </a>
-      ))}
-    </div>
-
-    <section class="section" id="news" aria-labelledby="news-title">
+    <section class="section reveal" id="news" aria-labelledby="news-title">
       <header class="flag">
         <h2 id="news-title">{t(locale, 'home.news')}</h2>
         <p>{t(locale, 'home.news_note')}</p>
@@ -91,10 +171,11 @@ function pct(value: number): number {
       {news.length === 0 ? (
         <p>{t(locale, 'home.news_empty')}</p>
       ) : (
-        <div class="home-split">
-          <div>
-            {lead && (
-              <article class="news-lead" data-news>
+        <div class="news-grid">
+          {lead && (
+            <article class="news-feature" data-news>
+              <div class="news-visual" set:html={coverFor(lead, true)} />
+              <div>
                 {lead.type && <p class="kicker">{lead.type}</p>}
                 <h3>{lead.title}</h3>
                 <p class="when">{newsWhen(lead)}</p>
@@ -107,74 +188,33 @@ function pct(value: number): number {
                     <a class="dossier-link" href={page(`benchmarks/${item.id}`)}><span>{ui.dossierLink}</span><span>{item.name}</span></a>
                   ))}
                 </p>
-              </article>
-            )}
-            {rest.length > 0 && (
-              <div class="news-rest">
-                {rest.map((item) => (
-                  <article class="news-item" data-news>
-                    {item.type && <p class="kicker">{item.type}</p>}
-                    <h3>{item.title}</h3>
-                    <p class="when">{newsWhen(item)}</p>
-                    <p class="news-body">{publicText(item.body)}</p>
-                    <p class="news-links">
-                      {item.sources.map((source) => safeUrl(source.url) && (
-                        <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
-                      ))}
-                      {benchmarksMentioned(`${item.title}\n${item.body}`, catalog).map((match) => (
-                        <a class="dossier-link" href={page(`benchmarks/${match.id}`)}><span>{ui.dossierLink}</span><span>{match.name}</span></a>
-                      ))}
-                    </p>
-                  </article>
-                ))}
               </div>
-            )}
-          </div>
-          <aside>
-            {impactTop.length > 0 && (
-              <section class="rail" aria-labelledby="rail-impact">
-                <h2 id="rail-impact"><a href={page('impact')}>{t(locale, 'nav.impact')}</a></h2>
-                {impactTop.map((row) => {
-                  const href = known.has(row.id) ? page(`benchmarks/${row.id}`) : page('impact');
-                  const score = row.score ?? 0;
-                  return (
-                    <a class="rail-row" href={href}>
-                      <span class:list={['rank-no', row.rank != null && row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
-                      <span class="rail-name">{displayName(row.name)}</span>
-                      <span class="rail-score">
-                        <span class="num">{score.toFixed(1)}</span>
-                        <span class="track" aria-hidden="true"><span style={`width:${pct(score)}%`}></span></span>
-                      </span>
-                    </a>
-                  );
-                })}
-              </section>
-            )}
-            {heatTop.length > 0 && heat && (
-              <section class="rail" aria-labelledby="rail-heat">
-                <h2 id="rail-heat"><a href={page('frontier-heat')}>{t(locale, 'nav.heat')}</a></h2>
-                {heatTop.map((row) => {
-                  const href = known.has(row.benchmark_id) ? page(`benchmarks/${row.benchmark_id}`) : page('frontier-heat');
-                  const share = typeof row.share === 'number' ? row.share : (heat.models.length ? row.count / heat.models.length : 0);
-                  return (
-                    <a class="rail-row" href={href}>
-                      <span class:list={['rank-no', row.rank <= 3 && `podium-${row.rank}`]}>{row.rank}</span>
-                      <span class="rail-name">{displayName(row.name)}</span>
-                      <span class="rail-score">
-                        <span class="num">{row.count}</span>
-                        <span class="track" aria-hidden="true"><span style={`width:${pct(share * 100)}%`}></span></span>
-                      </span>
-                    </a>
-                  );
-                })}
-              </section>
-            )}
-          </aside>
+            </article>
+          )}
+          {rest.map((item) => (
+            <article class="news-tile" data-news>
+              <div class="news-visual" set:html={coverFor(item)} />
+              <div>
+                {item.type && <p class="kicker">{item.type}</p>}
+                <h3>{item.title}</h3>
+                <p class="when">{newsWhen(item)}</p>
+                <p class="news-body">{publicText(item.body)}</p>
+                <p class="news-links">
+                  {item.sources.map((source) => safeUrl(source.url) && (
+                    <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+                  ))}
+                  {benchmarksMentioned(`${item.title}\n${item.body}`, catalog).map((match) => (
+                    <a class="dossier-link" href={page(`benchmarks/${match.id}`)}><span>{ui.dossierLink}</span><span>{match.name}</span></a>
+                  ))}
+                </p>
+              </div>
+            </article>
+          ))}
         </div>
       )}
     </section>
 
-    <section class="section" id="trending" aria-labelledby="trending-title">
+    <section class="section reveal" id="trending" aria-labelledby="trending-title">
       <header class="flag">
         <h2 id="trending-title">{t(locale, 'home.trending')}</h2>
         <p class="inline-meta">
@@ -188,7 +228,7 @@ function pct(value: number): number {
       </div>
     </section>
 
-    <section class="section" id="sections" aria-labelledby="sections-title">
+    <section class="section reveal" id="sections" aria-labelledby="sections-title">
       <header class="flag">
         <h2 id="sections-title">{t(locale, 'home.sections')}</h2>
         <p>{t(locale, 'home.sections_note')}</p>
@@ -205,7 +245,7 @@ function pct(value: number): number {
       <p class="index-note">{t(locale, 'home.index_note')}</p>
     </section>
 
-    <section class="section" id="browse" aria-labelledby="browse-title">
+    <section class="section reveal" id="browse" aria-labelledby="browse-title">
       <header class="flag">
         <h2 id="browse-title">{t(locale, 'home.browse')}</h2>
         <p id="result-count">{t(locale, 'home.count', { total: records.length, shown: records.length })}</p>
@@ -240,7 +280,7 @@ function pct(value: number): number {
     </section>
 
     {groups.map((group) => (
-      <section class="group" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
+      <section class="group reveal" id={`sec-${sectionSlug(group.id)}`} data-group={sectionSlug(group.id)} aria-labelledby={`heading-${sectionSlug(group.id)}`}>
         <header class="group-head">
           <div>
             <h2 id={`heading-${sectionSlug(group.id)}`}>{sectionLabel(group.id, locale)}</h2>

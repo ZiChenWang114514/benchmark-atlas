@@ -1,20 +1,20 @@
 {
   "generated_at": "2026-11-09",
-  "count": 179,
+  "count": 183,
   "per_section": {
-    "物理": 15,
+    "物理": 16,
     "化学": 8,
-    "生物与医学": 20,
+    "生物与医学": 21,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
     "推理": 15,
     "数学": 10,
     "代码": 22,
-    "多模态": 16,
+    "多模态": 17,
     "Agent": 27,
     "安全": 12,
-    "综合科学": 1,
+    "综合科学": 2,
     "语音": 2,
     "机器人与具身": 1
   },
@@ -6447,6 +6447,95 @@
         }
       ],
       "last_checked": "2026-11-09"
+    },
+    {
+      "id": "phyrd",
+      "name": "PHYRD",
+      "section": "物理",
+      "tags": [
+        "物理",
+        "理论物理",
+        "推导复现",
+        "改条件发现"
+      ],
+      "summary": "理论物理中的推导复现，以及在改动理论条件下继续推导。",
+      "json": "data/benchmarks/phyrd.json",
+      "content": "content/benchmarks/phyrd.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.32575",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "last_checked": "2026-11-08"
+    },
+    {
+      "id": "biobasicsbench",
+      "name": "BioBasicsBench",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "湿实验",
+        "实验数据判读"
+      ],
+      "summary": "衡量智能体能否判读日常湿实验的原始数据、识别错误，并知道证据何时不能支持结论。",
+      "json": "data/benchmarks/biobasicsbench.json",
+      "content": "content/benchmarks/biobasicsbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "last_checked": "2026-11-08"
+    },
+    {
+      "id": "paperbenchx",
+      "name": "PaperBenchX",
+      "section": "综合科学",
+      "tags": [
+        "综合科学",
+        "论文复现",
+        "科学计算"
+      ],
+      "summary": "跨电磁、光子、化学、材料、生物和机器人等方向，复现论文中的关键实验。",
+      "json": "data/benchmarks/paperbenchx.json",
+      "content": "content/benchmarks/paperbenchx.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "last_checked": "2026-11-08"
+    },
+    {
+      "id": "vissearch-bench",
+      "name": "VisSearch-Bench",
+      "section": "多模态",
+      "tags": [
+        "多模态",
+        "视觉搜索",
+        "多模态智能体"
+      ],
+      "summary": "检验多模态智能体在长程开放网页搜索中如何组织和连接视觉证据。",
+      "json": "data/benchmarks/vissearch-bench.json",
+      "content": "content/benchmarks/vissearch-bench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.04894",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "last_checked": "2026-11-08"
     }
   ]
 }

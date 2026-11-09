@@ -27,7 +27,7 @@ const zhHref = new URL(hrefForLocale(Astro.url.pathname, '', 'zh'), Astro.site).
     <link rel="alternate" hreflang="en" href={enHref} />
     <link rel="alternate" hreflang="zh-Hans" href={zhHref} />
     <link rel="alternate" hreflang="x-default" href={enHref} />
-    <meta name="theme-color" content="#0b0f14" />
+    <meta name="theme-color" content="#f3efe6" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -45,5 +45,41 @@ const zhHref = new URL(hrefForLocale(Astro.url.pathname, '', 'zh'), Astro.site).
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+      (function () {
+        var reduce = false;
+        try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (error) { reduce = false; }
+        var nodes = Array.prototype.slice.call(document.querySelectorAll('.reveal, .grow-root'));
+        function arm(node) { node.classList.add('inview'); }
+        if (reduce || !nodes.length) {
+          for (var i = 0; i < nodes.length; i += 1) arm(nodes[i]);
+          return;
+        }
+        var below = [];
+        for (var j = 0; j < nodes.length; j += 1) {
+          var rect = nodes[j].getBoundingClientRect();
+          var seen = rect.height > 0 && rect.bottom > 0 && rect.top < window.innerHeight;
+          if (seen || reduce) arm(nodes[j]);
+          else {
+            nodes[j].classList.add('pending');
+            below.push(nodes[j]);
+          }
+        }
+        if (!below.length || !('IntersectionObserver' in window)) {
+          for (var n = 0; n < below.length; n += 1) arm(below[n]);
+          return;
+        }
+        document.documentElement.classList.add('motion');
+        var observer = new IntersectionObserver(function (entries) {
+          for (var n = 0; n < entries.length; n += 1) {
+            if (!entries[n].isIntersecting) continue;
+            arm(entries[n].target);
+            observer.unobserve(entries[n].target);
+          }
+        }, { rootMargin: '80px 0px', threshold: 0 });
+        for (var k = 0; k < below.length; k += 1) observer.observe(below[k]);
+      })();
+    </script>
   </body>
 </html>

@@ -1,0 +1,586 @@
+{
+  "id": "paperbenchx",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "PaperBenchX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "PaperBenchX：智能体能否跨学科复现科学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2610.39744，2026-10-29提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv首发版，2026-10-29提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "section": {
+      "value": "综合科学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "论文复现",
+        "科学计算"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "license": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2610.39744",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/UniPat-AI/PaperBenchX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/PaperBenchX",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/UniPat-AI/PaperBenchX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://arxiv.org/abs/2610.39744",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "PaperBenchX: Can AI Reproduce Science Across Disciplines?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "论文署名机构包括UniPat AI和北京大学。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "Ruoyu Wu; Zengji Tu; Aolong Sun; Tianyi Ma; Junren Li; Xinbo Xu; Li Fu; Ziyan Zhang; Pinrui Huang; Xiaochen Wang; Chengda Wu; Yutao Zhou; Jianjun Wu; Lin Chang; Baobao Chang; Liang Chen; Kuan Li",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "把论文中的关键实验做成可运行流程，并在干净环境中重放后，用重新生成的证据支持原科学主张。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为已有复现基准主要集中在人工智能和机器学习，软件栈比较同质；跨学科复现还要求操作学科自己的科学软件。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "93个由专家构建的任务，各自对应一篇已发表论文中的可核验科学主张。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "review_process": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "quality_control": {
+      "value": "提交的流程会在干净环境中从头重放，只对重新生成的证据按专家标准计分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "除公开的代表性任务外，其余任务作为隐藏评测集保留，以降低测试集污染。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "93个任务，覆盖12个研究方向和10种科学计算环境。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "智能体需要重建实验、运行并诊断，然后交付可运行的流程。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "论文、任务说明，以及学科原生的科学计算环境。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "languages": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "public_hidden_split": {
+      "value": "论文公开每个研究方向的一个代表性任务，共十二个；其中九个带可再分发环境，三个依赖商业许可软件，只公开任务说明和评分细节。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "完全复现以90%为阈值；同时报告平均量规分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "只对干净重放中重新生成的证据计分，不接受只是看起来合理的最终答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "论文比较了10个前沿智能体配置。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/UniPat-AI/PaperBenchX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/PaperBenchX",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "摘要中的14%与正文中的13个任务都来自同一篇论文的自报实验。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文所述的十二任务公开包，仓库为UniPat-AI/PaperBenchX。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/PaperBenchX",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "本次只核到2026-10-29提交的版本。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "contamination_and_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文摘要称，最佳配置在90%阈值下只完全复现14%的任务，平均量规分介于27.53%与59.08%。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "数字来自论文自身实验，不是独立实时榜。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "github_issues": {
+      "value": "https://github.com/UniPat-AI/PaperBenchX",
+      "sources": [
+        {
+          "url": "https://github.com/UniPat-AI/PaperBenchX",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2610.39744",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "pdf_bytes": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "https://github.com/UniPat-AI/PaperBenchX",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.39744",
+          "accessed": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.39744",
+        "accessed": "2026-11-08"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-08",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.39744",
+        "accessed": "2026-11-08"
+      }
+    ]
+  }
+}

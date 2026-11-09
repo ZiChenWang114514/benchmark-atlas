@@ -8,8 +8,9 @@ interface Item {
 }
 interface Props {
   items: Item[];
+  strong?: boolean;
 }
-const { items } = Astro.props;
+const { items, strong = false, zero = false } = Astro.props;
 const locale = currentLocale();
 
 function chooseStep(span: number): number {
@@ -27,9 +28,10 @@ function formatTick(value: number): string {
 const values = items.map((item) => item.value);
 const hi = values.length ? Math.max(...values) : 0;
 const lo = values.length ? Math.min(...values) : 0;
-const step = chooseStep(Math.max(hi - lo, stepGuard(hi)));
+const step = zero ? chooseStep(Math.max(hi, stepGuard(hi))) : chooseStep(Math.max(hi - lo, stepGuard(hi)));
 let floor = Math.floor(lo / step) * step;
-if (floor >= lo - 1e-9) floor -= step;
+if (zero) floor = 0;
+else if (floor >= lo - 1e-9) floor -= step;
 const span = Math.max(hi - floor, step);
 const ticks = axisTicks(floor, hi, step);
 
@@ -62,14 +64,14 @@ function label(value: number): string {
   return Number.isInteger(value) ? String(value) : value.toFixed(1);
 }
 ---
-<div class="chart-figure">
+<div class:list={['chart-figure', strong && 'bars-strong']}>
   <ol class="bar-chart">
     {items.map((item) => (
       <li>
         <span class:list={['rank-no', item.rank <= 3 && `podium-${item.rank}`]}>{item.rank}</span>
         <a class="bar-name" href={item.href}>{item.name}</a>
         <span class="bar-track" aria-hidden="true">
-          <span class={tier(item.value)} style={`width:${widthOf(item.value)}%`}></span>
+          <span class:list={[tier(item.value), 'grow']} style={`width:${widthOf(item.value)}%`}></span>
         </span>
         <span class="bar-val num">{label(item.value)}</span>
       </li>
