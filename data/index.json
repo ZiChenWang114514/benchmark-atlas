@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-11-10",
-  "count": 185,
+  "count": 186,
   "per_section": {
     "物理": 16,
     "化学": 9,
-    "生物与医学": 21,
+    "生物与医学": 22,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -6604,6 +6604,33 @@
         },
         {
           "url": "https://github.com/Gen-Verse/Science-Last-Exam",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "labrobotbench",
+      "name": "LabRobotBench",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "湿实验",
+        "机器人",
+        "实验恢复"
+      ],
+      "summary": "评测智能体能否在机器人湿实验室中诊断故障、恢复中断实验，并在互相竞争的生物时限下安排任务。",
+      "json": "data/benchmarks/labrobotbench.json",
+      "content": "content/benchmarks/labrobotbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://gamowlabs.com/lab-robot-bench-v0-1",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://gamowlabs.com/benchmarks",
           "accessed": "2026-11-10"
         }
       ],
