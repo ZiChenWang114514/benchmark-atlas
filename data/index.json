@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-11-10",
-  "count": 192,
+  "count": 193,
   "per_section": {
     "物理": 16,
     "化学": 12,
-    "生物与医学": 24,
+    "生物与医学": 25,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -6816,6 +6816,38 @@
         },
         {
           "url": "https://arxiv.org/pdf/2608.02595",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "biolab-bench",
+      "name": "BioLab Bench",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "湿实验",
+        "协议执行",
+        "设备代码",
+        "多智能体"
+      ],
+      "summary": "面向自主湿实验的专家落地评测框架，含294道合成生物学与分子生物学任务；配套 ProtoPilot 多智能体，协议到代码门控通过率约96.6%。",
+      "json": "data/benchmarks/biolab-bench.json",
+      "content": "content/benchmarks/biolab-bench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.31763",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/mgi-tech-and-shanghai-ai-laboratory-unveil-protopilot-and-biolab-bench-pioneering-physical-ai-for-life-sciences-302818081.html",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2606.31763",
           "accessed": "2026-11-10"
         }
       ],

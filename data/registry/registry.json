@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1690,
+  "count": 1691,
   "items": [
     {
       "id": "3-bench",
@@ -444271,6 +444271,56 @@
         }
       ],
       "discovered_via": "官方博客 / arXiv",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "biolab-bench",
+      "name": "BioLab Bench",
+      "aliases": [
+        "BioLab Bench",
+        "BioLab bench",
+        "ProtoPilot"
+      ],
+      "domain": "生物与医学",
+      "subdomain": "生物协议到设备执行全链路",
+      "description_zh": "面向自主湿实验的专家落地评测框架，含294道合成生物学与分子生物学任务；配套 ProtoPilot 多智能体，协议到代码门控通过率约96.6%。",
+      "organization": "上海人工智能实验室 / Genoria AI（华大智造 MGI Tech 子公司）",
+      "release_date": "2026-07-05",
+      "paper_url": "https://arxiv.org/abs/2606.31763",
+      "arxiv_id": "2606.31763",
+      "doi": null,
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://www.genoria.ai/en",
+      "leaderboard_url": "https://www.genoria.ai/en",
+      "task_format": "协议/SOP/设备代码全链路评测",
+      "size": "294 tasks from 98 gold-standard protocols",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.31763",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/mgi-tech-and-shanghai-ai-laboratory-unveil-protopilot-and-biolab-bench-pioneering-physical-ai-for-life-sciences-302818081.html",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2606.31763",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "PR Newswire / arXiv",
       "homepage_note_zh": null,
       "metrics": {
         "citations": null,
