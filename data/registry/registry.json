@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1684,
+  "count": 1685,
   "items": [
     {
       "id": "3-bench",
@@ -444223,6 +444223,59 @@
         "age_months": 0.03,
         "release_date_basis": "registry",
         "release_date_precision": "day_or_missing"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "sle",
+      "name": "SLE",
+      "aliases": [
+        "Science's Last Exam",
+        "SLE"
+      ],
+      "domain": "综合科学",
+      "subdomain": "端到端科研智能体与实验观察",
+      "description_zh": "评测智能体能否完成真实科研工作流，覆盖假设发现、方案规划、科学计算、软件操作与实验观察；湿实验执行仍在建设中。",
+      "organization": "AItonomy Foundation",
+      "release_date": "2026-11-06",
+      "paper_url": null,
+      "arxiv_id": null,
+      "doi": null,
+      "github_url": "https://github.com/Gen-Verse/Science-Last-Exam",
+      "hf_dataset": "Gen-Verse/Science-Last-Exam",
+      "homepage": "https://sciences-last-exam.org/",
+      "leaderboard_url": "https://sciences-last-exam.org/leaderboard",
+      "task_format": "多智能体科研能力评测",
+      "size": "113 public tasks",
+      "license": "Apache-2.0（代码仓库）",
+      "sources": [
+        {
+          "url": "https://sciences-last-exam.org/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://aitonomy.org/projects/sle",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://sciences-last-exam.org/docs",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/Gen-Verse/Science-Last-Exam",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "官方主页 / AItonomy 项目页",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": 20,
+        "hf_downloads": 414,
+        "hf_likes": 6,
+        "provenance": [],
+        "paper_eligible": false,
+        "collected_at": "2026-11-10"
       },
       "audit_history": []
     }

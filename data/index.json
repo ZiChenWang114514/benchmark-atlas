@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 184,
+  "count": 185,
   "per_section": {
     "物理": 16,
     "化学": 9,
@@ -14,7 +14,7 @@
     "多模态": 17,
     "Agent": 27,
     "安全": 12,
-    "综合科学": 2,
+    "综合科学": 3,
     "语音": 2,
     "机器人与具身": 1
   },
@@ -6568,6 +6568,42 @@
         },
         {
           "url": "https://ai123.com/newshub/17728",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "sle",
+      "name": "SLE",
+      "section": "综合科学",
+      "tags": [
+        "综合科学",
+        "湿实验",
+        "实验观察",
+        "协议规划",
+        "科学计算"
+      ],
+      "summary": "评测智能体能否完成真实科研工作流，覆盖假设发现、方案规划、科学计算、软件操作与实验观察；湿实验执行仍在建设中。",
+      "json": "data/benchmarks/sle.json",
+      "content": "content/benchmarks/sle.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://sciences-last-exam.org/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://aitonomy.org/projects/sle",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://sciences-last-exam.org/docs",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/Gen-Verse/Science-Last-Exam",
           "accessed": "2026-11-10"
         }
       ],
