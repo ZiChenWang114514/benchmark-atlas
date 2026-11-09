@@ -114,3 +114,4 @@ BenchBench-Protocol,生物与医学,湿实验 / 协议修改 / 开放作答 / �
 onepot-Bench 0,化学,湿实验 / 合成化学 / 拒答安全 / 反应预测,面向湿实验执行相关的合成化学能力，含 ChemAbacus、SynthRefusal 与基于私有实验数据的 SynthBench；模型在 SynthBench 上明显弱于化学计算题。,https://arxiv.org/abs/2608.02595,
 BioLab Bench,生物与医学,湿实验 / 协议执行 / 设备代码 / 多智能体,面向自主湿实验的专家落地评测框架，含294道合成生物学与分子生物学任务；配套 ProtoPilot 多智能体，协议到代码门控通过率约96.6%。,https://arxiv.org/abs/2606.31763,
 LabRobFail,化学,湿实验 / 机器人失效 / 具身智能 / 实验室仿真,面向化学自驱动实验室的机器人失效分析基准，含两万余条轨迹与六维评测；LabRobFail-VLM 在可见环境失效检测准确率约90.83%。,https://arxiv.org/abs/2607.23704,
+Robotic Chem Stress,化学,湿实验 / 机器人实验室 / 物理可执行 / 闭环重规划,在机器人化学实验室对 LLM 智能体做压力测试：4608次试验中仅约3.3%产生专家认可的可执行工作流，最佳系统约28.1%。,https://arxiv.org/abs/2607.23045,

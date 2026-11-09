@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1692,
+  "count": 1693,
   "items": [
     {
       "id": "3-bench",
@@ -444375,6 +444375,51 @@
       "metrics": {
         "citations": null,
         "gh_stars": 0,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
+    },
+    {
+      "id": "robotic-chem-stress",
+      "name": "Robotic Chem Stress",
+      "aliases": [
+        "Stress-testing LLM agents in a robotic chemistry laboratory",
+        "USTC robotic chemistry laboratory stress test"
+      ],
+      "domain": "化学",
+      "subdomain": "机器人化学实验室物理可执行性",
+      "description_zh": "在机器人化学实验室对 LLM 智能体做压力测试：4608次试验中仅约3.3%产生专家认可的可执行工作流，最佳系统约28.1%。",
+      "organization": "中国科学技术大学 / 精密与智能化学全国重点实验室等",
+      "release_date": "2026-07-25",
+      "paper_url": "https://arxiv.org/abs/2607.23045",
+      "arxiv_id": "2607.23045",
+      "doi": null,
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://arxiv.org/abs/2607.23045",
+      "leaderboard_url": "https://arxiv.org/abs/2607.23045",
+      "task_format": "物理世界多智能体试验评测",
+      "size": "4,608 trials across 45 modular workstations",
+      "license": null,
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.23045",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2607.23045",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "arXiv",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
         "hf_downloads": null,
         "hf_likes": null,
         "provenance": [],

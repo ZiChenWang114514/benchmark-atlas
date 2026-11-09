@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 194,
+  "count": 195,
   "per_section": {
     "物理": 16,
-    "化学": 13,
+    "化学": 14,
     "生物与医学": 25,
     "地球与天文": 6,
     "材料": 6,
@@ -6880,6 +6880,34 @@
         },
         {
           "url": "https://arxiv.org/pdf/2607.23704",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "robotic-chem-stress",
+      "name": "Robotic Chem Stress",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "湿实验",
+        "机器人实验室",
+        "物理可执行",
+        "闭环重规划"
+      ],
+      "summary": "在机器人化学实验室对 LLM 智能体做压力测试：4608次试验中仅约3.3%产生专家认可的可执行工作流，最佳系统约28.1%。",
+      "json": "data/benchmarks/robotic-chem-stress.json",
+      "content": "content/benchmarks/robotic-chem-stress.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.23045",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2607.23045",
           "accessed": "2026-11-10"
         }
       ],
