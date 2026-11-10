@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-10",
-  "count": 1703,
+  "count": 1704,
   "items": [
     {
       "id": "3-bench",
@@ -474212,6 +474212,55 @@
           }
         }
       }
+    },
+    {
+      "id": "pharmbench",
+      "name": "PharmBench",
+      "aliases": [
+        "PharmBench",
+        "Anew PharmBench"
+      ],
+      "domain": "化学",
+      "subdomain": "药物研发决策与药物化学推理",
+      "description_zh": "Anew Labs 内部药物研发场景基准，用50个场景与200道题评测长程药物化学与研发决策。",
+      "organization": "Anew Labs（新生实验室）",
+      "release_date": "2026-09-16",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752967v1",
+      "arxiv_id": null,
+      "doi": "10.64898/2026.09.20.752967",
+      "github_url": null,
+      "hf_dataset": null,
+      "homepage": "https://anewbt.com/",
+      "leaderboard_url": "https://anewbt.com/",
+      "task_format": "渐进披露的场景问答与专家量表评分",
+      "size": "50 R&D scenarios / 200 questions",
+      "license": "预印本为 CC-BY-NC 4.0；题目与评测数据未公开",
+      "sources": [
+        {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752967v1",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://anewbt.com/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752967v1.full.pdf",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "discovered_via": "用户检索 Anew 药物化学基准；对照 AnewDDE bioRxiv 预印本",
+      "homepage_note_zh": null,
+      "metrics": {
+        "citations": null,
+        "gh_stars": null,
+        "hf_downloads": null,
+        "hf_likes": null,
+        "provenance": [],
+        "paper_eligible": true,
+        "collected_at": "2026-11-10"
+      },
+      "audit_history": []
     }
   ]
 }

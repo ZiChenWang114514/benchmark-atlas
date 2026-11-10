@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-11-10",
-  "count": 198,
+  "count": 199,
   "per_section": {
     "物理": 17,
-    "化学": 14,
+    "化学": 15,
     "生物与医学": 26,
     "地球与天文": 6,
     "材料": 6,
@@ -6997,6 +6997,39 @@
         },
         {
           "url": "https://robodojo-benchmark.com/leaderboard",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "pharmbench",
+      "name": "PharmBench",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "药物化学",
+        "ADMET",
+        "构效关系",
+        "分子设计",
+        "药物研发决策"
+      ],
+      "summary": "Anew Labs 内部药物研发场景基准，用50个场景与200道题评测长程药物化学与研发决策。",
+      "json": "data/benchmarks/pharmbench.json",
+      "content": "content/benchmarks/pharmbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752967v1",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://anewbt.com/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752967v1.full.pdf",
           "accessed": "2026-11-10"
         }
       ],
