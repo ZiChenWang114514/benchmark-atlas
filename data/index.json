@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-11-10",
-  "count": 195,
+  "count": 198,
   "per_section": {
-    "物理": 16,
+    "物理": 17,
     "化学": 14,
-    "生物与医学": 25,
+    "生物与医学": 26,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -16,7 +16,7 @@
     "安全": 12,
     "综合科学": 4,
     "语音": 2,
-    "机器人与具身": 1
+    "机器人与具身": 2
   },
   "citation_window": {
     "from": "2026-07-01",
@@ -6908,6 +6908,95 @@
         },
         {
           "url": "https://arxiv.org/pdf/2607.23045",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "bend-2",
+      "name": "BEND 2.0",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "基因组学",
+        "DNA设计",
+        "突变效应预测"
+      ],
+      "summary": "用八项基于实验数据的任务，检验基因组基础模型能否预测 DNA 改动的效应并指导序列设计。",
+      "json": "data/benchmarks/bend-2.json",
+      "content": "content/benchmarks/bend-2.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.03806",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/machinelearninglifescience/BEND2",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://huggingface.co/datasets/yhsure/BEND2",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "medphysbench",
+      "name": "MedPhysBench",
+      "section": "物理",
+      "tags": [
+        "物理",
+        "医学物理",
+        "放射治疗",
+        "剂量计算"
+      ],
+      "summary": "用协议代码判分的医学物理计算与同行核查基准，覆盖放疗、影像、核医学与辐射防护。",
+      "json": "data/benchmarks/medphysbench.json",
+      "content": "content/benchmarks/medphysbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "last_checked": "2026-11-10"
+    },
+    {
+      "id": "robodojo",
+      "name": "RoboDojo",
+      "section": "机器人与具身",
+      "tags": [
+        "机器人与具身",
+        "机器人操作",
+        "双臂操作",
+        "仿真与真机评测"
+      ],
+      "summary": "42个仿真任务与18个真机任务组成的通用机器人操作基准，已被前沿模型发布页用于评测机器人控制。",
+      "json": "data/benchmarks/robodojo.json",
+      "content": "content/benchmarks/robodojo.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.04434",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://robodojo-benchmark.com/",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://robodojo-benchmark.com/leaderboard",
           "accessed": "2026-11-10"
         }
       ],

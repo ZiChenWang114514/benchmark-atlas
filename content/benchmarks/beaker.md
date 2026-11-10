@@ -230,13 +230,13 @@
 
 来源: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (访问 2026-11-10)
 
-**文件校验**：待核实
+**文件校验**：bbdacdc6d4f25e491f8ccbe08d84757c15bc8f70917e9998692092703915da78
 
-来源: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (访问 2026-11-10)
+来源: [1](https://arxiv.org/pdf/2611.06911) (访问 2026-11-10)
 
-**文件大小**：待核实
+**文件大小**：22753173
 
-来源: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (访问 2026-11-10)
+来源: [1](https://arxiv.org/pdf/2611.06911) (访问 2026-11-10)
 
 **文件夹**：待核实
 

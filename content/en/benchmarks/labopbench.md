@@ -230,13 +230,13 @@ Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee0
 
 Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
 
-**Checksum**：Unverified
+**Checksum**：1e073a43202bdbb4e6d2924461d06866b170ff501d2f651779156982eaaf92de
 
-Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
+Sources: [1](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
 
-**File size**：Unverified
+**File size**：2771654
 
-Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
+Sources: [1](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
 
 **Folder**：Unverified
 

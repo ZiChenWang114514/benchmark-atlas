@@ -1,0 +1,788 @@
+{
+  "id": "medphysbench",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "MedPhysBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MedPhysBench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "version": {
+      "value": "v1.0（Prime Intellect Environments Hub 环境 omar/medphysbench 1.0.1）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2611.05340v1（2026-11-03）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "section": {
+      "value": "物理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "医学物理",
+        "放射治疗",
+        "剂量计算",
+        "错误检测"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "license": {
+      "value": "代码仓库为 MIT",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.05340",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/onusrat/medphysbench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "https://github.com/onusrat/medphysbench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Omar Nusrat（多伦多都会大学物理系；圣迈克尔医院 iBEST）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "partners": {
+      "value": "Prime Intellect（托管环境并提供推理与评测平台）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Omar Nusrat",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Omar Nusrat",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "funders": {
+      "value": "Prime Intellect 通过 RL Residency 提供平台额度与算力",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "检验语言模型完成医学物理计算，并核查同事计算中错误的能力，覆盖放射治疗、诊断影像、核医学与辐射防护",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文指出该领域既有评测多为选择题考试或开放式评分，缺少对带单位的物理量计算结果以及同行核查能力的判分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "十个带随机种子的生成器依据 TG-51、TG-71、TG-43U1、NCRP 151 等协议生成题目，参考答案由实现协议的代码计算",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "医学物理研究者",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "冻结前用独立的第二实现交叉核对全部求解器，并在开发集上试运行四个模型逐一复核失败；作者说明外部医学物理师盲审尚在计划中",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "两套实现在60,000道题上相对差异不超过1.3×10⁻¹⁵；以经验敏感度分析推导容差带；测试后与已发表算例比对，并对照 NCRP 151 原文复核屏蔽题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "测试集由未公开密钥经 HMAC-SHA256 派生种子生成，每题带 canary 字符串，并公开测试题参数哈希承诺",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "测试集1,200题（600道计算、300道工作表核查、300道结果核查）；公开开发集600题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "数值计算（带单位）；工作表核查（判定并定位首个错误步骤）；结果核查",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "纯文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "分三级，三级为完整临床手算任务，如 TG-51 校准工作表与等中心 MU 计算",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "开发集公开；测试集仅可由密钥生成，作者代为评分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "计算题容差内正确率；核查题的检出率、误报率与 Youden J",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "确定性评分，无模型裁判：解析最后的 boxed 答案，用 pint 统一单位后按0.5%到2%的相对容差判定",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "各模型使用服务商默认温度与推理设置，不使用工具，最多32,768个输出词元，每题作答一次",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/onusrat/medphysbench",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "部分模型只作答预先指定的分层半数测试集；论文披露 NCRP 151 题目的两处问题会影响少量三级屏蔽题判分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "v1.0（环境版本1.0.1）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1（2026-11-03）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "计算任务对前四名模型已接近饱和（99.3%至100.0%）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "论文自报 NCRP 151 屏蔽题在两源规则与患者散射使用因子上与原报告不一致，1.1版将修正；另有七道结果核查题改变了所报告的物理量，主分析仍计入",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "作者早前的选择题基准 omar/medphysbench-kq（与本基准无共享题目）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文表2计算题正确率：GPT-6 Astra 100.0%（半数测试集）、GPT-6.1 Sol 99.7%、Gemini 4 Argon 99.5%、Claude Opus 5.5 99.3%、Claude Sonnet 5.5 93.7%、Gemma 3 27B 33.3%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "结果取自论文，共评测12个模型",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "omar.nusrat@torontomu.ca",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/onusrat/medphysbench/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.05340v1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "dfdd0079dc599d9c4d71e0b2d9ef52d02661eabcef118cc3f8d31c4592f90456",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.05340v1",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "1129352",
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2611.05340v1",
+          "accessed": "2026-11-10"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-10"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.05340",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://github.com/onusrat/medphysbench",
+        "accessed": "2026-11-10"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-10",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.05340",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://github.com/onusrat/medphysbench",
+        "accessed": "2026-11-10"
+      }
+    ]
+  }
+}

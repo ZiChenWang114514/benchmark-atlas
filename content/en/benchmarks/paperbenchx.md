@@ -32,9 +32,9 @@ Sources: [1](https://arxiv.org/abs/2610.39744) (accessed 2026-11-08)
 
 Sources: [1](https://arxiv.org/abs/2610.39744) (accessed 2026-11-08)
 
-**License**：Unverified
+**License**：MIT (code repository)
 
-Sources: [1](https://arxiv.org/abs/2610.39744) (accessed 2026-11-08)
+Sources: [1](https://github.com/UniPat-AI/PaperBenchX) (accessed 2026-11-10)
 
 **Paper or report**：https://arxiv.org/abs/2610.39744
 
@@ -230,13 +230,13 @@ Sources: [1](https://arxiv.org/abs/2610.39744) (accessed 2026-11-08)
 
 Sources: [1](https://arxiv.org/pdf/2610.39744) (accessed 2026-11-08)
 
-**File checksum**：Unverified
+**File checksum**：b3290184c24169a32b1439121cf800fca648bfde90a8422e34cba136defd1444
 
-Sources: [1](https://arxiv.org/pdf/2610.39744) (accessed 2026-11-08)
+Sources: [1](https://arxiv.org/pdf/2610.39744) (accessed 2026-11-10)
 
-**File size**：Unverified
+**File size**：7384443
 
-Sources: [1](https://arxiv.org/pdf/2610.39744) (accessed 2026-11-08)
+Sources: [1](https://arxiv.org/pdf/2610.39744) (accessed 2026-11-10)
 
 **Folder**：Unverified
 

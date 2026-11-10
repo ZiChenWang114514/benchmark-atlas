@@ -74,7 +74,7 @@ EN_LABELS = {
 
 SECTION_EN = {
   "化学": "Chemistry", "生物与医学": "Biology and medicine", "综合科学": "General science",
-  "物理": "Physics", "多模态": "Multimodal", "Agent": "Agent", "安全": "Safety", "材料": "Materials",
+  "物理": "Physics", "多模态": "Multimodal", "Agent": "Agent", "安全": "Safety", "材料": "Materials", "机器人与具身": "Robotics and embodied AI",
 }
 
 def F(value, urls, status=None):

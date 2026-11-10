@@ -230,13 +230,13 @@
 
 来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
 
-**文件校验**：待核实
+**文件校验**：1e073a43202bdbb4e6d2924461d06866b170ff501d2f651779156982eaaf92de
 
-来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
+来源: [1](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
 
-**文件大小**：待核实
+**文件大小**：2771654
 
-来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
+来源: [1](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
 
 **文件夹**：待核实
 

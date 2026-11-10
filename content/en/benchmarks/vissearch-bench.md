@@ -230,13 +230,13 @@ Sources: [1](https://arxiv.org/abs/2611.04894) (accessed 2026-11-08)
 
 Sources: [1](https://arxiv.org/pdf/2611.04894) (accessed 2026-11-08)
 
-**File checksum**：Unverified
+**File checksum**：6d01993344ab278f517e5f1c73e1f92ebf992a2e81da515e4024cdabe8a8f2c9
 
-Sources: [1](https://arxiv.org/pdf/2611.04894) (accessed 2026-11-08)
+Sources: [1](https://arxiv.org/pdf/2611.04894) (accessed 2026-11-10)
 
-**File size**：Unverified
+**File size**：49441850
 
-Sources: [1](https://arxiv.org/pdf/2611.04894) (accessed 2026-11-08)
+Sources: [1](https://arxiv.org/pdf/2611.04894) (accessed 2026-11-10)
 
 **Folder**：Unverified
 

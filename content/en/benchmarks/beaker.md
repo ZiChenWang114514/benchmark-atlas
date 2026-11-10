@@ -230,13 +230,13 @@ Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy
 
 Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (accessed 2026-11-10)
 
-**Checksum**：Unverified
+**Checksum**：bbdacdc6d4f25e491f8ccbe08d84757c15bc8f70917e9998692092703915da78
 
-Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (accessed 2026-11-10)
+Sources: [1](https://arxiv.org/pdf/2611.06911) (accessed 2026-11-10)
 
-**File size**：Unverified
+**File size**：22753173
 
-Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (accessed 2026-11-10)
+Sources: [1](https://arxiv.org/pdf/2611.06911) (accessed 2026-11-10)
 
 **Folder**：Unverified
 

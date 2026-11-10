@@ -1,5 +1,93 @@
 [
   {
+    "id": "claude-fable-5-2-frontier-heat",
+    "observed_date": "2026-11-10",
+    "event_date": "2026-11-09",
+    "title": "Claude Fable 5.2 进入前沿热度窗口",
+    "body": "发布页列出 OSWorld 2.1（离线子集）89.3%、AA-Briefcase v1.1 评分细则66.1%、RoboDojo Sim 64.9%，均为厂商自报。热度榜上 AA-Briefcase 升6位至第9，Chartography 升7位至第10，FrontierSWE 升8位至第18；GPT-6 Astra 与 Gemini 3.8 Flash 移出窗口，GPQA 降5位至第17。",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-09",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "hy4-frontier-heat",
+    "observed_date": "2026-11-10",
+    "event_date": "2026-11-04",
+    "title": "腾讯 Hy4 进入前沿热度窗口",
+    "body": "官方发布稿称 Hy4 首次加入视觉理解与电脑操作能力，并以 TenureTrail（7个学科123个可执行任务）、iRaB、GameDev 与 GameLogic 展示能力，这四项评测均首次进入热度榜；稿中多数分数为相对 Hy4 Preview 的提升幅度。",
+    "sources": [
+      {
+        "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-04",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "robodojo-intake",
+    "observed_date": "2026-11-10",
+    "event_date": "2026-11-09",
+    "title": "RoboDojo 走进前沿模型发布页：机器人操作基准迎来通用大模型",
+    "body": "RoboDojo 含42个仿真任务与18个真机任务。官方仿真主榜（11月3日更新）中 WALL-OSS-1.0-lite 以平均得分42.59居首，智能体榜 Q0-Preview 为74.20；Anthropic 报告 Claude Fable 5.2 在内部运行中平均成功率64.9%，与官方核验榜不直接可比。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2607.04434",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://robodojo-benchmark.com/leaderboard",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-09",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "bend-2-release",
+    "observed_date": "2026-11-10",
+    "event_date": "2026-11-02",
+    "title": "BEND 2.0：检验基因组模型能否指导 DNA 设计",
+    "body": "哥本哈根大学团队用五个实验数据集构建八项任务。剪接效应预测中专用模型 SpliceAI 的 Spearman 为0.674，高于表现最好的基础模型 AlphaGenome（0.650）；多细胞设计任务中模型平均效用仍为负值。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.03806",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-02",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "medphysbench-release",
+    "observed_date": "2026-11-10",
+    "event_date": "2026-11-03",
+    "title": "MedPhysBench：医学物理计算与同行核查基准",
+    "body": "1,200道测试题由协议代码生成参考答案并确定性判分。计算题中 GPT-6 Astra 为100.0%（半数测试集）、Claude Opus 5.5 为99.3%，Gemma 3 27B 为33.3%；作者自报两处屏蔽题与 NCRP 151 原文不一致。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.05340",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-03",
+    "sort_date_basis": "event_date"
+  },
+  {
     "id": "aisle-release",
     "observed_date": "2026-11-10",
     "event_date": "2026-11-09",

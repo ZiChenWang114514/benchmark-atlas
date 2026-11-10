@@ -1,5 +1,71 @@
 [
   {
+    "id": "claude-fable-5-2",
+    "name": "Claude Fable 5.2",
+    "organization": "Anthropic",
+    "release_date": "2026-11-09",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "benchmarks": [],
+    "note": "官方发布页署日期2026-11-09；Claude Mythos 5.2 为同一底层模型的限定访问版本，不另计。"
+  },
+  {
+    "id": "hy4",
+    "name": "Tencent Hy4",
+    "organization": "Tencent",
+    "release_date": "2026-11-04",
+    "sources": [
+      {
+        "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+        "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://hy.tencent.ai/research/hy4",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "benchmarks": [],
+    "note": "官方新闻稿署日期2026-11-04；首发为API与产品服务，权重尚未公开。"
+  },
+  {
+    "id": "claude-mythos-5-2",
+    "name": "Claude Mythos 5.2",
+    "organization": "Anthropic",
+    "release_date": "2026-11-09",
+    "eligible": false,
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "benchmarks": [],
+    "note": "与 Claude Fable 5.2 为同一底层模型，面向网络安全与生命科学的限定访问版本。"
+  },
+  {
+    "id": "muse-ember",
+    "name": "Muse Ember",
+    "organization": "Meta",
+    "release_date": "2026-11-09",
+    "eligible": false,
+    "sources": [
+      {
+        "url": "https://research.meta.ai/blog/muse-ember",
+        "accessed": "2026-11-10"
+      }
+    ],
+    "benchmarks": [],
+    "note": "官方定位为最小、最高效的模型，按轻量级型号规则不计入窗口。"
+  },
+  {
     "id": "longcat-2-5",
     "name": "LongCat-2.5",
     "organization": "Meituan",
