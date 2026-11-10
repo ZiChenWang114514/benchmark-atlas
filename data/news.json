@@ -1,5 +1,29 @@
 [
   {
+    "id": "gemini-4-carbon-ga-frontier-heat",
+    "observed_date": "2026-11-11",
+    "event_date": "2026-11-10",
+    "title": "Gemini 4 Carbon 正式向公众开放，Muse Wonder 移出前沿热度窗口",
+    "body": "官方于11月10日宣布 Gemini 4 Carbon 向开发者、企业和消费者开放；首发日期仍为10月28日。发布页称该模型在 CursorBench 4.0、Perplexity 的 WANDR 与 Zapier 的 AutomationBench 上排名第一，并与 Artificial Analysis 合作推出 Multimodal Knowledge Agent（MKA）基准，上述均为厂商自报。安全报告列出 ExploitBench 能力达成率97%、SRE-Bench 的 Pass@1 为83.6%（Gemini 4 Argon 为51.3%），以及在375项 agentic honesty benchmark 上通过率为92%（Argon 为70%）。本次更新将 Muse Wonder 标为不计入窗口：共享报告第4节只评测 Wonder Full，已审核具名评测族均为 Wonder Full 的真子集，窗口内已有 Wonder Full 与 Muse Spark Open 代表 Meta；GPT-6 Astra 重新进入窗口。热度榜上 ExploitBench 升4位至第7，Terminal-Bench-Science 升5位至第10，GPQA 升5位至第12；AA-Briefcase 降4位至第13。",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://deepmind.google/models/model-cards/gemini-4-carbon/",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_carbon_safety_report.pdf",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-10",
+    "sort_date_basis": "event_date"
+  },
+  {
     "id": "pharmbench-release",
     "observed_date": "2026-11-10",
     "event_date": "2026-09-16",
