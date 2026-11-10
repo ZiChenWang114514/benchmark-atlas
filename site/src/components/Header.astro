@@ -4,7 +4,7 @@ import { visualCopy } from '../i18n/visual';
 import { page } from '../lib/format';
 
 interface Props {
-  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api' | 'search';
 }
 const { active } = Astro.props;
 const locale = currentLocale();
@@ -19,10 +19,48 @@ const items = [
 ];
 const other = otherLocale(locale);
 const switchHref = hrefForLocale(Astro.url.pathname, Astro.url.search, other);
+const searchAction = page('search');
+const searchIndex = `${searchAction.replace(/\/$/, '')}.json`;
 ---
 <header class="site-header">
   <div class="header-inner">
     <a class="wordmark" href={page()}>Benchmark Constitution</a>
+    <div
+      class="site-search"
+      data-search
+      data-index={searchIndex}
+    >
+      <button
+        type="button"
+        class="search-toggle"
+        aria-expanded="false"
+        aria-controls="site-q"
+        data-open={t(locale, 'search.open')}
+        data-close={t(locale, 'search.close')}
+      >{t(locale, 'search.open')}</button>
+      <form class="site-search-form" role="search" action={searchAction} method="get">
+        <label class="sr-only" for="site-q">{t(locale, 'search.label')}</label>
+        <input
+          id="site-q"
+          class="site-search-input"
+          name="q"
+          type="search"
+          placeholder={t(locale, 'search.placeholder')}
+          autocomplete="off"
+          enterkeyhint="search"
+          aria-autocomplete="list"
+          aria-controls="site-search-results"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+        />
+        <kbd class="site-search-kbd" aria-hidden="true">/</kbd>
+      </form>
+      <div class="site-search-panel" hidden>
+        <ul id="site-search-results" class="site-search-results" role="listbox" aria-label={t(locale, 'search.results')}></ul>
+        <p class="site-search-empty" hidden>{t(locale, 'search.empty')}</p>
+        <a class="site-search-more" data-search-more href={searchAction}>{t(locale, 'search.view_all')}</a>
+      </div>
+    </div>
     <a class="lang-switch" href={switchHref} hreflang={other === 'zh' ? 'zh-Hans' : 'en'}>{t(locale, 'lang.switch')}</a>
     <button
       type="button"
@@ -40,6 +78,7 @@ const switchHref = hrefForLocale(Astro.url.pathname, Astro.url.search, other);
   </div>
 </header>
 <script>
+  import '../scripts/site-search.ts';
   const header = document.querySelector<HTMLElement>('.site-header');
   const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
   const nav = document.querySelector<HTMLElement>('#site-nav');

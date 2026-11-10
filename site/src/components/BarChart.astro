@@ -68,12 +68,14 @@ function label(value: number): string {
   <ol class="bar-chart">
     {items.map((item) => (
       <li>
-        <span class:list={['rank-no', item.rank <= 3 && `podium-${item.rank}`]}>{item.rank}</span>
-        <a class="bar-name" href={item.href}>{item.name}</a>
-        <span class="bar-track" aria-hidden="true">
-          <span class:list={[tier(item.value), 'grow']} style={`width:${widthOf(item.value)}%`}></span>
-        </span>
-        <span class="bar-val num">{label(item.value)}</span>
+        <a class="bar-row" href={item.href}>
+          <span class:list={['rank-no', item.rank <= 3 && `podium-${item.rank}`]}>{item.rank}</span>
+          <span class="bar-name">{item.name}</span>
+          <span class="bar-track" aria-hidden="true">
+            <span class:list={[tier(item.value), 'grow']} style={`width:${widthOf(item.value)}%`}></span>
+          </span>
+          <span class="bar-val num">{label(item.value)}</span>
+        </a>
       </li>
     ))}
   </ol>

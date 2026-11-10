@@ -268,6 +268,74 @@ if (!home.includes('/benchmark-constitution/frontier-heat/')) fail('首页没有
 if (!home.includes('/benchmark-constitution/impact/')) fail('首页没有链到学术影响力榜');
 if (!home.includes('/benchmark-constitution/registry/')) fail('首页没有链到名录');
 
+
+function existsInDist(pathname) {
+  const base = '/benchmark-constitution';
+  let path = pathname.split('?')[0].split('#')[0];
+  try {
+    if (/^https?:\/\//.test(path)) path = new URL(path).pathname;
+  } catch {
+    return false;
+  }
+  if (path.startsWith(base)) path = path.slice(base.length) || '/';
+  if (!path.startsWith('/')) path = `/${path}`;
+  const filePath = path.endsWith('/') ? `${path}index.html` : path;
+  return existsSync(join(dist, filePath.replace(/^\//, '')));
+}
+
+function verifyHomeHrefs(html, label) {
+  const hrefs = [...html.matchAll(/\bhref="([^"]+)"/g)].map((match) => match[1]);
+  if (!hrefs.length) fail(`${label} 没有 href`);
+  for (const href of hrefs) {
+    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) continue;
+    if (/^https?:\/\//.test(href)) {
+      if (!href.startsWith('https://zichenwang114514.github.io/benchmark-constitution') && !href.startsWith('http://zichenwang114514.github.io/benchmark-constitution')) continue;
+    }
+    if (!existsInDist(href)) fail(`${label} 的链接未指向已构建页面：${href}`);
+  }
+  const cardHrefs = [...html.matchAll(/class="(?:card|card-cover|bar-row)"[^>]*href="([^"]+)"|href="([^"]+)"[^>]*class="(?:card|card-cover|bar-row)"/g)]
+    .map((match) => match[1] || match[2])
+    .filter(Boolean);
+  if (!cardHrefs.length) fail(`${label} 缺少可点击卡片链接`);
+  for (const href of cardHrefs) {
+    if (!existsInDist(href)) fail(`${label} 卡片链接无效：${href}`);
+    const path = href.split('?')[0].split('#')[0];
+    if (!/\/(benchmarks|news)\/[a-z0-9-]+\/$/.test(path) && !/\/(frontier-heat|impact|trending)\/$/.test(path)) {
+      fail(`${label} 卡片未指向档案、动态或榜单页：${href}`);
+    }
+  }
+}
+
+function verifySearchIndex(path, locale, expected) {
+  const raw = read(path);
+  if (!raw) return;
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    fail(`${path} 不是合法 JSON`);
+    return;
+  }
+  const items = data.items ?? [];
+  if (items.length !== expected) fail(`${path} 条目数为 ${items.length}，应为 ${expected}`);
+  const ids = new Set();
+  for (const item of items) {
+    if (!item?.id || !item.name || !item.href || !item.haystack || !item.domain) fail(`${path} 缺少字段：${item?.id ?? '?'}`);
+    if (ids.has(item.id)) fail(`${path} 重复 id：${item.id}`);
+    ids.add(item.id);
+    if (!existsInDist(item.href)) fail(`${path} 的 ${item.id} 指向不存在的页面 ${item.href}`);
+    if (locale === 'zh' && !item.href.includes('/zh/benchmarks/')) fail(`${path} 的 ${item.id} 没有中文路径`);
+    if (locale === 'en' && item.href.includes('/zh/')) fail(`${path} 的 ${item.id} 混入中文路径`);
+  }
+}
+
+verifySearchIndex('search.json', 'en', index.benchmarks.length);
+verifySearchIndex('zh/search.json', 'zh', index.benchmarks.length);
+if (!home.includes('id="site-q"') || !zhHome.includes('id="site-q"')) fail('页头缺少搜索框');
+if (!existsSync(join(dist, 'search/index.html')) || !existsSync(join(dist, 'zh/search/index.html'))) fail('缺少搜索结果页');
+verifyHomeHrefs(home, '英文首页');
+verifyHomeHrefs(zhHome, '中文首页');
+
 if (errors.length) {
   console.error('站点校验失败：');
   for (const error of errors) console.error(` - ${error}`);

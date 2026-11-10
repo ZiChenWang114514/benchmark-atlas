@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { currentLocale, t } from '../i18n';
+import { page } from '../lib/format';
+
+const locale = currentLocale();
+const indexUrl = `${page('search').replace(/\/$/, '')}.json`;
+---
+<Base title={t(locale, 'search.page_title')} description={t(locale, 'search.page_description')} active="search">
+  <div class="wrap page-hero">
+    <h1>{t(locale, 'search.results')}</h1>
+    <p class="lede">{t(locale, 'search.page_description')}</p>
+  </div>
+  <div
+    class="wrap search-page"
+    data-search-page
+    data-index={indexUrl}
+    data-empty={t(locale, 'search.empty')}
+    data-prompt={t(locale, 'search.prompt')}
+    data-count={t(locale, 'search.count', { n: '{n}' })}
+    data-results-for={t(locale, 'search.results_for', { q: '{q}' })}
+  >
+    <form class="search-page-form" role="search" action={page('search')} method="get">
+      <label class="sr-only" for="search-q">{t(locale, 'search.label')}</label>
+      <input id="search-q" class="search" name="q" type="search" placeholder={t(locale, 'search.placeholder')} autocomplete="off" enterkeyhint="search" />
+      <button type="submit" class="ghost">{t(locale, 'search.label')}</button>
+    </form>
+    <noscript><p class="note">{t(locale, 'search.noscript')}</p></noscript>
+    <p class="result-count" data-search-count></p>
+    <p class="empty" data-search-status></p>
+    <div class="card-grid" data-search-list></div>
+  </div>
+  <script>
+    import '../scripts/site-search.ts';
+  </script>
+</Base>

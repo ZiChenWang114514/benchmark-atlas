@@ -13,26 +13,26 @@ const locale = currentLocale();
 const confidence = item.heat_confidence === 'A' ? t(locale, 'heat.a') : t(locale, 'heat.b');
 const showEvidence = showWhat || !item.linked;
 const podium = item.rank <= 3 ? `podium podium-${item.rank}` : '';
+const href = item.linked ? page(`benchmarks/${item.slug}`) : '';
 ---
-<article class:list={['trend-card', podium]} id={`trend-${item.slug}`} style={`--tone:${tone(item.section)}`} data-trend data-section={sectionSlug(item.section)}>
+<article class:list={['trend-card', podium, href && 'is-linked']} id={`trend-${item.slug}`} style={`--tone:${tone(item.section)}`} data-trend data-section={sectionSlug(item.section)}>
+  {href && <a class="card-cover" href={href}><span class="sr-only">{item.name}</span></a>}
   <p class="trend-kicker">
     <span class="rank-no">{item.rank}</span>
     <span class:list={['badge', item.heat_confidence === 'A' ? 'badge-heat-a' : 'badge-heat-b']} title={confidence}>{item.heat_confidence}</span>
     <span class="domain-tag">{sectionLabel(item.section, locale)}</span>
   </p>
-  <h3>
-    {item.linked ? <a href={page(`benchmarks/${item.slug}`)}>{item.name}</a> : item.name}
-  </h3>
+  <h3>{item.name}</h3>
   <p class="card-summary">{item.rationale}</p>
   {item.linked ? <p class="card-tags">{t(locale, 'trend.linked')}</p> : <p class="card-tags">{t(locale, 'trend.unlinked')}</p>}
   {showEvidence && (
     <ul class="trend-evidence">
       {item.evidence.map((entry) => {
-        const href = safeUrl(entry.url);
+        const evidenceHref = safeUrl(entry.url);
         return (
           <li>
-            {href ? (
-              <a class="inline-meta" href={href} target="_blank" rel="noopener noreferrer">
+            {evidenceHref ? (
+              <a class="inline-meta" href={evidenceHref} target="_blank" rel="noopener noreferrer">
                 {entry.organization && <span>{entry.organization}</span>}
                 {entry.date && <span>{entry.date}</span>}
                 {!entry.organization && !entry.date && <span>{entry.url}</span>}

@@ -68,6 +68,11 @@ const stats = [
   heat ? { href: page('frontier-heat'), label: ui.statHeat, value: heat.ranking.length } : null,
 ].filter((item): item is { href: string; label: string; value: number } => !!item);
 
+function newsHref(item: (typeof news)[number]): string {
+  const hits = benchmarksMentioned(`${item.title}\n${item.body}`, catalog);
+  if (hits.length === 1) return page(`benchmarks/${hits[0].id}`);
+  return page(`news/${item.id}`);
+}
 function hostOf(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
@@ -173,7 +178,8 @@ const impactBars = impactTop.map((row) => ({
       ) : (
         <div class="news-grid">
           {lead && (
-            <article class="news-feature" data-news>
+            <article class="news-feature is-linked" data-news>
+              <a class="card-cover" href={newsHref(lead)}><span class="sr-only">{lead.title}</span></a>
               <div class="news-visual" set:html={coverFor(lead, true)} />
               <div>
                 {lead.type && <p class="kicker">{lead.type}</p>}
@@ -192,7 +198,8 @@ const impactBars = impactTop.map((row) => ({
             </article>
           )}
           {rest.map((item) => (
-            <article class="news-tile" data-news>
+            <article class="news-tile is-linked" data-news>
+              <a class="card-cover" href={newsHref(item)}><span class="sr-only">{item.title}</span></a>
               <div class="news-visual" set:html={coverFor(item)} />
               <div>
                 {item.type && <p class="kicker">{item.type}</p>}

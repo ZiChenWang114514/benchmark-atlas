@@ -1,0 +1,70 @@
+---
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import Base from '../../layouts/Base.astro';
+import { currentLocale, t } from '../../i18n';
+import { visualCopy } from '../../i18n/visual';
+import { benchmarksMentioned, loadNews, loadRecords, newsWhen, repoRoot, type NewsItem } from '../../lib/data';
+import { page, publicText, safeUrl } from '../../lib/format';
+import { sectionLabel } from '../../lib/sections';
+
+export function getStaticPaths() {
+  const news = JSON.parse(readFileSync(join(repoRoot(), 'data/news.json'), 'utf8')) as NewsItem[];
+  return news.map((item) => ({ params: { id: item.id } }));
+}
+
+const locale = currentLocale();
+const ui = visualCopy(locale);
+const { id } = Astro.params;
+const news = loadNews();
+const item = news.find((entry) => entry.id === id);
+if (!item) throw new Error(`missing news item ${id}`);
+const records = loadRecords();
+const catalog = records.map((record) => record.index);
+const related = benchmarksMentioned(`${item.title}\n${item.body}`, catalog);
+
+function hostOf(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return t(locale, 'home.source');
+  }
+}
+---
+<Base title={item.title} description={publicText(item.body).slice(0, 180)} active="home">
+  <div class="wrap page-hero">
+    <p class="kicker">{t(locale, 'home.news')}</p>
+    <h1>{item.title}</h1>
+    <p class="meta-row">
+      <span>{newsWhen(item)}</span>
+      {item.type && <span>{item.type}</span>}
+    </p>
+  </div>
+  <div class="wrap news-detail">
+    <p class="lede">{publicText(item.body)}</p>
+    {item.sources.length > 0 && (
+      <p class="news-links">
+        {item.sources.map((source) => safeUrl(source.url) && (
+          <a href={source.url} target="_blank" rel="noopener noreferrer">{hostOf(source.url)}</a>
+        ))}
+      </p>
+    )}
+    {related.length > 0 && (
+      <section class="section" aria-labelledby="news-related">
+        <header class="flag">
+          <h2 id="news-related">{t(locale, 'news.related')}</h2>
+        </header>
+        <div class="card-grid">
+          {related.map((entry) => (
+            <a class="card" href={page(`benchmarks/${entry.id}`)}>
+              <span class="card-section"><span class="domain-tag">{sectionLabel(entry.section, locale)}</span></span>
+              <h3>{entry.name}</h3>
+              <p class="card-summary">{publicText(entry.summary)}</p>
+              <p class="card-foot"><span>{ui.dossierLink}</span></p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Base>

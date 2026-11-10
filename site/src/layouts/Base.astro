@@ -7,7 +7,7 @@ import { currentLocale, hrefForLocale, t } from '../i18n';
 interface Props {
   title: string;
   description: string;
-  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api';
+  active?: 'home' | 'trending' | 'heat' | 'impact' | 'registry' | 'constitution' | 'api' | 'search';
 }
 const { title, description, active } = Astro.props;
 const locale = currentLocale();

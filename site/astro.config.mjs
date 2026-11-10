@@ -12,6 +12,9 @@ function zhRoutes() {
     ['/zh/impact/method', './src/pages/impact/method.astro'],
     ['/zh/registry', './src/pages/registry.astro'],
     ['/zh/constitution', './src/pages/constitution.astro'],
+    ['/zh/search', './src/pages/search.astro'],
+    ['/zh/search.json', './src/pages/search.json.ts'],
+    ['/zh/news/[id]', './src/pages/news/[id].astro'],
     ['/zh/benchmarks/[id]', './src/pages/benchmarks/[id].astro'],
   ];
   return {
