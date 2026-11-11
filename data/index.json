@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10",
-  "count": 199,
+  "generated_at": "2026-11-11",
+  "count": 202,
   "per_section": {
     "物理": 17,
-    "化学": 15,
-    "生物与医学": 26,
+    "化学": 16,
+    "生物与医学": 27,
     "地球与天文": 6,
     "材料": 6,
     "语言": 18,
@@ -14,7 +14,7 @@
     "多模态": 17,
     "Agent": 27,
     "安全": 12,
-    "综合科学": 4,
+    "综合科学": 5,
     "语音": 2,
     "机器人与具身": 2
   },
@@ -7034,6 +7034,99 @@
         }
       ],
       "last_checked": "2026-11-10"
+    },
+    {
+      "id": "sciencevision",
+      "name": "ScienceVision",
+      "section": "综合科学",
+      "tags": [
+        "综合科学",
+        "科学三维视觉问答",
+        "跨学科评测",
+        "智能体评测"
+      ],
+      "summary": "覆盖生物学、化学、医学影像、机械CAD与建筑的250道专家级科学三维视觉问答基准，主比较中三维设定最高平均分为0.53。",
+      "json": "data/benchmarks/sciencevision.json",
+      "content": "content/benchmarks/sciencevision.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.04087",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.unipat.ai/blog/ScienceVision",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/ScienceVision",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "last_checked": "2026-11-11"
+    },
+    {
+      "id": "gpbench",
+      "name": "GPBench",
+      "section": "生物与医学",
+      "tags": [
+        "生物与医学",
+        "基因组预测",
+        "多物种基准",
+        "分子育种"
+      ],
+      "summary": "覆盖16个物种、57个性状与40,821个样本的基因组预测基准，在统一协议下评测21种方法的有效性、敏感性、稳健性与可扩展性。",
+      "json": "data/benchmarks/gpbench.json",
+      "content": "content/benchmarks/gpbench.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.762999v1",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.sdu-idea.cn/GPBench/",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/xwzhang2118/GPBench",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "last_checked": "2026-11-11"
+    },
+    {
+      "id": "chemargus",
+      "name": "ChemArgus",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "多模态化学推理",
+        "竞赛级评测",
+        "评分量表诊断"
+      ],
+      "summary": "面向竞赛级、实验室水准化学推理的多模态诊断基准，公开部分含153道题与600道小问，并以三种协议定位推理链的断裂位置。",
+      "json": "data/benchmarks/chemargus.json",
+      "content": "content/benchmarks/chemargus.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "last_checked": "2026-11-11"
     }
   ]
 }

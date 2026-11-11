@@ -1,0 +1,1028 @@
+{
+  "id": "chemargus",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "ChemArgus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ChemArgus：面向实验室水准多模态化学推理的自动科学诊断基准",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2610.20012v1；公开开发集48题、公开测试集105题，另有未公布的私有集38题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2610.20012v1（2026-10-14）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "section": {
+      "value": "化学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "多模态化学推理",
+        "竞赛级评测",
+        "评分量表诊断",
+        "开放题解答"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文在 arXiv 标注为 CC BY 4.0；代码仓库与 Hugging Face 数据集未公布许可证",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2610.20012",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/CosmosMind-ai/ChemArgus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://huggingface.co/datasets/CosmosMind/ChemArgus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://www.cosmosmind.ai/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "ChemArgus: Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "CosmosMind",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "同等贡献作者 Hanyao Guo、Mo Cui、Zihan Tan、Leixin Sun；项目负责人 Mo Cui、Yichun Wang、Yinan Shen、Guojun Zhu；通讯作者 Mang Ye、Guancheng Wan；其余作者包括 Jia Jiang、Erhao Chen、Zui Chen、Wenzhe Gao、Zhihao Yu、Qijun Wang、Yetian Zhu、Jiande Chen、Chuhang Pei、Yao Jiang、Yichen Fan、Pinhan Wang、Xiaorui Pan、Qianyi Zhu、Yang Liu",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "CosmosMind",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "考查竞赛级、开放式化学推理与多模态理解，并以分点部分得分定位推理链在整合、误差传播或局部推理上的断裂",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为现有前沿化学基准仍主要给最终答案打分，从而把记忆与逐步推导混在一起，把视觉输入与文本输入视为可互换，并把长程规划与逐步执行混为一谈，无法说明推理链在何处断开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "题目从化学竞赛材料、教科书与研究论文出发、按第一性原理构建，并归一为带共享题头、小问链、可见图像、受控文字说明与评分量表的结构化单元",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "由 CosmosMind 发布；论文未写明作者所属机构",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "候选题目须经过专家审阅、对抗性模型探测与学生试做；只有满足化学正确性、可评分性与有意义区分度的题目进入最终集合",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "构建流程含四步提炼循环与三道质量门控。评分采用双轨：结构式、SMILES、方程与计算值先做确定性化学等价核对，灵活的机理与实验论述再由独立的大语言模型评判按量表逐点给分；低置信与边界样本转交人工复核，并对评判与人工分数做抽查",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "评分用图像对作答模型不可见；官方说明私有集从未公布。官方榜还把访问控制写入测量设计。公开测试集中的评分量表字段已被剥离",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "官方仓库给出的公开划分为：开发集48题、209道小问、676分、350张图像（含评分量表）；测试集105题、391道小问、1,271分、173张图像（评分量表已剥离）；公开合计153题、600道小问、1,947分、523张图像。私有集38题从未公布。官方榜页汇总为23份试卷、191题、820道可评分小问、2,582个量表分点，与公开部分加上私有集后的总数相符。题目按确定性规则分配，使三个划分中模型可见图像总数大致接近（平均约164张），同时保持25%/55%/20%的题量比例",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放式竞赛级化学题，由共享题头与有序小问组成，覆盖电化学、有机多步合成、工业化学等；答案包括结构、SMILES、方程、计算值以及机理与实验论述",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "真实图像与配套的受控文字说明；另有仅文本、以及文本加外部图像阅读器三种输入方式。评分用图像对作答模型不可见",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "在已报告的25次运行中，整题作答均为三项协议里最低的一项。论文表2中，多模态整题作答从23.2%到53.8%，文本整题作答从23.5%到61.5%。官方榜声明部分领先分数并非基于完整题目集合，不能直接当作满量结果",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "公开开发集48题（含评分量表）、公开测试集105题（评分量表已剥离）、未公布的私有集38题，题量比例为25%、55%、20%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "归一化评分量表得分，即获得的量表分点占该题总分的比例，以百分数报告。三项协议为整题作答、顺序承接与标准中间结果脚手架；因共用同一评分单位，协议之间的分差用于分离整合负担、误差传播与局部推理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每个小问按评分量表逐点给部分分。形式化答案先经确定性化学等价核对，再进入评判；灵活答案由独立评判会话按量表逐点判定。论文写明评判模型为 GPT-5.6-Sol，并称人工抽查与评判分数的一致性高到可以只报告评判分数。所有评分交互均归档",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "零提示：只提供协议所要求的题目内容，不提供少样本例子、推理说明、工具或网络搜索。除 Claude Opus 5 在 Claude Code 框架中运行外，其余模型在开源 Pi 智能体框架中评测，并使用默认设置、不做任务微调。文本加阅读器设定将文本模型与 Qwen3-VL 图像阅读器配对，由模型自行决定何时调用",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "https://github.com/CosmosMind-ai/ChemArgus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "官方榜注明每次百分数按其自身已评分题目集合计算，因此不同运行的分母不同。Claude Opus 5 的运行被标明为在2026-09-21方案A去掉高分题之后、仅覆盖39至103分的题目前缀，分数为临时结果，须待全集完成。Gemini 3.8 Flash 与 Grok 4.6 的运行基于评测集中12份试卷、1,136分的子集。因此表中领先分数不宜当作同一完整集合上的直接排名",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "公开数据与 arXiv:2610.20012v1 及 Hugging Face 仓库对应；官方榜快照标注为2026年9月",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1（2026-10-14）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "未饱和：即便官方榜上领先的多模态标准中间结果设定达到64.9%，也远低于满分，且该分数被标明为临时前缀结果",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "官方榜对 Claude Opus 5 的临时前缀结果以及 Gemini 与 Grok 的子集评测作了声明。私有集从未公布。未见公开争议",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://www.cosmosmind.ai/leaderboard/chemargus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "官方榜与论文表2快照（归一化评分量表得分，百分数，标注为2026年9月）。多模态：Claude Opus 5 整题53.8、顺序承接59.4、脚手架64.9；Gemini 3.8 Flash 为48.5、58.5、60.3；Grok 4.6 为33.8、41.8、45.5；GPT-5.6-Sol 为23.2、28.8、30.4。纯文本：Claude Opus 5 为61.5、61.7、61.7，为该输入方式下最高。文本加阅读器：GLM-5.2 整题52.0，为该方式下最高。上述 Claude 分数被官方标明为临时前缀，Gemini 与 Grok 为子集结果",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "论文称完整名册为九个模型、三种输入方式下的25次已完成运行。DeepSeek V4 Pro 与 GLM-5.2 没有多模态行。官方榜页与论文表2数字一致，但附有分母不同与不完整评测集合的声明",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "contact@cosmosmind.ai",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/CosmosMind-ai/ChemArgus/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2610.20012",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "0a8ef480f571878b71f3c88329fcb45621061f57033d087ecae69cc8a81281fe",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "13604502",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "https://www.cosmosmind.ai/leaderboard/chemargus",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.20012",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/CosmosMind-ai/ChemArgus",
+        "accessed": "2026-11-11"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-11",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.20012",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/CosmosMind-ai/ChemArgus",
+        "accessed": "2026-11-11"
+      }
+    ]
+  }
+}

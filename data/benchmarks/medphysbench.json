@@ -139,7 +139,7 @@
       ]
     },
     "dataset_url": {
-      "value": "待核实",
+      "value": "开发集600题可由代码仓库中的生成器与公开种子复现（https://github.com/onusrat/medphysbench）；测试集1200题由未公开密钥生成，不在仓库中，作者可代为评分。评测环境标识为 Prime Intellect Environments Hub 上的 omar/medphysbench（v1.0.1）。",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2611.05340",
@@ -148,9 +148,24 @@
         {
           "url": "https://github.com/onusrat/medphysbench",
           "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/onusrat/medphysbench/main/README.md",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/onusrat/medphysbench",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.05340",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.05340",
+          "accessed": "2026-11-11"
         }
-      ],
-      "status": "待核实"
+      ]
     },
     "official_homepage": {
       "value": "https://github.com/onusrat/medphysbench",
@@ -772,6 +787,10 @@
       {
         "date": "2026-11-10",
         "change": "初次收录"
+      },
+      {
+        "date": "2026-11-11",
+        "change": "补记开发集随代码仓库与公开种子发布，测试集由未公开密钥生成。"
       }
     ],
     "sources": [
@@ -782,6 +801,18 @@
       {
         "url": "https://github.com/onusrat/medphysbench",
         "accessed": "2026-11-10"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/onusrat/medphysbench/main/README.md",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/onusrat/medphysbench",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://arxiv.org/abs/2611.05340",
+        "accessed": "2026-11-11"
       }
     ]
   }

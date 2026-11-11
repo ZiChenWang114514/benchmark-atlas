@@ -1,5 +1,117 @@
 [
   {
+    "id": "aa-leaderboard-2026-11-11",
+    "observed_date": "2026-11-11",
+    "event_date": "待核实",
+    "title": "Artificial Analysis 智能指数：Claude Fable 5.2 以65分升至首位",
+    "body": "截至11月11日查阅的 Artificial Analysis 模型页常见问题，Claude Fable 5.2（max，Default Fallback）以65分位列智能指数第一，随后为同一模型的 xhigh 与 high 设置（均为62分）；Gemini 4 Carbon（high）为60分，Claude Opus 5.5（max）为59分。开放权重模型中，Kimi K3.1 Pro 仍以46分最高。页面未标明本次榜单变动的发布日期。",
+    "sources": [
+      {
+        "url": "https://artificialanalysis.ai/models",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "榜单变化",
+    "sort_date": "2026-11-11",
+    "sort_date_basis": "observed_date"
+  },
+  {
+    "id": "gpt-6-cyber-release",
+    "observed_date": "2026-11-11",
+    "event_date": "2026-11-05",
+    "title": "OpenAI 发布面向网络安全的 GPT-6 Cyber，仅向 Daybreak Red 用户开放",
+    "body": "OpenAI 于11月5日宣布 GPT-6 Cyber，定位为用于授权安全研究的网络安全模型，用于发现并验证可利用漏洞，并保持在研究者设定的范围内。首发仅通过 API 和 Codex 向部分获批的 Daybreak Red 客户开放，并将逐步扩大至全部 Daybreak Red 客户。发布页称，在 ExploitGym 上厂商自报成绩为48.5%，高于 GPT-5.6 Cyber 的32.1%；在范围对齐测试中，无部署提示时有99.93%的评测未攻击范围外服务，加上部署提示后为100%。稿中同时称其在多数网络任务上优于 GPT-6 Astra，并将该模型的网络安全准备度分级标为 Critical。",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-05",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "gpbench-release",
+    "observed_date": "2026-11-11",
+    "event_date": "2026-11-04",
+    "title": "GPBench：覆盖16个物种与57个性状的基因组预测基准",
+    "body": "山东大学等团队于11月4日在 bioRxiv 发布 GPBench，收集并整理来自动物、植物与微生物的公共基因型—表型数据，覆盖16个物种、57个性状与40,821个样本，在统一协议下评测21种基因组预测方法的有效性、敏感性、稳健性与可扩展性。评测对全部数据集采用十折交叉验证。论文称统计遗传学方法在大多数物种上表现稳定且具有竞争力，基于序列的深度学习方法稳健性与泛化波动较大。代码、在线平台与数据集已公开。该基准评测的是基因组预测算法，与 Genome-Bench 等基因组语言模型基准不是同一任务。",
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.762999v1",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://www.sdu-idea.cn/GPBench/",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/xwzhang2118/GPBench",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://huggingface.co/datasets/xw97/GPBench",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-04",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "sciencevision-release",
+    "observed_date": "2026-11-11",
+    "event_date": "2026-11-02",
+    "title": "ScienceVision：跨五个学科的250道专家级科学三维视觉问答基准",
+    "body": "UniPat AI 与 Elorian AI 于11月2日在 arXiv 发布 ScienceVision。基准包含250道专家级科学三维视觉问答，生物学、化学、医学影像、机械CAD与建筑各50道，共22个子领域。官方博客称66名专家参与撰写与审校，记录工作时间482.98小时。主比较中，模型在原生三维对象、三维加检视工具与固定二维渲染三种设定下作答同一批题目；三维设定最高平均分为 GPT-6 Astra 的0.5291，二维设定最高为 Claude Fable 5.1 的0.2965。数据集在 Hugging Face 上须申请访问。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.04087",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://www.unipat.ai/blog/ScienceVision",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/UniPat-AI/ScienceVision",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-02",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "chemargus-release",
+    "observed_date": "2026-11-11",
+    "event_date": "2026-10-14",
+    "title": "ChemArgus：面向实验室水准多模态化学推理的诊断基准",
+    "body": "CosmosMind 于10月14日在 arXiv 发布 ChemArgus。题目来自化学竞赛材料、教科书与研究论文，按评分量表逐点给部分分，并在整题作答、顺序承接与标准中间结果脚手架三种协议下评测，以分离整合负担、误差传播与局部推理。公开部分为开发集48题与测试集105题，合计153题、600道小问；另有38题的私有集未公布。官方榜与论文快照标注为2026年9月：多模态整题作答中 Claude Opus 5 为53.8%，但其分数被官方标明为不完整题目前缀上的临时结果；Gemini 3.8 Flash 与 Grok 4.6 为子集评测。代码、数据集与官方榜已公开。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.20012",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://github.com/CosmosMind-ai/ChemArgus",
+        "accessed": "2026-11-11"
+      },
+      {
+        "url": "https://huggingface.co/datasets/CosmosMind/ChemArgus",
+        "accessed": "2026-11-11"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-10-14",
+    "sort_date_basis": "event_date"
+  },
+  {
     "id": "gemini-4-carbon-ga-frontier-heat",
     "observed_date": "2026-11-11",
     "event_date": "2026-11-10",

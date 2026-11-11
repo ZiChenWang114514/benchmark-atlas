@@ -75754,240 +75754,71 @@
     {
       "id": "chemargus",
       "name": "ChemArgus",
-      "aliases": [],
+      "aliases": [
+        "Chem Argus",
+        "ChemArgus Benchmark"
+      ],
       "domain": "化学",
-      "subdomain": "chemistry",
-      "description_zh": "用竞赛级化学题逐小问给分，并配对图文与上下文条件，定位多步推理链中的错误。",
-      "organization": null,
+      "subdomain": "多模态化学推理",
+      "description_zh": "面向竞赛级、实验室水准化学推理的多模态诊断基准，公开部分含153道题与600道小问，并以三种协议定位推理链的断裂位置。",
+      "organization": "CosmosMind",
       "release_date": "2026-10-14",
       "paper_url": "https://arxiv.org/abs/2610.20012",
       "arxiv_id": "2610.20012",
-      "doi": "10.48550/arxiv.2610.20012",
-      "github_url": null,
-      "hf_dataset": null,
-      "homepage": null,
-      "leaderboard_url": null,
-      "task_format": null,
-      "size": null,
-      "license": null,
+      "doi": "10.48550/arXiv.2610.20012",
+      "github_url": "https://github.com/CosmosMind-ai/ChemArgus",
+      "hf_dataset": "CosmosMind/ChemArgus",
+      "homepage": "https://www.cosmosmind.ai/",
+      "leaderboard_url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+      "task_format": "开放式多模态化学推理（评分量表）",
+      "size": "191 problems (153 public, 38 private)",
+      "license": "论文在 arXiv 标注为 CC BY 4.0；代码仓库与 Hugging Face 数据集未公布许可证",
       "sources": [
         {
-          "url": "https://api.openalex.org/works?filter=title.search%3Abenchmark+chemistry%2Cfrom_publication_date%3A2018-01-01&per-page=100&sort=cited_by_count%3Adesc&mailto=bot%40example.com&select=id%2Ctitle%2Cdoi%2Cpublication_date%2Cids%2Cprimary_location%2Clocations%2Ccited_by_count%2Cauthorships",
-          "accessed": "2026-11-07"
+          "url": "https://arxiv.org/abs/2610.20012",
+          "accessed": "2026-11-11"
         },
         {
-          "url": "https://api.openalex.org/works/W7222269843",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "discovered_via": "OpenAlex 标题检索 (benchmark + 领域关键词)",
-      "in_repo": false,
-      "audit_history": [
+          "url": "https://www.cosmosmind.ai/leaderboard/chemargus",
+          "accessed": "2026-11-11"
+        },
         {
-          "action": "science2_field_deltas",
-          "source_shard": "science2.jsonl",
-          "line": 97,
-          "protected_fields": [
-            "release_date",
-            "id",
-            "paper_url",
-            "arxiv_id",
-            "doi"
-          ]
+          "url": "https://github.com/CosmosMind-ai/ChemArgus",
+          "accessed": "2026-11-11"
         }
       ],
+      "discovered_via": "官方页面 / 论文检索",
+      "in_repo": false,
+      "audit_history": [],
       "metrics": {
         "citations": 0,
-        "citations_by_year": {},
-        "gh_stars": null,
-        "gh_stars_per_month": null,
-        "hf_downloads": null,
-        "hf_likes": null,
+        "gh_stars": 0,
+        "hf_downloads": 1555,
+        "hf_likes": 0,
         "provenance": [
           {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2608.03882%7C10.48550%2Farxiv.2608.07742%7C10.48550%2Farxiv.2608.11415%7C10.48550%2Farxiv.2608.11469%7C10.48550%2Farxiv.2608.13344%7C10.48550%2Farxiv.2608.21060%7C10.48550%2Farxiv.2608.21357%7C10.48550%2Farxiv.2608.21504%7C10.48550%2Farxiv.2608.23525%7C10.48550%2Farxiv.2608.25286%7C10.48550%2Farxiv.2608.26382%7C10.48550%2Farxiv.2608.27394%7C10.48550%2Farxiv.2609.05079%7C10.48550%2Farxiv.2609.06192%7C10.48550%2Farxiv.2609.07441%7C10.48550%2Farxiv.2609.07611%7C10.48550%2Farxiv.2609.09482%7C10.48550%2Farxiv.2609.11243%7C10.48550%2Farxiv.2609.11758%7C10.48550%2Farxiv.2609.19134%7C10.48550%2Farxiv.2609.19180%7C10.48550%2Farxiv.2609.20891%7C10.48550%2Farxiv.2609.23427%7C10.48550%2Farxiv.2609.25050%7C10.48550%2Farxiv.2609.29541%7C10.48550%2Farxiv.2609.29751%7C10.48550%2Farxiv.2609.30971%7C10.48550%2Farxiv.2609.33233%7C10.48550%2Farxiv.2609.34428%7C10.48550%2Farxiv.2609.39371%7C10.48550%2Farxiv.2609.39903%7C10.48550%2Farxiv.2610.00370%7C10.48550%2Farxiv.2610.00559%7C10.48550%2Farxiv.2610.00609%7C10.48550%2Farxiv.2610.05140%7C10.48550%2Farxiv.2610.07763%7C10.48550%2Farxiv.2610.09112%7C10.48550%2Farxiv.2610.11329%7C10.48550%2Farxiv.2610.12758%7C10.48550%2Farxiv.2610.14679%7C10.48550%2Farxiv.2610.20012%7C10.48550%2Farxiv.2610.21074%7C10.48550%2Farxiv.2610.21082%7C10.48550%2Farxiv.2610.26787%7C10.48550%2Farxiv.2610.28658%7C10.48550%2Farxiv.2610.30104%7C10.48550%2Farxiv.2610.30282%7C10.48550%2Farxiv.2610.32441%7C10.48550%2Farxiv.2610.36517%7C10.5194%2Fegusphere-egu23-15540&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-07",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
+            "metric": "gh_stars",
+            "value": 0,
+            "url": "https://github.com/CosmosMind-ai/ChemArgus",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.48550%2Farxiv.2608.02595%7C10.48550%2Farxiv.2608.02615%7C10.48550%2Farxiv.2608.03882%7C10.48550%2Farxiv.2608.07742%7C10.48550%2Farxiv.2608.11415%7C10.48550%2Farxiv.2608.11469%7C10.48550%2Farxiv.2608.13344%7C10.48550%2Farxiv.2608.21060%7C10.48550%2Farxiv.2608.21357%7C10.48550%2Farxiv.2608.21504%7C10.48550%2Farxiv.2608.23525%7C10.48550%2Farxiv.2608.25286%7C10.48550%2Farxiv.2608.26382%7C10.48550%2Farxiv.2608.27394%7C10.48550%2Farxiv.2609.05079%7C10.48550%2Farxiv.2609.06192%7C10.48550%2Farxiv.2609.07441%7C10.48550%2Farxiv.2609.07611%7C10.48550%2Farxiv.2609.09482%7C10.48550%2Farxiv.2609.11243%7C10.48550%2Farxiv.2609.11758%7C10.48550%2Farxiv.2609.19134%7C10.48550%2Farxiv.2609.19180%7C10.48550%2Farxiv.2609.20891%7C10.48550%2Farxiv.2609.23427%7C10.48550%2Farxiv.2609.25050%7C10.48550%2Farxiv.2609.29541%7C10.48550%2Farxiv.2609.29751%7C10.48550%2Farxiv.2609.30971%7C10.48550%2Farxiv.2609.33233%7C10.48550%2Farxiv.2609.34428%7C10.48550%2Farxiv.2609.39371%7C10.48550%2Farxiv.2609.39903%7C10.48550%2Farxiv.2610.00370%7C10.48550%2Farxiv.2610.00559%7C10.48550%2Farxiv.2610.00609%7C10.48550%2Farxiv.2610.05140%7C10.48550%2Farxiv.2610.07763%7C10.48550%2Farxiv.2610.09112%7C10.48550%2Farxiv.2610.11329%7C10.48550%2Farxiv.2610.12758%7C10.48550%2Farxiv.2610.14679%7C10.48550%2Farxiv.2610.20012%7C10.48550%2Farxiv.2610.21074%7C10.48550%2Farxiv.2610.21082%7C10.48550%2Farxiv.2610.26787%7C10.48550%2Farxiv.2610.28658%7C10.48550%2Farxiv.2610.30104%7C10.48550%2Farxiv.2610.30282%7C10.48550%2Farxiv.2610.32441&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-07",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
+            "metric": "hf_downloads",
+            "value": 1555,
+            "url": "https://huggingface.co/datasets/CosmosMind/ChemArgus",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-09",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date"
-            ],
-            "identity": "external_identifier_batch",
-            "method": "POST",
-            "batch_ids_count": 204
-          },
-          {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-09",
-            "provider": "semantic_scholar",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ],
-            "method": "POST",
-            "lookup_id": "ARXIV:2610.20012",
-            "batch_ids_count": 204
-          },
-          {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-10",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date"
-            ],
-            "identity": "external_identifier_batch",
-            "method": "POST",
-            "batch_ids_count": 218
-          },
-          {
-            "url": "https://arxiv.org/abs/2610.20012",
-            "accessed": "2026-11-08",
-            "fields": [
-              "first_submitted_at"
-            ],
-            "identity": "official_arxiv_id"
-          },
-          {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-10",
-            "provider": "semantic_scholar",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ],
-            "method": "POST",
-            "lookup_id": "ARXIV:2610.20012",
-            "batch_ids_count": 218
+            "metric": "hf_likes",
+            "value": 0,
+            "url": "https://huggingface.co/datasets/CosmosMind/ChemArgus",
+            "accessed": "2026-11-11"
           }
         ],
-        "paper_title": "ChemArgus: Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark",
-        "paper_id": "https://openalex.org/W7222269843",
-        "paper_date": "2026-10-14",
-        "citation_provider": "openalex",
-        "paper_abstract": "Chemistry evaluation has moved past multiple-choice probes toward open-ended expert problems, yet the benchmarks that define the current frontier still score answer endpoints alone. Such scoring conflates memorized facts with stepwise derivation, treats visual and textual inputs as interchangeable, and confounds long-horizon planning with stepwise execution. These blind spots prevent any diagnosis of where the reasoning chain breaks in a model. We present ChemArgus, a competition-level chemistry benchmark drawn from chemistry competition material, textbooks, and research papers, whose scoring replaces the answer endpoint with three measurement properties. Fine-grained scoring grades every subquestion point by point with partial credit, so a score lands at the level of the step rather than the outcome. Multimodal capability is priced on every problem containing a real image, paired with a controlled text description, so visual understanding is measured against text on identical tasks. Diagnostic attribution reads paired metrics that share one scoring unit and differ only in context construction, so a gap between two scores isolates a single cause, namely integration, propagation, or local reasoning. GPT-5.6-Sol scores 23.2% on unassisted whole-problem solving against 28.8% and 30.4% under the two sequential metrics, a gap measuring the integration burden. Through rubric partial credit and these cause-isolating score gaps, ChemArgus shows not only whether a model answers chemistry correctly but where its reasoning chain fails, so that every score it reports doubles as a diagnosis, a readout of the chain rather than a verdict, aiming to guide language models step by step on their path toward chemistry expertise, one corrected step at a time, each step priced by the rubric, point by point.",
         "paper_eligible": true,
-        "collected_at": "2026-11-10",
-        "citations_by_year_complete": false,
-        "first_submitted_at": "2026-10-14",
-        "citations_by_provider": {
-          "semantic_scholar": 0,
-          "openalex": 0
-        },
-        "age_months": 0.8985154580869268,
-        "release_date_basis": "registry",
-        "release_date_precision": "day_or_missing",
-        "citations_per_month": 0.0,
-        "citation_velocity_smoothed": 0.0,
-        "evaluator_adoptions": null,
-        "community_discussions": null,
-        "issue_activity_90d": null,
-        "third_party_reproductions": null,
-        "issue_threads_90d": null,
-        "paper_shared_registry_entries": 1,
-        "attributed_citations": 0.0,
-        "attributed_citation_velocity": 0.0,
-        "model_card_mentions": null,
-        "industry_heat": null,
-        "nearest_similarity": 0.3347562849521637,
-        "nearest_benchmarks": [
-          "videomathqa",
-          "gdp-pdf",
-          "som-1k"
-        ],
-        "distinctiveness_score": 100.0,
-        "novelty_score": 71.86878897963956,
-        "novelty_text_distance": 0.6652437150478363,
-        "novelty_prior_corpus_size": 1191,
-        "novelty_task_rarity": null,
-        "novelty_domain_rarity": 96.8094038623006,
-        "gh_shared_registry_entries": 1,
-        "hf_shared_registry_entries": 1,
-        "normalization": {
-          "attributed_citations": {
-            "group": "domain",
-            "n": 42
-          },
-          "attributed_citation_velocity": {
-            "group": "age_only",
-            "n": 74
-          },
-          "model_card_mentions": {
-            "group": "global_small_domain",
-            "n": 226
-          },
-          "evaluator_adoptions": {
-            "group": "global_small_domain",
-            "n": 14
-          },
-          "gh_stars": {
-            "group": "global_small_domain",
-            "n": 156
-          },
-          "gh_stars_per_month": {
-            "group": "global_small_domain",
-            "n": 4
-          },
-          "hf_downloads": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "hf_likes": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "community_discussions": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_activity_90d": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_threads_90d": {
-            "group": "global_small_domain",
-            "n": 7
-          },
-          "third_party_reproductions": {
-            "group": "global_small_domain",
-            "n": 19
-          },
-          "gh_forks": {
-            "group": "global_small_domain",
-            "n": 156
-          }
-        }
-      }
+        "collected_at": "2026-11-11"
+      },
+      "homepage_note_zh": null
     },
     {
       "id": "chembench",
@@ -165073,225 +164904,71 @@
     {
       "id": "gpbench",
       "name": "GPBench",
-      "aliases": [],
+      "aliases": [
+        "GP Bench",
+        "GPBench framework"
+      ],
       "domain": "生物与医学",
-      "subdomain": "genomic (non-LLM)",
-      "description_zh": "整合多物种基因型与性状数据，以标准化协议比较基因组预测模型。",
+      "subdomain": "基因组预测",
+      "description_zh": "覆盖16个物种、57个性状与40,821个样本的基因组预测基准，在统一协议下评测21种方法的有效性、敏感性、稳健性与可扩展性。",
       "organization": "Shandong University",
       "release_date": "2026-11-04",
-      "paper_url": "https://doi.org/10.64898/2026.10.31.762999",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.762999v1",
       "arxiv_id": null,
       "doi": "10.64898/2026.10.31.762999",
-      "github_url": null,
-      "hf_dataset": null,
-      "homepage": null,
-      "leaderboard_url": null,
-      "task_format": null,
-      "size": null,
-      "license": null,
+      "github_url": "https://github.com/xwzhang2118/GPBench",
+      "hf_dataset": "xw97/GPBench",
+      "homepage": "https://www.sdu-idea.cn/GPBench/",
+      "leaderboard_url": "https://www.sdu-idea.cn/GPBench/",
+      "task_format": "基因组预测（回归与分类）",
+      "size": "16 species, 57 traits, 40821 samples",
+      "license": "bioRxiv 预印本由版权持有人置于公有领域；Hugging Face 数据集标注为 Apache-2.0；代码仓库未公布许可证文件",
       "sources": [
         {
-          "url": "https://api.openalex.org/works?filter=title.search%3Abenchmark+genomic%2Cfrom_publication_date%3A2018-01-01&per-page=100&sort=cited_by_count%3Adesc&mailto=bot%40example.com&select=id%2Ctitle%2Cdoi%2Cpublication_date%2Cids%2Cprimary_location%2Clocations%2Ccited_by_count%2Cauthorships",
-          "accessed": "2026-11-07"
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.762999v1",
+          "accessed": "2026-11-11"
         },
         {
-          "url": "https://api.openalex.org/works/W7225226782",
-          "accessed": "2026-11-07"
-        }
-      ],
-      "discovered_via": "OpenAlex 标题检索 (benchmark + 领域关键词)",
-      "in_repo": false,
-      "audit_history": [
+          "url": "https://www.sdu-idea.cn/GPBench/",
+          "accessed": "2026-11-11"
+        },
         {
-          "action": "science2_field_deltas",
-          "source_shard": "science2.jsonl",
-          "line": 226,
-          "protected_fields": [
-            "release_date",
-            "id",
-            "paper_url",
-            "arxiv_id",
-            "doi"
-          ]
+          "url": "https://github.com/xwzhang2118/GPBench",
+          "accessed": "2026-11-11"
         }
       ],
+      "discovered_via": "官方页面 / 论文检索",
+      "in_repo": false,
+      "audit_history": [],
       "metrics": {
         "citations": 0,
-        "citations_by_year": {},
-        "gh_stars": null,
-        "gh_stars_per_month": null,
-        "hf_downloads": null,
-        "hf_likes": null,
+        "gh_stars": 7,
+        "hf_downloads": 3,
+        "hf_likes": 0,
         "provenance": [
           {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.59275%2Fj.melba.2026-g657%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.63317%2F3yixio7ngbkh%7C10.63317%2F5e46vrbnwfwe%7C10.64898%2F2026.02.19.706811%7C10.64898%2F2026.02.23.707496%7C10.64898%2F2026.03.31.26349827%7C10.64898%2F2026.04.04.716470%7C10.64898%2F2026.06.18.733146%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-07",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
+            "metric": "gh_stars",
+            "value": 7,
+            "url": "https://api.github.com/repos/xwzhang2118/GPBench",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.6084%2Fm9.figshare.33136121%7C10.63317%2F3yixio7ngbkh%7C10.63317%2F5e46vrbnwfwe%7C10.64898%2F2026.02.19.706811%7C10.64898%2F2026.02.23.707496%7C10.64898%2F2026.03.31.26349827%7C10.64898%2F2026.04.04.716470%7C10.64898%2F2026.06.18.733146%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-07",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
+            "metric": "hf_downloads",
+            "value": 3,
+            "url": "https://huggingface.co/datasets/xw97/GPBench",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-981-92-2600-9_29%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.13026%2Fk5rp-9h43%7C10.13140%2Frg.2.2.16696.40969%7C10.18653%2Fv1%2F2022.acl-long.544%7C10.18653%2Fv1%2F2023.acl-long.201%7C10.18653%2Fv1%2F2024.emnlp-main.969%7C10.18653%2Fv1%2F2025.climatenlp-1.13%7C10.21227%2F6byb-3359%7C10.26434%2Fchemrxiv-2023-74w8d%7C10.32614%2Fcran.package.gsbench%7C10.34740%2Fkaggle%2Fdsv%2F14951121%7C10.48448%2Fk33f-1w38%7C10.48550%2Farxiv.1904.09728%7C10.48550%2Farxiv.2610.26787%7C10.5194%2Fegusphere-egu23-15540%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-09",
-            "fields": [
-              "citations",
-              "citations_by_year",
-              "paper_title",
-              "paper_date",
-              "openalex_fwci"
-            ],
-            "identity": "exact_doi_batch"
-          },
-          {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-981-92-2600-9_29%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.13026%2Fk5rp-9h43%7C10.13140%2Frg.2.2.16696.40969%7C10.18653%2Fv1%2F2022.acl-long.544%7C10.18653%2Fv1%2F2023.acl-long.201%7C10.18653%2Fv1%2F2024.emnlp-main.969%7C10.18653%2Fv1%2F2025.climatenlp-1.13%7C10.21227%2F6byb-3359%7C10.26434%2Fchemrxiv-2023-74w8d%7C10.32614%2Fcran.package.gsbench%7C10.34740%2Fkaggle%2Fdsv%2F14951121%7C10.48448%2Fk33f-1w38%7C10.48550%2Farxiv.1904.09728%7C10.48550%2Farxiv.2610.26787%7C10.5194%2Fegusphere-egu23-15540%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-09",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
-          },
-          {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-981-92-2600-9_29%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.13026%2Fk5rp-9h43%7C10.13140%2Frg.2.2.16696.40969%7C10.18653%2Fv1%2F2022.acl-long.544%7C10.18653%2Fv1%2F2023.acl-long.201%7C10.18653%2Fv1%2F2024.emnlp-main.969%7C10.18653%2Fv1%2F2025.climatenlp-1.13%7C10.21227%2F6byb-3359%7C10.26434%2Fchemrxiv-2023-74w8d%7C10.32614%2Fcran.package.gsbench%7C10.34740%2Fkaggle%2Fdsv%2F14951121%7C10.48448%2Fk33f-1w38%7C10.48550%2Farxiv.1904.09728%7C10.48550%2Farxiv.2610.26787%7C10.5194%2Fegusphere-egu23-15540%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-10",
-            "fields": [
-              "citations",
-              "citations_by_year",
-              "paper_title",
-              "paper_date",
-              "openalex_fwci"
-            ],
-            "identity": "exact_doi_batch"
-          },
-          {
-            "url": "https://api.openalex.org/works?filter=doi%3A10.1007%2F978-3-032-05169-1_44%7C10.1007%2F978-981-92-2600-9_29%7C10.1016%2Fj.jmb.2019.09.020%7C10.1016%2Fj.matt.2021.02.015%7C10.1016%2Fj.media.2022.102642%7C10.13026%2Fk5rp-9h43%7C10.13140%2Frg.2.2.16696.40969%7C10.18653%2Fv1%2F2022.acl-long.544%7C10.18653%2Fv1%2F2023.acl-long.201%7C10.18653%2Fv1%2F2024.emnlp-main.969%7C10.18653%2Fv1%2F2025.climatenlp-1.13%7C10.21227%2F6byb-3359%7C10.26434%2Fchemrxiv-2023-74w8d%7C10.32614%2Fcran.package.gsbench%7C10.34740%2Fkaggle%2Fdsv%2F14951121%7C10.48448%2Fk33f-1w38%7C10.48550%2Farxiv.1904.09728%7C10.48550%2Farxiv.2610.26787%7C10.5194%2Fegusphere-egu23-15540%7C10.5281%2Fzenodo.10283118%7C10.5281%2Fzenodo.18609449%7C10.5281%2Fzenodo.19443185%7C10.5281%2Fzenodo.20032191%7C10.5281%2Fzenodo.20076421%7C10.5281%2Fzenodo.20257688%7C10.5281%2Fzenodo.20608054%7C10.5281%2Fzenodo.20645017%7C10.5281%2Fzenodo.20730740%7C10.5281%2Fzenodo.21098898%7C10.5281%2Fzenodo.21450279%7C10.5281%2Fzenodo.21542237%7C10.5281%2Fzenodo.22076583%7C10.5281%2Fzenodo.22788647%7C10.5281%2Fzenodo.22813147%7C10.5281%2Fzenodo.23253034%7C10.5281%2Fzenodo.23308184%7C10.5281%2Fzenodo.23604492%7C10.5281%2Fzenodo.23629509%7C10.5281%2Fzenodo.23748379%7C10.5281%2Fzenodo.4077337%7C10.5281%2Fzenodo.5208229%7C10.6084%2Fm9.figshare.30924998%7C10.6084%2Fm9.figshare.33136121%7C10.64898%2F2026.10.31.762999&per_page=100&mailto=ZiChenWang114514%40users.noreply.github.com",
-            "accessed": "2026-11-10",
-            "provider": "openalex",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ]
+            "metric": "hf_likes",
+            "value": 0,
+            "url": "https://huggingface.co/datasets/xw97/GPBench",
+            "accessed": "2026-11-11"
           }
         ],
-        "paper_title": "GPBench: A benchmark framework for genomic prediction",
-        "paper_id": "https://openalex.org/W7225226782",
-        "paper_date": "2026-11-04",
-        "citation_provider": "openalex",
-        "paper_abstract": "Genomic prediction (GP) has emerged as a powerful data mining strategy for disease risk assessment and molecular breeding. GP leverages genome-wide genetic variations and phenotypic information through a computational model to estimate genetic potential or disease risk. However, the field of GP still faces several major challenges: (i) dataset bias and insufficient representativeness; (ii) the lack of standardized evaluation protocols and a systematic benchmarking framework; (iii) heavy reliance on empirical expertise for experimental result interpretation, which hinders large-scale and systematic analysis. These issues make it difficult to conduct systematic cross-species evaluation and comparison of GP methods, and their authentic applications. To address these challenges, we established a standardized and extensible GP benchmark framework-GPBench. We first collected and harmonized public datasets from 16 species, covering animals, plants, and microorganisms, comprising 57 traits, 40,821 samples, and 493,821 single-nucleotide polymorphisms. Then, using the standardized datasets, the framework evaluates 21 GP models and provides a unified assessment across four dimensions: effectiveness, sensitivity, robustness, and scalability. Furthermore, we developed a large language model-based intelligent analysis system to facilitate the interpretation of GP experiments and model recommendations. GPBench provides the community with a fair, unified, and scalable platform (https://www.sdu-idea.cn/GPBench/) and an open-source library for comparing and optimizing GP methods, ultimately accelerating the application of GP in life sciences and biomedical research.",
         "paper_eligible": true,
-        "collected_at": "2026-11-10",
-        "citations_by_year_complete": false,
-        "openalex_fwci": null,
-        "citations_by_provider": {
-          "openalex": 0
-        },
-        "age_months": 0.20857706132785764,
-        "release_date_basis": "registry",
-        "release_date_precision": "day_or_missing",
-        "citations_per_month": 0.0,
-        "citation_velocity_smoothed": 0.0,
-        "evaluator_adoptions": null,
-        "community_discussions": null,
-        "issue_activity_90d": null,
-        "third_party_reproductions": null,
-        "issue_threads_90d": null,
-        "paper_shared_registry_entries": 1,
-        "attributed_citations": 0.0,
-        "attributed_citation_velocity": 0.0,
-        "model_card_mentions": null,
-        "industry_heat": null,
-        "nearest_similarity": 0.35161203145980835,
-        "nearest_benchmarks": [
-          "genbench",
-          "fd-bench",
-          "genotex"
-        ],
-        "distinctiveness_score": 100.0,
-        "novelty_score": 67.8986946718597,
-        "novelty_text_distance": 0.6483879685401917,
-        "novelty_prior_corpus_size": 1212,
-        "novelty_task_rarity": null,
-        "novelty_domain_rarity": 82.17821782178218,
-        "gh_shared_registry_entries": 1,
-        "hf_shared_registry_entries": 1,
-        "normalization": {
-          "attributed_citations": {
-            "group": "domain",
-            "n": 224
-          },
-          "attributed_citation_velocity": {
-            "group": "age_only",
-            "n": 74
-          },
-          "model_card_mentions": {
-            "group": "global_small_domain",
-            "n": 226
-          },
-          "evaluator_adoptions": {
-            "group": "global_small_domain",
-            "n": 14
-          },
-          "gh_stars": {
-            "group": "global_small_domain",
-            "n": 156
-          },
-          "gh_stars_per_month": {
-            "group": "global_small_domain",
-            "n": 4
-          },
-          "hf_downloads": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "hf_likes": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "community_discussions": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_activity_90d": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_threads_90d": {
-            "group": "global_small_domain",
-            "n": 7
-          },
-          "third_party_reproductions": {
-            "group": "global_small_domain",
-            "n": 19
-          },
-          "gh_forks": {
-            "group": "global_small_domain",
-            "n": 156
-          }
-        }
-      }
+        "collected_at": "2026-11-11"
+      },
+      "homepage_note_zh": null
     },
     {
       "id": "gpqa",
@@ -390389,172 +390066,68 @@
     {
       "id": "sciencevision",
       "name": "ScienceVision",
-      "aliases": [],
-      "domain": "多模态",
-      "subdomain": "科学三维理解",
-      "description_zh": "250道专家级视觉问答，覆盖生物、化学、医学影像、机械CAD与建筑五类原生三维数据。",
-      "organization": null,
+      "aliases": [
+        "Science Vision",
+        "ScienceVision Benchmark"
+      ],
+      "domain": "综合科学",
+      "subdomain": "科学三维视觉问答",
+      "description_zh": "覆盖生物学、化学、医学影像、机械CAD与建筑的250道专家级科学三维视觉问答基准，主比较中三维设定最高平均分为0.53。",
+      "organization": "UniPat AI; Elorian AI",
       "release_date": "2026-11-02",
       "paper_url": "https://arxiv.org/abs/2611.04087",
       "arxiv_id": "2611.04087",
-      "doi": null,
-      "github_url": null,
-      "hf_dataset": null,
+      "doi": "10.48550/arXiv.2611.04087",
+      "github_url": "https://github.com/UniPat-AI/ScienceVision",
+      "hf_dataset": "UnipatAI/ScienceVision",
       "homepage": "https://unipat.ai/blog/ScienceVision",
-      "leaderboard_url": null,
-      "task_format": "三维视觉问答",
-      "size": "250 questions",
-      "license": null,
+      "leaderboard_url": "https://unipat.ai/blog/ScienceVision",
+      "task_format": "科学三维视觉问答（智能体框架）",
+      "size": "250 tasks (50 per domain)",
+      "license": "代码仓库为 MIT；Hugging Face 数据集卡片亦标注 MIT，但须申请访问，且声明不覆盖其中的第三方资产；论文文本在 arXiv 标注为 CC BY-NC-ND 4.0",
       "sources": [
         {
           "url": "https://arxiv.org/abs/2611.04087",
-          "accessed": "2026-11-09"
+          "accessed": "2026-11-11"
         },
         {
-          "url": "https://arxiv.org/pdf/2611.04087",
-          "accessed": "2026-11-09"
+          "url": "https://www.unipat.ai/blog/ScienceVision",
+          "accessed": "2026-11-11"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/ScienceVision",
+          "accessed": "2026-11-11"
         }
       ],
-      "discovered_via": "arXiv / 官方页面检索",
+      "discovered_via": "官方页面 / 论文检索",
       "homepage_note_zh": null,
       "metrics": {
         "citations": 0,
-        "citations_by_year": null,
-        "gh_stars": null,
-        "gh_stars_per_month": null,
-        "hf_downloads": null,
-        "hf_likes": null,
+        "gh_stars": 18,
+        "hf_downloads": 3325,
+        "hf_likes": 1,
         "provenance": [
           {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-10",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date"
-            ],
-            "identity": "external_identifier_batch",
-            "method": "POST",
-            "batch_ids_count": 218
+            "metric": "gh_stars",
+            "value": 18,
+            "url": "https://api.github.com/repos/UniPat-AI/ScienceVision",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://arxiv.org/abs/2611.04087",
-            "accessed": "2026-11-10",
-            "fields": [
-              "first_submitted_at"
-            ],
-            "identity": "official_arxiv_id"
+            "metric": "hf_downloads",
+            "value": 3325,
+            "url": "https://huggingface.co/datasets/UnipatAI/ScienceVision",
+            "accessed": "2026-11-11"
           },
           {
-            "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl",
-            "accessed": "2026-11-10",
-            "provider": "semantic_scholar",
-            "identity": "exact_external_identifier",
-            "fields": [
-              "citations",
-              "paper_title",
-              "paper_date",
-              "paper_abstract"
-            ],
-            "method": "POST",
-            "lookup_id": "ARXIV:2611.04087",
-            "batch_ids_count": 218
+            "metric": "hf_likes",
+            "value": 1,
+            "url": "https://huggingface.co/datasets/UnipatAI/ScienceVision",
+            "accessed": "2026-11-11"
           }
         ],
         "paper_eligible": true,
-        "collected_at": "2026-11-10",
-        "citation_provider": "semantic_scholar",
-        "paper_id": "fae28dcfc74493c6c860b9e6508dbad31d3e7003",
-        "paper_title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
-        "paper_date": "2026-11-02",
-        "citations_by_year_complete": false,
-        "first_submitted_at": "2026-11-02",
-        "citations_by_provider": {
-          "semantic_scholar": 0
-        },
-        "age_months": 0.2742854835436155,
-        "release_date_basis": "registry",
-        "release_date_precision": "day_or_missing",
-        "citations_per_month": 0.0,
-        "citation_velocity_smoothed": 0.0,
-        "evaluator_adoptions": null,
-        "community_discussions": null,
-        "issue_activity_90d": null,
-        "third_party_reproductions": null,
-        "issue_threads_90d": null,
-        "paper_shared_registry_entries": 1,
-        "attributed_citations": 0.0,
-        "attributed_citation_velocity": 0.0,
-        "model_card_mentions": null,
-        "industry_heat": null,
-        "nearest_similarity": 0.2520630955696106,
-        "nearest_benchmarks": [
-          "rad-restruct",
-          "bestmvqa",
-          "rsgpt"
-        ],
-        "distinctiveness_score": 100.0,
-        "novelty_score": 81.06419258165043,
-        "novelty_text_distance": 0.7479369044303894,
-        "novelty_prior_corpus_size": 1208,
-        "novelty_task_rarity": 100.0,
-        "novelty_domain_rarity": 91.3907284768212,
-        "gh_shared_registry_entries": 1,
-        "hf_shared_registry_entries": 1,
-        "normalization": {
-          "attributed_citations": {
-            "group": "domain",
-            "n": 122
-          },
-          "attributed_citation_velocity": {
-            "group": "age_only",
-            "n": 74
-          },
-          "model_card_mentions": {
-            "group": "domain",
-            "n": 35
-          },
-          "evaluator_adoptions": {
-            "group": "global_small_domain",
-            "n": 14
-          },
-          "gh_stars": {
-            "group": "domain",
-            "n": 28
-          },
-          "gh_stars_per_month": {
-            "group": "global_small_domain",
-            "n": 4
-          },
-          "hf_downloads": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "hf_likes": {
-            "group": "global_small_domain",
-            "n": 318
-          },
-          "community_discussions": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_activity_90d": {
-            "group": "global_small_domain",
-            "n": 0
-          },
-          "issue_threads_90d": {
-            "group": "global_small_domain",
-            "n": 7
-          },
-          "third_party_reproductions": {
-            "group": "global_small_domain",
-            "n": 19
-          },
-          "gh_forks": {
-            "group": "domain",
-            "n": 28
-          }
-        }
+        "collected_at": "2026-11-11"
       },
       "audit_history": []
     },
@@ -474285,7 +473858,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "balyasny-gfi",
@@ -474311,7 +473889,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "facts-grounding",
@@ -474334,7 +473917,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "hebbia-e2e-financial",
@@ -474359,7 +473947,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "mka",
@@ -474384,7 +473977,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "webdev-arena",
@@ -474407,7 +474005,12 @@
       "task_format": null,
       "size": null,
       "license": null,
-      "sources": []
+      "sources": [
+        {
+          "url": "urn:benchmark-constitution:record",
+          "accessed": "2026-11-07"
+        }
+      ]
     }
   ]
 }

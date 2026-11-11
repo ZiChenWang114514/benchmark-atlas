@@ -44,9 +44,9 @@
 
 来源: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) (访问 2026-11-10)
 
-**数据地址**：待核实
+**数据地址**：开发集600题可由代码仓库中的生成器与公开种子复现（https://github.com/onusrat/medphysbench）；测试集1200题由未公开密钥生成，不在仓库中，作者可代为评分。评测环境标识为 Prime Intellect Environments Hub 上的 omar/medphysbench（v1.0.1）。
 
-来源: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) (访问 2026-11-10)
+来源: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) [3](https://raw.githubusercontent.com/onusrat/medphysbench/main/README.md) (访问 2026-11-11)
 
 **官方主页**：https://github.com/onusrat/medphysbench
 
@@ -248,4 +248,5 @@
 
 ## 变更记录
 
-2026-11-10：初次收录。
+2026-11-10：初次收录
+2026-11-11：补记开发集随代码仓库与公开种子发布，测试集由未公开密钥生成。

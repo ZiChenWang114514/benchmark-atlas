@@ -44,9 +44,9 @@
 
 来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
 
-**数据地址**：待核实
+**数据地址**：https://huggingface.co/datasets/JOHNNYlee1/LabOPBench（官方 README 与数据卡：当前为部分评测集，五个大类各20题、共100题；完整756题将在论文发布后扩充）
 
-来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
+来源: [1](https://github.com/johnnylee00/LabOPBench) [2](https://raw.githubusercontent.com/johnnylee00/LabOPBench/main/README.md) [3](https://huggingface.co/datasets/JOHNNYlee1/LabOPBench) (访问 2026-11-11)
 
 **官方主页**：https://arxiv.org/abs/2610.19780
 
@@ -150,9 +150,9 @@
 
 来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
 
-**官方评测脚本**：待核实
+**官方评测脚本**：官方代码仓库提供 labopbench run 与 labopbench score 命令，用于在已下载的评测子集上作答与打分。
 
-来源: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (访问 2026-11-10)
+来源: [1](https://github.com/johnnylee00/LabOPBench) [2](https://raw.githubusercontent.com/johnnylee00/LabOPBench/main/README.md) (访问 2026-11-11)
 
 **可比性说明**：分数为论文自报，裁判亦为模型；作者报告与专家抽样复核接近，但不是完全独立第三方复测。
 
@@ -248,4 +248,5 @@
 
 ## 变更记录
 
-2026-11-10：初次收录。
+2026-11-10：初次收录
+2026-11-11：补记部分评测集发布于 Hugging Face 的 JOHNNYlee1/LabOPBench，并记录官方仓库中的评测脚本。

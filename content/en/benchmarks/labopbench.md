@@ -44,9 +44,9 @@ Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee0
 
 Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
 
-**Dataset**：Unverified
+**Dataset**：https://huggingface.co/datasets/JOHNNYlee1/LabOPBench (official README and dataset card: a partial evaluation set of 100 questions, 20 from each of five major categories; the full 756-question benchmark is to be expanded after the paper is released)
 
-Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
+Sources: [1](https://github.com/johnnylee00/LabOPBench) [2](https://raw.githubusercontent.com/johnnylee00/LabOPBench/main/README.md) [3](https://huggingface.co/datasets/JOHNNYlee1/LabOPBench) (accessed 2026-11-11)
 
 **Homepage**：https://arxiv.org/abs/2610.19780
 
@@ -150,9 +150,9 @@ Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee0
 
 Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
 
-**Official scripts**：Unverified
+**Official scripts**：The official code repository provides the labopbench run and labopbench score commands for answering and grading the downloaded evaluation subset.
 
-Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee00/LabOPBench) [3](https://arxiv.org/pdf/2610.19780) (accessed 2026-11-10)
+Sources: [1](https://github.com/johnnylee00/LabOPBench) [2](https://raw.githubusercontent.com/johnnylee00/LabOPBench/main/README.md) (accessed 2026-11-11)
 
 **Comparability note**：Scores are author-reported and use model judges; the authors report close agreement with expert spot checks, but this is not a fully independent third-party retest.
 
@@ -248,4 +248,5 @@ Sources: [1](https://arxiv.org/abs/2610.19780) [2](https://github.com/johnnylee0
 
 ## Changelog
 
-2026-11-10: Initial filing.
+2026-11-10: Initial filing
+2026-11-11: Recorded the partial evaluation set at Hugging Face dataset JOHNNYlee1/LabOPBench and the official repository evaluation scripts.

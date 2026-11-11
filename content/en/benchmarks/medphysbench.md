@@ -44,9 +44,9 @@ Sources: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/me
 
 Sources: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) (accessed 2026-11-10)
 
-**Dataset**：Unverified
+**Dataset**：The 600-item development split can be reproduced from the generators and public seeds in the code repository (https://github.com/onusrat/medphysbench). The 1,200-item test split is generated from an unpublished key, is not in the repository, and can be scored by the authors on request. The evaluation environment is omar/medphysbench (v1.0.1) on the Prime Intellect Environments Hub.
 
-Sources: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) (accessed 2026-11-10)
+Sources: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/medphysbench) [3](https://raw.githubusercontent.com/onusrat/medphysbench/main/README.md) (accessed 2026-11-11)
 
 **Homepage**：https://github.com/onusrat/medphysbench
 
@@ -248,4 +248,5 @@ Sources: [1](https://arxiv.org/abs/2611.05340) [2](https://github.com/onusrat/me
 
 ## Changelog
 
-2026-11-10: Initial filing.
+2026-11-10: Initial filing
+2026-11-11: Recorded that the development split is released with the code repository and public seeds, and that the test split is generated from an unpublished key.
