@@ -198,7 +198,7 @@
 
 来源: [1](https://arxiv.org/abs/2611.06910) (访问 2026-11-09)
 
-**results**: 
+**results**:
 - rank: 1, model: claude-opus-5-5, score: 27.4, metric: overall Pass@1 (%), track: FrontierPhysics v0.1 / 56 tasks / 3 rollouts per task / paper Table 8, source_url: https://arxiv.org/pdf/2611.06910
 - rank: 2, model: gpt-6-astra, score: 23.2, metric: overall Pass@1 (%), track: FrontierPhysics v0.1 / max / 56 tasks / 3 rollouts per task / paper Table 8, source_url: https://arxiv.org/pdf/2611.06910
 - rank: 3, model: gpt-6-astra, score: 19.6, metric: overall Pass@1 (%), track: FrontierPhysics v0.1 / xhigh / 56 tasks / 3 rollouts per task / paper Table 8, source_url: https://arxiv.org/pdf/2611.06910
@@ -252,7 +252,7 @@
 
 来源: [1](https://arxiv.org/abs/2611.06910) (访问 2026-11-09)
 
-**other_documents**: 
+**other_documents**:
 - type: Hugging Face 任务数据集合集, url: https://huggingface.co/collections/benchflow/frontierphysics-task-datasets
 
 来源: [1](https://huggingface.co/collections/benchflow/frontierphysics-task-datasets) (访问 2026-11-09)

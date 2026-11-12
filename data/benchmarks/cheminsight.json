@@ -1,0 +1,804 @@
+{
+  "id": "cheminsight",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "ChemInsight",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ChemInsight：评测与诊断大语言模型化学理解与推理能力的综合基准",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2611.11794v1；基准集203题（50个题组）与诊断集50题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2611.11794v1（2026-11-09）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-11-09",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "section": {
+      "value": "化学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "有机化学推理",
+        "SMILES结构理解",
+        "多步推理",
+        "诊断评测"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文在 arXiv 采用 arXiv 非独占分发许可；题目数据的许可证未公布",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.11794",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "dataset_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_homepage": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_title": {
+      "value": "ChemInsight: A Comprehensive Benchmark for Evaluating and Diagnosing Chemistry Understanding and Reasoning in Large Language Models",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "蚂蚁集团与北京大学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "partners": {
+      "value": "电子科技大学、西湖大学、北京大学医学部（据论文作者单位）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "authors": {
+      "value": "同等贡献作者 Changyu Hu、Yiming Zou、Xin Tang；其余作者 Yiru Pan、Zicheng Huang、Deng Zhao、Qing Cui；通讯作者 Zhenduo Zhang、Wang Ren、Xiao Li",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "考查需要多步推理与结构化化学理解的化学任务，覆盖反应类型识别、语境中的结构生成、计算与计数、构效关系推理、选择性预测、空间想象与三维思维六类能力",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为现有化学基准通常只给出单一分数，掩盖了限制模型化学能力的具体瓶颈，难以指导有针对性的改进",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "基准集为原创、难以通过搜索引擎获得答案的题目，以有机化学为主；设计标准要求题目对化学专业学生也具挑战性，且答案无法直接从 SciFinder、Reaxys 等化学数据库或搜索引擎检索到",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "论文所称领域专家指顶尖高校的化学专业学生；三位同等贡献作者的工作在蚂蚁集团实习期间完成",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "基准集与诊断集均由领域专家独立编写并交叉验证，以确保正确性、表述清晰和难度适当",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "SMILES 答案经 RDKit 规范化后做精确匹配；简答题由大模型裁判按结构化提示分层评分，先执行特殊规则与关键词匹配，再按满分、部分分、零分三级评分，并设反幻觉约束",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "论文未描述专门的去污染流程；题目设计要求答案无法直接从化学数据库或搜索引擎检索得到",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "基准集203题，分为50个题组，总计262分；其中23个为“精华题组”，题目相互关联且难度递增。诊断集50道单步题，其中30题考查结构识别、20题考查构效关系推理",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "全部为自由作答，不含选择题；答案形式分为自然语言文本、化学式和 SMILES 结构表示三类",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本与 SMILES 等符号表示（不含图像）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语（据论文附录示例）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "题目带有专家标注的易、中、难三级；论文图3显示得分随难度上升而下降",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "广度分（scope，基准集得分率，按262分归一化）与深度分（depth，奖励完整解出精华题组，按524分归一化）；另报告六类能力维度得分与诊断集准确率",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "混合评分：SMILES 题经 RDKit 规范化后精确匹配，简答题由大模型裁判评分；每题取8次独立采样的平均分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "使用任务专用的结构化提示（论文附录B给出全文）；每题对每个模型独立采样8次；8个模型以思考模式评测，Ling-1T 与 DeepSeek-V3.1 以非思考模式评测",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "大模型裁判对开放式答案的评分存在不确定性，偏离参考答案的正确推理可能被误判；广度分与深度分归一化分母不同，且两者之和不以100为上限",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文 v1 所述版本：基准集203题与诊断集50题",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1：2026-11-09 提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "远未饱和：论文报告十个模型广度分为11.6%至27.8%，深度分为2.3%至10.7%，人类专家广度分为36.3%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "论文局限部分指出：基准仅覆盖文本与符号模态，不含核磁谱图解读等视觉题；大模型裁判评分有不确定性",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文表1（8次运行平均）：Gemini 3 Pro 广度0.278、深度0.107；GPT-5 广度0.215、深度0.069；Gemini 2.5 Pro 广度0.212、深度0.059；DeepSeek-V3.2-Speciale 广度0.208、深度0.067；DeepSeek-V3.2 广度0.181、深度0.047；DeepSeek-V3.1（非思考）广度0.116、深度0.024；人类专家广度分36.3%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "结果均为论文作者自测，共十个模型；诊断集上推理类模型的性质预测准确率约90%，常用名转 SMILES 的准确率为29.4%至56.6%，SMILES 题表现差异约解释总分方差的82%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "论文列出的通讯作者邮箱：zhenduo.zzd@antgroup.com、renwang.rw@antgroup.com、xiaoli@pku.edu.cn",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.11794",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "5ff70b40e7eec1907cb9c4a06dde7b9bc6f0182076701965907ae0d330ca4a11",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "1580645",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.11794",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.11794",
+        "accessed": "2026-11-12"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-12",
+        "change": "最近复核"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.11794",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.11794",
+        "accessed": "2026-11-12"
+      }
+    ]
+  }
+}

@@ -208,17 +208,17 @@ Sources: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scie
 
 ## Contact
 
-**Public email**：Unverified
+**Public email**：aisle.science@gmail.com (the “Email us” contact on the official website)
 
-Sources: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scientists-last-exam) [3](https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf) (accessed 2026-11-10)
+Sources: [1](https://aisle.science/) (accessed 2026-11-12)
 
 **Code discussion**：https://github.com/MasterAI-EAM/ai-scientists-last-exam/issues
 
 Sources: [1](https://github.com/MasterAI-EAM/ai-scientists-last-exam) (accessed 2026-11-10)
 
-**Official social accounts**：Unverified
+**Official social accounts**：Discord community: https://discord.gg/zrSabnv58 (the “Join our Discord” link on the official website)
 
-Sources: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scientists-last-exam) [3](https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf) (accessed 2026-11-10)
+Sources: [1](https://aisle.science/) (accessed 2026-11-12)
 
 **Privacy policy**：Unverified
 
@@ -249,3 +249,4 @@ Sources: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scie
 ## Changelog
 
 2026-11-10: Initial filing.
+2026-11-12: Added the contact email and Discord community link published on the official website.

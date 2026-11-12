@@ -165,7 +165,7 @@ The official blog was published on 2026-05-26, and the first arXiv version is da
 
 ## Changelog
 
-- date：2026-11-07；；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://deepswe.datacurve.ai/)
+- date：2026-11-07；change：按官方材料新建中文条目；区分热度、质量和不同版本评分。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://deepswe.datacurve.ai/)
 
 ---
 

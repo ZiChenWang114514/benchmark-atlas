@@ -262,7 +262,7 @@ Sources: [1](https://artificialanalysis.ai/methodology/intelligence-benchmarking
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-12-04；；- version：v2；submitted_at：2025-02-19；Sources: [1](https://arxiv.org/abs/2412.03304) (accessed 2026-11-07)
+arxiv_submissions：- version：v1；submitted_at：2024-12-04；- version：v2；submitted_at：2025-02-19；Sources: [1](https://arxiv.org/abs/2412.03304) (accessed 2026-11-07)
 
 ### Saturation
 
@@ -404,7 +404,7 @@ Sources: [1](https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite) (acces
 
 ### 本页修订
 
-- date：2026-11-07；；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 Sources: [1](urn:benchmark-constitution:editorial:r2-q4) (accessed 2026-11-07)

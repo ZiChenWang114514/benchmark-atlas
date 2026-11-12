@@ -169,7 +169,7 @@ DualChem聚焦化学的双用途歧义：相同专业知识既可能支持正当
 
 ## 变更记录
 
-- date：2026-11-07；；change：首次建立近期热门中文研究条目。DualChem专门测双用途化学风险，与ChemBench一般化学能力不合并；不收录或再传播具体敏感题目内容。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- date：2026-11-07；change：首次建立近期热门中文研究条目。DualChem专门测双用途化学风险，与ChemBench一般化学能力不合并；不收录或再传播具体敏感题目内容。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ---
 

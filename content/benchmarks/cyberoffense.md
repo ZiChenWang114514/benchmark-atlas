@@ -161,7 +161,7 @@ CyberOffense使用Nova和Lighthouse两个隔离企业网络靶场，观察agent�
 
 ## 变更记录
 
-- date：2026-11-07；；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber_offense)
+- date：2026-11-07；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cyber_offense)
 
 ---
 

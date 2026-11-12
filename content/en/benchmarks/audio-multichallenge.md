@@ -20,7 +20,7 @@ Original Audio MultiChallenge; identifier Unverified
 
 ### Paper version
 
-arXiv:2512.14865v1；2025-12-17 03:26:44（，）
+arXiv:2512.14865v1；2025-12-17 03:26:44
 
 ### Release date
 
@@ -360,8 +360,8 @@ Status: Unverified (part of this field is still unconfirmed).
 
 ## Changelog
 
-- 2026-11-07（）：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
-- 2026-11-07（）：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- 2026-11-07：实际读取论文摘要和PDF全文、Official README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 ### 来源索引
 

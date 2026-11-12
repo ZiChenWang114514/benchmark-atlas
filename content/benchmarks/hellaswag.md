@@ -256,7 +256,7 @@ https://github.com/rowanz/hellaswag
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2019-05-20；；2026_h2_evidence：- url：https://arxiv.org/html/2610.11978v1；date：2026-10-08；note：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
+arxiv_submissions：- version：v1；submitted_at：2019-05-20；2026_h2_evidence：- url：https://arxiv.org/html/2610.11978v1；date：2026-10-08；note：Jev 研究表1–2及§3.1实际在 HellaSwag 上比较多类模型，不将ARC-Easy或其它子集另计。
 
 来源：[1](https://arxiv.org/abs/1905.07830)（访问 2026-11-07）
 
@@ -388,8 +388,8 @@ https://arxiv.org/pdf/1905.07830
 
 ### 本页修订
 
-- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- date：2026-11-07；；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：- basic_info.license；- latest_status.latest_dataset_version；- data_format.public_hidden_split；- leaderboard.results；- leaderboard.coverage_note
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；change：实证优化：核对官方数据卡/README/许可证与H2使用证据，补充可读官方榜单，明确数据和代码授权、划分及历史榜口径；未证实项保留。；fields_updated：- basic_info.license；- latest_status.latest_dataset_version；- data_format.public_hidden_split；- leaderboard.results；- leaderboard.coverage_note
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）

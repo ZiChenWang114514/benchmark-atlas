@@ -292,7 +292,7 @@ Sources: [1](https://raw.githubusercontent.com/ServiceNow/geo-bench/HEAD/README.
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2023-06-07；；- version：v2；submitted_at：2023-12-24；；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09 (arXiv identifier month; exact submission date Unverified)；note：MEOX §IV-B and Table III actually evaluate six GEO-Bench v1 tasks and explicitly use the official splits and normalization statistics.
+arxiv_submissions：- version：v1；submitted_at：2023-06-07；- version：v2；submitted_at：2023-12-24；2026_H2_evidence：- url：https://arxiv.org/html/2609.05351v1；date：2026-09 (arXiv identifier month; exact submission date Unverified)；note：MEOX §IV-B and Table III actually evaluate six GEO-Bench v1 tasks and explicitly use the official splits and normalization statistics.
 
 Sources: [1](https://arxiv.org/abs/2306.03831) (accessed 2026-11-07)
 
@@ -410,8 +410,8 @@ Sources: [1](https://arxiv.org/pdf/2306.03831) (accessed 2026-11-07)
 
 ### 本页修订
 
-- date：2026-11-07；；change：首批官方材料核验、中文改写、；未核实字段显式标记。
-- date：2026-11-07；；change：深度优化：打开Official README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；change：深度优化：打开Official README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 Sources: [1](urn:benchmark-constitution:editorial:r2-q4) (accessed 2026-11-07)

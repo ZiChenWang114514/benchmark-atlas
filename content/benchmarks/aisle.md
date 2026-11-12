@@ -208,17 +208,17 @@
 
 ## 联系方式
 
-**公开邮箱**：待核实
+**公开邮箱**：aisle.science@gmail.com（官方网站“Email us”联系入口）
 
-来源: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scientists-last-exam) [3](https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf) (访问 2026-11-10)
+来源: [1](https://aisle.science/) (访问 2026-11-12)
 
 **代码讨论**：https://github.com/MasterAI-EAM/ai-scientists-last-exam/issues
 
 来源: [1](https://github.com/MasterAI-EAM/ai-scientists-last-exam) (访问 2026-11-10)
 
-**官方社交账号**：待核实
+**官方社交账号**：Discord 社区：https://discord.gg/zrSabnv58（官方网站“Join our Discord”入口）
 
-来源: [1](https://aisle.science/) [2](https://github.com/MasterAI-EAM/ai-scientists-last-exam) [3](https://github.com/MasterAI-EAM/ai-scientists-last-exam/blob/main/paper/AI_Scientists_Last_Exam.pdf) (访问 2026-11-10)
+来源: [1](https://aisle.science/) (访问 2026-11-12)
 
 **隐私政策**：待核实
 
@@ -249,3 +249,4 @@
 ## 变更记录
 
 2026-11-10：初次收录。
+2026-11-12：补记官方网站公布的联系邮箱与 Discord 社区入口。

@@ -168,7 +168,7 @@ GitHub has made the running framework and the MIT license public. The HF Preview
 
 ## Changelog
 
-- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
+- date：2026-11-07；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
 ---
 

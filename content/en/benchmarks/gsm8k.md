@@ -265,7 +265,7 @@ Sources: [1](https://raw.githubusercontent.com/openai/grade-school-math/master/R
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2021-10-27；；- version：v2；submitted_at：2021-11-18；；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2 and Tables 2–4 actually report GSM8K. Different years of AIME are filed under the same entry and are not split by year in order to pad the count.
+arxiv_submissions：- version：v1；submitted_at：2021-10-27；- version：v2；submitted_at：2021-11-18；2026_h2_evidence：- url：https://arxiv.org/html/2609.27284v1；date：2026-09-23；note：Hunyuan-A13B §4.1–4.2 and Tables 2–4 actually report GSM8K. Different years of AIME are filed under the same entry and are not split by year in order to pad the count.
 
 Sources: [1](https://arxiv.org/abs/2110.14168) (accessed 2026-11-07)
 
@@ -387,8 +387,8 @@ Sources: [1](https://arxiv.org/pdf/2110.14168) (accessed 2026-11-07)
 
 ### 本页修订
 
-- date：2026-11-07；；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
-- date：2026-11-07；；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：核实官方身份，撰写11部分中文介绍；记录H2引用/实验、分协议榜单和来源冲突；PDF执行字节数及SHA256校验，AIME例外明确保留。
+- date：2026-11-07；change：深度优化：重开官方材料与2026H2引用，补授权边界、文件级题量、版本冲突及官方静态榜；未知项保留，不将采集日期当榜单更新时间。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 Sources: [1](urn:benchmark-constitution:editorial:r2-q4) (accessed 2026-11-07)

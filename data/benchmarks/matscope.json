@@ -1,0 +1,801 @@
+{
+  "id": "matscope",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "MatScope",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "MatScope：面向演化式材料实验室科学推理的语言模型与智能体基准",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2611.12014v1；M1 核心200题、M2 二十个配对案例、MatEvoBench-20 二十条研究路径",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2611.12014v1（2026-11-09）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-11-09",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "section": {
+      "value": "材料",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "合金材料推理",
+        "定量科学判断",
+        "检索增强智能体",
+        "序贯预测与修正"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文在 arXiv 采用 arXiv 非独占分发许可；数据与代码许可证未公布",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.12014",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "论文称代码计划在发表后于 https://github.com/dddxs/MatScope 公开；审稿期间仅应编辑与审稿人要求提供",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "论文称题目、参考答案与评分量表随投稿附于补充文件，并将在发表后于 https://github.com/dddxs/MatScope 公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "paper_title": {
+      "value": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "上海交通大学材料科学与工程学院与新加坡南洋理工大学",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "partners": {
+      "value": "南洋理工大学材料科学与工程学院、南洋理工大学计算与数据科学学院（据论文作者单位）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "authors": {
+      "value": "Xuyu Dong、Yixuan Li、Jianguo Huang、Feng Chen、Yiyun Zhou；通讯作者 Bo An、Zheng Liu、Da Shu",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "funders": {
+      "value": "上海交通大学内蒙古科技合作计划（项目号 2023XYJG0001-01-01）；新加坡国家研究基金会 AI Singapore 计划（AISG2-GC-2023-009）；第一作者获国家留学基金委资助",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "考查语言模型与智能体在材料研究中区分相近材料状态、依据定量证据推理的能力，分为三部分：M1 无辅助的条件特定推理，M2 借助检索工具把相关文献知识迁移到未解决问题，MatEvoBench-20 在观测逐步披露时进行初始预测与修正",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为现有基准已覆盖领域知识、多模态解读与科学工具使用，但对区分相近材料状态、依据定量证据准确推理以及随证据积累保持可靠判断的能力评估不足",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "题目取材于28,872篇去重文献构成的语料库（716,080个文本段），以铝合金和高熵合金为代表体系；选题要求样品可识别、条件明确、目标有定量或关系依据，参考值来自原始测量与有来源支撑的关系",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "作者来自上海交通大学材料科学与工程学院及南洋理工大学材料与计算学科",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每个子问题都配有科学目的、有来源支撑的参考答案和目标特定的评分规则；已核实的抽取与评分错误依据保存的最终答案更正，其余评判疑虑及其对分数的影响单独报告",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "数值目标按物理量采用绝对、相对或对数比误差分级；Python 检查数值误差、单位换算与排序；解释性关系由 Gemini 3.1 Flash Lite 评判；任务分数按登记的权重与依赖规则合成；置信区间用按来源分组的2,000次自助重采样估计",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "M2 检索时排除构建题目所用的原始文献，并另设权限过滤限制可读正文",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "M1：200项任务、1,124个评分目标，分属96个来源关联组与十类研究功能；M2：20个共同失败案例（64个子问题、66个目标）；MatEvoBench-20：20条研究路径、90个节点",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "开放式定量与关系推理题，包括给定输入的计算、条件化数值预测、比较、机理解释与可行路线决策；M2 为多步工具调用智能体任务",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本与数值记录",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "public_hidden_split": {
+      "value": "评测时参考答案与评分规则与模型输入分离；数据计划在论文发表后公开",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "平均量表分（Mean Rubric Score，0至5分量表归一化）与任务完全成功率；另报告各功能分区得分、因子误差与 MatEvoBench-20 初始与最后隐藏检查点的数值得分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "目标特定量表评分：数值部分按声明的分辨率带分级，解释部分由模型裁判评判；若任务中没有任何主张达到材料特定区分标准，任务分上限为20%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "M1 每项任务在独立对话中给出英文题目与作答要求，禁用工具与检索；M2 每个案例最多3次检索、8次动作、10轮助手回复与6,000个观测词元，生成上限65,536词元，限时30分钟",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "comparability_warning": {
+      "value": "结果依赖具体部署配置与作答成本，不含评分成本；M2 中12个案例保留完整题目、8个使用选定子题投影，输入范围存在差异",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文 v1 所述版本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1：2026-11-09 提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "未饱和：十一个模型部署在 M1 上的任务完全成功率为13.5%至19.0%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "论文记录了锌弥散案例中语义关系评判的已知问题，作为评判器局限单独报告；问题集删除了两个定义不明确的目标",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文报告：十一个部署在 M1 上的平均量表分为58.59%至68.75%，完全成功率为13.5%至19.0%；GPT-6 Astra 为67.6616%，GPT-6 Sol 为67.1955%。M2 二十个案例中，GPT-6 Astra 从17.82%升至19.42%，Claude Fable 5.1 从15.19%升至19.41%；MatEvoBench-20 的48个共同数值终点上，Astra 由32.00%升至37.50%，Fable 由21.42%升至37.67%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "结果均为论文作者自测；M2 与 MatEvoBench-20 只评测了 GPT-6 Astra 与 Claude Fable 5.1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "论文列出的通讯作者邮箱：boan@ntu.edu.sg、z.liu@ntu.edu.sg、dshu@sjtu.edu.cn",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.12014",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "e2aab83434018e1e31fa272e7e1eeb79e743ed64e98f95acdb6a6ed7efe5242d",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "2236271",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.12014",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.12014",
+        "accessed": "2026-11-12"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-12",
+        "change": "最近复核"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.12014",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.12014",
+        "accessed": "2026-11-12"
+      }
+    ]
+  }
+}

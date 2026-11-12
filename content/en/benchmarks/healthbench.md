@@ -398,7 +398,7 @@ Sources: [1](https://arxiv.org/abs/2505.08775) (accessed 2026-11-07)
 
 ### 本页修订
 
-- date：2026-11-07；；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：首次建立中文近期热门研究条目；完整11节、分版榜单、证据与缺口标注，不上传。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 Sources: [1](urn:benchmark-constitution:editorial:r2-q4) (accessed 2026-11-07)

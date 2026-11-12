@@ -2,7 +2,7 @@
 
 > Verification date: 2026-11-07. Unknowns are retained as Unverified; the access date is not the measurement date.
 
-11-section research snapshot;
+11-section research snapshot
 
 An evaluation of agents for professional services that cross applications. The 480 questions published with the paper and on HF, the 452 questions at AA, and the 240 questions current at Mercor are three different scopes. The static Score of 84.2 on the official site was checked against data embedded in the page and is Pass@1. Mean Score is 90.4. The two are kept on separate tracks.
 

@@ -166,7 +166,7 @@ GitHub已公开运行框架与MIT许可；HF Preview只有题目和元数据，�
 
 ## 变更记录
 
-- date：2026-11-07；；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
+- date：2026-11-07；change：首次建立中文条目；逐项核实官方材料、热度和榜单；未知不推测。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://labs.scale.com/leaderboard/drugdiscoverybench)
 
 ---
 

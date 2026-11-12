@@ -267,7 +267,7 @@ Sources: [1](https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-02-07；；- version：v2；submitted_at：2024-02-27；Sources: [1](https://arxiv.org/abs/2402.04249) (accessed 2026-11-07)
+arxiv_submissions：- version：v1；submitted_at：2024-02-07；- version：v2；submitted_at：2024-02-27；Sources: [1](https://arxiv.org/abs/2402.04249) (accessed 2026-11-07)
 
 ### Saturation
 
@@ -389,8 +389,8 @@ Sources: [1](https://arxiv.org/pdf/2402.04249) (accessed 2026-11-07)
 
 ### 本页修订
 
-- date：2026-11-07；；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
-- date：2026-11-07；；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：首批官方来源深检、H2使用证据及版本冲突记录；原始PDF归档；未核实项显式标记。
+- date：2026-11-07；change：深度优化：重开官方材料，补充版本、许可证范围、数据划分、维护迁移及评分可比性；区分实时榜与历史结果，保留冲突与未核实字段。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 Sources: [1](urn:benchmark-constitution:editorial:r2-q4) (accessed 2026-11-07)

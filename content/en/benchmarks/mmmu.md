@@ -477,7 +477,7 @@ cb474e70a6728110aa39d94480535f482a656c5a65bfc2129b47d66350f1f974
 
 ### 其他官方文档
 
-；[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
+[来源2](https://arxiv.org/abs/2311.16502)（访问 2026-11-08）；[来源3](https://arxiv.org/html/2610.01352v2)（访问 2026-11-08）；[来源4](https://arxiv.org/pdf/2311.16502)（访问 2026-11-08）；[来源5](https://github.com/MMMU-Benchmark/MMMU/blob/main/README.md)（访问 2026-11-08）；[来源6](https://huggingface.co/datasets/MMMU/MMMU)（访问 2026-11-08）；[来源7](https://mmmu-benchmark.github.io/)（访问 2026-11-08）；[来源8](https://mmmu-benchmark.github.io/leaderboard_data.json)（访问 2026-11-08）
 
 ## Changelog
 

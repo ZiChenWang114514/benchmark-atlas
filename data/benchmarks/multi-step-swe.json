@@ -1,0 +1,1028 @@
+{
+  "id": "multi-step-swe",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "Multi-step SWE",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "Multi-step SWE：编码智能体能否在长程任务中持续基于自己的代码构建",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2611.07166v1；69项任务、574个步骤",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2611.07166v1（2026-11-04）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "section": {
+      "value": "代码",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "长程软件工程",
+        "编码智能体",
+        "多步依赖任务",
+        "版本升级与迁移"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "license": {
+      "value": "代码仓库为 MIT 许可证，附带的上游代码保留各自原许可证；论文在 arXiv 采用 CC BY 4.0",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.07166",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/Klavis-AI/Multi-step-SWE",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/Klavis-AI/Multi-step-SWE（任务以 Harbor 多步格式存放于仓库 tasks 目录，含环境、指令、验证器与参考解）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://multistepswe.com/",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "Multi-step SWE: Can Coding Agents Keep Building on Their Own Code Over Long Horizons?",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "Klavis AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "Xiangkai Zeng、Zheng Liu、Zihao Lin（同等贡献）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "Klavis AI",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "考查编码智能体能否在同一代码库上连续完成5至15个相互依赖的工程请求，每一步都从智能体此前写出的代码出发，早期的设计决策与错误会向后传递",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文指出，无论 SWE-bench 式单一问题修复，还是 Terminal-Bench、DeepSWE、FrontierSWE、ProgramBench 等更长的任务，都是一次性评分的单回合任务，不要求智能体在自己先前的工作上持续构建",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "每一步都以已有的权威依据为基础，例如规范、上游版本发布历史、协议修订、框架迁移路径和手工优化内核，同一依据同时定义指令与验证器；任务既有从零构建，也有基于真实开源代码库的工作",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "作者均来自 Klavis AI；任务由至少具有五年经验的专业软件工程师审阅",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "每项任务经过两轮专家审阅：初审检查设计、每步是否构成真实进展以及时间预算是否合适；终审逐一对照指令与验证器，确认验证器无法在未完成工作时通过，问题修正后需再次审阅",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "每步在独立验证器容器中评分，隐藏测试与公开检查不同；开发中对验证器做对抗性加固，每个成功的攻击都会新增检查；构建失败、测试数量不足或评分超时均记零分",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "论文承认任务源自公开项目，无法排除记忆；多数任务（56项）在作答时仅允许访问模型 API，版本升级任务还使用修改过期望输出的一致性测试，优化任务在评分时生成新输入",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "69项任务、574个步骤（每项5至15步，中位数8步）；优化18项、功能实现18项、版本升级20项、迁移13项",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多步交互式软件工程任务，智能体在容器中修改代码库，每步由隐藏测试验证",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "代码与文本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "languages": {
+      "value": "9种编程语言：C/C++（38项）、Rust（11）、Java（6）、Go（4）、JavaScript（4）、Python（3）、PHP（2）、Ruby（1）；指令为英语",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "每步预算2至4小时，每项任务10至60小时（中位数16小时）；38项任务没有任何模型解出",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "任务、环境与参考解公开在代码仓库；每步评分的大部分测试对智能体隐藏，并与公开检查不同",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "任务解出率（所有步骤都获满分才算解出）、Pass@4（四次尝试中至少一次解出的任务比例）与步骤通过率",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "每步在独立验证器容器中按隐藏测试评分；优化步骤以达到参考解加速比为满分门槛",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "每个模型在 Harbor 提供的智能体框架（Claude Code、Codex CLI、mini-swe-agent 或 Grok Build）中以该框架支持的最高推理强度运行，每项任务运行四次",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "通过 Harbor 运行，例如 harbor run --path tasks --n-attempts 4；仓库说明应根据全部步骤奖励计算任务解出率，Harbor 的平均奖励并非任务解出率",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "结果反映模型与所用智能体框架的组合；优化步骤的满分门槛是参考解的加速比，不一定是可达最优",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文 v1 与代码仓库所述的69项任务版本",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1：2026-11-04 提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "远未饱和：最强模型解出率为18.5%，69项任务中38项无任何模型解出",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "论文局限部分指出：部分任务仍可能存在含糊要求或验证器误判；语言分布不均，C/C++ 占38项；因源自公开项目，无法排除记忆。对 simdutf 的抽查显示，智能体新增代码与对应上游文件逐行相同的比例中位数为0.2%",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://multistepswe.com/#leaderboard",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "论文表5（解出率，%）：Claude Opus 5.5 18.5（Pass@4 31.9，步骤通过率56.8）；Claude Fable 5.1 17.8；Gemini 4 Argon 10.1；GPT-6.1 Sol 10.1；GPT-6 Astra 6.9；DeepSeek V4.1 Flash 6.5；Qwen 3.8 Max 4.0；MiMo 2.6 Pro 2.9；Grok 4.7 1.4",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "结果为论文作者自测的九个模型；官方网站榜单为交互式页面",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "论文列出的作者邮箱：xiangkaiz@klavis.ai、zhengliu@klavis.ai、zihaolin@klavis.ai",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "https://github.com/Klavis-AI/Multi-step-SWE/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.07166",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "dc939d8c5de5f1404e1db6e3921e1f92859d41a348fe84d7fec3831891e9ab75",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "422088",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "https://multistepswe.com/paper.pdf",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.07166",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://multistepswe.com/",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+        "accessed": "2026-11-12"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-12",
+        "change": "最近复核"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.07166",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://multistepswe.com/",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+        "accessed": "2026-11-12"
+      }
+    ]
+  }
+}

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11",
-  "count": 202,
+  "generated_at": "2026-11-12",
+  "count": 205,
   "per_section": {
     "物理": 17,
-    "化学": 16,
+    "化学": 17,
     "生物与医学": 27,
     "地球与天文": 6,
-    "材料": 6,
+    "材料": 7,
     "语言": 18,
     "推理": 15,
     "数学": 10,
-    "代码": 22,
+    "代码": 23,
     "多模态": 17,
     "Agent": 27,
     "安全": 12,
@@ -7127,6 +7127,91 @@
         }
       ],
       "last_checked": "2026-11-11"
+    },
+    {
+      "id": "cheminsight",
+      "name": "ChemInsight",
+      "section": "化学",
+      "tags": [
+        "化学",
+        "有机化学推理",
+        "SMILES结构理解",
+        "诊断评测"
+      ],
+      "summary": "以有机化学为主的化学推理诊断基准，含50个题组共203道自由作答题与50道单步诊断题，用广度分和深度分区分覆盖面与多步推理完整度。",
+      "json": "data/benchmarks/cheminsight.json",
+      "content": "content/benchmarks/cheminsight.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.11794",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.11794",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "matscope",
+      "name": "MatScope",
+      "section": "材料",
+      "tags": [
+        "材料",
+        "合金材料推理",
+        "定量科学判断",
+        "检索增强智能体"
+      ],
+      "summary": "以铝合金与高熵合金为代表的材料科学推理基准，含200项无辅助任务、20个检索智能体案例和20条序贯预测路径，考查模型能否区分相近材料状态并依据定量证据作判断。",
+      "json": "data/benchmarks/matscope.json",
+      "content": "content/benchmarks/matscope.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.12014",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.12014",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "last_checked": "2026-11-12"
+    },
+    {
+      "id": "multi-step-swe",
+      "name": "Multi-step SWE",
+      "section": "代码",
+      "tags": [
+        "代码",
+        "长程软件工程",
+        "编码智能体",
+        "多步依赖任务"
+      ],
+      "summary": "长程软件工程基准，69项任务各含5至15个相互依赖的工程步骤，每一步都在智能体自己此前写出的代码上继续，九个前沿模型中最高解出率仅18.5%。",
+      "json": "data/benchmarks/multi-step-swe.json",
+      "content": "content/benchmarks/multi-step-swe.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.07166",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://multistepswe.com/",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+          "accessed": "2026-11-12"
+        }
+      ],
+      "last_checked": "2026-11-12"
     }
   ]
 }

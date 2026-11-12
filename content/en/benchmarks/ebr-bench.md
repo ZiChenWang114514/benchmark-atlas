@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-;
+
 
 Over the first five in-game days of the Earthborne Rangers board game, EBR-bench tests how an agent plans, manages resources, and improves from repeated play and from notes. It counts the completion proportion of 21 objectives. It is not a measurement of clearing a full campaign of 20–25 days. After a game reset, the agent can retain experience only through notes, and the weights are not updated. [1](https://epoch.ai/benchmarks/ebr-bench) [2](https://epoch.ai/publications/earthborne-rangers-benchmark)
 
@@ -172,7 +172,7 @@ The conclusion that the system "did not learn," in the article published on 2026
 
 ## Changelog
 
-- date：2026-11-07；；change：首次建立近期热门中文研究条目。Earthborne Rangers is the name of the game, and EBR-bench is an Epoch research benchmark; this is kept distinct from the copyright in the game itself and from the relationship to its authors. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://epoch.ai/benchmarks/ebr-bench)
+- date：2026-11-07；change：首次建立近期热门中文研究条目。Earthborne Rangers is the name of the game, and EBR-bench is an Epoch research benchmark; this is kept distinct from the copyright in the game itself and from the relationship to its authors. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://epoch.ai/benchmarks/ebr-bench)
 
 ---
 

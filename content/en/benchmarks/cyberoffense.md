@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-11-section research snapshot;
+11-section research snapshot
 
 CyberOffense uses two isolated enterprise-network ranges, Nova and Lighthouse, to observe whether an agent can complete authorized objectives in long-horizon, multi-step exploration. It does not rely on self-reported success. It checks whether command output contains a hidden marker corresponding to a private answer key. Each run rebuilds the range and reviews shortcuts. Only the evaluation protocol and the aggregate scores are recorded here. Specific attack steps are not restated. [1](https://www.vals.ai/benchmarks/cyber_offense)
 
@@ -163,7 +163,7 @@ Each run is at most 48 hours, with 500M tokens cumulative, including cache and r
 
 ## Changelog
 
-- date：2026-11-07；；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cyber_offense)
+- date：2026-11-07；change：首次建立近期热门条目；核对官方协议、当前结果与来源限制；未上传。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cyber_offense)
 
 ---
 

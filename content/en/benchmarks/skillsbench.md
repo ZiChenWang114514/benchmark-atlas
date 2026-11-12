@@ -1,6 +1,6 @@
 # SkillsBench
 
-> Benchmark Constitution, in-depth review 2026-11-08. ;
+> Benchmark Constitution, in-depth review 2026-11-08.
 
 SkillsBench turns the question “whether a skill is actually useful” into a paired experiment: the same model and the same agent complete expert tasks with a skill and without a skill. The default v1.1 contains 87 questions, and an additional 14 questions cannot be merged into the default inventory. The official release of 87 questions, the HF audit export, and the independent Vals implementation have different configurations and different snapshots in time, and this record does not join them into one leaderboard of the bare model.
 

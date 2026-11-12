@@ -1,6 +1,6 @@
 # Berkeley Function Calling Leaderboard (BFCL)
 
-> 核查：2026-11-07（，）。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
+> 核查：2026-11-07。本页是有来源的研究快照，不把采集日当作实验日；待核实不等于未公开。
 
 逐条实证复核：论文PDF、官方发布材料与分协议榜单；未证实项继续保留
 
@@ -426,7 +426,7 @@ https://raw.githubusercontent.com/mlresearch/v267/main/assets/patil25a/patil25a.
 - 2026-11-07：首次建立中文条目；核实官方存在性、原论文与 H2 证据；不确定字段保留待核实。
 - 2026-11-07：读官网真实CSV补V4前五；补5088计分/5218不计分构成；修正V4固定加权而非全子类等权；补AA真实子集覆盖与H2证据。
 - 2026-11-07：近期热门版本复核：V1引入AST单轮，V2引入企业/社区贡献，V3引入多轮；V4新增Web Search、Memory与Format Sensitivity。总分权重为Agentic40%、Multi-Turn30%、Live10%、Non-Live10%、Hallucination10%；Format Sensitivity不计总分。以官方V4方法博客为准；官网概述“unweighted average of all sub-categories”不应覆盖明细的固定权重定义。 刷新结构化当前榜单，旧版字段与旧快照保留，增加热门证据与证据边界。
-- 2026-11-07（）：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
+- 2026-11-07：实际读取论文摘要和PDF全文、官方README/可取得的LICENSE、关联HF卡与榜单；补充真实来源，分开版本/条件/输出协议；重写11节中文介绍。未上传，未重跑评测。
 
 来源：[1][3][4][5][6][7]
 

@@ -262,7 +262,7 @@ version：3.0；heat_confidence：B；evidence_2026_h2：- url：https://artific
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-12-04；；- version：v2；submitted_at：2025-02-19；来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
+arxiv_submissions：- version：v1；submitted_at：2024-12-04；- version：v2；submitted_at：2025-02-19；来源：[1](https://arxiv.org/abs/2412.03304)（访问 2026-11-07）
 
 ### 饱和情况
 
@@ -404,7 +404,7 @@ https://arxiv.org/pdf/2412.03304
 
 ### 本页修订
 
-- date：2026-11-07；；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：新建近期热门中文研究条目；区分当前榜单与历史结果；缺项逐字段标记。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）

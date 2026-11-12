@@ -293,7 +293,7 @@ https://github.com/MME-Benchmarks/Video-MME
  - **date**：2026-10-12
  - **note**：Elephant in the Fridge / FramePack-U 研究实际使用 Video-MME 评估长视频理解与帧打包方法。
  - **date**：2026-10-12
-；是实际评测而非仅参考文献。
+是实际评测而非仅参考文献。
 - **note**：论文修订时间已从arXiv的UTC转换为；不能当作数据发布日期。既有2026-H2证据保留原采集日期。
 
 来源：[1](https://arxiv.org/abs/2405.21075)（访问 2026-11-08）；[2](https://arxiv.org/html/2610.16118v1)（访问 2026-11-07）；[3](https://arxiv.org/abs/2610.16118)（访问 2026-11-07）。

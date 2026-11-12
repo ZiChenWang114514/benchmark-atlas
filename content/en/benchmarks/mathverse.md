@@ -1,5 +1,5 @@
 # MathVerse
-> Verification: 2026-11-08. , with evidence of actual use in the second half of 2026; official live-leaderboard coverage and unverified fields are marked item by item.
+> Verification: 2026-11-08., with evidence of actual use in the second half of 2026; official live-leaderboard coverage and unverified fields are marked item by item.
 
 MathVerse checks whether a model truly uses a mathematical diagram, by changing how information is divided between the figure and the text in the same question. The 2,612 original questions, the total constructed across the six versions, and the 788 original questions in the public testmini should be kept distinct; All summarizes only the five multimodal versions, Text Only is a separate ablation, and CoT-E scores and w/o scores must not be ranked together.
 

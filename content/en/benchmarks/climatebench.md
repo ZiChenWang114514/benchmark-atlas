@@ -306,6 +306,6 @@ Sources: [1](https://ueaeprints.uea.ac.uk/id/eprint/87693/1/WatsonParris_etal_20
 
 ## Changelog
 
-- date：2026-11-07；；change：首批官方材料核验、中文改写、；未核实字段显式标记。
-- date：2026-11-07；；change：：核对Official README、许可、评测与分任务分数；补2026H2使用证据，区分Paper-fixed experiment和实时榜，保留官方标签冲突。
-- date：2026-11-07；；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。
+- date：2026-11-07；change：首批官方材料核验、中文改写、；未核实字段显式标记。
+- date：2026-11-07；change：：核对Official README、许可、评测与分任务分数；补2026H2使用证据，区分Paper-fixed experiment和实时榜，保留官方标签冲突。
+- date：2026-11-07；change：深度核验：重开论文摘要/PDF、官方仓库与可得数据卡/榜单，分来源/版本/提示轨保存精确结果，改写中文11节；抓取失败及未知保留。

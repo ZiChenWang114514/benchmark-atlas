@@ -5,7 +5,7 @@ import csv, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ACC = "2026-11-11"
+ACC = "2026-11-12"
 CJK = re.compile(r"[\u4e00-\u9fff]")
 
 ZH_LABELS = {
@@ -97,7 +97,7 @@ def src_line(field, prefix="来源"):
   word = "访问" if prefix == "来源" else "accessed"
   return f"{prefix}: {' '.join(parts)} ({word} {field['sources'][0]['accessed']})"
 
-def write_md(path, title, summary, dossier, labels, en_values=None, prefix="来源", changelog_line="2026-11-11：初次收录。"):
+def write_md(path, title, summary, dossier, labels, en_values=None, prefix="来源", changelog_line="2026-11-12：初次收录。"):
   lines = [f"# {title}", "", summary, ""]
   for section_key, (heading, fields) in labels.items():
     lines.append(f"## {heading}")
@@ -163,8 +163,8 @@ def intake(spec: dict):
   dossier["latest_status"]["checked_at"] = F(ACC, primary)
 
   (ROOT / "data/benchmarks" / f"{bid}.json").write_text(json.dumps(dossier, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-  write_md(ROOT / "content/benchmarks" / f"{bid}.md", name, summary_zh, dossier, ZH_LABELS, prefix="来源", changelog_line="2026-11-11：初次收录。")
-  write_md(ROOT / "content/en/benchmarks" / f"{bid}.md", name if not CJK.search(name) else en["name"], summary_en, dossier, EN_LABELS, en_values=en, prefix="Sources", changelog_line="2026-11-11: Initial filing.")
+  write_md(ROOT / "content/benchmarks" / f"{bid}.md", name, summary_zh, dossier, ZH_LABELS, prefix="来源", changelog_line="2026-11-12：初次收录。")
+  write_md(ROOT / "content/en/benchmarks" / f"{bid}.md", name if not CJK.search(name) else en["name"], summary_en, dossier, EN_LABELS, en_values=en, prefix="Sources", changelog_line="2026-11-12: Initial filing.")
 
   # lexicon
   lex_path = ROOT / "data/en/lexicon.json"

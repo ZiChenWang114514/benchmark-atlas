@@ -270,7 +270,7 @@ WebArena与VisualWebArena/WebArena-Infinity/Verified变体不同；截图与可�
  - **date**：2026-09-17
  - **note**：ScienceIDE §4.2及参考文献明确引用 WebArena 作为语言模型Agent/交互环境先行基准；为H2学术引用，不声称本文实跑。
  - **date**：2026-09-17
-；属于§4.2相关工作引用，非本文实跑。
+属于§4.2相关工作引用，非本文实跑。
  - - **url**：
  - **date**：2026-09
  - **note**：官方维护Sheet主榜收录Narada AI Code 86.1，时间列09/2026；是当期榜单收录的参评者成绩，不推断独立复跑。

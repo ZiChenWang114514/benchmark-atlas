@@ -58,7 +58,7 @@ The genuine official project page was located. It explicitly assigns maintenance
 
 ## Construction
 
-- **题目来源**：Synthetic databases and tasks are designed from public enterprise API documentation and from domain SMEs, and private enterprise data are not used; eight domains: Calendar, CSM, , Email, HR, ITSM, Teams, and Hybrid. [2](https://arxiv.org/abs/2603.13594)
+- **题目来源**：Synthetic databases and tasks are designed from public enterprise API documentation and from domain SMEs, and private enterprise data are not used; eight domains: Calendar, CSM,, Email, HR, ITSM, Teams, and Hybrid. [2](https://arxiv.org/abs/2603.13594)
 
 - **出题与审核人员**：Turing organized more than 160 engineers, domain SMEs, and annotators; their backgrounds are bachelor's degrees in engineering, computer science, and related fields, with an average of 20 annotators and 6 reviewers per domain, over about 4 months including a 1-month pilot. [2](https://arxiv.org/abs/2603.13594)
 
@@ -161,7 +161,7 @@ The genuine official project page was located. It explicitly assigns maintenance
 
 ## Changelog
 
-- date：2026-11-07；；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://enterpriseops-gym.github.io/)
+- date：2026-11-07；change：近期热门批次首次建立中文条目；按官方页面核实基本信息、构建、评分与榜单快照，未核实字段保留待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://enterpriseops-gym.github.io/)
 
 ---
 

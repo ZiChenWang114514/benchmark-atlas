@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-;
+
 
 CUA-bench places computer-use ability inside real-time commercial games. The agent can only read pixels and use a keyboard and a mouse. It cannot obtain state through a game API, memory, or a save-file side path. The six games are paired as sandbox, reaction, and sports. Minecraft, SUPERHOT, and eFootball are public, and the other three are hidden. It examines visual judgment, the timing of actions, learning by trial and error, and progress toward long-term goals. [1](https://www.vals.ai/benchmarks/cua_bench)
 
@@ -161,7 +161,7 @@ Each game lasts three hours. Milestones at each level sum to 100 points, and the
 
 ## Changelog
 
-- date：2026-11-07；；change：首次建立近期热门中文研究条目。CUA-bench admits only keyboard-and-mouse evaluation of commercial games; it must not be conflated with OSWorld, with general CUA ability, or with a game subscore. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cua_bench)
+- date：2026-11-07；change：首次建立近期热门中文研究条目。CUA-bench admits only keyboard-and-mouse evaluation of commercial games; it must not be conflated with OSWorld, with general CUA ability, or with a game subscore. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://www.vals.ai/benchmarks/cua_bench)
 
 ---
 

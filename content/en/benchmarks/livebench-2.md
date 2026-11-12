@@ -1,5 +1,5 @@
 # LiveBench 2.0
-> Verification: 2026-11-08. Existence verified; research snapshot;
+> Verification: 2026-11-08. Existence verified; research snapshot
 
 LiveBench 2.0 shifts the emphasis to long-horizon work and to a product that can be delivered. The v1 paper about short questions and answers cannot be used to explain the new leaderboard. Weighted Overall across the seven suites on the official site, and the cost of a task that succeeds, give two different views. The question bank, reproduction of the scoring, and the claim that there is no contamination still need fuller evidence from 2.0.
 

@@ -2,7 +2,7 @@
 
 > In-depth verification: 2026-11-07. Unknown is not the same as Not disclosed; the web-page update date, the run date, and the access date are recorded separately.
 
-;
+
 
 DualChem focuses on the dual-use ambiguity of chemistry: the same expertise may support legitimate research and may also be misused. 600 questions were built by chemistry experts, split into 485 multiple-choice and 115 open-response questions, covering seven experimental domains, and benign use, harmful use, and severity are recorded together. The rate of capable answers, the refusal rate, and risk awareness are different axes, and a single "higher is better" rank cannot conceal the safety tradeoff. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks) [2](https://cdn.sanity.io/files/50zba0eo/production/740e74ec297aa119d37b87d4706540e322551ba0.pdf) [3](https://huggingface.co/datasets/DualChem-author/dualchem/blob/main/README.md)
 
@@ -171,7 +171,7 @@ In the no-tool Table 4 of the formal PDF, GPT-5.6 Sol has a full-set accuracy of
 
 ## Changelog
 
-- date：2026-11-07；；change：首次建立近期热门中文研究条目。DualChem specifically tests dual-use chemical risk and is not merged with ChemBench general chemistry ability; specific sensitive question content is not collected or further distributed. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
+- date：2026-11-07；change：首次建立近期热门中文研究条目。DualChem specifically tests dual-use chemical risk and is not merged with ChemBench general chemistry ability; specific sensitive question content is not collected or further distributed. 热度与榜单口径分离，不确定值标记待核实。；2026-11-07: a source-by-source deep check. Official methods, paper PDFs that had been located, repository README and LICENSE files, and HF cards were reread. Located facts were filled in, versions that conflict with one another were distinguished, and readable leaderboards were collected again. Private material of the original game, and formal artifacts that were not located, remain blank. [1](https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks)
 
 ---
 

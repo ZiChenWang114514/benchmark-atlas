@@ -1,5 +1,113 @@
 [
   {
+    "id": "epoch-eci-fable-5-2",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-11",
+    "title": "Epoch 能力指数：Claude Fable 5.2 以174分创新高",
+    "body": "Epoch AI 在11月11日的简报中称，Claude Fable 5.2 在 Epoch 能力指数（ECI）上取得174分，超过此前最高的 GPT-6 Astra（169分），并高于推理模型此前趋势的预期。Epoch 同时把 ECI 的计算方法由频率学派模型改为贝叶斯模型，可给出模型之间的胜出概率；据其说明，新方法对前沿模型分数的影响平均约1分。",
+    "sources": [
+      {
+        "url": "https://epochai.substack.com/p/the-epoch-brief-november-11-2026",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://epoch.ai/publications/eci-bayesian-methodology",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "榜单变化",
+    "sort_date": "2026-11-11",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "qwen4-max-preview",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-11",
+    "title": "阿里开放 Qwen4-Max 预览版，官方暂未公布评测成绩",
+    "body": "阿里云模型服务文档显示，Qwen4-Max-Preview 是 Qwen 系列下一代旗舰多模态模型，支持文本、图像与视频输入和100万词元上下文，最大输出393,216词元，默认开启思考模式。预览期为11月11日至11月25日，仅通过 Token Plan 订阅提供，预览结束后下线。官方文档未附评测成绩，因此暂不计入前沿热度榜。",
+    "sources": [
+      {
+        "url": "https://help.aliyun.com/en/model-studio/qwen4-max-preview",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "前沿模型",
+    "sort_date": "2026-11-11",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "agent-benchmark-saturation-measurement",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-10",
+    "title": "研究称多项智能体基准的饱和主要来自评分方式",
+    "body": "11月10日发布于 arXiv 的一篇论文重新评分了八个基准的公开运行结果，包括 SWE-bench Verified 与 Terminal-Bench。作者认为，把每次运行压缩为通过或不通过，一方面过于粗糙：SWE-bench Verified 前十名中相邻智能体的差距小于其测试本身的误差；另一方面受参考线封顶：ALE-Bench 前十名若以人类中位数为准会全部打平，尽管近半运行超过该人类。论文提出带日期锚点、截断对数比的分级得分，并把成本作为单独维度。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.13541",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "核验观察",
+    "sort_date": "2026-11-10",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "matscope-release",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-09",
+    "title": "MatScope：检验模型能否在演化式材料实验室中作定量判断",
+    "body": "上海交通大学与南洋理工大学团队于11月9日在 arXiv 发布 MatScope，以铝合金和高熵合金为代表体系，包含三部分：M1 的200项无辅助推理任务，M2 的20个检索智能体案例，以及 MatEvoBench-20 的20条随观测逐步披露的研究路径。论文称十一个模型部署在 M1 上的平均量表分为58.59%至68.75%，但任务完全成功率只有13.5%至19.0%；给定输入的计算题得分很高，而针对具体材料状态的数值预测明显偏弱。数据与代码计划在论文发表后公开。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.12014",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-09",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "cheminsight-release",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-09",
+    "title": "ChemInsight：用广度分与深度分诊断模型的化学推理短板",
+    "body": "蚂蚁集团与北京大学等团队于11月9日在 arXiv 发布 ChemInsight。基准集含50个题组共203道以有机化学为主的自由作答题，另有50道单步诊断题。十个模型的广度分在11.6%至27.8%之间，最高为 Gemini 3 Pro；人类专家广度分为36.3%。论文认为对 SMILES 结构表示的理解与生成是主要瓶颈，SMILES 题表现差异约解释总分方差的82%。论文未附数据或代码链接。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.11794",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-09",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "multi-step-swe-release",
+    "observed_date": "2026-11-12",
+    "event_date": "2026-11-04",
+    "title": "Multi-step SWE：编码智能体需在自己写的代码上连续完成多步工程请求",
+    "body": "Klavis AI 于11月4日发布 Multi-step SWE，包含69项任务、574个步骤，每项任务在同一代码库上串联5至15个依赖步骤，每步预算2至4小时，覆盖优化、功能实现、版本升级与迁移四类工作和9种编程语言。九个前沿模型中，Claude Opus 5.5 的任务解出率最高，为18.5%，步骤通过率为56.8%；69项任务中有38项没有任何模型解出，版本升级类最难。任务、验证器与参考解以 MIT 许可证在 GitHub 公开。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.07166",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://multistepswe.com/",
+        "accessed": "2026-11-12"
+      },
+      {
+        "url": "https://github.com/Klavis-AI/Multi-step-SWE",
+        "accessed": "2026-11-12"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-04",
+    "sort_date_basis": "event_date"
+  },
+  {
     "id": "aa-leaderboard-2026-11-11",
     "observed_date": "2026-11-11",
     "event_date": "待核实",

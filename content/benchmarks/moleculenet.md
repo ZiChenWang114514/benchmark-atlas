@@ -628,7 +628,7 @@ a017e94ab6a9b3165a99035b4839a10646e07f632f9406de98dd4c220cae3701
 
 ### 其他官方文档
 
-；[来源2](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）；[来源4](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）；[来源5](https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html)（访问 2026-11-08）；[来源6](https://github.com/deepchem/deepchem/blob/master/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/deepchem/deepchem/blob/master/README.md)（访问 2026-11-08）；[来源8](https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py)（访问 2026-11-08）；[来源9](https://github.com/deepchem/moleculenet/blob/master/README.md)（访问 2026-11-08）
+[来源2](https://arxiv.org/abs/1703.00564)（访问 2026-11-08）；[来源3](https://arxiv.org/pdf/1703.00564)（访问 2026-11-08）；[来源4](https://deepchem.io/tutorials/an-introduction-to-moleculenet/)（访问 2026-11-08）；[来源5](https://deepchem.readthedocs.io/en/stable/api_reference/moleculenet.html)（访问 2026-11-08）；[来源6](https://github.com/deepchem/deepchem/blob/master/LICENSE)（访问 2026-11-08）；[来源7](https://github.com/deepchem/deepchem/blob/master/README.md)（访问 2026-11-08）；[来源8](https://github.com/deepchem/deepchem/blob/master/examples/benchmark.py)（访问 2026-11-08）；[来源9](https://github.com/deepchem/moleculenet/blob/master/README.md)（访问 2026-11-08）
 
 ## 变更记录
 

@@ -159,7 +159,7 @@ CUA-bench把计算机使用能力放进实时商业游戏：agent只能读像素
 
 ## 变更记录
 
-- date：2026-11-07；；change：首次建立近期热门中文研究条目。CUA-bench只收商业游戏键鼠评测；不能与OSWorld、一般CUA能力或游戏子分项混同。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cua_bench)
+- date：2026-11-07；change：首次建立近期热门中文研究条目。CUA-bench只收商业游戏键鼠评测；不能与OSWorld、一般CUA能力或游戏子分项混同。 热度与榜单口径分离，不确定值标记待核实。；2026-11-07：逐源深核；重读官方方法、已定位论文PDF、仓库README/LICENSE和HF卡，补齐事实、区分相互冲突版本，重采可读榜单。原游戏私有材料及未定位正式产物继续留空。 [1](https://www.vals.ai/benchmarks/cua_bench)
 
 ---
 

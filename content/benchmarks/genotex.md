@@ -261,7 +261,7 @@ eval.py：对selection、preprocessing、analysis三类任务评估；预测目�
 
 ### 论文历史及后续证据
 
-arxiv_submissions：- version：v1；submitted_at：2024-06-22；；- version：v2；submitted_at：2025-03-28；；- version：v3；submitted_at：2025-04-09；；2026_H2_evidence：- url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。
+arxiv_submissions：- version：v1；submitted_at：2024-06-22；- version：v2；submitted_at：2025-03-28；- version：v3；submitted_at：2025-04-09；2026_H2_evidence：- url：https://arxiv.org/html/2610.21074v1；date：2026-10-15；note：OmicsBench §2明确引用 GenoTEX（Liu等2025），将其归为给定数据、单次请求的生物分析基准。；evidence_boundary：引用不等于重新运行；本页将论文历史实验与现榜分开。
 
 来源：[1](https://arxiv.org/abs/2406.15341)（访问 2026-11-07）
 
@@ -399,8 +399,8 @@ a736e1f4af1ac40df8d1727de6722e005292ffdc20ea002a847ac5114d2ce790
 
 ### 本页修订
 
-- date：2026-11-07；；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
-- date：2026-11-07；；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
-- date：2026-11-07；；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
+- date：2026-11-07；change：首次深度核查：官方存在性、2026H2证据、构建与评测、历史/当前榜单边界、原始材料和中文介绍。
+- date：2026-11-07；change：深度优化：打开官方README/数据卡/论文补实字段，区分公开与隐藏划分、论文历史实验与实时排名；未知仍明确保留。
+- date：2026-11-07；change：q4逐篇复核arXiv摘要及PDF、官方仓库与许可、可用HF卡和榜单；修正版本/协议/数据规模，分赛道转录精确结果，保留证据缺口。
 
 来源：[1](urn:benchmark-constitution:editorial:r2-q4)（访问 2026-11-07）
