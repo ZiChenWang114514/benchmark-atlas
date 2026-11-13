@@ -3,8 +3,8 @@
     "id": "gemini-4-hydrogen-frontier-heat",
     "observed_date": "2026-11-13",
     "event_date": "2026-11-12",
-    "title": "谷歌发布 Gemini 4 Hydrogen，进入前沿热度窗口",
-    "body": "谷歌于11月12日发布 Gemini 4 Hydrogen，当日即向开发者、企业和普通用户开放。官方将其定位为面向日常编程与智能体工作流的快速模型，接替 Gemini 3.8 Flash；模型卡称其改编自 Gemini 4 Carbon。官方成绩表列出 Terminal-Bench 4.1（作弊校正）57.0%、SWE-sweep 13.5%、Agents' Last Exam v1.1 71.6%、AutomationBench-AA 76.1%、MKA 53.4%、HLE-Diamond 58.8%；发布页另称其在 Vals 的 Tax Agent Bench 上以52.3%居首，在 Legal Research Bench 上以55.8%并列第一，在 arena.ai 的 Agent Arena 上排第5，以上均为厂商自报。本次为该模型计入16个评测族。窗口按首发日滚动，首发最早的 GPT-6 Astra（9月3日）随之移出。热度榜前七名次不变，Chartography 升4位至第8，ExploitBench、ExploitGym 与 Terminal-Bench-Science 各降1位。学术影响力榜上 Terminal-Bench 升至第2，HumanEval 由第6降至第9；FrontierMath、WMDP、ARC-AGI-1 与 CVEBench 在当前窗口内暂无模型报告，转入证据不足，正式排名由100条变为97条。",
+    "title": "谷歌发布 Gemini 4 Hydrogen，进入前沿热度窗口，Mistral Large 4 移出",
+    "body": "谷歌于11月12日发布 Gemini 4 Hydrogen，当日即向开发者、企业和普通用户开放。官方将其定位为面向日常编程与智能体工作流的快速模型，接替 Gemini 3.8 Flash；模型卡称其改编自 Gemini 4 Carbon。官方成绩表列出 Terminal-Bench 4.1（作弊校正）57.0%、SWE-sweep 13.5%、Agents' Last Exam v1.1 71.6%、AutomationBench-AA 76.1%、MKA 53.4%、HLE-Diamond 58.8%；发布页另称其在 Vals 的 Tax Agent Bench 上以52.3%居首，在 Legal Research Bench 上以55.8%并列第一，在 arena.ai 的 Agent Arena 上排第5，以上均为厂商自报。本次为该模型计入16个评测族。为容纳新模型，本次将 Mistral Large 4 移出窗口：在已列出 Artificial Analysis 智能指数的窗口模型中，它的最佳得分26为最低；GPT-6 Astra（57分）继续保留在窗口内。热度榜前十名次不变，Chartography 升1位至第11，ProgramBench 升2位至第12，GDPval 与 GPQA 各升2位至第14和第15；AA-Briefcase 降2位至第13，Harvey LAB 降3位至第16。学术影响力榜上 Terminal-Bench 升至第3，MME 降至第4；ChartQA、StrongREJECT 与 MMLU-Redux 在当前窗口内暂无模型报告，转入证据不足，Legal Research Bench 新进榜，正式排名由100条变为98条。",
     "sources": [
       {
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
@@ -16,6 +16,10 @@
       },
       {
         "url": "https://deepmind.google/models/evals-methodology/gemini-4-hydrogen",
+        "accessed": "2026-11-13"
+      },
+      {
+        "url": "https://artificialanalysis.ai/leaderboards/models",
         "accessed": "2026-11-13"
       }
     ],
