@@ -2627,5 +2627,36 @@
       "Agentic honesty"
     ],
     "description_zh": "官方模型报告的性能表列出的具名评测；具体任务定义待核实。"
+  },
+  "agent-arena": {
+    "id": "agent-arena",
+    "name": "Agent Arena",
+    "domain": "Agent",
+    "aliases": [
+      "Agent Arena",
+      "arena.ai’s Agent Arena",
+      "Agent Arena, arena.ai’s live benchmark"
+    ],
+    "description_zh": "arena.ai 的真实场景智能体排行榜，依据真实智能体会话中的任务成功率、用户反馈与可控性等信号排名。"
+  },
+  "vals-tax-agent-bench": {
+    "id": "vals-tax-agent-bench",
+    "name": "Tax Agent Bench",
+    "domain": "Agent",
+    "aliases": [
+      "Tax Agent Bench",
+      "Vals Tax Agent Bench"
+    ],
+    "description_zh": "Vals AI 的税务智能体评测，用检索与计算工具回答研究级美国公司税问题，按专家评分细则评分并核验引用。"
+  },
+  "legal-research-bench": {
+    "id": "legal-research-bench",
+    "name": "Legal Research Bench",
+    "domain": "Agent",
+    "aliases": [
+      "Legal Research Bench",
+      "Vals Legal Research Bench"
+    ],
+    "description_zh": "跨美国联邦及州法，检索法律、判例，判断有效性并综合成有权威支持的法律研究答案。"
   }
 }
