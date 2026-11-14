@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-12",
-  "count": 205,
+  "generated_at": "2026-11-14",
+  "count": 210,
   "per_section": {
-    "物理": 17,
+    "物理": 18,
     "化学": 17,
     "生物与医学": 27,
-    "地球与天文": 6,
-    "材料": 7,
+    "地球与天文": 7,
+    "材料": 8,
     "语言": 18,
     "推理": 15,
     "数学": 10,
     "代码": 23,
     "多模态": 17,
-    "Agent": 27,
+    "Agent": 28,
     "安全": 12,
-    "综合科学": 5,
+    "综合科学": 6,
     "语音": 2,
     "机器人与具身": 2
   },
@@ -7212,6 +7212,176 @@
         }
       ],
       "last_checked": "2026-11-12"
+    },
+    {
+      "id": "spu",
+      "name": "SPU",
+      "section": "综合科学",
+      "tags": [
+        "综合科学",
+        "实验结局预测",
+        "化学",
+        "材料科学",
+        "智能体评测"
+      ],
+      "summary": "Science Prediction Universe 含100项公开任务（源自85篇 Nature Portfolio 论文）与16项未公开湿实验任务，论文报告13种智能体配置在公开集上的任务调整 Spearman 均值介于0.227至0.478。",
+      "json": "data/benchmarks/spu.json",
+      "content": "content/benchmarks/spu.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.15049",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.15049.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://spu.unipat.ai/",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/UniPat-AI/SPU",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://huggingface.co/datasets/UnipatAI/SPU",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "last_checked": "2026-11-14"
+    },
+    {
+      "id": "frontiermat",
+      "name": "FrontierMat",
+      "section": "材料",
+      "tags": [
+        "材料",
+        "前沿材料研发",
+        "跨尺度推理",
+        "复合材料"
+      ],
+      "summary": "FrontierMat 含330道来自前沿学术与工业材料研发的选择题，论文报告最强通用模型 GPT-6-Astra 总体得分为53.7%，对开源模型 Qwen3.5-35B-A3B 的领域适应将其得分由36.7%提升至55.4%。",
+      "json": "data/benchmarks/frontiermat.json",
+      "content": "content/benchmarks/frontiermat.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.41162",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2610.41162.pdf",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "last_checked": "2026-11-14"
+    },
+    {
+      "id": "livegeo",
+      "name": "LiveGeo",
+      "section": "地球与天文",
+      "tags": [
+        "地球与天文",
+        "地理智能体",
+        "动态环境决策",
+        "城市地理"
+      ],
+      "summary": "LiveGeo 含1237道任务实例（1088道静态、149道配对动态），论文报告九个模型中最佳总体成功率为 Gemini 3.7 Flash 的27.8%，在配对动态设置下相对静态的平均成功率分别下降70.3%与79.3%。",
+      "json": "data/benchmarks/livegeo.json",
+      "content": "content/benchmarks/livegeo.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.17267",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.17267.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://livegeoworld.github.io/",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/LiveGeoWorld/GeoWorld",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "last_checked": "2026-11-14"
+    },
+    {
+      "id": "aerozoo",
+      "name": "AeroZoo",
+      "section": "物理",
+      "tags": [
+        "物理",
+        "空气动力学",
+        "计算流体力学",
+        "神经替代模型",
+        "分布外泛化"
+      ],
+      "summary": "面向空气动力学基础模型的适定流动问题基准与训练语料，含 3,815 个不可压缩非定常雷诺平均方程的时间平均解，其中 2,816 个时间平均稳定样本构成规范集。论文报告，在随机划分上，ISLA 四个种子的中位速度误差为来流速度的 5.3%。",
+      "json": "data/benchmarks/aerozoo.json",
+      "content": "content/benchmarks/aerozoo.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.17152",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.17152.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://huggingface.co/datasets/nvidia/AeroZoo",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/NVIDIA/physicsnemo",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "last_checked": "2026-11-14"
+    },
+    {
+      "id": "toolturns",
+      "name": "ToolTurns",
+      "section": "Agent",
+      "tags": [
+        "Agent",
+        "工具调用",
+        "多轮对话",
+        "用户模拟",
+        "智能体评测"
+      ],
+      "summary": "含 2,620 道题、1,827 个工具与 11,004 个接口端点的多轮工具对话基准，每段对话含一次故意不完整的初始请求与两次依赖上下文的后续请求。论文报告，九个模型中最优的 Claude Opus 4.8 可解决 69.6% 的单条请求，但完整对话完成率仅为 39.8%。",
+      "json": "data/benchmarks/toolturns.json",
+      "content": "content/benchmarks/toolturns.md",
+      "drive_pdf": {},
+      "drive_intro": {},
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "last_checked": "2026-11-14"
     }
   ]
 }

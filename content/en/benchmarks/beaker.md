@@ -208,7 +208,7 @@ Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy
 
 ## Contact
 
-**Public email**：Unverified
+**Public email**：Contact emails given in the official code repository Contact section: feilin@ieee.org and zhangtengchao@ieee.org
 
 Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (accessed 2026-11-10)
 
@@ -249,3 +249,5 @@ Sources: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy
 ## Changelog
 
 2026-11-10: Initial filing.
+
+2026-11-14: Added public contact emails.

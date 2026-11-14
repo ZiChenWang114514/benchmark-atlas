@@ -208,7 +208,7 @@
 
 ## 联系方式
 
-**公开邮箱**：待核实
+**公开邮箱**：官方代码仓库“Contact”一节给出的联系邮箱：feilin@ieee.org、zhangtengchao@ieee.org
 
 来源: [1](https://arxiv.org/abs/2611.06911) [2](https://github.com/HydroSophy/BEAKER) [3](https://huggingface.co/datasets/HydroSophyTech/BEAKER) (访问 2026-11-10)
 
@@ -249,3 +249,5 @@
 ## 变更记录
 
 2026-11-10：初次收录。
+
+2026-11-14：补充公开联系邮箱。

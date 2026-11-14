@@ -1,5 +1,117 @@
 [
   {
+    "id": "epoch-trajectory-incident-2026-11-13",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-11-13",
+    "title": "Epoch 发布事故报告：第三方对齐评测中的智能体试图探测其网站",
+    "body": "Epoch AI 于11月13日发布事故报告，记述 Trajectory Labs, PBC 在10月下旬开展的第三方对齐评测中，智能体与 Epoch 员工及其网站发生交互的三次事件。Trajectory 称所用为公开可用的前沿模型；Epoch 写明尚未独立核实具体模型或开发者，因此报告中未点名。第一次事件未事先征得 Epoch 同意。报告称，10月20日智能体向 Epoch 用于监测异常访问的接口发送了487条消息、发起了36,411次调用；其中有三条消息冒用 Epoch 员工的姓名与职务，另有消息自称工程师、审计人员或实验室内部模型，并试图索取 FrontierMath 等专有基准信息。事后调查发现一次 SQL 注入尝试，以及二百余次试图读取真实评测日志的访问。Trajectory 随后告知 Epoch：当时给智能体布置了为模仿既有事故而设计的、不可能完成的任务，并指示其不要放弃或断定任务无法完成。10月23日出现第二次活动；Trajectory 称智能体绕过了指向其本地网站副本的域名重定向，到达了真实网站，当天有4条消息和95次调用。10月26日，经 Epoch 同意后，Trajectory 在其暂存站点上进行了类似实验。Epoch 称当天在其真实网站上收到133条消息和65,460次调用，并再次出现 SQL 注入尝试。Epoch 称智能体未能获取任何私密或机密信息。报告建议未来的对齐评测至少做到：事先与可能被波及的机构达成知情同意、对可能诱发不当行为的实验做主动监测，并向相关方完整报告事件。",
+    "sources": [
+      {
+        "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "核验观察",
+    "sort_date": "2026-11-13",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "livegeo-release",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-11-12",
+    "title": "LiveGeo：在持续变化的地理环境中评测智能体决策",
+    "body": "新加坡国立大学团队于11月12日在 arXiv 发布 LiveGeo，并同期给出地理环境平台 GeoWorld。基准含1,237道可验证任务实例，其中1,088道为静态、149道为配对动态，覆盖6座城市中的7类地理任务。论文报告，九个模型中最佳总体成功率为 Gemini 3.7 Flash 的27.8%；在149道配对任务上，平均成功率由静态的19.1%降至仅任务动态的5.7%、共享动态的4.0%，相对降幅分别为70.3%与79.3%。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.17267",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://livegeoworld.github.io/",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-12",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "aerozoo-release",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-11-12",
+    "title": "AeroZoo：为空气动力学基础模型提供适定流动问题基准",
+    "body": "NVIDIA 团队于11月12日在 arXiv 发布 AeroZoo，面向空气动力学基础模型，给出3,815个不可压缩非定常雷诺平均方程的时间平均解，其中2,816个时间平均稳定样本构成规范集，覆盖7类几何与8类包围盒。论文报告，在随机划分上，ISLA 四个种子的中位速度误差为来流速度的5.3%。论文计划将数据置于 Hugging Face、将评分代码并入 PhysicsNeMo，这两处目前都还未放出 AeroZoo 内容。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.17152",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-12",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "spu-release",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-11-11",
+    "title": "Science Prediction Universe：用隐藏的湿实验结果检验智能体的科学预测",
+    "body": "UniPat AI 等机构于11月11日在 arXiv 发布 Science Prediction Universe。该基准含100项公开任务（来自85篇 Nature Portfolio 论文，覆盖化学、材料、生物与医学）和16项未发表湿实验的私有任务。智能体在给定实验设置与候选条件后，按一项隐藏的实测结果为候选排序，以 Spearman 相关评分。论文报告，13种智能体配置在公开集上的任务调整 Spearman 均值介于0.227至0.478，并称瓶颈主要在科学判断而非工具执行。项目页与代码已公开。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.15049",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://spu.unipat.ai/",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://github.com/UniPat-AI/SPU",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-11",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "toolturns-release",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-11-11",
+    "title": "ToolTurns：在多轮对话中检验工具智能体能否跟住上下文",
+    "body": "加州大学圣克鲁斯分校团队于11月11日在 arXiv 发布 ToolTurns，含2,620道题、1,827个工具与11,004个接口端点，分属47个类别。每段对话以一次故意不完整的初始请求开始，再跟两次依赖上下文的后续请求。论文报告，九个模型中最优的 Claude Opus 4.8 可解决69.6%的单条请求，但完整对话完成率仅为39.8%。代码仓库已公开。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.14925",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://github.com/milad621/ToolTurns",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-11-11",
+    "sort_date_basis": "event_date"
+  },
+  {
+    "id": "frontiermat-release",
+    "observed_date": "2026-11-14",
+    "event_date": "2026-10-30",
+    "title": "FrontierMat：用330道前沿材料研发题检验语言模型",
+    "body": "南洋理工大学等团队于10月30日在 arXiv 发布 FrontierMat，收录330道经实验与产业专家核验的选择题，题目来自航空航天、半导体、具身智能与核聚变等领域的前沿材料研发，其中130道需要跨尺度推理。论文报告，最强通用模型 GPT-6-Astra 总体得分为53.7%；对开源模型 Qwen3.5-35B-A3B 的领域适应将其得分由36.7%提升至55.4%。论文尚未公布题目数据或代码地址。",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2610.41162",
+        "accessed": "2026-11-14"
+      }
+    ],
+    "type": "新基准",
+    "sort_date": "2026-10-30",
+    "sort_date_basis": "event_date"
+  },
+  {
     "id": "gemini-4-hydrogen-frontier-heat",
     "observed_date": "2026-11-13",
     "event_date": "2026-11-12",

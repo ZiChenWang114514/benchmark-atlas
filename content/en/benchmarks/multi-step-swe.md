@@ -216,7 +216,7 @@ Sources: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3
 
 Sources: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3](https://github.com/Klavis-AI/Multi-step-SWE) (accessed 2026-11-12)
 
-**Official social accounts**：Unverified
+**Official social accounts**：Accounts listed on the maintainer Klavis AI website: X account @Klavis_AI (https://x.com/Klavis_AI); LinkedIn company page https://www.linkedin.com/company/klavis-ai/
 
 Sources: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3](https://github.com/Klavis-AI/Multi-step-SWE) (accessed 2026-11-12)
 
@@ -249,3 +249,5 @@ Sources: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3
 ## Changelog
 
 2026-11-12: Initial filing.
+
+2026-11-14: Added the maintainer’s public social accounts.

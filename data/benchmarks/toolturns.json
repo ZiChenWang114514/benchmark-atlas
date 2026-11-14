@@ -1,0 +1,1029 @@
+{
+  "id": "toolturns",
+  "schema_version": "0.1.0",
+  "editorial_status": "",
+  "basic_info": {
+    "name": {
+      "value": "ToolTurns",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "full_name": {
+      "value": "ToolTurns：在多轮对话中评测大语言模型工具智能体的基准",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "version": {
+      "value": "arXiv:2611.14925v1；基准集 2,620 道题（1,827 个工具、11,004 个接口端点、47 个类别）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "paper_version": {
+      "value": "arXiv:2611.14925v1（2026-11-11）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "release_date": {
+      "value": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "section": {
+      "value": "Agent",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "subfields": {
+      "value": [
+        "工具调用",
+        "多轮对话",
+        "用户模拟",
+        "智能体评测"
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "license": {
+      "value": "论文在 arXiv 采用知识共享署名 4.0 国际许可。官方仓库声明：原创代码、提示、配置与文档为 Apache License 2.0；原创基准题目、隐瞒上下文、匿名研究标签与派生评分采用知识共享署名 4.0 国际许可。嵌入的 ToolBench 工具模式等上游材料保留其原许可（ToolBench 与 StableToolBench 为 Apache License 2.0，API-Bank 派生数据为上游的 MIT 声明）；StableToolBench 缓存不予再分发。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "paper_url": {
+      "value": "https://arxiv.org/abs/2611.14925",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "code_url": {
+      "value": "https://github.com/milad621/ToolTurns",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "dataset_url": {
+      "value": "https://github.com/milad621/ToolTurns",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "official_homepage": {
+      "value": "https://github.com/milad621/ToolTurns",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "paper_title": {
+      "value": "ToolTurns: Benchmarking LLM Agents in Multi-Turn Dialogue",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "organization": {
+    "initiators": {
+      "value": "加州大学圣克鲁斯分校",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "partners": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    },
+    "authors": {
+      "value": "Milad Gholami、Brendan King、Jeffrey Flanigan（论文未标注同等贡献或通讯作者）",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "maintainer": {
+      "value": "待核实。仓库许可证范围写明版权归上述三位作者；未另列维护者职务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    },
+    "funders": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "design_goals": {
+    "capabilities": {
+      "value": "考查工具智能体在对话中澄清故意不完整的初始请求、调用工具，并在两次依赖上下文的后续请求中保持对话记忆与任务完成能力。每道题提供固定的可调用端点子集（平均 26.5 个），用户模拟器依据隐瞒上下文回答澄清，并基于对用户可见的对话生成后续请求。评测沿智能体自身轨迹分别报告请求级任务成功与整段对话完成，以及五项对话质量量表。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "gap_in_prior_benchmarks": {
+      "value": "论文认为，现有大规模工具使用基准多关注孤立请求。ToolBench 等提供了宽口径接口覆盖，但不是自适应多轮用户对话；交互式基准如 tau-bench 与 ToolSandbox 则主要在有状态的应用环境中评测。本文针对的是宽口径接口覆盖与自适应、端到端对话评测的结合：智能体能否在多样工具集上澄清不完整请求，并完成与之相关的后续请求。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "construction": {
+    "question_sources": {
+      "value": "工具目录来自随 ToolBench 发布的 RapidAPI 集合，执行环境为基于 StableToolBench 的缓存或大模型模拟层。题目由 ToolBench 的三类检索组抽样工具集并扩展该工具的全部端点后，用 GPT-4o-mini 按固定模板生成故意省略关键细节的查询及二至四个上下文关键词。初始查询与隐瞒上下文均由模型生成，而非人工撰写。官方仓库中的完整评测输入为 2,620 条记录的 final_queries_march_27_2026.json。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "author_background": {
+      "value": "三位作者的论文与引用文件所列单位均为加州大学圣克鲁斯分校。其余个人履历待核实。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "review_process": {
+      "value": "论文为预印本。官方仓库说明称该论文为 ICLR 2027 投稿或预印本，但论文正文未给出审稿结论。题目由模型生成；用户回合另经检查修正流水线，并在 120 对修订样本上做盲法人工偏好标注。任务成功与对话质量的大模型裁判分别与人工判断计算了一致性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "quality_control": {
+      "value": "用户模拟可选检查修正流水线：检查器按十一类规则与若干确定性规则检测缺陷，修正器在保留意图的前提下改写被标记的回合。论文报告，在 1,272 条候选用户回合中，流水线改写了 536 条，被改写回合上规则检出的缺陷减少 41.2%；盲法人工偏好在 120 对样本中有 63.3% 偏向修订稿。任务成功先经确定性硬失败门（仅 70,740 条子任务中的 20 条被该门判定），再由大模型裁判判定该子任务的信息需求是否被完全满足。人工与裁判在二值任务成功上的科恩系数为 0.68，在五项对话质量上的二次加权科恩系数为 0.53。仓库对上游示例中的凭证类字段做了遮盖。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "decontamination": {
+      "value": "论文未描述针对模型预训练语料的去污染流程。题目由模型根据工具模式新生成，并要求查询不出现工具或接口名称。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "data_format": {
+    "size": {
+      "value": "评测集 2,620 道题，覆盖 1,827 个不同工具、11,004 个不同接口端点、47 个 RapidAPI 类别。其中单工具题 1,032 道（39.4%），多工具题 1,588 道（60.6%），跨类别多工具题 1,023 道（占多工具题的 64.4%）。每题平均或中位工具数为 3.4 或 3.0，端点数为 26.5 或 15.0。每段对话含初始请求与两次后续请求，每个智能体产生 7,860 条单独计分的子任务。官方仓库还指出，运行时名称归一化会合并五个别名，得到 10,999 个归一化三元组，与论文统计的 11,004 个原始三元组有区分。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "question_types": {
+      "value": "多轮工具对话。每道题是初始自然语言查询、固定可调用端点及其模式、以及由槽值约束表示的用户目标所组成的三元组。智能体可调用工具、向用户发消息请求澄清，或提交当前请求的最终答案。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "modalities": {
+      "value": "文本对话与结构化工具模式、工具调用及工具返回；无图像或语音。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "languages": {
+      "value": "英语（据论文中的题目示例、提示与评测协议）。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "difficulty": {
+      "value": "论文称该基准困难：九个模型的合并子任务通过率约在 55% 至 70%，无一达到 70%；要求一段对话的三个子任务全部成功时，所有模型都低于 40%，最优为 39.8%。在现有协议下，每个受评模型在两次后续请求上的成功分数都低于初始请求，降幅从 2.1 个百分点到 16.2 个百分点不等。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "public_hidden_split": {
+      "value": "论文将 2,620 道题作为共享评测集，并在官方仓库中公开完整题目与已保存分数。论文与仓库均未描述另行保密的隐藏测试集。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "value": "任务成功包括合并的子任务通过率，以及三个子任务全部成功的整段对话完成率；一段对话的任务成功分为成功子任务数除以子任务总数。对话质量由一致性、相关性、效率、正确性、适应性五项量表评分，取值仅为 0、0.25、0.5、0.75、1.0 五档，加权合计中正确性权重 0.30，一致性、相关性、效率各 0.20，适应性 0.10。裁判返回错误的对话与子任务被排除。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "scoring": {
+      "value": "任务成功采用混合评测器：若该子任务的全部实质性工具观察都是文档占位描述而非数据形输出，则确定性门直接判失败，否则由大模型裁判通过结构化函数调用返回该子任务是否完全满足用户信息需求。对话质量五项各一次大模型调用。主实验中，量表与任务成功裁判均使用 gpt-oss，温度为 0.2，并对所有智能体使用固定提示集。表 3 脚注写明 GPT-OSS 同时也是裁判模型，故其分数并非独立于裁判。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "prompt_settings": {
+      "value": "用户模拟器在主实验中为 Qwen3-32B-AWQ，并启用检查修正流水线；缓存未命中时的接口回复也由同一模型提供。智能体在一轮内的工具搜索循环至多 15 条消息，预算用尽后再做一次最终综合调用。五个开源权重智能体默认启用推理，作者未关闭该设置。裁判提示全文在附录 G，并对所有智能体固定。仓库提供离线命令与实验配置。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "official_scripts": {
+      "value": "官方仓库 https://github.com/milad621/ToolTurns 提供安装后的 toolturns offline、validate、tables 等命令，以及文档中的实验与复现说明。论文将基准、代码、配置与经处理的保存分数指向该仓库的 v1.0.0 发布；仓库当前软件版本为 1.0.1，并写明论文可用性链接仍固定在 v1.0.0。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "comparability_warning": {
+      "value": "正文表 3 与表 4 的分数为论文作者自测。官方发布说明称，全部 72 个主表单元格可在历史汇总规则（含裁判错误排除）下复现，但并不声称对所报告实验做了端到端重跑，且部分辅助结果无法独立复现。任务成功裁判只查看当前子任务的工具证据，可能影响后续请求的分数；论文写明该省略对名次的影响尚未量化。对话轨迹由模拟用户参与决定，工具观察来自缓存或大模型模拟而非实时第三方调用。GPT-OSS 的分数因该模型同时担任裁判而不具备裁判独立性。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "latest_status": {
+    "checked_at": {
+      "value": "2026-11-14",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "latest_dataset_version": {
+      "value": "论文可用性链接固定为仓库发布 v1.0.0；仓库当前版本为 1.0.1，说明该软件修订不改变已保存的论文数值。评测输入为 2,620 道题的 final_queries_march_27_2026.json。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "paper_revision_history": {
+      "value": "v1：2026-11-11 提交",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "saturation": {
+      "value": "远未饱和。论文报告，九个模型中最高子任务成功率为 69.6%，最高整段对话完成率仅为 39.8%，没有任何模型被记为完成五段对话中的两段。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "contamination_and_issues": {
+      "value": "局限部分指出：评测轨迹受模拟用户影响；工具观察并非实时调用；初始查询与隐瞒上下文由模型生成；对话质量与任务成功都依赖大模型裁判；任务成功裁判不纳入先前子任务的工具证据。仓库还记录：部分历史辅助输入已不可用；构造日志与历史随机选择未能恢复；生成器默认设置会生成 2,600 条请求，不能单独重建已发布的 2,620 条快照。GPT-OSS 在 56.1% 的对话中以纯文本返回答案而非调用结束工具，协议不合规会留下未完成的子任务。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "derivatives": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "leaderboard": {
+    "snapshot_date": {
+      "value": "2026-11-14",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "official_url": {
+      "value": "https://github.com/milad621/ToolTurns",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "third_party_url": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    },
+    "results": {
+      "value": "均为论文表 3 与表 4 所报告的作者自测，评测九个模型、共享 2,620 道题，并排除裁判返回错误的对话与子任务。任务成功与整段对话完成率最高的是 Claude Opus 4.8，分别为 69.6% 与 39.8%；加权对话质量最高的是 GPT-5.4-mini，为 0.817，其任务成功仅为 56.3%。其余任务成功为：Gemma 4-31B-IT 67.5%，GLM-5.2-744B 67.9%，GPT-4.1-mini 64.5%，Qwen3.6-27B 61.0%，Qwen3.5-397B-A17B 60.9%，GPT-4o-mini 57.0%，GPT-OSS-120B 55.2%。论文称任务成功与对话质量排名的斯皮尔曼相关系数仅为 0.23。表 4 显示所有模型在两次后续请求上的成功分数都低于初始请求，从初始请求到第二次后续请求的降幅为 2.1 至 16.2 个百分点。检查修正流水线在被改写的 536 条回合上使检出缺陷减少 41.2%，盲法人工标注在 120 对中有 76 对偏向修订稿。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "coverage_note": {
+      "value": "官方结果覆盖四个闭源模型（GPT-4o-mini、GPT-4.1-mini、GPT-5.4-mini、Claude Opus 4.8）与五个开源权重模型（Qwen3.5-397B-A17B、Qwen3.6-27B、Gemma 4-31B-IT、GPT-OSS-120B、GLM-5.2-744B）。用户模拟器为 Qwen3-32B-AWQ。辅助实验包括模拟器消融、与 API-Bank 人工对话的比较，以及人工对裁判的一致性检验，不等于主表的九模型对比。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "public_emails": {
+      "value": "论文列出的作者邮箱：mgholami@ucsc.edu、bking2@ucsc.edu、jmflanig@ucsc.edu",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "github_issues": {
+      "value": "官方代码仓库的议题页：https://github.com/milad621/ToolTurns/issues",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "official_social": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    },
+    "privacy_policy": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    }
+  },
+  "original_files": {
+    "paper_pdf_url": {
+      "value": "https://arxiv.org/pdf/2611.14925.pdf",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "sha256": {
+      "value": "ed949696bfef2967af35c5f4f98951409058d34e242ac3a5b5e5cd110103b51b",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "pdf_bytes": {
+      "value": "368510",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    },
+    "drive_folder": {
+      "value": "待核实",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ],
+      "status": "待核实"
+    },
+    "other_documents": {
+      "value": "arXiv 提供的 HTML 实验版 https://arxiv.org/html/2611.14925v1；官方仓库中的许可证范围、第三方声明、数据说明、复现与核验文档，以及发布说明 v1.0.0 与 v1.0.1。",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14925",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2611.14925.pdf",
+          "accessed": "2026-11-14"
+        },
+        {
+          "url": "https://github.com/milad621/ToolTurns",
+          "accessed": "2026-11-14"
+        }
+      ]
+    }
+  },
+  "drive_pdf": {
+    "value": {},
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.14925",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.14925.pdf",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://github.com/milad621/ToolTurns",
+        "accessed": "2026-11-14"
+      }
+    ]
+  },
+  "changelog": {
+    "value": [
+      {
+        "date": "2026-11-14",
+        "change": "初次收录"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2611.14925",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2611.14925.pdf",
+        "accessed": "2026-11-14"
+      },
+      {
+        "url": "https://github.com/milad621/ToolTurns",
+        "accessed": "2026-11-14"
+      }
+    ]
+  }
+}

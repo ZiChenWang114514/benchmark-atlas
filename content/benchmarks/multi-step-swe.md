@@ -216,7 +216,7 @@
 
 来源: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3](https://github.com/Klavis-AI/Multi-step-SWE) (访问 2026-11-12)
 
-**官方社交账号**：待核实
+**官方社交账号**：维护方 Klavis AI 官网列出的账号：X 账号 @Klavis_AI（https://x.com/Klavis_AI）；LinkedIn 公司页 https://www.linkedin.com/company/klavis-ai/
 
 来源: [1](https://arxiv.org/abs/2611.07166) [2](https://multistepswe.com/) [3](https://github.com/Klavis-AI/Multi-step-SWE) (访问 2026-11-12)
 
@@ -249,3 +249,5 @@
 ## 变更记录
 
 2026-11-12：初次收录。
+
+2026-11-14：补充维护方公开社交账号。
